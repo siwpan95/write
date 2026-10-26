@@ -1,0 +1,556 @@
+/* ==========================================================================
+   panel.css — 旅法师面板视觉 1:1 复刻
+   依据：第一卷第 05 章《金手指登场》原文描写
+   --------------------------------------------------------------------------
+   原文关键描写（复刻依据）：
+   · 「半透明的，像是悬浮在视网膜前方的全息投影」
+   · 「边框带着某种古老的、类似浮雕花纹的几何纹路，泛着淡淡的幽光」
+   · 「边框那圈花纹，是他从一张旧素材图上抠下来的，边缘没抠干净，
+      放大了能看见一层毛刺」          ← 毛刺是设定内彩蛋，必须保留
+   · 「圆槽的底部积累了大约五分之一的幽蓝色能量，像是一汪深邃的星海
+      被封印在狭小的容器里」
+   · 「圆槽的边缘有一道极细的白线，从左下角起，绕过四分之三圈，
+      断在最上面」                      ← 3/4 圈白线底框，不是完整圆
+   · 「左臂35格灰线读条」
+   ========================================================================== */
+
+:root {
+  /* 幽蓝主色（面板辉光） */
+  --glow:        #4a9eff;
+  --glow-dim:    #2d6bb5;
+  --glow-soft:   rgba(74, 158, 255, 0.14);
+  --glow-line:   rgba(74, 158, 255, 0.42);
+
+  /* 五色法力（world-bible §3.4） */
+  --c-white: #e8e4d9;
+  --c-blue:  #4a9eff;
+  --c-black: #6b5a8a;
+  --c-red:   #d94f4f;
+  --c-green: #4fa86b;
+
+  /* 灰蚀 */
+  --gray:    #8a8f98;
+  --gray-hot:#c9ccd3;
+
+  /* 文本（light 主题：浅底深字，对比度 ≥4.5:1） */
+  --ink:      #16202e;
+  --ink-2:    #43536b;
+  --ink-3:    #6b7a90;
+  --bg:       #eef2f7;
+  --bg-2:     #e2e8f0;
+  --surface:  #ffffff;
+  --line:     #cdd7e4;
+
+  --ok:   #2f8f5b;
+  --warn: #b8860b;
+  --err:  #c0392b;
+  --info: #4a6fa5;
+
+  --mono: 'Cascadia Mono', 'Consolas', 'SF Mono', 'DejaVu Sans Mono', monospace;
+  --sans: 'Microsoft YaHei UI', 'PingFang SC', 'Noto Sans SC', system-ui, sans-serif;
+}
+
+* { box-sizing: border-box; margin: 0; padding: 0; }
+
+body {
+  font-family: var(--sans);
+  background: var(--bg);
+  color: var(--ink);
+  font-size: 14px;
+  line-height: 1.6;
+  /* 数字用等宽字形：6 不能读成 8（Made Good Designs） */
+  font-variant-numeric: tabular-nums;
+}
+
+/* ==========================================================================
+   布局
+   ========================================================================== */
+
+.app { display: flex; min-height: 100vh; }
+
+.sidebar {
+  width: 178px;
+  flex: 0 0 178px;
+  background: var(--surface);
+  border-right: 1px solid var(--line);
+  padding: 14px 0;
+  position: sticky;
+  top: 0;
+  height: 100vh;
+  overflow-y: auto;
+}
+
+.brand {
+  padding: 0 16px 12px;
+  border-bottom: 1px solid var(--line);
+  margin-bottom: 10px;
+}
+.brand h1 { font-size: 15px; font-weight: 700; letter-spacing: .3px; }
+.brand .sub {
+  font-size: 11px; color: var(--ink-3); font-family: var(--mono);
+  margin-top: 2px;
+}
+
+.nav-item {
+  display: block;
+  width: 100%;
+  text-align: left;
+  padding: 8px 16px;
+  border: 0;
+  background: none;
+  color: var(--ink-2);
+  font-family: var(--sans);
+  font-size: 13px;
+  cursor: pointer;
+  border-left: 3px solid transparent;
+  transition: background .12s, color .12s;
+}
+.nav-item:hover { background: var(--bg-2); color: var(--ink); }
+.nav-item.active {
+  border-left-color: var(--glow);
+  background: var(--glow-soft);
+  color: var(--glow-dim);
+  font-weight: 600;
+}
+.nav-item .badge {
+  float: right; font-size: 10px; font-family: var(--mono);
+  color: var(--ink-3);
+}
+
+.main { flex: 1; min-width: 0; padding: 18px 22px 60px; }
+
+.page-head { margin-bottom: 16px; }
+.page-head h2 { font-size: 19px; font-weight: 700; }
+.page-head p { color: var(--ink-3); font-size: 12.5px; margin-top: 3px; }
+
+/* ==========================================================================
+   面板本体（diegetic：这是角色"眼中"的东西，不是后台界面）
+   ========================================================================== */
+
+.holo-frame {
+  position: relative;
+  background: linear-gradient(160deg, rgba(255,255,255,.97), rgba(238,244,252,.97));
+  border: 1px solid var(--glow-line);
+  border-radius: 3px;
+  padding: 20px 22px;
+  box-shadow:
+    0 0 0 1px rgba(255,255,255,.7) inset,
+    0 0 22px rgba(74,158,255,.13),
+    0 2px 14px rgba(22,32,46,.07);
+  overflow: hidden;
+}
+
+/* 浮雕几何花纹边框（第05章：「边框带着某种古老的、类似浮雕花纹的几何纹路」） */
+.holo-frame::before {
+  content: '';
+  position: absolute;
+  inset: 5px;
+  border: 1px solid var(--glow-line);
+  border-radius: 2px;
+  pointer-events: none;
+  opacity: .5;
+  background:
+    repeating-linear-gradient(45deg,  transparent 0 9px, var(--glow-soft) 9px 10px),
+    repeating-linear-gradient(-45deg, transparent 0 9px, var(--glow-soft) 9px 10px);
+  background-clip: border-box;
+  -webkit-mask:
+    linear-gradient(#000 0 0) padding-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+}
+
+/* 毛刺（第05章：「边缘没抠干净，放大了能看见一层毛刺」）
+   —— 设定内彩蛋：面板是前世他亲手写的，毛刺是他的签名。
+   抹掉毛刺 = 他不再记得那晚的细节。 */
+.holo-frame.burr::after {
+  content: '';
+  position: absolute;
+  inset: 5px;
+  pointer-events: none;
+  opacity: .30;
+  background-image:
+    radial-gradient(circle at 2px 2px, var(--glow-dim) 0.6px, transparent 0.8px),
+    radial-gradient(circle at 5px 4px, var(--glow-dim) 0.5px, transparent 0.7px);
+  background-size: 11px 9px, 17px 13px;
+  -webkit-mask:
+    linear-gradient(#000 0 0) padding-box,
+    linear-gradient(#000 0 0);
+  -webkit-mask-composite: xor;
+          mask-composite: exclude;
+}
+
+.holo-head {
+  display: flex; align-items: baseline; gap: 10px;
+  border-bottom: 1px solid var(--glow-line);
+  padding-bottom: 8px; margin-bottom: 14px;
+  position: relative; z-index: 1;
+}
+.holo-head .name { font-size: 17px; font-weight: 700; letter-spacing: 1px; }
+.holo-head .lvl  { font-size: 12px; color: var(--glow-dim); font-family: var(--mono); }
+.holo-head .state{
+  margin-left: auto; font-size: 11.5px; font-family: var(--mono);
+  color: var(--ink-2); background: var(--glow-soft);
+  padding: 2px 8px; border-radius: 2px;
+}
+
+/* 五维属性 */
+.attrs { display: grid; grid-template-columns: repeat(5, 1fr); gap: 8px; margin-bottom: 16px; }
+.attr {
+  background: rgba(255,255,255,.72);
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  padding: 7px 8px;
+  text-align: center;
+  position: relative;
+  z-index: 1;
+}
+.attr .k { font-size: 11px; color: var(--ink-3); }
+.attr .v {
+  font-size: 22px; font-weight: 700; font-family: var(--mono);
+  color: var(--ink); line-height: 1.25;
+}
+.attr .mod { font-size: 10.5px; color: var(--glow-dim); font-family: var(--mono); }
+.attr.at-cap .v { color: var(--warn); }
+.attr .cap-mark {
+  position: absolute; top: 3px; right: 5px;
+  font-size: 9px; color: var(--warn);
+}
+
+/* 火花圆槽 —— 第05章：「圆槽…幽蓝色能量」「边缘有一道极细的白线，绕四分之三圈，断在最上面」 */
+.spark-row { display: flex; align-items: center; gap: 22px; margin-bottom: 16px; position: relative; z-index: 1; }
+
+.spark-dial { position: relative; width: 128px; height: 128px; flex: 0 0 128px; }
+.spark-dial svg { transform: rotate(135deg); }
+.spark-dial .track { fill: none; stroke: var(--line); stroke-width: 7; }
+.spark-dial .fill {
+  fill: none; stroke: url(#sparkGrad); stroke-width: 7; stroke-linecap: butt;
+  transition: stroke-dashoffset .45s cubic-bezier(.4,0,.2,1);
+}
+/* 3/4 圈白线底框：他画进度条用的底框，没来得及改成弧线 */
+.spark-dial .base-frame {
+  fill: none; stroke: rgba(255,255,255,.95); stroke-width: 1.2;
+}
+.spark-dial .lbl {
+  position: absolute; inset: 0; display: flex;
+  flex-direction: column; align-items: center; justify-content: center;
+}
+.spark-dial .lbl .pct { font-size: 25px; font-weight: 700; font-family: var(--mono); line-height: 1; }
+.spark-dial .lbl .cap { font-size: 10px; color: var(--ink-3); margin-top: 3px; }
+.spark-dial.ignited .lbl .pct { font-size: 14px; color: var(--glow-dim); }
+
+.spark-info { flex: 1; min-width: 0; }
+.spark-info .row { display: flex; justify-content: space-between; gap: 10px; padding: 3px 0; font-size: 12.5px; }
+.spark-info .row .k { color: var(--ink-3); }
+.spark-info .row .v { font-family: var(--mono); color: var(--ink); }
+
+/* 解锁进度条（离散格，可数） */
+.unlock-track { margin-top: 8px; }
+.unlock-track .ticks { display: flex; gap: 2px; margin-bottom: 3px; }
+.unlock-track .tick {
+  flex: 1; height: 5px; background: var(--line); border-radius: 1px;
+}
+.unlock-track .tick.on { background: var(--glow); }
+.unlock-track .names { font-size: 10.5px; color: var(--ink-3); font-family: var(--mono); }
+
+/* 灰线读条 —— 离散格数，形状可数比数字快 */
+.grayline { position: relative; z-index: 1; margin-bottom: 16px; }
+.grayline .hd {
+  display: flex; justify-content: space-between; align-items: baseline;
+  font-size: 12px; margin-bottom: 5px;
+}
+.grayline .hd .k { color: var(--ink-3); }
+.grayline .hd .v { font-family: var(--mono); font-weight: 700; }
+.grayline .cells { display: flex; flex-wrap: wrap; gap: 2px; }
+.grayline .cell {
+  width: 9px; height: 15px; border-radius: 1px;
+  background: var(--gray); opacity: .32;
+}
+.grayline .cell.filled { opacity: .95; }
+/* 灰线 >30 格：降饱和 + 形状双线索（颜色不可独用原则） */
+.grayline.hot .cell.filled { background: var(--gray-hot); }
+.grayline.hot .hd .v { color: var(--warn); }
+.grayline .note { font-size: 11px; color: var(--ink-3); margin-top: 5px; }
+
+/* 五色法力池（色块 + 文字双标） */
+.mana { display: flex; gap: 8px; flex-wrap: wrap; position: relative; z-index: 1; }
+.mana-slot {
+  display: flex; align-items: center; gap: 5px;
+  border: 1px solid var(--line); border-radius: 2px;
+  padding: 4px 9px; font-size: 12px; background: rgba(255,255,255,.7);
+}
+.mana-slot .swatch { width: 11px; height: 11px; border-radius: 2px; border: 1px solid rgba(0,0,0,.15); }
+.mana-slot .n { font-family: var(--mono); font-weight: 700; }
+.mana-slot.zero { opacity: .42; }
+.mana-slot .cname { color: var(--ink-2); }
+
+/* 天赋 / 技艺 */
+.talents { position: relative; z-index: 1; }
+.talents .t {
+  display: flex; gap: 8px; align-items: baseline;
+  font-size: 12.5px; padding: 3px 0;
+}
+.talents .t .badge {
+  font-size: 10px; font-family: var(--mono); color: var(--glow-dim);
+  border: 1px solid var(--glow-line); border-radius: 2px; padding: 0 5px;
+  white-space: nowrap;
+}
+
+/* ==========================================================================
+   通用组件
+   ========================================================================== */
+
+.card {
+  background: var(--surface);
+  border: 1px solid var(--line);
+  border-radius: 3px;
+  padding: 14px 16px;
+  margin-bottom: 14px;
+}
+.card > h3 {
+  font-size: 14px; font-weight: 700; margin-bottom: 10px;
+  display: flex; align-items: center; gap: 8px;
+}
+.card > h3 .tag {
+  font-size: 10.5px; font-family: var(--mono); font-weight: 400;
+  color: var(--ink-3); background: var(--bg-2);
+  padding: 1px 6px; border-radius: 2px;
+}
+
+.grid2 { display: grid; grid-template-columns: 1fr 1fr; gap: 14px; }
+.grid3 { display: grid; grid-template-columns: repeat(3, 1fr); gap: 12px; }
+@media (max-width: 1100px) { .grid2, .grid3 { grid-template-columns: 1fr; } }
+
+.row { display: flex; gap: 8px; align-items: center; flex-wrap: wrap; }
+.row.tight { gap: 5px; }
+
+label.fld { display: block; font-size: 11.5px; color: var(--ink-3); margin-bottom: 3px; }
+
+input[type=text], input[type=number], select, textarea {
+  font-family: var(--mono);
+  font-size: 12.5px;
+  padding: 6px 8px;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  background: var(--surface);
+  color: var(--ink);
+  width: 100%;
+}
+input:focus, select:focus, textarea:focus {
+  outline: 2px solid var(--glow-soft);
+  border-color: var(--glow);
+}
+textarea { font-family: var(--mono); line-height: 1.65; resize: vertical; }
+
+button {
+  font-family: var(--sans);
+  font-size: 12.5px;
+  padding: 6px 13px;
+  border: 1px solid var(--line);
+  border-radius: 2px;
+  background: var(--surface);
+  color: var(--ink-2);
+  cursor: pointer;
+  transition: background .12s, border-color .12s, color .12s;
+}
+button:hover:not(:disabled) { background: var(--bg-2); color: var(--ink); border-color: var(--glow-line); }
+button:disabled { opacity: .45; cursor: not-allowed; }
+button.primary {
+  background: var(--glow-dim); border-color: var(--glow-dim); color: #fff;
+}
+button.primary:hover:not(:disabled) { background: var(--glow); border-color: var(--glow); }
+button.sm { padding: 3px 9px; font-size: 11.5px; }
+
+table { width: 100%; border-collapse: collapse; font-size: 12.5px; }
+th, td { text-align: left; padding: 6px 8px; border-bottom: 1px solid var(--line); vertical-align: top; }
+th { font-size: 11.5px; color: var(--ink-3); font-weight: 600; background: var(--bg-2); white-space: nowrap; }
+td.num, th.num { text-align: right; font-family: var(--mono); }
+tbody tr:hover { background: var(--bg-2); }
+
+.chip {
+  display: inline-block; font-size: 10.5px; font-family: var(--mono);
+  padding: 1px 6px; border-radius: 2px; border: 1px solid;
+  white-space: nowrap;
+}
+.chip.ok   { color: var(--ok);   border-color: var(--ok);   background: rgba(47,143,91,.08); }
+.chip.warn { color: var(--warn); border-color: var(--warn); background: rgba(184,134,11,.08); }
+.chip.err  { color: var(--err);  border-color: var(--err);  background: rgba(192,57,43,.08); }
+.chip.info { color: var(--info); border-color: var(--info); background: rgba(74,111,165,.08); }
+.chip.mute { color: var(--ink-3); border-color: var(--line); background: var(--bg-2); }
+
+.stat-row { display: flex; gap: 18px; flex-wrap: wrap; margin-bottom: 12px; }
+.stat {
+  background: var(--bg-2); border: 1px solid var(--line);
+  border-radius: 2px; padding: 6px 12px; min-width: 88px;
+}
+.stat .k { font-size: 10.5px; color: var(--ink-3); }
+.stat .v { font-size: 17px; font-weight: 700; font-family: var(--mono); }
+
+.log { font-family: var(--mono); font-size: 11.5px; max-height: 220px; overflow-y: auto; }
+.log .line { padding: 3px 0; border-bottom: 1px dotted var(--line); color: var(--ink-2); }
+.log .line .t { color: var(--ink-3); margin-right: 6px; }
+
+.empty { color: var(--ink-3); font-size: 12.5px; padding: 14px; text-align: center; }
+
+details { border: 1px solid var(--line); border-radius: 2px; padding: 8px 11px; margin-bottom: 8px; background: var(--surface); }
+details > summary { cursor: pointer; font-size: 13px; font-weight: 600; color: var(--ink); }
+details[open] > summary { margin-bottom: 8px; border-bottom: 1px solid var(--line); padding-bottom: 6px; }
+details .body { font-size: 12.5px; color: var(--ink-2); }
+
+.kv { display: grid; grid-template-columns: 108px 1fr; gap: 4px 10px; font-size: 12.5px; }
+.kv .k { color: var(--ink-3); }
+
+.scroll-x { overflow-x: auto; }
+.mono { font-family: var(--mono); }
+.dim { color: var(--ink-3); }
+.sm { font-size: 11.5px; }
+.mt8 { margin-top: 8px; } .mt12 { margin-top: 12px; } .mt16 { margin-top: 16px; }
+.right { text-align: right; }
+.nowrap { white-space: nowrap; }
+
+/* 滚动条 */
+::-webkit-scrollbar { width: 9px; height: 9px; }
+::-webkit-scrollbar-track { background: var(--bg-2); }
+::-webkit-scrollbar-thumb { background: var(--line); border-radius: 4px; }
+::-webkit-scrollbar-thumb:hover { background: var(--ink-3); }
+
+/* 载入遮罩 */
+#boot {
+  position: fixed; inset: 0; background: var(--bg);
+  display: flex; align-items: center; justify-content: center;
+  z-index: 99; flex-direction: column; gap: 10px;
+}
+#boot .ring {
+  width: 30px; height: 30px; border: 2px solid var(--line);
+  border-top-color: var(--glow); border-radius: 50%;
+  animation: spin .8s linear infinite;
+}
+@keyframes spin { to { transform: rotate(360deg); } }
+
+/* ==========================================================================
+   战斗沙盘（web/combat.js）
+   --------------------------------------------------------------------------
+   视觉沿用面板的幽蓝体系：血条用五色里的红/绿语义，
+   「弱点已解析」用 --ok 高亮——它是战力拐点，必须一眼看见。
+   ========================================================================== */
+
+/* 备战：异族 chips */
+.chips { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.chip {
+  font: inherit; font-size: 12px; cursor: pointer;
+  background: var(--surface); color: var(--ink);
+  border: 1px solid var(--line); border-radius: 3px;
+  padding: 4px 8px; display: inline-flex; align-items: center; gap: 6px;
+}
+.chip:hover { border-color: var(--glow); background: var(--glow-soft); }
+.chip .tier { font-size: 10px; color: var(--ink-3); }
+.chip.ghost { border-style: dashed; color: var(--ink-2); }
+
+/* 遭遇配置行 */
+.roster { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px; }
+.rost {
+  display: inline-flex; align-items: center; gap: 6px;
+  background: var(--bg-2); border: 1px solid var(--line);
+  border-radius: 3px; padding: 4px 8px; font-size: 12px;
+}
+.rost .nm { min-width: 90px; }
+.rost .ct { min-width: 34px; text-align: center; font-family: var(--mono); }
+
+/* KPI 条 */
+.stat-row { display: flex; flex-wrap: wrap; gap: 10px; margin-bottom: 12px; }
+.kpi {
+  background: var(--surface); border: 1px solid var(--line); border-radius: 3px;
+  padding: 8px 12px; min-width: 92px; display: flex; flex-direction: column; gap: 2px;
+}
+.kpi .k { font-size: 11px; color: var(--ink-3); }
+.kpi .v { font-size: 15px; font-weight: 600; color: var(--ink); }
+
+/* 字段行 */
+.frow { display: flex; justify-content: space-between; gap: 12px; font-size: 12.5px; }
+.frow .k { color: var(--ink-2); }
+.frow .v { color: var(--ink); text-align: right; }
+
+/* 血条 */
+.hpbar {
+  position: relative; height: 18px; margin-top: 6px;
+  background: var(--bg-2); border: 1px solid var(--line); border-radius: 2px;
+  overflow: hidden;
+}
+.hpbar .fill { height: 100%; transition: width .25s ease; }
+.hpbar .fill.ok   { background: #4fa86b; }
+.hpbar .fill.warn { background: var(--warn); }
+.hpbar .fill.crit { background: var(--c-red); }
+.hpbar .txt {
+  position: absolute; inset: 0; display: flex; align-items: center; justify-content: center;
+  font-family: var(--mono); font-size: 11px; color: var(--ink);
+  text-shadow: 0 0 3px var(--surface);
+}
+
+/* 法力迷你条 */
+.mana-mini { display: flex; flex-wrap: wrap; gap: 6px; }
+.mana-mini .mm {
+  font-size: 11.5px; padding: 2px 7px; border-radius: 2px;
+  background: var(--glow-soft); border: 1px solid var(--glow-line); color: var(--ink);
+}
+.mana-mini .mm.zero { opacity: .45; }
+
+/* 异族卡 */
+.foe {
+  border: 1px solid var(--line); border-radius: 3px; padding: 8px 10px;
+  margin-bottom: 8px; background: var(--surface); cursor: pointer;
+}
+.foe:hover { border-color: var(--glow); }
+.foe.sel { border-color: var(--glow); box-shadow: 0 0 0 2px var(--glow-soft); }
+.foe.dead { opacity: .45; cursor: default; }
+.foe .ok { color: var(--ok); }
+
+/* 行动按钮 */
+.acts { display: flex; flex-direction: column; gap: 8px; }
+.actrow { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; }
+.actrow .grp {
+  font-size: 11px; color: var(--ink-3); min-width: 34px;
+  border-right: 1px solid var(--line); padding-right: 8px; margin-right: 4px;
+}
+.act {
+  font: inherit; font-size: 12.5px; cursor: pointer;
+  background: var(--surface); color: var(--ink);
+  border: 1px solid var(--line); border-radius: 3px; padding: 6px 11px;
+}
+.act:hover:not(.dis) { border-color: var(--glow); background: var(--glow-soft); }
+.act.dis { opacity: .4; cursor: not-allowed; }
+.act.spell { border-left: 3px solid var(--c-black); }
+.act .cost { font-size: 10px; color: var(--ink-3); margin-left: 6px; }
+
+/* 战斗日志 */
+.cblog {
+  max-height: 340px; overflow-y: auto;
+  background: var(--bg-2); border: 1px solid var(--line); border-radius: 2px;
+  padding: 8px 10px; font-family: var(--mono); font-size: 11.5px; line-height: 1.65;
+}
+.cblog .l { color: var(--ink-2); }
+.cblog .l.hit, .cblog .l.spell { color: var(--ink); font-weight: 600; }
+.cblog .l.miss { color: var(--ink-3); }
+.cblog .l.death { color: var(--c-red); font-weight: 600; }
+.cblog .l.spark { color: var(--glow-dim); font-weight: 600; }
+.cblog .l.round { color: var(--ink-3); border-top: 1px solid var(--line); margin-top: 4px; padding-top: 4px; }
+.cblog .l.gray, .cblog .l.burn { color: var(--c-black); }
+.cblog .l.tax { color: var(--gray); }
+.cblog .l.end { color: var(--ok); font-weight: 700; }
+.cblog .l.heal { color: var(--c-green); }
+.cblog .l.analyze { color: var(--info); }
+
+/* ==========================================================================
+   战役推进（campaign.js）
+   ========================================================================== */
+
+.cblog .cbline {
+  padding: 3px 0; border-bottom: 1px dashed var(--line);
+  color: var(--ink-2); font-size: 12px;
+}
+.cblog .cbline:last-child { border-bottom: none; }
+
+#cpRun .kpi { min-width: 96px; }
+#cpGo:disabled, #cpApply:disabled, #cpRest:disabled,
+#cpHeal:disabled, #cpDraw:disabled, #cpInsert:disabled {
+  opacity: .45; cursor: not-allowed;
+}

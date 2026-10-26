@@ -1,0 +1,37 @@
+; 《综网 · 废柴逆命》场景图 —— 批量转 DWG（AutoCAD 2024）
+; 用法：AutoCAD 命令行输入 SCRIPT 回车，选择本文件；或把本文件拖进绘图区
+; 说明：逐个打开 DXF 并另存为 2018 格式 DWG，输出到同目录 dwg\ 下
+_.FILEDIA
+0
+_.OPEN
+"C:/Users/13122/WorkBuddy/2026-09-20-07-08-27/output/综网废柴逆命/场景图/01_评定署大厅.dxf"
+_.SAVEAS
+2018
+"C:/Users/13122/WorkBuddy/2026-09-20-07-08-27/output/综网废柴逆命/场景图/dwg/01_评定署大厅.dwg"
+
+_.OPEN
+"C:/Users/13122/WorkBuddy/2026-09-20-07-08-27/output/综网废柴逆命/场景图/02_净场.dxf"
+_.SAVEAS
+2018
+"C:/Users/13122/WorkBuddy/2026-09-20-07-08-27/output/综网废柴逆命/场景图/dwg/02_净场.dwg"
+
+_.OPEN
+"C:/Users/13122/WorkBuddy/2026-09-20-07-08-27/output/综网废柴逆命/场景图/03_西市地宫.dxf"
+_.SAVEAS
+2018
+"C:/Users/13122/WorkBuddy/2026-09-20-07-08-27/output/综网废柴逆命/场景图/dwg/03_西市地宫.dwg"
+
+_.OPEN
+"C:/Users/13122/WorkBuddy/2026-09-20-07-08-27/output/综网废柴逆命/场景图/04_九号站台.dxf"
+_.SAVEAS
+2018
+"C:/Users/13122/WorkBuddy/2026-09-20-07-08-27/output/综网废柴逆命/场景图/dwg/04_九号站台.dwg"
+
+_.OPEN
+"C:/Users/13122/WorkBuddy/2026-09-20-07-08-27/output/综网废柴逆命/场景图/05_陆沉的家.dxf"
+_.SAVEAS
+2018
+"C:/Users/13122/WorkBuddy/2026-09-20-07-08-27/output/综网废柴逆命/场景图/dwg/05_陆沉的家.dwg"
+
+_.FILEDIA
+1

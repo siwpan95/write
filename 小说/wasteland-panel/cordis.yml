@@ -1,0 +1,29 @@
+# cordis.yml —— 废土旅法师面板工作台 · 插件树
+#
+# 这是应用能力的唯一真理源。加/删/改能力改这个文件即可，
+# 不需要动 server/host.mjs。
+#
+# 加载顺序由**依赖图**决定，不由本文件的行序决定：
+#   config  →  engine  →  dataset  →  web
+# 任何插件可写 inject: ['config'] 拿到路径与端口配置。
+# 想调端口/换 Python：改环境变量，不用改这里。
+
+- id: config
+  name: ./server/plugins/01-config.mjs
+
+- id: engine
+  name: ./server/plugins/02-engine.mjs
+  inject:
+    - config
+
+- id: dataset
+  name: ./server/plugins/03-dataset.mjs
+  inject:
+    - config
+
+- id: web
+  name: ./server/plugins/04-web.mjs
+  inject:
+    - config
+    - engine
+    - dataset

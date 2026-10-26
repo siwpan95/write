@@ -1,0 +1,22 @@
+{
+  "name": "wasteland-panel",
+  "version": "1.0.0",
+  "private": true,
+  "description": "废土旅法师 · 面板工作台（Cordis 润滑层）",
+  "type": "module",
+  "main": "server/host.mjs",
+  "scripts": {
+    "start": "node server/host.mjs",
+    "reparse": "node server/host.mjs --reparse",
+    "cli": "node server/cli.mjs",
+    "selfcheck": "node server/cli.mjs selfcheck"
+  },
+  "engines": { "node": ">=22" },
+  "dependencies": {
+    "cordis": "4.0.0-rc.10",
+    "@cordisjs/plugin-loader": "1.0.0-rc.7",
+    "@cordisjs/plugin-include": "1.1.0",
+    "@cordisjs/plugin-logger-console": "1.0.0",
+    "@cordisjs/plugin-timer": "1.1.3"
+  }
+}

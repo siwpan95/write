@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>废土旅法师 · 面板工作台</title>
+<link rel="stylesheet" href="panel.css">
+</head>
+<body>
+
+<div id="boot">
+  <div class="ring"></div>
+  <div class="dim mono sm">正在载入数据层与调研资料 …</div>
+</div>
+
+<div class="app" id="app" style="display:none">
+
+  <!-- ================= 侧栏 ================= -->
+  <nav class="sidebar">
+    <div class="brand">
+      <h1>旅法师面板</h1>
+      <div class="sub" id="brandSub">working panel</div>
+    </div>
+
+    <button class="nav-item active" data-page="panel">面板</button>
+    <button class="nav-item" data-page="kill">异族图鉴 · 火花计算</button>
+    <button class="nav-item" data-page="scan">一致性机扫</button>
+    <button class="nav-item" data-page="rules">世界规则 R1–R15</button>
+    <button class="nav-item" data-page="trpg">TRPG 机制库</button>
+    <button class="nav-item" data-page="combat">战斗沙盘 <span class="badge">NEW</span></button>
+    <button class="nav-item" data-page="campaign">战役推进 <span class="badge">NEW</span></button>
+    <button class="nav-item" data-page="plot">伏笔台账 <span class="badge" id="nbPlot"></span></button>
+    <button class="nav-item" data-page="cost">代价弧</button>
+    <button class="nav-item" data-page="planes">位面体系</button>
+    <button class="nav-item" data-page="codex">资料库</button>
+    <button class="nav-item" data-page="research">调研参考 <span class="badge">!</span></button>
+    <button class="nav-item" data-page="health">数据层体检</button>
+  </nav>
+
+  <!-- ================= 主区 ================= -->
+  <main class="main">
+
+    <!-- ---------- 面板 ---------- -->
+    <section class="page" id="page-panel">
+      <div class="page-head">
+        <h2>旅法师面板</h2>
+        <p>视觉按第一卷第 05 章原文复刻：全息浮雕边框 · 3/4 圈白线圆槽 · 灰线读条。数字可用上方控件推演。</p>
+      </div>
+
+      <div class="holo-frame burr" id="holo">
+        <div class="holo-head">
+          <span class="name">魏成河</span>
+          <span class="lvl" id="hLvl">火种期</span>
+          <span class="state" id="hState">火种期 0%</span>
+        </div>
+
+        <div class="attrs" id="attrs"></div>
+
+        <div class="spark-row">
+          <div class="spark-dial" id="dial">
+            <svg viewBox="0 0 120 120" width="128" height="128">
+              <defs>
+                <linearGradient id="sparkGrad" x1="0" y1="0" x2="1" y2="1">
+                  <stop offset="0%"   stop-color="#7fc4ff"/>
+                  <stop offset="55%"  stop-color="#4a9eff"/>
+                  <stop offset="100%" stop-color="#2d5fb5"/>
+                </linearGradient>
+              </defs>
+              <!-- 3/4 圈底框：白线，从左下起绕过 3/4 圈，断在最上面 -->
+              <path class="base-frame" id="baseFrame" d=""/>
+              <circle class="track" cx="60" cy="60" r="50"/>
+              <circle class="fill"  cx="60" cy="60" r="50" id="arcFill"/>
+            </svg>
+            <div class="lbl">
+              <div class="pct" id="dialPct">0%</div>
+              <div class="cap">火花</div>
+            </div>
+          </div>
+
+          <div class="spark-info">
+            <div class="row"><span class="k">等级</span><span class="v" id="siLevel">火种期</span></div>
+            <div class="row"><span class="k">自由属性点</span><span class="v" id="siPoints">0</span></div>
+            <div class="row"><span class="k">软上限 / 突破</span><span class="v" id="siCap">5 / 0 次</span></div>
+            <div class="row"><span class="k">虚空耐受</span><span class="v" id="siVoid">7 分钟</span></div>
+            <div class="row"><span class="k">黑色代偿</span><span class="v" id="siBlack">黑×1</span></div>
+            <div class="row"><span class="k">位面坐标</span><span class="v" id="siPlane">0</span></div>
+
+            <div class="unlock-track">
+              <div class="ticks" id="uTicks"></div>
+              <div class="names" id="uNames">火花阈值 4% → 100%</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="grayline" id="grayBox">
+          <div class="hd">
+            <span class="k">左臂灰线读条 · 单调递增不回退</span>
+            <span class="v"><span id="gVal">0</span> 格</span>
+          </div>
+          <div class="cells" id="gCells"></div>
+          <div class="note" id="gNote">R11：耐受上限与代偿档位只能靠位面污染加深 —— 越能扛越不像人。</div>
+        </div>
+
+        <div class="mana" id="manaRow"></div>
+
+        <div class="talents mt12" id="talents"></div>
+      </div>
+
+      <!-- 推演控件 -->
+      <div class="grid2 mt16">
+        <div class="card">
+          <h3>击杀推演 <span class="tag">火花累加 · 解锁判定</span></h3>
+          <div class="row">
+            <div style="flex:1;min-width:110px">
+              <label class="fld">变异等级</label>
+              <select id="kTier"></select>
+            </div>
+            <div style="width:74px">
+              <label class="fld">数量</label>
+              <input type="number" id="kCount" value="1" min="1" max="99">
+            </div>
+            <button class="primary" id="kGo" style="align-self:flex-end">击杀</button>
+          </div>
+          <div class="sm dim mt8" id="kHint"></div>
+        </div>
+
+        <div class="card">
+          <h3>加点 / 突破 <span class="tag">25% 解锁加点 · 45% 解锁突破</span></h3>
+          <div class="row">
+            <select id="aAttr" style="flex:1;min-width:96px"></select>
+            <button id="aGo">加点</button>
+            <button id="aBt">突破（消耗 <span id="aBtCost">1</span>）</button>
+          </div>
+          <div class="sm dim mt8" id="aHint"></div>
+        </div>
+
+        <div class="card">
+          <h3>灰线 / 结构税 <span class="tag">R11 · R13</span></h3>
+          <div class="row">
+            <input type="number" id="gCellsIn" value="35" min="0" max="200" style="width:88px">
+            <span class="dim sm">格</span>
+            <button id="gGo">设为</button>
+            <button id="gTax" class="sm">+1 结构税</button>
+          </div>
+          <div class="sm dim mt8">灰线只能递增；结构税每征一次自动加深 1 格。</div>
+        </div>
+
+        <div class="card">
+          <h3>卷间跃迁 / 点燃 <span class="tag">§3.5 递增表</span></h3>
+          <div class="row">
+            <select id="vVol" style="flex:1;min-width:96px">
+              <option value="2">第二卷（7→8分 / 黑×2）</option>
+              <option value="3">第三卷（9分 / 黑×3）</option>
+              <option value="4">第四卷（11分 / 黑×4）</option>
+              <option value="5">第五卷（13分 / 黑×5）</option>
+            </select>
+            <button id="vGo">跃迁</button>
+            <button id="iGo">点燃</button>
+            <button id="pReset" class="sm">重置</button>
+          </div>
+          <div class="sm dim mt8" id="vHint"></div>
+        </div>
+      </div>
+
+      <div class="grid2">
+        <div class="card">
+          <h3>面板文本 <span class="tag">逐字符合 §2f · 可直接粘进正文</span></h3>
+          <pre class="mono sm" id="panelText" style="white-space:pre-wrap;background:var(--bg-2);padding:10px;border-radius:2px;margin:0"></pre>
+          <button class="sm mt8" id="copyText">复制</button>
+        </div>
+        <div class="card">
+          <h3>操作日志 <span class="tag">最近 8 条</span></h3>
+          <div class="log" id="opLog"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- 异族图鉴 ---------- -->
+    <section class="page" id="page-kill" style="display:none">
+      <div class="page-head">
+        <h2>异族图鉴 · 火花计算器</h2>
+        <p>变异等级谱系（R2/R6 可判定形式）。坠影级面板判「？？？」，不可击杀取火花。</p>
+      </div>
+
+      <div class="card">
+        <h3>变异等级谱系 <span class="tag">world-bible §7</span></h3>
+        <div class="scroll-x"><table id="tierTbl"></table></div>
+      </div>
+
+      <div class="card">
+        <h3>异族图鉴 <span class="tag">共 <span id="bioCount">0</span> 种</span></h3>
+        <div class="scroll-x"><table id="bioTbl"></table></div>
+      </div>
+
+      <div class="card">
+        <h3>批量刷怪 <span class="tag">一次投入多只，自动算总火花与解锁</span></h3>
+        <div class="row" id="farmRow"></div>
+        <div class="sm dim mt8">提示：把鼠标移到等级上可看该级建议 DC 与危险度。</div>
+      </div>
+    </section>
+
+    <!-- ---------- 机扫 ---------- -->
+    <section class="page" id="page-scan" style="display:none">
+      <div class="page-head">
+        <h2>一致性机扫</h2>
+        <p>按世界观设定标尺 R1–R15 + 信息权限红线 + 术语锁定 + 去 AI 味 逐条机扫。</p>
+      </div>
+
+      <div class="card">
+        <h3>输入章节草稿</h3>
+        <div class="row" style="margin-bottom:8px">
+          <div style="width:120px">
+            <label class="fld">章号（泄底红线用）</label>
+            <input type="number" id="scanCh" value="130" min="1" max="999">
+          </div>
+          <button id="pickFile" class="sm" style="align-self:flex-end">读取本地 txt</button>
+          <input type="file" id="fileInput" accept=".txt,.md" style="display:none">
+          <button class="primary" id="scanGo" style="align-self:flex-end">开始机扫</button>
+          <button id="scanClear" class="sm" style="align-self:flex-end">清空</button>
+        </div>
+        <textarea id="scanText" rows="12" placeholder="粘贴章节正文，或点「读取本地 txt」…"></textarea>
+      </div>
+
+      <div id="scanResult"></div>
+    </section>
+
+    <!-- ---------- 规则 ---------- -->
+    <section class="page" id="page-rules" style="display:none">
+      <div class="page-head">
+        <h2>世界规则 R1–R15</h2>
+        <p>标尺的唯一价值：把设定写成「条件 → 结果」，让情节自洽可以被机器判定。</p>
+      </div>
+      <div class="card"><div class="scroll-x"><table id="ruleTbl"></table></div></div>
+      <div class="card">
+        <h3>信息权限红线 <span class="tag">防提前泄底</span></h3>
+        <div class="scroll-x"><table id="leakTbl"></table></div>
+      </div>
+    </section>
+
+    <!-- ---------- TRPG ---------- -->
+    <section class="page" id="page-trpg" style="display:none">
+      <div class="page-head">
+        <h2>TRPG 机制库</h2>
+        <p>d20 检定 · 群遭遇配平 · 状态效果 · 代价投骰。定位是<b>作者侧工具</b>——帮你决定难度，不把骰子写进正文。</p>
+      </div>
+
+      <div class="grid2">
+        <div class="card">
+          <h3>d20 检定 <span class="tag">1d20 + 修正 ≥ DC</span></h3>
+          <div class="row">
+            <div style="width:96px">
+              <label class="fld">五维</label>
+              <select id="ckAttr"></select>
+            </div>
+            <div style="width:78px">
+              <label class="fld">属性值</label>
+              <input type="number" id="ckScore" value="18" min="4" max="40">
+            </div>
+            <div style="width:96px">
+              <label class="fld">难度</label>
+              <select id="ckDc"></select>
+            </div>
+          </div>
+          <div class="row mt8">
+            <label class="sm"><input type="checkbox" id="ckAdv" style="width:auto"> 优势</label>
+            <label class="sm"><input type="checkbox" id="ckDis" style="width:auto"> 劣势</label>
+            <button class="primary" id="ckGo">掷</button>
+            <button class="sm" id="ckRate">只算成功率</button>
+          </div>
+          <div id="ckOut" class="mt12"></div>
+          <div class="sm dim mt8" id="ckMod"></div>
+        </div>
+
+        <div class="card">
+          <h3>群遭遇配平 <span class="tag">合成 ≈ (Σ单体^1.5)^(2/3)</span></h3>
+          <div class="sm dim" style="margin-bottom:8px">
+            n 只同级怪的总危险不是 n 倍，约 <b>n^1.5</b> 倍。点「+」加入配置。
+          </div>
+          <div id="muList"></div>
+          <div class="row mt8" id="muCtl"></div>
+          <div id="muOut" class="mt12"></div>
+        </div>
+
+        <div class="card">
+          <h3>状态效果 <span class="tag">污染 / 代价体系</span></h3>
+          <div class="row" id="stCtl"></div>
+          <div id="stOut" class="mt12"></div>
+          <div class="mt12"><div class="scroll-x"><table id="stTbl"></table></div></div>
+        </div>
+
+        <div class="card">
+          <h3>代价投骰 <span class="tag">R9 · 黑色法力以记忆为燃料</span></h3>
+          <div class="row">
+            <div style="width:100px">
+              <label class="fld">卷</label>
+              <select id="bnVol">
+                <option value="2">第二卷</option>
+                <option value="3">第三卷</option>
+                <option value="4">第四卷</option>
+                <option value="5" selected>第五卷</option>
+              </select>
+            </div>
+            <div style="width:96px">
+              <label class="fld">代偿档</label>
+              <select id="bnMult">
+                <option>2</option><option>3</option><option>4</option><option selected>5</option>
+              </select>
+            </div>
+            <div style="flex:1;min-width:130px">
+              <label class="fld">燃法</label>
+              <select id="bnMode"></select>
+            </div>
+            <button class="primary" id="bnGo" style="align-self:flex-end">投</button>
+          </div>
+          <div id="bnOut" class="mt12"></div>
+        </div>
+      </div>
+
+      <div class="card">
+        <h3>公式与口径 <span class="tag">来自 D&amp;D 5e 官方规则</span></h3>
+        <div class="kv" id="fxList"></div>
+      </div>
+    </section>
+
+    <!-- ---------- 战斗沙盘 ---------- -->
+    <section class="page" id="page-combat" style="display:none">
+      <div class="page-head">
+        <h2>战斗沙盘</h2>
+        <p>选剧情档位 → 挑异族 → 回合制对轰。数值口径来自 D20 规则内核
+          （allin-engine 的 <span class="mono">trpg</span> 子系统），
+          异族与火花走本仓 bible 数据。</p>
+      </div>
+
+      <!-- 备战 -->
+      <div class="card" id="cbSetup">
+        <h3>备战 <span class="tag">剧情档位 + 遭遇配置</span></h3>
+        <div class="row">
+          <div style="flex:1;min-width:220px">
+            <label class="fld">剧情档位</label>
+            <select id="cbProfile"></select>
+          </div>
+          <div style="width:96px">
+            <label class="fld">随机种子</label>
+            <input type="number" id="cbSeed" placeholder="留空=随机">
+          </div>
+        </div>
+        <div class="sm dim mt8" id="cbProfileNote"></div>
+
+        <div class="mt12">
+          <label class="fld">加入异族（点一下加一只）</label>
+          <div class="chips" id="cbNamed"></div>
+        </div>
+
+        <div class="mt12">
+          <label class="fld">遭遇配置</label>
+          <div id="cbRoster" class="roster"></div>
+          <div class="sm dim mt8" id="cbRosterHint">还没选异族。建议：一级 2–3 只（第一卷）、二级 2 只（第三卷）。</div>
+        </div>
+
+        <div class="row mt12">
+          <button class="primary" id="cbGo">开始遭遇</button>
+          <button class="sm" id="cbClear">清空配置</button>
+          <label class="sm" style="display:flex;align-items:center;gap:6px">
+            <input type="checkbox" id="cbAutoEnemy" checked style="width:auto"> 我方行动后自动推进异族回合
+          </label>
+          <label class="sm" style="display:flex;align-items:center;gap:6px"
+                 title="勾选后本场沿用上一场的火花/灰线进度；不勾选则从所选剧情档位的初值重新开局">
+            <input type="checkbox" id="cbCarry" style="width:auto"> 接续上一场（保留火花/灰线）
+          </label>
+        </div>
+        <div class="sm dim mt8" id="cbMsg"></div>
+      </div>
+
+      <!-- 战斗中 -->
+      <div id="cbBattle" style="display:none">
+        <div class="stat-row" id="cbStatRow"></div>
+
+        <div class="grid2">
+          <div class="card">
+            <h3>旅法师 <span class="tag" id="cbPcTag"></span></h3>
+            <div id="cbPc"></div>
+          </div>
+          <div class="card">
+            <h3>异族 <span class="tag">点卡片选目标</span></h3>
+            <div id="cbEnemies"></div>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>行动 <span class="tag" id="cbTurnTag"></span></h3>
+          <div class="acts" id="cbActions"></div>
+          <div class="sm dim mt8" id="cbActHint"></div>
+        </div>
+
+        <div class="card">
+          <h3>战斗日志 <span class="tag">最新在下</span></h3>
+          <div class="cblog" id="cbLog"></div>
+        </div>
+
+        <div class="card" id="cbResult" style="display:none">
+          <h3>结算 <span class="tag" id="cbResultTag"></span></h3>
+          <div id="cbResultBody"></div>
+          <div class="row mt12">
+            <button id="cbNarrate">生成叙事文本</button>
+            <button class="sm" id="cbCopy">复制</button>
+            <button class="sm primary" id="cbAgain">再来一场</button>
+          </div>
+          <pre class="mono sm" id="cbNarrateText"
+               style="white-space:pre-wrap;background:var(--bg-2);padding:10px;border-radius:2px;margin-top:10px;display:none"></pre>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- 战役推进 ---------- -->
+    <section class="page" id="page-campaign" style="display:none">
+      <div class="page-head">
+        <h2>战役推进</h2>
+        <p>一场接一场地打：<b>生命、法力、灰线、火花全部跨场保留</b>。
+          灰线只增不回退（R11），火花点燃后封顶（R8）。
+          战间只有两条恢复路径——<b>休整</b>（+25% 生命上限）与
+          <b>治疗言灵</b>（绿法力）。</p>
+      </div>
+
+      <!-- 未开局：选链 -->
+      <div class="card" id="cpSetup">
+        <h3>新建战役 <span class="tag">预置卷级遭遇链</span></h3>
+        <div class="row">
+          <div style="flex:1;min-width:240px">
+            <label class="fld">战役链</label>
+            <select id="cpChain"></select>
+          </div>
+          <div style="width:110px">
+            <label class="fld">随机种子</label>
+            <input type="number" id="cpSeed" placeholder="留空=随机">
+          </div>
+        </div>
+        <div class="sm dim mt8" id="cpChainNote"></div>
+        <div class="mt12" id="cpChainList"></div>
+        <div class="row mt12">
+          <button class="primary" id="cpNew">开始战役</button>
+        </div>
+        <div class="sm dim mt8" id="cpMsg"></div>
+      </div>
+
+      <!-- 已开局：战役状态 -->
+      <div id="cpRun" style="display:none">
+        <div class="card">
+          <h3><span id="cpChainLabel"></span>
+            <span class="tag" id="cpStatusTag"></span></h3>
+          <div class="stat-row" id="cpStatRow"></div>
+          <div class="mt12" id="cpBar"></div>
+          <div class="sm dim mt8" id="cpNote"></div>
+        </div>
+
+        <div class="card">
+          <h3>下一场 <span class="tag" id="cpProgress"></span></h3>
+          <div id="cpNext"></div>
+          <div class="row mt12">
+            <button class="primary" id="cpGo">开始这一场</button>
+            <button class="sm" id="cpApply">结算并推进</button>
+          </div>
+          <div class="sm dim mt8" id="cpBattleHint"></div>
+        </div>
+
+        <div class="card">
+          <h3>战间行动 <span class="tag">休整 / 汲取 / 治疗</span></h3>
+          <div class="row">
+            <button id="cpRest">休整（+25% 生命上限）</button>
+            <button class="sm" id="cpHeal">治疗言灵（绿 -1）</button>
+          </div>
+          <div class="row mt8" style="align-items:center">
+            <label class="fld" style="margin:0">汲取法力</label>
+            <select id="cpColor" style="width:90px"></select>
+            <button class="sm" id="cpDraw">汲取（灰线 +1，R11）</button>
+          </div>
+          <div class="sm dim mt8">
+            汲取黑色法力不可用——它烧的是记忆/情感碎片，不可复原（R9）。
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>自由插入遭遇 <span class="tag">不计入链进度</span></h3>
+          <div class="chips" id="cpNamed"></div>
+          <div id="cpRoster" class="roster mt8"></div>
+          <div class="row mt8">
+            <button class="sm" id="cpInsert">插入并开局</button>
+            <button class="sm" id="cpRosterClear">清空</button>
+          </div>
+        </div>
+
+        <div class="card">
+          <h3>战役日志</h3>
+          <div class="cblog" id="cpLog"></div>
+          <div class="row mt12">
+            <button class="sm" id="cpEnd">结束战役</button>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ---------- 伏笔 ---------- -->
+    <section class="page" id="page-plot" style="display:none">
+      <div class="page-head">
+        <h2>伏笔台账</h2>
+        <p>红线：已回收不得回退为待回收；每条待回收必须有落点章；同时活跃悬念线 ≤ 4。</p>
+      </div>
+      <div class="stat-row" id="plotStats"></div>
+      <div class="card">
+        <div class="row" style="margin-bottom:10px">
+          <input type="text" id="plotQ" placeholder="搜索编号 / 描述 / 状态…" style="max-width:320px">
+          <select id="plotF" style="width:130px">
+            <option value="">全部状态</option>
+            <option>已回收</option><option>推进中</option><option>待回收</option>
+          </select>
+        </div>
+        <div id="plotList"></div>
+      </div>
+    </section>
+
+    <!-- ---------- 代价弧 ---------- -->
+    <section class="page" id="page-cost" style="display:none">
+      <div class="page-head">
+        <h2>跨卷代价弧 · 失忆四维</h2>
+        <p>写作纪律：失忆不许写在独白里，必须写成能力退化 / 行为变形 / 习惯丢失。</p>
+      </div>
+      <div class="card">
+        <h3>四维总表 <span class="tag">长弧规划 · 单一定义处</span></h3>
+        <div class="scroll-x"><table id="dimTbl"></table></div>
+      </div>
+      <div class="card">
+        <h3>已烧清单 <span class="tag">不可复原</span></h3>
+        <div class="scroll-x"><table id="burnTbl"></table></div>
+      </div>
+    </section>
+
+    <!-- ---------- 位面 ---------- -->
+    <section class="page" id="page-planes" style="display:none">
+      <div class="page-head">
+        <h2>位面体系</h2>
+        <p>专名 2–3 字 + 1 字类别后缀，全称 ≤ 4 字；后缀先定后不可跨层混用。</p>
+      </div>
+      <div class="card"><h3>分层命名表 <span class="tag">§3.5</span></h3><div class="scroll-x"><table id="plTbl"></table></div></div>
+      <div class="card"><h3>五色外层位面 <span class="tag">第三卷揭示</span></h3><div class="scroll-x"><table id="plColorTbl"></table></div></div>
+      <div class="card">
+        <h3>耐受与代偿递增表 <span class="tag">R11 · 唯一途径＝位面污染加深</span></h3>
+        <div class="scroll-x"><table id="tolTbl"></table></div>
+        <div class="sm dim mt8" id="tolNote"></div>
+      </div>
+      <div class="card"><h3>命名三铁律</h3><div id="nrList"></div></div>
+    </section>
+
+    <!-- ---------- 资料库 ---------- -->
+    <section class="page" id="page-codex" style="display:none">
+      <div class="page-head">
+        <h2>资料库</h2>
+        <p>时间轴 · 角色 · 术语锁定表。全部从 bible 只读解析。</p>
+      </div>
+      <div class="card">
+        <h3>时间轴 <span class="tag"><span id="tlCount">0</span> 条 · 穿越第 N 天为锚</span></h3>
+        <div class="row" style="margin-bottom:8px">
+          <input type="text" id="tlQ" placeholder="搜索事件 / 出处章…" style="max-width:320px">
+        </div>
+        <div class="scroll-x" style="max-height:520px;overflow-y:auto"><table id="tlTbl"></table></div>
+      </div>
+      <div class="card">
+        <h3>角色档案 <span class="tag"><span id="chCount">0</span> 人</span></h3>
+        <div id="chList"></div>
+      </div>
+      <div class="card">
+        <h3>术语锁定表 <span class="tag">错写即机扫报警</span></h3>
+        <div class="scroll-x"><table id="tmTbl"></table></div>
+      </div>
+    </section>
+
+    <!-- ---------- 调研 ---------- -->
+    <section class="page" id="page-research" style="display:none">
+      <div class="page-head">
+        <h2>调研参考</h2>
+        <p>联网查证的外部依据。全部结论附来源；本文件同时已落地为
+          <span class="mono">设定与参考/调研-面板系统与外部考据.md</span>。</p>
+      </div>
+      <div id="researchBody"></div>
+    </section>
+
+    <!-- ---------- 体检 ---------- -->
+    <section class="page" id="page-health" style="display:none">
+      <div class="page-head">
+        <h2>数据层体检</h2>
+        <p>解析质量 + 规则完整性 + 台账红线。改 bible 后重跑解析即可刷新。</p>
+      </div>
+      <div class="card">
+        <h3>解析报告 <span class="tag">每个字段的来源与降级情况</span></h3>
+        <div class="scroll-x"><table id="parseTbl"></table></div>
+      </div>
+      <div class="card">
+        <h3>自检问题 <span class="tag" id="issueCount"></span></h3>
+        <div id="issueList"></div>
+      </div>
+      <div class="card">
+        <h3>数据源</h3>
+        <div class="kv" id="srcInfo"></div>
+        <div class="row mt12">
+          <button id="reloadBtn">重载数据层</button>
+          <span class="sm dim" id="reloadMsg"></span>
+        </div>
+      </div>
+    </section>
+
+  </main>
+</div>
+
+<script src="app.js"></script>
+<script src="combat.js"></script>
+<script src="campaign.js"></script>
+</body>
+</html>

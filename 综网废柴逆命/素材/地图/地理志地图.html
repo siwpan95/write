@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>综网 · 废柴逆命｜地理志地图</title>
+<style>
+  :root{
+    --bg:#f6f5fa; --panel:#ffffff; --line:#e3e0ee;
+    --ink:#1f2430; --ink2:#5b6377; --ink3:#8b93a7;
+    --p1:#6d28d9; --p2:#7c3aed; --p4:#ddd6fe;
+    --core:#3b0f7a; --hot:#d94a4a; --ok:#0e9f6e;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{
+    background:var(--bg);color:var(--ink);overflow:hidden;
+    font:14px/1.65 -apple-system,"Segoe UI","Microsoft YaHei",system-ui,sans-serif;
+    display:flex;flex-direction:column;
+  }
+  header{background:var(--panel);border-bottom:1px solid var(--line);padding:11px 18px;flex:0 0 auto}
+  .h-top{display:flex;align-items:center;gap:14px;flex-wrap:wrap}
+  h1{font-size:16px;font-weight:700;letter-spacing:.4px}
+  h1 span{color:var(--p1)}
+  .sub{font-size:11.5px;color:var(--ink3)}
+  .switch{margin-left:auto;display:flex;gap:6px}
+  .sbtn{padding:6px 14px;font-size:12.5px;border:1px solid var(--line);background:#fff;
+    color:var(--ink2);border-radius:7px;cursor:pointer;font-family:inherit;transition:.15s}
+  .sbtn:hover{border-color:var(--p2);color:var(--p1)}
+  .sbtn.on{background:var(--p1);border-color:var(--p1);color:#fff;font-weight:600}
+  main{flex:1 1 auto;display:flex;min-height:0}
+  #wrap{flex:1 1 auto;position:relative;min-width:0}
+  #map{width:100%;height:100%}
+  #legend{
+    position:absolute;left:14px;bottom:14px;background:rgba(255,255,255,.96);
+    border:1px solid var(--line);border-radius:9px;padding:10px 13px;
+    font-size:11.5px;color:var(--ink2);line-height:1.95;max-width:340px;
+    box-shadow:0 2px 10px rgba(31,36,48,.08)
+  }
+  #legend b{display:block;color:var(--p1);font-size:11.5px;margin-bottom:4px}
+  #legend i{display:inline-block;width:10px;height:10px;border-radius:3px;margin-right:6px;vertical-align:-1px}
+  #tip{
+    position:absolute;left:50%;top:50%;transform:translate(-50%,-50%);
+    background:#fff;border:1px solid var(--line);border-radius:10px;
+    padding:16px 22px;font-size:13px;color:var(--ink2);display:block;text-align:center;
+    box-shadow:0 3px 14px rgba(31,36,48,.08)
+  }
+  aside{flex:0 0 336px;background:var(--panel);border-left:1px solid var(--line);
+    overflow:auto;padding:16px 18px}
+  aside h3{font-size:14px;margin-bottom:4px;color:var(--p1)}
+  aside .meta{font-size:11.5px;color:var(--ink3);margin-bottom:12px}
+  aside .blk{margin-bottom:13px}
+  aside .blk b{display:block;font-size:11.5px;color:var(--ink3);font-weight:600;
+    letter-spacing:.4px;margin-bottom:3px}
+  aside .blk p{font-size:12.5px;color:var(--ink2)}
+  .tag{display:inline-block;font-size:10.5px;padding:1.5px 7px;border-radius:20px;
+    background:var(--p4);color:var(--p1);margin:2px 3px 2px 0}
+  .empty{color:var(--ink3);font-size:12.5px;padding-top:8px}
+  .note{font-size:11.5px;color:var(--ink2);background:#f2effb;
+    border-left:3px solid var(--p2);padding:9px 12px;border-radius:0 7px 7px 0;margin-bottom:13px}
+  @media(max-width:860px){main{flex-direction:column}aside{flex:0 0 auto;border-left:none;border-top:1px solid var(--line)}}
+</style>
+</head>
+<body>
+<header>
+  <div class="h-top">
+    <h1>综网 · <span>废柴逆命</span>｜地理志地图</h1>
+    <div class="sub">底图：腾讯地图（领土要素符合国家标准）　·　叠加图层为小说虚构设定</div>
+    <div class="switch">
+      <button class="sbtn on" id="btnNation">全国 · 接入区划</button>
+      <button class="sbtn" id="btnCity">第三区 · 空间层级</button>
+    </div>
+  </div>
+</header>
+<main>
+  <div id="wrap">
+    <div id="map"></div>
+    <div id="legend"></div>
+    <div id="tip">正在加载地图服务……</div>
+  </div>
+  <aside id="side"></aside>
+</main>
+
+<!-- 1. 合规代理配置：必须在 SDK 之前；占位符由 WorkBuddy 运行时替换，请勿改动 -->
+<script type="text/javascript">
+  window._TMapSecurityConfig = {
+    serviceHost: 'http://127.0.0.1:__WB_HTTP_PORT__/_TMapService/_wbt/__WB_TMAP_SECRET__',
+  };
+</script>
+<!-- 2. 官方 CDN 加载 SDK，不带 key 参数 -->
+<script src="https://map.qq.com/api/gljs?v=1.exp"></script>
+
+<script>
+/* ============================================================
+   数据层 · 来自设定库 05 / 06 / 07 / 08 / 12 / 14
+   ============================================================ */
+const NATION = [
+  {id:"r1", name:"第一区", pos:[39.9042,116.4074], tier:"甲等",
+   note:"综网序列总部所在地。异常行为调查科在此办公——闻人驭的办公室在第 41 层。",
+   tag:["甲等","序列总部","城心高墙"],
+   b:[["性质","城心所在。全国唯一的合法高墙区，进出需许可。"],
+      ["关键机构","综网序列 / 异常行为调查科 / 评定总署"],
+      ["与主角的关系","全卷他都没能合法进入这里——第 20 章他是被「带进去」的。"]]},
+  {id:"r2", name:"第二区", pos:[31.2304,121.4737], tier:"甲等",
+   note:"东部甲等聚居区。副本管理局与积分交易所设在此地。",
+   tag:["甲等","副本管理局"],
+   b:[["性质","环带之上。副本推送、准入许可、死亡登记都在这里办理。"],
+      ["经济","全国积分交易所所在——但丙等玩家没有资格开户。"]]},
+  {id:"r3", name:"第三区", pos:[29.5630,106.5510], tier:"丙等", home:true,
+   note:"★ 主角陆沉所在。城市最外环的丙等居民区——灰水泥公寓群、锈掉的供水管、评定署前的宽路。",
+   tag:["丙等","主角所在地","阶层一"],
+   b:[["定位","全书的「家」。清退序列待复核对象编号 417 的户籍地。"],
+      ["地貌","灰水泥公寓群、楼下花坛、评定署与公告墙、练习副本入口矮楼、西市场、回收站、序列营。"],
+      ["与花芯的关系","第三区是阶层的最低处，也是「狱」在现实层的最近投影。"],
+      ["下一步","点击上方「第三区 · 空间层级」，查看城市内部五个圈层。"]]},
+  {id:"r4", name:"第四区", pos:[23.1291,113.2644], tier:"乙等",
+   note:"南部乙等服役区。副本外包工的最大集散地。",
+   tag:["乙等","外包工集散"],
+   b:[["性质","乙等可服役，丙等只能接最脏最便宜的副本外包活——这里是招募点。"],
+      ["关联","陆沉的父亲陆铮就是丙等外包工"]]},
+  {id:"r5", name:"第五区", pos:[30.5928,114.3055], tier:"乙等",
+   note:"中部枢纽区。全国副本任务的中转站。",
+   tag:["乙等","副本中转"], b:[["功能","跨区副本组队的匹配点"]]},
+  {id:"r6", name:"第六区", pos:[34.3416,108.9398], tier:"乙等",
+   note:"西北乙等区。真实世界副本的高发地带。",
+   tag:["乙等","真实世界副本"],
+   b:[["关键","**真实世界副本**的死亡不可逆。高危区的死亡率从不对外公布。"]]},
+  {id:"r7", name:"第七区", pos:[41.8057,123.4315], tier:"丙等",
+   note:"东北丙等区。序列营规模全国第二。",
+   tag:["丙等","序列营"], b:[["序列营","清退序列待复核人员的临时安置区，只进不出。"]]},
+  {id:"r8", name:"第八区", pos:[36.0611,103.8343], tier:"丙等",
+   note:"西北丙等区。第一批清退执行地。",
+   tag:["丙等","首批清退"], b:[["历史","L1「大重排」时，这里的人口按属性重排得最彻底。"]]},
+  {id:"r9", name:"第九区", pos:[43.8256,87.6168], tier:"乙等",
+   note:"西部乙等区。距城心最远的接入枢纽。",
+   tag:["乙等","最远枢纽"], b:[["地理","距第一区直线距离最远，副本补员周期最长。"]]}
+];
+
+const CITY = {
+  center: [29.5630, 106.5510],
+  rings: [
+    {name:"城心", radius:600, color:"#6d28d9", tier:"甲等",
+     note:"高墙之内。白色建筑、玻璃、干净的走廊——与第三区是两个世界。",
+     b:[["通行","阶层即权限。丙等进入环带需申请，进入城心需许可。"],
+        ["叙事功能","**不可用武力解决**——这里的一切判定都是文书与权限。"],
+        ["出场","09（复查窗口）、19（清退听证）、20（终局改判）"]]},
+    {name:"环带", radius:1400, color:"#a78bfa", tier:"乙等",
+     note:"乙等服役区。副本管理局、积分交易所的分支机构。",
+     b:[["居民","乙等（总和 45-59）"],["功能","承接城心的行政外溢"]]},
+    {name:"外区 · 第三区", radius:2600, color:"#0e9f6e", tier:"丙等",
+     note:"丙等居民区。陆沉的家、评定署、练习副本入口都在这里。",
+     b:[["居民","丙等（总和 30-44）"],
+        ["经济","积分是唯一硬通货，而**装备不能出售、只能分解成素材**——所以丙等玩家没有变现渠道。"]]},
+    {name:"序列营", radius:3800, color:"#d94a4a", tier:"清退序列",
+     note:"清退序列待复核人员的临时安置区。铁栏、白炽灯、没有窗。只进不出。",
+     b:[["第 15 章","石臼重伤未醒｜苏青被停职、小队解散｜**陆谣被提前带走**｜他失去全部身份"],
+        ["情感落点","他坐在硬板床上，把那张写着五条规则的纸拿出来看了很久——**没有撕**。"]]},
+    {name:"无籍区", radius:5000, color:"#3f4657", tier:"名册之外",
+     note:"已被注销者聚居地。不在综网名册上——连「死亡」都不算。",
+     b:[["定义","账号注销后，虚拟道具、积分、权限等级全部清除，不可恢复。"],
+        ["与主角的关系","90 天清退倒计时的终点，就是他妹妹要去的地方。"]]}
+  ],
+  places: [
+    {id:"c1", name:"陆沉的家", pos:[29.5480,106.5345],
+     note:"灰水泥公寓。全书唯一有温度的空间——煮面的厨房、妹妹写作业的桌子。",
+     b:[["物件","父亲的编号牌｜妹妹给的包子纸袋｜一张写着五条规则的纸"],
+        ["宿","**0 立方米**——综网分配给他的私人空间配额为零"],
+        ["出场","03（煮面）、04（写规则）、15（补写第五条）"]]},
+    {id:"c2", name:"评定署", pos:[29.5745,106.5625],
+     note:"评定大厅：三十六块投屏、灰砖地、评定台上的阵纹。门前是公告墙。",
+     b:[["关键场景","01 判废｜09 复查被拒｜19 清退听证｜20 改判"],
+        ["公告墙三块屏","甲等名录 / 本区副本积分榜 / **清退序列公示**"],
+        ["第 03 章","清退屏首行是他，附一张低头照片，下面小字「全服唯一六维全一」"]]},
+    {id:"c3", name:"练习副本 · 入口", pos:[29.5775,106.5665],
+     note:"路对面的灰色矮楼，两层，掉漆牌子。入口是一道向下开的铁闸门。",
+     b:[["权限","丙等以下免费开放，**一天两次**"],
+        ["里面是什么","**「狱」——综网第 0 号位面**。他不是进了一个练习副本，是进了花芯的门口。"],
+        ["关键章","01-03（十八次重置）、09（雾墙实测）、16（读懂刻痕）"]]},
+    {id:"c4", name:"西市场", pos:[29.5645,106.5795],
+     note:"丙等黑市与副本报名集散地。九斤的杂货铺在此，废料副本的报名点也在这儿。",
+     b:[["功能","副本报名 / 积分二手交易 / 情报买卖"],
+        ["九斤","陈九斤，杂货铺伙计兼回收站分拣工｜总和 33（丙等）｜想攒 500 积分把母亲的户籍升到乙等"],
+        ["交易规则","**装备无法出售，只能分解成素材**；空间半价回收"]]},
+    {id:"c5", name:"回收站", pos:[29.5505,106.5855],
+     note:"副本残骸（装备、道具、甚至尸体）的分类场。九斤的老本行。",
+     b:[["第 08 章","老周在此正式出场；陆沉被构装误伤（+3）"],
+        ["规则依据","道具由数据序列构成，**不可出售，只能分解成碎片**——能无限繁殖的除外"]]},
+    {id:"c6", name:"序列营 · 侧门", pos:[29.5825,106.5375],
+     note:"老周在第 15 章给的那条退路。序列营的侧门——只进不出的地方，也有门。",
+     b:[["第 15 章","老周**第二次出手**，只说了位置，没有解释"],
+        ["纪律","老周全卷只出手三次：08 给情报｜15 给退路｜19 给铜镜"]]}
+  ]
+};
+
+/* ============================================================
+   侧栏
+   ============================================================ */
+const side=document.getElementById('side');
+const md=s=>s.replace(/\*\*(.+?)\*\*/g,'<b style="color:#6d28d9">$1</b>');
+function renderSide(o){
+  if(!o){side.innerHTML='<div class="empty">点击地图上的任意标记或圆环查看详情</div>';return}
+  let h='<h3>'+o.name+'</h3>';
+  if(o.sub) h+='<div class="meta">'+o.sub+'</div>';
+  if(o.tag) h+='<div class="blk">'+o.tag.map(t=>'<span class="tag">'+t+'</span>').join('')+'</div>';
+  if(o.note) h+='<div class="note">'+md(o.note)+'</div>';
+  (o.b||[]).forEach(([k,v])=>{h+='<div class="blk"><b>'+k+'</b><p>'+md(v)+'</p></div>'});
+  side.innerHTML=h; side.scrollTop=0;
+}
+
+/* ============================================================
+   内联 SVG 图标（不引用任何外部图片）
+   ============================================================ */
+function pin(fill, r){
+  const svg='<svg xmlns="http://www.w3.org/2000/svg" width="'+ (r*2) +'" height="'+ (r*2.6) +'" viewBox="0 0 26 34">'
+    + '<path d="M13 .8C6.2.8.8 6.2.8 13c0 9.1 12.2 20.2 12.2 20.2S25.2 22.1 25.2 13C25.2 6.2 19.8.8 13 .8z" fill="'+fill+'"/>'
+    + '<circle cx="13" cy="13" r="4.6" fill="#ffffff"/></svg>';
+  return 'data:image/svg+xml;charset=utf-8,'+encodeURIComponent(svg);
+}
+const ICON = {
+  def:  pin('#6d28d9', 13),
+  home: pin('#d94a4a', 17),
+  city: pin('#0e9f6e', 12)
+};
+
+/* ============================================================
+   地图
+   ============================================================ */
+let map, markerLayer, circleLayer, view='nation';
+
+function initMap(){
+  map = new TMap.Map('map', {
+    zoom: 5,
+    center: new TMap.LatLng(34.0, 106.5),
+    viewMode: '2D'
+  });
+
+  markerLayer = new TMap.MultiMarker({
+    map: map,
+    styles:{
+      def: new TMap.MarkerStyle({
+        width:26, height:34, anchor:{x:13,y:34}, src:ICON.def,
+        color:'#1f2430', size:13, direction:'bottom', offset:{x:0,y:7},
+        padding:'4px 9px', backgroundColor:'#ffffff',
+        backgroundBorderRadius:6, backgroundBorderWidth:1, backgroundBorderColor:'#e3e0ee'
+      }),
+      home: new TMap.MarkerStyle({
+        width:34, height:44, anchor:{x:17,y:44}, src:ICON.home,
+        color:'#b91c1c', size:14, direction:'bottom', offset:{x:0,y:8},
+        padding:'5px 11px', backgroundColor:'#fff5f5',
+        backgroundBorderRadius:6, backgroundBorderWidth:1, backgroundBorderColor:'#fca5a5'
+      }),
+      city: new TMap.MarkerStyle({
+        width:24, height:32, anchor:{x:12,y:32}, src:ICON.city,
+        color:'#0e6b4a', size:12.5, direction:'bottom', offset:{x:0,y:6},
+        padding:'3px 8px', backgroundColor:'#ffffff',
+        backgroundBorderRadius:6, backgroundBorderWidth:1, backgroundBorderColor:'#a7f3d0'
+      })
+    },
+    geometries: []
+  });
+
+  circleLayer = new TMap.MultiCircle({
+    map: map,
+    styles:{ def: new TMap.CircleStyle({
+      color:'rgba(109,40,217,0.05)', showBorder:true,
+      borderColor:'#6d28d9', borderWidth:2
+    })},
+    geometries: []
+  });
+
+  markerLayer.on('click', function(e){
+    const g=e.geometry; if(!g) return;
+    const src = (g.id.charAt(0)==='c') ? CITY.places : NATION;
+    const o = src.filter(function(x){return x.id===g.id})[0];
+    if(o) renderSide({name:o.name, tag:o.tag, note:o.note, b:o.b});
+  });
+
+  circleLayer.on('click', function(e){
+    const g=e.geometry; if(!g) return;
+    const r = CITY.rings.filter(function(x){return x.name===g.id})[0];
+    if(r) renderSide({name:r.name, sub:r.tier+'　·　半径 '+r.radius+' m', note:r.note, b:r.b});
+  });
+
+  document.getElementById('tip').style.display='none';
+}
+
+function flyTo(z, lat, lng){
+  map.setZoom(z);
+  map.setCenter(new TMap.LatLng(lat, lng));
+}
+
+function drawNation(){
+  view='nation';
+  flyTo(5, 34.0, 106.5);
+  circleLayer.setGeometries([]);
+  markerLayer.setGeometries(NATION.map(function(r){
+    return { id:r.id, styleId: r.home?'home':'def',
+             position:new TMap.LatLng(r.pos[0], r.pos[1]), content:r.name + (r.home?' ★':'') };
+  }));
+  document.getElementById('legend').innerHTML =
+      '<b>全国 · 综网接入区划</b>'
+    + '<div><i style="background:#6d28d9"></i>甲等接入区（城心 · 高墙）</div>'
+    + '<div><i style="background:#a78bfa"></i>乙等服役区</div>'
+    + '<div><i style="background:#0e9f6e"></i>丙等居民区</div>'
+    + '<div><i style="background:#d94a4a"></i>序列营聚集地</div>'
+    + '<div style="margin-top:5px;color:#8b93a7">★ ＝ 主角所在的第三区　·　点击标记查看详情</div>';
+}
+
+function drawCity(){
+  view='city';
+  flyTo(12, CITY.center[0], CITY.center[1]);
+  markerLayer.setGeometries(CITY.places.map(function(p){
+    return { id:p.id, styleId:'city',
+             position:new TMap.LatLng(p.pos[0], p.pos[1]), content:p.name };
+  }));
+  // 大圈先渲染、小圈在上层；每层使用各自的描边色
+  var ordered = CITY.rings.slice().sort(function(a,b){ return b.radius - a.radius; });
+  var styles = {};
+  ordered.forEach(function(r, i){
+    styles['ring'+i] = new TMap.CircleStyle({
+      color:'rgba(109,40,217,0.045)', showBorder:true,
+      borderColor:r.color, borderWidth:2
+    });
+    r.__sid = 'ring'+i;
+  });
+  circleLayer.setStyles(styles);
+  circleLayer.setGeometries(ordered.map(function(r){
+    return { id:r.name, styleId:r.__sid,
+             center:new TMap.LatLng(CITY.center[0], CITY.center[1]), radius:r.radius };
+  }));
+  document.getElementById('legend').innerHTML =
+      '<b>第三区 · 主世界空间层级</b>'
+    + CITY.rings.map(function(r){
+        return '<div><i style="background:'+r.color+'"></i>'+r.name
+             + '　<span style="color:#8b93a7">'+r.tier+'</span></div>';
+      }).join('')
+    + '<div style="margin-top:5px;color:#8b93a7">圈层由内到外＝阶层由高到低　·　点击圆环或标记查看详情</div>';
+}
+
+/* ============================================================
+   启动
+   ============================================================ */
+function offlineSide(msg){
+  renderSide({
+    name:'综网 · 废柴逆命', sub:'地理志地图 v1.0',
+    tag:['全国 9 接入区','第三区 5 层圈','底图合规'],
+    note: msg,
+    b:[
+      ['怎么打开','请通过 WorkBuddy 内置预览打开本文件。腾讯地图 JavaScript API **明确不支持 file:// 协议**（官方限制），本地双击打开时底图无法加载。'],
+      ['打开后','右上角切换「全国 · 接入区划」与「第三区 · 空间层级」；点击标记或圆环查看详情。'],
+      ['为什么需要这张图','莲花结构图回答「综网怎么组织」，这张地理图回答「它铺在什么地面上」——两者互补。'],
+      ['领土合规','底图为腾讯地图，领土要素完全符合国家标准，**未作任何改动**；虚构图层仅以标记与圆环叠加。']
+    ]
+  });
+}
+
+function boot(){
+  const tip=document.getElementById('tip');
+  if(location.protocol === 'file:'){
+    tip.innerHTML='本文件需在 http/https 下打开。<br><span style="color:#8b93a7;font-size:12px">'
+      + '腾讯地图 API 不支持 file:// 协议——请通过 WorkBuddy 内置预览打开。</span>';
+    offlineSide('当前以本地文件方式打开，地图服务受限；**设定内容仍可在右侧栏查看**。');
+    return;
+  }
+  if(typeof TMap === 'undefined'){
+    tip.innerHTML='地图服务未能加载。<br><span style="color:#8b93a7;font-size:12px">请检查网络后重试。</span>';
+    offlineSide('地图服务未加载；**设定内容仍可在右侧栏查看**。');
+    return;
+  }
+  try{
+    initMap();
+    drawNation();
+
+    document.getElementById('btnNation').onclick=function(){
+      this.classList.add('on');
+      document.getElementById('btnCity').classList.remove('on');
+      drawNation(); renderSide(null);
+    };
+    document.getElementById('btnCity').onclick=function(){
+      this.classList.add('on');
+      document.getElementById('btnNation').classList.remove('on');
+      drawCity(); renderSide(null);
+    };
+
+    renderSide({
+      name:'综网 · 废柴逆命', sub:'地理志地图 v1.0',
+      tag:['全国 9 接入区','第三区 5 层圈','底图合规'],
+      note:'底图为腾讯地图（领土要素符合国家标准，**未作任何改动**）；所有标记与圈层均为小说虚构设定。',
+      b:[
+        ['怎么用','右上角切换「全国 · 接入区划」与「第三区 · 空间层级」；点击标记或圆环查看详情。'],
+        ['为什么需要这张图','莲花结构图回答「综网怎么组织」，这张地理图回答「它铺在什么地面上」——两者互补。'],
+        ['与莲花地图的对应','第三区 ＝ 花瓣①（底色地图）；练习副本入口 ＝ 花芯「狱」的现实接口。'],
+        ['领土合规','虚构图层仅以标记与圆环叠加，不涉及任何边界、地名或领土要素的描绘改动。']
+      ]
+    });
+
+    // 兜底：4 秒后若底图仍无 canvas，说明渲染失败，给出明确提示
+    setTimeout(function(){
+      if(!document.querySelector('#map canvas')){
+        tip.style.display='block';
+        tip.innerHTML='底图未能渲染。<br><span style="color:#8b93a7;font-size:12px">'
+          + '请确认网络可用，并通过 WorkBuddy 内置预览打开本文件。</span>';
+      }
+    }, 4000);
+
+  }catch(err){
+    tip.style.display='block';
+    tip.innerHTML='地图初始化失败：' + ((err && err.message) ? err.message : String(err));
+  }
+}
+if(document.readyState === 'complete') boot();
+else window.addEventListener('load', boot);
+</script>
+</body>
+</html>

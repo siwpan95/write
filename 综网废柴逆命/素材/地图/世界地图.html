@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>综网：废柴逆命 · 世界地图</title>
+<style>
+  :root{
+    --bg:#f6f5fa; --panel:#ffffff; --line:#e3e0ee;
+    --ink:#1f2430; --ink2:#5b6377; --ink3:#8b93a7;
+    --p1:#6d28d9; --p2:#7c3aed; --p3:#a78bfa; --p4:#ddd6fe;
+    --core:#3b0f7a;
+    --t1:#0e9f6e; --t2:#6d28d9; --t3:#d94a4a; --t4:#3f4657;
+    --gold:#c98a00;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  html,body{height:100%}
+  body{
+    background:var(--bg); color:var(--ink);
+    font:14px/1.65 -apple-system,"Segoe UI","Microsoft YaHei",system-ui,sans-serif;
+    display:flex; flex-direction:column; overflow:hidden;
+  }
+  header{
+    background:var(--panel); border-bottom:1px solid var(--line);
+    padding:12px 20px 0; flex:0 0 auto;
+  }
+  .h-top{display:flex;align-items:baseline;gap:14px;flex-wrap:wrap}
+  h1{font-size:17px;font-weight:700;letter-spacing:.5px}
+  h1 span{color:var(--p1)}
+  .sub{font-size:12px;color:var(--ink3)}
+  .tabs{display:flex;gap:2px;margin-top:10px;flex-wrap:wrap}
+  .tab{
+    padding:8px 15px;font-size:13px;cursor:pointer;border:1px solid transparent;
+    border-bottom:none;border-radius:7px 7px 0 0;color:var(--ink2);background:none;
+    font-family:inherit;transition:.15s;
+  }
+  .tab:hover{color:var(--p1);background:#f2effb}
+  .tab.on{background:var(--bg);border-color:var(--line);color:var(--p1);font-weight:600;
+    box-shadow:0 -1px 0 var(--p1) inset}
+  main{flex:1 1 auto;display:flex;min-height:0;border-top:1px solid var(--line)}
+  #stage{flex:1 1 auto;overflow:auto;position:relative;padding:16px}
+  aside{
+    flex:0 0 340px;background:var(--panel);border-left:1px solid var(--line);
+    overflow:auto;padding:16px 18px;
+  }
+  aside h3{font-size:14px;margin-bottom:4px;color:var(--p1)}
+  aside .meta{font-size:11.5px;color:var(--ink3);margin-bottom:12px}
+  aside .blk{margin-bottom:13px}
+  aside .blk b{display:block;font-size:11.5px;color:var(--ink3);font-weight:600;
+    letter-spacing:.4px;margin-bottom:3px}
+  aside .blk p{font-size:12.5px;color:var(--ink2)}
+  aside .tag{display:inline-block;font-size:10.5px;padding:1.5px 7px;border-radius:20px;
+    background:var(--p4);color:var(--p1);margin:2px 3px 2px 0}
+  .empty{color:var(--ink3);font-size:12.5px;padding-top:8px}
+  /* 地图 */
+  svg{display:block;margin:0 auto;max-width:100%;height:auto}
+  .node{cursor:pointer;transition:.15s}
+  .node:hover .nbody{filter:brightness(.96)}
+  .node.sel .nbody{stroke:var(--p1);stroke-width:3}
+  .nbody{transition:.15s}
+  .nlabel{font-size:12px;font-weight:600;fill:#fff;pointer-events:none;
+    text-anchor:middle;dominant-baseline:middle}
+  .nsub{font-size:9.5px;fill:rgba(255,255,255,.85);text-anchor:middle;
+    dominant-baseline:middle;pointer-events:none}
+  .ring{fill:none;stroke:#cfc9e2;stroke-dasharray:4 6}
+  .link{stroke:#c9c2e0;stroke-width:1.2;stroke-dasharray:3 4;fill:none}
+  .ringlab{font-size:10px;fill:var(--ink3);text-anchor:middle}
+  /* 通用卡片 */
+  .grid{display:grid;gap:12px}
+  .card{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+    padding:13px 15px;cursor:pointer;transition:.15s}
+  .card:hover{border-color:var(--p3);transform:translateY(-1px);
+    box-shadow:0 3px 12px rgba(109,40,217,.08)}
+  .card.sel{border-color:var(--p1);box-shadow:0 0 0 2px var(--p4)}
+  .card h4{font-size:13px;margin-bottom:5px}
+  .card p{font-size:11.5px;color:var(--ink2)}
+  /* 位面 */
+  .plane{background:var(--panel);border:1px solid var(--line);border-radius:10px;
+    padding:12px 15px;margin-bottom:10px;border-left:4px solid var(--p2)}
+  .plane h4{font-size:13px;margin-bottom:3px;display:flex;gap:8px;align-items:baseline}
+  .plane h4 em{font-style:normal;font-size:10.5px;color:var(--ink3)}
+  .plane p{font-size:11.5px;color:var(--ink2);margin-bottom:6px}
+  .chips{display:flex;flex-wrap:wrap;gap:6px}
+  .chip{font-size:11px;padding:3px 9px;border-radius:6px;background:#f2effb;
+    color:var(--p1);border:1px solid var(--p4);cursor:pointer}
+  .chip:hover{background:var(--p4)}
+  /* 历史层 */
+  .layer{display:flex;gap:14px;align-items:flex-start;margin-bottom:0;
+    background:var(--panel);border:1px solid var(--line);border-bottom:none;
+    padding:13px 16px;cursor:pointer}
+  .layer:first-of-type{border-radius:10px 10px 0 0}
+  .layer:last-of-type{border-radius:0 0 10px 10px;border-bottom:1px solid var(--line)}
+  .layer:hover{background:#faf9fe}
+  .layer .lno{flex:0 0 42px;font-weight:700;color:var(--p1);font-size:15px}
+  .layer .lbody{flex:1}
+  .layer h4{font-size:13px;margin-bottom:3px}
+  .layer p{font-size:11.5px;color:var(--ink2)}
+  /* 谱系 */
+  .gspec{display:grid;grid-template-columns:repeat(auto-fill,minmax(148px,1fr));gap:10px}
+  .gcell{background:var(--panel);border:1px solid var(--line);border-radius:9px;
+    padding:11px 13px;cursor:pointer;transition:.15s}
+  .gcell:hover{border-color:var(--p3);transform:translateY(-1px)}
+  .gcell.sel{border-color:var(--p1);box-shadow:0 0 0 2px var(--p4)}
+  .gcell .gn{font-size:12.5px;font-weight:600;margin-bottom:3px}
+  .gcell .gc{font-size:10.5px;color:var(--ink3)}
+  .rate{display:inline-block;width:20px;text-align:center;font-size:10.5px;
+    font-weight:700;border-radius:4px;color:#fff;margin-right:3px}
+  /* 表 */
+  table{width:100%;border-collapse:collapse;background:var(--panel);
+    border:1px solid var(--line);border-radius:10px;overflow:hidden;font-size:12px}
+  table td:nth-child(3){min-width:250px}
+  table th:nth-child(1),table td:nth-child(1){width:34px}
+  table th:nth-child(4),table td:nth-child(4){width:56px}
+  table th:nth-child(5),table td:nth-child(5){width:82px}
+  table th:nth-child(6),table td:nth-child(6){width:54px}
+  table th:nth-child(7),table td:nth-child(7){width:118px}
+  th,td{padding:7px 10px;text-align:left;border-bottom:1px solid var(--line)}
+  th{background:#f2effb;color:var(--p1);font-size:11px;font-weight:600;
+    letter-spacing:.3px;position:sticky;top:0}
+  tr:last-child td{border-bottom:none}
+  tr.hi td{background:#fdf6e3}
+  .num{font-variant-numeric:tabular-nums;font-weight:600}
+  .legend{display:flex;gap:16px;flex-wrap:wrap;margin-top:12px;
+    font-size:11.5px;color:var(--ink2)}
+  .legend i{display:inline-block;width:10px;height:10px;border-radius:3px;
+    margin-right:5px;vertical-align:-1px}
+  h2.sec{font-size:14px;margin:0 0 12px;color:var(--p1)}
+  .note{font-size:11.5px;color:var(--ink2);background:#f2effb;border-left:3px solid var(--p3);
+    padding:9px 12px;border-radius:0 7px 7px 0;margin-bottom:14px}
+  @media(max-width:920px){aside{flex-basis:280px}}
+  @media(max-width:720px){main{flex-direction:column}aside{flex:0 0 auto;border-left:none;border-top:1px solid var(--line)}}
+</style>
+</head>
+<body>
+<header>
+  <div class="h-top">
+    <h1>综网 · <span>废柴逆命</span> 世界地图</h1>
+    <div class="sub">花芯＝狱（第 0 号位面）｜花瓣＝附属地图｜串联设定库 v1.0</div>
+  </div>
+  <div class="tabs" id="tabs"></div>
+</header>
+<main>
+  <div id="stage"></div>
+  <aside id="side"></aside>
+</main>
+
+<script>
+/* ============================================================
+   数据层：全部来自设定库 05/06/07/08/12/13/14/15/16/17
+   ============================================================ */
+const T = {1:"#0e9f6e",2:"#6d28d9",3:"#d94a4a",4:"#3f4657",0:"#3b0f7a"};
+const TIER = {1:"阶层一 · 1-4 级",2:"阶层二 · 5-10 级",3:"阶层三 · 11-16 级",4:"阶层四 · 17-20 级",0:"花芯 · 非阶层"};
+
+const CORE = {
+  id:"core", name:"狱", sub:"第 0 号位面", tier:0,
+  x:500, y:372, r:66,
+  tag:["花芯","终极地图","永不写完"],
+  blocks:[
+    ["官方名称","编号 000，名字栏为空——它本来有名字，只是那个名字属于上一个文明。"],
+    ["呈现形态","以「练习副本·净场」的面貌出现：一片没有边界的灰，硬质地面，灰白雾墙，无声。"],
+    ["位面本质","**被抽干的负能量位面**。负能量位面本身无限（所以没有边界）、消耗一切（所以只剩灰）、反向运作（所以没有死亡判定）。"],
+    ["三条异常","① 不判定死亡，生命归零即重置；② 重置不消耗进入次数；③ **每次重置构成一次失败判定结算**。"],
+    ["为什么像练习场","综网不造副本，它只是在位面里挑一个——一个被清空过一次的位面，正好当靶场。"],
+    ["可交互要素","灰犬（F 级，无眼，靠热量感知，**从不补刀**）／雾墙（走 400 步回原点）／地面刻痕（被磨平的编号）"],
+    ["莲子（秘密）","N1 它是容器不是场地｜N2「祝你好运」是上一个人留的｜N3 灰犬在测量不在猎杀｜N5 逆命者是被设计的｜N7 容器在衰减，需要一个变量"],
+    ["出场","01-03、09、16（每次离开花瓣都必须回这里）"]
+  ]
+};
+
+const PETALS = [
+  { id:"p1", name:"第三区", sub:"底色地图", tier:1, ang:null, x:500, y:96,
+    tag:["常驻","现实层"], plane:"物质位面",
+    blocks:[
+      ["定位","全书的「家」。城市最外环，丙等居民区，一切现实层情节的发生地。"],
+      ["地貌","灰水泥公寓群、锈掉的供水管、楼下花坛、评定署前的宽路与公告墙。"],
+      ["子地点","陆沉的家（煮面的厨房）／评定署·公告墙（三块屏）／练习副本入口矮楼／西市场／序列营／回收站"],
+      ["势力","评定署（韩度）｜清退序列管理司｜街面上的丙等居民"],
+      ["叙事功能","这里是花芯之外最靠近花芯的地方——主角的日常本身就是花芯的外围。"],
+      ["出场","01、03、04、09、13、15、16、19、20"]
+    ]},
+  { id:"p2", name:"西市地宫", sub:"副本 0273", tier:1, x:214, y:236,
+    tag:["D+","探索＋战斗","3 级"], plane:"物质位面的幽影界重叠",
+    blocks:[
+      ["编号 / 等级","0273｜阶层一｜15 档中的 **D+**（普通）｜时限 6 小时"],
+      ["地貌","旧商业街的地下商场废墟：店铺招牌还在，电源断了九年，货架泡在水里，天花板漏水。"],
+      ["特殊规则","① 照明不足 → **一切视觉检定取劣势**；② **声音放大十倍**，巨响触发全区警觉；③ 通关不是杀光，是抵达最底层的「结算柜」"],
+      ["怪物","水蛭傀儡（D，泥怪谱系，**怕强光**）｜货架守卫（C，构装谱系，关节弱点）"],
+      ["NPC","一名自称姓周、被困九年的旧商人——**误导性角色，不是老周**"],
+      ["爽点位","十倍响度反用（主动引怪做定量收割）｜石臼被压住时他朝最密处走"],
+      ["失败账本","05 +1（无伤）→ 8/10｜06 +3（承伤）→ **10/10 满**｜07 翻命 −10｜07 撤离承伤第 2 次减半 +1"],
+      ["出场","05、06、07"]
+    ]},
+  { id:"p3", name:"索道", sub:"副本 0412", tier:1, x:110, y:462,
+    tag:["C-","追猎型","3 级"], plane:"元素位面·气的边界",
+    blocks:[
+      ["编号 / 等级","0412｜阶层一｜**C-**（有点困难）｜时限 90 分钟"],
+      ["地貌","横跨整座废弃工业区的两条高空索道；下方是雾化的烟囱林；索道车老化，每节最多载两人。"],
+      ["特殊规则","① 双方**先攻使用隐秘技能**；② 索道车每 **4 分钟**必须换乘；③ **被追猎方无法攻击追猎者**，只能躲避、干扰、设陷"],
+      ["追猎者","索道员（B，**亡灵**谱系，无面，旧工装，靠索道震动定位，**下不了地面**）"],
+      ["核心机制爽点","他主动弄断自己那节车的挂索——用坠落把追猎者引向另一侧"],
+      ["★ Midpoint","第 10 章：他赢了，赢得漂亮。但结算面板多出一行——**「异常行为已记录：1」**"],
+      ["失败账本","10 隐秘 +1、换乘 +3 → 11/20｜翻命 −10 → 1/20"],
+      ["出场","10、11"]
+    ]},
+  { id:"p4", name:"回声市场", sub:"副本 0510", tier:1, x:250, y:646,
+    tag:["C","社交＋解密","4 级"], plane:"镜影位面",
+    blocks:[
+      ["编号 / 等级","0510｜阶层一上限｜**C**（困难）"],
+      ["地貌","一个九年来一直在「营业」的集市。所有摊主都是 NPC，所有交易都在重复三十年前的一天。"],
+      ["特殊规则","① **不可使用暴力**（攻击检定自动大失败）；② NPC **只回答已经被问过的问题**；③ **每问一个问题，须付出一样带不回来的东西**（记忆／名字／习惯）"],
+      ["危险来源","无怪物。危险来自 NPC 会**诱惑你留下**"],
+      ["关键 NPC","掌柜（社交向；知道所有事，但只在别人问过之后才肯说）"],
+      ["莲子产出","**N2**（「祝你好运」的来历）｜L1 历史层第一块（「零伤亡」通稿底稿）"],
+      ["情绪重击","他用来交换的是一个他早就不想要的习惯——**那条习惯是他母亲去世那年养成的**"],
+      ["钩子","名单第一行是 **000416 陆铮**——他父亲"],
+      ["出场","12"]
+    ]},
+  { id:"p5", name:"九号站台", sub:"副本 0900", tier:2, x:500, y:700,
+    tag:["C","守卫＋混合","5 级"], plane:"过渡位面·星界接口",
+    blocks:[
+      ["编号 / 等级","0900｜**阶层二**｜**C**（困难）｜需 4 级以上或特殊许可"],
+      ["地貌","一座还在运转的地铁站。列车每 7 分钟进站一次，每次带来一车「东西」。"],
+      ["特殊规则","① **每进站一次，难度提升一档**；② 站台上有一台**可改写的公告屏**，改哪条规则就变哪条，**每次只能改一条**；③ 守卫目标＝**九名乘客**"],
+      ["怪物","到站物（B→A，**未归档**）——形态每次不同，弱点必须现场观察"],
+      ["死亡性质","**混合**：站台内为投影世界，末班车到站后的十分钟为**真实世界**"],
+      ["两次进入","14 章潜入 → **改错规则 → 副本崩盘，首次拿到 +30**｜17 章正式 → 他改的是「死亡判定」的界限"],
+      ["莲子产出","N5、N6"],
+      ["出场","14、17"]
+    ]},
+  { id:"p6", name:"围猎场", sub:"副本 1102", tier:2, x:756, y:646,
+    tag:["C+","生存竞技","强制推送"], plane:"人造半位面",
+    blocks:[
+      ["编号 / 等级","1102｜阶层二｜**C+**（很困难）｜**不可拒绝入场**"],
+      ["地貌","一座**倒扣的城市**——楼是倒着长的，天空在脚下。"],
+      ["特殊规则","① **击杀数不结算积分，只结算存活时间**；② 每死一人，全场所有人下次检定取一次**劣势**；③ 不判定死亡，但**失败会被记录在案**"],
+      ["对手","十名甲等玩家（含闻人驭部下）"],
+      ["反杀逻辑","他不做猎手，他做**靶子**。十个人的失败全部汇进他的池子 → 池子灌到 40｜然后**逆命之刃**"],
+      ["★ 全卷最大高潮","逆命之刃具现为「他承受过的所有伤势」"],
+      ["失败账本","十次承伤合并 +40（封顶）→ 30/40｜逆命之刃 −20 → 10/40"],
+      ["出场","18"]
+    ]},
+  { id:"p7", name:"城心 · 评定署", sub:"权力层", tier:4, x:890, y:462,
+    tag:["非副本","制度战"], plane:"物质位面（权力中心）",
+    blocks:[
+      ["定位","城心的高墙内；白色建筑，玻璃，干净的走廊——与第三区是两个世界。"],
+      ["势力","评定署（韩度）｜清退序列管理司｜综网序列（闻人驭）"],
+      ["危险性质","**不可用武力解决**——这里的一切判定都是文书与权限。"],
+      ["关键场景","复查申请窗口（09）｜清退听证（19）｜终局改判（20）"],
+      ["卷终决战","对抗检定：韩度掷 15（锁定），陆沉掷 4 → 失败。他在结果生效前按下**改判（50 点）**，把 15 改成 4 → 双方同为失败 → **平局，维持现状**"],
+      ["不是胜利","是把闸门**卡住**。第一卷以「卡住」收尾。"],
+      ["出场","09、19、20"]
+    ]},
+  { id:"p8", name:"序列营", sub:"谷底", tier:4, x:756, y:236,
+    tag:["All Is Lost","现实层"], plane:"物质位面（清退序列安置区）",
+    blocks:[
+      ["定位","清退序列待复核人员的临时安置区。**只进不出。**"],
+      ["地貌","铁栏、白炽灯、没有窗。"],
+      ["第 15 章内容","① 石臼重伤未醒；② 苏青被停职，铜镜小队解散；③ **陆谣被提前带走**（家属连带条款）；④ 他失去全部身份。"],
+      ["情感落点","他坐在硬板床上，把那张写着五条规则的纸拿出来，看了很久——**没有撕**。"],
+      ["价值型钩子","纸的第五条上，他补写了一行：**「不许拿别人的失败换自己的命」**"],
+      ["出场","15"]
+    ]}
+];
+
+const PLANES = [
+  {name:"物质位面", en:"Material", p:"「与地球最为相近，也遵循相同的自然规律。D&D 规则的设计是以物质位面为基准的。」——本书一切现实层情节的基准。", maps:["第三区","城心·评定署","序列营"]},
+  {name:"过渡位面", en:"Transitive", p:"「用来从一个地方到另一个地方去。星界用来到达其他位面，灵界与幽影界用来在所连接的物质位面内旅行。」——**综网本身就架在星界之上**。", maps:["九号站台（星界接口）","西市地宫（幽影界重叠）"]},
+  {name:"内层位面", en:"Inner", p:"「也被叫做力量之位面……由单一能量或元素构成」「对于位面旅行者来说，这些位面的力量是**敌意的**」。", maps:["狱（被抽干的负能量位面）","索道（气元素位面边界）"]},
+  {name:"外层位面", en:"Outer", p:"「具有强大力量的存在的家园……神祗本人居于此处，天界生物、恶魔和魔鬼也是同样。」——第二、三卷的高阶副本储备（16 域）。", maps:["约瑟园｜混沌海｜无底深渊｜巴托地狱｜机械境｜外域 …"]},
+  {name:"半位面", en:"Demiplane", p:"「大小可量、通行有限的空间……进入的通道可能只有在**特定的位置**或**特定的情形**才会打开。」", maps:["围猎场（人造半位面）"]},
+  {name:"镜影位面（附录）", en:"Mirror", p:"现实的复制品，会循环、会失真——一个重复三十年前那一天的集市，正属于此类。", maps:["回声市场"]}
+];
+
+const HISTORY = [
+  {no:"L4", time:"上一个纪元", name:"前置文明 · 第一次接入",
+   desc:"地球**不是第一个**被接入的文明。净场地面的刻痕、那句「祝你好运」、铜镜的材质，都来自这里。",
+   who:"无人（已灭绝）", hook:"第二卷 · 收割者线"},
+  {no:"L3", time:"接入之前", name:"无网时代",
+   desc:"没有属性、没有积分、没有副本的世界。**悖论**：陆沉母亲没能凑齐的 3000 分治疗费——那时积分根本不存在。",
+   who:"陆沉的父母", hook:"17 章"},
+  {no:"L2", time:"第九年前的第一天", name:"接入日",
+   desc:"全世界同一秒看见面板，隐性确认条款生效。官方通稿称「全区平稳过渡，无人员伤亡」。",
+   who:"老周", hook:"05 / 08 / 16（复写三次）"},
+  {no:"L1", time:"三年前", name:"大重排",
+   desc:"人口按属性重排，**119 万人**被划入清退序列。第三区的空房子、序列营、陆铮的编号牌都来自这一年。",
+   who:"陆沉（父死于此年）｜韩度（签了名单）", hook:"08 / 16"},
+  {no:"L0", time:"现在", name:"第九年",
+   desc:"「面板即身份」的社会已经稳固。成年评定日、清退序列、副本经济全部按此运转。",
+   who:"全部角色", hook:"—"}
+];
+
+const SPECIES = [
+  {n:"异怪",c:18,note:"反常的躯体结构，多为古老存在或实验产物",w:"弱点不统一，必须现场观察",
+   m:[["呋噜","D"],["噬脑怪","B"],["斗篷怪","C"],["石绳怪","B"],["夺心魔","A"],["底栖魔鱼","A"],["甲伏怪","A"],["斯兰达人","A"],["呓语之口","S"]]},
+  {n:"亡灵",c:21,note:"已死之物，无体力但免疫多数状态",w:"怕光、怕圣、怕火",
+   m:[["蠕行之爪","D"],["燃焰之颅","D"],["幽影","B"],["尸妖","B"],["报丧妖","B"],["巫妖","A"],["死亡骑士","A"],["索道员","B"]]},
+  {n:"元素",c:14,note:"由单一元素构成，主场优势极强",w:"被对立元素克制", m:[["火元素","B"],["气元素","B"],["土元素","B"],["水元素","B"]]},
+  {n:"天族",c:6,note:"高位存在，带秩序倾向",w:"几乎无弱点，靠立场与条件取胜", m:[["炽天使","S"]]},
+  {n:"妖精",c:11,note:"遵循「承诺」而非「物理」",w:"受语言与契约约束", m:[["红帽子","C"],["树精","C"]]},
+  {n:"巨人",c:6,note:"体型与投掷物",w:"关节与视野死角", m:[["火巨人","A"],["霜巨人","A"]]},
+  {n:"怪兽",c:40,note:"自然演化的顶端捕食者",w:"循本能，可被诱饵引导", m:[["灰犬","F"],["食腐兽","B"],["枭熊","B"],["狮鹫","B"]]},
+  {n:"构装",c:8,note:"人造、无意志、不吃状态",w:"关节结构", m:[["稻草人","D"],["货架守卫","C"],["石魔像","A"]]},
+  {n:"植物",c:6,note:"静止与伪装",w:"怕火，怕连根拔起", m:[["尖叫蕈","D"],["菌斗兽","D"]]},
+  {n:"泥怪",c:4,note:"无固定形态",w:"怕强光、怕极端温度", m:[["水蛭傀儡","D"],["灰泥","D"]]},
+  {n:"类人",c:18,note:"会使用工具与语言",w:"会怕，会退，会谈判", m:[["幽邃盲族","D"],["豺狼人","C"]]},
+  {n:"邪魔",c:15,note:"混乱或秩序极端的恶",w:"受契约与真名约束", m:[["小鬼","D"],["角魔","A"],["冰魔","A"],["巴洛炎魔","S"]]},
+  {n:"龙类",c:17,note:"会说话、会积攒、会记仇",w:"**自尊**——唯一可被利用的弱点", m:[["青年龙","A"],["远古红龙","S"]]},
+  {n:"未归档",c:0,note:"**不属于综网的 13 个谱系**——它们来自前置文明",w:"弱点不明",
+   m:[["到站物","B→A"],["深空实体","S"],["收割者","—"]]}
+];
+
+const CHARS = [
+  {n:"陆沉",r:"主角",tier:1,x:500,y:330,core:true,
+   b:[["面板","力量 1｜敏捷 1｜体质 1｜智力 1｜魅力 1｜感知 1（总和 **6**，修正全 −5）"],
+      ["职业","逆命者（隐藏分支）｜等级 1 → 5"],
+      ["Want","90 天内让妹妹的户籍活下来"],
+      ["Need","学会**允许别人替他承担**"],
+      ["恐惧","不是死。是「他算准了一切，却还是有人替他死了」"],
+      ["底线","失败代价优先落在自己身上；不拿别人换逆命值"],
+      ["摩擦清单","宿 0 立方米｜负重≈0（背不动）｜称号栏空｜引导者栏 `【—】`｜资历永远 0｜连恢复药都用不了"]]},
+  {n:"陆谣",r:"妹妹",x:640,y:200,b:[["面板","总和 **31**（丙等边缘）｜14 岁"],
+    ["Want","让哥哥别再去副本"],["Need","学会被讨厌也没关系"],
+    ["伏笔 F2","总和恰为 31——比清退线高 1 点。**这个数字是被人调过的**"]]},
+  {n:"韩度",r:"评定官",x:360,y:200,b:[["面板","总和 61（甲等下位）"],
+    ["行为","宣读「不可培养，建议清退」；告知 90 天复核期"],
+    ["隐藏细节 F6","宣读判词时手在抖——**他早就见过这个面板**（父亲编号 000416）"],
+    ["写作纪律","他的判断在规则层面**是正确的**。错只错在用平均值丈量所有人"]]},
+  {n:"裴战",r:"对等竞争者①",x:690,y:400,b:[["面板","总和 62（甲等）"],
+    ["弧线","轻视（01、03）→ 嘴硬 → 濒死被救（11）→ 见证者 → 队友 → 第 20 章替他挡一次反噬"],
+    ["恐惧","被看穿——他三分钟首通那一次，是先手掷出了 3/36 的运气"]]},
+  {n:"老周「铜镜」",r:"兜底守护导师",x:310,y:400,b:[["面板","总和 74（甲等下位）｜感知 **17**"],
+    ["纪律","**全卷只出手三次，每次都不解释**：08 给情报／15 给退路／19 给铜镜"],
+    ["核心台词","「你以为你在赌自己。可你妹妹、可苏青、可那些跟你进副本的人——他们早就在赌了。你凭什么替他们决定不赌？」"]]},
+  {n:"陈九斤",r:"喜剧调剂",x:500,y:530,b:[["面板","总和 33（丙等）｜20 岁"],
+    ["身份","西市场杂货铺伙计兼回收站分拣工；黑市积分二道贩子"],
+    ["Want","攒够 500 积分，把母亲的户籍从丙等升到乙等"],
+    ["功能","把数字翻译成人话——「哥，二十积分。二十！咱这一周的饭钱啊！」"]]},
+  {n:"苏青",r:"铜镜小队队长",x:640,y:530,b:[["面板","总和 81（甲等）｜职业等级 3"],
+    ["弧线","拒绝（05）→ 被迫同队 → 承认算错（07）→ 被停职（13）→ 公开站队 → 让出队长位（20）"],
+    ["need","承认**算术不是全部**——她第一次算错，是因为把「异常值」当误差剔除了"],
+    ["台词","「带上你，我们全队的失败率上升 17%。这不是歧视，这是算术。」"]]},
+  {n:"闻人驭",r:"综网序列·检察官",x:360,y:530,b:[["面板","总和 82（甲等上位）"],
+    ["身份","异常行为调查科｜处理过 41 个「异常账号」"],
+    ["Want","把异常账号从名册上抹掉"],
+    ["need","承认他不只是在执行，他在**害怕**——怕有一天面板上出现他自己的名字"],
+    ["弱点","**走流程**。他从不在流程之外动手——这正是可以利用的"]]},
+  {n:"石臼 / 贺小满",r:"小队重装位 / 感知位",x:810,y:330,b:[["石臼","总和 51｜力量 15｜第 15 章为掩护全队重伤，成为 All Is Lost 的一部分"],
+    ["贺小满","总和 54｜小队的眼睛；会把看到的场景速写下来，第 18 章成为关键证物"]]},
+  {n:"收割者",r:"终极 BOSS",x:190,y:330,b:[["出场","第二卷起。第一卷只以**名词与物件**存在（净场刻痕、铜镜材质）"],
+    ["本质","上一个纪元里把文明「收割」掉的那一方；综网是它留下的筛子"],
+    ["与主角的关系","「逆命者」是筛子上的一条缝——**而缝是它自己划的**"]]}
+];
+
+const LEDGER = [
+  ["01","第三区 / 净场","判废 · 无结算",0,0,1,"Opening Image"],
+  ["02","净场","第 18 次重置承伤",3,3,1,"**Catalyst**"],
+  ["03","净场 / 第三区","投掷无伤 +1；承伤 +3",4,7,1,"Debate"],
+  ["04","第三区（家）","写规则 · 无结算",0,7,1,"**Break Into Two**"],
+  ["05","西市地宫","感知大失败（无伤）",1,8,1,"B Story"],
+  ["06","西市地宫","承伤（拉仇恨）",3,10,1,"Fun and Games"],
+  ["07","西市地宫","**翻命 −10**；撤离承伤第 2 次递减",-9,1,2,"**大爽点**"],
+  ["08","回收站","被构装误伤",3,4,2,"—"],
+  ["09","评定署 / 净场","净场实验受伤",3,7,2,"—"],
+  ["10","索道","隐秘 +1、换乘 +3；**翻命 −10**",-6,1,2,"**Midpoint**"],
+  ["11","索道","束缚＋承伤 +6；**翻命 −10**；通关结算补足",19,20,2,"**大爽点**"],
+  ["12","回声市场","割舍记忆 · 无结算",0,20,2,"—"],
+  ["13","第三区","闻人驭登场 · 无结算",0,20,2,"—"],
+  ["14","九号站台","潜入 +1；**改错规则 → 崩盘 +30（封顶）**",10,30,3,"Bad Guys Close In"],
+  ["15","序列营","一无所有 · 无结算",0,30,3,"**All Is Lost**"],
+  ["16","净场","读懂刻痕 · 无结算",0,30,3,"**Break Into Three**"],
+  ["17","九号站台","改写公告屏 −10",-10,20,3,"Finale 起"],
+  ["18","围猎场","十次承伤合并 +40（封顶 40）；**逆命之刃 −20**",0,20,4,"**大高潮**"],
+  ["19","评定署","适应期操作失败 → 副本崩盘 +30（封顶 50）；升 5 级",30,50,5,"Finale 收束"],
+  ["20","评定署","**改判 −50** …… 卡住闸门",-50,0,5,"**卷终决战**"]
+];
+
+/* ============================================================
+   侧栏
+   ============================================================ */
+const side = document.getElementById('side');
+function md(s){return s.replace(/\*\*(.+?)\*\*/g,'<b style="color:#6d28d9">$1</b>')}
+function renderSide(o){
+  if(!o){side.innerHTML='<div class="empty">← 点击任意节点查看详情</div>';return}
+  let h = '<h3>'+o.name+'</h3>';
+  if(o.sub) h += '<div class="meta">'+o.sub+(o.tier!==undefined&&o.tier!==null?'　·　'+TIER[o.tier]:'')+'</div>';
+  if(o.tag) h += '<div class="blk">'+o.tag.map(t=>'<span class="tag">'+t+'</span>').join('')+'</div>';
+  if(o.b||o.blocks){
+    (o.b||o.blocks).forEach(([k,v])=>{h+='<div class="blk"><b>'+k+'</b><p>'+md(v)+'</p></div>'});
+  }
+  side.innerHTML = h;
+  side.scrollTop = 0;
+}
+
+/* ============================================================
+   视图 1 · 世界地图
+   ============================================================ */
+function viewMap(){
+  const NS='http://www.w3.org/2000/svg';
+  let s='<svg viewBox="0 0 1000 780" width="1000" style="max-width:100%">';
+  // 阶层圈
+  s+='<ellipse class="ring" cx="500" cy="400" rx="200" ry="152"/>';
+  s+='<ellipse class="ring" cx="500" cy="415" rx="308" ry="240"/>';
+  s+='<ellipse class="ring" cx="500" cy="430" rx="416" ry="326"/>';
+  // 连线
+  PETALS.forEach(p=>{ s+='<line class="link" x1="'+p.x+'" y1="'+p.y+'" x2="500" y2="372"/>'; });
+  // 花芯
+  s+='<g class="node" data-id="core"><circle class="nbody" cx="500" cy="372" r="66" fill="'+T[0]+'"/>'
+   + '<text class="nlabel" x="500" y="364" font-size="19">狱</text>'
+   + '<text class="nsub" x="500" y="386">第 0 号位面 · 净场</text>'
+   + '<text class="nsub" x="500" y="402">花芯 · 永不写完</text></g>';
+  // 花瓣
+  PETALS.forEach(p=>{
+    const w=132,h=54,x=p.x-w/2,y=p.y-h/2, c=T[p.tier];
+    s+='<g class="node" data-id="'+p.id+'">'
+     + '<rect class="nbody" x="'+x+'" y="'+y+'" width="'+w+'" height="'+h+'" rx="11" fill="'+c+'"/>'
+     + '<text class="nlabel" x="'+p.x+'" y="'+(p.y-7)+'">'+p.name+'</text>'
+     + '<text class="nsub" x="'+p.x+'" y="'+(p.y+11)+'">'+p.sub+'</text></g>';
+  });
+  s+='</svg>';
+  s+='<div class="legend">'
+   + '<span><i style="background:'+T[0]+'"></i>花芯</span>'
+   + '<span><i style="background:'+T[1]+'"></i>阶层一（1-4 级）</span>'
+   + '<span><i style="background:'+T[2]+'"></i>阶层二（5-10 级）</span>'
+   + '<span><i style="background:'+T[4]+'"></i>现实层 / 制度层</span>'
+   + '<span style="color:#8b93a7">虚线椭圆由内到外＝阶层一 / 二 / 三·四</span>'
+   + '<span style="color:#8b93a7">花瓣→花芯的连线＝每次离开花瓣都必须回花芯</span></div>';
+  s+='<div class="note" style="margin-top:14px">'
+   + '<b>莲花地图法</b>：花芯是终极地图且<b>永不写完</b>；花瓣是附属地图，收益不是资源而是<b>关于花芯的一条情报</b>。'
+   + '所以每一个副本结束后，主角都会重进净场做一次实验——这也是他的性格：先验证，再行动。</div>';
+  return s;
+}
+
+/* ============================================================
+   视图 2 · 位面结构
+   ============================================================ */
+function viewPlane(){
+  let s='<div class="note">素材依据：<code>trow_位面手册</code>（D&amp;D 3E《位面手册》中文全译 51 篇）。'
+   + '把位面分类学套在莲花地图上，每张花瓣地图的「特殊规则」就<b>不需要额外解释</b>——读者知道位面类型，就能自己推出来。</div>';
+  PLANES.forEach(p=>{
+    s+='<div class="plane"><h4>'+p.name+'<em>'+p.en+'</em></h4><p>'+md(p.p)+'</p>'
+     + '<div class="chips">'+p.maps.map(m=>'<span class="chip">'+m+'</span>').join('')+'</div></div>';
+  });
+  s+='<div class="note" style="margin-top:14px"><b>综网在位面体系中的位置</b>：它不是位面，是位面的<b>链路层</b>——'
+   + '《位面手册》原文「星界的白色迷雾将它们全部连接起来」。登录空间之所以是纯白无窗的，因为它就是星界的一小块。'
+   + '这也回答了那个最容易被挑刺的问题：<b>综网不造副本，它只是在位面里挑一个。</b></div>';
+  return s;
+}
+
+/* ============================================================
+   视图 3 · 历史千层饼
+   ============================================================ */
+function viewHistory(){
+  let s='<div class="note">素材依据：宅猪「千层饼地图法」——叠的不是地图，是<b>历史</b>。'
+   + '写作纪律：<b>每挖出一层历史，必须同时给一个活人一个过去</b>。</div>';
+  [...HISTORY].forEach(h=>{
+    s+='<div class="layer"><div class="lno">'+h.no+'</div><div class="lbody">'
+     + '<h4>'+h.name+'<span style="font-weight:400;color:#8b93a7;font-size:11.5px">　'+h.time+'</span></h4>'
+     + '<p>'+md(h.desc)+'</p>'
+     + '<p style="margin-top:4px;color:#8b93a7;font-size:11px">关联活人：'+h.who+'　｜　回收章：'+h.hook+'</p>'
+     + '</div></div>';
+  });
+  s+='<div class="note" style="margin-top:14px"><b>复写性叙述</b>（配套手法）：同一件事用不同人的记忆反复讲述、每次稍作变化。'
+   + '本书选定「接入日那天第三区到底发生了什么」讲三遍——<b>官方通稿（05）→ 老周（08）→ 韩度（16）</b>。'
+   + '第三次讲完时，反派从「制度的脸」变成「制度的伤口」。</div>';
+  return s;
+}
+
+/* ============================================================
+   视图 4 · 怪物谱系
+   ============================================================ */
+const RC={F:"#8b93a7",D:"#0e9f6e",C:"#0d9488",B:"#6d28d9",A:"#c2410c",S:"#b91c1c","B→A":"#6d28d9","—":"#8b93a7"};
+function viewSpecies(){
+  let s='<div class="note">素材依据：<code>5echm/怪物图鉴2025</code> 按 <b>13 个生物类别</b>分卷（异怪 18 · 亡灵 21 · 元素 14 · 天族 6 · 妖精 11 · 巨人 6 · 怪兽 40 · 构装 8 · 植物 6 · 泥怪 4 · 类人 18 · 邪魔 15 · 龙类 17）。'
+   + '综网把这套分类直接当作<b>怪物归档口径</b>——<b>认出谱系就等于拿到一半胜算</b>，这是「破解规则」爽点的技术基础。</div>';
+  s+='<div class="gspec">';
+  SPECIES.forEach((sp,i)=>{
+    s+='<div class="gcell" data-sp="'+i+'"><div class="gn">'+sp.n+'</div>'
+     + '<div class="gc">'+(sp.c?sp.c+' 条目':'不属于 13 谱系')+'</div>'
+     + '<div class="gc" style="margin-top:4px">弱点：'+(sp.n==='未归档'?'未知':sp.w)+'</div></div>';
+  });
+  s+='</div>';
+  s+='<div class="note" style="margin-top:14px"><b>原创怪的谱系归位</b>：灰犬＝怪兽｜水蛭傀儡＝泥怪｜货架守卫＝构装｜索道员＝亡灵｜菌斗兽＝植物｜斯兰达人＝异怪；'
+   + '而 <b>到站物</b> 与 <b>深空实体</b> 标注为 <b>「未归档」</b>——综网只有 13 个谱系，它俩不在其中。<b>这本身就是前置文明的伏笔。</b></div>';
+  s+='<div class="note"><b>F7 的技术解释</b>：灰犬从不补刀，是因为按怪兽谱系规则它循本能捕食——'
+   + '而一个静止不动、体温被压到最低的目标，在它的本能里<b>不算猎物</b>。陆沉活下来靠的不是系统偏爱，是他后来才想明白的谱系常识。</div>';
+  return s;
+}
+
+/* ============================================================
+   视图 5 · 人物关系
+   ============================================================ */
+function viewChars(){
+  const NS='http://www.w3.org/2000/svg';
+  let s='<svg viewBox="0 0 1000 640" width="1000" style="max-width:100%">';
+  CHARS.filter(c=>!c.core).forEach(c=>{
+    s+='<line class="link" x1="'+c.x+'" y1="'+c.y+'" x2="500" y2="330" stroke-width="1.5"/>';
+  });
+  CHARS.forEach(c=>{
+    if(c.core) return;
+    const w=118,h=42,x=c.x-w/2,y=c.y-h/2;
+    const col = c.n==="闻人驭"?"#991b1b":(c.n==="收割者"?"#374151":"#6d28d9");
+    s+='<g class="node" data-cid="'+c.n+'">'
+     + '<rect class="nbody" x="'+x+'" y="'+y+'" width="'+w+'" height="'+h+'" rx="10" fill="'+col+'"/>'
+     + '<text class="nlabel" x="'+c.x+'" y="'+(c.y-5)+'" font-size="12">'+c.n+'</text>'
+     + '<text class="nsub" x="'+c.x+'" y="'+(c.y+11)+'">'+c.r+'</text></g>';
+  });
+  const c0=CHARS[0];
+  s+='<g class="node" data-cid="陆沉"><circle class="nbody" cx="500" cy="330" r="62" fill="#3b0f7a"/>'
+   + '<text class="nlabel" x="500" y="322" font-size="18">陆沉</text>'
+   + '<text class="nsub" x="500" y="342">六维全 1</text>'
+   + '<text class="nsub" x="500" y="358">逆命者</text></g>';
+  s+='</svg>';
+  s+='<div class="note" style="margin-top:14px"><b>卫星式群像三型</b>（缺一不可）：'
+   + '<b>对等竞争者</b>＝裴战 → 闻人驭｜<b>兜底守护导师</b>＝老周（全卷只出手三次）｜<b>喜剧调剂</b>＝九斤。'
+   + '点击任一节点查看完整档案（含属性面板、want/need、台词样本）。</div>';
+  return s;
+}
+
+/* ============================================================
+   视图 6 · 逆命值账本
+   ============================================================ */
+function viewLedger(){
+  let s='<div class="note"><b>递减规则</b>：同一次进入副本内，重复同一种大失败，结算点数<b>逐次减半</b>（1/2、1/4……最低 1 点）；跨副本重置。'
+   + '所以反复挨打刷不出钱，<b>只有换着花样输才值钱</b>。</div>';
+  const W=960,H=170,pad=40;
+  const maxV=40;
+  const px=i=>pad+i*((W-pad*2)/(LEDGER.length-1));
+  const py=v=>H-20-(v/maxV)*(H-45);
+  let pts=LEDGER.map((r,i)=>px(i)+','+py(r[4])).join(' ');
+  s+='<svg viewBox="0 0 '+W+' '+H+'" width="960" style="max-width:100%">';
+  s+='<line x1="'+pad+'" y1="'+(H-20)+'" x2="'+(W-pad)+'" y2="'+(H-20)+'" stroke="#e3e0ee"/>';
+  s+='<polyline points="'+pts+'" fill="none" stroke="#6d28d9" stroke-width="2.4"/>';
+  LEDGER.forEach((r,i)=>{
+    const big = r[6].indexOf('★')>=0 || /Catalyst|Midpoint|All Is Lost|Break|爽点|高潮|决战/.test(r[6]);
+    s+='<circle cx="'+px(i)+'" cy="'+py(r[4])+'" r="'+(big?4.5:3)+'" fill="'+(big?'#d94a4a':'#6d28d9')+'"/>';
+    if(big) s+='<text x="'+px(i)+'" y="'+(py(r[4])-((i%2===0)?9:23))+'" font-size="8.5" fill="#d94a4a" text-anchor="middle">'+r[6].replace(/\*/g,'')+'</text>';
+  });
+  s+='<text x="'+pad+'" y="14" font-size="10" fill="#8b93a7">逆命值结余曲线（上限＝10×等级）</text>';
+  s+='</svg>';
+  s+='<table style="margin-top:8px"><thead><tr>'
+   + '<th>章</th><th>地点</th><th>事件</th><th>变动</th><th>结余</th><th>等级</th><th>节拍</th></tr></thead><tbody>';
+  LEDGER.forEach(r=>{
+    const hi = /★|Catalyst|Midpoint|All Is Lost|Break|爽点|高潮|决战/.test(r[6]);
+    s+='<tr class="'+(hi?'hi':'')+'"><td class="num">'+r[0]+'</td><td>'+r[1]+'</td><td>'+md(r[2])+'</td>'
+     + '<td class="num" style="color:'+(r[3]<0?'#d94a4a':(r[3]>0?'#0e9f6e':'#8b93a7'))+'">'+(r[3]>0?'+':'')+r[3]+'</td>'
+     + '<td class="num">'+r[4]+' / '+(r[5]*10)+'</td><td>'+r[5]+'</td><td>'+md(r[6])+'</td></tr>';
+  });
+  s+='</tbody></table>';
+  s+='<div class="note" style="margin-top:14px"><b>数值骨架</b>：等级—上限—能力严格咬合——'
+   + '1 级上限 10（翻命）｜2 级上限 20（逆命之刃）｜3 级 30｜4 级 40｜<b>5 级上限 50（改判）</b>。'
+   + '第 11 章的逆命之刃在数值上不可能实现，因此改为「第二次翻命」，<b>逆命之刃的首秀移到第 18 章</b>，'
+   + '让全卷最大的爆发落在全卷最大的高潮上。</div>';
+  return s;
+}
+
+/* ============================================================
+   交互
+   ============================================================ */
+const VIEWS=[
+  ["世界地图",viewMap],["位面结构",viewPlane],["历史千层饼",viewHistory],
+  ["怪物谱系",viewSpecies],["人物关系",viewChars],["逆命值账本",viewLedger]
+];
+let cur=0;
+const stage=document.getElementById('stage'), tabs=document.getElementById('tabs');
+VIEWS.forEach((v,i)=>{
+  const b=document.createElement('button');
+  b.className='tab'+(i===0?' on':''); b.textContent=v[0];
+  b.onclick=()=>{cur=i;switchTab()};
+  tabs.appendChild(b);
+});
+function switchTab(){
+  [...tabs.children].forEach((b,i)=>b.classList.toggle('on',i===cur));
+  stage.innerHTML=VIEWS[cur][1]();
+  bind();
+  renderSide(null);
+}
+function bind(){
+  stage.querySelectorAll('.node').forEach(n=>{
+    n.onclick=()=>{
+      stage.querySelectorAll('.node').forEach(m=>m.classList.remove('sel'));
+      n.classList.add('sel');
+      const id=n.dataset.id;
+      if(id){
+        if(id==='core') return renderSide(CORE);
+        const p=PETALS.find(x=>x.id===id); if(p) return renderSide(p);
+      }
+      const cid=n.dataset.cid;
+      if(cid){
+        const c=CHARS.find(x=>x.n===cid);
+        if(c) return renderSide({name:c.n,sub:c.r,tag:null,b:c.b,
+          blocks:null});
+      }
+    };
+  });
+  stage.querySelectorAll('.gcell').forEach(g=>{
+    g.onclick=()=>{
+      stage.querySelectorAll('.gcell').forEach(m=>m.classList.remove('sel'));
+      g.classList.add('sel');
+      const sp=SPECIES[+g.dataset.sp];
+      renderSide({name:sp.n,sub:"怪物谱系",tag:[sp.c?sp.c+" 条目":"未归档"],
+        blocks:[["共同特征",sp.note],["弱点规律",sp.w],
+          ["怪物池",sp.m.map(x=>"**"+x[0]+"**（"+x[1]+"）").join("　")]]});
+    };
+  });
+}
+switchTab();
+renderSide({name:"综网 · 废柴逆命",sub:"世界地图 v1.0",tag:["花芯＝狱","7 花瓣","13 谱系","5 层历史","20 章账本"],
+  blocks:[
+    ["怎么用","点击上方标签切换六个视图；点击任意节点查看详情。"],
+    ["世界地图","莲花地图法：花芯「狱」在中心，八张花瓣地图环绕，虚线表示每次离开花瓣都必须回花芯。"],
+    ["设定来源","全部信息来自设定库 00-17 号文档；规则机制实读自本地 24 部无限流 TRPG 规则书与 D&amp;D 5e 中文核心书。"],
+    ["文档层级","冲突时优先级：07/08 &gt; 05/06 &gt; 01/02。"]
+  ]});
+</script>
+</body>
+</html>

@@ -1,0 +1,74 @@
+{
+  "_comment": "具名异族战斗覆盖表（可手改）。骨架由 dataset 的 6 档变异谱系自动推导，这里只写各自的弱点/行为/火花修正。字段：tier 基准档、hpMul 生命倍率、acMod/atkMod/initMod 数值修正、multiattack 每回合攻击次数、sparkMul 火花倍率、traits 特性（战斗层实现）。缺字段即用谱系骨架。",
+
+  "广东双马尾": {
+    "tier": "零级",
+    "hpMul": 1.5,
+    "traits": [
+      {"key": "tough", "label": "甲壳再生", "desc": "被拍裂甲壳仍能挣扎（第 5、7 章）——生命值 ×1.5"}
+    ],
+    "source": "第 5、7 章"
+  },
+  "巨蝎": {
+    "tier": "一级",
+    "acMod": -2,
+    "traits": [
+      {"key": "weakpoint", "label": "弱点·关节缝", "desc": "找关节缝——AC -2"}
+    ],
+    "source": "第 7 章"
+  },
+  "三头秃鹫": {
+    "tier": "一级",
+    "initMod": -2,
+    "multiattack": 2,
+    "traits": [
+      {"key": "multihead", "label": "三头齐喙", "desc": "每回合 2 次攻击；不主动招惹，先攻 -2"}
+    ],
+    "source": "第 7 章"
+  },
+  "掘地者": {
+    "tier": "三级",
+    "initMod": 3,
+    "traits": [
+      {"key": "ambush", "label": "潜地突袭", "desc": "从地下钻出，先攻 +3；正文建议避让"}
+    ],
+    "source": "第 27 章"
+  },
+  "变异鬣狗": {
+    "tier": "二级",
+    "traits": [
+      {"key": "weakpoint", "label": "弱点·脊背菌丝根部蓝紫节点", "desc": "命中弱点伤害 ×2", "dmgMul": 2}
+    ],
+    "source": "第 27 章"
+  },
+  "变异蜥蜴 / 巨型蜈蚣 / 变异鼠": {
+    "tier": "零级",
+    "sparkMul": 0.5,
+    "traits": [
+      {"key": "scatter", "label": "火花零星", "desc": "火花产出 ×0.5"}
+    ],
+    "source": "第 5 章"
+  },
+  "蟑螂王": {
+    "tier": "二级",
+    "multiattack": 2,
+    "traits": [
+      {"key": "commander", "label": "工头合围", "desc": "金属夹 + 跑动技能，同伴攻击 +1", "allyAtkBonus": 1}
+    ],
+    "source": "第 27 章"
+  },
+  "菌丝寄生体（多足畸形生物）": {
+    "tier": "二级",
+    "traits": [
+      {"key": "infest", "label": "菌丝寄生", "desc": "命中后附加「菌丝寄生」状态（体质 -2）", "status": "mycelium"}
+    ],
+    "source": "第 27 章"
+  },
+  "三级母体（巢穴）": {
+    "tier": "三级",
+    "traits": [
+      {"key": "weakpoint", "label": "弱点·旧伤（钢管可捅）", "desc": "猛力攻击/全力强击命中时伤害 ×2", "dmgMul": 2, "cond": ["power_attack", "allout_strong"]}
+    ],
+    "source": "第 27 章"
+  }
+}
