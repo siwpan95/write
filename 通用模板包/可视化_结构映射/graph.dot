@@ -1,0 +1,111 @@
+﻿digraph G {
+  rankdir=LR;
+  bgcolor="#ffffff";
+  fontname="Microsoft YaHei";
+  fontsize=13;
+  label="通用模板包 v3.0  ↔  《二十一世纪奇门遁甲》  结构映射图";
+  labelloc="t";
+  nodesep=0.5;
+  ranksep=1.1;
+
+  node [fontname="Microsoft YaHei", fontsize=10, style="rounded,filled", margin="0.12,0.06"];
+  edge [fontname="Microsoft YaHei", fontsize=8, color="#90a4ae", penwidth=1.2, dir=forward];
+
+  // ===== 左：通用模板包（规范 / 工序 / 空白骨架）=====
+  subgraph cluster_tpl {
+    label="通用模板包 v3.0（规范 · 工序 · 空白骨架 · 三书共享）";
+    style="filled"; fillcolor="#e8f0fe"; color="#3367d6"; penwidth=2;
+    t00 [label="00 总档与SOP", fillcolor="#d2e3fc"];
+    t01 [label="01 立项定位", fillcolor="#d2e3fc"];
+    t02 [label="02 大纲四层", fillcolor="#d2e3fc"];
+    t03 [label="03 世界观圣经", fillcolor="#d2e3fc"];
+    t04 [label="04 人物卡", fillcolor="#d2e3fc"];
+    t05 [label="05 文风卡·章节规范", fillcolor="#d2e3fc"];
+    t06 [label="06 连载护航", fillcolor="#d2e3fc"];
+    t07 [label="07 附录·实例索引", fillcolor="#d2e3fc"];
+    t08 [label="08 章节创作", fillcolor="#d2e3fc"];
+    t09 [label="09 立项书", fillcolor="#d2e3fc"];
+    t10 [label="10 节拍表·黄金三章", fillcolor="#d2e3fc"];
+    t11 [label="11 合规·一致性", fillcolor="#d2e3fc"];
+    t12 [label="12 品类流派·IP前置", fillcolor="#d2e3fc"];
+  }
+
+  // ===== 右：本书实例 =====
+  subgraph cluster_book {
+    label="《二十一世纪奇门遁甲》（实例 · 按模板落地）";
+    style="filled"; fillcolor="#fff3e0"; color="#e65100"; penwidth=2;
+
+    ov [label="作品总览.md\n（入口总览 · 唯一顶层索引）", fillcolor="#ffe0b2", shape=note, fontsize=10];
+
+    subgraph cluster_plan {
+      label="规划集（工作文档 00–12）";
+      style="filled"; fillcolor="#fffde7"; color="#f9a825";
+      b00 [label="00 新书立项书", fillcolor="#fff9c4"];
+      b01 [label="01 选题定位·市场匹配", fillcolor="#fff9c4"];
+      b04 [label="04 决策落实·术数复核", fillcolor="#fff9c4"];
+      b06 [label="06 黄金三章施工方案", fillcolor="#fff9c4"];
+      b07 [label="07 一致性校验报告", fillcolor="#fff9c4"];
+      b08 [label="08 去AI味诊断改写", fillcolor="#fff9c4"];
+      b09 [label="09 执行报告", fillcolor="#fff9c4"];
+      b10 [label="10 后续大纲节拍调整", fillcolor="#fff9c4"];
+      b11 [label="11 正文校准汇总", fillcolor="#fff9c4"];
+      b12 [label="12 落地正文合规检查", fillcolor="#fff9c4"];
+    }
+
+    subgraph cluster_bible {
+      label="bible/ 单一事实源（SSOT）";
+      style="filled"; fillcolor="#e6f4ea"; color="#2e7d32";
+      wb [label="world-bible.md\n(←原02 世界观设定集)", fillcolor="#c8e6c9"];
+      ch [label="characters/赵海.md\n(←原03 人物设计书)", fillcolor="#c8e6c9"];
+      lp [label="长弧规划.md\n(←原05 节拍表)", fillcolor="#c8e6c9"];
+      tl [label="timeline.md", fillcolor="#c8e6c9"];
+      pb [label="plot-board.md", fillcolor="#c8e6c9"];
+    }
+
+    subgraph cluster_body {
+      label="落地正文（最高基准 · 锁死）";
+      style="filled"; fillcolor="#fce4ec"; color="#c2185b";
+      body [label="第一卷_穿越者/ 分章正文", fillcolor="#f8bbd0"];
+      land [label="落地五章正文.txt\n(逐章 · B版基准)", fillcolor="#f8bbd0"];
+      nov [label="小说.txt\n(五章合集)", fillcolor="#f8bbd0"];
+    }
+
+    subgraph cluster_mat {
+      label="素材 / 归档（不删）";
+      style="filled"; fillcolor="#eceff1"; color="#607d8b";
+      mat1 [label="召唤梦魇/ (素材)", fillcolor="#cfd8dc"];
+      mat2 [label="留档_旧方案A/ (旧稿)", fillcolor="#cfd8dc"];
+      mat3 [label="补遗.txt · deepseek.md", fillcolor="#cfd8dc"];
+    }
+  }
+
+  // ===== 模板 → 实例 映射（实线）=====
+  t00 -> ov;
+  t01 -> b00;
+  t01 -> b01;
+  t09 -> b00;
+  t09 -> b09;
+  t02 -> lp;
+  t02 -> b10;
+  t03 -> wb;
+  t04 -> ch;
+  t05 -> body;
+  t05 -> b08;
+  t06 -> b07;
+  t06 -> b11;
+  t07 -> body [style="dashed", color="#9e9e9e"];
+  t08 -> body;
+  t08 -> nov;
+  t10 -> b06;
+  t10 -> lp;
+  t10 -> tl;
+  t10 -> pb;
+  t11 -> b12;
+  t11 -> b11;
+  t12 -> b12;
+
+  // ===== 内部权威关系：正文为准 · 回填设定（绿虚线）=====
+  land -> wb [style="dashed", color="#2e7d32", penwidth=1.4, label="正文为准·回填设定"];
+  land -> ch [style="dashed", color="#2e7d32", penwidth=1.4];
+  land -> lp [style="dashed", color="#2e7d32", penwidth=1.4];
+}
