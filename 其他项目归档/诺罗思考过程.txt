@@ -1,0 +1,1618 @@
+假设构建一个虚构国家，分别参考：城邦时期的罗马、中世纪时期的维京海盗、一战时期的英国、二战时期的法国以及近现代的德国
+已思考（用时 18 秒）
+我们需要回答用户中文请求：“假设构建一个虚构国家，分别参考：城邦时期的罗马、中世纪时期的维京海盗、一战时期的英国、二战时期的法国以及近现代的德国”。用户可能想要我们构建一个虚构国家，参考这些历史时期/实体。需要生成一个虚构国家设定。需要明确是虚构，不宣扬纳粹等。要处理二战法国（维希法国？自由法国？）和近现代德国（可能魏玛、联邦德国、工业科技等）。需要创意写作。可以构建国家名称、地理、历史、政治、军事、经济、文化、社会、外交、矛盾、象征等。要融合五个参考：城邦时期罗马（早期共和国/城邦、元老院、公民兵、法律、同化、道路、军团）、中世纪维京海盗（航海、劫掠、贸易、议会、北欧神话、长船、定居、冒险）、一战英国（工业帝国、海军霸权、全球殖民、堑壕战、宣传、总动员、王室、情报）、二战法国（马奇诺防线、沦陷/维希/抵抗、自由法国、装甲战思想、殖民帝国、耻辱与复兴）、近现代德国（工业4.0、联邦制、汽车/机械、哲学音乐、欧盟、军事克制、记忆文化、出口导向）。
+
+需要构建一个虚构国家。可以叫“诺维兰联合城邦”？或者“瓦兰提斯”？要独特。可能设定在一个群岛/半岛大陆，有峡湾、海港、古城、工业带。名称如“阿斯加德罗马”？不，太混。可以叫“奥雷利亚联邦”或“维斯比同盟”？要融合。建议：国名“诺德-罗曼联合共和国”？
+
+用户说“假设构建一个虚构国家，分别参考...”。可能希望我们完成这个构建。应该以结构化方式呈现。需要中文回答。可以设定：
+
+国名：海拉尔联邦（Helar Federation）？或“维斯塔-诺兰联合王国”？最好有寓意。
+
+考虑地理：位于“内海”与“北方海峡”之间，由七座核心城邦、峡湾海岸、中央平原、山地工业区组成。首都：奥古斯港？古城“罗慕路斯堡”？可以叫“卡皮托尔港”？或者“新罗慕路斯”。
+
+政治：联邦制混合政体。元老院（参考罗马）代表城邦与行业；公民大会/议会（参考维京thing和英国议会）；世袭或选举的“执政官/第一公民”与“总理/首相”；国王/总统象征统一。维京的“庭”（Thing）成为地方议会。一战英国：两院制、君主立宪、海军部、情报机构。二战法国：曾分裂为沦陷区与自由区，抵抗运动，后重建为第四/第五共和国式。近现代德国：联邦制、总理掌权、宪法法院、记忆文化。
+
+历史分期：
+
+城邦时代：七城邦，元老院、公民兵、法律十二表、道路、同化周边。
+
+维京时代：北方海盗/商人，长船，劫掠与贸易，建立海外据点，庭议会，神话。
+
+海洋帝国时代：类似一战英国，工业革命，全球殖民地，海军霸权，蒸汽舰队，堑壕战。
+
+大战与分裂：类似二战法国，被邻国入侵，防线失效，部分投降/傀儡政权，自由舰队与抵抗组织，海外殖民地继续战斗。
+
+现代：类似近现代德国，工业强国，联邦共和国，欧盟式区域一体化，军事克制，记忆文化，出口机械/汽车/化工，哲学音乐。
+
+军事：海军强（英国维京），陆军军团传统（罗马），空军/装甲（法国/德国），导弹/潜艇。兵役：公民兵+志愿职业军。军旗、条顿风格？要避免纳粹符号。可以设计：黑鹰、长船、橡叶、齿轮？但不要卐。
+
+经济：海洋贸易、造船、渔业、高科技、汽车、机械、化工、武器出口谨慎。货币：克朗？第纳尔？马克？可以“海拉尔克朗”。
+
+文化：多神教遗迹+基督教？语言混合拉丁语系和北日耳曼语。法律：罗马法+习惯法。节日：建城节、长船节、阵亡将士纪念日、抵抗日。教育：哲学、工程、音乐。体育：赛艇、足球、手球。
+
+社会：公民等级？早期贵族/平民/外邦人，现代平等但移民融合问题。福利国家。记忆政治：对殖民、海盗、战争罪行的反思。
+
+外交：海洋联盟、区域共同体、中立倾向但集体防御。与邻国关系：前宗主国/敌国？可以虚构邻国“东境帝国”、“南陆共和国”。
+
+矛盾：联邦城邦与中央、海军与陆军、殖民记忆与移民、工业出口与环保、军事克制与安全威胁。
+
+可以写成一个“国家档案”格式。要覆盖五个参考。用户可能想要“假设构建一个虚构国家，分别参考...”，所以可以给出一个完整设定，并标明参考来源。要避免直接复制真实国家。可以加一句“纯属虚构，不映射现实”。
+
+需要多长？ Desired oververbosity 5，所以适中详细。可以分节：国名与象征、地理、历史、政治、军事、经济、文化、社会、外交、内在矛盾。最后总结融合。大约1000-1500字。中文。
+
+需要确保不违反政策？没有。可以提到二战法国维希，但作为虚构参考，不宣扬合作。可以谨慎。
+
+可能构建国名：“海拉尔联邦共和国”（Helar Federal Republic）。简称海拉尔。首都“奥古斯塔港”？或者“罗慕斯港”。国歌《长船与鹰旗》。格言：“元老院与人民，海洋与自由” 类似 SPQR？但虚构：“Senatus et Populus Maritimus” 或“议会、公民与海”。象征：黑底金鹰、蓝白长船、齿轮橡叶。避免纳粹。
+
+可以更具体：
+
+国名：诺德-罗曼联邦（Nord-Roman Federation），中文“北海联邦”？首都：卡皮托利姆-奥丁港？有点混搭。最好优雅： “维罗尼亚联合共和国”（Veronia）。但太泛。
+
+建议名称：“奥雷利亚海洋联邦”（Aurelian Maritime Federation）。参考罗马的“Aurelius”？维京的海洋。首都“卡皮塔”（Capita）？或者“罗姆港”。
+
+或者“海格立斯联邦”？不。
+
+我们可称“维斯帕尼亚联邦”（Vespania）。地理：北温带群岛。七城邦：罗慕拉、奥丁堡、维克、阿尔比恩、高卢港、莱茵港、新日耳曼。历史阶段名称：
+
+七城时代（罗马城邦）
+
+长船时代（维京）
+
+海洋帝国时代（一战英国）
+
+大分裂时代（二战法国）
+
+联邦时代（近现代德国）
+
+政治：
+
+国家元首：选举产生的“执政官/第一公民”，任期6年，象征统一，无实权？或“联邦总统”。
+
+行政：总理领导内阁，向两院负责。
+
+立法：元老院（上院，城邦与行业代表，罗马+英国上院）和公民庭（下院，普选，维京Thing+英国下院）。
+
+司法：宪法法院，罗马法传统。
+
+地方：七城邦高度自治，类似德国联邦州。
+
+军事：
+
+海军：北海舰队，航母/潜艇/长船传统命名。
+
+陆军：军团制，旅级“军团”，公民兵传统。
+
+空军：技术派，装甲/导弹。
+
+情报：海洋情报局，宣传传统。
+
+战略：海权优先，集体防御，军事克制，议会监督。
+
+经济：
+
+造船、航运、保险、渔业、汽车、机械、化工、医药、清洁能源。
+
+货币：海拉尔克朗。
+
+贸易：出口导向，区域共同市场。
+
+文化：
+
+语言：拉丁-日耳曼混合语。
+
+宗教：多神教遗迹+新教/天主教，世俗化。
+
+节日：建城日、长船节、停战日、抵抗日、宪法日。
+
+艺术：史诗、航海小说、哲学、交响乐、工业设计。
+
+社会：
+
+福利高，移民融合，老龄化。
+
+记忆文化：反思海盗殖民、帝国战争、沦陷合作、抵抗。
+
+外交：
+
+区域联盟“内海共同体”，中立-集体防御，与邻国“东境帝国”有竞争。
+
+矛盾：
+
+城邦自治 vs 联邦中央
+
+海军 vs 陆军
+
+殖民记忆 vs 多元社会
+
+出口依赖 vs 安全
+
+军事克制 vs 威胁
+
+最后总结：这个虚构国家是“海洋城邦共和国”，融合罗马的法制与公民、维京的航海与议会、英国的海洋帝国、法国的沦陷与抵抗、德国的联邦工业与记忆。
+
+可以加“国名：海拉尔联邦共和国（Helar Federal Republic）”。但“海拉尔”是真实地名？海拉尔是内蒙古城市。避免。用“诺德海姆”？“诺德海姆联邦”。诺德海姆是虚构？可以。
+
+国名：“诺德海姆-罗慕拉联邦”（Nordheim-Romula Federation）？太长。简称“诺罗联邦”。首都“卡皮托尔港”。国格言：“元老院、公民与长船”。象征：金鹰立于长船舵轮，背景齿轮与橡叶。
+
+参考映射：
+
+城邦罗马：七城邦、元老院、公民权、军团、罗马法。
+
+维京：长船、劫掠贸易、庭议会、北欧神话、探险。
+
+一战英国：全球海军、殖民、堑壕、宣传、总动员。
+
+二战法国：防线失败、傀儡/自由区、抵抗、海外继续、耻辱复兴。
+
+近现代德国：联邦制、工业4.0、汽车机械、哲学音乐、记忆文化、军事克制。
+
+可以回答。需要确保“虚构国家”不映射现实。可以开头“以下为纯虚构设定”。
+
+可能用户只是给了一个假设，想让我们构建。直接输出设定。
+
+考虑是否要问澄清？不需要，直接构建。
+
+需要可能包含“分别参考”的明确标注。可以以“国家档案”形式。
+
+要小心：二战法国参考维希政权，可以写“大分裂时代：本土被占，北方设傀儡‘合作政府’，南方自由区，海外舰队与殖民地组成‘自由诺罗’，抵抗网络”。这类似维希/自由法国，但虚构。
+
+近现代德国参考：可以写“战后制定《联邦宪章》，强调人权、联邦制、议会监督军队、记忆教育”。避免纳粹符号，但可提“极权运动”作为历史创伤。不需要详细。
+
+可以写长度约1200字。可以。
+
+现在构建回答。确保中文流畅。
+
+可以这样：
+
+国名：诺德罗慕拉联邦共和国（Federal Republic of Nordromula），简称“诺罗”。
+格言：Senatus, Populus, Mare——元老院、公民与海。
+首都：卡皮托尔港。最大城市：维克港。官方语言：诺罗语（拉丁-日耳曼混合）。货币：克朗。
+
+地理：北方内海与峡湾，七城邦：罗慕拉、维克、奥丁堡、阿尔比恩、高卢港、莱茵港、新日耳曼。中央平原工业带，北方峡湾海军基地，海外群岛。
+
+历史：
+
+七城时代（罗马城邦）：七城联盟，元老院，公民兵，十二表法，道路。
+
+长船时代（维京）：航海劫掠贸易，庭议会，海外据点，神话。
+
+海洋帝国时代（一战英国）：工业革命，全球殖民地，海军霸权，总动员，堑壕。
+
+大分裂时代（二战法国）：东境帝国入侵，防线失效，本土傀儡，自由舰队抵抗，海外继续。
+
+联邦时代（近现代德国）：战后宪章，联邦制，工业复兴，区域一体化，记忆文化。
+
+政治：混合政体。元老院（上院）由城邦、行业、大学代表；公民庭（下院）普选。总理掌实权，总统/执政官象征。宪法法院。七城邦自治。
+
+军事：海军优先，北海舰队，航母潜艇；陆军军团制；空军技术；情报宣传。兵役公民兵+志愿。议会监督，军事克制。
+
+经济：造船航运保险、汽车机械化工、医药清洁能源。出口导向。福利国家。
+
+文化：多神教遗迹+基督教，世俗。节日：建城日、长船节、停战日、抵抗日、宪法日。艺术哲学音乐。
+
+社会：高福利、老龄化、移民融合。记忆文化反思海盗殖民、帝国战争、沦陷合作、抵抗。
+
+外交：内海共同体，集体防御，中立倾向，与东境帝国竞争。
+
+矛盾：城邦 vs 中央；海军 vs 陆军；殖民记忆 vs 多元；出口 vs 安全；克制 vs 威胁。
+
+结尾：这个国家像“罗马的法制骨架、维京的海洋灵魂、英国的帝国记忆、法国的抵抗叙事、德国的工业与反思”。
+
+这很好。可以添加“参考对应表”更清晰。但可能太长。可以融入。
+
+需要确保“一战英国”参考：全球殖民、海军、堑壕、宣传、总动员。已包含。
+
+“二战法国”：防线、傀儡、自由、抵抗。已包含。
+
+“近现代德国”：联邦、工业、记忆。已包含。
+
+可以。
+
+现在生成最终回答。
+
+以下是一个纯虚构设定，不映射任何现实国家或政权。
+
+国名：诺德罗慕拉联邦共和国
+简称：诺罗联邦
+格言：元老院、公民与海
+首都：卡皮托尔港
+最大城市：维克港
+官方语言：诺罗语（拉丁语系与北日耳曼语混合）
+货币：诺罗克朗
+
+地理
+诺罗位于北方内海与峡湾海岸之间，由七座核心城邦、中央工业平原、北方军港群岛和若干海外自治岛组成。七城为：罗慕拉、维克、奥丁堡、阿尔比恩、高卢港、莱茵港、新日耳曼。北方多峡湾与长船航道，南方多运河与铁路，中央是汽车、机械与化工工业带。
+
+历史分期
+七城时代：参考城邦罗马。七城结成防御同盟，设元老院，实行公民兵制，制定《十二表法》，修道路、建引水道，逐步同化周边部族。
+
+长船时代：参考中世纪维京海盗。诺罗人驾长船劫掠、贸易、探险，建立海外据点；地方“庭议会”盛行，保留北欧神话与英雄史诗传统。
+
+海洋帝国时代：参考一战英国。工业革命后建立全球殖民网络与海军霸权，蒸汽舰队巡弋内海；大战中经历总动员、堑壕战、宣传战与情报战。
+
+大分裂时代：参考二战法国。东境帝国入侵，诺罗防线失效，本土被占，北方成立傀儡“合作政府”，南方设自由区；海外舰队与殖民地组成“自由诺罗”，抵抗网络遍布城乡。
+
+联邦时代：参考近现代德国。战后制定《联邦宪章》，确立联邦制、人权保障与议会监督军队；工业复兴，推动区域一体化，并形成对战争、殖民与合作的记忆文化。
+
+政治
+诺罗是联邦制混合政体。上院称元老院，由七城邦、行业公会、大学与海外领地代表组成；下院称公民庭，由普选产生。总理掌握实权，总统或称“第一执政官”为国家象征。宪法法院负责违宪审查。七城邦高度自治，类似联邦州。
+
+军事
+海军优先，称“北海舰队”，拥有航母、潜艇与远洋补给舰，舰名多取自长船与神话。陆军保留“军团”编制，实行公民兵与志愿兵混合制。空军与导弹部队重视技术。情报与宣传机构历史悠久。军队受议会监督，总体保持军事克制，但保留集体防御权。
+
+经济
+造船、航运、保险、渔业是传统支柱；汽车、机械、化工、医药、清洁能源是现代支柱。出口导向明显，福利制度完善，货币诺罗克朗在内海共同体中流通。
+
+文化与社会
+宗教为多神教遗迹与基督教混合，现代高度世俗化。节日包括建城日、长船节、停战日、抵抗日与宪法日。艺术上兼具史诗、航海小说、哲学、交响乐与工业设计。社会高福利、老龄化、移民融合问题突出。记忆文化反思海盗殖民、帝国战争、沦陷合作与抵抗运动。
+
+外交与矛盾
+诺罗主导“内海共同体”，倾向中立与集体防御，与东境帝国长期竞争。内部矛盾包括：城邦自治 vs 联邦中央、海军 vs 陆军、殖民记忆 vs 多元社会、出口依赖 vs 安全风险、军事克制 vs 外部威胁。
+
+总体而言，这个虚构国家像是一个拥有罗马法制骨架、维京海洋灵魂、英国帝国记忆、法国抵抗叙事、德国工业与反思精神的北方联邦共和国。
+
+本回答由 AI 生成，内容仅供参考，请仔细甄别
+从货币、对外形象、国歌等（包括且不限于我提出的三个方面）出发完善缺失信息
+已思考（用时 23 秒）
+我们需要回答用户中文请求。用户之前要求构建虚构国家，参考城邦罗马、中世纪维京、一战英国、二战法国、近现代德国。我给了设定。现在用户说：从货币、对外形象、国歌等（包括且不限于我提出的三个方面）出发完善缺失信息。需要完善缺失信息，涵盖货币、对外形象、国歌，包括但不限于这三个方面。需要继续虚构设定。应该保持不映射现实。要详细。可以构建更完整：货币设计、面额、符号、硬币图案、汇率、央行；对外形象：国家品牌、刻板印象、外交宣传、旅游口号、软实力、国际角色、负面形象；国歌：歌词、曲风、创作背景、官方版本、争议；还可以补充国旗国徽、国家格言、勋章、护照、签证、邮政、教育、媒体、体育、饮食、交通、法律、节假日、时区、域名、国际组织、情报机构、王室/总统官邸、军事象征、殖民历史纪念、对外政策、国家叙事、国家元首、政府架构细节等。用户要求“完善缺失信息”，所以可以列很多方面。最好结构化。要确保与已有设定一致：诺德罗慕拉联邦共和国，简称诺罗联邦，格言“元老院、公民与海”，首都卡皮托尔港，最大城市维克港，官方语言诺罗语，货币诺罗克朗。现在完善货币：诺罗克朗 (Noro Krona, 符号 ₦K? 或 NKr)。注意克朗通常北欧。可设 ISO 代码 NRK。辅币 100 厄尔（øre/aurar）。硬币 1,2,5,10,20,50 厄尔，1,2,5,10,20 克朗；纸币 20,50,100,200,500,1000,2000 克朗。央行：诺罗联邦中央银行（元老院银行？）设在卡皮托尔港，七城邦有分行。货币图案：1 克朗长船，5 克朗引水道，10 克朗元老院，20 克朗灯塔，50 克朗自由诺罗抵抗，100 克朗工业，200 克朗峡湾，500 克朗议会，1000 克朗宪法。防伪：水印长船、全息符文、盲文。汇率：与内海共同体一篮子挂钩，1 NRK ≈ 0.9 国际单位？可以模糊。货币政策：独立央行，通胀目标 2%，主权财富基金“长船基金”。历史：从银币第纳里乌斯到克朗，大分裂时期自由诺罗发行“自由克朗”，战后统一。
+
+对外形象：官方品牌“诺罗：元老院、公民与海”。国际形象：稳定、守法、海军强、福利好、工业精良、爱航海、谨慎中立、记忆反思。旅游口号：“七城之间，一海之上”或“从长船到星辰”。软实力：造船设计、电影、音乐、教育、清洁能源、和平调解。负面：海盗历史浪漫化争议、殖民赔偿、合作政府污点、官僚迟缓、城邦分裂、排外民粹。外交：内海共同体主导，中立不结盟但集体防御，与东境帝国竞争。公共外交：诺罗学院、长船奖学金、维京文化节但去暴力化。国家元首：第一执政官。国旗：深蓝底，金色七芒星与白色长船？国徽：盾徽上长船与元老院柱，两侧狼与渡鸦？可以补充。
+
+国歌：名称《北海与元老院》或《公民与海》。曲风：庄严肃穆、铜管与男声合唱，中段有北欧民谣调式。歌词：三节，第一节七城，第二节长船，第三节抵抗与联邦。官方语言诺罗语，有维京语和拉丁语混合。创作背景：联邦时代 19XX 年从旧军歌和抵抗歌曲改编。争议：原歌词有帝国扩张词句，后修改。官方版本无宗教、无侵略。可以给歌词中文意译。不要过长？可以。
+
+其他缺失：国旗、国徽、国家格言、国花国树国兽、国石、国鸟、国歌、国庆、行政区划、人口、民族、宗教、时区、电话区号、互联网域名、驾驶方向、电压、度量衡、教育、媒体、体育、饮食、交通、假期、护照、签证、勋章、国家元首、政府、议会、司法、政党、选举、外交、军事细节、情报、警察、监狱、福利、税收、GDP、产业、资源、环境、气候、城市、地标、大学、博物馆、艺术、文学、电影、音乐、美食、民俗、语言、姓名、历法、科技、航天、核政策、中立、国际组织。可以分类。
+
+用户要“包括且不限于我提出的三个方面”，所以最好回答“以下为补充设定”，并涵盖货币、对外形象、国歌，再扩展其他缺失信息。可以保持虚构，不映射现实。注意不要用真实国家敏感？参考可以，但已虚构。
+
+需要控制篇幅，但可以长。Desired oververbosity 5，但用户要求完善，可以详细。可以分块。
+
+应该明确“以下仍为纯虚构设定”。可设：
+
+国名：诺德罗慕拉联邦共和国
+
+英文：Nordromula Federal Republic
+
+代码：NR / NRF
+
+货币：诺罗克朗 NRK，符号 ₭? 常用 NKr。辅币厄尔。央行。硬币纸币。汇率。
+
+对外形象：官方叙事、国际标签、旅游口号、公共外交、软实力、负面形象、外交定位。
+
+国歌：《海与元老院》（Havet och Senaten? 诺罗语：Mare et Senatus? 混合）。歌词中文意译。曲式。官方版本。争议。
+
+国旗国徽：国旗：深海蓝底，中央金色七芒星，下方白色长船剪影，左上角元老院柱？国徽：盾徽。
+
+国家象征：国兽：北狼与渡鸦；国树：橡树；国花：海石竹；国鸟：海雕；国石：花岗岩。
+
+国庆与节日：建城日 4月21？长船节 6月？停战日 11月11？抵抗日 5月8？宪法日 10月3？可以虚构。
+
+政治补充：第一执政官、总理、元老院、公民庭、宪法法院、政党。
+
+军事补充：军旗、军歌、军衔、兵役。
+
+社会补充：人口、民族、语言、宗教、教育、媒体、体育、饮食。
+
+国际与争议。
+
+其他：护照、签证、域名 .nr、电话 +47？时区 UTC+1？驾驶右行？电压 230V？度量衡公制。可以。
+
+注意可能太杂。但用户要求完善缺失信息，可以覆盖。
+
+可以以“补充设定包”形式。
+
+需要小心：货币符号“₭”是基普符号，别用。诺罗克朗符号可设“NKr”或“₦”？“₦”是奈拉。可以用“Nkr”。ISO NRK。辅币“厄尔”符号 ø。面额。硬币材质。纸币人物：不印真实人，只印象征：长船、引水道、元老院、灯塔、抵抗者无名像、工厂、峡湾、议会、宪法。央行名：诺罗联邦中央银行（FFB?）。货币政策。
+
+对外形象：
+
+官方品牌：“元老院、公民与海”
+
+国际媒体常见称呼：“北方海军共和国”“七城联邦”“峡湾罗马”
+
+旅游口号：“七城一海，千年一舟”
+
+公共外交：诺罗学院、长船奖学金、内海电影节、维京和平船队。
+
+国家品牌：可靠、守法、克制、工艺、福利、海军、中立调解。
+
+负面：海盗浪漫化、殖民赔偿拖延、合作政府记忆分裂、官僚、城邦优越感、移民融合。
+
+外交：内海共同体核心，集体中立，与东境帝国竞争，参与国际维和与航运安全。
+
+国歌：
+名称《海与元老院》（诺罗语：Mare ok Senat? 可设“Mare et Senatus”太拉丁。诺罗语混合：Havet ok Senaten）。中文《海与元老院》。曲：进行曲中板，铜管、定音鼓、男声合唱，中段民谣。歌词三节：
+
+七城立于峡湾，元老院倾听公民，橡树与花岗岩，自由之法。
+
+长船越过冷海，不惧风暴与远方，但我们带回的是贸易与歌，不是锁链。
+
+沦陷之夜有火，自由诺罗在海上，宪法重立之日，海与元老院同在。
+副歌：海与元老院，公民与风，诺罗永不沉没，只要法在人心。
+争议：旧版有“帝国之浪”被删，海盗节有时唱旧词。
+
+其他缺失：
+
+国旗：深蓝底，金色七芒星，白色长船，左下角红白抵抗条纹？可设。
+
+国徽：盾徽，四象限：元老院柱、长船、灯塔、齿轮；两侧北狼与渡鸦；下方格言。
+
+国家格言：元老院、公民与海。
+
+国歌如上。
+
+国花：海石竹；国树：橡树；国兽：北狼；国鸟：白尾海雕；国石：花岗岩。
+
+首都：卡皮托尔港；最大城市：维克港。
+
+行政区：七城邦 + 中央工业平原 + 北方军港群岛 + 海外自治岛。
+
+人口：约 3800 万？可以。民族：诺罗人 78%，北境原住民 7%，移民 15%。语言：诺罗语官方，英语/德语/拉丁语？可设通用。
+
+宗教：世俗化，多神教复兴 12%，基督教 35%，无宗教 48%，其他 5%。
+
+时区：UTC+1，夏令时 +2。电话 +47？域名 .nr。驾驶右行。电压 230V。公制。
+
+政治：联邦议会两院。第一执政官（总统）礼仪与危机协调，总理实权。选举：下院比例代表，上院城邦与行业。政党：公民联盟、长船党、联邦绿党、工人阵线、自治同盟。
+
+司法：宪法法院、最高法院、行政法院。
+
+军事：诺罗联邦军，海军北海舰队，陆军军团，空军，海岸卫队。兵役 6-9 个月。军费 GDP 2%。核政策：无核但有民用核？或“不首先”无核。可以。
+
+经济：GDP 约 1.8 万亿国际单位，人均 4.7 万。产业：造船、航运、保险、汽车、机械、化工、医药、清洁能源、渔业。货币 NRK。主权基金长船基金。
+
+社会：福利、教育免费、大学：罗慕拉大学、维克海事学院、奥丁堡理工大学。媒体：诺罗广播公司、公民报、长船新闻。体育：足球、手球、帆船、冬季两项。饮食：黑麦面包、腌鱼、羊肉、根菜、啤酒、咖啡。
+
+文化：节日：建城日 4/21，长船节 6/15，停战日 11/11，抵抗日 5/8，宪法日 10/3。艺术：史诗《七城之歌》《长船萨迦》，交响乐，电影。博物馆：元老院博物馆、抵抗博物馆、海盗与殖民反思馆。
+
+国际：内海共同体，中立不结盟，集体防御，与东境帝国竞争。护照免签？可以。
+
+争议：殖民赔偿、合作政府、海盗浪漫化、城邦分裂、移民。
+
+可以组织成“补充设定包”。开头：以下仍为纯虚构。然后一、货币；二、对外形象；三、国歌；四、国家象征；五、政治法律；六、军事；七、社会文化；八、外交与争议。这样全面。
+
+需要确保与之前不矛盾。之前货币“诺罗克朗”已定。现在可以细化。之前首都卡皮托尔港，最大城市维克港，官方语言诺罗语，格言。好。
+
+可以给国歌歌词中文意译，不要真实歌曲。可以短。
+
+注意“近现代德国”参考，国歌风格可以庄重，有争议歌词修改。货币克朗类似北欧。对外形象可以类似英国？好。
+
+可以添加“缺失信息”包括：国家代码、国际域名、时区、电话区号、驾驶方向、电压、国庆、护照。可以。
+
+回答用中文。不要问问题，直接给。可以写“以下为诺罗联邦补充设定包”。长度适中，可能 1500-2500 字。Desired oververbosity 5，但可以更长。需要平衡。用户要求完善缺失信息，可以详细但不必太夸张。可以约 2000 字。
+
+需要确保不涉及现实政治敏感。虚构。
+
+可以开始：
+
+以下仍为纯虚构设定，不映射任何现实国家。
+
+一、货币：诺罗克朗
+
+全称：诺罗联邦克朗（Noro Federal Krona）
+
+符号：Nkr；ISO：NRK；辅币：厄尔（øre，符号 ø），1 克朗=100 厄尔。
+
+央行：诺罗联邦中央银行，卡皮托尔港，七城邦分行。独立，通胀目标 2%。
+
+硬币：1、2、5、10、20、50 厄尔；1、2、5、10、20 克朗。图案：长船、橡树、引水道、狼头、渡鸦、七芒星。
+
+纸币：20、50、100、200、500、1000、2000 克朗。正面象征：20 长船，50 引水道，100 元老院，200 灯塔，500 无名抵抗者，1000 工业齿轮，2000 宪法。防伪：水印长船、全息符文、盲文、变色油墨。
+
+历史：七城银币→长船银第纳尔→海洋帝国金克朗→大分裂自由克朗→联邦克朗。
+
+汇率：与内海共同体一篮子挂钩，1 NRK≈0.9 国际记账单位；主权基金“长船基金”。
+
+二、对外形象
+
+官方品牌：元老院、公民与海。
+
+国际常见称呼：北方海军共和国、七城联邦、峡湾罗马。
+
+旅游口号：“七城一海，千年一舟”；“从长船到星辰”。
+
+公共外交：诺罗学院、长船奖学金、内海电影节、维京和平船队、航运安全倡议。
+
+国家形象：可靠、守法、克制、工艺精良、福利完善、海军强、中立调解者。
+
+负面形象：海盗历史浪漫化、殖民赔偿拖延、合作政府记忆分裂、官僚迟缓、城邦优越感、移民融合争议。
+
+外交定位：内海共同体核心，中立不结盟但集体防御，与东境帝国长期竞争，参与维和与航运安全。
+
+三、国歌
+
+名称：《海与元老院》（诺罗语：Havet ok Senaten）
+
+曲风：中板进行曲，铜管、定音鼓、男声合唱，中段北欧民谣调式。
+
+创作：联邦时代由旧军歌、抵抗歌曲与民谣改编，官方版删去帝国扩张词句。
+
+歌词中文意译：
+第一节：七城立于峡湾，元老院倾听公民；橡树与花岗岩，自由之法长存。
+第二节：长船越过冷海，不惧风暴与远方；带回贸易与歌，不带回锁链。
+第三节：沦陷之夜有火，自由诺罗在海上；宪法重立之日，海与元老院同在。
+副歌：海与元老院，公民与风；诺罗永不沉没，只要法在人心。
+
+争议：旧版有“帝国之浪”等词，海盗节偶唱旧词；学校只教官方三节。
+
+四、国家象征
+
+国旗：深海蓝底，中央金色七芒星，下方白色长船剪影，左下红白细条纹代表抵抗。
+
+国徽：盾徽四象限：元老院柱、长船、灯塔、齿轮；两侧北狼与渡鸦；下方格言。
+
+国兽：北狼；国鸟：白尾海雕；国树：橡树；国花：海石竹；国石：花岗岩。
+
+国庆：建城日 4 月 21 日；宪法日 10 月 3 日；停战日 11 月 11 日；抵抗日 5 月 8 日；长船节 6 月 15 日。
+
+五、政治与法律补充
+
+国家元首：第一执政官，礼仪与危机协调，可连任一次。
+
+政府首脑：总理，公民庭多数产生。
+
+议会：元老院（上院，七城邦、公会、大学、海外领地代表）与公民庭（下院，比例代表）。
+
+司法：宪法法院、最高法院、行政法院。
+
+政党：公民联盟、长船党、联邦绿党、工人阵线、自治同盟。
+
+选举：公民庭四年一选，元老院六年改选三分之一。
+
+六、军事补充
+
+军队：诺罗联邦军。海军“北海舰队”优先，航母、潜艇、远洋补给舰；舰名取自长船与神话。
+
+陆军：军团编制，公民兵与志愿兵混合。空军与导弹部队技术优先。
+
+兵役：6-9 个月，可替代服务。军费约 GDP 2%。无核武器，民用核能受监管。
+
+情报：联邦情报局与海军情报处，受议会监督。
+
+七、社会文化补充
+
+人口：约 3800 万。民族：诺罗人 78%，北境原住民 7%，移民 15%。
+
+语言：诺罗语官方，通用英语、拉丁语、北日耳曼语。宗教：无宗教 48%，基督教 35%，多神教复兴 12%，其他 5%。
+
+教育：免费公立，罗慕拉大学、维克海事学院、奥丁堡理工大学。
+
+媒体：诺罗广播公司、公民报、长船新闻。
+
+体育：足球、手球、帆船、冬季两项。饮食：黑麦面包、腌鱼、羊肉、根菜、啤酒、咖啡。
+
+艺术：史诗《七城之歌》《长船萨迦》，抵抗文学，工业设计，交响乐。
+
+八、其他代码与生活
+
+国家代码：NR；互联网域名 .nr；电话 +47；时区 UTC+1，夏令时 +2；驾驶右行；电压 230V；公制。
+
+护照：深蓝封面，金色七芒星与长船，内页印七城与宪法序言。
+
+签证：内海共同体免签，对东境帝国有条件签证。
+
+九、主要矛盾
+
+城邦自治 vs 联邦中央；海军 vs 陆军；殖民记忆 vs 多元社会；出口依赖 vs 安全风险；军事克制 vs 外部威胁；海盗浪漫化 vs 历史反思。
+
+最后总结：这样诺罗联邦在货币、对外形象、国歌等层面更完整。可以。
+
+需要确保不重复太多。可以。现在写最终回答。
+
+以下仍为纯虚构设定，不映射任何现实国家或政权。
+
+一、货币：诺罗克朗
+全称：诺罗联邦克朗
+符号：Nkr
+ISO 代码：NRK
+辅币：厄尔（øre，符号 ø），1 克朗 = 100 厄尔
+央行：诺罗联邦中央银行，设在卡皮托尔港，七城邦设分行。央行独立，通胀目标 2%。
+
+硬币面额：1、2、5、10、20、50 厄尔；1、2、5、10、20 克朗。
+图案包括：长船、橡树、引水道、狼头、渡鸦、七芒星。材质从青铜到镍黄铜，高面额硬币边缘刻诺罗语格言。
+
+纸币面额：20、50、100、200、500、1000、2000 克朗。
+正面象征：
+
+20：长船与峡湾
+
+50：罗马式引水道
+
+100：元老院柱廊
+
+200：北方灯塔
+
+500：无名抵抗者剪影
+
+1000：工业齿轮与铁路
+
+2000：宪法与七城地图
+
+防伪特征：水印长船、全息符文、变色油墨、盲文标记。
+历史脉络：七城银币 → 长船银第纳尔 → 海洋帝国金克朗 → 大分裂时期“自由克朗” → 联邦克朗。
+汇率：与内海共同体一篮子货币挂钩，1 Nkr 约合 0.9 国际记账单位。主权财富基金称“长船基金”。
+
+二、对外形象
+官方品牌：元老院、公民与海。
+国际常见称呼：北方海军共和国、七城联邦、峡湾罗马。
+旅游口号：“七城一海，千年一舟”；“从长船到星辰”。
+
+公共外交工具：
+
+诺罗学院：海外语言与文化机构
+
+长船奖学金：面向内海与海外领地学生
+
+内海电影节：偏爱航海、抵抗与记忆题材
+
+维京和平船队：以传统长船复制品进行文化交流
+
+航运安全倡议：主导反海盗与海上救援合作
+
+国家形象：可靠、守法、克制、工艺精良、福利完善、海军强大、中立调解者。
+负面形象：海盗历史浪漫化、殖民赔偿拖延、合作政府记忆分裂、官僚迟缓、城邦优越感、移民融合争议。
+外交定位：内海共同体核心，中立不结盟但保留集体防御权，与东境帝国长期竞争，参与国际维和与航运安全。
+
+三、国歌
+名称：《海与元老院》（诺罗语：Havet ok Senaten）
+曲风：中板进行曲，铜管、定音鼓与男声合唱，中段转北欧民谣调式。
+创作背景：联邦时代由旧军歌、抵抗歌曲与民谣改编，官方版删去帝国扩张词句。
+
+歌词中文意译：
+
+第一节：
+七城立于峡湾，元老院倾听公民；
+橡树与花岗岩，自由之法长存。
+
+第二节：
+长船越过冷海，不惧风暴与远方；
+带回贸易与歌，不带回锁链。
+
+第三节：
+沦陷之夜有火，自由诺罗在海上；
+宪法重立之日，海与元老院同在。
+
+副歌：
+海与元老院，公民与风；
+诺罗永不沉没，只要法在人心。
+
+争议：旧版有“帝国之浪”等扩张词句，海盗节偶有人唱旧词；学校只教官方三节。
+
+四、国家象征补充
+国旗：深海蓝底，中央金色七芒星，下方白色长船剪影，左下角红白细条纹代表抵抗。
+国徽：盾徽四象限为元老院柱、长船、灯塔、齿轮；两侧北狼与渡鸦；下方格言。
+国兽：北狼。
+国鸟：白尾海雕。
+国树：橡树。
+国花：海石竹。
+国石：花岗岩。
+
+主要节日：
+
+建城日：4 月 21 日
+
+长船节：6 月 15 日
+
+宪法日：10 月 3 日
+
+停战日：11 月 11 日
+
+抵抗日：5 月 8 日
+
+五、政治与法律补充
+国家元首：第一执政官，礼仪与危机协调，可连任一次。
+政府首脑：总理，由公民庭多数产生。
+议会：元老院为上院，由七城邦、行业公会、大学与海外领地代表组成；公民庭为下院，比例代表选举。
+司法：宪法法院、最高法院、行政法院。
+主要政党：公民联盟、长船党、联邦绿党、工人阵线、自治同盟。
+选举：公民庭四年一选，元老院六年改选三分之一。
+
+六、军事补充
+军队：诺罗联邦军。
+海军：北海舰队优先，拥有航母、潜艇与远洋补给舰，舰名取自长船与神话。
+陆军：军团编制，公民兵与志愿兵混合。
+空军与导弹部队：技术优先，强调防御与预警。
+兵役：6—9 个月，可申请替代服务。
+军费：约 GDP 的 2%。
+核政策：无核武器，民用核能受严格监管。
+情报：联邦情报局与海军情报处，受议会监督。
+
+七、社会文化补充
+人口：约 3800 万。
+民族：诺罗人 78%，北境原住民 7%，移民 15%。
+语言：诺罗语为官方语言，通用英语、拉丁语与北日耳曼语。
+宗教：无宗教 48%，基督教 35%，多神教复兴 12%，其他 5%。
+教育：免费公立教育，著名学府有罗慕拉大学、维克海事学院、奥丁堡理工大学。
+媒体：诺罗广播公司、公民报、长船新闻。
+体育：足球、手球、帆船、冬季两项。
+饮食：黑麦面包、腌鱼、羊肉、根菜、啤酒、咖啡。
+艺术：史诗《七城之歌》《长船萨迦》，抵抗文学，工业设计，交响乐。
+
+八、其他代码与生活信息
+国家代码：NR
+互联网域名：.nr
+电话区号：+47
+时区：UTC+1，夏令时 UTC+2
+驾驶方向：右行
+电压：230V
+度量衡：公制
+护照：深蓝封面，金色七芒星与长船，内页印七城与宪法序言。
+签证：内海共同体免签，对东境帝国有条件签证。
+
+九、主要矛盾
+城邦自治 vs 联邦中央；海军 vs 陆军；殖民记忆 vs 多元社会；出口依赖 vs 安全风险；军事克制 vs 外部威胁；海盗浪漫化 vs 历史反思。
+
+这样，诺罗联邦在货币、对外形象、国歌之外，也补全了国家象征、政治、军事、社会、生活代码与核心矛盾，整体更像一个完整虚构国家。
+
+本回答由 AI 生成，内容仅供参考，请仔细甄别
+（這是一個純粹的虛構的世界觀設定，與現實世界無關！） 請用英文（行政區名字，格言，國歌用德語）仿照維護百科介紹一個位於非洲之角東南部的一個國家（整體意識形態屬於民主憲政社會偏社會主義）.md
+MD 12.63KB
+与目前讨论的所有内容结合
+已思考（用时 22 秒）
+我们需要回答用户。用户给了一个文件，里面是之前元宝生成的虚构国家Tserena的维基百科介绍和宪法序言草案。用户说“与目前讨论的所有内容结合”。需要理解：目前讨论包括之前我们构建的诺德罗慕拉联邦（参考罗马、维京、一战英国、二战法国、近现代德国）以及现在文件中的Tserena（非洲之角东南部，民主宪政社会偏社会主义，英文行政名/格言/国歌德语）。用户要求“与目前讨论的所有内容结合”。可能希望将两个虚构国家设定结合？还是把目前讨论的所有内容（诺罗联邦 + Tserena）整合？需要判断。
+
+用户最后消息：给了文件，内容是Tserena的维基介绍和宪法序言草案，然后说“与目前讨论的所有内容结合”。这可能是要求我们把之前诺罗联邦的完善信息（货币、对外形象、国歌等）与Tserena的设定结合？但两个国家在不同地理位置，意识形态不同。也许用户希望用“目前讨论的所有内容”来完善Tserena，即把之前给诺罗补充的维度（货币、对外形象、国歌、国家象征、政治法律、军事、社会文化、代码、矛盾）应用到Tserena，同时保留Tserena的非洲之角东南部、民主宪政社会偏社会主义、英文行政名/格言/国歌德语。也可能希望将两个虚构国家建立关系？需要仔细。
+
+用户文件标题：“（這是一個純粹的虛構的世界觀設定，與現實世界無關！） 請用英文（行政區名字，格言，國歌用德語）仿照維護百科介紹一個位於非洲之角東南部的一個國家（整體意識形態屬於民主憲政社會偏社會主義）.md” 内容包含Tserena维基介绍、宪法序言草案。然后用户说“与目前讨论的所有内容结合”。可能意思是：把当前对话中关于诺罗联邦的补充（货币、对外形象、国歌等）与Tserena的宪法序言结合，生成一个更完整的Tserena条目？但Tserena已经有国歌德语、格言德语。需要结合“目前讨论的所有内容”可能包括：诺罗联邦的详细货币设计、对外形象、国歌歌词、国家象征、政治军事社会代码矛盾，以及Tserena的维基条目和宪法序言。需要输出一个整合版，可能是Tserena的完整维基百科条目，包含之前诺罗补充的所有维度，但适配Tserena的非洲之角、社会民主、德语格言国歌、英文行政名。同时可能保留诺罗的参考元素？不，Tserena是另一个国家。结合可能意味着：用之前完善诺罗的方法论（货币、对外形象、国歌、象征、政治、军事、社会、代码、矛盾）来补全Tserena，并纳入宪法序言草案。还要注意语言要求：英文（行政区名字，格言，国歌用德语）。所以输出应该主要是英文，行政区名字用德语？原文说“英文（行政區名字，格言，國歌用德語）”，意思是介绍用英文，行政区名字、格言、国歌用德语。但Tserena的行政区名字目前是英文（Haddar Coast Region等）。需要改成德语行政区名字？可能。格言和国歌已经是德语。需要保留。
+
+我们需要生成一个“结合目前讨论所有内容”的Tserena完整维基百科式条目，英文，包含：Overview表、地理、行政区划（德语名字）、政治与意识形态、宪法序言（可引用草案）、格言、国歌（德语歌词）、国家象征、货币、对外形象、军事、社会文化、历史、经济、外交、代码生活信息、主要矛盾、参见。可能还要提到与诺罗联邦的虚构关系？但“与目前讨论的所有内容结合”可能包括诺罗联邦的设定作为“姊妹虚构国家”或参考？但两个国家相距远。也许可以加一个“与诺罗联邦的虚构外交关系”小节？不过用户没明确要求跨国关系。为了安全，可以说明：以下将Tserena原有设定与前一虚构国家诺罗联邦的完善框架结合，即用同样的维度补全Tserena，并保留其非洲之角东南部与社会民主定位；不强行把两国合并。这样合理。
+
+需要输出英文维基百科风格。注意“行政区名字用德语”。需要为6个Region和2个Federal City Districts起德语名字。可以基于原名转写：Haddar Coast Region -> Haddar-Küstenregion; Aroun Highlands -> Aroun-Hochland; Selan -> Selan-Region; Mireb -> Mireb-Steppe? 但行政区应Region。Kereb Coastal -> Kereb-Küstenregion; Ghesh Plateau -> Ghesh-Plateau; Federal City District of New Haddar -> Bundesstadtdistrikt Neu-Haddar; Port Sefu -> Bundesstadtdistrikt Port Sefu. 注意德语名词。保留英文介绍。
+
+需要包括货币：Tseren shilling (TSR)。可以细化符号、辅币、央行、面额、防伪、历史、汇率。对外形象：品牌、口号、公共外交、正面负面、外交定位。国歌德语歌词保留并可能加翻译。国家象征：国旗、国徽、国兽、国鸟、国树、国花、国石、节日。政治法律：元首、政府、议会、司法、政党、选举。军事：军队、海军？Tserena是沿海国家，可以有海岸警卫队/海军。社会文化：人口、民族、语言、宗教、教育、媒体、体育、饮食、艺术。代码：国家代码、域名、电话区号、时区、驾驶、电压、度量衡、护照签证。主要矛盾。宪法序言草案可摘要或引用。要“结合目前讨论的所有内容”，所以要把诺罗补充的维度都映射到Tserena，但内容要适配Tserena：社会民主、合作社、中立人道港口、非洲之角。货币可以叫Tseren shilling，符号TSh? 但已有TSR。辅币cent? 1 shilling = 100 cents. 央行：Central Bank of Tserena. 硬币图案：波浪、书、橡树？Tserena象征是波浪破开书本。可以设计。纸币面额：10,20,50,100,200,500,1000 shillings. 防伪：水印波浪书本、全息盐晶、变色油墨、盲文。历史：盐风战争纪念币、合作社、宪法。汇率：与一篮子挂钩。主权基金：“盐风基金”或“公民信托基金”。对外形象：口号“自由、平等、团结”；“海岸与高地，共治之海”。公共外交：Tserena学院、盐风奖学金、Guardafui电影节、人道港口倡议。负面：合作社官僚、土地信托争议、移民、中立争议。军事：Tserena Defence Force，海岸警卫队优先，无核，兵役？社会民主可能替代服务。军费1.5%。情报受监督。国家象征：国旗靛蓝与赭色，波浪破书。国兽：？非洲之角：阿拉伯狒狒？国鸟：海雕？国树：金合欢。国花：沙漠玫瑰。国石：玄武岩。节日：盐风战争纪念日、宪法日、合作社日、海岸日、人道港口日。政党：公民团结党、社会民主联盟、合作社绿党、海岸自治运动、青年公民阵线。选举：四年，比例+地方。宪法序言可放一个“Constitutional Preamble (Draft)”节，引用核心段落。主要矛盾：中立 vs 区域安全、合作社 vs 市场、土地信托 vs 私人产权、中央 vs 区域、移民融合、德语仪式语言 vs 本土语言。注意官方语言Tseren和English，德语是仪式语言？格言和国歌德语。可以说明德语为“ceremonial/cultural language”用于格言国歌。行政区名字德语是仪式性行政名称？可以。
+
+需要保持英文，行政名德语，格言国歌德语。输出结构清晰。不要过长但覆盖所有维度。Desired oververbosity 5。可以给一个完整条目。可能需要加“Note: This is a fictional setting.” 开头。
+
+需要提及“与目前讨论的所有内容结合”：可以加一个“Integration note”说明本条目将Tserena原始维基条目与宪法序言草案，以及此前用于完善诺罗联邦的维度（货币、对外形象、国歌、象征、政治、军事、社会、代码、矛盾）合并，适配Tserena。这样用户知道。
+
+现在构建答案。需要英文为主。行政名字用德语。格言国歌德语。可能包括表格。要维基百科风格。不要用中文太多，除了说明。最终输出英文条目。需要包含宪法序言草案摘要。可以引用关键句。要避免现实映射声明。注意“非洲之角东南部”地理位置。货币Tseren shilling。国歌歌词保留德语四节，但可以只列三节？文件有四节。保留全部。翻译note。行政区划德语名字。政治意识形态民主宪政社会偏社会主义。宪法序言草案可列Article I-VI摘要。要结合诺罗补充的“代码与生活信息”。还需要“对外形象”节。可以叫“International image and public diplomacy”。军事节。主要矛盾节。参见节。最后注明虚构。
+
+需要确保行政名字德语：Region -> Region; Federal City District -> Bundesstadtdistrikt. 列表：
+
+Haddar-Küstenregion (capital: Neu-Haddar)
+
+Aroun-Hochlandregion (capital: Tela-Mir)
+
+Selan-Region (capital: Askor)
+
+Mireb-Steppenregion (capital: Dabba-Nur)
+
+Kereb-Küstenregion (capital: Buryo)
+
+Ghesh-Plateau-Region (capital: Ado-Kele)
+
+Bundesstadtdistrikt Neu-Haddar
+
+Bundesstadtdistrikt Port Sefu
+注意“wored-style”可保留。德语名字可以加英文括号。格言：Freiheit, Gleichheit, Solidarität. 国歌：„Lied der Küste“. 货币：Tseren shilling (TSR; symbol TSh? 文件用TSR，符号可TSh)。辅币：cent (1 TSR=100 cents). 央行：Central Bank of Tserena (Zentralbank von Tserena?) 行政名德语但机构英文？可以。纸币面额：10,20,50,100,200,500,1000. 硬币：1,2,5,10,20,50 cents; 1,2,5 TSR. 图案：wave, open book, salt crystal, acacia, highland terraces, cooperative hands, Constitutional Palace. 防伪：watermark wave-and-book, holographic salt crystal, colour-shifting ink, Braille. 汇率：pegged to a basket of regional currencies and IMF SDR-like unit? 虚构“Guardafui Basket Unit (GBU)”. 主权基金：Salt Winds Fund / Bürgerlicher Treuhandfonds. 对外形象口号：“The Coast of Open Books”; “Free, Equal, Together”. 公共外交：Tserena Institute, Salt Winds Scholarship, Guardafui Humanitarium Film Festival, Open Port Initiative. 国家象征：flag indigo and ochre with white wave over open book; emblem wave breaking over open book, surrounded by acacia and salt crystal; national animal: hamadryas baboon? 或 Arabian oryx? 非洲之角有羚羊。国兽：beisa oryx. 国鸟：lappet-faced vulture? 海雕？国树：acacia. 国花：desert rose. 国石：basalt. 节日：21 March Salt Winds Day? 15 Hamra? 宪法日 1 Jan, 8 May Resistance? 可以适配：Salt Winds Victory Day (1953), First Civic Convention Day (1957), Constitutional Charter Day (1 Jan), Cooperative Day, Open Port Day. 政治：President, Prime Minister? 文件是President head of state, Citizens' Assembly unicameral, Civic Chamber. 可以加总理? 原设定没有总理，有总统和议会。保留。司法：Constitutional Court, Supreme Court, Administrative Court. 政党列表。选举：4年，混合比例+地方。军事：Tserena Defence Force (TDF), Coast Guard priority, small army, air wing, no nuclear, 6-month civic service with alternative, 1.5% GDP, intelligence under parliamentary oversight. 社会：人口9.6m, Tserenan 72%, Somali? 虚构族群：Haddar, Aroun, Selan, Mireb, Kereb, Ghesh, immigrants. 语言：Tseren, English; German ceremonial for motto/anthem/administrative names. 宗教：secular, Islam, Christianity, traditional, none. 教育免费。媒体：Tserena Broadcasting Corporation, The Civic Wave, Coast Journal. 体育：football, sailing, athletics, camel racing? 饮食：flatbread, fish stew, highland barley, coffee, frankincense? 艺术：oral poetry councils, coastal jazz, plateau weaving, constitutional theatre. 代码：NR? 已有Tserena代码TS? 文件货币TSR. 国家代码：TS; 域名 .ts; 电话 +252? 虚构 +291? 时区 UTC+3; 右行; 230V? 非洲之角常用220-240V; 公制; 护照靛蓝封面金色波浪破书; 签证：东非共同体? 虚构 Guardafui Channel Treaty Organization visa-free. 主要矛盾。宪法序言草案：列出关键条文摘要。最后“See also”。
+
+需要提及“与诺罗联邦的结合”：可以加“Cross-setting note”简短说明：本条目采用与诺罗联邦条目相同的完善框架，但保持Tserena独立；若需要可另设双边关系。不要过度。
+
+现在写答案。要英文。开头说明。用Markdown。表格。保持合理长度。
+
+Below is a consolidated, Wikipedia-style article for Tserena, merging the existing file (Overview, geography, politics, motto, anthem, constitutional preamble draft) with the same completion framework previously used for the fictional Norsorum Federation: currency, international image, national symbols, politics/law, military, society/culture, codes and daily-life data, and core contradictions. It remains a purely fictional setting and does not map onto any real state.
+
+Republic of Tserena
+From Wikipedia, the free encyclopedia (fictional universe edition)
+
+Note: This article integrates the original Tserena draft and constitutional preamble with the “missing-information” framework used earlier for the fictional Norsorum Federation. Tserena remains an independent fictional country in the southeastern Horn of Africa. Administrative division names, the motto and the anthem are given in German as requested; the main article is in English.
+
+Overview
+Field	Detail
+Official name	Republic of Tserena
+Endonym	Saldan Tserena
+Location	Southeastern Horn of Africa, Guardafui Channel coast and Indian Ocean
+Capital	Neu-Haddar (New Haddar)
+Largest city	Neu-Haddar
+Official languages	Tseren, English
+Ceremonial/cultural language	German (used for the motto, anthem and ceremonial administrative names)
+Demonym	Tserenan
+Government	Unitary democratic constitutional republic with a social-solidarity system
+Ideology	Constitutional democracy · democratic socialism · civic nationalism · cooperative economy
+Head of State	President (elected, 5-year term, maximum two terms)
+Legislature	Citizens’ Assembly (unicameral); Civic Chamber as consultative/suspensive body
+Area	approx. 187,400 km²
+Population	approx. 9.6 million
+Motto	Freiheit, Gleichheit, Solidarität
+Anthem	„Lied der Küste“ (German lyrics)
+Currency	Tseren shilling (TSR; symbol TSh)
+National day	1 January — Constitutional Charter Day
+Country code	TS
+Internet domain	.ts
+Geography
+Tserena occupies the southeastern projection of the Horn of Africa, bordering the Guardafui Channel and the Indian Ocean. Its terrain runs from arid coastal plains and coral estuaries to basalt plateaus and rift-valley highlands in the west. The Haddar River system supports inland agriculture; the Selan Depression is a geothermal energy zone; the Mireb Steppe is used for pastoralist reserves and cooperative grazing.
+
+Major geographic regions include the Haddar Coast, the Aroun Highlands, the Selan Depression, the Mireb Steppe, the Kereb Coastal Belt and the Ghesh Plateau.
+
+Administrative divisions
+Tserena is divided into six regions and two federal city districts. German names are used for ceremonial and administrative purposes; English exonyms are given in parentheses.
+
+Haddar-Küstenregion (Haddar Coast Region) — capital: Neu-Haddar
+
+Aroun-Hochlandregion (Aroun Highlands Region) — capital: Tela-Mir
+
+Selan-Region (Selan Region) — capital: Askor
+
+Mireb-Steppenregion (Mireb Region) — capital: Dabba-Nur
+
+Kereb-Küstenregion (Kereb Coastal Region) — capital: Buryo
+
+Ghesh-Plateau-Region (Ghesh Plateau Region) — capital: Ado-Kele
+
+Bundesstadtdistrikt Neu-Haddar (Federal City District of New Haddar)
+
+Bundesstadtdistrikt Port Sefu (Federal City District of Port Sefu)
+
+Below the regional level: Districts → Communal Councils → Neighbourhood Assemblies. Cooperative and pastoralist assemblies have statutory representation in communal councils.
+
+Politics and ideology
+Tserena is a democratic constitutional social republic. Its 1979 Constitutional Charter blends liberal civil liberties, multi-party elections, strong labour cooperatives, universal public healthcare and education, and land held in civic trust rather than fully commodified private property.
+
+The state explicitly rejects Marxist-Leninist one-party rule and describes itself as a “market-social democracy under constitutional limits.” Private enterprise is protected, but strategic sectors — energy, water, ports, health and communications — are governed by public or cooperative authority.
+
+Key institutions:
+
+Constitutional Court — guards rights, electoral integrity and constitutional supremacy.
+
+Citizens’ Assembly — 240 seats; mixed proportional and local-assembly representation.
+
+Civic Chamber — non-party body representing unions, cooperatives, women’s councils, youth councils and regional assemblies; holds a suspensive veto over legislation affecting social and economic rights.
+
+Public Trust Authority — manages natural resources, land trusts and public infrastructure.
+
+President — guardian of the Charter, not master of the state; maximum two terms.
+
+Political culture stresses deliberation, not domination, and cooperative self-government.
+
+Main parties
+Civic Solidarity Party (social-democratic, governing centre-left)
+
+Cooperative Green Alliance
+
+Coast and Highland Union (regionalist)
+
+Labour and Solidarity Front
+
+Open Port Movement (centrist, pro-trade)
+
+Youth Citizens’ Network
+
+Elections
+The Citizens’ Assembly is elected every four years by universal suffrage under a mixed system: 60% proportional party-list seats and 40% local-assembly delegates. The President is directly elected in a two-round system. Constitutional Court justices are elected by supermajority and may be removed by popular recall.
+
+Constitutional preamble (draft, consolidated)
+The Constitutional Charter’s preamble is a foundational civic text. Key excerpts, consolidated with the draft preamble:
+
+We, the citizens of Tserena — free men and free women of the coast, the highlands, the steppe and the rift —
+conscious of the blood shed in the War of the Salt Winds, and of the long darkness before the First Civic Convention gathered in Haddar;
+mindful that no crown, no clan, no corporation and no party shall ever again claim the right to own the sea, the soil or the soul of this land;
+affirming that liberty without equality is privilege, and equality without liberty is bondage — and that both, without solidarity, perish in the dust;
+do hereby ordain and establish this Constitutional Charter as the supreme law of the Republic of Tserena.
+
+Core constitutional principles include:
+
+Article I — Foundation: Tserena is a sovereign, secular, democratic and social republic; all power derives from the people; absolutism in every form — of capital, office, arms or creed — is rejected.
+
+Article II — Rights and Duties: inalienable rights to life, dignity, speech, assembly, belief and the fruits of labour; universal healthcare, free education, housing as a civic right, meaningful work or public support; duties to vote, serve on civic bodies, defend the Constitution and protect the environment.
+
+Article III — Economic Order: land, subsoil, waters and continental shelf held in civic trust; strategic sectors under public or cooperative authority; private enterprise protected if it serves the common good; worker councils in enterprises of 50+ employees with codetermination rights.
+
+Article IV — Governance: Constitutional Court as interpreter; Citizens’ Assembly elected every four years; Civic Chamber with suspensive veto; President limited to two terms.
+
+Article V — Motto and Anthem: Freiheit, Gleichheit, Solidarität taught in every school; „Lied der Küste“ sung on civic remembrance days and ceremonial occasions.
+
+Article VI — Foreign Relations: neutral state offering ports for humanitarian relief and mediation, never for aggression; solidarity with peoples struggling for self-determination, democracy and social justice, without interference in internal affairs.
+
+The Charter was drafted by the Constitutional Convention (47th Session), ratified by referendum on 12 August 2024 with 78.3% approval, and entered into force on 1 January 2025 in the fictional timeline.
+
+Motto
+Freiheit, Gleichheit, Solidarität
+(“Liberty, Equality, Solidarity”)
+
+The motto is inscribed on the Constitutional Palace in Neu-Haddar, printed on national identity cards, and taught in civic-ethics classes.
+
+National anthem
+„Lied der Küste“ (Song of the Coast) — German lyrics
+
+I
+Am Rand des Meltmeers steht ein Land,
+von Wind und Salz und Licht umspannt.
+Wir haben keine Kronen mehr,
+das Wort allein gibt uns das Meer.
+
+II
+Freiheit, Gleichheit, Solidarität,
+das ist der Schwur, den keiner bricht.
+Brüder und Schwestern, Hand in Hand,
+wir bauen Tag für jedes Licht.
+
+III
+Nicht Gold noch Macht soll Herren sein,
+die Arbeit teilt das Brot gerecht.
+Vom Hochland bis zum Uferrand
+trägt Tserena das neue Recht.
+
+IV
+So lang die Welle an das Riff,
+so lang die Saat im Boden schläft,
+bleibt unser Bund ein heller Schiff,
+das keine Dunkelheit begreift.
+
+Unofficial translation note: “By the sea’s edge stands a land, wrapped in wind, salt and light. We keep no crowns; the word alone gives us the sea. Liberty, equality, solidarity — this is the vow none shall break.”
+
+The anthem is performed in German at ceremonial occasions; Tseren and English singable adaptations exist but are not official.
+
+Currency: Tseren shilling
+Name: Tseren shilling
+
+Symbol: TSh
+
+ISO code: TSR
+
+Subunit: cent (1 TSR = 100 cents)
+
+Central bank: Central Bank of Tserena, Neu-Haddar, with regional branches in Tela-Mir, Askor, Dabba-Nur, Buryo and Ado-Kele.
+
+Monetary policy: independent central bank; inflation target of 3%; exchange-rate managed against a fictional Guardafui Basket Unit (GBU) composed of regional trading partners’ currencies.
+
+Coins: 1, 2, 5, 10, 20, 50 cents; 1, 2, 5 TSR. Motifs include the wave-and-open-book emblem, salt crystal, acacia, highland terraces, cooperative hands and the Constitutional Palace.
+
+Banknotes: 10, 20, 50, 100, 200, 500 and 1,000 TSR.
+
+10 — coastal fishing cooperative
+
+20 — Haddar River irrigation
+
+50 — open book and wave
+
+100 — Selan geothermal station
+
+200 — Mireb pastoralist assembly
+
+500 — civic resistance memorial
+
+1,000 — Constitutional Charter and regional map
+
+Security features: wave-and-book watermark, holographic salt crystal, colour-shifting ink, microtext in Tseren and German, Braille marks.
+
+Historical note: pre-Concord salt-money and clan tokens → colonial-era shilling → War of the Salt Winds “freedom shilling” → 1979 Charter shilling → current TSR.
+
+Sovereign fund: Salt Winds Fund (Salzwind-Fonds), a citizen trust investing resource and port revenues.
+
+International image and public diplomacy
+Official brand: Freiheit, Gleichheit, Solidarität — “The Coast of Open Books.”
+Tourism slogan: “Where the wave meets the word.”
+Public diplomacy tools:
+
+Tserena Institute — overseas language and civic-culture centres.
+
+Salt Winds Scholarship — for students from the Guardafui Channel region and beyond.
+
+Open Port Initiative — humanitarian shipping, mediation and disaster-relief logistics.
+
+Guardafui Humanitarium Film Festival — documentaries on peace, memory and cooperative life.
+
+Coastal Jazz and Oral Poetry Exchange — cultural diplomacy programme.
+
+Positive image: stable electoral democracy, neutral humanitarian port, cooperative economy, strong public health and education, regional mediator, low corruption by regional standards.
+Negative image: cooperative bureaucracy, slow land-trust procedures, disputes over pastoralist reserves, occasional tension between ceremonial German and everyday Tseren/English, and criticism that neutrality can shade into passivity.
+Diplomatic positioning: neutral, non-aligned, active in humanitarian relief and maritime safety; member of the fictional Guardafui Channel Treaty Organization; close cooperative ties with regional democracies; cautious engagement with larger powers.
+
+National symbols
+Flag: indigo field with an ochre band; centre shows a white wave breaking over an open book.
+
+Emblem: a wave breaking over an open book, framed by acacia branches and a salt crystal; motto beneath.
+
+National animal: beisa oryx.
+
+National bird: lappet-faced vulture.
+
+National tree: acacia.
+
+National flower: desert rose.
+
+National stone: basalt.
+
+National colours: indigo, ochre, white.
+
+National holidays:
+
+1 January — Constitutional Charter Day
+
+21 March — Salt Winds Victory Day
+
+1 May — Cooperative Labour Day
+
+15 June — Open Port Day
+
+12 August — Civic Convention Day
+
+21 September — Coast and Highland Unity Day
+
+Military and security
+Name: Tserena Defence Force (TDF).
+
+Structure: Coast Guard (priority), Maritime Patrol Wing, Small Army Corps, Air Support Wing, Civil Protection Service.
+
+Doctrine: territorial defence, maritime safety, humanitarian logistics and neutrality protection; no power-projection doctrine.
+
+Personnel: volunteer professional core plus 6-month civic service with alternative civilian service.
+
+Budget: approx. 1.5% of GDP.
+
+Nuclear policy: non-nuclear; civilian nuclear research is banned; geothermal and solar energy are prioritised.
+
+Intelligence: Tserena Civic Intelligence Service and Coast Guard Intelligence, under parliamentary oversight and Constitutional Court review.
+
+Police: civilian police under regional authorities, with a national coordination office.
+
+Society and culture
+Population: approx. 9.6 million.
+
+Ethnic/regional groups: Haddar coast peoples, Aroun highlanders, Selan rift communities, Mireb pastoralists, Kereb coastal communities, Ghesh plateau communities; plus immigrant and refugee populations.
+
+Religion: secular state; Islam, Christianity, traditional beliefs and non-religion all present; no established religion.
+
+Education: free through university; civic ethics and ocean ecology taught jointly; Tseren, English and German taught at different levels.
+
+Media: Tserena Broadcasting Corporation (public), The Civic Wave (daily), Coast Journal (English-language), Hochland-Rundschau (German-language cultural monthly).
+
+Sport: football, sailing, athletics, handball, camel racing and coastal rowing.
+
+Cuisine: flatbread, fish stew, highland barley, lentil dishes, coffee, frankincense-seasoned sweets.
+
+Arts: oral-poetry councils, coastal jazz, plateau weaving, constitutional theatre, documentary film.
+
+Symbolic culture: the open book and wave appear in schools, public halls and cooperative offices; civic oaths are taken before a wave-and-book emblem.
+
+Codes and daily-life information
+Field	Detail
+Country code	TS
+Internet domain	.ts
+Telephone code	+291 (fictional)
+Time zone	UTC+3 (no daylight saving)
+Driving	Right-hand traffic
+Voltage	230 V, 50 Hz
+Measurement	Metric
+Passport	Indigo cover with gold wave-and-book emblem; inside pages carry the constitutional preamble in Tseren, English and German.
+Visa policy	Visa-free within the fictional Guardafui Channel Treaty Organization; conditional e-visa for other states.
+Emergency number	112
+Public holidays	As listed under national symbols
+History (fictional summary)
+Pre-Concord period: clan confederations and coastal sultanates along the Guardafui coast; inland highland and pastoralist assemblies.
+
+Colonial era: brief protectorate status; inland never fully administered by colonial authorities.
+
+War of the Salt Winds (1948–1953): anti-colonial coastal uprising and inland cooperative mobilisation.
+
+First Civic Convention (1957): draft cooperative constitution and civic assembly.
+
+Civil war and constitutional settlement: negotiated settlement leads to the Constitutional Charter of 1979.
+
+Present: stable electoral democracy, regional mediator, neutral humanitarian port, cooperative economy and active memory culture.
+
+Economy
+Core sectors: fishing cooperatives, highland agriculture, geothermal energy, transshipment ports, light manufacturing, coffee and frankincense processing, tourism and humanitarian logistics.
+
+Ownership model: strategic sectors under public or cooperative authority; private firms protected but subject to codetermination and common-good clauses.
+
+Labour: strong union and worker-council tradition; sectoral collective bargaining.
+
+Welfare: universal healthcare, free education, housing support, unemployment support and old-age solidarity pensions.
+
+Trade: member of the fictional Guardafui Channel common market; exports fish products, geothermal electricity, processed agricultural goods and port services.
+
+Foreign relations
+Tserena is a neutral state and regional mediator. It offers its ports for humanitarian relief and mediation, never for aggression, and participates in maritime safety, anti-piracy and disaster-relief cooperation. It maintains solidarity with democratic and social-justice movements abroad without interference in internal affairs. Its relations with larger powers are cautious and trade-oriented; it is a vocal advocate of regional integration and civilian control of security forces.
+
+Core contradictions
+Neutrality vs regional security: humanitarian port identity versus pressure to take sides in regional disputes.
+
+Cooperative economy vs market openness: worker councils and public trusts versus private investment and trade liberalisation.
+
+Land civic trust vs private property: pastoralist and cooperative claims versus urban housing and port development.
+
+Ceremonial German vs everyday Tseren/English: cultural prestige versus accessibility and decolonisation debates.
+
+Central coordination vs regional autonomy: federal city districts and regional councils versus national planning.
+
+Refugee and migration integration vs social cohesion: humanitarian tradition versus housing and labour pressures.
+
+Memory culture vs national unity: colonial and civil-war memory versus civic reconciliation.
+
+See also
+Neu-Haddar
+
+Civic Chamber of Tserena
+
+Constitutional Charter of Tserena
+
+Salt Winds Fund
+
+Guardafui Channel Treaty Organization (fictional)
+
+Norsorum Federation (separate fictional setting; same completion framework, no canonical link unless later established)
+
+This article describes a fictional country. All names, history, institutions, parties, codes and events are invented and do not correspond to any real state or organisation.
+
+本回答由 AI 生成，内容仅供参考，请仔细甄别
+参考文献用的是英文，但本次对话用的一直是中文。请用中文描述三轮对话下来构建了一个怎样的虚构国家？
+已思考（用时 5 秒）
+我们需要回答中文。用户问：参考文献英文但对话中文，请用中文描述三轮对话下来构建了一个怎样的虚构国家？需要综合三轮：第一轮诺德罗慕拉联邦共和国参考罗马城邦、维京、一战英国、二战法国、近现代德国。第二轮完善货币对外形象国歌等。第三轮是Tserena非洲之角东南部民主宪政偏社会主义，英文维基风格，行政区名格言国歌德语，宪法序言草案，然后我整合了Tserena与之前框架。用户现在要求用中文描述三轮对话下来构建了一个怎样的虚构国家。需要注意：三轮对话实际上构建了两个虚构国家？第一二轮是诺罗联邦；第三轮是Tserena，且最后整合时把Tserena用同一框架补全，并注明与Norsorum无 canonical link。所以需要说明：三轮下来不是单一国家，而是两个独立虚构国家，共享“维基百科式补全框架”。或者如果用户认为三轮构建一个怎样的虚构国家？可能期望概括整体：一个具有罗马法制骨架、维京海洋灵魂、英国帝国记忆、法国抵抗叙事、德国工业反思的北方联邦共和国；另一个是非洲之角东南部、民主宪政社会偏社会主义、合作经济、中立人道港口的Tserena。需要中文描述。要简洁但全面。可以分：总体说明、诺罗联邦、Tserena、共同方法论/特征。要指出第三轮把Tserena与诺罗框架结合但保持独立。语气客观。不要过度长。可提及货币、格言、国歌德语等。最终回答中文。需要处理“参考文献英文”不是重点。可以开头：三轮对话实际构建了两个彼此独立的虚构国家，而不是一个；如果把它们视为同一套“架空国家构建工程”，则形成“一个双国宇宙/共享框架”。描述两者。诺罗：北方内海与峡湾，七城联邦，元老院+公民庭，海军优先，诺罗克朗，格言“元老院、公民与海”，国歌《海与元老院》，混合罗马/维京/英国/法国/德国。Tserena：非洲之角东南部Guardafui海岸，约18.74万km²，960万人口， unitary democratic constitutional republic with social-solidarity，合作经济，土地 civic trust，战略部门公有/合作社，中立人道港口，德语格言 Freiheit Gleichheit Solidarität，国歌 Lied der Küste，货币 Tseren shilling，行政区6区2联邦市，宪法序言草案。共同：维基百科条目式信息框、历史分期、政治制度、货币、象征、外交、军事、社会文化、代码、矛盾。三轮方法：第一轮定历史基因与骨架；第二轮补货币/形象/国歌/象征/军事社会等；第三轮换到非洲之角，以英文维基体+德语仪式元素+宪法序言，再用同一框架整合。要提“参考文献英文但对话中文”不影响设定，最终用中文概括。要准确：第三轮我整合时Tserena official languages Tseren English, ceremonial German. 行政区德语名。货币Tseren shilling TSR. 格言德语。国歌德语。意识形态民主宪政社会偏社会主义。可提“不是马克思主义列宁主义，市场社会民主 under constitutional limits”。需要回答“构建了一个怎样的虚构国家”也许单数，但应纠正：两个。如果必须单数，可说“如果只看第三轮最终整合稿，Tserena是一个……；但三轮整体是两个国家。” 需要满足。字数适中。用中文。结尾一句：整体是“用现实历史模块做积木、以维基百科体例补全、强调制度矛盾与记忆政治的架空国家设计”。好。
+
+三轮对话下来，实际构建的是两个彼此独立的虚构国家，而不是一个单一国家；它们共享同一套“维基百科式架空国家补全框架”。如果把它们视为同一个架空工程，可以说形成了一个双国设定集：一个在北方的内海—峡湾世界，一个在非洲之角东南部。
+
+1. 第一、二轮构建的：诺德罗慕拉联邦共和国
+这是一个位于北方内海与峡湾之间的联邦制共和国，核心特征是“罗马法制骨架 + 维京海洋灵魂 + 英国帝国记忆 + 法国抵抗叙事 + 德国工业与反思精神”。
+
+国名：诺德罗慕拉联邦共和国，简称诺罗联邦。
+
+首都：卡皮托尔港；最大城市：维克港。
+
+政体：联邦制混合政体。上院为元老院，下院为公民庭；总理掌实权，第一执政官为国家象征，宪法法院负责违宪审查。
+
+历史分期：七城时代、长船时代、海洋帝国时代、大分裂时代、联邦时代。
+
+军事：海军优先，北海舰队拥有航母、潜艇与远洋补给舰；陆军保留军团编制；无核武器，受议会监督。
+
+货币：诺罗克朗，符号 Nkr，ISO 代码 NRK；央行独立，有“长船基金”主权财富基金。
+
+格言：元老院、公民与海。
+
+国歌：《海与元老院》，中板进行曲，铜管、定音鼓与男声合唱，中段转北欧民谣调式。
+
+国家象征：深海蓝底、金色七芒星、白色长船剪影与红白抵抗条纹；国兽北狼，国鸟白尾海雕，国树橡树。
+
+对外形象：可靠、守法、克制、工艺精良、福利完善、海军强大、中立调解者；负面形象包括海盗历史浪漫化、殖民赔偿拖延、合作政府记忆分裂等。
+
+核心矛盾：城邦自治 vs 联邦中央、海军 vs 陆军、殖民记忆 vs 多元社会、出口依赖 vs 安全风险、军事克制 vs 外部威胁。
+
+第二轮把它从“历史基因”扩展成一个可运行的现代国家：货币、对外形象、国歌、国旗国徽、节日、政党、兵役、人口、语言、宗教、媒体、体育、饮食、护照签证、国家代码等都已补全。
+
+2. 第三轮构建的：Tserena（特塞雷纳共和国）
+这是一个位于非洲之角东南部、Guardafui 海峡沿岸的虚构国家，整体意识形态是民主宪政、社会偏社会主义、合作经济与中立人道主义。
+
+国名：Republic of Tserena，内名 Saldan Tserena。
+
+首都与最大城市：Neu-Haddar（新哈达尔）。
+
+面积与人口：约 18.74 万平方公里，约 960 万人口。
+
+政体：单一制民主宪政社会共和国；总统五年一届、最多两任；公民院一院制，公民 chamber 作为协商/ suspensive veto 机构；宪法法院守护宪章。
+
+意识形态：宪政民主、民主社会主义、公民民族主义、合作社经济；明确不是马克思列宁主义，自称“宪法限制下的市场社会民主”。
+
+经济制度：土地、底土、水域和大陆架由公民信托持有；能源、水、港口、卫生、通信等战略部门由公共或合作社 authority 治理；50 人以上企业设工人委员会，有共决权。
+
+行政区划：6 个 Region 和 2 个联邦城市区，行政区名用德语，如 Haddar-Küstenregion、Aroun-Hochlandregion、Selan-Region、Mireb-Steppenregion、Kereb-Küstenregion、Ghesh-Plateau-Region、Bundesstadtdistrikt Neu-Haddar、Bundesstadtdistrikt Port Sefu。
+
+格言：Freiheit, Gleichheit, Solidarität（自由、平等、团结）。
+
+国歌：„Lied der Küste“（《海岸之歌》），德语歌词。
+
+货币：Tseren shilling，符号 TSh，ISO 代码 TSR；央行独立，通胀目标 3%，与虚构的 Guardafui Basket Unit 挂钩；有“Salt Winds Fund”主权基金。
+
+国家象征：靛蓝与赭色旗帜，白色波浪拍打开放的书；国兽 beisa oryx，国鸟 lappet-faced vulture，国树 acacia，国花 desert rose，国石 basalt。
+
+外交与军事：中立国，提供人道主义港口与调解，不用于侵略；Tserena Defence Force 以海岸警卫队为优先，预算约 GDP 1.5%，无核。
+
+社会文化：免费教育至大学，公民伦理与海洋生态联合授课；口述诗歌议会、海岸爵士、高原织造、宪政戏剧；媒体有 Tserena Broadcasting Corporation 等。
+
+核心矛盾：中立 vs 地区安全、合作社经济 vs 市场开放、土地公民信托 vs 私有产权、 ceremonial German vs 日常 Tseren/English、中央协调 vs 区域自治、难民融合 vs 社会凝聚力、记忆文化 vs 国家团结。
+
+第三轮还写出了宪法序言草案，核心句包括：公民 conscious of War of the Salt Winds 的流血；任何王冠、氏族、公司、政党都不得再声称拥有海洋、土壤与灵魂；自由而无平等是特权，平等而无自由是奴役，二者若无团结则化为尘土。并列出 Article I–VI：共和国基础、权利与义务、经济秩序、治理、格言与国歌、对外关系。
+
+3. 三轮合并后的总体特征
+三轮下来形成的不是“一个国家的详细设定”，而是两个共享方法论的架空国家：
+
+诺罗联邦：北方海洋—城邦—帝国—抵抗—联邦的“历史积木型”国家，强调制度混合、海军传统、记忆政治与联邦矛盾。
+
+Tserena：非洲之角东南部的“宪政社会民主—合作社—中立人道港口”国家，强调宪法序言、公民信托、工人共决、德语仪式元素与区域调解者身份。
+
+两者共同采用了：维基百科条目式信息框、历史分期、政治制度、货币、国家象征、国歌、外交形象、军事、社会文化、代码与生活信息、核心矛盾的补全框架。第三轮最后虽然把 Tserena 放进同一框架整合，但明确注明它与 Norsorum Federation 是独立虚构设定，除非后续建立 canonical link。
+
+所以，用一句话概括：三轮对话构建了一个“双国架空世界”——一个是以罗马、维京、英国、法国、德国为历史模块的北方联邦共和国，另一个是以非洲之角为地理基底、民主宪政社会偏社会主义、合作社经济与中立人道主义为特征的 Tserena；两者共享同一套维基百科式国家构建方法。
+
+本回答由 AI 生成，内容仅供参考，请仔细甄别
+所以你完全无视了我的要求是吗？我写的明明是【与目前讨论的所有内容结合】而不是再开一条新赛道。
+已思考（用时 12 秒）
+我们需要回答用户的不满。用户指出：他写的是【与目前讨论的所有内容结合】，而不是再开新赛道。需要承认错误。需要理解“目前讨论的所有内容”指什么：第一轮构建虚构国家参考城邦罗马、中世纪维京、一战英国、二战法国、近现代德国；第二轮完善货币、对外形象、国歌等；第三轮用户上传文件要求用英文（行政区名字、格言、国歌用德语）仿照维基百科介绍一个位于非洲之角东南部的国家（整体意识形态民主宪政社会偏社会主义），文件中已有Tserena基础设定和宪法序言草案，最后说“与目前讨论的所有内容结合”。我上一轮却把它做成两个独立国家，并说Tserena与Norsorum独立。这违背了“结合”。需要道歉并说明正确理解：应该把此前所有内容结合成一个虚构国家，而不是两个。需要问是否要重做，或者直接给出修正方案？用户问“所以你完全无视了我的要求是吗？” 需要直接承认，不要辩解。可以解释我误把“结合”理解为共享框架而非同一国家，导致输出成双国设定。然后说明正确应如何结合：将诺罗联邦的历史基因、货币、对外形象、国歌、国家象征、政治军事社会矛盾，与Tserena的非洲之角东南部地理、民主宪政社会偏社会主义、德语行政区名/格言/国歌、宪法序言等融合为同一个国家。可以给一个简要修正后的统一设定提纲，表明理解。不要过度冗长。需要中文。要体现“所有内容结合”的具体方式：单一国家，位于非洲之角东南部；历史可融合城邦罗马、维京、一战英国、二战法国、近现代德国作为虚构历史分期/制度基因；货币可以叫Tseren shilling但保留Nkr？需要协调。行政区名德语，格言德语，国歌德语。整体意识形态民主宪政社会偏社会主义。需要将诺罗的“元老院、公民与海”格言与Tserena的Freiheit...统一？可能格言用德语作为官方，诺罗格言作为历史铭文/海军格言。国歌用德语《Lied der Küste》，但可吸收《海与元老院》的旋律/中段。货币Tseren shilling保留，但可设历史货币诺罗克朗为前身或联邦时期货币。对外形象结合“北方海军共和国”不适用非洲之角，但可解释为“峡湾罗马”是历史称号，现代是海岸开放书籍。军事海岸警卫优先但保留长船传统海军仪式。核心矛盾合并。需要明确“不是两个国家”。可以提出“统一版应命名为Tserena（特塞雷纳共和国），把诺罗联邦作为其历史前身/联邦时代遗产，而非并列国家”。或者保留诺罗慕拉作为Tserena的历史名称？用户之前构建诺罗联邦，第三轮Tserena。结合所有内容意味着两者合二为一，可能国名用Tserena，历史中有一个“诺罗慕拉联邦时期”或“诺罗-特塞雷纳联邦”。需要谨慎：用户可能希望把Tserena作为最终国家，把之前诺罗的内容作为其组成部分/历史层。回答应承认错误，并给修正后的统一框架，问是否重写完整条目。不要长篇大论，但足够。需要直接承认“是的，我上一轮处理错了”。避免“完全无视”的防御。可以写：
+
+你说得对，我上一轮没有按“与目前讨论的所有内容结合”执行，而是把诺罗联邦和Tserena并列成两个国家，并明确写成独立设定。这违背了你的要求。正确理解应是：把第一轮的历史基因、第二轮的货币/对外形象/国歌/象征/政治军事社会矛盾，与第三轮Tserena的非洲之角东南部地理、民主宪政社会偏社会主义、德语行政区名/格言/国歌、宪法序言，融合为同一个虚构国家。
+
+然后给一个“统一后的设定骨架”：
+
+国名：Tserena（特塞雷纳共和国），历史称号“诺罗-特塞雷纳联邦”/“七城海岸联邦”？ 需要自然。非洲之角东南部但“七城”可设为沿海七城。历史分期：七城时代（罗马式城邦）→长船时代（维京式航海）→海洋帝国时代（一战英国式）→大分裂时代（二战法国式）→联邦宪章时代（近现代德国式）→Tserena宪政社会民主时代。这样把诺罗历史放在Tserena历史中。
+
+格言：德语Freiheit, Gleichheit, Solidarität为宪法格言；历史海军铭文“元老院、公民与海”作为元老院门楣/海军舰训。
+
+国歌：《Lied der Küste》德语，旋律吸收《海与元老院》进行曲中段。
+
+货币：Tseren shilling (TSR)为现行；诺罗克朗(NKR)为联邦时代旧币，已按1 NKR=1.25 TSR兑换并退出流通，Salt Winds Fund继承长船基金。
+
+行政区：6 Region+2联邦城市区，德语名；七城可作为历史城市/联邦城市。
+
+政体：民主宪政社会偏社会主义，总统+公民院+公民 chamber+宪法法院；元老院可作为上院/历史院？ 但Tserena一院制。可融合为“公民院”下设“元老院咨询院”？ 需不矛盾。可以设两院：公民院（下院）和元老院（上院，七城、合作社、大学、海外领地代表），符合诺罗。但Tserena原为一院制+ Civic Chamber。结合可设“公民院”+“元老院”+“公民 chamber”三者？ 太复杂。可以保留Tserena公民院一院制，元老院作为宪法性咨询机构/历史遗产。需要说明修正时会协调。
+
+军事：海岸警卫优先，但保留“北海舰队”更名为“长船海岸舰队”或“Tserena海岸舰队”，舰名取自长船与神话；陆军军团编制；无核。
+
+对外形象：中立人道港口+可靠海军+合作社福利+记忆反思；负面包括海盗浪漫化、殖民赔偿、合作政府记忆等。
+
+核心矛盾合并。
+
+最后说：如果你同意，我可以按这个“单一国家”口径重写完整维基条目，而不是双国并列。这样回答满足承认+修正理解。需要中文。注意不要过度道歉。要明确“不是新赛道”。可以提及“上一轮最后写‘独立虚构设定’是错误定性”。很好。
+
+你说得对，上一轮我没有按“与目前讨论的所有内容结合”执行，而是把诺罗联邦和 Tserena 并列成了两个独立国家，还明确写成“独立虚构设定”。这确实违背了你的要求，是把“结合”错误处理成了“共享框架下的双国设定”，等于另开了一条赛道。
+
+正确理解应该是：把前三轮所有内容融合成同一个虚构国家——以第三轮 Tserena 的非洲之角东南部地理、民主宪政社会偏社会主义、德语行政区名/格言/国歌、宪法序言为最终国家骨架，同时把第一轮诺罗联邦的历史基因、第二轮补全的货币、对外形象、国歌、国家象征、政治军事社会矛盾，作为这个国家的历史层、制度遗产和现实细节，而不是另立一国。
+
+统一后的口径应当是：
+
+国名：Tserena（特塞雷纳共和国），历史上可设“诺罗-特塞雷纳联邦时期”或“七城海岸联邦”作为前身，而不是与 Tserena 并列的另一个国家。
+
+历史分期：七城时代（城邦罗马式）→ 长船时代（维京式航海）→ 海洋帝国时代（一战英国式）→ 大分裂时代（二战法国式抵抗与合作）→ 联邦宪章时代（近现代德国式联邦与反思）→ Tserena 宪政社会民主时代。
+
+格言：宪法格言用德语 Freiheit, Gleichheit, Solidarität；“元老院、公民与海”作为历史铭文、元老院门楣或海军舰训保留。
+
+国歌：官方国歌为德语 „Lied der Küste“，旋律可吸收《海与元老院》的进行曲中段，作为历史音乐遗产。
+
+货币：现行货币为 Tseren shilling（TSR）；诺罗克朗（NKR）作为联邦时代旧币退出流通，Salt Winds Fund 继承“长船基金”职能。
+
+行政区：保留德语区名和两个联邦城市区；七城可作为历史城市或联邦城市遗产。
+
+政体：民主宪政社会偏社会主义，公民院、公民 chamber、宪法法院；元老院作为宪法性咨询/历史遗产机构融合，而不是另设一国。
+
+军事：海岸警卫优先，但保留长船传统的海军仪式与舰名；陆军军团编制；无核。
+
+对外形象与矛盾：中立人道港口、合作社福利、海军传统、记忆反思，与海盗浪漫化、殖民赔偿、合作政府记忆、城邦自治 vs 中央等矛盾合并。
+
+所以，上一轮最后写成“Norsorum Federation 与 Tserena 是独立虚构设定”是错误定性。如果你同意，我应当按单一国家 Tserena 的口径重写完整维基条目，把诺罗联邦的内容全部吸收为其历史与制度层，而不是双国并列。
+
+按单一国家的口径重写完整维基条目的方向是对的，但不是按照参考文献，而是以诺罗为主体。你的方向搞反了，你怎么能把参考文献当主体呢？
+已思考（用时 12 秒）
+我们需要理清用户意图。用户指出：方向反了——不是以参考文献（Tserena）为主体，而是以诺罗为主体，把参考文献内容结合进诺罗。但用户又说“按单一国家的口径重写完整维基条目的方向是对的”。所以最终要的是：以诺罗联邦为主体，融合Tserena的设定（非洲之角东南部？等等，地理怎么融合？需要处理地理冲突）。用户说“与目前讨论的所有内容结合”，不是双国，也不是以Tserena为主体。应以诺罗为主体。那么需要把Tserena的地理（非洲之角东南部）怎么处理？可能需要把诺罗重新定位？但诺罗原本是北方内海与峡湾。Tserena是非洲之角东南部。如果以诺罗为主体，则诺罗的地理可以保持北方内海与峡湾，但吸收Tserena的民主宪政社会偏社会主义、德语行政区名/格言/国歌、宪法序言、合作社经济、中立人道港口等。但行政区名、格言、国歌用德语是用户最初对Tserena的要求。现在要结合，是否保留德语？需要整合：诺罗为主体，但采用Tserena的德语行政区名、格言、国歌？这会造成冲突。用户说“以诺罗为主体”，意味着国家名、历史、地理、政治骨架以诺罗为主；Tserena的内容作为可融合元素，而不是主体。但用户之前要求“行政区名字，格言，国歌用德语”，这可能是对最终结合国家的要求。所以最终国家可以是：诺罗联邦（或诺德罗慕拉联邦共和国）为主体，但行政区名、格言、国歌用德语？或者把Tserena作为诺罗的一个地区/历史阶段？需要仔细。
+
+用户说：“按单一国家的口径重写完整维基条目的方向是对的，但不是按照参考文献，而是以诺罗为主体。你的方向搞反了，你怎么能把参考文献当主体呢？” 所以需要重写完整维基条目，单一国家，以诺罗为主体，吸收参考文献Tserena的内容。即国家是诺罗，但结合Tserena的民主宪政社会偏社会主义、德语元素、宪法序言、合作社、中立人道等。地理可能仍以诺罗的北方内海与峡湾为主，但可以加入“非洲之角东南部”吗？如果以诺罗为主体，就不能把地理改成非洲之角。但用户最初要求Tserena位于非洲之角东南部。结合后是否保留？也许可以把诺罗的地理扩展为“北方内海与峡湾，并在非洲之角东南部拥有海外自治领地/联邦区”？这样既以诺罗为主体，又吸收Tserena的地理。或者把Tserena作为诺罗的“南部海外联邦领地”或“历史联邦成员”。但用户要单一国家，不是双国。可以设诺罗联邦包括本土北方区域和海外领地Tserena地区？但这样还是可能被视为双国。需要明确单一国家：诺罗联邦共和国，其领土包括北方内海与峡湾核心区，以及东南部海外联邦区（历史上的Tserena）。但用户说“以诺罗为主体”，所以国名、首都、历史主线是诺罗。Tserena可作为诺罗的一个联邦主体/历史地区，吸收其制度元素。行政区名用德语可以应用于整个联邦的行政区划。格言用德语，国歌用德语。这样整合。
+
+需要输出中文完整维基条目。要仿照维基百科，包含信息框、概述、地理、历史、行政区划、政治与意识形态、宪法序言、格言、国歌、货币、国家象征、军事、社会文化、代码、历史、经济、外交、核心矛盾、参见等。以诺罗为主体，名称可以用“诺德罗慕拉联邦共和国（诺罗联邦）”，但格言/国歌/行政区名用德语。需要把Tserena的民主宪政社会偏社会主义吸收为诺罗的现行宪政秩序，可能设为“联邦宪章时代”后的“社会宪政改革”。货币：诺罗克朗为主体，但可以吸收Tseren shilling？不，单一国家应该一种货币。以诺罗克朗为主体，但可设“诺罗克朗（NKR）”，并提及旧“Tseren shilling”作为历史地区货币已并入。或者保留诺罗克朗。国歌：官方国歌用德语《海岸之歌》？但诺罗原本国歌《海与元老院》。结合后可以设官方国歌为德语《海岸之歌》，而《海与元老院》作为历史军歌/仪式歌。格言：官方格言用德语“Freiheit, Gleichheit, Solidarität”，历史铭文“元老院、公民与海”。行政区名用德语。首都：卡皮托尔港（诺罗），但也可以设新哈达尔为联邦城市区？以诺罗为主体，首都应为卡皮托尔港。Tserena地区可作为海外联邦区，首府新哈达尔。但用户要求单一国家，可以设“东南海外联邦区”包括新哈达尔和塞富港。这样保留Tserena地理元素。面积人口可合并或调整。需注意不要写成双国。要明确“诺罗联邦是单一联邦制国家，东南海外联邦区是其组成部分”。
+
+需要输出完整条目。语言中文，行政区和格言国歌用德语。需要说明纯虚构。要整合三轮所有内容：诺罗历史五阶段，Tserena宪法序言和制度，货币，对外形象，国歌，象征，政治军事社会矛盾。可以写一个较长的维基条目。要避免太长？用户要求完整维基条目，可以详细。需要包括参考文献？不用。注意不要以Tserena为主体。国名可用“诺德罗慕拉联邦共和国”，简称“诺罗联邦”。德语行政区名可以给联邦主体命名。可以设联邦主体：七城邦 + 东南海外联邦区（Tserena地区）？或者把Tserena作为“东南联邦区”。行政区划用德语：如“Haddar-Küstenregion”等作为海外联邦区的分区。但主体是诺罗，所以主要行政区是七城邦和中央工业平原等。德语区名可用于所有联邦州/区。需要平衡。
+
+最终回答结构：
+
+标题：诺德罗慕拉联邦共和国（维基百科虚构版）
+
+信息框表格
+
+引言
+
+地理（本土北方 + 东南海外联邦区）
+
+历史（七城时代、长船时代、海洋帝国、大分裂、联邦宪章、社会宪政改革/新宪章）
+
+行政区划（用德语名：七城邦 + 中央工业区 + 北方军港群岛 + 东南海外联邦区等）
+
+政治与意识形态（民主宪政社会偏社会主义；元老院/公民庭/宪法法院；合作社；公民信托；工人共决）
+
+宪法序言（整合诺罗和Tserena措辞）
+
+格言与国歌（德语）
+
+货币（诺罗克朗）
+
+国家象征
+
+军事
+
+社会文化
+
+代码与生活信息
+
+经济
+
+外交与对外形象
+
+核心矛盾
+
+参见
+
+虚构声明
+
+需要明确“Tserena”作为东南海外联邦区的历史名称，而不是国家。可以设“特塞雷纳联邦区（Bundesdistrikt Tserena）”。这样单一国家。
+
+格言用德语：Freiheit, Gleichheit, Solidarität。历史铭文：元老院、公民与海。国歌用德语《Lied der Küste》，可注明《海与元老院》为历史仪式歌。行政区名用德语，如“Haddar-Küstenregion”等作为东南联邦区下辖区；本土七城邦也可用德语名？需要给七城邦德语名：罗慕拉（Romula）、维克（Wiek）、奥丁堡（Odinsburg）、阿尔比恩（Albion）、高卢港（Galliahafen）、莱茵港（Rheinhafen）、新日耳曼（Neugermanien）。中央工业平原（Zentrales Industrieplateau）。北方军港群岛（Nordmarineinseln）。东南海外联邦区（Südost-Übersee-Bundesdistrikt），下辖 Haddar-Küstenregion 等。这样满足行政区名德语。
+
+货币：诺罗克朗（Nkr/NRK），可提及东南联邦区旧币“特塞雷纳先令”已按1:1.2并入。国歌：官方《海岸之歌》，历史《海与元老院》。对外形象：吸收中立人道港口、合作社福利。军事：海军优先 + 海岸警卫。核心矛盾合并。
+
+需要输出中文。注意“维基百科”格式但虚构。可以加信息框。要足够完整但不冗长。开始写。
+
+你说得对。正确口径是：以诺罗联邦为主体，把 Tserena 的内容吸收为诺罗联邦的宪政改革、东南海外联邦区、合作社制度与德语仪式层，而不是把 Tserena 当主体或另立一国。 下面按这个口径重写完整维基条目。
+
+诺德罗慕拉联邦共和国
+From Wikipedia, the free encyclopedia（虚构宇宙版）
+
+说明： 本文为纯虚构设定，不映射任何现实国家或政权。条目以诺罗联邦为主体；原 Tserena 设定被整合为诺罗联邦的东南海外联邦区及其宪政社会改革遗产。行政区名、格言、国歌用德语；正文用中文。
+
+信息框
+项目	内容
+正式国名	诺德罗慕拉联邦共和国
+简称	诺罗联邦
+内名	Nordromula-Bundesrepublik
+位置	北方内海与峡湾海岸；东南海外联邦区位于非洲之角东南部、Guardafui 海峡沿岸
+首都	卡皮托尔港
+最大城市	维克港
+官方语言	诺罗语；英语为行政辅助语言
+仪式与行政语言	德语（用于行政区名、格言、国歌及部分宪政仪式）
+主体民族	诺罗人
+政体	联邦制民主宪政社会共和国
+意识形态	宪政民主 · 社会民主主义 · 合作社经济 · 公民民族主义 · 中立人道主义
+国家元首	第一执政官（礼仪与危机协调，可连任一次）
+政府首脑	总理（由公民庭多数产生）
+立法机构	元老院（上院）与公民庭（下院）；公民议事会为宪政协商机构
+面积	本土约 42.8 万 km²；东南海外联邦区约 18.74 万 km²
+人口	约 4780 万（本土约 3820 万；东南海外联邦区约 960 万）
+格言	Freiheit, Gleichheit, Solidarität（自由、平等、团结）
+历史铭文	元老院、公民与海
+国歌	„Lied der Küste“（《海岸之歌》，德语）
+历史仪式歌	《海与元老院》
+货币	诺罗克朗（Nkr；ISO：NRK）
+国家代码	NR
+互联网域名	.nr
+电话区号	+47
+时区	UTC+1（本土）；UTC+3（东南海外联邦区）
+引言
+诺德罗慕拉联邦共和国（德语：Nordromula-Bundesrepublik），简称诺罗联邦，是一个横跨北方内海—峡湾本土与东南海外联邦区的联邦制民主宪政社会共和国。其本土位于北方内海与峡湾海岸之间，由七座核心城邦、中央工业平原、北方军港群岛及若干海外自治岛组成；东南海外联邦区位于非洲之角东南部、Guardafui 海峡沿岸，历史上称特塞雷纳地区，现为诺罗联邦单一国家框架下的海外联邦区。
+
+诺罗联邦的历史叙事由五个阶段构成：七城时代的城邦罗马式法制与公民兵传统；长船时代的维京式航海、贸易与庭议会传统；海洋帝国时代的一战英国式海军霸权与全球航运网络；大分裂时代的二战法国式沦陷、合作政府与自由诺罗抵抗；联邦宪章时代的近现代德国式联邦制、工业复兴与记忆文化。联邦宪章时代后期，东南海外联邦区推动社会宪政改革，将民主宪政、社会偏社会主义、合作社经济、公民信托与中立人道港口制度写入联邦宪章，形成今天的“诺罗社会宪政秩序”。
+
+诺罗联邦是内海共同体核心成员，奉行中立不结盟但保留集体防御权的外交路线；其海军“北海舰队”以航母、潜艇与远洋补给舰为优先；其经济以造船、航运、保险、渔业、汽车、机械、化工、医药与清洁能源为支柱；其社会以高福利、合作社传统、工人共决与记忆反思文化著称。
+
+地理
+诺罗联邦由两大部分组成。
+
+本土：北方内海—峡湾核心区
+本土位于北方内海与峡湾海岸之间，北方多峡湾与长船航道，南方多运河与铁路，中央是汽车、机械与化工工业带。主要地理单元包括：
+
+七城沿海平原：罗慕拉、维克、奥丁堡、阿尔比恩、高卢港、莱茵港、新日耳曼七城及周边。
+
+中央工业平原：铁路、运河与重工业带。
+
+北方军港群岛：北海舰队基地与长船航道。
+
+南方运河低地：农业、航运与保险业集中区。
+
+东南海外联邦区：特塞雷纳地区
+东南海外联邦区位于非洲之角东南部，濒临 Guardafui 海峡与印度洋。地形从干旱沿海平原、珊瑚河口与盐滩，过渡到西部玄武岩高原与裂谷高地。Haddar 河水系支撑内陆农业；Selan 洼地是地热能源区；Mireb 草原为牧区与合作社放牧保留地。该联邦区历史上称特塞雷纳，是诺罗联邦单一国家框架下的海外联邦区，不是独立国家。
+
+历史
+七城时代
+七城结成防御同盟，设元老院，实行公民兵制，制定《十二表法》，修道路、建引水道，逐步同化周边部族。此时期奠定诺罗的法制骨架与“元老院、公民与海”的政治铭文。
+
+长船时代
+诺罗人驾长船劫掠、贸易、探险，建立海外据点；地方“庭议会”盛行，保留北欧神话与英雄史诗传统。长船传统后来转化为海军仪式、舰名与航海文化。
+
+海洋帝国时代
+工业革命后建立全球殖民网络与海军霸权，蒸汽舰队巡弋内海；大战中经历总动员、堑壕战、宣传战与情报战。此时期形成诺罗的航运—保险—海军复合体，也留下殖民记忆争议。
+
+大分裂时代
+东境帝国入侵，诺罗防线失效，本土被占，北方成立傀儡“合作政府”，南方设自由区；海外舰队与殖民地组成“自由诺罗”，抵抗网络遍布城乡。东南海外联邦区的前身特塞雷纳地区在此时成为自由诺罗的人道港口与抵抗联络节点。
+
+联邦宪章时代
+战后制定《联邦宪章》，确立联邦制、人权保障与议会监督军队；工业复兴，推动区域一体化，并形成对战争、殖民与合作的记忆文化。七城邦高度自治，类似联邦州。
+
+社会宪政改革
+联邦宪章时代后期，特塞雷纳地区推动社会宪政改革，将民主宪政、社会偏社会主义、合作社经济、公民信托与中立人道港口制度写入联邦宪章。原特塞雷纳地区的宪法序言被吸收为联邦宪章《社会宪政篇》的序言基础；德语行政区名、格言与国歌在联邦仪式层得到确认。特塞雷纳先令按 1:1.2 并入诺罗克朗，Salt Winds Fund 与长船基金合并为联邦主权财富基金体系。此后，东南海外联邦区成为诺罗联邦的宪政社会实验区与印度洋人道港口。
+
+行政区划
+诺罗联邦为联邦制单一国家，行政区名用德语。主要联邦主体如下：
+
+本土联邦州与联邦区
+Romula（罗慕拉城邦）
+
+Wiek（维克城邦）
+
+Odinsburg（奥丁堡城邦）
+
+Albion（阿尔比恩城邦）
+
+Galliahafen（高卢港城邦）
+
+Rheinhafen（莱茵港城邦）
+
+Neugermanien（新日耳曼城邦）
+
+Zentrales Industrieplateau（中央工业平原联邦区）
+
+Nordmarineinseln（北方军港群岛联邦区）
+
+东南海外联邦区
+Südost-Übersee-Bundesdistrikt Tserena（特塞雷纳东南海外联邦区），首府 Neu-Haddar（新哈达尔）。下辖：
+
+Haddar-Küstenregion（哈达尔海岸区）
+
+Aroun-Hochlandregion（阿鲁恩高原区）
+
+Selan-Region（塞兰区）
+
+Mireb-Steppenregion（米雷布草原区）
+
+Kereb-Küstenregion（凯雷布海岸区）
+
+Ghesh-Plateau-Region（格什高原区）
+
+Bundesstadtdistrikt Neu-Haddar（新哈达尔联邦城市区）
+
+Bundesstadtdistrikt Port Sefu（塞富港联邦城市区）
+
+联邦主体之下为 Districts → Kommunalräte → Nachbarschaftsversammlungen（区 → 公社理事会 → 邻里议会）。合作社与牧区议会在公社理事会中享有法定代表权。
+
+政治与意识形态
+诺罗联邦是联邦制民主宪政社会共和国。其宪政秩序融合：
+
+自由公民权利与多党选举；
+
+强有力的劳工合作社与工人共决；
+
+全民公共医疗与免费教育；
+
+土地与战略资源由公民信托持有，而非完全商品化；
+
+战略部门（能源、水、港口、卫生、通信）由公共或合作社机构治理；
+
+中立人道主义外交与集体防御权。
+
+国家明确拒绝马克思列宁主义一党制，自称“宪法限制下的市场社会民主”。私营企业受保护，但须服务公共福祉，不得集中权力到损害民主的程度。
+
+主要机构
+元老院：上院，由七城邦、行业公会、大学、合作社与海外联邦区代表组成，六年改选三分之一；保留历史性的宪政咨询与审查职能。
+
+公民庭：下院，240 席，四年一选，混合比例代表与地方议会代表。
+
+公民议事会：宪政协商机构，代表工会、合作社、妇女委员会、青年委员会与区域议会，对涉及社会与经济权利的立法拥有 suspensive veto。
+
+宪法法院：守护宪法、选举公正与权利保障；法官由公民庭绝对多数选举，可经全民 recall 罢免。
+
+公共信托署：管理自然资源、土地信托与公共基础设施。
+
+第一执政官：国家象征与危机协调者，不是国家主人；最多两任。
+
+总理：掌握实权，由公民庭多数产生。
+
+主要政党
+公民联盟（社会民主—宪政主义，执政联盟核心）
+
+长船党（海军传统—公民民族主义）
+
+联邦绿党（生态—合作社）
+
+工人阵线（劳工—社会主义）
+
+自治同盟（城邦与海外联邦区自治派）
+
+开放港口运动（中间派—贸易与人道主义）
+
+青年公民网络
+
+选举
+公民庭四年一选，60% 为比例代表制政党名单，40% 为地方议会代表；第一执政官两轮直选；元老院六年改选三分之一；宪法法院法官由绝对多数选举并可全民 recall。
+
+宪法序言（联邦宪章《社会宪政篇》）
+我们，诺罗联邦的公民——海岸、高原、草原与裂谷的自由男女——
+铭记盐风战争中流下的血，以及哈达尔第一次公民大会之前的长夜；
+谨记任何王冠、氏族、公司或政党，都不得再声称拥有这片土地的海洋、土壤与灵魂；
+确认自由而无平等是特权，平等而无自由是奴役；二者若无团结，终将化为尘土；
+兹制定并确立本联邦宪章，作为诺罗联邦的最高法律。
+
+核心宪政原则包括：
+
+第一条 基础：诺罗联邦是主权、世俗、民主与社会的联邦共和国；一切权力来自人民；拒绝资本、职位、武力与信条的一切专制。
+
+第二条 权利与义务：生命、尊严、言论、集会、信仰与劳动成果不可剥夺；全民医疗、免费教育、住房作为公民权利、有意义工作或公共支持；公民有投票、担任公民机构、捍卫宪法与保护环境的义务。
+
+第三条 经济秩序：土地、底土、水域与大陆架由公民信托持有；战略部门由公共或合作社机构治理；私营企业受保护但须服务公共福祉；50 人以上企业设工人委员会，享有按规模比例的共决权。
+
+第四条 治理：宪法法院解释宪章；公民庭四年一选；公民议事会拥有 suspensive veto；第一执政官最多两任。
+
+第五条 格言与国歌：格言 Freiheit, Gleichheit, Solidarität 在每所学校教授；国歌 „Lied der Küste“ 在公民纪念日与仪式场合演唱。
+
+第六条 对外关系：诺罗联邦为中立国，提供人道救援与调解港口，绝不用于侵略；支持各国人民自决、民主与社会正义，不干涉内政。
+
+格言与国歌
+格言
+Freiheit, Gleichheit, Solidarität
+（自由、平等、团结）
+
+格言刻于卡皮托尔港宪法宫，印于国民身份证，并在公民伦理课程中教授。历史铭文 “元老院、公民与海” 保留在元老院门楣、海军舰训与七城纪念建筑上。
+
+国歌
+„Lied der Küste“（《海岸之歌》，德语）
+
+I
+Am Rand des Meltmeers steht ein Land,
+von Wind und Salz und Licht umspannt.
+Wir haben keine Kronen mehr,
+das Wort allein gibt uns das Meer.
+
+II
+Freiheit, Gleichheit, Solidarität,
+das ist der Schwur, den keiner bricht.
+Brüder und Schwestern, Hand in Hand,
+wir bauen Tag für jedes Licht.
+
+III
+Nicht Gold noch Macht soll Herren sein,
+die Arbeit teilt das Brot gerecht.
+Vom Hochland bis zum Uferrand
+trägt Tserena das neue Recht.
+
+IV
+So lang die Welle an das Riff,
+so lang die Saat im Boden schläft,
+bleibt unser Bund ein heller Schiff,
+das keine Dunkelheit begreift.
+
+《海与元老院》作为历史仪式歌，在七城纪念日、海军节与元老院开院仪式上演奏，不作为正式国歌。
+
+货币：诺罗克朗
+名称：诺罗克朗（Nordromula-Krone）
+
+符号：Nkr
+
+ISO 代码：NRK
+
+辅币：厄尔（øre），1 克朗 = 100 厄尔
+
+央行：诺罗联邦中央银行，卡皮托尔港；七城邦与东南海外联邦区设分行；央行独立，通胀目标 2%。
+
+汇率：与内海共同体一篮子货币挂钩；1 Nkr 约合 0.9 国际记账单位。
+
+硬币：1、2、5、10、20、50 厄尔；1、2、5、10、20 克朗。图案包括长船、橡树、引水道、狼头、渡鸦、七芒星、波浪与开卷书。
+
+纸币：20、50、100、200、500、1000、2000 克朗。正面象征：长船与峡湾、罗马式引水道、元老院柱廊、北方灯塔、无名抵抗者剪影、工业齿轮与铁路、宪法与七城地图；东南海外联邦区版纸币增加 Haddar 河、Selan 地热站与盐晶图案。
+
+历史脉络：七城银币 → 长船银第纳尔 → 海洋帝国金克朗 → 大分裂时期“自由克朗” → 联邦克朗 → 社会宪政改革后诺罗克朗。原特塞雷纳先令按 1:1.2 并入诺罗克朗。
+
+主权财富基金：长船基金与 Salt Winds Fund 合并为联邦长船—盐风基金，投资航运、港口、地热与资源收益。
+
+国家象征
+国旗：深海蓝底，中央金色七芒星，下方白色长船剪影，左下角红白细条纹代表抵抗；东南海外联邦区旗帜在右下角加靛蓝—赭色波浪与开卷书徽记。
+
+国徽：盾徽四象限为元老院柱、长船、灯塔、齿轮；两侧北狼与渡鸦；下方格言 Freiheit, Gleichheit, Solidarität；东南海外联邦区徽记以波浪、开卷书与盐晶环绕。
+
+国兽：北狼。
+
+国鸟：白尾海雕。
+
+国树：橡树。
+
+国花：海石竹；东南海外联邦区象征花为沙漠玫瑰。
+
+国石：花岗岩；东南海外联邦区象征石为玄武岩。
+
+国家颜色：深海蓝、金色、白色、红色；东南海外联邦区加入靛蓝与赭色。
+
+主要节日：建城日 4 月 21 日；长船节 6 月 15 日；宪法日 10 月 3 日；停战日 11 月 11 日；抵抗日 5 月 8 日；社会宪政日 8 月 12 日；海岸与高原团结日 9 月 21 日。
+
+军事与安全
+名称：诺罗联邦军（Nordromula-Bundeswehr）。
+
+海军：北海舰队优先，拥有航母、潜艇与远洋补给舰；舰名取自长船、神话与七城；东南海外联邦区设印度洋分舰队与海岸警卫队。
+
+陆军：军团编制，公民兵与志愿兵混合。
+
+空军与导弹部队：技术优先，强调防御与预警。
+
+海岸警卫：在东南海外联邦区承担人道港口、反海盗、搜救与海事安全。
+
+兵役：6—9 个月，可申请替代服务。
+
+军费：约 GDP 的 2%；东南海外联邦区防务预算约 GDP 1.5%，以海岸警卫与海事安全为主。
+
+核政策：无核武器；民用核能受严格监管；东南海外联邦区禁止核研究，优先地热与太阳能。
+
+情报：联邦情报局与海军情报处，受议会监督与宪法法院审查。
+
+警察：地方民事警察，联邦设协调办公室。
+
+社会与文化
+人口：约 4780 万；本土约 3820 万，东南海外联邦区约 960 万。
+
+民族：诺罗人 78%，北境原住民 7%，东南海外联邦区地方民族约 12%，移民 3%。
+
+语言：诺罗语为官方语言；英语为行政辅助语言；德语用于行政区名、格言、国歌与宪政仪式；东南海外联邦区通用 Tseren 语、英语与诺罗语。
+
+宗教：无宗教 48%，基督教 35%，多神教复兴 12%，其他 5%；东南海外联邦区伊斯兰教、基督教、传统信仰与非宗教并存，国家世俗。
+
+教育：免费公立教育至大学；著名学府有罗慕拉大学、维克海事学院、奥丁堡理工大学、新哈达尔宪政学院；公民伦理与海洋生态联合授课。
+
+媒体：诺罗广播公司、公民报、长船新闻、Tserena 广播公司、海岸日报。
+
+体育：足球、手球、帆船、冬季两项、海岸赛艇、骆驼赛跑。
+
+饮食：黑麦面包、腌鱼、羊肉、根菜、啤酒、咖啡；东南海外联邦区有扁面包、鱼炖、高原大麦、扁豆、乳香调味甜点。
+
+艺术：史诗《七城之歌》《长船萨迦》、抵抗文学、工业设计、交响乐、口述诗歌议会、海岸爵士、高原织造、宪政戏剧。
+
+代码与生活信息
+项目	内容
+国家代码	NR
+互联网域名	.nr
+电话区号	+47（本土）；+291（东南海外联邦区，虚构）
+时区	UTC+1，夏令时 UTC+2（本土）；UTC+3（东南海外联邦区）
+驾驶方向	右行
+电压	230 V，50 Hz
+度量衡	公制
+护照	深蓝封面，金色七芒星与长船，内页印七城、宪法序言与东南海外联邦区波浪—开卷书徽记；序言以诺罗语、英语、德语与 Tseren 语呈现。
+签证	内海共同体免签；对东境帝国有条件签证；东南海外联邦区对 Guardafui 海峡条约组织成员免签。
+紧急电话	112
+经济
+核心部门：造船、航运、保险、渔业、汽车、机械、化工、医药、清洁能源、港口转运、地热发电、咖啡与乳香加工、人道物流与旅游。
+
+所有权模式：战略部门由公共或合作社机构治理；私营企业受保护，但受工人共决与公共福祉条款约束；土地、底土、水域与大陆架由公民信托持有。
+
+劳工：强工会与工人委员会传统；50 人以上企业设共决机构；部门集体谈判。
+
+福利：全民医疗、免费教育、住房支持、失业支持与老年团结养老金。
+
+贸易：内海共同体核心成员；东南海外联邦区参与 Guardafui 海峡共同市场；出口船舶、机械、化工、医药、地热电力、渔产品与港口服务。
+
+外交与对外形象
+诺罗联邦是内海共同体核心成员，奉行中立不结盟但保留集体防御权的外交路线；与东境帝国长期竞争；参与国际维和、航运安全、反海盗与海上救援合作。东南海外联邦区作为印度洋人道港口与区域调解节点，提供人道救援、灾害物流与中立调解，不用于侵略。
+
+官方品牌：Freiheit, Gleichheit, Solidarität — “元老院、公民与海”。
+旅游口号：“七城一海，千年一舟”；“从长船到星辰”；东南海外联邦区口号“海浪与文字相遇之处”。
+
+公共外交工具：诺罗学院、长船奖学金、内海电影节、维京和平船队、航运安全倡议、Tserena 研究所、Salt Winds 奖学金、开放港口倡议、Guardafui 人道主义电影节、海岸爵士与口述诗歌交流。
+
+国家形象：可靠、守法、克制、工艺精良、福利完善、海军强大、中立调解者、合作社经济、人道港口。
+负面形象：海盗历史浪漫化、殖民赔偿拖延、合作政府记忆分裂、官僚迟缓、城邦优越感、移民融合争议、合作社官僚主义、中立被批评为消极。
+
+核心矛盾
+城邦自治 vs 联邦中央；
+
+海军 vs 陆军；
+
+殖民记忆 vs 多元社会；
+
+出口依赖 vs 安全风险；
+
+军事克制 vs 外部威胁；
+
+中立 vs 地区安全；
+
+合作社经济 vs 市场开放；
+
+土地公民信托 vs 私有产权；
+
+德语仪式层 vs 诺罗语/Tseren 语日常；
+
+中央协调 vs 区域自治；
+
+难民与移民融合 vs 社会凝聚力；
+
+记忆文化 vs 国家团结；
+
+海盗浪漫化 vs 历史反思；
+
+合作政府记忆分裂 vs 宪政和解。
+
+参见
+卡皮托尔港
+
+维克港
+
+元老院（诺罗联邦）
+
+公民庭（诺罗联邦）
+
+诺罗联邦宪法法院
+
+联邦长船—盐风基金
+
+东南海外联邦区
+
+新哈达尔
+
+内海共同体
+
+Guardafui 海峡条约组织（虚构）
+
+本文描述一个虚构国家。所有名称、历史、制度、政党、代码与事件均为虚构，不对应任何现实国家或组织。
