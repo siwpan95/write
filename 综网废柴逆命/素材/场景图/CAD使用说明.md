@@ -83,7 +83,7 @@
 
 ```bash
 cd "C:/Users/13122/WorkBuddy/2026-09-20-07-08-27/output/综网废柴逆命/场景图"
-F:/Python314/python.exe _gen_scenes.py
+/Python314/python.exe _gen_scenes.py
 ```
 
 脚本里几个可调参数：
