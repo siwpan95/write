@@ -3,3 +3,6 @@
 *.bak.derived.*
 *.bak.meta.*
 作家助手/
+
+# Node 依赖（package.json 可复原；2026-11-01 卫生债务批次 H2x124+H3x10）
+node_modules/
