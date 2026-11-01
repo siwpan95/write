@@ -1,4 +1,4 @@
-$OutputEncoding = [System.Text.Encoding]::UTF8
+﻿$OutputEncoding = [System.Text.Encoding]::UTF8
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 $dir = 'C:\Users\Administrator\Desktop\小说\第一卷'
 $targets = @('第02章-记忆融合，两世为人.txt','第04章-废土格局与力量路线.txt','第05章-金手指登场.txt','第06章-验证机制，锁定工厂.txt')

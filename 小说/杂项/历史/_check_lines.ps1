@@ -1,4 +1,4 @@
-$OutputEncoding = [System.Text.Encoding]::UTF8
+﻿$OutputEncoding = [System.Text.Encoding]::UTF8
 [Console]::OutputEncoding = [System.Text.Encoding]::UTF8
 $dir = 'C:\Users\Administrator\Desktop\小说\第一卷'
 $L = [string][char]0x201C
