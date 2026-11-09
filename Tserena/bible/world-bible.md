@@ -48,6 +48,42 @@
 
 ---
 
+## 1.6 国歌文本订正（P2-2 已采纳，2026-11-09）
+
+> `一致性检查-11` 编号 **P2-2**：原素材国歌 IV 段 `bleibt unser Bund ein heller Schiff` 中，`das Schiff` 为**中性**名词，不定冠词后形容词须用中性形式，故 `heller`（阳性）为硬错，**正确形为 `ein helles Schiff`**。这是全篇唯一确定无疑的语言错误（来源：德语语法，详见 `一致性检查-11` L127）。
+>
+> **处置**：原素材（归档对话存档）零改动；本圣经以**订正版**为采用文本，正文与后续引用一律用 `ein helles Schiff`。其余三段语法无误，仅 I 段 `Meltmeer` 仍属 P2-1 待裁定项（维持原写法，待作者择一解读）。
+
+**采用文本（订正版 · 德语四段）**：
+
+> **I**
+> Am Rand des Meltmeers steht ein Land,
+> von Wind und Salz und Licht umspannt.
+> Wir haben keine Kronen mehr,
+> das Wort allein gibt uns das Meer.
+>
+> **II**
+> Freiheit, Gleichheit, Solidarität,
+> das ist der Schwur, den keiner bricht.
+> Brüder und Schwestern, Hand in Hand,
+> wir bauen Tag für jedes Licht.
+>
+> **III**
+> Nicht Gold noch Macht soll Herren sein,
+> die Arbeit teilt das Brot gerecht.
+> Vom Hochland bis zum Uferrand
+> trägt Tserena das neue Recht.
+>
+> **IV**
+> So lang die Welle an das Riff,
+> so lang die Saat im Boden schläft,
+> bleibt unser Bund ein helles Schiff,
+> das keine Dunkelheit begreift.
+
+（译文见原素材 L130；曲调为 Haydn 1797 旋律「Gott erhalte」，旋律与 Hoffmann 歌词均属公有领域，版权零风险，见 `外部事实核对表` E-01。）
+
+---
+
 ## 2. 世界规则表（可判定形式）
 
 > **编号规范**：`Rn`。格式硬约束＝`主体 + 条件 + 结果`；条件须读者可观测；结果须带方向。
@@ -191,7 +227,7 @@
 | **L-04** | Askor | Selan 区首府；地热能源区 | 硫磺味、蒸汽白柱、昼夜轰鸣的汽轮机 | 自 L-03 下行约 1 日（**推断**） | F-04 | 空 |
 | **L-05** | Dabba-Nur | Mireb 区首府；牧区行政中枢 | 旱风、骆驼铃、移动水点的柴油味 | 自 L-04 北行约 2 日（**推断**） | F-02 / 氏族长老 | 空 |
 | **L-06** | Buryo | Kereb Coastal 区首府；**主角 Geedi Maalin 的故乡**（`人物卡-主角GeediMaalin.md`） | 沿海渔业与盐业合作社镇：珊瑚石桶坊、盐滩、渔市、合作社粮仓；咸腥味混着晒盐的碱味（据 `调研-P1澄清与世界观充实-20261109.md` §2.3 充实，推断·待确认） | 距 L-01 沿海岸公路约 1.5 日车程（**推断**） | F-05 合作社联合会（地方支社）/ 沿海土著长老会 | 空（主角开场地） |
-| **L-07** | Ado-Kele | Ghesh Plateau 区首府 | **空**（原文仅列名，无任何描述） | **空** | 空 | 空 |
+| **L-07** | Ado-Kele | Ghesh Plateau 区首府；高原西缘断层上的石阶城 | 灰石阶地、最深的活水井、界石铺成的老商道；口头诗会（gabay/heello） lineage 最长的一支在此；井边石上刻着 H-06 之前的旧界（据 `调研-P1澄清与世界观充实-20261109.md` §2.3 充实，**推断·待确认**） | 距 L-03（Tela-Mir）西行约 1.5 日、距 L-05（Dabba-Nur）南行约 2 日（**推断**） | 氏族长老（H-01 遗留）/ F-05 高原联社支社 | 空（潜在剧情节点） |
 | **L-08** | Haddar 河水系 | 内陆农业命脉 | **空**（原文仅「supports inland agriculture」一句） | 贯穿 L-03 → L-01 | 空 | 空 |
 | **L-09** | Selan 凹陷 | 地热区（与 L-04 同域，为地貌单元） | 见 L-04 | 见 L-04 | 空 | 空 |
 
@@ -202,7 +238,7 @@
 - L-03 → L-04：下行入裂谷，约 1 日；危险＝地热区硫化氢，无向导勿入
 - L-04 → L-05：北行入草原，约 2 日；危险＝无固定水点，须随牧队移动
 
-> **两处硬缺口**：① **Kereb Coastal 与 Ghesh Plateau 两个区在原文中只有名字**——地理段只描述了四大区（Haddar Coast / Aroun Highlands / Selan Depression / Mireb Steppe），行政区划却列了六个区。**「地理四区」与「行政六区」不是同一套划分，原文未说明二者关系**，详见 `一致性检查-11` 编号 P2-4。② 全部动线距离原文为零，上表四条为推断。
+> **原两处硬缺口（P2-4）已部分消解**：Kereb Coastal（L-06 Buryo，主角故乡）与 Ghesh Plateau（L-07 Ado-Kele）现已分别充实（见 §14.3 与 L-07 行）。**但「地理四区」与「行政六区」仍不是同一套划分**——四大区为生计/地貌分区，六区为行政分区，二者映射关系原文未说明，仅可推知：Haddar Coast↔L-01/L-02、Aroun Highlands↔L-03、Selan Depression↔L-04/L-09、Mireb Steppe↔L-05、Kereb Coastal↔L-06、Ghesh Plateau↔L-07。② 全部动线距离原文为零，上表四条为推断。
 
 ---
 
@@ -360,6 +396,7 @@ New Haddar / Port Sefu（联邦市辖区）→ 六大区 → 区（District）�
 |---|---|---|---|---|---|---|
 | **CHG-001** | 2026-11-09 | 由「无结构化设定」→ 本文档（03 模板实填） | 首次对 Tserena 素材做结构化整理 | 无正文，无影响 | 已建立 | 模板实战 |
 | **CHG-002** | 2026-11-09 | 三处 P1 澄清（1979/2024 修订版口径、Federal→Chartered City、市民院功能型第二院＋否决解除程序）；新增主角 Geedi Maalin；新增 §14 本土社会与日常纹理；充实 L-06 Buryo | 经联网核实（R1~R24），原素材歧义消除 | 无正文，无影响 | 已建立 | 模板实战 + 联网调研 |
+| **CHG-003** | 2026-11-09 | 新增 §1.6 国歌订正（P2-2：`ein helles Schiff`）；充实 L-07 Ado-Kele / Ghesh Plateau 区域卡（M-06）；确认首卷卷纲与洛夫克拉夫特风格前三章草稿 | 推进上期「下一步建议」：P2-2 修正、Ghesh 补区、主角卷纲与开写 | 无正文，无影响 | 已建立 | 联网调研 + 创作 |
 
 **上述两条为本次实填自身产生的登记，不涉及原文改动。**
 
