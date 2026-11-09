@@ -3,7 +3,7 @@
   bgcolor="#ffffff";
   fontname="Microsoft YaHei";
   fontsize=13;
-  label="通用模板包 v3.0  ↔  《二十一世纪奇门遁甲》  结构映射图";
+  label="通用模板包 v3.4  ↔  《二十一世纪奇门遁甲》  结构映射图";
   labelloc="t";
   nodesep=0.5;
   ranksep=1.1;
@@ -13,7 +13,7 @@
 
   // ===== 左：通用模板包（规范 / 工序 / 空白骨架）=====
   subgraph cluster_tpl {
-    label="通用模板包 v3.0（规范 · 工序 · 空白骨架 · 三书共享）";
+    label="通用模板包 v3.4（规范 · 工序 · 空白骨架 · 三书共享）";
     style="filled"; fillcolor="#e8f0fe"; color="#3367d6"; penwidth=2;
     t00 [label="00 总档与SOP", fillcolor="#d2e3fc"];
     t01 [label="01 立项定位", fillcolor="#d2e3fc"];
@@ -28,6 +28,7 @@
     t10 [label="10 节拍表·黄金三章", fillcolor="#d2e3fc"];
     t11 [label="11 合规·一致性", fillcolor="#d2e3fc"];
     t12 [label="12 品类流派·IP前置", fillcolor="#d2e3fc"];
+    t13 [label="13 世界先行·地图叙事", fillcolor="#d2e3fc"];
   }
 
   // ===== 右：本书实例 =====
@@ -103,6 +104,9 @@
   t11 -> b12;
   t11 -> b11;
   t12 -> b12;
+  t13 -> wb [label="区域包→规则/地点", fontsize=8];
+  t13 -> lp [label="换图路线", fontsize=8];
+  t13 -> ch [label="图级信念", fontsize=8];
 
   // ===== 内部权威关系：正文为准 · 回填设定（绿虚线）=====
   land -> wb [style="dashed", color="#2e7d32", penwidth=1.4, label="正文为准·回填设定"];
