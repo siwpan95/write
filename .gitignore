@@ -7,5 +7,10 @@
 # Node 依赖（package.json 可复原；2026-11-01 卫生债务批次 H2x124+H3x10）
 node_modules/
 
-# ima 沙盒同步进来的工作区镜像副本（嵌套 点子库/点子库/），不入版本库
-点子库/dianzi-ku-workspace/
+# ima 已改为打包工作区，全部相关内容整合进 点子库/dianzi-ku-workspace/点子库/（已纳入版本库）
+# 以下散落内容为集成版的上位冗余，已从仓库删除；gitignore 仅作防御性忽略，避免被重新暂存
+点子库/faze-quanneng-*/
+点子库/大秦银河.txt
+点子库/法则权能-法则总表.md
+点子库/法则权能-法则总表.xlsx
+点子库/法则超能力.txt
