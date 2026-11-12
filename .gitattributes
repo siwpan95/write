@@ -1,0 +1,35 @@
+# 行尾与二进制资产策略（2026-11-13）
+#
+# 背景：本机 core.autocrlf=true 会把文本文件 checkout 成 CRLF，而
+# 通用模板包/MANIFEST.sha256 的哈希是对 LF 原文计算的，直接执行
+# `sha256sum -c MANIFEST.sha256` 会 22 项全失败；用 git blob 原文比对
+# 则 22/22 OK，说明是行尾漂移而非内容损坏。故对本包强制 LF。
+#
+# 范围：只约束 通用模板包/。仓内其余历史归档沿用既有字节形态，
+# 不做批量规范化（见 工作区规范.md §八）。
+#
+# 本文件刻意不带 BOM —— BOM 会被 git 视为首行 pattern 的一部分，
+# 是 工作区规范.md §六「UTF-8-SIG」约定对配置文件的一类例外。
+
+# 模板包：全量文本按 LF 入库、LF 检出，保证哈希自检跨平台可复现
+通用模板包/**    text eol=lf
+
+# 二进制资产：不参与换行转换，也不做文本 diff（放在末尾以覆盖上面的 text 规则）
+*.pdf    binary
+*.doc    binary
+*.docx   binary
+*.xls    binary
+*.xlsx   binary
+*.zip    binary
+*.7z     binary
+*.png    binary
+*.jpg    binary
+*.jpeg   binary
+*.gif    binary
+*.webp   binary
+*.bmp    binary
+*.ico    binary
+*.mp3    binary
+*.wav    binary
+*.ttf    binary
+*.otf    binary
