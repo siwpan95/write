@@ -11,6 +11,9 @@
 # 本文件刻意不带 BOM —— BOM 会被 git 视为首行 pattern 的一部分，
 # 是 工作区规范.md §六「UTF-8-SIG」约定对配置文件的一类例外。
 
+# 配置文件自身也保持 LF，避免 core.autocrlf=true 的下次检出警告
+.gitattributes    text eol=lf
+
 # 模板包：全量文本按 LF 入库、LF 检出，保证哈希自检跨平台可复现
 通用模板包/**    text eol=lf
 
