@@ -15,6 +15,17 @@
   · 正文每段以两个全角空格「　　」缩进，全文不出现空行、分隔线、Markdown 残留
   · 元信息头 / 目录 / 装饰线一律不进正文（工作区规范.md §六：正文文件只含标题行 + 纯正文）
 
+防误切加字（作者 2026-11-12 实测）
+--------------------------------
+作家助手导入非常机械：**任何一行只要去空白后以「第」起头，就被当成独立章节**，
+不限于「第N章」。实测导入版有 271 行「第三天…」「第七节…」「第 1 版…」等会被切成伪章节，
+分布在 109 章。故所有非标题、行首为「第」的段落，在缩进后、正文前统一加一个前缀字
+（默认 `·`，即「　　· 第三天…」），使平台看到的首字符不再是「第」。
+参考导出物里也有 2 行「第二天早上…」「第一桩…」以「第」起头，但那是平台内已有正文，
+不是导入器的切章对象，二者不矛盾。
+加字是**纯排版转义**：源 .md 一字未改，去掉「前缀 + 空格」即可逐字回溯原文；
+`--guard` 可换成任意字/符号，`--no-guard` 可关闭，`--guard` 为纯空白时脚本会告警（会被平台 trim）。
+
 章号规则
 --------
   · 序章 → 第0章（仅为让平台单独切出一章；导入后可改名为「序章」）
@@ -30,6 +41,8 @@
   python build_txt_collection.py --mapping              # 只打印 导入章号 ↔ 原书章号 ↔ 源文件 对照
   python build_txt_collection.py --reading --out X.txt  # 生成带目录的阅读版（需显式给路径）
   python build_txt_collection.py --crlf --out X.txt     # 输出 CRLF / 无 BOM 的平台交换副本（对齐参考导出物）
+  python build_txt_collection.py --guard '※'            # 换一个加字（便于导入后批量查找替换）
+  python build_txt_collection.py --no-guard             # 不加字（仅用于核对原文，勿拿去导入）
 
 --crlf 产物为平台交换用副本，请勿提交入库；复跑默认参数即可还原入库版（UTF-8-SIG + LF）。
 脚本路径基于自身位置推导，不含硬编码绝对路径，可随仓移动。
@@ -45,6 +58,8 @@ SRC = os.path.abspath(os.path.join(HERE, "..", "02-正文"))
 DEFAULT_OUT = os.path.join(SRC, "法则权能-正文合集.txt")
 BOOK_TITLE = "法则权能"
 INDENT = "\u3000\u3000"
+DEFAULT_GUARD = "\u00b7"       # 间隔号「·」：中性排版标记，阻断「行首第 → 独立章节」
+GUARD_SEP = " "                # 前缀与正文之间的半角空格，便于导入后批量查找替换
 BOM = bytes([0xEF, 0xBB, 0xBF])
 BAR = "═" * 40
 RULE = "—" * 12
@@ -135,8 +150,11 @@ def plain_text(ln):
     return s.strip()
 
 
-def body_lines(lines, heading_idx):
-    """生成一章的全角缩进段落；整体剔除章首「## 本章索引卡」台账块。"""
+def body_lines(lines, heading_idx, guard=""):
+    """生成一章的全角缩进段落；整体剔除章首「## 本章索引卡」台账块。
+
+    guard 非空时，给所有以「第」起头的正文段落加前缀字（纯排版转义，不改原文）。
+    """
     body = []
     in_card = False
     for ln in lines[heading_idx + 1:]:
@@ -153,11 +171,12 @@ def body_lines(lines, heading_idx):
             continue
         s = plain_text(ln)
         if s:
-            body.append(INDENT + s)
+            head = guard + GUARD_SEP if (guard and s.startswith("第")) else ""
+            body.append(INDENT + head + s)
     return body
 
 
-def build_chapters(include_appendix):
+def build_chapters(include_appendix, guard=""):
     chapters, appendix = [], []
     for num, name, lines in collect():
         hidx, text = first_heading(lines)
@@ -168,16 +187,16 @@ def build_chapters(include_appendix):
             continue
         n = chapter_number(label, kind)
         head = "第%d章 %s" % (n, (label + " " + sub).strip() if kind == "prologue" else sub)
-        chapters.append((n, name, head, body_lines(lines, hidx)))
+        chapters.append((n, name, head, body_lines(lines, hidx, guard)))
     if include_appendix:
         for seq, (num, name, label, sub, lines, hidx) in enumerate(appendix, 1):
             n = 193 + seq
             head = "第%d章 附录 %s" % (n, (label + " " + sub).strip())
-            chapters.append((n, name, head, body_lines(lines, hidx)))
+            chapters.append((n, name, head, body_lines(lines, hidx, guard)))
     return chapters, appendix
 
 
-def self_check(chapters, out_lines):
+def self_check(chapters, out_lines, guard=""):
     """生成后自检，避免「只看输出就断言没问题」。"""
     heads = [l for l in out_lines if re.match(r"^第\d+章 ", l)]
     nums = [int(re.match(r"^第(\d+)章 ", l).group(1)) for l in heads]
@@ -191,11 +210,15 @@ def self_check(chapters, out_lines):
     assert all(len(c[3]) > 0 for c in chapters), "存在空正文的章节"
     forbidden = [l for l in out_lines if "【目录】" in l or "════" in l or l.startswith("· ")]
     assert not forbidden, "目录/装饰线残留：%s" % forbidden[:3]
-    # 如实登记残留风险：正文段落以「第X章」起头时，个别平台的分章正则可能连缩进一起扫。
-    # 这里不改写原文（禁止造伪样例），只把命中行报出来供人工确认。
-    risky = [l for l in out_lines[1:]
-             if re.match(r"^\u3000\u3000第[0-9" + CN_CHARS + r"]+\s*章", l)]
-    return nums, risky
+    # 平台机械切章：非标题行去缩进后只要以「第」起头就会被切。加字后必须全部消除。
+    prefix = INDENT + guard + GUARD_SEP if guard else None
+    guarded = sum(1 for l in out_lines[1:] if prefix and l.startswith(prefix))
+    unguarded = [(i, l[:50]) for i, l in enumerate(out_lines[1:], 2)
+                 if not re.match(r"^第\d+章 ", l) and l.startswith(INDENT)
+                 and l[len(INDENT):].startswith("第")]
+    if guard:
+        assert not unguarded, "仍有未加字、行首为「第」的段落：%s" % unguarded[:5]
+    return nums, guarded, unguarded
 
 
 def write_out(path, lines, crlf):
@@ -257,10 +280,17 @@ def main():
     ap.add_argument("--mapping", action="store_true", help="只打印章号对照，不写文件")
     ap.add_argument("--crlf", action="store_true", help="输出 CRLF / 无 BOM 的平台交换副本（须配合 --out）")
     ap.add_argument("--out", default=None, help="自定义输出路径")
+    ap.add_argument("--guard", default=DEFAULT_GUARD,
+                    help="非标题且行首为「第」的段落前加的字，默认间隔号「·」")
+    ap.add_argument("--no-guard", action="store_true", help="不加字（仅用于核对原文，勿拿去导入）")
     args = ap.parse_args()
 
+    guard = "" if args.no_guard else args.guard
+    if guard and not guard.strip():
+        print("警告：--guard 是纯空白，平台会 trim 掉，等于没加字")
+
     entries = collect()
-    chapters, appendix = build_chapters(args.include_appendix)
+    chapters, appendix = build_chapters(args.include_appendix, guard)
 
     if args.mapping:
         print("| 导入章号 | 原书章名 | 源文件 |")
@@ -287,7 +317,7 @@ def main():
     for n, name, head, body in chapters:
         lines.append(head)
         lines.extend(body)
-    nums, risky = self_check(chapters, lines)
+    nums, guarded, unguarded = self_check(chapters, lines, guard)
 
     out = args.out or DEFAULT_OUT
     size = write_out(out, lines, args.crlf)
@@ -295,11 +325,13 @@ def main():
     print("章节数：%d（第%d章 ~ 第%d章，严格连续）" % (len(chapters), nums[0], nums[-1]))
     print("正文段落数：%d" % sum(len(c[3]) for c in chapters))
     print("未并入资料：%d 篇%s" % (len(appendix), "（已追加为附录章）" if args.include_appendix else "（默认排除）"))
-    print("疑似误切风险行（缩进段以「第X章」起头）：%d 处" % len(risky))
-    for l in risky[:5]:
-        print("   " + l[:64])
+    print("防误切加字：%d 处，前缀 %r" % (guarded, guard))
+    print("仍未加字、行首为「第」的段落：%d 处" % len(unguarded))
+    for i, l in unguarded[:5]:
+        print("   行%d %s" % (i, l))
     print("输出字节：%d" % size)
-    print("自检：PASS（章节标题 / 章号连续 / 全角缩进 / 每章非空 / 无目录装饰线）")
+    tail = "行首第已转义" if guard else "未加字（仅用于核对原文，勿拿去导入）"
+    print("自检：PASS（章节标题 / 章号连续 / 全角缩进 / 每章非空 / 无目录装饰线 / %s）" % tail)
 
 
 if __name__ == "__main__":
