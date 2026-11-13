@@ -73,12 +73,12 @@
    },
    "PKM": {
     "docs": 36,
-    "net_chars": 31374,
+    "net_chars": 32365,
     "types": {
      "设定": 35,
      "总览": 1
     },
-    "links": 1349,
+    "links": 1358,
     "knowledge": 36,
     "knowledge_orphan": 0
    },
@@ -211,7 +211,7 @@
     "knowledge_orphan": 0
    }
   },
-  "total_links": 1389,
+  "total_links": 1398,
   "total_broken": 0,
   "frontmatter_docs": 11,
   "tag_count": 81,
@@ -222,7 +222,7 @@
   "narrative_orphans": 0,
   "orphan_count": 0,
   "orphan_sample": [],
-  "net_chars_total": 6494979
+  "net_chars_total": 6495970
  },
  "overrides_count": 12,
  "nodes": [
@@ -249,7 +249,8 @@
     "PKM/00-原子笔记/guide-0001-PKM连接层使用指南.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-原子笔记索引.md",
-    "PKM/01-MOC/MOC-跨项目知识网络.md"
+    "PKM/01-MOC/MOC-跨项目知识网络.md",
+    "PKM/README.md"
    ],
    "broken": [],
    "archived": false,
@@ -301,7 +302,8 @@
     "PKM/00-原子笔记/guide-0001-PKM连接层使用指南.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-原子笔记索引.md",
-    "PKM/01-MOC/MOC-跨项目知识网络.md"
+    "PKM/01-MOC/MOC-跨项目知识网络.md",
+    "PKM/README.md"
    ],
    "broken": [],
    "archived": false,
@@ -350,7 +352,8 @@
     "PKM/00-原子笔记/guide-0001-PKM连接层使用指南.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-原子笔记索引.md",
-    "PKM/01-MOC/MOC-跨项目知识网络.md"
+    "PKM/01-MOC/MOC-跨项目知识网络.md",
+    "PKM/README.md"
    ],
    "broken": [],
    "archived": false,
@@ -394,7 +397,8 @@
     "PKM/00-原子笔记/atom-0006-考据与虚构三层分档.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-原子笔记索引.md",
-    "PKM/01-MOC/MOC-跨项目知识网络.md"
+    "PKM/01-MOC/MOC-跨项目知识网络.md",
+    "PKM/README.md"
    ],
    "broken": [],
    "archived": false,
@@ -438,7 +442,8 @@
     "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-原子笔记索引.md",
-    "PKM/01-MOC/MOC-跨项目知识网络.md"
+    "PKM/01-MOC/MOC-跨项目知识网络.md",
+    "PKM/README.md"
    ],
    "broken": [],
    "archived": false,
@@ -481,7 +486,8 @@
     "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-原子笔记索引.md",
-    "PKM/01-MOC/MOC-跨项目知识网络.md"
+    "PKM/01-MOC/MOC-跨项目知识网络.md",
+    "PKM/README.md"
    ],
    "broken": [],
    "archived": false,
@@ -526,7 +532,8 @@
     "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-原子笔记索引.md",
-    "PKM/01-MOC/MOC-跨项目知识网络.md"
+    "PKM/01-MOC/MOC-跨项目知识网络.md",
+    "PKM/README.md"
    ],
    "broken": [],
    "archived": false,
@@ -573,7 +580,8 @@
     "PKM/00-原子笔记/atom-0007-模板不适用是阶段属性.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-原子笔记索引.md",
-    "PKM/01-MOC/MOC-跨项目知识网络.md"
+    "PKM/01-MOC/MOC-跨项目知识网络.md",
+    "PKM/README.md"
    ],
    "broken": [],
    "archived": false,
@@ -603,7 +611,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 2529,
+   "net_chars": 2833,
    "tags": [],
    "aliases": [],
    "out": [
@@ -916,7 +924,8 @@
    ],
    "in": [
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
-    "PKM/01-MOC/MOC-跨项目知识网络.md"
+    "PKM/01-MOC/MOC-跨项目知识网络.md",
+    "PKM/README.md"
    ],
    "broken": [],
    "archived": false,
@@ -2440,10 +2449,19 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "入口总览",
-   "net_chars": 2807,
+   "net_chars": 3494,
    "tags": [],
    "aliases": [],
    "out": [
+    "PKM/01-MOC/MOC-原子笔记索引.md",
+    "PKM/00-原子笔记/atom-0001-战锤四神体系.md",
+    "PKM/00-原子笔记/atom-0002-通用模板包.md",
+    "PKM/00-原子笔记/atom-0003-同题材共享语汇口径.md",
+    "PKM/00-原子笔记/atom-0004-基准系统加白名单.md",
+    "PKM/00-原子笔记/atom-0005-六栏结算制.md",
+    "PKM/00-原子笔记/atom-0006-考据与虚构三层分档.md",
+    "PKM/00-原子笔记/atom-0007-模板不适用是阶段属性.md",
+    "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md",
     "PKM/MOC-全库.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md",
     "PKM/00-原子笔记/guide-0001-PKM连接层使用指南.md",
