@@ -129,7 +129,8 @@ def build_graph(root: str) -> dict[str, Any]:
 
     return {
         "schema": 1,
-        "generated_at": time.strftime("%Y-%m-%dT%H:%M:%S"),
+        # **不含 generated_at** —— graph.json 是入库资产，带时间戳会让每次
+        # 重建都产生无意义 diff。构建时刻记在 index.json（派生缓存，不入库）。
         "summary": summary,
         "overrides_count": len(overrides),
         "nodes": nodes,
@@ -164,6 +165,11 @@ def render_moc(graph: dict[str, Any]) -> str:
 
     形态：**自上而下**（按项目分组）＋ 每组内给出「该组的核心文档」。
     这是 MOC 的标准骨架，人工在此基础上补「为什么这样组织」的叙事。
+
+    **不含生成时间戳** —— 本文件是入库资产，带时间戳会让每次重建都产生
+    无意义的 diff 噪音（纪律同「审校报告不入库」：时间戳只进文件名/日志，
+    不进内容判定）。构建时刻由 `graph.json` 的 `generated_at` 承载，
+    而它同样**不入库**（见下）。
     """
     s = graph["summary"]
     nodes = graph["nodes"]
@@ -177,11 +183,11 @@ def render_moc(graph: dict[str, Any]) -> str:
 
     A("# MOC · 全库内容地图")
     A("")
-    A("> **本文件由 `npm run pkm:moc` 生成骨架**，请在生成段落之间补写人工叙事。")
+    A("> **本文件由 `npm run pkm:build` 生成骨架**，请在生成段落之间补写人工叙事。")
     A("> 生成内容会被覆盖 —— 手写内容请写在「## 人工补充」之后，或另建 `MOC-*.md` 专页。")
     A("")
-    A(f"<!-- 生成时间：{graph['generated_at']} ｜ 文档 {_fmt(s['docs'])} ｜ "
-      f"连接 {_fmt(s['total_links'])} ｜ 断链 {_fmt(s['total_broken'])} -->")
+    A(f"<!-- 文档 {_fmt(s['docs'])} ／ 连接 {_fmt(s['total_links'])} ／ "
+      f"断链 {_fmt(s['total_broken'])} -->")
     A("")
     A("## 统计")
     A("")
