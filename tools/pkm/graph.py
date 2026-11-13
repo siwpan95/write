@@ -147,6 +147,122 @@ def load_project_links(root: str) -> dict[str, list[dict]]:
     return dict(out)
 
 
+def load_genre_clusters(root: str) -> list[dict]:
+    """
+    读取题材簇登记表 `PKM/02-索引/题材簇登记表.md`。
+
+    题材簇＝**题材相邻但不共享设定**的作品分组。
+    与「项目关联登记表」语义相反：
+      · 项目关联表 → 真的共享了什么 → **建知识链**（MOC 出「相关项目」互链）
+      · 题材簇表   → 只是题材相邻     → **不建链**，仅做归类展示
+
+    理由：题材相邻 ≠ 设定共享。硬连会让 MOC 退化成「看起来都相关」的噪音网。
+
+    返回 [簇, ...]
+    """
+    path = os.path.join(root, "PKM", "02-索引", "题材簇登记表.md")
+    if not os.path.exists(path):
+        return []
+
+    try:
+        raw = open(path, "rb").read()
+    except OSError:
+        return []
+    text = decode(raw)
+
+    out: list[dict] = []
+    for block in re.findall(r"```jsonl\s*\n(.*?)```", text, re.S):
+        for line in block.split("\n"):
+            line = line.strip()
+            if not line or line.startswith("//"):
+                continue
+            try:
+                obj = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            if obj.get("id") and obj.get("members"):
+                out.append(obj)
+    return out
+
+
+def render_genre_clusters(clusters: list[dict], project_moc: dict[str, str]) -> str:
+    """
+    渲染题材簇区块（Markdown）。
+
+    project_moc: {项目名: 项目 MOC 路径} —— 用于给簇成员加导航链接。
+    **簇内不建知识双链**：成员之间不因「题材相邻」而互连；
+    只把每个成员指向它自己的项目 MOC（那是真实的导航关系）。
+    """
+    lines: list[str] = []
+    A = lines.append
+
+    A("## 四、题材簇（相邻但独立）")
+    A("")
+    A("> 以下作品**题材相邻、作者同源，但各自独立** —— 不共用设定，只共用方法。")
+    A("> 按 [[atom-0003]] 的口径：**共享语汇要记账，但记账不等于互链**。")
+    A("> 真正**共享了设定**的关系在 §二/§三，那是另一类连接。")
+    A("")
+    for c in clusters:
+        A(f"### {c.get('name', c.get('id', ''))}")
+        A("")
+        common = c.get("common", "")
+        if common:
+            A(f"**共同特征**：{common}")
+            A("")
+        members = c.get("members", [])
+        if members:
+            A("| 成员 | 项目入口 |")
+            A("|---|---|")
+            for m in members:
+                moc = project_moc.get(m)
+                entry = f"[[{moc}]]" if moc else f"`{m}`"
+                A(f"| {m} | {entry} |")
+            A("")
+        distinct = c.get("distinct", "")
+        if distinct:
+            A(f"**为何仍是独立作品**：{distinct}")
+            A("")
+        note = c.get("note", "")
+        if note:
+            A(f"> {note}")
+            A("")
+    return "\n".join(lines)
+
+
+def replace_block(text: str, name: str, new_content: str,
+                  fallback_anchor: str = "## 导航") -> str:
+    """
+    替换 Markdown 中的**标记区间**（由生成器托管的内容）。
+
+    标记形如：
+        <!-- pkm:begin 题材簇 -->
+        ...（人工可编辑，但会被生成器覆盖）
+        <!-- pkm:end 题材簇 -->
+
+    若文件中没有该标记，则在 `fallback_anchor`（如「## 导航」）之前插入新区块。
+    若连 anchor 都没有，则追加到末尾。
+
+    **为什么用标记而不是纯生成**：跨项目 MOC 里有大量**人工叙事**，
+    不能整体生成 —— 但其中「题材簇」这一节又是登记表驱动的。
+    标记法让人工段落原样保留，只托管该托管的那一节。
+    """
+    begin = f"<!-- pkm:begin {name} -->"
+    end = f"<!-- pkm:end {name} -->"
+
+    block = f"{begin}\n{new_content.rstrip()}\n{end}"
+
+    if begin in text and end in text:
+        i = text.index(begin)
+        j = text.index(end, i) + len(end)
+        return text[:i] + block + text[j:]
+
+    if fallback_anchor and fallback_anchor in text:
+        k = text.index(fallback_anchor)
+        return text[:k] + block + "\n\n" + text[k:]
+
+    return text.rstrip() + "\n\n" + block + "\n"
+
+
 def build_graph(root: str) -> dict[str, Any]:
     """
     构建**可入库**的知识图谱。

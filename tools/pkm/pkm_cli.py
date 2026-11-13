@@ -27,10 +27,12 @@ if HERE not in sys.path:
     sys.path.insert(0, HERE)
 
 from graph import (  # noqa: E402
-    build_graph, is_generated, load_project_links, render_broken, render_moc,
-    render_orphans, render_project_moc, write_graph, write_text,
+    build_graph, is_generated, load_genre_clusters, load_project_links,
+    render_broken, render_genre_clusters, render_moc, render_orphans,
+    render_project_moc, replace_block, write_graph, write_text,
 )
 from indexer import build_index, search, write_index  # noqa: E402
+from scanner import decode  # noqa: E402
 
 
 def _root(args: list[str]) -> str:
@@ -76,6 +78,10 @@ def cmd_build(args: list[str]) -> int:
     g = build_graph(root)
     moc_count = _write_project_mocs(root, g)
     print(f"[pkm] 项目 MOC（第二轮，收敛）：{moc_count} 份", file=sys.stderr)
+
+    # ---------- 跨项目 MOC 的登记表驱动区块（题材簇） ----------
+    if _update_cross_moc(root, g):
+        print("[pkm] 跨项目 MOC：题材簇区块已按登记表更新", file=sys.stderr)
 
     gp, gsize = write_graph(g, _out(root, "graph.json"))
     print(f"[pkm] 图谱（入库）：{gp}（{gsize} 字节）", file=sys.stderr)
@@ -139,6 +145,50 @@ def _write_project_mocs(root: str, graph: dict) -> int:
         write_text(text, os.path.join(moc_dir, f"MOC-{proj}.md"))
         count += 1
     return count
+
+
+def _update_cross_moc(root: str, graph: dict) -> bool:
+    """
+    更新跨项目 MOC 的**登记表驱动区块**（题材簇）。
+
+    跨项目 MOC 是**人工维护**的（大量叙事不能生成），
+    但其中「题材簇」一节应由题材簇登记表驱动。
+    故用标记区间 `<!-- pkm:begin 题材簇 -->` 托管这一节。
+
+    返回是否发生了更新。
+    """
+    path = os.path.join(root, "PKM", "01-MOC", "MOC-跨项目知识网络.md")
+    if not os.path.exists(path):
+        return False
+
+    try:
+        raw = open(path, "rb").read()
+    except OSError:
+        return False
+    text = decode(raw)
+
+    # 项目名 → 项目 MOC 路径（给簇成员做导航链接）
+    # **以文件是否真实存在为准** —— 指向不存在的 MOC 会变成断链。
+    moc_dir = os.path.join(root, "PKM", "01-MOC")
+    project_moc: dict[str, str] = {}
+    for n in graph["nodes"]:
+        p = n.get("project")
+        if not p or p == "PKM":
+            continue
+        rel = f"PKM/01-MOC/MOC-{p}.md"
+        if os.path.exists(os.path.join(root, rel.replace("/", os.sep))):
+            project_moc[p] = rel
+
+    clusters = load_genre_clusters(root)
+    block = render_genre_clusters(clusters, project_moc) if clusters else \
+        "## 四、题材簇（相邻但独立）\n\n> **尚未登记题材簇** —— 见 `PKM/02-索引/题材簇登记表.md`。"
+
+    new_text = replace_block(text, "题材簇", block)
+    if new_text == text:
+        return False
+
+    write_text(new_text, path)
+    return True
 
 
 def _positional(args: list[str], skip_values: set[str]) -> list[str]:

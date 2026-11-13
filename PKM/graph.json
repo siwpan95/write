@@ -1,11 +1,11 @@
 {
  "schema": 1,
  "summary": {
-  "docs": 1197,
+  "docs": 1203,
   "by_type": {
    "正文": 563,
-   "设定": 365,
-   "模板": 245,
+   "设定": 372,
+   "模板": 244,
    "总览": 24
   },
   "by_project": {
@@ -59,6 +59,17 @@
     "knowledge": 44,
     "knowledge_orphan": 0
    },
+   "PKM": {
+    "docs": 42,
+    "net_chars": 42426,
+    "types": {
+     "设定": 41,
+     "总览": 1
+    },
+    "links": 1405,
+    "knowledge": 42,
+    "knowledge_orphan": 0
+   },
    "华夏克苏鲁": {
     "docs": 41,
     "net_chars": 828822,
@@ -71,24 +82,13 @@
     "knowledge": 41,
     "knowledge_orphan": 0
    },
-   "PKM": {
-    "docs": 36,
-    "net_chars": 32365,
-    "types": {
-     "设定": 35,
-     "总览": 1
-    },
-    "links": 1358,
-    "knowledge": 36,
-    "knowledge_orphan": 0
-   },
    "无敌不是他人路": {
     "docs": 23,
     "net_chars": 94409,
     "types": {
-     "模板": 9,
+     "模板": 8,
+     "设定": 3,
      "总览": 1,
-     "设定": 2,
      "正文": 11
     },
     "links": 0,
@@ -211,20 +211,20 @@
     "knowledge_orphan": 0
    }
   },
-  "total_links": 1398,
+  "total_links": 1445,
   "total_broken": 0,
-  "frontmatter_docs": 11,
-  "tag_count": 81,
-  "knowledge_docs": 634,
+  "frontmatter_docs": 16,
+  "tag_count": 90,
+  "knowledge_docs": 640,
   "knowledge_orphans": 0,
   "knowledge_orphan_rate": 0.0,
   "narrative_docs": 563,
   "narrative_orphans": 0,
   "orphan_count": 0,
   "orphan_sample": [],
-  "net_chars_total": 6495970
+  "net_chars_total": 6506327
  },
- "overrides_count": 12,
+ "overrides_count": 17,
  "nodes": [
   {
    "path": "PKM/00-原子笔记/atom-0001-战锤四神体系.md",
@@ -246,6 +246,7 @@
    "in": [
     "PKM/00-原子笔记/atom-0002-通用模板包.md",
     "PKM/00-原子笔记/atom-0003-同题材共享语汇口径.md",
+    "PKM/00-原子笔记/atom-0012-文书与实操的错位.md",
     "PKM/00-原子笔记/guide-0001-PKM连接层使用指南.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-原子笔记索引.md",
@@ -353,6 +354,7 @@
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-原子笔记索引.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md",
+    "PKM/02-索引/题材簇登记表.md",
     "PKM/README.md"
    ],
    "broken": [],
@@ -395,6 +397,9 @@
    "in": [
     "PKM/00-原子笔记/atom-0005-六栏结算制.md",
     "PKM/00-原子笔记/atom-0006-考据与虚构三层分档.md",
+    "PKM/00-原子笔记/atom-0009-代价四档.md",
+    "PKM/00-原子笔记/atom-0011-可判定形式.md",
+    "PKM/00-原子笔记/atom-0013-借结构不取材与三层互不代偿.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-原子笔记索引.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md",
@@ -530,6 +535,8 @@
    "in": [
     "PKM/00-原子笔记/atom-0005-六栏结算制.md",
     "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md",
+    "PKM/00-原子笔记/atom-0010-战力标尺与不写升级流.md",
+    "PKM/00-原子笔记/atom-0011-可判定形式.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-原子笔记索引.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md",
@@ -578,6 +585,7 @@
    ],
    "in": [
     "PKM/00-原子笔记/atom-0007-模板不适用是阶段属性.md",
+    "PKM/00-原子笔记/atom-0009-代价四档.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-原子笔记索引.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md",
@@ -600,6 +608,225 @@
      "口径/创作",
      "体系/生命周期",
      "方法论/流程"
+    ]
+   },
+   "overridden": false
+  },
+  {
+   "path": "PKM/00-原子笔记/atom-0009-代价四档.md",
+   "title": "代价四档（力量强度的可移植设计技术）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "PKM",
+   "role": "",
+   "net_chars": 1254,
+   "tags": [],
+   "aliases": [],
+   "out": [
+    "PKM/00-原子笔记/atom-0004-基准系统加白名单.md",
+    "PKM/00-原子笔记/atom-0010-战力标尺与不写升级流.md",
+    "无敌不是他人路/03-世界观圣经-无敌不是他人路.md",
+    "无敌不是他人路/作品总览.md",
+    "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md"
+   ],
+   "in": [
+    "PKM/00-原子笔记/atom-0010-战力标尺与不写升级流.md",
+    "PKM/00-原子笔记/atom-0013-借结构不取材与三层互不代偿.md",
+    "PKM/01-MOC/MOC-PKM-知识连接层.md",
+    "PKM/01-MOC/MOC-原子笔记索引.md",
+    "PKM/01-MOC/MOC-跨项目知识网络.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {
+    "id": "atom-0009",
+    "title": "代价四档（力量强度的可移植设计技术）",
+    "type": "永久笔记",
+    "status": "稳定",
+    "created": "2026-11-14",
+    "projects": [
+     "无敌不是他人路"
+    ],
+    "tags": [
+     "方法论/设定",
+     "体系/力量",
+     "口径/创作"
+    ]
+   },
+   "overridden": false
+  },
+  {
+   "path": "PKM/00-原子笔记/atom-0010-战力标尺与不写升级流.md",
+   "title": "战力标尺与「不写升级流」的替代方案",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "PKM",
+   "role": "",
+   "net_chars": 1052,
+   "tags": [],
+   "aliases": [],
+   "out": [
+    "PKM/00-原子笔记/atom-0009-代价四档.md",
+    "PKM/00-原子笔记/atom-0007-模板不适用是阶段属性.md",
+    "无敌不是他人路/03-世界观圣经-无敌不是他人路.md",
+    "无敌不是他人路/作品总览.md",
+    "PKM/00-原子笔记/atom-0011-可判定形式.md"
+   ],
+   "in": [
+    "PKM/00-原子笔记/atom-0009-代价四档.md",
+    "PKM/00-原子笔记/atom-0011-可判定形式.md",
+    "PKM/01-MOC/MOC-PKM-知识连接层.md",
+    "PKM/01-MOC/MOC-原子笔记索引.md",
+    "PKM/01-MOC/MOC-跨项目知识网络.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {
+    "id": "atom-0010",
+    "title": "战力标尺与「不写升级流」的替代方案",
+    "type": "永久笔记",
+    "status": "稳定",
+    "created": "2026-11-14",
+    "projects": [
+     "无敌不是他人路"
+    ],
+    "tags": [
+     "方法论/设定",
+     "体系/标尺",
+     "口径/创作"
+    ]
+   },
+   "overridden": false
+  },
+  {
+   "path": "PKM/00-原子笔记/atom-0011-可判定形式.md",
+   "title": "可判定形式（把设定写成可校验的判据）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "PKM",
+   "role": "",
+   "net_chars": 1491,
+   "tags": [],
+   "aliases": [],
+   "out": [
+    "PKM/00-原子笔记/atom-0004-基准系统加白名单.md",
+    "PKM/00-原子笔记/atom-0011-可判定形式.md",
+    "PKM/00-原子笔记/atom-0007-模板不适用是阶段属性.md",
+    "PKM/00-原子笔记/atom-0010-战力标尺与不写升级流.md",
+    "小说/bible/world-bible.md",
+    "小说/bible/README.md",
+    "小说/设定与参考/事实基线.md",
+    "通用模板包/03-世界观圣经模板.md"
+   ],
+   "in": [
+    "PKM/00-原子笔记/atom-0010-战力标尺与不写升级流.md",
+    "PKM/00-原子笔记/atom-0011-可判定形式.md",
+    "PKM/00-原子笔记/atom-0012-文书与实操的错位.md",
+    "PKM/01-MOC/MOC-PKM-知识连接层.md",
+    "PKM/01-MOC/MOC-原子笔记索引.md",
+    "PKM/01-MOC/MOC-跨项目知识网络.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {
+    "id": "atom-0011",
+    "title": "可判定形式（把设定写成可校验的判据）",
+    "type": "永久笔记",
+    "status": "稳定",
+    "created": "2026-11-14",
+    "projects": [
+     "小说"
+    ],
+    "tags": [
+     "方法论/设定",
+     "口径/创作",
+     "体系/规则"
+    ]
+   },
+   "overridden": false
+  },
+  {
+   "path": "PKM/00-原子笔记/atom-0012-文书与实操的错位.md",
+   "title": "文书与实操的错位（用术语差制造官僚化与世界观感）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "PKM",
+   "role": "",
+   "net_chars": 1347,
+   "tags": [],
+   "aliases": [],
+   "out": [
+    "PKM/00-原子笔记/atom-0011-可判定形式.md",
+    "PKM/00-原子笔记/atom-0013-借结构不取材与三层互不代偿.md",
+    "廓者未名夜/03-世界观圣经-廓者未名夜.md",
+    "廓者未名夜/作品总览.md",
+    "廓者未名夜/04-人物卡-廓者未名夜.md",
+    "PKM/00-原子笔记/atom-0001-战锤四神体系.md"
+   ],
+   "in": [
+    "PKM/00-原子笔记/atom-0013-借结构不取材与三层互不代偿.md",
+    "PKM/01-MOC/MOC-PKM-知识连接层.md",
+    "PKM/01-MOC/MOC-原子笔记索引.md",
+    "PKM/01-MOC/MOC-跨项目知识网络.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {
+    "id": "atom-0012",
+    "title": "文书与实操的错位（用术语差制造官僚化与世界观感）",
+    "type": "永久笔记",
+    "status": "稳定",
+    "created": "2026-11-14",
+    "projects": [
+     "廓者未名夜"
+    ],
+    "tags": [
+     "方法论/设定",
+     "口径/创作",
+     "体系/术语"
+    ]
+   },
+   "overridden": false
+  },
+  {
+   "path": "PKM/00-原子笔记/atom-0013-借结构不取材与三层互不代偿.md",
+   "title": "借结构不取材 ＋ 三层互不代偿（参考借鉴与骨架自检）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "PKM",
+   "role": "",
+   "net_chars": 1598,
+   "tags": [],
+   "aliases": [],
+   "out": [
+    "PKM/00-原子笔记/atom-0004-基准系统加白名单.md",
+    "PKM/00-原子笔记/atom-0012-文书与实操的错位.md",
+    "PKM/00-原子笔记/atom-0009-代价四档.md",
+    "廓者未名夜/03-世界观圣经-廓者未名夜.md",
+    "廓者未名夜/作品总览.md",
+    "廓者未名夜/12-品类IP合规前置-廓者未名夜.md"
+   ],
+   "in": [
+    "PKM/00-原子笔记/atom-0012-文书与实操的错位.md",
+    "PKM/01-MOC/MOC-PKM-知识连接层.md",
+    "PKM/01-MOC/MOC-原子笔记索引.md",
+    "PKM/01-MOC/MOC-跨项目知识网络.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {
+    "id": "atom-0013",
+    "title": "借结构不取材 ＋ 三层互不代偿（参考借鉴与骨架自检）",
+    "type": "永久笔记",
+    "status": "稳定",
+    "created": "2026-11-14",
+    "projects": [
+     "廓者未名夜"
+    ],
+    "tags": [
+     "方法论/设定",
+     "口径/创作",
+     "体系/骨架"
     ]
    },
    "overridden": false
@@ -650,7 +877,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 2061,
+   "net_chars": 2451,
    "tags": [],
    "aliases": [],
    "out": [
@@ -663,6 +890,11 @@
     "PKM/00-原子笔记/atom-0006-考据与虚构三层分档.md",
     "PKM/00-原子笔记/atom-0007-模板不适用是阶段属性.md",
     "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md",
+    "PKM/00-原子笔记/atom-0009-代价四档.md",
+    "PKM/00-原子笔记/atom-0010-战力标尺与不写升级流.md",
+    "PKM/00-原子笔记/atom-0011-可判定形式.md",
+    "PKM/00-原子笔记/atom-0012-文书与实操的错位.md",
+    "PKM/00-原子笔记/atom-0013-借结构不取材与三层互不代偿.md",
     "PKM/00-原子笔记/guide-0001-PKM连接层使用指南.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-Tserena.md",
@@ -685,6 +917,7 @@
     "PKM/01-MOC/MOC-通用模板包.md",
     "PKM/02-索引/文档元数据清单.md",
     "PKM/02-索引/项目关联登记表.md",
+    "PKM/02-索引/题材簇登记表.md",
     "PKM/MOC-全库.md",
     "PKM/孤立文档清单.md",
     "PKM/换机部署.md",
@@ -906,13 +1139,18 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 1482,
+   "net_chars": 1982,
    "tags": [],
    "aliases": [],
    "out": [
     "PKM/00-原子笔记/atom-0001-战锤四神体系.md",
     "PKM/00-原子笔记/atom-0004-基准系统加白名单.md",
     "PKM/00-原子笔记/atom-0005-六栏结算制.md",
+    "PKM/00-原子笔记/atom-0009-代价四档.md",
+    "PKM/00-原子笔记/atom-0010-战力标尺与不写升级流.md",
+    "PKM/00-原子笔记/atom-0011-可判定形式.md",
+    "PKM/00-原子笔记/atom-0012-文书与实操的错位.md",
+    "PKM/00-原子笔记/atom-0013-借结构不取材与三层互不代偿.md",
     "PKM/00-原子笔记/atom-0006-考据与虚构三层分档.md",
     "PKM/00-原子笔记/atom-0007-模板不适用是阶段属性.md",
     "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md",
@@ -1678,18 +1916,18 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 1728,
+   "net_chars": 1732,
    "tags": [],
    "aliases": [],
    "out": [
     "PKM/01-MOC/MOC-跨项目知识网络.md",
     "PKM/01-MOC/MOC-通用模板包.md",
     "无敌不是他人路/作品总览.md",
+    "无敌不是他人路/03-世界观圣经-无敌不是他人路.md",
     "无敌不是他人路/反套路与热梗规范-20261113.md",
     "无敌不是他人路/立项调研-外部事实核对表-20261113.md",
     "无敌不是他人路/01-立项定位-无敌不是他人路.md",
     "无敌不是他人路/02-大纲四层-无敌不是他人路.md",
-    "无敌不是他人路/03-世界观圣经-无敌不是他人路.md",
     "无敌不是他人路/04-人物卡-无敌不是他人路.md",
     "无敌不是他人路/05-文风卡-无敌不是他人路.md",
     "无敌不是他人路/06-连载护航-无敌不是他人路.md",
@@ -2177,7 +2415,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 3056,
+   "net_chars": 4595,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2192,22 +2430,27 @@
     "Tserena/设定与参考/本轮路线图与优先级-20261110.md",
     "华夏克苏鲁/05_模板对齐/05_立项与大纲/00-立项书.md",
     "PKM/00-原子笔记/atom-0004-基准系统加白名单.md",
-    "PKM/00-原子笔记/atom-0006-考据与虚构三层分档.md",
+    "PKM/00-原子笔记/atom-0011-可判定形式.md",
+    "PKM/00-原子笔记/atom-0012-文书与实操的错位.md",
+    "PKM/00-原子笔记/atom-0013-借结构不取材与三层互不代偿.md",
+    "PKM/00-原子笔记/atom-0009-代价四档.md",
+    "PKM/00-原子笔记/atom-0010-战力标尺与不写升级流.md",
     "PKM/00-原子笔记/atom-0005-六栏结算制.md",
+    "PKM/00-原子笔记/atom-0006-考据与虚构三层分档.md",
     "PKM/00-原子笔记/atom-0007-模板不适用是阶段属性.md",
     "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md",
     "PKM/00-原子笔记/atom-0003-同题材共享语汇口径.md",
-    "PKM/01-MOC/MOC-廓者未名夜.md",
-    "PKM/01-MOC/MOC-战锤42拔智齿.md",
-    "PKM/01-MOC/MOC-通用模板包.md",
-    "PKM/01-MOC/MOC-华夏克苏鲁.md",
-    "PKM/01-MOC/MOC-Tserena.md",
-    "PKM/01-MOC/MOC-二十一世纪奇门遁甲.md",
-    "PKM/01-MOC/MOC-无敌不是他人路.md",
-    "PKM/01-MOC/MOC-逆鳞.md",
-    "PKM/01-MOC/MOC-未名骨.md",
     "PKM/01-MOC/MOC-综网废柴逆命.md",
     "PKM/01-MOC/MOC-小说.md",
+    "PKM/01-MOC/MOC-廓者未名夜.md",
+    "PKM/01-MOC/MOC-战锤42拔智齿.md",
+    "PKM/01-MOC/MOC-Tserena.md",
+    "PKM/01-MOC/MOC-华夏克苏鲁.md",
+    "PKM/01-MOC/MOC-二十一世纪奇门遁甲.md",
+    "PKM/01-MOC/MOC-逆鳞.md",
+    "PKM/01-MOC/MOC-无敌不是他人路.md",
+    "PKM/01-MOC/MOC-通用模板包.md",
+    "PKM/01-MOC/MOC-未名骨.md",
     "PKM/01-MOC/MOC-点子库.md",
     "PKM/01-MOC/MOC-提交确实未创建.md",
     "PKM/01-MOC/MOC-通宵杀敌.md",
@@ -2364,7 +2607,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 2767,
+   "net_chars": 3656,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -2396,13 +2639,34 @@
    "overridden": false
   },
   {
+   "path": "PKM/02-索引/题材簇登记表.md",
+   "title": "题材簇登记表（受控 · 人工维护）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "PKM",
+   "role": "",
+   "net_chars": 2091,
+   "tags": [],
+   "aliases": [],
+   "out": [
+    "PKM/00-原子笔记/atom-0003-同题材共享语汇口径.md"
+   ],
+   "in": [
+    "PKM/01-MOC/MOC-PKM-知识连接层.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
    "path": "PKM/MOC-全库.md",
    "title": "MOC · 全库内容地图",
    "type": "设定",
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 10739,
+   "net_chars": 10755,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2414,9 +2678,9 @@
     "点子库/README-点子库.md",
     "提交确实未创建/作品总览.md",
     "综网废柴逆命/作品总览.md",
+    "PKM/README.md",
     "华夏克苏鲁/README-总览.md",
     "华夏克苏鲁/作品总览.md",
-    "PKM/README.md",
     "无敌不是他人路/作品总览.md",
     "Tserena/作品总览.md",
     "二十一世纪奇门遁甲/作品总览.md",
@@ -2449,7 +2713,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "入口总览",
-   "net_chars": 3494,
+   "net_chars": 3833,
    "tags": [],
    "aliases": [],
    "out": [
@@ -4392,6 +4656,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/00-原子笔记/atom-0011-可判定形式.md",
     "PKM/01-MOC/MOC-小说.md"
    ],
    "broken": [],
@@ -4882,16 +5147,23 @@
    "project": "小说",
    "role": "设定",
    "net_chars": 25027,
-   "tags": [],
-   "aliases": [],
+   "tags": [
+    "设定/世界观",
+    "方法论/设定"
+   ],
+   "aliases": [
+    "废土世界观圣经",
+    "废土SSOT"
+   ],
    "out": [],
    "in": [
+    "PKM/00-原子笔记/atom-0011-可判定形式.md",
     "PKM/01-MOC/MOC-小说.md"
    ],
    "broken": [],
    "archived": false,
    "fm": {},
-   "overridden": false
+   "overridden": true
   },
   {
    "path": "小说/bible/外传/分支树.md",
@@ -9676,6 +9948,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/00-原子笔记/atom-0011-可判定形式.md",
     "PKM/01-MOC/MOC-小说.md"
    ],
    "broken": [],
@@ -10215,8 +10488,14 @@
    "project": "小说",
    "role": "入口总览",
    "net_chars": 4290,
-   "tags": [],
-   "aliases": [],
+   "tags": [
+    "入口总览",
+    "资产/台账"
+   ],
+   "aliases": [
+    "废土总览",
+    "废土项目梳理"
+   ],
    "out": [],
    "in": [
     "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md",
@@ -10227,7 +10506,7 @@
    "broken": [],
    "archived": false,
    "fm": {},
-   "overridden": false
+   "overridden": true
   },
   {
    "path": "工作区规范.md",
@@ -10236,7 +10515,7 @@
    "kind": "knowledge",
    "project": "",
    "role": "",
-   "net_chars": 7975,
+   "net_chars": 8271,
    "tags": [],
    "aliases": [],
    "out": [
@@ -10301,16 +10580,19 @@
    "net_chars": 8008,
    "tags": [
     "设定/世界观",
-    "体系/四神"
+    "方法论/设定"
    ],
    "aliases": [
-    "廓者世界观圣经"
+    "廓者世界观圣经",
+    "廓者SSOT"
    ],
    "out": [
     "战锤42拔智齿/作品总览.md"
    ],
    "in": [
     "PKM/00-原子笔记/atom-0001-战锤四神体系.md",
+    "PKM/00-原子笔记/atom-0012-文书与实操的错位.md",
+    "PKM/00-原子笔记/atom-0013-借结构不取材与三层互不代偿.md",
     "PKM/01-MOC/MOC-廓者未名夜.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md"
    ],
@@ -10331,6 +10613,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/00-原子笔记/atom-0012-文书与实操的错位.md",
     "PKM/01-MOC/MOC-廓者未名夜.md"
    ],
    "broken": [],
@@ -10447,6 +10730,7 @@
     "战锤42拔智齿/12-品类IP合规前置-战锤42拔智齿.md"
    ],
    "in": [
+    "PKM/00-原子笔记/atom-0013-借结构不取材与三层互不代偿.md",
     "PKM/01-MOC/MOC-廓者未名夜.md"
    ],
    "broken": [],
@@ -10492,6 +10776,8 @@
    ],
    "in": [
     "PKM/00-原子笔记/atom-0002-通用模板包.md",
+    "PKM/00-原子笔记/atom-0012-文书与实操的错位.md",
+    "PKM/00-原子笔记/atom-0013-借结构不取材与三层互不代偿.md",
     "PKM/01-MOC/MOC-廓者未名夜.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md",
     "PKM/MOC-全库.md",
@@ -16540,21 +16826,29 @@
   {
    "path": "无敌不是他人路/03-世界观圣经-无敌不是他人路.md",
    "title": "03 · 世界观圣经——《无敌不是他人路》（核心设定层）",
-   "type": "模板",
+   "type": "设定",
    "kind": "knowledge",
    "project": "无敌不是他人路",
    "role": "",
    "net_chars": 9432,
-   "tags": [],
-   "aliases": [],
+   "tags": [
+    "设定/世界观",
+    "体系/力量"
+   ],
+   "aliases": [
+    "无敌世界观圣经",
+    "无敌SSOT"
+   ],
    "out": [],
    "in": [
+    "PKM/00-原子笔记/atom-0009-代价四档.md",
+    "PKM/00-原子笔记/atom-0010-战力标尺与不写升级流.md",
     "PKM/01-MOC/MOC-无敌不是他人路.md"
    ],
    "broken": [],
    "archived": false,
    "fm": {},
-   "overridden": false
+   "overridden": true
   },
   {
    "path": "无敌不是他人路/04-人物卡-无敌不是他人路.md",
@@ -16682,6 +16976,8 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/00-原子笔记/atom-0009-代价四档.md",
+    "PKM/00-原子笔记/atom-0010-战力标尺与不写升级流.md",
     "PKM/01-MOC/MOC-无敌不是他人路.md",
     "PKM/MOC-全库.md",
     "README.md"
@@ -22858,8 +23154,13 @@
    "project": "点子库",
    "role": "入口总览",
    "net_chars": 4769,
-   "tags": [],
-   "aliases": [],
+   "tags": [
+    "入口总览",
+    "方法论/流程"
+   ],
+   "aliases": [
+    "点子库总览"
+   ],
    "out": [],
    "in": [
     "PKM/00-原子笔记/atom-0005-六栏结算制.md",
@@ -22870,7 +23171,7 @@
    "broken": [],
    "archived": false,
    "fm": {},
-   "overridden": false
+   "overridden": true
   },
   {
    "path": "综网废柴逆命/_archive/废弃旧稿/第01章_六维全一.md",
@@ -22956,8 +23257,12 @@
    "project": "综网废柴逆命",
    "role": "入口总览",
    "net_chars": 2896,
-   "tags": [],
-   "aliases": [],
+   "tags": [
+    "入口总览"
+   ],
+   "aliases": [
+    "综网总览"
+   ],
    "out": [],
    "in": [
     "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md",
@@ -22968,7 +23273,7 @@
    "broken": [],
    "archived": false,
    "fm": {},
-   "overridden": false
+   "overridden": true
   },
   {
    "path": "综网废柴逆命/正文/第一卷_不可培养/第01章_第七百二十个.md",
@@ -24560,6 +24865,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/00-原子笔记/atom-0011-可判定形式.md",
     "PKM/01-MOC/MOC-通用模板包.md"
    ],
    "broken": [],
