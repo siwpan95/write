@@ -1,11 +1,11 @@
 {
  "schema": 1,
  "summary": {
-  "docs": 1191,
+  "docs": 1197,
   "by_type": {
    "正文": 563,
-   "设定": 357,
-   "模板": 247,
+   "设定": 365,
+   "模板": 245,
    "总览": 24
   },
   "by_project": {
@@ -25,9 +25,9 @@
     "docs": 306,
     "net_chars": 1246611,
     "types": {
-     "模板": 179,
+     "模板": 177,
+     "设定": 124,
      "总览": 4,
-     "设定": 122,
      "正文": 1
     },
     "links": 0,
@@ -72,14 +72,14 @@
     "knowledge_orphan": 0
    },
    "PKM": {
-    "docs": 30,
-    "net_chars": 23553,
+    "docs": 36,
+    "net_chars": 31374,
     "types": {
-     "设定": 29,
+     "设定": 35,
      "总览": 1
     },
-    "links": 1293,
-    "knowledge": 30,
+    "links": 1349,
+    "knowledge": 36,
     "knowledge_orphan": 0
    },
    "无敌不是他人路": {
@@ -211,20 +211,20 @@
     "knowledge_orphan": 0
    }
   },
-  "total_links": 1333,
+  "total_links": 1389,
   "total_broken": 0,
-  "frontmatter_docs": 5,
-  "tag_count": 69,
-  "knowledge_docs": 628,
+  "frontmatter_docs": 11,
+  "tag_count": 81,
+  "knowledge_docs": 634,
   "knowledge_orphans": 0,
   "knowledge_orphan_rate": 0.0,
   "narrative_docs": 563,
   "narrative_orphans": 0,
   "orphan_count": 0,
   "orphan_sample": [],
-  "net_chars_total": 6487158
+  "net_chars_total": 6494979
  },
- "overrides_count": 6,
+ "overrides_count": 12,
  "nodes": [
   {
    "path": "PKM/00-原子笔记/atom-0001-战锤四神体系.md",
@@ -248,6 +248,7 @@
     "PKM/00-原子笔记/atom-0003-同题材共享语汇口径.md",
     "PKM/00-原子笔记/guide-0001-PKM连接层使用指南.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
+    "PKM/01-MOC/MOC-原子笔记索引.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md"
    ],
    "broken": [],
@@ -293,8 +294,13 @@
    "in": [
     "PKM/00-原子笔记/atom-0001-战锤四神体系.md",
     "PKM/00-原子笔记/atom-0003-同题材共享语汇口径.md",
+    "PKM/00-原子笔记/atom-0004-基准系统加白名单.md",
+    "PKM/00-原子笔记/atom-0005-六栏结算制.md",
+    "PKM/00-原子笔记/atom-0007-模板不适用是阶段属性.md",
+    "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md",
     "PKM/00-原子笔记/guide-0001-PKM连接层使用指南.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
+    "PKM/01-MOC/MOC-原子笔记索引.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md"
    ],
    "broken": [],
@@ -339,8 +345,11 @@
    ],
    "in": [
     "PKM/00-原子笔记/atom-0001-战锤四神体系.md",
+    "PKM/00-原子笔记/atom-0004-基准系统加白名单.md",
+    "PKM/00-原子笔记/atom-0006-考据与虚构三层分档.md",
     "PKM/00-原子笔记/guide-0001-PKM连接层使用指南.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
+    "PKM/01-MOC/MOC-原子笔记索引.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md"
    ],
    "broken": [],
@@ -364,6 +373,230 @@
    "overridden": false
   },
   {
+   "path": "PKM/00-原子笔记/atom-0004-基准系统加白名单.md",
+   "title": "基准系统＋白名单（设定完备性的低成本保障法）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "PKM",
+   "role": "",
+   "net_chars": 1180,
+   "tags": [],
+   "aliases": [],
+   "out": [
+    "PKM/00-原子笔记/atom-0002-通用模板包.md",
+    "PKM/00-原子笔记/atom-0006-考据与虚构三层分档.md",
+    "点子库/01-设定集/22-大秦银河反哺-铁律映射与四步审计.md",
+    "点子库/01-设定集/README.md",
+    "PKM/00-原子笔记/atom-0003-同题材共享语汇口径.md"
+   ],
+   "in": [
+    "PKM/00-原子笔记/atom-0005-六栏结算制.md",
+    "PKM/00-原子笔记/atom-0006-考据与虚构三层分档.md",
+    "PKM/01-MOC/MOC-PKM-知识连接层.md",
+    "PKM/01-MOC/MOC-原子笔记索引.md",
+    "PKM/01-MOC/MOC-跨项目知识网络.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {
+    "id": "atom-0004",
+    "title": "基准系统＋白名单（设定完备性的低成本保障法）",
+    "type": "永久笔记",
+    "status": "稳定",
+    "created": "2026-11-14",
+    "projects": [
+     "点子库"
+    ],
+    "tags": [
+     "方法论/设定",
+     "口径/创作"
+    ]
+   },
+   "overridden": false
+  },
+  {
+   "path": "PKM/00-原子笔记/atom-0005-六栏结算制.md",
+   "title": "六栏结算制（完稿后的回填机制）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "PKM",
+   "role": "",
+   "net_chars": 1505,
+   "tags": [],
+   "aliases": [],
+   "out": [
+    "PKM/00-原子笔记/atom-0002-通用模板包.md",
+    "PKM/00-原子笔记/atom-0004-基准系统加白名单.md",
+    "点子库/01-设定集/22-大秦银河反哺-铁律映射与四步审计.md",
+    "点子库/01-设定集/23-落点结算-双读规程与工作区修订记录.md",
+    "点子库/01-设定集/24-角色卡总册.md",
+    "点子库/README-点子库.md",
+    "PKM/00-原子笔记/atom-0007-模板不适用是阶段属性.md"
+   ],
+   "in": [
+    "PKM/00-原子笔记/atom-0007-模板不适用是阶段属性.md",
+    "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md",
+    "PKM/01-MOC/MOC-PKM-知识连接层.md",
+    "PKM/01-MOC/MOC-原子笔记索引.md",
+    "PKM/01-MOC/MOC-跨项目知识网络.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {
+    "id": "atom-0005",
+    "title": "六栏结算制（完稿后的回填机制）",
+    "type": "永久笔记",
+    "status": "稳定",
+    "created": "2026-11-14",
+    "projects": [
+     "点子库"
+    ],
+    "tags": [
+     "方法论/流程",
+     "口径/创作",
+     "体系/台账"
+    ]
+   },
+   "overridden": false
+  },
+  {
+   "path": "PKM/00-原子笔记/atom-0006-考据与虚构三层分档.md",
+   "title": "考据与虚构的三层分档（典/考/构）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "PKM",
+   "role": "",
+   "net_chars": 1320,
+   "tags": [],
+   "aliases": [],
+   "out": [
+    "PKM/00-原子笔记/atom-0003-同题材共享语汇口径.md",
+    "PKM/00-原子笔记/atom-0004-基准系统加白名单.md",
+    "华夏克苏鲁/01_bible/world-bible.md",
+    "华夏克苏鲁/01_bible/00_铁律表.md",
+    "华夏克苏鲁/01_bible/考据勘误与设定变更登记.md"
+   ],
+   "in": [
+    "PKM/00-原子笔记/atom-0004-基准系统加白名单.md",
+    "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md",
+    "PKM/01-MOC/MOC-PKM-知识连接层.md",
+    "PKM/01-MOC/MOC-原子笔记索引.md",
+    "PKM/01-MOC/MOC-跨项目知识网络.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {
+    "id": "atom-0006",
+    "title": "考据与虚构的三层分档（典/考/构）",
+    "type": "永久笔记",
+    "status": "稳定",
+    "created": "2026-11-14",
+    "projects": [
+     "华夏克苏鲁"
+    ],
+    "tags": [
+     "方法论/考据",
+     "口径/创作",
+     "体系/分档"
+    ]
+   },
+   "overridden": false
+  },
+  {
+   "path": "PKM/00-原子笔记/atom-0007-模板不适用是阶段属性.md",
+   "title": "模板不适用是阶段属性，不是项目属性",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "PKM",
+   "role": "",
+   "net_chars": 1493,
+   "tags": [],
+   "aliases": [],
+   "out": [
+    "PKM/00-原子笔记/atom-0002-通用模板包.md",
+    "PKM/00-原子笔记/atom-0005-六栏结算制.md",
+    "Tserena/设定与参考/模板反哺报告-20261110.md",
+    "Tserena/设定与参考/本轮路线图与优先级-20261110.md",
+    "Tserena/作品总览.md",
+    "华夏克苏鲁/README-总览.md",
+    "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md"
+   ],
+   "in": [
+    "PKM/00-原子笔记/atom-0005-六栏结算制.md",
+    "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md",
+    "PKM/01-MOC/MOC-PKM-知识连接层.md",
+    "PKM/01-MOC/MOC-原子笔记索引.md",
+    "PKM/01-MOC/MOC-跨项目知识网络.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {
+    "id": "atom-0007",
+    "title": "模板不适用是阶段属性，不是项目属性",
+    "type": "永久笔记",
+    "status": "稳定",
+    "created": "2026-11-14",
+    "projects": [
+     "Tserena",
+     "华夏克苏鲁"
+    ],
+    "tags": [
+     "方法论/模板",
+     "口径/创作",
+     "体系/反哺"
+    ]
+   },
+   "overridden": false
+  },
+  {
+   "path": "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md",
+   "title": "冻结与不回改前文（作品生命周期纪律）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "PKM",
+   "role": "",
+   "net_chars": 1350,
+   "tags": [],
+   "aliases": [],
+   "out": [
+    "PKM/00-原子笔记/atom-0007-模板不适用是阶段属性.md",
+    "PKM/00-原子笔记/guide-0001-PKM连接层使用指南.md",
+    "PKM/00-原子笔记/atom-0006-考据与虚构三层分档.md",
+    "PKM/00-原子笔记/atom-0002-通用模板包.md",
+    "PKM/00-原子笔记/atom-0005-六栏结算制.md",
+    "综网废柴逆命/作品总览.md",
+    "综网废柴逆命/设定/04_剧情与执行/28_第一卷伏笔梳理.md",
+    "二十一世纪奇门遁甲/作品总览.md",
+    "小说/项目梳理总览.md"
+   ],
+   "in": [
+    "PKM/00-原子笔记/atom-0007-模板不适用是阶段属性.md",
+    "PKM/01-MOC/MOC-PKM-知识连接层.md",
+    "PKM/01-MOC/MOC-原子笔记索引.md",
+    "PKM/01-MOC/MOC-跨项目知识网络.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {
+    "id": "atom-0008",
+    "title": "冻结与不回改前文（作品生命周期纪律）",
+    "type": "永久笔记",
+    "status": "稳定",
+    "created": "2026-11-14",
+    "projects": [
+     "综网废柴逆命",
+     "小说",
+     "二十一世纪奇门遁甲"
+    ],
+    "tags": [
+     "口径/创作",
+     "体系/生命周期",
+     "方法论/流程"
+    ]
+   },
+   "overridden": false
+  },
+  {
    "path": "PKM/00-原子笔记/guide-0001-PKM连接层使用指南.md",
    "title": "PKM 连接层使用指南",
    "type": "设定",
@@ -380,7 +613,9 @@
     "PKM/MOC-全库.md"
    ],
    "in": [
+    "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
+    "PKM/01-MOC/MOC-原子笔记索引.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md",
     "PKM/README.md",
     "PKM/换机部署.md"
@@ -407,7 +642,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 1683,
+   "net_chars": 2061,
    "tags": [],
    "aliases": [],
    "out": [
@@ -415,6 +650,11 @@
     "PKM/00-原子笔记/atom-0001-战锤四神体系.md",
     "PKM/00-原子笔记/atom-0002-通用模板包.md",
     "PKM/00-原子笔记/atom-0003-同题材共享语汇口径.md",
+    "PKM/00-原子笔记/atom-0004-基准系统加白名单.md",
+    "PKM/00-原子笔记/atom-0005-六栏结算制.md",
+    "PKM/00-原子笔记/atom-0006-考据与虚构三层分档.md",
+    "PKM/00-原子笔记/atom-0007-模板不适用是阶段属性.md",
+    "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md",
     "PKM/00-原子笔记/guide-0001-PKM连接层使用指南.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-Tserena.md",
@@ -422,6 +662,7 @@
     "PKM/01-MOC/MOC-二十一世纪奇门遁甲.md",
     "PKM/01-MOC/MOC-其他项目归档.md",
     "PKM/01-MOC/MOC-华夏克苏鲁.md",
+    "PKM/01-MOC/MOC-原子笔记索引.md",
     "PKM/01-MOC/MOC-小说.md",
     "PKM/01-MOC/MOC-廓者未名夜.md",
     "PKM/01-MOC/MOC-战锤42拔智齿.md",
@@ -648,6 +889,48 @@
    "broken": [],
    "archived": false,
    "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "PKM/01-MOC/MOC-原子笔记索引.md",
+   "title": "MOC · 原子笔记索引",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "PKM",
+   "role": "",
+   "net_chars": 1482,
+   "tags": [],
+   "aliases": [],
+   "out": [
+    "PKM/00-原子笔记/atom-0001-战锤四神体系.md",
+    "PKM/00-原子笔记/atom-0004-基准系统加白名单.md",
+    "PKM/00-原子笔记/atom-0005-六栏结算制.md",
+    "PKM/00-原子笔记/atom-0006-考据与虚构三层分档.md",
+    "PKM/00-原子笔记/atom-0007-模板不适用是阶段属性.md",
+    "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md",
+    "PKM/00-原子笔记/atom-0003-同题材共享语汇口径.md",
+    "PKM/00-原子笔记/guide-0001-PKM连接层使用指南.md",
+    "PKM/00-原子笔记/atom-0002-通用模板包.md",
+    "PKM/01-MOC/MOC-跨项目知识网络.md",
+    "PKM/MOC-全库.md"
+   ],
+   "in": [
+    "PKM/01-MOC/MOC-PKM-知识连接层.md",
+    "PKM/01-MOC/MOC-跨项目知识网络.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {
+    "id": "moc-0002",
+    "title": "MOC · 原子笔记索引",
+    "type": "MOC",
+    "status": "稳定",
+    "created": "2026-11-14",
+    "projects": [],
+    "tags": [
+     "指南/PKM"
+    ]
+   },
    "overridden": false
   },
   {
@@ -1460,7 +1743,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 16413,
+   "net_chars": 16421,
    "tags": [],
    "aliases": [],
    "out": [
@@ -1470,6 +1753,8 @@
     "点子库/01-设定集/README.md",
     "点子库/02-正文/README-创作说明.md",
     "点子库/README-点子库.md",
+    "点子库/01-设定集/22-大秦银河反哺-铁律映射与四步审计.md",
+    "点子库/01-设定集/24-角色卡总册.md",
     "点子库/01-设定集/法则总表.md",
     "点子库/02-正文/100-第九十二章-名.md",
     "点子库/02-正文/101-第九十三章-立钟人.md",
@@ -1613,9 +1898,7 @@
     "点子库/01-设定集/19-支线反哺-群像支线池与POV规范.md",
     "点子库/01-设定集/20-世界观框架总表-十二模块.md",
     "点子库/01-设定集/21-参考资料反哺-四份资料的吸收与入典.md",
-    "点子库/01-设定集/22-大秦银河反哺-铁律映射与四步审计.md",
     "点子库/01-设定集/23-落点结算-双读规程与工作区修订记录.md",
-    "点子库/01-设定集/24-角色卡总册.md",
     "点子库/01-设定集/25-五十万字结构总表与索引卡规程.md",
     "点子库/01-设定集/26-卷一季终反哺-E08结算与角色卡入册.md",
     "点子库/01-设定集/27-E09反哺-同源复制律与流水线首轮执行报告.md",
@@ -1885,7 +2168,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 2367,
+   "net_chars": 3056,
    "tags": [],
    "aliases": [],
    "out": [
@@ -1899,6 +2182,11 @@
     "Tserena/设定与参考/模板反哺报告-20261110.md",
     "Tserena/设定与参考/本轮路线图与优先级-20261110.md",
     "华夏克苏鲁/05_模板对齐/05_立项与大纲/00-立项书.md",
+    "PKM/00-原子笔记/atom-0004-基准系统加白名单.md",
+    "PKM/00-原子笔记/atom-0006-考据与虚构三层分档.md",
+    "PKM/00-原子笔记/atom-0005-六栏结算制.md",
+    "PKM/00-原子笔记/atom-0007-模板不适用是阶段属性.md",
+    "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md",
     "PKM/00-原子笔记/atom-0003-同题材共享语汇口径.md",
     "PKM/01-MOC/MOC-廓者未名夜.md",
     "PKM/01-MOC/MOC-战锤42拔智齿.md",
@@ -1918,6 +2206,7 @@
     "PKM/01-MOC/MOC-tools.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/MOC-全库.md",
+    "PKM/01-MOC/MOC-原子笔记索引.md",
     "PKM/00-原子笔记/guide-0001-PKM连接层使用指南.md"
    ],
    "in": [
@@ -1925,6 +2214,7 @@
     "PKM/01-MOC/MOC-Tserena.md",
     "PKM/01-MOC/MOC-二十一世纪奇门遁甲.md",
     "PKM/01-MOC/MOC-华夏克苏鲁.md",
+    "PKM/01-MOC/MOC-原子笔记索引.md",
     "PKM/01-MOC/MOC-小说.md",
     "PKM/01-MOC/MOC-廓者未名夜.md",
     "PKM/01-MOC/MOC-战锤42拔智齿.md",
@@ -2065,7 +2355,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 1794,
+   "net_chars": 2767,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -2103,7 +2393,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 10687,
+   "net_chars": 10739,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2133,6 +2423,7 @@
    "in": [
     "PKM/00-原子笔记/guide-0001-PKM连接层使用指南.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
+    "PKM/01-MOC/MOC-原子笔记索引.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md",
     "PKM/README.md",
     "PKM/换机部署.md"
@@ -2373,6 +2664,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/00-原子笔记/atom-0007-模板不适用是阶段属性.md",
     "PKM/01-MOC/MOC-Tserena.md",
     "PKM/MOC-全库.md",
     "README.md"
@@ -2528,6 +2820,7 @@
    "out": [],
    "in": [
     "PKM/00-原子笔记/atom-0002-通用模板包.md",
+    "PKM/00-原子笔记/atom-0007-模板不适用是阶段属性.md",
     "PKM/01-MOC/MOC-Tserena.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md",
     "README.md"
@@ -2545,11 +2838,18 @@
    "project": "Tserena",
    "role": "参考/工具",
    "net_chars": 10879,
-   "tags": [],
-   "aliases": [],
+   "tags": [
+    "方法论/模板",
+    "资产/跨项目"
+   ],
+   "aliases": [
+    "模板反哺报告",
+    "Tserena反哺报告"
+   ],
    "out": [],
    "in": [
     "PKM/00-原子笔记/atom-0002-通用模板包.md",
+    "PKM/00-原子笔记/atom-0007-模板不适用是阶段属性.md",
     "PKM/01-MOC/MOC-Tserena.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md",
     "README.md"
@@ -2557,7 +2857,7 @@
    "broken": [],
    "archived": false,
    "fm": {},
-   "overridden": false
+   "overridden": true
   },
   {
    "path": "Tserena/设定与参考/模板实填验证-Tserena-20261109.md",
@@ -3094,6 +3394,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md",
     "PKM/01-MOC/MOC-二十一世纪奇门遁甲.md",
     "PKM/MOC-全库.md",
     "README.md"
@@ -3225,16 +3526,22 @@
    "project": "华夏克苏鲁",
    "role": "设定",
    "net_chars": 4039,
-   "tags": [],
-   "aliases": [],
+   "tags": [
+    "设定/铁律",
+    "体系/分档"
+   ],
+   "aliases": [
+    "克苏鲁铁律表"
+   ],
    "out": [],
    "in": [
+    "PKM/00-原子笔记/atom-0006-考据与虚构三层分档.md",
     "PKM/01-MOC/MOC-华夏克苏鲁.md"
    ],
    "broken": [],
    "archived": false,
    "fm": {},
-   "overridden": false
+   "overridden": true
   },
   {
    "path": "华夏克苏鲁/01_bible/world-bible.md",
@@ -3244,16 +3551,23 @@
    "project": "华夏克苏鲁",
    "role": "设定",
    "net_chars": 39199,
-   "tags": [],
-   "aliases": [],
+   "tags": [
+    "设定/世界观",
+    "方法论/考据"
+   ],
+   "aliases": [
+    "华夏克苏鲁世界观圣经",
+    "克苏鲁SSOT"
+   ],
    "out": [],
    "in": [
+    "PKM/00-原子笔记/atom-0006-考据与虚构三层分档.md",
     "PKM/01-MOC/MOC-华夏克苏鲁.md"
    ],
    "broken": [],
    "archived": false,
    "fm": {},
-   "overridden": false
+   "overridden": true
   },
   {
    "path": "华夏克苏鲁/01_bible/人物卡.md",
@@ -3349,6 +3663,7 @@
    "out": [],
    "in": [
     "PKM/00-原子笔记/atom-0003-同题材共享语汇口径.md",
+    "PKM/00-原子笔记/atom-0006-考据与虚构三层分档.md",
     "PKM/01-MOC/MOC-华夏克苏鲁.md",
     "README.md"
    ],
@@ -3995,6 +4310,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/00-原子笔记/atom-0007-模板不适用是阶段属性.md",
     "PKM/01-MOC/MOC-华夏克苏鲁.md",
     "PKM/MOC-全库.md",
     "README.md"
@@ -9885,6 +10201,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md",
     "PKM/01-MOC/MOC-小说.md",
     "PKM/MOC-全库.md",
     "README.md"
@@ -17102,21 +17419,29 @@
   {
    "path": "点子库/01-设定集/22-大秦银河反哺-铁律映射与四步审计.md",
    "title": "补遗 · 大秦银河反哺：铁律、映射与四步审计",
-   "type": "模板",
+   "type": "设定",
    "kind": "knowledge",
    "project": "点子库",
    "role": "",
    "net_chars": 2796,
-   "tags": [],
-   "aliases": [],
+   "tags": [
+    "方法论/设定",
+    "口径/创作"
+   ],
+   "aliases": [
+    "现实映照铁律",
+    "大秦银河反哺"
+   ],
    "out": [],
    "in": [
+    "PKM/00-原子笔记/atom-0004-基准系统加白名单.md",
+    "PKM/00-原子笔记/atom-0005-六栏结算制.md",
     "PKM/01-MOC/MOC-点子库.md"
    ],
    "broken": [],
    "archived": false,
    "fm": {},
-   "overridden": false
+   "overridden": true
   },
   {
    "path": "点子库/01-设定集/23-落点结算-双读规程与工作区修订记录.md",
@@ -17130,6 +17455,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/00-原子笔记/atom-0005-六栏结算制.md",
     "PKM/01-MOC/MOC-点子库.md"
    ],
    "broken": [],
@@ -17140,21 +17466,28 @@
   {
    "path": "点子库/01-设定集/24-角色卡总册.md",
    "title": "角色卡总册 · 全角色行为宪法",
-   "type": "模板",
+   "type": "设定",
    "kind": "knowledge",
    "project": "点子库",
    "role": "",
    "net_chars": 6928,
-   "tags": [],
-   "aliases": [],
+   "tags": [
+    "设定/人物",
+    "方法论/流程"
+   ],
+   "aliases": [
+    "角色卡总册",
+    "卡规三则"
+   ],
    "out": [],
    "in": [
+    "PKM/00-原子笔记/atom-0005-六栏结算制.md",
     "PKM/01-MOC/MOC-点子库.md"
    ],
    "broken": [],
    "archived": false,
    "fm": {},
-   "overridden": false
+   "overridden": true
   },
   {
    "path": "点子库/01-设定集/25-五十万字结构总表与索引卡规程.md",
@@ -18062,6 +18395,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/00-原子笔记/atom-0004-基准系统加白名单.md",
     "PKM/01-MOC/MOC-点子库.md",
     "PKM/MOC-全库.md"
    ],
@@ -22510,6 +22844,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/00-原子笔记/atom-0005-六栏结算制.md",
     "PKM/01-MOC/MOC-点子库.md",
     "PKM/MOC-全库.md",
     "README.md"
@@ -22607,6 +22942,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md",
     "PKM/01-MOC/MOC-综网废柴逆命.md",
     "PKM/MOC-全库.md",
     "README.md"
@@ -23572,16 +23908,23 @@
    "project": "综网废柴逆命",
    "role": "设定",
    "net_chars": 3446,
-   "tags": [],
-   "aliases": [],
+   "tags": [
+    "口径/创作",
+    "资产/台账"
+   ],
+   "aliases": [
+    "第一卷伏笔梳理",
+    "补漏任务表"
+   ],
    "out": [],
    "in": [
+    "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md",
     "PKM/01-MOC/MOC-综网废柴逆命.md"
    ],
    "broken": [],
    "archived": false,
    "fm": {},
-   "overridden": false
+   "overridden": true
   },
   {
    "path": "综网废柴逆命/设定/04_剧情与执行/30_第二卷核心机制与信息投放清单.md",
