@@ -55,6 +55,16 @@
         root: ./华夏克苏鲁
         text: ./华夏克苏鲁
         config: ./tools/projects/huaxi.json
+      # 廓者未名夜（2026-11-14 接入）：
+      #   此前该项目**未注册进审校** ⇒ `npm run check` 对它是「SKIP」而非「通过」——
+      #   日更自动化把「错误 0」当放行线，若项目不在扫描视角内，那条线**不成立**。
+      #   接入前先探针试跑（17 文件 / ERROR 1 → 修表列数后 ERROR 0 / WARN 6），
+      #   确认存量红项可控才纳管，不做「一接就红」。
+      - id: kz
+        name: 廓者：未名夜
+        root: ./廓者未名夜
+        text: ./廓者未名夜
+        config: ./tools/projects/kz.json
 
 - id: runner
   name: ./plugins/03-runner.mjs

@@ -962,10 +962,24 @@ def check_term(corpus, out):
     术语：
       TERM-MIX    同一文件内同一概念出现多个**非等价**写法（需作者定性）
       TERM-REG    出现未登记的专名候选（配置声明 canon 时的漏登记）
+
+    等价声明：配置里写 ``"equivalent": [["格式化", "矫正"], ...]``
+    表示这些写法**刻意并存**，不报 TERM-MIX。
+    （子串关系如「楚嫣然／嫣然」本就不算冲突，无需声明。）
     """
     terms = corpus.config.get("terms", {})
     if not terms:
         return
+    # 「声明为等价的变体对」：配置里写 equivalent: [[a, b], ...]，
+    # 表示同一概念的这两种写法**刻意并存**（如「格式化」是文书说法、
+    # 「矫正」是行当说法 —— 两者并存本身就是要表达的设定）。
+    # 这些对**不报 TERM-MIX**。
+    declared_eq = set()
+    for pair in corpus.config.get("equivalent", []):
+        if isinstance(pair, (list, tuple)) and len(pair) == 2:
+            a, b = pair
+            declared_eq.add((a, b))
+            declared_eq.add((b, a))
     for concept, variants in terms.items():
         variants = list(variants)
         seen_files = defaultdict(set)
@@ -978,8 +992,7 @@ def check_term(corpus, out):
                         seen_files[doc.rel(doc.path)].add(v)
         # 变体混用：**只有当两个变体都不是对方的子串**才算真冲突
         # （「楚嫣然」与「嫣然」是全名/简称，合法；「楚家」与「楚氏」是同义异写，
-        #  需作者定性 —— 取决于配置里是否标了 equivalent）
-        eq = set(variants)
+        #  需作者定性 —— 取决于配置里是否在 equivalent 里声明了这一对）
         for f, vs in seen_files.items():
             if len(vs) < 2:
                 continue
@@ -990,8 +1003,8 @@ def check_term(corpus, out):
                     a, b = vs[i], vs[j]
                     if a in b or b in a:
                         continue        # 全名/简称关系，合法
-                    if (concept, a, b) in eq or (concept, b, a) in eq:
-                        continue        # 已声明等价
+                    if (a, b) in declared_eq:
+                        continue        # 已声明等价（配置 equivalent 段）
                     conflict.append((a, b))
             if conflict:
                 a, b = conflict[0]
