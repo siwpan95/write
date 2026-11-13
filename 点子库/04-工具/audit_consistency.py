@@ -117,8 +117,20 @@ blank_files = [(r['file'], r['st']['blank3']) for r in rows if r['st']['blank3']
 
 # ---------- 4 跨文件长重复（>=36 字连续） ----------
 def shingles(t, n=36):
+    """返回 {36 字片段: 首次出现位置}。
+
+    2026-11-13 修正：原实现返回**集合**，配合 `sorted(inter, key=len)`
+    在「所有片段等长」时退化为**集合迭代序** ⇒ 每次跑出的示例片段不同
+    （受 PYTHONHASHSEED 影响），受控产物 `一致性扫描报告.md` 每次运行都漂移。
+    改存首次出现位置后，示例取「最靠前的那一段」，顺序可复现。
+    """
     t = re.sub(r'\s', '', t)
-    return {t[i:i + n] for i in range(0, max(0, len(t) - n))}
+    out = {}
+    for i in range(0, max(0, len(t) - n)):
+        s = t[i:i + n]
+        if s not in out:
+            out[s] = i
+    return out
 sh = {}
 for r in rows:
     sh[r['file']] = shingles(open(r['path'], encoding='utf-8-sig').read())
@@ -127,10 +139,12 @@ sample = {}
 fl = [r['file'] for r in rows]
 for i in range(len(fl)):
     for j in range(i + 1, len(fl)):
-        inter = sh[fl[i]] & sh[fl[j]]
+        inter = sh[fl[i]].keys() & sh[fl[j]].keys()
         if inter:
             pairs[(fl[i], fl[j])] = len(inter)
-            sample[(fl[i], fl[j])] = sorted(inter, key=len, reverse=True)[0][:60]
+            # 片段等长 ⇒ 按「首次出现位置」定序（位置相同再按字面），保证可复现
+            sample[(fl[i], fl[j])] = sorted(
+                inter, key=lambda s: (sh[fl[i]][s], s))[0][:60]
 top_dup = pairs.most_common(15)
 
 # 单文件内重复段（>=44 字完全重复）
