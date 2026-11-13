@@ -1,6 +1,6 @@
 {
  "schema": 1,
- "generated_at": "2026-11-13T22:53:24",
+ "generated_at": "2026-11-13T23:06:31",
  "summary": {
   "docs": 1173,
   "by_type": {
@@ -124,7 +124,7 @@
    },
    "PKM": {
     "docs": 12,
-    "net_chars": 71199,
+    "net_chars": 71788,
     "types": {
      "设定": 11,
      "总览": 1
@@ -171,7 +171,7 @@
    },
    "tools": {
     "docs": 1,
-    "net_chars": 4903,
+    "net_chars": 4996,
     "types": {
      "总览": 1
     },
@@ -225,7 +225,7 @@
    "二十一世纪奇门遁甲/第一卷_穿越者/第01章_给自己收尸的人.md",
    "二十一世纪奇门遁甲/第一卷_穿越者/第02章_执矛者.md"
   ],
-  "net_chars_total": 6533032
+  "net_chars_total": 6534643
  },
  "overrides_count": 6,
  "nodes": [
@@ -544,7 +544,7 @@
    "type": "设定",
    "project": "PKM",
    "role": "",
-   "net_chars": 2696,
+   "net_chars": 3285,
    "tags": [],
    "aliases": [],
    "out": [
@@ -603,7 +603,7 @@
    "type": "总览",
    "project": "",
    "role": "入口总览",
-   "net_chars": 10736,
+   "net_chars": 10940,
    "tags": [],
    "aliases": [],
    "out": [
@@ -1019,7 +1019,7 @@
    "type": "总览",
    "project": "tools",
    "role": "入口总览",
-   "net_chars": 4903,
+   "net_chars": 4996,
    "tags": [],
    "aliases": [],
    "out": [
@@ -7070,7 +7070,7 @@
    "type": "设定",
    "project": "",
    "role": "",
-   "net_chars": 6500,
+   "net_chars": 7225,
    "tags": [],
    "aliases": [],
    "out": [

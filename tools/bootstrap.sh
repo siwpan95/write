@@ -6,11 +6,12 @@
 #
 #   git clone <repo> && cd write && bash tools/bootstrap.sh
 #
-# 做四件事：
+# 做五件事：
 #   1. 环境自检（Node / Python / git）
 #   2. 装 Node 依赖（cordis 等；node_modules 不入库）
 #   3. 重建 PKM 索引 + 图谱 + MOC（派生产物，10 秒）
 #   4. 跑一遍闸门（npm run check），确认放行
+#   5. 尽力而为地同步远端（Gitee + GitHub，重试 3 次）
 #
 # 纪律：
 #   · **幂等** —— 重复跑安全，不会破坏已有内容。
@@ -147,10 +148,39 @@ else
   if [ "$EXIT" -eq 1 ]; then
     warn "闸门有 ERROR —— 见上方报告（审校报告/工具链自检报告-*.md）"
     hint "这不阻塞部署：PKM 部署已完成，只是仓内内容有待处理的问题"
+    hint "若 ERROR 来自 sync 检查器（远端落后），执行 git push <远端> master"
   else
     die "闸门执行失败（退出码 $EXIT）" 2
   fi
 fi
+
+# ==============================================================================
+# 5. 双端同步（可选 · 尽力而为）
+# ==============================================================================
+step "5/5 同步远端（Gitee + GitHub · 尽力而为）"
+CUR_BRANCH="$(git -C "$REPO_ROOT" rev-parse --abbrev-ref HEAD 2>/dev/null || echo master)"
+for remote in origin github; do
+  if ! git -C "$REPO_ROOT" remote get-url "$remote" >/dev/null 2>&1; then
+    warn "远端 $remote 未配置 —— 跳过"
+    continue
+  fi
+  # GitHub 直连在部分网络下被阻断，且**间歇性抖动**（实测：失败后重试即通）。
+  # 故重试 3 次，每次间隔 3 秒；仍失败则降级为警告，不阻断部署。
+  PUSHED=0
+  for attempt in 1 2 3; do
+    # `-C "$REPO_ROOT"` —— 不依赖调用者的当前目录
+    if GIT_TERMINAL_PROMPT=0 git -C "$REPO_ROOT" push "$remote" "$CUR_BRANCH" >/dev/null 2>&1; then
+      ok "$remote 已同步"
+      PUSHED=1
+      break
+    fi
+    [ "$attempt" -lt 3 ] && sleep 3
+  done
+  if [ "$PUSHED" -eq 0 ]; then
+    warn "$remote 推送失败（已重试 3 次）—— 常见于 GitHub 直连被阻断"
+    hint "恢复网络后手动补推：git push $remote master"
+  fi
+done
 
 # ==============================================================================
 # 完成

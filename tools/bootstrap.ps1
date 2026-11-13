@@ -125,7 +125,22 @@ if (-not $gitExe) {
 if ($gitExe) {
     $gitVer = (& $gitExe --version) -replace '^git version ', ''
     Write-Ok "git $gitVer"
-    $env:Path = "$(Split-Path -Parent $gitExe);$env:Path"
+
+    # ⚠️ PortableGit 布局陷阱（本机实测踩过）：
+    #   辅助程序 git-remote-https.exe 实际位于 `<PortableGit>/mingw64/bin/`，
+    #   而 git 默认推导的 exec-path 是 `<PortableGit>/mingw64/libexec/git-core/`。
+    #   两者不一致 → 任何 https 远端操作报
+    #   「git: 'remote-https' is not a git command」。
+    # 修法：把 cmd 目录加进 PATH（供命令名调用），并显式设 GIT_EXEC_PATH
+    # 指向辅助程序真实所在处。
+    $gitBinDir = Split-Path -Parent $gitExe
+    $portableRoot = Split-Path -Parent (Split-Path -Parent $gitBinDir)
+    $gitCmdDir = Join-Path $portableRoot 'cmd'
+    if (Test-Path $gitCmdDir) { $env:Path = "$gitCmdDir;$env:Path" }
+    $env:Path = "$gitBinDir;$env:Path"
+    if (Test-Path (Join-Path $gitBinDir 'git-remote-https.exe')) {
+        $env:GIT_EXEC_PATH = $gitBinDir
+    }
 } else {
     Write-Warn "未找到 git —— 版本同步会失效"
     Write-Hint "装 Git：https://git-scm.com/download/win  或  winget install Git.Git"
@@ -175,9 +190,44 @@ if ($SkipCheck) {
         if ($exitCode -eq 1) {
             Write-Warn "闸门有 ERROR —— 见 审校报告\工具链自检报告-*.md"
             Write-Hint "这不阻塞部署：PKM 部署已完成，只是仓内内容有待处理的问题"
+            Write-Hint "若 ERROR 来自 sync 检查器（远端落后），执行 git push <远端> master"
         } else {
             Write-Die "闸门执行失败（退出码 $exitCode）" 2
         }
+    }
+}
+
+# ==============================================================================
+# 5. 双端同步（可选 · 尽力而为）
+# ==============================================================================
+Write-Step "5/5 同步远端（Gitee + GitHub · 尽力而为）"
+$branch = (git -C $RepoRoot rev-parse --abbrev-ref HEAD 2>$null)
+if (-not $branch) { $branch = 'master' }
+foreach ($remote in @('origin', 'github')) {
+    git -C $RepoRoot remote get-url $remote *> $null
+    if ($LASTEXITCODE -ne 0) {
+        Write-Warn "远端 $remote 未配置 —— 跳过"
+        continue
+    }
+    # GitHub 直连在部分网络下被阻断，且**间歇性抖动**（实测：失败后重试即通）。
+    # 故重试 3 次，每次间隔 3 秒；仍失败则降级为警告，不阻断部署。
+    $pushed = $false
+    for ($i = 1; $i -le 3; $i++) {
+        $env:GIT_TERMINAL_PROMPT = '0'
+        # 用**命令名** `git` 调用（PATH 已在上文加入 PortableGit 的 cmd 目录）——
+        # 用绝对路径调 git.exe 会丢 exec-path，导致「remote-https is not a git command」。
+        # 同时用 `-C $RepoRoot` 显式指定仓库，不依赖调用者的当前目录。
+        git -C $RepoRoot push $remote $branch *> $null
+        if ($LASTEXITCODE -eq 0) {
+            Write-Ok "$remote 已同步"
+            $pushed = $true
+            break
+        }
+        if ($i -lt 3) { Start-Sleep -Seconds 3 }
+    }
+    if (-not $pushed) {
+        Write-Warn "$remote 推送失败（已重试 3 次）—— 常见于 GitHub 直连被阻断"
+        Write-Hint "恢复网络后手动补推：git push $remote $branch"
     }
 }
 
