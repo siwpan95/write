@@ -1,11 +1,11 @@
 {
  "schema": 1,
  "summary": {
-  "docs": 1203,
+  "docs": 1205,
   "by_type": {
    "正文": 563,
-   "设定": 372,
-   "模板": 244,
+   "设定": 376,
+   "模板": 242,
    "总览": 24
   },
   "by_project": {
@@ -25,8 +25,8 @@
     "docs": 306,
     "net_chars": 1246611,
     "types": {
-     "模板": 177,
-     "设定": 124,
+     "模板": 176,
+     "设定": 125,
      "总览": 4,
      "正文": 1
     },
@@ -60,14 +60,14 @@
     "knowledge_orphan": 0
    },
    "PKM": {
-    "docs": 42,
-    "net_chars": 42426,
+    "docs": 44,
+    "net_chars": 46530,
     "types": {
-     "设定": 41,
+     "设定": 43,
      "总览": 1
     },
-    "links": 1405,
-    "knowledge": 42,
+    "links": 1424,
+    "knowledge": 44,
     "knowledge_orphan": 0
    },
    "华夏克苏鲁": {
@@ -158,9 +158,9 @@
     "docs": 6,
     "net_chars": 10116,
     "types": {
-     "模板": 3,
+     "模板": 2,
+     "设定": 2,
      "总览": 1,
-     "设定": 1,
      "正文": 1
     },
     "links": 0,
@@ -211,20 +211,20 @@
     "knowledge_orphan": 0
    }
   },
-  "total_links": 1445,
+  "total_links": 1464,
   "total_broken": 0,
-  "frontmatter_docs": 16,
-  "tag_count": 90,
-  "knowledge_docs": 640,
+  "frontmatter_docs": 18,
+  "tag_count": 99,
+  "knowledge_docs": 642,
   "knowledge_orphans": 0,
   "knowledge_orphan_rate": 0.0,
   "narrative_docs": 563,
   "narrative_orphans": 0,
   "orphan_count": 0,
   "orphan_sample": [],
-  "net_chars_total": 6506327
+  "net_chars_total": 6510431
  },
- "overrides_count": 17,
+ "overrides_count": 21,
  "nodes": [
   {
    "path": "PKM/00-原子笔记/atom-0001-战锤四神体系.md",
@@ -400,6 +400,7 @@
     "PKM/00-原子笔记/atom-0009-代价四档.md",
     "PKM/00-原子笔记/atom-0011-可判定形式.md",
     "PKM/00-原子笔记/atom-0013-借结构不取材与三层互不代偿.md",
+    "PKM/00-原子笔记/atom-0015-以正文为准.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-原子笔记索引.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md",
@@ -445,6 +446,7 @@
    "in": [
     "PKM/00-原子笔记/atom-0007-模板不适用是阶段属性.md",
     "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md",
+    "PKM/00-原子笔记/atom-0015-以正文为准.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-原子笔记索引.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md",
@@ -537,6 +539,7 @@
     "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md",
     "PKM/00-原子笔记/atom-0010-战力标尺与不写升级流.md",
     "PKM/00-原子笔记/atom-0011-可判定形式.md",
+    "PKM/00-原子笔记/atom-0014-欲扬先抑是机制本身.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-原子笔记索引.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md",
@@ -586,6 +589,8 @@
    "in": [
     "PKM/00-原子笔记/atom-0007-模板不适用是阶段属性.md",
     "PKM/00-原子笔记/atom-0009-代价四档.md",
+    "PKM/00-原子笔记/atom-0014-欲扬先抑是机制本身.md",
+    "PKM/00-原子笔记/atom-0015-以正文为准.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-原子笔记索引.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md",
@@ -632,6 +637,7 @@
    "in": [
     "PKM/00-原子笔记/atom-0010-战力标尺与不写升级流.md",
     "PKM/00-原子笔记/atom-0013-借结构不取材与三层互不代偿.md",
+    "PKM/00-原子笔记/atom-0014-欲扬先抑是机制本身.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-原子笔记索引.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md"
@@ -808,6 +814,7 @@
    ],
    "in": [
     "PKM/00-原子笔记/atom-0012-文书与实操的错位.md",
+    "PKM/00-原子笔记/atom-0015-以正文为准.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-原子笔记索引.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md"
@@ -827,6 +834,91 @@
      "方法论/设定",
      "口径/创作",
      "体系/骨架"
+    ]
+   },
+   "overridden": false
+  },
+  {
+   "path": "PKM/00-原子笔记/atom-0014-欲扬先抑是机制本身.md",
+   "title": "欲扬先抑是机制本身（用实证把「读者偏好之争」变成工程问题）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "PKM",
+   "role": "",
+   "net_chars": 2027,
+   "tags": [],
+   "aliases": [],
+   "out": [
+    "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md",
+    "PKM/00-原子笔记/atom-0007-模板不适用是阶段属性.md",
+    "PKM/00-原子笔记/atom-0009-代价四档.md",
+    "逆鳞/01-立项定位-逆鳞.md",
+    "逆鳞/03-世界观圣经-逆鳞.md",
+    "逆鳞/作品总览.md"
+   ],
+   "in": [
+    "PKM/01-MOC/MOC-PKM-知识连接层.md",
+    "PKM/01-MOC/MOC-原子笔记索引.md",
+    "PKM/01-MOC/MOC-跨项目知识网络.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {
+    "id": "atom-0014",
+    "title": "欲扬先抑是机制本身（用实证把「读者偏好之争」变成工程问题）",
+    "type": "永久笔记",
+    "status": "稳定",
+    "created": "2026-11-14",
+    "projects": [
+     "逆鳞"
+    ],
+    "tags": [
+     "方法论/节奏",
+     "口径/创作",
+     "体系/证据"
+    ]
+   },
+   "overridden": false
+  },
+  {
+   "path": "PKM/00-原子笔记/atom-0015-以正文为准.md",
+   "title": "以正文为准（同一事实两处记载时的裁决原则）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "PKM",
+   "role": "",
+   "net_chars": 1486,
+   "tags": [],
+   "aliases": [],
+   "out": [
+    "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md",
+    "PKM/00-原子笔记/atom-0013-借结构不取材与三层互不代偿.md",
+    "PKM/00-原子笔记/atom-0005-六栏结算制.md",
+    "PKM/00-原子笔记/atom-0004-基准系统加白名单.md",
+    "点子库/README-点子库.md",
+    "点子库/01-设定集/23-落点结算-双读规程与工作区修订记录.md",
+    "点子库/01-设定集/24-角色卡总册.md"
+   ],
+   "in": [
+    "PKM/01-MOC/MOC-PKM-知识连接层.md",
+    "PKM/01-MOC/MOC-原子笔记索引.md",
+    "PKM/01-MOC/MOC-跨项目知识网络.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {
+    "id": "atom-0015",
+    "title": "以正文为准（同一事实两处记载时的裁决原则）",
+    "type": "永久笔记",
+    "status": "稳定",
+    "created": "2026-11-14",
+    "projects": [
+     "点子库"
+    ],
+    "tags": [
+     "口径/创作",
+     "体系/一致性",
+     "方法论/流程"
     ]
    },
    "overridden": false
@@ -877,7 +969,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 2451,
+   "net_chars": 2595,
    "tags": [],
    "aliases": [],
    "out": [
@@ -895,6 +987,8 @@
     "PKM/00-原子笔记/atom-0011-可判定形式.md",
     "PKM/00-原子笔记/atom-0012-文书与实操的错位.md",
     "PKM/00-原子笔记/atom-0013-借结构不取材与三层互不代偿.md",
+    "PKM/00-原子笔记/atom-0014-欲扬先抑是机制本身.md",
+    "PKM/00-原子笔记/atom-0015-以正文为准.md",
     "PKM/00-原子笔记/guide-0001-PKM连接层使用指南.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-Tserena.md",
@@ -1139,7 +1233,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 1982,
+   "net_chars": 2124,
    "tags": [],
    "aliases": [],
    "out": [
@@ -1154,6 +1248,8 @@
     "PKM/00-原子笔记/atom-0006-考据与虚构三层分档.md",
     "PKM/00-原子笔记/atom-0007-模板不适用是阶段属性.md",
     "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md",
+    "PKM/00-原子笔记/atom-0014-欲扬先抑是机制本身.md",
+    "PKM/00-原子笔记/atom-0015-以正文为准.md",
     "PKM/00-原子笔记/atom-0003-同题材共享语汇口径.md",
     "PKM/00-原子笔记/guide-0001-PKM连接层使用指南.md",
     "PKM/00-原子笔记/atom-0002-通用模板包.md",
@@ -1990,7 +2086,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 16421,
+   "net_chars": 16425,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2001,6 +2097,7 @@
     "点子库/02-正文/README-创作说明.md",
     "点子库/README-点子库.md",
     "点子库/01-设定集/22-大秦银河反哺-铁律映射与四步审计.md",
+    "点子库/01-设定集/23-落点结算-双读规程与工作区修订记录.md",
     "点子库/01-设定集/24-角色卡总册.md",
     "点子库/01-设定集/法则总表.md",
     "点子库/02-正文/100-第九十二章-名.md",
@@ -2145,7 +2242,6 @@
     "点子库/01-设定集/19-支线反哺-群像支线池与POV规范.md",
     "点子库/01-设定集/20-世界观框架总表-十二模块.md",
     "点子库/01-设定集/21-参考资料反哺-四份资料的吸收与入典.md",
-    "点子库/01-设定集/23-落点结算-双读规程与工作区修订记录.md",
     "点子库/01-设定集/25-五十万字结构总表与索引卡规程.md",
     "点子库/01-设定集/26-卷一季终反哺-E08结算与角色卡入册.md",
     "点子库/01-设定集/27-E09反哺-同源复制律与流水线首轮执行报告.md",
@@ -2415,7 +2511,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 4595,
+   "net_chars": 4880,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2439,6 +2535,8 @@
     "PKM/00-原子笔记/atom-0006-考据与虚构三层分档.md",
     "PKM/00-原子笔记/atom-0007-模板不适用是阶段属性.md",
     "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md",
+    "PKM/00-原子笔记/atom-0014-欲扬先抑是机制本身.md",
+    "PKM/00-原子笔记/atom-0015-以正文为准.md",
     "PKM/00-原子笔记/atom-0003-同题材共享语汇口径.md",
     "PKM/01-MOC/MOC-综网废柴逆命.md",
     "PKM/01-MOC/MOC-小说.md",
@@ -2500,17 +2598,17 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 742,
+   "net_chars": 746,
    "tags": [],
    "aliases": [],
    "out": [
     "PKM/01-MOC/MOC-跨项目知识网络.md",
     "PKM/01-MOC/MOC-通用模板包.md",
     "逆鳞/作品总览.md",
+    "逆鳞/03-世界观圣经-逆鳞.md",
     "逆鳞/原稿/逆鳞-首稿.md",
     "逆鳞/01-立项定位-逆鳞.md",
     "逆鳞/02-大纲四层-逆鳞.md",
-    "逆鳞/03-世界观圣经-逆鳞.md",
     "逆鳞/正文/第01章-那一掌我记下了.md"
    ],
    "in": [
@@ -2607,7 +2705,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 3656,
+   "net_chars": 4247,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -2666,7 +2764,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 10755,
+   "net_chars": 10765,
    "tags": [],
    "aliases": [],
    "out": [
@@ -17242,8 +17340,13 @@
    "project": "未名骨",
    "role": "",
    "net_chars": 2035,
-   "tags": [],
-   "aliases": [],
+   "tags": [
+    "口径/创作",
+    "体系/体裁"
+   ],
+   "aliases": [
+    "未名骨立项定位"
+   ],
    "out": [],
    "in": [
     "PKM/01-MOC/MOC-未名骨.md"
@@ -17251,7 +17354,7 @@
    "broken": [],
    "archived": false,
    "fm": {},
-   "overridden": false
+   "overridden": true
   },
   {
    "path": "未名骨/02-大纲四层-未名骨.md",
@@ -17760,22 +17863,29 @@
   {
    "path": "点子库/01-设定集/23-落点结算-双读规程与工作区修订记录.md",
    "title": "补遗 · 落点结算：双读规程与工作区修订记录",
-   "type": "模板",
+   "type": "设定",
    "kind": "knowledge",
    "project": "点子库",
    "role": "",
    "net_chars": 1891,
-   "tags": [],
-   "aliases": [],
+   "tags": [
+    "口径/创作",
+    "资产/台账"
+   ],
+   "aliases": [
+    "落点结算",
+    "双读规程"
+   ],
    "out": [],
    "in": [
     "PKM/00-原子笔记/atom-0005-六栏结算制.md",
+    "PKM/00-原子笔记/atom-0015-以正文为准.md",
     "PKM/01-MOC/MOC-点子库.md"
    ],
    "broken": [],
    "archived": false,
    "fm": {},
-   "overridden": false
+   "overridden": true
   },
   {
    "path": "点子库/01-设定集/24-角色卡总册.md",
@@ -17796,6 +17906,7 @@
    "out": [],
    "in": [
     "PKM/00-原子笔记/atom-0005-六栏结算制.md",
+    "PKM/00-原子笔记/atom-0015-以正文为准.md",
     "PKM/01-MOC/MOC-点子库.md"
    ],
    "broken": [],
@@ -23164,6 +23275,7 @@
    "out": [],
    "in": [
     "PKM/00-原子笔记/atom-0005-六栏结算制.md",
+    "PKM/00-原子笔记/atom-0015-以正文为准.md",
     "PKM/01-MOC/MOC-点子库.md",
     "PKM/MOC-全库.md",
     "README.md"
@@ -24620,16 +24732,24 @@
    "project": "逆鳞",
    "role": "",
    "net_chars": 3479,
-   "tags": [],
-   "aliases": [],
+   "tags": [
+    "方法论/节奏",
+    "口径/创作",
+    "体系/证据"
+   ],
+   "aliases": [
+    "逆鳞立项定位",
+    "欲扬先抑论证"
+   ],
    "out": [],
    "in": [
+    "PKM/00-原子笔记/atom-0014-欲扬先抑是机制本身.md",
     "PKM/01-MOC/MOC-逆鳞.md"
    ],
    "broken": [],
    "archived": false,
    "fm": {},
-   "overridden": false
+   "overridden": true
   },
   {
    "path": "逆鳞/02-大纲四层-逆鳞.md",
@@ -24653,21 +24773,28 @@
   {
    "path": "逆鳞/03-世界观圣经-逆鳞.md",
    "title": "《逆鳞》· 03 世界观圣经",
-   "type": "模板",
+   "type": "设定",
    "kind": "knowledge",
    "project": "逆鳞",
    "role": "",
    "net_chars": 1609,
-   "tags": [],
-   "aliases": [],
+   "tags": [
+    "设定/世界观",
+    "体系/力量"
+   ],
+   "aliases": [
+    "逆鳞世界观圣经",
+    "逆鳞SSOT"
+   ],
    "out": [],
    "in": [
+    "PKM/00-原子笔记/atom-0014-欲扬先抑是机制本身.md",
     "PKM/01-MOC/MOC-逆鳞.md"
    ],
    "broken": [],
    "archived": false,
    "fm": {},
-   "overridden": false
+   "overridden": true
   },
   {
    "path": "逆鳞/作品总览.md",
@@ -24681,6 +24808,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/00-原子笔记/atom-0014-欲扬先抑是机制本身.md",
     "PKM/01-MOC/MOC-逆鳞.md",
     "PKM/MOC-全库.md",
     "README.md"
