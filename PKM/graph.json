@@ -61,7 +61,7 @@
    },
    "PKM": {
     "docs": 44,
-    "net_chars": 46530,
+    "net_chars": 48282,
     "types": {
      "设定": 43,
      "总览": 1
@@ -222,7 +222,7 @@
   "narrative_orphans": 0,
   "orphan_count": 0,
   "orphan_sample": [],
-  "net_chars_total": 6510431
+  "net_chars_total": 6512183
  },
  "overrides_count": 21,
  "nodes": [
@@ -969,7 +969,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 2595,
+   "net_chars": 2596,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2911,7 +2911,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 8279,
+   "net_chars": 10031,
    "tags": [],
    "aliases": [],
    "out": [],
