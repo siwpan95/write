@@ -43,7 +43,7 @@ Write-Host "  仓根：$RepoRoot"
 # ==============================================================================
 # 1. 环境自检
 # ==============================================================================
-Write-Step "1/4 环境自检"
+Write-Step "1/6 环境自检"
 
 # --- Node ---
 $nodeOk = $false
@@ -154,7 +154,7 @@ $env:WRITE_PYTHON = $pythonExe
 # ==============================================================================
 # 2. 装 Node 依赖
 # ==============================================================================
-Write-Step "2/4 安装 Node 依赖（cordis 等；node_modules 不入库）"
+Write-Step "2/6 安装 Node 依赖（cordis 等；node_modules 不入库）"
 if ($SkipInstall) {
     Write-Ok "已指定 -SkipInstall —— 跳过"
 } elseif ((Test-Path 'node_modules\cordis')) {
@@ -169,7 +169,7 @@ if ($SkipInstall) {
 # ==============================================================================
 # 3. 重建 PKM 索引 + 图谱 + MOC
 # ==============================================================================
-Write-Step "3/4 重建 PKM 索引 / 图谱 / MOC（派生产物，10 秒）"
+Write-Step "3/6 重建 PKM 索引 / 图谱 / MOC（派生产物，10 秒）"
 & $pythonExe tools/pkm/pkm_cli.py build --root $RepoRoot 2>&1 | ForEach-Object { Write-Host "    $_" -ForegroundColor DarkGray }
 if ($LASTEXITCODE -ne 0) { Write-Die "PKM 构建失败（退出码 $LASTEXITCODE）" 2 }
 Write-Ok "PKM 产物已生成"
@@ -177,7 +177,7 @@ Write-Ok "PKM 产物已生成"
 # ==============================================================================
 # 4. 跑闸门
 # ==============================================================================
-Write-Step "4/4 跑闸门（npm run check）"
+Write-Step "4/6 跑闸门（npm run check）"
 if ($SkipCheck) {
     Write-Ok "已指定 -SkipCheck —— 跳过"
 } else {
@@ -200,7 +200,7 @@ if ($SkipCheck) {
 # ==============================================================================
 # 5. 双端同步（可选 · 尽力而为）
 # ==============================================================================
-Write-Step "5/5 同步远端（Gitee + GitHub · 尽力而为）"
+Write-Step "5/6 同步远端（Gitee + GitHub · 尽力而为）"
 $branch = (git -C $RepoRoot rev-parse --abbrev-ref HEAD 2>$null)
 if (-not $branch) { $branch = 'master' }
 foreach ($remote in @('origin', 'github')) {
@@ -229,6 +229,21 @@ foreach ($remote in @('origin', 'github')) {
         Write-Warn "$remote 推送失败（已重试 3 次）—— 常见于 GitHub 直连被阻断"
         Write-Hint "恢复网络后手动补推：git push $remote $branch"
     }
+}
+
+# ==============================================================================
+# 6. 产物失配检测（入库产物是否与实际状态同步）
+# ==============================================================================
+Write-Step "6/6 产物失配检测（入库产物 vs 实际状态）"
+# 新增笔记/改设定后，连接图谱会变，而入库产物（graph.json / MOC）不会自动跟着变。
+# 若不失配检测，指标（如「孤立率 0.0%」）会悄悄失真 —— 且没人会发现。
+& $gitExe -C $RepoRoot diff --quiet -- PKM/ 2>$null
+if ($LASTEXITCODE -eq 0) {
+    Write-Ok "入库产物与工作区一致"
+} else {
+    Write-Warn "入库产物已失配 —— PKM/ 下有未提交的重建结果"
+    Write-Hint "原因：新增笔记或改动设定后，连接图谱变了"
+    Write-Hint "处理：npm run pkm:build && git add PKM/ && git commit -m 'chore(PKM): 重建入库产物'"
 }
 
 # ==============================================================================
