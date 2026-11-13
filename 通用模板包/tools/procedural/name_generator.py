@@ -72,23 +72,32 @@ BLACKLIST = (" administrative", "涩", "政")
 
 
 def _make(kind, rng, lex):
+    """返回 (名字, 槽位拆解)——拆解供人工过审时定向改字（v3.12.2 实践反哺）。"""
     if kind == "person":
         surname = rng.choice(lex["surname"])
         given = rng.choice(lex["name_head"]) + rng.choice(lex["name_tail"])
         if rng.random() < 0.25:                     # 少数单名
             given = rng.choice(lex["name_head"])
-        return surname + given
+            return surname + given, "姓=%s 单名=%s" % (surname, given)
+        return surname + given, "姓=%s 名头=%s 名尾=%s" % (surname, given[0], given[1:])
     if kind == "sect":
-        return rng.choice(lex["sect_prefix"]) + rng.choice(lex["sect_suffix"])
+        head, tail = rng.choice(lex["sect_prefix"]), rng.choice(lex["sect_suffix"])
+        return head + tail, "机构头=%s 机构尾=%s" % (head, tail)
     if kind == "place":
-        return rng.choice(lex["place_head"]) + rng.choice(lex["place_tail"])
+        head, tail = rng.choice(lex["place_head"]), rng.choice(lex["place_tail"])
+        return head + tail, "地名头=%s 地名尾=%s" % (head, tail)
     if kind == "beast":
-        core = rng.choice(lex["beast_head"]) + rng.choice(lex["beast_core"])
+        head, core = rng.choice(lex["beast_head"]), rng.choice(lex["beast_core"])
+        core_out = core
+        note = "绰号头=%s 核心=%s" % (head, core)
         if rng.random() < 0.4:
-            core += rng.choice(lex["beast_tail"])
-        return core
+            tail = rng.choice(lex["beast_tail"])
+            core_out += tail
+            note += " 尾缀=%s" % tail
+        return head + core_out, note
     if kind == "artifact":
-        return rng.choice(lex["artifact_head"]) + rng.choice(lex["artifact_tail"])
+        head, tail = rng.choice(lex["artifact_head"]), rng.choice(lex["artifact_tail"])
+        return head + tail, "物件头=%s 物件尾=%s" % (head, tail)
     raise ValueError("未知类型：%s" % kind)
 
 
@@ -100,13 +109,13 @@ def generate(kind, n, seed, profile="xuanhuan"):
     guard = 0
     while len(out) < n and guard < n * 200:
         guard += 1
-        name = _make(kind, rng, lex)
+        name, breakdown = _make(kind, rng, lex)
         if name in seen:
             continue
         if any(b in name for b in BLACKLIST):
             continue
         seen.add(name)
-        out.append((name, "seed=%s kind=%s 第%d批" % (seed, kind, len(out) + 1)))
+        out.append((name, breakdown))
     if len(out) < n:
         print("  [警告] 字素库组合不足：仅产出 %d/%d，请扩 LEXICON" % (len(out), n))
     return out

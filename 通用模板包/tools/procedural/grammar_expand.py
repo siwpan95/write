@@ -66,27 +66,37 @@ def _pick(rng, choices):
     return rng.choice(bag)
 
 
-def expand(grammar, symbol, rng, depth=0):
-    """递归展开一个符号；超过 12 层视为文法自环，报错。"""
+def expand(grammar, symbol, rng, depth=0, leaves=None):
+    """递归展开一个符号；leaves 收集每次实际选中的分支文本（供频次上限检查）。"""
     if depth > 12:
         raise ValueError("展开超过 12 层：文法疑似自环（#%s#）" % symbol)
     if symbol not in grammar:
         raise ValueError("文法缺少符号：#%s#" % symbol)
     text = _pick(rng, grammar[symbol])
-    return TOKEN.sub(lambda m: expand(grammar, m.group(1), rng, depth + 1), text)
+    if leaves is not None:
+        leaves.append(text)
+    return TOKEN.sub(lambda m: expand(grammar, m.group(1), rng, depth + 1, leaves), text)
 
 
-def generate(grammar, start, n, seed):
+def generate(grammar, start, n, seed, max_repeat=2):
+    """生成 n 条不重复展开；同一分支子句全批出现次数 ≤ max_repeat（防模板病指纹）。"""
     rng = random.Random(seed)
-    seen, out = set(), []
+    seen, out, leaves_by_line = set(), [], []
     guard = 0
-    while len(out) < n and guard < n * 50:
+    while len(out) < n and guard < n * 200:
         guard += 1
-        line = expand(grammar, start, rng)
+        leaves = []
+        line = expand(grammar, start, rng, 0, leaves)
         if line in seen:
             continue
+        if max_repeat:
+            over = [x for x in set(leaves)
+                    if sum(ls.count(x) for ls in leaves_by_line) >= max_repeat]
+            if over:
+                continue
         seen.add(line)
         out.append(line)
+        leaves_by_line.append(leaves)
     return out
 
 
@@ -96,6 +106,8 @@ def main():
     ap.add_argument("--start", default="origin", help="起始符号（默认 origin）")
     ap.add_argument("--n", type=int, default=3)
     ap.add_argument("--seed", type=int, default=42)
+    ap.add_argument("--max-repeat", type=int, default=2,
+                    help="同一分支子句全批最多出现次数（0=不限；默认 2，防模板病指纹）")
     ap.add_argument("--builtin", action="store_true", help="强制使用内置演示文法")
     args = ap.parse_args()
 
@@ -108,12 +120,13 @@ def main():
         label = "内置演示文法"
 
     try:
-        lines = generate(grammar, args.start, args.n, args.seed)
+        lines = generate(grammar, args.start, args.n, args.seed, args.max_repeat)
     except ValueError as e:
         print("文法错误：%s" % e)
         return 1
 
-    print("设定文法展开 · %s · start=%s n=%d seed=%d（可复现）" % (label, args.start, args.n, args.seed))
+    print("设定文法展开 · %s · start=%s n=%d seed=%d max-repeat=%d（可复现）"
+          % (label, args.start, args.n, args.seed, args.max_repeat))
     for i, line in enumerate(lines, 1):
         print("  %d. %s" % (i, line))
     if len(lines) < args.n:

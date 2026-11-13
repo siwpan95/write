@@ -71,7 +71,7 @@
 | 换行 | LF（Unix），已统一，无 CRLF 混入 |
 | 校验命令 | `python3 tools/check_package.py`（在包根目录执行；也可传路径） |
 | 完整性 | `MANIFEST.sha256`：`sha256sum -c MANIFEST.sha256`（Windows 可用 `certutil -hashfile <file> SHA256` 逐项比对） |
-| 自检覆盖 | 21 份文档；1,096 处文件引用、632 处节引用、485 处路径、266 张表 / 1,758 行表格、30 条防回归断言 |
+| 自检覆盖 | 21 份文档；1,096 处文件引用、632 处节引用、485 处路径、266 张表 / 1,760 行表格、30 条防回归断言 |
 
 > 若解压后中文文件名乱码：用 7-Zip / Bandizip 打开并选 **UTF-8** 编码，或直接用 macOS / Linux 的 `unzip`。本包 zip 已置 UTF-8 文件名标志位。
 

@@ -1,7 +1,7 @@
-# 创作室通用模板包 v3.12 · SHA256 校验清单（2026-11-13）
+# 创作室通用模板包 v3.12.2 · SHA256 校验清单（2026-11-13）
 # 校验：在本目录执行  sha256sum -c MANIFEST.sha256
 # Windows: certutil -hashfile <文件> SHA256 逐项比对
-# v3.12 新增：18-程序化创作与算法脚本模板.md、16/17 号文件、tools/procedural/ 三件脚本；其余条目哈希随正文同步更新。
+# v3.12.2 新增：通用文件哈希随 --scenario/槽位拆解/--max-repeat 改动同步；文件集不变。
 44f7935d5734f103c41af1d07fe5f4c1460813292e6d15b1942cc44ef58528fd  00-总档与SOP.md
 38e51e81975afa7428b8949ab3990c4efdf748c2725da2afab50533e5cb4f66d  01-立项定位模板.md
 8c586404a9aeb8987bd9a779ddd9b878689bd66993dce77e2900709bc20f14ba  02-大纲四层模板.md
@@ -20,12 +20,12 @@ b6faa7b47eea5af4e117ec38362174d4dba33eeccf8b3804fde33daea7007dfd  07-附录-本�
 1c35ee35d2dcb73db30e3cbcd27cea212955b1ed0f2b340186c3e932337bf8dd  15-附录-填法样例集.md
 e18cfdf01b414901ef9625b6d71bd65ee929f8d502568ef5c2195d7bf9306021  16-喜剧节奏与无厘头手法模板.md
 f433f8228603bf6649393f527da47005a2fa8cb64466f7c38b063c653827b459  17-字数增密与紫罗兰散文防控模板.md
-c1b542127e8dcc48e97a6419beaf9d700d3ce1b11b2480a9449ae8ce3723491c  18-程序化创作与算法脚本模板.md
-0e5a134eb66caea8b9494700c2d66c27bc367dd552027851f22e42ba2a79bf30  README.md
+7d49d1fbd9a60eb77eecacf030aa6cd919e964327c6a1426ddbab66f5446168b  18-程序化创作与算法脚本模板.md
+a77c5feaba5711201cf87386243e9a39e147eee093c1cdee4022ab09b4f87100  README.md
 55bdf4a558314c5acccdd2bb31bb253b582142855ed15804dea8135fe28a5b57  审计与修复报告.md
-2f1620e6e4c0bccc55de6e0a7e194f9bf0e915ffac4afd5237b3be9ae5b38a3d  校验报告.txt
+99d8bf5e61826c41a93e07fd3986e280eeb31fe27c29881d530b3f70fddd6159  校验报告.txt
 df750674bad408d1de792e9b0b301d4e58e43b985b725093d7aada71529bf51f  tools\build_sample_pages.py
 911bc9a41a54b87b86e92ac154814a7c86a944a9f3b1af072d87090baf4ad17d  tools\check_package.py
-e5f62237043fff495be01e395f87e422bee85f86d1b4c2e432082c04f77faf59  tools/procedural\goal_sim.py
-e97000edb45299c258a40ab227a3b9db3df79fd3045d331493ae797770816a04  tools/procedural\grammar_expand.py
-4ec2bead70e5db0f828022b9eb1eb5d977f53edecdaaa74deba2dfb519f17de4  tools/procedural\name_generator.py
+5b7305ccc293bd0e4ce153094f17c7c32738f308194d59ba4894aa8d53e491dd  tools/procedural\goal_sim.py
+41c969284596895255edbcb7c9e40579736d9c381ece7a5c8af2bfc5a5691497  tools/procedural\grammar_expand.py
+33dc2521fe88af9f858cb3d2d436d441f5b728c90fccaf582bed4edf186dc8a0  tools/procedural\name_generator.py
