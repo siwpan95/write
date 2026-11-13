@@ -69,7 +69,7 @@ const argv = process.argv.slice(2)
 if (argv[0] === '--list') {
   console.log('插件树（tools/cordis.yml）：')
   console.log('  config · registry · runner · checker-package · checker-doc-review')
-  console.log('  checker-consistency · report · cli')
+  console.log('  checker-consistency · pkm · report · cli')
   await root.fiber.dispose()
   process.exit(0)
 }

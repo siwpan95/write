@@ -14,7 +14,14 @@
     "doctor": "node tools/host.mjs doctor",
     "plugins": "node tools/host.mjs --list",
     "manifest": "python tools/manifest.py --check",
-    "manifest:rewrite": "python tools/manifest.py --write"
+    "manifest:rewrite": "python tools/manifest.py --write",
+    "pkm": "node tools/host.mjs pkm",
+    "pkm:build": "node tools/host.mjs pkm build",
+    "pkm:search": "node tools/host.mjs pkm search",
+    "pkm:links": "node tools/host.mjs pkm links",
+    "pkm:graph": "node tools/host.mjs pkm graph",
+    "pkm:doctor": "node tools/host.mjs pkm doctor",
+    "bootstrap": "bash ./tools/bootstrap.sh"
   },
   "engines": { "node": ">=22" },
   "dependencies": {

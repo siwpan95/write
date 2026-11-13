@@ -113,6 +113,31 @@
     # 只对这些项目跑（留空＝全部）
     projects: []
 
+- id: pkm
+  name: ./plugins/13-pkm.mjs
+  inject:
+    - config
+    - runner
+  config:
+    # PKM 索引器内核（Python，零三方依赖）
+    script: ./tools/pkm/pkm_cli.py
+    # 产物目录（相对仓根）
+    output: ./PKM
+    # 索引缓存是否入库：false —— 派生缓存不入库（与「审校报告不入库」同源）
+    index_committed: false
+
+- id: checker-pkm
+  name: ./plugins/14-checker-pkm.mjs
+  inject:
+    - config
+    - runner
+    - checkers
+  config:
+    # 适配器：把连接层体检包成协议 JSON
+    adapter: ./tools/checkers/pkm_check.py
+    # 闸门口径：断链＝ERROR（会让知识网络给出错误答案）；
+    # 孤立比例过高＝WARN（施工单）；规模＝INFO（观察项）
+
 - id: report
   name: ./plugins/20-report.mjs
   inject:

@@ -20,9 +20,20 @@ npm run check:package            # 只跑模板包自检
 npm run check:doc                # 只跑文档审校
 npm run check:consistency        # 只跑结构一致性
 node tools/host.mjs check wushuang   # 只审《无敌不是他人路》
+
+# PKM 知识连接层
+npm run pkm:build                # 重建索引 + 图谱 + MOC
+npm run pkm:search 战锤四神       # 全仓检索（中文二元组切分）
+npm run pkm:links <文档路径>      # 查某文档的出链 / 入链
+npm run pkm:graph                # 图谱统计
+npm run pkm:doctor               # PKM 环境自检
 ```
 
 **退出码**：`0` 无 ERROR ／ `1` 有 ERROR ／ `2` 参数或环境故障 —— 可直接进 CI。
+
+**换机一键部署**：`bash tools/bootstrap.sh`（Git Bash）或
+`powershell -ExecutionPolicy Bypass -File tools\bootstrap.ps1`（Windows）。
+详见 [`PKM/换机部署.md`](../PKM/换机部署.md)。
 
 ---
 
@@ -34,6 +45,14 @@ tools/
 ├── host.mjs                装配壳（极薄：建上下文 + 挂 loader + 挂 cordis.yml）+ 命令分派
 ├── checker_protocol.py     检查器 JSON 协议（Python 侧定义）
 ├── doc_review.py           审校引擎（八类检查；也作为 WorkBuddy Skill 使用）
+├── manifest.py             模板包哈希校验（MANIFEST.sha256）
+├── bootstrap.sh            换机一键部署（Git Bash / Linux / macOS）
+├── bootstrap.ps1           换机一键部署（Windows PowerShell）
+├── pkm/                    PKM 知识连接层内核（Python，零三方依赖）
+│   ├── scanner.py          仓扫描 · 元数据抽取 · 双链解析
+│   ├── indexer.py          中文二元组分词 · 倒排索引 · 检索打分
+│   ├── graph.py            知识图谱 · MOC · 孤立清单 · 断链清单
+│   └── pkm_cli.py          统一 CLI（build/search/links/graph/doctor）
 ├── plugins/
 │   ├── 01-config.mjs       配置服务（仓根 / Python 解释器 / 报告目录）
 │   ├── 02-registry.mjs     项目登记表（各项目范围与口径）
@@ -42,11 +61,14 @@ tools/
 │   ├── 10-checker-package.mjs      通用模板包自检
 │   ├── 11-checker-doc-review.mjs   文档审校
 │   ├── 12-checker-consistency.mjs  项目结构一致性
+│   ├── 13-pkm.mjs                  PKM 索引与检索服务（提供 ctx.pkm）
+│   ├── 14-checker-pkm.mjs          PKM 连接层体检
 │   ├── 20-report.mjs       汇总报告（Markdown + JSON）
-│   └── 30-cli.mjs          统一命令行（命令：check / list / doctor）
+│   └── 30-cli.mjs          统一命令行（命令：check / list / doctor / pkm）
 ├── checkers/               Python 适配器（把项目自带脚本包成协议 JSON）
 │   ├── package_check.py
-│   └── consistency_check.py
+│   ├── consistency_check.py
+│   └── pkm_check.py
 └── projects/               各项目的审校口径（JSON）
     ├── wushuang.json
     └── huaxi.json

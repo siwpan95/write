@@ -9,6 +9,11 @@
  *   check <检查器id>      只跑某个检查器（doc-review / package / consistency）
  *   list                  列出插件、项目、检查器
  *   doctor                环境自检（解释器、插件、路径可达性）
+ *   pkm build             重建 PKM 索引 + 图谱 + MOC
+ *   pkm search <关键词>   全文检索（中文二元组切分）
+ *   pkm links <文档路径>  查文档的出链 / 入链
+ *   pkm graph             图谱统计
+ *   pkm doctor            PKM 环境自检
  *
  * 退出码：0 无 ERROR ／ 1 有 ERROR ／ 2 参数或环境故障
  */
@@ -17,7 +22,7 @@ import fs from 'node:fs'
 
 export const Cli = {
   name: 'cli',
-  inject: ['config', 'projects', 'runner', 'report', 'checkers'],
+  inject: ['config', 'projects', 'runner', 'report', 'checkers', 'pkm'],
 
   apply(ctx, config = {}) {
     const { root } = ctx.config
@@ -45,8 +50,13 @@ export const Cli = {
         return doctor()
       }
 
+      // ---- PKM 子命令族：pkm build / search / links / graph / doctor ----
+      if (cmd === 'pkm') {
+        return await pkmCommand(rest)
+      }
+
       if (cmd !== 'check') {
-        ctx.logger.error('未知命令：%s（可用：check / list / doctor）', cmd)
+        ctx.logger.error('未知命令：%s（可用：check / list / doctor / pkm）', cmd)
         return 2
       }
 
@@ -104,6 +114,84 @@ export const Cli = {
       }
       ctx.logger.info(bad ? '环境自检：%d 项异常' : '环境自检：全部正常', bad)
       return bad ? 1 : 0
+    }
+
+    /**
+     * PKM 子命令族 —— 知识连接层的对外入口。
+     *
+     *   pkm build          重建索引 + 图谱 + MOC
+     *   pkm search <词>    全文检索（中文二元组切分）
+     *   pkm links <路径>   查出链 / 入链
+     *   pkm graph          图谱统计
+     *   pkm doctor         PKM 环境自检
+     */
+    async function pkmCommand(args = []) {
+      if (!ctx.pkm) {
+        ctx.logger.error('PKM 服务未就绪（检查 tools/cordis.yml 的 pkm 条目）')
+        return 2
+      }
+      const sub = args[0] || 'build'
+      const rest = args.slice(1)
+
+      if (sub === 'build') {
+        const r = await ctx.pkm.build()
+        if (!r.ok) {
+          ctx.logger.error('PKM build 失败：%s', r.error || r.stderr || `exit=${r.exitCode}`)
+          return r.exitCode || 2
+        }
+        if (r.stderr) ctx.logger.info('%s', r.stderr.trim())
+        return 0
+      }
+
+      if (sub === 'search') {
+        const query = rest.filter((a) => !a.startsWith('-')).join(' ')
+        if (!query) {
+          ctx.logger.error('用法：node tools/host.mjs pkm search <关键词>')
+          return 2
+        }
+        const r = await ctx.pkm.search(query, { limit: 20 })
+        for (const hit of r.results) {
+          // 注意：cordis logger 用 util.format，**不支持** printf 的 %8.3f
+          ctx.logger.info('%s  %s', hit.score.toFixed(3).padStart(8), hit.path)
+          ctx.logger.info('         %s  [%s/%s]', hit.title, hit.project, hit.doc_type)
+        }
+        ctx.logger.info('命中 %d 条（查询：%s）', r.results.length, query)
+        return r.results.length ? 0 : 1
+      }
+
+      if (sub === 'links') {
+        const target = rest.filter((a) => !a.startsWith('-')).join(' ')
+        if (!target) {
+          ctx.logger.error('用法：node tools/host.mjs pkm links <文档路径>')
+          return 2
+        }
+        const r = await ctx.pkm.links(target)
+        if (!r.ok) {
+          ctx.logger.error('查询失败：%s', r.error || r.stderr.trim())
+          return r.exitCode || 1
+        }
+        process.stdout.write(r.text)
+        return 0
+      }
+
+      if (sub === 'graph') {
+        const r = await ctx.pkm.graph()
+        if (!r.ok) {
+          ctx.logger.error('读取图谱失败：%s', r.error || r.stderr.trim())
+          return r.exitCode || 2
+        }
+        process.stdout.write(JSON.stringify(r.data, null, 1) + '\n')
+        return 0
+      }
+
+      if (sub === 'doctor') {
+        const r = await ctx.pkm.doctor()
+        process.stdout.write(r.stdout || '')
+        return r.exitCode === 0 ? 0 : 1
+      }
+
+      ctx.logger.error('未知 pkm 子命令：%s（可用：build / search / links / graph / doctor）', sub)
+      return 2
     }
 
     ctx.provide('cli', { main, collectCheckers })

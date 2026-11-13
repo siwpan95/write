@@ -27,3 +27,10 @@ __pycache__/
 审校报告/*.md
 !审校报告/README.md
 审校报告/doc-review/
+
+# PKM 索引缓存（2026-11-13 建立）
+# index.json 是**派生缓存** —— 可由 `npm run pkm:build` 在 10 秒内重建，
+# 入库只会制造 18MB 的 diff 噪音。纪律同「审校报告不入库」。
+# 入库的是**知识资产**：graph.json（连接图谱）、MOC-*.md（内容地图）、
+# 00-原子笔记/（原子笔记）、01-MOC/（跨项目导航）。
+PKM/index.json
