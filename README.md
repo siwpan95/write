@@ -120,6 +120,10 @@ powershell -ExecutionPolicy Bypass -File tools\bootstrap.ps1   # Windows
 
 四步：环境自检 → 装 Node 依赖 → 重建 PKM 索引 → 跑闸门。幂等、零硬编码路径、Python 内核零三方依赖（无需 `pip install`）。详见 [`PKM/换机部署.md`](PKM/换机部署.md)。
 
+> **实测（2026-11-13）**：全新克隆 → 一条命令 → 索引重建（1173 文档 / 102 出链 / 0 断链）、闸门 **ERROR 0**、检索结果与本机逐字节一致。
+> **注意**：本机 `github.com` 直连被阻断（21s 超时），故 GitHub 镜像端**当前落后**；Gitee（`origin`）已同步。
+> 同步状态可随时校验：`npm run check` 的 `sync` 检查器会报出「远端落后／不可达／已同步」。
+
 ## 工作区规范
 
 统一约定见 [`工作区规范.md`](工作区规范.md)（命名、归档、SSOT、冻结纪律、编码等）。
