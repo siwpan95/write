@@ -48,6 +48,7 @@ tools/
 ├── manifest.py             模板包哈希校验（MANIFEST.sha256）
 ├── bootstrap.sh            换机一键部署（Git Bash / Linux / macOS）
 ├── bootstrap.ps1           换机一键部署（Windows PowerShell）
+├── fix_bom.py              编码归一（内容类带 BOM / 机器读类不带）
 ├── pkm/                    PKM 知识连接层内核（Python，零三方依赖）
 │   ├── scanner.py          仓扫描 · 元数据抽取 · 双链解析
 │   ├── indexer.py          中文二元组分词 · 倒排索引 · 检索打分
@@ -63,12 +64,14 @@ tools/
 │   ├── 12-checker-consistency.mjs  项目结构一致性
 │   ├── 13-pkm.mjs                  PKM 索引与检索服务（提供 ctx.pkm）
 │   ├── 14-checker-pkm.mjs          PKM 连接层体检
+│   ├── 15-checker-sync.mjs         三端同步状态（Gitee/GitHub）
 │   ├── 20-report.mjs       汇总报告（Markdown + JSON）
 │   └── 30-cli.mjs          统一命令行（命令：check / list / doctor / pkm）
 ├── checkers/               Python 适配器（把项目自带脚本包成协议 JSON）
 │   ├── package_check.py
 │   ├── consistency_check.py
-│   └── pkm_check.py
+│   ├── pkm_check.py
+│   └── sync_check.py
 └── projects/               各项目的审校口径（JSON）
     ├── wushuang.json
     └── huaxi.json

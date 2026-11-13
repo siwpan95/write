@@ -138,6 +138,17 @@
     # 闸门口径：断链＝ERROR（会让知识网络给出错误答案）；
     # 孤立比例过高＝WARN（施工单）；规模＝INFO（观察项）
 
+- id: checker-sync
+  name: ./plugins/15-checker-sync.mjs
+  inject:
+    - config
+    - runner
+    - checkers
+  config:
+    # 适配器：把三端同步状态包成协议 JSON
+    adapter: ./tools/checkers/sync_check.py
+    # 闸门口径：远端落后＝ERROR；远端不可达＝WARN（显性上报，不静默）
+
 - id: report
   name: ./plugins/20-report.mjs
   inject:
