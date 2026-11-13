@@ -86,14 +86,20 @@ def check(root: str) -> list[dict]:
             "suggestion": "运行 `npm run pkm:build`（索引缓存不入库，属正常状态）",
         })
 
-    # ---- WARN：孤立文档比例 ----
-    total = max(s["docs"], 1)
-    ratio = s["orphan_count"] * 100.0 / total
-    if ratio > 50:
+    # ---- WARN：知识节点孤立比例 ----
+    # 口径：**以知识节点为分母**（设定/模板/总览）。
+    # 叙事节点（正文）是线性叙事，本就不该有知识链 —— 混算会虚高问题
+    # （实测：混算 96.3%，只算知识节点才是真实缺口）。
+    kn = max(s.get("knowledge_docs", 0), 1)
+    ratio = s.get("knowledge_orphans", 0) * 100.0 / kn
+    if ratio > 5:
         findings.append({
             "severity": "warn", "category": "连接", "code": "PKM-ORPHAN-RATIO",
             "file": "PKM/孤立文档清单.md", "line": 0, "snippet": "",
-            "message": f"孤立文档 {s['orphan_count']} 篇（{ratio:.1f}%）—— 连接层尚未铺开",
+            "message": (
+                f"孤立知识节点 {s.get('knowledge_orphans', 0)} 篇"
+                f"（{ratio:.1f}%）—— 连接层待补"
+            ),
             "suggestion": "从 PKM/孤立文档清单.md 取施工单，按项目分批补连接",
         })
 
@@ -104,7 +110,9 @@ def check(root: str) -> list[dict]:
         "message": (
             f"文档 {s['docs']} ／ 出链 {s['total_links']} ／ 断链 {s['total_broken']} ／ "
             f"frontmatter {s['frontmatter_docs']} ／ 标签 {s['tag_count']} ／ "
-            f"孤立 {s['orphan_count']}（{ratio:.1f}%）"
+            f"知识节点 {s.get('knowledge_docs', 0)}（孤立 {s.get('knowledge_orphans', 0)}，"
+            f"{s.get('knowledge_orphan_rate', 0)}%）／ "
+            f"叙事节点 {s.get('narrative_docs', 0)}（孤立 {s.get('narrative_orphans', 0)}）"
         ),
         "suggestion": "—",
     })

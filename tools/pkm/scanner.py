@@ -61,8 +61,25 @@ TYPE_RULES: list[tuple[str, list[str], str]] = [
 # 章节目录（形如 第一卷 / 第二卷 / 正文 / 卷_xxx）
 CHAPTER_DIR = re.compile(r"^(第[一二三四五六七八九十百]+卷|正文|卷_.*)$")
 
-# 归档 / 历史（不参与主检索权重，但仍在索引内）
+    # 归档 / 历史（不参与主检索权重，但仍在索引内）
 ARCHIVE_HINT = re.compile(r"(_archive|历史归档|杂项/历史|^杂项$|^原稿$|^剧本旧稿$|^\.workbuddy)")
+
+# --------------------------------------------------------------------------
+# 知识节点 vs 叙事节点
+# --------------------------------------------------------------------------
+# 「孤立文档 96.3%」这个数字把两类完全不同的东西混在了一起：
+#   · **叙事节点**（正文 563 篇）—— 线性叙事，靠卷/章顺序组织。
+#     它们**本就不该有知识链接**；给每章互相建链只会制造噪音。
+#   · **知识节点**（设定/模板/总览 564 篇）—— 承载设定、口径、方法论，
+#     它们**正是连接层要服务的对象**，孤立才是真问题。
+#
+# 所以：连接层只对知识节点负责。孤立率以**知识节点**为分母，
+# 叙事节点单列统计，不计入「连接层缺口」。
+
+# 知识节点的文档类型
+KNOWLEDGE_TYPES = {"设定", "模板", "总览", "台账", "报告", "工具", "文档"}
+# 叙事节点：正文（剧集/章节稿）
+NARRATIVE_TYPES = {"正文"}
 
 # Wikilink：[[目标]] 或 [[目标|别名]]
 WIKILINK = re.compile(r"\[\[([^\]|\n]+?)\]\]")
@@ -114,6 +131,7 @@ class Doc:
     broken: list[str] = field(default_factory=list)     # 断链（解析不到）
     archived: bool = False
     has_frontmatter: bool = False
+    kind: str = "knowledge"          # knowledge（知识节点） / narrative（叙事节点）
     fm: dict[str, Any] = field(default_factory=dict)
 
     def to_dict(self) -> dict[str, Any]:
@@ -398,6 +416,7 @@ def scan(root: str, include_archived: bool = True) -> list[Doc]:
             links=links,
             archived=archived,
             has_frontmatter=bool(fm),
+            kind=("narrative" if doc_type in NARRATIVE_TYPES else "knowledge"),
             fm={k: v for k, v in fm.items() if k not in ("aliases",)},
         )
 
@@ -577,14 +596,33 @@ def resolve_links(docs: list[Doc], root: str = "") -> None:
 # 统计
 # --------------------------------------------------------------------------
 
-def summarize(docs: list[Doc]) -> dict[str, Any]:
-    """全库统计：用于诊断报告与 MOC 头部。"""
+def summarize(docs: list[Doc], exclude: set[str] | None = None) -> dict[str, Any]:
+    """
+    全库统计：用于诊断报告与 MOC 头部。
+
+    **孤立率以「知识节点」为分母** —— 叙事节点（正文）本就不该有知识链接，
+    把它们算进孤立会虚高问题（实测：混算 96.3%，只算知识节点则是真实缺口）。
+
+    参数 exclude：**只从「字数累加」中排除**的路径集合。
+    注意：不是把文档整个剔除 —— 生成物（MOC 等）本身仍是有效的连接贡献者，
+    把它们整个排除会让出链数凭空暴跌（实测 1266 → 67）。
+    只排除其**字数**即可解决自引用不收敛（内容一变字数就变）。
+    """
+    exclude = exclude or set()
+    counted = [d for d in docs if d.path not in exclude]
+
     by_type: dict[str, int] = {}
     by_project: dict[str, dict[str, Any]] = {}
     total_links = 0
     total_broken = 0
     fm_count = 0
     tag_count = 0
+
+    # 按 kind 分桶的孤立统计
+    kind_total: dict[str, int] = {"knowledge": 0, "narrative": 0}
+    kind_orphan: dict[str, int] = {"knowledge": 0, "narrative": 0}
+    knowledge_orphans: list[str] = []
+    narrative_orphans: list[str] = []
 
     for d in docs:
         by_type[d.doc_type] = by_type.get(d.doc_type, 0) + 1
@@ -593,17 +631,31 @@ def summarize(docs: list[Doc]) -> dict[str, Any]:
         if d.has_frontmatter:
             fm_count += 1
         tag_count += len(d.tags)
+
+        kind_total[d.kind] = kind_total.get(d.kind, 0) + 1
+        orphan = not d.backlinks and not d.resolved
+        if orphan:
+            kind_orphan[d.kind] = kind_orphan.get(d.kind, 0) + 1
+            (knowledge_orphans if d.kind == "knowledge" else narrative_orphans).append(d.path)
+
         if d.project:
             p = by_project.setdefault(d.project, {
                 "docs": 0, "net_chars": 0, "types": {}, "links": 0,
+                "knowledge": 0, "knowledge_orphan": 0,
             })
             p["docs"] += 1
-            p["net_chars"] += d.net_chars
+            # 字数累加：排除生成物（自引用会导致数值不收敛）
+            if d.path not in exclude:
+                p["net_chars"] += d.net_chars
             p["types"][d.doc_type] = p["types"].get(d.doc_type, 0) + 1
             p["links"] += len(d.resolved)
+            if d.kind == "knowledge":
+                p["knowledge"] += 1
+                if orphan:
+                    p["knowledge_orphan"] += 1
 
-    # 孤立文档：无入链、无出链
-    orphans = [d.path for d in docs if not d.backlinks and not d.resolved]
+    kn_total = kind_total["knowledge"] or 1
+    kn_orphan_rate = kind_orphan["knowledge"] * 100.0 / kn_total
 
     return {
         "docs": len(docs),
@@ -613,7 +665,15 @@ def summarize(docs: list[Doc]) -> dict[str, Any]:
         "total_broken": total_broken,
         "frontmatter_docs": fm_count,
         "tag_count": tag_count,
-        "orphan_count": len(orphans),
-        "orphan_sample": orphans[:40],
-        "net_chars_total": sum(d.net_chars for d in docs),
+        # 知识节点口径（连接层真正负责的对象）
+        "knowledge_docs": kind_total["knowledge"],
+        "knowledge_orphans": kind_orphan["knowledge"],
+        "knowledge_orphan_rate": round(kn_orphan_rate, 1),
+        # 叙事节点口径（线性叙事，单列观察）
+        "narrative_docs": kind_total["narrative"],
+        "narrative_orphans": kind_orphan["narrative"],
+        # 旧口径（保留，供历史对比）
+        "orphan_count": kind_orphan["knowledge"] + kind_orphan["narrative"],
+        "orphan_sample": knowledge_orphans[:40],
+        "net_chars_total": sum(d.net_chars for d in counted),
     }

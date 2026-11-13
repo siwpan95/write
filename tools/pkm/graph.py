@@ -30,6 +30,23 @@ from typing import Any
 
 from scanner import Doc, decode, resolve_links, scan, summarize
 
+# 统计时**排除本工具自己生成的文件**。
+# 理由：MOC 会统计自己的字数，而它的字数又随内容变化 —— 自引用导致
+# 数值永不收敛（实测差 1 个字符 / 56 字）。凡由 build 生成的产物，
+# 一律不计入统计，否则「跑一次」与「跑两次」结果不同。
+GENERATED_PREFIXES = ("PKM/01-MOC/",)
+GENERATED_FILES = {
+    "PKM/MOC-全库.md",
+    "PKM/graph.json",
+    "PKM/孤立文档清单.md",
+    "PKM/断链清单.md",
+}
+
+
+def is_generated(path: str) -> bool:
+    """判断某路径是否为 build 生成物（不入统计，避免自引用不收敛）。"""
+    return path in GENERATED_FILES or path.startswith(GENERATED_PREFIXES)
+
 # --------------------------------------------------------------------------
 # 图谱（入库资产）
 # --------------------------------------------------------------------------
@@ -94,6 +111,42 @@ def apply_overrides(docs: list[Doc], root: str) -> int:
     return len(overrides)
 
 
+def load_project_links(root: str) -> dict[str, list[dict]]:
+    """
+    读取受控的项目关联登记表 `PKM/02-索引/项目关联登记表.md`。
+
+    登记的是**项目之间**的真实共享关系（共享设定／方法论／研究）。
+    由 build 据此给项目 MOC 补「相关项目」互链 ——
+    关系是**会变的知识**，必须有独立可 diff 的登记处，不能硬编码在生成物里。
+
+    返回 {项目名: [关联项, ...]}
+    """
+    path = os.path.join(root, "PKM", "02-索引", "项目关联登记表.md")
+    if not os.path.exists(path):
+        return {}
+
+    try:
+        raw = open(path, "rb").read()
+    except OSError:
+        return {}
+    text = decode(raw)
+
+    out: dict[str, list[dict]] = defaultdict(list)
+    for block in re.findall(r"```jsonl\s*\n(.*?)```", text, re.S):
+        for line in block.split("\n"):
+            line = line.strip()
+            if not line or line.startswith("//"):
+                continue
+            try:
+                obj = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            src, dst = obj.get("from"), obj.get("to")
+            if src and dst:
+                out[src].append(obj)
+    return dict(out)
+
+
 def build_graph(root: str) -> dict[str, Any]:
     """
     构建**可入库**的知识图谱。
@@ -104,7 +157,7 @@ def build_graph(root: str) -> dict[str, Any]:
     docs = scan(root)
     apply_overrides(docs, root)
     resolve_links(docs, root)
-    summary = summarize(docs)
+    summary = summarize(docs, exclude={d.path for d in docs if is_generated(d.path)})
     overrides = load_meta_overrides(root)
 
     nodes = []
@@ -114,6 +167,7 @@ def build_graph(root: str) -> dict[str, Any]:
             "path": d.path,
             "title": d.title,
             "type": d.doc_type,
+            "kind": d.kind,
             "project": d.project,
             "role": d.role,
             "net_chars": d.net_chars,
@@ -254,22 +308,60 @@ def render_moc(graph: dict[str, Any]) -> str:
 
 
 def render_orphans(graph: dict[str, Any], limit: int = 200) -> str:
-    """孤立文档清单 —— 「连接层待补」的施工单。"""
+    """
+    孤立文档清单 —— **连接层待补的施工单**。
+
+    **按「知识节点 / 叙事节点」分列**：
+      · 知识节点（设定/模板/总览）—— 孤立是**真问题**，是施工单；
+      · 叙事节点（正文）—— 线性叙事，**本就不该有知识链**，单列观察即可。
+
+    （初版把两者混算，报出「96.3% 孤立」——数字虚高且误导施工方向。）
+    """
     s = graph["summary"]
-    orphans = [n for n in graph["nodes"] if not n["in"] and not n["out"]]
-    lines = ["# 孤立文档清单（连接层待补）", "",
-             f"> 无入链、无出链 —— 检索得到，但**从任何其他文档都走不到**。",
-             f"> 共 {_fmt(len(orphans))} 篇（占 {len(orphans)*100//max(s['docs'],1)}%）。",
-             "> 这份清单是**施工单**：从索引页出发补连接，比逐篇补双链更省力。", ""]
+    nodes = graph["nodes"]
+
+    kn = [n for n in nodes if n.get("kind") == "knowledge"
+          and not n["in"] and not n["out"]]
+    nv = [n for n in nodes if n.get("kind") == "narrative"
+          and not n["in"] and not n["out"]]
+
+    lines = ["# 孤立文档清单（连接层施工单）", ""]
+    lines.append("> **口径分列**：知识节点（设定/模板/总览）孤立＝**真缺口**；")
+    lines.append("> 叙事节点（正文）是线性叙事，本就不该有知识链 —— 不计施工量。")
+    lines.append("")
+    lines.append("| 项 | 知识节点 | 叙事节点 |")
+    lines.append("|---|---|---|")
+    lines.append(f"| 总数 | {s.get('knowledge_docs', 0):,} | {s.get('narrative_docs', 0):,} |")
+    lines.append(f"| 孤立 | {s.get('knowledge_orphans', 0):,} | {s.get('narrative_orphans', 0):,} |")
+    kr = s.get("knowledge_orphan_rate", 0)
+    lines.append(f"| 孤立率 | **{kr}%** | — |")
+    lines.append("")
+
+    lines.append("## 施工单：知识节点（按项目）")
+    lines.append("")
     byproj: dict[str, list] = defaultdict(list)
-    for n in orphans:
+    for n in kn:
         byproj[n["project"] or "（仓根）"].append(n)
     for proj in sorted(byproj, key=lambda p: -len(byproj[p])):
-        lines.append(f"## {proj}（{len(byproj[proj])}）")
+        lines.append(f"### {proj}（{len(byproj[proj])}）")
         lines.append("")
         for n in byproj[proj][:limit]:
             lines.append(f"- `{n['path']}` — {n['title']}（{n['type']}）")
         lines.append("")
+
+    lines.append("## 观察：叙事节点（不施工）")
+    lines.append("")
+    lines.append(f"> 共 {len(nv):,} 篇正文章节无知识链接 —— **这是正常的**。")
+    lines.append("> 正文靠卷/章顺序与各项目的 `作品总览.md` 导航。")
+    lines.append("")
+    byproj2: dict[str, int] = defaultdict(int)
+    for n in nv:
+        byproj2[n["project"] or "（仓根）"] += 1
+    lines.append("| 项目 | 无知识链接的正文数 |")
+    lines.append("|---|---|")
+    for proj, cnt in sorted(byproj2.items(), key=lambda kv: -kv[1]):
+        lines.append(f"| {proj} | {cnt} |")
+    lines.append("")
     return "\n".join(lines)
 
 
@@ -299,6 +391,160 @@ def write_text(text: str, path: str) -> tuple[str, int]:
         f.write(b"\xef\xbb\xbf")
         f.write(text.replace("\r\n", "\n").encode("utf-8"))
     return path, len(text.encode("utf-8"))
+
+
+# --------------------------------------------------------------------------
+# 项目级 MOC 生成（LYT 枢纽节点法）
+# --------------------------------------------------------------------------
+#
+# **为什么用 MOC 枢纽而不是逐篇建链**
+# --------------------------------------
+# 全库有 564 篇知识节点（设定/模板/总览）。若靠人工逐篇写 `[[双链]]`：
+#   · 工作量巨大且必然半途而废；
+#   · 更糟 —— 要在**正文/设定文件里**动手，违反「正文零改动」铁律。
+#
+# LYT 的标准解法是**枢纽节点（MOC）**：每个项目一份 MOC，由它给簇内所有
+# 知识节点提供入链。节点文件**一个字节都不用改** —— 连接关系全部落在
+# MOC 这一张索引页上（旁挂机制）。
+#
+# 效果：一次生成，项目内全部知识节点立刻脱离孤立；
+# 且 MOC 是「活的导航页」，可人工补叙事。
+
+
+def render_project_moc(project: str, nodes: list[dict], summary: dict,
+                       root: str = "", links: list[dict] | None = None) -> str:
+    """
+    生成单个项目的 MOC（Markdown）。
+
+    参数
+    ----
+    project: 项目名（一级目录名）
+    nodes:   该项目的全部节点（图谱节点）
+    summary: 全库统计（用于标注该项目的整体体量）
+    links:   该项目的关联登记项（来自项目关联登记表）
+
+    形态：按**角色层**分组（入口总览 / 设定 SSOT / 台账 / 方法与参考），
+    每组内列出 wikilink。叙事节点（正文）单列，只给章节目录 —— 不建知识链。
+    """
+    kn = [n for n in nodes if n.get("kind") == "knowledge"]
+    nv = [n for n in nodes if n.get("kind") == "narrative"]
+
+    def by_role(role: str) -> list[dict]:
+        return [n for n in kn if n.get("role") == role]
+
+    lines: list[str] = []
+    A = lines.append
+
+    A(f"# MOC · {project}")
+    A("")
+    A(f"> **项目级内容地图**（LYT 枢纽节点）—— 由 `npm run pkm:build` 生成骨架。")
+    A(f"> 本页给「{project}」的全部知识节点提供入链；节点文件本身**零改动**。")
+    A("> 人工叙事请写在「## 人工补充」之后。")
+    A("")
+
+    # ---- 概览 ----
+    A("## 概览")
+    A("")
+    A("| 项 | 值 |")
+    A("|---|---|")
+    A(f"| 文档总数 | {len(nodes):,} |")
+    A(f"| 知识节点（设定/模板/总览） | {len(kn):,} |")
+    A(f"| 叙事节点（正文） | {len(nv):,} |")
+    A(f"| 净字数 | {summary.get('net_chars', 0):,} |")
+    A("")
+
+    # ---- 相关项目（来自项目关联登记表） ----
+    if links:
+        A("## 相关项目")
+        A("")
+        A("> 来自 `PKM/02-索引/项目关联登记表.md` —— 只登记**真的共享了什么**的关系。")
+        A("> 题材相邻但设定独立的，不在此列（见 [[PKM/01-MOC/MOC-跨项目知识网络.md]] §四）。")
+        A("")
+        for rel in links:
+            dst = rel.get("to", "")
+            kind = rel.get("kind", "")
+            shared = rel.get("shared", "")
+            constraint = rel.get("constraint", "")
+            moc_name = f"MOC-{dst}"
+            A(f"### [[PKM/01-MOC/{moc_name}.md]] —— {dst}")
+            A("")
+            A(f"- **关系**：{kind}")
+            if shared:
+                A(f"- **共享**：{shared}")
+            if constraint:
+                A(f"- **硬约束**：{constraint}")
+            A("")
+
+    # ---- 入口总览 ----
+    entries = by_role("入口总览")
+    if entries:
+        A("## 入口")
+        A("")
+        for n in entries:
+            A(f"- [[{n['path']}]] —— {n['title']}")
+        A("")
+
+    # ---- 设定 SSOT ----
+    ssot = [n for n in kn if n.get("type") == "设定"]
+    if ssot:
+        A("## 设定（SSOT · 单一事实源）")
+        A("")
+        for n in ssot:
+            A(f"- [[{n['path']}]] —— {n['title']}（{n.get('net_chars', 0):,} 字）")
+        A("")
+
+    # ---- 台账 ----
+    ledgers = [n for n in kn if n.get("type") == "台账"]
+    if ledgers:
+        A("## 台账")
+        A("")
+        for n in ledgers:
+            A(f"- [[{n['path']}]] —— {n['title']}")
+        A("")
+
+    # ---- 方法与参考 ----
+    rest = [n for n in kn if n not in ssot and n not in ledgers and n not in entries]
+    if rest:
+        A("## 方法 · 参考 · 其他")
+        A("")
+        for n in rest:
+            A(f"- [[{n['path']}]] —— {n['title']}（{n.get('type', '')}）")
+        A("")
+
+    # ---- 叙事目录（不建知识链，仅导航） ----
+    if nv:
+        A("## 正文（叙事层 · 按顺序读，不建知识链）")
+        A("")
+        A(f"> 本项目共 {len(nv):,} 篇正文。正文是**线性叙事**，")
+        A("> 靠卷/章顺序组织 —— 不参与知识连接，故此处只列目录不建双链。")
+        A("")
+        # 按目录分组
+        by_dir: dict[str, list[dict]] = defaultdict(list)
+        for n in nv:
+            d = n["path"].rsplit("/", 1)[0] if "/" in n["path"] else ""
+            by_dir[d].append(n)
+        for d in sorted(by_dir):
+            group = sorted(by_dir[d], key=lambda x: x["path"])
+            A(f"**{d or '（仓根）'}**（{len(group)} 篇）")
+            A("")
+            # 章节目录用**相对链接**（可点击导航），不建知识双链。
+            # 相对路径须相对 **MOC 文件自身所在目录**（PKM/01-MOC/），
+            # 否则在 Obsidian / GitHub 里点不开 —— 索引器能解析不代表渲染器能。
+            for n in group:
+                fname = n["path"].rsplit("/", 1)[-1]
+                rel = os.path.relpath(
+                    os.path.join(root, n["path"]),
+                    os.path.join(root, "PKM", "01-MOC"),
+                ).replace(os.sep, "/")
+                A(f"- [{fname}]({rel.replace(' ', '%20')})")
+            A("")
+
+    # ---- 人工补充 ----
+    A("## 人工补充")
+    A("")
+    A("<!-- 这个项目最该记住的三件事？哪些设定互相冲突？下一个要写什么？ -->")
+    A("")
+    return "\n".join(lines)
 
 
 if __name__ == "__main__":

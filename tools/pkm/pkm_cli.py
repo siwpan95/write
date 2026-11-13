@@ -26,7 +26,10 @@ HERE = os.path.dirname(os.path.abspath(__file__))
 if HERE not in sys.path:
     sys.path.insert(0, HERE)
 
-from graph import build_graph, render_broken, render_moc, render_orphans, write_graph, write_text  # noqa: E402
+from graph import (  # noqa: E402
+    build_graph, is_generated, load_project_links, render_broken, render_moc,
+    render_orphans, render_project_moc, write_graph, write_text,
+)
 from indexer import build_index, search, write_index  # noqa: E402
 
 
@@ -47,15 +50,33 @@ def _out(root: str, name: str) -> str:
 
 
 def cmd_build(args: list[str]) -> int:
-    """重建全部产物。"""
+    """
+    重建全部产物。
+
+    **两阶段（自举收敛）**
+    ------------------
+    项目级 MOC 是**自己也要被索引**的知识节点 —— 第一轮扫描时它还不存在，
+    所以第一轮生成的 MOC 不会被计入图谱。必须再跑一轮才能收敛：
+
+        第一轮：扫描 → 生成 MOC（MOC 尚不存在）
+        第二轮：重扫（含 MOC）→ 重生成 MOC → 图谱/清单收敛
+
+    故此处**固定跑两轮**并以第二轮结果为准 —— 保证「同一输入同一结果」，
+    避免出现「跑一次和跑两次结果不同」的非确定性。
+    """
     root = _root(args)
     print(f"[pkm] 仓根：{root}", file=sys.stderr)
 
-    idx = build_index(root)
-    ip, isize = write_index(idx, _out(root, "index.json"))
-    print(f"[pkm] 索引缓存：{ip}（{isize} 字节）", file=sys.stderr)
+    # ---------- 第一轮：生成项目 MOC（骨架） ----------
+    g1 = build_graph(root)
+    moc_count = _write_project_mocs(root, g1)
+    print(f"[pkm] 项目 MOC（第一轮）：{moc_count} 份", file=sys.stderr)
 
+    # ---------- 第二轮：重扫（含 MOC）→ 重生成 → 收敛 ----------
     g = build_graph(root)
+    moc_count = _write_project_mocs(root, g)
+    print(f"[pkm] 项目 MOC（第二轮，收敛）：{moc_count} 份", file=sys.stderr)
+
     gp, gsize = write_graph(g, _out(root, "graph.json"))
     print(f"[pkm] 图谱（入库）：{gp}（{gsize} 字节）", file=sys.stderr)
 
@@ -68,16 +89,56 @@ def cmd_build(args: list[str]) -> int:
     bp, bsize = write_text(render_broken(g), _out(root, "断链清单.md"))
     print(f"[pkm] 断链清单：{bp}（{bsize} 字节）", file=sys.stderr)
 
+    # 索引放最后：此时 MOC 已就位，索引内容与图谱一致
+    idx = build_index(root)
+    ip, isize = write_index(idx, _out(root, "index.json"))
+    print(f"[pkm] 索引缓存：{ip}（{isize} 字节）", file=sys.stderr)
+
     s = g["summary"]
     print(json.dumps({
         "ok": True,
         "docs": s["docs"],
         "links": s["total_links"],
         "broken": s["total_broken"],
-        "orphans": s["orphan_count"],
+        "knowledge_docs": s["knowledge_docs"],
+        "knowledge_orphans": s["knowledge_orphans"],
+        "knowledge_orphan_rate": s["knowledge_orphan_rate"],
+        "narrative_orphans": s["narrative_orphans"],
         "frontmatter": s["frontmatter_docs"],
     }, ensure_ascii=False))
     return 0
+
+
+def _write_project_mocs(root: str, graph: dict) -> int:
+    """为每个项目生成一份 MOC（LYT 枢纽节点），返回生成份数。"""
+    moc_dir = os.path.join(root, "PKM", "01-MOC")
+    os.makedirs(moc_dir, exist_ok=True)
+
+    by_project: dict[str, list] = {}
+    for n in graph["nodes"]:
+        if n["project"] and n["project"] != "PKM":
+            by_project.setdefault(n["project"], []).append(n)
+        elif n["project"] == "PKM":
+            # PKM 自身也要一份 MOC —— 否则它自己的产物（元数据清单、
+            # 孤立清单、断链清单）会成为孤立节点。
+            by_project.setdefault("PKM-知识连接层", []).append(n)
+
+    # 项目级统计（MOC 头部用）—— **排除生成物**：
+    # MOC 自身的字数会随内容变化，若计入则数值永不收敛（实测差 11 字）。
+    proj_stats = {
+        p: {"net_chars": sum(x.get("net_chars", 0) for x in v
+                             if not is_generated(x["path"]))}
+        for p, v in by_project.items()
+    }
+
+    count = 0
+    proj_links = load_project_links(root)
+    for proj, nodes in sorted(by_project.items()):
+        text = render_project_moc(proj, nodes, proj_stats[proj], root=root,
+                                  links=proj_links.get(proj, []))
+        write_text(text, os.path.join(moc_dir, f"MOC-{proj}.md"))
+        count += 1
+    return count
 
 
 def _positional(args: list[str], skip_values: set[str]) -> list[str]:
