@@ -729,8 +729,13 @@ def check_number(corpus, out):
                         hits.append((val, doc.rel(doc.path), i, mm.group(0).strip(),
                                      line.strip()[:110], bool(trans_re.search(line))))
 
-            # --- 定义处禁止数值型口径（与命中数无关，独立判定） ---
-            if forbid_re:
+            # --- 定义处禁止数值型口径 ---
+            # 判定要件：**声明存在 且 确有数值记账**，二者同时满足才算冲突，
+            # 且冲突点落在**记账处**（不是定义处 —— 定义处出现该声明本身就是对的）。
+            # 只声明、无数值记账时不得报，否则该规则对"声明了无面板数值"的项目
+            # 永远误报（2026-11-13 实测修正）。
+            if forbid_re and hits:
+                decl = None
                 for doc in corpus.docs:
                     if scope and not any(s in str(doc.path) for s in scope):
                         continue
@@ -739,14 +744,19 @@ def check_number(corpus, out):
                             continue
                         fm = forbid_re.search(line)
                         if fm:
-                            out.append(Finding(
-                                "error", "数字口径", "NUM-METRIC",
-                                corpus.rel(doc.path), i, line.strip()[:110],
-                                f"指标「{mname}」的定义处声明「{fm.group(0)}」"
-                                f"（不设数值口径），但台账/正文按数值记账",
-                                f"要么删除「{mname}」的数值记账，要么改设定定义处",
-                            ))
+                            decl = (corpus.rel(doc.path), i, fm.group(0))
                             break
+                    if decl:
+                        break
+                if decl:
+                    h = hits[0]
+                    out.append(Finding(
+                        "error", "数字口径", "NUM-METRIC",
+                        h[1], h[2], h[4],
+                        f"指标「{mname}」的定义处（{decl[0]}:{decl[1]}）声明「{decl[2]}」"
+                        f"（不设数值口径），但此处按数值记账：{h[3]}",
+                        f"要么删除「{mname}」的数值记账（改用可观测症状），要么改设定定义处",
+                    ))
 
             if len(hits) < 2:
                 continue

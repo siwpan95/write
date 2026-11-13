@@ -12,7 +12,9 @@
     "check:consistency": "node tools/host.mjs check consistency",
     "list": "node tools/host.mjs list",
     "doctor": "node tools/host.mjs doctor",
-    "plugins": "node tools/host.mjs --list"
+    "plugins": "node tools/host.mjs --list",
+    "manifest": "python tools/manifest.py --check",
+    "manifest:rewrite": "python tools/manifest.py --write"
   },
   "engines": { "node": ">=22" },
   "dependencies": {

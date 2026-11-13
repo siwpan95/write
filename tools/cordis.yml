@@ -39,16 +39,21 @@
   config:
     # 各项目的审校口径（指标声明、术语表、章节目录）
     # 相对仓根；缺项即跳过该项目
+    #
+    # text = 该项目的**治理内容根**（2026-11-13 起由子目录改为项目根）：
+    #   口径类规则（metrics / forbid_if / 时间锚换算）本质是
+    #   「设定 ↔ 台账 ↔ 正文」三方比对，只扫正文会让口径规则全程失效
+    #   —— P1-1/2/3 三处冲突正是靠三方比对才暴露的。
     projects:
       - id: wushuang
         name: 无敌不是他人路
         root: ./无敌不是他人路
-        text: ./无敌不是他人路/正文
+        text: ./无敌不是他人路
         config: ./tools/projects/wushuang.json
       - id: huaxi
         name: 华夏克苏鲁
         root: ./华夏克苏鲁
-        text: ./华夏克苏鲁/01_bible
+        text: ./华夏克苏鲁
         config: ./tools/projects/huaxi.json
 
 - id: runner
@@ -84,6 +89,9 @@
   config:
     # 审校引擎（错别字 / 时间矛盾 / 数字口径 / 缺失条件 / 体例 / 术语 / 重复 / 结构）
     engine: ./tools/doc_review.py
+    # 可选：只跑指定检查项（typo/time/number/cond/style/term/dup/struct）。
+    # 全量跑时 WARN 会含设定层的体例存量项；闸门只认 ERROR，想收窄时在此加 only。
+    # only: [typo, time, number, cond, struct]
     # 只跑这些类别；留空＝全跑
     only: []
 

@@ -2,6 +2,16 @@
 # 校验：在本目录执行  sha256sum -c MANIFEST.sha256
 # Windows: certutil -hashfile <文件> SHA256 逐项比对
 # v3.12.2 新增：通用文件哈希随 --scenario/槽位拆解/--max-repeat 改动同步；文件集不变。
+#
+# —— 2026-11-13 增补（本次深度审计后）——
+# 1) 覆盖范围补齐：纳入此前未受哈希保护的 6 个受控文件（tools/regression_checks.txt 是 C8 防回归断言的数据源，
+#    writing-style-transfer/scripts/style_metrics.py 是 05-文风卡指定的官方实测脚本，
+#    可视化_结构映射/ 四件为包内交付物且被 00/14 两份模板文档引用）。
+#    清单不含自身（MANIFEST.sha256），合计 33 条。
+# 2) 路径分隔符统一为正斜杠：原 tools 下的条目写作反斜杠，仅 Windows 可解析，
+#    Linux/macOS 的 sha256sum -c 会因路径分隔符失配而全盘失败；现改为正斜杠。
+# 3) 哈希口径：一律取 git blob 字节（LF），不得按工作区字节计算（工作区可能是 CRLF 旧副本）。
+#
 44f7935d5734f103c41af1d07fe5f4c1460813292e6d15b1942cc44ef58528fd  00-总档与SOP.md
 38e51e81975afa7428b8949ab3990c4efdf748c2725da2afab50533e5cb4f66d  01-立项定位模板.md
 6e0583eace5fc4c397610bbc7e860cc3ebac6c105befece94127dcc363cd37fc  02-大纲四层模板.md
@@ -24,8 +34,15 @@ f433f8228603bf6649393f527da47005a2fa8cb64466f7c38b063c653827b459  17-字数增�
 a77c5feaba5711201cf87386243e9a39e147eee093c1cdee4022ab09b4f87100  README.md
 55bdf4a558314c5acccdd2bb31bb253b582142855ed15804dea8135fe28a5b57  审计与修复报告.md
 99d8bf5e61826c41a93e07fd3986e280eeb31fe27c29881d530b3f70fddd6159  校验报告.txt
-df750674bad408d1de792e9b0b301d4e58e43b985b725093d7aada71529bf51f  tools\build_sample_pages.py
-911bc9a41a54b87b86e92ac154814a7c86a944a9f3b1af072d87090baf4ad17d  tools\check_package.py
-8c337e63cbea2bbfab1ab62ae1770fceba1729192708ca3d16ab7212171f8625  tools/procedural\goal_sim.py
-966c8f71ecb197cbf64df630a29971973003e97aff62eb581bd73aec517c0e00  tools/procedural\grammar_expand.py
-14470f71f05a6407e33d0985f6ac1759c6d7c9865573339d7e82654a10e0bdbf  tools/procedural\name_generator.py
+df750674bad408d1de792e9b0b301d4e58e43b985b725093d7aada71529bf51f  tools/build_sample_pages.py
+911bc9a41a54b87b86e92ac154814a7c86a944a9f3b1af072d87090baf4ad17d  tools/check_package.py
+8c337e63cbea2bbfab1ab62ae1770fceba1729192708ca3d16ab7212171f8625  tools/procedural/goal_sim.py
+966c8f71ecb197cbf64df630a29971973003e97aff62eb581bd73aec517c0e00  tools/procedural/grammar_expand.py
+14470f71f05a6407e33d0985f6ac1759c6d7c9865573339d7e82654a10e0bdbf  tools/procedural/name_generator.py
+# —— 2026-11-13 增补条目（此前未纳入哈希保护）——
+74737b4d73dac6fef331fadf33ea52649d84bd25cdfe8b49bc369f9660a61e3a  tools/regression_checks.txt
+a7a8ba176011932924e51ac4f268e29b37de4d07c5529325ca0c17c1cf6448ee  writing-style-transfer/scripts/style_metrics.py
+ed511a87d94a8639d390449484e5824e1d570979108282d7f68961a26b16a481  可视化_结构映射/graph.dot
+17af3604d2cd82107e8a9d0ce0b98691fd31f437dbae5d8e893f78ace5b79393  可视化_结构映射/graph.svg
+6d7bdb33a63b7976d91d6528249fd1e6db8d10ebe436c5461531c3e6183781d6  可视化_结构映射/index.html
+0b2d1cb68fb11d8dabf083561d02d334b68552ff466fe044675b408789ebc2a2  可视化_结构映射/render.js
