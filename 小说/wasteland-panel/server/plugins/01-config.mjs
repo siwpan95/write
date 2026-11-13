@@ -126,17 +126,16 @@ export function findPython() {
  * 注意：角色卡是**目录**，单列一个 cardDir 交给引擎插件做目录级 mtime
  * 扫描（取目录内 .md 里最新的那个）——把它塞进文件列表会让新鲜度
  * 判定在角色卡变动时完全不触发，这是接入初期真实踩过的坑。
+ *
+ * **清单本身是单一事实源**（`bible-paths.mjs`）：目录改名（如
+ * `一致性核查/` → `一致性核查-历史归档/`）时只需改那一处，
+ * 本文件与 Python 解析器自动跟随，不再两处各写一份而漏改。
  */
-const BIBLE_SOURCES = [
-  path.join(BIBLE_ROOT, 'bible', 'world-bible.md'),
-  path.join(BIBLE_ROOT, 'bible', 'plot-board.md'),
-  path.join(BIBLE_ROOT, 'bible', 'timeline.md'),
-  path.join(BIBLE_ROOT, '一致性核查', '世界观设定标尺.md'),
-  path.join(BIBLE_ROOT, '设定与参考', '长弧规划.md'),
-  path.join(BIBLE_ROOT, '设定与参考', '扩写规范-统一执行手册.md'),
-]
+const { BIBLE_SOURCES, CARD_DIRS, resolveAll, resolveFirst } = await import('./bible-paths.mjs')
 
-const CARD_DIR = path.join(BIBLE_ROOT, 'bible', 'characters')
+const { resolved: bibleResolved, missing: bibleMissing } = resolveAll(BIBLE_ROOT, BIBLE_SOURCES)
+const BIBLE_SOURCE_PATHS = bibleResolved.map((r) => r.path)
+const CARD_DIR = resolveFirst(BIBLE_ROOT, CARD_DIRS[0]) ?? path.join(BIBLE_ROOT, 'bible', 'characters')
 
 /** 取目录下最新 .md 的 mtime（毫秒）；目录不存在返回 0 */
 function latestMtime(dir) {
@@ -170,17 +169,28 @@ export const Config = {
       python,
       port,
       host,
-      bibleSources: BIBLE_SOURCES,
+      bibleSources: BIBLE_SOURCE_PATHS,
+      bibleMissing: bibleMissing,
       cardDir: CARD_DIR,
       cardMtime: latestMtime(CARD_DIR),
     }
 
     ctx.provide('config', cfg)
     ctx.logger.info(
-      'config: python=%s port=%d web=%s sources=%d cards=%s',
+      'config: python=%s port=%d web=%s sources=%d/%d cards=%s',
       python, port, path.basename(cfg.web),
-      BIBLE_SOURCES.length, cfg.cardMtime ? 'ok' : 'missing',
+      BIBLE_SOURCE_PATHS.length, BIBLE_SOURCES.length, cfg.cardMtime ? 'ok' : 'missing',
     )
+    // **缺失必须显性上报**：目录改名导致源加载失败时，若只埋在日志里，
+    // 面板会「看起来正常」而数据层悄悄缺一块（2026-11-13 审计实测：
+    // 规则 R1-R15 与角色档案整块丢失，进程照常起、degraded 仍记 0）。
+    if (bibleMissing.length) {
+      ctx.logger.warn(
+        'bible 源缺失 %d 项（面板相关能力将不可用）：%s',
+        bibleMissing.length,
+        bibleMissing.map((m) => m.id).join(', '),
+      )
+    }
   },
 }
 

@@ -1,0 +1,24 @@
+{
+  "name": "write-workspace-tools",
+  "version": "1.0.0",
+  "private": true,
+  "description": "网文创作工作区 · 仓根工具编排层（Cordis 润滑层）——全仓检查器的统一入口",
+  "type": "module",
+  "main": "tools/host.mjs",
+  "scripts": {
+    "check": "node tools/host.mjs check",
+    "check:package": "node tools/host.mjs check package",
+    "check:doc": "node tools/host.mjs check doc-review",
+    "check:consistency": "node tools/host.mjs check consistency",
+    "list": "node tools/host.mjs list",
+    "doctor": "node tools/host.mjs doctor",
+    "plugins": "node tools/host.mjs --list"
+  },
+  "engines": { "node": ">=22" },
+  "dependencies": {
+    "cordis": "4.0.0-rc.13",
+    "@cordisjs/plugin-loader": "1.0.0-rc.9",
+    "@cordisjs/plugin-include": "1.2.0",
+    "@cordisjs/plugin-logger-console": "1.0.0"
+  }
+}

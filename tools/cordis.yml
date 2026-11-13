@@ -1,0 +1,127 @@
+# cordis.yml —— 网文创作工作区 · 工具插件树
+#
+# 这是**仓根**的工具能力清单（应用能力的唯一真理源）。
+# 加/删/改能力改这个文件即可，不需要动 tools/host.mjs。
+#
+# 加载顺序由**依赖图**决定，不由本文件的行序决定：
+#   config → registry → runner → checker-* → report → cli
+# 任何插件可写 inject: [...] 拿到上游服务。
+#
+# 与《小说/wasteland-panel/cordis.yml》的关系：
+#   那个是**单项目**的面板工作台插件树（服务《废土旅法师》）；
+#   这个是**仓根**的工具编排层（管全仓 8 个作品/项目）。
+#   两者用同一套 cordis 约定（cordis.yml + plugins/ + inject 依赖图），
+#   但插件树互不相干 —— 面板是「给一本书做的 Web 工作台」，
+#   本层是「给整个仓做的工具流水线」。
+#
+# ---------------------------------------------------------------------------
+# 插件清单
+# ---------------------------------------------------------------------------
+# id          逻辑名（服务在 ctx 上的访问名）
+# name        插件文件路径（相对 tools/）
+# inject      依赖的服务名；依赖就绪才启动
+# config      该插件的配置块（透传给插件 constructor）
+
+- id: config
+  name: ./plugins/01-config.mjs
+  config:
+    # 仓根；留空则由 host.mjs 依据本文件位置推导
+    root: ''
+    # Python 解释器；留空则自动探测（PYTHON 环境变量 → PATH → WorkBuddy 内置）
+    python: ''
+    # 报告输出根目录
+    reports: ./审校报告
+
+- id: projects
+  name: ./plugins/02-registry.mjs
+  inject:
+    - config
+  config:
+    # 各项目的审校口径（指标声明、术语表、章节目录）
+    # 相对仓根；缺项即跳过该项目
+    projects:
+      - id: wushuang
+        name: 无敌不是他人路
+        root: ./无敌不是他人路
+        text: ./无敌不是他人路/正文
+        config: ./tools/projects/wushuang.json
+      - id: huaxi
+        name: 华夏克苏鲁
+        root: ./华夏克苏鲁
+        text: ./华夏克苏鲁/01_bible
+        config: ./tools/projects/huaxi.json
+
+- id: runner
+  name: ./plugins/03-runner.mjs
+  inject:
+    - config
+  config:
+    # Python 检查器超时（毫秒）
+    timeout: 600000
+
+- id: checkers
+  name: ./plugins/04-checkers.mjs
+
+- id: checker-package
+  name: ./plugins/10-checker-package.mjs
+  inject:
+    - config
+    - runner
+    - checkers
+  config:
+    # 通用模板包自检（引用完整性 / 表格 / 编码 / 防回归断言）
+    package: ./通用模板包
+    # 适配器：把 check_package.py 的人读报告包成协议 JSON（原脚本不改）
+    adapter: ./tools/checkers/package_check.py
+
+- id: checker-doc-review
+  name: ./plugins/11-checker-doc-review.mjs
+  inject:
+    - config
+    - projects
+    - runner
+    - checkers
+  config:
+    # 审校引擎（错别字 / 时间矛盾 / 数字口径 / 缺失条件 / 体例 / 术语 / 重复 / 结构）
+    engine: ./tools/doc_review.py
+    # 只跑这些类别；留空＝全跑
+    only: []
+
+- id: checker-consistency
+  name: ./plugins/12-checker-consistency.mjs
+  inject:
+    - config
+    - projects
+    - runner
+    - checkers
+  config:
+    # 适配器（把项目自带扫描器的人读输出包成协议 JSON）
+    adapter: ./tools/checkers/consistency_check.py
+    # 各项目的结构一致性扫描器（口径属项目，不属工具层）
+    scanners:
+      dianzi:
+        root: ./点子库
+        scanner: ./点子库/04-工具/audit_consistency.py
+    # 只对这些项目跑（留空＝全部）
+    projects: []
+
+- id: report
+  name: ./plugins/20-report.mjs
+  inject:
+    - config
+    - projects
+  config:
+    # 汇总报告文件名
+    filename: 工具链自检报告
+
+- id: cli
+  name: ./plugins/30-cli.mjs
+  inject:
+    - config
+    - projects
+    - runner
+    - report
+    - checkers
+  config:
+    # 命令行默认动作：check（跑全部检查器）
+    default: check

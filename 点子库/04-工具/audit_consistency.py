@@ -38,7 +38,7 @@ for p in files:
     fn = os.path.basename(p)[:-3]
     m = re.match(r'^(\d+)-(.+)$', fn)
     fidx, rest = int(m.group(1)), m.group(2)
-    text = open(p, encoding='utf-8').read()
+    text = open(p, encoding='utf-8-sig').read()
     nchar = len(re.sub(r'\s', '', text))
     lines = [l for l in text.split('\n')]
     first = next((l.strip() for l in lines if l.strip()), '')
@@ -49,7 +49,9 @@ for p in files:
     hm = re.match(r'^#\s*第(.+?)章\s*[·・\-—]\s*(.+)$', first)
     h_ch, h_title = (cn2int(hm.group(1)), hm.group(2).strip()) if hm else (None, None)
     tail = [l.strip() for l in lines if l.strip()][-1] if text.strip() else ''
-    tm = re.search(r'（第(.+?)章完', tail)
+    # 章末创作注：本书约定为「**（第X章完 · 索引卡：… · 下接…）**」（见 05-实体书/03-勘误表.md）。
+    # 尾行可能只截到「（第X章 · 索引卡：…）」而没有「完」字，故两种写法都要认。
+    tm = re.search(r'（第(.+?)章(?:\s*完)?(?:\s*·|\s*索引卡|\s*$)', tail)
     t_ch = cn2int(tm.group(1)) if tm else None
     # 格式统计
     st = {
@@ -119,7 +121,7 @@ def shingles(t, n=36):
     return {t[i:i + n] for i in range(0, max(0, len(t) - n))}
 sh = {}
 for r in rows:
-    sh[r['file']] = shingles(open(r['path'], encoding='utf-8').read())
+    sh[r['file']] = shingles(open(r['path'], encoding='utf-8-sig').read())
 pairs = collections.Counter()
 sample = {}
 fl = [r['file'] for r in rows]
@@ -134,7 +136,7 @@ top_dup = pairs.most_common(15)
 # 单文件内重复段（>=44 字完全重复）
 intra = []
 for r in rows:
-    t = re.sub(r'\s', '', open(r['path'], encoding='utf-8').read())
+    t = re.sub(r'\s', '', open(r['path'], encoding='utf-8-sig').read())
     seg = collections.Counter(t[i:i + 44] for i in range(0, max(0, len(t) - 44)))
     d = [(s, c) for s, c in seg.items() if c > 1]
     if d:
@@ -182,9 +184,11 @@ L.append('\n## 七 章目录（文件→章号→章名→字数）\n')
 for r in rows:
     L.append(f'| {r["file"]} | {r["f_ch"] if r["f_ch"] else "—"} | {r["h_title"] or r["f_title"] or "—"} | {r["nchar"]} |')
 
-open(os.path.join(OUT, '一致性扫描报告.md'), 'w', encoding='utf-8').write('\n'.join(L))
+# 产物用 UTF-8-SIG（本仓《工作区规范》§六：文本文件统一 UTF-8-SIG 带 BOM）。
+# 此前写的是 'utf-8'（无 BOM），重跑会剥掉已有产物的 BOM，与入库形态不一致。
+open(os.path.join(OUT, '一致性扫描报告.md'), 'w', encoding='utf-8-sig').write('\n'.join(L))
 json.dump([{k: v for k, v in r.items() if k != 'path'} for r in rows],
-          open(os.path.join(OUT, 'audit.json'), 'w', encoding='utf-8'), ensure_ascii=False, indent=1)
+          open(os.path.join(OUT, 'audit.json'), 'w', encoding='utf-8-sig'), ensure_ascii=False, indent=1)
 
 print('结构异常', len(anom), '| 缺号', missing, '| 重号', dup)
 print('净字数', sum(r['nchar'] for r in rows))

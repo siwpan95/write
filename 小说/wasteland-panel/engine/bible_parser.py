@@ -773,15 +773,39 @@ def _default_root() -> Path:
 DEFAULT_ROOT = _default_root()
 
 
+# --------------------------------------------------------------------------
+# 0. 源路径解析（与 server/plugins/bible-paths.mjs 同一份清单）
+# --------------------------------------------------------------------------
+# 目录改名后仍要能定位到源：`一致性核查/` 已按《工作区规范》§三改名为
+# `一致性核查-历史归档/`，此前解析器硬编码旧名 → 「世界规则 R1-R15」与
+# 「角色档案」整块加载失败（2026-11-13 审计实测）。
+# 候选按优先级取第一个存在的；JS 侧 `bible-paths.mjs` 用同一份清单。
+SOURCE_DIR_CANDIDATES = {
+    "check": ("一致性核查", "一致性核查-历史归档"),
+    "ref": ("设定与参考",),
+    "bible": ("bible",),
+}
+
+
+def resolve_source(root: Path, group: str, filename: str | None = None) -> Path:
+    """按候选目录解析源路径；取第一个存在的。全不存在时返回首选路径（供报错）。"""
+    candidates = SOURCE_DIR_CANDIDATES.get(group, (group,))
+    for d in candidates:
+        p = root / d / filename if filename else root / d
+        if p.exists():
+            return p
+    return root / candidates[0] / filename if filename else root / candidates[0]
+
+
 def build(root: Path) -> dict:
     print(f"\n源工程根: {root}")
     if not root.exists():
         print(f"[FAIL] 源工程不存在: {root}")
         sys.exit(2)
 
-    bible = root / "bible"
-    check = root / "一致性核查"
-    ref = root / "设定与参考"
+    bible = resolve_source(root, "bible")
+    check = resolve_source(root, "check")
+    ref = resolve_source(root, "ref")
 
     print("\n[1/10] 解析面板系统 §2f …")
     panel = parse_panel(bible / "world-bible.md")
@@ -808,6 +832,10 @@ def build(root: Path) -> dict:
     ok = sum(1 for e in REPORT if e["status"] == "ok")
     degraded = sum(1 for e in REPORT if e["status"] == "degraded")
     failed = sum(1 for e in REPORT if e["status"] == "failed")
+    # **failed 必须计入 degraded**：此前 failed 不进任何汇总，
+    # 面板启动只打 `degraded=0`，于是「规则整块缺失」看起来完全正常。
+    # 现在 degraded = 降级 + 失败，口径与 parseReport 一致。
+    unhealthy = degraded + failed
 
     dataset = {
         "meta": {
@@ -815,7 +843,8 @@ def build(root: Path) -> dict:
             "sourceRoot": str(root),
             "parserVersion": "1.0.0",
             "parseReport": REPORT,
-            "quality": {"ok": ok, "degraded": degraded, "failed": failed},
+            "quality": {"ok": ok, "degraded": degraded, "failed": failed,
+                        "unhealthy": unhealthy},
         },
         "panel": panel,
         "creatures": creatures,
@@ -843,11 +872,15 @@ def main() -> None:
     q = dataset["meta"]["quality"]
 
     print("\n" + "=" * 62)
-    print(f"解析完成：ok={q['ok']}  degraded={q['degraded']}  failed={q['failed']}")
+    print(f"解析完成：ok={q['ok']}  degraded={q['degraded']}  failed={q['failed']}"
+          f"  unhealthy={q['unhealthy']}")
     print("=" * 62)
     for e in REPORT:
         if e["status"] in ("degraded", "failed"):
             print(f"  [{e['status'].upper()}] {e['step']}: {e['detail']}")
+    if q["failed"]:
+        print(f"\n  ⚠ {q['failed']} 项源加载失败 —— 相关面板能力不可用"
+              f"（面板会显式提示，不静默空转）")
 
     if args.print_report:
         return

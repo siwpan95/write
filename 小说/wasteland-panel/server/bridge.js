@@ -29,6 +29,41 @@ const DATA = path.join(ENGINE, 'data', 'dataset.json');
 const RPC = path.join(ENGINE, 'rpc_server.py');
 const PARSER = path.join(ENGINE, 'bible_parser.py');
 
+// 小说根目录：wasteland-panel 的上级。允许 BIBLE_ROOT 覆盖（换机/换盘）。
+const BIBLE_ROOT = process.env.BIBLE_ROOT
+  ? path.resolve(process.env.BIBLE_ROOT)
+  : path.resolve(ROOT, '..');
+
+/**
+ * 源文件清单 —— 与 server/plugins/bible-paths.mjs 同一份声明。
+ *
+ * 此前这里写死了 `C:\Users\Administrator\Desktop\小说\...`，
+ * 换机即失效（2026-11-13 审计实测：数据层永远判定为「源已更新」，
+ * 因为 statSync 全部抛错、srcNewest 恒为 0）。
+ * 现改为相对 BIBLE_ROOT 解析，并对改名过的目录给候选路径。
+ */
+const SOURCE_SPECS = [
+  { file: 'bible/world-bible.md' },
+  { file: 'bible/plot-board.md' },
+  { file: 'bible/timeline.md' },
+  { dirs: ['一致性核查', '一致性核查-历史归档'], file: '世界观设定标尺.md' },
+  { file: '设定与参考/长弧规划.md' },
+  { file: '设定与参考/扩写规范-统一执行手册.md' },
+  { dirs: ['一致性核查', '一致性核查-历史归档'], file: '角色档案.md' },
+];
+
+function resolveSourcePath(spec) {
+  const dirs = spec.dirs || [path.dirname(spec.file)];
+  const name = spec.file ? path.basename(spec.file) : '';
+  for (const d of dirs) {
+    const p = path.join(BIBLE_ROOT, d, name);
+    try { if (fs.existsSync(p)) return p; } catch { /* 试下一个 */ }
+  }
+  return null;
+}
+
+const SOURCE_PATHS = SOURCE_SPECS.map(resolveSourcePath).filter(Boolean);
+
 const PORT = Number(process.env.PORT || 8777);
 const HOST = process.env.HOST || '127.0.0.1';
 
@@ -42,8 +77,11 @@ const HOST = process.env.HOST || '127.0.0.1';
 function findPython() {
   const cands = [
     process.env.PYTHON,
-    'C:\\Users\\Administrator\\.workbuddy\\binaries\\python\\versions\\3.13.12\\python.exe',
-    'C:/Users/Administrator/.workbuddy/binaries/python/versions/3.13.12/python.exe',
+    // 本机默认解释器（相对用户目录推导，不写死用户名）
+    path.join(process.env.USERPROFILE || process.env.HOME || '',
+      '.workbuddy', 'binaries', 'python', 'envs', 'default', 'Scripts', 'python.exe'),
+    path.join(process.env.USERPROFILE || process.env.HOME || '',
+      '.workbuddy', 'binaries', 'python', 'envs', 'default', 'bin', 'python'),
   ].filter(Boolean);
   for (const c of cands) {
     try { if (fs.existsSync(c)) return { cmd: c, version: '?' }; } catch { /* 试下一个 */ }
@@ -71,11 +109,7 @@ function ensureDataset() {
   if (!fs.existsSync(DATA)) return runParser(true);
   // 已存在则比较源文件时间戳
   let srcNewest = 0;
-  for (const rel of [
-    'C:\\Users\\Administrator\\Desktop\\小说\\bible\\world-bible.md',
-    'C:\\Users\\Administrator\\Desktop\\小说\\bible\\plot-board.md',
-    'C:\\Users\\Administrator\\Desktop\\小说\\一致性核查\\世界观设定标尺.md',
-  ]) {
+  for (const rel of SOURCE_PATHS) {
     try { srcNewest = Math.max(srcNewest, fs.statSync(rel).mtimeMs); } catch { /* 源缺失则跳过 */ }
   }
   const fresh = fs.statSync(DATA).mtimeMs;
