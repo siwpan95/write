@@ -49,11 +49,16 @@ tools/
 ├── bootstrap.sh            换机一键部署（Git Bash / Linux / macOS）
 ├── bootstrap.ps1           换机一键部署（Windows PowerShell）
 ├── fix_bom.py              编码归一（内容类带 BOM / 机器读类不带）
+├── capabilities.mjs       能力清单唯一读取口（解析 cordis.yml，供 host --list / cli list 共用）
+├── metrics.py             全仓治理指标单一事实源（--write / --check drift gate）
+├── metrics.json           ⬆ 生成物：治理指标现值（入库）
 ├── pkm/                    PKM 知识连接层内核（Python，零三方依赖）
 │   ├── scanner.py          仓扫描 · 元数据抽取 · 双链解析
-│   ├── indexer.py          中文二元组分词 · 倒排索引 · 检索打分
+│   ├── indexer.py          中文二元组分词 · 倒排索引 · 检索打分（per-document + IDF）
 │   ├── graph.py            知识图谱 · MOC · 孤立清单 · 断链清单
-│   └── pkm_cli.py          统一 CLI（build/search/links/graph/doctor）
+│   ├── pkm_cli.py          统一 CLI（build/search/links/graph/doctor）
+│   ├── eval.py             最小检索评测（current / legacy 前后对比，MRR/NDCG）
+│   └── eval_set.json       20 条评测集（gold_any 路径子串，含 2 条负例）
 ├── plugins/
 │   ├── 01-config.mjs       配置服务（仓根 / Python 解释器 / 报告目录）
 │   ├── 02-registry.mjs     项目登记表（各项目范围与口径）
@@ -65,13 +70,17 @@ tools/
 │   ├── 13-pkm.mjs                  PKM 索引与检索服务（提供 ctx.pkm）
 │   ├── 14-checker-pkm.mjs          PKM 连接层体检
 │   ├── 15-checker-sync.mjs         三端同步状态（Gitee/GitHub）
-│   ├── 20-report.mjs       汇总报告（Markdown + JSON）
+│   ├── 16-checker-rules.mjs        治理规则一致性（指标/插件/命名/失效登记）
+│   ├── 20-report.mjs       汇总报告（Markdown + JSON，**含放行判据 gate**）
 │   └── 30-cli.mjs          统一命令行（命令：check / list / doctor / pkm）
 ├── checkers/               Python 适配器（把项目自带脚本包成协议 JSON）
 │   ├── package_check.py
 │   ├── consistency_check.py
 │   ├── pkm_check.py
-│   └── sync_check.py
+│   ├── sync_check.py
+│   └── rules_check.py      治理规则断言（R-01~R-06）
+├── tests/
+│   └── run_tests.py        负向控制与自测（`npm test`：5 项）
 └── projects/               各项目的审校口径（JSON）
     ├── wushuang.json
     └── huaxi.json
@@ -214,6 +223,22 @@ export const CheckerXxx = {
 
 两者用**同一套 cordis 约定**，但插件树互不相干 —— 插件树是**应用内**的，
 两个应用各自有自己的一套。
+
+---
+
+## 治理规则与放行判据（2026-11-14 · v2 审计 G-01~G-05）
+
+| 入口 | 作用 |
+|---|---|
+| `npm run metrics` | 从 `index.json`/`graph.json`/`cordis.yml` 取数，生成 `tools/metrics.json` 并重写 README 的 `metrics:begin/end` 区块 |
+| `npm run metrics:check` | **drift gate**：事实源未变、README 区块未被手改、旧值未复发；手改即报 ERROR |
+| `npm test` | 5 项负向控制：指标漂移、插件清单一致性、rules 检查器干净态、**gate 三态**、检索评测基线 |
+| `npm run eval` | 20 条评测集的 current/legacy 前后对比（MRR@10 / NDCG@10 / HitRate@5） |
+| `npm run check` | 6 个检查器汇总；报告含 `gate` 条件集合，不再只看 `ERROR 0` |
+
+**放行判据（`tools/plugins/20-report.mjs` 的 `evaluateGate`）**：`error == 0` ∧ `requiredCheckers 全覆盖` ∧ `capabilitiesAvailable`（索引/图谱存在）。同步状态未确认时状态降为 `DEGRADED` —— 不阻断本地检查、但报告**绝不显示「已同步 / ✅ 通过」**。单检查器调试模式（`npm run check <检查器id>`）跳过覆盖率条件。
+
+> 依据：SonarQube《Understanding quality gates》「a quality gate consists of a **set of conditions**」；Policy-as-Code「规则存为数据而非散文，才能被自动审计」。
 
 ---
 

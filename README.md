@@ -99,7 +99,7 @@
 
 | 位置 | 内容 |
 | --- | --- |
-| [`tools/`](tools/README.md) | **全仓工具编排层**：Cordis 插件树（`cordis.yml`，插件数见下方「治理指标」区块）＋ 薄壳 `host.mjs` ＋ Python 检查内核 ＋ 项目级审校口径。**统一入口**：`npm run check`（跑全部检查器）/ `doctor`（环境自检）/ `list`（列能力）/ `manifest`（模板包哈希校验）/ `pkm`（知识连接层）。架构＝**Cordis 做壳（编排/配置/汇总），Python 做里（检查内核，零三方依赖）** |
+| [`tools/`](tools/README.md) | **全仓工具编排层**：Cordis 插件树（`cordis.yml`，插件数见下方「治理指标」区块）＋ 薄壳 `host.mjs` ＋ Python 检查内核 ＋ 项目级审校口径。**统一入口**：`npm run check`（跑全部检查器）/ `doctor`（环境自检）/ `list`（列能力）/ `manifest`（模板包哈希校验）/ `metrics:check`（治理指标 drift gate）/ `test`（负向控制）/ `eval`（检索评测）/ `pkm`（知识连接层）。架构＝**Cordis 做壳（编排/配置/汇总），Python 做里（检查内核，零三方依赖）** |
 | [`PKM/`](PKM/README.md) | **知识连接层**（2026-11-13 建立）：把全库 Markdown 变成可检索、可导航、可校验的知识网络（当前文档数见下方「治理指标」区块）。**三轴并行** —— 归档轴（目录，不动）＋ 检索轴（`npm run pkm:search`，中文二元组切分）＋ 知识轴（原子笔记 + MOC + 图谱，入库）。**仓库即 vault**：不迁数据、不装软件，Obsidian 仅为可选图形外壳。诊断与选型见 [`PKM/诊断与选型报告-20261113.md`](PKM/诊断与选型报告-20261113.md) |
 | [`审校报告/`](审校报告/README.md) | 检查产物目录（**默认不入库**，`.gitignore` 已挡）；只出风险与位置，不代改正文 |
 | `~/.workbuddy/skills/doc-review/` | **文档审校 Skill**（用户级，仓外）：八类检查（错别字／时间矛盾／数字口径／缺失条件／体例／术语／重复／结构）；仓内引擎为 `tools/doc_review.py`，Skill 与仓内共用同一套规则口径 |
