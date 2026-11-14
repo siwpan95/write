@@ -604,6 +604,15 @@ def check_time(corpus, out):
     # --- 正文相对时间 vs 台账锚 ---
     # 台账锚必须与章节**属于同一项目**才可比：按「台账文件所在目录」分组，
     # 只取与该章正文同目录（或同父目录）的那份台账的锚。
+    #
+    # ⚠️ 白名单（2026-11-14 新增）：相对时间表述有两种含义 ——
+    #   ① **叙述当前时点向后推**：如「五天之后生产线会停」—— 事件**尚未发生**，
+    #      是人物对话中的预期时点，不等于「叙述时点 + 5 天」；
+    #   ② **真实推进**：如「三天后他回来了」—— 叙述确实跳到了 3 天后。
+    #   原判据只按 ① 之外的方式理解，② 之外的 ① 会误报。
+    #   项目可在配置里声明 `time_anchor_exempt`：列出**已知为预期时点**的表述，
+    #   这些表述不再参与 TIME-REL 推算（真实推进型仍会被报出来）。
+    time_exempt = set(corpus.config.get("time_anchor_exempt", []))
     if ledger_rows:
         anchors_by_dir = defaultdict(dict)
         for r in ledger_rows:
@@ -629,6 +638,9 @@ def check_time(corpus, out):
                     back = m.group(2) in ("前", "以前", "之前")
                     if back:
                         # 「三天前」指本章锚之前，不构成冲突；跨度由台账自行登记
+                        continue
+                    # 白名单：项目已声明该表述为「预期时点」，不参与推算
+                    if m.group(0) in time_exempt:
                         continue
                     implied = r["start"] + n
                     if implied > r["end"] + 1:
@@ -1104,20 +1116,171 @@ def check_duplicate(corpus, out, min_cross=36, min_intra=44, top_n=40):
         if corpus.is_aggregate(doc):
             continue
         t = normalize_ws(doc.text)
-        seg = Counter(t[i:i + min_intra] for i in range(max(0, len(t) - min_intra)))
-        dups = [(s, c) for s, c in seg.items() if c > 1]
-        if dups:
-            s, c = dups[0]
-            out.append(Finding(
-                "warn", "重复", "DUP-INTRA", doc.rel(doc.path), 1, s[:80],
-                f"文件内有 {len(dups)} 处 ≥{min_intra} 字的完全重复段（例出现 {c} 次）",
-                "确认是否为刻意的排比或回扣",
-            ))
+        # ⚠️ 计数口径（2026-11-14 修）：
+        #   原实现按**每个滑动窗口位置**计数 ⇒ 一处 N 字的重复段会被切成
+        #   N-min_intra+1 个偏移窗口，累加成「2860 处」这类失真数字，
+        #   无法用于判断文件质量（实测：资料包文件报 142 处，实际仅 1~2 处）。
+        #   现改为「极大重复区间」口径：
+        #     1) 以 min_intra 为窗口宽，索引出现 ≥2 次的窗口 → 候选重复起点
+        #     2) 对相邻两次出现做 LCP 扩展 ⇒ 得到重复区间 [a, a+L)
+        #     3) **合并重叠区间** ⇒ 同一处重复的不同偏移归为一处
+        #     4) 每区间 = 一处重复；出现次数 = 该区间起点窗口的出现次数
+        n = len(t)
+        if n < min_intra * 2:
+            continue
+        occ = defaultdict(list)
+        for i in range(max(0, n - min_intra)):
+            occ[t[i:i + min_intra]].append(i)
+        repeated = {w: ps for w, ps in occ.items() if len(ps) > 1}
+        if not repeated:
+            continue
+
+        def _lcp(a, b):
+            L = 0
+            while a + L < n and b + L < n and t[a + L] == t[b + L]:
+                L += 1
+            return L
+
+        intervals = []
+        for ps in repeated.values():
+            ps = sorted(ps)
+            for i in range(len(ps) - 1):
+                a, b = ps[i], ps[i + 1]
+                L = _lcp(a, b)
+                if L >= min_intra:
+                    intervals.append((a, a + L))
+        if not intervals:
+            continue
+        intervals.sort()
+        merged = []
+        for s, e in intervals:
+            if merged and s < merged[-1][1]:      # 严格重叠 ⇒ 同一处重复
+                if e > merged[-1][1]:
+                    merged[-1][1] = e
+            else:
+                merged.append([s, e])
+        # 每区间 = 一处重复；出现次数取该区间起点窗口的出现次数
+        best_seg, best_cnt = None, 0
+        for s, _e in merged:
+            w = t[s:s + min_intra]
+            c = len(repeated.get(w, ()))
+            if c > best_cnt:
+                best_cnt, best_seg = c, s
+        out.append(Finding(
+            "warn", "重复", "DUP-INTRA", doc.rel(doc.path), 1,
+            (t[best_seg:best_seg + 80] if best_seg is not None else ""),
+            f"文件内有 {len(merged)} 处 ≥{min_intra} 字的完全重复段（例出现 {best_cnt} 次）",
+            "确认是否为刻意的排比或回扣",
+        ))
 
 
 # ---------------------------------------------------------------------------
 # 检查器：STRUCT
 # ---------------------------------------------------------------------------
+
+# 仓根标志文件（用于定位仓根；取第一个存在的）
+_REPO_MARKERS = (".git", "package.json", "工作区规范.md")
+
+
+def _find_repo_root():
+    """定位仓根：自 cwd 逐层向上找仓根标志文件。
+
+    插件以 ``cwd=仓根`` 调用本引擎，故 cwd 通常即仓根；向上兜底是为了
+    允许直接以 ``python tools/doc_review.py`` 从其他目录调用。
+    找不到标志文件时退回 cwd（此时第 2 层判定等价于「cwd 下可解析」）。
+    """
+    cur = Path.cwd().resolve()
+    for p in (cur, *cur.parents):
+        for marker in _REPO_MARKERS:
+            if (p / marker).exists():
+                return p
+    return cur
+
+
+def _resolves_in_repo(tok, doc_dir, repo_root):
+    """引用 token 能否在仓内解析到真实存在的文件。
+
+    判定顺序（任一命中即视为存在）：
+      1. 相对**引用所在文件所在目录**解析（markdown 链接的常规语义）
+      2. 相对**仓根**解析（作者写的是仓内相对路径时的常见省略）
+      3. 相对**引用所在项目根**解析（项目内写作相对路径、但文件在项目根下时）
+      4. 在仓根下按 basename 查找**唯一**匹配（跨项目引用的兜底）
+
+    ⚠️ 只在**仓根之内**查找 —— 否则「包外引用」会被误判为存在，
+    失去「登记到外部依赖登记表」的意义。
+    """
+    tok_norm = tok.replace("\\", "/")
+    candidates = []
+
+    # 1) 相对引用文件自身所在目录
+    try:
+        candidates.append((doc_dir / tok).resolve())
+    except OSError:
+        pass
+
+    # 2) 相对仓根
+    try:
+        candidates.append((repo_root / tok_norm).resolve())
+    except OSError:
+        pass
+
+    # 3) 相对**引用所在项目根**解析
+    #    （项目内写作 `bible/world-bible.md` 这类相对路径时，
+    #     实际文件在项目根下而非引用文件所在目录下；
+    #     仓内同名文件常有多个（如 4 个 world-bible.md），
+    #     故按「项目根 + 相对路径」判定比 basename 唯一匹配更准）
+    proj_root = _find_project_root(doc_dir, repo_root)
+    if proj_root is not None:
+        try:
+            candidates.append((proj_root / tok_norm).resolve())
+        except OSError:
+            pass
+
+    for c in candidates:
+        if _is_under(c, repo_root) and c.is_file():
+            return True
+
+    # 4) 仓根内按 basename 找唯一匹配
+    base = os.path.basename(tok_norm)
+    if not base:
+        return False
+    hits = []
+    try:
+        for p in repo_root.rglob(base):
+            if _is_under(p.resolve(), repo_root) and p.is_file():
+                hits.append(p)
+                if len(hits) > 1:
+                    break          # 多个同名 ⇒ 无法唯一判定，交给「不存在」报出
+    except OSError:
+        return False
+    return len(hits) == 1
+
+
+def _find_project_root(doc_dir, repo_root):
+    """定位引用文件所属的「项目根」。
+
+    仓内每个小说项目是一个顶层目录（含自己的正文/设定/bible 等）。
+    从引用文件所在目录向上找第一个「仓根的直接子目录」，
+    找不到（引用文件本身就在仓根下）则返回 None。
+    """
+    try:
+        rel = doc_dir.resolve().relative_to(repo_root)
+    except ValueError:
+        return None
+    parts = rel.parts
+    if not parts:
+        return None
+    return repo_root / parts[0]
+
+
+def _is_under(path, root):
+    """path 是否在 root 之内（含 root 自身）。"""
+    try:
+        path.relative_to(root)
+        return True
+    except ValueError:
+        return False
+
 
 def check_structure(corpus, out):
     """
@@ -1161,16 +1324,21 @@ def check_structure(corpus, out):
     # --- 悬空文件引用 ---
     # 只报**审校范围内**的相对引用；跳过模板占位（XX/xx/＿/＊）、
     # 通配路径、以及审校范围外的绝对路径（那属于「外部依赖登记」职责）。
+    #
+    # ⚠️ 判定分三层（2026-11-14 修）：
+    #   语料内 → 仓内 → 仓外。原先只查「语料内 basename」一层，
+    #   而每个项目的语料**只含本项目根下的文件**（huaxi 只扫 华夏克苏鲁/），
+    #   于是指向**其他项目**的真实文件（如 ../../二十一世纪奇门遁甲/...）
+    #   被误报为「不存在」—— 23 条误报的根因。
+    #   现在增加「仓内相对路径可解析」一层，把跨项目引用正确判为存在。
     existing = set()
     for doc in corpus.docs:
         existing.add(doc.path.name)
-    scope_roots = []
-    for doc in corpus.docs:
-        scope_roots.append(doc.path.parent)
-    # 仓根相对路径也是合法引用：文档里写 `tools/doc_review.py` 指的是**仓根**下的文件，
-    # 不是审校目录下的文件。引擎以仓根为 cwd 运行（cordis 插件传 cwd=root），
-    # 故这里把仓根也纳入解析基准 —— 否则仓根工具的路径会被误判成悬空引用。
-    repo_root = Path.cwd()
+    # 仓根：以 cwd 为基准（插件以 cwd=仓根 调用引擎），逐层向上找标志文件兜底。
+    # 合并说明（2026-11-14）：上游 fd26565 以 Path.cwd() 修「仓根相对路径假红」；
+    #   本处改用 _find_repo_root() + _resolves_in_repo()，覆盖同一场景并额外处理
+    #   跨项目引用，且 _is_under 保证不会把仓外文件误判为存在。
+    repo_root = _find_repo_root()
     for doc in corpus.docs:
         for i, line in enumerate(doc.lines, 1):
             if corpus.ignored(line):
@@ -1188,14 +1356,11 @@ def check_structure(corpus, out):
                 # 绝对路径 / 含盘符 → 范围外，交给外部依赖登记表
                 if re.match(r"^[A-Za-z]:[\\/]", tok) or tok.startswith("\\\\"):
                     continue
-                # 仓根相对路径存在 → 不是悬空引用（仓根工具/公共脚本的正常写法）
-                if "/" in tok or "\\" in tok:
-                    try:
-                        if (repo_root / tok).is_file():
-                            continue
-                    except OSError:
-                        pass
                 if "/" not in tok and "\\" not in tok:
+                    continue
+                # 第 2 层：仓内可解析（相对引用目录 / 仓根 / 项目根 / basename 唯一匹配）
+                #   —— 涵盖上游 fd26565 的「仓根工具路径」场景，且带仓内边界校验
+                if _resolves_in_repo(tok, doc.path.parent, repo_root):
                     continue
                 out.append(Finding(
                     "warn", "结构", "STRUCT-REF", doc.rel(doc.path), i,

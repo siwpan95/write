@@ -13,6 +13,15 @@ os.makedirs(OUT, exist_ok=True)
 CN = '零一二三四五六七八九'
 UNITS = {'十': 10, '百': 100, '千': 1000}
 
+# 章末创作注的合法体例（2026-11-14 判据修订，说明见下方「尾部注记块」处）。
+# ① 标准（卷三起）：**（第X章完 · 索引卡：… · 下接…）**
+#    也兼容无「完」字的「（第X章 · 索引卡：…）」。
+# ② 早期（卷一/卷二）：**（E02《0.68》完…）** / **（卡 09-1… 已成文…）**
+#    / **（卷二《河中》完…）** / **（下接卷三…）** —— E/卡/卷是另一套编号，
+#    与「第X章」不可比，故只判「有注」，不校验章号。
+RE_NOTE_STD = re.compile(r'^\**\s*（第(.+?)章(?:\s*完)?(?:\s*·|\s*索引卡|\s*$)')
+RE_NOTE_LEGACY = re.compile(r'^\*\*（.*(?:完|成文|下接|索引卡).*）\*\*\s*$')
+
 def cn2int(s):
     if not s:
         return None
@@ -49,10 +58,44 @@ for p in files:
     hm = re.match(r'^#\s*第(.+?)章\s*[·・\-—]\s*(.+)$', first)
     h_ch, h_title = (cn2int(hm.group(1)), hm.group(2).strip()) if hm else (None, None)
     tail = [l.strip() for l in lines if l.strip()][-1] if text.strip() else ''
-    # 章末创作注：本书约定为「**（第X章完 · 索引卡：… · 下接…）**」（见 05-实体书/03-勘误表.md）。
-    # 尾行可能只截到「（第X章 · 索引卡：…）」而没有「完」字，故两种写法都要认。
-    tm = re.search(r'（第(.+?)章(?:\s*完)?(?:\s*·|\s*索引卡|\s*$)', tail)
-    t_ch = cn2int(tm.group(1)) if tm else None
+    # ---- 章末创作注判据（2026-11-14 修订）----
+    # 原判据：只取「最后非空行」+ 只认「（第X章…」，把 18 章误报为缺章末标记。
+    # 取证（审校报告/工具链自检报告-20261114-182954.md）：
+    #   · 卷一/卷二用 E/卡/卷编号体例，注记后还补一行 `---` 收尾 ⇒ 注记非尾行；
+    #   · 卷五 3 章有标准章末注，作者在其后另接散文独白 ⇒ 注记非尾行；
+    #   · 第 36 章（卷二末）注记占末两行，同样是卷号体例。
+    # 结论：这 18 条是判据缺陷（假红），不是正文缺体例；本次只修检查器，不动正文。
+    #
+    # 修订判据（保守，不扫描全文正文）：仅在「尾部注记块」内匹配——
+    #   region A：最后一条 `---` 分隔线之后的行；
+    #   region B：若 A 无注记，回溯到倒数第二条与最后一条 `---` 之间的行
+    #             （卷一/卷二「注记夹在两条分隔线之间」的形态）。
+    # 每段最多取末 12 行；要求整行匹配注记格式（加粗全角括号 / 「第X章」），
+    # 散文独白（`*（…）*` 单星斜体）与正文不会被误认；尾行 `---` 且无注记的
+    # 「真缺」仍照常报出（已用负样本反证）。
+    seps = [i for i, l in enumerate(lines) if l.strip() == '---']
+    regions = []
+    if seps:
+        regions.append(lines[seps[-1] + 1:][-12:])
+        if len(seps) >= 2:
+            regions.append(lines[seps[-2] + 1:seps[-1]][-12:])
+    else:
+        regions.append(lines[-8:])
+    note = note_style = t_ch = None
+    for reg in regions:
+        for raw in reg:
+            s = raw.strip()
+            if not s:
+                continue
+            m = RE_NOTE_STD.search(s)
+            if m:
+                note, note_style, t_ch = s, 'standard', cn2int(m.group(1))
+                break
+            if RE_NOTE_LEGACY.match(s):
+                note, note_style, t_ch = s, 'legacy', None
+                break
+        if note:
+            break
     # 格式统计
     st = {
         'quote_cn': text.count('\u201c'),
@@ -71,7 +114,8 @@ for p in files:
     }
     rows.append(dict(file=fn, idx=fidx, kind=('chapter' if f_ch else 'special'),
                      f_ch=f_ch, f_title=f_title, h_ch=h_ch, h_title=h_title,
-                     t_ch=t_ch, nchar=nchar, first=first, tail=tail[:80], st=st, path=p))
+                     t_ch=t_ch, note=(note[:80] if note else None), note_style=note_style,
+                     nchar=nchar, first=first, tail=tail[:80], st=st, path=p))
 
 # ---------- 1 结构异常 ----------
 anom = []
@@ -86,9 +130,11 @@ for r in rows:
                 anom.append((r['file'], f'章号不一致 文件{r["f_ch"]} vs 标题{r["h_ch"]}'))
             if r['f_title'].replace(':', '').replace('：', '') != r['h_title'].replace(':', '').replace('：', ''):
                 anom.append((r['file'], f'章名不一致 文件「{r["f_title"]}」 vs 标题「{r["h_title"]}」'))
-        if r['t_ch'] is None:
+        if r['note'] is None:
             anom.append((r['file'], '缺章末标记: ' + r['tail'][:50]))
-        elif r['t_ch'] != r['f_ch']:
+        elif r['note_style'] == 'standard' and r['t_ch'] is None:
+            anom.append((r['file'], '章末注章号无法解析: ' + r['note'][:50]))
+        elif r['t_ch'] is not None and r['t_ch'] != r['f_ch']:
             anom.append((r['file'], f'章末章号不一致 {r["t_ch"]} vs {r["f_ch"]}'))
 
 # 章号连续性
