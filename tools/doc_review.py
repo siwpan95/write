@@ -1164,6 +1164,10 @@ def check_structure(corpus, out):
     scope_roots = []
     for doc in corpus.docs:
         scope_roots.append(doc.path.parent)
+    # 仓根相对路径也是合法引用：文档里写 `tools/doc_review.py` 指的是**仓根**下的文件，
+    # 不是审校目录下的文件。引擎以仓根为 cwd 运行（cordis 插件传 cwd=root），
+    # 故这里把仓根也纳入解析基准 —— 否则仓根工具的路径会被误判成悬空引用。
+    repo_root = Path.cwd()
     for doc in corpus.docs:
         for i, line in enumerate(doc.lines, 1):
             if corpus.ignored(line):
@@ -1181,7 +1185,13 @@ def check_structure(corpus, out):
                 # 绝对路径 / 含盘符 → 范围外，交给外部依赖登记表
                 if re.match(r"^[A-Za-z]:[\\/]", tok) or tok.startswith("\\\\"):
                     continue
-                # 只检查能在审校根下解析到的相对路径
+                # 仓根相对路径存在 → 不是悬空引用（仓根工具/公共脚本的正常写法）
+                if "/" in tok or "\\" in tok:
+                    try:
+                        if (repo_root / tok).is_file():
+                            continue
+                    except OSError:
+                        pass
                 if "/" not in tok and "\\" not in tok:
                     continue
                 out.append(Finding(
