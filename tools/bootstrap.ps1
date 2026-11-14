@@ -226,8 +226,33 @@ foreach ($remote in @('origin', 'github')) {
         if ($i -lt 3) { Start-Sleep -Seconds 3 }
     }
     if (-not $pushed) {
-        Write-Warn "$remote 推送失败（已重试 3 次）—— 常见于 GitHub 直连被阻断"
-        Write-Hint "恢复网络后手动补推：git push $remote $branch"
+        # 区分两种失败：**网络不可达** vs **历史分叉**。
+        # 分叉时普通 push 会被拒（need to pull），但内容可能已在新提交里
+        # （rebase 重写 hash 的典型症状）—— 这时该强推，而不是盲目 pull。
+        $remoteLine = & $gitExe -C $RepoRoot ls-remote $remote "refs/heads/$branch" 2>$null
+        if ($LASTEXITCODE -eq 0) {
+            $remoteSha = ($remoteLine -split '\s+')[0]
+            $localSha = (& $gitExe -C $RepoRoot rev-parse HEAD).Trim()
+            if ($remoteSha -and $remoteSha -ne $localSha) {
+                & $gitExe -C $RepoRoot merge-base --is-ancestor $remoteSha HEAD 2>$null
+                if ($LASTEXITCODE -eq 0) {
+                    Write-Warn "$remote 远端领先本地（本地含远端提交，但尚未推送）"
+                    Write-Hint "直接推送即可：git push $remote $branch"
+                } else {
+                    Write-Warn "$remote 与本地**历史分叉**（本地已 rebase/重写过 hash）"
+                    Write-Hint "先备份远端旧历史，再安全强推："
+                    Write-Hint "  git branch backup/pre-push-$remote $remote/master"
+                    Write-Hint "  git push --force-with-lease $remote $branch"
+                    Write-Hint "（--force-with-lease 比 --force 安全：远端若又有新提交会拒绝）"
+                }
+            } else {
+                Write-Warn "$remote 推送失败（已重试 3 次）"
+                Write-Hint "恢复网络后手动补推：git push $remote $branch"
+            }
+        } else {
+            Write-Warn "$remote 推送失败（已重试 3 次）—— 常见于 GitHub 直连被阻断"
+            Write-Hint "恢复网络后手动补推：git push $remote $branch"
+        }
     }
 }
 

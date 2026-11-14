@@ -176,9 +176,34 @@ for remote in origin github; do
     fi
     [ "$attempt" -lt 3 ] && sleep 3
   done
+
   if [ "$PUSHED" -eq 0 ]; then
-    warn "$remote 推送失败（已重试 3 次）—— 常见于 GitHub 直连被阻断"
-    hint "恢复网络后手动补推：git push $remote master"
+    # 区分两种失败：**网络不可达** vs **历史分叉**。
+    # 分叉时普通 push 会被拒（need to pull），但内容可能已在新提交里
+    # （rebase 重写 hash 的典型症状）—— 这时该强推，而不是盲目 pull。
+    if git -C "$REPO_ROOT" ls-remote "$remote" >/dev/null 2>&1; then
+      REMOTE_SHA="$(git -C "$REPO_ROOT" ls-remote "$remote" "refs/heads/$CUR_BRANCH" | cut -f1)"
+      LOCAL_SHA="$(git -C "$REPO_ROOT" rev-parse HEAD)"
+      if [ -n "$REMOTE_SHA" ] && [ "$REMOTE_SHA" != "$LOCAL_SHA" ]; then
+        # 远端可达但 sha 不同 → 是分叉，不是网络问题
+        if git -C "$REPO_ROOT" merge-base --is-ancestor "$REMOTE_SHA" HEAD 2>/dev/null; then
+          warn "$remote 远端领先本地（本地含远端提交，但尚未推送）"
+          hint "直接推送即可：git push $remote $CUR_BRANCH"
+        else
+          warn "$remote 与本地**历史分叉**（本地已 rebase/重写过 hash）"
+          hint "先备份远端旧历史，再安全强推："
+          hint "  git branch backup/pre-push-$remote $remote/master"
+          hint "  git push --force-with-lease $remote $CUR_BRANCH"
+          hint "（--force-with-lease 比 --force 安全：远端若又有新提交会拒绝）"
+        fi
+      else
+        warn "$remote 推送失败（已重试 3 次）"
+        hint "恢复网络后手动补推：git push $remote $CUR_BRANCH"
+      fi
+    else
+      warn "$remote 推送失败（已重试 3 次）—— 常见于 GitHub 直连被阻断"
+      hint "恢复网络后手动补推：git push $remote $CUR_BRANCH"
+    fi
   fi
 done
 
