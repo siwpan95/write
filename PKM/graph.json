@@ -61,7 +61,7 @@
    },
    "PKM": {
     "docs": 44,
-    "net_chars": 48282,
+    "net_chars": 49521,
     "types": {
      "设定": 43,
      "总览": 1
@@ -222,7 +222,7 @@
   "narrative_orphans": 0,
   "orphan_count": 0,
   "orphan_sample": [],
-  "net_chars_total": 6512183
+  "net_chars_total": 6513422
  },
  "overrides_count": 21,
  "nodes": [
@@ -2511,7 +2511,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 4880,
+   "net_chars": 6017,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2539,20 +2539,20 @@
     "PKM/00-原子笔记/atom-0015-以正文为准.md",
     "PKM/00-原子笔记/atom-0003-同题材共享语汇口径.md",
     "PKM/01-MOC/MOC-综网废柴逆命.md",
+    "PKM/01-MOC/MOC-提交确实未创建.md",
     "PKM/01-MOC/MOC-小说.md",
     "PKM/01-MOC/MOC-廓者未名夜.md",
     "PKM/01-MOC/MOC-战锤42拔智齿.md",
     "PKM/01-MOC/MOC-Tserena.md",
     "PKM/01-MOC/MOC-华夏克苏鲁.md",
+    "PKM/01-MOC/MOC-点子库.md",
     "PKM/01-MOC/MOC-二十一世纪奇门遁甲.md",
     "PKM/01-MOC/MOC-逆鳞.md",
     "PKM/01-MOC/MOC-无敌不是他人路.md",
-    "PKM/01-MOC/MOC-通用模板包.md",
     "PKM/01-MOC/MOC-未名骨.md",
-    "PKM/01-MOC/MOC-点子库.md",
-    "PKM/01-MOC/MOC-提交确实未创建.md",
     "PKM/01-MOC/MOC-通宵杀敌.md",
     "PKM/01-MOC/MOC-其他项目归档.md",
+    "PKM/01-MOC/MOC-通用模板包.md",
     "PKM/01-MOC/MOC-tools.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/MOC-全库.md",
@@ -2743,7 +2743,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 2091,
+   "net_chars": 3330,
    "tags": [],
    "aliases": [],
    "out": [

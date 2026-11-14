@@ -202,7 +202,16 @@ def render_genre_clusters(clusters: list[dict], project_moc: dict[str, str]) -> 
     A("> 按 [[atom-0003]] 的口径：**共享语汇要记账，但记账不等于互链**。")
     A("> 真正**共享了设定**的关系在 §二/§三，那是另一类连接。")
     A("")
-    for c in clusters:
+
+    # 分两组：**题材簇** 与 **仓库类型簇**（非题材归类，但必须在地图上可见）
+    # ⚠️ 两个条件必须**互斥** —— 用 `or "题材"` 统一缺省值。
+    # 若写成 `c.get("kind", "题材") == "题材"` 与 `c.get("kind") != "题材"`，
+    # 则**无 kind 字段**的簇会同时满足两者（`get` 返回 None ≠ "题材"），
+    # 导致每个簇被渲染两遍（实测 10 簇 → 17 个 ### ）。
+    theme = [c for c in clusters if (c.get("kind") or "题材") == "题材"]
+    repo = [c for c in clusters if (c.get("kind") or "题材") != "题材"]
+
+    def render_one(c: dict) -> None:
         A(f"### {c.get('name', c.get('id', ''))}")
         A("")
         common = c.get("common", "")
@@ -226,6 +235,18 @@ def render_genre_clusters(clusters: list[dict], project_moc: dict[str, str]) -> 
         if note:
             A(f"> {note}")
             A("")
+
+    for c in theme:
+        render_one(c)
+
+    if repo:
+        A("### 附：仓库类型（非题材归类）")
+        A("")
+        A("> 以下目录**不是作品**，用 `kind=仓库类型` 标注 —— ")
+        A("> 但它们必须在地图上可见，否则读者会以为仓里只有作品。")
+        A("")
+        for c in repo:
+            render_one(c)
     return "\n".join(lines)
 
 
