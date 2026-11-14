@@ -570,15 +570,24 @@ def resolve_links(docs: list[Doc], root: str = "") -> None:
                     resolved.append(hit)
             else:
                 # 断链判定：**目标在仓内真实不存在**才算断链。
-                # 指向目录、或指向非 Markdown 资源（.html/.svg/.docx…）的链接
+                # 指向目录、或指向非 Markdown 资源（.html/.svg/.docx/.py…）的链接
                 # 在 Markdown 索引范围之外，但**链接本身有效** —— 不算断链。
                 # （口径与 tools/checkers/pkm_check.py 保持一致）
-                target_fs = target if target.startswith("/") else (
-                    f"{base}/{target}" if base else target)
-                target_fs = os.path.normpath(target_fs).replace(os.sep, "/")
-                if target_fs.startswith("./"):
-                    target_fs = target_fs[2:]
-                if not os.path.exists(os.path.join(root, target_fs)):
+                #
+                # **路径基准要试两种**：
+                #   ① 基于当前文件所在目录（同目录相对链接，如 ./assets/x.png）
+                #   ② 仓根相对（本仓大量跨目录链接写作 `点子库/04-工具/x.py`，
+                #      书写时以仓根为基准 —— 若只按 ① 会误判成断链）
+                # 任一存在即视为有效链接。
+                path_norm = target.lstrip("/")
+                based = os.path.normpath(
+                    f"{base}/{path_norm}" if base else path_norm
+                ).replace(os.sep, "/")
+                if based.startswith("./"):
+                    based = based[2:]
+
+                candidates = [based, path_norm]
+                if not any(os.path.exists(os.path.join(root, c)) for c in candidates):
                     if target not in broken:
                         broken.append(target)
         d.resolved = resolved

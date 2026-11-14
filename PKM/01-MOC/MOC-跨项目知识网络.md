@@ -268,5 +268,6 @@ tags: [指南/PKM]
 
 - 全库内容地图：[[PKM/MOC-全库.md]]
 - **原子笔记索引**：[[PKM/01-MOC/MOC-原子笔记索引.md]]
+- **文风维度专题**：[[PKM/01-MOC/MOC-文风维度.md]]
 - 项目级 MOC 目录：[[PKM/01-MOC/MOC-PKM-知识连接层.md]]
 - PKM 使用指南：[[guide-0001 PKM连接层使用指南]]
