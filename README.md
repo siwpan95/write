@@ -121,7 +121,11 @@ powershell -ExecutionPolicy Bypass -File tools\bootstrap.ps1   # Windows
 四步：环境自检 → 装 Node 依赖 → 重建 PKM 索引 → 跑闸门。幂等、零硬编码路径、Python 内核零三方依赖（无需 `pip install`）。详见 [`PKM/换机部署.md`](PKM/换机部署.md)。
 
 > **建层前快照（2026-11-13，非现值）**：全新克隆 → 一条命令 → 索引重建（1173 文档 / 102 出链 / 0 断链）、闸门 **ERROR 0**、检索结果与本机逐字节一致。**现值见下方「治理指标」区块**；双端同步状态以 `npm run check` 的 `sync` 检查器实时输出为准。
-> **注意**：本机 `github.com` 直连被阻断（21s 超时），故 GitHub 镜像端**当前落后**；Gitee（`origin`）已同步。
+> **注意（2026-11-14 订正）**：GitHub 镜像端已配置为 **SSH**（`git@github.com:siwpan95/write.git`）并**已同步**。
+> ⚠ 此前记「github.com 直连被阻断、镜像端落后」是**误判**：真正卡住的是 **HTTPS 凭据不可得**
+> （Windows 凭据管理器无 github.com 条目，`git push` 停在交互式询问用户名 ⇒ 长时间挂起），
+> 而非网络不通（`git ls-remote` 走 HTTPS 是通的）。改用 SSH 后推送正常。
+> **读操作通 ≠ 写操作通** —— 换机时按 [`PKM/换机部署.md`](PKM/换机部署.md) 的说明配 SSH 远端。
 > 同步状态可随时校验：`npm run check` 的 `sync` 检查器会报出「远端落后／不可达／已同步」。
 
 <!-- metrics:begin -->
