@@ -89,17 +89,74 @@ def check(root: str) -> list[dict]:
 
         remote_sha = out.split()[0] if out else ""
         if remote_sha and remote_sha != local:
-            # 远端落后：本地有未推送的提交
-            behind = git(["rev-list", "--count", f"{remote_sha}..{local}"], root)[1]
-            findings.append({
-                "severity": "error", "category": "同步", "code": "SYNC-REMOTE-BEHIND",
-                "file": f"remote:{remote}", "line": 0, "snippet": "",
-                "message": (
-                    f"{remote}（{label}）落后本地 {behind} 个提交"
-                    f"（远端 {remote_sha[:7]} ／ 本地 {local[:7]}）"
-                ),
-                "suggestion": f"执行 `git push {remote} {cur_branch}`",
-            })
+            # ⚠️ sha 不同 ≠ 远端落后。可能是：远端落后／本地落后／历史分叉。
+            # 与 tools/bootstrap.* 第 5 步同口径：先判关系再给建议。
+            # 若远端对象本地没有，merge-base 无法判定 ——
+            # **分不清就别乱判**，报「无法确认」并提示 fetch。
+            obj_ok = git(["cat-file", "-e", f"{remote_sha}^{{commit}}"], root)[0] == 0
+            if not obj_ok:
+                findings.append({
+                    "severity": "warn", "category": "同步",
+                    "code": "SYNC-UNKNOWN-STATE",
+                    "file": f"remote:{remote}", "line": 0, "snippet": "",
+                    "message": (
+                        f"{remote}（{label}）与本地 sha 不同，且本地无该提交对象，"
+                        f"**无法判定谁领先**（远端 {remote_sha[:7]} ／ 本地 {local[:7]}）"
+                    ),
+                    "suggestion": (
+                        f"先 `git fetch {remote}` 再跑本检查；"
+                        "若确认本地已是最新，用 `git push --force-with-lease` 前先备份远端旧历史"
+                    ),
+                })
+                continue
+
+            remote_is_ancestor = git(
+                ["merge-base", "--is-ancestor", remote_sha, local], root)[0] == 0
+            local_is_ancestor = git(
+                ["merge-base", "--is-ancestor", local, remote_sha], root)[0] == 0
+
+            if remote_is_ancestor:
+                # 远端落后本地：本地含远端提交，但尚未推送
+                n = git(["rev-list", "--count", f"{remote_sha}..{local}"], root)[1] or "?"
+                findings.append({
+                    "severity": "error", "category": "同步", "code": "SYNC-REMOTE-BEHIND",
+                    "file": f"remote:{remote}", "line": 0, "snippet": "",
+                    "message": (
+                        f"{remote}（{label}）落后本地 {n} 个提交"
+                        f"（远端 {remote_sha[:7]} ／ 本地 {local[:7]}）"
+                    ),
+                    "suggestion": f"执行 `git push {remote} {cur_branch}`",
+                })
+            elif local_is_ancestor:
+                # 本地落后远端：远端有并行工作线
+                n = git(["rev-list", "--count", f"{local}..{remote_sha}"], root)[1] or "?"
+                findings.append({
+                    "severity": "error", "category": "同步", "code": "SYNC-LOCAL-BEHIND",
+                    "file": f"remote:{remote}", "line": 0, "snippet": "",
+                    "message": (
+                        f"本地落后 {remote}（{label}）{n} 个提交"
+                        f"（远端 {remote_sha[:7]} ／ 本地 {local[:7]}）"
+                    ),
+                    "suggestion": (
+                        f"远端有并行工作线：先 `git fetch {remote}`，"
+                        f"再 `git pull --rebase {remote} {cur_branch}`；"
+                        "rebase 后须重建入库产物（npm run pkm:build）"
+                    ),
+                })
+            else:
+                findings.append({
+                    "severity": "error", "category": "同步", "code": "SYNC-DIVERGED",
+                    "file": f"remote:{remote}", "line": 0, "snippet": "",
+                    "message": (
+                        f"{remote}（{label}）与本地**历史分叉**"
+                        f"（远端 {remote_sha[:7]} ／ 本地 {local[:7]}）"
+                    ),
+                    "suggestion": (
+                        f"先备份远端旧历史（`git branch backup/... {remote}/{cur_branch}`），"
+                        "确认内容等价后用 `git push --force-with-lease`；"
+                        "**不要盲目 git pull**（会拉回旧历史造成二次分叉）"
+                    ),
+                })
         else:
             findings.append({
                 "severity": "info", "category": "同步", "code": "SYNC-IN-SYNC",

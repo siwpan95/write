@@ -28,8 +28,9 @@ if HERE not in sys.path:
 
 from graph import (  # noqa: E402
     build_graph, is_generated, load_genre_clusters, load_project_links,
-    render_broken, render_genre_clusters, render_moc, render_orphans,
-    render_project_moc, replace_block, write_graph, write_text,
+    load_topic_dimensions, render_broken, render_genre_clusters, render_moc,
+    render_orphans, render_project_moc, render_topic_map, replace_block,
+    write_graph, write_text,
 )
 from indexer import build_index, search, write_index  # noqa: E402
 from scanner import decode  # noqa: E402
@@ -83,6 +84,11 @@ def cmd_build(args: list[str]) -> int:
     if _update_cross_moc(root, g):
         print("[pkm] 跨项目 MOC：题材簇区块已按登记表更新", file=sys.stderr)
 
+    # ---------- 专题 MOC 的登记表驱动区块（全仓文档地图） ----------
+    topic_n = _update_topic_mocs(root, g)
+    if topic_n:
+        print(f"[pkm] 专题 MOC：{topic_n} 份文档地图已按登记表更新", file=sys.stderr)
+
     gp, gsize = write_graph(g, _out(root, "graph.json"))
     print(f"[pkm] 图谱（入库）：{gp}（{gsize} 字节）", file=sys.stderr)
 
@@ -113,6 +119,59 @@ def cmd_build(args: list[str]) -> int:
         "frontmatter": s["frontmatter_docs"],
     }, ensure_ascii=False))
     return 0
+
+
+def _update_topic_mocs(root: str, graph: dict) -> int:
+    """
+    更新各专题 MOC 的「全仓文档地图」区块（由专题维度登记表驱动）。
+
+    专题 MOC 含**人工叙事**（维度分析、Why、关联），不能整体生成；
+    故用标记区间 `<!-- pkm:begin 文档地图 -->` 托管地图区块。
+
+    若某维度尚无 MOC 文件，**不自动创建**（人工叙事必须人写），
+    只在标准输出提示 —— 避免产出空壳 MOC。
+
+    返回成功更新的份数。
+    """
+    dims = load_topic_dimensions(root)
+    if not dims:
+        return 0
+
+    # 补集：非 Markdown 资源（工具脚本等）不在图谱节点里，
+    # 但要能出现在专题地图的工具组。排除版本控制/依赖目录。
+    SKIP_DIRS = {".git", "node_modules", "__pycache__", ".venv", "venv",
+                 ".workbuddy", "审校报告"}
+    EXTRA_EXT = (".py", ".sh", ".mjs", ".js", ".ts")
+    extra_paths: list[str] = []
+    for dirpath, dirnames, filenames in os.walk(root):
+        dirnames[:] = [d for d in dirnames if d not in SKIP_DIRS]
+        for fn in filenames:
+            if fn.endswith(EXTRA_EXT):
+                rel = os.path.relpath(os.path.join(dirpath, fn), root)
+                extra_paths.append(rel.replace(os.sep, "/"))
+
+    moc_dir = os.path.join(root, "PKM", "01-MOC")
+    updated = 0
+    for dim in dims:
+        path = os.path.join(moc_dir, f"MOC-{dim['id']}.md")
+        if not os.path.exists(path):
+            print(f"[pkm] 提示：维度 {dim['id']} 尚无专题 MOC（{path}）",
+                  file=sys.stderr)
+            continue
+        block = render_topic_map(dim, graph["nodes"], extra_paths)
+        if not block:
+            continue
+        try:
+            raw = open(path, "rb").read()
+        except OSError:
+            continue
+        text = decode(raw)
+        new_text = replace_block(text, "文档地图", block,
+                                 fallback_anchor="## 关联")
+        if new_text != text:
+            write_text(new_text, path)
+            updated += 1
+    return updated
 
 
 def _write_project_mocs(root: str, graph: dict) -> int:

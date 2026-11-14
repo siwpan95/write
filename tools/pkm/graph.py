@@ -147,6 +147,125 @@ def load_project_links(root: str) -> dict[str, list[dict]]:
     return dict(out)
 
 
+def load_topic_dimensions(root: str) -> list[dict]:
+    """
+    读取专题维度登记表 `PKM/02-索引/专题维度登记表.md`。
+
+    每个维度对应一份 `PKM/01-MOC/MOC-<id>.md`，
+    由 build 自动替换其中的「文档地图」标记区间。
+    """
+    path = os.path.join(root, "PKM", "02-索引", "专题维度登记表.md")
+    if not os.path.exists(path):
+        return []
+    try:
+        raw = open(path, "rb").read()
+    except OSError:
+        return []
+    text = decode(raw)
+
+    out: list[dict] = []
+    for block in re.findall(r"```jsonl\s*\n(.*?)```", text, re.S):
+        for line in block.split("\n"):
+            line = line.strip()
+            if not line or line.startswith("//"):
+                continue
+            try:
+                obj = json.loads(line)
+            except json.JSONDecodeError:
+                continue
+            if obj.get("id") and obj.get("match") and obj.get("groups"):
+                out.append(obj)
+    return out
+
+
+def render_topic_map(dim: dict, docs: list[dict],
+                     extra_paths: list[str] | None = None) -> str:
+    """
+    渲染一个专题维度的「全仓文档地图」区块。
+
+    docs: 图谱节点（含 path / title / project / in / out）。
+    extra_paths: **非 Markdown 资源**（如 `.py` 脚本）——
+      它们不在图谱节点里（按口径：非 Markdown 不算知识节点），
+      但仍应出现在地图里，否则登记表里声明的工具组永远为空。
+
+    **组内不建知识链**：每个文档只被 wikilink 指向（真实导航关系），
+    成员彼此不因「同维度」而互连 —— 与题材簇同纪律。
+
+    返回空字符串表示没有匹配到任何文档（此时不覆盖已有区块）。
+    """
+    try:
+        pat = re.compile(dim["match"], re.I)
+        exc = re.compile(dim.get("exclude", ""), re.I) if dim.get("exclude") else None
+    except re.error:
+        return ""
+
+    def visible(p: str) -> bool:
+        return pat.search(p) and not (exc and exc.search(p))
+
+    matched = [n for n in docs
+               if n["path"].endswith(".md") and visible(n["path"])]
+    # 非 Markdown 资源：构造成「只用于展示」的伪节点
+    for p in (extra_paths or []):
+        if visible(p):
+            matched.append({
+                "path": p, "title": p.rsplit("/", 1)[-1],
+                "project": p.split("/")[0] if "/" in p else "",
+                "in": [], "out": [],
+            })
+    if not matched:
+        return ""
+
+    lines: list[str] = []
+    A = lines.append
+    A("## 全仓文档地图")
+    A("")
+    A(f"> 由 `PKM/02-索引/专题维度登记表.md` 的 `{dim['id']}` 维度驱动，")
+    A("> `npm run pkm:build` 自动重建。**本节勿手写**（会被覆盖）。")
+    if dim.get("intro"):
+        A(">")
+        A(f"> **为什么单独建**：{dim['intro']}")
+    A("")
+    A(f"共 **{len(matched)}** 份文档。")
+    A("")
+
+    used: set[str] = set()
+    for g in dim["groups"]:
+        try:
+            gp = re.compile(g.get("match", ""), re.I)
+        except re.error:
+            continue
+        sel = sorted((n for n in matched
+                      if n["path"] not in used and gp.search(n["path"])),
+                     key=lambda x: x["path"])
+        if not sel:
+            continue
+        A(f"### {g.get('title', '其他')}（{len(sel)}）")
+        A("")
+        if g.get("note"):
+            A(f"> {g['note']}")
+            A("")
+        A("| 文档 | 项目 | 入链 |")
+        A("|---|---|---|")
+        for n in sel:
+            used.add(n["path"])
+            A(f"| [[{n['path']}]] — {n['title'][:38]} | "
+              f"{n['project'] or '（仓根）'} | {len(n['in'])} |")
+        A("")
+
+    rest = sorted((n for n in matched if n["path"] not in used),
+                  key=lambda x: x["path"])
+    if rest:
+        A(f"### 其他（{len(rest)}）")
+        A("")
+        A("| 文档 | 项目 | 入链 |")
+        A("|---|---|---|")
+        for n in rest:
+            A(f"| [[{n['path']}]] — {n['title'][:38]} | "
+              f"{n['project'] or '（仓根）'} | {len(n['in'])} |")
+        A("")
+    return "\n".join(lines)
+
+
 def load_genre_clusters(root: str) -> list[dict]:
     """
     读取题材簇登记表 `PKM/02-索引/题材簇登记表.md`。
