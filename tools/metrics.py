@@ -8,13 +8,16 @@ metrics.py —— 全仓治理指标单一事实源（零三方依赖）
 恰好违反《通用模板包/00-总档与SOP.md》§九 R-8「计数类口径唯一定义处」。
 
 本模块把「同一事实写两处必须相等」变成机器事实：
-  collect()          从 PKM/index.json、PKM/graph.json、tools/cordis.yml 取数
+  collect()          从 PKM/graph.json、tools/cordis.yml 取数（graph.json 是入库资产；
+                    PKM/index.json 是派生缓存，仅在存在时用作数据时点的补充）
   --write            生成 tools/metrics.json + 重写 README.md 的 metrics 区块
   --check            drift gate：事实源未变、README 区块未被手改、旧值未复发
 
 设计纪律（沿用仓内既有做法）：
-  - 零三方依赖；生成物不带时间戳（用 index.json 的 generated_at 作数据时点，
-    避免每次运行制造 diff 噪音 —— 同《工作区规范》§8.6「生成物不带时间戳」）
+  - 零三方依赖；生成物不带时间戳（数据时点取自 PKM/index.json 的 generated_at，
+    该缓存不存在时降级为「以 graph.json 为准」；同《工作区规范》§8.6「生成物不带时间戳」）
+  - **事实源只用入库资产**（PKM/graph.json）：派生缓存 PKM/index.json 不入库，
+    在干净克隆上必然缺失 —— 不得作为主源（v2 审计遗留缺陷的修法）
   - 历史快照文件（诊断与选型报告 / 换机部署 / guide-0001 / 文档元数据清单）
     显式豁免，它们记录的是建层前后时点，不做现值校验 —— 同 v3.11
     `EXCLUDE_PREFIXES` 纪律
@@ -74,17 +77,28 @@ def _cordis_text() -> str:
 
 def collect() -> dict:
     """从唯一事实源取数；任何指标都必须能指出它来自哪个文件。"""
-    idx = _load_json('PKM/index.json')
+    # 事实源：**PKM/graph.json**（已入库的知识资产）。
+    # ⚠ 不用 PKM/index.json 作主源 —— 它是**派生缓存**（.gitignore 明文排除、不入库），
+    #   在干净克隆上必然缺失 ⇒ 脚本会 FileNotFoundError 崩掉（v2 审计遗留缺陷）。
+    #   graph.json 的 summary 已含全部所需字段，且它是入库资产 ⇒ 干净克隆可用。
     graph = _load_json('PKM/graph.json')
     cordis = _cordis_text()
-    s = idx['summary']
+    s = graph['summary']
+    # 数据时点：**恒为固定表述**，不随派生缓存的有无而变。
+    #   ⚠ 不可取 PKM/index.json 的 generated_at —— 那是**派生缓存**，
+    #     有无取决于本机是否跑过 pkm:build ⇒ 同一份 metrics.json 会在
+    #     「有时点／无时点」之间漂移 ⇒ --check 自相矛盾（实测踩过）。
+    #   graph.json **故意不带时间戳**（入库资产带时间戳会产生 diff 噪音），
+    #     故此处只声明事实源，不谎报时点（同《工作区规范》§8.6「生成物不带时间戳」）。
+    data_as_of = '以 PKM/graph.json 为准'
+    asof_source = 'PKM/graph.json'
     plugin_ids = re.findall(r'^- id:\s*([^\s#]+)', cordis, re.M)
     # 嵌套项目登记：必须用 [ \t]，不能用 \s —— \s 含换行，会把行首插件也吞进来
     project_ids = re.findall(r'^[ \t]+- id:\s*([^\s#]+)', cordis, re.M)
     checkers = [p for p in plugin_ids if p.startswith('checker-')]
     return {
         'schema': 1,
-        'data_as_of': idx.get('generated_at', ''),
+        'data_as_of': data_as_of,
         'docs': s['docs'],
         'by_type': s.get('by_type', {}),
         'total_links': s['total_links'],
@@ -98,10 +112,11 @@ def collect() -> dict:
         'checker_adapters': len(glob.glob(os.path.join(ROOT, 'tools', 'checkers', '*.py'))),
         'graph_schema': graph.get('schema'),
         'sources': {
-            'docs/by_type/total_links/total_broken/knowledge_*/frontmatter_docs': 'PKM/index.json + PKM/graph.json',
+            'docs/by_type/total_links/total_broken/knowledge_*/frontmatter_docs': 'PKM/graph.json',
             'plugins/projects_registered/checkers_registered': 'tools/cordis.yml',
             'checker_adapters': 'tools/checkers/*.py',
             'graph_schema': 'PKM/graph.json',
+            'data_as_of': asof_source,
         },
     }
 
@@ -110,17 +125,17 @@ def render(m: dict) -> str:
     """生成 README 的指标区块（人工不得手改标记区间内的内容）。"""
     lines = [
         BEGIN,
-        '> **治理指标（自动生成 · 勿手改）** ｜ 事实源：`PKM/index.json` / `PKM/graph.json` / `tools/cordis.yml`；',
+        '> **治理指标（自动生成 · 勿手改）** ｜ 事实源：`PKM/graph.json` / `tools/cordis.yml`；',
         '> 由 `npm run metrics` 生成、`npm run metrics:check` 校验（手改本区块即报错）。',
         '> 数据时点：`' + str(m['data_as_of']) + '`',
         '>',
         '> | 指标 | 值 | 事实源 |',
         '> |---|---:|---|',
-        f"> | 索引文档数 | **{m['docs']}** | `PKM/index.json` |",
+        f"> | 索引文档数 | **{m['docs']}** | `PKM/graph.json` |",
         f"> | 出链总数 | **{m['total_links']}** | `PKM/graph.json` |",
         f"> | 断链 | **{m['total_broken']}** | `PKM/graph.json` |",
-        f"> | 知识节点孤立率 | **{m['knowledge_orphan_rate']}%** | `PKM/index.json` |",
-        f"> | frontmatter 文档数 | **{m['frontmatter_docs']}** | `PKM/index.json` |",
+        f"> | 知识节点孤立率 | **{m['knowledge_orphan_rate']}%** | `PKM/graph.json` |",
+        f"> | frontmatter 文档数 | **{m['frontmatter_docs']}** | `PKM/graph.json` |",
         f"> | 插件数 | **{m['plugins']}** | `tools/cordis.yml`（行首 `- id`） |",
         f"> | 已注册项目 | **{m['projects_registered']}** | `tools/cordis.yml`（projects 段） |",
         f"> | 已注册检查器 | **{m['checkers_registered']}** | `tools/cordis.yml`（checker-* 插件） |",

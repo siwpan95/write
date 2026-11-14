@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "data_as_of": "2026-11-14T09:54:54",
+  "data_as_of": "以 PKM/graph.json 为准",
   "docs": 1224,
   "by_type": {
     "正文": 564,
@@ -19,9 +19,10 @@
   "checker_adapters": 5,
   "graph_schema": 1,
   "sources": {
-    "docs/by_type/total_links/total_broken/knowledge_*/frontmatter_docs": "PKM/index.json + PKM/graph.json",
+    "docs/by_type/total_links/total_broken/knowledge_*/frontmatter_docs": "PKM/graph.json",
     "plugins/projects_registered/checkers_registered": "tools/cordis.yml",
     "checker_adapters": "tools/checkers/*.py",
-    "graph_schema": "PKM/graph.json"
+    "graph_schema": "PKM/graph.json",
+    "data_as_of": "PKM/graph.json"
   }
 }

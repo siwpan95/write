@@ -125,17 +125,17 @@ powershell -ExecutionPolicy Bypass -File tools\bootstrap.ps1   # Windows
 > 同步状态可随时校验：`npm run check` 的 `sync` 检查器会报出「远端落后／不可达／已同步」。
 
 <!-- metrics:begin -->
-> **治理指标（自动生成 · 勿手改）** ｜ 事实源：`PKM/index.json` / `PKM/graph.json` / `tools/cordis.yml`；
+> **治理指标（自动生成 · 勿手改）** ｜ 事实源：`PKM/graph.json` / `tools/cordis.yml`；
 > 由 `npm run metrics` 生成、`npm run metrics:check` 校验（手改本区块即报错）。
-> 数据时点：`2026-11-14T09:54:54`
+> 数据时点：`以 PKM/graph.json 为准`
 >
 > | 指标 | 值 | 事实源 |
 > |---|---:|---|
-> | 索引文档数 | **1224** | `PKM/index.json` |
+> | 索引文档数 | **1224** | `PKM/graph.json` |
 > | 出链总数 | **2021** | `PKM/graph.json` |
 > | 断链 | **0** | `PKM/graph.json` |
-> | 知识节点孤立率 | **0.0%** | `PKM/index.json` |
-> | frontmatter 文档数 | **35** | `PKM/index.json` |
+> | 知识节点孤立率 | **0.0%** | `PKM/graph.json` |
+> | frontmatter 文档数 | **35** | `PKM/graph.json` |
 > | 插件数 | **13** | `tools/cordis.yml`（行首 `- id`） |
 > | 已注册项目 | **3** | `tools/cordis.yml`（projects 段） |
 > | 已注册检查器 | **6** | `tools/cordis.yml`（checker-* 插件） |
