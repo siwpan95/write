@@ -22,6 +22,27 @@ UNITS = {'十': 10, '百': 100, '千': 1000}
 RE_NOTE_STD = re.compile(r'^\**\s*（第(.+?)章(?:\s*完)?(?:\s*·|\s*索引卡|\s*$)')
 RE_NOTE_LEGACY = re.compile(r'^\*\*（.*(?:完|成文|下接|索引卡).*）\*\*\s*$')
 
+# 文件名 ↔ 首行标题的「规范化差异」（2026-11-14 判据修订之二）。
+# 文件名是文件系统安全版：去空格、间隔号写成连字符、省略成对引号；
+# 首行标题是作品正式章名。二者语义相同、排版不同，实测 6 对：
+#   余0 / 余 0                      （178）
+#   第1日的第二天 / 第 1 日的第二天（186）
+#   城的底片-卖冰者 / 城的底片·卖冰者（190）
+#   城的底片-修伞的 / 城的底片·修伞的（193）
+#   最后一个到 / 最后一个“到”       （194）
+#   第1版 / 第 1 版                 （196）
+# 处置口径：不改正式章名（作品文字），不改文件名（PKM MOC / graph.json /
+# 设定集 / README 均有引用，改名属仓库结构变更）；只在检查器侧显式登记。
+# 白名单按「文件名章名 → 正式章名」精确匹配，新增差异仍照常报出。
+TITLE_EQUIVALENT = {
+    '余0': '余 0',
+    '第1日的第二天': '第 1 日的第二天',
+    '城的底片-卖冰者': '城的底片·卖冰者',
+    '城的底片-修伞的': '城的底片·修伞的',
+    '最后一个到': '最后一个“到”',
+    '第1版': '第 1 版',
+}
+
 def cn2int(s):
     if not s:
         return None
@@ -128,7 +149,11 @@ for r in rows:
         else:
             if r['h_ch'] != r['f_ch']:
                 anom.append((r['file'], f'章号不一致 文件{r["f_ch"]} vs 标题{r["h_ch"]}'))
-            if r['f_title'].replace(':', '').replace('：', '') != r['h_title'].replace(':', '').replace('：', ''):
+            ft = (r['f_title'] or '').replace(':', '').replace('：', '')
+            ht = (r['h_title'] or '').replace(':', '').replace('：', '')
+            registered = (r['f_title'] in TITLE_EQUIVALENT
+                          and TITLE_EQUIVALENT[r['f_title']] == r['h_title'])
+            if not registered and ft != ht:
                 anom.append((r['file'], f'章名不一致 文件「{r["f_title"]}」 vs 标题「{r["h_title"]}」'))
         if r['note'] is None:
             anom.append((r['file'], '缺章末标记: ' + r['tail'][:50]))
