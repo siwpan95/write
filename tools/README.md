@@ -207,7 +207,7 @@ export const CheckerXxx = {
 
 | | `tools/`（本层） | `小说/wasteland-panel/` |
 |---|---|---|
-| 范围 | **全仓** 8 个作品/项目 | 单本书《废土旅法师》 |
+| 范围 | **全仓**（`cordis.yml` 已注册 3 个项目，未注册项 SKIP） | 单本书《废土旅法师》 |
 | 形态 | 工具流水线（CLI → 报告） | Web 面板工作台（HTTP + 数据层） |
 | 插件树 | `tools/cordis.yml` | `小说/wasteland-panel/cordis.yml` |
 | 约定 | 同：薄壳 + 插件树 + `inject` 依赖图 | 同 |

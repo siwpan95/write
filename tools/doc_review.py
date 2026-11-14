@@ -1077,7 +1077,10 @@ def check_duplicate(corpus, out, min_cross=36, min_intra=44, top_n=40):
             ratio = len(inter) / smaller if smaller else 0
             if ratio < 0.02:
                 continue
-            sample = max(inter, key=len)
+            # 确定性取样：inter 是 set，等长 shingle 用 max(..., key=len)
+            # 会随 PYTHONHASHSEED 取到不同样本 —— 导致「同一输入同一结果」
+            # 不成立、报告产物去重永远不触发。按长度降序 + 字典序固定取值。
+            sample = sorted(inter, key=lambda s: (-len(s), s))[0]
             pairs.append((len(inter), ratio, ids[i], ids[j], sample))
     pairs.sort(key=lambda x: (-x[0], -x[1]))
     total_pairs = len(pairs)

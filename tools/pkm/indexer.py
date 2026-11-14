@@ -28,6 +28,7 @@ indexer.py —— PKM 索引器 · 倒排索引与全文检索
 from __future__ import annotations
 
 import json
+import math
 import os
 import re
 import time
@@ -163,15 +164,24 @@ def write_index(index: dict[str, Any], path: str) -> tuple[str, int]:
 def search(index: dict[str, Any], query: str, limit: int = 20,
            project: str = "", doc_type: str = "") -> list[dict[str, Any]]:
     """
-    检索：按词条倒排索引打分。
+    检索：按词条倒排索引，对**每篇候选文档独立打分**。
 
-    评分：标题命中权重 3×，正文命中 1×；再按「文档越短命中占比越高」微调
-    （短文档命中更可能是主题文档）。同分按路径排序，保证结果稳定可复现。
+    评分（v2 审计 G-05 修复）：
+      - 每个查询词按 IDF 加权：idf = ln((N+1)/(df+1)) + 1
+      - 标题命中 ×3、正文命中 ×1；标题与正文同时命中再 ×1.5
+      - 覆盖率折扣：全部词命中不打折，只命中部分词按 (0.4 + 0.6*coverage)
+        打折 —— 抑制 OR 并集带来的「只蹭到一个词」的噪声文档
+      - 取消「短文档线性反比放大」
+
+    历史缺陷：原实现 :222 的 body_hit 判的是「该词在**全库**是否有倒排表」，
+    与当前文档 i 无关，导致所有候选文档 score 相同、排序退化为
+    「net_chars 越小分越高」；精确专名 atom-0001-战锤四神体系 被压到 rank 33。
+    同分按路径排序，保证结果稳定可复现。
     """
     q = query.strip().lower()
     if not q:
         return []
-    qtoks = tokenize(q)
+    qtoks = set(tokenize(q))
     if not qtoks:
         return []
 
@@ -195,10 +205,17 @@ def search(index: dict[str, Any], query: str, limit: int = 20,
                     break
         return out
 
-    # 候选集：取各词条倒排表的并集
+    N = max(len(id_to_path), 1)
+    term_ids = {t: set(_ids_of(t)) for t in qtoks}
+    term_idf = {
+        t: math.log((N + 1) / (len(term_ids[t]) + 1)) + 1.0
+        for t in qtoks
+    }
+
+    # 候选集仍是各词倒排表的并集，但噪声由下面的覆盖率折扣压制
     cand: set[int] = set()
-    for t in set(qtoks):
-        cand.update(_ids_of(t))
+    for ids in term_ids.values():
+        cand.update(ids)
 
     results: list[dict[str, Any]] = []
     for i in cand:
@@ -214,23 +231,20 @@ def search(index: dict[str, Any], query: str, limit: int = 20,
         score = 0.0
         matched: list[str] = []
         title_toks = set(tokenize(d.get("title", "")))
-        body_hit = 0
-        for t in set(qtoks):
-            if t in title_toks:
-                score += 3.0
-                matched.append(t)
-            elif _ids_of(t):
-                body_hit += 1
-                matched.append(t)
-        # ⚠️ 顺序要点：body_hit 必须**先计入 score**，再判 score == 0。
-        # 否则「只在正文命中、标题未命中」的文档会被整批丢弃
-        #（实测：查「真气」返回 0 条 —— 11 篇命中文档全在这一类）。
-        score += body_hit
-        if score == 0:
+        for t in qtoks:
+            in_title = t in title_toks
+            in_body = i in term_ids[t]      # ← per-document：当前文档是否真的命中
+            if not (in_title or in_body):
+                continue
+            w = term_idf[t] * (3.0 if in_title else 1.0)
+            if in_title and in_body:
+                w *= 1.5
+            score += w
+            matched.append(t)
+        if score <= 0:
             continue
-        # 短文档优先（命中密度）
-        denom = max(d.get("net_chars", 1), 200)
-        score += 10.0 * (body_hit / (denom / 1000.0))
+        coverage = len(matched) / len(qtoks)
+        score *= (0.4 + 0.6 * coverage)
         results.append({
             "path": path,
             "title": d.get("title", ""),

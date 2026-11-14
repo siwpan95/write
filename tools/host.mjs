@@ -21,6 +21,7 @@ import { Context } from 'cordis'
 import LoggerConsole from '@cordisjs/plugin-logger-console'
 import Loader from '@cordisjs/plugin-loader'
 import Include from '@cordisjs/plugin-include'
+import { readPluginIds } from './capabilities.mjs'
 
 const HERE = path.dirname(fileURLToPath(import.meta.url))
 
@@ -67,9 +68,11 @@ process.on('unhandledRejection', (e) => {
 const argv = process.argv.slice(2)
 
 if (argv[0] === '--list') {
+  // 唯一真理源 = tools/cordis.yml；不再硬编码插件名（原硬编码 9 个，实际 12 个）
+  const ids = readPluginIds(path.resolve(HERE, '..'))
   console.log('插件树（tools/cordis.yml）：')
-  console.log('  config · registry · runner · checker-package · checker-doc-review')
-  console.log('  checker-consistency · pkm · report · cli')
+  console.log(`  ${ids.join(' · ')}`)
+  console.log(`  合计 ${ids.length} 个插件`)
   await root.fiber.dispose()
   process.exit(0)
 }

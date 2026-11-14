@@ -1,0 +1,27 @@
+{
+  "schema": 1,
+  "data_as_of": "2026-11-14T09:54:54",
+  "docs": 1224,
+  "by_type": {
+    "正文": 564,
+    "设定": 398,
+    "模板": 238,
+    "总览": 24
+  },
+  "total_links": 2021,
+  "total_broken": 0,
+  "knowledge_docs": 660,
+  "knowledge_orphan_rate": 0.0,
+  "frontmatter_docs": 35,
+  "plugins": 13,
+  "projects_registered": 3,
+  "checkers_registered": 6,
+  "checker_adapters": 5,
+  "graph_schema": 1,
+  "sources": {
+    "docs/by_type/total_links/total_broken/knowledge_*/frontmatter_docs": "PKM/index.json + PKM/graph.json",
+    "plugins/projects_registered/checkers_registered": "tools/cordis.yml",
+    "checker_adapters": "tools/checkers/*.py",
+    "graph_schema": "PKM/graph.json"
+  }
+}

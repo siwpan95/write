@@ -272,6 +272,31 @@ def _positional(args: list[str], skip_values: set[str]) -> list[str]:
     return out
 
 
+def _load_deprecated(root: str) -> dict:
+    """读失效条目登记表（JSONL 旁挂），按文件路径聚合已作废段落。"""
+    path = os.path.join(root, "PKM", "02-索引", "失效条目登记表.md")
+    out: dict = {}
+    if not os.path.exists(path):
+        return out
+    with open(path, encoding="utf-8-sig") as f:
+        for line in f:
+            s = line.strip()
+            if not s.startswith("{"):
+                continue
+            try:
+                o = json.loads(s)
+            except ValueError:
+                continue
+            if o.get("status") != "deprecated":
+                continue
+            out.setdefault(o.get("file", ""), []).append({
+                "section": o.get("section", ""),
+                "claim": o.get("claim", ""),
+                "superseded_by": o.get("superseded_by", []),
+            })
+    return out
+
+
 def cmd_search(args: list[str]) -> int:
     """全文检索。"""
     root = _root(args)
@@ -304,11 +329,22 @@ def cmd_search(args: list[str]) -> int:
             pass
 
     res = search(idx, query, limit=limit, project=project, doc_type=doc_type)
+    # 失效段落提示（G-06）：只标注、不整篇降权 —— 作废的是段落/结论，
+    # 同一资料包内其他结论仍有效，整篇降权会误伤。
+    dep = _load_deprecated(root)
+    warned = 0
     # 结构化输出（JSON Lines）——供 Cordis 侧稳定解析，
     # 不靠正则去猜人读格式的列宽
     for r in res:
+        sections = dep.get(r["path"])
+        if sections:
+            r["deprecated_sections"] = sections
+            r["note"] = "本文件含已作废段落，不可作为判据；见 PKM/02-索引/失效条目登记表.md"
+            warned += 1
         print(json.dumps(r, ensure_ascii=False))
     print(f"命中 {len(res)} 条（查询：{query}）", file=sys.stderr)
+    if warned:
+        print(f"[pkm] 其中 {warned} 条含已作废段落，已标注 deprecated_sections", file=sys.stderr)
     return 0 if res else 1
 
 

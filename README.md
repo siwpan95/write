@@ -99,8 +99,8 @@
 
 | 位置 | 内容 |
 | --- | --- |
-| [`tools/`](tools/README.md) | **全仓工具编排层**：Cordis 插件树（`cordis.yml`，10 个插件）＋ 薄壳 `host.mjs` ＋ Python 检查内核 ＋ 项目级审校口径。**统一入口**：`npm run check`（跑全部检查器）/ `doctor`（环境自检）/ `list`（列能力）/ `manifest`（模板包哈希校验）/ `pkm`（知识连接层）。架构＝**Cordis 做壳（编排/配置/汇总），Python 做里（检查内核，零三方依赖）** |
-| [`PKM/`](PKM/README.md) | **知识连接层**（2026-11-13 建立）：把 1161 个孤立 Markdown 变成可检索、可导航、可校验的知识网络。**三轴并行** —— 归档轴（目录，不动）＋ 检索轴（`npm run pkm:search`，中文二元组切分）＋ 知识轴（原子笔记 + MOC + 图谱，入库）。**仓库即 vault**：不迁数据、不装软件，Obsidian 仅为可选图形外壳。诊断与选型见 [`PKM/诊断与选型报告-20261113.md`](PKM/诊断与选型报告-20261113.md) |
+| [`tools/`](tools/README.md) | **全仓工具编排层**：Cordis 插件树（`cordis.yml`，插件数见下方「治理指标」区块）＋ 薄壳 `host.mjs` ＋ Python 检查内核 ＋ 项目级审校口径。**统一入口**：`npm run check`（跑全部检查器）/ `doctor`（环境自检）/ `list`（列能力）/ `manifest`（模板包哈希校验）/ `pkm`（知识连接层）。架构＝**Cordis 做壳（编排/配置/汇总），Python 做里（检查内核，零三方依赖）** |
+| [`PKM/`](PKM/README.md) | **知识连接层**（2026-11-13 建立）：把全库 Markdown 变成可检索、可导航、可校验的知识网络（当前文档数见下方「治理指标」区块）。**三轴并行** —— 归档轴（目录，不动）＋ 检索轴（`npm run pkm:search`，中文二元组切分）＋ 知识轴（原子笔记 + MOC + 图谱，入库）。**仓库即 vault**：不迁数据、不装软件，Obsidian 仅为可选图形外壳。诊断与选型见 [`PKM/诊断与选型报告-20261113.md`](PKM/诊断与选型报告-20261113.md) |
 | [`审校报告/`](审校报告/README.md) | 检查产物目录（**默认不入库**，`.gitignore` 已挡）；只出风险与位置，不代改正文 |
 | `~/.workbuddy/skills/doc-review/` | **文档审校 Skill**（用户级，仓外）：八类检查（错别字／时间矛盾／数字口径／缺失条件／体例／术语／重复／结构）；仓内引擎为 `tools/doc_review.py`，Skill 与仓内共用同一套规则口径 |
 
@@ -120,9 +120,32 @@ powershell -ExecutionPolicy Bypass -File tools\bootstrap.ps1   # Windows
 
 四步：环境自检 → 装 Node 依赖 → 重建 PKM 索引 → 跑闸门。幂等、零硬编码路径、Python 内核零三方依赖（无需 `pip install`）。详见 [`PKM/换机部署.md`](PKM/换机部署.md)。
 
-> **实测（2026-11-13）**：全新克隆 → 一条命令 → 索引重建（1173 文档 / 102 出链 / 0 断链）、闸门 **ERROR 0**、检索结果与本机逐字节一致。
+> **建层前快照（2026-11-13，非现值）**：全新克隆 → 一条命令 → 索引重建（1173 文档 / 102 出链 / 0 断链）、闸门 **ERROR 0**、检索结果与本机逐字节一致。**现值见下方「治理指标」区块**；双端同步状态以 `npm run check` 的 `sync` 检查器实时输出为准。
 > **注意**：本机 `github.com` 直连被阻断（21s 超时），故 GitHub 镜像端**当前落后**；Gitee（`origin`）已同步。
 > 同步状态可随时校验：`npm run check` 的 `sync` 检查器会报出「远端落后／不可达／已同步」。
+
+<!-- metrics:begin -->
+> **治理指标（自动生成 · 勿手改）** ｜ 事实源：`PKM/index.json` / `PKM/graph.json` / `tools/cordis.yml`；
+> 由 `npm run metrics` 生成、`npm run metrics:check` 校验（手改本区块即报错）。
+> 数据时点：`2026-11-14T09:54:54`
+>
+> | 指标 | 值 | 事实源 |
+> |---|---:|---|
+> | 索引文档数 | **1224** | `PKM/index.json` |
+> | 出链总数 | **2021** | `PKM/graph.json` |
+> | 断链 | **0** | `PKM/graph.json` |
+> | 知识节点孤立率 | **0.0%** | `PKM/index.json` |
+> | frontmatter 文档数 | **35** | `PKM/index.json` |
+> | 插件数 | **13** | `tools/cordis.yml`（行首 `- id`） |
+> | 已注册项目 | **3** | `tools/cordis.yml`（projects 段） |
+> | 已注册检查器 | **6** | `tools/cordis.yml`（checker-* 插件） |
+> | 检查器适配器 | **5** | `tools/checkers/*.py`（doc-review 直连引擎，故少 1） |
+>
+> 文档形态分布：正文 564 / 设定 398 / 模板 238 / 总览 24
+>
+> 历史时点快照（1161 / 1173 / 102 / 1333 / 1464）保留在诊断报告与换机部署文档中，
+> 不作现值校验 —— 见 `tools/metrics.py` 的 `HISTORICAL_EXEMPT`。
+<!-- metrics:end -->
 
 ## 工作区规范
 

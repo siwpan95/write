@@ -19,6 +19,7 @@
  */
 import path from 'node:path'
 import fs from 'node:fs'
+import { readPluginIds } from '../capabilities.mjs'
 
 export const Cli = {
   name: 'cli',
@@ -37,8 +38,10 @@ export const Cli = {
       const rest = argv.slice(1)
 
       if (cmd === 'list') {
-        ctx.logger.info('插件：%s', Object.keys(ctx).filter(
-          (k) => k !== 'root' && k !== 'fiber').join(', '))
+        // 能力清单取自 cordis.yml（唯一真理源），不再用 Object.keys(ctx)——
+        // 后者在 cordis 4 的 ctx 上取不到插件键，历史输出为空行。
+        const ids = readPluginIds(root)
+        ctx.logger.info('插件（%d）：%s', ids.length, ids.join(', '))
         ctx.logger.info('项目：%s', ctx.projects.list().map(
           (p) => `${p.id}(${p.available ? '可用' : '不可用'})`).join(', '))
         ctx.logger.info('检查器：\n  %s', collectCheckers().map(
@@ -80,15 +83,31 @@ export const Cli = {
         results.push(r)
       }
 
-      const { mdPath, jsonPath, counts } = ctx.report.write(results)
+      const { mdPath, jsonPath, counts, gate } = ctx.report.write(results, {
+        partial: isCheckerArg,
+        root,
+        expectedCheckers: checkers.map((c) => c.id),
+      })
       ctx.logger.info('汇总报告：%s', mdPath)
       ctx.logger.info('机读 JSON：%s', jsonPath)
       ctx.logger.info('合计：错误 %d ／ 警告 %d ／ 提示 %d',
         counts.error, counts.warn, counts.info)
+      ctx.logger.info('放行判定：%s（条件 %d 条，降级项 %d 条）',
+        gate.status, gate.conditions.length, gate.degraded.length)
 
       if (counts.error) {
         ctx.logger.error('存在 %d 条 ERROR', counts.error)
         return 1
+      }
+      // 放行判据不再只看 ERROR：能力缺失、检查器未运行同样阻断
+      if (!gate.pass) {
+        ctx.logger.error('放行条件未满足：%s',
+          gate.degraded.join('；') || '见报告 gate.conditions')
+        return 1
+      }
+      // 同步状态未确认：不阻断本地检查，但绝不报「已同步 / ✅ 通过」
+      if (gate.status === 'DEGRADED') {
+        ctx.logger.warn('同步状态未确认（%d 项），不得视为「已同步」', gate.degraded.length)
       }
       return 0
     }

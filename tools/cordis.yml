@@ -9,7 +9,7 @@
 #
 # 与《小说/wasteland-panel/cordis.yml》的关系：
 #   那个是**单项目**的面板工作台插件树（服务《废土旅法师》）；
-#   这个是**仓根**的工具编排层（管全仓 8 个作品/项目）。
+#   这个是**仓根**的工具编排层（已注册项目见下方 projects 段，当前 3 个）。
 #   两者用同一套 cordis 约定（cordis.yml + plugins/ + inject 依赖图），
 #   但插件树互不相干 —— 面板是「给一本书做的 Web 工作台」，
 #   本层是「给整个仓做的工具流水线」。
@@ -158,6 +158,17 @@
     # 适配器：把三端同步状态包成协议 JSON
     adapter: ./tools/checkers/sync_check.py
     # 闸门口径：远端落后＝ERROR；远端不可达＝WARN（显性上报，不静默）
+
+- id: checker-rules
+  name: ./plugins/16-checker-rules.mjs
+  inject:
+    - config
+    - runner
+    - checkers
+  config:
+    # 适配器：治理规则一致性（v2 审计 G-02）
+    adapter: ./tools/checkers/rules_check.py
+    # 闸门口径：规则漂移＝ERROR（规则失效必须显性上报）；统计类＝INFO
 
 - id: report
   name: ./plugins/20-report.mjs
