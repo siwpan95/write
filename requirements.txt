@@ -1,2 +1,5 @@
 # 2026-11-12 依赖治理补充（启动验证缺口）
 openpyxl
+
+# allin-r6-local (2026-11-15) 运行时注入的内部模块声明
+# r6-local: allin_engine
