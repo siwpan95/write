@@ -44,16 +44,16 @@ DEFAULT_NEW = [
     "可视化_结构映射/render.js",
 ]
 
-HEADER = """# 创作室通用模板包 v3.13 · SHA256 校验清单（2026-11-15）
+HEADER = """# 创作室通用模板包 v3.14 · SHA256 校验清单（2026-11-15）
 # 校验：在本目录执行  sha256sum -c MANIFEST.sha256
 # Windows: certutil -hashfile <文件> SHA256 逐项比对
-# v3.13 新增：纳入 19 号模板；哈希仍按 git blob（LF）字节计算，文件集变为 34 条。
+# v3.14 更新：19 号内容修订、14 号登记扩充；哈希仍按 git blob（LF）字节计算，文件集仍为 34 条。
 #
 # —— 2026-11-13 增补（本次深度审计后）——
 # 1) 覆盖范围补齐：纳入此前未受哈希保护的 6 个受控文件（tools/regression_checks.txt 是 C8 防回归断言的数据源，
 #    writing-style-transfer/scripts/style_metrics.py 是 05-文风卡指定的官方实测脚本，
 #    可视化_结构映射/ 四件为包内交付物且被 00/14 两份模板文档引用）。
-#    清单不含自身（MANIFEST.sha256）；v3.13 后合计 34 条（新增 19 号）。
+#    清单不含自身（MANIFEST.sha256）；v3.13 起合计 34 条（v3.14 文件集不变）。
 # 2) 路径分隔符统一为正斜杠：原 tools 下的条目写作反斜杠，仅 Windows 可解析，
 #    Linux/macOS 的 sha256sum -c 会因路径分隔符失配而全盘失败；现改为正斜杠。
 # 3) 哈希口径：一律取 git blob 字节（LF），不得按工作区字节计算（工作区可能是 CRLF 旧副本）。
