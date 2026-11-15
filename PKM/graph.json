@@ -49,7 +49,7 @@
    },
    "十三叩_U-1990": {
     "docs": 97,
-    "net_chars": 103426,
+    "net_chars": 103841,
     "types": {
      "模板": 90,
      "设定": 6,
@@ -236,7 +236,7 @@
   "orphan_sample": [
    "CHANGELOG.md"
   ],
-  "net_chars_total": 6782084
+  "net_chars_total": 6782804
  },
  "overrides_count": 31,
  "nodes": [
@@ -247,7 +247,7 @@
    "kind": "knowledge",
    "project": "",
    "role": "",
-   "net_chars": 2228,
+   "net_chars": 2533,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -2075,7 +2075,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 5425,
+   "net_chars": 5429,
    "tags": [],
    "aliases": [],
    "out": [
@@ -5510,12 +5510,12 @@
   },
   {
    "path": "十三叩_U-1990/00_总览/00-05_条目索引.md",
-   "title": "条目索引（76 条条目 + README）",
+   "title": "条目索引（90 条编号条目 · 全库 97 份 .md）",
    "type": "模板",
    "kind": "knowledge",
    "project": "十三叩_U-1990",
    "role": "",
-   "net_chars": 1313,
+   "net_chars": 1728,
    "tags": [],
    "aliases": [],
    "out": [],
