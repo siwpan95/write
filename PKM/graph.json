@@ -1,11 +1,11 @@
 {
  "schema": 1,
  "summary": {
-  "docs": 1340,
+  "docs": 1344,
   "by_type": {
    "正文": 566,
-   "设定": 409,
-   "模板": 339,
+   "设定": 412,
+   "模板": 340,
    "总览": 26
   },
   "by_project": {
@@ -72,14 +72,14 @@
     "knowledge_orphan": 0
    },
    "PKM": {
-    "docs": 64,
-    "net_chars": 75572,
+    "docs": 65,
+    "net_chars": 75633,
     "types": {
-     "设定": 63,
+     "设定": 64,
      "总览": 1
     },
-    "links": 2134,
-    "knowledge": 64,
+    "links": 2140,
+    "knowledge": 65,
     "knowledge_orphan": 0
    },
    "华夏克苏鲁": {
@@ -143,14 +143,14 @@
     "knowledge_orphan": 0
    },
    "通用模板包": {
-    "docs": 21,
-    "net_chars": 234469,
+    "docs": 22,
+    "net_chars": 243891,
     "types": {
      "总览": 2,
-     "模板": 19
+     "模板": 20
     },
     "links": 0,
-    "knowledge": 21,
+    "knowledge": 22,
     "knowledge_orphan": 0
    },
    "廓者未名夜": {
@@ -212,6 +212,16 @@
     "knowledge": 2,
     "knowledge_orphan": 0
    },
+   "参考资料": {
+    "docs": 2,
+    "net_chars": 31920,
+    "types": {
+     "设定": 2
+    },
+    "links": 0,
+    "knowledge": 2,
+    "knowledge_orphan": 0
+   },
    "tools": {
     "docs": 1,
     "net_chars": 6161,
@@ -223,11 +233,11 @@
     "knowledge_orphan": 0
    }
   },
-  "total_links": 2176,
+  "total_links": 2182,
   "total_broken": 0,
   "frontmatter_docs": 35,
   "tag_count": 119,
-  "knowledge_docs": 774,
+  "knowledge_docs": 778,
   "knowledge_orphans": 1,
   "knowledge_orphan_rate": 0.1,
   "narrative_docs": 566,
@@ -236,7 +246,7 @@
   "orphan_sample": [
    "CHANGELOG.md"
   ],
-  "net_chars_total": 6782804
+  "net_chars_total": 6825389
  },
  "overrides_count": 31,
  "nodes": [
@@ -247,7 +257,7 @@
    "kind": "knowledge",
    "project": "",
    "role": "",
-   "net_chars": 2533,
+   "net_chars": 3562,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -311,7 +321,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 1080,
+   "net_chars": 1141,
    "tags": [],
    "aliases": [],
    "out": [
@@ -1516,7 +1526,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 3771,
+   "net_chars": 3814,
    "tags": [],
    "aliases": [],
    "out": [
@@ -1557,6 +1567,7 @@
     "PKM/01-MOC/MOC-十三叩_U-1990.md",
     "PKM/01-MOC/MOC-华夏克苏鲁.md",
     "PKM/01-MOC/MOC-原子笔记索引.md",
+    "PKM/01-MOC/MOC-参考资料.md",
     "PKM/01-MOC/MOC-台账进度.md",
     "PKM/01-MOC/MOC-合规审校.md",
     "PKM/01-MOC/MOC-大纲节拍.md",
@@ -2325,6 +2336,28 @@
    "overridden": false
   },
   {
+   "path": "PKM/01-MOC/MOC-参考资料.md",
+   "title": "MOC · 参考资料",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "PKM",
+   "role": "",
+   "net_chars": 410,
+   "tags": [],
+   "aliases": [],
+   "out": [
+    "参考资料/Steam调研_2026/Steam热门游戏全景分析报告_2026.md",
+    "参考资料/Steam调研_2026/素材_Steam热门游戏调研.md"
+   ],
+   "in": [
+    "PKM/01-MOC/MOC-PKM-知识连接层.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
    "path": "PKM/01-MOC/MOC-台账进度.md",
    "title": "MOC · 台账／进度维度",
    "type": "设定",
@@ -2560,7 +2593,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 3650,
+   "net_chars": 3819,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2587,6 +2620,8 @@
     "华夏克苏鲁/02_设定与参考/资料包-裁定依据-金手指内核与诡境规则.md",
     "华夏克苏鲁/02_设定与参考/资料包-道教内丹典籍考据.md",
     "华夏克苏鲁/02_设定与参考/资料包索引与引用规范.md",
+    "参考资料/Steam调研_2026/Steam热门游戏全景分析报告_2026.md",
+    "参考资料/Steam调研_2026/素材_Steam热门游戏调研.md",
     "小说/设定与参考/设定调研与参考资料.md",
     "小说/设定与参考/调研-参考素材获取方法论.md",
     "小说/设定与参考/调研-平台误报规避与去AI味.md",
@@ -4097,7 +4132,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 1395,
+   "net_chars": 1457,
    "tags": [],
    "aliases": [],
    "out": [
@@ -4121,6 +4156,7 @@
     "通用模板包/16-喜剧节奏与无厘头手法模板.md",
     "通用模板包/17-字数增密与紫罗兰散文防控模板.md",
     "通用模板包/18-程序化创作与算法脚本模板.md",
+    "通用模板包/19-供给过剩与资产经营模板.md",
     "通用模板包/审计与修复报告.md"
    ],
    "in": [
@@ -4254,7 +4290,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 12136,
+   "net_chars": 12262,
    "tags": [],
    "aliases": [],
    "out": [
@@ -4433,7 +4469,7 @@
    "kind": "knowledge",
    "project": "",
    "role": "入口总览",
-   "net_chars": 12422,
+   "net_chars": 12575,
    "tags": [],
    "aliases": [],
    "out": [
@@ -8152,6 +8188,46 @@
     "PKM/01-MOC/MOC-华夏克苏鲁.md",
     "PKM/MOC-全库.md",
     "README.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "参考资料/Steam调研_2026/Steam热门游戏全景分析报告_2026.md",
+   "title": "Steam 热门游戏的多维结构与生态悖论：基于 2026 年平台数据的全景分析",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "参考资料",
+   "role": "",
+   "net_chars": 25301,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-参考资料.md",
+    "PKM/01-MOC/MOC-对标调研.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "参考资料/Steam调研_2026/素材_Steam热门游戏调研.md",
+   "title": "Steam 热门游戏调研素材（整理时间：2026-11-15）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "参考资料",
+   "role": "",
+   "net_chars": 6619,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-参考资料.md",
+    "PKM/01-MOC/MOC-对标调研.md"
    ],
    "broken": [],
    "archived": false,
@@ -29058,7 +29134,7 @@
    "kind": "knowledge",
    "project": "通用模板包",
    "role": "",
-   "net_chars": 16665,
+   "net_chars": 18011,
    "tags": [
     "方法论/模板",
     "资产/跨项目"
@@ -29358,7 +29434,7 @@
    "kind": "knowledge",
    "project": "通用模板包",
    "role": "",
-   "net_chars": 9864,
+   "net_chars": 12201,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -29450,13 +29526,32 @@
    "overridden": false
   },
   {
+   "path": "通用模板包/19-供给过剩与资产经营模板.md",
+   "title": "19 · 供给过剩与资产经营模板（跨生命周期层 · v3.13）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "通用模板包",
+   "role": "",
+   "net_chars": 5592,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-通用模板包.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
    "path": "通用模板包/README.md",
-   "title": "创作室通用模板包 · v3.12",
+   "title": "创作室通用模板包 · v3.13",
    "type": "总览",
    "kind": "knowledge",
    "project": "通用模板包",
    "role": "入口总览",
-   "net_chars": 2968,
+   "net_chars": 3115,
    "tags": [],
    "aliases": [],
    "out": [],

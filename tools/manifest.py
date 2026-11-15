@@ -44,16 +44,16 @@ DEFAULT_NEW = [
     "可视化_结构映射/render.js",
 ]
 
-HEADER = """# 创作室通用模板包 v3.12.2 · SHA256 校验清单（2026-11-13）
+HEADER = """# 创作室通用模板包 v3.13 · SHA256 校验清单（2026-11-15）
 # 校验：在本目录执行  sha256sum -c MANIFEST.sha256
 # Windows: certutil -hashfile <文件> SHA256 逐项比对
-# v3.12.2 新增：通用文件哈希随 --scenario/槽位拆解/--max-repeat 改动同步；文件集不变。
+# v3.13 新增：纳入 19 号模板；哈希仍按 git blob（LF）字节计算，文件集变为 34 条。
 #
 # —— 2026-11-13 增补（本次深度审计后）——
 # 1) 覆盖范围补齐：纳入此前未受哈希保护的 6 个受控文件（tools/regression_checks.txt 是 C8 防回归断言的数据源，
 #    writing-style-transfer/scripts/style_metrics.py 是 05-文风卡指定的官方实测脚本，
 #    可视化_结构映射/ 四件为包内交付物且被 00/14 两份模板文档引用）。
-#    清单不含自身（MANIFEST.sha256），合计 33 条。
+#    清单不含自身（MANIFEST.sha256）；v3.13 后合计 34 条（新增 19 号）。
 # 2) 路径分隔符统一为正斜杠：原 tools 下的条目写作反斜杠，仅 Windows 可解析，
 #    Linux/macOS 的 sha256sum -c 会因路径分隔符失配而全盘失败；现改为正斜杠。
 # 3) 哈希口径：一律取 git blob 字节（LF），不得按工作区字节计算（工作区可能是 CRLF 旧副本）。
@@ -125,11 +125,14 @@ def cmd_write(add: list[str]) -> int:
             seen_new.add(name)
             continue
         base.append((blob_sha(PKG_REL + "/" + name), name))
-    todo = [n for n in DEFAULT_NEW + add if n not in seen_new]
+    # 幂等修复（v3.13）：DEFAULT_NEW 已在旧清单里出现时，parse 阶段会跳过它们，
+    # 此处必须原样重新纳入；否则第二次 --write 会把这 6 个受控条目整批弄丢，
+    # cmd_check 随即报「受控但未纳入清单」。seen_new 仅用于兼容旧清单解析。
+    todo = list(dict.fromkeys(DEFAULT_NEW + add))
     lines = [HEADER.rstrip("\n")]
     for h, name in base:
         lines.append("%s  %s" % (h, name))
-    lines.append("# —— 2026-11-13 增补条目（此前未纳入哈希保护）——")
+    lines.append("# —— 追加条目（新增模板与补入受控文件）——")
     for n in todo:
         lines.append("%s  %s" % (blob_sha(PKG_REL + "/" + n), n))
     with open(MANIFEST, "w", encoding="utf-8", newline="\n") as f:
