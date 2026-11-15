@@ -1,12 +1,12 @@
 {
  "schema": 1,
  "summary": {
-  "docs": 1224,
+  "docs": 1340,
   "by_type": {
-   "正文": 564,
-   "设定": 398,
-   "模板": 238,
-   "总览": 24
+   "正文": 566,
+   "设定": 409,
+   "模板": 339,
+   "总览": 26
   },
   "by_project": {
    "小说": {
@@ -23,7 +23,7 @@
    },
    "点子库": {
     "docs": 306,
-    "net_chars": 1246611,
+    "net_chars": 1245757,
     "types": {
      "模板": 172,
      "设定": 129,
@@ -47,6 +47,18 @@
     "knowledge": 24,
     "knowledge_orphan": 0
    },
+   "十三叩_U-1990": {
+    "docs": 97,
+    "net_chars": 103426,
+    "types": {
+     "模板": 90,
+     "设定": 6,
+     "总览": 1
+    },
+    "links": 0,
+    "knowledge": 97,
+    "knowledge_orphan": 0
+   },
    "综网废柴逆命": {
     "docs": 73,
     "net_chars": 268244,
@@ -60,19 +72,19 @@
     "knowledge_orphan": 0
    },
    "PKM": {
-    "docs": 62,
-    "net_chars": 73035,
+    "docs": 64,
+    "net_chars": 75572,
     "types": {
-     "设定": 61,
+     "设定": 63,
      "总览": 1
     },
-    "links": 1981,
-    "knowledge": 62,
+    "links": 2134,
+    "knowledge": 64,
     "knowledge_orphan": 0
    },
    "华夏克苏鲁": {
     "docs": 41,
-    "net_chars": 828822,
+    "net_chars": 828823,
     "types": {
      "设定": 31,
      "模板": 8,
@@ -80,6 +92,18 @@
     },
     "links": 0,
     "knowledge": 41,
+    "knowledge_orphan": 0
+   },
+   "战锤42拔智齿": {
+    "docs": 28,
+    "net_chars": 91821,
+    "types": {
+     "模板": 14,
+     "总览": 2,
+     "正文": 12
+    },
+    "links": 4,
+    "knowledge": 16,
     "knowledge_orphan": 0
    },
    "无敌不是他人路": {
@@ -97,7 +121,7 @@
    },
    "Tserena": {
     "docs": 22,
-    "net_chars": 227134,
+    "net_chars": 227136,
     "types": {
      "设定": 21,
      "总览": 1
@@ -130,28 +154,16 @@
     "knowledge_orphan": 0
    },
    "廓者未名夜": {
-    "docs": 17,
-    "net_chars": 63448,
+    "docs": 19,
+    "net_chars": 90654,
     "types": {
      "模板": 10,
      "设定": 1,
      "总览": 1,
-     "正文": 5
+     "正文": 7
     },
     "links": 4,
     "knowledge": 12,
-    "knowledge_orphan": 0
-   },
-   "战锤42拔智齿": {
-    "docs": 16,
-    "net_chars": 36770,
-    "types": {
-     "模板": 3,
-     "总览": 1,
-     "正文": 12
-    },
-    "links": 3,
-    "knowledge": 4,
     "knowledge_orphan": 0
    },
    "逆鳞": {
@@ -202,7 +214,7 @@
    },
    "tools": {
     "docs": 1,
-    "net_chars": 4996,
+    "net_chars": 6161,
     "types": {
      "总览": 1
     },
@@ -211,21 +223,40 @@
     "knowledge_orphan": 0
    }
   },
-  "total_links": 2021,
+  "total_links": 2176,
   "total_broken": 0,
   "frontmatter_docs": 35,
   "tag_count": 119,
-  "knowledge_docs": 660,
-  "knowledge_orphans": 0,
-  "knowledge_orphan_rate": 0.0,
-  "narrative_docs": 564,
+  "knowledge_docs": 774,
+  "knowledge_orphans": 1,
+  "knowledge_orphan_rate": 0.1,
+  "narrative_docs": 566,
   "narrative_orphans": 0,
-  "orphan_count": 0,
-  "orphan_sample": [],
-  "net_chars_total": 6550196
+  "orphan_count": 1,
+  "orphan_sample": [
+   "CHANGELOG.md"
+  ],
+  "net_chars_total": 6782084
  },
  "overrides_count": 31,
  "nodes": [
+  {
+   "path": "CHANGELOG.md",
+   "title": "变更日志 / Changelog",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "",
+   "role": "",
+   "net_chars": 2228,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
   {
    "path": "PKM/00-原子笔记/atom-0001-战锤四神体系.md",
    "title": "战锤四神体系（跨宇宙共享设定）",
@@ -233,14 +264,14 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 814,
+   "net_chars": 854,
    "tags": [],
    "aliases": [],
    "out": [
     "PKM/00-原子笔记/atom-0002-通用模板包.md",
     "廓者未名夜/03-世界观圣经-廓者未名夜.md",
-    "战锤42拔智齿/12-品类IP合规前置-战锤42拔智齿.md",
-    "战锤42拔智齿/作品总览.md",
+    "战锤42拔智齿/01-原始材料/12-品类IP合规前置-战锤42拔智齿.md",
+    "战锤42拔智齿/01-原始材料/作品总览.md",
     "PKM/00-原子笔记/atom-0003-同题材共享语汇口径.md"
    ],
    "in": [
@@ -280,7 +311,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 1072,
+   "net_chars": 1080,
    "tags": [],
    "aliases": [],
    "out": [
@@ -290,7 +321,7 @@
     "华夏克苏鲁/05_模板对齐/05_立项与大纲/00-立项书.md",
     "华夏克苏鲁/05_模板对齐/00-对齐说明.md",
     "廓者未名夜/作品总览.md",
-    "战锤42拔智齿/作品总览.md",
+    "战锤42拔智齿/01-原始材料/作品总览.md",
     "PKM/00-原子笔记/atom-0001-战锤四神体系.md"
    ],
    "in": [
@@ -1485,7 +1516,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 3660,
+   "net_chars": 3771,
    "tags": [],
    "aliases": [],
    "out": [
@@ -1523,6 +1554,7 @@
     "PKM/01-MOC/MOC-二十一世纪奇门遁甲.md",
     "PKM/01-MOC/MOC-人物角色.md",
     "PKM/01-MOC/MOC-其他项目归档.md",
+    "PKM/01-MOC/MOC-十三叩_U-1990.md",
     "PKM/01-MOC/MOC-华夏克苏鲁.md",
     "PKM/01-MOC/MOC-原子笔记索引.md",
     "PKM/01-MOC/MOC-台账进度.md",
@@ -1543,6 +1575,7 @@
     "PKM/01-MOC/MOC-通宵杀敌.md",
     "PKM/01-MOC/MOC-通用模板包.md",
     "PKM/02-索引/专题维度登记表.md",
+    "PKM/02-索引/失效条目登记表.md",
     "PKM/02-索引/文档元数据清单.md",
     "PKM/02-索引/项目关联登记表.md",
     "PKM/02-索引/题材簇登记表.md",
@@ -1635,7 +1668,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 12063,
+   "net_chars": 12223,
    "tags": [],
    "aliases": [],
    "out": [
@@ -1652,6 +1685,7 @@
     "华夏克苏鲁/01_bible/world-bible.md",
     "小说/bible/world-bible.md",
     "廓者未名夜/03-世界观圣经-廓者未名夜.md",
+    "战锤42拔智齿/01-原始材料/03-世界观圣经（梦线规则表）-战锤42拔智齿.md",
     "提交确实未创建/bible/10-世界观圣经.md",
     "无敌不是他人路/03-世界观圣经-无敌不是他人路.md",
     "逆鳞/03-世界观圣经-逆鳞.md",
@@ -1677,6 +1711,7 @@
     "二十一世纪奇门遁甲/bible/timeline.md",
     "二十一世纪奇门遁甲/bible/长弧规划.md",
     "二十一世纪奇门遁甲/留档_旧方案A_规则怪谈_世界观设定集.md",
+    "十三叩_U-1990/09_附录·旧稿/旧稿_七部分世界观（第一版）.md",
     "华夏克苏鲁/01_bible/人物卡.md",
     "华夏克苏鲁/01_bible/地理与势力.md",
     "华夏克苏鲁/01_bible/境界与代价.md",
@@ -1906,7 +1941,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 3681,
+   "net_chars": 5680,
    "tags": [],
    "aliases": [],
    "out": [
@@ -1921,6 +1956,8 @@
     "综网废柴逆命/设定/03_人物/06_人物设定_完整档案.md",
     "Tserena/bible/人物卡-主角GeediMaalin.md",
     "二十一世纪奇门遁甲/bible/characters/赵海.md",
+    "十三叩_U-1990/07_人物与势力/07-00_人物卡规范.md",
+    "十三叩_U-1990/07_人物与势力/07-22_空白人物卡模板.md",
     "华夏克苏鲁/01_bible/人物卡.md",
     "小说/bible/characters/_第五卷关键物件.md",
     "小说/bible/characters/index.md",
@@ -1946,11 +1983,38 @@
     "小说/bible/characters/黑石帮抱臂者.md",
     "小说/bible/characters/齐满囤.md",
     "廓者未名夜/04-人物卡-廓者未名夜.md",
+    "战锤42拔智齿/01-原始材料/04-人物卡-战锤42拔智齿.md",
     "无敌不是他人路/04-人物卡-无敌不是他人路.md",
     "提交确实未创建/bible/21-关系图谱.md",
     "点子库/01-设定集/26-卷一季终反哺-E08结算与角色卡入册.md",
+    "十三叩_U-1990/07_人物与势力/07-01_人物名录.md",
+    "十三叩_U-1990/07_人物与势力/07-02_主角·校准师柒.md",
+    "十三叩_U-1990/07_人物与势力/07-03_主要势力.md",
+    "十三叩_U-1990/07_人物与势力/07-04_四位听众.md",
+    "十三叩_U-1990/07_人物与势力/07-05_小传01_校准师·柒.md",
+    "十三叩_U-1990/07_人物与势力/07-06_小传02_愚者·三一.md",
+    "十三叩_U-1990/07_人物与势力/07-07_小传03_无译者·哑.md",
+    "十三叩_U-1990/07_人物与势力/07-08_小传04_留派学者·残.md",
+    "十三叩_U-1990/07_人物与势力/07-09_小传05_探井人·九声.md",
+    "十三叩_U-1990/07_人物与势力/07-10_小传06_十席·守火.md",
+    "十三叩_U-1990/07_人物与势力/07-11_小传07_九席·守界.md",
+    "十三叩_U-1990/07_人物与势力/07-12_小传08_四席·守零.md",
+    "十三叩_U-1990/07_人物与势力/07-13_小传09_探井人·八声（已故）.md",
+    "十三叩_U-1990/07_人物与势力/07-14_小传10_删派首领·断.md",
+    "十三叩_U-1990/07_人物与势力/07-15_小传11_一席·守重.md",
+    "十三叩_U-1990/07_人物与势力/07-16_小传12_涡口城主·算.md",
+    "十三叩_U-1990/07_人物与势力/07-17_小传13_愚者·二九（已故）.md",
+    "十三叩_U-1990/07_人物与势力/07-18_小传14_清空派教习·蚀.md",
+    "十三叩_U-1990/07_人物与势力/07-19_小传15_十二席·守衡.md",
+    "十三叩_U-1990/07_人物与势力/07-20_小传16_第六位派·望.md",
+    "十三叩_U-1990/07_人物与势力/07-21_小传17_十三席·守档.md",
+    "十三叩_U-1990/07_人物与势力/07-23_数值校准规则.md",
+    "十三叩_U-1990/07_人物与势力/07-24_主要人物数值校准表.md",
+    "十三叩_U-1990/07_人物与势力/07-25_次要人物数值校准表.md",
     "小说/一致性核查-历史归档/角色档案.md",
     "小说/设定与参考/角色体系扩充方案.md",
+    "战锤42拔智齿/02-分析文档/17-人物原型谱.md",
+    "战锤42拔智齿/02-分析文档/18-人物性格侧写-内敛的狂.md",
     "综网废柴逆命/设定/07_创作台账/CHARACTERS.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md",
     "PKM/01-MOC/MOC-原子笔记索引.md",
@@ -1994,6 +2058,124 @@
    "out": [
     "其他项目归档/华夏克苏鲁.md",
     "其他项目归档/（這是一個純粹的虛構的世界觀設定，與現實世界無關！） 請用英文（行政區名字，格言，國歌用德語）仿照維護百科介紹一個位於非洲之角東南部的一個國家（整體意識形態屬於民主憲政社會偏社會主義）.md"
+   ],
+   "in": [
+    "PKM/01-MOC/MOC-PKM-知识连接层.md",
+    "PKM/01-MOC/MOC-跨项目知识网络.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "PKM/01-MOC/MOC-十三叩_U-1990.md",
+   "title": "MOC · 十三叩_U-1990",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "PKM",
+   "role": "",
+   "net_chars": 5425,
+   "tags": [],
+   "aliases": [],
+   "out": [
+    "十三叩_U-1990/README.md",
+    "十三叩_U-1990/09_附录·旧稿/旧稿_七部分世界观（第一版）.md",
+    "十三叩_U-1990/09_附录·旧稿/旧稿_十三叩初版.md",
+    "十三叩_U-1990/10_正文/00_楔子_叩会.md",
+    "十三叩_U-1990/10_正文/01_第一章_会叫的仪器.md",
+    "十三叩_U-1990/10_正文/02_第二章_钝车.md",
+    "十三叩_U-1990/10_正文/03_第三章_四十米.md",
+    "十三叩_U-1990/00_总览/00-01_世界一句话.md",
+    "十三叩_U-1990/00_总览/00-02_核心公理与物理框架.md",
+    "十三叩_U-1990/00_总览/00-03_术语总表.md",
+    "十三叩_U-1990/00_总览/00-04_命名规范.md",
+    "十三叩_U-1990/00_总览/00-05_条目索引.md",
+    "十三叩_U-1990/01_宇宙与物理/01-01_十三常数总表.md",
+    "十三叩_U-1990/01_宇宙与物理/01-02_常数相与基准相.md",
+    "十三叩_U-1990/01_宇宙与物理/01-03_自明场与20倍投影.md",
+    "十三叩_U-1990/01_宇宙与物理/01-04_命名固化.md",
+    "十三叩_U-1990/01_宇宙与物理/01-05_叩击残差.md",
+    "十三叩_U-1990/01_宇宙与物理/01-06_常数涡.md",
+    "十三叩_U-1990/01_宇宙与物理/01-07_全知视界.md",
+    "十三叩_U-1990/01_宇宙与物理/01-08_零误差坍缩.md",
+    "十三叩_U-1990/01_宇宙与物理/01-09_哈勃张力与双龄宇宙.md",
+    "十三叩_U-1990/01_宇宙与物理/01-10_水线问题.md",
+    "十三叩_U-1990/01_宇宙与物理/01-11_人造涡.md",
+    "十三叩_U-1990/02_地理/02-01_世界结构总图.md",
+    "十三叩_U-1990/02_地理/02-02_叩击带.md",
+    "十三叩_U-1990/02_地理/02-03_聆听野.md",
+    "十三叩_U-1990/02_地理/02-04_中央等值面.md",
+    "十三叩_U-1990/02_地理/02-05_十五城邦名录.md",
+    "十三叩_U-1990/02_地理/02-06_常数涡走廊.md",
+    "十三叩_U-1990/02_地理/02-07_叩井分布.md",
+    "十三叩_U-1990/02_地理/02-08_静默哨边境站.md",
+    "十三叩_U-1990/02_地理/02-09_断弦关口.md",
+    "十三叩_U-1990/03_历史/03-00_时间线与正文切入点.md",
+    "十三叩_U-1990/03_历史/03-01_编年总表.md",
+    "十三叩_U-1990/03_历史/03-02_前叩击纪.md",
+    "十三叩_U-1990/03_历史/03-03_纪元零点.md",
+    "十三叩_U-1990/03_历史/03-04_叩击纪.md",
+    "十三叩_U-1990/03_历史/03-05_张力纪.md",
+    "十三叩_U-1990/03_历史/03-06_四大坍缩事件.md",
+    "十三叩_U-1990/04_社会/04-01_五阶级.md",
+    "十三叩_U-1990/04_社会/04-02_十三席.md",
+    "十三叩_U-1990/04_社会/04-03_愚者教席.md",
+    "十三叩_U-1990/04_社会/04-04_校准行会.md",
+    "十三叩_U-1990/04_社会/04-05_译权制度.md",
+    "十三叩_U-1990/04_社会/04-06_四十遍制.md",
+    "十三叩_U-1990/04_社会/04-07_法律与刑罚.md",
+    "十三叩_U-1990/04_社会/04-08_经济与复述当量.md",
+    "十三叩_U-1990/04_社会/04-09_行会的叉.md",
+    "十三叩_U-1990/05_技术与器物/05-01_仪器撒谎原理.md",
+    "十三叩_U-1990/05_技术与器物/05-02_校准器谱系.md",
+    "十三叩_U-1990/05_技术与器物/05-03_交通与跨相载具.md",
+    "十三叩_U-1990/05_技术与器物/05-04_通信与叩频工程.md",
+    "十三叩_U-1990/05_技术与器物/05-05_武器与不对称.md",
+    "十三叩_U-1990/05_技术与器物/05-06_医疗与洗忆.md",
+    "十三叩_U-1990/05_技术与器物/05-07_日常器物.md",
+    "十三叩_U-1990/05_技术与器物/05-08_气阶与重校刻痕.md",
+    "十三叩_U-1990/05_技术与器物/05-09_钝车与涡行实务.md",
+    "十三叩_U-1990/05_技术与器物/05-10_铜壳裂口的读法.md",
+    "十三叩_U-1990/06_文化/06-01_逆旋律学.md",
+    "十三叩_U-1990/06_文化/06-02_四十一遍体.md",
+    "十三叩_U-1990/06_文化/06-03_无留白绘画.md",
+    "十三叩_U-1990/06_文化/06-04_音乐与错音美学.md",
+    "十三叩_U-1990/06_文化/06-05_宗教·四位听众.md",
+    "十三叩_U-1990/06_文化/06-06_语言与文字.md",
+    "十三叩_U-1990/06_文化/06-07_礼仪与节庆.md",
+    "十三叩_U-1990/06_文化/06-08_哑的叩击语.md",
+    "十三叩_U-1990/07_人物与势力/07-00_人物卡规范.md",
+    "十三叩_U-1990/07_人物与势力/07-01_人物名录.md",
+    "十三叩_U-1990/07_人物与势力/07-02_主角·校准师柒.md",
+    "十三叩_U-1990/07_人物与势力/07-03_主要势力.md",
+    "十三叩_U-1990/07_人物与势力/07-04_四位听众.md",
+    "十三叩_U-1990/07_人物与势力/07-05_小传01_校准师·柒.md",
+    "十三叩_U-1990/07_人物与势力/07-06_小传02_愚者·三一.md",
+    "十三叩_U-1990/07_人物与势力/07-07_小传03_无译者·哑.md",
+    "十三叩_U-1990/07_人物与势力/07-08_小传04_留派学者·残.md",
+    "十三叩_U-1990/07_人物与势力/07-09_小传05_探井人·九声.md",
+    "十三叩_U-1990/07_人物与势力/07-10_小传06_十席·守火.md",
+    "十三叩_U-1990/07_人物与势力/07-11_小传07_九席·守界.md",
+    "十三叩_U-1990/07_人物与势力/07-12_小传08_四席·守零.md",
+    "十三叩_U-1990/07_人物与势力/07-13_小传09_探井人·八声（已故）.md",
+    "十三叩_U-1990/07_人物与势力/07-14_小传10_删派首领·断.md",
+    "十三叩_U-1990/07_人物与势力/07-15_小传11_一席·守重.md",
+    "十三叩_U-1990/07_人物与势力/07-16_小传12_涡口城主·算.md",
+    "十三叩_U-1990/07_人物与势力/07-17_小传13_愚者·二九（已故）.md",
+    "十三叩_U-1990/07_人物与势力/07-18_小传14_清空派教习·蚀.md",
+    "十三叩_U-1990/07_人物与势力/07-19_小传15_十二席·守衡.md",
+    "十三叩_U-1990/07_人物与势力/07-20_小传16_第六位派·望.md",
+    "十三叩_U-1990/07_人物与势力/07-21_小传17_十三席·守档.md",
+    "十三叩_U-1990/07_人物与势力/07-22_空白人物卡模板.md",
+    "十三叩_U-1990/07_人物与势力/07-23_数值校准规则.md",
+    "十三叩_U-1990/07_人物与势力/07-24_主要人物数值校准表.md",
+    "十三叩_U-1990/07_人物与势力/07-25_次要人物数值校准表.md",
+    "十三叩_U-1990/08_叙事/08-01_主线三条.md",
+    "十三叩_U-1990/08_叙事/08-02_伏笔清单.md",
+    "十三叩_U-1990/08_叙事/08-03_设定释放节奏.md",
+    "十三叩_U-1990/08_叙事/08-04_禁则.md",
+    "十三叩_U-1990/08_叙事/08-05_黄金三章复盘.md"
    ],
    "in": [
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
@@ -2219,7 +2401,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 2992,
+   "net_chars": 3214,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2242,16 +2424,19 @@
     "小说/设定与参考/深度一致性核查报告·续（机扫＋数值体检）.md",
     "小说/设定与参考/深度审核与一致性校验报告.md",
     "廓者未名夜/11-合规与一致性检查-廓者未名夜.md",
+    "战锤42拔智齿/02-分析文档/13-勘误与重读-梦线是副本（v2）.md",
     "点子库/02-正文/195-第一百八十七章-勘误页.md",
     "点子库/04-工具/报告/一致性扫描报告.md",
     "点子库/05-实体书/03-勘误表.md",
     "Tserena/设定与参考/IP合规前置-12-20261109.md",
     "廓者未名夜/12-品类IP合规前置-廓者未名夜.md",
-    "战锤42拔智齿/12-品类IP合规前置-战锤42拔智齿.md",
+    "战锤42拔智齿/01-原始材料/12-品类IP合规前置-战锤42拔智齿.md",
     "无敌不是他人路/12-品类IP合规前置-无敌不是他人路.md",
     "综网废柴逆命/设定/05_方法与市场/19_设定完备性自检与缺口清单.md",
     "综网废柴逆命/设定/05_方法与市场/31_行业趋势对照与自检报告.md",
     "审计报告-深度审计与架构重构-20261113.md",
+    "审计报告-知识库运行与规则-20261114.md",
+    "审计报告-联网深度审计-20261114.md",
     "点子库/01-设定集/22-大秦银河反哺-铁律映射与四步审计.md",
     "通用模板包/审计与修复报告.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md",
@@ -2290,7 +2475,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 3536,
+   "net_chars": 3620,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2309,7 +2494,7 @@
     "小说/设定与参考/第五卷卷纲.md",
     "小说/设定与参考/第四卷卷纲.md",
     "廓者未名夜/02-大纲四层-廓者未名夜.md",
-    "战锤42拔智齿/02-大纲四层-战锤42拔智齿.md",
+    "战锤42拔智齿/01-原始材料/02-大纲四层-战锤42拔智齿.md",
     "无敌不是他人路/02-大纲四层-无敌不是他人路.md",
     "未名骨/02-大纲四层-未名骨.md",
     "逆鳞/02-大纲四层-逆鳞.md",
@@ -2317,6 +2502,7 @@
     "二十一世纪奇门遁甲/06_黄金三章施工方案.md",
     "二十一世纪奇门遁甲/06_黄金三章施工方案_已归档说明.md",
     "二十一世纪奇门遁甲/10_后续大纲节拍调整.md",
+    "十三叩_U-1990/08_叙事/08-05_黄金三章复盘.md",
     "华夏克苏鲁/05_模板对齐/06_文风与章节/01-黄金三章施工指令.md",
     "廓者未名夜/10-节拍表与黄金三章施工-廓者未名夜.md",
     "无敌不是他人路/10-节拍表与黄金三章施工-无敌不是他人路.md",
@@ -2328,7 +2514,7 @@
     "华夏克苏鲁/05_模板对齐/05_立项与大纲/01-全书总纲L1-L3.md",
     "廓者未名夜/01-立项定位-廓者未名夜.md",
     "廓者未名夜/09-立项书-廓者未名夜.md",
-    "战锤42拔智齿/01-立项定位-战锤42拔智齿.md",
+    "战锤42拔智齿/01-原始材料/01-立项定位-战锤42拔智齿.md",
     "提交确实未创建/设定与参考/00-立项决议.md",
     "无敌不是他人路/01-立项定位-无敌不是他人路.md",
     "无敌不是他人路/09-立项书-无敌不是他人路.md",
@@ -2374,7 +2560,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 3557,
+   "net_chars": 3650,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2386,7 +2572,7 @@
     "PKM/00-原子笔记/atom-0014-欲扬先抑是机制本身.md",
     "小说/设定与参考/品类调研与外传完善方案.md",
     "廓者未名夜/12-品类IP合规前置-廓者未名夜.md",
-    "战锤42拔智齿/12-品类IP合规前置-战锤42拔智齿.md",
+    "战锤42拔智齿/01-原始材料/12-品类IP合规前置-战锤42拔智齿.md",
     "无敌不是他人路/12-品类IP合规前置-无敌不是他人路.md",
     "通用模板包/12-品类流派与IP合规前置模板.md",
     "Tserena/设定与参考/调研-P1澄清与世界观充实-20261109.md",
@@ -2408,6 +2594,7 @@
     "小说/设定与参考/调研-长篇不崩与去AI味.md",
     "小说/设定与参考/调研-面板系统与外部考据.md",
     "小说/设定与参考/边界拓展调研.md",
+    "战锤42拔智齿/98-历史版本/13-现状盘点与联网调研报告-2026-11-15.md",
     "提交确实未创建/设定与参考/01-背景设定资料包.md",
     "无敌不是他人路/立项调研-外部事实核对表-20261113.md",
     "点子库/01-设定集/21-参考资料反哺-四份资料的吸收与入典.md",
@@ -2787,7 +2974,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 1457,
+   "net_chars": 1537,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2810,7 +2997,9 @@
     "廓者未名夜/正文/第02章.md",
     "廓者未名夜/正文/第03章-归档.md",
     "廓者未名夜/正文/第04章-城西.md",
-    "廓者未名夜/正文/第05章-一格.md"
+    "廓者未名夜/正文/第05章-一格.md",
+    "廓者未名夜/正文/第06章-一栏.md",
+    "廓者未名夜/正文/第07章-回拨.md"
    ],
    "in": [
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
@@ -2829,17 +3018,29 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 1372,
+   "net_chars": 2250,
    "tags": [],
    "aliases": [],
    "out": [
     "PKM/01-MOC/MOC-跨项目知识网络.md",
     "PKM/01-MOC/MOC-廓者未名夜.md",
     "PKM/01-MOC/MOC-通用模板包.md",
-    "战锤42拔智齿/作品总览.md",
-    "战锤42拔智齿/01-立项定位-战锤42拔智齿.md",
-    "战锤42拔智齿/02-大纲四层-战锤42拔智齿.md",
-    "战锤42拔智齿/12-品类IP合规前置-战锤42拔智齿.md",
+    "战锤42拔智齿/01-原始材料/作品总览.md",
+    "战锤42拔智齿/README.md",
+    "战锤42拔智齿/01-原始材料/01-立项定位-战锤42拔智齿.md",
+    "战锤42拔智齿/01-原始材料/02-大纲四层-战锤42拔智齿.md",
+    "战锤42拔智齿/01-原始材料/03-世界观圣经（梦线规则表）-战锤42拔智齿.md",
+    "战锤42拔智齿/01-原始材料/04-人物卡-战锤42拔智齿.md",
+    "战锤42拔智齿/01-原始材料/05-文风卡与章节规范-战锤42拔智齿.md",
+    "战锤42拔智齿/01-原始材料/12-品类IP合规前置-战锤42拔智齿.md",
+    "战锤42拔智齿/02-分析文档/13-勘误与重读-梦线是副本（v2）.md",
+    "战锤42拔智齿/02-分析文档/14-卷一后续续写开工包（v2·副本推进）.md",
+    "战锤42拔智齿/02-分析文档/15-天台四人-命运谱与蜀山式铺法.md",
+    "战锤42拔智齿/02-分析文档/16-特殊化审查-哪些是枪哪些只是恰好.md",
+    "战锤42拔智齿/02-分析文档/17-人物原型谱.md",
+    "战锤42拔智齿/02-分析文档/18-人物性格侧写-内敛的狂.md",
+    "战锤42拔智齿/98-历史版本/13-现状盘点与联网调研报告-2026-11-15.md",
+    "战锤42拔智齿/98-历史版本/14-卷一后续续写开工包-第13章起.md",
     "战锤42拔智齿/正文/第01章-少年.md",
     "战锤42拔智齿/正文/第02章-我要玩剑魔.md",
     "战锤42拔智齿/正文/第03章-年少爱追梦.md",
@@ -3187,7 +3388,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 2523,
+   "net_chars": 2599,
    "tags": [],
    "aliases": [],
    "out": [
@@ -3201,6 +3402,7 @@
     "小说/设定与参考/叙事风格-重修范围复核.md",
     "小说/设定与参考/叙事风格修正手册.md",
     "廓者未名夜/05-文风卡-廓者未名夜.md",
+    "战锤42拔智齿/01-原始材料/05-文风卡与章节规范-战锤42拔智齿.md",
     "无敌不是他人路/05-文风卡-无敌不是他人路.md",
     "综网废柴逆命/设定/01_核心框架/27_文风规范_冷热二段式.md",
     "小说/设定与参考/风格样板-第230章改写.md",
@@ -3740,15 +3942,15 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 6290,
+   "net_chars": 6635,
    "tags": [],
    "aliases": [],
    "out": [
     "PKM/00-原子笔记/atom-0001-战锤四神体系.md",
     "廓者未名夜/作品总览.md",
     "廓者未名夜/03-世界观圣经-廓者未名夜.md",
-    "战锤42拔智齿/作品总览.md",
-    "战锤42拔智齿/12-品类IP合规前置-战锤42拔智齿.md",
+    "战锤42拔智齿/01-原始材料/作品总览.md",
+    "战锤42拔智齿/01-原始材料/12-品类IP合规前置-战锤42拔智齿.md",
     "PKM/00-原子笔记/atom-0002-通用模板包.md",
     "通用模板包/00-总档与SOP.md",
     "Tserena/设定与参考/模板反哺报告-20261110.md",
@@ -3779,6 +3981,7 @@
     "PKM/01-MOC/MOC-逆鳞.md",
     "PKM/01-MOC/MOC-无敌不是他人路.md",
     "PKM/01-MOC/MOC-未名骨.md",
+    "PKM/01-MOC/MOC-十三叩_U-1990.md",
     "PKM/01-MOC/MOC-通宵杀敌.md",
     "PKM/01-MOC/MOC-其他项目归档.md",
     "PKM/01-MOC/MOC-通用模板包.md",
@@ -3967,13 +4170,32 @@
    "overridden": false
   },
   {
+   "path": "PKM/02-索引/失效条目登记表.md",
+   "title": "失效条目登记表 · 受控 JSONL（旁挂）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "PKM",
+   "role": "",
+   "net_chars": 1498,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-PKM-知识连接层.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
    "path": "PKM/02-索引/文档元数据清单.md",
    "title": "文档元数据清单（受控 · 人工维护）",
    "type": "设定",
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 6314,
+   "net_chars": 6338,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -4011,7 +4233,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 3330,
+   "net_chars": 3665,
    "tags": [],
    "aliases": [],
    "out": [
@@ -4032,7 +4254,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 10828,
+   "net_chars": 12136,
    "tags": [],
    "aliases": [],
    "out": [
@@ -4043,19 +4265,21 @@
     "点子库/02-正文/README-创作说明.md",
     "点子库/README-点子库.md",
     "提交确实未创建/作品总览.md",
+    "十三叩_U-1990/README.md",
     "综网废柴逆命/作品总览.md",
     "PKM/README.md",
     "华夏克苏鲁/README-总览.md",
     "华夏克苏鲁/作品总览.md",
+    "战锤42拔智齿/01-原始材料/作品总览.md",
+    "战锤42拔智齿/README.md",
     "无敌不是他人路/作品总览.md",
     "Tserena/作品总览.md",
     "二十一世纪奇门遁甲/作品总览.md",
     "通用模板包/README.md",
     "廓者未名夜/作品总览.md",
-    "战锤42拔智齿/作品总览.md",
+    "README.md",
     "逆鳞/作品总览.md",
     "未名骨/作品总览.md",
-    "README.md",
     "通宵杀敌/作品总览.md",
     "tools/README.md"
    ],
@@ -4081,7 +4305,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "入口总览",
-   "net_chars": 4553,
+   "net_chars": 4604,
    "tags": [],
    "aliases": [],
    "out": [
@@ -4124,7 +4348,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 246,
+   "net_chars": 290,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -4143,7 +4367,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 3285,
+   "net_chars": 3866,
    "tags": [],
    "aliases": [],
    "out": [
@@ -4209,7 +4433,7 @@
    "kind": "knowledge",
    "project": "",
    "role": "入口总览",
-   "net_chars": 10940,
+   "net_chars": 12422,
    "tags": [],
    "aliases": [],
    "out": [
@@ -4217,13 +4441,14 @@
     "点子库/README-点子库.md",
     "小说/项目梳理总览.md",
     "综网废柴逆命/作品总览.md",
-    "战锤42拔智齿/作品总览.md",
+    "战锤42拔智齿/01-原始材料/作品总览.md",
     "二十一世纪奇门遁甲/作品总览.md",
     "无敌不是他人路/作品总览.md",
     "Tserena/作品总览.md",
     "廓者未名夜/作品总览.md",
     "未名骨/作品总览.md",
     "逆鳞/作品总览.md",
+    "十三叩_U-1990/README.md",
     "华夏克苏鲁/README-总览.md",
     "通用模板包/00-总档与SOP.md",
     "工作区规范.md",
@@ -4362,7 +4587,7 @@
    "kind": "knowledge",
    "project": "Tserena",
    "role": "参考/工具",
-   "net_chars": 10448,
+   "net_chars": 10449,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -4422,7 +4647,7 @@
    "kind": "knowledge",
    "project": "Tserena",
    "role": "参考/工具",
-   "net_chars": 12685,
+   "net_chars": 12686,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -4714,7 +4939,7 @@
    "kind": "knowledge",
    "project": "tools",
    "role": "入口总览",
-   "net_chars": 4996,
+   "net_chars": 6161,
    "tags": [],
    "aliases": [],
    "out": [
@@ -5208,6 +5433,1879 @@
    "overridden": false
   },
   {
+   "path": "十三叩_U-1990/00_总览/00-01_世界一句话.md",
+   "title": "世界一句话",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 441,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/00_总览/00-02_核心公理与物理框架.md",
+   "title": "核心公理与物理框架",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 853,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/00_总览/00-03_术语总表.md",
+   "title": "术语总表",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 769,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/00_总览/00-04_命名规范.md",
+   "title": "命名规范",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 496,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/00_总览/00-05_条目索引.md",
+   "title": "条目索引（76 条条目 + README）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 1313,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/01_宇宙与物理/01-01_十三常数总表.md",
+   "title": "十三常数总表",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 843,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/01_宇宙与物理/01-02_常数相与基准相.md",
+   "title": "常数相与基准相",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 466,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/01_宇宙与物理/01-03_自明场与20倍投影.md",
+   "title": "自明场与 20 倍投影",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 435,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/01_宇宙与物理/01-04_命名固化.md",
+   "title": "命名固化",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 430,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/01_宇宙与物理/01-05_叩击残差.md",
+   "title": "叩击残差",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 424,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/01_宇宙与物理/01-06_常数涡.md",
+   "title": "常数涡",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 352,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/01_宇宙与物理/01-07_全知视界.md",
+   "title": "全知视界",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 336,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/01_宇宙与物理/01-08_零误差坍缩.md",
+   "title": "零误差坍缩",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 394,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/01_宇宙与物理/01-09_哈勃张力与双龄宇宙.md",
+   "title": "哈勃张力与双龄宇宙",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 959,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/01_宇宙与物理/01-10_水线问题.md",
+   "title": "水线问题",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 386,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/01_宇宙与物理/01-11_人造涡.md",
+   "title": "人造涡",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 984,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/02_地理/02-01_世界结构总图.md",
+   "title": "世界结构总图",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 407,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/02_地理/02-02_叩击带.md",
+   "title": "叩击带",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 289,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/02_地理/02-03_聆听野.md",
+   "title": "聆听野",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 273,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/02_地理/02-04_中央等值面.md",
+   "title": "中央等值面",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 320,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/02_地理/02-05_十五城邦名录.md",
+   "title": "十五城邦名录（P01–P15）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 642,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/02_地理/02-06_常数涡走廊.md",
+   "title": "常数涡走廊",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 344,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/02_地理/02-07_叩井分布.md",
+   "title": "叩井分布",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 335,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/02_地理/02-08_静默哨边境站.md",
+   "title": "静默哨边境站",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 434,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/02_地理/02-09_断弦关口.md",
+   "title": "断弦关口",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 423,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/03_历史/03-00_时间线与正文切入点.md",
+   "title": "时间线与正文切入点",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 3784,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/03_历史/03-01_编年总表.md",
+   "title": "编年总表（E001–E013）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 679,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/03_历史/03-02_前叩击纪.md",
+   "title": "前叩击纪（E001–E003 之前）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 370,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/03_历史/03-03_纪元零点.md",
+   "title": "纪元零点（E004）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 441,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/03_历史/03-04_叩击纪.md",
+   "title": "叩击纪（E005–E010）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 493,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/03_历史/03-05_张力纪.md",
+   "title": "张力纪（E011–E013，当下）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 413,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/03_历史/03-06_四大坍缩事件.md",
+   "title": "四大坍缩事件",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 428,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/04_社会/04-01_五阶级.md",
+   "title": "五阶级",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 383,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/04_社会/04-02_十三席.md",
+   "title": "十三席（O01）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 548,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/04_社会/04-03_愚者教席.md",
+   "title": "愚者教席（O02）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 580,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/04_社会/04-04_校准行会.md",
+   "title": "校准行会（O04）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 341,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/04_社会/04-05_译权制度.md",
+   "title": "译权制度（O05）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 371,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/04_社会/04-06_四十遍制.md",
+   "title": "四十遍制",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 400,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/04_社会/04-07_法律与刑罚.md",
+   "title": "法律与刑罚",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 411,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/04_社会/04-08_经济与复述当量.md",
+   "title": "经济与复述当量",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 451,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/04_社会/04-09_行会的叉.md",
+   "title": "行会的叉",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 552,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/05_技术与器物/05-01_仪器撒谎原理.md",
+   "title": "仪器撒谎原理",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 367,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/05_技术与器物/05-02_校准器谱系.md",
+   "title": "校准器谱系（A01–A13）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 561,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/05_技术与器物/05-03_交通与跨相载具.md",
+   "title": "交通与跨相载具",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 383,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/05_技术与器物/05-04_通信与叩频工程.md",
+   "title": "通信与叩频工程",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 365,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/05_技术与器物/05-05_武器与不对称.md",
+   "title": "武器与不对称",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 366,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/05_技术与器物/05-06_医疗与洗忆.md",
+   "title": "医疗与洗忆",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 758,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/05_技术与器物/05-07_日常器物.md",
+   "title": "日常器物",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 426,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/05_技术与器物/05-08_气阶与重校刻痕.md",
+   "title": "气阶与重校刻痕",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 673,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/05_技术与器物/05-09_钝车与涡行实务.md",
+   "title": "钝车与涡行实务",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 705,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/05_技术与器物/05-10_铜壳裂口的读法.md",
+   "title": "铜壳裂口的读法（行会听修法）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 714,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/06_文化/06-01_逆旋律学.md",
+   "title": "逆旋律学（唯一显学）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 403,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/06_文化/06-02_四十一遍体.md",
+   "title": "四十一遍体",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 389,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/06_文化/06-03_无留白绘画.md",
+   "title": "无留白绘画",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 354,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/06_文化/06-04_音乐与错音美学.md",
+   "title": "音乐与错音美学",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 361,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/06_文化/06-05_宗教·四位听众.md",
+   "title": "宗教 · 四位听众",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 398,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/06_文化/06-06_语言与文字.md",
+   "title": "语言与文字",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 395,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/06_文化/06-07_礼仪与节庆.md",
+   "title": "礼仪与节庆",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 423,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/06_文化/06-08_哑的叩击语.md",
+   "title": "哑的叩击语",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 571,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/07_人物与势力/07-00_人物卡规范.md",
+   "title": "人物卡规范（U-1990 版 TRPG 表）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 3299,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/07_人物与势力/07-01_人物名录.md",
+   "title": "人物名录",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 1330,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/07_人物与势力/07-02_主角·校准师柒.md",
+   "title": "主角 · 校准师·柒",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 427,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/07_人物与势力/07-03_主要势力.md",
+   "title": "主要势力（O01–O09）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 435,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/07_人物与势力/07-04_四位听众.md",
+   "title": "四位听众",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 416,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/07_人物与势力/07-05_小传01_校准师·柒.md",
+   "title": "人物 · 校准师·柒",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 1481,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/07_人物与势力/07-06_小传02_愚者·三一.md",
+   "title": "人物 · 愚者·三一",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 1488,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/07_人物与势力/07-07_小传03_无译者·哑.md",
+   "title": "人物 · 无译者·哑",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 1359,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/07_人物与势力/07-08_小传04_留派学者·残.md",
+   "title": "人物 · 留派学者·残",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 1313,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/07_人物与势力/07-09_小传05_探井人·九声.md",
+   "title": "人物 · 探井人·九声",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 1143,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/07_人物与势力/07-10_小传06_十席·守火.md",
+   "title": "人物 · 十席·守火",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 1317,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/07_人物与势力/07-11_小传07_九席·守界.md",
+   "title": "人物 · 九席·守界",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 1263,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/07_人物与势力/07-12_小传08_四席·守零.md",
+   "title": "次要人物 · 四席·守零",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 1006,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/07_人物与势力/07-13_小传09_探井人·八声（已故）.md",
+   "title": "次要人物 · 探井人·八声（已故）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 1085,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/07_人物与势力/07-14_小传10_删派首领·断.md",
+   "title": "次要人物 · 删派首领·断",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 1009,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/07_人物与势力/07-15_小传11_一席·守重.md",
+   "title": "次要人物 · 一席·守重",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 976,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/07_人物与势力/07-16_小传12_涡口城主·算.md",
+   "title": "次要人物 · 涡口城主·算",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 946,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/07_人物与势力/07-17_小传13_愚者·二九（已故）.md",
+   "title": "次要人物 · 愚者·二九（已故）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 1051,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/07_人物与势力/07-18_小传14_清空派教习·蚀.md",
+   "title": "次要人物 · 清空派教习·蚀",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 1020,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/07_人物与势力/07-19_小传15_十二席·守衡.md",
+   "title": "次要人物 · 十二席·守衡",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 989,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/07_人物与势力/07-20_小传16_第六位派·望.md",
+   "title": "次要人物 · 第六位派·望",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 1039,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/07_人物与势力/07-21_小传17_十三席·守档.md",
+   "title": "次要人物 · 十三席·守档",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 1063,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/07_人物与势力/07-22_空白人物卡模板.md",
+   "title": "空白人物卡模板（可直接复制填写）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 2008,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/07_人物与势力/07-23_数值校准规则.md",
+   "title": "数值校准规则",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 2471,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/07_人物与势力/07-24_主要人物数值校准表.md",
+   "title": "主要人物数值校准表（7 人 · 重跑版）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 2868,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/07_人物与势力/07-25_次要人物数值校准表.md",
+   "title": "次要人物数值校准表（10 人 · 重跑版）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 3804,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/08_叙事/08-01_主线三条.md",
+   "title": "主线三条",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 415,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/08_叙事/08-02_伏笔清单.md",
+   "title": "伏笔清单（Q01–Q08）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 476,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/08_叙事/08-03_设定释放节奏.md",
+   "title": "设定释放节奏",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 485,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/08_叙事/08-04_禁则.md",
+   "title": "禁则（不可写的东西）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 454,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/08_叙事/08-05_黄金三章复盘.md",
+   "title": "黄金三章复盘（800 年·三月）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 1452,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md",
+    "PKM/01-MOC/MOC-大纲节拍.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/09_附录·旧稿/旧稿_七部分世界观（第一版）.md",
+   "title": "《十三叩》· U-1990 完整世界观设定",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 8235,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-世界观设定.md",
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/09_附录·旧稿/旧稿_十三叩初版.md",
+   "title": "《十三叩》世界观设定",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 5862,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/10_正文/00_楔子_叩会.md",
+   "title": "楔子 · 叩会",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 3172,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/10_正文/01_第一章_会叫的仪器.md",
+   "title": "第一章 · 会叫的仪器",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 4276,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/10_正文/02_第二章_钝车.md",
+   "title": "第二章 · 钝车",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 4487,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/10_正文/03_第三章_四十米.md",
+   "title": "第三章 · 四十米",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "",
+   "net_chars": 4104,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "十三叩_U-1990/README.md",
+   "title": "十三叩 · U-1990 设定百科",
+   "type": "总览",
+   "kind": "knowledge",
+   "project": "十三叩_U-1990",
+   "role": "入口总览",
+   "net_chars": 797,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-十三叩_U-1990.md",
+    "PKM/MOC-全库.md",
+    "README.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
    "path": "华夏克苏鲁/01_bible/00_铁律表.md",
    "title": "00 · 铁律表",
    "type": "设定",
@@ -5439,7 +7537,7 @@
    "kind": "knowledge",
    "project": "华夏克苏鲁",
    "role": "参考/工具",
-   "net_chars": 42062,
+   "net_chars": 42063,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -6076,6 +8174,44 @@
    "in": [
     "PKM/01-MOC/MOC-合规审校.md",
     "README.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "审计报告-知识库运行与规则-20261114.md",
+   "title": "审计报告 · 知识库运行与内容管理规则 — 20261114（v2）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "",
+   "role": "",
+   "net_chars": 18050,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-合规审校.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "审计报告-联网深度审计-20261114.md",
+   "title": "审计报告 · 联网深度审计与交叉核验 — 20261114",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "",
+   "role": "",
+   "net_chars": 21433,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-合规审校.md"
    ],
    "broken": [],
    "archived": false,
@@ -12050,7 +14186,7 @@
    "kind": "knowledge",
    "project": "",
    "role": "",
-   "net_chars": 8883,
+   "net_chars": 9044,
    "tags": [],
    "aliases": [],
    "out": [
@@ -12072,11 +14208,11 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 3056,
+   "net_chars": 3177,
    "tags": [],
    "aliases": [],
    "out": [
-    "战锤42拔智齿/作品总览.md"
+    "战锤42拔智齿/01-原始材料/作品总览.md"
    ],
    "in": [
     "PKM/01-MOC/MOC-大纲节拍.md",
@@ -12094,7 +14230,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 3340,
+   "net_chars": 4988,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -12114,7 +14250,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 11579,
+   "net_chars": 17530,
    "tags": [
     "设定/世界观",
     "方法论/设定"
@@ -12124,7 +14260,7 @@
     "廓者SSOT"
    ],
    "out": [
-    "战锤42拔智齿/作品总览.md"
+    "战锤42拔智齿/01-原始材料/作品总览.md"
    ],
    "in": [
     "PKM/00-原子笔记/atom-0001-战锤四神体系.md",
@@ -12146,7 +14282,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 4698,
+   "net_chars": 6776,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -12167,7 +14303,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 4895,
+   "net_chars": 6242,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -12188,7 +14324,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 6661,
+   "net_chars": 11858,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -12227,7 +14363,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 3986,
+   "net_chars": 4813,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -12247,7 +14383,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 4048,
+   "net_chars": 6543,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -12267,11 +14403,11 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 2663,
+   "net_chars": 4448,
    "tags": [],
    "aliases": [],
    "out": [
-    "战锤42拔智齿/12-品类IP合规前置-战锤42拔智齿.md"
+    "战锤42拔智齿/01-原始材料/12-品类IP合规前置-战锤42拔智齿.md"
    ],
    "in": [
     "PKM/00-原子笔记/atom-0013-借结构不取材与三层互不代偿.md",
@@ -12310,7 +14446,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "入口总览",
-   "net_chars": 2410,
+   "net_chars": 2702,
    "tags": [
     "入口总览"
    ],
@@ -12318,7 +14454,7 @@
     "廓者总览"
    ],
    "out": [
-    "战锤42拔智齿/作品总览.md"
+    "战锤42拔智齿/01-原始材料/作品总览.md"
    ],
    "in": [
     "PKM/00-原子笔记/atom-0002-通用模板包.md",
@@ -12328,7 +14464,8 @@
     "PKM/01-MOC/MOC-跨项目知识网络.md",
     "PKM/MOC-全库.md",
     "README.md",
-    "战锤42拔智齿/作品总览.md"
+    "战锤42拔智齿/01-原始材料/04-人物卡-战锤42拔智齿.md",
+    "战锤42拔智齿/01-原始材料/作品总览.md"
    ],
    "broken": [],
    "archived": false,
@@ -12431,13 +14568,51 @@
    "overridden": false
   },
   {
-   "path": "战锤42拔智齿/01-立项定位-战锤42拔智齿.md",
+   "path": "廓者未名夜/正文/第06章-一栏.md",
+   "title": "第06章-一栏",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "廓者未名夜",
+   "role": "正文",
+   "net_chars": 2416,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-廓者未名夜.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "廓者未名夜/正文/第07章-回拨.md",
+   "title": "第07章-回拨",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "廓者未名夜",
+   "role": "正文",
+   "net_chars": 3049,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-廓者未名夜.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "战锤42拔智齿/01-原始材料/01-立项定位-战锤42拔智齿.md",
    "title": "《战锤42：拔智齿》· 01 立项定位",
    "type": "模板",
    "kind": "knowledge",
    "project": "战锤42拔智齿",
    "role": "",
-   "net_chars": 1841,
+   "net_chars": 2778,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -12451,17 +14626,17 @@
    "overridden": false
   },
   {
-   "path": "战锤42拔智齿/02-大纲四层-战锤42拔智齿.md",
+   "path": "战锤42拔智齿/01-原始材料/02-大纲四层-战锤42拔智齿.md",
    "title": "《战锤42：拔智齿》· 02 大纲四层",
    "type": "模板",
    "kind": "knowledge",
    "project": "战锤42拔智齿",
    "role": "",
-   "net_chars": 1822,
+   "net_chars": 1969,
    "tags": [],
    "aliases": [],
    "out": [
-    "战锤42拔智齿/12-品类IP合规前置-战锤42拔智齿.md"
+    "战锤42拔智齿/01-原始材料/12-品类IP合规前置-战锤42拔智齿.md"
    ],
    "in": [
     "PKM/01-MOC/MOC-大纲节拍.md",
@@ -12473,13 +14648,75 @@
    "overridden": false
   },
   {
-   "path": "战锤42拔智齿/12-品类IP合规前置-战锤42拔智齿.md",
+   "path": "战锤42拔智齿/01-原始材料/03-世界观圣经（梦线规则表）-战锤42拔智齿.md",
+   "title": "《战锤42：拔智齿》· 03 世界观圣经（梦线规则表）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "战锤42拔智齿",
+   "role": "",
+   "net_chars": 3031,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-世界观设定.md",
+    "PKM/01-MOC/MOC-战锤42拔智齿.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "战锤42拔智齿/01-原始材料/04-人物卡-战锤42拔智齿.md",
+   "title": "《战锤42：拔智齿》· 04 人物卡",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "战锤42拔智齿",
+   "role": "",
+   "net_chars": 2487,
+   "tags": [],
+   "aliases": [],
+   "out": [
+    "廓者未名夜/作品总览.md"
+   ],
+   "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
+    "PKM/01-MOC/MOC-战锤42拔智齿.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "战锤42拔智齿/01-原始材料/05-文风卡与章节规范-战锤42拔智齿.md",
+   "title": "《战锤42：拔智齿》· 05 文风卡与章节规范",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "战锤42拔智齿",
+   "role": "",
+   "net_chars": 4699,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-战锤42拔智齿.md",
+    "PKM/01-MOC/MOC-文风维度.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "战锤42拔智齿/01-原始材料/12-品类IP合规前置-战锤42拔智齿.md",
    "title": "《战锤42：拔智齿》· 12 品类与 IP 合规前置",
    "type": "模板",
    "kind": "knowledge",
    "project": "战锤42拔智齿",
    "role": "",
-   "net_chars": 3246,
+   "net_chars": 4797,
    "tags": [
     "IP/战锤40K",
     "口径/合规"
@@ -12495,8 +14732,8 @@
     "PKM/01-MOC/MOC-战锤42拔智齿.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md",
     "廓者未名夜/12-品类IP合规前置-廓者未名夜.md",
-    "战锤42拔智齿/02-大纲四层-战锤42拔智齿.md",
-    "战锤42拔智齿/作品总览.md"
+    "战锤42拔智齿/01-原始材料/02-大纲四层-战锤42拔智齿.md",
+    "战锤42拔智齿/01-原始材料/作品总览.md"
    ],
    "broken": [],
    "archived": false,
@@ -12504,13 +14741,13 @@
    "overridden": true
   },
   {
-   "path": "战锤42拔智齿/作品总览.md",
+   "path": "战锤42拔智齿/01-原始材料/作品总览.md",
    "title": "《战锤42：拔智齿》· 作品总览",
    "type": "总览",
    "kind": "knowledge",
    "project": "战锤42拔智齿",
    "role": "入口总览",
-   "net_chars": 1868,
+   "net_chars": 2237,
    "tags": [
     "入口总览"
    ],
@@ -12518,7 +14755,7 @@
     "战锤42总览"
    ],
    "out": [
-    "战锤42拔智齿/12-品类IP合规前置-战锤42拔智齿.md",
+    "战锤42拔智齿/01-原始材料/12-品类IP合规前置-战锤42拔智齿.md",
     "廓者未名夜/作品总览.md"
    ],
    "in": [
@@ -12536,6 +14773,182 @@
    "archived": false,
    "fm": {},
    "overridden": true
+  },
+  {
+   "path": "战锤42拔智齿/02-分析文档/13-勘误与重读-梦线是副本（v2）.md",
+   "title": "《战锤42：拔智齿》· 13 勘误与重读：梦线是副本，不是怪谈",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "战锤42拔智齿",
+   "role": "",
+   "net_chars": 4849,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-合规审校.md",
+    "PKM/01-MOC/MOC-战锤42拔智齿.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "战锤42拔智齿/02-分析文档/14-卷一后续续写开工包（v2·副本推进）.md",
+   "title": "《战锤42：拔智齿》· 14 卷一后续续写开工包（v2·副本推进）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "战锤42拔智齿",
+   "role": "",
+   "net_chars": 3270,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-战锤42拔智齿.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "战锤42拔智齿/02-分析文档/15-天台四人-命运谱与蜀山式铺法.md",
+   "title": "《战锤42：拔智齿》· 15 天台四人：命运谱与蜀山式铺法",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "战锤42拔智齿",
+   "role": "",
+   "net_chars": 6677,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-战锤42拔智齿.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "战锤42拔智齿/02-分析文档/16-特殊化审查-哪些是枪哪些只是恰好.md",
+   "title": "《战锤42：拔智齿》· 16 特殊化审查：哪些是枪，哪些只是恰好",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "战锤42拔智齿",
+   "role": "",
+   "net_chars": 3626,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-战锤42拔智齿.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "战锤42拔智齿/02-分析文档/17-人物原型谱.md",
+   "title": "《战锤42：拔智齿》· 17 人物原型谱",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "战锤42拔智齿",
+   "role": "",
+   "net_chars": 3232,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
+    "PKM/01-MOC/MOC-战锤42拔智齿.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "战锤42拔智齿/02-分析文档/18-人物性格侧写-内敛的狂.md",
+   "title": "《战锤42：拔智齿》· 18 人物性格侧写：内敛的狂",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "战锤42拔智齿",
+   "role": "",
+   "net_chars": 2191,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
+    "PKM/01-MOC/MOC-战锤42拔智齿.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "战锤42拔智齿/98-历史版本/13-现状盘点与联网调研报告-2026-11-15.md",
+   "title": "《战锤42：拔智齿》· 13 现状盘点与联网调研报告",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "战锤42拔智齿",
+   "role": "",
+   "net_chars": 8748,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-对标调研.md",
+    "PKM/01-MOC/MOC-战锤42拔智齿.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "战锤42拔智齿/98-历史版本/14-卷一后续续写开工包-第13章起.md",
+   "title": "《战锤42：拔智齿》· 14 卷一后续续写开工包（第 13 章起）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "战锤42拔智齿",
+   "role": "",
+   "net_chars": 7692,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-战锤42拔智齿.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "战锤42拔智齿/README.md",
+   "title": "《战锤42：拔智齿》· 创作准备包（第 2 版）",
+   "type": "总览",
+   "kind": "knowledge",
+   "project": "战锤42拔智齿",
+   "role": "入口总览",
+   "net_chars": 1545,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-战锤42拔智齿.md",
+    "PKM/MOC-全库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
   },
   {
    "path": "战锤42拔智齿/正文/第01章-少年.md",
@@ -20534,7 +22947,7 @@
    "kind": "knowledge",
    "project": "点子库",
    "role": "",
-   "net_chars": 2538,
+   "net_chars": 2558,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -20553,7 +22966,7 @@
    "kind": "knowledge",
    "project": "点子库",
    "role": "",
-   "net_chars": 1756,
+   "net_chars": 1776,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -20572,7 +22985,7 @@
    "kind": "knowledge",
    "project": "点子库",
    "role": "",
-   "net_chars": 2410,
+   "net_chars": 2432,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -20610,7 +23023,7 @@
    "kind": "knowledge",
    "project": "点子库",
    "role": "",
-   "net_chars": 2040,
+   "net_chars": 2060,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -22189,7 +24602,7 @@
    "kind": "knowledge",
    "project": "点子库",
    "role": "",
-   "net_chars": 3007,
+   "net_chars": 3057,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -22969,7 +25382,7 @@
    "kind": "knowledge",
    "project": "点子库",
    "role": "",
-   "net_chars": 2274,
+   "net_chars": 2319,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -22988,7 +25401,7 @@
    "kind": "knowledge",
    "project": "点子库",
    "role": "",
-   "net_chars": 2302,
+   "net_chars": 2352,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -23007,7 +25420,7 @@
    "kind": "knowledge",
    "project": "点子库",
    "role": "",
-   "net_chars": 2692,
+   "net_chars": 2743,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -23026,7 +25439,7 @@
    "kind": "knowledge",
    "project": "点子库",
    "role": "",
-   "net_chars": 2466,
+   "net_chars": 2512,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -23045,7 +25458,7 @@
    "kind": "knowledge",
    "project": "点子库",
    "role": "",
-   "net_chars": 1854,
+   "net_chars": 1911,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -23064,7 +25477,7 @@
    "kind": "knowledge",
    "project": "点子库",
    "role": "",
-   "net_chars": 2085,
+   "net_chars": 2136,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -23083,7 +25496,7 @@
    "kind": "knowledge",
    "project": "点子库",
    "role": "",
-   "net_chars": 2561,
+   "net_chars": 2614,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -23102,7 +25515,7 @@
    "kind": "knowledge",
    "project": "点子库",
    "role": "",
-   "net_chars": 2256,
+   "net_chars": 2303,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -23121,7 +25534,7 @@
    "kind": "knowledge",
    "project": "点子库",
    "role": "",
-   "net_chars": 2943,
+   "net_chars": 3002,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -24377,7 +26790,7 @@
    "kind": "knowledge",
    "project": "点子库",
    "role": "",
-   "net_chars": 8489,
+   "net_chars": 7044,
    "tags": [],
    "aliases": [],
    "out": [],

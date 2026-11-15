@@ -1,17 +1,17 @@
 {
   "schema": 1,
   "data_as_of": "以 PKM/graph.json 为准",
-  "docs": 1224,
+  "docs": 1340,
   "by_type": {
-    "正文": 564,
-    "设定": 398,
-    "模板": 238,
-    "总览": 24
+    "正文": 566,
+    "设定": 409,
+    "模板": 339,
+    "总览": 26
   },
-  "total_links": 2021,
+  "total_links": 2176,
   "total_broken": 0,
-  "knowledge_docs": 660,
-  "knowledge_orphan_rate": 0.0,
+  "knowledge_docs": 774,
+  "knowledge_orphan_rate": 0.1,
   "frontmatter_docs": 35,
   "plugins": 13,
   "projects_registered": 3,
