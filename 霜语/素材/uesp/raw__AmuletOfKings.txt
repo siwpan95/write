@@ -1,0 +1,11 @@
+{{Game Book
+|icon=SR-icon-book-BasicBook2.png
+|id=0001ACE1
+|value=6
+|weight=1
+|type=List 2
+|loc=*[[sr:Ilinalta's Deep|Ilinalta's Deep]], on a bookshelf in the easternmost room
+*[[sr:Fort Amol|Fort Amol Prison]] on the bookshelves to the left of the entrance
+*[[Skyrim:Arch-Mage's Quarters|Arch-Mage's Quarters]] on bookshelf
+*[[Skyrim:The Katariah|The Katariah]], [[Skyrim:The Katariah#Emperor's Quarters|Emperor's Quarters]]
+}}

@@ -1,0 +1,21 @@
+{{Place Summary
+|type=Nordic Dwelling
+|marker_id=Nordic Dwelling
+|clearable=Yes
+|level=Min: 6
+|occupants=[[Skyrim:Skeleton|Skeletons]], [[Skyrim:Draugr|Draugr]]
+|locationcode=HamvirsRestExterior01
+|region=Whiterun Hold
+|location=Northwest of [[Skyrim:Whiterun|Whiterun]]<br>South of [[Skyrim:Labyrinthian|Labyrinthian]]
+|image=SR-place-Hamvir's Rest.jpg
+|imgdesc=Hamvirs Rest
+|description=A small outdoor graveyard and [[Skyrim:Nordic Dwellings|Nordic ruin]] northwest of [[Skyrim:Whiterun|Whiterun]] containing [[Skyrim:Skeleton|skeletons]] and a [[Skyrim:Draugr|draugr]].
+}}
+{{NewLeft}}
+==Walkthrough==
+The graveyard is just north of [[Skyrim:Dustman's Cairn|Dustman's Cairn]]. Three skeletons patrol the area, and a draugr sleeps in the upright sarcophagus. A master-locked [[Skyrim:Chest|chest]] is beside the sarcophagus, with a random enchanted [[Skyrim:Helmet|helmet]] behind the grates to its left. Eight [[Skyrim:Nightshade|nightshade]] plants, two [[Skyrim:Purple Mountain Flower|purple mountain flowers]], and two [[Skyrim:Lavender|lavender]] plants grow among the tombstones and in the immediate area.
+
+This is the final destination of the [[Skyrim:Headless Horseman|Headless Horseman]] on his nightly travels; once he reaches this area, he will disappear regardless of the time of day.
+
+==Notes==
+* An [[Skyrim:Iron Ore Vein|iron ore vein]] is west-southwest of the ruin.

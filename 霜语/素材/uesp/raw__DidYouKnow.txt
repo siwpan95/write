@@ -1,0 +1,209 @@
+<noinclude>{{Trail}}{{Protection|semi|move}}
+Five random entries from the '''Did You Know''' trivia below are transcluded onto the [[Main Page]] and update once per hour. The trivia may originate from any article on the wiki.</noinclude>
+:''(updates once per hour)''
+{{#pickfrom:{{#ifeq:{{NESTLEVEL:}}|0|500|5}}|cachetime=3600|separator=\n<!--
+
+Games-->
+|*... that '''''[[Arena:Arena|Arena]]''''' was originally going to be played entirely in a single arena, hence the rather irrelevant title and original box art?
+|*... that there were plans to port '''''[[Arena:Arena|Arena]]''''' to the [[Wikipedia:PlayStation (console)|PlayStation]] and [[Wikipedia:Sega Saturn|Sega Saturn]] which were ultimately scrapped?
+|*... that '''''[[Arena:Arena|Arena]]''''' is the only game in the main series in which there are no skills that can be learned?
+|*... that the night sky in '''''[[Arena:Arena|Arena]]''''' consists of a fully realized [[Arena:Solar System|solar system]]?
+|*... that '''''[[Battlespire:Battlespire|Battlespire]]''''' was originally titled ''Dungeon of Daggerfall: Battlespire'', and was created to be an expansion pack for ''[[Daggerfall:Daggerfall|Daggerfall]]''?
+|*... that '''''[[Battlespire:Battlespire|Battlespire]]''''' was the first ''[[General:The Elder Scrolls|Elder Scrolls]]'' game to feature [[Battlespire:Multiplayer|multiplayer]] support?
+|*... that '''''[[Battlespire:Battlespire|Battlespire]]''''' was the first fully voiced ''[[General:The Elder Scrolls|Elder Scrolls]]'' game?
+|*... that you can pilot a [[BS:Level 5#Point M - Hot Air Balloon|hot air balloon]] in '''''[[Battlespire:Battlespire|Battlespire]]'''''?
+|*... that there have been several '''[[General:Canceled Games|canceled]]''' ''[[General:The Elder Scrolls|Elder Scrolls]]'' games, including two sequels to ''[[Redguard:Redguard|Redguard]]''?
+|*... that ''[[Skyrim:Skyrim|Skyrim]]''{{'}}s '''[[Skyrim:Creation Club|Creation Club]]''' adds many artifacts, ingredients, creatures, and other content from previous games?
+|*... that '''''[[Daggerfall:Daggerfall|Daggerfall]]''''' is the only main ''[[General:The Elder Scrolls|Elder Scrolls]]'' game that does not begin with the player somehow imprisoned?
+|*... that '''''[[Daggerfall:Daggerfall|Daggerfall]]''''' is the only main ''[[General:The Elder Scrolls|Elder Scrolls]]'' game that gives the player multiple choices for the [[Daggerfall:Journey to Aetherius#The Prison of Mantella|end of its main quest]]?
+|*... that '''''[[Daggerfall:Daggerfall|Daggerfall]]''''' was originally planned to be called ''The Elder Scrolls II: Mournhold'', and was to be set in [[Lore:Morrowind|Morrowind]]?
+|*... that '''''[[Online:Online|Elder Scrolls Online]]''''' covers the entirety of the [[Lore:Summerset Isles|Summerset Isles]] and [[Lore:Valenwood|Valenwood]]?
+|*... that '''''[[Online:Online|Elder Scrolls Online]]''''' features the first [[Lore:Vampire|vampire]], [[Lore:Lamae Bal|Lamae Bal]]?
+|*... that '''''[[Online:Online|Elder Scrolls Online]]''''' is the first game to feature the [[Online:Kothringi|Kothringi]] and [[Online:Maormer|Maormer]]?
+|*... that each of '''''[[Online:Online|Elder Scrolls Online]]'''''{{'}}s original [[Online:Zones|zones]] were split into three [[Online:Subzones|subzones]]?
+|*... that you can be crowned '''[[Online:Emperor|Emperor]]''' in [[Online:Online|ESO]]?
+|*... that there are 187 named NPCs who are '''[[Oblivion:Essential NPCs|essential]]''' at one point or another in ''[[Oblivion:Oblivion|Oblivion]]''?
+|*... that the story of '''''[[Legends:Legends|Legends]]''''' takes place during the course of three [[Legends:Story|major events]] during the [[Lore:Fourth Era|Fourth Era]]: the [[Legends:The Forgotten Hero|Great War]], the [[Legends:The Fall of the Dark Brotherhood|fall of the Dark Brotherhood]], and the [[Legends:Return to Clockwork City|return of the Dragons]]?
+|*... that '''''[[Legends:Legends|Legends]]''''' was initially developed by [[General:Dire Wolf Digital|Dire Wolf Digital]], until the project was transferred to [[General:Sparkypants Studios|Sparkypants Studios]] a year after the game launched?
+|*... that '''''[[Legends:Legends|Legends]]''''' was the first live service ''Elder Scrolls'' game to shut down, and is no longer playable?
+|*... that the '''[[Legends:Dawnguard|Dawnguard]]''' card expansion for ''[[LG:Legends Asia|Legends Asia]]'' added exclusive cards not featured in the original game?
+|*... that '''''[[LG:Legends Asia|Legends Asia]]''''' released a number of exclusive [[Legends:Card Backs#Legends Asia|card backs]] not featured in the original game?
+|*... that an '''[[Blades:Avatars|Asia-exclusive avatar]]''' was awarded to the first 200,000 players to pre-register for ''[[Blades:Blades|Blades]]'' in Asia?
+|*... that the month of '''[[Lore:Morning Star|Morning Star]]''' is not present in ''[[Morrowind:Morrowind|Morrowind]]'', most likely omitted by accident?
+|*... that '''''[[Morrowind:Morrowind|Morrowind]]''''' is the only game in the main series in which the player cannot fast travel?
+|*... that '''''[[Morrowind:Morrowind|Morrowind]]''''' is the only game in the main series in which the player does not have to fight their way out of a starter dungeon?
+|*... that '''''[[Morrowind:Morrowind|Morrowind]]''''' is the first ''[[General:The Elder Scrolls|Elder Scrolls]]'' game in which the player's stamina regenerates on its own?
+|*... that '''''[[Morrowind:Morrowind|Morrowind]]''''' was originally planned to be called ''The Elder Scrolls III: Tribunal'', and was to be set in the [[Lore:Summerset Isles|Summerset Isles]]?
+|*... that Bethesda released an '''[[:File:MW-map-Morrowind Concept.jpg|early concept map]]''' of the entire Morrowind province, which was later condensed into [[Lore:Vvardenfell|Vvardenfell]] for the game ''[[Morrowind:Morrowind|Morrowind]]''?
+|*... that '''''[[Morrowind:Morrowind|Morrowind]]''''' was initially planned to be developed using [[General:Bethesda|Bethesda]]'s own game engine, ''XnGine'', before switching to [[Wikipedia:Gamebryo|NetImmerse]]?
+|*... that early in '''''[[Morrowind:Morrowind|Morrowind]]'''''{{'}}s development, [[MW:Khajiit|Khajiit]] and [[MW:Argonian|Argonians]] were to be unplayable and only seen in-game as NPCs?
+|*... that over 1,000 '''[[General:Demographics|Non-Player Characters]]''' exist in ''[[Morrowind:Morrowind|Morrowind]]'', ''[[Oblivion:Oblivion|Oblivion]]'', and ''[[Skyrim:Skyrim|Skyrim]]''?
+|*... that at the beginning of '''''[[Oblivion:Oblivion|Oblivion]]''''', the [[LO:Hero of Kvatch|Hero of Kvatch]] is locked in the same [[Oblivion:Imperial City Prison|Imperial City Prison]] cell which [[LO:Jagar Tharn|Jagar Tharn]] had imprisoned the [[LO:Eternal Champion|Eternal Champion]] within 44 years prior?
+|*... that '''''[[Oblivion:Oblivion|Oblivion]]''''' is the first ''[[General:The Elder Scrolls|Elder Scrolls]]'' game in which the player's magicka regenerates on its own?
+|*... that '''''[[Oblivion:Oblivion|Oblivion]]''''' is the first ''[[General:The Elder Scrolls|Elder Scrolls]]'' game where an [[Lore:Elder Scrolls|Elder Scroll]] finally made an [[Oblivion:Elder Scroll|appearance]]?
+|*... that a '''[[Oblivion (PSP)|PSP port]]''' of ''[[Oblivion:Oblivion|Oblivion]]'' was in development at one point but is presumed to be [[General:Canceled Games|canceled]], since it silently disappeared from store listings?
+|*... that the GOG.com release of ''[[Morrowind:Morrowind|Morrowind]]'' in 2015 was the first version of the game to come with all '''[[Morrowind:Plugins|official plugins]]''' pre-installed?
+|*... that the free '''''[[Morrowind:Helm of Tohan|Helm of Tohan]]''''' plugin was originally offered as a pre-order bonus for ordering ''[[Morrowind:Morrowind|Morrowind]]'' from [[wikipedia:EB Games|EB Games]]?
+|*... that '''''[[Redguard:Redguard|Redguard]]''''' is the only game in which you do not get to create your [[Redguard:Cyrus|character]]?
+|*... that '''''[[Redguard:Redguard|Redguard]]''''' is the only game in the series to never receive a [[Redguard:Patch|patch]] from its original [[Redguard:Credits|development team]]?
+|*... that '''''[[Shadowkey:Shadowkey|Shadowkey]]''''' is available only on the [[wikipedia:N-Gage|Nokia N-Gage]]?
+|*... that '''''[[Shadowkey:Shadowkey|Shadowkey]]'''''{{'}}s [[Shadowkey:Multiplayer|multiplayer]] mode actually takes place in a shadow realm, where you can aid another version of yourself?
+|*... that '''''[[Shadowkey:Shadowkey|Shadowkey]]''''' shares its release date (11 Nov 2004) with ''[[Skyrim:Skyrim|Skyrim]]'' (11 Nov 2011)?
+|*... that '''''[[Skyrim:Skyrim|Skyrim]]''''' is the first ''[[General:The Elder Scrolls|Elder Scrolls]]'' game in which the player's health regenerates on its own?
+|*... that you can be rewarded with [[General:Fallout#References|Nuka Cola]] in '''''[[VSE:Skyrim Very Special Edition|Skyrim Very Special Edition]]'''''?
+|*... that '''''[[Stormhold:Stormhold|Stormhold]]'''''{{'}}s female [[Stormhold:NPCs|NPCs]] are all blonde, whereas the female [[Stormhold:Bestiary|enemies]] all have black hair?
+|*... that '''''[[Stormhold:Stormhold|Stormhold]]''''' appears to have seamless dungeons, but a true flat map would make [[Stormhold:Places|North Slope]] and [[Stormhold:Places|Charnel House]] occupy ten of the same cells?
+|*... that most of '''''[[Dawnstar:Dawnstar|Dawnstar]]'''''{{'}}s [[Dawnstar:Quest Walkthrough|quest]] can be skipped at any time by simply taking a guess at who the traitor is?
+|*... that '''''[[Blades:Blades|Blades]]''''' was the second live service ''Elder Scrolls'' game to shut down, and is no longer playable?
+|*...that '''''[[Skyrim:Skyrim|Skyrim]]''''' is the only main series ''[[General:The Elder Scrolls|Elder Scrolls]]'' game whose title accurately reflects its setting, unlike ''[[Arena:Arena|Arena]]'' (set across all [[Lore:Tamriel|Tamriel]], not an arena as originally intended), ''[[Daggerfall:Daggerfall|Daggerfall]]'' (set in the [[Lore:Iliac Bay|Iliac Bay]], not just the city), ''[[Morrowind:Morrowind|Morrowind]]'' (set in [[Lore:Vvardenfell|Vvardenfell]]), ''[[Oblivion:Oblivion|Oblivion]]'' (set primarily in [[Lore:Cyrodiil|Cyrodiil]]) and ''[[Sentinel:Sentinel|Sentinel]]'' (set primarily in [[Lore:Hammerfell|Hammerfell]])?<!--
+
+Places-->
+|*... that '''[[Lore:Akavir|Akavir]]''', a continent east of [[Lore:Tamriel|Tamriel]], consists of four nations and races: [[Lore:Kamal (race)|Kamal]] (Snow Hell), [[Lore:Tsaesci (race)|Tsaesci]] (Snake Palace), [[Lore:Tang Mo (race)|Tang Mo]] (Thousand Monkey Isles), and [[Lore:Ka Po' Tun (race)|Ka Po' Tun]] (Tiger-Dragon's Empire)?
+|*... that the continent '''[[Lore:Atmora|Atmora]]''', the original homeland of the [[Lore:Nord|Nords]], is said to be uninhabitable as of the late [[Lore:Third Era|Third Era]]?
+|*... that citizens of '''[[Lore:Black Marsh|Black Marsh]]''' [[Lore:Transportation|travel]] via an expressway formed within the roots of the [[Lore:Hist|Hist trees]]?
+|*... that the '''[[Lore:Clockwork City|Clockwork City]]''' is described as a "metaphor made manifest", and its exact location is unknown?
+|*... that the '''[[Morrowind:Corprusarium|Corprusarium]]''' is a place where people with the [[Lore:Corprus|Corprus disease]] are experimented upon?
+|*... that the [[Lore:Skyrim|Skyrim]] town of '''[[Lore:Dawnstar|Dawnstar]]''' was once sieged by [[Lore:Ice Tribes|Ice Tribes]] due to betrayal from one of Governor '''[[Lore:Cyril Vinticae|Cyril Vinticae]]'''{{'}}s champions?
+|*... that the '''[[Lore:Deadlands|Deadlands]]''' is split into two distinct regions: The Burn, the infernal type of destruction, and The Sever, the lightning type?
+|*... that the province of '''[[Lore:Elsweyr|Elsweyr]]''' was formed by the union of [[Lore:Anequina|Anequina]] and [[Lore:Pellitine|Pellitine]] in {{Year|2E 309}}?
+|*... that '''[[Lore:Eyevea|Eyevea]]''' was a part of the [[Lore:Shivering Isles|Shivering Isles]] for thousands of years, because [[Lore:Shalidor|Shalidor]] traded it to [[Lore:Sheogorath|Sheogorath]] for the [[Lore:Folium Discognitum|Folium Discognitum]]?
+|*... that the city of '''[[Lore:Farrun|Farrun]]''' used to be an [[Lore:Orc|Orc]] stronghold?
+|*... that according to an ancient [[Lore:Skaal|Skaal]] legend described in ''[[Lore:The Guardian and the Traitor|The Guardian and the Traitor]]'', '''[[Lore:Solstheim|Solstheim]]''' was created when it was sundered from the mainland during a several day long, devastatingly powerful magical duel after a [[Lore:Miraak|dragon priest]] was seduced by [[Lore:Hermaeus Mora|Hermaeus Mora]] and fought against his dragon master?
+|*... that the '''[[Lore:Howling Halls|Howling Halls]]''' were built from the rubble of the Temple of [[Lore:Kynareth|Kynareth]] where [[Lore:Pelagius Septim III|Pelagius Septim III]] died?
+|*... that [[Oblivion:Manheim Maulhand|the publican]] at the '''[[Oblivion:Inn of Ill Omen|Inn of Ill Omen]]''' will buy your [[Oblivion:Crime#Stolen Items|stolen goods]]?
+|*... that the '''[[Shivering:New Sheoth Graveyard|New Sheoth Graveyard]]''' gets a new tombstone with a unique inscription added whenever a [[Shivering:New Sheoth#People|citizen of New Sheoth]] dies?
+|*... that '''[[Lore:Nirn|Nirn]]''' is the name of the planet on which [[Lore:Tamriel|Tamriel]], the continent that hosts most events in the ''[[General:The Elder Scrolls|Elder Scrolls]]'' games, is located?
+|*... that when going through an '''[[Oblivion:Oblivion Gates|Oblivion Gate]]''' in ''[[Oblivion:Oblivion|Oblivion]]'', you're usually going to one of seven [[Oblivion:Planes of Oblivion#Random Worlds|random worlds]]?
+|*... that the '''[[Lore:Shivering Isles|Shivering Isles]]''' is split into two distinct regions: [[Shivering:Mania|Mania]], the lighthearted side of its [[Lore:Sheogorath|ruler]]'s madness, and [[Shivering:Dementia|Dementia]], the darker side?
+|*... that '''[[Lore:Skyrim|Skyrim]]''' was inhabited by [[Lore:Snow Elf|Snow Elves]] until they were driven out by [[Lore:Ysgramor|Ysgramor]] and the [[Lore:Nord|Nords]] in the late [[Lore:Merethic Era|Merethic Era]]?
+|*... that with the [[Lore:Reachmen|Reachmen]] achieving independence from [[Lore:Skyrim|Skyrim]] during the [[Lore:Interregnum|Interregnum]], '''[[Lore:The Reach|the Reach]]''' stopped existing as a Hold and [[Lore:Karthald|Karthald]] was established in its place?
+|*... that most buildings in '''[[Lore:Skyrim|Skyrim]]''' are built partly underground to conserve heat, and are made primarily of stone, with wood used only for support, and roofs of straw above the wood?
+|*... that [[Lore:Quintus Varus|Quintus Varus]], the warden of '''[[Lore:Stormhold|Stormhold]]'''{{'}}s prison, tried to obtain the [[Lore:Storm Crystal|Storm Crystal]] to remove all evil from the [[Lore:Third Empire|Empire]]?
+|*... that a popular drink in '''[[Lore:Valenwood|Valenwood]]''' is jagga, or fermented pig's milk?
+|*... that the island of '''[[Lore:Wasten Coridale|Wasten Coridale]]''' is said to have once housed [[Lore:Hanging Gardens|hanging gardens]]?
+|*... that the continent of '''[[Lore:Yokuda|Yokuda]]''', the original home of the [[Lore:Redguard|Redguards]], sunk around {{Year|1E 792}}?
+|*... that the caverns of '''[[Lore:Blackreach|Blackreach]]''' seem to extend beneath all of [[Lore:Skyrim|Skyrim]]?<!--
+
+People/Creatures/Gods-->
+|*... that the father of ''[[Redguard:Redguard|Redguard]]'' protagonist '''[[Lore:Cyrus|Cyrus]]''' wrote a famous play about the shared history of the [[Lore:Ra Gada|Ra Gada]] and the [[Lore:Na-Totambu|Na-Totambu]]?
+|*... that '''[[Lore:Dagoth Ur|Dagoth Ur]]''' had apparently adopted the views and motivations of [[Lore:Kagrenac|Kagrenac]]?
+|*... that most of the '''[[Lore:Divines|Divines]]''' were named after ''[[Arena:Arena|Arena]]'' and ''[[Daggerfall:Daggerfall|Daggerfall]]'' [[Daggerfall:Easter Eggs#Names of the Divines|beta testers]]?
+|*... that '''[[Lore:Dragon|Dragons]]''' are sacred to the [[Lore:Empire|Empire]], and have aided them in ancient wars?
+|*... that some [[Lore:Third_Empire|Imperial]] Loyalists perform pilgrimages in honor of the '''[[Lore:Eternal Champion|Eternal Champion]]''', retracing the Champion's steps to locations such as [[Lore:Labyrinthian|Labyrinthian]]?
+|*... that '''[[Lore:Hollowjack|Lord Hollowjack]]''' is a [[Lore:Pumpkin Spectre|Pumpkin Spectre]] that rules over [[Lore:Detritus|Detritus]], a demi-plane filled with untold horrors?
+|*... that '''[[Lore:Malacath|Malacath]]''' was supposedly created when [[Lore:Boethiah|Boethiah]] ate the [[Lore:Altmer|Altmeri]] ancestor spirit [[Lore:Trinimac|Trinimac]]?
+|*... that '''[[Lore:Mehrunes Dagon|Mehrunes Dagon]]''' is said to have been created in the bowels of [[Lore:Lyg|Lyg]] by the [[Lore:Magna Ge|Magna Ge]]?
+|*... that '''[[Lore:Mehrunes Dagon|Mehrunes Dagon]]'''{{'}}s [[Lore:Protonymic|protonymic]] (incantory true name) is "Lehkelogah" ({{DaedricFont|LKLG|3}}) and is associated with [[LO:Hefhed|Hefhed]] ({{DaedricFont|F|3}})?
+|*... that '''[[Lore:Meridia|Meridia]]''' is believed to have originally been a [[Lore:Magna Ge|Magna Ge]], going by the name of Merid-Nunda?
+|*... that '''[[Lore:Molag Bal|Molag Bal]]''' created the first [[Lore:Vampire|vampires]]?
+|*... that '''[[Lore:Morgiah|Morgiah]]''', daughter of [[Lore:Barenziah|Barenziah]], became Queen of [[Lore:Firsthold|Firsthold]] by striking a deal with [[Lore:Mannimarco|Mannimarco]], the King of Worms?
+|*... that the '''[[Lore:Numidium|Numidium]]''' was a giant [[Lore:Dwemer|Dwemer]] [[Lore:Dwemer Animunculi|construct]] powered by the [[Lore:Heart of Lorkhan|Heart of Lorkhan]], and used by [[Lore:Tiber Septim|Tiber Septim]] to [[Lore:Tiber Wars|conquer]] all of [[Lore:Tamriel|Tamriel]]?
+|*... that '''[[Lore:Reymon Ebonarm|Reymon Ebonarm]]''', the God of War, had his ebony sword fused to his right arm?
+|*... that '''[[Lore:Jiub|Saint Jiub the Eradicator]]''' drove out all the [[Lore:Cliff Racer|cliff racers]] from [[Lore:Vvardenfell|Vvardenfell]]?
+|*... that '''[[Lore:Sheogorath|Sheogorath]]''' holds the record for having the most [[General:Recurring Characters|recurring appearances]], having appeared in seven separate ''[[General:The Elder Scrolls|Elder Scrolls]]'' games, with his most recent appearance being under the mortal guise of [[Blades:Theodor Gorlash|Theodor Gorlash]] in ''[[Blades:Blades|Blades]]''?
+|*... that '''[[Lore:Sheogorath|Sheogorath]]''', the [[Lore:Daedric Princes|Daedric Prince]] of Madness, was actually [[Lore:Jyggalag|Jyggalag]], the Daedric Prince of Order, until the other Daedric Princes cursed him to live as the former?
+|*... that [[Lore:Hermaeus Mora|Hermaeus Mora]] caused all memory of '''[[Lore:Ithelia|Ithelia]]''', the forgotten Daedric Prince of Paths, to be wiped from existence?
+|*... that '''[[Lore:Sotha Sil|Sotha Sil]]''' predicted his death at the hands of [[Lore:Almalexia|Almalexia]]?
+|*... that '''[[Lore:Sotha Sil|Sotha Sil]]''' recreated the [[Lore:Heart of Lorkhan|Heart of Lorkhan]] to power [[Lore:Clockwork City|Clockwork City]] for eternity?
+|*... that '''[[Lore:Vaermina|Vaermina]]''' was known as Vaernima in ''[[Daggerfall:Daggerfall|Daggerfall]]'' and ''[[Battlespire:Battlespire|Battlespire]]''?
+|*... that the '''[[Online:Tuxedo Vvardvark|Tuxedo Vvardvark]]'''{{'}}s unique coloration is believed to help it camouflage itself among [[Lore:Chub Loon|chub loons]]?
+|*... that '''[[Lore:Welwa|welwas]]''' were hunted to extinction on [[Lore:Summerset Isle|Summerset]], but the [[Lore:Sapiarchs|Sapiarchs]] of the [[Lore:Crystal Tower|Crystal Tower]] reintroduced them from [[Lore:Craglorn|Craglorn]] in the [[Lore:Second Era|Second Era]]?
+|*... that '''[[Lore:Welwa|welwas]]''' were conceptualized by forum user Allerleirauh from an obscure creature in Romanian folklore, and later added to the ''[[General:The Elder Scrolls|Elder Scrolls]]'' mythos in the [[Lore:Pocket Guide to the Empire, 3rd Edition/Summerset|Pocket Guide]]?
+|*... that the ''[[Online:Online|Elder Scrolls Online]]'' boss '''[[Online:Trapjaw|Trapjaw]]''' was originally a [[Lore:Crocodile|crocodile]] before it was changed to a [[Lore:wamasu|wamasu]] in [[Online:Update 12|Update 12]]?
+|*... that the last [[Oblivion:King of Miscarcand|King of Miscarcand]] was called '''[[Lore:Morimath|Morimath]]'''?
+|*... that a race of giant [[Lore:Goblin|Goblins]] from another world invaded [[Lore:Hammerfell|Hammerfell]] in the [[Lore:First Era|First Era]] via the '''[[Lore:Goblin Gate|Goblin gate]]'''?
+|*... that '''[[Lore:Troll|trolls]]''' are capable of living for hundreds of years?
+|*... that [[Lore:Xivilai Moath|Xivilai Moath]] and [[Lore:Faydra Shardai|Faydra Shardai]] are the adoptive childen of '''[[Lore:Mehrunes Dagon|Mehrunes Dagon]]'''?
+|*... that '''[[Lore:Staada|Staada]]''' the [[Lore:Golden Saint|Golden Saint]] has appeared in every game Golden Saints have featured in except for ''[[Blades:Blades|Blades]]''?
+|*... that the '''[[MW:Skylamp's Shadow|Skylamp's Shadow]]''' spell was named after a [[Lore:Skylamp|creature of the same name]] that was intended to appear in ''[[Morrowind:Morrowind|Morrowind]]''?
+|*... that the [[LO:Dark Seducer|Dark Seducer]] depicted on the [[:File:BS-cover-Battlespire Box Art.jpg|cover]] of ''[[BS:Battlespire|Battlespire]]'' is named '''[[LO:Si'ess|Si'ess]]'''?<!--
+
+Races-->
+|*... that '''[[Lore:Altmer|Altmer]]''' tradition requires 3,555 days of study (just under ten years) to become ruler of the [[Lore:Summerset Isles|Summerset Isles]]?
+|*... that a popular '''[[Lore:Argonian|Argonian]]''' musical instrument is the vossa-satl, which has live [[Lore:Frog|frogs]] stored within it? 
+|*... that '''[[Lore:Argonian|Argonians]]''' prefer to call themselves Saxhleel, meaning "People of the Root" in [[Lore:Jel|Jel]], their native tongue?
+|*... that the '''[[Lore:Bosmer|Bosmer]]''' made a [[Lore:Green Pact|Green Pact]] with [[Lore:Y'ffre|Y'ffre]], in return for his patronage and protection, which prohibits their use of any plant matter from [[Lore:Valenwood|Valenwood]]?
+|*... that the '''[[Lore:Bosmer|Bosmer]]''' people can invoke the [[Lore:Wild Hunt|Wild Hunt]], turning themselves into an everchanging horde of feral, supernatural beasts?
+|*... that the majority of '''[[Lore:Breton|Breton]]''' [[Lore:Knights|knighthoods]] are awarded for non-combat-related achievements?
+|*... that '''[[Lore:Dremora|Dremora]]''' traditionally [[Lore:Crafting Motif 63: Dremora Style|craft]] their belts out of [[Lore:Human Skin|human skin]]?
+|*... that '''[[Lore:Imperial|Imperials]]''' were not a distinct race until ''[[Redguard:Redguard|Redguard]]''?
+|*... that the '''[[Lore:Ka Po' Tun (race)|tiger-folk of Ka Po' Tun]]''' are ancient enemies of the [[Lore:Tsaesci (race)|Tsaesci]]?
+|*... that there are [[Lore:Khajiit#Furstocks|seventeen]] different types of '''[[Lore:Khajiit|Khajiit]]''', and which type of Khajiit is born is tied to the [[Lore:Khajiit#Morphology|Lunar Lattice]]?
+|*... that there are black one-piece garments known as '''[[Lore:Khajiit Suit|Khajiit Suit]]s''', used by both Khajiit and non-Khajiit for clandestine missions?
+|*... that the only [[Skyrim:Races|races]] in ''[[Skyrim:Skyrim|Skyrim]]'' that you can't '''[[Skyrim:Marriage|marry]]''' are [[Skyrim:Wood Elf|Wood Elves]] and [[Skyrim:Khajiit|Khajiit]]?
+|*... that '''[[Lore:Maormer|Maormer]]''' use the [[Lore:Sea Serpent|sea serpents]] of [[Lore:Pyandonea|Pyandonea]] as steeds and warbeasts?
+|*... that '''[[Lore:Orc|Orcs]]''' were not a [[Lore:Races|playable race]] until ''[[Morrowind:Morrowind|Morrowind]]'' but rather just a type of monster?
+|*... that the '''[[Lore:Sload|Sload]]''' created the [[Lore:Thrassian Plague|Thrassian Plague]] which caused half of the population of the [[Lore:Iliac Bay|Iliac Bay]], and perhaps even [[Lore:Tamriel|Tamriel]], to die out in {{Year|1E 2260}}?
+|*... that the [[Lore:Second Empire|Empire]] had '''[[Lore:Akaviri Potentate|Tsaesci rulers]]''' for over four hundred years during the [[Lore:Second Era|Second Era]]?<!--
+
+Factions-->
+|*... that the '''[[Lore:Dawnguard|Dawnguard]]''' was originally formed to contain the Jarl of [[Lore:Riften|Riften]]'s [[Lore:Vampire|vampire]] son sometime in the [[Lore:Second Era|Second Era]]?
+|*... that the '''[[Lore:Forsworn|Forsworn]]''' captured [[Lore:The Reach|the Reach]] in {{Year|4E 174}} and held it until it was retaken by [[Lore:Ulfric Stormcloak|Ulfric Stormcloak]] in {{Year|4E 176}}?
+|*... that the '''[[Lore:Mages Guild|Mages Guild]]''' was dissolved after the [[Lore:Oblivion Crisis|Oblivion Crisis]]?
+|*... that the '''[[Lore:Psijic Order|Psijic Order]]''' has removed their home isle of [[Lore:Artaeum|Artaeum]] from the world twice?
+|*... that the '''[[Lore:Imperial Legion|Imperial Legion]]''' has counted [[Lore:Dragon|Dragons]], such as [[Lore:Dragonne Papré|Dragonne Papré]] and [[Lore:Nahfahlaar|Nahfahlaar]], within its ranks?
+|*... that the '''[[Lore:Imperial Navy|Imperial Navy]]''' is the Empire's aquatic force, complementing the land-based [[Lore:Imperial Legion|Imperial Legion]]?
+<!--
+
+Languages-->
+|*... that the '''[[Lore:Ayleid Language|Ayleid language]]''' frequently uses compound words?
+|*... that '''[[Lore:Ayleid|Ayleid]]''' ruins can be found in all of [[Lore:Tamriel|Tamriel]] except [[Lore:Skyrim|Skyrim]], [[Lore:Morrowind|Morrowind]], and the [[Lore:Summerset Isles|Summerset Isles]]?
+|*... that the '''[[Lore:Elven Alphabets|Ayleid runes]]''' on the ''[[Oblivion:Knights of the Nine|Knights of the Nine]]'' box cover [[Lore:Ayleid Language|translate]] to "By the eternal power of [[Oblivion:Umaril the Unfeathered (person)|Umaril]], the mortal gods shall be cast down"?
+|*... that the three '''[[Lore:Daedric Alphabet|Daedric runes]]''' on the cover of ''[[Morrowind:Morrowind|Morrowind]]'' are A S V, which stand for [[Lore:Almalexia|Almalexia]], [[Lore:Sotha Sil|Sotha Sil]], and [[Lore:Vivec|Vivec]], respectively?
+|*... that there are 61 different kinds of [[Lore:Elder Alphabet|glyphs]] on the '''[[Lore:Elder Scrolls|Elder Scrolls]]''', as well as a [[Lore:Elder Scroll|star map]] of the real world southern polar region?<!--
+
+Artifacts/Items/Things-->
+|*... that the '''[[Lore:Amulet of Kings|Amulet of Kings]]''' contained the souls of previous [[Lore:Cyrodiil|Cyrodilic]] emperors and empresses?
+|*... that '''[[Lore:Daedric Equipment|Daedric]]''' weapons and armor are made from refined [[Lore:Ebony|ebony]] and the magical substances of the [[Lore:Daedra#Lesser Daedra|lesser minions of Oblivion]]?
+|*... that the '''[[Lore:Elder Scrolls|Elder Scrolls]]''' held in the [[Lore:White-Gold Tower|White-Gold Tower]] mysteriously disappeared in {{Year|4E 175}}?
+|*... that reading '''[[Lore:Elder Scrolls|Elder Scrolls]]''' will result in the reader eventually losing their eyesight?
+|*... that '''[[Lore:Goldbrand|Goldbrand]]''' was supposedly wielded by [[Lore:Titus Mede II|Emperor Titus Mede II]] in the [[Lore:Battle of the Red Ring|Battle of the Red Ring]] of {{Year|4E 175}} against the [[Lore:Aldmeri Dominion|Aldmeri Dominion]]?
+|*... that, in [[Lore:Vivec|Vivec]]'s absence, the '''[[Lore:Ingenium|Ingenium]]''' was used to keep [[Lore:Baar Dau|Baar Dau]] from crashing into [[Lore:Vivec City|Vivec City]]?
+|*... that '''[[Morrowind:Mazte|mazte]]''' is beer local to [[Lore:Morrowind|Morrowind]], brewed from fermented [[Morrowind:Saltrice|saltrice]]?
+|*... that '''[[Oblivion:The Black Horse Courier|The Black Horse Courier]]''', [[Oblivion:Cyrodiil|Cyrodiil]]'s only newspaper, is funded by the [[Oblivion:Elder Council|Elder Council]] and distributed for free to the population?<!--
+
+Books-->
+|*... that '''''[[Lore:36 Lessons of Vivec, Sermon 37|36 Lessons of Vivec, Sermon 37]]''''', introduced in [[Online:Morrowind|ESO: Morrowind]], references [[General:Michael Kirkbride|Michael Kirkbride]]'s [[General:C0DA|C0DA]]?
+|*... that a [[Lore:Dremora|Dremora]] wrote about the experience of being [[Lore:Conjuration|conjured]] in '''''[[Lore:I was Summoned by a Mortal|I was Summoned by a Mortal]]'''''?
+|*... that '''''[[Lore:King Edward|King Edward]]''''' from ''[[Daggerfall:Daggerfall|Daggerfall]]'' is the longest book to appear in any ''[[General:The Elder Scrolls|Elder Scrolls]]'' game?
+|*... that the book '''''[[Books:Kyne's Challenge: A Hunter's Companion|Kyne's Challenge: A Hunter's Companion]]''''' makes a reference to ''[[Skyrim:Skyrim|Skyrim]]''{{'}}s [[Skyrim:Giant|giants]] sending players flying into the sky?
+|*... that the '''[[Books:Books#Novels|novels]]''' ''[[Books:The Infernal City|The Infernal City]]'' and ''[[Books:Lord of Souls|Lord of Souls]]'' are set between the events of ''[[Oblivion:Oblivion|Oblivion]]'' and ''[[Skyrim:Skyrim|Skyrim]]''?
+|*... that '''''[[Lore:Pocket Guide to the Empire, 1st Edition|Pocket Guide to the Empire, 1st Edition]]''''' said of the [[Lore:Imperial City|Imperial City]]: "Whole neighborhoods rest on the jeweled bridges that connect the islands together. Gondolas and river-ships sail along the watery avenues of its flooded lower dwellings."?
+|*... that '''''[[Lore:The Lunar Lorkhan|The Lunar Lorkhan]]''''' states that [[Lore:Nirn|Nirn]]'s two moons, [[Lore:Masser|Masser]] and [[Lore:Secunda|Secunda]], are actually the corpse of [[Lore:Lorkhan|Lorkhan]]?
+|*... that the lorebook '''''[[Online:Those Who Stood at Chalman Keep|Those Who Stood At Chalman Keep]]''''' is based on a battle from the [[Online:Online|ESO]] [[Online:Beta|beta]], where the game's first [[Online:Emperor|Emperor]] was crowned?
+|*... that the book series ''[[Lore:2920, The Last Year of the First Era|2920]]'' includes a leap day? The second book includes the date "29 Sun's Dawn", which is the equivalent to the real world leap day of 29 February, and the year 2920 would be leap year on the Julian and Gregorian Calendars. The concept of a leap day has [[General:Calendar|seemingly not appeared in the series beyond this one instance]].<!--
+
+Events/Diseases-->
+|*... that by the end of the [[Lore:Third Era|Third Era]], the '''[[Lore:The Blight|Ash Blight]]''' had wiped out [[Lore:Cliff Strider|cliff striders]], [[Lore:Nix-Ox|nix-oxen]], and [[Lore:Vvardvark|vvardvarks]] on [[Lore:Vvardenfell|Vvardenfell]]?
+|*... that the [[Lore:Hero of Kvatch|Hero of Kvatch]] was able to obtain the '''[[Oblivion:Blood of the Divines|blood of a god]]'''?
+|*... that in ''[[OBMobile:Oblivion Mobile|Oblivion Mobile]]'', the [[Lore:Hero of Kvatch|Hero of Kvatch]] used [[Lore:Azura's Star|Azura's Star]] to obtain the '''[[OBMobile:Blood of the Daedra|blood of a Daedra]]'''?
+|*... that a variety of '''[[Lore:Disease|diseases]]''' can be caught by unlucky travelers in the [[Daggerfall:Diseases|Iliac Bay region]], [[Morrowind:Diseases|Vvardenfell]], [[Oblivion:Disease|Cyrodiil]], and [[Skyrim:Disease|Skyrim]]?
+|*... that the '''[[Lore:First Era|First Era]]''' lasted 2921 years, the '''[[Lore:Second Era|Second Era]]''' lasted 896 years, and the '''[[Lore:Third Era|Third Era]]''' lasted only 434 years?
+|*... that the '''[[Lore:Knahaten Flu|Knahaten Flu]]''', which lasted over four decades, nearly wiped out the whole race of the silver-skinned [[Lore:Kothringi|Kothringi]] people?
+|*... that [[Lore:Second Era|Second Era]] [[Lore:Bosmer|Bosmer]] immigrants to [[Lore:Auridon|Auridon]] brought with them a tradition of mud-throwing to celebrate the '''[[Lore:New Life Festival|New Life Festival]]'''?
+|*... that [[Lore:Nirn|Nirn]]'s two moons, [[Lore:Masser|Masser]] and [[Lore:Secunda|Secunda]], vanished from {{Year|4E 98}} until {{Year|4E 100}}, an event that is now called the '''[[Lore:Void Nights|Void Nights]]'''?
+|*... that the '''[[Lore:White-Gold Concordat|White-Gold Concordat]]''' was signed in {{Year|4E 175}}, banning the worship of [[Lore:Talos|Talos]] within the [[Lore:Third Empire|Empire]]?<!--
+
+General/Bethesda/UOL-->
+|*... that Bethesda developer [[General:Michael Kirkbride|Michael Kirkbride]] wrote an unofficial graphic novel, '''[[General:C0DA|C0DA]]''', set in a post-apocalyptic Fifth Era?
+|*... that the '''[[General:Fishy Stick|Fishy Stick]]''' is a [[General:Running Gags|running gag]] which dates back to the Official Forums?
+|*... that '''[[General:M'aiq the Liar|M'aiq the Liar]]''', a [[General:Recurring Characters|recurring character]], is known to break the fourth wall in his dialogue quips?
+|*... that '''[[General:Smolder Scrolls Online|Smolder Scrolls Online]]''', a brief online visual novel made for Valentine's Day, lets you romance well-known [[Online:Online|ESO]] characters?
+|*... that two unofficial texts called '''[[General:Tiber Septim's Sword-Meeting with Cyrus the Restless|Sword-Meetings]]''' bring ''[[Redguard:Redguard|Redguard]]'' protagonist [[Lore:Cyrus|Cyrus]] to [[Lore:Yokuda|Yokuda]] to face [[Lore:Vivec|Vivec]] and to the moon [[Lore:Masser|Masser]] to face [[Lore:Tiber Septim|Tiber Septim]]?
+|*... that '''[[General:Shirley Curry|Shirley Curry]]''', also known as Skyrim Grandma, gained a recognized following through her YouTube videos, and will be featured as a character in ''[[The Elder Scrolls VI]]''?
+|*... that '''[[General:Loranna Pyrel|Loranna Pyrel]]''', the titular character of [[General:Loranna's RP|Loranna's RP]], will be featured as a character in ''[[The Elder Scrolls VI]]''?
+|*... that '''[[General:Todd Howard|Todd Howard]]''' voiced a [[Oblivion:Alban Corinis|character]] for testing purposes in ''[[Oblivion:Oblivion|Oblivion]]''?
+|*... that series co-creator '''[[General:Julian LeFay|Julian LeFay]]''' voiced the [[Battlespire:Daedra Count|Daedra Counts]], some [[Battlespire:Herne|Hernes]], as well as [[Battlespire:Xivilai Moath|Xivilai Moath]], lieutenant of [[Battlespire:Mehrunes Dagon|Mehrunes Dagon]], in ''[[Battlespire:Battlespire|Battlespire]]''?
+|*... that the wizard '''[[GEN:Malthar|Malthar]]''' once welcomed visitors to ''bethsoft.com'' during the mid 1990s and has made multiple other small appearances in the series?
+|*... that there is a Mii Fighter costume for the [[Lore:Last Dragonborn|Last Dragonborn]] in '''''[[General:Super Smash Bros. Ultimate|Super Smash Bros Ultimate]]'''''?<!--
+
+Mods/Fans-->
+|*... that '''[[Oblivion Mod:Morroblivion|Morroblivion]]''' is the [[General:The Elder Scrolls Renewal Project|first of several]] total conversion mods that bring older ''[[General:The Elder Scrolls|Elder Scrolls]]'' games into newer engines, with ''[[Skyrim Mod:Skywind|Skywind]]'' and ''[[Skyrim Mod:Skyblivion|Skyblivion]]'' as its successors?
+|*... that '''''[[Oblivion Mod:Nehrim: At Fate's Edge|Nehrim: At Fate's Edge]]''''' is one of three total conversion mods by German game studio SureAI that use ''[[General:The Elder Scrolls|Elder Scrolls]]'' game engines, with Arktwend and Enderal set in the same alternate fantasy universe?
+|*... that '''[[Morrowind Mod:Mandalore Armor Mod|Mandalore Armor Mod]]''', which adds the suit of armor worn by [[Wikipedia:Boba Fett|Boba Fett]] in ''[[Wikipedia:The Empire Strikes Back|The Empire Strikes Back]]'', is one of ''[[MW:Morrowind|Morrowind]]''{{'}}s earliest [[Morrowind Mod:Mods|mods]], being published online the same day as the game's release and likely made by an anonymous [[GEN:Bethesda|Bethesda]] employee under a pseudonym?
+|*... that '''[[Morrowind Mod:OpenMW|OpenMW]]''' is a fan-made reimplementation of the ''[[Morrowind:Morrowind|Morrowind]]'' game engine that runs natively on Windows, Mac, and Linux, and has been unofficially ported to mobile platforms?
+|*... that '''[[Project Tamriel:Main Page|Project Tamriel]]''' is a set of province mods for ''[[Morrowind:Morrowind|Morrowind]]'', with releases already taking players to parts of [[Lore:Skyrim|Skyrim]] and [[Lore:Cyrodiil|Cyrodiil]]?
+|*... that speedrunners have used exploits such as [[Oblivion:Paint Brush|floating paintbrushes]], "[[Skyrim:Glitches#Horse Tilting|horse tilting]]", phasing through walls, and [[Arena:Bugs#Main Quest Shortcut|repeating the same dungeon]] 17 times?
+|*... that '''[[Tamriel Rebuilt:Main Page|Tamriel Rebuilt]]''' is a province mod for ''[[Morrowind:Morrowind|Morrowind]]'' that began before the game's release and has been in active development ever since?
+|*... that the [[Tamriel Rebuilt:Main Page|Tamriel Rebuilt]] team once planned to move to ''[[Oblivion:Oblivion|Oblivion]]'' modding, with the goal to create the province of [[Lore:Hammerfell|Hammerfell]] starting with the island of '''[[Oblivion Mod:Stirk|Stirk]]'''?
+}}

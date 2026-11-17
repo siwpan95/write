@@ -1,0 +1,74 @@
+{{Trail}} [[Category:Oblivion-Items|Items]]
+Oblivion is full of '''items''' both magical and mundane. The articles listed here provide information on all items in the game.
+
+==Finding Items==
+Depending upon whether you are looking for a specific item or just browsing for general information, there are several different ways to navigate through the many item-related pages.
+
+===Search===
+If you know the exact name of the specific item you want to find, you can use the wiki's [[Special:Search|search feature]] to find the item's page. <!-- this is NOT the search box -->
+
+===Categories===
+Within the category '''[[:Category:Oblivion-Items|Oblivion-Items]]''' are many subcategories listing nearly every item in the game by function. If you don't know the exact spelling of a specific item, browsing through one of the categories may help you to find it.
+
+===General Articles on Items===
+Most of these articles provide general information on various types of items, and also include lists of the mundane (non-enchanted and widely available) varieties of the items.
+*[[Oblivion:Ammunition|Ammunition]]: All arrows, magical and non-magical
+*[[Oblivion:Armor|Armor]]: Base unenchanted armor
+*[[Oblivion:The Black Horse Courier|The Black Horse Courier]]: Cyrodiil's only newspaper
+*[[Oblivion:Books|Books]]: All books in the game
+*[[Oblivion:Clothing|Clothing]]: Base unenchanted clothing and jewelry
+*[[Oblivion:Ingredients|Ingredients]]: A complete list of alchemical ingredients
+*[[Oblivion:Keys|Keys]]: A listing of all keys in the game
+*[[Oblivion:Leveled Lists|Leveled Lists]]: An explanation of how random items are spawned
+*[[Oblivion:Notes|Notes]]: Random notes and letters found in the game
+*[[Oblivion:Potions|Potions]]: All potions, beverages, and poisons
+*[[Oblivion:Skill Books|Skill Books]]: All skill books in the game
+*[[Oblivion:Specialty Gear|Specialty Gear]]: Items used only in special cases, such as guard uniforms, arena gear, etc.
+*[[Oblivion:Weapons|Weapons]]: Base unenchanted weapons
+*[[Oblivion:Miscellaneous Items|Miscellaneous Items]]: Includes tools (alchemy apparatus, soul gems, repair hammers), gems, minor quest items, etc.
+*[[Oblivion:Quest Items|Quest Items]]: Items that are marked as Quest Items at some point or other during the game.
+
+===Articles on Enchanted Items===
+These articles list all the enchanted items available in the game, organized according to how likely you are to find or obtain the item.
+*[[Oblivion: Magic Items|Magic Items]]: General information about magic items
+*[[Oblivion: Artifacts|Artifacts]]: Truly legendary items unlike anything else in appearance or attributes
+*[[Oblivion: Generic Magic Weapons|Generic Magic Weapons]]: All enchanted weapons found as random loot
+*[[Oblivion: Generic Staves|Generic Staves]]: Staves with generic enchantments found as random loot
+*[[Oblivion: Generic Magic Apparel|Generic Magic Apparel]]: All enchanted armor, clothing, and jewelry found as random loot
+*[[Oblivion: Leveled Items|Leveled Items]]: Items obtained as quest rewards whose attributes depend on your level when you obtain them
+*[[Oblivion: Scrolls|Scrolls]]: All magic scrolls in the game
+*[[Oblivion: Staves|Staves]]: All non-generic staves (mages staff, leveled staves, and unique magical staves)
+*[[Oblivion: Unique Items|Unique Items]]: Unique items with fixed attributes that are only found in one place
+
+===Articles Recommending Items===
+These articles provide recommendations on the best available items, depending upon your circumstances.
+*[[Oblivion:Best Non-leveled Items|Best Non-leveled Items]]: The best items for level 1 characters to obtain
+*[[Oblivion:Best High Level Items|Best High Level Items]]: The best items for high-level characters to obtain and how to combine items for the ultimate character
+*[[Oblivion:Magic Items with Guaranteed Locations|Magic Items with Guaranteed Locations]]: Enchanted items found in guaranteed places
+
+===Creating Custom Items===
+* [[Oblivion:Alchemy|Alchemy]]: Create your own custom potions.
+* [[Oblivion:Enchanting|Enchanting]]: Use the enchanting altar to create enchanted armor and weapons.
+* [[Oblivion:Sigil Stones|Sigil Stones]]: Use sigil stones to create enchanted armor and weapons.
+
+===Official Downloads===
+The [[Oblivion:Downloads|official downloads]] add various new items listed on their own pages:
+* [[Oblivion:Knights of the Nine Items|Knights of the Nine Items]] New items added by the [[Oblivion:Knights of the Nine|Knights of the Nine]] download.
+* [[Oblivion:Battlehorn Castle Items|Battlehorn Castle Items]]: New items added by the [[Oblivion:Fighter's Stronghold|Fighter's Stronghold]] download.
+* [[Oblivion:Deepscorn Hollow Items|Deepscorn Hollow Items]]: New items added by the [[Oblivion:Vile Lair|Vile Lair]] download.
+* [[Oblivion:Dunbarrow Cove Items|Dunbarrow Cove Items]]: New items added by the [[Oblivion:Thieves Den|Thieves Den]] download.
+* [[Oblivion:Mehrunes' Razor Items|Mehrunes' Razor Items]]: New items added by the [[Oblivion:Mehrunes Razor|Mehrunes Razor]] download.
+* [[OB:Orrery Items|Orrery Items]]: New items added by the [[OB:Orrery|Orrery]] download.
+* [[OB:Horse Armor|Horse Armor]]: Upgrades for your horse added by the [[OB:Horse Armor Pack|Horse Armor Pack]] and the ''[[Oblivion:Oblivion Remastered|Oblivion Remastered]]'' Deluxe Edition.
+
+==Object ID==
+All of the listed items include the item's Object ID (or Form ID), which can be used on the PC version to obtain the item using the PC [[Oblivion:Console|Console]] command <code>additem</code>. To add an item to your inventory:
+# Open the console with the ` key (the key to the left of the 1 key). The legend of the key varies from country to country. For example, the North European keyboard has a § sign there.
+# Type: <code>player.additem <ObjectID> <Quantity></code> (ex. <code>player.additem 0004788D 1</code>)
+# Hit <Enter> (or <Return>)
+# Close the console by pressing the ` key (or equivalent) again.
+It is not necessary to type the zeroes (0) before the natural numbers or letters when adding an item to your inventory.
+
+* The Object ID for [[Oblivion:Gold|gold]] is <code>0000000F</code>, so to give yourself 10000 gold the command is <code>player.additem F 10000</code>
+* For items from [[Oblivion:Downloads|official downloads]], the provided Object IDs all start with "xx". The "xx" needs to be replaced by the number assigned to that download on your computer, which depends upon the number of downloads you are loading and their load order. See [[Oblivion Mod:Formid|In Game Formid]] for details.
+* For items from [[Oblivion:Downloads|official downloads]], it is not necessary to enter the first '0' in front of the number which denotes the load order (the 'xx').

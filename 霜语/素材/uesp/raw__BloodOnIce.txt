@@ -1,0 +1,222 @@
+<noinclude>{{Protection|semi}}{{Cleanup-srqrp
+|writtenBy=Krusty
+|checkedBy=Beezer1029
+|reward=Krusty
+|rewardChecked=Beezer1029
+}}</noinclude>{{Quest Header
+|type=Side Quests
+|Giver=[[Skyrim:Windhelm Guard|Windhelm Guard]] (see [[#How to Start the Quest|this section]] for details) 
+|Reward=Allows decoration of [[Skyrim:Hjerim|Hjerim]] when purchased, optional [[Skyrim:Necromancer Amulet|Necromancer Amulet]]
+|Disp=
+|Rep=
+|Prev=
+|Conc=
+|Next=
+|Loc=[[Skyrim:Windhelm|Windhelm]]
+|Image=SR-quest-Blood on the Ice2.jpg
+|ImgDesc=A serial killer is on the loose in Windhelm
+|description=[[Skyrim:Windhelm|Windhelm]] is plagued by a shadowy killer.
+|ID=MS11, MS11b
+|Icon=SR-qico-Miscellaneous.png
+}}
+
+==Quick Walkthrough==
+# Go to the murder scene in Windhelm's graveyard and talk to the guard. 
+# Talk to [[Skyrim:Jorleif|Jorleif]] in the Palace of Kings in Windhelm.
+# Talk to [[Skyrim:Helgird|Helgird]] in Windhelm's [[Skyrim:Hall of the Dead (Windhelm)|Hall of the Dead]].
+# Follow the trail of blood to [[Skyrim:Hjerim|Hjerim]] and obtain the key.
+# Search Hjerim for evidence. 
+# Talk to [[Skyrim:Viola Giordano|Viola Giordano]] and [[Skyrim:Calixto Corrium|Calixto Corrium]].
+# Make an important [[#Follow Your Instincts|choice]].
+# Patrol the Stone Quarter at night and catch the murderer.
+# Report back to Jorleif.
+
+==Detailed Walkthrough==
+===A Killer on the Loose===
+When you first visit Windhelm, a few of the citizens and guards will mention a serial killer on the loose. A general fear is noticeable, but nobody will really talk about the killings, and it remains nothing but a rumor. When the right conditions have been met (see [[#How to Start the Quest|this section]] on how to trigger), the body of the [[Skyrim:Candlehearth Hall|Candlehearth Hall]] barmaid, [[Skyrim:Susanna the Wicked|Susanna the Wicked]], will appear, surrounded by witnesses, in the graveyard. If you approach the scene, a [[Skyrim:Windhelm Guard|guard]] will stop you and explain a bit about the murders. The guard also explains about the local guards being too busy with the war to do any real investigation, and they would gladly accept some help from you. For starters, he tasks you with questioning the three townsfolk gathered around the body.
+
+===Investigator of Windhelm===
+On a rare venture outside the [[Skyrim:Hall of the Dead (Windhelm)|Hall of the Dead]], [[Skyrim:Helgird|Helgird]] will be little help at the moment, but will point out that Susanna's coin purse is still intact. [[Skyrim:Calixto Corrium|Calixto Corrium]] claims he 'saw a fellow running away, but didn't get a good look at him', while local beggar [[Skyrim:Silda the Unseen|Silda the Unseen]] didn't make it to the scene before Susanna was dead and the killer gone. The guard will not be particularly surprised with the lack of hard evidence or witnesses, and will point you towards Castle Steward [[Skyrim:Jorleif|Jorleif]] for assistance and helpful advice.
+
+[[File:SR-quest-Blood on the Ice 06.jpg|thumb|right|''"Large diagonal cut from left shoulder..."'']]
+In the [[Skyrim:Palace of the Kings|Palace of the Kings]], Jorleif will be shocked to hear about the third killing, and will gladly accept your help. He will promise you assistance from himself and all the town guards during the investigation. A map marker will now always point towards him, but he will rarely have anything helpful to add. Now it's time to investigate the crime scene without interference from the guard. Susanna's body will have been removed from the crime scene, and only the spatters of blood remain. The guard has noticed the blood as well, and hints that this evidence possibly holds a clue; however, for now you are urged to talk to [[Skyrim:Helgird|Helgird]] in the Hall of the Dead. Due to her profession and life-long experience with dead bodies, she may be able to come up with some answers.
+
+Enter the Hall of the Dead and find Helgird busy examining Susanna's dead body, obviously puzzled by the large diagonal cuts she finds. When asked, she will reveal the shape of the cuts to be somewhat unusual, like they were made with a curved blade designed for embalming, the exact tools she uses. You can choose to indicate her involvement in the killings or simply to leave the conversation, but the results are the same. Helgird will refuse to speak to you further and will ask to be left in peace so she can prepare the body for the funeral. Because both [[Skyrim:Jorleif|Jorleif]] and the guard are unable to do anything at the moment, your only hope for finding a clue is in the graveyard.
+
+The remaining evidence seems to be a trail of blood leading from the graveyard. Follow the bloody trail around the corner and up the stairs, where it ends at the entrance to [[Skyrim:Hjerim|Hjerim]], a huge manor opposite the [[Skyrim:House of Clan Cruel-Sea|House of Clan Cruel-Sea]]. (If you chose to follow the bloody trail before speaking to Helgird, the map marker pointing toward her will now be gone.)
+
+===Hjerim===
+The front door is locked, so either pick the lock or ask Jorleif and/or any guard in town about access to Hjerim. They will briefly tell you about how the house used to belong to the now deceased Friga Shatter-Shield, and it has been abandoned ever since her untimely death. They will also point you towards her mother, [[Skyrim:Tova Shatter-Shield|Tova Shatter-Shield]]. Wait for Tova to leave her house. She will be browsing the market between 11am and 3pm, while she spends her afternoons at Candlehearth Hall. When you approach the grieving mother, it becomes apparent that Friga was one of the victims of the killer. Naturally, Tova will be more than willing to hand you the [[Skyrim:Key to Hjerim|key]] so you can go take a look inside. If you cannot find her, she may be in her home dead after committing suicide (if you have previously committed a certain murder for the Dark Brotherhood) and you can simply take the key off her body.
+
+[[File:SR-quest-Blood_on_the_Ice.jpg|thumb|right|The secret chamber]]
+When entering Hjerim, a [[#Journal. Entries|quest update]] will immediately tell you to look for clues, so take a look around. The blood trail leads to a chest in the southeastern corner, so investigate it and pry it open. Within, you will find eleven pamphlets called ''[[Skyrim:Beware the Butcher!|Beware the Butcher!]]'' along with the ''[[Skyrim:Butcher Journal 1|Butcher's Journal #1]]''. Even though your quest journal now encourages you to follow up on these clues, keep looking around the house. Ignore the mead scattered on the floor and proceed to the two wardrobes in the western alcove. The wardrobe to the right is nailed to the wall, so open it and remove the false back panel. This will reveal the killer's hideout, a room filled with bones, bloody remains and the suspected embalming instruments. Investigate the altar and pick up the ''[[Skyrim:Butcher Journal 2|Butcher's Journal #2]]'' for more evidence. Leave the room, and look at the small shelf between the wardrobes. It contains even more pamphlets, but also a [[Skyrim:Strange Amulet|strange amulet]]. This is the last item of evidence, so make sure to pick it up. Read the pamphlet to learn about a Windhelm citizen named [[Skyrim:Viola Giordano|Viola Giordano]]. Before leaving, if you want to avoid investigating Hjerim with Viola later on, pick up ''[[SR:Butcher Journal 2|Butcher's Journal #2]]'', if you want to experience the full quest scene, just taking ''[[SR:Beware the Butcher!|Beware the Butcher!]]'' and [[SR:Strange Amulet|Strange Amulet]] is enough, ''[[Skyrim:Butcher Journal 1|Butcher's Journal #1]]'' has nothing to do with progressing the quest stage.
+
+===Follow up on the Clues===
+Pay a quick visit to the helpful Jorleif (or a guard) for advice on how to proceed. When you show him the amulet, he will be quite puzzled but will point you to Calixto at the [[Skyrim:Calixto's House of Curiosities|House of Curiosities]] for an opinion. When asked about the term 'the Butcher' he will spitefully refer you to Viola Giordano, the author of the pamphlets and the one to seek out for background information on the killings. At this point, map markers will point to both Viola and Calixto, but it is recommended to visit Calixto first.
+
+====Calixto Corrium====
+Calixto had opened up his small museum with his now-deceased sister, showcasing the various items they found during the adventures they shared back in the day. These days, Calixto spends most of his time sitting in a chair doing absolutely nothing but mourning the loss of his sister and rambling about how happy she'd have been seeing all the curious items under one roof. Not surprisingly, Calixto will, for a small fee, offer a guided tour around the small House of Curiosities and explain the background for a few of the items. It is a good idea to accept this tour, just for the investigation. When you present him with the strange amulet, he will tell you that it's the Wheelstone, traditionally carried by court mages. He will then offer to take it off your hands for 500 gold. Due to a [[#Bugs|bug]] with the amulet, it is recommended to accept this offer.
+
+====Viola Giordano====
+Viola is an [[Skyrim:Imperial|Imperial]] who tends to wander the streets of Windhelm during the day and hang out at [[Skyrim:Candlehearth Hall|Candlehearth Hall]] in the evening. Track her down (with a "Beware the Butcher!" flyer from Hjerim in your inventory) and question her. She is understandably upset about the presence of a serial killer and the apathy of the town guards. If you failed to pick up the journal in the hidden chamber back in Hjerim, Viola will immediately take interest in the old house and set off at a running pace to help with the investigation. If you already have the journal, Viola will point to [[Skyrim:Wuunferth the Unliving|Wuunferth]], the court mage in the Palace of the Kings, as the most likely person to be experimenting with Necromancy. If you chose to speak to Viola before Calixto, the map marker pointing toward him will now be gone. Still, go sell him the strange amulet before going anywhere near the Palace of the Kings. This will net you 500 gold and one less [[#Bugs|bug]] to worry about. 
+{{SkyrimBox|main-color=#FBEFD5|text-color=black|text=
+'''At this point, your next decision will affect how the quest proceeds, and whether the killer is able to strike again.'''
+
+Even if the map marker now points you towards the Palace and your journal tells you to confront Jorleif with the evidence against the court mage, talking to Jorleif can be fatal for the townsfolk of Windhelm. Another option is available, although it's unsaid. You can go directly to the accused [[Skyrim:Wuunferth the Unliving|Wuunferth]] and confront him yourself, without ever talking to Jorleif.
+
+* See [[#Wuunferth|this section]] if you choose to confront '''Wuunferth'''.
+* See [[#Jorleif|this section]] if you choose to speak to '''Jorleif'''. 
+
+Your reward will remain the same regardless of your choice.
+}}
+===Follow Your Instincts===
+====Wuunferth====
+Wuunferth the Unliving lives a secluded life in the Palace of the Kings, but you are free to go visit him at any time. During the day, he will be in his quarters (first door on the left on entering, upstairs, at the far end). He spends his nights wandering around downstairs. Confront him with the rumors about him performing necromancy. He will be quite insulted and will retort that he's a member in good standing of the [[Skyrim:College of Winterhold (faction)|College of Winterhold]]. When you mention the journals and describe the amulet he will immediately identify it as the legendary [[Skyrim:Necromancer Amulet|Necromancer Amulet]], and dismiss Calixto's theories about it being the Wheelstone. 
+
+He reveals that he's also been investigating the killings in Windhelm for quite some time. Noting a pattern with their location and timing, he predicts the killer will strike again the next day in the Stone Quarter, and asks you to keep watch. Now leave Wuunferth alone, ignore the map marker still pointing towards Jorleif, and head to the Stone Quarter and wait until nighttime.
+
+Proceed with the walkthrough in [[#Catch the Killer!|this section]].
+
+====Jorleif====
+[[File:SR-quest-Blood_on_the_Ice_02.jpg|thumb|left|''"Has the whole city lost their brains?"'']] 
+When you tell Jorleif that Wuunferth is the main suspect, and about the necromancer lair in Hjerim, he will be shocked at first; he will, however, find the evidence convincing enough to take action. After thanking you for making the streets of Windhelm safe again, he will set off towards the guard patrolling the palace entrance and order him to come along for an arrest. At this point, the quest will end and you will be left behind in the main hall, without any reward whatsoever.
+
+If you follow Jorleif and the guard into Wuunferth's chambers and eavesdrop during the arrest, a frustrated Wuunferth will claim that he was investigating the murders as well, and will shout that this isn't over when the guard drags him to the [[Skyrim:Windhelm Barracks|barracks]]. At this point, it will be impossible to discuss the subject with any of the characters.
+
+[[File:SR-quest-Blood on the Ice 04.jpg|thumb|right|''"Looks like you aren't such a sharp investigator after all."'']]
+After three full calendar days spent outside Windhelm, you will see a familiar scene upon your return. A guard will be standing next to yet another slain victim (she is on the right of Candlehearth Hall when approaching from the Palace of the Kings): an [[Skyrim:High Elf|Altmer]] named [[Skyrim:Arivanya|Arivanya]] from [[Skyrim:Windhelm Stables|Windhelm Stables]]. The guard will be devastated and quick to inform you of your failure. A new quest with the same name will pop up in your journal, and the guard will suggest you remedy your mistake by talking to the imprisoned Wuunferth. Head to the barracks underneath the Palace and speak to the wizard. When you tell him that the Butcher has claimed yet another victim, he will point out that he's behind bars, and make a jab at your abilities as an investigator. When you tell him about the journal and the amulet, he will deny any knowledge of a journal and ask you to describe the shape of the amulet. He will then identify it as the rare and legendary [[Skyrim:Necromancer Amulet|Necromancer Amulet]]. While he rejects Calixto's Wheelstone theory on the spot, he will reveal that he has noted a pattern in the location and timing of the killings, and asks you to keep watch in the Stone Quarter at night, as he predicts the killer will strike again.
+
+===Catch the Killer!===
+[[File:SR-quest-Blood_on_the_Ice_03.jpg|thumb|right|The killer strikes again.]]
+When you head outside, the Stone Quarter will be incredibly quiet. The entire market is usually devoid of people at night, with the exception of a guard that may be present. You can spot the murderer following his final potential victim through the graveyard and the alley, up to the steps into the market from the west. As they enter the market, you will witness elderly museum owner [[Skyrim:Calixto Corrium|Calixto Corrium]] sneak up behind a female citizen (normally [[Skyrim:Arivanya|Arivanya]], but another woman will be randomly chosen if she is already dead), with his knife drawn for the next kill. You can attack Calixto or use a spell on him to save his would-be victim. If you fail to dispose of him before he slits her throat, or if you attack Calixto and save her, he will panic and take off at a running pace towards his necromancer chamber in Hjerim. Follow him and be ready for a fight, although he shouldn't pose much of a problem. Once dead, loot him for the now-restored Necromancer Amulet (if you sold it to him) and a few other valuable items. Make sure to pick up his [[Skyrim:Calixto's Key|key]], as it will help you reveal the truth behind the murders. If you managed to slay him outside, guards will arrive and point you towards Jorleif for one final conversation. If you slay him outside with a ranged attack, the guards will not approach even after you loot the body, instead continuing to patrol the area. When you speak to Jorleif, he will thank you and say that the city guard will be more cordial to you in the future. 
+
+While optional, it is worth your time to pay a visit to Calixto's now abandoned museum of curiosities to find out the motive behind his murders. In the upstairs area, you will find his chest, unlocked with the key you claimed from his body. Inside are all of his embalming tools, along with the first part of his ''[[Skyrim:Butcher Journal|Journal]]''. When reading through it, it becomes apparent that the untimely death of his sister Lucilla drove him to madness and that the murders, body parts, and necromancer rituals were all part of a desperate attempt to bring her back to life.
+
+After completing the quest, Windhelm guards will sometimes say, ''"You did this city a great service by catching that killer. Well done."'' or ''"I was this close to catching that killer. I swear it."''
+
+==How to Start the Quest==
+There's a global variable counter that will increase each time you enter Windhelm or the immediate surrounding area, either by walking or fast-traveling. It need reach at least 4 to make the quest available. When arriving [[SR:Windhelm Stables|Windhelm Stables]], You can use the console command <code>show MS11EnteringWindhelmCount</code> to check it, it must be 1 if you arrive the first time, and then you can use console command <code>tb</code> to show the border of Windhelm immediate surrounding area, the nearest border is just the main rode west of the [[SR:Alfarinn|Alfarinn]]'s carriage a bit. Then walk back and forth the border twice to make the <code>MS11EnteringWindhelmCount</code> increased to 3. Then make sure the time is between 7pm and 7am, if not, wait until the time meets. Then walk back and forth the border one more time to make the <code>MS11EnteringWindhelmCount</code> increased to 4, then enter Windhelm.
+
+If <code>MS11EnteringWindhelmCount</code> is increased to 4 but the time isn't between 7pm and 7am, the quest will not be available, you'll have to enter one more time in the right time, which will increase <code>MS11EnteringWindhelmCount</code> to 5 or greater.
+
+[[Skyrim:Tova Shatter-Shield|Tova Shatter-Shield]] and [[Skyrim:Arivanya|Arivanya]] also need to be alive (see [[#Bugs|bugs section]]).
+
+When the quest becomes available, besides the dead [[SR:Susanna the Wicked|Susanna the Wicked]], the lock to [[Skyrim:Hjerim|Hjerim]] will also change from a "key required"-lock to a Master-level lock.
+
+If you prefer to start the quest before <code>MS11EnteringWindhelmCount</code> reaches 4, you can manage to obtain [[SR:Keys#Key_to_Hjerim|Key to Hjerim]] from [[SR:Tova Shatter-Shield|Tova Shatter-Shield]], then enter Hjerim and pick up one of the Beware the Butcher! pamphlets to trigger the quest. The quest can't be triggered if the unofficial patch is installed. However, the quest will not start in the same way as outlined in the walkthrough above; you will have to figure out what to do on your own without help from Jorleif, however all of the same options will be open to you except that none of the witnesses will be present in the graveyard; you can sell Calixto the Strange Amulet, you can have Wuunferth arrested or talk to him to catch Calixto, and you will have to talk to Viola in order to continue on with the quest after picking up a pamphlet.
+
+==Notes==
+* Either civil war side is joined, this quest has nothing to do with [[Skyrim:Thane of Eastmarch|Thane of Eastmarch]] without unofficial patch, and this quest must be completed if unofficial patch is installed.
+* There are three known murder victims prior to those encountered on the quest: Friga Shatter-Shield, the twin sister of [[Skyrim:Nilsine Shatter-Shield|Nilsine]]; Isabella, as mentioned by [[Skyrim:Adonato Leotelli|Adonato Leotelli]]; and Fjotli Cruel-Sea, as mentioned by both her father [[Skyrim:Torsten Cruel-Sea|Torsten]] and [[Skyrim:Niranye|Niranye]] during the quest [[Skyrim:Summerset Shadows|Summerset Shadows]]. Since Hjerim's hidden room contains several peoples' remains, these hint that the killer was also either a grave robber, or committed even more murders.
+** Despite there being (at least) three victims prior to Susanna, the guard near her body will claim that she is the third victim.
+* If you've killed [[Skyrim:Nilsine Shatter-Shield|Nilsine]] in order to get a bonus reward in the quest [[Skyrim:Mourning Never Comes|Mourning Never Comes]], Tova will be dead inside her house, and you must retrieve the key to Hjerim from her corpse in time or it will disappear after several days.
+* When Arivanya is killed by the Butcher, she may show the same type of wounds as Susanna did.
+* Sometimes, on completion of this quest, the message that the quest is completed will be displayed twice. This is because two quests with the same name are running simultaneously. The second instance of quest completion occurs due to Wuunferth being absolved of guilt.
+
+==Bugs==
+=== Initiating the Quest ===
+{{Bug|Although most of the NPCs needed for the quest to initiate are marked as essential, another quest, namely the [[Skyrim:Dark Brotherhood|Dark Brotherhood]] quest [[Skyrim:Mourning Never Comes|Mourning Never Comes]], will encourage you to kill [[Skyrim:Nilsine Shatter-Shield|Nilsine Shatter-Shield]]. Even though she is not related to this quest, her mother, [[Skyrim:Tova Shatter-Shield|Tova Shatter-Shield]], will commit suicide if Nilsine is killed, and will therefore render this quest impossible to initiate.|USKP|1.2.1}}
+{{Bug|This quest can fail to start if Susanna's body is purged by the corpse cleanup code.|USKP|1.2.1|A new replacement body is generated to correct this as well as making the body's alias optional so the quest will start.}}
+{{Bug|If Viola has died for some reason the quest may not start or will be impossible to finish.|OSP|1.5}}
+{{Bug|[[Skyrim:Arivanya|Arivanya]], the stable hand, is also needed for this quest to trigger, but is not marked as essential.|USKP|1.2.1}}
+**{{Pc22}} This can also be fixed by reviving the characters with the console commands <code>prid <RefID of NPC></code>, <code>enable</code>, <code>moveto player</code> (for Nilsine because her body doesn't disappear), <code>resurrect</code> and <code>resetAI</code>. This fix works on Skyrim version 1.7 but only after a day has passed after resurrecting NPCs.
+{{Bug|If you [[Skyrim:Battle for Windhelm|capture Windhelm]] for the Imperials before triggering the graveyard scene, the witnesses and the corpse will still show up, but the guard may not, since the Windhelm guards have been replaced by Imperial Legion soldiers. This makes it impossible to start the quest.}}
+**{{pc22}} The remaining portion of this bug has been fixed by version 1.2.4 of the [[Skyrim Mod:Unofficial Skyrim Patch|Unofficial Skyrim Patch]].
+**{{pc22}} Use the console command <code>sqv ms11</code> to bring up a list of quest variables and search for a RefID labeled "CrimeSceneInvestigator", then use the commands <code>prid <Investigator's RefID></code> and <code>moveto player</code>. This will move the guard to your location, allowing you to start the quest.
+**This bug can trigger even if you join the Stormcloaks. Try reloading a previous save from before you entered Windhelm.{{vn|is this true?}}
+**Follow the blood splatters to Hjerim and pick the lock to the front door. Once you walk inside you will get the quest.
+{{Bug|If you acquire a key to Hjerim before the quest has initiated, then enter and pick up a copy of [[Skyrim:Beware the Butcher!|Beware the Butcher!]], the quest will initiate and jump directly to stage 70 with no other journal notes indicating what it's about.|USKP|2.0.4}}
+{{Bug|You can also initiate the quest by picking the Master Lock to Hjerim, that starts the quest with the objective "Look for clues".|USKP|2.0.4}}
+{{Bug|If you begin the [[Skyrim:Dragonborn|Dragonborn]] add-on's [[Skyrim:Dragonborn (quest)|first main quest]] before starting this quest, then this quest may not start.|confirmed=1|dlc=DB|section=Dragonborn DLC main quest}}
+{{Bug|If you go to Windhelm but don't go to the crime scene, after a while it may disappear, Susanna may come back to life and the quest won't start|confirmed=0}}.
+**One fix is to fast travel somewhere. Then wait a while and go to the graveyard.{{vn|Is this true?  And how long to wait?}}
+**{{pc22}} Alternatively, step outside the gate and use the console command <code>resetquest ms11</code>.{{vn}}
+{{Bug|The guard who is supposed to be near the crime scene never shows up.|confirmed=1}}
+**{{pc22}}Enter the console commands <code>player.setstage ms11 10</code>, <code>player.setstage ms11 20</code>, and <code>player.setstage ms11 30</code>. Talk to Jorleif, then go to look at the door to Hjerim. The quest proceeds normally from this point on.
+{{Bug|If the conditions for initiating the quest have not yet been met, entering Hjerim by picking the lock results in several glitched interaction prompts. Picking up the Strange Amulet prevents the quest from ever initiating, leaving Susanna permanently alive and the Strange Amulet as a non-quest item.}}
+
+=== Quest Progression ===
+{{Bug|If a dragon attacks Windhelm, it may kill the guard you are required to talk to after questioning the witnesses. The body will remain there indefinitely.|USKP|2.0.5}}
+{{Bug|[[Skyrim:Ulfric Stormcloak|Ulfric Stormcloak]] has an alias during this quest, which can delay [[Skyrim:Brunwulf Free-Winter|Brunwulf Free-Winter]] becoming Jarl if this quest is still running when [[Skyrim:Battle for Windhelm|Battle for Windhelm]] is finished.|USKP|2.0.5}}
+{{Bug|If the quest is started and you wait too long before continuing it, the blood splatters leading to Hjerim can disappear.|confirmed=1}}
+{{Bug|When you are told to question the witnesses, stay away from Hjerim. Approaching the front door will trigger the 'Gain access to Hjerim' [[#Journal Entries|update]] and clear the graveyard. This will leave you with no witnesses or map markers for the remainder of the quest.|USKP|1.1}}
+{{Bug|The "Beware the Butcher!" pamphlets are not quest items, and if they are all lost or destroyed before talking to Viola the quest will be unable to proceed.|confirmed=1|USKP|2.1.3}}
+{{Bug|Sometimes the game only recognizes the "Beware the Butcher" pamphlets on top of the amulet as 1 of the 5 quest items (3 journals, 1 amulet, 1 pamphlet). Pick them up to progress to the next stage.|confirmed=1}}
+{{Bug|The "Get Assistance from Jorleif" objective will never register as completed.|USKP|1.2.1}}
+{{Bug|If you take the first journal to Viola, she will direct you to talk to Jorleif whether or not you have found the amulet. The quest will proceed as though you had found the amulet when talking to Jorleif and Wuunferth, even though you have not.|USKP|2.0.9}}
+{{Bug|The quest marker will remain over Viola when you find the journal and show it to her when she wasn't assisting you in finding it.|USLEEP|3.0.6}}
+{{Bug|If the quest is started and you do the Stormcloak/Imperial questline first, the quest can become unable to be completed. The guard near the crime scene may be missing after you question the witnesses. One possible solution is to follow the trail of blood to Hjerim in an attempt to skip part of the quest.|USKP|1.2.4}}
+{{Bug|If Wuunferth is arrested and you never talked to Calixto, thus still having the strange amulet, Wuunferth will always stay guilty and the next murder will never take place, making you unable to finish the entire quest or kill Calixto.|confirmed=1}}
+** {{Pc22}} To fix this, type <code>setstage MS11 105</code> in the console to trigger the next murder and continue the quest. However, if you talk to Wuunferth after completing the quest, you may begin a second instance of the quest which can never be completed, as he will set you back to the stage where you witness another murder that will not occur.
+** This problem can be addressed by speaking to Wuunferth in his cell after the three day wait period for the second murder.  The quest will be resumed after completing the dialogue with him.
+{{Bug|It is possible to pickpocket Calixto's key, and open the chest in his museum/house containing the fairly obvious evidence, but it doesn't change anything in the quest. It won't prevent you accusing Wuunferth when talking to Jorleif.|USKP|2.0.1|The key will only appear if Calixto is killed.}}
+{{Bug|When asked to patrol the Stone Quarter at night, Arivanya may not approach, causing Calixto to stand there not doing anything. He may also stand near her without attacking. He will be "busy" if you try to talk to him, and attacking him will incur a bounty, preventing you from finishing the quest.|confirmed=1}}
+** Normally, waiting for an hour will cause Calixto to start moving, allowing the scene to progress as normal. If this does not work, wait until around 8pm the following night for the murder to happen.
+**{{pc22}} Use the console commands <code>disable</code> and <code>enable</code> on Calixto, then type <code>prid 0001B144</code> followed by <code>moveto player</code> to teleport Arivanya to your location. She should walk forward and Calixto will try to kill her. You can then kill him.
+** {{pc22}} You may use the <code>kill</code> command in the console on Arivanya to progress to the next stage if Calixto does not kill her.
+{{Bug|If you conquered Windhelm before patrolling, the next murder will be in front of Blacksmith Quarters but the next murder will not take place and you will be unable to finish the entire quest or kill Calixto. Calixto will be standing next to the victim and never do the crime.}}
+** {{Pc22}} To fix this, type <code>setstage MS11 130</code> and follow the indicator to catch Calixto. Calixto won't run and you only need to follow the indicator. You will find Calixto behind the victim and the victim will be alive. However now you can kill him and go to talk to Wuunferth to complete the quest. When you will go again in that place, even if the victim survived, she won't be there.
+{{Bug|Sometimes the room behind the wardrobe may be completely empty, preventing you from finding the second butcher journal.}}
+** {{Pc22}} You can add the missing item with <code>player.additem 00066182 1</code>.
+{{Bug|Calixto sometimes "stalks" Arivanya into the stables during the day hours when the door is unlocked. In the evening, the stable door becomes locked, and Calixto can't get out and make his way to the market to attempt murdering Arivanya.|vn=1}}
+** Lockpicking the stables door and interacting with Calixto seems to reset his routine. 
+{{Bug|The scene where Calixto's final victim cries for help can only be spoken by one voicetype (FemaleEvenToned).|USKP|2.0.0|This has now been changed to a generic shared bystander shout so all of the potential victims can use it regardless of their voicetypes.}}
+{{Bug|There are several dialogue options that are known to check and see if Jorleif is the one who should be saying them.|USSEP|4.3.6|Since Jorleif is exiled and replaced with [[Skyrim:Captain Lonely-Gale|Captain Lonely-Gale]] if the [[Skyrim:Battle for Windhelm|Empire captures Windhelm]] with Unofficial Skyrim Patch 1.3.2 or later, they are now set to use the AuthorityFigure alias instead.}}
+
+=== Wuunferth Arrested Variation ===
+If you speak to Wuunferth directly, instead of Jorleif, then Calixto will attempt to murder Arivanya in the Stone Quarter. If you choose to have Wuunferth arrested, then Arivanya will be found murdered. For the [[#Catch the Killer!|final showdown]], a random, female NPC will be chosen as the market victim. If the game runs out of potential victims, one of two bugs will trigger:
+{{Bug|After speaking to Wuunferth, the journal will immediately update to stage 130. After chasing Calixto into Hjerim, he cannot be killed. He then will not leave Hjerim and becomes hostile when you enter.|OSP|1.4}}
+**{{Pc22}} To complete quest, exit Hjerim and use console commands: <code>prid 1B11D</code> and <code>moveto player</code>.
+{{Bug|Calixto will stay inside his House of Curiosities and will never attempt his last kill.|OSP|1.4}}
+{{Bug|If you buy Hjerim and arrest Wuunferth, when you get the objective to patrol Windhelm's streets Calixto may appear inside Hjerim, in the room behind the wardrobe, and use any equipment you may have left in it. He will be immediately aggressive and killing him advances the quest normally (go talk to Wuunferth in jail to get next quest entry into journal).|vn=1}}
+{{Bug|Upon receiving the objective to "patrol the streets of the Stone Quarter at night" after speaking to Wuunferth, said objective may already appear completed and a quest marker will appear on Hjerim, where Calixto Corrium is hiding. Killing Calixto Corrium there, even during the day, will advance the quest normally.|confirmed=1}}
+
+=== Other ===
+{{Bug|When selling the amulet to Calixto he gives 500 gold; if you then pickpocket it from him and ask about the amulet he gives you the option to sell it again. This can be repeated as many times as you'd like.|confirmed=1|USLEEP|3.0.5}}
+{{Bug|While Arivanya is needed to initiate the quest, she is scripted to be the victim found near Candlehearth Hall. This means she can be killed during the quest and a second copy of her will turn up when the quest initiates for the second time.|USKP|2.0.4}}
+{{Bug|When confronting Wuunferth with the evidence, you can always mention that Calixto was wrong about the amulet, even if you haven't spoken to Calixto about it.|USKP|2.0.4}}
+{{Bug|You can accuse Wuunferth of necromancy without ever having read any of the available journal pages or taken the amulet from Hjerim.|USKP|2.0.9|You can no longer get him arrested OR confront him directly unless you've done this, which is what the scripting shows was supposed to have been done all along.}}
+{{Bug|You can accuse Wuunferth without having taken possession of the amulet because the amulet and the butcher flyers both share the same script which was only setting a quest stage.|USKP|2.1.3|Two tracking variables have been added to make sure that BOTH clues are required to make the accusation, as intended.}}
+{{Bug|Even before the quest is initiated, speaking to Calixto outside his museum will cause him to close it permanently. Do not attempt to pick the lock, as he will become hostile. Instead, if you want information about the Amulet, find him at Candlehearth Hall between 5pm and 7pm.|USKP|1.2.6}}
+{{Bug|Selling Calixto the strange amulet is the only way to turn it into the Necromancer's Amulet.|USKP|1.2.1}}
+{{Bug|If you reject Calixto's offer or otherwise fail to remove the strange amulet, the necklace will permanently remain a quest item and be stuck in your inventory indefinitely, though it can be placed into the inventories of Susanna the Wicked or Arivanya after they've been murdered, as long as the bodies are around.|USKP|1.0}}
+{{Bug|Although this quest is categorized as a Side Quest in your journal, it does not count towards the "Side Quests Completed" statistic in your General Stats, nor does it count towards the [[Skyrim:Sideways|Sideways]] [[Skyrim:Achievements|achievement]].|USKP|1.2.1}}
+{{Bug|Sometimes when you enter Hjerim, it will be impossible to interact with any of the items in the building even with USLEEP or USSEP installed.|confirmed=1}}
+** This bug was caused by USSEP because it deactivated the activators necessary for the quest progression but it seems to be fixed in version 4.2.5b and later.
+
+==Quest Stages==
+{{Journal Entries
+|id=MS11
+|10||Windhelm is plagued by a shadowy killer. I've been asked to help investigate the latest murder.
+{{Quest Objective|10|Question the witnesses}}
+|20||{{Quest Objective|20|Report to the guard}}
+|30||{{Quest Objective|30|Talk to Jorleif}}
+|40||Windhelm is plagued by a shadowy killer. I've been asked to help investigate the latest murder. Jorleif, the steward, may have advice from time to time.
+{{Quest Objective|40|Examine the crime scene}}
+|50||{{Quest Objective|50|Get access to Hjerim}}
+|60||{{Quest Objective|60|Look for clues}}
+|70||{{Quest Objective|70|Follow up on the clues from Hjerim}}
+|76||{{Quest Objective|76|Meet Viola outside of Hjerim}}
+|80||{{Quest Objective|80|Investigate Hjerim with Viola}}
+|90||{{Quest Objective|90|Talk to Jorleif}}
+|100|fin|I discovered that Wuunferth the Unliving was the Butcher of Windhelm, and helped bring him to justice.
+|110||{{Quest Objective|1|Get assistance from Jorleif}}
+|120||{{Quest Objective|120|Patrol the streets of the Stone Quarter at night}}
+|130||{{Quest Objective|130|Catch the murderer}}
+|150||{{Quest Objective|150|Talk to Jorleif}}
+|250|fin|I discovered that Calixto Corrium was the Butcher of Windhelm, and helped bring him to justice.
+|''Unknown''||{{Quest Objective|41|Talk to Helgird}}
+[[Category:Skyrim-SRQRP-Unknown Objectives]]
+|!|Blood on the Ice|MS11b
+|15||The Butcher has struck again in Windhelm, after Wuunferth the Unliving was imprisoned. It appears he may have been innocent. I need to find the real killer.
+|20|fin|I discovered that Calixto Corrium was the true Butcher of Windhelm, helped bring him to justice, and exonerated Wuunferth.
+|''Unknown''||{{Quest Objective|110|Speak to Wuunferth}}
+{{Quest Objective|120|Patrol the streets of the Stone Quarter at night}}
+{{Quest Objective|130|Catch the murderer}}
+{{Quest Objective|150|Speak to Jorleif for reward}}
+[[Category:Skyrim-SRQRP-Unknown Objectives]]
+|missing=
+** MS11: 0, 1, 105, 200, 205.
+** MS11b: 0, 10
+}}
+{{Skyrim Quest Stages Notes}}

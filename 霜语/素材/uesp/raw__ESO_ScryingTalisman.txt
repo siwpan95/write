@@ -1,0 +1,64 @@
+{{Mod Header|Summerset}}{{Online Collectible Summary
+|collectibletype=Memento
+|type=
+|image=ON-memento-Psijic Scrying Talisman.png
+|imgdesc=
+|icon=ON-icon-memento-Psijic Scrying Talisman
+|id=5034
+|description=The spellcasting monks of the [[Online:Psijic Order|Psijic Order]] are the acknowledged masters of the art of magical scrying, with distinctive gestures and visual effects. Use of this memento enables one to simulate such farseeing.
+|name=
+|acquisition=[[Online:Summerset Collector's Edition|Summerset Collector's Edition]]<br>[[Online:Crown Store|Crown Store]]: [[Online:Summerset Collector's Pack|Summerset Collector's Pack]]
+|crate=
+|tier=
+|price={{ESO Crowns|2,100}}
+|date=March 21, 2018 - June 4, 2019
+}}The '''Psijic Scrying Talisman''' was originally obtained through the purchase of either the physical or digital [[Online:Summerset Collector's Edition|Collector's Edition]] for [[ON:Summerset|Summerset]]. It is now available in the [[Online:Crown Store|Crown Store]] for {{ESO Crowns|2,100}} as part of the [[Online:Summerset Collector's Pack|Summerset Collector's Pack]].
+{{TOCright}}{{NewLeft}}
+
+==Effect==
+Conjure a Psijic scrying circle.
+<!--Don't use occurrences with collectibles that *only* appear in Crown Crates-->
+<!--The height parameter coincides with how many appearances the collectible has made in the store, and is increased by 25 for each appearance. A collectible that appears once has a height of 50, a collectible that appears twice has an Occurrences scrollbox 75 pixels high, 100px for three appearances, 125px for four, etc-->
+==Occurrences==
+'''Appearances: 2'''
+* Summerset Collector's Edition &mdash; March 21, 2018 - June 4, 2019
+* Crown Store &mdash; June 4, 2019
+<!--
+==Physical Appearance==
+
+-->
+
+==System Mail==
+Players who pre-ordered the Summerset Collector's Edition received this correspondence in their in-game mailbox when the Chapter released.
+{| class="wikitable" width="40%"
+! Exclusive Digital Content
+|-
+|
+''For purchasing The Elder Scrolls Online: Summerset Collector's Edition, you have received these Collector's Edition bonus features: <br><br>''
+''• [[ON:Bloodshadow Wraith Steed|Bloodshadow Wraith Steed]] mount<br>''
+''• [[Online:Fledgling Gryphon (pet)|Fledgling Gryphon]] pet<br>''
+''• Psijic Scrying Talisman memento<br>''
+''• Exclusive Emotes<br>''
+''• [[ON:Divine Prosecution Style|Divine Prosecution Outfit Style]], useable at [[Online:Outfit Stations|Outfit Stations]] throughout [[Online:Tamriel|Tamriel]]<br><br>''
+''Your new mount, pet, memento, and emotes can be found in your Collections menu. Welcome to Summerset!''
+|}
+<!--
+
+==Notes==
+*
+-->
+==See Also==
+*[[Online:Court of Bedlam|Court of Bedlam]]
+*[[Online:Pocket Salamander|Pocket Salamander]]
+
+==Gallery==
+<gallery>
+File:ON-crown store-Summerset Collector's Pack.jpg|[[Online:Crown Store Renders/Upgrades|Promotional render]], Summerset Collector's Pack
+</gallery>
+<!--Instructions: Add any bugs related to the collectible here using the format below.--><!--
+==Bugs==
+{{Bug|Bug description}}
+** Workaround
+--><!--
+==References==
+<references />-->

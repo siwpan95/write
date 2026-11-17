@@ -1,0 +1,203 @@
+<noinclude>{{Cleanup-srqrp
+|writtenBy=[[User:Krusty|Krusty]]
+|checkedBy=Beezer1029
+|reward=Krusty
+|rewardChecked=Beezer1029
+}}</noinclude>{{Featured Article}}{{Quest Header
+|type=Side Quests
+|Giver=[[#A Key to the Past|Various]]
+|Reward=[[Skyrim:The_Gauldur_Amulet|Gauldur Amulet]], <br> [[Skyrim:Staff of Jyrik Gauldurson|Staff of Jyrik Gauldurson]],<br> [[Skyrim:Gauldur Blackblade|Gauldur Blackblade]],<br>[[Skyrim:Gauldur Blackbow|Gauldur Blackbow]],<br>Word for the [[Skyrim:Frost Breath|Frost Breath]] shout,<br>Word for the [[Skyrim:Ice Form|Ice Form]] shout
+|Disp=
+|Conc=[[Skyrim:Under Saarthal|Under Saarthal]]
+|Loc=[[Skyrim:Folgunthur|Folgunthur]], [[Skyrim:Saarthal|Saarthal]], [[Skyrim:Geirmund's Hall|Geirmund's Hall]], [[Skyrim:Reachwater Rock|Reachwater Rock]]
+|Image=SR-quest-Forbidden_Legend_02.jpg
+|ImgDesc=The ghosts of the Gauldurson brothers inside Reachwater Rock
+|description=Investigate the forgotten [[Skyrim:Lost Legends|Gauldur Legend]].
+|ID=dunGauldursonQST
+|Icon=
+|SuggLevel=6 or [[Skyrim:Leveled_Item_Quests|36 for leveled items]]
+}}
+
+==Quick Walkthrough==
+# Learn of the [[Skyrim:Gauldur|Gauldur]] legend.
+# Read [[Skyrim:Daynas Valen|Daynas Valen]]'s [[SR:Daynas Valen's Journal|journal]] and [[SR:Daynas Valen's Notes|notes]] in [[Skyrim:Folgunthur|Folgunthur]] to learn the truth in the legend.
+# Find the three parts of the [[Skyrim:The Gauldur Amulet|amulet]] in [[Skyrim:Saarthal|Saarthal]], [[Skyrim:Geirmund's Hall|Geirmund's Hall]], and Folgunthur.
+# Reforge the amulet in [[Skyrim:Reachwater Rock|Reachwater Rock]].
+
+==Detailed Walkthrough==
+===The Legend of Gauldur===
+'''''"The history of Skyrim is vast, predating even the most ancient records of man and mer. Much has been lost, fallen to the ravages of war or the turning of the ages. But nothing is ever truly forgotten. Where no records exist, legends and folk tales offer us a key to the past, a way to piece together truths half-remembered in the minds of men."'''''
+
+The easiest way to uncover one of the best-kept secrets in Skyrim is to locate and read the book ''[[Skyrim:Lost Legends|Lost Legends]]'' for a bit of guesswork on the tragic events that took place back in the First Era. Due to the secrecy surrounding the [[Skyrim:Gauldur|Gauldur]] legend, the author will rely mostly on speculation to provide two possible takes on Gauldur's demise. Gauldur, once an incredibly powerful wizard in the courts of [[Lore:Harald|King Harald]], was assassinated by either the king himself, or by his three sons, [[Skyrim:Jyrik_Gauldurson|Jyrik]], [[Skyrim:Mikrul_Gauldurson|Mikrul]], and [[Skyrim:Sigdis_Gauldurson|Sigdis]] Gauldurson. Both theories suggest jealousy as the main motive. The legend then tells about how the three sons had to flee into the night, immediately chased by King Harald's warriors, led by battlemage Lord Geirmund. The books mention that one of the brothers disappeared into [[Skyrim:Folgunthur|Folgunthur]] and the others were run into the ground soon thereafter.
+
+===A Key to the Past===
+There are multiple ways of initiating the quest.
+# Reading ''[[Skyrim:Lost Legends|Lost Legends]]'' is the way to go if you want to initiate the quest properly and learn every detail about Gauldur and his sons (see book locations [[#Locations of Lost Legends|here]]).
+
+However, a few other items scattered around Skyrim will start the quest as well.<br>
+# Defeat [[Skyrim:Sigdis Gauldurson|Sigdis]] in [[Skyrim:Geirmund's Hall|Geirmund's Hall]] or [[Skyrim:Jyrik Gauldurson|Jyrik]] in [[Skyrim:Saarthal|Saarthal]] and read the ''[[Skyrim:Writ of Sealing (Sigdis)|writ of sealing]]''. This will add a map marker to the nearest copy of the book.
+# Defeat [[Skyrim:Mikrul Gauldurson|Mikrul]] in [[Skyrim:Folgunthur|Folgunthur]] and read his ''[[Skyrim:Writ of Sealing (Mikrul)|writ of sealing]]'', then follow the map marker to [[Skyrim:Daynas Valen's Notes|Daynas Valen's Notes]].
+# Read the ''[[Skyrim:Ancient Edict|Ancient Edict]]'' inside [[Skyrim:Reachwater Rock|Reachwater Rock]], then follow the map marker to the book.
+# Read ''Daynas Valen's Notes'', found on his corpse inside Folgunthur, then proceed as instructed.
+
+Another quest-related item, ''[[Skyrim:Daynas Valen's Journal|Daynas Valen's Journal]]'', can be found and read in the camp outside Folgunthur but can break the quest if read at the wrong time (see [[#Bugs|bugs section]] for more information) and should '''only''' be read when the quest marker points to it.
+
+===Folgunthur===
+After reading ''Lost Legends'', the quest will start right away. Your first objective is to investigate the Gauldur legend. As mentioned in the book, the only known location is the [[Skyrim:Nord|Nord]] ruin of [[Skyrim:Folgunthur|Folgunthur]], south of [[Skyrim:Solitude|Solitude]]. When you arrive you will notice an abandoned camp set up right outside the ruin entrance. Investigate the tents to find an interesting journal scribbled down by [[Skyrim:Daynas Valen|Daynas Valen]], a [[Lore:Dunmer|Dunmer]] obsessed with the legend, who searched all over [[Lore:Cyrodiil|Cyrodiil]] for clues. The search eventually brought him to Skyrim and Folgunthur; follow your map marker into the ruin.
+[[File:SR-quest-Forbidden Legend.jpg|thumb|right|[[Skyrim:Daynas Valen|Daynas Valen]]]]
+Immediately upon entering it is evident that someone was there before. An [[Skyrim:Adventurer#Adventurer2|adventurer]] obviously overlooked the [[Skyrim:Pressure Plate|pressure plate]] and the corresponding [[Skyrim:Spear Trap|spear trap]]. More supporting evidence can be found in the first room where a Dragon Claw puzzle and surrounding pillars have been solved already, except for a hidden door that you do not have the claw for yet, so remember to bring it by here after you have acquired it. Moving on past the remains of yet another [[Skyrim:Adventurer#Adventurer3|adventurer]], you will encounter a [[Skyrim:Draugr|draugr]] and a huge room which immediately seals behind you. Several draugr enemies will break out of their coffins and attack. Using the [[Skyrim:Oil Slicks|oil]] on the floor will be to your advantage. Locate the spiral staircase to the north and beware of the disappearing grate. Should you fall into the water, just locate the handles and pull yourself back out. Head upstairs and locate the dead body of Daynas Valen leaning against another dragon claw trigger. Examine his body for the [[Skyrim:Ivory Dragon Claw|ivory dragon claw]] and his essential [[Skyrim:Daynas Valen's Notes|notes]]; make sure to read them as instructed. This will add three new map markers and three new objectives which will reveal the truth about Gauldur and his three sons.
+
+After reading the notes, insert the ivory dragon claw in the keyhole and cross the bridge. Proceed through the catacombs and fight the draugr enemies until four gates block the path. Investigate the wall for four corresponding levers. Each lever activates a specific set of doors. The first lever on the right activates doors 1, 3, and 4; the second lever on the right activates doors 1 and 4; the first lever on the left activates doors 2 and 3; the second lever on the left activates door 3. While facing the gates, pull the first lever on the left and the second lever on the right to open all four gates. Head down the stony steps and watch out for the [[Skyrim:Falling Boulders|falling boulders]] in the next room. Four draugr and another puzzle wait in the next room, along with three symbols in the neighboring room. The first room contains an iron chain and two handles next to the thrones. The chain will only release a few [[Skyrim:Dart Trap|darts]] at the moment, so check out the symbols in the neighboring room. Facing north, clockwise, the symbols are: '''Snake&mdash;Whale&mdash;Eagle'''. Pull any of the handles in the previous room, which will reveal a new room and release a high level draugr. The movable pillars will have to reflect the ones you just saw, so face north and turn them so they match clockwise. Return to the first room and pull the chain, which will now remove the grate leading downstairs.
+
+The damp underground area hosts a few [[Skyrim:Frostbite Spider|frostbite spiders]]. As you surface from the water, six draugr enemies will burst out of their coffins and attack. The [[Skyrim:Traps#Puzzle Door|puzzle door]] will require you to examine the claw found on Daynas Valen's body; the solution, from the outermost ring inward, is '''Hawk&mdash;Hawk&mdash;Dragon'''. Turn the rings and insert the claw in the keyhole and watch the wall disappear. Finally, make your way to Folgunthur Crypt and prepare yourself for battle.
+
+====Mikrul Gauldurson====
+[[File:SR-quest-Forbidden_Legend_04.jpg|thumb|right|[[Skyrim:Mikrul Gauldurson|Mikrul Gauldurson]]]]
+The final resting place for [[Skyrim:Mikrul Gauldurson|Mikrul Gauldurson]] is a large chamber. When you approach, Mikrul himself smashes open his coffin. Soon he is flanked by four draugr thrall, and the battle with Mikrul begins. Mikrul himself is a powerful draugr and will use the leveled [[Skyrim:Gauldur Blackblade|Gauldur Blackblade]], a [[Skyrim:One-handed|one-handed]] sword with an [[Skyrim:Absorb Health|Absorb Health]] enchantment. Begin the fight and focus on Mikrul as the other draugr will only do minor damage. When he is disposed of, search his body for the ''[[Skyrim:Writ of Sealing (Mikrul)|writ of sealing]]'', his leveled blade, and, most importantly, the [[Skyrim:Gauldur Amulet Fragment|Gauldur Amulet Fragment]]. This fragment is one of three pieces of Gauldur's powerful amulet, stolen by the brothers after the murder. Although referred to as a fragment, it is a fully functional amulet that increases your health 30 points. Lastly, use the claw on the southern wall for access to a boss-leveled chest and a [[Skyrim:Word Wall|word wall]], which has one of the words for the [[Skyrim:Frost Breath|Frost Breath]] shout. To make it out of the dungeon, pull the chain at the right of the closed metal gate and head upstairs.
+
+===Saarthal===
+As part of your initiation into the [[Skyrim:College of Winterhold (faction)|College of Winterhold]], you will have to participate in an expedition to one of the earliest Nord settlements in Skyrim. This settlement happens to be none other than [[Skyrim:Saarthal|Saarthal]]. The related quest, [[Skyrim:Under Saarthal|Under Saarthal]], is the only way to access the ruin, so join college professor [[Skyrim:Tolfdir|Tolfdir]] on what is meant as an educational journey for college newcomers. The trek through the ruin will reveal more than one secret, along with the sealed resting place of [[Skyrim:Jyrik Gauldurson|Jyrik Gauldurson]], your next target for the Forbidden Legend quest. However, make Under Saarthal your active quest for now and follow the walkthrough.{{vn}}
+
+==== Jyrik Gauldurson====
+[[File:SR-quest-Forbidden_Legend_10.jpg|thumb|right|[[Skyrim:Jyrik Gauldurson|Jyrik Gauldurson]]]]
+After a long trek through the dungeon with Tolfdir, the final chamber will reveal a sight to behold. A huge, glowing orb rotates in the center of the room, seemingly shielded by magic, and Tolfdir will be understandably puzzled. When you approach what turns out to be the [[Skyrim:The Eye of Magnus|Eye of Magnus]] (as revealed during the College of Winterhold quest line), [[Skyrim:Jyrik Gauldurson|Jyrik Gauldurson]] will rise from his throne near the table. Tolfdir will attack him with all he's got, but will soon realize he is invulnerable due to the Eye of Magnus. You will have to keep Jyrik occupied while Tolfdir drains the magic from the eye, which will make Jyrik vulnerable after a short period of time. He uses an [[Skyrim:Ancient Nord War Axe|ancient Nord war axe]] but should not give you any trouble once Tolfdir has performed his magic tricks. When he is disposed of, claim his [[Skyrim:Gauldur Amulet Fragment|Amulet Fragment]], which increases magicka by 30 points and the ''[[Skyrim:Writ of Sealing (Jyrik)|writ of sealing]]''. Remember to claim the unique [[Skyrim:Staff of Jyrik Gauldurson|Staff of Jyrik Gauldurson]] from the table, then speak to Tolfdir. Tolfdir will ask you to return to the College of Winterhold. Make Forbidden Legends your active quest again and leave him through the western door where you will find a boss leveled chest and a [[Skyrim:Word Wall|word wall]] with a word for the [[Skyrim:Ice Form|Ice Form]] [[Skyrim:Dragon Shouts|shout]].
+{{NewLeft}}
+
+===Geirmund's Hall===
+According to the research of Daynas Valen, [[Skyrim:Sigdis Gauldurson|Sigdis Gauldurson]] was the brother to finally slay Lord Geirmund after the defeat of his other brothers. Sigdis himself fell in the lengthy battle and Geirmund's Hall was to be his final resting place, forever sealed and protected by the earthly remains of Geirmund. Geirmund's Hall is found on an island straight east of [[Skyrim:Ivarstead|Ivarstead]], conveniently surrounded by [[Skyrim:Lake Geir|Lake Geir]]. Compared to the other two tombs, Geirmund's Hall is rather small, but it soon becomes apparent exactly why Geirmund fell to Sigdis.
+
+[[File:SR-quest-Forbidden_Legend_06.jpg|thumb|The late Lord Geirmund]]
+Upon entering, fight a few resident [[Skyrim:Skeever|skeevers]] and examine yet another dead [[Skyrim:Adventurer#Adventurer6|adventurer]]. Locate the deep pit in the center of the chamber and make sure you have stocked up on supplies, then take the long fall into the depths, where you will land in an underground lake. Examine the water for a tunnel with some treasure and a [[Skyrim:Potions#Draught_of_Waterbreathing|Draught of Waterbreathing]] potion, then head up the wooden bridge and open the door. Two [[Skyrim:Frostbite Spider|frostbite spiders]] will protect their nest and a locked door hiding some minor loot. Beware of the [[Skyrim:Pressure Plate|plate]] triggering a dart trap and proceed to the first a flooded puzzle chamber. Dispose of the residing draugr enemies and, if so desired, carefully claim the [[Skyrim:Soul Gems|soul gem]] from the [[Skyrim:Weight Sensitive Plate|weight sensitive plate]] on the table, which will trigger a deadly [[Skyrim:Battering Ram|battering ram]] when removed. 
+
+Return to the stairs near the entrance to the chamber and take a look at the symbols on the walls. Your task is to rotate the pillars on the walls to match these symbols in the same order and on the same walls. The sequence is '''Eagle&mdash;Whale&mdash;Snake&mdash;Whale'''. Stand at the first encountered pillar, then moving around the room clockwise, rotate the pillars accordingly. 
+
+Pull the lever, head up the stairs, and proceed to the next room, a narrow chamber in two levels. Take the wooden bridge to the upper level and behold the sight of Archmage Geirmund, the mighty slayer of the three brothers, now reduced to a draugr-like skeleton on a pedestal. Read his [[Skyrim:Geirmund's Epitaph|epitaph]] and claim the [[Skyrim:Lord Geirmund's Key|key]] from his fingers. Use it to unlock the nearby door, then fight another draugr and a frostbite spider protecting an [[Skyrim:Arcane Enchanter|arcane enchanter]]. The pathway east leads to a collapsed tunnel with a leveled [[Skyrim:Potion of Prolonged Invisibility|Potion of Invisibility]] sitting on a broken table.
+
+Take the western stairs and follow the tunnel as it bends until you reach a lever and a raised wooden bridge. Stay away from the obvious lever as it will only release a set of [[Skyrim:Spike Wall|spikes]], and investigate the wall to the west of (directly behind) the obvious lever for hidden lever that will lower the bridge. From the bridge, it is optional to jump down on a secret ledge to the southwest for a locked chest protected by a [[Skyrim:Spellcaster Trap|spellcaster trap]]. Get back on track and lower the second bridge for still more draugr enemies and a hall protected by [[Skyrim:Swinging Blades|swinging blades]]. Make your way through and turn them off using the chain on the wall. Proceed forward until you enter a flooded room with several platforms and a mysterious mist coming from the water. This is the final resting place for [[Skyrim:Sigdis Gauldurson|Sigdis Gauldurson]].
+
+==== Sigdis Gauldurson====
+[[File:SR-quest-Forbidden_Legend_07.jpg|thumb|right|[[Skyrim:Sigdis Gauldurson|Sigdis Gauldurson]]]]
+Before heading up the wooden bridge, take a look around the chamber. All the platforms can easily be reached from below and if you are a melee fighter, you will need this knowledge later.
+
+Head up the bridge and approach the coffin, which will cause Sigdis to break out and immediately teleport to any one of the three pedestals around the room. He will then conjure two illusions of himself, placed on the platforms. If you kill the illusions, Sigdis will simply teleport and create two new ones, so there's not much point in going after the illusions at all. You must find the real Sigdis and defeat him.
+
+'''How to quickly distinguish between the real Sigdis and his Illusions'''
+*The real Sigdis does not glow blue like the illusions do.
+*The illusions have glowing purple runes on them, which the true Sigdis lacks.
+*The real Sigdis' health bar goes down when he is hit; the illusions generally die in one hit.
+*The real Sigdis has a helm with horns curled down, like an [[Skyrim:Skyforge#Ancient_Nord_Helmet|ancient Nord]] or [[Skyrim:Ahzidal's Helm of Vision|Ahzidal's helmet]]; the illusions have helms with the horns straight and pointed upward.
+
+If you approach Sigdis, he will generally try to deal one more hit of damage before teleporting and summoning new illusions. This rapid room-crossing can be tricky to overcome for melee-dependent classes. Ranged classes can quickly climb onto either of the central platforms and snipe away. Sigdis will neither teleport to nor create illusions on the platform you are standing on, however he can knock you off the platform with his [[Skyrim:Unrelenting Force|Unrelenting Force]] shout and do heavy damage with his bow as you struggle to your feet.
+
+Use your combat method of choice and defeat the hard boss. Keep an eye on your health at all times and be careful he doesn't disarm you. When he is slain, claim his unique [[Skyrim:Gauldur Blackbow|Gauldur Blackbow]], the ''[[Skyrim:Writ of Sealing (Sigdis)|writ of sealing]]'', and the [[Skyrim:Gauldur Amulet Fragment|Gauldur Amulet Fragment]] (+30 points to stamina) from his corpse. Doing this will reveal a tunnel behind his coffin leading to his treasure room, which includes the boss-leveled chest, the [[Skyrim:Two-handed|Two-handed]] skill book ''[[Skyrim:Words and Philosophy|Words and Philosophy]]'', and some scattered potions and soul gems. Find the nearby tunnel and follow it to a lever that will lower a rock wall and bring you right back to the pit you jumped into near the entrance.
+
+===Reachwater Rock===
+After conquering Saarthal, Folgunthur, and Geirmund's Hall and defeating the undead reincarnations of Jyrik, Mikrul, and Sigdis, the time has finally come to reforge the three Gauldur Amulet Fragments and put the legend to rest. You are pointed towards [[Skyrim:Reachwater Rock|Reachwater Rock]], a cave hidden underneath one of the waterfalls running into [[Skyrim:Karth River|Karth River]], southeast of [[Skyrim:Markarth|Markarth]]. Enter the cave and head downstream. There is an adept-locked chest in the water, plus a skeleton not far away (at the bottom of the pond) with some armor. Be careful if you decide to swim for the chest, as the waterfall applies a great amount of force to the water above you forcing you to the bottom of the pool, hindering your escape. Without a spell or potion of [[Skyrim:Waterbreathing (effect)|Water breathing]] you will likely drown attempting to return to the surface.
+
+Climb back out of the water and up to the central plateau with a deceased [[Skyrim:Adventurer#Adventurer7|adventurer]] and a podium with the [[Skyrim:Emerald Dragon Claw|emerald dragon claw]], along with the unsettling ''[[Skyrim:Ancient Edict|ancient edict]]''. Head to the door and examine your new dragon claw for the combination ('''Bear&mdash;Whale&mdash;Snake''') and rotate the rings to match. Insert the claw in the keyhole and the door will open, along with three similar doors further ahead.
+
+Another puzzle door will block your path, and this time you will need the [[Skyrim:Ivory Dragon Claw|ivory dragon claw]] you claimed back in Folgunthur. Rotate the rings to match the '''Hawk&mdash;Hawk&mdash;Dragon''' symbols on the claw and follow the corridor a long way down toward a huge chamber with a set of stairs in the center. Notice the many coffins surrounding the area and make your way to the three Amulet Pedestals. Place a fragment on top of each pedestal and listen to the sound of the gate closing behind you.
+
+====Gauldur====
+The ghosts of all three murderous brothers will now appear over the pedestals and you will have to fight them all, one by one. First up is Mikrul, who appears near the recently closed gate along with an army of draugr thrall. Pick the chaotic fight and watch the ghost of Mikrul disappear and kneel next to his brothers when you slay him. Next up is Sigdis, the hardest of the three, who will repeat his old trick, spawning three fake clones this time around instead of two. As before, the real Sigdis has a different helmet with curved horns, making him easy to identify. Jyrik is the last of the three, and he will teleport himself around at random times and summon daedric enemies to help him out. Take him down and watch the last of the three ghosts fall to the ground. As the three of them try to get back on their feet, [[Skyrim:Gauldur|Gauldur]] himself will appear and blow them all away with a gigantic explosion. He will then forge the three amulet pieces into one, finally ending the curse and providing your reward. The complete [[Skyrim:The Gauldur Amulet|Gauldur Amulet]] increases your health, magicka, and stamina by 30 points. Before you leave, take a look at the skeleton remains of Gauldur, the powerful wizard murdered by his own sons thousands of years ago. Search the bones for a considerable amount of gold, then leave. On your way out, a hidden wall will have lowered, revealing even more rewards for your tireless quest for the truth: a boss leveled treasure chest.
+{{Multiple Images
+| align= center
+| direction= horizontal
+| image1= SR-quest-Forbidden_Legend_15.jpg
+| caption1= [[Skyrim:Gauldur|Gauldur]]'s coffin breaks open.
+| image2= SR-quest-Forbidden_Legend_16.jpg
+| caption2= Forging the Amulet Fragments
+| image3= SR-quest-Forbidden_Legend_18.jpg
+|caption3= [[Skyrim:The_Gauldur_Amulet|The Gauldur Amulet]]
+| image4= SR-quest-Forbidden_Legend_19.jpg
+| caption4= Peace at last
+}}
+{{NewLine}}
+'''''"And once it was done, King Harald ordered every record of their murders destroyed, and Gauldur's name and deeds were struck from the rolls of history. Even today, few sources remain, and no bard will tell the tale. But perhaps the truth yet remains in some ancient ruin, waiting to be unearthed. For nothing is ever truly forgotten."'''''
+
+===Locations of ''Lost Legends'' ===
+A total of 24 fixed copies can be found scattered around Skyrim, with the majority of the copies only available during quests or dungeon delving. This is a list of the ten copies that can be found and studied without any prerequisite actions or consequences, all of them found in larger cities. Remember, it is not opening a book that constitutes a crime, but ''stealing'' the book which incurs a bounty.
+
+{|class="wikitable"
+!City!!Location!!Specific details
+|-
+|[[Skyrim:Dawnstar|Dawnstar]]||[[Skyrim:The White Hall|The White Hall]]||Jarl's Quarters, on the wardrobe.
+|-
+|[[Skyrim:Falkreath|Falkreath]]||[[Skyrim:Dengeir's House|Dengeir's House]]||On the dresser.
+|-
+|[[Skyrim:Markarth|Markarth]]||[[Skyrim:Understone Keep|Understone Keep]]||Jarl's Quarters, shelves on the northern wall.
+|-
+|[[Skyrim:Riften|Riften]]||[[Skyrim:Black-Briar Manor|Black-Briar Manor]]||On the second floor.
+|-
+|[[Skyrim:Solitude|Solitude]]||[[Skyrim:Bards College|Bards College]]||Second floor, northern classroom.
+|-
+|[[Skyrim:Solitude|Solitude]]||[[Skyrim:Blue Palace|Blue Palace]]|| On a corner table outside Sybille's quarters.
+|-
+|[[Skyrim:Whiterun|Whiterun]]||[[Skyrim:Dragonsreach|Dragonsreach]]||On a shelf in the Wizards Quarters, underneath a flagon.
+|-
+|[[Skyrim:Whiterun|Whiterun]]||[[Skyrim:Dragonsreach|Dragonsreach]]||Jarl's Quarters, top floor, southwestern room.
+|-
+|[[Skyrim:Whiterun|Whiterun]]||[[Skyrim:House Gray-Mane|House Gray-Mane]]||Shelves on the second floor.
+|-
+|[[Skyrim:Windhelm|Windhelm]]||[[Skyrim:Palace of the Kings|Palace of the Kings]]||Upstairs area, northeastern bedroom.
+|}
+
+==Notes==
+*This quest is only added to your log when you read one of the documents connected to the quest; if you take all of the fragments to Reachwater Rock and assemble the amulet, the quest can be completed without any objectives being given.
+*The clones of Sigdis encountered in Geirmund's Hall and Reachwater Rock are the only source of [[Skyrim:Rusty Arrow|Rusty Arrows]] in the game.
+*In Folgunthur, Mikrul Gauldurson bursts from his coffin as soon as you reach the corner of the passage leading to the last large chamber. If you have a good ranged weapon (e.g. crossbow (Fine)) and reasonable archery skills, it is possible to kill him with two (or more) steel bolts from that corner of the passage. If you succeed, the Draugr will all die (or never wake up) leaving you free to loot the entire chamber at your leisure.
+*It is possible to loot the spirits of the brothers in Reachwater Rock before the "bodies" disappear, meaning you can get two Gauldur Blackblades and two Gauldur Blackbows.
+*Both [[Skyrim:Gauldur_Blackblade|Gauldur Blackblade]] and [[Skyrim:Gauldur_Blackbow|Gauldur Blackbow]] are [[Skyrim:Leveled_Items|Leveled Items]], only after the player has reached level 36+ can render them the highest version. The weapon level is determined by boss level, the boss level is determined by the first time the dungeon spawns, and the dungeon never respawns. There's also a worth noticing point that 4 dungeons(Folgunthur, Saarthal, Geirmund's Hall, Reachwater Rock) are spawned together in the same time, it's programmed by game developers. Either reading book [[Skyrim:Lost_Legends|Lost Legends]] or approach any relating dungeon will cause all 4 dungeons to spawn.
+
+==Bugs==
+{{Bug|Conjuring an Ash Guardian may cause Gauldur to indefinitely stalk back and forth across the upper platform as though enemies still exist even after he has destroyed the three brothers. The Ash Guardian will appear hostile towards him, but will not attack. This causes the animation for reconstructing the amulet to fail, and you end up stuck in the chamber indefinitely with his ghost and the guardian, as there is no way to banish it. |confirmed=1}}
+{{Bug|The Amulet fragments can disappear after you leave a dungeon without taking it.|OSP|1.4}}
+{{Bug|Killing Mikrul Gauldurson while sneaking may make his corpse inaccessible.|OSP|1.4}}
+{{Bug|Killing Sigdis right as he is rising from his tomb can cause the corpse to disappear, making his corpse inaccessible.|confirmed=1}}
+{{Bug|Using lightning attacks might disintegrate the brothers without leaving lootable ash piles behind, so you won't be able to proceed with the quest, and you will be stuck or forced to load a previous save. Likewise, if any of the three brothers is disintegrated at the finale, the quest won't be able to continue.|OSP|1.4.21.0.4}}
+**Saving at the end of the battle and reloading may fix this.
+{{Bug|You may be able to wear the Gauldur Amulet in addition to another one.|OSP|1.8}}
+{{Bug|While Daynas Valen's Journal is a quest-related item, reading it before reading ''Lost Legends'' will cause the quest stages to stumble upon each other. First, it will render ''Lost Legends'' useless. Reading ''Lost Legends'' will then render all three writs of sealing and the ''Ancient Edict'' useless. If you read them in a different order, the quest will initiate but will not update.|confirmed=1}}
+**If you stumble upon this bug, the only solution is to find Daynas Valen in Folgunthur and read his notes. The quest will then start and proceed from quest stage 30.
+{{Bug|If any dragon claw doors or rotating pillars do not work, check [[Skyrim:Puzzle Totems#Bugs|here]] for possible fixes.|confirmed=1}}
+{{Bug|In Reachwater Rock, it is possible to be thrown through the walls of the chamber by the second boss' shouts. This may cause you to be stuck, or thrown back to the beginning of the dungeon.|confirmed=1}}
+{{Bug|In Reachwater Rock, if any of your summons remain after the battle, Gauldur may rise from the dead but continue to dart back and forth ready for battle, even though all three brothers have disappeared, and ignore the pieces of the amulet. This is most likely if you conjure an [[Skyrim:Ash Guardian|Ash Guardian]], since it will continue to exist indefinitely.|confirmed=1}}
+**{{Pc22}} This can be fixed by using the <code>stopcombat</code> command on Gauldur.
+{{Bug|In Reachwater Rock, if you have the [[Skyrim:Bonewolf|Bonewolf]] with you, Gauldur may rise from the dead but continue to attack the Bonewolf, even though all three brothers have disappeared, and ignore the pieces of the amulet. Reload and tell the Bonewolf to wait outside.}}
+{{Bug|In Reachwater Rock, if you have the [[Skyrim:Disintegrate|Disintegrate]] perk, and use a shock spell such as [[Skyrim:Unbounded Storms|Unbounded Storms]] to fight the ghosts of the Gauldurson brothers, they may disintegrate into Ash before they can return to their pedestal, which will prevent Gauldur from rising from the dead.|confirmed=1}}
+{{Bug|If after collecting all three amulet pieces your journal doesn't update with the final phase of the quest, you can proceed to Reachwater Rock and complete the quest as if it did update. The quest will complete after defeating the brothers and upon receiving the fused amulet.|confirmed=1}}
+{{Bug|If you take any of the sealed writs the journal entries get changed even if you picked up fragments of the amulet and already know about the quest.|USLEEP|3.0.4}}
+{{Bug|Sigdis Gauldurson's Haal Viik (Disarming shout) will often knock any bow you have through the floor, making retrieving it impossible.}}
+
+==Quest Stages==
+{{Journal Entries
+|6||In Reachwater Rock, I found a cryptic message that said the tomb here had been sealed, and should be forgotten forever. What is the story of this place?
+{{Quest Objective|6|Investigate the cryptic message}}
+|7||In Folgunthur, I found a cryptic message on the body of a powerful Draugr, condemning him for his ancient crimes. What was his story? Why was he entombed with a broken amulet?
+{{Quest Objective|6|Investigate the cryptic message}}
+|8||In Geirmund's Hall, I found a cryptic message on the body of a powerful Draugr, condemning him for his ancient crimes. What was his story? Why was he entombed with a broken amulet?
+{{Quest Objective|6|Investigate the cryptic message}}
+|9||In Saarthal, I found a cryptic message on the body of a powerful Draugr, condemning him for his ancient crimes. What was his story? Why was he entombed with a broken amulet?
+{{Quest Objective|6|Investigate the cryptic message}}
+|10||Long ago, the Archmage Gauldur was murdered, and his three sons were hunted down by King Harald's personal battlemage. The entire incident was covered up, their names struck from every record. But the legend survived. Perhaps someone still knows the truth of this ancient tale.
+{{Quest Objective|10|Investigate the Gauldur legend}}
+{{Quest Objective|20|Learn the truth from Daynas Valen}}
+{{Quest Objective|21|Read Daynas Valen's notes}}
+|20||Long ago, the Archmage Gauldur was murdered, and his three sons were hunted down by King Harald's personal battlemage. The mage Daynas Valen spent his life searching for the truth of this tale, and came to Folgunthur with the key needed to unlock its secret.
+{{Quest Objective|21|Read Daynas Valen's notes}}
+{{Quest Objective|20|Learn the truth from Daynas Valen}}
+|21||{{Quest Objective|21|Read Daynas Valen's notes}}
+|30||Long ago, the Archmage Gauldur was murdered by his three sons, who stole his amulet of power and divided it among themselves. The brothers were hunted down in secret and sealed in tombs across Skyrim. To reclaim the amulet, I will need to seek out their final resting places.
+{{Quest Objective|31|Find the Gauldur Amulet Fragment in Folgunthur}}
+{{Quest Objective|32|Find the Gauldur Amulet Fragment in Geirmund's Hall}}
+{{Quest Objective|33|Find the Gauldur Amulet Fragment in Saarthal}}
+{{Quest Objective|100|Reforge the Gauldur Amulet}}
+|100||Long ago, the Archmage Gauldur was murdered by his three sons, who stole his amulet of power and divided it among themselves. I defeated the brothers and reclaimed the fragments of the amulet. Perhaps Gauldur's tomb holds the secret to restoring it to its original form.
+{{Quest Objective|100|Reforge the Gauldur Amulet}}
+|105||Long ago, the Archmage Gauldur was murdered by his three sons, who stole his amulet of power and divided it among themselves. I collected the fragments of the shattered amulet and brought them to Gauldur's tomb, where the ghosts of the three brothers ambushed me.
+|150||Long ago, the Archmage Gauldur was murdered by his three sons, who stole his amulet of power and divided it among themselves. I defeated the undead brothers, located the fragments of the shattered amulet, and forged it anew in Gauldur's tomb.
+{{Quest Objective|150|Take the Gauldur Amulet}}
+|255|fin|
+|missing=0, 1, 31, 32, 33, 101, 102, 103, 110, 111, 119, 120, 121, 129, 130, 131, 139, 140
+}}
+{{Skyrim Quest Stages Notes}}

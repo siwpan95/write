@@ -1,0 +1,657 @@
+{{Trail|Items}} [[Category:Oblivion-Weapons| ]] [[Category:Oblivion-Armor| ]] [[Category:Oblivion-Clothing| ]] [[Category:Oblivion-Quest_Items| ]] {{TOCright}}
+'''Quest items''' are items needed to complete a specific quest; usually they have to be given up when the quest has been completed although some may be kept as a reward or part of a reward. A Quest Item cannot be dropped or sold; it will remain in your inventory till a quest removes it for you. Some Quest Items will remain in your inventory forever unless you remove them through the console. In appearance they are usually identical to the generic items they are based on. They are only distinguished from generic items by their name, the fact that they will not stack in your inventory with generic items, or because they have an enchantment. This list does '''not''' include items given as rewards for completing a quest, although some items may be kept as rewards after some quests. Quest rewards are listed on the related quest page at the top.
+
+For Quest Items introduced by the [[SI:Shivering Isles|Shivering Isles]] expansion pack, see [[SI:Quest Items|this page]].
+{{NewLine}}
+==Armor==
+{| class="wikitable sortable" style="width: 100%"
+! class=unsortable |
+! Armor
+! Type
+! class=unsortable |{{Weight Icon}}
+! class=unsortable |{{Health Icon}}
+! {{Value Icon}}
+! {{Armor Rating Icon}}
+! style="width: 15%" class=unsortable | Enchantment
+! class=unsortable | Notes
+|-
+|{{nowrap|{{icon|a|HeavyRaimentOfValor(m)}}{{icon|a|HeavyRaimentOfValor(f)}}}}
+|{{Anchor|Agronak's Raiment}}<br>{{ID|0003B1DC}}||Heavy Raiment
+|72||1000||100||20|| [[Oblivion:Fortify Personality|Fortify Personality]] 10 pts<br>[[Oblivion:Fortify Skill|Fortify Athletics]] 10 pts<br>[[Oblivion:Fortify Health|Fortify Health]] 10 pts<br>[[Oblivion:Fortify Fatigue|Fortify Fatigue]] 10 pts ||A Raiment occupies many slots, with a Raiment equipped you may equip a Helmet, Shield and any assortment of Jewelry.
+|-
+|{{AL|C}}|{{icon|a|ElvenHelmet}}
+|{{Anchor|Ancient Elven Helm}}<br>{{ID|000150BA}}||Light Helmet
+|0||440||0||4
+|None||Found in [[Oblivion:Vahtacen|Vahtacen]]
+|-
+|{{AL|C}}|{{icon|a|ImperialDragonCuirass}}
+|{{Anchor|Armor of Tiber Septim}}<br>{{ID|0001FECF}}||Heavy Cuirass
+|40||900||190||11.25||None
+|Found in [[Oblivion:Sancre Tor|Sancre Tor]]
+|-
+|{{AL|C}}|{{icon|a|AyleidCrownOfLindai}}
+|{{Anchor|Ayleid Crown of Lindai}}<br>{{ID|000BE5D4}}||Light Helmet
+|1||400||8350||0||[[Oblivion:Fortify_Skill|Fortify Alteration]] 15 pts<br>[[Oblivion:Fortify_Skill|Fortify Illusion]] 15 pts<br>[[Oblivion:Resist_Magic|Resist Magic]] 35%||For more information see [[Oblivion:Ayleid_Crown_of_Lindai|this item's page]]
+|-
+|{{AL|C}}|{{icon|a|AyleidCrownOfNenalata}}
+|{{Anchor|Ayleid Crown of Nenalata}}<br>{{ID|000BE5D9}}||Light Helmet
+|1||344||13100||0||[[Oblivion:Fortify Skill|Fortify Alteration]] 15 pts<br> [[Oblivion:Fortify Skill| Fortify Conjuration]] 15 pts<br>[[Oblivion:Reflect Spell|Reflect Spell]] 25%||For more information see [[Oblivion:Ayleid Crown of Nenalata|this item's page]]
+|-
+|{{AL|C}}|{{icon|a|LeatherBracer}}
+| {{Anchor|Bands of the Chosen}}<br>{{ID|0003C803}}||Light Bracers*
+|2 ||50 ||0||1.0
+| Weakness to Fire 50%
+|You acquire the Bands of the Chosen from [[Oblivion:Kathutet|Kathutet]] during the [[Oblivion:Paradise (quest)|Paradise]] quest, you must equip the bracers to enter the Forbidden Grotto to continue. The bracers lock around your wrists and cannot be removed, except with [[Oblivion:Eldamil|Eldamil]]'s assistance.<br>
+See the [[Oblivion:Paradise (quest)#Bugs|quest page]] for bugs related to this item.
+|-
+|{{AL|C}}|{{icon|a|BloodwormHelm}}
+|{{Anchor|Bloodworm Helm}}<br>{{ID|0007BE43}}||Light Helmet
+|5||150||1255||4.5
+|[[Oblivion:Fortify Skill|Fortify Conjuration]] 12 pts
+|Obtained through the [[Oblivion:Mages Guild|Mages Guild]] questline, must be given up at the end of the quest and cannot be retrieved afterwards.
+|-
+|{{AL|C}}|{{icon|a|BlackwoodShield}}
+|{{Anchor|Broken Shield}}<br>{{ID|0006E2E1}}||Light Shield
+|20||10||2||0
+|None||A broken Blackwood Shield, found in [[Oblivion:Nonwyll Cavern|Nonwyll Cavern]] during [[Oblivion:The Master's Son|The Master's Son]] quest.
+|}
+
+<nowiki>*</nowiki> This item is actually a Bracer rather than a Gauntlet but since they are worn in the same slot they are, effectively, the same.
+
+== Weaponry ==
+{| class="wikitable sortable" width="100%"
+! class=unsortable |
+! Name
+! Type
+!class=unsortable|{{Weight Icon}}
+!class=unsortable|{{Health Icon}}
+!{{Value Icon}}
+!class=unsortable|Speed
+!class=unsortable|Reach
+!{{Damage Icon}}
+!class=unsortable|Charge / Cost = Uses
+!class=unsortable| Effects
+!class=unsortable|Notes
+|-
+|{{icon|w|ArrowOfExtrication}}
+|{{Anchor|Arrow of Extrication}}<br>{{ID|00022DB5}} ||Arrow|| 0.2 || N/A || 1 || N/A || N/A || 1 || N/A ||N/A || Given to you by [[Oblivion:The Gray Fox|The Gray Fox]] during [[Oblivion:The Ultimate Heist |The Ultimate Heist ]] quest.
+|-
+|{{icon|w|EbonyDagger}}
+|{{Anchor|Blade of Woe}}<br>{{IDs|00022BA8|000918FF|sep=<br>}}||Dagger||4||400||13511||1.4||0.6||7||32640/1088=30||[[Oblivion:Demoralize|Demoralize]] up to level 10<br>[[Oblivion:Damage Willpower|Damage Willpower]] 35 pts<br>[[Oblivion:Damage Health|Damage Health]] 35 pts<br>[[Oblivion:Damage Magicka|Damage Magicka]] 35 pts||All Statistics for the Level 30+ Version. First given to you, unenchanted, by [[Oblivion:Lucien Lachance|Lucien Lachance]] during the [[Oblivion:A Knife in the Dark|A Knife in the Dark]] quest. It becomes enchanted during [[Oblivion:Honor Thy Mother|Honor Thy Mother]]. See [[Oblivion:Blade of Woe|this page]] for the Leveled Statistics.
+|-
+|{{icon|w|HonorbladeOfChorrol}}
+|{{Anchor|Broken Sword}}<br>{{ID|0002D72B}}||Sword || 28 || 0 || 2 || 1 || 1 || 0 || N/A || N/A || Not found in game, the editor ID (FGD03BWCBlade) suggests that it was indented to for [[Oblivion:The Master's Son|The Master's Son]] quest. It is one of the items deliberately not duplicated during the [[Shivering:Shivering Isles|Shivering Isles]] quest [[Shivering:Symbols of Office|Symbols of Office]].
+|-
+|{{icon|w|SilverDagger}}
+|{{Anchor|Enchanted Dagger}}<br>{{ID|0003FBCE}}||Dagger||5||350||40||1.4||0.6||9||N/A||Scripted Effect - ''Bleed''||Given to you by [[Oblivion:Melisande|Melisande]] during the [[Oblivion:Vampire Cure|Vampire Cure]] quest.
+|-
+|{{icon|w|EbonyLongsword}}
+|{{Anchor|Honorblade of Chorrol}}<br>{{ID|00028BA0}}||Sword||0||610||1000||1||1||23||N/A||N/A||Found on the Corpse of [[Oblivion:Redguard Valley Ogre Chieftain|Ogre Chieftain]] in [[Oblivion:Redguard Valley Cave|Redguard Valley Cave]] during [[Oblivion:Sins of the Father|Sins of the Father]] quest.
+|-
+|{{icon|w|Hrormir'sIcestaff}}
+|{{Anchor|Hrormir's Icestaff}}<br>{{IDs|00002DDF|00047372|sep=<br>}}||Stave|| 12 || 30 || 1239 || N/A || N/A || N/A || 1000/97=10 || [[Oblivion:Frost Damage|Frost Damage]] 10 pts in 30 ft on Target<br>[[Oblivion:Light|Light]] 30 ft for 30 secs on Target<br>[[Oblivion:Chameleon|Chameleon]] 1% for 30 secs on Target || Stolen by you during the [[Oblivion:Misdirection|Misdirection]] quest. This must then be given up during the quest. Another version with identical statistics but a different ID number is obtainable after the quest.
+|-
+|{{icon|w|SilverDagger}}
+|{{Anchor|Languorwine Blade}}<br>{{ID|00028277}}||Dagger|| 5 || 500 || 5 || 1.4 || 0.6 || 2 || N/A || N/A || Given to you by [[Oblivion:Vicente Valtieri|Vicente Valtieri]] at the start of [[Oblivion:The Assassinated Man|The Assassinated Man]] quest to "assassinate" [[Oblivion:Francois Motierre|Francois Motierre]].
+|-
+|{{icon|w|Staff}}
+|{{Anchor|Mages Staff}}<br>{{ID|0002C6A8}}||Stave|| 0 || 100 || 192 || N/A || N/A || N/A || 350/5=70 || [[Oblivion:Charm|Charm]] 10 pts for 10 secs || You are required to retrieve this staff during the [[Oblivion:Bravil Recommendation|Bravil Recommendation]] quest. This staff is the same as the Mages Staff created for you, but this version has more charges: 70 instead of 40 (in most cases).
+|-
+|{{icon|w|DwarvenMace}}
+|{{Anchor|Rockshatter}}<br>{{IDs|00014EC6|0000CF1F|sep=<br>}}||Mace|| 43 || 672 || 4517 || 0.9 || 2 || 24 || 3240/54=60 || [[Oblivion:Shock Damage|Shock Damage]] 20 pts<br>[[Oblivion:Weakness to Shock|Weakness to Shock]] 35% for 20 secs || Found during the [[Oblivion:When the Vow Breaks|When the Vow Breaks]]. All Statistics are for the Level 25+ Version. The first ID is the Quest Item, and therefore this weighs nothing. After the quest you gain the second ID. See [[Oblivion:Rockshatter|this page]] for the Leveled Statistics.
+|-
+|{{icon|w|Cutlass}}
+|{{Anchor|Rohssan's Cutlass}}<br>{{ID|0001C14B}}||Sword|| 25 || 40 || 90 || 1 || 1 || 10 || N/A || N/A || Found in [[Oblivion:A Fighting Chance|A Fighting Chance]] during the [[Oblivion:May the Best Thief Win|May the Best Thief Win]] quest.
+|-
+|{{icon|w|StaffOfTheEverscamp}}
+|{{Anchor|Staff of the Everscamp}}<br>{{ID|0004F790}}||Stave|| 12 || 30 || 0 || N/A || N/A || N/A || N/A || Summons 4 Permanent [[Oblivion:Everscamp|Everscamp]] <br> [[Oblivion:Damage Speed|Damage Speed]] 20 pts to staffs bearer|| Given to you by [[Oblivion:Rosentia Gallenus|Rosentia Gallenus]] during the [[Oblivion:Whom Gods Annoy|Whom Gods Annoy]] quest. See [[Oblivion:Staff of the Everscamp|this page]] for more information.
+|-
+|{{icon|w|SteelBow}}
+|{{Anchor|Steel Bow}}<br>{{ID|0018ABF9}}||Bow|| 5 || 100 || 10 || N/A || N/A || 9 || N/A || N/A || Given to you by [[Oblivion:Burz gro-Khash|Burz gro-Khash]] during [[Oblivion:The Desolate Mine|The Desolate Mine]] quest.
+|-
+|{{icon|w|SteelLongsword}}
+|{{Anchor|Steel Longsword}}<br>{{ID|0018ABF7}}||Sword|| 5 || 100 || 45 || 1 || 1 || 12 || N/A || N/A || Given to you by [[Oblivion:Burz gro-Khash|Burz gro-Khash]] during [[Oblivion:The Desolate Mine|The Desolate Mine]] quest.
+|-
+|{{icon|w|SteelWarhammer}}
+|{{Anchor|Steel Warhammer}}<br>{{ID|0018ABF8}}||Warhammer|| 5 || 60 || 50 || 0.7 || 1.3 || 16 || N/A || N/A || Given to you by [[Oblivion:Burz gro-Khash|Burz gro-Khash]] during [[Oblivion:The Desolate Mine|The Desolate Mine]] quest.
+|-
+|{{icon|w|Umbra}}
+|{{Anchor|Umbra}}<br>{{ID|00026B22}}||Sword|| 45 || 700 || 5508 || 1 || 1 || 28 || 2500/20=125 || [[Oblivion:Soul Trap|Soul Trap]] 120 secs || Found on the [[Oblivion:Umbra (person)|NPC called Umbra]] during the [[Oblivion:Clavicus Vile|Clavicus Vile]] Daedric quest.
+|-
+|{{icon|w|Staff}}
+|{{Anchor|Unfinished Staff}}<br>{{ID|000355A6}}||Stave|| 0 || 900 || 50 || N/A || N/A || N/A || N/A || N/A || Found in a chest on [[Oblivion:Wellspring Grove|Wellspring Grove]] during the [[Oblivion:A Mage's Staff|A Mage's Staff]] quest. Used to create your own [[Oblivion:Mages Staff|Staff]].
+|}
+
+==Clothing and Jewelry==
+{| class="wikitable" style="width: 100%"
+! class=unsortable |
+! Name
+! {{Weight Icon}}
+! {{Value Icon}}
+! Notes
+|-
+|{{AL|C}}|{{icon|j|NoviceRing}}
+| {{Anchor|Ahdarji's Ring}}<br>{{ID|00035E95}} || 0.2 || 150 || Found in [[Oblivion:Countess Alessia Caro|Countess Alessia Caro]]'s jewelry box in [[Oblivion:Castle Leyawiin|Castle Leyawiin]]. It is the target of the [[Oblivion:Thieves Guild|Thieves Guild]] quest [[Oblivion:Ahdarji's Heirloom|Ahdarji's Heirloom]].
+|-
+|{{AL|C}}|{{icon|j|Amulet}}
+|{{Anchor|Amulet of Kings}}<br>{{ID|000250A0}} || 0 || 1000 || Given to you by [[Oblivion:Uriel Septim VII|Uriel Septim VII]] during the [[Oblivion:Tutorial|Tutorial]].
+|-
+|{{AL|C}}|{{icon|j|Arnora'sAmulet}}
+|{{Anchor|Arnora's Amulet}}<br>{{ID|00093551}} || 0.5 || 35 ||[[Oblivion:Arnora Auria|Arnora]] wears this one. See the [[Oblivion:Two_Sides_of_the_Coin|Two Sides of the Coin]] quest.
+|-
+|{{AL|C}}|{{icon|j|Arnora'sTrueAmulet}}
+|{{Anchor|Arnora's True Amulet}}<br>{{ID|00053787}} || 0.5 || 150 || [[Oblivion:Arnora Auria|Arnora]] keeps this one hidden in her house. See the [[Oblivion:Two_Sides_of_the_Coin|Two Sides of the Coin]] quest.
+|-
+|{{AL|C}}|{{icon|j|Blackheart'sRing}}
+|{{Anchor|Blackheart's Ring}}<br>{{ID|0002C633}} || 1.0 || 5 || Worn by [[Oblivion:Azani_Blackheart_(person)|Azani Blackheart]] during the [[Oblivion:Azani_Blackheart_(quest)|Azani Blackheart]] quest. It is needed to complete that quest.
+|-
+|{{nowrap|{{icon|c|RussetFeltShoes(m)}}{{icon|c|RussetFeltShoes(f)}}}}
+|{{Anchor|Boots of Springheel Jak}}<br>{{ID|000148D4}}||1.5 ||5400||'''Enchantment - [[Oblivion:Fortify Skill|Fortify Acrobatics]] 50 pts'''<br> You are required to find these during the [[Oblivion:Boots_of_Springheel_Jak|Boots of Springheel Jak]] quest. You must give them back at the end of the quest, but you will get them back further down the questline.<br>{{pc22}} If your character is bugged to permanently have the enchantment, this effect can be removed with the console command <code>player.dispel 000055AD</code> where 000055AD is the FormID of the Fortify Acrobatics effect on the item. The boots can then be removed with <code>player.removeitem 000148D4 1</code> and re-added with <code>player.additem 000148D4 1</code>. This will effectively bypass the bug and allow you to equip and unequip the boots normally.
+|-
+|{{AL|C}}|{{icon|j|NoviceRing}}
+|{{Anchor|Colovian Signet Ring}}<br>{{ID|00032DA0}}|| 1.0 || 200||Worn by [[Oblivion:Ormellius Goldwine|Ormellius Goldwine]], the Late Count of Kvatch. You find this on his body during [[Oblivion:The_Battle_for_Castle_Kvatch|The Battle for Castle Kvatch]] quest.
+|-
+|{{AL|C}}|{{icon|j|DraconianMadstone}}
+| {{Anchor|Draconian Madstone}}<br>{{IDs|0001C172|0007304D|sep=<br>}} || 0 || 2000 || '''Enchantment - [[Oblivion:Resist Disease|Resist Disease]] 50%, [[Oblivion:Resist Poison|Resist Poison]] 50%'''<br> Found during the course of [[Oblivion:Lifting the Vale|Lifting the Vale]] where this amulet is the main objective of the quest. If you then steal it back out of its display case it now Weighs - 1 and has a Value of - 3000. See [[Oblivion:Draconian Madstone|this page]] for more information.
+|-
+|{{AL|C}}|{{icon|j|DreamworldAmulet}}
+| {{Anchor|Dreamworld Amulet}}<br>{{IDs|0002CDC6|00089008|sep=<br>}} || 1.0 || 1000 || The first version is worn by [[Oblivion:Henantier|Henantier]]. The second one has a [[Oblivion:Silence|Silence]] enchantment on it and is handed over at the start of the [[Oblivion:Through A Nightmare, Darkly|Through A Nightmare, Darkly]] quest to continue into the Dreamworld.
+|-
+|{{AL|C}}|{{icon|j|IndarysSignetRing}}
+|{{Anchor|Indarys Signet Ring}}<br>{{ID|000335A8}} || 0.1 || 150 ||
+Worn by [[Oblivion:Farwil Indarys|Farwil Indarys]]. You can find this ring on [[Oblivion:Farwil Indarys|his]] body if he dies during [[Oblivion:The Wayward Knight|The Wayward Knight]] quest.
+|-
+|{{AL|C}}|{{icon|j|JadeAmulet}}
+|{{Anchor|Jade Amulet}}<br>{{ID|00189CFE}}
+| 0 || 35 ||Retrieved from the [[Oblivion:Goblin Netherboss|Goblin Netherboss]] in [[Oblivion:Exhausted Mine|Exhausted Mine]] during the [[Oblivion:Revenge Served Cold|Revenge Served Cold]] quest.
+|-
+|{{AL|C}}|{{icon|j|Ring}}
+| {{Anchor|Kylius Lonavo's Ring}}<br>{{ID|00189181}} || 0 || 30 || Found on the body of [[Oblivion:Kylius Lonavo|Kylius Lonavo]] during the [[Oblivion:Raid on Greyland|Raid on Greyland]] quest. Must be handed over to [[Oblivion:Lerexus Callidus|Lerexus Callidus]] to complete the quest.
+|-
+|{{AL|C}}|{{icon|j|CopperAmulet}}
+| {{Anchor|Manduin's Amulet}}<br>{{ID|000347C8}} || 0.4 || 100 || Also known as the 'Seer's Stone', found in Manduin's coffin during the Leyawiin Recommendation quest. Manduin was [[Oblivion:Dagail|Dagail]]'s father. See the [[Oblivion:Leyawiin Recommendation|Leyawiin Recommendation]] quest page for more details.
+|-
+|{{AL|C}}|{{icon|j|BronzeAmulet}}
+| {{Anchor|Mundane Amulet}}<br>{{ID|00038B07}} || 0.5 || 3 || Found in a chest in [[Oblivion:Boreal Stone Cave|Boreal Stone Cave]] during the [[Oblivion:A Brotherhood Betrayed|A Brotherhood Betrayed]] quest.
+|-
+|{{AL|C}}|{{icon|j|Necromancer'sAmulet}}
+| {{Anchor|Necromancer's Amulet}}<br>{{ID|0007BE2B}} || 0.4 || 0 || '''Multiple Enchantments''' - [[Oblivion:Necromancer's Amulet|See here for details]]<br> Found on [[Oblivion:Caranya|Caranya]] during [[Oblivion:The Necromancer's Amulet|The Necromancer's Amulet]] quest. It is an [[Oblivion:Artifacts|artifact]] although it can be worn the same as any other amulet.
+|-
+|{{AL|C}}|{{icon|j|Ring}}
+| {{Anchor|Ring of the Vipereye}}<br>{{ID|0006B658}} || 0.3 || 3600 || '''Enchantments - [[Oblivion:Fortify Agility|Fortify Agility]] - 10 pts, [[Oblivion:Resist Magic|Resist Magic]] 15%'''<br> Found during the [[Oblivion:Lifting the Vale|Lifting the Vale]] quest. It is kept after the quest as the reward, although it is still marked as a quest item. All Statistics for the Level 25+ version, see [[Oblivion:Ring of the Vipereye|this page]] for the leveled statistics and more information.
+|-
+|{{AL|C}}|{{icon|j|Ring}}
+| {{Anchor|Wedding Ring}}<br>{{ID|00022E6D}} || 0.2 || 200 || Given to you by [[Oblivion:The Gray Fox|The Gray Fox]] during [[Oblivion:The Ultimate Heist|The Ultimate Heist]] quest.
+|}
+
+==Miscellaneous Items==
+{| class="wikitable" style="width: 100%"
+! width=48 |
+! Name
+! {{Weight Icon}}
+! {{Value Icon}}
+! Notes
+|-
+| {{icon|m|Shovel}}
+| {{Anchor|Agarmir's Shovel}}<br>{{ID|0001D0AF}} || 3.0 || 0 || Found in the [[OB:Trentius Family Mausoleum|Trentius Family Mausoleum]] in the Imperial City.<br>Needed as proof of Agarmir's guilt in the [[Oblivion:Unfriendly_Competition|Unfriendly Competition]] quest.
+|-
+| {{icon|i|Vampire Dust}}
+|{{Anchor|Ashes of Hindaril}}<br> {{ID|000977DD}}||0.2||50||Are found only by killing [[Oblivion:Hindaril|Hindaril]]. See [[Oblivion:Ashes_of_Hindaril#Ashes_of_Hindaril|this page]] for more information.
+|-
+| {{icon|m|BlackSoulGem}}
+| {{Anchor|Black Soul Gem}}<br>{{ID|0003C7FC}}||0||0||Found in Falcar's room in the basement of the [[Oblivion:Cheydinhal Mages Guild|Cheydinhal Mages Guild]] during the [[Oblivion:Cheydinhal Recommendation|Cheydinhal Recommendation]] quest. Although a 'Black Soul Gem' it is really on a Grand Soul Gem. It has a capacity of 1600 but cannot be used to trap NPC Souls. Using this Soul Gem is not recommended, as they are not accepted for the quest with souls in them. Without Console Commands this breaks the Mages Guild questline.
+|-
+| {{icon|m|Paintbrush}}
+| {{Anchor|Brush of Truepaint}}<br>{{ID|0001BB36}} || 1.0 || 0 || You need to find this to escape the Painted World in the [[Oblivion:A_Brush_with_Death|Brush with Death]] quest in Cheydinhal.<br>Its bristles were purportedly woven from [[Lore:Dibella|Dibella]]'s hair, so it is technically an [[Lore:Aedra|Aedric]] artifact.
+|-
+| {{icon|m|CarvedPanel}}
+| {{Anchor|Carved Panel}}<br>{{ID|0002AF03}} || 0 || 0 || Found in [[Oblivion:Malada|Malada]] during the [[Oblivion:Nothing_You_Can_Possess|Nothing You Can Possess]] quest.
+|-
+| {{icon|m|ColossalBlackSoulGem}}
+| {{Anchor|Colossal Black Soul Gem}}<br>{{ID|00007E9C}} || 0 || 0 || A critical item during the last few [[Oblivion:Mages Guild|Mages Guild]] quests.
+|-
+| {{icon|m|CrystalBall}}
+| {{Anchor|Crystal Ball}}<br>{{ID|00035F86}} || 2.0 || 0 || This item is added to [[Oblivion:Irlav Jarol|Irlav Jarol]]'s inventory at the end of the quest [[Oblivion:Vahtacen's Secret|Vahtacen's Secret]], when you give the Ancient Elven Helm back to him. The purpose of this is unknown.
+|-
+| {{icon|m|ElementOfCourage}}
+| {{Anchor|Element of Courage}}<br>{{ID|0002C6EF}} || 1.0 || 0 || rowspan=4 | You need these four tokens to help Henantier escape from the dream world in the [[Oblivion:Through A Nightmare, Darkly|Through A Nightmare, Darkly]] quest in Bravil.
+|-
+| {{icon|m|ElementOfPatience}}
+| {{Anchor|Element of Patience}}<br>{{ID|0002C6EE}} || 1.0 || 0
+|-
+| {{icon|m|ElementOfPerception}}
+| {{Anchor|Element of Perception}}<br>{{ID|0002C6F0}} || 1.0 || 0
+|-
+| {{icon|m|ElementOfResolve}}
+| {{Anchor|Element of Resolve}}<br>{{ID|0002C6ED}} || 1.0 || 0
+|-
+| {{icon|m|EyeOfNocturnal}}
+| {{Anchor|Eye of Nocturnal}}<br>{{ID|00026AC9}} || 0 || 0 || Find and return this item during [[Oblivion:Nocturnal|Nocturnal's]] shrine quest.
+|-
+| {{icon|m|ColossalBlackSoulGem}}
+| {{Anchor|Filled Colossal Black Soul Gem}}<br>{{ID|00007E9D}} || 0 || 0 || You will retrieve this gem during the [[Oblivion:Mages Guild|Mages Guild]] quest [[Oblivion:Ambush|Ambush]] and then it protects you during [[Oblivion:Confront the King|Confront the King]]. It is permanently tagged as a quest object so you can only remove it by writing <code>SetQuestObject 00007E9D 0</code> into the console.({{UOP}})
+|-
+| {{icon|m|Garridan'sTear}}
+| {{Anchor|Garridan's Tear}}<br>{{IDs|00025B33|0007BE48|sep=<br>}} || 0<br>0.5 || 0<br>100 || You need to find five of them in the [[Oblivion:Frostfire_Glade|Frostfire Glade]] during the [[Oblivion:Tears_of_the_Savior|Tears of the Savior]] quest.
+|-
+| {{icon|m|SigilStone 02}}
+| {{Anchor|Great Sigil Stone}}<br>{{ID|0003844E}} || 0 || 0 || Critical item needed for the [[Oblivion:Great_Gate|Main Quest]].
+|-
+| {{icon|m|GreatWelkyndStone}}
+| {{Anchor|Great Welkynd Stone}}<br>{{ID|000345AF}} || 7.0 || 0 || An Ayleid artifact needed for the [[Oblivion:Miscarcand_(quest)|Main Quest]].
+|-
+| {{icon|m|BlackSoulGem}}
+| {{Anchor|Hermaeus Mora's Soul Gem}}<br>{{ID|0008B61E}} || 4.5 || 4 || A special soul gem used in [[Oblivion:Hermaeus_Mora|Hermaeus Mora's]] daedric quest.
+|-
+| {{icon|m|Key-ShapedArrowhead}}
+| {{Anchor|Key-Shaped Arrowhead}}<br>{{ID|0001482C}} || 0.1 || 350 || Found in the Thieves Guild quest, [[Oblivion:Arrow of Extrication|The Arrow of Extrication]] on the top floor of [[Oblivion:Fathis Aren's Tower|Fathis Aren's Tower]]
+|-
+| {{icon|m|Inkwell}}
+| {{Anchor|Languorwine Antidote}}<br>{{ID|00028276}} || 0 || 0 || Used during the Dark Brotherhood quest [[Oblivion:The Assassinated Man|The Assassinated Man]].
+|-
+| {{icon|m|Llathasa'sBust}}
+| {{Anchor|Llathasa's Bust}}<br>{{IDs|00008032|0001E861|sep=<br>}} || 8.0 || 200 || The object of interest in a Thieves Guild quest, [[Oblivion:The Elven Maiden|The Elven Maiden]].
+|-
+| {{icon|m|LoosePipe}}
+| {{Anchor|Loose Pipe}}<br>{{ID|00089783}} || 0 || 0 || Found during the Fighters Guild quest [[Oblivion:The Hist|The Hist]].
+|-
+| {{icon|i|Cheese}}
+| {{Anchor|Olroy Cheese}}<br>{{ID|0008C26A}} || 0 || 0 || One of several cheeses found at the inn in [[Oblivion:Border_Watch|Border Watch]]. This one attracts rats to plague the town during the [[Oblivion:Sheogorath|Sheogorath]] Daedric Shrine quest.
+|-
+| {{icon|m|CrystalBall}}
+|{{Anchor|Orb of Vaermina}}<br>{{ID|0001EC18}}|| 0 || 0 || Found in [[Oblivion:Arkved's Tower|Arkved's Tower]] during the [[Oblivion:Vaermina|Vaermina]] Daedric Shrine quest.
+|-
+| {{icon|b|Scroll2}}
+| {{Anchor|Rolled Up Portrait}}<br>{{ID|00034E52}} || 5.0 || 1 || This is the stolen painting you are tasked to find during the [[Oblivion:Chorrol|Chorrol]] quest [[Oblivion:Canvas the Castle|Canvas the Castle]].
+|-
+| {{icon|m|Savilla'sStone}}
+| {{Anchor|Savilla's Stone}}<br>{{IDs|00014706|000C4A2C|sep=<br>}} || 10.0 || 0 || Found in the [[Oblivion:Temple of the Ancestor Moths (dungeon)|Temple of the Ancestor Moths]] during the [[Oblivion:Thieves Guild|Thieves Guild]] quest [[Oblivion:Turning a Blind Eye|Turning a Blind Eye]].
+|-
+| {{icon|m|SkeletalHand}}
+| {{Anchor|Skeletal Hand}}<br>{{ID|00003A99}} || 3.0 || 0 || Found in the [[Oblivion:Benirus_Manor|Benirus Manor]] in Anvil during the [[Oblivion:Where_Spirits_Have_Lease|Where Spirits Have Lease]] quest.
+|-
+| {{icon|m|StatuetteOfADog}}
+| {{Anchor|Statuette of a Dog}}<br>{{IDs|00026B25|0007B7B0|sep=<br>}} || 0 || 0 || Received during the [[Oblivion:Clavicus_Vile|Clavicus Vile]] shrine quest.
+|-
+| {{icon|m|StoneOfSt.Alessia}}
+| {{Anchor|Stone of St. Alessia}}<br>{{ID|00003949}} || 0 || 0 || Retrieved during the [[Oblivion:Fighters Guild|Fighters Guild]] quest [[oblivion:The_Stone_of_St._Alessia|the Stone of St. Alessia]].
+|-
+| {{icon|m|Potion}}
+| {{Anchor|Vampirism Cure Potion}}<br>{{ID|0009812D}} || 1.0 || 500 || One of two potions you obtain at the end of the [[Oblivion:Vampire Cure|Vampire Cure]] quest.
+|-
+| {{icon|m|CrystalBall}}
+| {{Anchor|Varulae's Crystal Ball}}<br>{{ID|00095A38}} || 1.0 || 3 || Found on board the Serpent's Wake in Anvil during [[Oblivion:The_Ghost_Ship_of_Anvil|The Ghost Ship of Anvil]] quest.
+|}
+
+<gallery>
+File:OB-item-Eye of Nocturnal.jpg|Eye of Nocturnal
+</gallery>
+
+==Books and Notes==
+Books that are used in a quest and are marked as Quest Items in [[Oblivion:Oblivion|Oblivion]], these are either used as references sources of information. This also includes books that you return at the end of a quest.
+{| class="wikitable" style="width: 100%"
+! 
+! Name
+! {{Weight Icon}}
+! {{Value Icon}}
+! Notes
+|-
+|{{icon|b|Note2}}
+| [[Oblivion:Akaviri_Diary_Translation|''{{Anchor|Akaviri Diary Translation}}'']]<br>{{ID|0001C162}} ||0||0.2||Handed over by [[Oblivion:Countess Narina Carvain|Countess Narina Carvain]] during the [[Oblivion:Lifting_the_Vale|Lifting the Vale]] quest.
+|-
+|{{icon|m|AkaviriOrders}}
+| [[Oblivion:Akaviri_Orders|''{{Anchor|Akaviri Orders}}'']]<br>{{IDs|0001C173|000785E0|sep=<br>}} || 0<br>10 || 0<br>250 || Found near the body of a dead soldier in the [[Oblivion:Serpent's_Trail|Serpent's Trail]] cavern during the [[Oblivion:Lifting_the_Vale|Lifting the Vale]].
+|-
+|{{icon|b|Book5}}
+| [[Oblivion:Amantius Allectus' Diary|''{{Anchor|Amantius Allectus' Diary}}]]''<br>{{ID|000355ED}}||2||100||Found in [[Oblivion:Amantius Allectus|Amantius Allectus']] house.
+|-
+|{{icon|b|Book8}}
+|''[[Oblivion:Ayleid Reference Text|{{Anchor|Ayleid Reference Text}}]]''<br>{{ID|0003353B}}||1||10||See [[Oblivion:Ayleid Reference Text|this page]] for the full text and information on where to find two copies.
+|-
+|{{icon|b|Book4}}
+| ''[[Oblivion:A Bloody Journal|{{Anchor|A Bloody Journal}}]]''<br>{{ID|0002FF32}}||1||0||Found on the body of [[Oblivion:Viranus Donton|Viranus Donton]] during [[Oblivion:The Master's Son|The Master's Son]] quest.
+|-
+|{{icon|b|Book4}}
+| ''[[Oblivion:Brenus Astis' Journal|{{Anchor|Brenus Astis' Journal}}]]''<br>{{ID|0002A577}} ||1||0||Found In [[Oblivion:Fallen Rock Cave|Fallen Rock Cave]] during the [[Oblivion:Unfinished Business|Unfinished Business]] quest, the Journal is marked with a Quest Marker during the associated quest.
+|-
+|{{icon|b|Note}}
+| ''[[Oblivion:Draconis Gift List|{{Anchor|Draconis Gift List}}]]''<br>{{Small|00002DAB}}||1||0||Given to you by [[Oblivion:Perennia Draconis|Perennia Draconis]] during the [[Oblivion:Next of Kin|Next of Kin]] quest.
+|-
+|{{icon|b|Scroll1}}
+| ''[[Oblivion:Earana's Notes|{{Anchor|Earana's Notes}}]]''<br>{{ID|000277AE}}||1||1||Given to you by [[Oblivion:Earana|Earana]] during the [[Oblivion:Fingers of the Mountain|Fingers of the Mountain]] quest.
+|-
+|{{icon|b|Scroll1}}
+|''[[Oblivion:Elder Scroll|{{Anchor|Elder Scroll}}]]''<br>{{ID|00022DB0}}||0.1||0||Given to you by a [[Oblivion:Blind Moth Priest|Blind Moth Priest]] during [[Oblivion:The Ultimate Heist|The Ultimate Heist]] quest, must be handed over at the end of the quest.
+|-
+|{{icon|b|Book4}}
+| ''[[Oblivion:Fingers of the Mountain (item)|{{Anchor|Fingers of the Mountain}}]]''<br>{{ID|0000510D}} || 2 || 0 || This book is wanted by two people during the [[Oblivion:Fingers of the Mountain|Fingers of the Mountain]] quest.
+|-
+|{{icon|b|Note}}
+| ''[[Oblivion:Forged List of Candidates|{{Anchor|Forged List of Candidates}}]]''<br>{{ID|0000C229}} || 0.1 || 0 || Given to you by a [[Oblivion:Stranger|Stranger]] during the [[Oblivion:Taking Care of Lex|Taking Care of Lex]] quest.
+|-
+|{{icon|b|Book9}}
+| ''[[Oblivion:Gelebourne's Journal|{{Anchor|Gelebourne's Journal}}]]''<br>{{ID|00038447}}||0.5||0|| Found in a room in [[Oblivion:Olav's Tap and Tack|Olav's Tap and Tack]] during the [[Oblivion:A Brotherhood Betrayed|A Brotherhood Betrayed]] quest.
+|-
+|{{icon|b|Scroll2}}
+| ''[[Oblivion:Grantham Blakeley's Map|{{Anchor|Grantham Blakeley's Map}}]]''<br>{{ID|000366B3}}||0.5||0|| Found on the Floor of the Lower deck in the Emma May (the Emma May is located at [[Oblivion:The Mouth of the Panther|The Mouth of the Panther]] ) during [[Oblivion:The Forlorn Watchman (quest)|The Forlorn Watchman]] quest.
+|-
+|{{icon|b|Note}}
+| ''[[Oblivion:Notes#Note000C7631|{{Anchor|Handwritten Note}}]]''<br>{{ID|000C7631}}||0||0||Found on a Worm Anchorite during the [[Oblivion:Necromancer's Moon|Necromancer's Moon]] quest.
+|-
+|{{icon|b|Note}}
+| ''[[Oblivion:Notes#Note0018BC65|{{Anchor|Handwritten Note}}]]''<br>{{ID|0018BC65}}||0||0||Given to you by [[Oblivion:S'Krivva|S'Krivva]] to deliver to [[Oblivion:J'baana|J'baana]] during the [[Oblivion:Security Training|Security Training]] quest.
+|-
+|{{icon|b|Note}}
+| ''[[Oblivion:Instructions: the Gray Cowl|{{Anchor|Instructions: the Gray Cowl}}]]''<br>{{ID|00014740}}||1||30|| Found in a chest in the last zone of [[Oblivion:Temple_of_the_Ancestor_Moths_(dungeon)#Zone_5:_Shrine of the Moth|Temple of the Ancestor Moths]] which you visit during the [[Oblivion:Turning a Blind Eye|Turning a Blind Eye]] quest.
+|-
+|{{icon|b|Note2}}
+| ''[[Oblivion:Jearl's Orders|{{Anchor|Jearl's Orders}}]]''<br>{{ID|0000C026}}||0.1||0||Found on a table in [[Oblivion:Jearl|Jearl's]] house during the [[Oblivion:Main Quest|Main Quest]].
+|-
+|{{icon|b|Book9}}
+| ''[[Oblivion:Journal of the Lord Lovidicus|{{Anchor|Journal of the Lord Lovidicus}}]]''<br>{{ID|00038B2F}}||5||35||Found on a table at [[Oblivion:Crowhaven|Crowhaven]] during the [[Oblivion:Origin of the Gray Prince|Origin of the Gray Prince]] quest.
+|-
+|{{icon|b|Book4}}
+| ''[[Oblivion:Knightfall|{{Anchor|Knightfall}}]]''<br>{{ID|00022E65}}||1||25||Can be purchased from [[Oblivion:First Edition|First Edition]] during the [[Oblivion:Tears of the Savior|Tears of the Savior]] quest. Reading this Book adds a map marker for [[Oblivion:Frostfire Cave|Frostfire Cave]].
+|-
+|{{icon|b|Note}}
+| ''[[Oblivion:List of Candidates|{{Anchor|List of Candidates}}]]''<br>{{ID|0000C04A}}||0.1||0||You are in instructed to steal this list of the desk of [[Oblivion:Dairihill|Dairihill]] in [[Oblivion:Anvil_Castle|Anvil Castle]], during the [[Oblivion:Taking Care of Lex|Taking Care of Lex]] quest.
+|-
+|{{icon|b|Book12}}
+| ''[[Oblivion:Lithnilian's Research Notes|{{Anchor|Lithnilian's Research Notes}}]]''<br>{{ID|00185377}}||1||0||Found in [[Oblivion:Bramblepoint Cave| Bramblepoint Cave]] during the [[Oblivion:No Stone Unturned|No Stone Unturned]] quest.
+|-
+|{{icon|b|Book7}}
+| ''[[Oblivion:Log of the Emma May|{{Anchor|Log of the Emma May}}]]''<br>{{ID|000366B1}}||2||5||Located on the wrecked ship the [[Oblivion:Emma May|Emma May]] during the [[Oblivion:The Forlorn Watchman (quest)|Forlorn Watchman]] quest.
+|-
+| {{icon|b|Book1}}
+| ''[[Oblivion:Lost Histories of Tamriel|{{Anchor|Lost Histories of Tamriel}}]]''<br>{{IDs|0000BF8C|000C4A2B|sep=<br>}}||1||50||Found under a bush in [[Oblivion:Skingrad|Skingrad]] during the [[Oblivion:Lost Histories|Lost Histories]] quest. Another copy is later found in a bookcase in [[Oblivion:Dareloth's House|Dareloth's House]].
+|-
+|{{icon|b|Note}}
+| ''[[Oblivion:Love Letter from Relfina|{{Anchor|Love Letter from Relfina}}]]''<br>{{ID|0001E084}}||0.1||0||Found on a table in [[Oblivion:Roland Jenseric|Roland Jenseric]]'s house during the [[Oblivion:Order of the Virtuous Blood (quest)|Order of the Virtuous Blood]] quest.
+|-
+|{{icon|b|Book5}}
+| ''[[Oblivion:Macabre Manifest|{{Anchor|Macabre Manifest}}]]''<br>{{ID|0001D046}}||1||0||Found in the basement of [[Oblivion:Agarmir|Agarmir]] during the [[Oblivion:Unfriendly Competition|Unfriendly Competition]] quest.
+|-
+| {{icon|b|Book11}}
+| ''[[Oblivion:Manual of Spellcraft (Jeanne Frasoric)|{{Anchor|Manual of Spellcraft}}]]''<br>{{ID|0006DDA1}}||2||3||The quest version of this book is on the desk of [[Oblivion:Jeanne Frasoric|Jeanne Frasoric]] in the Bruma Mages Guild; you must return it during [[Oblivion:Bruma Recommendation |Bruma Recommendation]] quest.
+|-
+| {{icon|b|MysteriumXarxes}}
+| ''[[Oblivion:Mysterium Xarxes|{{Anchor|Mysterium Xarxes}}]]''<br>{{ID|0008B60A}}<br>{{ID|00005599}}||0||0||See the [[Oblivion:Mysterium Xarxes|item page]] for where to find the two copies. A copy is needed for the [[Oblivion:Dagon Shrine|Dagon Shrine]] quest.
+|-
+| {{icon|b|Book1}}
+| ''[[Oblivion:Mythic Dawn Commentaries 3|{{Anchor|Mystic Dawn Commentaries 3}}]]''<br>{{ID|00022B06}}||5||80||See the [[Oblivion:Mythic Dawn Commentaries 3|item page]] of where to find a copy. A copy is needed for the [[Oblivion:the Path of Dawn|Path of Dawn]] part of the [[Oblivion:Main Quest|Main Quest]]
+|-
+| {{icon|b|Book1}}
+| ''[[Oblivion:Mythic Dawn Commentaries 4|{{Anchor|Mystic Dawn Commentaries 4}}]]''<br>{{ID|00022B07}}||5||100|| Acquired from [[Oblivion:Raven Camoran|Raven Camoran]]. Needed for the [[Oblivion:the Path of Dawn|Path of the Dawn]] part of [[Oblivion:Main Quest|Main Quest]]
+|-
+| {{icon|b|Book7}}
+| ''[[Oblivion:Necromancer's Moon (book)|{{Anchor|Necromancer's Moon }}]]''<br>{{ID|00002DD1}}||3||5||Found in the Mystic Archives of the [[Oblivion:Arcane University|Arcane University]] during the [[Oblivion:Necromancer's Moon|Necromancer's Moon]] quest.
+|-
+| {{icon|b|OghmaInfinium}}
+| ''[[Oblivion:Oghma Infinium|{{Anchor|Oghma Infinium}}]]''<br>{{ID|000228F1}}||0||0||Given to you at the end of [[Oblivion:Hermaeus Mora|Hermaeus Mora]]'s Daedric quest. This book increases two Attributes and three Skills permanently.
+|-
+|{{icon|b|Scroll2}}
+| ''[[Oblivion:Plan for the Big Heist|{{Anchor|Plan for the Big Heist}}]]''<br>{{ID|00022DB4}}||0.1||0||Given to you by the [[Oblivion:Gray Fox|Gray Fox]] at the start [[Oblivion:The Ultimate Heist|The Ultimate Heist]] quest.
+|-
+|{{icon|b|Scroll1}}
+| ''[[Oblivion:Reverse Invisibility|{{Anchor|Reverse Invisibility}}]]''<br>{{ID|0003001B}}||0||0||Given to you by [[Oblivion:Ancotar|Ancotar]] during the [[Oblivion:Zero_Visibility|Zero Visibility]] quest. This is a magical scroll rather than a scroll that you may read. If spawned with the console it will have a value of 0.5 gold.
+|-
+|{{icon|b|Note}}
+| ''[[Oblivion:Scrap from Lorgren's Diary|{{Anchor|Scrap from Lorgren's Diary}}]]''<br>{{ID|00003A9B}}||0.1||0||In a broken jar during the [[Oblivion:Where Spirits Have Lease|Where Spirits Have Lease]] quest.
+|-
+|{{icon|b|Note}}
+| ''[[Oblivion:Sealed Forged Candidate List|{{Anchor|Sealed Forged List of Candidates}}]]''<br>{{ID|0000C22A}}||0.1||0||Generated by sealing the [[Oblivion:Forged List of Candidates|Forged List of Candidates]] during the [[Oblivion:Taking Care of Lex|Taking Care of Lex]] quest.
+|-
+|{{icon|b|Note}}
+| ''[[Oblivion:Suspicious Letter|{{Anchor|Suspicious Letter}}]]''<br>{{ID|0003C37E}}||0.2||0||Found in [[Oblivion:Ulrich Leland|Ulrich Leland]]'s office during the [[Oblivion:Corruption and Conscience|Corruption and Conscience]] quest.
+|-
+|{{icon|b|Note2}}
+| ''[[Oblivion:Transfer Orders|{{Anchor|Transfer Orders}}]]''<br>{{ID|000982F1}}<br>{{ID|000C4A29}}||0||0||Handed to you by [[Oblivion:Countess Millona Umbranox|Countess Millona Umbranox]] during the [[Oblivion:Taking Care of Lex|Taking Care of Lex]] quest. Another copy is obtainable in the Thieves Guild HQ once that questline is completed.
+|-
+|{{icon|b|Note}}
+| ''[[Oblivion:Waterfront Tax Records|{{Anchor|Waterfront Tax Records}}]]''<br>{{ID|00034875}}<br>{{ID|000C4A2A}}||0.1||0||First Copy (first ID) found in [[Oblivion:Hieronymus Lex|Hieronymus Lex]]'s quarters in the South Watchtower during the [[Oblivion:Untaxing the Poor|Untaxing the Poor]] quest. The Second Copy (second ID) cannot be found, it should have been found in the Thieves Guild HQ. You can instead find a second copy of the first ID.
+|}
+
+==Keys==
+Keys that are used in a quest and are marked as Quest Items in [[Oblivion:Oblivion|Oblivion]].
+Abbreviations in superscript give additional information about people, keys or locks:
+* {{Key Note|KR}} (Lock property): The lock is not pickable with a lockpick. You will need the actual key to open this lock.
+* {{Key Note|CR}} (Lock property): Opening this lock is a crime, even if you possess the key for it.
+* {{Key Note|EG}} (Lock property): Being detected while opening this lock may get you kicked out of a guild.
+* {{Key Note|RI}} (Key property): The key is removed from your inventory after its associated quest is completed.
+* {{Key Note|NP}} (Found property): You cannot pickpocket this key, you must receive it through dialogue with the person.
+* {{Key Note|UOP}} : {{UOP}}
+
+{| class="wikitable" style="text-align: center; width: 100%;"
+! Name
+! Found
+! Opens
+|-
+|{{Anchor|Agronak's Mysterious Key}}<br>{{ID|00038EE9}}
+|Given by [[Oblivion:Agronak_gro-Malog|Agronak gro-Malog]] during the [[Oblivion:Origin_of_the_Gray_Prince|Origin of the Gray Prince]] quest. {{Key Note|NP}}
+|Door to [[Oblivion:Lord_Lovidicus|Lord Lovidicus']] Parlor in [[Oblivion:Crowhaven|Crowhaven]] {{Key Note|KR}}
+|-
+|{{Anchor|Akaviri Fort Key}}<br>{{ID|0001C17C}}
+|Given by [[Oblivion:Countess Narina Carvain|Countess Narina Carvain]] during the [[Oblivion:Lifting the Vale|Lifting the Vale]] quest
+|''nothing'' {{Key Note|UOP}}
+|-
+|{{Anchor|Arnora's Chest Key}}<br>{{ID|00093555}}
+|Given by [[Oblivion:Arnora Auria|Arnora Auria]] during [[Oblivion:Two Sides of the Coin|Two Sides of the Coin]] quest, found on Arnora's body. {{Key Note|NP}}
+|Chest in bedroom of Arnora's House in [[Oblivion:Bruma|Bruma]] {{Key Note|KR}}
+|-
+|{{Anchor|Baurus' Key}}<br>{{ID|0001E702}}
+|Given by [[Oblivion:Baurus|Baurus]] after selecting your [[Oblivion:Classes|Class]] {{Key Note|NP}}
+|Door leading to the [[Oblivion:Imperial Prison Sewer (Tutorial)|Imperial Prison Sewer]]
+|-
+|{{Anchor|Benirus Manor Key}}<br>{{ID|00003A97}}
+|Given by [[Oblivion:Velwyn Benirus|Velwyn Benirus]] upon purchasing [[Oblivion:Benirus Manor|Benirus Manor]] {{Key Note|NP}}
+|Benirus Manor in Anvil and the Basement {{Key Note|KR}}
+|-
+|{{Anchor|Blackwood Co. Basement Key}}<br>{{ID|00035705}}
+|[[Oblivion:Ri'Zakar|Ri'Zakar]]
+|Door to [[Oblivion:Blackwood Company|Blackwood Company]] Basement in [[Oblivion:Leyawiin|Leyawiin]] {{Key Note|KR}}
+|-
+|{{Anchor|Bradon's Key}}<br>{{ID|000385A4}}
+|[[Oblivion:Raynil Dralas|Raynil Dralas]]
+|Chest in [[Oblivion:Boreal_Stone_Cave|Boreal Stone Cave]], also needs [[#Gelebourne's Key|Gelebourne's Key]] and [[#Raynil's Key|Raynil's Key]] {{Key Note|KR}}
+|-
+|{{Anchor|Chorrol Castle Private Area}} {{Key Note|RI}}<br>{{ID|000242B2}}
+|[[Oblivion:Bittneld the Curse-Bringer|Bittneld the Curse-Bringer]], [[Oblivion:Chanel|Chanel]], [[Oblivion:Countess Arriana Valga|Countess Arriana Valga]], [[Oblivion:Laythe Wavrick|Laythe Wavrick]], [[Oblivion:Orgnolf Hairy-Legs|Orgnolf Hairy-Legs]], [[Oblivion:Orok gro-Ghoth|Orok gro-Ghoth]], given by Countess Arriana Valga during the [[Oblivion:Canvas the Castle|Canvas the Castle]] quest.
+|Most doors in Castle Chorrol
+|-
+|{{Anchor|Echo Cave Key}}<br>{{ID|0001648F}}
+|[[Oblivion:Bolor Savel|Bolor Savel]]
+|Entrance to [[Oblivion:Echo Cave|Echo Cave]] {{Key Note|KR}}
+|-
+|{{Anchor|Falcar's Key}}<br>{{ID|0002E99F}}
+|[[Oblivion:Falcar|Falcar]]
+|Door to Falcar's room in the [[Oblivion:Mages Guild|Mages Guild]] Basement in [[Oblivion:Cheydinhal|Cheydinhal]]
+|-
+|{{Anchor|First Hunter's Run Key}}<br>{{ID|0018D13E}}
+|Kurdan's Imperial Hunter in [[Oblivion:Fort Grief#The Hunter's Run|The Hunter's Run]], Fort Grief
+|Door to [[Oblivion:Fort Grief|The Hunter's Abyss]]
+|-
+|{{Anchor|Fort Blueblood Key}}<br>{{ID|0003CD2D}}
+|Marauder Warlord in [[Oblivion:Fort Blueblood|Fort Blueblood]]
+|Two doors in [[Oblivion:Fort Blueblood|Fort Blueblood]]
+|-
+|{{Anchor|Fort Grief Door Key}}<br>{{ID|0001FEEE}}
+|Kurdan's Orc Hunter in [[Oblivion:Fort Grief#The Hunter's Abyss|The Hunter's Abyss]], Fort Grief
+|''nothing''
+|-
+|{{Anchor|Fort Grief Real Key}}<br>{{ID|0001FEF0}}
+|[[Oblivion:Kurdan gro-Dragol|Kurdan gro-Dragol]]
+|Gate door inside [[Oblivion:Fort Grief#The Hunter's Abyss|The Hunter's Abyss]], Fort Grief
+|-
+|{{Anchor|Gelebourne's Key}}<br>{{ID|000385A2}}
+|[[Oblivion:Raynil Dralas|Raynil Dralas]]
+|Chest in [[Oblivion:Boreal_Stone_Cave|Boreal Stone Cave]], also needs [[#Bradon's Key|Bradon's Key]] and [[#Raynil's Key|Raynil's Key]] {{Key Note|KR}}
+|-
+|{{Anchor|High Fane Key}} {{Key Note|RI}}<br>{{ID|0002AF06}}
+|Given by [[Oblivion:Umbacano|Umbacano]] when you start the [[Oblivion:Nothing You Can Possess|Nothing You Can Possess]] quest, [[Oblivion:Claude_Maric|Claude Maric]]
+|Unique gate in [[Oblivion:Malada|Malada]] {{Key Note|KR}}
+|-
+|{{Anchor|Imbel Family Crypt Key}} <br> {{ID|000152FF}}
+|Given by [[Oblivion:Jakben, Earl of Imbel|Jakben, Earl of Imbel]] during the [[Oblivion:Boots_of_Springheel_Jak|Boots of Springheel Jak]] quest {{Key Note|NP}}
+|Door to Catacombs in Jakben Imbel's House in the [[Oblivion:Talos Plaza District|Talos Plaza District]], Imperial City {{Key Note|KR}}<sup>, </sup>{{Key Note|CR}}
+|-
+|{{Anchor|Imperial City Sewers Key}}<br>{{ID|0004F61A}}
+|Given by [[Oblivion:Vicente_Valtieri|Vicente Valtieri]] during the [[Oblivion:Scheduled_for_Execution|Scheduled for Execution]] quest {{Key Note|NP}}
+|Door to the [[Oblivion:Imperial Prison Sewer (Scheduled for Execution)|Imperial Prison Sewer]] {{Key Note|KR}}
+|-
+|{{Anchor|Imperial Sewer Key}}<br>{{ID|00027477}}
+|Given by the [[Oblivion:Gray Fox|Gray Fox]] during [[Oblivion:The Ultimate Heist|The Ultimate Heist]], on a table in [[Oblivion:The Palace Sewers|The Palace Sewers]]
+|A gate in [[Oblivion:Beneath the Bloodworks|Beneath the Bloodworks]] leading to [[Oblivion:The Palace Sewers|The Palace Sewers]] {{Key Note|KR}}
+|-
+|{{Anchor|Jeetum Ze's Room Key}}<br>{{ID|000A5650}}
+|[[Oblivion:Ja'Fazir|Ja'Fazir]]
+|Jeetum-Ze's Room in the Blackwood Company Hall in Leyawiin {{Key Note|KR}}
+|-
+|{{Anchor|Kalthar's Key}} <br>{{ID|0000CF21}}
+|[[Oblivion:Kalthar|Kalthar]]
+|Doors to [[Oblivion:Dagail|Dagail]]'s father's coffin in [[Oblivion:Fort Blueblood#Fort Blueblood Halls|Fort Blueblood Halls]] {{Key Note|KR}}
+|-
+|{{Anchor|Kvatch Guard House Key}}<br>{{ID|00031D31}}
+|[[Oblivion:Berich Inian|Berich Inian]]
+|''nothing''
+|-
+|{{Anchor|Lindai's Royal Tomb Key}} {{Key Note|RI}}<br>{{ID|000A55FC}}
+|Given by [[Oblivion:Herminia Cinna|Herminia Cinna]] {{Key Note|NP}}
+|Door to [[Oblivion:Ayleid Crown of Lindai|Ayleid Crown of Lindai]] in [[Oblivion:Lindai#Lindai Inner Tombs|Lindia Inner Tombs]] {{Key Note|KR}}
+|-
+|{{Anchor|Mages Guild Key}}<br>{{ID|0002229C}}
+|[[Oblivion:Alberic Litte|Alberic Litte]], [[Oblivion:Angalmo|Angalmo]], [[Oblivion:Athragar|Athragar]], [[Oblivion:Jeanne Frasoric|Jeanne Frasoric]], [[Oblivion:J'skar|J'skar]], [[Oblivion:Selena Orania|Selena Orania]], [[Oblivion:Teekeeus|Teekeeus]], [[Oblivion:Volanaro|Volanaro]], given to you by a guild master when you [[Oblivion:Join the Mages Guild|Join the Mages Guild]]
+|Doors to the Basements and Upper Quarters of the [[Oblivion:Mages Guild|Mages Guilds]] in [[Oblivion:Anvil Mages Guild|Anvil]], [[Oblivion:Bravil Mages Guild|Bravil]], [[Oblivion:Bruma Mages Guild|Bruma]], [[Oblivion:Cheydinhal Mages Guild|Cheydinhal]], [[Oblivion:Chorrol Mages Guild|Chorrol]], [[Oblivion:Leyawiin Mages Guild|Leyawiin]] and [[Oblivion:Skingrad Mages Guild|Skingrad]] {{Key Note|KR}}
+|-
+|{{Anchor|Medrike's Key}} <br>{{ID|0000C32A}}
+|''nowhere''
+|''nothing''
+|-
+|{{Anchor|Ormil's Cabin Key|Key0000C1FE}} {{Key Note|RI}}<br>{{ID|0000C1FE}}
+|[[Oblivion:Wrath|Wrath]]
+|Ormil's Cabin aboard [[Oblivion:An Unexpected Voyage|The Bloated Float]] {{Key Note|KR}}
+|-
+|{{Anchor|Orthe's Key}} <br>{{ID|0000C329}}
+|[[Oblivion:Orthe|Orthe]], The Forbidden in [[Oblivion:Paradise (place)|The Forbidden Grotto]]
+|Gate in [[Oblivion:Paradise (place)|The Forbidden Grotto]] {{Key Note|KR}}
+|-
+|{{Anchor|Raynil's Key}} <br>{{ID|000385A3}}
+|[[Oblivion:Raynil Dralas|Raynil Dralas]]
+|Chest in [[Oblivion:Boreal_Stone_Cave|Boreal Stone Cave]], also needs [[#Bradon's Key|Bradon's Key]] and [[#Gelebourne's Key|Gelebourne's Key]] {{Key Note|KR}}
+|-
+|{{Anchor|Raynil's Room Key}} <br>{{ID|00038449}}
+|[[Oblivion:Olav|Olav]], also given by him during [[Oblivion:A Brotherhood Betrayed|A Brotherhood Betrayed]]
+|[[Oblivion:Raynil Dralas|Raynil Dralas]]' room in Olav's Tap and Tack in [[Oblivion:Bruma|Bruma]]
+|-
+|{{Anchor|Ri'Zakar's Room Key}} <br>{{ID|000A564F}}
+|[[Oblivion:Jeetum-Ze|Jeetum-Ze]] after starting [[Oblivion:The Hist|The Hist]]
+|Ri'Zakar's Room in the [[Oblivion:Blackwood Company|Blackwood Company]] Hall in Leyawiin {{Key Note|KR}}
+|-
+|{{Anchor|Ritual Key}} <br>{{ID|00033911}}
+|''nowhere''
+|''nothing''
+|-
+|{{Anchor|Rythe's Studio Key}} {{Key Note|RI}}<br>{{ID|0001BC2C}}
+|Given by [[Oblivion:Tivela_Lythandas|Tivela Lythandas]] during [[Oblivion:A_Brush_with_Death|A Brush with Death]] {{Key Note|NP}}
+|Allows unlimited access to Rythe's Studio {{Key Note|KR}}
+|-
+|{{Anchor|Sancre Tor Key}} {{Key Note|RI}}<br>{{ID|0000A23F}}
+|Given by [[Oblivion:Jauffre|Jauffre]] after starting the [[Oblivion:Blood of the Divines|Blood of the Divines]] quest {{Key Note|NP}}
+|Door to [[Oblivion:Sancre Tor|Sancre Tor]] {{Key Note|KR}}
+|-
+|{{Anchor|Sanctuary Well Key}} <br>{{ID|0000B258}}
+|Given to you when you reach Eliminator rank in the [[Oblivion:Dark Brotherhood|Dark Brotherhood]] {{Key Note|NP}}
+|Well entrance to the [[Oblivion:Dark Brotherhood Sanctuary|Dark Brotherhood Sanctuary]] {{Key Note|KR}}
+|-
+|{{Anchor|Second Hunter's Run Key}}<br>{{ID|0018D13F}}
+|Kurdan's Nord Hunter in [[Oblivion:Fort Grief|Fort Grief]]
+|Door in [[Oblivion:Fort Grief|Fort Grief]] {{Key Note|KR}}
+|-
+|{{Anchor|Serpent's Wake Key}} <br>{{ID|0000A26E}}
+|Given by [[Oblivion:Varulae|Varulae]] when starting [[Oblivion:The Ghost Ship of Anvil|The Ghost Ship of Anvil]], Dead Captain or Crewmembers aboard the Serpent's Wake in Anvil
+|Door to the Serpent's Wake interior in Anvil {{Key Note|KR}}
+|-
+|{{Anchor|Shrine of Dagon Key}} <br>{{ID|0001F14C}}
+|[[Oblivion:Doorkeeper|Doorkeeper]], [[Oblivion:Harrow|Harrow]]
+|Door in [[Oblivion:Lake Arrius Caverns|Lake Arrius Caverns]] and a door the [[Oblivion:Lake Arrius Caverns#Shrine Antechamber|Shrine Antechamber]] {{Key Note|KR}}
+|-
+|{{Anchor|Sigil Keep Key}}<br>{{ID|00093EF5}}
+|[[Oblivion:Dremora|Dremora]] Sigil Keeper in the [[Oblivion:Breaking the Siege of Kvatch|Kvatch Oblivion World]]
+|Several doors in [[Oblivion:Breaking the Siege of Kvatch|The Blood Feast]] {{Key Note|KR}}
+|-
+|{{Anchor|Small Key}}<br>{{ID|000366BC}}
+|[[Oblivion:Gable the Traitor|Gable the Traitor]]
+|Door aboard the [[Oblivion:Emma May|Emma May]] Lower Deck and shackles of the Shackled Skeleton {{Key Note|KR}}
+|-
+|{{Anchor|Southern Books Key}}<br>{{ID|00026085}}
+|''nowhere''
+|''nothing''
+|-
+|{{Anchor|Storage Room Key}}{{Key Note|RI}}<br>{{ID|0000C1FC}}
+|[[Oblivion:Lynch|Lynch]]
+|Door on The Bloated Float Inn Deck in the [[Oblivion:Waterfront District|Waterfront District]], Imperial City {{Key Note|KR}}
+|-
+|{{Anchor|Summitmist Manor Key}}<br>{{ID|000837D1}}
+|Given by [[Oblivion:Fafnir|Fafnir]] during the [[Oblivion:Whodunit?|Whodunit?]] quest {{Key Note|NP}}
+|Summitmist Manor in Skingrad {{Key Note|KR}}
+|-
+|{{Anchor|Top Deck Key}}{{Key Note|RI}}<br>{{ID|0000C1FD}}
+|[[Oblivion:Minx|Minx]]
+|Doors to [[Oblivion:An Unexpected Voyage|Bloated Float on sea]] {{Key Note|KR}}
+|-
+|{{Anchor|Trentius Mausoleum Key}}<br>{{ID|000CA22C}}
+|[[Oblivion:Agarmir|Agarmir]] during the [[Oblivion:Unfriendly Competition|Unfriendly Competition]] quest
+|Door to Trentius Family Mausoleum on the [[Oblivion:Green Emperor Way|Green Emperor Way]], Imperial City {{Key Note|KR}}
+|-
+|{{Anchor|Ulrich Leland's Key}}{{Key Note|RI}}<br>{{ID|0003F31A}}
+|[[Oblivion:Ulrich Leland|Ulrich Leland]], given by [[Oblivion:Garrus Darelliun|Garrus Darelliun]] during the [[Oblivion:Corruption and Conscience|Corruption and Conscience]] quest
+|Door to Ulrich's office in the [[Oblivion:Cheydinhal|Cheydinhal]] Castle Guard Barracks
+|-
+|{{Anchor|Vahtacen Ruins Key}} <br>{{ID|0005401E}}
+|Given by [[Oblivion:Irlav Jarol|Irlav Jarol]] during the [[Oblivion:Vahtacen's Secret|Vahtacen's Secret]] quest {{Key Note|NP}}
+|Gate door in [[Oblivion:Vahtacen|Vahtacen]] {{Key Note|KR}}
+|-
+|{{Anchor|Waterfront Sewers Key}}<br>{{ID|00026089}}
+|''nowhere''
+|''nothing''
+|-
+|{{Anchor|Well Key}} <br>{{ID|000084D3}}
+|Given by [[Oblivion:Deetsan|Deetsan]] during the [[Oblivion:Cheydinhal Recommendation|Cheydinhal Recommendation]] quest {{Key Note|NP}}
+|Mages Guild Well in [[Oblivion:Cheydinhal|Cheydinhal]] {{Key Note|KR}}
+|-
+|{{Anchor|Wellspring Cave Key}} <br>{{ID|0006B396}}
+|On [[Oblivion:Zahrasha|Zahrasha's]] body
+|Exit from [[Oblivion:Wellspring Cave|Wellspring Cave]] to Wellspring Grove island {{Key Note|KR}}
+|}
+
+==Ingredients==
+This table provides a comprehensive list of all [[Oblivion:Alchemy|alchemic]] ingredients used in quests in Oblivion, their effects, and their roles within their related quest.
+
+{| class="wikitable" style="width: 100%;"
+!Ingredient Name (ID) !! Primary Effect !! Secondary Effect !! Tertiary Effect !! Quaternary Effect
+!width=22|{{Value Icon}}
+!width=22|{{Weight Icon}}
+|-
+|rowspan=2|[[Oblivion:Ashes of Hindaril#Ashes_of_Hindaril|Ashes of Hindaril]]<br>{{ID|000977DD}}|| [[Oblivion:Silence|Silence]] || [[Oblivion:Resist Disease|Resist Disease]] || [[Oblivion:Frost Damage|Frost Damage]] || [[Oblivion:Invisibility|Invisibility]] || 4 || 0.1
+|-
+|colspan=6|Collected from the corpse of [[Oblivion:Hindaril|Hindaril]] in [[Oblivion:Redwater Slough|Redwater Slough]]. Its properties are the same as regular [[Oblivion:Vampire Dust|Vampire Dust]]. Needed for the [[Oblivion:Vampire Cure|Vampire Cure]]
+|-
+|rowspan=2|[[Oblivion:Jumbo_Potato|Jumbo Potato]]<br>{{ID|00177A2A}}|| [[Oblivion:Restore Fatigue|Restore Fatigue]] || [[Oblivion:Shield|Shield]] || [[Oblivion:Burden|Burden]] || [[Oblivion:Frost Shield|Frost Shield]] || 1 || 0
+|-
+|colspan=6|Collected from the corpse of a unique [[Oblivion:Monsters#Faregyl Ogre|Ogre]] near [[Oblivion:Faregyl Inn|Faregyl Inn]]. Its properties are the same as regular [[Oblivion:Potato|Potatoes]]. Return them to [[Oblivion:S'jirra|S'jirra]] to get her [[#S'jirra's Famous Potato Bread|famous potato bread]] during [[Oblivion:The Potato Snatcher|The Potato Snatcher]] quest. There are six potatoes, but S'Jirra reclaims all of them.
+|-
+|rowspan=2|[[Oblivion:Refined Frost Salts|Refined Frost Salts]]<br>{{ID|00022F1A}}|| [[Oblivion:Frost Damage|Frost Damage]] || [[Oblivion:Frost Shield|Frost Shield]] || [[Oblivion:Resist Fire|Resist Fire]] || [[Oblivion:Silence|Silence]] || 40 || 0.1
+|-
+|colspan=6|Only available after the start of the [[Oblivion:Tears of the Savior|Tears of the Savior]] quest. And only in limited quantities, 6 are available. All of which are marked as a Quest Item until after the related quest.
+|-
+|rowspan=2|[[Oblivion:Rumare Slaughterfish Scales|Rumare Slaughterfish Scales]]<br>{{ID|00185FE2}}|| [[Oblivion:Damage Willpower|Damage Willpower]] || [[Oblivion:Water Breathing|Water Breathing]] || [[Oblivion:Damage Health|Damage Health]] || [[Oblivion:Water Walking|Water Walking]] || 2 || 0
+|-
+|colspan=6|Collected from the corpses of [[Oblivion:Rumare Slaughterfish|Rumare Slaughterfish]], which are found in [[Oblivion:Lake Rumare|Lake Rumare]] east of [[Oblivion:Weye|Weye]]. You need to give [[Oblivion:Aelwin Merowald|Aelwin Merowald]] in [[Oblivion:Weye|Weye]] twelve samples to receive your reward for the [[Oblivion:Go Fish|Go Fish]] quest. Its attributes are the same as regular [[Oblivion:Scales|Scales]].
+|-
+|rowspan=2|[[Oblivion:Unicorn Horn|Unicorn Horn]]<br>{{ID|0001EC5B}}|| [[Oblivion:Fortify Health|Fortify Health]] || None || None|| None || 0 || 1.5
+|-
+|colspan=6|Collected from the corpse of the [[Oblivion:Unicorn|Unicorn]], a unique creature found in [[Oblivion:Harcane Grove|Harcane Grove]]. It is needed for [[Oblivion:Hircine|Hircine]]'s quest.
+|}
+
+==Notes==
+*The weights displayed only come into effect if the item is not marked as a quest item. Otherwise, all quest items have a weight of 0.
+*All values are given for the highest version of leveled items.

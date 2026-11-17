@@ -1,0 +1,473 @@
+{{面包屑}}
+
+{| class="wikitable" 
+|-
+! 英文
+! ANK
+! UNO
+|-
+| 1 = Imperial, 2 = Stormcloak supporter
+| colspan="2" | 1 = 帝国，2=风暴斗篷 支持者
+|-
+| Adventurers
+| 冒险家
+| 
+|-
+| Agents of the Black Marsh
+| 黑沼泽间谍
+| 
+|-
+| Alchemy Trainer
+| 炼金术训练师
+| 
+|-
+| all friends in here
+| 所有朋友都在这里
+| 
+|-
+| Alteration Trainer
+| 变换系训练师
+| 
+|-
+| BarbasFaction
+| 巴巴斯Faction
+| 
+|-
+| Belethor's Goods
+| 贝莱托尔杂货店
+| 
+|-
+| Bits and Pieces
+| 零珠碎玉
+| 
+|-
+| Blades
+| 刀锋卫士
+| 
+|-
+| Block Trainer
+| 格挡训练师
+| 
+|-
+| Blood-Kin of the Orcs
+| 兽人血亲
+| 
+|-
+| Bounty Collector
+| 赏金猎人
+| 
+|-
+| Bounty Hunter
+| 赏金猎人
+| 
+|-
+| Broken Oar Bandits
+| 破桨强盗
+| 
+|-
+| College of Winterhold
+| 冬堡学院
+| 
+|-
+| Conjuration Trainer
+| 召唤系训练师
+| 
+|-
+| Crew of the Red Wave
+| 赤红波浪船员
+| 
+|-
+| Crowd Spectator
+| 围观者
+| 
+|-
+| Daedra
+| 魔族
+| 
+|-
+| Dead Mans Drink
+| 亡者之饮
+| 
+|-
+| Destruction Trainer
+| 毁灭系训练师
+| 
+|-
+| Dragonsreach Servants
+| 龙临堡仆人
+| 
+|-
+| Dremora Faction
+| 魔人派系
+| 
+|-
+| During sieges, staff and family hide.
+| colspan="2" | 攻城战时，工作人员和家人会躲起来。
+|-
+| East Empire Company
+| 东帝国贸易公司
+| 
+|-
+| Eastmarch
+| 东陲领
+| 
+|-
+| Enchanting Trainer
+| 附魔训练师
+| 
+|-
+| Enemies
+| 敌人
+| 
+|-
+| Eorlund Gray-Mane
+| 厄伦德·灰鬃
+| 
+|-
+| Exiled Government
+| 流亡政府
+| 
+|-
+| Falkreath
+| 佛克瑞斯领
+| 
+|-
+| Falmer
+| 伐莫
+| 
+|-
+| Falmer Servant
+| 伐莫仆人
+| 
+|-
+| Farengar spell vendor
+| 魔法商人法仁加
+| 
+|-
+| Fence
+| 销赃
+| 
+|-
+| Fish vendor
+| 鱼类贩子
+| 
+|-
+| Fletcher
+| 造箭者
+| 
+|-
+| Fruit vendor
+| 水果贩子
+| 
+|-
+| Gray Pine Goods
+| 灰松木杂货店
+| 
+|-
+| Greybeards
+| 灰胡子
+| 
+|-
+| Haafingar
+| 海芬加领
+| 
+|-
+| Heavy Armor Trainer
+| 重甲训练师
+| 
+|-
+| Hireable dog/deathhound
+| 可雇用的狗/死亡猎犬
+| 
+|-
+| Hireling
+| 佣兵
+| 
+|-
+| Hjaalmarch
+| 希雅陲领
+| 
+|-
+| Honningbrew Meadery
+| 蜜之酿酒庄
+| 
+|-
+| Horgeir's House Occupants
+| 霍格家的居住者
+| 
+|-
+| Hunters of Hircine
+| 海尔辛的猎人
+| 
+|-
+| Illusion Trainer
+| 幻术系训练师
+| 
+|-
+| Immune to Bend Will shout
+| 对意志屈服龙吼免疫
+| 
+|-
+| Imperial Government
+| 帝国政府
+| 
+|-
+| Imperial Legion
+| 帝国军团
+| 
+|-
+| Jeweler
+| 珠宝商
+| 
+|-
+| Karthwasten Guard
+| 西卡斯镇卫兵
+| 
+|-
+| Khajiit Traders
+| 虎人商人
+| 
+|-
+| Kolskeggr Mine Guards
+| 科斯凯格矿坑卫兵
+| 
+|-
+| Kyne's Peace
+| 凯娜之静
+| 
+|-
+| Largashbur Orcs
+| 拉加施布尔兽人
+| 
+|-
+| Light Armor Trainer
+| 轻甲训练师
+| 
+|-
+| Lockpicking Trainer
+| 开锁训练师
+| 
+|-
+| Mammoth Faction
+| 长毛象派系
+| 
+|-
+| Markarth Guard
+| 马卡斯城卫兵
+| 
+|-
+| Markarth Wizards' Quarters Guards
+| 马卡斯城法师区卫兵
+| 
+|-
+| Marksman Trainer
+| 箭术训练师
+| 
+|-
+| One-Handed Trainer
+| 单手武器训练师
+| 
+|-
+| Pickpocket Trainer
+| 扒窃训练师
+| 
+|-
+| Player can turn this actor into a   vampire
+| colspan="2" | 玩家可将此目标变成吸血鬼
+|-
+| Player is turning me into a vampire
+| 玩家正把我变成吸血鬼
+| 
+|-
+| Radiant Raiments
+| 锦衣服饰店
+| 
+|-
+| Raven Rock
+| 鸦石镇
+| 乌石镇
+|-
+| Restoration Trainer
+| 复原系训练师
+| 
+|-
+| Riekling
+| 蓝客灵矮妖
+| 蓝客灵
+|-
+| Riverwood Patrol
+| 河木镇巡逻队
+| 
+|-
+| Ruling Government
+| 当权政府
+| 
+|-
+| Sanguine Cultist
+| 桑吉恩教徒
+| 
+|-
+| Sinding
+| 辛丁
+| 
+|-
+| Skaal Shaman
+| 斯卡尔萨满
+| 
+|-
+| Skill Trainer
+| 技能训练师
+| 
+|-
+| Skooma Dealer
+| 斯库玛贩子
+| 
+|-
+| Sleeping Giant Services
+| 沉睡巨人旅店服务
+| 
+|-
+| Smithing Trainer
+| 锻造训练师
+| 
+|-
+| Sneak Trainer
+| 潜行训练师
+| 
+|-
+| Sofie's Flowers
+| 索菲的花
+| 
+|-
+| Soljund's Sinkhole Guards
+| 索云德水洞卫兵
+| 
+|-
+| Solutide stables
+| 独孤城畜舍
+| 
+|-
+| Sons of Skyrim
+| 天际之子
+| 
+|-
+| Sons of Skyrim Government
+| 天际之子政府
+| 
+|-
+| Speechcraft Trainer
+| 口才训练师
+| 
+|-
+| Spiders
+| 蜘蛛
+| 
+|-
+| Steward has already been blackmailed.
+| 总管已经被威胁。
+| 
+|-
+| Stormcloaks
+| 风暴斗篷
+| 
+|-
+| Street Vendor
+| 街头小贩
+| 
+|-
+| Sybille Stentor
+| 希比利·斯丹特
+| 
+|-
+| Tailor
+| 裁缝
+| 
+|-
+| Thalmor
+| 梭默
+| 
+|-
+| The Afflicted
+| 感染者
+| 
+|-
+| The Companions
+| 战友团
+| 
+|-
+| The Dark Brotherhood
+| 黑暗兄弟会
+| 
+|-
+| The Pale
+| 苍原领
+| 
+|-
+| The player made me into a vampire
+| 玩家已把我变成吸血鬼
+| 
+|-
+| The Reach
+| 边塞领
+| 
+|-
+| The Rift
+| 裂痕领
+| 
+|-
+| Thieves Guild
+| 盗贼公会
+| 
+|-
+| Thieves' Guild
+| 盗贼公会
+| 
+|-
+| Tribal Orcs
+| 部落兽人
+| 
+|-
+| Two-Handed Trainer
+| 双手武器训练师
+| 
+|-
+| Urag gro-Shub Services
+| 乌拉格·格洛-舒布服务
+| 
+|-
+| used for combat
+| 用于战斗
+| 
+|-
+| Vampire Thrall
+| 吸血鬼奴仆
+| 
+|-
+| Warmaidens
+| 女战士
+| 
+|-
+| Whiterun
+| 白漫领
+| 
+|-
+| Whiterun Drunken Huntsman Vendor
+| 白漫城的醉猎户贩子
+| 
+|-
+| Whiterun Guard
+| 白漫城卫兵
+| 
+|-
+| Windhelm Pit
+| 风舵城斗兽场
+| 
+|-
+| Winking Skeever Inn
+| 眨眼恶鼠旅馆
+| 
+|-
+| Winterhold
+| 冬堡
+| 
+|}

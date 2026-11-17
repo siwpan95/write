@@ -1,0 +1,9 @@
+{{Game Book
+|icon=OB-icon-book-Book9.png
+|id=00024563
+|value=4
+|weight=1.0
+|loc=*[[Oblivion:First Edition|First Edition]] bookstore in the Imperial City [[Oblivion:Market District|Market District]]
+*In [[Oblivion:Bruma Mages Guild|Bruma Mages Guild]] (before starting the quest "[[Oblivion:A Plot Revealed|A Plot Revealed]]")
+* [[Oblivion:Garlas Agea|Garlas Agea]]
+}}

@@ -1,0 +1,88 @@
+{{Cleanup-obrp-quest
+|image=[[User:TheDravenator|TheDravenator]]
+|imageChecked=
+|writtenBy=
+|checkedBy=
+|objectivesChecked=
+|reward=
+|rewardChecked=
+}}{{Quest Header
+|type=Dark Brotherhood
+|Giver=During prior conclusion in the [[Oblivion:Dark Brotherhood Sanctuary|Dark Brotherhood Sanctuary]]
+|Icon=OBR-icon-quest-Dark Brotherhood.png
+|Iconsize=70px
+|Reward=200 gold per visit (max 1/week)
+|ID=Dark19Whispers
+|Prev=[[Oblivion:Honor Thy Mother|Honor Thy Mother]]
+|Loc=[[Oblivion:Dark Brotherhood Sanctuary|Dark Brotherhood Sanctuary]], [[Oblivion:Bravil|Bravil]]
+|Image=OB-quest-Whispers of Death.jpg
+|imgremaster=OBR-quest-Whispers of Death.jpg
+|ImgDesc=The Lucky Old Lady of Bravil
+|description=Relay the prayers of the vengeful to ensure their vengeance is fulfilled.
+}}
+
+==Quick Walkthrough==
+#Go to [[Oblivion:Bravil|Bravil]] once a week and activate the [[Lore:Night Mother|Night Mother]]'s statue to learn the details of somebody requiring the [[Oblivion:Dark Brotherhood|Dark Brotherhood]]'s services.
+#Report these to [[Oblivion:Arquen|Arquen]] in the [[Oblivion:Dark Brotherhood Sanctuary|Dark Brotherhood Sanctuary]] and receive your reward for the previous week's kill.
+
+==Detailed Walkthrough==
+===The Lucky Old Lady===
+Go to Bravil and activate the statue of the Lucky Old Lady as if you were trying to receive her usual blessing of luck. Instead, the Night Mother will tell you that somebody has prayed to her and that you should relay these details to your Speaker. You will receive random combinations of one of the following people and locations. None of these locations are in Cyrodiil, so you cannot contact the person in question yourself.
+
+{| class="wikitable"
+!People!!Locations
+|-
+|
+*A female High Elf named '''{{Anchor|Alwaen}}'''.
+*A female Breton named '''{{Anchor|Annabelle}}'''.
+*A male High Elf named '''{{Anchor|Aranath}}'''.
+*A female Imperial named '''{{Anchor|Avresa}}'''.
+*A male Orc named '''{{Anchor|Buramog}}'''.
+*A female Imperial named '''{{Anchor|Camilla}}'''.
+*A male Khajiit named '''{{Anchor|Dahlima}}'''.
+*A male Nord named '''{{Anchor|Erich}}'''.
+*A female Breton named '''{{Anchor|Evangeline}}'''.
+*A male Imperial named '''{{Anchor|Florentius}}'''.
+*A male Imperial named '''{{Anchor|Haderus}}'''.
+*A male Dark Elf named '''{{Anchor|Hlanas}}'''.
+*A female Wood Elf named '''{{Anchor|Naarifin}}'''.
+*A female Argonian named '''{{Anchor|Pasha}}'''.
+*A female Redguard named '''{{Anchor|Rhiannon}}'''.
+*A male Imperial named '''{{Anchor|Severio}}'''.
+*A female Khajiit named '''{{Anchor|Shavari}}'''.
+*A female Nord named '''{{Anchor|Sonje}}'''.
+*A male Wood Elf named '''{{Anchor|Urunil}}'''.
+|
+*The city of [[Lore:Lillandril|Lillandril]], on the High Elven home of [[Lore:Summerset Isle|{{sic|Sumerset|Summerset|nolink=1}} Isle]].
+*The city of [[Lore:Blackrose|Blackrose]], in the Argonian homeland of [[Lore:Black Marsh|Black Marsh]].
+*The village of [[Lore:Seyda Neen|Seyda Neen]], on the Dark Elven isle of [[Lore:Vvardenfell|Vvardenfell]].
+*The mead hall known as [[Lore:Thirsk|Thirsk]], on the Nord isle of [[Lore:Solstheim|Solstheim]].
+*The city of [[Lore:Mournhold|Mournhold]], in the Dark Elven homeland of [[Lore:Morrowind|Morrowind]].
+*The [[Lore:Ogres Tooth Mountains|Ogres Tooth Mountains]], on the Redguard isle of [[Lore:Stros M'Kai|Stros M'Kai]].
+*The city of [[Lore:Daggerfall|Daggerfall]], in the Breton homeland of [[Lore:High Rock|High Rock]].
+*The city of [[Lore:Falinesti|Falinesti]], in the Wood Elven homeland of [[Lore:Valenwood|Valenwood]].
+*The [[Lore:The Halls of Colossus|Halls of {{sic|Collosus|Colossus|nolink=1}}]], in the Khajiit homeland of [[Lore:Elsweyr|Elsweyr]].
+*A small settlement just outside the city of [[Lore:Snowhawk|Snowhawk]], in the Nord homeland of [[Lore:Skyrim|Skyrim]].
+*The swamps just north of the city of [[Lore:Archon|Archon]], in the Argonian homeland of [[Lore:Black Marsh|Black Marsh]].
+*The city of [[Lore:Sentinel|Sentinel]], in the Redguard homeland of [[Lore:Hammerfell|Hammerfell]].
+*The small, unnamed village just west of the city of [[Lore:Alabaster|Alabaster]], in the Khajiit homeland of [[Lore:Elsweyr|Elsweyr]].
+*The [[Lore:Elden Grove|Elden Grove]], in the Wood Elven nation of [[Lore:Valenwood|Valenwood]].
+*The [[Lore:Balfiera|small island]] in the [[Lore:Illiac Bay|Illiac Bay]], in the Breton homeland of [[Lore:High Rock|High Rock]].
+|}
+
+===Messenger of Death===
+Head to the [[Oblivion:Cheydinhal|Cheydinhal]] sanctuary and speak to [[Oblivion:Arquen|Arquen]]. She will promise you that the matter will be taken care of, and hand over your earnings for the previous week.
+
+==Notes==
+* There is no penalty for not visiting the statue once a week.
+{{Bug|This quest cannot be finished. It will always stay in the list of active quests.|UOP|2.2.0|fixdetail=It is removed from the quest list and re-added each time.}}
+**{{pc22}} You can remove the last journal entry by using the following console command: ''<code>completequest Dark19Whispers</code>''. Doing this will not prevent you from delivering the information to your Speaker and receiving your reward.
+**{{OBR Fix}}
+
+==Journal Entries==
+{{Journal Entries
+|10||Once a week, I must speak with the statue of the Night Mother in Bravil. The Night Mother will give me a list of names and locations of people who require a visit from a Dark Brotherhood Speaker, to arrange an assassination. If I take this information to Arquen in the Cheydinhal Sanctuary, she will give me my weekly earnings. I can do this every week for as long as I want, and there is no penalty if I choose not to.
+}}
+{{OB Journal Entries Notes}}
+
+{{Quest Footer|Prev=[[Oblivion:Honor Thy Mother|Honor Thy Mother]]|Up=[[Oblivion:Dark Brotherhood|Dark Brotherhood]]}}

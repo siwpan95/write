@@ -1,0 +1,32 @@
+{{Trail|Items}}{{#addtotrail:Quest Items}}
+{{Artifact Summary
+|image=SR-item-Dragonstone (map).jpg
+|weight=25
+|value=0
+|type=Miscellaneous
+|artifacttype=Quest Item
+|objectid=000df202
+}}[[File:SR-item-Dragonstone (text).jpg|thumb|right|Back of the Dragonstone]]
+The '''Dragonstone''' is retrieved from the boss [[Skyrim:Draugr|Draugr]] in [[Skyrim:Bleak Falls Barrow (place)|Bleak Falls Barrow]]. On its front is a map showing various locations with [[Skyrim:Dragon Mounds|dragon burial sites]], and on its back is a script in the [[Lore:Dragon Alphabet|dragon alphabet]].
+{{NewLeft}}
+== Dragonstone Text ==
+{|class=wikitable style="text-align:center"
+|-
+! Original
+! Latin alphabet
+! Translated
+|-
+|{{DragonFont|HET NOK UN<br>MAHLaaN DROGGE<br>ERei SULeyK SE<br>ALDUIN VOKRii|4}}
+|HET NOK UN<br>MAHLaaN DROGGE<br>ERei SULeyK SE<br>ALDUIN VOKRii
+|Here lie our<br>Fallen lords <br>until power of<br>ALDUIN restore
+|}
+
+==Related Quests==
+*{{Quest Link|Bleak Falls Barrow (quest)}}
+
+==Notes==
+*A second version with [[Skyrim:Form ID|ID]] <code>000ad06f</code> and editor ID <code>E3DemoMQ103Dragonstone</code> that doesn't appear in the game was part of the E3 demo of the game. It is identical in all other aspects.
+
+__NOTOC__
+[[Category:Skyrim-Items-Miscellaneous]]
+[[Category:Skyrim-Quest Items]]

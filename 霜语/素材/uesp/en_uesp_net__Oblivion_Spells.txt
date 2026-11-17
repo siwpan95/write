@@ -1,0 +1,54 @@
+{{Trail|Magic}}
+{{TOCleft}}This page lists all of the '''spells''' that appear in [[OB:Oblivion|Oblivion]]. Spells can be purchased from [[OB:Spell Merchants|spell merchants]], received as rewards for [[OB:Quests|quests]], and received during [[OB:Character Creation|character creation]] depending on chosen [[OB:Skills|major skills]]. Almost every spell has a corresponding tome that is only introduced with the [[OB:Spell Tomes|Spell Tomes]] [[OB:Downloads|official download]]. Reading a tome will allow you to instantly learn its spell, and there are some spells in the game that can ''only'' be acquired through reading its tome.
+
+[[OB:Powers|Powers]], as well spells added by [[Shivering:Magic|Shivering Isles]], [[OB:Spell Tomes|Spell Tomes]] and [[OB:Thieves Den Spells|Thieves Den]] are listed on their own respective pages.{{NewLeft}}
+
+==[[File:OBR-icon-magic-Alteration.png|20px|link=OB:Alteration Spells]] [[OB:Alteration Spells|Alteration Spells]]==
+{{OB:Alteration Spells}}
+
+==[[File:OBR-icon-magic-Conjuration.png|20px|link=OB:Conjuration Spells]] [[OB:Conjuration Spells|Conjuration Spells]]==
+{{OB:Conjuration Spells}}
+
+==[[File:OBR-icon-magic-Destruction.png|20px|link=OB:Destruction Spells]] [[OB:Destruction Spells|Destruction Spells]]==
+{{OB:Destruction Spells}}
+
+==[[File:OBR-icon-magic-Illusion.png|20px|link=OB:Illusion Spells]] [[OB:Illusion Spells|Illusion Spells]]==
+{{OB:Illusion Spells}}
+
+==[[File:OBR-icon-magic-Mysticism.png|20px|link=OB:Mysticism Spells]] [[OB:Mysticism Spells|Mysticism Spells]]==
+{{OB:Mysticism Spells}}
+
+==[[File:OBR-icon-magic-Restoration.png|20px|link=OB:Restoration Spells]] [[OB:Restoration Spells|Restoration Spells]]==
+{{OB:Restoration Spells}}
+
+{{OB:Spell List Notes}}
+
+==Adding and Removing Spells==
+===Adding Spells===
+Spells can be added via the [[OB:console|console]] using the <code>player.addspell</code> command, followed by its [[OB:Form ID|Form ID]]. For example, <code>player.addspell 000A9822</code> would add ''Heal Major Wounds'' to the list of known spells. The command <code>PlayerSpellBook</code> or <code>psb</code> will add every spell defined in the game, including those from mods, test spells, and others not normally accessible to the player. Due to the amount of spells added this can have an adverse effect on game performance when accessing the spell list. Not all spells unlocked through this command will work, and some will not work as expected.
+
+===Removing Spells===
+The game does not feature any way to remove a known spell except for using the command <code>player.removespell</code> followed by the spell's Form ID, e.g. <code>player.removespell 000A97CA</code> would remove the spell ''Calming Touch'' from the list of known spells. This method does not allow you to use the spell's name again for [[OB:Spell Making|custom spells]]; the game will act as if you still have a spell of the same name in your spell book.
+
+Several modifications can be used to rename and remove spells: {{WryeLink|Wrye Bash}} allows you to both rename and delete spells. There is also an OBSE-based mod which allows you to remove spells while in-game. If you don't want to or are unable to use either of these, then your only choice is the console. A recent version of [[Oblivion Mod:Cobl|COBL]] allows for spells to be deleted too.
+
+===Removing Default Starting Spells===
+'''Flare:''' It is harmless to remove ''Flare'' from your character using any method.
+
+'''Heal Minor Wounds:''' The game uses the default starting spell ''Heal Minor Wounds'' (Editor ID: 'DefaultPlayerSpell') as a fallback when casting a scroll spell, and therefore it is not recommended to remove it using any method.
+
+===Finding Form IDs for Custom Spells===
+Removing custom spells is complicated by the fact that they do not have a known Form ID. Their IDs can be found with following steps:
+# Create a custom save in-game by using the console command <code>save <filename> 1</code> (the filename can be anything)
+# Look in the save game directory (Default: \My Documents\My Games\Oblivion\Saves) and look for <filename>.ess.txt
+# In this text file, search for "SPELs". Custom spells will be listed in a section such as this:
+  SPELs:
+    FF00470B   108 00000000  0 Custom Spell                      -
+    FF00470D   103 00000000  0 Unwanted Custom Spell             -
+    (...)
+
+==See Also==
+* [[OB:Powers|Powers]]
+* [[OB:Leveled Spells|Leveled Spells]]
+* [[OB:List of Spells by Effect|Spells by Effect]]
+* Spells added by the expansion and [[OB:Downloads|official downloads]]: [[Shivering:Magic|Shivering Isles]], [[OB:Spell Tomes|Spell Tomes]] and [[OB:Thieves Den Spells|Thieves Den]]

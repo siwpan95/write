@@ -1,0 +1,592 @@
+{{Trail|Magic}}[[Category:Morrowind-Hints|Spells]]__NOTOC__
+==Spell List==
+This is a list of all spell effects available in the game, for sale at vendors. For a list of vendors by location, you can visit [[Morrowind:Spell Merchants|Spell Merchants]]. For lists of vendors for a specific spell, click on the headers in the following table.
+
+{|class="wikitable vtop"
+|-
+!{{ALT}} style="width:16%"|[[Morrowind:Alteration Spells|Alteration]]
+!{{CON}} style="width:16%"|[[Morrowind:Conjuration Spells|Conjuration]]
+!{{DES}} style="width:16%"|[[Morrowind:Destruction Spells|Destruction]]
+!{{ILL}} style="width:16%"|[[Morrowind:Illusion Spells|Illusion]]
+!{{MYS}} style="width:16%"|[[Morrowind:Mysticism Spells|Mysticism]]
+!{{RES}} style="width:16%"|[[Morrowind:Restoration Spells|Restoration]]
+|-style="font-size:smaller"
+|
+[[Morrowind:Alteration Spells#Burden|Burden]]<br>
+[[Morrowind:Alteration Spells#Feather|Feather]]<br>
+[[Morrowind:Alteration Spells#Fire Shield|Fire Shield]]<br>
+[[Morrowind:Alteration Spells#Frost Shield|Frost Shield]]<br>
+[[Morrowind:Alteration Spells#Jump|Jump]]<br>
+[[Morrowind:Alteration Spells#Levitate|Levitate]]<br>
+[[Morrowind:Alteration Spells#Lightning Shield|Lightning Shield]]<br>
+[[Morrowind:Alteration Spells#Lock|Lock]]<br>
+[[Morrowind:Alteration Spells#Open|Open]]<br>
+[[Morrowind:Alteration Spells#Shield|Shield]]<br>
+[[Morrowind:Alteration Spells#Slowfall|Slowfall]]<br>
+[[Morrowind:Alteration Spells#Swift Swim|Swift Swim]]<br>
+[[Morrowind:Alteration Spells#Water Breathing|Water Breathing]]<br>
+[[Morrowind:Alteration Spells#Water Walking|Water Walking]]<br>
+|
+[[Morrowind:Conjuration Spells#Bound Battle Axe|Bound Battle Axe]]<br>
+[[Morrowind:Conjuration Spells#Bound Boots|Bound Boots]]<br>
+[[Morrowind:Conjuration Spells#Bound Cuirass|Bound Cuirass]]<br>
+[[Morrowind:Conjuration Spells#Bound Dagger|Bound Dagger]]<br>
+[[Morrowind:Conjuration Spells#Bound Gauntlets|Bound Gauntlets]]<br>
+[[Morrowind:Conjuration Spells#Bound Helm|Bound Helm]]<br>
+[[Morrowind:Conjuration Spells#Bound Longbow|Bound Longbow]]<br>
+[[Morrowind:Conjuration Spells#Bound Longsword|Bound Longsword]]<br>
+[[Morrowind:Conjuration Spells#Bound Mace|Bound Mace]]<br>
+[[Morrowind:Conjuration Spells#Bound Shield|Bound Shield]]<br>
+[[Morrowind:Conjuration Spells#Bound Spear|Bound Spear]]<br>
+[[Morrowind:Conjuration Spells#Command Creature|Command Creature]]<br>
+[[Morrowind:Conjuration Spells#Command Humanoid|Command Humanoid]]<br>
+[[Morrowind:Conjuration Spells#Summon Ancestral Ghost|Summon Ancestral Ghost]]<br>
+[[Morrowind:Conjuration Spells#Summon Bonelord|Summon Bonelord]]<br>
+[[Morrowind:Conjuration Spells#Summon Bonewalker|Summon Bonewalker]]<br>
+[[Morrowind:Conjuration Spells#Summon Centurion Sphere|Summon Centurion Sphere]]<br>
+[[Morrowind:Conjuration Spells#Summon Clannfear|Summon Clannfear]]<br>
+[[Morrowind:Conjuration Spells#Summon Daedroth|Summon Daedroth]]<br>
+[[Morrowind:Conjuration Spells#Summon Dremora|Summon Dremora]]<br>
+[[Morrowind:Conjuration Spells#Summon Flame Atronach|Summon Flame Atronach]]<br>
+[[Morrowind:Conjuration Spells#Summon Frost Atronach|Summon Frost Atronach]]<br>
+[[Morrowind:Conjuration Spells#Summon Golden Saint|Summon Golden Saint]]<br>
+[[Morrowind:Conjuration Spells#Summon Greater Bonewalker|Summon Greater Bonewalker]]<br>
+[[Morrowind:Conjuration Spells#Summon Hunger|Summon Hunger]]<br>
+[[Morrowind:Conjuration Spells#Summon Scamp|Summon Scamp]]<br>
+[[Morrowind:Conjuration Spells#Summon Skeletal Minion|Summon Skeletal Minion]]<br>
+[[Morrowind:Conjuration Spells#Summon Storm Atronach|Summon Storm Atronach]]<br>
+[[Morrowind:Conjuration Spells#Summon Winged Twilight|Summon Winged Twilight]]<br>
+[[Morrowind:Conjuration Spells#Turn Undead|Turn Undead]]<br>
+|
+[[Morrowind:Destruction Spells#Damage Attribute|Damage Attribute]]<br>
+[[Morrowind:Destruction Spells#Damage Fatigue|Damage Fatigue]]<br>
+[[Morrowind:Destruction Spells#Damage Health|Damage Health]]<br>
+[[Morrowind:Destruction Spells#Damage Magicka|Damage Magicka]]<br>
+[[Morrowind:Destruction Spells#Disintegrate Armor|Disintegrate Armor]]<br>
+[[Morrowind:Destruction Spells#Disintegrate Weapon|Disintegrate Weapon]]<br>
+[[Morrowind:Destruction Spells#Drain Attribute|Drain Attribute]]<br>
+[[Morrowind:Destruction Spells#Drain Fatigue|Drain Fatigue]]<br>
+[[Morrowind:Destruction Spells#Drain Health|Drain Health]]<br>
+[[Morrowind:Destruction Spells#Drain Magicka|Drain Magicka]]<br>
+[[Morrowind:Destruction Spells#Drain Skill|Drain Skill]]<br>
+[[Morrowind:Destruction Spells#Fire Damage|Fire Damage]]<br>
+[[Morrowind:Destruction Spells#Frost Damage|Frost Damage]]<br>
+[[Morrowind:Destruction Spells#Poison|Poison]]<br>
+[[Morrowind:Destruction Spells#Shock Damage|Shock Damage]]<br>
+[[Morrowind:Destruction Spells#Weakness to Common Disease|Weakness to Common Disease]]<br>
+[[Morrowind:Destruction Spells#Weakness to Fire|Weakness to Fire]]<br>
+[[Morrowind:Destruction Spells#Weakness to Frost|Weakness to Frost]]<br>
+[[Morrowind:Destruction Spells#Weakness to Magicka|Weakness to Magicka]]<br>
+[[Morrowind:Destruction Spells#Weakness to Poison|Weakness to Poison]]<br>
+[[Morrowind:Destruction Spells#Weakness to Shock|Weakness to Shock]]<br>
+|
+[[Morrowind:Illusion Spells#Blind|Blind]]<br>
+[[Morrowind:Illusion Spells#Calm Creature|Calm Creature]]<br>
+[[Morrowind:Illusion Spells#Calm Humanoid|Calm Humanoid]]<br>
+[[Morrowind:Illusion Spells#Chameleon|Chameleon]]<br>
+[[Morrowind:Illusion Spells#Charm|Charm]]<br>
+[[Morrowind:Illusion Spells#Demoralize Creature|Demoralize Creature]]<br>
+[[Morrowind:Illusion Spells#Frenzy Creature|Frenzy Creature]]<br>
+[[Morrowind:Illusion Spells#Frenzy Humanoid|Frenzy Humanoid]]<br>
+[[Morrowind:Illusion Spells#Invisibility|Invisibility]]<br>
+[[Morrowind:Illusion Spells#Light|Light]]<br>
+[[Morrowind:Illusion Spells#Night-Eye|Night Eye]]<br>
+[[Morrowind:Illusion Spells#Paralyze|Paralyze]]<br>
+[[Morrowind:Illusion Spells#Rally Creature|Rally Creature]]<br>
+[[Morrowind:Illusion Spells#Rally Humanoid|Rally Humanoid]]<br>
+[[Morrowind:Illusion Spells#Sanctuary|Sanctuary]]<br>
+[[Morrowind:Illusion Spells#Silence|Silence]]<br>
+[[Morrowind:Illusion Spells#Sound|Sound]]<br>
+|
+[[Morrowind:Mysticism Spells#Absorb Attribute|Absorb Attribute]]<br>
+[[Morrowind:Mysticism Spells#Absorb Fatigue|Absorb Fatigue]]<br>
+[[Morrowind:Mysticism Spells#Absorb Health|Absorb Health]]<br>
+[[Morrowind:Mysticism Spells#Almsivi Intervention|Almsivi Intervention]]<br>
+[[Morrowind:Mysticism Spells#Demoralize Humanoid|Demoralize Humanoid]]<br>
+[[Morrowind:Mysticism Spells#Detect Animal|Detect Animal]]<br>
+[[Morrowind:Mysticism Spells#Detect Enchantment|Detect Enchantment]]<br>
+[[Morrowind:Mysticism Spells#Detect Key|Detect Key]]<br>
+[[Morrowind:Mysticism Spells#Dispel|Dispel]]<br>
+[[Morrowind:Mysticism Spells#Divine Intervention|Divine Intervention]]<br>
+[[Morrowind:Mysticism Spells#Mark|Mark]]<br>
+[[Morrowind:Mysticism Spells#Recall|Recall]]<br>
+[[Morrowind:Mysticism Spells#Reflect|Reflect]]<br>
+[[Morrowind:Mysticism Spells#Soultrap|Soultrap]]<br>
+[[Morrowind:Mysticism Spells#Spell Absorption|Spell Absorption]]<br>
+[[Morrowind:Mysticism Spells#Telekinesis|Telekinesis]]<br>
+|
+[[Morrowind:Restoration Spells#Cure Blight Disease|Cure Blight Disease]]<br>
+[[Morrowind:Restoration Spells#Cure Common Disease|Cure Common Disease]]<br>
+[[Morrowind:Restoration Spells#Cure Paralyzation|Cure Paralyzation]]<br>
+[[Morrowind:Restoration Spells#Cure Poison|Cure Poison]]<br>
+[[Morrowind:Restoration Spells#Fortify Attribute|Fortify Attribute]]<br>
+[[Morrowind:Restoration Spells#Fortify Fatigue|Fortify Fatigue]]<br>
+[[Morrowind:Restoration Spells#Fortify Health|Fortify Health]]<br>
+[[Morrowind:Restoration Spells#Fortify Magicka|Fortify Magicka]]<br>
+[[Morrowind:Restoration Spells#Fortify Skill|Fortify Skill]]<br>
+[[Morrowind:Restoration Spells#Resist Blight Disease|Resist Blight Disease]]<br>
+[[Morrowind:Restoration Spells#Resist Common Disease|Resist Common Disease]]<br>
+[[Morrowind:Restoration Spells#Resist Corprus Disease|Resist Corprus Disease]]<br>
+[[Morrowind:Restoration Spells#Resist Fire|Resist Fire]]<br>
+[[Morrowind:Restoration Spells#Resist Frost|Resist Frost]]<br>
+[[Morrowind:Restoration Spells#Resist Magicka|Resist Magicka]]<br>
+[[Morrowind:Restoration Spells#Resist Paralysis|Resist Paralysis]]<br>
+[[Morrowind:Restoration Spells#Resist Poison|Resist Poison]]<br>
+[[Morrowind:Restoration Spells#Resist Shock|Resist Shock]]<br>
+[[Morrowind:Restoration Spells#Restore Attribute|Restore Attribute]]<br>
+[[Morrowind:Restoration Spells#Restore Fatigue|Restore Fatigue]]<br>
+[[Morrowind:Restoration Spells#Restore Health|Restore Health]]<br>
+|}
+
+For a comprehensive list of ''Spell IDs'' for all obtainable spells, e.g. spells for sale at vendors, see [[Morrowind:Spell_IDs|Spell IDs]].
+
+==Spellcasting Formulas==
+===Success Chance===
+Chance of success in percent is <code>(Spell's skill * 2 + Willpower / 5 + Luck / 10 - Spell cost - [[Morrowind:Sound|Sound]] magnitude) * (0.75 + 0.5 * Current Fatigue/Maximum Fatigue)</code>
+
+'''Example:'''
+You are a lvl 1 Breton and you have 20 Destruction, 60 Willpower, 50 Luck and have 150 Maximum Fatigue, you are not affected by Sound and you are at maximum fatigue. The spell you want to cast is "Fire Bite": <code>(20 * 2 + 60 / 5 + 50 / 10 - 6 - 0) * (0.75 + 0.5 * 150/150) = 63.75% chance that you will succeed</code>
+
+===Spell Damage===
+Spell Damage is <code>Damage * (1 - ( Resistance - Weakness )/100)</code>.
+
+===Spell Cost===
+The Spell Cost (the amount of magicka a spell takes to cast) for built in spells (spells that aren't created by the player) can be either auto-calculated or set manually. Spells which are set to auto calculate use the formula <code>( ( ( Min Magnitude + Max Magnitude ) * Duration * ( Base Cost / 40 ) ) + ( Area * Base Cost / 40 ) )  * ( 1.5 if On Target )</code>, rounded to the nearest whole number (n+1/2 rounds up to n+1); this formula is calculated per spell effect and summed together for multi-effect spells. 
+
+Custom spells use the similar formula <code>( ( 2 * Average Magnitude * ( Duration + 1 ) * ( Base Cost / 40 ) ) + ( Area * Base Cost / 40 ) )  * ( 1.5 if On Target )</code>, rounded ''down'' to a minimum of 1. Notably, the additional +1 to the duration and area terms mean that spells with a one second duration effectively have their cost doubled compared to built in auto-calculated spells. 
+
+'''Examples:'''
+* '''[[MW:Ondusi's Open Door|Ondusi's Open Door]]:'''
+** Built in spell: <code>( ( 50 + 50 ) * 1 * ( 6 / 40 ) ) + ( 0 * 6 / 40 )</code> = 15
+** Custom spell:  <code>( ( 50 + 50 ) * ( 1 + 1 ) * ( 6 / 40 ) ) + ( 0 * 6 / 40 )</code> = 30
+* '''[[MW:Levitate (spell)|Levitate]]:'''
+** Built in spell: <code>( ( 10 + 10 ) * 30 * ( 3 / 40 ) ) + ( 0 * 6 / 40 )</code> = 45
+** Custom spell: <code>( ( 10 + 10 ) * ( 30 + 1 ) * ( 3 / 40 ) ) + ( 0 * 6 / 40 )</code> = 46 (rounded down from 46.5)
+* '''[[MW:Fire Storm|Fire Storm]]:'''
+** Built in spell: <code>( ( ( 1 + 10 ) * 10 * ( 5 / 40 ) ) + ( 10 * 5 / 40 ) )  * ( 1.5 )</code> = 23 (rounded up from 22.5)
+** Custom spell: <code>( ( ( 1 + 10 ) * ( 10 + 1 ) * ( 5 / 40 ) ) + ( 10 * 5 / 40 ) ) * ( 1.5 )</code> = 24 (rounded down from 24.5625‬)
+
+===Notes===
+* If Resistance - Weakness is equal to 100 or more, the effect is resisted.
+* Resistance/Weakness to Magicka does not affect elemental damage.
+* "Self" spells have an Area value of 1.
+* "Target" spells multiply the above spell cost by 1.5.
+* The lowest value possible on a slider is 1 (one), despite it displaying zero.
+* Spells without magnitudes (such as Invisibility) behave as though they have magnitudes of 1.
+
+==Deleting Spells==
+If you are on PC, hold shift and click on the spell name. On Xbox, select the spell and press the White button. If the deleted spell was bought from a spell merchant, that merchant will have it available for sale again after deletion.
+===Notes===
+*If you want to be able to use an effect for spellmaking/enchanting, keep at least one spell with that effect.
+
+==Starting Spells==
+There are several spells which have been marked as being a "PC Start Spell" within Morrowind's construction set. You can obtain these spells during [[Morrowind:Character Creation|character creation]] if the spell's governing skill is one of your class's major or minor skills and <code>Governing Skill * 2 + Willpower / 5 + Luck / 10</code>{{vn|section=Starting Spell}} is greater than or equal to the value indicated below.
+{|class="wikitable"
+!Name!!Effect!!Cost to Cast!!Value to Obtain{{intnote|‡|‡}}
+|-
+{{MW Spell|Sanctuary (spell)|anchor=Sanctuary spell|ns_base=MW|mode=console}}||style=text-align:right|65
+|-
+{{MW Spell|Chameleon (spell)|ns_base=MW|mode=console}}||style=text-align:right|65
+|-
+{{MW Spell|Bound Dagger (spell)|ns_base=MW|mode=console}}||style=text-align:right|56
+|-
+{{MW Spell|Summon Ancestral Ghost (spell)|ns_base=MW|mode=console}}||style=text-align:right|71
+|-
+{{MW Spell|Water Walking (spell)|ns_base=MW|mode=console}}||style=text-align:right|59
+|-
+{{MW Spell|Shield (spell)|anchor=Shield spell|ns_base=MW|mode=console}}||style=text-align:right|65
+|-
+{{MW Spell|Fire Bite|ns_base=MW|mode=console}}||style=text-align:right|56
+|-
+{{MW Spell|Exhausting Touch|ns_base=MW|mode=console}}||style=text-align:right|125 {{intnote|†|†}}
+|-
+{{MW Spell|Detect Creature|ns_base=MW|mode=console}}||style=text-align:right|69
+|-
+{{MW Spell|Tap Energy|ns_base=MW|mode=console}}||style=text-align:right|230 {{intnote|†|†}}
+|-
+{{MW Spell|Hearth Heal|ns_base=MW|mode=console}}||style=text-align:right|63
+|-
+{{MW Spell|Feet of Notorgo|ns_base=MW|mode=console}}||style=text-align:right|95 {{intnote|†|†}}
+|}
+
+{{Note|†|†| For an unknown reason, it is impossible to start with these spells even if you meet the requirements indicated above.}}
+{{Note|‡|‡| A starting spell's value to obtain is simply its cost to cast plus the value indicated by the fAutoPCSpellChance GMST, which is 50 by default.}}
+
+==Unique Spells==
+===Cheap Spells===
+This section lists spells that are cheaper to cast than would normally be expected. It only includes spells, and race and birthsign abilities that operate as spells, not diseases, nor race or birthsign abilities that do not operate as spells (such as attribute enhancement).
+
+Many of these spells are normally unobtainable and are only experienced as effects cast upon the player either by shrines, traps or NPCs, however they can be added to your spellbook by using the [[Morrowind Mod:AddSpell|AddSpell]] [[MW:Console|Console]] command and used normally thereafter. If no location is specified in the "Obtained" column, it means the spell is only obtainable using the console.
+
+{|class="wikitable sortable"
+!Name!!Effect!!Actual Cost!!Expected Cost!!class=unsortable| Obtained
+|-
+{{MW Spell|Aralor's Intervention|mode=console}}||{{AL|R}}|720||
+|-
+{{MW Spell|Aryon's Blight Cure|mode=console}}||{{AL|R}}|300||Taught by Master [[MW:Aryon|Aryon]] during the [[MW:Mudan-Mul Egg Mine (quest)|Mudan-Mul Egg Mine]] quest
+|-
+{{MW Spell|Baleful Glower|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Barenziah's Fire|mode=console|notes={{TR}}|ns_base=TR}}||{{AL|R}}|567||
+|-
+{{MW Spell|Beggar's Nose|mode=console}}||{{AL|R}}|1650||A spell obtained from [[MW:The Tower|The Tower]] birthsign
+|-
+{{MW Spell|Blessed Touch|mode=console}}||{{AL|R}}|30||Sold by [[MW:Ygfa|Ygfa]]. Also available to those born under the sign of the Ritual.
+|-
+{{MW Spell|Blessed Word|mode=console}}||{{AL|R}}|45||A spell obtained from [[MW:The Ritual|The Ritual]] birthsign.
+|-
+{{MW Spell|Blessings of the First Corner|mode=console}}||{{AL|R}}|2160||
+|-
+{{MW Spell|Blessings of the Second Corner|mode=console}}||{{AL|R}}|4320||
+|-
+{{MW Spell|Blessings of the Third Corner|mode=console}}||{{AL|R}}|360||
+|-
+{{MW Spell|Blood Rage|mode=console}}||{{AL|R}}|60||
+|-
+{{MW Spell|Colovia's Grace|mode=console}}||{{AL|R}}|360||
+|-
+{{MW Spell|Command of the Third Corner|mode=console}}||{{AL|R}}|338||Reward for [[MW:Molag Bal of the House of Troubles|Molag Bal of the House of Troubles]] quest
+|-
+{{MW Spell|Cure Common Disease (spell)|mode=console}}||{{AL|R}}|15||
+|-
+{{MW Spell|Cure Corprus Disease (spell)|mode=console}}||{{AL|R}}|125||
+|-
+{{MW Spell|Cure Corpus Disease|mode=console|notes={{sic}}}}||{{AL|R}}|125||
+|-
+{{MW Spell|Dire Viper|mode=console}}||{{AL|R}}|14||
+|-
+{{MW Spell|Dwemer Animunculi|mode=console}}||{{AL|R}}|150||Learned after reading [[MW:Secrets of Dwemer Animunculi|Secrets of Dwemer Animunculi]]
+|-
+{{MW Spell|Emperor's Blessing|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Erlendr's Speed|mode=console|notes={{BM}}|ns_base=BM}}||{{AL|R}}|90||
+|-
+{{MW Spell|Eye of Night|mode=console}}||{{AL|R}}|15||Inbuilt racial spell for [[MW:Khajiit|Khajiit]]
+|-
+{{MW Spell|Eye of Talos|mode=console}}||{{AL|R}}|486||
+|-
+{{MW Spell|Father Ahaz|mode=console}}||{{AL|R}}|45||
+|-
+{{MW Spell|Felms' Glory|mode=console}}||{{AL|R}}|720||
+|-
+{{MW Spell|Fields of Kummu Blessing|mode=console}}||{{AL|R}}|14400||
+|-
+{{MW Spell|Fire Trap|mode=console}}||{{AL|R}}|8||
+|-
+{{MW Spell|Frost Trap|mode=console}}||{{AL|R}}|8||
+|-
+{{MW Spell|Gaenor's Escape|mode=console|notes={{TR}}|ns_base=TR}}||{{AL|R}}|38||
+|-
+{{MW Spell|Gedna's Damage|mode=console|notes={{TR}}|ns_base=TR}}||{{AL|R}}|219||
+|-
+{{MW Spell|Ghost Snake|mode=console}}||{{AL|R}}|18||
+|-
+{{MW Spell|Glenmoril Witch Teleport|mode=console|notes={{BM}}|ns_base=BM}}||{{AL|R}}|8||
+|-
+{{MW Spell|Gnisis Shrine Blessing|mode=console}}||{{AL|R}}|120||
+|-
+{{MW Spell|Hand of Dagoth (Destruction)|mode=console}}||{{AL|R}}|42||
+|-
+{{MW Spell|Hand of the Hart-King|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Harthoon's Heavy Eyes|mode=console|notes={{TR}}|ns_base=TR}}||{{AL|R}}|150||
+|-
+{{MW Spell|Hroldar's Death Blast|mode=console|notes={{BM}}|ns_base=BM}}||{{AL|R}}|4||
+|-
+{{MW Spell|Hrothmund's Blessing|mode=console|notes={{BM}}|ns_base=BM}}||{{AL|R}}|180||
+|-
+{{MW Spell|Hunroor's Agility|mode=console|notes={{BM}}|ns_base=BM}}||{{AL|R}}|90||
+|-
+{{MW Spell|Icarian Flight|mode=console}}||{{AL|R}}|125||
+|-
+{{MW Spell|Imperial Acrobatics Skill|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Imperial Alchemy Skill|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Imperial Alteration Skill|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Imperial Armorer Skill|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Imperial Athletics Skill|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Imperial Axe Skill|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Imperial Block Skill|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Imperial Blunt Weapon Skill|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Imperial Conjuration Skill|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Imperial Destruction Skill|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Imperial Enchant Skill|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Imperial Hand to Hand Skill|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Imperial Heavy Armor Skill|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Imperial Illusion Skill|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Imperial Light Armor Skill|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Imperial Long Blade Skill|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Imperial Marksman Skill|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Imperial Medium Armor Skill|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Imperial Mercantile Skill|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Imperial Mysticism Skill|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Imperial Restoration Skill|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Imperial Security Skill|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Imperial Short Blade Skill|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Imperial Sneak Skill|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Imperial Spear Skill|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Imperial Speechcraft Skill|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Imperial Unarmored Skill|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Koal Cave Blessing|mode=console}}||{{AL|R}}|5760||
+|-
+{{MW Spell|Kwama Poison|mode=console}}||{{AL|R}}|36||
+|-
+{{MW Spell|Lady's Grace|mode=console}}||{{AL|R}}|720||
+|-
+{{MW Spell|Lifeforce Trap|mode=console}}||{{AL|R}}|13||
+|-
+{{MW Spell|Maar Gan Blessings|mode=console}}||{{AL|R}}|160||
+|-
+{{MW Spell|Maar Gan Shrine (spell)|mode=console}}||{{AL|R}}|2880||
+|-
+{{MW Spell|Master Fire Trap|mode=console|notes={{TR}}|ns_base=TR}}||{{AL|R}}|63||
+|-
+{{MW Spell|Master Frost Trap|mode=console|notes={{TR}}|ns_base=TR}}||{{AL|R}}|63||
+|-
+{{MW Spell|Master Poison Trap|mode=console|notes={{TR}}|ns_base=TR}}||{{AL|R}}|169||
+|-
+{{MW Spell|Master Shock Trap|mode=console|notes={{TR}}|ns_base=TR}}||{{AL|R}}|88||
+|-
+{{MW Spell|Mephala's Skill|mode=console}}||{{AL|R}}|180||Reward for the [[MW:Threads of the Webspinner|Threads of the Webspinner]] quest
+|-
+{{MW Spell|Meris' Warding|mode=console}}||{{AL|R}}|14400||
+|-
+{{MW Spell|Meris's Warding|mode=console}}||{{AL|R}}|7200||
+|-
+{{MW Spell|Nibenay's Wit|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Nikulas's Personality|mode=console|notes={{BM}}|ns_base=BM}}||{{AL|R}}|90||
+|-
+{{MW Spell|Olms' Benediction|mode=console}}||{{AL|R}}|5760||
+|-
+{{MW Spell|Palace Blessings|mode=console}}||{{AL|R}}|2880||
+|-
+{{MW Spell|Paralysis Trap|mode=console}}||{{AL|R}}|21||
+|-
+{{MW Spell|Poison Trap|mode=console}}||{{AL|R}}|81||
+|-
+{{MW Spell|Projectile Trap Spell|mode=console|notes={{TR}}|ns_base=TR}}||{{AL|R}}|33||
+|-
+{{MW Spell|Reman's Girdle|mode=console}}||{{AL|R}}|81||
+|-
+{{MW Spell|Rilm's Gift|mode=console}}||{{AL|R}}|115||
+|-
+{{MW Spell|Roris' Bloom|mode=console}}||{{AL|R}}|720||
+|-
+{{MW Spell|Roris's Bloom|mode=console}}||{{AL|R}}|360||
+|-
+{{MW Spell|Shield of St. Delyn|mode=console}}||{{AL|R}}|7200||
+|-
+{{MW Spell|Shock Trap|mode=console}}||{{AL|R}}|12||
+|-
+{{MW Spell|Shockball|mode=console}}||{{AL|R}}|54||
+|-
+{{MW Spell|Shrine Acrobatics Skill|mode=console}}||{{AL|R}}|360||
+|-
+{{MW Spell|Shrine Alchemy Skill|mode=console}}||{{AL|R}}|360||
+|-
+{{MW Spell|Shrine Alteration Skill|mode=console}}||{{AL|R}}|360||
+|-
+{{MW Spell|Shrine Armorer Skill|mode=console}}||{{AL|R}}|360||
+|-
+{{MW Spell|Shrine Athletics Skill|mode=console}}||{{AL|R}}|360||
+|-
+{{MW Spell|Shrine Axe Skill|mode=console}}||{{AL|R}}|360||
+|-
+{{MW Spell|Shrine Block Skill|mode=console}}||{{AL|R}}|360||
+|-
+{{MW Spell|Shrine Blunt Weapon Skill|mode=console}}||{{AL|R}}|360||
+|-
+{{MW Spell|Shrine Conjuration Skill|mode=console}}||{{AL|R}}|360||
+|-
+{{MW Spell|Shrine Destruction Skill|mode=console}}||{{AL|R}}|360||
+|-
+{{MW Spell|Shrine Enchant Skill|mode=console}}||{{AL|R}}|360||
+|-
+{{MW Spell|Shrine Hand to Hand Skill|mode=console}}||{{AL|R}}|360||
+|-
+{{MW Spell|Shrine Heavy Armor Skill|mode=console}}||{{AL|R}}|360||
+|-
+{{MW Spell|Shrine Illusion Skill|mode=console}}||{{AL|R}}|360||
+|-
+{{MW Spell|Shrine Light Armor Skill|mode=console}}||{{AL|R}}|360||
+|-
+{{MW Spell|Shrine Long Blade Skill|mode=console}}||{{AL|R}}|360||
+|-
+{{MW Spell|Shrine Marksman Skill|mode=console}}||{{AL|R}}|360||
+|-
+{{MW Spell|Shrine Medium Armor Skill|mode=console}}||{{AL|R}}|360||
+|-
+{{MW Spell|Shrine Mercantile Skill|mode=console}}||{{AL|R}}|360||
+|-
+{{MW Spell|Shrine Mysticism Skill|mode=console}}||{{AL|R}}|360||
+|-
+{{MW Spell|Shrine Restoration Skill|mode=console}}||{{AL|R}}|360||
+|-
+{{MW Spell|Shrine Security Skill|mode=console}}||{{AL|R}}|360||
+|-
+{{MW Spell|Shrine Short Blade Skill|mode=console}}||{{AL|R}}|360||
+|-
+{{MW Spell|Shrine Sneak Skill|mode=console}}||{{AL|R}}|360||
+|-
+{{MW Spell|Shrine Spear Skill|mode=console}}||{{AL|R}}|360||
+|-
+{{MW Spell|Shrine Speechcraft Skill|mode=console}}||{{AL|R}}|360||
+|-
+{{MW Spell|Shrine Unarmored Skill|mode=console}}||{{AL|R}}|360||
+|-
+{{MW Spell|Silence Trap|mode=console}}||{{AL|R}}|61||
+|-
+{{MW Spell|Soul of Sotha Sil|mode=console}}||{{AL|R}}|720||
+|-
+{{MW Spell|Spirit of Nerevar|mode=console}}||{{AL|R}}|1440||
+|-
+{{MW Spell|Star-Curse|mode=console}}||{{AL|R}}|53||A spell obtained from [[MW:The Serpent|The Serpent]] birthsign.
+|-
+{{MW Spell|Stop the Moon Blessings|mode=console}}||{{AL|R}}|21600||
+|-
+{{MW Spell|The Dove's Promise|mode=console}}||{{AL|R}}|1116||
+|-
+{{MW Spell|The Eight Gifts|mode=console}}||{{AL|R}}|1215||
+|-
+{{MW Spell|The Eight Wonders|mode=console}}||{{AL|R}}|1296||
+|-
+{{MW Spell|The Moth-Wing Mirror|mode=console}}||{{AL|R}}|1620||
+|-
+{{MW Spell|The Red Diamond|mode=console}}||{{AL|R}}|1782||
+|-
+{{MW Spell|The Rock of Llothis|mode=console}}||{{AL|R}}|720||
+|-
+{{MW Spell|Trespasser's Bane|mode=console|notes={{BM}}|ns_base=BM}}||{{AL|R}}|6000||
+|-
+{{MW Spell|Ulfgar's Death Blast|mode=console|notes={{BM}}|ns_base=BM}}||{{AL|R}}|4||
+|-
+{{MW Spell|Ulfgar's Strength|mode=console|notes={{BM}}|ns_base=BM}}||{{AL|R}}|90||
+|-
+{{MW Spell|Vampire Fly|mode=console}}||{{AL|R}}|113||
+|-
+{{MW Spell|Vivec's Fury|mode=console}}||{{AL|R}}|720||
+|-
+{{MW Spell|Vivec's Mystery|mode=console}}||{{AL|R}}|1440||
+|-
+{{MW Spell|Vivec's Touch|mode=console}}||{{AL|R}}|115||Obtained from the real shrine in [[MW:Gnisis Temple|Gnisis Temple]]
+|-
+{{MW Spell|Warding Touch|mode=console}}||{{AL|R}}|1080||
+|-
+{{MW Spell|Water Breathing (argonian)|mode=console}}||{{AL|R}}|18||Inbuilt racial spell for [[MW:Argonian|Argonian]]; not to be confused with the spell sold by [[MW:Marayn Dren|Marayn Dren]].
+|-
+{{MW Spell|Werewolf Transformation|mode=console|notes={{BM}}|ns_base=BM}}||{{AL|R}}|4||
+|-
+{{MW Spell|Wulfharth's Cups|mode=console}}||{{AL|R}}|162||
+|-
+{{MW Spell|Ysmir's Cough|mode=console}}||{{AL|R}}|162||
+|}
+
+===Expensive Spells===
+In contrast to the spells in the previous section, these spells cost ''more'' to cast than would normally be expected. Most of them are exclusive to certain creatures or NPCs, especially those named after [[MW:Ash Vampire|Ash Vampires]].
+
+{|class="wikitable sortable"
+!Name!!Effect!!Actual Cost!!Expected Cost
+|-
+{{MW Spell|Almalexia's Wrath|mode=console|notes={{TR}}|ns_base=TR}}||{{AL|R}}|140
+|-
+{{MW Spell|Blessings of the Fourth Corner|mode=console}}||{{AL|R}}|15912
+|-
+{{MW Spell|Eddard's Wrath|mode=console|notes={{BM}}|ns_base=BM}}||{{AL|R}}|59
+|-
+{{MW Spell|Electrical Discharge|mode=console}}||{{AL|R}}|36
+|-
+{{MW Spell|Fabricant Shock|mode=console|notes={{TR}}|ns_base=TR}}||{{AL|R}}|96
+|-
+{{MW Spell|Glyph of Weakness|mode=console}}||{{AL|R}}|15
+|-
+{{MW Spell|Hand of Araynys|mode=console}}||{{AL|R}}|35
+|-
+{{MW Spell|Hand of Decay|mode=console}}||{{AL|R}}|10
+|-
+{{MW Spell|Hand of Endus|mode=console}}||{{AL|R}}|329
+|-
+{{MW Spell|Hand of Gilvoth|mode=console}}||{{AL|R}}|35
+|-
+{{MW Spell|Hand of Odros|mode=console}}||{{AL|R}}|171
+|-
+{{MW Spell|Hand of Sleep|mode=console}}||{{AL|R}}|38
+|-
+{{MW Spell|Hand of Tureynul|mode=console}}||{{AL|R}}|30
+|-
+{{MW Spell|Hand of Uthol|mode=console}}||{{AL|R}}|51
+|-
+{{MW Spell|Hand of Vemyn|mode=console}}||{{AL|R}}|77
+|-
+{{MW Spell|Healing Word|mode=console}}||{{AL|R}}|9
+|-
+{{MW Spell|Resist Corprus Disease (spell)|mode=console}}||{{AL|R}}|13
+|-
+{{MW Spell|Resist Corpus Disease|mode=console}}||{{AL|R}}|13
+|-
+{{MW Spell|Resist Paralysis (spell)|mode=console}}||{{AL|R}}|15
+|-
+{{MW Spell|Shalk's Fire Bite|mode=console}}||{{AL|R}}|2
+|-
+{{MW Spell|Spider Touch|mode=console}}||{{AL|R}}|6
+|-
+{{MW Spell|Summon Hrelvesuu|mode=console}}||{{AL|R}}|960
+|-
+{{MW Spell|Wrath of Araynys|mode=console}}||{{AL|R}}|32
+|-
+{{MW Spell|Wrath of Dagoth|mode=console}}||{{AL|R}}|57
+|-
+{{MW Spell|Wrath of Endus|mode=console}}||{{AL|R}}|329
+|-
+{{MW Spell|Wrath of Gilvoth|mode=console}}||{{AL|R}}|32
+|-
+{{MW Spell|Wrath of Odros|mode=console}}||{{AL|R}}|166
+|-
+{{MW Spell|Wrath of Tureynul|mode=console}}||{{AL|R}}|23
+|-
+{{MW Spell|Wrath of Uthol|mode=console}}||{{AL|R}}|25
+|-
+{{MW Spell|Wrath of Vemyn|mode=console}}||{{AL|R}}|77
+|-
+{{MW Spell|Zenithar's Blessing|mode=console}}||{{AL|R}}|23
+|}
+
+==Quest Rewards==
+*[[Morrowind:Blind|Blind]] from [[Morrowind:Staff of the Silver Dawn (quest)|Staff of the Silver Dawn (quest)]]
+*[[Morrowind:Command|Command Humanoid]] from [[Morrowind:Molag Bal of the House of Troubles|Molag Bal of the House of Troubles]] and from [[Morrowind:Slave Rebellion|Slave Rebellion]]
+*Vivec's Touch ([[Morrowind:Cure Common Disease|Cure Common Disease]] and [[Morrowind:Cure Blight Disease|Cure Blight Disease]]) from [[Morrowind:Pilgrimages of the Seven Graces|Pilgrimages of the Seven Graces]]
+*[[Morrowind:Cure Common Disease|Cure Common Disease]] from [[Morrowind:Muck (quest)|Muck (quest)]]
+*[[Morrowind:Demoralize|Demoralize Humanoid and Creature]] from [[Morrowind:Black Jinx|Black Jinx]]
+*[[Morrowind:Mysticism Spells#Detect Animal|Detect Animal]] from [[Morrowind:Gathering Scrib Jelly|Gathering Scrib Jelly]]
+*[[Morrowind:Illusion Spells#Mephala's Skill|Mephala's Skill]] from [[Morrowind:Threads of the Webspinner|Threads of the Webspinner]]
+*[[Morrowind:Conjuration Spells#Summon Centurion Sphere|Dwemer Animunculi]] from the book: ''[[Morrowind:Secrets of Dwemer Animunculi|Secrets of Dwemer Animunculi]]''
+*[[Morrowind:Mark|Mark]] and [[Morrowind:Recall|Recall]] from [[Morrowind:New Clothes|New Clothes]]
+*Ogrul's (Attribute)-Again ([[Morrowind:Restoration Spells#Restore Attribute|Restore Attribute]]) from [[Morrowind:Gathering Muck|Gathering Muck]]
+*[[Morrowind:Conjuration Spells#Summon Ancestral Ghost|Summon Ancestral Ghost Spell]] or [[Morrowind:Conjuration Spells#Summon Skeletal Minion|Summon Skeletal Minion Spell]] from [[Morrowind:I'm NOT a Necromancer!|I'm NOT a Necromancer!]]
+*[[Morrowind:Alteration Spells#Swift Swim|Swimmer's Blessing]] from [[Morrowind:Gathering Corkbulb Root|Gathering Corkbulb Root]]

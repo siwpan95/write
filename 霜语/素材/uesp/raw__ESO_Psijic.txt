@@ -1,0 +1,94 @@
+<noinclude>{{Mod Header|Summerset}}{{Trail|Factions}}[[File:ON-banner-Psijic Order.png|100px|right|Banner of the Order]]</noinclude>
+The [[ON:Psijic Order|Psijic Order]] is a mysterious and ancient order of powerful mages based on the isle of [[Lore:Artaeum|Artaeum]], geographically part of the [[Lore:Summerset Isles|Summerset Isles]]. As the island disappeared from [[ON:Tamriel|Tamriel]] over 350 years ago, around when former member [[ON:Vanus Galerion|Vanus Galerion]] formed the [[ON:Mages Guild|Mages Guild]], the Order has rarely ever been seen.<noinclude>
+
+The Order formerly occupied the island of [[Online:Dranil Kir|Dranil Kir]], and a scrying device known as an [[Lore:Obscuros|Obscuros]] located on it is sought by [[Online:Lilatha|Lilatha]], the master of the glazing glass. After [[Online:Daedric War Storyline|Nocturnal's plot]] in the [[ON:Clockwork City|Clockwork City]] is thwarted, [[ON:Sotha Sil|Sotha Sil]] tells [[ON:Divayth Fyr|Divayth Fyr]] that he will inform the Psijics so that they can prepare for a future threat.
+
+It is a joinable faction in the [[Online:Summerset (Chapter)|Summerset]] [[ON:Chapters|Chapter]]. To join the Psijic Order, you must first complete the first Summerset zone story quest in [[ON:Shimmerene|Shimmerene]], [[ON:The Queen's Decree|The Queen's Decree]]. You will then gain access to Artaeum. Speak with [[On:Loremaster Celarus|Loremaster Celarus]] in [[ON:Ceporah Tower|Ceporah Tower]] to formally join the Psijic Order. 
+
+If you somehow manage to transport to Artaeum by other means (e.g. teleporting to a player or their [[ON:Grand Psijic Villa|Grand Psijic Villa]]) without having completed The Queen's Decree, then Loremaster Celarus will not be present, even if you can see other players talking to someone you can't see. All you will be able to do is discover the Artaeum wayshrine to provide easier access to Artaeum in the future. You may still acquire the Psijic Order skill line by spending Crowns, if another character on your account has completed it.
+
+For historical information about the Psijic Order, see the [[Lore:Psijic Order|lore article]].
+
+== Related Quests ==
+{{/Progression}}
+===Story Quests===
+Your rank in the Psijic Order is directly tied to the story quests.  Each quest earns you one rank.
+* {{Quest Link|The Psijics' Calling}}
+* {{Quest Link|Breaches On the Bay}}
+* {{Quest Link|Breaches of Frost and Fire}}
+* {{Quest Link|The Shattered Staff}}
+* {{Quest Link|A Breach Amid the Trees}}
+* {{Quest Link|A Time for Mud and Mushrooms}}
+* {{Quest Link|The Towers' Remains}}
+* {{Quest Link|Time in Doomcrag's Shadow}}
+* {{Quest Link|A Breach Beyond the Crags}}
+* {{Quest Link|The Towers' Fall}}
+
+===Other Related Quests===
+* {{Quest Link|Against All Hope}}
+* {{Quest Link|To The Clockwork City}}
+* {{Quest Link|Endeavor in the Gloom}}
+* {{Quest Link|The Force of Change}}
+* {{Quest Link|Half-Formed Understandings}}
+* {{Quest Link|Hope Springs Eternal}}
+* {{Quest Link|Of Knives and Long Shadows}}
+* {{Quest Link|A Pearl of Great Price}}
+* {{Quest Link|The Queen's Decree}}
+* {{Quest Link|Second Chances}}
+* {{Quest Link|Struck from Memory}}
+* {{Quest Link|Unstuck From Time}}
+
+{{NewLine}}
+
+== Skill Perks ==
+===Ultimate Abilities===
+{|class=wikitable
+!colspan=2|Name!!width=1|Line Rank!!colspan=2|Cast Time!!Target!!Range!!Radius!!Duration!!Cost
+{{Online Skill Link|Undo}}
+|}
+
+===Active Abilities===
+{|class=wikitable
+!colspan=2|Name!!width=1|Line Rank!!colspan=2|Cast Time!!Target!!Range!!Radius!!Duration!!Cost
+{{Online Skill Link|Time Stop}}
+{{Online Skill Link|Imbue Weapon}}
+{{Online Skill Link|Accelerate}}
+{{Online Skill Link|Mend Wounds}}
+{{Online Skill Link|Meditate}}
+|}
+
+===Passive Abilities===
+{|class=wikitable
+!colspan=2|Name!!width=1|Line Rank!!width=1|Skill Rank!!Description
+{{Online Skill Link|See the Unseen}}
+{{Online Skill Link|Clairvoyance}}
+{{Online Skill Link|Spell Orb}}
+{{Online Skill Link|Concentrated Barrier}}
+{{Online Skill Link|Deliberation}}
+|}
+
+== Members ==
+{{Online:Psijic Order/Members}}
+
+==Gallery==
+<gallery>
+File:ON-concept-Artaeum 02.jpg|Concept art
+File:ON-render-Psijic Order 02.jpg|Members of the Order in the Ceporah Tower
+File:ON-render-Psijic Scrying Talisman.jpg|Psijic Scrying Talisman memento
+File:ON-icon-reputation-Psijic Order.png|Icon
+File:ON-icon-Psijic Order.png|Icon
+</gallery>
+
+== Notes ==
+* A number of honorary and former members ([[Online:Earl Leythen|Leythen]], [[ON:Mannimarco|Mannimarco]], [[ON:Sotha Sil|Sotha Sil]], [[ON:Vanus Galerion|Vanus Galerion]], and [[ON:Vastarie|Vastarie]]) can be met. Many of them are considered some of the most powerful sorcerers in Tamriel.
+* The [[Online:Psijic Vault Crate|Psijic Vault Crown Crate]] is themed after the Order.
+* You cannot pickpocket most of the Psijic Order's members.
+
+==See Also==
+{{Bullet Link|Psijic Style|A [[ON:Styles|style motif]] based on the armor and weapons used by the Psijic Order.}}
+===Books===
+*{{Book Link|The Old Ways}}
+*{{Book Link|The Mystery of Artaeum}}
+
+{{Online Factions}}
+{{Online Skills}}</noinclude>

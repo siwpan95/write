@@ -1,0 +1,2552 @@
+{{面包屑|词汇表}}
+注：与ANK汉化不同的译名加粗显示。
+{| class="wikitable"
+|-
+!英文!!ANK!!Reconquista<br>汤镬/重光!!Unofficial<br>大學漢化!!Official<br>官方繁中
+|-
+|"Accidentally dropped this"||“偶然掉落这个”||“偶然掉落这个”||    ||“偶然掉落这个”
+|-
+|"Can I have that armor?"||“我能得到那件护甲吗？”||“我能得到那件护甲吗？”||    ||'''“我能得到那件盔甲吗？”'''
+|-
+|"Did you find something good?"||你找到什么好东西吗？||你找到什么好东西吗？||    ||你找到什么好东西吗？
+|-
+|"Just throw trash"||“只是扔垃圾而已”||“只是扔垃圾而已”||    ||“只是扔垃圾而已”
+|-
+|(Min Lvl 2) Hey you there, take this||（最小等级2）喂，这个给你||（最小等级2）喂，这个给你||    ||（最小等级2）喂，这个给你
+|-
+|(Optional) Free Orthorn||（可选）释放奥拓恩||（可选）释放奥拓恩||'''（可选）释放奥瑟恩'''||'''（选择性）释放奥拓恩'''
+|-
+|(Optional) Kill Commander Maro||（可选）杀死马洛指挥官||（可选）杀死马洛指挥官||'''（可选）杀死马娄指挥官'''||'''（选择性）杀死马洛指挥官'''
+|-
+|(Optional) Learn more about the theft in Frostmere Crypt||（可选）继续了解冰池地穴内发生的盗窃事件||（可选）继续了解冰池地穴内发生的盗窃事件||'''（可选）继续了解寒沼墓穴内发生的盗窃事件'''||'''（选择性）继续了解冰池地穴内发生的盗窃事件'''
+|-
+|(Optional) Make it a discreet kill||（选择性）暗中杀掉目标||（选择性）暗中杀掉目标||'''（可选）谨慎地进行一次刺杀'''||（选择性）暗中杀掉目标
+|-
+|(Optional) Mix a bottle of Spiked Sujamma at a cooking station||    ||'''（可选）在烹饪区调制一瓶下毒的苏贾玛酒'''||    ||'''（选择性）在烹饪区调制一瓶下毒的苏贾玛酒'''
+|-
+|(Optional) Protect Golldir||（可选）保护果迪尔||（可选）保护果迪尔||'''（可选）保护高迪尔'''||'''（选择性）保护果迪尔'''
+|-
+|(Optional) Purchase the armor set with gold||    ||'''（选择性）以黄金购买成套护甲'''||    ||'''（选择性）以黄金购买成套护甲'''
+|-
+|(Optional) Read Fishing Mastery, v1||    ||'''（可选）钓鱼精通·卷一'''||    ||'''（选择性）阅读《精通钓鱼之技》第一卷'''
+|-
+|(Optional) Read Fishing Mastery, v2||    ||'''（可选）钓鱼精通·卷二'''||    ||'''（选择性）阅读《精通钓鱼之技》第二卷'''
+|-
+|(Optional) Read Fishing Mastery, v4||    ||'''（可选）钓鱼精通·卷四'''||    ||'''（选择性）阅读《精通钓鱼之技》第四卷'''
+|-
+|(Optional) Read Fishing Mastery, v5||    ||'''（可选）钓鱼精通·卷五'''||    ||'''（选择性）阅读《精通钓鱼之技》第五卷'''
+|-
+|(Optional) Retrieve Nystrom's Journal||（可选）拿到奈斯特的日记||（可选）拿到奈斯特的日记||（可选）拿到奈斯特的日记||'''（选择性）拿到奈斯特的日记'''
+|-
+|(Optional) Search the barrel for potions||（可选）搜索木桶寻找药水||（可选）搜索木桶寻找药水||'''（可选）搜索木桶找到药剂'''||'''（选择性）搜索木桶寻找药水'''
+|-
+|(Optional) Steal Gaius Maro's travel schedule||（可选）偷窃加留斯·马洛的行程表||'''（可选）偷窃盖乌斯·马洛的行程表'''||'''（可选）偷窃加留斯·马娄的行程表'''||'''（选择性）偷窃加留斯．马洛的行程表'''
+|-
+|(Optional) Steal the Lodge Stash||（可选）偷窃屋子里的保险箱||（可选）偷窃屋子里的保险箱||'''（可选）偷窃小屋的箱子'''||'''（选择性）偷窃屋子里的保险箱'''
+|-
+|(Optional) Take the champion's treasures||    ||'''（可选）拿取冠军的宝物'''||    ||'''（选择性）拿取冠军的宝物'''
+|-
+|(Optional) Talk to Esbern||（可选）和伊思本交谈||（可选）和伊思本交谈||'''（可选）与艾思本交谈'''||'''（选择性）和伊思本交谈'''
+|-
+|(Optional) Tell Sven about Faendal's letter||（可选）把法恩达尔的信告诉斯万||'''（可选）把法恩达尔的信告诉斯文'''||（可选）把法恩达尔的信告诉斯万||'''（选择性）把法恩达尔的信告诉斯万'''
+|-
+|(Optional) Trail Vereth at night||    ||'''（可选）在夜间跟踪维雷斯'''||    ||'''（选择性）夜间跟踪维瑞斯'''
+|-
+|(Optional) Use Talen-Jei to get to Keerava||（可选）用塔伦-杰威胁基拉瓦||（可选）用塔伦-杰威胁基拉瓦||'''（可选）拿塔伦·杰来威胁基拉瓦'''||'''（选择性）用塔伦-杰威胁基拉瓦'''
+|-
+|<Alias=Follower> is waiting for you||<Alias=Follower>在等你||<Alias=Follower>在等你||<Alias=Follower>在等你||<Alias=Follower>在等你
+|-
+|A Bad Trade||一次坏交易||一次坏交易||    ||'''不好的交易'''
+|-
+|A Blade in the Dark||黑暗中的利刃||黑暗中的利刃||黑暗中的利刃||黑暗中的利刃
+|-
+|A Chance Arrangement||偶然的安排||偶然的安排||'''意想不到的提案'''||偶然的安排
+|-
+|A Chance Arrangement Spectator Quest||安排偶然的观众||安排偶然的观众||    ||安排偶然的观众
+|-
+|A Cornered Rat||走投无路的鼠辈||走投无路的鼠辈||走投无路的鼠辈||走投无路的鼠辈
+|-
+|A Daedra's Best Friend||魔族的挚友||魔族的挚友||魔族的挚友||魔族的挚友
+|-
+|A Dying Wish||    ||'''垂死的愿望'''||    ||'''垂死的愿望'''
+|-
+|A False Front||伪装的信使||'''伪装的邮差'''||'''虚伪的前线'''||'''虚伪的前线'''
+|-
+|A Farmer's Life For Me||    ||'''垄亩人生'''||    ||'''我的农夫生活'''
+|-
+|A Few Words with You||小谈片刻||小谈片刻||    ||小谈片刻
+|-
+|A Friend to the Orcs||兽人之友||兽人之友||兽人之友||兽人之友
+|-
+|A Good Death||光荣死去||光荣死去||    ||'''优雅之死'''
+|-
+|A Jarl's Justice||领主的正义||领主的正义||'''领主的决断'''||领主的正义
+|-
+|A Lovely Letter||一封动人的信||一封动人的信||    ||一封动人的信
+|-
+|A Matter of Pride||    ||'''事关名节'''||    ||'''攸关自尊'''
+|-
+|A New Debt||新的债务||新的债务||新的债务||新的债务
+|-
+|A New Order||新的教团||'''新的修会'''||'''新的集团'''||新的教团
+|-
+|A New Source of Stalhrim||新的魔冰资源||'''新的钢冰资源'''||'''新的刚冰石矿源'''||'''新的魔冰岩矿源'''
+|-
+|A Night To Remember||值得铭记之夜||值得铭记之夜||'''回想那一夜'''||值得铭记之夜
+|-
+|A Return To Your Roots||落叶归根||落叶归根||'''后继有根'''||落叶归根
+|-
+|A Scroll For Anska||安斯卡的卷轴||安斯卡的卷轴||安斯卡的卷轴||安斯卡的卷轴
+|-
+|A Soul Divided||    ||'''灵魂分裂'''||    ||'''灵魂分裂'''
+|-
+|A crowd gathers||聚集的人群||聚集的人群||    ||聚集的人群
+|-
+|Accept <Alias=Jarl>'s surrender.||接受<Alias=Jarl>投降。||接受<Alias=Jarl>投降。||接受<Alias=Jarl>投降。||接受<Alias=Jarl>投降。
+|-
+|Achievements||成就||成就||成就||成就
+|-
+|Acquire the Staff||拿到法杖||拿到法杖||拿到法杖||拿到法杖
+|-
+|Adventurer on the Way to Nearby Dungeon||正前往附近地城的冒险家||正前往附近地城的冒险家||    ||正前往附近地城的冒险家
+|-
+|Aftershock||余震||余震||'''魔灾余波'''||余震
+|-
+|Aggressive Adventurer||好斗的冒险家||好斗的冒险家||    ||好斗的冒险家
+|-
+|Alduin's Bane||奥杜因克星||奥杜因克星||'''奥杜因的克星'''||奥杜因克星
+|-
+|Alduin's Wall||奥杜因之墙||奥杜因之墙||奥杜因之墙||奥杜因之墙
+|-
+|Alik'r Accusation||阿利克尔的指控||阿利克尔的指控||    ||阿利克尔的指控
+|-
+|Allies||盟友||盟友||盟友||盟友
+|-
+|Alteration Ritual Spell||变换系仪式魔法||变换系仪式魔法||'''变换系仪式法术'''||变换系仪式魔法
+|-
+|Alvor Dorthe||阿尔沃·朵西||阿尔沃·朵西||    ||'''阿尔沃．朵西'''
+|-
+|Alvor Hod||阿尔沃·胡德||阿尔沃·胡德||    ||'''阿尔沃．胡德'''
+|-
+|Always Available Dialogue Quest||    ||    ||    ||'''随时可用对话任务'''
+|-
+|Amber and Madness Smithing||    ||'''琥珀和疯狂锻造'''||    ||'''琥珀与疯狂材质锻造'''
+|-
+|Amulet of the Moon||月亮项链||月亮项链||    ||月亮项链
+|-
+|Amulets of Night Power||暗夜之力护符||暗夜之力护符||'''夜间能力护身符'''||暗夜之力护符
+|-
+|An Axe to Find||找把斧头||找把斧头||'''趁手工具'''||找把斧头
+|-
+|An enemy's gratitude||来自敌人的谢意||来自敌人的谢意||    ||来自敌人的谢意
+|-
+|Ancestral Worship||先祖崇拜||先祖崇拜||'''祖传的崇拜'''||先祖崇拜
+|-
+|Ancient Ice||    ||'''远古寒冰'''||    ||'''远古寒冰'''
+|-
+|Ancient Power||古代之力||古代之力||'''远古之力'''||'''上古之力'''
+|-
+|Ancient Technology||古代科技||古代科技||'''古代工艺技术'''||'''古老的科技'''
+|-
+|Angler Acquaintances||    ||'''钓友圈子'''||    ||'''熟门熟路的钓客'''
+|-
+|Animal Extermination||消灭动物||消灭动物||'''动物灭绝'''||'''动物灭绝'''
+|-
+|Animal Pelt Collection||动物皮毛收集||动物皮毛收集||'''动物毛皮收集'''||动物皮毛收集
+|-
+|Apologize or combat||道歉或战斗||道歉或战斗||    ||'''要嘛道歉，要嘛战斗'''
+|-
+|Approach the Night Mother||接近夜母||接近夜母||接近夜母||接近夜母
+|-
+|Arguing about Haknir||关于海科尼尔的争论||关于海科尼尔的争论||    ||关于海科尼尔的争论
+|-
+|Arniel's Endeavor||阿内尔的努力||阿内尔的努力||阿内尔的努力||阿内尔的努力
+|-
+|Ashen Heart||    ||'''灰烬之心'''||    ||'''灰烬之心'''
+|-
+|Ask <Alias.ShortName=Target> for information about <Alias.ShortName=Questgiver>'s daughter.||向<Alias.ShortName=Target>打听<Alias.ShortName=Questgiver>女儿的事情。||向<Alias.ShortName=Target>打听<Alias.ShortName=Questgiver>女儿的事情。||向<Alias.ShortName=Target>打听<Alias.ShortName=Questgiver>女儿的事情。||向<Alias.ShortName=Target>打听<Alias.ShortName=Questgiver>女儿的事情。
+|-
+|Ask Deor about Baldor's disappearance||询问夺尔关于保德失踪的详情||询问夺尔关于保德失踪的详情||'''询问夺尔关于霸铎失踪的详情'''||'''询问夺尔关于霸铎失踪的详情'''
+|-
+|Ask about Balgruuf's strange children||打听巴尔古夫奇怪的孩子们的事情||打听巴尔古夫奇怪的孩子们的事情||'''打听巴尔古夫的奇怪孩子的事情'''||打听巴尔古夫奇怪的孩子们的事情
+|-
+|Ask about the missing Curate||    ||'''打听失踪助理祭司的消息'''||    ||'''打听失踪助理祭司的消息'''
+|-
+|Ask an innkeeper for bounty work||    ||'''向旅店老板打听悬赏工作'''||    ||'''向客栈老板要悬赏工作'''
+|-
+|Ask an innkeeper for work||    ||'''向旅店老板打听工作'''||    ||'''向客栈老板要工作'''
+|-
+|Assassinate the Jarl of Solitude||暗杀独孤城领主||暗杀独孤城领主||暗杀独孤城领主||暗杀独孤城领主
+|-
+|Assassinate the Silver Hand leader||暗杀白银之手领导人||'''暗杀白银之手首领'''||'''暗杀银之手领导人'''||暗杀白银之手领导人
+|-
+|Assess the damage to the Great Hall||评估对大厅造成的损伤||评估对大厅造成的损伤||评估对大厅造成的损伤||评估对大厅造成的损伤
+|-
+|Assist the people of the Rift (<Global=FriendsCountRift>/<Global=FriendsTotalMajorHold>)||帮助裂谷城的居民（<Global=FriendsCountRift>/<Global=FriendsTotalMajorHold>）||帮助裂谷城的居民（<Global=FriendsCountRift>/<Global=FriendsTotalMajorHold>）||'''帮助裂痕领的居民（<Global=FriendsCountRift>/<Global=FriendsTotalMajorHold>）'''||帮助裂谷城的居民（<Global=FriendsCountRift>/<Global=FriendsTotalMajorHold>）
+|-
+|At the Summit of Apocrypha||伪典之巅||伪典之巅||'''识界之巅'''||伪典之巅
+|-
+|Attack <Alias=Capital>||进攻<Alias=Capital>||进攻<Alias=Capital>||进攻<Alias=Capital>||进攻<Alias=Capital>
+|-
+|Attack Vilkas||攻击威尔卡斯||攻击威尔卡斯||攻击威尔卡斯||攻击威尔卡斯
+|-
+|Attend The Burning of King Olaf||参加火烧奥拉夫节||参加火烧奥拉夫节||'''参加火烧奥拉夫'''||参加火烧奥拉夫节
+|-
+|Attract Ancestor Moth Swarms  (<Global=DLC1VQ06MothsFound>/<Global=DLC1VQ06MothsTotal>)||吸引先祖蛾群的注意（<Global=DLC1VQ06MothsFound>/<Global=DLC1VQ06MothsTotal>）||吸引先祖蛾群的注意（<Global=DLC1VQ06MothsFound>/<Global=DLC1VQ06MothsTotal>）||'''引诱先祖丝蛾群（<Global=DLC1VQ06MothsFound>/<Global=DLC1VQ06MothsTotal>）'''||吸引先祖蛾群的注意（<Global=DLC1VQ06MothsFound>/<Global=DLC1VQ06MothsTotal>）
+|-
+|Await news from a courier||    ||'''等待邮差的来信'''||    ||'''等候信使的消息'''
+|-
+|Awakening||苏醒||苏醒||苏醒||'''唤醒'''
+|-
+|Azra's Staffs||艾萨拉的法杖||艾萨拉的法杖||艾萨拉的法杖||艾萨拉的法杖
+|-
+|Balance of Power||    ||'''势均力敌'''||    ||'''势力平衡'''
+|-
+|Bandit beat down||打倒强盗||打倒强盗||    ||打倒强盗
+|-
+|Banish the Pale Lady||驱逐灰白夫人||驱逐灰白夫人||'''放逐苍白夫人'''||驱逐灰白夫人
+|-
+|Bards College Class Scene||吟游诗人学院等级画面||吟游诗人学院等级画面||    ||吟游诗人学院等级画面
+|-
+|Bards College Scene||吟游诗人学院||吟游诗人学院||    ||吟游诗人学院
+|-
+|Bats!||蝙蝠！||蝙蝠！||    ||蝙蝠！
+|-
+|Battle for <Alias=City>||<Alias=City>之战||<Alias=City>之战||<Alias=City>之战||<Alias=City>之战
+|-
+|Battle of <Alias=City>||<Alias=City>之战||<Alias=City>之战||<Alias=City>之战||<Alias=City>之战
+|-
+|Battle of the Champions||    ||'''勇士对决'''||    ||'''勇士之战'''
+|-
+|Before the Storm||风暴前夕||风暴前夕||'''风暴将临'''||风暴前夕
+|-
+|Behold Shadowmere||看见微影||看见微影||'''和影裔打个照面'''||看见微影
+|-
+|Beneath Bronze Waters||    ||'''铜水之下'''||    ||'''铜水之下'''
+|-
+|Beyond Death||跨越死亡||跨越死亡||跨越死亡||'''超越死亡'''
+|-
+|Beyond the Grave||    ||'''在坟墓之外'''||    ||'''在坟墓之外'''
+|-
+|Black Book||黑暗经书||黑暗经书||    ||黑暗经书
+|-
+|Black Book: Filament and Filigree||黑暗经书：长丝与银丝网||黑暗经书：长丝与银丝网||'''黑暗经典：长丝与银丝网'''||黑暗经书：长丝与银丝网
+|-
+|Black Book: The Hidden Twilight||黑暗经书：隐匿暮光||黑暗经书：隐匿暮光||'''黑暗经典：隐匿暮光'''||黑暗经书：隐匿暮光
+|-
+|Black Book: The Sallow Regent||黑暗经书：蜡黄的摄政王||黑暗经书：蜡黄的摄政王||'''黑暗经典：蜡黄的摄政王'''||黑暗经书：蜡黄的摄政王
+|-
+|Black Book: The Winds of Change||黑暗经书：变幻之风||黑暗经书：变幻之风||'''黑暗经典：变化之风'''||'''黑暗经书：变化之风'''
+|-
+|Black Book: Untold Legends||黑暗经书：无尽传奇||黑暗经书：无尽传奇||'''黑暗经典：不曾说的传奇'''||'''黑暗经书：不曾说的传奇'''
+|-
+|Bleak Falls Barrow||荒瀑古坟||荒瀑古坟||荒瀑古坟||荒瀑古坟
+|-
+|Blindsighted||视不见物||视不见物||'''盲视者'''||视不见物
+|-
+|Blocking lines for Castle Vampires||    ||    ||'''城堡的吸血鬼封锁线'''||    
+|-
+|Blood Horker Revenge||血腥长牙复仇||血腥长牙复仇||    ||血腥长牙复仇
+|-
+|Blood in the Water||    ||'''血洒水中'''||    ||'''血溶于水'''
+|-
+|Blood on the Ice||冰上之血||冰上之血||'''血染冰地'''||冰上之血
+|-
+|Blood's Honor||血液的荣耀||血液的荣耀||'''鲜血的荣光'''||'''鲜血的荣光'''
+|-
+|Bloodline||血脉相连||血脉相连||'''血统'''||血脉相连
+|-
+|Bloodthirst||    ||'''血嗜'''||    ||'''血嗜'''
+|-
+|Bloody Nose||该死的鼻子||该死的鼻子||    ||该死的鼻子
+|-
+|Blue in the Face||    ||'''满面蓝光'''||    ||'''面色铁青'''
+|-
+|Boethiah's Bidding||波耶西亚的要求||波耶西亚的要求||波耶西亚的要求||波耶西亚的要求
+|-
+|Boethiah's Calling||波耶西亚的召唤||波耶西亚的召唤||波耶西亚的召唤||波耶西亚的召唤
+|-
+|Bolstering the Ranks||增添人员||增添人员||'''援助队伍'''||'''增添生力军'''
+|-
+|Bones for a Crow||    ||'''乌鸦骨骸'''||    ||'''乌鸦骨骸'''
+|-
+|Book Quest Item||    ||    ||    ||'''书本任务物品'''
+|-
+|Bothela's Discreet Delivery||波塞拉的秘密递送||波塞拉的秘密递送||    ||波塞拉的秘密递送
+|-
+|Bound Until Death||至死不渝||至死不渝||至死不渝||至死不渝
+|-
+|Bounty hunters vs Player||    ||    ||    ||'''宝物猎人对玩家'''
+|-
+|Bounty: Bandit Boss||悬赏：强盗头目||悬赏：强盗头目||悬赏：强盗头目||悬赏：强盗头目
+|-
+|Bounty: Dragon||悬赏：巨龙||悬赏：巨龙||悬赏：巨龙||悬赏：巨龙
+|-
+|Bounty: Forsworn||悬赏：弃誓者||悬赏：弃誓者||'''悬赏：拒誓者'''||悬赏：弃誓者
+|-
+|Bounty: Giant||悬赏：巨人||悬赏：巨人||悬赏：巨人||悬赏：巨人
+|-
+|Bow to the Master||与大师致敬||与大师致敬||    ||与大师致敬
+|-
+|Breaching Security||渗透||渗透||'''保安漏洞'''||渗透
+|-
+|Brelyna's Practice||布莱丽娜的练习||布莱丽娜的练习||'''布莱丽娜的法术练习'''||布莱丽娜的练习
+|-
+|Briarheart Necropsy||解剖荆棘之心||解剖荆棘之心||解剖荆棘之心||解剖荆棘之心
+|-
+|Bring <Global=DLC2ThirskHalbarnStalhrimCount> Stalhrim Ore and <Global=DLC2ThirskHalbarnEbonyCount> Ebony Ingots to Halbarn||把<Global=DLC2ThirskHalbarnStalhrimCount>个魔冰矿石和<Global=DLC2ThirskHalbarnEbonyCount>个黑檀锭带给赫巴恩||'''把<Global=DLC2ThirskHalbarnStalhrimCount>个钢冰矿石和<Global=DLC2ThirskHalbarnEbonyCount>个黑檀岩锭带给赫巴恩'''||'''把 <Global=DLC2ThirskHalbarnStalhrimCount> 个刚冰石矿石和 <Global=DLC2ThirskHalbarnEbonyCount> 个玄曜石锭带给赫巴恩'''||'''把<Global=DLC2ThirskHalbarnStalhrimCount>个魔冰岩矿石和<Global=DLC2ThirskHalbarnEbonyCount>个黑檀锭带给赫巴恩'''
+|-
+|Bring <Global=DLC2ThirskHilundSpearCount> Riekling Spears to Hilund||把<Global=DLC2ThirskHilundSpearCount>只蓝客灵长矛带给希兰||把<Global=DLC2ThirskHilundSpearCount>只蓝客灵长矛带给希兰||'''把 <Global=DLC2ThirskHilundSpearCount> 支蓝客灵长矛带给希兰'''||把<Global=DLC2ThirskHilundSpearCount>只蓝客灵长矛带给希兰
+|-
+|Bring <Global=NN01Total> Crimson Nirnroot to Avrusa Sarethi||把<Global=NN01Total>个深红奈恩根带给阿瓦雷萨·萨雷提||把<Global=NN01Total>个深红奈恩根带给阿瓦雷萨·萨雷提||'''把<Global=NN01Total>株猩红奈恩根带给阿瓦雷萨·萨雷提'''||'''把<Global=NN01Total>个深红奈恩根带给阿瓦雷萨．萨雷提'''
+|-
+|Bring Alessandra's Dagger to Andurs in Whiterun||把艾利桑德拉的匕首带给白漫城的安度尔斯||把艾利桑德拉的匕首带给白漫城的安度尔斯||把艾利桑德拉的匕首带给白漫城的安度尔斯||把艾利桑德拉的匕首带给白漫城的安度尔斯
+|-
+|Bring Ancient Falmer Tome to Urag-gro Shub||把古代伐莫书卷带给乌拉格·格洛 - 舒布||把古代伐莫书卷带给乌拉格·格洛 - 舒布||'''将古代法莫书册带给乌拉葛·格洛-舒布'''||'''把上古伐莫族书卷带给乌拉格．格洛-舒布'''
+|-
+|Bring Dragon Heartscales to Tolfdir||把龙心外壳带给托夫迪尔||把龙心外壳带给托夫迪尔||'''把龙心脏处的鳞片带给托夫迪尔'''||把龙心外壳带给托夫迪尔
+|-
+|Bring Elmus some Ashfire Mead from Thirsk Mead Hall||从瑟斯科蜜酒大厅带一些余烬蜂蜜酒给艾穆斯||从瑟斯科蜜酒大厅带一些余烬蜂蜜酒给艾穆斯||从瑟斯科蜜酒大厅带一些余烬蜂蜜酒给艾穆斯||从瑟斯科蜜酒大厅带一些余烬蜂蜜酒给艾穆斯
+|-
+|Bring Elmus some Juniper Berries||带一些刺柏浆果给艾穆斯||带一些刺柏浆果给艾穆斯||带一些刺柏浆果给艾穆斯||带一些刺柏浆果给艾穆斯
+|-
+|Bring Fenrig to Ruki||把芬利格带到茹姬身边||把芬利格带到茹姬身边||'''将芬利格带到茹姬身边'''||把芬利格带到茹姬身边
+|-
+|Bring Hjalti's Sword to the Ghost of Old Hroldan||把希雅提的剑带给古赫洛登的鬼魂||把希雅提的剑带给古赫洛登的鬼魂||'''把希雅提的剑带给古赫洛登的幽灵'''||把希雅提的剑带给古赫洛登的鬼魂
+|-
+|Bring It!||放马过来！||放马过来！||    ||放马过来！
+|-
+|Bring Ogmund's Amulet of Talos to Ondolemar||把欧格蒙的塔洛斯护符带给昂多勒马||把欧格蒙的塔洛斯护符带给昂多勒马||'''把奥格蒙德的塔洛斯护符带给昂多勒马'''||把欧格蒙的塔洛斯护符带给昂多勒马
+|-
+|Bring Reyda's Necklace to Narfi||把瑞达的项链带给纳菲||把瑞达的项链带给纳菲||把瑞达的项链带给纳菲||把瑞达的项链带给纳菲
+|-
+|Bring The Last Scabbard of Akrash to Ghorza||把“阿卡拉什的最后剑鞘”带给果扎||把“阿卡拉什的最后剑鞘”带给果扎||'''把《最后的阿卡拉什剑鞘》带给果扎'''||把“阿卡拉什的最后剑鞘”带给果扎
+|-
+|Bring Wyndelius's Journal to Wilhelm||把韦德留斯的日记带给威尔海姆||把韦德留斯的日记带给威尔海姆||把韦德留斯的日记带给威尔海姆||把韦德留斯的日记带给威尔海姆
+|-
+|Bring a <Alias=Item> to Calcelmo||把<Alias=Item>带给卡塞莫||把<Alias=Item>带给卡塞莫||把<Alias=Item>带给卡塞莫||把<Alias=Item>带给卡塞莫
+|-
+|Bring a Daedra's Heart to Moth||把一颗魔族之心带给莫斯||把一颗魔族之心带给莫斯||'''把一个魔族心脏带给莫斯'''||把一颗魔族之心带给莫斯
+|-
+|Bring a Dragon Scale and a Dragon Bone to Esbern||把一份龙鳞和一份龙骨带给伊思本||把一份龙鳞和一份龙骨带给伊思本||'''把一份龙鳞和一份龙骨带给艾思本'''||把一份龙鳞和一份龙骨带给伊思本
+|-
+|Bring a Filled Grand Soul Gem to Sergius Turrianus||把一个充满的特大灵魂石带给瑟吉尔斯·图利亚努斯||把一个充满的特大灵魂石带给瑟吉尔斯·图利亚努斯||'''为瑟吉尔斯·图利亚努斯充满一块巨大灵魂石'''||'''把一个充满的特大灵魂石带给瑟吉尔斯．图利亚努斯'''
+|-
+|Bring a follower to Delphine||带给戴尔芬一个追随者||'''带给戴尔菲娜一个追随者'''||'''将一位追随者带给戴尔菲娜'''||'''带给戴尔菲娜一个追随者'''
+|-
+|Bring a hagraven's claw to Elynea||带一支乌鸦鬼婆的爪子给艾琳娜||带一支乌鸦鬼婆的爪子给艾琳娜||带一支乌鸦鬼婆的爪子给艾琳娜||带一支乌鸦鬼婆的爪子给艾琳娜
+|-
+|Bring both Elder Scrolls to Dexion||把两部上古卷轴交给戴希翁||把两部上古卷轴交给戴希翁||'''把两幅上古卷轴带来给迪悉仁'''||把两部上古卷轴交给戴希翁
+|-
+|Bring one <Alias=QuestItem> to <Alias.ShortName=QuestGiver>||把<Alias=QuestItem>带给<Alias.ShortName=QuestGiver>||把<Alias=QuestItem>带给<Alias.ShortName=QuestGiver>||把<Alias=QuestItem>带给<Alias.ShortName=QuestGiver>||把<Alias=QuestItem>带给<Alias.ShortName=QuestGiver>
+|-
+|Bring some Frost Salts to <Alias.ShortName=QuestGiver>||带一些霜盐给<Alias.ShortName=QuestGiver>||带一些霜盐给<Alias.ShortName=QuestGiver>||'''带一些寒冻素给<Alias.ShortName=QuestGiver>'''||'''带一些寒霜盐给<Alias.ShortName=QuestGiver>'''
+|-
+|Bring the Dibella Statue to Lisbet||把蒂贝拉塑像带给利斯拜特||把蒂贝拉塑像带给利斯拜特||'''把迪贝拉雕像带给莉兹贝特'''||把蒂贝拉塑像带给利斯拜特
+|-
+|Bring the Four Master Illusion texts to Drevis Neloren||把四本大师级幻术系课本交给德莱维斯·内罗仁||把四本大师级幻术系课本交给德莱维斯·内罗仁||'''把四册大师级幻象系法术文本交给德莱维斯·内罗仁'''||'''把四本大师级幻术系课本交给德莱维斯．内罗仁'''
+|-
+|Bring the Jazbay to Avrusa Sarethi||把架子湾葡萄带给阿瓦雷萨·萨雷提||把架子湾葡萄带给阿瓦雷萨·萨雷提||把架子湾葡萄带给阿瓦雷萨·萨雷提||'''把架子湾葡萄带给阿瓦雷萨．萨雷提'''
+|-
+|Bring the Phial to Nurelion||把雪瓶带给努瑞莱昂||把雪瓶带给努瑞莱昂||'''把瓶子带给努瑞莱昂'''||把雪瓶带给努瑞莱昂
+|-
+|Bring the Star to Aranea||把阿祖拉之星带给阿祖拉||把阿祖拉之星带给阿祖拉||'''把星石带给阿兰尼亚'''||把阿祖拉之星带给阿祖拉
+|-
+|Bring the Unusual Gem to Vex in the Thieves Guild||把不寻常的宝石带给盗贼公会的威克斯看看||把不寻常的宝石带给盗贼公会的威克斯看看||'''把不寻常的宝石带给盗贼公会的薇克丝看看'''||'''把不寻常的宝石带给盗贼公会的“小烦”看看'''
+|-
+|Bring the documents to <Alias=FieldCO>||把文件带给<Alias=FieldCO>||把文件带给<Alias=FieldCO>||把文件带给<Alias=FieldCO>||把文件带给<Alias=FieldCO>
+|-
+|Bring the flawless sapphires to Madesi||把无瑕的蓝宝石带给玛德希||把无瑕的蓝宝石带给玛德希||把无瑕的蓝宝石带给玛德希||把无瑕的蓝宝石带给玛德希
+|-
+|Bring the nirnroot to Ingun Black-Briar||把奈恩根带给因甘·黑棘||'''把奈恩根带给黑棘氏的因甘'''||'''把奈恩根带给因甘·黑荆棘'''||'''把奈恩根带给因甘．黑棘'''
+|-
+|Bring the supplies to High Hrothgar||把补给带到高吼峰||'''把补给带到高吼修道院'''||'''把补给带到高吼修道院'''||把补给带到高吼峰
+|-
+|Brotherhood||兄弟||兄弟||兄弟||'''兄弟会'''
+|-
+|Brothers in Irons||    ||'''铁甲同袍'''||    ||'''钢铁兄弟情'''
+|-
+|Buy Dwarven artifact||购买矮人遗物||购买矮人遗物||    ||购买矮人遗物
+|-
+|Buy lumber for building your house||购买木材以建造你的家||购买木材以建造你的家||'''购买木料来建造你的房屋'''||购买木材以建造你的家
+|-
+|Buy the armor from collector at the Bee and Barb||    ||'''到蜂与钩向收藏家买下护甲'''||    ||'''到蜂与钩向收藏家买下护甲'''
+|-
+|Buyer Beware||    ||'''买家注意'''||    ||'''买家注意'''
+|-
+|Camilla Hod||凯米拉·胡德||凯米拉·胡德||    ||'''凯米拉．胡德'''
+|-
+|Camilla Sven||凯米拉·斯万||'''凯米拉·斯文'''||    ||'''凯米拉．斯万'''
+|-
+|Campaign for <Alias=CampaignHold>||<Alias=CampaignHold>之战||<Alias=CampaignHold>之战||<Alias=CampaignHold>之战||<Alias=CampaignHold>之战
+|-
+|Camping Idle Quest||    ||    ||    ||'''扎营闲置任务'''
+|-
+|Camping Quest||    ||    ||    ||'''扎营任务'''
+|-
+|Careless Curation||    ||'''粗心的助理祭司'''||    ||'''粗心的助理祭司'''
+|-
+|Cast a Healing Hands spell||施展治愈之触||施展治愈之触||'''施展他人治疗术'''||'''施展治疗之手'''
+|-
+|Catch of the Day||    ||'''晴天钓获'''||    ||'''本日渔获'''
+|-
+|Caught Red Handed||被抓现行||被抓现行||    ||被抓现行
+|-
+|Caught in a Web||    ||'''挂在网上'''||    ||'''蛛网缠身'''
+|-
+|Caught in the Rain||    ||'''雨天钓获'''||    ||'''雨中钓鱼'''
+|-
+|Charmed Mudcrab Quest||    ||    ||    ||'''魅惑泥沼蟹任务'''
+|-
+|Chasing Echoes||捕风捉影||捕风捉影||'''追寻回荡之声'''||'''追寻回音'''
+|-
+|Check the Orc's body for clues||    ||'''检查兽人尸体以获取线索'''||    ||'''搜兽人的身寻找线索'''
+|-
+|Chop Wood||伐木||伐木||    ||伐木
+|-
+|Clean Sweep||彻底扫除||彻底扫除||    ||彻底扫除
+|-
+|Cleanse the Water Stone||净化水石||净化水石||'''净化水之石'''||净化水石
+|-
+|Cleanse the focal points for magical energies around the College||净化学院附近的魔法能量的汇集点||净化学院附近的魔法能量的汇集点||净化学院附近的魔法能量的汇集点||净化学院附近的魔法能量的汇集点
+|-
+|Cleansing Light||净化之光||净化之光||净化之光||净化之光
+|-
+|Cleansing the Stones||净化圣石||净化圣石||净化圣石||净化圣石
+|-
+|Clear <Alias=WealthyHome> in <Alias=City> of valuables (<Global=TGRHCValuablesStolen>/<Global=TGRHCValuablesTotal>)||拿走了<Alias=City>的<Alias=WealthyHome>中所有值钱的东西（<Global=TGRHCValuablesStolen>/<Global=TGRHCValuablesTotal>）||'''拿走<Alias=City>的<Alias=WealthyHome>中所有值钱的东西（<Global=TGRHCValuablesStolen>/<Global=TGRHCValuablesTotal>）'''||'''拿走<Alias=City>的<Alias=WealthyHome>中的所有值钱东西（<Global=TGRHCValuablesStolen>/<Global=TGRHCValuablesTotal>）'''||拿走了<Alias=City>的<Alias=WealthyHome>中所有值钱的东西（<Global=TGRHCValuablesStolen>/<Global=TGRHCValuablesTotal>）
+|-
+|Clear Redbelly Mine of spiders||肃清红腹矿坑里的蜘蛛||肃清红腹矿坑里的蜘蛛||'''清除红腹矿场里的蜘蛛'''||肃清红腹矿坑里的蜘蛛
+|-
+|Clear out <Alias=AnimalDen>||清理<Alias=AnimalDen>||清理<Alias=AnimalDen>||清理<Alias=AnimalDen>||清理<Alias=AnimalDen>
+|-
+|Clear the Forsworn from Kolskeggr Mine||清除科斯凯格矿坑里的弃誓者||清除科斯凯格矿坑里的弃誓者||'''清除科斯凯格矿场里的拒誓者'''||清除科斯凯格矿坑里的弃誓者
+|-
+|Clear the Temple's tomb of ash spawn||清除神殿墓室中的灰烬魔||清除神殿墓室中的灰烬魔||'''清除神殿墓室中的凝灰鬼'''||清除神殿墓室中的灰烬魔
+|-
+|Clear-Headed||    ||'''清神醒脑'''||    ||'''头脑清醒'''
+|-
+|Climb the Steps||攀爬台阶||攀爬台阶||    ||攀爬台阶
+|-
+|Coated in Blood||洒满鲜血||洒满鲜血||    ||洒满鲜血
+|-
+|Cold||    ||'''寒冷'''||    ||'''寒冷'''
+|-
+|Collect <Alias=SamplePelt>s (<Global=CR03PeltsGotten>/<Global=CR03TotalPeltsNeeded>)||收集<Alias=SamplePelt>（<Global=CR03PeltsGotten>/<Global=CR03TotalPeltsNeeded>）||收集<Alias=SamplePelt>（<Global=CR03PeltsGotten>/<Global=CR03TotalPeltsNeeded>）||收集<Alias=SamplePelt>（<Global=CR03PeltsGotten>/<Global=CR03TotalPeltsNeeded>）||'''收集<Alias=SamplePelt>(<Global=CR03PeltsGotten>/<Global=CR03TotalPeltsNeeded>）'''
+|-
+|Collect ash from an ash spawn||从一只灰烬魔身上收集魔尘||从一只灰烬魔身上收集魔尘||'''从一只凝灰鬼身上收集灰烬'''||从一只灰烬魔身上收集魔尘
+|-
+|Collect bounty from <Alias=Jarl>||向<Alias=Jarl>领取悬赏金||向<Alias=Jarl>领取悬赏金||'''从<Alias=Jarl>那里获取赏金'''||'''向<Alias=Jarl>领赏'''
+|-
+|Collect bounty from <Alias=Steward>||    ||'''向<Alias=Steward>领取悬赏金'''||    ||'''向<Alias=Steward>领赏'''
+|-
+|Collect parts of the Poetic Edda from Bards you meet.||从你遇到的吟游诗人那里收集诗歌集的片段。||从你遇到的吟游诗人那里收集诗歌集的片段。||'''与吟游诗人见面并收集诗词以集结成诗文集。'''||从你遇到的吟游诗人那里收集诗歌集的片段。
+|-
+|Collect the Vessels (<Global=dunValthumeVesselCollectedCount>/3)||收集容器（<Global=dunValthumeVesselCollectedCount>/3）||收集容器（<Global=dunValthumeVesselCollectedCount>/3）||收集容器（<Global=dunValthumeVesselCollectedCount>/3）||收集容器（<Global=dunValthumeVesselCollectedCount>/3）
+|-
+|Collect the bounty from <Alias=Jarl>||向<Alias=Jarl>领取悬赏金||向<Alias=Jarl>领取悬赏金||'''从<Alias=Jarl>那里获取赏金'''||向<Alias=Jarl>领取悬赏金
+|-
+|Collecting the Edda||收集诗歌集||收集诗歌集||'''诗文收罗'''||收集诗歌集
+|-
+|College Application Denied||学院申请被拒绝||学院申请被拒绝||    ||学院申请被拒绝
+|-
+|College Lectures||学院演讲||学院演讲||学院演讲||学院演讲
+|-
+|College Objective Quest||学院任务||学院任务||学院任务||学院任务
+|-
+|Coming of Age||世代的来临||世代的来临||世代的来临||世代的来临
+|-
+|Companions Hunting (Skjor Aela Njada)||Companions Hunting （Skjor Aela Njada）||Companions Hunting （Skjor Aela Njada）||    ||    
+|-
+|Companions Hunting (Vilkas and Ria)||Companions Hunting （Vilkas and Ria）||Companions Hunting （Vilkas and Ria）||    ||    
+|-
+|Companions Hunting2 (Farkas Athis Torvar)||Companions Hunting2 （Farkas Athis Torvar）||Companions Hunting2 （Farkas Athis Torvar）||    ||    
+|-
+|Compelling Tribute||引人注目的贡品||引人注目的贡品||引人注目的贡品||引人注目的贡品
+|-
+|Complete the book Powers of the Elements||读完元素之力||读完元素之力||'''阅读《元素之力》'''||读完元素之力
+|-
+|Conjuration Ritual Spell||召唤系仪式魔法||召唤系仪式魔法||'''召唤系仪式法术'''||召唤系仪式魔法
+|-
+|Containment||遏制措施||遏制措施||'''魔灾遏止'''||'''遏制政策'''
+|-
+|Contract: Kill Agnis||契约 - 杀死阿尼斯||契约 - 杀死阿尼斯||'''契约：杀死阿格妮丝'''||契约 - 杀死阿尼斯
+|-
+|Contract: Kill Anoriath||契约 - 杀死阿诺利亚斯||契约 - 杀死阿诺利亚斯||'''契约：杀死阿诺利亚斯'''||契约 - 杀死阿诺利亚斯
+|-
+|Contract: Kill Beitild||契约 - 杀死贝提尤德||契约 - 杀死贝提尤德||'''契约：杀死贝媞尤德'''||契约 - 杀死贝提尤德
+|-
+|Contract: Kill Deekus||契约 - 杀死蒂库斯||契约 - 杀死蒂库斯||'''契约：杀死蒂库斯'''||契约 - 杀死蒂库斯
+|-
+|Contract: Kill Ennodius Papius||契约 - 杀死恩诺迪尤斯·帕尤斯||契约 - 杀死恩诺迪尤斯·帕尤斯||'''契约：杀死恩诺迪尤斯·帕尤斯'''||'''契约 - 杀死恩诺迪尤斯．帕尤斯'''
+|-
+|Contract: Kill Helvard||契约 - 杀死黑尔沃德||契约 - 杀死黑尔沃德||'''契约：杀死黑尔沃德'''||契约 - 杀死黑尔沃德
+|-
+|Contract: Kill Hern||契约 - 杀死赫恩||契约 - 杀死赫恩||'''契约：杀死赫恩'''||契约 - 杀死赫恩
+|-
+|Contract: Kill Lurbuk||契约 - 杀死卢布克||契约 - 杀死卢布克||'''契约：杀死卢布克'''||契约 - 杀死卢布克
+|-
+|Contract: Kill Ma'randru-jo||契约 - 杀死玛'兰德鲁-约||契约 - 杀死玛'兰德鲁-约||'''契约：杀死玛兰度·乔'''||契约 - 杀死玛'兰德鲁-约
+|-
+|Contract: Kill Maluril||契约 - 杀死毛尤利尔||契约 - 杀死毛尤利尔||'''契约：杀死毛尤利尔'''||契约 - 杀死毛尤利尔
+|-
+|Contract: Kill Narfi||契约 - 杀死纳菲||契约 - 杀死纳菲||'''契约：杀死纳菲'''||契约 - 杀死纳菲
+|-
+|Contract: Kill Safia||契约 - 杀死萨非亚||契约 - 杀死萨非亚||'''契约：杀死萨菲亚'''||契约 - 杀死萨非亚
+|-
+|Convince <Alias=Target> to release the Spiced Wine shipment||说服<Alias=Target>返还香料酒货物||说服<Alias=Target>返还香料酒货物||'''说服<Alias=Target>返还香料葡萄酒货物'''||说服<Alias=Target>返还香料酒货物
+|-
+|Convince Braith to stop bullying Lars||说服布赖丝停止欺负拉斯||说服布赖丝停止欺负拉斯||'''说服布赖斯停止欺负拉斯'''||说服布赖丝停止欺负拉斯
+|-
+|Corpse Check||    ||    ||    ||'''查看死尸'''
+|-
+|Courier||信使||'''邮差'''||    ||信使
+|-
+|Courier Delivering an Important Message||信使传递重要消息||信使传递重要消息||    ||信使传递重要消息
+|-
+|Courier on the Run||信使在路上||'''邮差在路上'''||    ||信使在路上
+|-
+|Craft a potion||炼制一瓶药水||炼制一瓶药水||'''炼制一瓶药剂'''||炼制一瓶药水
+|-
+|Craft a set of netch leather armor||    ||'''制造一套气母革制护甲'''||    ||'''制造一套耐区革制护甲'''
+|-
+|Craft an Iron Dagger||锻造一把铁制匕首||锻造一把铁制匕首||锻造一把铁制匕首||'''锻造一把铁匕首'''
+|-
+|Creature of Legend||    ||'''传奇异兽'''||    ||'''传奇生物'''
+|-
+|Crustacean Extermination||    ||'''扑杀甲壳'''||    ||'''扑杀甲壳类'''
+|-
+|Crypt of the Heart||    ||'''心之墓穴'''||    ||'''心之墓穴'''
+|-
+|Culling the Beast||为民除害||为民除害||'''扑杀野兽'''||为民除害
+|-
+|DLC1LD: Taron Dreth||DLC1LD： Taron Dreth||DLC1LD： Taron Dreth||    ||    
+|-
+|Dampened Spirits||沮丧的灵魂||沮丧的灵魂||'''浇熄热情'''||沮丧的灵魂
+|-
+|Danger Ahead||前方有危险||前方有危险||    ||前方有危险
+|-
+|Dangerous Magic||危险的魔法||危险的魔法||    ||危险的魔法
+|-
+|Dark Ancestor||黑暗祖先||黑暗祖先||    ||黑暗祖先
+|-
+|Dark Brotherhood||黑暗兄弟会||黑暗兄弟会||黑暗兄弟会||黑暗兄弟会
+|-
+|Dark Brotherhood Assassin Sent to Kill the Player||    ||    ||    ||'''黑暗兄弟会刺客被派遣来刺杀玩家'''
+|-
+|Darkest Depths||    ||'''至暗深壑'''||    ||'''最黑暗的深渊'''
+|-
+|Darkness Returns||黑暗回归||黑暗回归||黑暗回归||黑暗回归
+|-
+|Dawnfang Control Quest||    ||    ||    ||'''晓牙控制任务'''
+|-
+|Dawnguard||黎明守卫||黎明守卫||黎明守卫||'''暮光守卫'''
+|-
+|Dawnguard Novice (06 / Whiterun Caches)||Dawnguard Novice （06 / Whiterun Caches）||Dawnguard Novice （06 / Whiterun Caches）||    ||    
+|-
+|Dawnguard Outrider (07 / Northlands Caches)||Dawnguard Outrider （07 / Northlands Caches）||Dawnguard Outrider （07 / Northlands Caches）||    ||    
+|-
+|Dawnguard blocking lines||    ||    ||'''黎明守卫封锁线'''||    
+|-
+|Deactivate the magic barrier||关闭魔法防护罩||关闭魔法防护罩||'''撤销魔法屏障'''||关闭魔法防护罩
+|-
+|Dead Treasure Hunter with instructions||    ||    ||    ||'''带有指示的已死宝物猎人'''
+|-
+|Deal with the rogue wizard||对付流浪法师||对付流浪法师||对付流浪法师||对付流浪法师
+|-
+|Death Hounds||死亡猎犬||死亡猎犬||    ||'''死亡地狱犬'''
+|-
+|Death Incarnate||死神化身||死神化身||'''死亡降临'''||死神化身
+|-
+|Deathbrand||死亡烙印||死亡烙印||死亡烙印||死亡烙印
+|-
+|Deceiving the Herd||欺骗众人||欺骗众人||'''欺骗民众'''||欺骗众人
+|-
+|Defeat Alduin||打败奥杜因！||打败奥杜因！||打败奥杜因！||打败奥杜因！
+|-
+|Defeat Ancano||打败安卡诺||打败安卡诺||打败安卡诺||打败安卡诺
+|-
+|Defeat Hofgrir in an unarmed brawl||在一场赤手空拳的搏击中打败霍夫吉尔||在一场赤手空拳的搏击中打败霍夫吉尔||'''在一场赤手空拳的搏击中打败霍夫圭尔'''||在一场赤手空拳的搏击中打败霍夫吉尔
+|-
+|Defeat Vahlok||打败瓦罗科||打败瓦罗科||打败瓦罗科||打败瓦罗科
+|-
+|Defeat Vonos||    ||'''击败沃诺斯'''||    ||'''打败维诺斯'''
+|-
+|Defeat and trap Odahviing||打败并且困住傲达威英||打败并且困住傲达威英||打败并且困住傲达威英||打败并且困住傲达威英
+|-
+|Defeat the Dremora Sovereign||    ||'''击败魔人权要'''||    ||'''打败魔人王者'''
+|-
+|Defeat the necromancer||    ||'''击败亡灵法师'''||    ||'''打败死灵术士'''
+|-
+|Defeat your Shadow||    ||'''击败你的影子'''||    ||'''击败你的暗影'''
+|-
+|Defend <Alias=Capital>||保护<Alias=Capital>||保护<Alias=Capital>||保护<Alias=Capital>||保护<Alias=Capital>
+|-
+|Defense of <Alias=City>||保护<Alias=City>||保护<Alias=City>||保护<Alias=City>||保护<Alias=City>
+|-
+|Delayed Burial||推迟的葬礼||推迟的葬礼||推迟的葬礼||推迟的葬礼
+|-
+|Deliver <Alias=QuestItem> to <Alias.ShortName=Target>||把<Alias=QuestItem>交给<Alias.ShortName=Target>||把<Alias=QuestItem>交给<Alias.ShortName=Target>||把<Alias=QuestItem>交给<Alias.ShortName=Target>||把<Alias=QuestItem>交给<Alias.ShortName=Target>
+|-
+|Deliver Gharol's sword to Lash||把加洛尔的剑交给拉什||把加洛尔的剑交给拉什||把加洛尔的剑交给拉什||把加洛尔的剑交给拉什
+|-
+|Deliver Gorm's letter to Captain Aldis||把葛姆的信交给艾迪斯队长||把葛姆的信交给艾迪斯队长||把葛姆的信交给艾迪斯队长||把葛姆的信交给艾迪斯队长
+|-
+|Deliver Rogatus's letter to Leonitus||把罗迦图斯的信送给莱奥尼图斯||把罗迦图斯的信送给莱奥尼图斯||把罗迦图斯的信送给莱奥尼图斯||把罗迦图斯的信送给莱奥尼图斯
+|-
+|Deliver message to the Jarl of Whiterun||把消息带给白漫城的领主||把消息带给白漫城的领主||把消息带给白漫城的领主||把消息带给白漫城的领主
+|-
+|Deliver ten cogs to Arniel Gane||把十个齿轮带给阿内尔·甘||把十个齿轮带给阿内尔·甘||把十个齿轮带给阿内尔·甘||'''把十个齿轮带给阿内尔．甘'''
+|-
+|Deliver the <Alias=Potion> to <Alias.ShortName=Steward>||把<Alias=Potion>带给<Alias.ShortName=Steward>||把<Alias=Potion>带给<Alias.ShortName=Steward>||把<Alias=Potion>带给<Alias.ShortName=Steward>||把<Alias=Potion>带给<Alias.ShortName=Steward>
+|-
+|Deliver the <Alias=QuestItem> to <Alias=Target>||把<Alias=QuestItem>交给<Alias=Target>||把<Alias=QuestItem>交给<Alias=Target>||把<Alias=QuestItem>交给<Alias=Target>||把<Alias=QuestItem>交给<Alias=Target>
+|-
+|Deliver the amulet to Onmund||把项链交给昂蒙德||把项链交给昂蒙德||'''把护符交给昂蒙德'''||把项链交给昂蒙德
+|-
+|Deliver the purchase agreement to Kleppr in Markarth||把购买协议交给马卡斯城的克莱珀||把购买协议交给马卡斯城的克莱珀||把购买协议交给马卡斯城的克莱珀||把购买协议交给马卡斯城的克莱珀
+|-
+|Deliver the ring to Calcelmo||把戒指带给卡塞莫||把戒指带给卡塞莫||'''把指环带给卡塞莫'''||'''把指环带给卡塞莫'''
+|-
+|Deliver the sword to Proventus Avenicci||把剑交给普罗万图斯·阿文奇||把剑交给普罗万图斯·阿文奇||'''把剑交给普罗万图斯·阿文尼奇'''||'''把剑交给普罗万图斯．阿文尼奇'''
+|-
+|Delivery||递送||递送||    ||递送
+|-
+|Delivery to Calcelmo||给卡塞莫的东西||给卡塞莫的东西||    ||给卡塞莫的东西
+|-
+|Delphine Sven||戴尔芬·斯万||'''戴尔菲娜·斯文'''||    ||'''戴尔菲娜．斯万'''
+|-
+|Destroy the Ash Guardian||摧毁灰烬守护者||摧毁灰烬守护者||'''摧毁凝灰岩卫'''||摧毁灰烬守护者
+|-
+|Destroy the Dark Brotherhood!||消灭黑暗兄弟会！||消灭黑暗兄弟会！||消灭黑暗兄弟会！||消灭黑暗兄弟会！
+|-
+|Destroy the vampire Vighar||摧毁吸血鬼维吉纳||摧毁吸血鬼维吉纳||'''摧毁吸血鬼维戈哈'''||摧毁吸血鬼维吉纳
+|-
+|Destroying the Dawnguard||摧毁黎明守卫||摧毁黎明守卫||'''消灭黎明守卫'''||'''摧毁暮光守卫'''
+|-
+|Destruction Ritual Spell||毁灭系仪式魔法||毁灭系仪式魔法||'''毁灭系仪式法术'''||毁灭系仪式魔法
+|-
+|Dexion Lore Topics||戴希翁知识主题||戴希翁知识主题||'''迪悉仁的学识要旨'''||戴希翁知识主题
+|-
+|Dialogue (needs to sit under CW and CWCampaign)||Dialogue （needs to sit under CW and CWCampaign）||Dialogue （needs to sit under CW and CWCampaign）||    ||    
+|-
+|Dialogue Block||    ||    ||    ||'''对话阻断'''
+|-
+|Dialogue Detect Quest||    ||    ||    ||'''对话侦测任务'''
+|-
+|Diplomatic Immunity||外交豁免||外交豁免||外交豁免||外交豁免
+|-
+|Discerning the Transmundane||见识超凡||见识超凡||'''解析超凡'''||见识超凡
+|-
+|Discover the location of the Elder Scroll (Dragon)||找到上古卷轴的下落（龙）||找到上古卷轴的下落（龙）||'''探索上古卷轴（龙类）的位置'''||找到上古卷轴的下落（龙）
+|-
+|Discover the origin of the frenzied mudcrabs||    ||'''探明发狂的泥沼蟹来源'''||    ||'''发现泥沼蟹发狂的原因'''
+|-
+|Discover the treasure of Angarvunde||发现安佳翁德宝藏||'''发现安佳坟宝藏'''||'''发现安枷坟宝藏'''||'''发现安加坟宝藏'''
+|-
+|Disrupt the skooma operation||阻断斯库玛的交易网||阻断斯库玛的交易网||阻断斯库玛的交易网||阻断斯库玛的交易网
+|-
+|Distant Memories||遥远的记忆||遥远的记忆||    ||遥远的记忆
+|-
+|Distribute Sadri's Sujamma  (<Global=DLC2RRF04DrinkCount>/<Global=DLC2RRF04DrinkTotal>)||分发萨德里的苏贾玛（<Global=DLC2RRF04DrinkCount>/<Global=DLC2RRF04DrinkTotal>）||分发萨德里的苏贾玛（<Global=DLC2RRF04DrinkCount>/<Global=DLC2RRF04DrinkTotal>）||分发萨德里的苏贾玛（<Global=DLC2RRF04DrinkCount>/<Global=DLC2RRF04DrinkTotal>）||分发萨德里的苏贾玛（<Global=DLC2RRF04DrinkCount>/<Global=DLC2RRF04DrinkTotal>）
+|-
+|Distribute the Warmth of Mara within Riften (<Global=FFRiften05Served>/<Global=FFRiften05Total>)||在裂谷城散布玛拉的温暖（<Global=FFRiften05Served>/<Global=FFRiften05Total>）||在裂谷城散布玛拉的温暖（<Global=FFRiften05Served>/<Global=FFRiften05Total>）||在裂谷城散布玛拉的温暖（<Global=FFRiften05Served>/<Global=FFRiften05Total>）||在裂谷城散布玛拉的温暖（<Global=FFRiften05Served>/<Global=FFRiften05Total>）
+|-
+|Dog Hire Quest||    ||    ||'''雇用狗－任务'''||    
+|-
+|Double-Edged||    ||'''双面刃'''||    ||'''双面刃'''
+|-
+|Dragon Attack||巨龙袭击||巨龙袭击||    ||巨龙袭击
+|-
+|Dragon Hunting||猎龙||猎龙||    ||猎龙
+|-
+|Dragon Research||巨龙研究||巨龙研究||    ||巨龙研究
+|-
+|Dragon Rising||龙之崛起||龙之崛起||'''龙族回归'''||龙之崛起
+|-
+|Dragon Seekers||巨龙搜索者||巨龙搜索者||'''巨龙追寻者'''||巨龙搜索者
+|-
+|Dragonborn||龙裔||龙裔||龙裔||龙裔
+|-
+|Dragonslayer||屠龙者||屠龙者||屠龙者||屠龙者
+|-
+|Dragonslayer's Blessing||屠龙者的赐福||屠龙者的赐福||    ||屠龙者的赐福
+|-
+|Dravynea's Frost Salts||德拉维尼亚的霜盐||德拉维尼亚的霜盐||    ||'''德拉维尼亚的寒霜盐'''
+|-
+|Dreams of the Dead||    ||'''亡者之梦'''||    ||'''亡者之梦'''
+|-
+|Drowned Sorrows||借酒浇愁||借酒浇愁||    ||借酒浇愁
+|-
+|Dungeon Delving (Bandits)||Dungeon Delving （Bandits）||Dungeon Delving （Bandits）||    ||    
+|-
+|Dungeon Delving (Caves)||Dungeon Delving （Caves）||Dungeon Delving （Caves）||    ||    
+|-
+|Dungeon Delving (Jarl - Caves)||Dungeon Delving （Jarl - Caves）||Dungeon Delving （Jarl - Caves）||    ||'''地下城探险（领主 - 洞穴）'''
+|-
+|Dungeon Delving (Jarl - Hagravens)||Dungeon Delving （Jarl - Hagravens）||Dungeon Delving （Jarl - Hagravens）||    ||    
+|-
+|Durnehviir||度尼维尔||度尼维尔||'''杜奈法'''||度尼维尔
+|-
+|Eclipse Attack: Death Hounds||日蚀攻击：死亡猎犬||日蚀攻击：死亡猎犬||    ||'''日蚀攻击：死亡地狱犬'''
+|-
+|Eclipse Attack: Gargoyles||Eclipse Attack： Gargoyles||Eclipse Attack： Gargoyles||    ||    
+|-
+|Eclipse Attack: Vampire and thralls||日蚀攻击：吸血鬼与奴仆||日蚀攻击：吸血鬼与奴仆||    ||日蚀攻击：吸血鬼与奴仆
+|-
+|Eclipse Attack: Vampires and Death Hounds||日蚀攻击：吸血鬼与死亡猎犬||日蚀攻击：吸血鬼与死亡猎犬||    ||'''日蚀攻击：吸血鬼与死亡地狱犬'''
+|-
+|Eclipse Attack: Vampires and Gargoyles||日蚀攻击：吸血鬼与石像鬼||日蚀攻击：吸血鬼与石像鬼||    ||日蚀攻击：吸血鬼与石像鬼
+|-
+|Eclipse Attack: Vampires, Gargoyles and Death Hounds (Oh, my)||日蚀攻击：吸血鬼、石像鬼与死亡猎犬（我的老天）||日蚀攻击：吸血鬼、石像鬼与死亡猎犬（我的老天）||    ||'''日蚀攻击：吸血鬼、石像鬼与死亡地狱犬（我的老天）'''
+|-
+|Elder Knowledge||上古知识||上古知识||上古知识||上古知识
+|-
+|Elder Scroll Handling||交出上古卷轴||交出上古卷轴||'''上古卷轴把手'''||交出上古卷轴
+|-
+|Elisif's Tribute||艾利西弗的奉献||艾利西弗的奉献||    ||艾利西弗的奉献
+|-
+|Embry Hod||安伯瑞·胡德||安伯瑞·胡德||    ||'''安伯瑞．胡德'''
+|-
+|Embry Orgnar||安伯瑞·奥格那||安伯瑞·奥格那||    ||'''安伯瑞．奥格那'''
+|-
+|Employ Delvin Mallory's services||使用戴尔文·马洛里的服务||使用戴尔文·马洛里的服务||'''雇请戴尔文·马尔洛里和他的人来施工'''||'''雇佣戴尔文．马洛里'''
+|-
+|Enchanting Pick-Up||    ||    ||'''附魔递送服务'''||    
+|-
+|Enchanting crafting||附魔进行中||附魔进行中||    ||附魔进行中
+|-
+|Encounter Combat Dialogue||    ||    ||    ||'''遭遇战斗对话'''
+|-
+|End of the Line||    ||'''弃渔收竿'''||    ||'''穷途末路'''
+|-
+|Enemy Scouts Patrolling Location||    ||    ||'''敌人侦察并巡逻的地点'''||    
+|-
+|Enter Ironback Hideout Cellar||    ||'''进入铁背藏身处地下室'''||    ||'''进入铁背藏身处地下室'''
+|-
+|Enter melee mode||进入近战模式||进入近战模式||进入近战模式||进入近战模式
+|-
+|Enter w/ Weapon Drawn||进入 w/ 拨出武器||进入 w/ 拨出武器||    ||进入 w/ 拨出武器
+|-
+|Entrances to Dungeons||地下城入口||地下城入口||    ||地下城入口
+|-
+|Equip the Nightingale Armor||装备夜莺护甲||装备夜莺护甲||装备夜莺护甲||装备夜莺护甲
+|-
+|Escape Red Scar Cavern||    ||'''逃离赤痕洞窟'''||    ||'''逃出红疤洞窟'''
+|-
+|Escaped Criminal||逃脱的罪犯||逃脱的罪犯||逃脱的罪犯||逃脱的罪犯
+|-
+|Evil in Waiting||邪恶在等待||邪恶在等待||'''伺机而动的邪恶'''||邪恶在等待
+|-
+|Examine Torkild||查看托基尔德的身体||查看托基尔德的身体||'''检查托基尔德的身体'''||'''检查托基尔德的身体'''
+|-
+|Execute General Tullius||处决图留斯将军||'''处决图利乌斯将军'''||处决图留斯将军||处决图留斯将军
+|-
+|Exhaustion||    ||'''疲惫'''||    ||'''疲竭'''
+|-
+|Experimental Subject||实验样本||实验样本||实验样本||实验样本
+|-
+|Explore <Alias=Dungeon> and recover the <Alias=Item>||探索<Alias=Dungeon>并且找到<Alias=Item>||探索<Alias=Dungeon>并且找到<Alias=Item>||探索<Alias=Dungeon>并且找到<Alias=Item>||探索<Alias=Dungeon>并且找到<Alias=Item>
+|-
+|Explore Yngol's Barrow||探索英格尔冢||探索英格尔冢||探索英格尔冢||探索英格尔冢
+|-
+|Faendal Sven||法恩达尔·斯万||'''法恩达尔·斯文'''||    ||'''法恩达尔．斯万'''
+|-
+|Falion's Secret||法利昂的秘密||法利昂的秘密||    ||法利昂的秘密
+|-
+|Fall back and defend the Barricade.||撤退并且防守路障||撤退并且防守路障||撤退并且防守路障||撤退并且防守路障
+|-
+|Family Heirloom||家传宝物||家传宝物||家传宝物||家传宝物
+|-
+|Fan Favorite||    ||'''拥趸的最爱'''||    ||'''粉丝的最爱'''
+|-
+|Feast on Verulus||食用维鲁鲁斯||食用维鲁鲁斯||'''享用维鲁鲁斯'''||食用维鲁鲁斯
+|-
+|Feeding the Addiction||缓和渴望||缓和渴望||    ||缓和渴望
+|-
+|Fetch me that Book!||把那本书给我！||把那本书给我！||把那本书给我！||把那本书给我！
+|-
+|Fetch the Netch||采集气母||采集气母||    ||'''采集耐区'''
+|-
+|Few and Far Between||珍稀之物||珍稀之物||    ||珍稀之物
+|-
+|Fight! Fight!||打啊！打！||打啊！打！||    ||打啊！打！
+|-
+|Filial Bonds||亲情羁绊||亲情羁绊||亲情羁绊||亲情羁绊
+|-
+|Find 5 Ice Wraith Teeth for Marise (<Global=FFR07TeethCount>/<Global=FFR07TeethTotal>)||为马利瑟找到5份冰怨灵牙齿（<Global=FFR07TeethCount>/<Global=FFR07TeethTotal>）||为马利瑟找到5份冰怨灵牙齿（<Global=FFR07TeethCount>/<Global=FFR07TeethTotal>）||'''替马利瑟寻找五份冰幻灵牙齿（<Global=FFR07TeethCount>/<Global=FFR07TeethTotal>）'''||为马利瑟找到5份冰怨灵牙齿（<Global=FFR07TeethCount>/<Global=FFR07TeethTotal>）
+|-
+|Find <Alias=QuestItem> for <Alias.ShortName=QuestGiver>||为<Alias.ShortName=QuestGiver>找到<Alias=QuestItem>||为<Alias.ShortName=QuestGiver>找到<Alias=QuestItem>||'''替<Alias.ShortName=QuestGiver>寻找<Alias=QuestItem>'''||为<Alias.ShortName=QuestGiver>找到<Alias=QuestItem>
+|-
+|Find <Alias=QuestItem> inside <Alias=Dungeon>||在<Alias=Dungeon>中找到<Alias=QuestItem>||在<Alias=Dungeon>中找到<Alias=QuestItem>||'''在<Alias=Dungeon>内寻找<Alias=QuestItem>'''||在<Alias=Dungeon>中找到<Alias=QuestItem>
+|-
+|Find Derkeethus.||找到德吉图斯||找到德吉图斯||'''寻找德吉图斯'''||找到德吉图斯
+|-
+|Find Florentius||找到佛罗伦提||找到佛罗伦提||'''寻找佛伦提尔斯'''||找到佛罗伦提
+|-
+|Find Kesh at the Peryite Shrine||在魄伊特祭坛找到凯石||在魄伊特祭坛找到凯石||'''在魄伊特圣坛寻找凯石'''||在魄伊特祭坛找到凯石
+|-
+|Find Meridia's beacon||找到梅瑞狄雅的信标||找到梅瑞狄雅的信标||'''寻找梅芮狄娅的明灯'''||找到梅瑞狄雅的信标
+|-
+|Find Pantea's Flute||找到潘提亚的长笛||找到潘提亚的长笛||'''寻找潘提亚的长笛'''||找到潘提亚的长笛
+|-
+|Find Resonance Gems across Solstheim to complete the Kagrumez trials||在索瑟海姆搜索共振宝石以完成卡谷梅兹的考验||在索瑟海姆搜索共振宝石以完成卡谷梅兹的考验||'''在索瑟海姆搜索共振宝石以完成库谷梅兹的考验'''||在索瑟海姆搜索共振宝石以完成卡谷梅兹的考验
+|-
+|Find Rjorn's Drum||找到荣恩的鼓||找到荣恩的鼓||'''寻找荣恩的鼓'''||找到荣恩的鼓
+|-
+|Find Ruin's Edge||    ||'''找到毁灭边缘'''||    ||'''找出毁灭之沿'''
+|-
+|Find Shalidor's writings||找到沙利多的手迹||找到沙利多的手迹||'''寻找沙利多的著作'''||找到沙利多的手迹
+|-
+|Find Varona||找到瓦罗纳||找到瓦罗纳||'''寻找瓦罗娜'''||找到瓦罗纳
+|-
+|Find a spare boat and travel to Blackbone Isle||    ||'''找一艘无人使用的船，前往黑脊岛'''||    ||'''找一艘无人使用的船，前往黑脊岛'''
+|-
+|Find alternative source of information||找到情报的不同来源||找到情报的不同来源||'''寻找另一个情报来源'''||找到情报的不同来源
+|-
+|Find and tame the Black Horse||    ||'''找到并驯服黑马'''||    ||'''找到并驯服黑色的马'''
+|-
+|Find and tame the Chestnut Horse||    ||'''找到并驯服栗马'''||    ||'''找到并驯服栗色的马'''
+|-
+|Find and tame the Dapple Brown Horse||    ||'''找到并驯服棕花马'''||    ||'''找到并驯服褐色斑纹的马'''
+|-
+|Find and tame the Grey Spotted Horse||    ||'''找到并驯服灰花马'''||    ||'''找到并驯服灰色斑点的马'''
+|-
+|Find and tame the Pale Mare||    ||'''找到并驯服苍白母马'''||    ||'''找到并驯服灰白色的母马'''
+|-
+|Find and tame the Red Horse||    ||'''找到并驯服赤马'''||    ||'''找到并驯服红色的马'''
+|-
+|Find and tame the Unicorn||    ||'''找到并驯服独角兽'''||    ||'''找到并驯服独角兽'''
+|-
+|Find and tame the White Spotted Horse||    ||'''找到并驯服白花马'''||    ||'''找到并驯服白色斑点的马'''
+|-
+|Find evidence||找到证据||找到证据||'''寻找证据'''||找到证据
+|-
+|Find evidence linked to the vampire||找到能够指认吸血鬼的证据||找到能够指认吸血鬼的证据||'''寻找跟吸血鬼有关的证据'''||找到能够指认吸血鬼的证据
+|-
+|Find more details on the bandits' new lead||    ||'''寻找更多关于强盗新线索的细节'''||    ||'''找出有关新强盗首领的更多资讯'''
+|-
+|Find out about the Dawnguard||打探黎明守卫的消息||打探黎明守卫的消息||'''找出与黎明守卫有关的消息'''||'''打探暮光守卫的消息'''
+|-
+|Find out what the vampires are seeking||找出吸血鬼的目标||找出吸血鬼的目标||'''找出吸血鬼在寻找什么'''||找出吸血鬼的目标
+|-
+|Find out who "N" is||找出“N”的身份||找出“N”的身份||'''寻找“Ｎ”的身份'''||找出“N”的身份
+|-
+|Find pages from Saint Jiub's Opus (<Global=DLC1VQSaintCount>/<Global=DLC1VQSaintTotal>)||找回圣鸠步的巨作的笔记（<Global=DLC1VQSaintCount>/<Global=DLC1VQSaintTotal>）||找回圣鸠步的巨作的笔记（<Global=DLC1VQSaintCount>/<Global=DLC1VQSaintTotal>）||'''帮圣徒杰布找到散落的页数（<Global=DLC1VQSaintCount>/<Global=DLC1VQSaintTotal>）'''||找回圣鸠步的巨作的笔记（<Global=DLC1VQSaintCount>/<Global=DLC1VQSaintTotal>）
+|-
+|Find someone who can identify the Unusual Gem||找别人来鉴别不寻常的宝石||找别人来鉴别不寻常的宝石||'''寻找能够鉴别不寻常的宝石的人'''||找别人来鉴别不寻常的宝石
+|-
+|Find the <Alias=QuestItem> for <Alias.ShortName=QuestGiver>||为<Alias.ShortName=QuestGiver>找到<Alias=QuestItem>||为<Alias.ShortName=QuestGiver>找到<Alias=QuestItem>||'''替<Alias.ShortName=QuestGiver>寻找<Alias=QuestItem>'''||为<Alias.ShortName=QuestGiver>找到<Alias=QuestItem>
+|-
+|Find the <Alias=QuestItem> inside <Alias=Dungeon>||在<Alias=Dungeon>内找到<Alias=QuestItem>||在<Alias=Dungeon>内找到<Alias=QuestItem>||'''在<Alias=Dungeon>内寻找<Alias=QuestItem>'''||在<Alias=Dungeon>内找到<Alias=QuestItem>
+|-
+|Find the Black Book in <Alias=Dungeon>||在<Alias=Dungeon>内找到黑暗经书||在<Alias=Dungeon>内找到黑暗经书||'''在<Alias=Dungeon>寻找黑暗经典'''||在<Alias=Dungeon>内找到黑暗经书
+|-
+|Find the Forgemaster's Fingers||找到熔炉大师的手指||找到熔炉大师的手指||'''寻找锻炉大师的手指'''||找到熔炉大师的手指
+|-
+|Find the Khajiit caravan's overturned cart west of Old Hroldan Inn||    ||'''在古赫洛登旅店西边找到侧翻的凯季特商队篷车'''||    ||'''前往古赫洛登客栈西方，找出虎人商队翻覆的货车。'''
+|-
+|Find the Lost Library of Spell Tomes||    ||'''寻找失落的法术书书库'''||    ||'''找出遗失的法术书'''
+|-
+|Find the Lost Paladin||    ||'''找到失落的圣骑士'''||    ||'''找出失落圣骑士'''
+|-
+|Find the Orc at the Ruins of Bthalft||    ||'''前往巴尔夫特遗址找到兽人'''||    ||'''前往巴尔夫特遗址找到兽人'''
+|-
+|Find the Saturalia merchant||    ||'''找到冬至节货品商人'''||    ||'''找到萨图利亚商人'''
+|-
+|Find the Telekinesis Arrow Tome||    ||'''找到念动箭法术书'''||    ||'''找出念动箭法术书'''
+|-
+|Find the Thalmor assassin||找到梭默刺客||找到梭默刺客||'''寻找梭默刺客'''||'''找到梭默刺客。'''
+|-
+|Find the Word of Power in <Alias=Dungeon>||在<Alias=Dungeon>里找到力量之语||在<Alias=Dungeon>里找到力量之语||'''在<Alias=Dungeon>寻找力量字符'''||在<Alias=Dungeon>里找到力量之语
+|-
+|Find the copy of <Alias=Book>||找到<Alias=Book>的副本||找到<Alias=Book>的副本||'''寻找<Alias=Book>的副本'''||找到<Alias=Book>的副本
+|-
+|Find the last Dreamer's Soul Gem||    ||'''找到最后一名入梦者的灵魂石'''||    ||'''找到最后一名入梦者的灵魂石'''
+|-
+|Find the secret of Bleak Falls Barrow||找出荒瀑古坟的秘密||找出荒瀑古坟的秘密||'''寻找荒瀑古坟的秘密'''||找出荒瀑古坟的秘密
+|-
+|Find the source of Miraak's power||找到秘拉克的力量来源||'''找到密拉克的力量来源'''||'''寻找密拉克的力量来源'''||找到秘拉克的力量来源
+|-
+|Find the source of power in <Alias=Dungeon>||在<Alias=Dungeon>找到力量之源||在<Alias=Dungeon>找到力量之源||'''在<Alias=Dungeon>寻找力量之源'''||在<Alias=Dungeon>找到力量之源
+|-
+|Find the source of the attacks||找出攻击的源头||找出攻击的源头||'''寻找攻击的源头'''||找出攻击的源头
+|-
+|Find the source of the murders in Frostflow Lighthouse||找到霜流灯塔谋杀案的线索||找到霜流灯塔谋杀案的线索||'''寻找霜流灯塔惨案的线索'''||找到霜流灯塔谋杀案的线索
+|-
+|Finn's Lute||芬恩的鲁特琴||芬恩的鲁特琴||芬恩的鲁特琴||芬恩的鲁特琴
+|-
+|Fire the catapults at the Emperor Crab Guardian Spirit (<Global=ccBGSSSE001_CrabMQ4CatapultCount>/<Global=ccBGSSSE001_CrabMQ4CatapultTotal>)||    ||'''用弩炮向皇帝泥沼蟹守护灵魂开火（<Global=ccBGSSSE001_CrabMQ4CatapultCount>/<Global=ccBGSSSE001_CrabMQ4CatapultTotal>）'''||    ||'''朝帝王蟹守护灵发射投石器（<Global=ccBGSSSE001_CrabMQ4CatapultCount>/<Global=ccBGSSSE001_CrabMQ4CatapultTotal>）'''
+|-
+|First Catch||    ||'''首次钓获'''||    ||'''第一次钓鱼'''
+|-
+|First Edition||初版珍本||初版珍本||    ||初版珍本
+|-
+|First Lessons||第一课||第一课||第一课||第一课
+|-
+|Fishing Legend||    ||'''钓界传奇'''||    ||'''钓鱼传奇'''
+|-
+|Fishing System Follower Idle Quest||    ||    ||    ||'''钓鱼系统追随者闲置任务'''
+|-
+|Fishing System Quest||    ||    ||    ||'''钓鱼系统任务'''
+|-
+|Fit for a Jarl||为领主试穿||为领主试穿||    ||为领主试穿
+|-
+|Flight or Fight||或战或逃||或战或逃||    ||或战或逃
+|-
+|Follow <Alias=Questgiver>||跟着<Alias=Questgiver>||跟着<Alias=Questgiver>||跟着<Alias=Questgiver>||跟着<Alias=Questgiver>
+|-
+|Follow Farkas to your quarters||跟随法卡斯到你的房间||跟随法卡斯到你的房间||跟随法卡斯到你的房间||跟随法卡斯到你的房间
+|-
+|Follow Legate Rikke||跟随瑞姬副官||跟随瑞姬副官||跟随瑞姬副官||跟随瑞姬副官
+|-
+|Follow Maurice||跟随毛利斯||跟随毛利斯||跟随毛利斯||跟随毛利斯
+|-
+|Follow Tolfdir||跟随托夫迪尔||跟随托夫迪尔||跟随托夫迪尔||跟随托夫迪尔
+|-
+|Follow Vilkas||跟随威尔卡斯||跟随威尔卡斯||跟随威尔卡斯||跟随威尔卡斯
+|-
+|Follow the <Alias=General>||跟随<Alias=General>||跟随<Alias=General>||跟随<Alias=General>||跟随<Alias=General>
+|-
+|For the Good of Morthal||为了墨索尔||为了墨索尔||    ||为了墨索尔
+|-
+|Forbidden Legend||禁忌的传说||禁忌的传说||禁忌的传说||禁忌的传说
+|-
+|Forgotten Names||被遗忘之名||被遗忘之名||被遗忘之名||被遗忘之名
+|-
+|Forgotten Seasons||    ||'''遗忘之季'''||    ||'''遗落的四季'''
+|-
+|Forgotten Vale Books Quest||    ||    ||'''遗世山谷书籍任务'''||    
+|-
+|Fortunate Son||    ||'''幸运的儿子'''||    ||'''幸运的儿子'''
+|-
+|Free the Elytra Nymph||    ||'''释放翅鞘虫若虫'''||    ||'''释放鞘翅幼虫'''
+|-
+|Free the Goblin from the pit||    ||'''施放地精'''||    ||'''将哥布林从竞技场中救出'''
+|-
+|From the Ashes||自灰烬而生||自灰烬而生||自灰烬而生||自灰烬而生
+|-
+|Frossel Bandit||佛塞尔强盗||佛塞尔强盗||    ||佛塞尔强盗
+|-
+|Frostmoon Invitation||来自霜月的邀请||来自霜月的邀请||    ||来自霜月的邀请
+|-
+|Frozen Fish||    ||'''冷水鱼类'''||    ||'''冰冻的鱼'''
+|-
+|Further Study||    ||'''深入研究'''||    ||'''深入研究'''
+|-
+|Gain admittance to the Hall of Valor||获得进入勇士大厅的许可||获得进入勇士大厅的许可||'''获得进入勇气大殿的许可'''||获得进入勇士大厅的许可
+|-
+|Gain entrance to Sky Haven Temple||进入天佑神殿||进入天佑神殿||'''进入天佑寺'''||'''进入天堂庙宇'''
+|-
+|Gain the Augur's approval||获得占卜师的认可||获得占卜师的认可||'''获得预知者的认可'''||获得占卜师的认可
+|-
+|Gambler's Edge||    ||'''赌徒优势'''||    ||'''赌徒优势'''
+|-
+|Gargoyles||石像鬼||石像鬼||    ||石像鬼
+|-
+|Gather 10 bear pelts for Temba Wide-Arms  (<Global=FFI03BearCount>/<Global=FFI03BearTotal>)||为谭巴·宽臂收集十张熊皮（<Global=FFI03BearCount>/<Global=FFI03BearTotal>）||'''为“宽臂”谭巴收集十张熊皮（<Global=FFI03BearCount>/<Global=FFI03BearTotal>）'''||为谭巴·宽臂收集十张熊皮（<Global=FFI03BearCount>/<Global=FFI03BearTotal>）||'''为谭巴．宽臂收集十张熊皮（<Global=FFI03BearCount>/<Global=FFI03BearTotal>）'''
+|-
+|Gather Wheat||收割麦子||收割麦子||    ||收割麦子
+|-
+|Generic dialogue||    ||    ||    ||'''一般对话'''
+|-
+|Get 3 flawless amethysts for Talen-Jei (<Global=FFRiften06Found>/<Global=FFRiften06Total>)||为塔伦-杰找到3颗无瑕紫水晶（<Global=FFRiften06Found>/<Global=FFRiften06Total>）||为塔伦-杰找到3颗无瑕紫水晶（<Global=FFRiften06Found>/<Global=FFRiften06Total>）||'''为塔伦·杰找到三颗无瑕紫水晶（<Global=FFRiften06Found>/<Global=FFRiften06Total>）'''||为塔伦-杰找到3颗无瑕紫水晶（<Global=FFRiften06Found>/<Global=FFRiften06Total>）
+|-
+|Get Imperial gear from Beirand||从贝尔兰德那里拿到帝国装备||从贝尔兰德那里拿到帝国装备||从贝尔兰德那里拿到帝国装备||从贝尔兰德那里拿到帝国装备
+|-
+|Get Outfitted||全副武装||全副武装||全副武装||全副武装
+|-
+|Get assistance from Jorleif||得到<Alias=AuthorityFigure>的帮助||得到<Alias=AuthorityFigure>的帮助||得到<Alias=AuthorityFigure>的帮助||'''得到乔雷福的帮助'''
+|-
+|Get new orders||取得新命令||取得新命令||取得新命令||取得新命令
+|-
+|Get the Wind and Sand book||取得《风与沙》||取得《风与沙》||取得《风与沙》||取得《风与沙》
+|-
+|Get the staff||取得法杖||取得法杖||取得法杖||取得法杖
+|-
+|Get three taproots (<global=DLC2TTF2TaprootsAcquired>/3)||收集三个直立根（<global=DLC2TTF2TaprootsAcquired>/3）||收集三个直立根（<global=DLC2TTF2TaprootsAcquired>/3）||'''收集三个主根核（ <global=DLC2TTF2TaprootsAcquired> /3）'''||收集三个直立根（<global=DLC2TTF2TaprootsAcquired>/3）
+|-
+|Gharol's Message||加洛尔的消息||加洛尔的消息||    ||'''加洛尔的讯息'''
+|-
+|Ghosts of the Tribunal||    ||'''审判席幽灵'''||    ||'''裁决者幽灵'''
+|-
+|Gift from a friend||朋友的礼物||朋友的礼物||    ||朋友的礼物
+|-
+|Gift of Kynareth||    ||'''凯娜瑞丝之赠'''||    ||'''凯娜瑞丝的馈赠'''
+|-
+|Gift of flight||飞行的天分||飞行的天分||    ||飞行的天分
+|-
+|Give Bilgemuck some meat||给污底一些肉||给污底一些肉||'''给烂泥肥一些肉'''||给污底一些肉
+|-
+|Give Finn's Lute to Inge||把芬恩的鲁特琴交给因格||把芬恩的鲁特琴交给因格||把芬恩的鲁特琴交给因格||把芬恩的鲁特琴交给因格
+|-
+|Give Rjorn's Drum to Giraud||把荣恩的鼓交给吉劳德||'''把荣恩的鼓交给吉洛'''||把荣恩的鼓交给吉劳德||把荣恩的鼓交给吉劳德
+|-
+|Give Wujeeta a healing potion||给巫杰塔一瓶治疗药水||给巫杰塔一瓶治疗药水||'''给乌吉妲一瓶生命药剂'''||给巫杰塔一瓶治疗药水
+|-
+|Give the Argonian Ale to Brenuin||把亚龙人麦芽酒交给布瑞纽恩||'''把阿尔贡人麦芽酒交给布瑞纽恩'''||'''把阿尔贡麦芽酒交给布瑞纽恩'''||把亚龙人麦芽酒交给布瑞纽恩
+|-
+|Give the Frost Salts to Arcadia||把霜盐交给阿尔凯迪雅||把霜盐交给阿尔凯迪雅||'''把寒冻素交给阿尔凯迪娅'''||'''把寒霜盐交给阿尔凯迪雅'''
+|-
+|Give the note to Captain Veleth||把笔记交给维黎施队长||把笔记交给维黎施队长||把笔记交给维黎施队长||把笔记交给维黎施队长
+|-
+|Glory of the Dead||逝者的荣耀||逝者的荣耀||'''死者的荣耀'''||逝者的荣耀
+|-
+|Go to <Alias.ShortName=Client> in <Alias=ClientLocation> and pick up the item||前往<Alias=ClientLocation>的<Alias.ShortName=Client>处拿取物品||前往<Alias=ClientLocation>的<Alias.ShortName=Client>处拿取物品||前往<Alias=ClientLocation>的<Alias.ShortName=Client>处拿取物品||前往<Alias=ClientLocation>的<Alias.ShortName=Client>处拿取物品
+|-
+|Golden and Dark Smithing||    ||'''黄金和黑暗锻造'''||    ||'''黄金与黑暗材质锻造'''
+|-
+|Good Intentions||善良本意||善良本意||善良本意||善良本意
+|-
+|Grimsever's Return||无情切割者回归||无情切割者回归||    ||无情切割者回归
+|-
+|Grin and Bear It||无条件接受||无条件接受||    ||无条件接受
+|-
+|Guests for Dinner||    ||'''我为鱼肉'''||    ||'''餐桌上的宾客'''
+|-
+|Hail Sithis!||西帝斯万岁！||西帝斯万岁！||'''荣耀西帝斯！'''||西帝斯万岁！
+|-
+|Hard Answers||艰难的回答||艰难的回答||'''艰涩的答案'''||艰难的回答
+|-
+|Harsh Master||严厉的大师||严厉的大师||    ||严厉的大师
+|-
+|Head to the Solitude Court||前往独孤城宫廷||前往独孤城宫廷||前往独孤城宫廷||前往独孤城宫廷
+|-
+|Headless Horseman||无头骑士||无头骑士||    ||无头骑士
+|-
+|Heal Valdr's injuries.||治疗瓦尔德的伤||治疗瓦尔德的伤||治疗瓦尔德的伤||治疗瓦尔德的伤
+|-
+|Healing a House||治愈房屋||治愈房屋||'''医治房屋'''||治愈房屋
+|-
+|Hear Braig's story||倾听布莱吉的故事||倾听布莱吉的故事||倾听布莱吉的故事||倾听布莱吉的故事
+|-
+|Heart Stones||心石||心石||'''炙心核'''||心石
+|-
+|Heart of Crimson||    ||'''绯红之心'''||    ||'''绯红之心'''
+|-
+|Heart of Gold||    ||'''赤子金心'''||    ||'''黄金之心'''
+|-
+|Heat Source Check||    ||    ||    ||'''热源检查'''
+|-
+|Heat Source Locator||    ||'''热源位置'''||    ||'''热源搜寻器'''
+|-
+|Help Illia reach the top of Darklight Tower||帮助伊雅到达黑光塔顶||帮助伊雅到达黑光塔顶||'''帮助伊雅到达黑光塔楼顶'''||帮助伊雅到达黑光塔顶
+|-
+|Help Neloth with his research||帮助尼洛施进行研究||帮助尼洛施进行研究||帮助尼洛施进行研究||帮助尼洛施进行研究
+|-
+|Help Selveni Nethri escape the cave.||帮助塞尔维尼·奈瑟里逃出洞穴||帮助塞尔维尼·奈瑟里逃出洞穴||帮助塞尔维尼·奈瑟里逃出洞穴||'''帮助塞尔维尼．奈瑟里逃出洞穴'''
+|-
+|Help Sorine with her project to improve the crossbow||协助索琳完成她改良弩的计划||协助索琳完成她改良弩的计划||'''协助索琳进行弩的性能改进计划'''||'''协助索琳完成她改良石弩的计划'''
+|-
+|Helping Hand||好帮手||好帮手||    ||好帮手
+|-
+|Hendraheim||    ||'''亨德之家'''||    ||'''亨德拉海姆'''
+|-
+|Her Word Against Theirs||    ||'''女神的异语'''||    ||'''女神的异语'''
+|-
+|Hide and Seek||捉迷藏||捉迷藏||捉迷藏||捉迷藏
+|-
+|Hide and Seek||捉迷藏||捉迷藏||    ||'''躲猫猫'''
+|-
+|Hide in the Night Mother's coffin||躲到夜母的棺材中||躲到夜母的棺材中||'''藏到夜母的棺材中'''||躲到夜母的棺材中
+|-
+|Hired Muscle||佣兵||佣兵||佣兵||佣兵
+|-
+|Hitting the Books||用功读书||用功读书||'''用功'''||'''用功'''
+|-
+|Hod Frodnar||胡德·弗洛德纳||胡德·弗洛德纳||    ||'''胡德．弗洛德纳'''
+|-
+|Honor Thy Family||为你的家族带来荣誉||为你的家族带来荣誉||为你的家族带来荣誉||为你的家族带来荣誉
+|-
+|Horse Whisperer||    ||'''马语者'''||    ||'''驯马师'''
+|-
+|House Decoration Dialogue||    ||    ||    ||'''房屋装饰品对话'''
+|-
+|House Enable Quest||    ||    ||    ||'''房屋启用任务'''
+|-
+|House Quest||    ||    ||    ||'''房屋任务'''
+|-
+|Hrodulf's Madness||贺多夫的疯狂||贺多夫的疯狂||    ||贺多夫的疯狂
+|-
+|Hunger||    ||'''饥饿'''||    ||'''饥饿'''
+|-
+|Hunt and Gather||狩猎和采集||狩猎和采集||    ||狩猎和采集
+|-
+|Hunting and Gathering||狩猎与采集||狩猎与采集||狩猎与采集||狩猎与采集
+|-
+|Hunting the Monster||猎杀怪物||猎杀怪物||'''追捕怪物'''||猎杀怪物
+|-
+|I Done Got Thaned!||我当上武卫了！||我当上武卫了！||    ||我当上武卫了！
+|-
+|Ice Cold||冷若寒霜||冷若寒霜||    ||冷若寒霜
+|-
+|Icerunner||寒冰疾驰者||寒冰疾驰者||'''冰驰号'''||寒冰疾驰者
+|-
+|Identify Riften's skooma dealer||找出裂谷城的斯库玛贩子||找出裂谷城的斯库玛贩子||找出裂谷城的斯库玛贩子||找出裂谷城的斯库玛贩子
+|-
+|Identify the Crystal Shard||辨识水晶裂片||辨识水晶裂片||'''鉴定水晶碎片'''||辨识水晶裂片
+|-
+|If I had a Hammer||    ||'''大锤在手'''||    ||'''要是有锤子就好了'''
+|-
+|Ill Met By Moonlight||月下夜会||月下夜会||'''月光下再见'''||月下夜会
+|-
+|Illusion Ritual Spell||幻术系仪式魔法||幻术系仪式魔法||'''幻象系仪式法术'''||幻术系仪式魔法
+|-
+|Imitation Amnesty||伪造赦免||伪造赦免||'''窜罪释放'''||伪造赦免
+|-
+|Impatience of a Saint||不耐烦的圣人||不耐烦的圣人||'''焦急的圣徒'''||不耐烦的圣人
+|-
+|Imperial Scout Patrol||帝国斥候斥候巡逻||帝国斥候斥候巡逻||    ||'''帝国斥候巡逻队'''
+|-
+|Imperials on the Road||在路上的帝国人||在路上的帝国人||    ||在路上的帝国人
+|-
+|Imperials vs Stormcloaks||帝国与风暴斗篷||帝国与风暴斗篷||    ||帝国与风暴斗篷
+|-
+|In A Pinch||    ||'''掐你一把'''||    ||'''紧要关头'''
+|-
+|In My Time Of Need||患难与共||患难与共||患难与共||患难与共
+|-
+|In the Shadows||    ||'''暗影之中'''||    ||'''暗影之中'''
+|-
+|Infiltrate Mercer's House||渗透进墨瑟的家||渗透进墨瑟的家||'''潜入墨瑟的房间'''||'''渗透进墨瑟的房子里'''
+|-
+|Infiltration||潜入||潜入||潜入||潜入
+|-
+|Inform the Alik'r of Saadia's location||（可选）告诉阿利克尔有关萨蒂亚的下落||（可选）告诉阿利克尔有关萨蒂亚的下落||'''告诉阿利克尔有关萨蒂亚的下落'''||'''告诉阿利克尔有关萨蒂亚的下落'''
+|-
+|Inheritance||继承||继承||    ||继承
+|-
+|Init quest||起始任务||起始任务||起始任务||起始任务
+|-
+|Innocence Lost||不再天真||不再天真||'''纯真已逝'''||不再天真
+|-
+|Insert the aetherium dynamo core into the dynamo actuator (<Global=ccBGSSSE001_CoresLeft>/<Global=ccBGSSSE001_CoresTotal>)||    ||'''将神光水晶动力核插入动力推进器（<Global=ccBGSSSE001_CoresLeft>/<Global=ccBGSSSE001_CoresTotal>）'''||    ||'''将神光水晶动力核放进动力推进器（<Global=ccBGSSSE001_CoresLeft>/<Global=ccBGSSSE001_CoresTotal>）'''
+|-
+|Inspect Dragonsreach Dungeon for clues on M'Sharra||    ||'''检查龙临堡地牢，寻找有关穆'沙拉的缐索'''||    ||'''检查龙临堡地牢，寻找有关姆夏拉的线索'''
+|-
+|Inspect Holrik's corpse||    ||'''检查霍里克的尸体'''||    ||'''检查霍理克的尸体'''
+|-
+|Interception||    ||'''刀下留人'''||    ||'''拦截'''
+|-
+|Investigate Kolbjorn Barrow||调查寇泊琼石冢||'''调查寇泊荣石冢'''||调查寇泊琼石冢||调查寇泊琼石冢
+|-
+|Investigate Thirsk Mead Hall and the exiled Nords||调查瑟斯科蜜酒大厅和被流放的诺德人||调查瑟斯科蜜酒大厅和被流放的诺德人||调查瑟斯科蜜酒大厅和被流放的诺德人||调查瑟斯科蜜酒大厅和被流放的诺德人
+|-
+|Investigate Yorgrim's Overlook||    ||'''调查约格利姆眺岩'''||    ||'''调查约格利姆眺岩'''
+|-
+|Investigate the Bards College||调查吟游诗人学院||调查吟游诗人学院||'''拜访诗人学院'''||调查吟游诗人学院
+|-
+|Investigate the Boethiah cultist||调查波耶西亚邪教徒||调查波耶西亚邪教徒||调查波耶西亚邪教徒||调查波耶西亚邪教徒
+|-
+|Investigate the Hall of the Dead||调查亡者之厅||调查亡者之厅||调查亡者之厅||调查亡者之厅
+|-
+|Investigate the Ritual Site||    ||'''调查仪式会场'''||    ||'''调查作法地点'''
+|-
+|Investigate the Silver-Blood Inn for rumors||    ||'''调查银血旅店，听取传闻'''||    ||'''调查银血客栈，听取传闻'''
+|-
+|Investigate the Solitude sewers||    ||'''调查独孤城的下水道'''||    ||'''调查独孤城下水道'''
+|-
+|Investigate the camp site near the northern coast||    ||'''调查北边海岸附近的营地'''||    ||'''调查北边海岸附近的营地'''
+|-
+|Investigate the camp south of Ivarstead||    ||'''调查古杉镇南边的营地'''||    ||'''调查紫杉镇南边的营地'''
+|-
+|Investigate the cryptic message||调查神秘的消息||调查神秘的消息||'''调查神秘的讯息'''||'''调查神秘的讯息'''
+|-
+|Investigate the east chamber||    ||'''调查东室'''||    ||'''调查东室'''
+|-
+|Investigate the man wandering the streets near the Bards College||调查在吟游诗人学院附近散步的男子||调查在吟游诗人学院附近散步的男子||'''调查在诗人学院附近散步的男子'''||调查在吟游诗人学院附近散步的男子
+|-
+|Investigate the tomb entrance||    ||'''调查墓穴入口'''||    ||'''调查坟墓入口'''
+|-
+|Invisible Child||隐形的孩子||隐形的孩子||    ||'''隐身的孩子'''
+|-
+|It's All In The Taste||任君品尝||任君品尝||    ||任君品尝
+|-
+|J'zargo's Experiment||扎格的实验||'''吉'扎格的实验'''||'''吉扎格的实验'''||扎格的实验
+|-
+|Join the Imperial Legion||加入帝国军团||加入帝国军团||加入帝国军团||加入帝国军团
+|-
+|Join the Stormcloak rebellion||加入风暴斗篷反抗军||加入风暴斗篷反抗军||加入风暴斗篷反抗军||加入风暴斗篷反抗军
+|-
+|Join the men defending <Alias=Fort>||加入防御<Alias=Fort>的人||加入防御<Alias=Fort>的人||加入防御<Alias=Fort>的人||加入防御<Alias=Fort>的人
+|-
+|Joining the Legion||加入军团||加入军团||加入军团||加入军团
+|-
+|Joining the Stormcloaks||加入风暴斗篷||加入风暴斗篷||加入风暴斗篷||加入风暴斗篷
+|-
+|Kid Games||小孩游戏||小孩游戏||    ||小孩游戏
+|-
+|Kids Playing in Well||孩子们在泉水中玩||孩子们在泉水中玩||    ||孩子们在泉水中玩
+|-
+|Kids Playing in Well||孩子们在泉水中玩||孩子们在泉水中玩||    ||    
+|-
+|Kill <Alias=Challenger>||杀死<Alias=Challenger>||杀死<Alias=Challenger>||杀死<Alias=Challenger>||杀死<Alias=Challenger>
+|-
+|Kill <Alias=Questgiver>'s wolf spirit||杀死<Alias=Questgiver>的狼魂||杀死<Alias=Questgiver>的狼魂||杀死<Alias=Questgiver>的狼魂||杀死<Alias=Questgiver>的狼魂
+|-
+|Kill Aesrael||    ||'''杀死艾斯雷尔'''||    ||'''杀死艾瑟列'''
+|-
+|Kill Agnis||杀死阿尼斯||杀死阿尼斯||'''杀死阿格妮丝'''||杀死阿尼斯
+|-
+|Kill Beitild||杀死贝提尤德||杀死贝提尤德||'''杀死贝媞尤德'''||杀死贝提尤德
+|-
+|Kill Deekus||杀死蒂库斯||杀死蒂库斯||杀死蒂库斯||杀死蒂库斯
+|-
+|Kill Ennodius Papius||杀死恩诺迪尤斯·帕尤斯||杀死恩诺迪尤斯·帕尤斯||杀死恩诺迪尤斯·帕尤斯||'''杀死恩诺迪尤斯．帕尤斯'''
+|-
+|Kill Evethra||    ||'''杀死伊芙瑟拉'''||    ||'''杀死伊维丝拉'''
+|-
+|Kill Helvard||杀死黑尔沃德||杀死黑尔沃德||杀死黑尔沃德||杀死黑尔沃德
+|-
+|Kill Hern||杀死赫恩||杀死赫恩||杀死赫恩||杀死赫恩
+|-
+|Kill Logrolf||杀死罗格洛夫||杀死罗格洛夫||杀死罗格洛夫||杀死罗格洛夫
+|-
+|Kill Lu'ah Al-Skaven in Ansilvund||在安息坟杀死卢阿·艾尔-斯卡文||在安息坟杀死卢阿·艾尔-斯卡文||'''在安息坟杀死卢阿·斯卡文'''||'''在安息坟杀死卢阿．艾尔-斯卡文'''
+|-
+|Kill Lurbuk||杀死卢布克||杀死卢布克||杀死卢布克||杀死卢布克
+|-
+|Kill Ma'randru-jo||杀死玛'兰德鲁-约||杀死玛'兰德鲁-约||'''杀死玛兰度·乔'''||杀死玛'兰德鲁-约
+|-
+|Kill Maluril||杀死毛尤利尔||杀死毛尤利尔||杀死毛尤利尔||杀死毛尤利尔
+|-
+|Kill Narfi||杀死纳菲||杀死纳菲||杀死纳菲||杀死纳菲
+|-
+|Kill Safia||杀死萨非亚||杀死萨非亚||'''杀死萨菲亚'''||杀死萨非亚
+|-
+|Kill one of the captives||杀死其中一个俘虏||杀死其中一个俘虏||杀死其中一个俘虏||杀死其中一个俘虏
+|-
+|Kill the <Alias=Beast>||杀死<Alias=Beast>||杀死<Alias=Beast>||杀死<Alias=Beast>||杀死<Alias=Beast>
+|-
+|Kill the Bandit Leader||杀死强盗头目||杀死强盗头目||    ||杀死强盗头目
+|-
+|Kill the Bandit Leader (Jarl)||杀死强盗头目（领主）||杀死强盗头目（领主）||    ||杀死强盗头目（领主）
+|-
+|Kill the Dawnguard Leaders||杀光黎明守卫的领袖||杀光黎明守卫的领袖||'''杀死黎明守卫的指挥官'''||'''杀光暮光守卫的领袖'''
+|-
+|Kill the Dragon||杀死巨龙||杀死巨龙||杀死巨龙||杀死巨龙
+|-
+|Kill the Dragon in <Alias=DragonLair>||杀死<Alias=DragonLair>的巨龙||杀死<Alias=DragonLair>的巨龙||杀死<Alias=DragonLair>的巨龙||杀死<Alias=DragonLair>的巨龙
+|-
+|Kill the Forsworn Leader (Jarl)||杀死弃誓者头目（领主）||杀死弃誓者头目（领主）||    ||杀死弃誓者头目（领主）
+|-
+|Kill the Giant (Jarl)||杀死巨人（领主）||杀死巨人（领主）||    ||杀死巨人（领主）
+|-
+|Kill the Hagraven Petra||杀死乌鸦鬼婆佩特拉||杀死乌鸦鬼婆佩特拉||杀死乌鸦鬼婆佩特拉||杀死乌鸦鬼婆佩特拉
+|-
+|Kill the Ice Wraith||杀死冰怨灵||杀死冰怨灵||'''杀死冰幻灵'''||杀死冰怨灵
+|-
+|Kill the Vampire||杀死吸血鬼||杀死吸血鬼||    ||杀死吸血鬼
+|-
+|Kill the dragon at <Alias=Den>||在<Alias=Den>杀死巨龙||在<Alias=Den>杀死巨龙||在<Alias=Den>杀死巨龙||在<Alias=Den>杀死巨龙
+|-
+|Kill the imposter Valmir||杀死骗子瓦尔米尔||杀死骗子瓦尔米尔||杀死骗子瓦尔米尔||杀死骗子瓦尔米尔
+|-
+|Kill the leader of <Alias=BanditCamp>||杀死<Alias=BanditCamp>的首领||杀死<Alias=BanditCamp>的首领||杀死<Alias=BanditCamp>的首领||杀死<Alias=BanditCamp>的首领
+|-
+|Kill the leader of <Alias=Dungeon>||杀死<Alias=Dungeon>的首领||杀死<Alias=Dungeon>的首领||杀死<Alias=Dungeon>的首领||杀死<Alias=Dungeon>的首领
+|-
+|Kill the leader of <Alias=Location>||杀死<Alias=Location>的领导人||'''杀死<Alias=Location>的首领'''||'''杀死<Alias=Location>的首领'''||杀死<Alias=Location>的领导人
+|-
+|Kill the target||杀死目标||杀死目标||杀死目标||杀死目标
+|-
+|Kindred Judgment||大义灭亲||大义灭亲||'''血缘审判'''||'''同族审判'''
+|-
+|Kindred Judgment||大义灭亲||大义灭亲||'''血缘审判'''||'''骨肉批判'''
+|-
+|Kolbjorn Barrow Misc Objectives||    ||    ||'''克伯乔恩古坟混杂的目标'''||    
+|-
+|Kolskeggr Mine||科斯凯格矿坑||科斯凯格矿坑||    ||科斯凯格矿坑
+|-
+|Kyne's Sacred Trials||凯娜的神圣试炼||凯娜的神圣试炼||凯娜的神圣试炼||凯娜的神圣试炼
+|-
+|Labyrinthian||迷城||迷城||'''迷之城'''||'''“迷城”'''
+|-
+|Laid to Rest||安息||安息||安息||安息
+|-
+|Lead someone to become trapped by the shrine and slay them||把某个人骗到祭坛来并杀死他||把某个人骗到祭坛来并杀死他||'''把某个人骗到圣坛来并杀死他'''||把某个人骗到祭坛来并杀死他
+|-
+|Learn the Black Book's hidden knowledge||找出隐藏在黑暗经书中的知识||找出隐藏在黑暗经书中的知识||'''找出隐藏在黑暗经典中的知识'''||找出隐藏在黑暗经书中的知识
+|-
+|Learn the Word of Power from Wulfgar||从沃夫加那里学会力量之语||从沃夫加那里学会力量之语||'''从沃夫加那里学会力量字符'''||从沃夫加那里学会力量之语
+|-
+|Learn the hidden knowledge of "Epistolary Acumen"||学习《信札巧笔》中隐藏的知识||学习《信札巧笔》中隐藏的知识||学习《信札巧笔》中隐藏的知识||学习《信札巧笔》中隐藏的知识
+|-
+|Learn the second word of Durnehviir's Shout||学会度尼维尔的龙吼的第二个符文||学会度尼维尔的龙吼的第二个符文||'''学会有关魂体剖断的龙吼间词'''||学会度尼维尔的龙吼的第二个符文
+|-
+|Legends Lost||    ||'''失落传奇'''||    ||'''传奇消散'''
+|-
+|Let Sleeping Wolves Lie||    ||'''让卧狼睡'''||    ||'''沉睡之狼'''
+|-
+|Lie to Sibbi Black-Briar about Lynly||对西比·黑棘隐瞒关于林立的事||'''对黑棘氏的西比隐瞒关于林立的事'''||'''对西比·黑荆棘隐瞒关于林立的事'''||'''对西比．黑棘隐瞒关于林立的事'''
+|-
+|Lifting the Shroud||掀起遮罩||掀起遮罩||    ||掀起遮罩
+|-
+|Lights Out!||关灯！||关灯！||关灯！||关灯！
+|-
+|Lisbet's Missing Shipment||利斯拜特遗失的货物||利斯拜特遗失的货物||    ||利斯拜特遗失的货物
+|-
+|Listen to Brynjolf's scheme||听布林乔夫解说计划||'''听布林纽夫解说计划'''||'''听布林乔夫公布计划'''||听布林乔夫解说计划
+|-
+|Listen to Mercer Frey||聆听墨瑟·弗雷||聆听墨瑟·弗雷||聆听墨瑟·弗雷||'''聆听墨瑟．弗雷'''
+|-
+|Listen to Tolfdir||听托夫迪尔讲解||听托夫迪尔讲解||'''聆听托夫迪尔'''||'''聆听托夫迪尔的话语'''
+|-
+|Listen to the Night Mother||聆听夜母||聆听夜母||聆听夜母||聆听夜母
+|-
+|Locate The Ceremonial Weapons||找到仪式用武器||找到仪式用武器||找到仪式用武器||找到仪式用武器
+|-
+|Locate Valerica's Journal||找到瓦蕾莉卡的日记||找到瓦蕾莉卡的日记||'''找出维尔瑞卡的日记'''||'''找到瓦雷莉卡的日记'''
+|-
+|Locate the East Empire Pendants for Fethis Alor in Raven Rock||帮鸦石镇的费希斯·阿洛找到东帝国贸易公司坠饰||帮鸦石镇的费希斯·阿洛找到东帝国贸易公司坠饰||'''帮乌石镇的费希斯·阿洛找到东帝国贸易公司坠饰'''||'''帮鸦石镇的费希斯．阿洛找到东帝国贸易公司坠饰'''
+|-
+|Locate the assassin of old||找到老刺客||找到老刺客||找到老刺客||找到老刺客
+|-
+|Locate the author of the mysterious note||    ||'''寻找神秘信件的作者'''||    ||'''找到写下神秘纸条的人'''
+|-
+|Locate the face sculptor in Riften||找到裂谷城的脸部雕塑家||找到裂谷城的脸部雕塑家||'''找出在裂谷城的面容雕刻家'''||找到裂谷城的脸部雕塑家
+|-
+|Locate the hidden stash of Emberbrand Wine in Raven Rock||找出藏在鸦石镇中的余火牌葡萄酒||找出藏在鸦石镇中的余火牌葡萄酒||'''找出藏在乌石镇中的烬火葡萄酒'''||找出藏在鸦石镇中的余火牌葡萄酒
+|-
+|Lod's Lot||罗德的运气||罗德的运气||    ||罗德的运气
+|-
+|Look for a note at Cliffside Retreat||    ||'''在崖边巢窟寻找纸条'''||    ||'''在崖边巢窟寻找纸条'''
+|-
+|Look for a note at the Four Shields Tavern||    ||'''在四盾牌酒馆寻找纸条'''||    ||'''在四盾牌酒馆寻找纸条'''
+|-
+|Look for a note at the Nightgate Inn||    ||'''在夜扉旅店寻找纸条'''||    ||'''在夜扉客栈寻找纸条'''
+|-
+|Look for a note in Dragonsreach Dungeon||    ||'''在龙临堡地牢里寻找一张纸条'''||    ||'''在龙临堡地牢里寻找一张纸条'''
+|-
+|Look for bounty information at the Falkreath Barracks||    ||'''在佛克瑞斯军营寻找悬赏情报'''||    ||'''在佛克瑞斯军营寻找悬赏情报'''
+|-
+|Lost Knowledge||失落知识||失落知识||失落知识||失落知识
+|-
+|Lost Legacy||失落的遗产||失落的遗产||失落的遗产||失落的遗产
+|-
+|Lost Relic||失落的神器||失落的神器||'''失落的圣物'''||'''失去的遗物'''
+|-
+|Lost to the Ages||遗忘时光||遗忘时光||'''失落的年代'''||遗忘时光
+|-
+|Loud and Clear||清楚明晰||清楚明晰||清楚明晰||清楚明晰
+|-
+|Louis Letrush vs Thug||    ||    ||    ||'''路易士．莱特鲁什对恶棍'''
+|-
+|M'aiq the Liar||骗子麦奎||'''骗子穆'艾奎'''||    ||骗子麦奎
+|-
+|Magic Student||魔法学徒||魔法学徒||    ||魔法学徒
+|-
+|Make changes in the ledger at <Alias=Business> in <Alias=City>||修改<Alias=City>的<Alias=Business>的帐目。||修改<Alias=City>的<Alias=Business>的帐目。||'''修改<Alias=City>的<Alias=Business>的账目。'''||'''修改<Alias=City>的<Alias=Business>的账目。'''
+|-
+|Making Friends and Influencing People||结交好友和树立声望||结交好友和树立声望||    ||结交好友和树立声望
+|-
+|March of the Dead||死者的进军||死者的进军||死者的进军||死者的进军
+|-
+|Master WI quest||    ||    ||    ||'''WI大师任务'''
+|-
+|Meditations on the Words of Power||冥想力量之语||冥想力量之语||    ||冥想力量之语
+|-
+|Meet Brutius at the fishing spot||    ||'''在钓鱼点和布鲁提乌斯碰面'''||    ||'''和布鲁提斯在钓鱼地点见面'''
+|-
+|Meet Brynjolf during daytime||在白天与布林乔夫碰面||'''在白天与布林纽夫碰面'''||'''白天与布林乔夫碰面'''||在白天与布林乔夫碰面
+|-
+|Meet Delphine at the stables||与戴尔芬在马厩碰面||'''与戴尔菲娜在马厩碰面'''||'''与戴尔菲娜在马厩碰面'''||'''与戴尔菲娜在马厩碰面'''
+|-
+|Meet Lynea on the docks near the Warrens||    ||'''在窝棚附近的码头上和莱妮娅见面'''||    ||'''在窝棚附近的码头和利尼亚见面'''
+|-
+|Meet Mercer Frey outside Snow Veil Sanctum||在雪幔圣所外与墨瑟·弗雷见面||在雪幔圣所外与墨瑟·弗雷见面||在雪幔圣所外与墨瑟·弗雷见面||'''在雪幔圣所外与墨瑟．弗雷见面'''
+|-
+|Meet Tyra at the shrine west of Windhelm||    ||'''在风舵城西边的祭坛和提拉见面'''||    ||'''在风舵城西边的祭坛和泰拉见面'''
+|-
+|Meet the Family||家人相见||家人相见||家人相见||家人相见
+|-
+|Meet the Stranger at the tomb of the Gray Fox||    ||'''在灰狐的墓前和陌生人碰面'''||    ||'''在灰狐的墓前和陌生人碰面'''
+|-
+|Meet the men near <Alias=AttackPoint>||在<Alias=AttackPoint>附近和他们会合||在<Alias=AttackPoint>附近和他们会合||在<Alias=AttackPoint>附近和他们会合||在<Alias=AttackPoint>附近和他们会合
+|-
+|Meet up with the Redoran Guard||和瑞多然禁卫队会合||和瑞多然禁卫队会合||'''与瑞多然禁卫队会合'''||和瑞多然禁卫队会合
+|-
+|Meet with your commanding officer||    ||'''会见你的指挥官'''||    ||'''与你的指挥官会面'''
+|-
+|Meet your new pet||    ||'''见见你的新宠物'''||    ||'''见见你的新宠物'''
+|-
+|Mesmerize and turn <Alias=Spouse> into a vampire.||施展催眠后，将<Alias=Spouse>变成吸血鬼||施展催眠后，将<Alias=Spouse>变成吸血鬼||'''魅惑并转变<Alias=Spouse>成为一个吸血鬼。'''||施展催眠后，将<Alias=Spouse>变成吸血鬼
+|-
+|Message to Whiterun||带给白漫城的消息||带给白漫城的消息||'''带给白漫城的讯息'''||'''带给白漫城的讯息'''
+|-
+|Mightier than the Sword||    ||'''笔锋胜剑'''||    ||'''笔锋胜剑'''
+|-
+|Mine Ore||采矿||采矿||    ||采矿
+|-
+|Mine Silver Ore to serve your time||挖银矿度过时间||挖银矿度过时间||'''挖银矿度过你的时间'''||挖银矿度过时间
+|-
+|Mine or Yours||你死我活||你死我活||    ||你死我活
+|-
+|Miraak Steals a Dragon Soul||秘拉克偷取龙魂||'''密拉克偷取龙魂'''||'''密拉克偷取龙魂'''||秘拉克偷取龙魂
+|-
+|Miscellaneous Quests Handler||    ||    ||    ||'''杂项任务处理者'''
+|-
+|Missing In Action||在战斗中失踪||'''战场失踪'''||'''作战失踪'''||在战斗中失踪
+|-
+|Missing Merchant||    ||'''失踪的商人'''||    ||'''失踪的商人'''
+|-
+|Mistwatch Escapee||迷雾塔楼逃犯||迷雾塔楼逃犯||    ||迷雾塔楼逃犯
+|-
+|Morag Tong Competition||魔拉格堂的竞争||魔拉格堂的竞争||    ||魔拉格堂的竞争
+|-
+|More than you can Chew||    ||'''不自量力'''||    ||'''不自量力'''
+|-
+|Morgrul Attack||莫古尔袭击||莫古尔袭击||    ||莫古尔袭击
+|-
+|Mourning Never Comes||永不哀恸||永不哀恸||永不哀恸||永不哀恸
+|-
+|Mudcrab Control Quest||    ||    ||    ||'''泥沼蟹控制任务'''
+|-
+|My Pet Elytra (Dementia)||    ||'''我的宠物翅鞘虫若虫（痴呆）'''||    ||'''我的宠物虫（癫曼希亚）'''
+|-
+|My Pet Elytra (Mania)||    ||'''我的宠物翅鞘虫若虫（狂躁）'''||    ||'''我的宠物虫（躁尼亚）'''
+|-
+|My Pet Mudcrab||    ||'''我的宠物泥沼蟹'''||    ||'''我的宠物泥沼蟹'''
+|-
+|My Pet Nix-Hound||    ||'''我的宠物虚无猎犬'''||    ||'''我的宠物尼克斯猎犬'''
+|-
+|Myrwatch||    ||'''神秘塔'''||    ||'''魔守'''
+|-
+|Necromantic Arts||    ||'''亡灵法术之道'''||    ||    
+|-
+|Nerveshatter||    ||'''神经破碎'''||    ||'''神经粉碎杖'''
+|-
+|Netch Hunting Party||气母猎人小队||气母猎人小队||    ||'''耐区猎人小队'''
+|-
+|New Allegiances||新的同盟||新的同盟||'''新的忠诚'''||新的同盟
+|-
+|Night Hunter||    ||'''暗夜猎手'''||    ||'''夜之猎人'''
+|-
+|Nimhe, the Poisoned One||毒害之物“尼姆赫”||毒害之物“尼姆赫”||    ||毒害之物“尼姆赫”
+|-
+|No Contest||    ||'''无人匹敌'''||    ||'''不参加比赛'''
+|-
+|No News is Good News||没消息就是好消息||没消息就是好消息||    ||没消息就是好消息
+|-
+|No One Escapes Cidhna Mine||无人能逃出希讷矿坑||无人能逃出希讷矿坑||'''无人能逃出希讷矿场'''||无人能逃出希讷矿坑
+|-
+|No Stone Unturned||千方百计||千方百计||'''想方设法'''||千方百计
+|-
+|Nordic Jewelry||    ||'''诺德饰品'''||    ||'''诺德珠宝'''
+|-
+|Observe Arniel's experiment||观察阿内尔的实验||观察阿内尔的实验||观察阿内尔的实验||观察阿内尔的实验
+|-
+|Obtain <Global=ccBGSSSE001_MQ3WoodTotal> pieces of firewood (<Global=ccBGSSSE001_MQ3WoodCount>/<Global=ccBGSSSE001_MQ3WoodTotal>)||    ||'''取得<Global=ccBGSSSE001_MQ3WoodTotal>份木柴（<Global=ccBGSSSE001_MQ3WoodCount>/<Global=ccBGSSSE001_MQ3WoodTotal>）'''||    ||'''取得<Global=ccBGSSSE001_MQ3WoodTotal>块木柴（<Global=ccBGSSSE001_MQ3WoodCount>/<Global=ccBGSSSE001_MQ3WoodTotal>）'''
+|-
+|Obtain <Global=ccBGSSSE001_RadiantObjTotal> arctic grayling for <Alias.ShortName=Innkeeper> in <Alias=Town> (<Global=ccBGSSSE001_RadiantObjCount>/<Global=ccBGSSSE001_RadiantObjTotal>)||    ||'''为<Alias=Town>的<Alias.ShortName=Innkeeper>带去<Global=ccBGSSSE001_RadiantObjTotal>条极地茴鱼（<Global=ccBGSSSE001_RadiantObjCount>/<Global=ccBGSSSE001_RadiantObjTotal>）'''||    ||'''捕捉<Global=ccBGSSSE001_RadiantObjTotal>条北极茴鱼给<Alias=Town>的<Alias.ShortName=Innkeeper>（<Global=ccBGSSSE001_RadiantObjCount>/<Global=ccBGSSSE001_RadiantObjTotal>）'''
+|-
+|Obtain Ore Sample from Filnjar||从菲林亚手上拿到矿石样本||从菲林亚手上拿到矿石样本||'''从菲林亚那取得矿石样本'''||从菲林亚手上拿到矿石样本
+|-
+|Obtain a Mark of Dibella from Indaryn||从印达林处获取一个蒂贝拉的印记||从印达林处获取一个蒂贝拉的印记||'''从印达林处取得迪贝拉的印记'''||从印达林处获取一个蒂贝拉的印记
+|-
+|Obtain a goldfish for Mila Valentia in Whiterun||    ||'''为白漫城的米拉·巴伦西亚带一条金鱼'''||    ||'''为白漫城的米拉．巴伦西亚找一条金鱼'''
+|-
+|Obtain the Reforged Relics of the Crusader||    ||'''取得重铸的圣教军遗物'''||    ||'''取得重铸的十字军圣物'''
+|-
+|Obtain the key to the whispering door||获取低语之门的钥匙||获取低语之门的钥匙||'''取得低语之门的钥匙'''||获取低语之门的钥匙
+|-
+|Old Friends||昔日好友||昔日好友||昔日好友||昔日好友
+|-
+|On the way to the Wedding||去婚礼的路上||去婚礼的路上||    ||去婚礼的路上
+|-
+|Once a Hunter||    ||'''曾为猎人'''||    ||'''曾为猎人'''
+|-
+|Onmund's Request||昂蒙德的请求||昂蒙德的请求||昂蒙德的请求||昂蒙德的请求
+|-
+|Orgnar Delphine||奥格那·戴尔芬||'''奥格那·戴尔菲娜'''||    ||'''奥格那．戴尔菲娜'''
+|-
+|Out of Balance||失去平衡||失去平衡||失去平衡||失去平衡
+|-
+|Over the Edge||    ||'''高处坠落'''||    ||'''高处坠落'''
+|-
+|Paarthurnax||帕图纳克斯||帕图纳克斯||帕图纳克斯||帕图纳克斯
+|-
+|Paid in Full||银货两讫||银货两讫||银货两讫||银货两讫
+|-
+|Pain in the Necklace||芒刺在背||芒刺在背||    ||芒刺在背
+|-
+|Pantea's Flute||潘提亚的长笛||潘提亚的长笛||潘提亚的长笛||潘提亚的长笛
+|-
+|Participate in a drinking contest with Sam Guenvere||参加与山姆·圭文的饮酒竞赛||参加与山姆·圭文的饮酒竞赛||'''跟山姆·圭文拼酒'''||参加与山姆·圭文的饮酒竞赛
+|-
+|Patrol the streets of the Stone Quarter at night||入夜后巡逻石头居住区||入夜后巡逻石头居住区||入夜后巡逻石头居住区||入夜后巡逻石头居住区
+|-
+|Pay Mogrul||付墨古钱||付墨古钱||付墨古钱||付墨古钱
+|-
+|Pay Nazir the fine||付给纳兹尔罚款||付给纳兹尔罚款||'''付给纳兹尔罚金'''||付给纳兹尔罚款
+|-
+|Pay Tolfidr 500 gold to lift your suspension||付给托夫迪尔500金币以撤销休学处分||付给托夫迪尔500金币以撤销休学处分||'''付给托夫迪尔500枚金币以撤销停学处分'''||付给托夫迪尔500金币以撤销休学处分
+|-
+|Payment Delivery||款项递送||款项递送||    ||款项递送
+|-
+|Perks||额外技能||额外技能||'''特技'''||额外技能
+|-
+|Pet Control Quest||    ||    ||    ||'''宠物控制任务'''
+|-
+|Pets of Skyrim||    ||'''天际宠物'''||    ||'''天际省的宠物'''
+|-
+|Pick up Harrald's Sword from Balimund||从巴利穆德处找到哈拉尔德的剑||从巴利穆德处找到哈拉尔德的剑||'''从巴利穆德处取回哈剌尔德的剑'''||从巴利穆德处找到哈拉尔德的剑
+|-
+|Pick up the letter from Priest Drureth||    ||'''从德鲁瑞斯祭司那里取得信'''||    ||'''从德鲁瑞斯祭司那里取得信'''
+|-
+|Pieces of the Past||过往片段||过往片段||'''过去的片段'''||'''过往的片段'''
+|-
+|Pilgrimage||朝圣||朝圣||    ||朝圣
+|-
+|Place the Unenchanted Weapon in the forge||    ||'''将未附魔武器放进熔炉'''||    ||'''将未附魔武器放进熔炉'''
+|-
+|Place the burial urn in Yngol Barrow||把骨灰坛放到英格尔冢||把骨灰坛放到英格尔冢||把骨灰坛放到英格尔冢||把骨灰坛放到英格尔冢
+|-
+|Place the warped soul gem into another Convector||在另一个环流器中放入扭曲的灵魂石||在另一个环流器中放入扭曲的灵魂石||'''把扭曲的灵魂石放入另一个导流器'''||'''在另一个环流器中放入扭曲的灵魂之石'''
+|-
+|Plant <Alias=QuestItem> in <Alias=TargetHouse>||把<Alias=QuestItem>放置到<Alias=TargetHouse>||把<Alias=QuestItem>放置到<Alias=TargetHouse>||把<Alias=QuestItem>放置到<Alias=TargetHouse>||把<Alias=QuestItem>放置到<Alias=TargetHouse>
+|-
+|Plant the <Alias=Evidence> in <Alias=WealthyHome> in <Alias=City>||将<Alias=Evidence>放在<Alias=City>的<Alias=WealthyHome>中。||将<Alias=Evidence>放在<Alias=City>的<Alias=WealthyHome>中。||将<Alias=Evidence>放在<Alias=City>的<Alias=WealthyHome>中。||将<Alias=Evidence>放在<Alias=City>的<Alias=WealthyHome>中。
+|-
+|Plant the Balmora Blue||放置石树城蓝调||'''放置阴郁巴尔莫拉'''||'''放置石林蓝酒'''||放置石树城蓝调
+|-
+|Player Info and General Gameplay Penalties||    ||    ||    ||'''玩家资讯与一般游戏惩罚'''
+|-
+|Poison the Skeever Nest.||对恶鼠巢穴下毒||对恶鼠巢穴下毒||对恶鼠巢穴下毒||对恶鼠巢穴下毒
+|-
+|Power of the Blood||血的力量||血的力量||'''鲜血之力'''||血的力量
+|-
+|Pray at the shrines (<Global=ccMTYSSE001_CrusaderGlobalShrines>/9)||    ||'''向祭坛祈祷（<Global=ccMTYSSE001_CrusaderGlobalShrines>/9）'''||    ||'''在祭坛祷告（<Global=ccMTYSSE001_CrusaderGlobalShrines>／9）'''
+|-
+|Preemptive Strike||先发制人||先发制人||先发制人||'''先制攻击'''
+|-
+|Private Lessons||    ||'''私授课程'''||    ||'''私人课程'''
+|-
+|Promises to Keep||一言九鼎||一言九鼎||一言九鼎||一言九鼎
+|-
+|Prophet||预言||预言||'''先知'''||'''先知'''
+|-
+|Protecting the Bloodline||保护血统||保护血统||保护血统||'''巩固血脉'''
+|-
+|Proving Honor||荣誉的证明||荣誉的证明||荣誉的证明||荣誉的证明
+|-
+|Purchase a home in the Riften Ratways||    ||'''在裂谷城鼠道内购买一处宅邸'''||    ||'''在裂谷城鼠道买一间房子'''
+|-
+|Purchase a house in Markarth||在马卡斯城买一间房子||在马卡斯城买一间房子||在马卡斯城买一间房子||在马卡斯城买一间房子
+|-
+|Purchase a house in Solitude||在独孤城买一间房子||在独孤城买一间房子||在独孤城买一间房子||在独孤城买一间房子
+|-
+|Purchase a house in Whiterun||在白漫城买一间房子||在白漫城买一间房子||在白漫城买一间房子||在白漫城买一间房子
+|-
+|Purchase a house in Windhelm||在风舵城买一间房子||在风舵城买一间房子||在风舵城买一间房子||在风舵城买一间房子
+|-
+|Purchase a map of wild horse locations||    ||'''购买一张野马分布地图'''||    ||'''购买标有野马位置的地图'''
+|-
+|Purchase a piece of Nordic Jewelry||    ||'''购买一件诺德饰品'''||    ||'''购买一件诺德珠宝'''
+|-
+|Purchase a tamed goat from <Alias=AliasFarmer>||    ||'''从<Alias=AliasFarmer>处购买驯化的山羊'''||    ||'''向<Alias=AliasFarmer>购买驯化的动物'''
+|-
+|Purity||净化血液||净化血液||'''纯净药手'''||'''净化'''
+|-
+|Purity of Revenge||纯粹的复仇||纯粹的复仇||纯粹的复仇||纯粹的复仇
+|-
+|Put A Fork In It||    ||'''一叉下去'''||    ||'''叉强人意'''
+|-
+|Radiant Quests Handler||    ||    ||    ||'''发光任务处理者'''
+|-
+|Ramblings of a madman||一个狂人的胡言乱语||一个狂人的胡言乱语||    ||一个狂人的胡言乱语
+|-
+|Rare Curios||    ||'''稀世奇珍'''||'''珍稀古董'''||'''稀世珍品'''
+|-
+|Rare Gifts||珍稀礼物||珍稀礼物||    ||珍稀礼物
+|-
+|Raven Rock Arrival Scene||    ||    ||'''到达乌石镇'''||    
+|-
+|Raven Rock Rumors||鸦石镇传闻||鸦石镇传闻||'''乌石镇传闻'''||鸦石镇传闻
+|-
+|Reach Miraak's Temple||前往秘拉克神殿||'''前往密拉克神殿'''||'''前往密拉克神殿'''||前往秘拉克神殿
+|-
+|Read Bounty: Fangtusk||    ||'''阅读赏金：大尖牙'''||    ||'''阅读悬赏：獠牙'''
+|-
+|Read Bounty: Pygmy Sunfish Specimen||    ||'''阅读悬赏：小日鲈样本'''||    ||'''阅读悬赏：小日鲈样本'''
+|-
+|Read Cultists' Orders||阅读教徒身上的命令函||阅读教徒身上的命令函||'''阅读信徒身上的命令函'''||阅读教徒身上的命令函
+|-
+|Read Eltrys' Note||阅读艾翠斯的纸条||阅读艾翠斯的纸条||阅读艾翠斯的纸条||阅读艾翠斯的纸条
+|-
+|Read Hans's journal||    ||'''阅读汉斯的日记'''||    ||'''阅读汉斯的日记'''
+|-
+|Read Joften's notes||    ||'''阅读约夫滕的笔记'''||    ||'''阅读贾夫顿的笔记'''
+|-
+|Read Masks of the Tribunal||    ||'''阅读审判席面具'''||    ||'''阅读裁决者面具'''
+|-
+|Read the Dinner Invitation||    ||'''阅读晚餐邀请函'''||    ||'''阅读晚餐邀约'''
+|-
+|Read the Elder Scroll at the Time-Wound||在时间伤痕附近朗读上古卷轴||'''在时间伤痕附近阅读上古卷轴'''||'''在时空伤痕附近朗读上古卷轴'''||在时间伤痕附近朗读上古卷轴
+|-
+|Read the Khajiit's Note||    ||'''阅读凯季特人的笔记'''||    ||'''阅读虎人的笔记'''
+|-
+|Read the Letter from Calcelmo||    ||'''阅读卡塞莫的来信'''||    ||'''阅读卡塞莫的来信'''
+|-
+|Read the Letter from Shogarz gro-Batul||    ||'''阅读朔戛兹·葛拉-巴杜的信'''||    ||'''阅读休卡兹．葛拉霸图的来信'''
+|-
+|Read the Matriarch's note||    ||'''阅读大神官的纸条'''||    ||'''阅读大祭司的纸条'''
+|-
+|Read the Note from the Temple of Kynareth||    ||'''阅读凯娜瑞丝神殿的来信'''||    ||'''阅读凯娜瑞丝神殿的来信'''
+|-
+|Read the Seedy Guard's Note||    ||'''阅读邋遢护卫的笔记'''||    ||'''阅读可疑卫兵的纸条'''
+|-
+|Read the Steward's Note||    ||'''阅读总管的笔记'''||    ||'''阅读总管的纸条'''
+|-
+|Read the Vampire's Note||阅读吸血鬼的笔记||阅读吸血鬼的笔记||阅读吸血鬼的笔记||阅读吸血鬼的笔记
+|-
+|Read the book at Candlehearth Hall||    ||'''阅读位于烛炉堂旅店的一本书'''||    ||'''阅读位于烛炉堂客栈的一本书'''
+|-
+|Read the letter from <Alias=Enemy>||阅读<Alias=Enemy>的信||阅读<Alias=Enemy>的信||阅读<Alias=Enemy>的信||阅读<Alias=Enemy>的信
+|-
+|Read the letter from Mila Valentia||    ||'''阅读米拉·巴伦西亚的来信'''||    ||'''阅读米拉．巴伦西亚的信'''
+|-
+|Read the mage's journal||    ||'''阅读法师的日志'''||    ||'''阅读法师的日记'''
+|-
+|Read the pirate's note||    ||'''阅读海盗的笔记'''||    ||'''阅读海盗的笔记'''
+|-
+|Rebuilding the Blades||重建刀锋卫士组织||重建刀锋卫士组织||    ||重建刀锋卫士组织
+|-
+|Receive a reading from Olava the Feeble||从“软脚虾”奥拉瓦那里获得预知||从“软脚虾”奥拉瓦那里获得预知||'''从虚弱的奥拉瓦那里得知预兆'''||从“软脚虾”奥拉瓦那里获得预知
+|-
+|Recipe for Disaster||灾祸的良方||灾祸的良方||'''带来灾难的食谱'''||灾祸的良方
+|-
+|Recipe for Distraction||分心的良方||分心的良方||    ||分心的良方
+|-
+|Recover Endon's Silver Mold||找出安东的铸银模具||找出安东的铸银模具||'''找回安东的铸银模具'''||找出安东的铸银模具
+|-
+|Recover Fjolti's Silver Locket||找到芙优蒂的银坠子||找到芙优蒂的银坠子||'''找到约蒂的银制相框链'''||找到芙优蒂的银坠子
+|-
+|Recover Staubs' journal||取回斯陶宾的日记||取回斯陶宾的日记||取回斯陶宾的日记||'''取回斯陶布斯的日记'''
+|-
+|Recover the Bonemold Formula for Glover Mallory||替葛罗文·马洛瑞找到骨模装备制法||替葛罗文·马洛瑞找到骨模装备制法||'''替葛罗文·马尔洛里找到骨模装备制法'''||'''替葛罗文．马洛瑞找到骨模装备制法'''
+|-
+|Recover the left front leg of the Dwarven Horse||    ||'''找到马左前腿'''||    ||'''找到矮人马的左前腿'''
+|-
+|Recover your equipment||找回你的装备||找回你的装备||找回你的装备||找回你的装备
+|-
+|Recruitment Drive||招募新人||招募新人||招募新人||招募新人
+|-
+|Reforge Mehrunes' Razor||重铸梅鲁涅斯利刃||重铸梅鲁涅斯利刃||重铸梅鲁涅斯利刃||重铸梅鲁涅斯利刃
+|-
+|Regain the Reach||重夺边塞领||'''重夺河湾地'''||'''重夺边峪领'''||重夺边塞领
+|-
+|Rejoining the College||重新加入学院||重新加入学院||重新加入学院||重新加入学院
+|-
+|Relics of the Crusader||    ||'''圣教军遗物'''||    ||'''十字军的圣物'''
+|-
+|Reluctant Steward||不情愿的管家||不情愿的管家||不情愿的管家||不情愿的管家
+|-
+|Rendezvous with army.||与军队会合||与军队会合||与军队会合||与军队会合
+|-
+|Repairing the Phial||修复雪瓶||修复雪瓶||修复雪瓶||修复雪瓶
+|-
+|Reparations||赔偿||赔偿||赔偿||赔偿
+|-
+|Repentance||悔改||悔改||悔改||悔改
+|-
+|Report Astrid's death to a guard||把阿斯垂德的死讯报告给卫兵||'''把艾丝翠德的死讯报告给卫兵'''||'''把艾丝翠德的死讯报告给卫兵'''||把阿斯垂德的死讯报告给卫兵
+|-
+|Report Orchendor's death to Peryite||把奥尘多的死讯告知魄伊特||把奥尘多的死讯告知魄伊特||把奥尘多的死讯告知魄伊特||把奥尘多的死讯告知魄伊特
+|-
+|Report back to Astrid||回去向阿斯垂德回报||'''回去向艾丝翠德回报'''||'''回去向艾丝翠德汇报'''||'''回去向阿斯垂德报告'''
+|-
+|Report back to Festus Krex||回去向菲斯图斯·克莱克斯报告||回去向菲斯图斯·克莱克斯报告||'''回去向菲斯图斯·克莱克斯汇报'''||'''回去向菲斯图斯．克莱克斯报告'''
+|-
+|Report back to Fjola||回去向弗悦拉回报||回去向弗悦拉回报||'''回去向弗悦拉汇报'''||回去向弗悦拉回报
+|-
+|Report back to Nazir||回去向纳兹尔报告||回去向纳兹尔报告||'''回去向纳兹尔汇报'''||回去向纳兹尔报告
+|-
+|Report success to <Alias=QuestGiver>||向<Alias=QuestGiver>汇报成功||向<Alias=QuestGiver>汇报成功||向<Alias=QuestGiver>汇报成功||向<Alias=QuestGiver>汇报成功
+|-
+|Report to Legate Rikke||回报瑞姬副官||回报瑞姬副官||回报瑞姬副官||回报瑞姬副官
+|-
+|Report to the Jarl of Whiterun||向白漫城的领主报告||向白漫城的领主报告||'''向白漫的领主报告'''||'''向白漫的领主报告'''
+|-
+|Rescue||救援||救援||'''营救'''||救援
+|-
+|Rescue <Alias=Prisoner> from <Alias=Dungeon>||把<Alias=Prisoner>从<Alias=Dungeon>救出来||把<Alias=Prisoner>从<Alias=Dungeon>救出来||'''从<Alias=Dungeon>营救<Alias=Prisoner>'''||把<Alias=Prisoner>从<Alias=Dungeon>救出来
+|-
+|Rescue <Alias=Spouse> from <Alias=BanditDungeon>||从<Alias=BanditDungeon>救出<Alias=Spouse>||从<Alias=BanditDungeon>救出<Alias=Spouse>||'''前往<Alias=BanditDungeon>将<Alias=Spouse>给救出'''||从<Alias=BanditDungeon>救出<Alias=Spouse>
+|-
+|Rescue Mission||营救任务||营救任务||营救任务||营救任务
+|-
+|Rescue from <Alias=AttackPoint>||从<Alias=AttackPoint>营救出来||'''<Alias=AttackPoint>营救行动'''||从<Alias=AttackPoint>营救出来||从<Alias=AttackPoint>营救出来
+|-
+|Research Thief||研究盗贼||研究盗贼||    ||研究盗贼
+|-
+|Restless Home Quest||    ||    ||    ||'''不宁之家任务'''
+|-
+|Restoration Ritual Spell||恢复系仪式魔法||恢复系仪式魔法||'''恢复系仪式法术'''||恢复系仪式魔法
+|-
+|Restoring Order||    ||'''重建秩序'''||    ||'''恢复秩序'''
+|-
+|Retaking Thirsk||夺回瑟斯科大厅||夺回瑟斯科大厅||夺回瑟斯科大厅||夺回瑟斯科大厅
+|-
+|Retrieval||补偿||补偿||'''夺回'''||补偿
+|-
+|Retrieve <Alias.ShortName=Item> off of <Alias.ShortName=DeadPerson>.||从<Alias.ShortName=DeadPerson>的身上获取<Alias.ShortName=Item>。||从<Alias.ShortName=DeadPerson>的身上获取<Alias.ShortName=Item>。||从<Alias.ShortName=DeadPerson>的身上获取<Alias.ShortName=Item>。||从<Alias.ShortName=DeadPerson>的身上获取<Alias.ShortName=Item>。
+|-
+|Retrieve <Alias=ItemToGet> from <Alias=Mark> in <Alias=City>||从<Alias=City>的<Alias=Mark>身上偷走<Alias=ItemToGet>||从<Alias=City>的<Alias=Mark>身上偷走<Alias=ItemToGet>||从<Alias=City>的<Alias=Mark>身上偷走<Alias=ItemToGet>||从<Alias=City>的<Alias=Mark>身上偷走<Alias=ItemToGet>
+|-
+|Retrieve Arvak's skull||取得阿尔瓦克的头骨||取得阿尔瓦克的头骨||'''回收阿尔瓦克的头骨'''||'''取得阿瓦克的头骨'''
+|-
+|Retrieve Bloodthirst from Broken Fang Cave||    ||'''从断牙洞穴取得血嗜'''||    ||'''从断牙洞穴取得血嗜'''
+|-
+|Retrieve Wylandriah's Spoon||获取维兰瑞亚的汤勺||获取维兰瑞亚的汤勺||'''获取维兰瑞亚的勺子'''||获取维兰瑞亚的汤勺
+|-
+|Retrieve netch jelly for Milore Ienth  (<Global=DLC2RRF02JellyCount>/<Global=DLC2RRF02JellyTotal>)||帮蜜洛儿·艾恩斯收集气母胶质（<Global=DLC2RRF02JellyCount>/<Global=DLC2RRF02JellyTotal>）||帮蜜洛儿·艾恩斯收集气母胶质（<Global=DLC2RRF02JellyCount>/<Global=DLC2RRF02JellyTotal>）||'''帮蜜洛儿·艾恩斯收集浮蜇胶冻（<Global=DLC2RRF02JellyCount>/<Global=DLC2RRF02JellyTotal>）'''||'''帮蜜洛儿．艾恩斯收集耐区胶质（<Global=DLC2RRF02JellyCount>/<Global=DLC2RRF02JellyTotal>）'''
+|-
+|Retrieve the <Alias=Gewgaw> from <Alias=Location>||从<Alias=Location>夺回<Alias=Gewgaw>。||从<Alias=Location>夺回<Alias=Gewgaw>。||从<Alias=Location>夺回<Alias=Gewgaw>。||从<Alias=Location>夺回<Alias=Gewgaw>。
+|-
+|Retrieve the <Alias=Item1> from <Alias=Location1>||把<Alias=Item1>从<Alias=Location1>取回||把<Alias=Item1>从<Alias=Location1>取回||'''从<Alias=Location1>取回<Alias=Item1>'''||把<Alias=Item1>从<Alias=Location1>取回
+|-
+|Retrieve the <Alias=Item3> from <Alias=Location3>||把<Alias=Item3>从<Alias=Location3>取回||把<Alias=Item3>从<Alias=Location3>取回||'''从<Alias=Location3>取回<Alias=Item3>'''||把<Alias=Item3>从<Alias=Location3>取回
+|-
+|Retrieve the <Alias=Item> from <Alias=Dungeon>||从<Alias=Dungeon>取回<Alias=Item>||从<Alias=Dungeon>取回<Alias=Item>||从<Alias=Dungeon>取回<Alias=Item>||从<Alias=Dungeon>取回<Alias=Item>
+|-
+|Retrieve the <Alias=ItemToGet> from <Alias=Business> in <Alias=City>||在<Alias=City>的<Alias=Business>抢走<Alias=ItemToGet>||在<Alias=City>的<Alias=Business>抢走<Alias=ItemToGet>||'''在<Alias=City>从<Alias=Business>夺取<Alias=ItemToGet>'''||在<Alias=City>的<Alias=Business>抢走<Alias=ItemToGet>
+|-
+|Retrieve the <Alias=ItemToGet> from <Alias=WealthyHome> in <Alias=City>||从<Alias=City>的<Alias=WealthyHome>拿到<Alias=ItemToGet>||从<Alias=City>的<Alias=WealthyHome>拿到<Alias=ItemToGet>||'''从<Alias=City>的<Alias=WealthyHome>处拿到<Alias=ItemToGet>'''||从<Alias=City>的<Alias=WealthyHome>拿到<Alias=ItemToGet>
+|-
+|Retrieve the Ancient Nordic Pickaxe||取回古代诺德鹤嘴锄||取回古代诺德鹤嘴锄||'''取回古诺德十字镐'''||'''取回先古诺德鹤嘴锄'''
+|-
+|Retrieve the Blackwater Blade||    ||'''取得黑水之剑'''||    ||'''取得黑水之剑'''
+|-
+|Retrieve the Dwarven Crown||    ||'''取回矮人王冠'''||    ||'''取回矮人王冠'''
+|-
+|Retrieve the Lord's Mail||    ||'''取回君王链甲'''||    ||'''找回圣主链甲'''
+|-
+|Retrieve the Orcish Plate Armor||    ||'''取得兽人板甲护甲'''||    ||'''取得兽人板甲护甲'''
+|-
+|Retrieve the Soul Essence Gem||取得灵魂精华宝石||取得灵魂精华宝石||'''取回灵魂精华宝石'''||取得灵魂精华宝石
+|-
+|Retrieve the Staff of Magnus||取得玛格努斯之杖||取得玛格努斯之杖||取得玛格努斯之杖||取得玛格努斯之杖
+|-
+|Retrieve the Totem of Hircine||夺回海尔辛图腾||夺回海尔辛图腾||夺回海尔辛图腾||夺回海尔辛图腾
+|-
+|Retrieve the fragment of Wuuthrad||夺取精灵屠戮者的碎片||夺取精灵屠戮者的碎片||'''夺回精灵屠戮者的碎片'''||夺取精灵屠戮者的碎片
+|-
+|Retrieve the fragments of Wuuthrad||夺回精灵屠戮者的碎片||夺回精灵屠戮者的碎片||'''夺取精灵屠戮者的碎片'''||夺回精灵屠戮者的碎片
+|-
+|Retrieve the knight's armor||    ||'''取得骑士的护甲'''||    ||'''取得骑士的护甲'''
+|-
+|Retrieve the note||    ||'''取得笔记'''||    ||'''取得笔记'''
+|-
+|Retrieve your Thieves Guild Armor from Tonilia||从托尼利亚处拿到盗贼公会护甲||从托尼利亚处拿到盗贼公会护甲||'''从托妮利雅处拿到盗贼公会套装'''||从托尼利亚处拿到盗贼公会护甲
+|-
+|Retrieve your posessions||取回你的所有物||取回你的所有物||'''收回您的财产'''||取回你的所有物
+|-
+|Return <Alias=QuestItem> to <Alias.ShortName=QuestGiver>||把<Alias=QuestItem>还给<Alias.ShortName=QuestGiver>||把<Alias=QuestItem>还给<Alias.ShortName=QuestGiver>||把<Alias=QuestItem>还给<Alias.ShortName=QuestGiver>||把<Alias=QuestItem>还给<Alias.ShortName=QuestGiver>
+|-
+|Return Dravin's Bow||交还德拉文的弓||交还德拉文的弓||交还德拉文的弓||交还德拉文的弓
+|-
+|Return The Scroll To Anska||把卷轴交给安斯卡||把卷轴交给安斯卡||'''交还卷轴给安斯卡'''||把卷轴交给安斯卡
+|-
+|Return Wuuthrad to Ysgramor||将精灵屠戮者归还到伊斯格拉谟雕像手中||将精灵屠戮者归还到伊斯格拉谟雕像手中||将精灵屠戮者归还到伊斯格拉谟雕像手中||将精灵屠戮者归还到伊斯格拉谟雕像手中
+|-
+|Return the Folio to Cindiri Arano in Raven Rock||把对开本还给鸦石镇的欣蒂莉·阿拉诺||把对开本还给鸦石镇的欣蒂莉·阿拉诺||'''把对开本还给乌石镇的欣蒂莉·阿拉诺'''||'''把对开本还给鸦石镇的欣蒂莉．阿拉诺'''
+|-
+|Return the Queen Bee Statue to Delvin||把蜂后雕像带给戴尔文||把蜂后雕像带给戴尔文||把蜂后雕像带给戴尔文||把蜂后雕像带给戴尔文
+|-
+|Return the amulet to Andurs||把护身符还给安度尔斯||把护身符还给安度尔斯||把护身符还给安度尔斯||把护身符还给安度尔斯
+|-
+|Return the book to Urag gro-Shub||把书带给乌拉格·格洛-舒布||把书带给乌拉格·格洛-舒布||'''把书带给乌拉葛·格洛-舒布'''||'''把书带给乌拉格．格洛-舒布'''
+|-
+|Return to <Alias.ShortName=QuestGiver>||回去找<Alias.ShortName=Questgiver>||回去找<Alias.ShortName=Questgiver>||回去找<Alias.ShortName=Questgiver>||回去找<Alias.ShortName=Questgiver>
+|-
+|Return to <Alias.ShortName=Questgiver>||回去找<Alias.ShortName=Questgiver>||回去找<Alias.ShortName=Questgiver>||回去找<Alias.ShortName=Questgiver>||回去找<Alias.ShortName=Questgiver>
+|-
+|Return to <Alias=QuestGiver>||回去找<Alias=QuestGiver>||回去找<Alias=QuestGiver>||回去找<Alias=QuestGiver>||回去找<Alias=QuestGiver>
+|-
+|Return to Aela||回去找艾拉||回去找艾拉||回去找艾拉||回去找艾拉
+|-
+|Return to Balimund||回去找巴利穆德||回去找巴利穆德||回去找巴利穆德||回去找巴利穆德
+|-
+|Return to Brand-Shei||回去找布兰德-谢||回去找布兰德-谢||'''回去找布兰德·谢'''||回去找布兰德-谢
+|-
+|Return to Delvin||回去找戴尔文||回去找戴尔文||回去找戴尔文||回去找戴尔文
+|-
+|Return to Froki||回去找弗洛基||回去找弗洛基||回去找弗洛基||回去找弗洛基
+|-
+|Return to Garan Marethi||回去找加兰·玛瑞提||回去找加兰·玛瑞提||'''回去找加兰·玛瑞里'''||'''回去找加兰．玛瑞提'''
+|-
+|Return to Grace||重回荣耀||重回荣耀||    ||重回荣耀
+|-
+|Return to Grosta||回去找格罗斯塔||回去找格罗斯塔||回去找格罗斯塔||回去找格罗斯塔
+|-
+|Return to Mjoll||回去找穆月尔||回去找穆月尔||回去找穆月尔||回去找穆月尔
+|-
+|Return to Morwen in Skaal Village||回到斯卡尔村去找默玟||回到斯卡尔村去找默玟||回到斯卡尔村去找默玟||回到斯卡尔村去找默玟
+|-
+|Return to Olfrid Battle-Born||回去找奥弗瑞德·战狂||'''回去找战狂氏的奥弗瑞德'''||回去找奥弗瑞德·战狂||'''回去找奥弗瑞德．战狂'''
+|-
+|Return to Septimus||回去找塞普汀默斯||回去找塞普汀默斯||'''回去找赛普汀默斯'''||回去找塞普汀默斯
+|-
+|Return to Sylgja||回去找喜儿雅||回去找喜儿雅||回去找喜儿雅||回去找喜儿雅
+|-
+|Return to Tolfdir||回去找托夫迪尔||回去找托夫迪尔||回去找托夫迪尔||回去找托夫迪尔
+|-
+|Return to Tonilia||回去找托尼利亚||回去找托尼利亚||'''回去找托妮利雅'''||回去找托尼利亚
+|-
+|Return to Vekel||回去找威克尔||回去找威克尔||回去找威克尔||回去找威克尔
+|-
+|Return to the Sanctuary||回到圣所||回到圣所||'''回到会所'''||回到圣所
+|-
+|Revealing the Unseen||揭开未知之谜||揭开未知之谜||揭开未知之谜||揭开未知之谜
+|-
+|Revenge, Hired Thugs||复仇，雇佣打手||复仇，雇佣打手||    ||复仇，雇佣打手
+|-
+|Revenge, Hired Thugs||    ||'''复仇，雇佣打手'''||    ||    
+|-
+|Rieklings to the Rescue||蓝客灵救援行动||蓝客灵救援行动||    ||蓝客灵救援行动
+|-
+|Ringmaker||戒指制作者||戒指制作者||    ||'''指环制作者'''
+|-
+|Rings of Blood Magic||血魔法戒指||血魔法戒指||'''鲜血魔法之戒'''||'''血魔法指环'''
+|-
+|Rise in the East||旭日东升||旭日东升||'''海东威胁'''||旭日东升
+|-
+|Rising at Dawn||黎明崛起||黎明崛起||'''日出而作'''||黎明崛起
+|-
+|Riverwood Sleeping Giant Inn Order Drinks||河木镇沉睡巨人旅店特制饮品||河木镇沉睡巨人旅店特制饮品||    ||'''河木镇沉睡巨人客栈特制饮品'''
+|-
+|Rjorn's Drum||荣恩的鼓||荣恩的鼓||荣恩的鼓||荣恩的鼓
+|-
+|Rogatus's Letter||罗迦图斯的信||罗迦图斯的信||    ||罗迦图斯的信
+|-
+|Rogue Wizard||流浪法师||流浪法师||流浪法师||流浪法师
+|-
+|Rubbish Retrieval||    ||'''杂物回收'''||    ||'''清除垃圾'''
+|-
+|Rummaging through trash||翻找垃圾||翻找垃圾||    ||翻找垃圾
+|-
+|Runil's Dark Past||鲁尼尔的黑暗过去||鲁尼尔的黑暗过去||    ||鲁尼尔的黑暗过去
+|-
+|SPECIAL ATTACK: Dawnguard vs Player Vampire||SPECIAL ATTACK： Dawnguard vs Player Vampire||SPECIAL ATTACK： Dawnguard vs Player Vampire||    ||    
+|-
+|SPECIAL ATTACK: Vampires vs Player Dawnguard||SPECIAL ATTACK： Vampires vs Player Dawnguard||SPECIAL ATTACK： Vampires vs Player Dawnguard||    ||    
+|-
+|Salty Sea-Dogs||尖酸的老水手||尖酸的老水手||    ||尖酸的老水手
+|-
+|Sanctuary||圣所||圣所||'''会所'''||圣所
+|-
+|Sanuarach Mine||索兰那驰矿坑||索兰那驰矿坑||    ||索兰那驰矿坑
+|-
+|Saturalia Preparation||    ||'''冬至佳节'''||    ||'''萨图利亚准备时期'''
+|-
+|Scare my Enemy||吓阻敌人||吓阻敌人||    ||吓阻敌人
+|-
+|Scavenger||拾荒者||拾荒者||    ||拾荒者
+|-
+|Scoundrel's Folly||无赖的玩笑||无赖的玩笑||'''无赖的愚行'''||无赖的玩笑
+|-
+|Scoundrel's Folly Post||贾菲特堡垒贸易站||'''杰菲堡垒贸易站'''||    ||'''杰非的老巢贸易站'''
+|-
+|Scroll Scouting||找寻卷轴||找寻卷轴||'''卷轴搜索行动'''||找寻卷轴
+|-
+|Sealing the Deal||完成交易||完成交易||    ||完成交易
+|-
+|Search and Seizure||搜索与占有||搜索与占有||    ||搜索与占有
+|-
+|Search for a dossier at the Guard Barracks in Whiterun||    ||'''在白漫城的卫兵军营寻找一份档案'''||    ||'''在白漫城的卫兵军营寻找一份档案'''
+|-
+|Search for a dossier at the Mistveil Keep Barracks||    ||'''在雾隐堡垒军营寻找一份档案'''||    ||'''在雾隐堡垒军营寻找一份档案'''
+|-
+|Search for a note at the Bannered Mare||    ||'''在战旗母马旅店寻找纸条'''||    ||'''在敕旗母马客栈寻找纸条'''
+|-
+|Search for survivors||搜寻幸存者||搜寻幸存者||搜寻幸存者||搜寻幸存者
+|-
+|Search for the treasure of Haknir Death-Brand||寻找海科尼尔·死印的宝藏||'''寻找“死亡烙印”海科尼尔的宝藏'''||'''搜寻海科尼尔·死印的宝藏'''||'''寻找海科尼尔．死印的宝藏'''
+|-
+|Search the <Alias=Actor1>||搜索<Alias=Actor1>||搜索<Alias=Actor1>||搜索<Alias=Actor1>||搜索<Alias=Actor1>
+|-
+|Search the Ratway for Esbern's hideout||搜寻鼠道以便找到伊思本的藏身处||搜寻鼠道以便找到伊思本的藏身处||'''搜索鼠道找出艾思本的藏身之处'''||'''搜寻鼠道以便找到伊思本的隐身所'''
+|-
+|Search the camp near Skaal Village||    ||'''搜索斯卡尔村附近的营地'''||    ||'''搜索斯卡尔村附近的营地'''
+|-
+|Search the island for stalhrim||    ||'''在岛上寻找钢冰'''||    ||'''在岛上寻找魔冰岩'''
+|-
+|Search the miner's camp||    ||'''搜索矿工营地'''||    ||'''搜索矿工营地'''
+|-
+|Search the tower||    ||'''搜索塔楼'''||    ||'''搜索塔楼'''
+|-
+|Search the tower at Reachwind Eyrie||    ||'''搜索临风鹰巢的塔楼'''||    ||'''搜索临风鹰巢的塔楼'''
+|-
+|Search the wreck below for the jewelry box.||搜索残骸下层找到珠宝盒。||搜索残骸下层找到珠宝盒。||搜索残骸下层找到珠宝盒。||搜索残骸下层找到珠宝盒。
+|-
+|Season Unending||无休之季||无休之季||'''不褪的季节'''||无休之季
+|-
+|Seeder Quest||    ||    ||    ||'''播种者任务'''
+|-
+|Seeding Quest||    ||    ||    ||'''播种任务'''
+|-
+|Seeking Disclosure||泄露天机||泄露天机||'''探索与解答'''||泄露天机
+|-
+|Sell Stalhrim Armor and Weapons to Ancarion||出售魔冰护甲与武器给安卡利昂||'''出售钢冰护甲与武器给安卡利昂'''||'''出售刚冰石护甲与武器给安卡利昂'''||'''出售魔冰岩护甲与武器给安卡利昂'''
+|-
+|Served Cold||十年不晚||十年不晚||十年不晚||十年不晚
+|-
+|Set Odahviing free||释放傲达威英||释放傲达威英||释放傲达威英||释放傲达威英
+|-
+|Set a table for Gisli at the Winking Skeever||    ||'''在眨眼恶鼠为吉斯莉摆席'''||    ||'''在眨眼恶鼠为吉斯莉准备大餐'''
+|-
+|Shadowfoot Sanctum||    ||'''影踪秘所'''||    ||'''影足圣所'''
+|-
+|Shalidor's Insights||沙利多的预言||沙利多的预言||'''沙利多的魔法心得'''||沙利多的预言
+|-
+|Shalidor's Insights Rewards||沙利多的见解奖励||沙利多的见解奖励||'''沙利多的魔法心得奖励'''||沙利多的见解奖励
+|-
+|Shiv||小刀||小刀||'''扁钻'''||小刀
+|-
+|Shout - Guard says stop||    ||    ||    ||'''大喊：卫兵说不要动'''
+|-
+|Shout - learn about word wall||龙吼 - 学解单词||龙吼 - 学解单词||    ||    
+|-
+|Show Mead to Indaryn||把蜜酒拿给印达林看||把蜜酒拿给印达林看||'''把蜂蜜酒展示给印达林'''||把蜜酒拿给印达林看
+|-
+|Shut off the Steam||关闭蒸汽||关闭蒸汽||'''关闭蒸气'''||'''关闭水蒸汽'''
+|-
+|Siege on the Dragon Cult||围攻拜龙教||围攻拜龙教||围攻拜龙教||围攻拜龙教
+|-
+|Sigrid Alvor Dorthe||西格利·阿尔沃·朵西||西格利·阿尔沃·朵西||    ||'''西格利．阿尔沃．朵西'''
+|-
+|Silenced Tongues||沉默之舌||沉默之舌||沉默之舌||沉默之舌
+|-
+|Silver Lining||银色衬里||银色衬里||'''银器铸模'''||银色衬里
+|-
+|Skilled Apprenticeship||熟练的学徒||熟练的学徒||    ||熟练的学徒
+|-
+|Skooma Dealer||斯库玛贩子||斯库玛贩子||    ||斯库玛贩子
+|-
+|Slay Harkon||杀死哈孔||杀死哈孔||'''杀死哈根'''||'''杀死赫冈'''
+|-
+|Slay the Seeker in Bloodskal Barrow||杀死血吟石冢中的追寻者||'''杀死血饮石冢中的追寻者'''||'''杀死血饮石冢中的识巡者'''||杀死血吟石冢中的追寻者
+|-
+|Smith 'N Slash||    ||'''致命铁匠'''||    ||'''致命铁匠'''
+|-
+|Smooth Jazbay||可口的架子湾葡萄||可口的架子湾葡萄||    ||可口的架子湾葡萄
+|-
+|Soljund's Sinkhole||索云德矿场||索云德矿场||    ||索云德矿场
+|-
+|Some Light Theft||某些梁上君子||某些梁上君子||    ||某些梁上君子
+|-
+|Soul Cairn Dragon Fight Scenes||    ||    ||'''石冢魂圈－龙战斗场景'''||    
+|-
+|Sovngarde||松加德||'''安息圣域'''||'''沉睡净土'''||'''英灵殿'''
+|-
+|Speak to <Alias.ShortName=Target> with <Alias.ShortName=Questgiver>'s outfit on.||穿着<Alias.ShortName=Questgiver>的外套和<Alias.ShortName=Target>交谈||穿着<Alias.ShortName=Questgiver>的外套和<Alias.ShortName=Target>交谈||'''穿着<Alias.ShortName=Questgiver>的服饰与<Alias.ShortName=Target>交谈'''||穿着<Alias.ShortName=Questgiver>的外套和<Alias.ShortName=Target>交谈
+|-
+|Speak to <Alias=Questgiver>||与<Alias=Questgiver>交谈||与<Alias=Questgiver>交谈||与<Alias=Questgiver>交谈||与<Alias=Questgiver>交谈
+|-
+|Speak to <Alias=Steward> in Windhelm||    ||'''和风舵城的<Alias=Steward>交谈'''||    ||'''到风舵城和<Alias=Steward>交谈'''
+|-
+|Speak to Brynjolf about becoming the Guild Master||和布林乔夫谈谈关于成为公会长的事情||'''和布林纽夫谈谈关于成为公会长的事情'''||'''与布林乔夫谈论关于成为公会会长的事情'''||'''和布林乔夫谈谈关于成为公会会长的事情'''
+|-
+|Speak to Bujold||和布娇交谈||和布娇交谈||'''与布娇交谈'''||和布娇交谈
+|-
+|Speak to Clavicus Vile||和卡拉威库斯·维尔谈谈||和卡拉威库斯·维尔谈谈||'''与卡拉威库斯·维尔交谈'''||'''和卡拉威库斯．维尔谈谈'''
+|-
+|Speak to Crescius Caerellius||和克雷修斯·凯力尤司交谈||和克雷修斯·凯力尤司交谈||'''与克雷修斯·凯力尤司交谈'''||'''和克雷修斯．凯力尤司交谈'''
+|-
+|Speak to Degaine||和德加因谈谈||和德加因谈谈||'''与德加因交谈'''||和德加因谈谈
+|-
+|Speak to Durnehviir at his lair in the Soul Cairn||与度尼维尔在它灵魂石冢的巢穴内交谈||与度尼维尔在它灵魂石冢的巢穴内交谈||'''在石冢魂圈中杜奈法的栖息处与它交谈'''||与度尼维尔在它灵魂石冢的巢穴内交谈
+|-
+|Speak to Edla||和艾蒂拉谈谈||和艾蒂拉谈谈||'''与艾蒂拉交谈'''||和艾蒂拉谈谈
+|-
+|Speak to Erandur||与依兰杜尔交谈||与依兰杜尔交谈||与依兰杜尔交谈||与依兰杜尔交谈
+|-
+|Speak to Falion||和法利昂交谈||和法利昂交谈||'''与法利昂交谈'''||和法利昂交谈
+|-
+|Speak to Falk Firebeard||和佛可·火胡谈谈||'''和“火胡”佛可谈谈'''||'''与佛可·火胡交谈'''||'''和佛可．火胡谈谈'''
+|-
+|Speak to From Deepest Fathoms||和源于深寻交谈||和源于深寻交谈||'''与“深渊洞察”交谈'''||和源于深寻交谈
+|-
+|Speak to Gunmar||与甘马尔交谈||与甘马尔交谈||'''与盖玛尔交谈'''||'''与冈马交谈'''
+|-
+|Speak to Harkon||与哈孔交谈||与哈孔交谈||'''与哈根交谈'''||'''与赫冈交谈'''
+|-
+|Speak to Kodlak Whitemane||和克拉科·白鬃交谈||'''和“白鬃”克拉科交谈'''||'''与克拉科·白鬃交谈'''||'''和克拉科．白鬃交谈'''
+|-
+|Speak to Lod||和罗德谈谈||和罗德谈谈||'''与罗德交谈'''||和罗德谈谈
+|-
+|Speak to Maramal about arranging your wedding||和玛拉莫谈谈准备婚礼的事情||和玛拉莫谈谈准备婚礼的事情||'''与玛拉莫谈论准备婚礼的事情'''||和玛拉莫谈谈准备婚礼的事情
+|-
+|Speak to Maven Black-Briar||和玛雯·黑棘交谈||'''和黑棘氏的玛雯交谈'''||'''与玛雯·黑荆棘交谈'''||'''和玛雯．黑棘交谈'''
+|-
+|Speak to Orthas Endario about the East Empire Company's problems||和奥萨斯·恩达里奥谈谈东帝国贸易公司的问题||和奥萨斯·恩达里奥谈谈东帝国贸易公司的问题||'''与奥萨斯·恩达利奥谈论东帝国贸易公司的问题'''||'''和奥萨斯．恩达里奥谈谈东帝国贸易公司的问题'''
+|-
+|Speak to Quintus Navale||和奎因图斯·那瓦勒交谈||和奎因图斯·那瓦勒交谈||'''与奎因图斯·那瓦勒交谈'''||'''和奎因图斯．那瓦勒交谈'''
+|-
+|Speak to Ri'saad||    ||'''和瑞'撒德交谈'''||    ||'''和瑞撒德交谈'''
+|-
+|Speak to Sapphire about Shadr's debt||和蓝宝石谈谈沙德的债务问题||和蓝宝石谈谈沙德的债务问题||'''与蓝宝石谈论沙德的债务问题'''||和蓝宝石谈谈沙德的债务问题
+|-
+|Speak to Styrr||和斯提尔交谈||和斯提尔交谈||'''与斯提尔交谈'''||和斯提尔交谈
+|-
+|Speak to Swims-In-Deep-Water||    ||'''和深水畅游谈谈'''||    ||'''和深水泳客交谈'''
+|-
+|Speak to Thorald Gray-Mane||和索拉德·灰鬃交谈||'''和灰鬃氏的索拉德交谈'''||'''与索拉德·灰鬃交谈'''||'''和索拉德．灰鬃交谈'''
+|-
+|Speak to Tonilia about exchanging a piece of armor||和托尼利亚谈谈交换护甲碎片的事情||和托尼利亚谈谈交换护甲碎片的事情||'''与托妮利雅谈论更换护甲套装的事情'''||和托尼利亚谈谈交换护甲碎片的事情
+|-
+|Speak to Tsun to return to Skyrim||和苏恩谈谈回天际的事情||和苏恩谈谈回天际的事情||'''与苏恩谈论回去天霜的事情'''||'''和苏恩谈谈回天际省的事情'''
+|-
+|Speak to Valerica||与瓦蕾莉卡交谈||与瓦蕾莉卡交谈||'''与维尔瑞卡交谈'''||'''与瓦雷莉卡交谈'''
+|-
+|Speak to Verulus about the Hall of the Dead||和维鲁鲁斯谈谈亡者之厅的事||和维鲁鲁斯谈谈亡者之厅的事||'''与维鲁鲁斯谈论亡者之厅的事情'''||和维鲁鲁斯谈谈亡者之厅的事
+|-
+|Speak to Vex||和威克斯谈谈||和威克斯谈谈||'''与薇克丝交谈'''||'''和“小烦”谈谈'''
+|-
+|Speak to Viarmo at the Bards College||到吟游诗人学院和维阿墨对话||到吟游诗人学院和维阿墨对话||'''进入诗人学院与维阿墨交谈'''||到吟游诗人学院和维阿墨对话
+|-
+|Speak to Viriya about taking over the bounty||    ||'''和维莉娅谈谈悬赏的事'''||    ||'''和薇利亚谈论接下悬赏的事'''
+|-
+|Speak to Ysolda about Sleeping Tree Sap||和伊索尔达谈谈关于沉睡之树的汁液的事情||和伊索尔达谈谈关于沉睡之树的汁液的事情||'''与伊索尔达谈论关于沉睡之树的汁液的事情'''||和伊索尔达谈谈关于沉睡之树的汁液的事情
+|-
+|Speak to Zaria||    ||'''和萨莉亚交谈'''||    ||'''和萨莉亚交谈'''
+|-
+|Speak to the Greybeards||与灰胡子们交谈||与灰胡子们交谈||与灰胡子们交谈||与灰胡子们交谈
+|-
+|Speak to the Jarl of Dawnstar about the land for sale||和晨星的领主谈谈关于土地出售一事||和晨星的领主谈谈关于土地出售一事||'''和晨星城领主讨论关于土地使用权的购买事宜'''||'''和晨星镇的领主谈谈关于土地出售一事'''
+|-
+|Speak to the Jarl of Riften||和裂谷城领主交谈||和裂谷城领主交谈||'''与裂谷城领主交谈'''||和裂谷城领主交谈
+|-
+|Speak to the Steward of Falkreath about the land for sale||与佛克瑞斯领主的总管讨论关于土地出售的事宜||与佛克瑞斯领主的总管讨论关于土地出售的事宜||'''和佛克瑞斯城总管讨论关于土地使用权的购买事宜'''||与佛克瑞斯领主的总管讨论关于土地出售的事宜
+|-
+|Speak to the Steward of Morthal about the land for sale||和墨索尔的总管谈谈关于土地出售一事||和墨索尔的总管谈谈关于土地出售一事||'''和墨索尔城总管讨论关于土地使用权的购买事宜'''||'''和墨索尔城的总管谈谈关于土地出售一事'''
+|-
+|Speak to the fighter in Shor's Stone||    ||'''与朔尔之石的战士交谈'''||    ||'''到朔尔之石和斗士交谈'''
+|-
+|Speak to the innkepper at <Alias=InnRorikstead> or <Alias=InnWhiterun>||    ||'''与<Alias=InnRorikstead>或<Alias=InnWhiterun>的旅店老板交谈'''||    ||'''到<Alias=InnRorikstead>或<Alias=InnWhiterun>和客栈老板交谈'''
+|-
+|Speak to the witchhunter about the abandoned house||和女巫猎人谈谈废弃小屋的事情||和女巫猎人谈谈废弃小屋的事情||'''与猎巫者谈谈废弃房屋的事情'''||'''和女巫猎人谈谈废弃房屋的事情'''
+|-
+|Speak with Bryling||和白灵谈谈||和白灵谈谈||'''与白灵交谈'''||和白灵谈谈
+|-
+|Speak with Calcelmo||和卡塞莫交谈||和卡塞莫交谈||'''与卡塞莫交谈'''||和卡塞莫交谈
+|-
+|Speak with Constance Michel about Adoption||和康斯坦斯·米切尔讨论领养事宜||和康斯坦斯·米切尔讨论领养事宜||'''和康斯坦丝·米歇尔讨论有关领养孤儿的事宜'''||'''和康斯坦斯．米切尔讨论领养事宜'''
+|-
+|Speak with Mirabelle Ervine||和米拉贝勒·娥文交谈||'''和米拉贝尔·厄文交谈'''||'''与米拉贝勒·娥文交谈'''||'''和米拉贝勒．娥文交谈'''
+|-
+|Speak with Nazir||与纳兹尔交谈||与纳兹尔交谈||与纳兹尔交谈||与纳兹尔交谈
+|-
+|Speak with the leader of the Companions||和战友团的首领谈谈||和战友团的首领谈谈||'''与战友团的核心圈交谈'''||和战友团的首领谈谈
+|-
+|Speak with the leader of the Dawnguard||与黎明守卫的领袖交谈||与黎明守卫的领袖交谈||'''与黎明守卫的首领交谈'''||'''与暮光守卫的领袖交谈'''
+|-
+|Speaking With Silence||尽在不言中||尽在不言中||'''无声的控诉'''||尽在不言中
+|-
+|Special Delivery||特殊递送||特殊递送||    ||特殊递送
+|-
+|Spirits Away||    ||'''遗失烈酒'''||    ||'''神隐'''
+|-
+|Spread the Love||传播爱意||传播爱意||    ||传播爱意
+|-
+|Staada Quest||    ||'''史塔达任务'''||    ||'''丝塔达任务'''
+|-
+|Stabilized||稳定||稳定||    ||稳定
+|-
+|Stables||马厩||马厩||马厩||马厩
+|-
+|Steal Stendarr's Hammer||    ||'''偷走斯丹达尔之锤'''||    ||'''偷走斯坦德尔的锤子'''
+|-
+|Steal statue of Dibella||偷取蒂贝拉雕像||偷取蒂贝拉雕像||'''偷取迪贝拉雕像'''||偷取蒂贝拉雕像
+|-
+|Steal the <Alias=QuestItem> for <Alias.ShortName=QuestGiver>||为<Alias.ShortName=QuestGiver>偷走<Alias=QuestItem>||为<Alias.ShortName=QuestGiver>偷走<Alias=QuestItem>||为<Alias.ShortName=QuestGiver>偷走<Alias=QuestItem>||为<Alias.ShortName=QuestGiver>偷走<Alias=QuestItem>
+|-
+|Steal the <Alias=QuestItem> for Olda||为奥尔达偷走<Alias=QuestItem>||为奥尔达偷走<Alias=QuestItem>||为奥尔达偷走<Alias=QuestItem>||为奥尔达偷走<Alias=QuestItem>
+|-
+|Steal the statue in the Temple of Dibella||偷走蒂贝拉神殿的雕像||偷走蒂贝拉神殿的雕像||'''偷走迪贝拉神殿的雕像'''||偷走蒂贝拉神殿的雕像
+|-
+|Steal, Thugs hunt player||    ||    ||    ||'''偷窃，暴徒在猎杀玩家'''
+|-
+|Stealer of Souls||    ||'''灵魂窃取'''||    ||'''灵魂窃贼'''
+|-
+|Stealing Plans||盗窃计划||盗窃计划||'''偷取计划'''||盗窃计划
+|-
+|Stocking Up||    ||'''囤积货品'''||    ||'''补充库存'''
+|-
+|Stoking the Flames||燃起烈焰||燃起烈焰||    ||'''煽动烈焰'''
+|-
+|Stormcloak Scout Patrol||风暴斗篷斥候巡逻||风暴斗篷斥候巡逻||    ||'''风暴斗篷斥候巡逻队'''
+|-
+|Stormcloaks on the Road||在路上的风暴斗篷成员||在路上的风暴斗篷成员||    ||在路上的风暴斗篷成员
+|-
+|Striking the Heart||直击命脉||直击命脉||'''打击心灵'''||'''打击心灵'''
+|-
+|Summerset Shadows||夏暮暗影||夏暮暗影||夏暮暗影||夏暮暗影
+|-
+|Summon and subdue an Unbound Dremora||召唤并制服一只不受束缚的魔人||召唤并制服一只不受束缚的魔人||'''召唤并制服一个无约束的魔人'''||召唤并制服一只不受束缚的魔人
+|-
+|Supply Line||补给线||补给线||    ||补给线
+|-
+|Supply and Demand||供求关系||供求关系||    ||供求关系
+|-
+|Survival Mode Main Quest||    ||    ||    ||'''生存模式主任务'''
+|-
+|Survive Darkfall Passage||于暗临通道中存活||于暗临通道中存活||'''活着从暗瀑通道离开'''||于暗临通道中存活
+|-
+|Swift as an Arrow||    ||'''迅捷如箭'''||    ||'''敏捷如箭'''
+|-
+|TG00 Maul Handler||TG00伤害训练者||TG00伤害训练者||    ||TG00伤害训练者
+|-
+|Tag, you're it!||嘿，就是你了！||嘿，就是你了！||    ||'''喂，就是你了！'''
+|-
+|Take Shagrol's Hammer back to Largashbur||将煞葛洛之锤带回拉加施布尔||将煞葛洛之锤带回拉加施布尔||将煞葛洛之锤带回拉加施布尔||将煞葛洛之锤带回拉加施布尔
+|-
+|Take Up Arms||拿起武器||拿起武器||拿起武器||拿起武器
+|-
+|Take the Fork of Horripilation||    ||'''拿走惊骇之叉'''||    ||'''拿走寒毛之叉'''
+|-
+|Take the hidden treasure||拿走隐藏的财宝||拿走隐藏的财宝||拿走隐藏的财宝||拿走隐藏的财宝
+|-
+|Take the wedding ring||拿走婚戒||拿走婚戒||拿走婚戒||拿走婚戒
+|-
+|Taking Care of Business||照顾生意||照顾生意||照顾生意||照顾生意
+|-
+|Talk to <Alias.ShortName=Target> about <Alias.ShortName=Questgiver>||和<Alias.ShortName=Target>谈谈关于<Alias.ShortName=Questgiver>的事||和<Alias.ShortName=Target>谈谈关于<Alias.ShortName=Questgiver>的事||'''与<Alias.ShortName=Target>谈论关于<Alias.ShortName=Questgiver>的事'''||和<Alias.ShortName=Target>谈谈关于<Alias.ShortName=Questgiver>的事
+|-
+|Talk to <Alias=Overseer> about purchasing livestock||    ||'''和<Alias=Overseer>交谈购买牲畜事宜'''||    ||'''和<Alias=Overseer>交谈，讨论购买家畜的事'''
+|-
+|Talk to <Alias=RiverwoodFriend> in Riverwood||和河木镇的<Alias=RiverwoodFriend>交谈||和河木镇的<Alias=RiverwoodFriend>交谈||'''与河木镇的<Alias=RiverwoodFriend>交谈'''||和河木镇的<Alias=RiverwoodFriend>交谈
+|-
+|Talk to <Alias=Victim>||与<Alias=Victim>交谈||与<Alias=Victim>交谈||与<Alias=Victim>交谈||与<Alias=Victim>交谈
+|-
+|Talk to Adelaisa||与阿德莱萨交谈||与阿德莱萨交谈||与阿德莱萨交谈||与阿德莱萨交谈
+|-
+|Talk to Aela||和艾拉交谈||和艾拉交谈||'''与艾拉交谈'''||和艾拉交谈
+|-
+|Talk to Arngeir||和艾恩盖尔交谈||和艾恩盖尔交谈||'''与艾恩盖尔交谈'''||'''与艾恩盖尔交谈'''
+|-
+|Talk to Aventus Aretino||与阿文图斯·艾瑞提诺交谈||与阿文图斯·艾瑞提诺交谈||与阿文图斯·艾瑞提诺交谈||'''与阿文图斯．艾瑞提诺交谈'''
+|-
+|Talk to Aventus Aretino||和阿文图斯·艾瑞提诺谈谈||和阿文图斯·艾瑞提诺谈谈||'''与阿文图斯·艾瑞提诺交谈'''||'''和阿文图斯．艾瑞提诺谈谈'''
+|-
+|Talk to Baldor Iron-Shaper||和保德·塑铁交谈||'''和“塑铁者”保德交谈'''||'''与霸铎·塑铁交谈'''||'''和霸铎．塑铁交谈'''
+|-
+|Talk to Brynjolf about joining the Thieves Guild||和布林乔夫谈谈加入盗贼公会的事情||'''和布林纽夫谈谈加入盗贼公会的事情'''||'''与布林乔夫谈论加入盗贼公会的事情'''||和布林乔夫谈谈加入盗贼公会的事情
+|-
+|Talk to Danica about the Gildergreen being destroyed||和丹尼卡谈谈镀绿树被摧毁的事||'''和丹尼卡谈谈镀翠树被摧毁的事'''||'''与丹尼卡谈谈翠苒树枯死的事情'''||和丹尼卡谈谈镀绿树被摧毁的事
+|-
+|Talk to Delphine||和戴尔芬交谈||'''和戴尔菲娜交谈'''||'''与戴尔菲娜交谈'''||'''和戴尔菲娜交谈'''
+|-
+|Talk to Elisif||与艾利西弗交谈||与艾利西弗交谈||'''与艾莉希芙交谈'''||与艾利西弗交谈
+|-
+|Talk to Farengar||和法仁加谈谈||和法仁加谈谈||'''与法仁加交谈'''||和法仁加谈谈
+|-
+|Talk to Grisvar about getting a shiv||和格利斯瓦谈谈有关如何拿到小刀的事||和格利斯瓦谈谈有关如何拿到小刀的事||'''与格利斯瓦谈论取得扁钻的事情'''||和格利斯瓦谈谈有关如何拿到小刀的事
+|-
+|Talk to Jaree-Ra about possible employment||和加雷-拉谈谈有什么工作||和加雷-拉谈谈有什么工作||'''与加雷·拉谈论有什么工作'''||和加雷-拉谈谈有什么工作
+|-
+|Talk to Jarl Balgruuf||和巴尔古夫领主交谈||和巴尔古夫领主交谈||'''与巴尔古夫领主交谈'''||和巴尔古夫领主交谈
+|-
+|Talk to Lucan about the robbery||和路坎谈谈关于抢劫的事情||'''和卢坎谈谈关于抢劫的事情'''||'''与路坎谈论关于抢劫的事情'''||和路坎谈谈关于抢劫的事情
+|-
+|Talk to Maven about Vald's debt||和玛雯谈谈沃德的债务问题||和玛雯谈谈沃德的债务问题||'''与玛雯谈论沃德的债务问题'''||和玛雯谈谈沃德的债务问题
+|-
+|Talk to Mralki about Erik||和穆拉基谈谈艾瑞克的事||和穆拉基谈谈艾瑞克的事||'''与穆拉基谈论艾瑞克的事情'''||和穆拉基谈谈艾瑞克的事
+|-
+|Talk to Muiri||和暮蕊交谈||和暮蕊交谈||'''与暮蕊交谈'''||和暮蕊交谈
+|-
+|Talk to Neloth||和尼洛施交谈||和尼洛施交谈||'''与尼洛施交谈'''||和尼洛施交谈
+|-
+|Talk to Orthus Endario at the East Empire Company in Windhelm||去跟位于风舵城的东帝国贸易公司的奥苏斯·恩达里奥谈话||去跟位于风舵城的东帝国贸易公司的奥苏斯·恩达里奥谈话||'''前往与位于风舵城的东帝国贸易公司的奥苏斯·恩达利奥谈话'''||'''去跟位于风舵城的东帝国贸易公司的奥苏斯．恩达里奥谈话'''
+|-
+|Talk to Paarthurnax||与帕图纳克斯交谈||与帕图纳克斯交谈||与帕图纳克斯交谈||'''和帕图纳克斯交谈'''
+|-
+|Talk to Rikke about joining the Imperial Legion||和瑞姬谈谈关于加入帝国军团的事||和瑞姬谈谈关于加入帝国军团的事||'''与瑞姬谈论关于加入帝国军团的事情'''||和瑞姬谈谈关于加入帝国军团的事
+|-
+|Talk to Sinding||和辛丁交谈||和辛丁交谈||'''与辛丁交谈'''||和辛丁交谈
+|-
+|Talk to the Companions leaders for work||和战友团干部讨论工作||和战友团干部讨论工作||'''与战友团的核心圈谈论工作'''||和战友团干部讨论工作
+|-
+|Talk to the Ebony Warrior||和黑檀战士交谈||'''和黑檀岩战士交谈'''||'''与玄曜石战士交谈'''||'''和黑檀岩战士交谈'''
+|-
+|Talk to the Jarl||和领主交谈||和领主交谈||'''与领主交谈'''||和领主交谈
+|-
+|Talk to the strange jester||和奇怪的小丑谈谈||和奇怪的小丑谈谈||'''与奇怪的小丑交谈'''||和奇怪的小丑谈谈
+|-
+|Talk with <Alias=FactionLeader>.||和<Alias=FactionLeader>交谈||和<Alias=FactionLeader>交谈||'''与<Alias=FactionLeader>交谈'''||和<Alias=FactionLeader>交谈
+|-
+|Tame Dragon controller||驯龙控制器||驯龙控制器||驯龙控制器||驯龙控制器
+|-
+|Taunting Adventurer||嘲弄的冒险家||嘲弄的冒险家||    ||嘲弄的冒险家
+|-
+|Tell <Alias.ShortName=Questgiver> the bandit is dead||告诉<Alias.ShortName=Questgiver>强盗已经死了||告诉<Alias.ShortName=Questgiver>强盗已经死了||告诉<Alias.ShortName=Questgiver>强盗已经死了||告诉<Alias.ShortName=Questgiver>强盗已经死了
+|-
+|Tell Atar that Ainethach has been dealt with||告诉阿塔尔艾尼塔克的问题已经被解决了||告诉阿塔尔艾尼塔克的问题已经被解决了||'''告诉阿塔尔艾尼塔克的问题已经被处理了'''||告诉阿塔尔艾尼塔克的问题已经被解决了
+|-
+|Tell Bralsa Drel she's welcome at the Retching Netch||告诉贝拉莎·椎尔她可以进入呕吐气母了||告诉贝拉莎·椎尔她可以进入呕吐气母了||'''告诉贝拉莎·椎尔她可以进入呕吐浮蜇了'''||'''告诉贝拉莎．椎尔她可以进入呕吐耐区了'''
+|-
+|Tell Calcelmo that Nimhe is dead||把尼姆赫的死讯告诉卡塞莫||把尼姆赫的死讯告诉卡塞莫||把尼姆赫的死讯告诉卡塞莫||把尼姆赫的死讯告诉卡塞莫
+|-
+|Tell Dengeir that Vighar is dead||把维吉纳的死讯告诉丹格尔||把维吉纳的死讯告诉丹格尔||'''把维戈哈的死讯告诉丹格尔'''||把维吉纳的死讯告诉丹格尔
+|-
+|Tell Perth that the Draugr are dead||告诉佩尔斯尸鬼死了||告诉佩尔斯尸鬼死了||'''告诉佩尔斯，尸鬼都清除了'''||'''告诉佩尔斯，诺德亡灵都死了'''
+|-
+|Telrav's Request||泰尔拉夫的请求||泰尔拉夫的请求||泰尔拉夫的请求||泰尔拉夫的请求
+|-
+|Telvanni Research||泰尔瓦尼研究||泰尔瓦尼研究||泰尔瓦尼研究||泰尔瓦尼研究
+|-
+|Tending the Flames||薪火相传||薪火相传||'''焚王节庆'''||薪火相传
+|-
+|Test J'zargo's Flame Cloak spell on the undead (<Global=MGRJ1Test>/<Global=MGRJ1Total>)||拿扎格的火焰斗篷卷轴在亡灵生物身上试验（<Global=MGRJ1Test>/<Global=MGRJ1Total>）||'''拿吉'扎格的火焰斗篷卷轴在亡灵生物身上试验（<Global=MGRJ1Test>/<Global=MGRJ1Total>）'''||'''使用吉扎格的火焰斗篷术卷轴对不死者做试验（<Global=MGRJ1Test>/<Global=MGRJ1Total>）'''||'''拿扎格的烈焰斗篷卷轴在亡灵生物身上试验（<Global=MGRJ1Test>/<Global=MGRJ1Total>）'''
+|-
+|Thalmor traveling on the road||在路上的梭默||在路上的梭默||    ||在路上的梭默
+|-
+|Thalmor vs Player||    ||    ||    ||'''梭默对玩家'''
+|-
+|Thane of Eastmarch||东陲领武卫||东陲领武卫||    ||东陲领武卫
+|-
+|Thane of Falkreath||佛克瑞斯武卫||佛克瑞斯武卫||    ||佛克瑞斯武卫
+|-
+|Thane of Haafingar||海芬加领武卫||海芬加领武卫||    ||海芬加领武卫
+|-
+|Thane of Hjaalmarch||希雅陲领武卫||希雅陲领武卫||    ||希雅陲领武卫
+|-
+|Thane of Whiterun||白漫城武卫||白漫城武卫||    ||'''白漫武卫'''
+|-
+|Thane of Winterhold||冬堡武卫||冬堡武卫||    ||冬堡武卫
+|-
+|Thane of the Pale||苍原领武卫||苍原领武卫||    ||苍原领武卫
+|-
+|Thane of the Reach||边塞领武卫||'''河湾地武卫'''||    ||边塞领武卫
+|-
+|That Was Always There||一直都在原地||一直都在原地||    ||一直都在原地
+|-
+|The Affairs of Hagravens||乌鸦鬼婆事务||乌鸦鬼婆事务||乌鸦鬼婆事务||乌鸦鬼婆事务
+|-
+|The Arms of Chaos||    ||'''混沌之手'''||    ||'''混沌之臂'''
+|-
+|The Battle for <Alias=Fort>||<Alias=Fort>之战||<Alias=Fort>之战||<Alias=Fort>之战||<Alias=Fort>之战
+|-
+|The Battle of Fort Sungard||森加德堡垒之战||'''日境要塞之战'''||森加德堡垒之战||森加德堡垒之战
+|-
+|The Bedlam Job||骚乱任务||骚乱任务||'''骚乱工作'''||骚乱任务
+|-
+|The Black Star||黑暗之星||黑暗之星||'''黑之星'''||黑暗之星
+|-
+|The Blessings of Nature||自然的赐福||自然的赐福||自然的赐福||自然的赐福
+|-
+|The Bloodstone Chalice||血石圣杯||血石圣杯||'''血玉髓圣杯'''||血石圣杯
+|-
+|The Bonds of Matrimony||婚姻的牵绊||婚姻的牵绊||'''婚姻的枷锁'''||婚姻的牵绊
+|-
+|The Book of Love||爱情之书||爱情之书||爱情之书||爱情之书
+|-
+|The Break of Dawn||破晓||破晓||破晓||破晓
+|-
+|The Burglary Job||偷窃任务||偷窃任务||'''盗窃工作'''||偷窃任务
+|-
+|The Cause||    ||'''危机余波'''||    ||'''志业'''
+|-
+|The Chief of Thirsk Hall||瑟斯科大厅的酋长||瑟斯科大厅的酋长||瑟斯科大厅的酋长||瑟斯科大厅的酋长
+|-
+|The Consequences||    ||'''危机再起'''||    ||'''后果'''
+|-
+|The Cure for Madness||治愈疯狂||治愈疯狂||'''治疗疯狂'''||治愈疯狂
+|-
+|The Cursed Tribe||受诅咒的部落||受诅咒的部落||受诅咒的部落||受诅咒的部落
+|-
+|The Dainty Sload||小蛞蝓号||'''小蛞蟾人号'''||'''优雅蛞蟾人号'''||小蛞蝓号
+|-
+|The Dark Brotherhood Forever||永远的黑暗兄弟会||永远的黑暗兄弟会||永远的黑暗兄弟会||永远的黑暗兄弟会
+|-
+|The Dwarven Crown||    ||'''矮人王冠'''||    ||'''矮人王冠'''
+|-
+|The Dwarven Horse||    ||'''铜牛流马'''||    ||'''矮人马'''
+|-
+|The Ebony Warrior||黑檀战士||'''黑檀岩战士'''||'''玄曜石战士'''||'''黑檀岩战士'''
+|-
+|The Edge of Ruin||    ||'''毁灭边缘'''||    ||'''毁灭之沿'''
+|-
+|The Eye of Magnus||玛格努斯之眼||玛格努斯之眼||玛格努斯之眼||玛格努斯之眼
+|-
+|The Fallen||堕落者||堕落者||'''殒灭者'''||堕落者
+|-
+|The Fate of the Skaal||斯卡尔的命运||斯卡尔的命运||斯卡尔的命运||斯卡尔的命运
+|-
+|The Final Descent||最终探索||最终探索||'''最后的探勘'''||最终探索
+|-
+|The Final Descent Priest||末裔祭司||末裔祭司||    ||末裔祭司
+|-
+|The Fishing Job||钓鱼任务||钓鱼任务||'''钓鱼工作'''||钓鱼任务
+|-
+|The Forgemaster's Fingers||熔炉大师的手指||熔炉大师的手指||'''锻炉大师的手指'''||熔炉大师的手指
+|-
+|The Forsworn Conspiracy||弃誓者叛乱||弃誓者叛乱||'''拒誓者叛乱'''||弃誓者叛乱
+|-
+|The Gardener of Men||凡人的园丁||凡人的园丁||'''众生的园丁'''||凡人的园丁
+|-
+|The Ghost of Old Hroldan||古赫洛登的鬼魂||古赫洛登的鬼魂||    ||古赫洛登的鬼魂
+|-
+|The Gift||礼物||礼物||'''赐与'''||礼物
+|-
+|The Golden Claw||黄金龙爪||黄金龙爪||黄金龙爪||黄金龙爪
+|-
+|The Gray Cowl of Nocturnal||    ||'''诺克图娜尔的灰狐面具'''||    ||'''诺克图娜尔的灰巾'''
+|-
+|The Heart of Dibella||蒂贝拉之心||蒂贝拉之心||'''迪贝拉之心'''||蒂贝拉之心
+|-
+|The Heist Job||抢劫任务||抢劫任务||'''抢劫工作'''||抢劫任务
+|-
+|The Horn of Jurgen Windcaller||约根·唤风号角||'''“唤风者”约根号角'''||'''唤风者约根的号角'''||'''约根．唤风号角'''
+|-
+|The House of Horrors||恐惧之屋||恐惧之屋||恐惧之屋||恐惧之屋
+|-
+|The Hunt||猎杀行动||猎杀行动||'''追猎'''||猎杀行动
+|-
+|The Jagged Crown||锯齿王冠||锯齿王冠||锯齿王冠||锯齿王冠
+|-
+|The Kagrumez Gauntlet||卡谷梅兹腕甲||卡谷梅兹腕甲||'''库谷梅兹护手'''||卡谷梅兹腕甲
+|-
+|The Litany of Larceny||连续作案||连续作案||连续作案||连续作案
+|-
+|The Lost Expedition||失落的远征||失落的远征||失落的远征||失落的远征
+|-
+|The Lost Library||    ||'''失落的图书馆'''||    ||'''遗失的藏书'''
+|-
+|The Lost Paladin||    ||'''失落战士'''||    ||'''失落圣骑士'''
+|-
+|The Lost Verse||失落的诗词||失落的诗词||失落的诗词||失落的诗词
+|-
+|The Lover's Requital||情人的酬劳||情人的酬劳||    ||情人的酬劳
+|-
+|The Man Who Cried Wolf||狼来了||狼来了||狼来了||狼来了
+|-
+|The Mind of Madness||疯狂的思想||疯狂的思想||疯狂的思想||疯狂的思想
+|-
+|The Missing Apprentices||失踪的学徒||失踪的学徒||    ||失踪的学徒
+|-
+|The Numbers Job||帐目任务||帐目任务||'''账目工作'''||'''账目任务'''
+|-
+|The Only Cure||唯一的治疗方式||'''别无另方'''||'''唯一的解药'''||唯一的治疗方式
+|-
+|The Pale Lady||灰白夫人||灰白夫人||'''苍白夫人'''||灰白夫人
+|-
+|The Path of Knowledge||知识之道||知识之道||知识之道||知识之道
+|-
+|The Pilgrim's Path||    ||'''朝圣之路'''||    ||'''朝圣者之路'''
+|-
+|The Pit||    ||'''地窖'''||    ||'''斗兽场'''
+|-
+|The Pursuit||追捕||追捕||'''追捕行动'''||追捕
+|-
+|The Raid||突袭||突袭||    ||突袭
+|-
+|The Restless||    ||'''不宁之徒'''||    ||'''不宁之徒'''
+|-
+|The Rising Dead||    ||'''围城丧尸'''||    ||'''活死人'''
+|-
+|The Sanctuary and the Manufactory||    ||'''秘所与工坊'''||    ||'''圣所与制造厂'''
+|-
+|The Shill Job||诈骗任务||诈骗任务||'''诱骗工作'''||诈骗任务
+|-
+|The Silence Has Been Broken||打破静寂||打破静寂||'''打破沉默'''||打破静寂
+|-
+|The Silver Hand||白银之手||白银之手||'''银之手'''||白银之手
+|-
+|The Spiced Wine||香料酒||香料酒||    ||香料酒
+|-
+|The Staff of Hasedoki||    ||'''哈泽多基之杖'''||    ||'''哈塞朵其法杖'''
+|-
+|The Staff of Magnus||玛格努斯之杖||玛格努斯之杖||玛格努斯之杖||玛格努斯之杖
+|-
+|The Straw that Broke||破镜无法重圆||破镜无法重圆||    ||破镜无法重圆
+|-
+|The Sweep Job||清扫任务||清扫任务||'''清扫工作'''||清扫任务
+|-
+|The Taste of Death||死亡的味道||死亡的味道||死亡的味道||死亡的味道
+|-
+|The Temple of Miraak||秘拉克神殿||'''密拉克神殿'''||'''密拉克神殿'''||秘拉克神殿
+|-
+|The Throat of the World||世界之喉||世界之喉||世界之喉||'''世界咽喉'''
+|-
+|The Ultimate Feast||    ||'''超级盛宴'''||    ||'''终极大餐'''
+|-
+|The Unquiet Dead||    ||'''不得安息'''||    ||'''不宁亡者'''
+|-
+|The Way of the Voice||龙吼之道||龙吼之道||'''吼声之道'''||龙吼之道
+|-
+|The Whispering Door||低语之门||低语之门||低语之门||低语之门
+|-
+|The White Phial||雪瓶||雪瓶||雪瓶||雪瓶
+|-
+|The Wolf Queen Awakened||狼心女王苏醒||'''狼女王苏醒'''||'''狼女王苏醒'''||'''狼女王苏醒'''
+|-
+|The Words of Power||力量之语||力量之语||    ||力量之语
+|-
+|The World-Eater's Eyrie||世界吞噬者之巢||世界吞噬者之巢||世界吞噬者之巢||世界吞噬者之巢
+|-
+|The drunken dare||醉酒挑战||醉酒挑战||    ||醉酒挑战
+|-
+|Thieves Guild Caravan Fence Quest||    ||    ||    ||'''盗贼公会商队销赃者任务'''
+|-
+|Thieves Guild Dialogue||    ||    ||    ||'''盗贼公会对话'''
+|-
+|Thieves Guild Fence Handler||    ||    ||    ||'''盗贼公会销赃者处理者'''
+|-
+|Thieves Guild Jarl Quest||盗贼公会领主任务||盗贼公会领主任务||盗贼公会领主任务||盗贼公会领主任务
+|-
+|Thirsk Rumors||关于瑟斯科的传闻||关于瑟斯科的传闻||关于瑟斯科的传闻||关于瑟斯科的传闻
+|-
+|Through a Glass, Darkly||    ||'''犹在镜中'''||    ||'''在漆黑中穿越玻璃'''
+|-
+|Tilted Scales||    ||'''斜鳞退散'''||    ||'''斜鳞退散'''
+|-
+|To Kill an Empire||弑杀皇帝||弑杀皇帝||'''弑君'''||'''弑王'''
+|-
+|Tolfdir the Absent-Minded||心不在焉的托夫迪尔||心不在焉的托夫迪尔||心不在焉的托夫迪尔||心不在焉的托夫迪尔
+|-
+|Torch Names||    ||'''火把名称'''||    ||'''火把名称'''
+|-
+|Torkild (WB01)||托基尔德 （WB01）||托基尔德 （WB01）||    ||    
+|-
+|Totems of Hircine||海尔辛图腾||海尔辛图腾||海尔辛图腾||海尔辛图腾
+|-
+|Touching the Sky||    ||    ||'''苍穹巡礼'''||    
+|-
+|Toying With The Dead||玩弄亡者||玩弄亡者||    ||玩弄亡者
+|-
+|Travel to Broken Oar Grotto||前往断桨洞窟||前往断桨洞窟||前往断桨洞窟||前往断桨洞窟
+|-
+|Travel to Irkngthand||前往苦闷之牙废墟||前往苦闷之牙废墟||'''前往厄肯萨德'''||前往苦闷之牙废墟
+|-
+|Travel to Nchardak with Neloth||和尼洛施一起前往钠查达克||和尼洛施一起前往钠查达克||'''与尼洛施一起前往努查达克'''||和尼洛施一起前往钠查达克
+|-
+|Travel to Solstheim||    ||'''前往索瑟海姆'''||    ||'''前往索瑟海姆'''
+|-
+|Treasure Hunter Objectives||宝藏猎人目标||宝藏猎人目标||    ||宝藏猎人目标
+|-
+|Trinity Restored||重建三人组||重建三人组||'''三人组恢复'''||重建三人组
+|-
+|Trius' Trinket||崔尤斯的小饰物||崔尤斯的小饰物||崔尤斯的小饰物||崔尤斯的小饰物
+|-
+|Trouble in Skyrim||天际麻烦||天际麻烦||'''天霜的麻烦'''||'''天际省的问题'''
+|-
+|Trueflame||    ||'''真焰'''||    ||'''真焰'''
+|-
+|Turn <Alias=Candidate> into a vampire||将<Alias=Candidate>转化成吸血鬼||将<Alias=Candidate>转化成吸血鬼||'''转变<Alias=Candidate>成为一个吸血鬼'''||将<Alias=Candidate>转化成吸血鬼
+|-
+|Turn Lod in to Kust||把罗德交给卡斯特||把罗德交给卡斯特||把罗德交给卡斯特||把罗德交给卡斯特
+|-
+|Tusked Terror||    ||'''尖牙惊魂'''||    ||'''獠牙恐惧'''
+|-
+|Tutorial||教学||教学||教学||教学
+|-
+|Two of a Kind||    ||'''成双成对'''||    ||'''一模一样'''
+|-
+|UI Movement Update Quest||    ||    ||    ||'''使用者界面移动更新任务'''
+|-
+|Unbound||死里逃生||死里逃生||死里逃生||死里逃生
+|-
+|Under New Management||新官上任||新官上任||'''重新开张'''||新官上任
+|-
+|Under Saarthal||萨瑟尔城之下||萨瑟尔城之下||萨瑟尔城之下||萨瑟尔城之下
+|-
+|Under the Table||不法交易||不法交易||    ||不法交易
+|-
+|Unearthed||出土||出土||出土||出土
+|-
+|Unfathomable Depths||高深莫测||高深莫测||'''莫测高深'''||高深莫测
+|-
+|Unholy Vigil||    ||'''不洁警戒'''||    ||'''不洁的守夜'''
+|-
+|Unlock the Sarcophagus in Ragnvald||开启拉根沃德的石棺||开启拉根沃德的石棺||开启拉根沃德的石棺||开启拉根沃德的石棺
+|-
+|Unlock the secret of Red Eagle's Tomb||揭开红鹰墓穴的秘密||揭开红鹰墓穴的秘密||揭开红鹰墓穴的秘密||揭开红鹰墓穴的秘密
+|-
+|Unseen Visions||无形幻景||无形幻景||'''看不见的幻象'''||'''看不见的幻景'''
+|-
+|Use Ward while <Alias=Student> attacks you.||在<Alias=Student>攻击你时使用结界法术||在<Alias=Student>攻击你时使用结界法术||在<Alias=Student>攻击你时使用结界法术||'''在<Alias=Student>攻击你时使用结界魔法'''
+|-
+|Use the "Bend Will" Shout on the Wind Stone||对风石使用“意志屈服”龙吼||对风石使用“意志屈服”龙吼||'''对风之石使用“意志屈服”龙吼'''||对风石使用“意志屈服”龙吼
+|-
+|Use the Arcane Enchanter||使用奥术附魔台||使用奥术附魔台||'''使用物品附魔台'''||'''使用附魔台'''
+|-
+|Use the Deathbrand Treasure Map to find the treasure||根据死亡烙印藏宝图找出宝藏||根据死亡烙印藏宝图找出宝藏||'''根据死亡烙印藏宝图寻找宝藏'''||根据死亡烙印藏宝图找出宝藏
+|-
+|Use the backdoor to gain access to Treva's Watch||通过后门进入翠瓦哨塔||通过后门进入翠瓦哨塔||通过后门进入翠瓦哨塔||通过后门进入翠瓦哨塔
+|-
+|Use the key to gain access to the Pelagius Wing||使用钥匙进入蓝宫的佩拉吉奥斯侧厅||使用钥匙进入蓝宫的佩拉吉奥斯侧厅||'''使用钥匙进入蓝宫的佩拉吉乌斯侧厅'''||使用钥匙进入蓝宫的佩拉吉奥斯侧厅
+|-
+|Vald's Debt||沃德的欠条||沃德的欠条||    ||沃德的欠条
+|-
+|Vampire Assassin||吸血鬼刺客||吸血鬼刺客||    ||    
+|-
+|Vampire Sleep||    ||    ||'''血族之寐'''||    
+|-
+|Vampire Trick||吸血鬼诡计||吸血鬼诡计||    ||吸血鬼诡计
+|-
+|Vampire and Death Hound||吸血鬼与死亡猎犬||吸血鬼与死亡猎犬||    ||'''吸血鬼与死亡地狱犬'''
+|-
+|Vigilant Remains (08 / Western Caches)||Vigilant Remains （08 / Western Caches）||Vigilant Remains （08 / Western Caches）||    ||    
+|-
+|Vile Whispers||    ||'''邪恶低语'''||    ||'''邪恶低语'''
+|-
+|Visit Honeyside, your new house||进入你的新家——甜蜜湾。||进入你的新家——甜蜜湾。||进入你的新家——甜蜜湾。||进入你的新家——甜蜜湾。
+|-
+|Visit Tundra Homestead, your new house||    ||'''进入你的新家——苔原宅邸。'''||    ||'''进入你的新家：苔原庄园'''
+|-
+|Visit the College of Winterhold||拜访冬堡学院||拜访冬堡学院||'''拜访冬驻学院'''||拜访冬堡学院
+|-
+|Visit the Riften Fishery||    ||'''前往裂谷城渔业'''||    ||'''前往裂谷城渔业'''
+|-
+|Visit the Shrine of Azura||拜访阿祖拉祭坛||拜访阿祖拉祭坛||'''拜访阿祖拉圣坛'''||拜访阿祖拉祭坛
+|-
+|Visit the fishing camp south of Riverwood||    ||'''拜访河木镇南边的钓鱼营地'''||    ||'''前往河木镇南方的钓鱼营地'''
+|-
+|Visit the museum in Dawnstar||拜访晨星的博物馆||拜访晨星的博物馆||'''拜访晨星城的博物馆'''||'''拜访晨星城的博物馆'''
+|-
+|Visit the werewolves at Frostmoon Crag||拜访霜月险崖的狼人们||拜访霜月险崖的狼人们||'''拜访霜月峭壁的狼人们'''||拜访霜月险崖的狼人们
+|-
+|Visit your spouse's house||前往你配偶的家||前往你配偶的家||'''前往你配偶的房子'''||'''前往你配偶的房子'''
+|-
+|Voice Powers||言语之力||言语之力||言语之力||言语之力
+|-
+|Wait 24 hours for the renovations to finish||    ||'''等待24小时工期'''||    ||'''等待24小时直到翻修完成'''
+|-
+|Wait for Brelyna's spell to wear off||等待布莱丽娜的魔法效果消失||等待布莱丽娜的魔法效果消失||'''等待布莱丽娜的法术效果消失'''||等待布莱丽娜的魔法效果消失
+|-
+|Wait for Telrav to return with your reward||等泰尔拉夫带着报酬回来||等泰尔拉夫带着报酬回来||等泰尔拉夫带着报酬回来||等泰尔拉夫带着报酬回来
+|-
+|Wait for a message from Ralis||等待雷利思的通知||等待雷利思的通知||等待雷利思的通知||等待雷利思的通知
+|-
+|Waking Nightmare||恶梦苏醒||恶梦苏醒||'''噩梦苏醒'''||恶梦苏醒
+|-
+|Watch for side effects||观察副作用||观察副作用||观察副作用||观察副作用
+|-
+|Wave Breaker||    ||'''止潮退浪'''||    ||'''破浪者'''
+|-
+|Werebears||熊人||熊人||    ||熊人
+|-
+|When the Cat's Away||    ||'''山中无老虎'''||    ||'''山中无老虎'''
+|-
+|Where You Hang Your Enemy's Head...||契约金的用途||契约金的用途||'''焕然亦腥'''||'''你要把敌人的头颅挂在哪里…'''
+|-
+|Whispers in the Dark||黑暗中的低语||黑暗中的低语||黑暗中的低语||黑暗中的低语
+|-
+|Wind and Sand||风与沙||风与沙||风与沙||风与沙
+|-
+|With Friends Like These...||有朋如此||有朋如此||'''如此患难之交……'''||'''结交如此之友……'''
+|-
+|Wizard Duel||法师对决||法师对决||    ||法师对决
+|-
+|Yngol's Barrow||英格尔冢||英格尔冢||英格尔冢||英格尔冢
+|-
+|You're it! Find someone.||轮到你了！去找人吧。||轮到你了！去找人吧。||'''这次换你了！去找其他人吧。'''||轮到你了！去找人吧。
+|-
+|You're it! Tag someone.||轮到你了！去找人吧。||轮到你了！去找人吧。||'''轮到你了！抓住别人吧。'''||轮到你了！去找人吧。
+|-
+|Zombie Attack||    ||    ||    ||'''僵尸攻击'''
+|-
+|[Optional] Find <Alias=Jarl> and escape with <Alias.PronounObj=Jarl> through the city.||（可选）找到<Alias=Jarl>并且穿越城市逃离<Alias.PronounObj=Jarl>。||（可选）找到<Alias=Jarl>并且穿越城市逃离<Alias.PronounObj=Jarl>。||'''（可选）寻找<Alias=Jarl>并且穿越城市逃离<Alias.PronounObj=Jarl>。'''||'''[选择性] 找到<Alias=Jarl>并且穿越城市逃离<Alias.PronounObj=Jarl>。'''
+|}

@@ -1,0 +1,58 @@
+{{Trail}}__NOTOC__
+'''Quests''' are sorted below by their type or starting location. There are 223 quests in the original base game (213 with journal entries and 10 without). ''[[Oblivion:Knights of the Nine|Knights of the Nine]]'' and the smaller [[Oblivion:Downloads|official downloads]] added 19 quests (18 with journal entries and 1 without). The ''[[Shivering:Shivering Isles|Shivering Isles]]'' expansion added 35 quests (33 with journal entries and 2 without). The Deluxe Edition of ''[[Oblivion:Oblivion Remastered|Oblivion Remastered]]'' added 4 quests.
+
+==Quests by Type==
+===Main Quest===
+{{Bullet Link|Main Quest|Walkthrough for all parts of the game's main quest}}
+
+===Faction Quests===
+{{Bullet Link|Arena (faction)|All quest objectives and related information for the Imperial City Arena}}
+{{Bullet Link|[[Oblivion:Dark Brotherhood#Dark Brotherhood Quests|Dark Brotherhood]]|All quests for the Dark Brotherhood}}
+{{Bullet Link|[[Oblivion:Fighters Guild#Quests|Fighters Guild]]|All quests for the Fighters Guild}}
+{{Bullet Link|[[Oblivion:Mages Guild#Quests|Mages Guild]]|All quests for the Mages Guild}}
+{{Bullet Link|[[Oblivion:Thieves Guild#Quests|Thieves Guild]]|All quests for the Thieves Guild}}
+
+===Other Quests===
+{{Bullet Link|[[Oblivion:Daedric Quests|Daedric Quests]]|All quests related to the Daedric shrines}}
+{{Bullet Link|[[Oblivion:Master Training|Master Training Quests]]|All quests related to receiving master training in all skills}}
+{{Bullet Link|Side Quests|All quests that are not part of a questline}}
+
+===Official Download Quests===
+{{Bullet Link|[[Oblivion:Side Quests#Official Download Quests|Official Download Quests]]|All quests added by the smaller official downloads}}
+{{Bullet Link|Knights of the Nine Quests|All quests added by the ''Knights of the Nine'' official download}}
+{{Bullet Link|[[Shivering:Quests|Shivering Isles Quests]]|All quests added by the ''Shivering Isles'' expansion}}
+{{Bullet Link|[[Oblivion:Remastered Changes#Deluxe Edition Quests|Oblivion Remastered Deluxe Edition Quests]]|All quests added in the Deluxe Edition of ''Oblivion Remastered''}}
+
+==Quests by Location==
+===Cities===
+{{Bullet Link|[[Oblivion:The Imperial City#Quests Starting Here|The Imperial City]]|All quests for the Imperial City}}
+{{Bullet Link|[[Oblivion:Anvil#Quests Starting Here|Anvil]]|All quests for the city of Anvil}}
+{{Bullet Link|[[Oblivion:Bravil#Quests Starting Here|Bravil]]|All quests for the city of Bravil}}
+{{Bullet Link|[[Oblivion:Bruma#Quests Starting Here|Bruma]]|All quests for the city of Bruma}}
+{{Bullet Link|[[Oblivion:Cheydinhal#Quests Starting Here|Cheydinhal]]|All quests for the city of Cheydinhal}}
+{{Bullet Link|[[Oblivion:Chorrol#Quests Starting Here|Chorrol]]|All quests for the city of Chorrol}}
+{{Bullet Link|[[Oblivion:Kvatch#Quests Starting Here|Kvatch]]|All quests for the city of Kvatch}}
+{{Bullet Link|[[Oblivion:Leyawiin#Quests Starting Here|Leyawiin]]|All quests for the city of Leyawiin}}
+{{Bullet Link|[[Oblivion:Skingrad#Quests Starting Here|Skingrad]]|All quests for the city of Skingrad}}
+
+===Settlements===
+{{Bullet Link|[[Oblivion:Aleswell#Quests Starting Here|Aleswell]]|Quests for the village of Aleswell}}
+{{Bullet Link|[[Oblivion:Faregyl Inn#Quests Starting Here|Faregyl Inn]]|Quests for the Faregyl Inn}}
+{{Bullet Link|[[Oblivion:Harm's Folly#Quests Starting Here|Harm's Folly]]|Quests for Harm's Folly Farm}}
+{{Bullet Link|[[Oblivion:Imperial Bridge Inn#Quests Starting Here|Imperial Bridge Inn]]|Quests for the Imperial Bridge Inn}}
+{{Bullet Link|[[Oblivion:Roxey Inn#Quests Starting Here|Roxey Inn]]|Quests for the Roxey Inn}}
+{{Bullet Link|[[Oblivion:Shardrock#Quests Starting Here|Shardrock Farm]]|Quests for Shardrock Farm}}
+{{Bullet Link|[[Oblivion:Shetcombe Farm#Quests Starting Here|Shetcombe Farm]]|Quests for Shetcombe Farm}}
+{{Bullet Link|[[Oblivion:Weye#Quests Starting Here|Weye]]|Quests for the village of Weye}}
+{{Bullet Link|[[Oblivion:Whitmond Farm#Quests Starting Here|Whitmond Farm]]|Quests for Whitmond Farm}}
+
+==Comprehensive Lists==
+{{Bullet Link|[[:Category:Oblivion-Quests|All Quests]]|An alphabetical list of all quests in ''Oblivion''}}
+{{Bullet Link|[[:File:User-Amsuko-PrintableQuestChecklist2.jpg|Printable List]]|A printable list of most quests in ''Oblivion''}}
+
+==Quest Timing==
+{{Bullet Link|Quest Timing|The best times to perform certain quests}}
+{{Bullet Link|Leveled Item Quests|An alphabetical list of quests which are rewarded with a leveled item}}
+
+==Unfinished Quests==
+{{Bullet Link|Unfinished Quests|Quests that were not completed by Bethesda and are not available in the unmodded game}}

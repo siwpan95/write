@@ -1,0 +1,1062 @@
+{{Trail|Items}} [[Category:Skyrim-Weapons| ]] [[Category:Skyrim-Armor| ]] [[Category:Skyrim-Clothing| ]]
+{{TOCright}}
+'''Quest items''' are objects needed to complete a specific [[Skyrim:Quests|quest]]. Usually they have to be given up when the quest has been completed, although some may be kept as a reward or part of a reward. They are often identical in appearance to a generic version of the item, and are only distinguishable from generic items by their name, the fact that they will not stack in your inventory with generic items, or because they have an enchantment. This list does '''not''' include items given as rewards for completing a quest, although some items may be kept as rewards after some quests. See [[Skyrim:Unique Items|Unique Items]], [[Skyrim:Leveled Items|Leveled Items]] and [[Skyrim:Artifacts|Artifacts]] for unique quest rewards.
+
+Quest items have no weight, even if they state otherwise in the menu. Some quest items will have no weight even before the apparent start of the quest. This can occur when the quest is running in the background, but has no journal entries yet.
+
+Items that can be improved have the necessary material provided in the table. If improvement will benefit from a perk, that is also given. Improving enchanted items always requires the Arcane Blacksmith perk.
+
+==Quest Weapons==
+{| class="wikitable sortable" 	
+!class=unsortable|
+!Name ([[Skyrim:Form ID|ID]])
+!class=sort_str|Type
+![[Skyrim:Grindstone|Tempering]]
+!width=22|{{Weight Icon}}
+!width=22|{{Value Icon}}
+!width=22|{{Damage Icon}}
+!class="unsortable"|Enchantment/Quest/Notes
+|-
+{{Item Data|icon=SR-icon-weapon-Iron Dagger.png|name=Alessandra's Dagger|id=00043e1e|type=1 Hand Dagger|temp=Not possible|weight=1|value=10|damage=5|quest=Pilgrimage}}
+{{Item Data|icon=SR-icon-weapon-Iron Sword.png|name=Amren's Family Sword|id=000647ac|type=1 Hand Sword|temp=Iron Ingot|weight=9|value=25|damage=7|quest=Dungeon Delving (Bandits)}}
+{{Item Data|icon=SR-icon-weapon-Ancient Nordic Pickaxe.png|name=Ancient Nordic Pickaxe|displayname=Ancient Nordic Pickaxe {{DB}}|id=xx0206f2|type=1 Hand War Axe|temp=Not possible|weight=10|value=500|damage=5|quest=An Axe to Find|notes=
+*This item is different from a regular [[Skyrim:Ancient Nordic Pickaxe|Ancient Nordic pickaxe]].
+*With version 1.0.5 of the [[Skyrim Mod:Unofficial Dragonborn Patch|Unofficial Dragonborn Patch]], it can now be improved with an iron ingot.
+}}
+{{Item Data|icon=SR-icon-weapon-SteelGreatsword.png|name=Balgruuf's Greatsword|savename=Balgruuf's Sword|id=000946fc|type=2 Hand Greatsword|temp=Steel Ingot|perk=Steel Smithing|weight=17|value=200|damage=17|quest=Greatsword for a Great Man}}
+{{Item Data|icon=SR-icon-weapon-SteelWarAxe.png|name=Balgruuf's War Axe|id=00013983|type=1 Hand Axe|temp=Steel Ingot|perk=Steel Smithing|weight=12|value=55|damage=9|notes=Identical in all ways to a [[Skyrim:Steel War Axe|Steel War Axe]] (including ID)|quest=Message to Whiterun (Imperial)}}
+{{Item Data|icon=SR-icon-weapon-AncientNordWarAxe.png|name=Ceremonial Axe|id=0008adfb|type=1 Hand War Axe|temp=Steel Ingot|perk=Steel Smithing|weight=14|value=5|damage=9|quest=Silenced Tongues}}
+{{Item Data|icon=SR-icon-weapon-AncientNordSword.png|name=Ceremonial Sword|id=0008adfc|type=1 Hand Sword|temp=Steel Ingot|perk=Steel Smithing|weight=12|value=5|damage=8|quest=Silenced Tongues}}
+{{Item Data|icon=SR-icon-weapon-DragonPriestStaff.png|name=Dragon Priest Staff|id=0004de5b|temp=N/A|type=Staff|weight=8|value=1431|damage=2|enchantment=''Sprayed on the ground, it creates a wall of lightning that does 50 points of shock damage per second:''
+* [[Skyrim:Shock Damage|Wall of Storms]], 8 pts for 1 sec
+* Charge/Cost = Uses: 2000/145=13|quest=The World-Eater's Eyrie}}
+{{Item Data|icon=SR-icon-weapon-Hunting Bow.png|name=Dravin's Bow|id=0006b9ad|type=Bow|temp=Leather Strips|perk=Steel Smithing|weight=7|value=50|damage=7|quest=Bow to the Master}}
+{{Item Data|icon=SR-icon-weapon-Glass Sword.png|name=Grimsever|id=00053379|type=1 Hand Sword{{intnote|Grimsever|†}}|temp=Refined Malachite|perk=Glass Smithing|weight=14|value=727|damage=12|enchantment= ''Target takes 15 points of frost damage to Health and Stamina:''
+* [[Skyrim:Frost Damage|Frost Damage]], 15 pts
+* [[Skyrim:Slow|Slow]], 50 pts for 3 secs
+* Charge/Cost = Uses: 1700/19=89
+* Disenchant: Yes|quest=Grimsever's Return|notes=
+*[[Skyrim:Shadowfoot Sanctum (place)|Shadowfoot Sanctum]]{{CC|Shadowfoot Sanctum}} contains a special holder for this item.}}
+{{Item Data|icon=SR-icon-weapon-SteelSword.png|name=Steel Sword|savename=Harrald's Sword|id=000557f5|type=1 Hand Sword|weight=10|value=23|damage=8|quest=Bring It!|temp=Not possible}}
+{{Item Data|icon=SR-icon-weapon-AncientNordSword.png|name=Hjalti's Sword|id=00068976|type=1 Hand Sword|temp=Not possible|weight=12|value=13|damage=8|quest=The Ghost of Old Hroldan}}
+{{Item Data|icon=SR-icon-weapon-Kahvozien'sFang.png|name=Kahvozein's Fang|id=000d0758|type=1 Hand Dagger|temp=Not possible|weight=5|value=9|damage=6|notes=
+*[[Skyrim:Myrwatch (place)|Myrwatch]]'s gallery{{CC|Myrwatch}} contains a special holder for this item.
+|quest=Alteration Ritual Spell}}
+{{Item Data|icon=|name=Phantom Sword|id=000771b9|temp=N/A|type=1 Hand Sword|weight=0|value=0|damage=1|notes=Not playable, invisible in inventory if added via console.}}
+{{Item Data|icon=SR-icon-weapon-SteelSword.png|name=Queen Freydis's Sword|savename=Queen Freydis's Sword|id=000ab85d|type=1 Hand Sword|temp=Steel Ingot|perk=Steel Smithing|weight=10|value=45|damage=8|quest=Dungeon Delving (Caves)}}
+{{Item Data|icon=SR-icon-weapon-AncientNordSword.png|name=Red Eagle's Fury|id=0009fd50|type=1 Hand Sword|temp=Steel Ingot|perk=Steel Smithing|weight=12|value=97|damage=8|enchantment=''Burns the target for 5 points. Targets on fire take extra damage:''
+* [[Skyrim:Fire Damage|Fire Damage]], 5 pts
+* Charge/Cost = Uses: 250/4=62
+* Disenchant: No|quest=Rebel's Cairn (quest)}}
+{{Item Data|icon=SR-icon-weapon-Rusty Mace.png|name=Rusty Mace|id=00022f0f|type=1 Hand Mace|temp=Not possible|weight=13|value=5|damage=7|quest=The House of Horrors}}
+{{Item Data|icon=SR-icon-weapon-OrcishWarhammer.png|name=Shagrol's Warhammer|id=000223fb|type=2 Hand Warhammer|temp=Orichalcum Ingot|perk=Orcish Smithing|weight=26|value=200|damage=21|quest=The Cursed Tribe}}
+{{Item Data|icon=SR-icon-weapon-The Rueful Axe.png|name=The Rueful Axe|displayname=[[Skyrim:The Rueful Axe|The Rueful Axe]]|id=0001c4e6|type=2 Hand Battleaxe|temp=Ebony Ingot|weight=10|value=1183|damage=22|enchantment=''Does 20 points of Stamina damage:''
+* [[Skyrim:Stamina Damage|Stamina Damage]], 20 pts
+* Charge/Cost = Uses: 3000/13=230
+* Disenchant: No|quest=A Daedra's Best Friend}}
+* Doesn't count as a [[Skyrim:Daedric Artifacts|Daedric Artifact]]
+{{Item Data|icon=SR-icon-weapon-SteelWarAxe.png|name=Ulfric's War Axe|id=00013983|type=1 Hand Axe|temp=Steel Ingot|perk=Steel Smithing|weight=12|value=55|damage=9|notes=Identical in all ways to a [[Skyrim:Steel War Axe|Steel War Axe]] (including ID)|quest=Message to Whiterun (Stormcloaks)}}
+{{Item Data|icon=SR-icon-weapon-SteelSword.png|name=Vilkas's Sword|id=0009f25c|type=1 Hand Sword|temp=Steel Ingot|perk=Steel Smithing|weight=10|value=70|damage=11|notes=Identical in all ways to a [[Skyrim:Skyforge Steel Sword|Skyforge Steel Sword]] (including ID)|quest=Take Up Arms}}
+{{Item Data|icon=SR-icon-weapon-Wuuthrad.png|name=Wuuthrad|displayname=[[Skyrim:Wuuthrad|Wuuthrad]]|id=000956b5|type=2 Hand Battleaxe|temp=Not possible|weight=25|value=2000|damage=25|notes=''Especially deadly to elves''
+* Does 1.2× damage to Altmer, Bosmer, Dunmer, and Falmer
+|quest=Glory of the Dead}}
+|}
+{{Note|Grimsever|†|Version 1.2.3 of the [[Skyrim Mod:Unofficial Skyrim Patch| Unofficial Skyrim Patch]] changes Grimsever to a two-handed sword to match [[Skyrim:Mjoll the Lioness|Mjoll]]'s skills.}}
+
+==Quest Apparel==
+{| class="wikitable sortable"
+!class=unsortable|
+!Name ([[Skyrim:Form ID|ID]])
+!Type
+![[Skyrim:Workbench|Tempering]]
+!width=22|{{Weight Icon}}
+!width=22|{{Value Icon}}
+!width=22|{{Armor Rating Icon}}
+!class="unsortable"|Enchantment/Quest/Notes
+|-
+| [[File:SR-icon-armor-SteelShield.png|48px]] || {{Anchor|Aela's Shield}} || Heavy Shield
+| [[Skyrim:Steel Ingot|Steel Ingot]];<br/>Perk:&nbsp;[[Skyrim:Steel Smithing|Steel]]
+| 12 || 150 || 24
+| Identical in all ways to a [[Skyrim:Steel Shield|Steel Shield]] (including ID)<br>Quest: '''[[Skyrim:Take Up Arms|Take Up Arms]]'''
+{{Item Data|icon=SR-icon-jewelry-AmuletOfArkay.png|name=Andurs' Amulet of Arkay|savename=Andurs' Amulet|id=00094e3e|temp=N/A|type=Amulet|weight=1|value=200|damage=0|enchantment=''Increases your health by 10 points:''
+* [[Skyrim:Fortify Health|Fortify Health]], 10 pts
+* Disenchant: No|quest=Andurs' Arkay Amulet}}
+{{Item Data|icon=SR-icon-jewelry-GoldRing.png|name=Asgeir's Wedding Band|savename=Asgeir's Band|id=000f5a1d|temp=N/A|type=Ring|weight=0.25|value=100|damage=0|quest=Bound Until Death}}
+{{Item Data|icon=SR-icon-jewelry-SilverSapphireNecklace.png|name=Bera's Necklace|displayname=Bera's Necklace {{DB}}|temp=N/A|type=Necklace|id=xx02c8ad|weight=0.5|value=580|damage=0|quest=Skaal Village Dialogue}}
+{{Item Data|icon=SR-icon-jewelry-SilverRing.png|name=Calcelmo's Ring|id=000d8482|temp=N/A|type=Ring|weight=0.25|value=20|damage=0|quest=Delivery to Calcelmo}}
+{{Item Data|icon=SR-icon-jewelry-RingOfHircine.png|name=Cursed Ring of Hircine|id=000f82fe|temp=N/A|type=Ring|weight=0.25|value=50|damage=0|enchantment=''Causes the wearer to randomly shift into beast form if already a werewolf''
+* 10% chance every game hour that the wearer will be forcibly changed into a werewolf when outdoors (with a limit of one check when sleeping, waiting, or fast-travelling). This only occurs if the player can already become a werewolf; otherwise, the ring has no effect.|quest=Ill Met By Moonlight}}
+{{Item Data|icon=SR-icon-jewelry-SilverRing.png|name=Fjola's Wedding Band|id=000d3bdb,000c0164|temp=N/A|type=Ring|weight=0.25|value=150|damage=0|quest=Mistwatch (quest)}}
+{{Item Data|icon=SR-icon-jewelry-SilverNecklace.png|name=Fjotli's Silver Locket|savename=Fjotli's Locket|id=0007d678|temp=N/A|type=Amulet|weight=0.5|value=30|damage=0|quest=Summerset Shadows}}
+{{Item Data|icon=SR-icon-jewelry-The Gauldur Amulet Middle.png|name=Gauldur Amulet Fragment|displayname=[[Skyrim:Gauldur Amulet Fragment|Gauldur Amulet Fragment]]|savename=Gauldur Frag Stam|id=0002d753|temp=N/A|type=Amulet|weight=0.5|value=753|damage=0|enchantment=''Increases your stamina by 30 points:''
+* [[Skyrim:Fortify Stamina|Fortify Stamina]], 30 pts
+* Disenchant: No|quest=Forbidden Legend}}
+{{Item Data|icon=SR-icon-jewelry-The Gauldur Amulet Bottom.png|name=Gauldur Amulet Fragment|savename=Gauldur Frag Magi|id=0002d75a|temp=N/A|type=Amulet|weight=0.5|value=795|damage=0|enchantment=''Increases your Magicka by 30 points:''
+* [[Skyrim:Fortify Magicka|Fortify Magicka]], 30 pts
+* Disenchant: No|quest=Forbidden Legend}}
+{{Item Data|icon=SR-icon-jewelry-The Gauldur Amulet Top.png|name=Gauldur Amulet Fragment|savename=Gauldur Frag Heal|id=0002d74f|temp=N/A|type=Amulet|weight=0.5|value=816|damage=0|enchantment=''Increases your health by 30 points:''
+* [[Skyrim:Fortify Health|Fortify Health]], 30 pts
+* Disenchant: No|quest=Forbidden Legend}}
+{{Item Data|icon=SR-icon-armor-SteelHornedHelmet.png|name=Helm of Winterhold|id=000940d5|type=Heavy Helmet|temp=Steel Ingot|perk=Steel Smithing|weight=5|value=125|damage=17|quest=Dungeon Delving (Jarl - Caves)}}
+{{Item Data|icon=SR-icon-armor-SteelShield.png|name=Hrolfdir's Shield|id=00064b71|type=Heavy Shield|temp=Steel Ingot|perk=Steel Smithing|weight=12|value=60|damage=24|quest=Dungeon Delving (Jarl - Hagravens)}}
+{{Item Data|icon=SR-icon-armor-Jagged Crown.png|name=Jagged Crown|id=000da750|type=Heavy Helmet|temp=Not possible|weight=9|value=5000|damage=23|quest=[[Skyrim: The Jagged Crown (Imperial)|The Jagged Crown (Imperial)]];[[Skyrim: The Jagged Crown (Stormcloaks)|The Jagged Crown (Stormcloaks)]]|notes={{Bug|This item is one of only three items in the game (along with [[Skyrim:Falmer Helmet|Falmer Helmets]] and [[Skyrim:Penitus Oculatus Helmet|Penitus Oculatus Helmets]]) that fills only the "hair" body part slot when worn. This means that it can be worn simultaneously with any [[Skyrim:circlet|circlet]] or a [[Skyrim:Dragon Priest Mask|Dragon Priest Mask]].|confirmed=1}}}}
+{{Item Data|icon=SR-icon-jewelry-Amulet of the Elder Council.png|name=Jeweled Amulet|id=0006b217|temp=N/A|type=Amulet|weight=0.5|value=1000|damage=0|quest=The Silence Has Been Broken|notes=The game data also contains a miscellaneous item (rather than wearable jewelry) identified as [[Skyrim:Unobtainable Items#Jeweled Amulet|Jeweled Amulet]] (<code>00035073</code>) that may have been an early version of this amulet. However, the miscellaneous item is not actually used in game.}}
+{{Item Data|icon=SR-icon-jewelry-SilverRing.png|name=Madesi's Silver Ring|id=00076f12|temp=N/A|type=Ring|weight=0.25|value=10|damage=0|quest=A Chance Arrangement}}
+{{Item Data|icon=SR-icon-jewelry-SilverNecklace.png|name=Moon Amulet|id=000d9394|temp=N/A|type=Amulet|weight=0.5|value=250|damage=0|quest=Amulet of the Moon}}
+{{Item Data|icon=SR-icon-clothing-MysticTuningGloves.png|name=Mystic Tuning Gloves|id=00026c3b|temp=N/A|type=Gloves|weight=0.25|value=20|damage=0|enchantment=''Adds a hidden bonus to your Magicka Regen.''|quest=Out of Balance}}
+{{Item Data|icon=SR-icon-jewelry-SilverGarnetRing.png|name=Neloth's Ring of Tracking|displayname=Neloth's Ring of Tracking {{DB}}|temp=N/A|type=Ring|id=xx01961c|weight=0.3|value=100|damage=0|quest=Old Friends|notes={{Bug|Can be disenchanted despite being a quest item.|UDBP|2.0.2}}}}
+{{Item Data|icon=SR-icon-armor-ImperialLightHelmet.png|name=Noster's Helmet|id=0006fe72|type=Light Helmet|temp=Leather|weight=2|value=35|damage=11|quest=Dungeon Delving (Caves)}}
+{{Item Data|icon=SR-icon-jewelry-AmuletOfTalos.png|name=Ogmund's Amulet of Talos|savename=Ogmund's Amulet|id=00064796|temp=N/A|type=Amulet|weight=1|value=25|damage=0|enchantment=''Time between shouts is reduced 20%:''
+* [[Skyrim:Fortify Shouts|Fortify Shouts]], 0.2 pts
+* Disenchant: No|quest=Search and Seizure}}
+{{Item Data|icon=SR-icon-jewelry-AmuletOfTalos.png|name=Raerek's Inscribed Amulet of Talos|savename=Raerek's Amulet|id=000e0ba2|temp=N/A|type=Amulet|weight=1|value=205|damage=0|enchantment=''Time between shouts is reduced 20%:''
+* [[Skyrim:Fortify Shouts|Fortify Shouts]], 0.2 pts
+* Disenchant: No|quest=Compelling Tribute (Stormcloaks)}}
+{{Item Data|icon=SR-icon-jewelry-SilverNecklace.png|name=Reyda's Necklace|id=000663da|temp=N/A|type=Amulet|weight=0.5|value=30|damage=0|quest=The Straw that Broke}}
+{{Item Data|icon=SR-icon-jewelry-GoldRing.png|name=Ring of Pure Mixtures|savename=Ring of P Mixtures|id=00090e32|temp=N/A|type=Ring|weight=0.25|value=75|damage=0|enchantment=''Created potions are 12% more powerful:''
+* [[Skyrim:Fortify Alchemy|Fortify Alchemy]], 12 pts
+* Disenchant: Yes
+|quest=Dungeon Delving (Caves)}}
+{{Item Data|icon=SR-icon-armor-IronShield.png|name=Roggi's Ancestral Shield|savename=Roggi's Shield|id=0006901d|type=Heavy Shield|temp=Iron Ingot|weight=12|value=60|damage=20|quest=Dungeon Delving (Caves)}}
+{{Item Data|icon=SR-icon-jewelry-AmuletOfZenithar.png|name=Shahvee's Amulet of Zenithar|id=000bfa0a|temp=N/A|type=Amulet|weight=1|value=200|damage=0|enchantment=''Prices are 10% better:''
+* [[Skyrim:Fortify Barter|Fortify Barter]], 10 pts
+* Disenchant: No|quest=Dungeon Delving (Bandits)|savename=Shahvee's Amulet}}
+{{Item Data|icon=SR-icon-jewelry-Necromancer'sAmulet.png|name=Strange Amulet|id=000d2328|temp=N/A|type=Amulet|weight=0|value=1000|damage=0|quest=Blood on the Ice|notes=see [[Skyrim:Necromancer Amulet|Necromancer Amulet]]}}
+{{Item Data|icon=SR-icon-armor-IronGauntlets.png|name=The Forgemaster's Fingers|savename=Forgemasters Fingers|id=000c3ce6|type=Heavy Gauntlets|temp=Iron Ingot|weight=5|value=25|damage=10|enchantment=''Weapons and armor can be improved 12% better:''
+* [[Skyrim:Fortify Smithing|Fortify Smithing]], 12 pts
+* Disenchant: Yes|quest=The Forgemaster's Fingers}}
+{{Item Data|icon=SR-icon-jewelry-GoldRing.png|name=Viola's Gold Ring|id=000403a9|temp=N/A|type=Ring|weight=0.25|value=75|damage=0|quest=That Was Always There}}
+|}
+
+==Dragon Claws==
+Dragon claws are used to open circular puzzle doors in [[Skyrim:Nordic Ruins|Nordic ruins]]. [[Skyrim:Tundra Homestead (place)|Tundra Homestead]]{{CC|Tundra Homestead}}, [[Skyrim:Hendraheim (place)|Hendraheim]]{{CC|Hendraheim}}, and [[Skyrim:Shadowfoot Sanctum (place)|Shadowfoot Sanctum]]{{CC|Shadowfoot Sanctum}} each contain a special holder for all ten dragon claws in the base game. [[Skyrim:Bloodchill Cavern#Interior|Bloodchill Cavern]]{{CC|Bloodchill Cavern}} has holders for all eleven, with the two halves of the Amethyst Claw fitting into a single slot. 
+{| class="wikitable sortable"
+!class=unsortable|
+!Name ([[Skyrim:Form ID|ID]])
+!width=22|{{Weight Icon}}
+!width=22|{{Value Icon}}
+!class="unsortable"|Quest/Notes
+|-
+{{Item Data
+ |icon=SR-icon-misc-Amethyst Claw, Left Half.png
+ |name=Amethyst Claw, Left Half
+ |displayname=Amethyst Claw, Left Half {{DB}}
+ |id=xx01cac0|weight=0.5|value=200
+ |quest=Lost Legacy
+}}
+{{Item Data
+ |icon=SR-icon-misc-Amethyst Claw, Right Half.png
+ |name=Amethyst Claw, Right Half
+ |displayname=Amethyst Claw, Right Half {{DB}}
+ |id=xx01cac1|weight=0.5|value=200
+ |quest=Lost Legacy
+}}
+{{Item Data
+ |icon=SR-icon-misc-CoralDragonClaw.png
+ |name=Coral Dragon Claw
+ |id=000b634c|weight=0.5|value=150
+ |quest=Yngol's Barrow
+ |notes=* Two can be obtained, one from [[Skyrim:Birna|Birna]] and one in [[Skyrim:Yngol Barrow|Yngol Barrow]]
+* Combination: '''Snake&mdash;Wolf&mdash;Moth'''}}
+{{Item Data
+ |icon=SR-icon-misc-DiamondClaw.png
+ |name=Diamond Claw
+ |id=000ab375|weight=0.5|value=1000
+ |quest=The World-Eater's Eyrie
+ |notes=* Located in [[Skyrim:Skuldafn|Skuldafn]]
+* Combination: '''Fox&mdash;Moth&mdash;Dragon'''}}
+{{Item Data
+ |icon=SR-icon-misc-EbonyClaw.png
+ |name=Ebony Claw
+ |id=0005af48|weight=0.5|value=800
+ |quest=The Jagged Crown
+ |notes=* Located in [[Skyrim:Korvanjund Halls|Korvanjund Halls]] ([[Skyrim:The Pale|The Pale]])
+* Combination: '''Fox&mdash;Moth&mdash;Dragon'''}}
+{{Item Data
+ |icon=SR-icon-misc-EmeraldDragonClaw.png
+ |name=Emerald Dragon Claw
+ |id=000ed417|weight=0.5|value=600
+ |quest=Forbidden Legend
+ |notes=* Located in [[Skyrim:Reachwater Rock|Reachwater Rock]] ([[Skyrim:The Reach|The Reach]])
+* Combination: '''Bear&mdash;Whale&mdash;Snake'''}}
+{{Item Data
+ |icon=SR-icon-misc-GlassClaw.png
+ |name=Glass Claw
+ |id=0007c260|weight=0.5|value=700
+ |quest=Siege on the Dragon Cult
+ |notes=* Located in [[Skyrim:Forelhost Refectory|Forelhost Refectory]] ([[Skyrim:The Rift|The Rift]])
+* Combination: '''Fox&mdash;Owl&mdash;Snake'''}}
+{{Item Data
+ |icon=SR-icon-misc-GoldenClaw.png
+ |name=Golden Claw
+ |id=00039647|weight=0.5|value=100
+ |quest=The Golden Claw
+ |notes=* Obtained from [[Skyrim:Arvel the Swift|Arvel the Swift]]
+* Combination: '''Bear&mdash;Moth&mdash;Owl'''}}
+{{Item Data
+ |icon=SR-icon-misc-IronClaw.png
+ |name=Iron Claw
+ |id=0008cdfa|weight=0.5|value=75
+ |quest=Evil in Waiting
+ |notes=* Located in [[Skyrim:Valthume Catacombs|Valthume Catacombs]] ([[Skyrim:The Reach|The Reach]])
+* Combination: '''Dragon&mdash;Hawk&mdash;Wolf'''}}
+{{Item Data
+ |icon=SR-icon-misc-IvoryDragonClaw.png
+ |name=Ivory Dragon Claw
+ |id=000ab7bb|weight=0.5|value=200
+ |quest=Forbidden Legend
+ |notes=* Located in [[Skyrim:Folgunthur|Folgunthur]] ([[Skyrim:Hjaalmarch|Hjaalmarch]])
+* Combination: '''Hawk&mdash;Hawk&mdash;Dragon'''}}
+{{Item Data
+ |icon=SR-icon-misc-RubyDragonClaw.png
+ |name=Ruby Dragon Claw
+ |id=0004b56c|weight=0.5|value=400
+ |quest=Tending the Flames
+ |notes=* Located in [[Skyrim:Dead Men's Respite|Dead Men's Respite]] ([[Skyrim:Hjaalmarch|Hjaalmarch]])
+* Combination: '''Wolf&mdash;Hawk&mdash;Wolf'''}}
+{{Item Data
+ |icon=SR-icon-misc-SapphireDragonClaw.png
+ |name=Sapphire Dragon Claw
+ |id=000663d7|weight=0.5|value=500
+ |quest=Lifting the Shroud
+ |notes=* Obtained from [[Skyrim:Wilhelm|Wilhelm]]
+* Combination: '''Moth&mdash;Owl&mdash;Wolf'''}}
+|}
+
+==Other Quest Items==
+{| class="wikitable sortable"
+!class=unsortable|
+!width=120|Name ([[Skyrim:Form ID|ID]])
+!width=22|{{Weight Icon}}
+!width=22|{{Value Icon}}
+!class="unsortable"|Quest/Notes
+{{Item Data
+ |icon=SR-icon-misc-Aetherium Crest.png
+ |name=Aetherium Crest
+ |displayname=Aetherium Crest {{DG}}
+ |id=xx00575b|weight=1|value=1000
+ |quest=Lost to the Ages;{{DG}}|questsplit=2
+ |notes=*Made up of the Aetherium Shards found during the quest.}}
+{{Item Data
+ |customicon=[[File:SR-icon-misc-Glowing Crystal Shard xx00575c.png|24px]][[File:SR-icon-misc-Glowing Crystal Shard xx01433c.png|24px]]<br>[[File:SR-icon-misc-Glowing Crystal Shard xx01433d.png|24px]][[File:SR-icon-misc-Glowing Crystal Shard xx01433e.png|24px]]
+ |name=Aetherium Shard
+ |displayname={{Hover|Glowing Crystal Shard|Aetherium Shard}} {{DG}}
+ |id=xx00575c,xx01433e,xx01433c,xx01433d|idsep=<br>|weight=0.25|value=100
+ |quest=Lost to the Ages;{{DG}}|questsplit=2
+ |notes=* Needed to make the Aetherium Crest.
+:* Found in [[Skyrim:Arkngthamz|Arkngthamz]]
+:* Found in [[Skyrim:Raldbthar|Raldbthar]]
+:* Found in [[Skyrim:Dwarven Storeroom|Dwarven Storeroom]]
+:* Found in [[Skyrim:Deep Folk Crossing|Deep Folk Crossing]]}}
+{{Item Data
+ |icon=SR-icon-misc-Ancient Vampire Arm.png
+ |name=Ancient Vampire Arm
+ |displayname=Ancient Vampire Arm {{DG}}
+ |id=xx005706|weight=1|value=250
+ |quest=Ancient Power;{{DG}}|questsplit=2}}
+{{Item Data
+ |icon=SR-icon-misc-Ancient Vampire Hands.png
+ |name=Ancient Vampire Hands
+ |displayname=Ancient Vampire Hands {{DG}}
+ |id=xx005705|weight=1|value=250
+ |quest=Ancient Power;{{DG}}|questsplit=2}}
+{{Item Data
+ |icon=SR-icon-misc-Ancient Vampire Head.png
+ |name=Ancient Vampire Head
+ |displayname=Ancient Vampire Head {{DG}}
+ |id=xx005704|weight=1|value=250
+ |quest=Ancient Power;{{DG}}|questsplit=2}}
+{{Item Data
+ |icon=SR-icon-misc-Ancient Vampire Leg.png
+ |name=Ancient Vampire Leg
+ |displayname=Ancient Vampire Leg {{DG}}
+ |id=xx005703|weight=2|value=250
+ |quest=Ancient Power;{{DG}}|questsplit=2}}
+{{Item Data
+ |icon=SR-icon-misc-Ancient Vampire Ribcage.png
+ |name=Ancient Vampire Ribcage
+ |displayname=Ancient Vampire Ribcage {{DG}}
+ |id=xx005707|weight=1|value=250
+ |quest=Ancient Power;{{DG}}|questsplit=2}}
+{{Item Data
+ |icon=SR-icon-misc-Arvak's Skull.png
+ |name=Arvak's Skull
+ |displayname=Arvak's Skull {{DG}}
+ |id=xx002b29|weight=4|value=0
+ |quest=Soul Cairn Horse Quest;{{DG}}|questsplit=2
+ |notes=*Found in the [[Skyrim:Soul Cairn|Soul Cairn]]}}
+{{Item Data
+ |icon=SR-icon-misc-Ash Extractor.png
+ |name=Ash Extractor
+ |displayname=Ash Extractor {{DB}}
+ |id=xx01cdf4|weight=0.5|value=1
+ |quest=Telvanni Research
+}}
+{{Item Data
+ |icon=SR-icon-misc-Ash Spawn Sample.png
+ |name=Ash Spawn Sample
+ |displayname=Ash Spawn Sample {{DB}}
+ |id=xx01b65c|weight=1|value=100
+ |quest=Telvanni Research
+}}
+{{Item Data
+ |icon=SR-icon-misc-AttunementSphere.png
+ |name=Attunement Sphere
+ |id=0003532c|weight=0|value=0
+ |quest=Discerning the Transmundane
+ |notes=* Given to you by [[Skyrim:Septimus Signus|Septimus Signus]]. Attempting to open certain locks without it will result in the message "You lack the required item".
+* Can also be found in [[Skyrim:Sinderion's Field Laboratory|Sinderion's Field Laboratory]] within [[Skyrim:Blackreach|Blackreach]]}}
+{{Item Data
+ |name=Balwen's Ornamental Ring
+ |icon=SR-icon-jewelry-GoldSapphireRing.png
+ |id=000da735|weight=3|value=0
+ |quest=Forgotten Names}}
+{{Item Data
+ |icon=SR-icon-misc-Barenziah'sCrown.png
+ |name=Barenziah's Crown
+ |id=000da74d|weight=0|value=0
+ |quest=No Stone Unturned
+ |notes=*Completed crown}}
+{{Item Data
+ |icon=SR-icon-misc-BlackBriarMeadKeg.png
+ |name=Black-Briar Mead Keg
+ |id=0005333b|weight=20|value=0
+ |quest=Under the Table}}
+{{Item Data
+ |icon=SR-icon-misc-BlankLexicon.png
+ |name=Blank Lexicon
+ |id=0003a3d2|weight=0|value=0
+ |quest=Discerning the Transmundane}}
+{{Item Data
+ |icon=SR-icon-misc-Bloodstone Chalice.png
+ |name=Bloodstone Chalice
+ |displayname={{Hover|Empty|Bloodstone Chalice}} {{DG}}
+ |id=xx008426|weight=10|value=0
+ |quest=The Bloodstone Chalice;{{DG}}|questsplit=2
+ |notes=* Without Blood}}
+{{Item Data
+ |name=Bloodstone Chalice
+ |icon=SR-icon-misc-Bloodstone Chalice.png
+ |displayname={{Hover|Full|Bloodstone Chalice}} {{DG}}
+ |id=xx0088eb|weight=11|value=0
+ |quest=The Bloodstone Chalice;{{DG}}|questsplit=2
+ |notes=* With Blood}}
+{{Item Data
+ |icon=SR-icon-misc-Branch of the Tree of Shades.png
+ |name=Branch of the Tree of Shades
+ |displayname=Branch of the Tree of Shades {{CC|Staff of Sheogorath}}
+ |id=FExxx80f|weight=0|value=1
+ |quest=Put A Fork In It;{{CC|Staff of Sheogorath}}|questsplit=2
+ |notes=* Appeared in ''[[Shivering:Shivering Isles|Shivering Isles]]'' as the [[Shivering:Screaming Branch|Screaming Branch]]}}
+{{Item Data
+ |icon=SR-icon-misc-BrokenAzura'sStar.png
+ |name=Broken Azura's Star
+ |id=00028ad7|weight=0.5|value=0
+ |quest=The Black Star
+ |notes=* Located in [[Skyrim:Ilinalta's Deluge|Ilinalta's Deluge]] ([[Skyrim:Falkreath Hold|Falkreath Hold]])}}
+{{Item Data
+ |icon=SR-icon-misc-BustOfTheGrayFox.png
+ |name=Bust of the Gray Fox
+ |id=00019954|weight=0|value=0
+ |quest=The Litany of Larceny
+ |notes=* Located in [[Skyrim:Riftweald Manor|Riftweald Manor]] ([[Skyrim:Riften|Riften]])
+* [[Skyrim:Shadowfoot Sanctum (place)|Shadowfoot Sanctum]]{{CC|Shadowfoot Sanctum}} contains a special holder for this item.}}
+{{Item Data
+ |icon=SR-icon-misc-Calcelmo'sStoneRubbing.png
+ |name=Calcelmo's Stone Rubbing
+ |id=00033764|weight=0.5|value=0
+ |quest=Hard Answers}}
+{{Item Data
+ |icon=SR-icon-misc-Canticle Bark.png
+ |name=Canticle Bark
+ |displayname=Canticle Bark {{DG}}
+ |id=xx0191b7|weight=0|value=350
+ |quest=Unseen Visions;{{DG}}|questsplit=2
+ |notes=* If you have the Green Thumb Alchemy perk, you will receive a second bark without value.}}
+{{Item Data
+ |icon=SR-icon-misc-Ciirta's Eye.png
+ |name=Ciirta's Eye
+ |displayname=Ciirta's Eye {{CC|Staff of Sheogorath}}
+ |id=FExxx80e|weight=0|value=100
+ |quest=Put A Fork In It;{{CC|Staff of Sheogorath}}|questsplit=2
+ |notes=* [[Shivering:Ciirta's Eye|Appeared]] in ''[[Shivering:Shivering Isles|Shivering Isles]]''}}
+{{Item Data
+ |icon=SR-icon-misc-Control Cube.png
+ |name=Control Cube
+ |displayname=Control Cube {{DB}}
+ |id=xx0173bb|weight=0.5|value=50
+ |quest=The Path of Knowledge
+}}
+{{Item Data
+ |icon=SR-icon-misc-CrackedWhitePhial.png
+ |name=Cracked White Phial
+ |id=0002c259|weight=0.5|value=0
+ |quest=The White Phial (quest)
+ |notes=* Located in [[Skyrim:Forsaken Crypt|Forsaken Crypt]] ([[Skyrim:The Pale|The Pale]])}}
+{{Item Data
+ |icon=SR-icon-misc-Crescent Moon Crest.png
+ |name=Crescent Moon Crest
+ |displayname=Crescent Moon Crest {{DG}}
+ |id=xx01171d|weight=0|value=0
+ |quest=Chasing Echoes;{{DG}}|questsplit=2}}
+{{Item Data
+ |icon=SR-icon-misc-CrownOfBarenziah.png
+ |name=Crown of Barenziah
+ |id=0009dff5|weight=0|value=0
+ |quest=No Stone Unturned
+ |notes=* Incomplete crown, located in [[Skyrim:Tolvald's Crossing|Tolvald's Crossing]] ([[Skyrim:The Rift|The Rift]])}}
+{{Item Data
+ |icon=SR-icon-misc-CuriousSilverMold.png
+ |name=Curious Silver Mold
+ |id=00044e12|weight=1|value=250
+ |quest=Silver Lining
+ |notes=* Located in [[Skyrim:Pinewatch Bandit's Sanctuary|Pinewatch Bandit's Sanctuary]] ([[Skyrim:Falkreath Hold|Falkreath Hold]])}}
+{{Item Data
+ |icon=SR-icon-misc-Deathbrand Treasure Map.png
+ |name=Deathbrand Treasure Map
+ |displayname=Deathbrand Treasure Map {{DB}}
+ |id=xx02baae|weight=0|value=500
+ |quest=Deathbrand (quest)
+}}
+{{Item Data
+ |icon=SR-icon-misc-DragonHeartscales.png
+ |name=Dragon Heartscales
+ |id=000d0756|weight=10|value=250
+ |quest=Alteration Ritual Spell}}
+{{Item Data
+ |icon=SR-icon-misc-Dragonstone.png
+ |name=Dragonstone
+ |displayname=[[Skyrim:Dragonstone|Dragonstone]]
+ |id=000df202|weight=25|value=0
+ |quest=Bleak Falls Barrow (quest)}}
+{{Item Data
+ |icon=SR-icon-misc-Draw Knife.png
+ |name=Draw Knife
+ |displayname=Draw Knife {{DG}}
+ |id=xx007a2b|weight=5|value=0
+ |quest=Unseen Visions;{{DG}}|questsplit=2
+ |notes=*Used to collect Canticle Bark from a Canticle tree.}}
+{{Item Data
+ |icon=SR-icon-misc-Schematic.png
+ |name=Dwarven Crossbow Schematic
+ |displayname=Dwarven Crossbow Schematic {{DG}}
+ |id=xx00f1c8|weight=0|value=100
+ |quest=Ancient Technology;{{DG}}|questsplit=2}}
+{{Item Data
+ |icon=SR-icon-misc-Schematic.png
+ |name=Dwemer Exploding Fire Bolt Schematic
+ |displayname=Dwemer Exploding Fire Bolt Schematic {{DG}}
+ |id=xx006bad|weight=0|value=100
+ |quest=Ancient Technology;{{DG}}|questsplit=2}}
+{{Item Data
+ |icon=SR-icon-misc-Schematic.png
+ |name=Dwemer Ice Bolt Schematic
+ |displayname=Dwemer Ice Bolt Schematic {{DG}}
+ |id=xx00f1c4|weight=0|value=100
+ |quest=Ancient Technology;{{DG}}|questsplit=2}}
+{{Item Data
+ |icon=SR-icon-misc-Schematic.png
+ |name=Dwemer Exploding Shock Bolt Schematic
+ |displayname=Dwemer Exploding Shock Bolt Schematic {{DG}}
+ |id=xx00f1c5|weight=0|value=100
+ |quest=Ancient Technology;{{DG}}|questsplit=2}}
+{{Item Data
+ |icon=SR-icon-misc-DwemerPuzzleCube.png
+ |name=Dwemer Puzzle Cube
+ |id=0005598c|weight=0|value=0
+ |quest=The Litany of Larceny
+ |notes=* Located in [[Skyrim:Calcelmo's Laboratory|Calcelmo's Laboratory]] ([[Skyrim:Markarth|Markarth]])
+* [[Skyrim:Shadowfoot Sanctum (place)|Shadowfoot Sanctum]]{{CC|Shadowfoot Sanctum}} contains a special holder for this item.}}
+{{Item Data
+ |icon=SR-icon-misc-EastEmpireShippingMap.png
+ |name=East Empire Shipping Map
+ |id=00060cc2|weight=0|value=0
+ |quest=The Litany of Larceny
+ |notes=* Located in [[Skyrim:East Empire Company Warehouse|East Empire Company Warehouse]]
+* [[Skyrim:Shadowfoot Sanctum (place)|Shadowfoot Sanctum]]{{CC|Shadowfoot Sanctum}} contains a special holder for this item.}}
+{{Item Data
+ |icon=SR-icon-misc-ElderScroll.png
+ |name=Elder Scroll
+ |displayname=[[Skyrim:Elder Scroll|Elder Scroll]]
+ |id=0002d513|weight=20|value=0
+ |quest=Discerning the Transmundane;;Elder Knowledge;;Seeking Disclosure;{{DG}}|questsplit=2
+ |notes=*Gets renamed "Elder Scroll (Dragon)" in the [[Skyrim:Dawnguard|Dawnguard]] [[Skyrim:Add-ons|add-on]] (with ID <code>xx0126DC</code>)}}
+{{Item Data
+ |icon=SR-icon-misc-ElderScroll.png
+ |name=Elder Scroll (Blood)
+ |displayname=[[Skyrim:Elder Scroll (Blood)|Elder Scroll (Blood)]] {{DG}}
+ |id=xx0118F9|weight=20|value=0
+ |quest=Beyond Death;{{DG}}|questsplit=2}}
+{{Item Data
+ |icon=SR-icon-misc-ElderScroll.png
+ |name=Elder Scroll (Sun)
+ |displayname=[[Skyrim:Elder Scroll (Sun)|Elder Scroll (Sun)]] {{DG}}
+ |id=xx011A13|weight=20|value=0
+ |quest=[[Skyrim:Prophet (Dawnguard)|Prophet (Dawnguard)]];{{DG}};[[Skyrim:Prophet (Vampire)|Prophet (Vampire)]];{{DG}}|questsplit=2}}
+{{Item Data
+ |icon=SR-icon-misc-EldergleamSap.png
+ |name=Eldergleam Sap
+ |id=0001c494|weight=1|value=0
+ |quest=The Blessings of Nature}}
+{{Item Data
+ |icon=SR-icon-misc-Sapling.png
+ |name=Eldergleam Sapling
+ |id=0001cb81|weight=1|value=0
+ |quest=The Blessings of Nature
+ |notes=* Located in [[Skyrim:Eldergleam Sanctuary|Eldergleam Sanctuary]]}}
+{{Item Data
+ |icon=SR-icon-misc-Schematic.png
+ |name=Enhanced Crossbow Schematic
+ |displayname=Enhanced Crossbow Schematic {{DG}}
+ |id=xx00f1c7|weight=0|value=100
+ |quest=Ancient Technology;{{DG}}|questsplit=2}}
+{{Item Data
+ |icon=SR-icon-misc-Schematic.png
+ |name=Enhanced Dwarven Crossbow Schematic
+ |displayname=Enhanced Dwarven Crossbow Schematic {{DG}}
+ |id=xx00f1c9|weight=0|value=100
+ |quest=Ancient Technology;{{DG}}|questsplit=2}}
+{{Item Data
+ |icon=SR-icon-misc-EssenceExtractor.png
+ |name=Essence Extractor
+ |id=0001a31c|weight=1|value=0
+ |quest=Discerning the Transmundane
+ |notes=* Located in [[Skyrim:Septimus Signus's Outpost|Septimus Signus's Outpost]] ([[Skyrim:Winterhold (region)|Winterhold]])}}
+{{Item Data
+ |icon=SR-icon-ingredient-Finely Ground Bone Meal.png
+ |name=Finely Ground Bone Meal
+ |displayname=Finely Ground Bone Meal {{DG}}
+ |id=xx00d3ed|weight=0.1|value=0
+ |quest=Chasing Echoes;{{DG}}|questsplit=2}}
+{{Item Data
+ |icon=SR-icon-misc-Lute.png
+ |name=Finn's Lute
+ |id=000dabab|weight=4|value=25
+ |quest=Finn's Lute
+ |notes=*Located in [[Skyrim:Stony Creek Cave|Stony Creek Cave]]
+* Identical in all ways to a regular [[Skyrim:Lute|Lute]] (including ID)}}
+{{Item Data
+ |icon=SR-icon-misc-FirebrandWineCase.png
+ |name=Firebrand Wine Case
+ |id=0003ec95|weight=6|value=0
+ |quest=Scoundrel's Folly
+ |notes=* Located in [[Skyrim:Blue Palace|Blue Palace]] ([[Skyrim:Solitude|Solitude]])}}
+{{Item Data
+ |icon=SR-icon-misc-FocusingCrystal.png
+ |name=Focusing Crystal
+ |id=0009f7a6|weight=1|value=10
+ |quest=Revealing the Unseen}}
+{{Item Data
+ |icon=SR-icon-misc-FragmentsOfWuuthrad(assembled).png
+ |name=Fragment of Wuuthrad
+ |id=0006e806,00064283,00064285,00064287,00064289,0006428b,0006428e,00064290,00064292,00064296,00064294,00064298|idsep=<br>|weight=2|value=0
+ |quest=Proving Honor;Retrieval}}
+{{Item Data
+ |icon=SR-icon-misc-FragmentsOfWuuthrad.png
+ |name=Fragments of Wuuthrad
+ |id=000db351|weight=0|value=0
+ |quest=Purity of Revenge}}
+{{Item Data
+ |icon=SR-icon-misc-Full Moon Crest.png
+ |name=Full Moon Crest
+ |displayname=Full Moon Crest {{DG}}
+ |id=xx01171e|weight=0|value=0
+ |quest=Chasing Echoes;{{DG}}|questsplit=2}}
+{{Item Data
+ |icon=SR-icon-misc-GlenmorilWitchHead.png
+ |name=Glenmoril Witch Head
+ |id=0002996f|weight=4|value=0
+ |quest=Blood's Honor;Glory of the Dead;Purity
+ |notes=* Located in [[Skyrim:Glenmoril Coven|Glenmoril Coven]] ([[Skyrim:Falkreath Hold|Falkreath Hold]])
+*After Glory of the Dead, any Glenmoril Witch Heads remaining in your inventory may lose their quest-item status, which makes them start to weigh 4 pounds each.  In this case, they can be dropped or stored freely.  If you wish to use one or more of them for the Purity quest, it is possible that dropping/storing them and then picking them up again will reestablish their quest-item (and weightless) status}}
+{{Item Data
+ |icon=SR-icon-misc-GoldenShipModel.png
+ |name=Golden Ship Model
+ |id=00044e8b|weight=0|value=0
+ |quest=The Sweep Job;The Burglary Job}}
+{{Item Data
+ |icon=SR-icon-misc-GoldenUrn.png
+ |name=Golden Urn
+ |id=00044e63|weight=0|value=0
+ |quest=The Sweep Job;The Burglary Job}}
+{{Item Data
+ |icon=SR-icon-misc-Habd'sRemains.png
+ |name=Habd's Remains
+ |id=00075868|weight=1|value=0
+ |quest=Frostflow Abyss}}
+{{Item Data
+ |icon=SR-icon-misc-Half Moon Crest.png
+ |name=Half Moon Crest
+ |displayname=Half Moon Crest {{DG}}
+ |id=xx01171f|weight=0|value=0
+ |quest=Chasing Echoes;{{DG}}|questsplit=2}}
+{{Item Data
+ |icon=SR-icon-misc-Heart Stone.png
+ |name=Heart Stone
+ |displayname=Heart Stone {{DB}}
+ |id=xx0195a9|weight=1|value=100
+ |quest=Old Friends
+ |notes=*This item is different from a regular [[Skyrim:Heart Stone|Heart Stone]].
+}}
+{{Item Data
+ |icon=SR-icon-misc-HiltOfMehrunes'Razor.png
+ |name=Hilt of Mehrunes' Razor
+ |id=000240d3|weight=2|value=0
+ |quest=Pieces of the Past
+ |notes=* Located in [[Skyrim:Jorgen and Lami's House|Jorgen and Lami's House]]
+* Part of [[Skyrim:Mehrunes' Razor|Mehrunes' Razor]]}}
+{{Item Data
+ |icon=SR-icon-misc-HonningbrewDecanter.png
+ |name=Honningbrew Decanter
+ |id=00019952|weight=0|value=0
+ |quest=The Litany of Larceny
+ |notes=* Located in [[Skyrim:Honningbrew Meadery|Honningbrew Meadery]] ([[Skyrim:Whiterun|Whiterun]])
+* [[Skyrim:Shadowfoot Sanctum (place)|Shadowfoot Sanctum]]{{CC|Shadowfoot Sanctum}} contains a special holder for this item.}}
+{{Item Data
+ |icon=SR-icon-misc-HornOfJurgenWindcaller.png
+ |name=Horn of Jurgen Windcaller
+ |id=0003292f|weight=4|value=0
+ |quest=The Horn of Jurgen Windcaller}}
+{{Item Data
+ |icon=SR-icon-misc-ImperialDocuments.png
+ |name=Imperial Documents
+ |id=000dc530|weight=0|value=0
+ |quest=A False Front (Stormcloaks)}}
+{{Item Data
+ |icon=SR-icon-misc-Initiate's Ewer.png
+ |name=Initiate's Ewer
+ |displayname=Initiate's Ewer {{DG}}
+ |id=xx00a89e|weight=1.5|value=1500
+ |quest=Touching the Sky;{{DG}}|questsplit=2
+ |notes=* [[Skyrim:Tundra Homestead (place)|Tundra Homestead]]'s cellar{{CC|Tundra Homestead}}, [[Skyrim:Hendraheim (place)|Hendraheim]]'s basement{{CC|Hendraheim}} and [[Skyrim:Myrwatch (place)|Myrwatch]]'s gallery{{CC|Myrwatch}} contain a special holder for this item.}}
+{{Item Data
+ |icon=SR-icon-misc-JeweledCandlestick.png
+ |name=Jeweled Candlestick
+ |id=00044e6a|weight=0|value=0
+ |quest=The Sweep Job;The Burglary Job}}
+{{Item Data
+ |icon=SR-icon-misc-JeweledFlagon.png
+ |name=Jeweled Flagon
+ |id=00044e67|weight=0|value=0
+ |quest=The Sweep Job;The Burglary Job}}
+{{Item Data
+ |icon=SR-icon-misc-JeweledGoblet.png
+ |name=Jeweled Goblet
+ |displayname=[[Skyrim:Jeweled Goblet|Jeweled Goblet]]
+ |id=00044e6c|weight=0|value=0
+ |quest=The Sweep Job;The Burglary Job}}
+{{Item Data
+ |icon=SR-icon-misc-JeweledPitcher.png
+ |name=Jeweled Pitcher
+ |displayname=[[Skyrim:Jeweled Pitcher|Jeweled Pitcher]]
+ |id=00044e6e|weight=0|value=0
+ |quest=The Sweep Job;The Burglary Job}}
+{{Item Data
+ |icon=SR-icon-misc-Kagrumez Resonance Gem.png
+ |name=Kagrumez Resonance Gem
+ |displayname=Kagrumez Resonance Gem {{DB}}
+ |id=xx02145a|weight=0.2|value=500
+ |quest=The Kagrumez Gauntlet
+}}
+{{Item Data
+ |icon=SR-icon-misc-Karstaag's Skull.png
+ |name=Karstaag's Skull
+ |displayname=Karstaag's Skull {{DB}}
+ |id=xx0247f9|weight=3|value=25
+ |quest=Summoning Karstaag
+ |notes=*Located in the [[Skyrim:Glacial Cave|Glacial Cave]] that lies along the northeastern coastline of Solstheim. It is frozen into the back wall of the cave.
+}}
+{{Item Data
+ |icon=SR-icon-jewelry-GoldDiamondRing.png
+ |name=Katarina's Ornamental Ring
+ |id=000da733|weight=3|value=0
+ |quest=Forgotten Names}}
+{{Item Data
+ |icon=SR-icon-misc-Klimmek'sSupplies.png
+ |name=Klimmek's Supplies
+ |id=000dab04|weight=0|value=0
+ |quest=Climb the Steps
+ |notes={{bug|When dropped, it floats in air and can be used as a platform or barrier|confirmed=1}}}}
+{{Item Data
+ |icon=SR-icon-misc-EyeOfTheFalmer.png
+ |name=Left Eye of the Falmer
+ |id=0001994f|weight=5|value=2500
+ |quest=The Litany of Larceny
+ |notes=* Located in [[Skyrim:Irkngthand Sanctuary|Irkngthand Sanctuary]] ([[Skyrim:The Pale|The Pale]])
+* [[Skyrim:Shadowfoot Sanctum (place)|Shadowfoot Sanctum]]{{CC|Shadowfoot Sanctum}} contains a special holder for this item.}}
+{{Item Data
+ |icon=SR-icon-misc-Lexicon.png
+ |name=Lexicon
+ |id=0003a3e4|weight=0|value=0
+ |quest=Unfathomable Depths}}
+{{Item Data
+ |icon=SR-icon-misc-StatueOfDibella.png
+ |name=Lisbet's Dibella Statue
+ |id=0008f997|weight=2|value=100
+ |quest=Lisbet's Missing Shipment
+ |notes=*Identical in all ways to a standard [[Skyrim:Dibella Statue|Dibella Statue]] (including ID)}}
+{{Item Data
+ |icon=SR-icon-misc-MammothTuskPowder.png
+ |name=Mammoth Tusk Powder
+ |id=0002c25e|weight=0.5|value=0
+ |quest=Repairing the Phial
+ |notes=* Located in [[Skyrim:Stonehill Bluff|Stonehill Bluff]] ([[Skyrim:Hjaalmarch|Hjaalmarch]])
+* Note that this is not the same as the alchemy ingredient [[Skyrim:Powdered Mammoth Tusk|Powdered Mammoth Tusk]]}}
+{{Item Data
+ |icon=SR-icon-misc-MapOfDragonBurials.png
+ |name=Map of Dragon Burials
+ |id=000bbcd5|weight=0|value=0
+ |quest=A Blade in the Dark
+ |notes=* Located in [[Skyrim:Sleeping Giant Inn|Sleeping Giant Inn]] ([[Skyrim:Riverwood|Riverwood]])}}
+{{Item Data
+ |icon=SR-icon-misc-Sapphire.png
+ |name=Mark of Dibella
+ |id=00041f95|weight=0.5|value=0
+ |quest=Caught Red Handed}}
+{{Item Data
+ |icon=SR-icon-misc-ShardsOfMehrunes'Razor.png
+ |name=Mehrunes' Razor Blade
+ |id=000eafdd|weight=3|value=5
+ |quest=Pieces of the Past}}
+{{Item Data
+ |icon=SR-icon-misc-PommelStoneOfMehrunes'Razor.png
+ |name=Mehrunes' Razor Gem
+ |id=000eafdb|weight=3|value=5
+ |quest=Pieces of the Past}}
+{{Item Data
+ |icon=SR-icon-misc-HiltOfMehrunes'Razor.png
+ |name=Mehrunes' Razor Hilt
+ |id=000eafdc|weight=3|value=5
+ |quest=Pieces of the Past}}
+{{Item Data
+ |icon=SR-icon-misc-ScabbardOfMehrunes'Razor.png
+ |name=Mehrunes' Razor Scabbard
+ |id=000eafd7|weight=3|value=5
+ |quest=Pieces of the Past}}
+{{Item Data
+ |icon=SR-icon-misc-Mercer'sPlans.png
+ |name=Mercer's Plans
+ |id=00037ce9|weight=0.5|value=0
+ |quest=The Pursuit
+ |notes=* Located in [[Skyrim:Riftweald Manor|Riftweald Manor]] ([[Skyrim:Riften|Riften]])}}
+{{Item Data
+ |icon=SR-icon-misc-Meridia'sBeacon.png
+ |name=Meridia's Beacon
+ |id=0004e4e6|weight=0.5|value=0
+ |quest=The Break of Dawn}}
+{{Item Data
+ |icon=SR-icon-misc-ImperialDocuments.png
+ |name=Message from General Tullius
+ |id=000dc530|weight=0|value=0
+ |quest=Message to Whiterun (Imperial)
+ |notes=* This is [[Skyrim:Imperial Documents|Imperial Documents]] renamed, and has the same ID.
+}}
+{{Item Data
+ |icon=SR-icon-misc-ModelShip.png
+ |name=Model Ship
+ |id=0006f266|weight=0.5|value=0
+ |quest=The Litany of Larceny
+ |notes=* Located in [[Skyrim:Snow Veil Catacombs|Snow Veil Catacombs]] ([[Skyrim:Winterhold (region)|Winterhold]])
+* [[Skyrim:Shadowfoot Sanctum (place)|Shadowfoot Sanctum]]{{CC|Shadowfoot Sanctum}} contains a special holder for this item.}}
+{{Item Data
+ |icon=SR-icon-potion-StaminaExtreme.png
+ |name=Nurelion's Mixture
+ |id=000c4f2e|weight=5|value=15
+ |quest=The White Phial (quest)
+ |notes=* Given to you by [[Skyrim:Nurelion|Nurelion]]}}
+{{Item Data
+ |icon=SR-icon-misc-Sapphire.png
+ |name=Olava's Token
+ |id=00059654|weight=0.5|value=100
+ |quest=Locate the Assassin of Old
+ |notes=* Given to you by [[Skyrim:Gabriella|Gabriella]] as a possible bonus for [[Skyrim:Breaching Security|Breaching Security]].}}
+{{Item Data
+ |icon=SR-icon-food-ColovianBrandy.png
+ |name=Opaque Vessel
+ |id=0003e6bb,0003e6bc,0008d770|idsep=<br>|weight=0|value=0
+ |quest=Evil in Waiting
+ |notes=* In-game you are told that they contain the blood of [[Skyrim:Hevnoraak (creature)|Hevnoraak]]. The internal editorIDs, however, imply that they contain his heart, brain, and lungs, respectively.
+* The first is found in the first zone of [[Skyrim:Valthume|Valthume]]; the other two are found in [[Skyrim:Valthume Catacombs|Valthume Catacombs]].}}
+{{Item Data
+ |icon=SR-icon-ingot-Orichalcum Ingot.png
+ |name=Orichalcum Ingot
+ |id=00043e27|weight=0|value=0
+ |quest=Hunt and Gather
+ |notes=* This is a different item from standard [[Skyrim:Orichalcum Ingot|Orichalcum Ingot]] and cannot be used at forges in place of the standard ingot.}}
+{{Item Data
+ |icon=SR-icon-misc-OrnateDrinkingHorn.png
+ |name=Ornate Drinking Horn
+ |id=00044e65|weight=0|value=0
+ |quest=The Sweep Job;The Burglary Job}}
+{{Item Data
+ |icon=SR-icon-misc-Flute.png
+ |name=Pantea's Flute
+ |id=000daba7|weight=2|value=25
+ |quest=Pantea's Flute
+ |notes=* Located in [[Skyrim:Hob's Fall Cave|Hob's Fall Cave]]
+* Identical in all ways to a regular [[Skyrim:Flute|Flute]] (including ID)}}
+{{Item Data
+ |icon=SR-icon-misc-Pelagius'HipBone.png
+ |name=Pelagius' Hip Bone
+ |id=0004286c|weight=1|value=250
+ |quest=The Mind of Madness}}
+{{Item Data
+ |icon=SR-icon-misc-PestPoison.png
+ |name=Pest Poison
+ |id=0002baab|weight=0.5|value=0
+ |quest=Dampened Spirits}}
+{{Item Data
+ |icon=SR-icon-jewelry-GoldEmeraldRing.png
+ |name=Pithi's Ornamental Ring
+ |id=000da734|weight=3|value=0
+ |quest=Forgotten Names}}
+{{Item Data
+ |icon=SR-icon-misc-PommelStoneOfMehrunes'Razor.png
+ |name=Pommel Stone of Mehrunes' Razor
+ |id=000240d4|weight=2|value=0
+ |quest=Pieces of the Past
+ |notes=* Located in [[Skyrim:Dead Crone Rock|Dead Crone Rock]]
+* Part of [[Skyrim:Mehrunes' Razor|Mehrunes' Razor]]}}
+{{Item Data
+ |icon=SR-icon-misc-Potema'sSkull.png
+ |name=Potema's Skull
+ |id=0009e01f|weight=0|value=0
+ |quest=The Wolf Queen Awakened
+ |notes=* Located in [[Skyrim:Potema's Sanctum|Potema's Sanctum]] ([[Skyrim:Haafingar|Haafingar]])}}
+{{Item Data
+ |icon=SR-icon-ingredient-Purified Void Salts.png
+ |name=Purified Void Salts
+ |displayname=Purified Void Salts {{DG}}
+ |id=xx00d3ee|weight=0.1|value=0
+ |quest=Chasing Echoes;{{DG}}|questsplit=2}}
+{{Item Data
+ |icon=SR-icon-misc-QueenBeeStatue.png
+ |name=Queen Bee Statue
+ |id=00019958|weight=0|value=0
+ |quest=The Litany of Larceny
+ |notes=* Located in [[Skyrim:Goldenglow Estate Second Floor|Goldenglow Estate Second Floor]] ([[Skyrim:The Rift|The Rift]])
+* [[Skyrim:Shadowfoot Sanctum (place)|Shadowfoot Sanctum]]{{CC|Shadowfoot Sanctum}} contains a special holder for this item.}}
+{{Item Data
+ |icon=SR-icon-ore-Quicksilver Ore.png
+ |name=Quicksilver Ore
+ |id=0005b2df|weight=1|value=25
+ |quest=Truth Ore Consequences
+ |notes=* This ore is different from standard [[Skyrim:Quicksilver Ore|Quicksilver Ore]] and cannot be [[Skyrim:Smelter|smelted]] or otherwise used.}}
+{{Item Data
+ |icon=SR-icon-misc-Quill.png
+ |name=Quill of Gemination
+ |id=000c04bb|weight=0.1|value=150
+ |quest=Vald's Debt}}
+{{Item Data
+ |customicon=[[File:SR-icon-misc-Soul Gem Fragment 00067181.png|24px]][[File:SR-icon-misc-Soul Gem Fragment 00067182.png|24px]]<br>[[File:SR-icon-misc-Soul Gem Fragment 00067183.png|24px]]
+ |name=Reaper Gem Fragment
+ |displayname=Reaper Gem Fragment {{DG}}
+ |id=xx0066f3,xx0066f5,xx0066f6|idsep=<br>|weight=0.1|value=5
+ |notes=* Used on the ''Reaper Shard Receptacle'' in the [[Skyrim:Reaper's Lair|Reaper's Lair]] to summon the [[Skyrim:Reaper|Reaper]]}}
+{{Item Data
+ |icon=SR-icon-misc-Drum.png
+ |name=Rjorn's Drum
+ |id=000daba9|weight=4|value=10
+ |quest=Rjorn's Drum
+ |notes=* Located in [[Skyrim:Halldir's Cairn|Halldir's Cairn]]
+* Identical in all ways to a regular [[Skyrim:Drum|Drum]] (including ID)}}
+{{Item Data
+ |icon=SR-icon-misc-RunedLexicon.png
+ |name=Runed Lexicon
+ |id=0003a3dd|weight=0|value=0
+ |quest=Discerning the Transmundane}}
+{{Item Data
+ |icon=SR-icon-misc-SkullKey.png
+ |name=Saerek's Skull Key
+ |id=000aadb6|weight=0.3|value=100
+ |quest=Ragnvald (quest)
+ |notes=* Located in [[Skyrim:Ragnvald Crypts|Ragnvald Crypts]] ([[Skyrim:The Reach|The Reach]])
+* [[Skyrim:Tundra Homestead (place)|Tundra Homestead]]'s cellar{{CC|Tundra Homestead}} and [[Skyrim:Myrwatch (place)|Myrwatch]]'s gallery{{CC|Myrwatch}} contain a special holder for this item.}}
+{{Item Data
+ |icon=SR-icon-misc-Satchel.png
+ |name=Satchel of Moon Sugar
+ |id=000d8e43|weight=0|value=0
+ |quest=Thieves Guild Caravan Fence Quest}}
+{{Item Data
+ |icon=SR-icon-misc-ScabbardOfMehrunes'Razor.png
+ |name=Scabbard of Mehrunes' Razor
+ |id=000240d6|weight=3|value=0
+ |quest=Pieces of the Past
+ |notes=* Located in [[Skyrim:Silus Vesuius's House|Silus Vesuius's House]] ([[Skyrim:Dawnstar|Dawnstar]])
+* Part of [[Skyrim:Mehrunes' Razor|Mehrunes' Razor]]}}
+{{Item Data
+ |icon=SR-icon-Scroll-03.png
+ |name=Sealed Scroll
+ |id=000457ab|weight=0.5|value=0
+ |quest=A Scroll For Anska
+ |notes=* Located in [[Skyrim:Vokun's Throne Room|Vokun's Throne Room]] ([[Skyrim:The Pale|The Pale]])}}
+{{Item Data
+ |icon=SR-icon-misc-ShardsOfMehrunes'Razor.png
+ |name=Shards of Mehrunes' Razor
+ |id=000240d5|weight=6|value=0
+ |quest=Pieces of the Past
+ |notes=* Located in [[Skyrim:Cracked Tusk Keep|Cracked Tusk Keep]]
+* Part of [[Skyrim:Mehrunes' Razor|Mehrunes' Razor]]}}
+{{Item Data
+ |icon=SR-icon-misc-SigilStone.png
+ |name=Sigil Stone
+ |id=000d363b|weight=0|value=0
+ |quest=Conjuration Ritual Spell
+ |notes=* Used with [[Skyrim:Atronach Forge|the Atronach Forge]]}}
+{{Item Data
+ |icon=SR-icon-book-Journal3.png
+ |name=Silver Hand Stratagem
+ |id=000f1491|weight=0|value=0
+ |quest=Stealing Plans}}
+{{Item Data
+ |icon=SR-icon-misc-WerewolfPelt.png
+ |name=Sinding's Skin
+ |id=0002ac62|weight=4|value=0
+ |quest=Ill Met By Moonlight}}
+{{Item Data
+ |icon=SR-icon-misc-Soaked Taproot.png
+ |name=Soaked Taproot
+ |displayname=Soaked Taproot {{DB}}
+ |id=xx01aad6|weight=2|value=1
+ |quest=Healing a House
+}}
+{{Item Data
+ |icon=SR-icon-misc-BlackSoulGem.png
+ |name=Soul Essence Gem (Full)
+ |displayname=Soul Essence Gem (Full){{DG}}
+ |id=xx00ea6a|weight=0.5|value=250
+ |quest=Beyond Death;{{DG}}|questsplit=2
+ |notes=* Used to store your soul if you became partially soul trapped to enter the [[Skyrim:Soul Cairn|Soul Cairn]]. Changes to a [[Skyrim:Black Soul Gem|Black Soul Gem]] and removes the [[Skyrim:Weakened Soul|Weakened Soul]] effect when activated.}}
+{{Item Data
+ |icon=SR-icon-misc-Soul Gem Shards.png
+ |name=Soul Gem Shards
+ |displayname=Soul Gem Shards {{DG}}
+ |id=xx00d3ef|weight=0.1|value=0
+ |quest=Chasing Echoes;{{DG}}|questsplit=2
+ |notes=* Not related to random [[Skyrim:Soul Gem Fragment|Soul Gem Fragments]] that can be found everywhere.}}
+{{Item Data
+ |icon=SR-icon-misc-StatueOfDibella.png
+ |name=Statue of Dibella
+ |id=0006c9ef|weight=3|value=100
+ |quest=Speak to Degaine
+ |notes=* Located in the Inner Sanctum of the [[Skyrim:Temple of Dibella|Temple of Dibella]] ([[Skyrim:Markarth|Markarth]])
+* Note that this is a different item from a standard [[Skyrim:Dibella Statue|Dibella Statue]] and from the Statue of Dibella used in [[Skyrim:Taking Care of Business|Taking Care of Business]]}}
+{{Item Data
+ |icon=SR-icon-misc-Statue Of Dibella.png
+ |name=Statue of Dibella
+ |id=00021ea3,0010cc6a|idsep=<br>|weight=2|value=100
+ |quest=Taking Care of Business
+ |notes=* Located in [[Skyrim:Haelga's Bunkhouse|Haelga's Bunkhouse]] ([[Skyrim:Riften|Riften]])
+* Note that this is a different item from a standard [[Skyrim:Dibella Statue|Dibella Statue]] and from the Statue of Dibella used in [[Skyrim:Speak to Degaine|Speak to Degaine]]}}
+{{Item Data
+ |icon=SR-icon-book-Note1.png
+ |name=Stalhrim Source Map
+ |displayname=[[Skyrim:Stalhrim Source Map|Stalhrim Source Map]] {{DB}}
+ |id=xx01caf2|weight=0|value=0
+ |quest=A New Source of Stalhrim
+}}
+{{Item Data
+ |icon=SR-icon-misc-StormcloakDocuments.png
+ |name=StormCloak Documents
+ |displayname={{sic|StormCloak|Stormcloak|description=uppercase letter|nolink=1}} Documents
+ |id=000dc52e|weight=0|value=0
+ |quest=A False Front (Imperial)}}
+{{Item Data
+ |icon=SR-icon-misc-Satchel.png
+ |name=Sylgja's Satchel
+ |id=000e49f7|weight=0|value=0
+ |quest=Special Delivery (Sylgja)}}
+{{Item Data
+ |icon=SR-icon-misc-Tolfdir'sAlembic.png
+ |name=Tolfdir's Alembic
+ |id=00026c31|weight=2|value=0
+ |quest=Tolfdir the Absent-Minded}}
+{{Item Data
+ |icon=SR-icon-misc-TorcOfLabyrinthian.png
+ |name=Torc of Labyrinthian
+ |id=000a34f8|weight=1|value=10
+ |quest=The Staff of Magnus}}
+{{Item Data
+ |icon=SR-icon-misc-SkullKey.png
+ |name=Torsten's Skull Key
+ |id=000aadb7|weight=0.3|value=100
+ |quest=Ragnvald (quest)
+ |notes=* Located in [[Skyrim:Ragnvald Crypts|Ragnvald Crypts]] ([[Skyrim:The Reach|The Reach]])
+* [[Skyrim:Tundra Homestead (place)|Tundra Homestead]]'s cellar{{CC|Tundra Homestead}} and [[Skyrim:Myrwatch (place)|Myrwatch]]'s gallery{{CC|Myrwatch}} contain a special holder for this item.}}
+{{Item Data
+ |icon=SR-icon-misc-Torygg'sWarHorn.png
+ |name=Torygg's War Horn
+ |id=000e77bb|weight=5|value=0
+ |quest=Elisif's Tribute
+ |notes=* Located 260 ft ESE of [[Skyrim:Shimmermist Cave|Shimmermist Cave]] ([[Skyrim:Haafingar|Haafingar]])}}
+{{Item Data
+ |icon=SR-icon-jewelry-SilverRubyRing.png
+ |name=Treoy's Ornamental Ring
+ |id=000da732|weight=3|value=0
+ |quest=Forgotten Names}}
+{{Item Data
+ |icon=SR-icon-misc-UnmeltingSnow.png
+ |name=Unmelting Snow
+ |id=0002c25c|weight=1|value=0
+ |quest=Repairing the Phial
+ |notes=* Located 80 ft SSW of [[Skyrim:Throat of the World|Throat of the World]] ([[Skyrim:Whiterun Hold|Whiterun Hold]])}}
+{{Item Data
+ |icon=SR-icon-misc-StoneOfBarenziah.png
+ |name=Unusual Gem
+ |id=0009dfbb|weight=0.5|value=200
+ |quest=No Stone Unturned
+ |notes=* Is renamed "Stone of Barenziah" after you bring your first one to [[Skyrim:Vex|Vex]].}}
+{{Item Data
+ |icon=SR-icon-misc-Satchel.png
+ |name=Verner's Satchel
+ |id=000e49f8|weight=0|value=0
+ |quest=Special Delivery (Sylgja)}}
+{{Item Data
+ |icon=SR-icon-misc-GrandSoulGem.png
+ |name=Warped Soul Gem
+ |id=0006a106,0006a107,0006a108,0006a109,0006a10a,0010e44b|idsep=<br>|weight=0.5|value=0
+ |quest=Arniel's Endeavor}}
+{{Item Data
+ |icon=SR-icon-jewelry-GoldRing.png
+ |name=Wedding Ring
+ |id=0001cb34|weight=0.5|value=0
+ |quest=A Night To Remember}}
+{{Item Data
+ |icon=SR-icon-misc-WerewolfTotem(Brotherhood).png
+ |name=Totem of Brotherhood
+ |displayname=Werewolf Totem
+ |id=000e3147|weight=0.5|value=1
+ |quest=Totems of Hircine
+ |notes=* Grants power ''Totem of Brotherhood''}}
+{{Item Data
+ |icon=SR-icon-misc-WerewolfTotem(Fear).png
+ |name=Totem of Fear
+ |displayname=Werewolf Totem
+ |id=000e3148|weight=0.5|value=1
+ |quest=Totems of Hircine
+ |notes=* Grants power ''Totem of Fear''}}
+{{Item Data
+ |icon=SR-icon-misc-WerewolfTotem(Hunt).png
+ |name=Totem of the Hunt
+ |displayname=Werewolf Totem
+ |id= 000e3146|weight=0.5|value=1
+ |quest=Totems of Hircine
+ |notes=* Grants power ''Totem of the Hunt''}}
+{{Item Data
+ |icon=SR-icon-misc-Weystone Focus.png
+ |name=Weystone Focus
+ |displayname=Weystone Focus {{DG}}
+ |id=xx003d7d|weight=0.3|value=300
+ |quest=Prophet;{{DG}}|questsplit=2}}
+{{Item Data
+ |icon=SR-icon-misc-Spoon.png
+ |name=Wylandriah's Spoon
+ |id=00043e28|weight=0|value=0
+ |quest=Hunt and Gather}}
+|}
+
+==Notes==
+* You can remove quest weapons from your inventory by placing them on weapon racks. If you obtain a quest-related weapon before starting a quest, start the quest, then remove/take the weapon from a rack, the quest will proceed normally. {{vn|plain}}
+*Amren's Family Sword, Queen Freydis's Sword and Dravin's Bow can all be reobtained by you after the quests end: the first and the last can be pickpocketed from their owners, while the Queen's Sword can be bought (or also pickpocketed) from Oengul. You can also buy Calcelmo's Ring from Calcelmo after it is delivered to him.
+==Bugs==
+{{Bug|The Sapphire Dragon Claw can become stuck in your inventory if you pick it up after the related quest was finished.}}

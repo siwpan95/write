@@ -1,0 +1,281 @@
+本页面是用来储存《上古卷轴》游戏中地点的中英文名称对应表，大多为官方中译，参考页面：[https://eso.denohub.com/map/27 ESO地图]，[https://github.com/Eldoov/eso_en_zh_vstab 官方中译]
+
+__TOC__
+
+== 大陆省份译名 ==
+[[File:Map-Tamriel-custom.jpg|thumb|alt=泰姆瑞尔大陆地图（二创）|''泰姆瑞尔大陆地图（[https://www.imperial-library.info/content/maps-tamriel 来源]）'']]
+<div class='center-text'>
+{| class="wikitable" style="width: 30%;"
+!英文
+|中译
+|-
+!Tamriel
+|泰姆瑞尔
+|-
+!Cyrodiil
+|西罗帝尔
+|-
+!style="width: 15%;"|Skyrim
+|style="text-align:center; width: 15%;"|天际
+|-
+!Hammerfell
+|落锤
+|-
+!High Rock
+|高岩
+|-
+!Morrowind
+|晨风
+|-
+!Black Marsh
+|黑沼泽
+|-
+!Elsweyr
+|艾斯维尔
+|-
+!Valenwood
+|威木
+|-
+!Summerset
+|夏暮岛
+|}
+</div>
+
+== 西罗帝尔城镇译名 ==
+[[File:西罗帝尔地图.png|thumb|''西罗帝尔地图（[https://www.imperial-library.info/content/cities-cyrodiil 来源]）'']]西罗帝尔[https://www.imperial-library.info/content/cities-cyrodiil 公爵领（城市）介绍]
+<div class='center-text'>
+{| class="wikitable" style="width:65%;"
+! colspan="2" |城市
+! colspan="2" |村镇
+|-
+!The Imperial City
+|帝都
+!
+|
+|-
+!Anvil
+|安维尔
+!
+|
+|-
+!Bravil
+|布拉维尔
+!
+|
+|-
+!Bruma
+|布鲁玛
+!
+|
+|-
+!Cheydinhal
+|香丁赫尔
+!Blackrose
+|黑玫瑰伯爵领
+|-
+! rowspan="2" |Chorrol
+| rowspan="2" style="text-align:center;" |科洛尔
+!Limen Vicus
+|[[黎曼威客]]
+|-
+!Emerald Sand
+|[[翠砂子爵領|翠砂]]
+|-
+!Kvatch
+|科瓦奇
+!
+|
+|-
+!Leyawiin
+|乐雅文
+!
+|
+|-
+!Skingrad
+|斯肯格拉德
+!
+|
+|}
+</div>
+
+== 天际城镇译名 ==
+[[File:Skyrim-Map.png|thumb|''天际地图（[https://en.uesp.net/wiki/File:SR-map-Skyrim.jpg 来源]）'']]
+<div class='center-text'>
+{| class="wikitable" style="width:65%;"
+! colspan="2" |城市
+! colspan="2" |村镇
+|-
+! rowspan="2" |Whiterun
+| rowspan="2" |雪漫
+!Lindendale
+|[[椴樹谷男爵領|椴樹谷]]
+|-
+!Riverwood
+|溪木镇
+|-
+!Falkreath
+|福克瑞斯
+!
+|
+|-
+!Markarth
+|玛卡斯
+!
+|
+|-
+!Morthal
+|莫萨尔
+!
+|
+|-
+!Solitude
+|孤独
+!
+|
+|-
+!Dawnstar
+|晨星
+!
+|
+|-
+!Winterhold
+|冬堡
+!
+|
+|-
+!Windhelm
+|风盔
+!
+|
+|-
+!Riften
+|裂谷
+!
+|
+|}
+</div>
+
+== 落锤城镇译名 ==
+[[File:Hammerfell-Map.png|thumb|''落锤地图（[https://elderscrolls.fandom.com/wiki/Hammerfell 来源]）'']]
+<div class='center-text'>
+{| class="wikitable" style="width:65%;"
+! colspan="2" |城市
+! colspan="2" |村镇
+|-
+!Dragonstar
+|龙星城
+!
+|
+|-
+!Elinhir
+|爱林希尔
+!
+|
+|-
+!Skaven
+|
+!
+|
+|-
+!Sentinel
+|哨兵城
+!
+|
+|-
+!Helgathe
+|
+!
+|
+|-
+!Gilane
+|吉兰
+!
+|
+|-
+!Taneth
+|
+!
+|
+|-
+!Rihad
+|里哈德
+!
+|
+|-
+!Stros M'Kai
+|斯卓米凯岛
+!
+|
+|}
+</div>
+
+== 高岩城镇译名 ==
+[[File:HighRock-Map.png|thumb|''高岩地图（[https://www.imperial-library.info/content/maps-high-rock 来源]）'']]
+<div class='center-text'>
+{| class="wikitable" style="width:65%;"
+! colspan="2" |城市
+! colspan="2" |村镇
+|-
+!Daggerfall
+|匕落
+!
+|
+|-
+!Camlorn
+|凯姆洛恩
+!
+|
+|-
+!Wayrest
+|途歇城
+!
+|
+|-
+!Shornhelm
+|断盔城
+!
+|
+|-
+!Evermor
+|永恒城
+!
+|
+|-
+!Northpoint
+|北据城
+!
+|
+|-
+!Fharun
+|法伦
+!
+|
+|-
+!Jehenna
+|杰汉纳
+!
+|
+|}
+</div>
+
+== 晨风城镇译名 ==
+
+== 艾斯维尔城镇译名 ==
+
+== 黑沼泽城镇译名 ==
+
+== 威木城镇译名 ==
+
+== 夏暮岛城镇译名 ==
+<div class='center-text'>
+{| class="wikitable" style="width:65%;"
+! colspan="2" |城市
+! colspan="2" |村镇
+|-
+!Alinor
+|艾利诺
+!
+|
+|}
+[[Category:地点]]
+[[Category:Lore]]

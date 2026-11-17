@@ -1,0 +1,48 @@
+{{Protection|semi|full}}{{Mod Header|Dragonborn|shortcut={{DB}}|icon=SR-icon-Dragonborn.png}}{{About|the add-on|the quest|Dragonborn (quest)|the player character|Prisoner|general information|Skyrim:Dovahkiin}}
+{{Content Summary
+|image=SR-cover-Dragonborn Box Art.jpg
+|imgdesc=''Dragonborn'' box art
+|size{{huh}} (PC) / {{huh}} (Xbox) / {{huh}} (PS3)
+|pc=Available from [https://store.steampowered.com/app/226880/The_Elder_Scrolls_V_Skyrim__Dragonborn/ Steam]<br>($19.99/€19.99/£13.99/¥2499/$24.23 AUD/429 RUB)
+|ps3=Available from the Playstation Store<br> ($20/$25 AUD/¥2400)
+|xbox= Available from [https://marketplace.xbox.com/en-US/Product/The-Elder-Scrolls-V-Skyrim-Dragonborn-English/2f3ecc32-1497-4320-bae0-076a314c80d6 Xbox Marketplace]<br>($19.99 US & Canada, was 1600 MS Points)
+|other=Included with [[SR:Special Edition|Special Edition]], [[SR:Switch|Switch Edition]], [[SR:Skyrim VR|Skyrim VR]], and [[SR:Anniversary Edition|Anniversary Edition]]
+|patch=[[Skyrim:Patch#Version 1.8.151.0.7|1.8.151.0.7]]
+|released=4 December 2012 (Xbox 360)<br/>5 February 2013 (PC)<br/>12 February 2013 (PS3, US)<br/>13 February 2013 (PS3, English-speaking EU)
+}}{{TOCright}}[[Category:Skyrim-Dragonborn| ]]
+'''''Dragonborn''''' is the third major [[Skyrim:Add-ons|official add-on]] for ''[[Skyrim:Skyrim|Skyrim]]''. The existence of this expansion was first alluded to by patch files found in the [[Skyrim:Patch#Version 1.8|1.8 Patch]], and it was confirmed by Bethesda on 5 November 2012 with an official announcement trailer. ''Dragonborn'' takes place on the island of [[Lore:Solstheim|Solstheim]], first visited many moons ago during ''[[Bloodmoon:Bloodmoon|Bloodmoon]]''. The add-on's plot tasks you with uncovering the identity of the person seemingly controlling the entire population of the island, and stopping them. 
+{|
+|
+:''With this official add-on for The Elder Scrolls V: Skyrim, journey off the coast of Morrowind, to the island of Solstheim. Encounter new towns, dungeons, and quests, as you traverse the ash wastes and glacial valleys of this new land. Become more powerful with new shouts that bend the will of your enemies and even tame dragons. Your fate, and the fate of Solstheim, hangs in the balance as you face off against your deadliest adversary – the first Dragonborn.'' —[http://marketplace.xbox.com/en-US/Product/The-Elder-Scrolls-V-Skyrim-Dragonborn-English/2f3ecc32-1497-4320-bae0-076a314c80d6 Official Summary]
+|}{{NewLeft}}
+
+==Quest Information==
+{{Bullet Link|Dragonborn Quests|altname=Quests|Walkthroughs for new quests}}
+
+==Gameplay Information==
+{{Bullet Link|Creatures|Creatures you may find in [[Skyrim:Solstheim|Solstheim]] and [[Skyrim:Apocrypha|Apocrypha]]}}
+{{Bullet Link|Dragon Riding|A guide to riding dragons}}
+{{Bullet Link|Factions|Various groups occupying Solstheim}}
+{{Bullet Link|Dragonborn Items|altname=Items|A plethora of new items and equipment await you}}
+{{Bullet Link|Magic|New powers and shouts gained from forbidden knowledge}}
+{{Bullet Link|Dragonborn NPCs|altname=NPCs|Listing of all non-player characters in the game}}
+*{{Bullet Link|People|New people you will meet on your travels through Solstheim}}
+*{{Bullet Link|Classes|NPC specializations added by ''Dragonborn''}}
+{{Bullet Link|Dragonborn Places|altname=Places|Various settlements, caves, ruins, and other locations added by ''Dragonborn''}}
+{{Bullet Link|Services|A listing of all the services provided in Solstheim}}
+
+==Miscellaneous Information==
+{{Bullet Link|Achievements#Dragonborn|altname=Achievements|Ten new achievements can be earned after installing ''Dragonborn''}}
+{{Bullet Link|Easter Eggs|Funny, out of place, or reference-related non-bug findings}}
+{{Bullet Link|Elder Scrolls Historical References|altname=Historical References|References to people, places, and events from previous ''Elder Scrolls'' games}}
+{{Bullet Link|Loading Screens|Thirty new loading screens are added after installing ''Dragonborn''}}
+
+==Notes==
+* ''Dragonborn'' was subject to a 30-day exclusivity deal with Microsoft, during which it was only available on the Xbox 360. In February 2013, it was released on both PC and PS3.
+* The [[Skyrim:Music#Dragonborn|soundtrack]] that plays on Solstheim contains several pieces from the ''[[Morrowind:Morrowind|Morrowind]]'' [[Morrowind:Music|soundtrack]].
+
+==See Also==
+* [[Skyrim:Pre-Release Content#Dragonborn Screenshots|Pre-Release Screenshots]]
+* [https://www.youtube.com/watch?v=TRmdXDH9b1s Dragonborn - Official Trailer]
+* [https://www.ign.com/articles/2012/11/15/new-dragonborn-details-and-screenshots?abthid=50a50d995f2327324000000e "New Dragonborn Details and Screenshots" via IGN]
+{{Bullet Link|{{forums|Skyrim Subforum|subpage=viewforum.php?f=34}}|A place on the UESP [[UESPWiki:Forums|forums]] where you can discuss the expansion}}

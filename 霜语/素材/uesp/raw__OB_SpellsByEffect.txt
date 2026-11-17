@@ -1,0 +1,2989 @@
+{{Trail|Magic}}__NOTOC__
+{|class=toc
+|colspan=4|<center>'''Contents'''</center>
+|-
+|{{RES}} width=25%|[[#Absorb Attribute|Absorb Attribute]]
+|{{DES}} width=25%|[[#Damage Health|Damage Health]]
+|{{RES}} width=25%|[[#Fortify Fatigue|Fortify Fatigue]]
+|{{RES}} width=25%|[[#Restore Fatigue|Restore Fatigue]]
+|-
+|{{RES}}|[[#Absorb Fatigue|Absorb Fatigue]]
+|{{DES}}|[[#Damage Magicka|Damage Magicka]]
+|{{RES}}|[[#Fortify Health|Fortify Health]]
+|{{RES}}|[[#Restore Health|Restore Health]]
+|-
+|{{RES}}|[[#Absorb Health|Absorb Health]]
+|{{ILL}}|[[#Demoralize|Demoralize]]
+|{{RES}}|[[#Fortify Magicka|Fortify Magicka]]
+|{{ALT}}|[[#Shield|Shield]]
+|-
+|{{RES}}|[[#Absorb Magicka|Absorb Magicka]]
+|{{MYS}}|[[#Detect Life|Detect Life]]
+|{{RES}}|[[#Fortify Skill|Fortify Skill]]
+|{{DES}}|[[#Shock Damage|Shock Damage]]
+|-
+|{{RES}}|[[#Absorb Skill|Absorb Skill]]
+|{{DES}}|[[#Disintegrate Armor|Disintegrate Armor]]
+|{{ILL}}|[[#Frenzy|Frenzy]]
+|{{ALT}}|[[#Shock Shield|Shock Shield]]
+|-
+|{{CON}}|[[#Bound Armor|Bound Armor]]
+|{{DES}}|[[#Disintegrate Weapon|Disintegrate Weapon]]
+|{{DES}}|[[#Frost Damage|Frost Damage]]
+|{{ILL}}|[[#Silence|Silence]]
+|-
+|{{CON}}|[[#Bound Weapon|Bound Weapon]]
+|{{MYS}}|[[#Dispel|Dispel]]
+|{{ALT}}|[[#Frost Shield|Frost Shield]]
+|{{MYS}}|[[#Soul Trap|Soul Trap]]
+|-
+|{{ALT}}|[[#Burden|Burden]]
+|{{DES}}|[[#Drain Attribute|Drain Attribute]]
+|{{ILL}}|[[#Invisibility|Invisibility]]
+|{{MYS}}|[[#Spell Absorption|Spell Absorption]]
+|-
+|{{ILL}}|[[#Calm|Calm]]
+|{{DES}}|[[#Drain Fatigue|Drain Fatigue]]
+|{{ILL}}|[[#Light|Light]]
+|{{CON}}|[[#Summon|Summon]]
+|-
+|{{ILL}}|[[#Chameleon|Chameleon]]
+|{{DES}}|[[#Drain Health|Drain Health]]
+|{{ILL}}|[[#Night-Eye|Night-Eye]]
+|{{MYS}}|[[#Telekinesis|Telekinesis]]
+|-
+|{{ILL}}|[[#Charm|Charm]]
+|{{DES}}|[[#Drain Magicka|Drain Magicka]]
+|{{ALT}}|[[#Open|Open]]
+|{{CON}}|[[#Turn Undead|Turn Undead]]
+|-
+|{{MYS}}|[[#Clairvoyance|Clairvoyance]]{{OBR}}
+|{{DES}}|[[#Drain Skill|Drain Skill]]
+|{{ILL}}|[[#Paralyze|Paralyze]]
+|{{ALT}}|[[#Water Breathing|Water Breathing]]
+|-
+|{{ILL}}|[[#Command Creature|Command Creature]]
+|{{ALT}}|[[#Feather|Feather]]
+|{{ILL}}|[[#Rally|Rally]]
+|{{ALT}}|[[#Water Walking|Water Walking]]
+|-
+|{{ILL}}|[[#Command Humanoid|Command Humanoid]]
+|{{DES}}|[[#Fire Damage|Fire Damage]]
+|{{MYS}}|[[#Reflect Spell|Reflect Spell]]
+|{{DES}}|[[#Weakness|Weakness]]
+|-
+|{{RES}}|[[#Cure|Cure]]
+|{{DES}}|[[#Damage Attribute|Damage Attribute]]
+|{{ALT}}|[[#Fire Shield|Fire Shield]]
+|{{RES}}|[[#Resist Magic|Resist Magic]]
+|rowspan=2|
+|-
+|{{DES}}|[[#Damage Fatigue|Damage Fatigue]]
+|{{RES}}|[[#Fortify Attribute|Fortify Attribute]]
+|{{RES}}|[[#Restore Attribute|Restore Attribute]]
+|}
+*See also: [[Oblivion:Spells|Spells by School]]
+
+
+===[[File:OB-icon-Absorb.png|24px|Absorb Attribute]] [[Oblivion:Absorb Attribute|Absorb Attribute]]===
+'''School: [[File:OBR-icon-magic-Restoration.png|20px]] [[Oblivion:Restoration|Restoration]]'''
+{|class="wikitable vtop" width="100%"
+|-{{RES}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Absorb Attribute: Agility}}
+|000A936D
+|Novice
+|[[Oblivion:Absorb Agility|Absorb Agility]] 5pts for 20sec on Touch
+|14
+|[[Oblivion:Thaurron|Thaurron]]
+|-
+|{{Anchor|Absorb Attribute: Endurance}}
+|000A936E
+|Novice
+|[[Oblivion:Absorb Endurance|Absorb Endurance]] 5pts for 20sec on Touch
+|14
+|Thaurron
+|-
+|{{Anchor|Absorb Attribute: Intelligence}}
+|000A9788
+|Novice
+|[[Oblivion:Absorb Intelligence|Absorb Intelligence]] 5pts for 20sec on Touch
+|14
+|Thaurron
+|-
+|{{Anchor|Absorb Attribute: Luck}}
+|000A9789
+|Novice
+|[[Oblivion:Absorb Luck|Absorb Luck]] 5pts for 20sec on Touch
+|14
+|Thaurron, [[Oblivion:Edgar_Vautrine|Edgar Vautrine]]
+|-
+|{{Anchor|Absorb Attribute: Speed}}
+|000A978B
+|Novice
+|[[Oblivion:Absorb Speed|Absorb Speed]] 5pts for 20sec on Touch
+|14
+|Thaurron
+|-
+|{{Anchor|Absorb Attribute: Strength}}
+|000A978C
+|Novice
+|[[Oblivion:Absorb Strength|Absorb Strength]] 5pts for 20sec on Touch
+|14
+|Thaurron
+|-
+|{{Anchor|Absorb Attribute: Willpower}}
+|000A978D
+|Novice
+|[[Oblivion:Absorb Willpower|Absorb Willpower]] 5pts for 20sec on Touch
+|14
+|Thaurron
+|}
+
+===[[File:OB-icon-Absorb.png|24px|Absorb Fatigue]] [[Oblivion:Absorb Fatigue|Absorb Fatigue]]===
+'''School: [[File:OBR-icon-magic-Restoration.png|20px]] [[Oblivion:Restoration|Restoration]]'''
+{|class="wikitable vtop" width="100%"
+|-{{RES}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|[[Oblivion:Leveled Spells#Essence Drain|Essence Drain]]
+|Variable
+|Variable
+|[[Oblivion:Absorb Fatigue|Absorb Fatigue]] on Touch<br>[[Oblivion:Absorb Health|Absorb Health]] on Touch<br>[[Oblivion:Absorb Magicka|Absorb Magicka]] on Touch<br>
+|Var.
+|[[Oblivion:Leveled Spells|Leveled Spell]]. Usable only while wearing the [[Oblivion:Bloodworm Helm|Bloodworm Helm]], acquired during [[Oblivion:The Bloodworm Helm|The Bloodworm Helm]] quest
+|-
+|Absorb Fatigue
+|000A936B
+|Novice
+|Absorb Fatigue 10pts on Touch
+|11
+|[[Oblivion:Calindil|Calindil]], [[Oblivion:Thaurron|Thaurron]]
+|}
+
+===[[File:OB-icon-Absorb.png|24px|Absorb Health]] [[Oblivion:Absorb Health|Absorb Health]]===
+'''School: [[File:OBR-icon-magic-Restoration.png|20px]] [[Oblivion:Restoration|Restoration]]'''
+{|class="wikitable vtop" width="100%"
+|-{{RES}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|[[Oblivion:Leveled Spells#Essence Drain|Essence Drain]]
+|Variable
+|Variable
+|[[Oblivion:Absorb Fatigue|Absorb Fatigue]] on Touch<br>[[Oblivion:Absorb Health|Absorb Health]] on Touch<br>[[Oblivion:Absorb Magicka|Absorb Magicka]] on Touch<br>
+|Var.
+|[[Oblivion:Leveled Spells|Leveled Spell]]. Usable only while wearing the [[Oblivion:Bloodworm Helm|Bloodworm Helm]], acquired during [[Oblivion:The Bloodworm Helm|The Bloodworm Helm]] quest
+|-
+|Absorb Health
+|000A9367
+|Novice
+|Absorb Health 5pts on Touch
+|12
+|''(You start with this spell if [[Oblivion:Restoration|Restoration]] is one of your major skills)''<br>[[Oblivion:Thaurron|Thaurron]]
+|-
+|{{Anchor|Leech Health}}
+|000A9368
+|Apprentice
+|Absorb Health 10pts on Touch
+|30
+|Thaurron
+|-
+|{{Anchor|Consume Health}}
+|000A9369
+|Journeyman
+|Absorb Health 20pts on Touch
+|74
+|[[Oblivion:Marc_Gulitte|Marc Gulitte]], [[Oblivion:Trevaia|Trevaia]], [[Oblivion:Volanaro|Volanaro]]
+|-
+|{{Anchor|Devour Health}}
+|000A936A
+|Expert
+|Absorb Health 40pts on Touch
+|179
+|[[Oblivion:Borissean|Borissean]], Marc Gulitte
+|}
+
+===[[File:OB-icon-Absorb.png|24px|Absorb Magicka]] [[Oblivion:Absorb Magicka|Absorb Magicka]]===
+'''School: [[File:OBR-icon-magic-Restoration.png|20px]] [[Oblivion:Restoration|Restoration]]'''
+{|class="wikitable vtop" width="100%"
+|-{{RES}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|[[Oblivion:Leveled Spells#Essence Drain|Essence Drain]]
+|Variable
+|Variable
+|[[Oblivion:Absorb Fatigue|Absorb Fatigue]] on Touch<br>[[Oblivion:Absorb Health|Absorb Health]] on Touch<br>[[Oblivion:Absorb Magicka|Absorb Magicka]] on Touch<br>
+|Var.
+|[[Oblivion:Leveled Spells|Leveled Spell]]. Usable only while wearing the [[Oblivion:Bloodworm Helm|Bloodworm Helm]], acquired during [[Oblivion:The Bloodworm Helm|The Bloodworm Helm]] quest
+|-
+|Absorb Magicka
+|000A936C
+|Novice
+|Absorb Magicka 10pts on Touch
+|14
+|[[Oblivion:Thaurron|Thaurron]], [[Oblivion:Gaspar_Stegine|Gaspar Stegine]]
+|}
+
+===[[File:OB-icon-Absorb.png|24px|Absorb Skill]] [[Oblivion:Absorb Skill|Absorb Skill]]===
+'''School: [[File:OBR-icon-magic-Restoration.png|20px]] [[Oblivion:Restoration|Restoration]]'''
+{|class="wikitable vtop" width="100%"
+|-{{RES}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Absorb Skill: Acrobatics}}
+|000A978E
+|Novice
+|[[Oblivion:Absorb Skill|Absorb Acrobatics]] 5pts for 10sec on Touch
+|16
+|[[Oblivion:Thaurron|Thaurron]]
+|-
+|{{Anchor|Absorb Skill: Athletics}}
+|000A9792
+|Novice
+|[[Oblivion:Absorb Skill|Absorb Athletics]] 5pts for 10sec on Touch
+|16
+|Thaurron
+|-
+|{{Anchor|Absorb Skill: Illusion}}
+|000A979A
+|Novice
+|[[Oblivion:Absorb Skill|Absorb Illusion]] 5pts for 10sec on Touch
+|16
+|[[Oblivion:Calindil|Calindil]], Thaurron
+|-
+|{{Anchor|Absorb Skill: Security}}
+|000A97A0
+|Novice
+|[[Oblivion:Absorb Skill|Absorb Security]] 5pts for 10sec on Touch
+|16
+|Thaurron
+|-
+|{{Anchor|Absorb Skill: Hand to Hand}}
+|000A9798
+|Apprentice
+|[[Oblivion:Absorb Skill|Absorb Hand to Hand]] 10pts for 10sec on Touch
+|40
+|Thaurron
+|-
+|{{Anchor|Absorb Skill: Light Armor}}
+|000A979B
+|Apprentice
+|[[Oblivion:Absorb Skill|Absorb Light Armor]] 10pts for 10sec on Touch
+|40
+|Thaurron
+|-
+|{{Anchor|Absorb Skill: Mercantile}}
+|000A979D
+|Apprentice
+|[[Oblivion:Absorb Skill|Absorb Mercantile]] 10pts for 10sec on Touch
+|40
+|Thaurron, [[Oblivion:Edgar_Vautrine|Edgar Vautrine]]
+|-
+|{{Anchor|Absorb Skill: Mysticism}}
+|000A979E
+|Apprentice
+|[[Oblivion:Absorb Skill|Absorb Mysticism]] 10pts for 10sec on Touch
+|40
+|Thaurron
+|-
+|{{Anchor|Absorb Skill: Restoration}}
+|000A979F
+|Apprentice
+|[[Oblivion:Absorb Skill|Absorb Restoration]] 10pts for 10sec on Touch
+|40
+|Thaurron
+|-
+|{{Anchor|Absorb Skill: Alteration}}
+|000A9790
+|Journeyman
+|[[Oblivion:Absorb Skill|Absorb Alteration]] 15pts for 10sec on Touch
+|67
+|[[Oblivion:Marc_Gulitte|Marc Gulitte]], Edgar Vautrine
+|-
+|{{Anchor|Absorb Skill: Block}}
+|000A9794
+|Journeyman
+|[[Oblivion:Absorb Skill|Absorb Block]] 15pts for 10sec on Touch
+|67
+|Marc Gulitte
+|-
+|{{Anchor|Absorb Skill: Conjuration}}
+|000A9796
+|Journeyman
+|[[Oblivion:Absorb Skill|Absorb Conjuration]] 15pts for 10sec on Touch
+|67
+|Marc Gulitte
+|-
+|{{Anchor|Absorb Skill: Heavy Armor}}
+|000A9799
+|Journeyman
+|[[Oblivion:Absorb Skill|Absorb Heavy Armor]] 15pts for 10sec on Touch
+|67
+|Marc Gulitte
+|-
+|{{Anchor|Absorb Skill: Marksman}}
+|000A979C
+|Journeyman
+|[[Oblivion:Absorb Skill|Absorb Marksman]] 15pts for 10sec on Touch
+|67
+|Marc Gulitte
+|-
+|{{Anchor|Absorb Skill: Blade}}
+|000A9793
+|Expert
+|[[Oblivion:Absorb Skill|Absorb Blade]] 25pts for 15sec on Touch
+|193
+|Marc Gulitte, [[Oblivion:Selena_Orania|Selena Orania]]
+|-
+|{{Anchor|Absorb Skill: Blunt}}
+|000A9795
+|Expert
+|[[Oblivion:Absorb Skill|Absorb Blunt]] 25pts for 15sec on Touch
+|193
+|Marc Gulitte
+|-
+|{{Anchor|Absorb Skill: Destruction}}
+|000A9797
+|Expert
+|[[Oblivion:Absorb Skill|Absorb Destruction]] 25pts for 15sec on Touch
+|193
+
+|Marc Gulitte
+|-
+|{{Anchor|Absorb Skill: Sneak}}
+|000A97A1
+|Expert
+|[[Oblivion:Absorb Skill|Absorb Sneak]] 25pts for 15sec on Touch
+|193
+|[[Oblivion:Gaspar_Stegine|Gaspar Stegine]], Marc Gulitte
+|}
+
+===[[File:OB-icon-Boundarmor.png|24px|Bound Armor]] [[Oblivion:Bound Armor|Bound Armor]]===
+'''School: [[File:OBR-icon-magic-Conjuration.png|20px]] [[Oblivion:Conjuration|Conjuration]]'''
+{|class="wikitable vtop" width="100%"
+|-{{CON}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Bound Gauntlets}}
+|000A97B8
+|Novice
+|[[Oblivion:Bound Gauntlets|Bound Gauntlets]] for 20sec on Self
+|16
+|[[Oblivion:Alberic_Litte|Alberic Litte]]
+|-
+|{{Anchor|Bound Boots}}
+|000A97B4
+|Novice
+|[[Oblivion:Bound Boots|Bound Boots]] for 20sec on Self
+|24
+|Alberic Litte
+|-
+|{{Anchor|Bound Helmet}}
+|000A97BA
+|Novice
+|[[Oblivion:Bound Helmet|Bound Helmet]] for 20sec on Self
+|24
+|Alberic Litte, [[Oblivion:Calindil|Calindil]]
+|-
+|{{Anchor|Bound Greaves}}
+|000A97B9
+|Apprentice
+|[[Oblivion:Bound Greaves|Bound Greaves]] for 45sec on Self
+|54
+|Alberic Litte
+|-
+|{{Anchor|Bound Cuirass}}
+|000A97B6
+|Journeyman
+|[[Oblivion:Bound Cuirass|Bound Cuirass]] for 60sec on Self
+|72
+|[[Oblivion:Athragar|Athragar]], [[Oblivion:Delphine_Jend|Delphine Jend]]
+|-
+|{{Anchor|Bound Shield}}
+|000A97BC
+|Expert
+|[[Oblivion:Bound Shield|Bound Shield]] for 120sec on Self
+|216
+|Athragar
+|}
+
+===[[File:OB-icon-Boundweapon.png|24px|Bound Weapon]] [[Oblivion:Bound Weapon|Bound Weapon]]===
+'''School: [[File:OBR-icon-magic-Conjuration.png|20px]] [[Oblivion:Conjuration|Conjuration]]'''
+{|class="wikitable vtop" width="100%"
+|-{{CON}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Bound Dagger}}
+|000A97B7
+|Novice
+|[[Oblivion:Bound Dagger|Bound Dagger]] for 15sec on Self
+|21
+|[[Oblivion:Alberic_Litte|Alberic Litte]], [[Oblivion:Edgar_Vautrine|Edgar Vautrine]]
+|-
+|{{Anchor|Bound War Axe}}
+|000A97B3
+|Apprentice
+|[[Oblivion:Bound Axe|Bound Axe]] for 15sec on Self
+|58
+|Alberic Litte
+|-
+|{{Anchor|Bound Mace}}
+|000A97BB
+|Journeyman
+|[[Oblivion:Bound Mace|Bound Mace]] for 15sec on Self
+|136
+|[[Oblivion:Athragar|Athragar]]
+|-
+|{{Anchor|Bound Bow}}
+|000A97B5
+|Journeyman
+|[[Oblivion:Bound Bow|Bound Bow]] for 15sec on Self
+|142
+|Athragar, [[Oblivion:Aurelinwae|Aurelinwae]]
+|-
+|{{Anchor|Bound Sword}}
+|000A97BD
+|Expert
+|[[Oblivion:Bound Sword|Bound Sword]] for 15sec on Self
+|352
+|Athragar, [[Oblivion:Raminus_Polus|Raminus Polus]], [[Oblivion:Volanaro|Volanaro]]
+|}
+
+===[[File:OB-icon-Burden.png|24px|Burden]] [[Oblivion:Burden|Burden]]===
+'''School: [[File:OBR-icon-magic-Alteration.png|20px]] [[Oblivion:Alteration|Alteration]]'''
+{|class="wikitable vtop" width="100%"
+|-{{ALT}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Burdening Touch}}
+|000A97C1
+|Novice
+|[[Oblivion:Burden|Burden]] 15pts for 15sec on Touch
+|10
+|[[Oblivion:Trayvond_the_Redguard|Trayvond the Redguard]]
+|-
+|{{Anchor|Hindering Touch}}
+|000A97C2
+|Apprentice
+|Burden 35pts for 20sec on Touch
+|39
+|[[Oblivion:Calindil|Calindil]], Trayvond the Redguard
+|-
+|{{Anchor|Encumbering Touch}}
+|000A97C3
+|Journeyman
+|Burden 50pts for 25sec on Touch
+|78
+|[[Oblivion:Orintur|Orintur]]
+|-
+|{{Anchor|Oppressing Grasp}}
+|000A97C4
+|Expert
+|Burden 75pts for 30sec on Touch
+|158
+|Orintur, [[Oblivion:Raminus_Polus|Raminus Polus]]
+|-
+|{{Anchor|Weight of the World}}
+|0007108A
+|Expert
+|Burden 60pts for 30sec on Target
+|178
+|Orintur
+|}
+
+===[[File:OB-icon-Calm.png|24px|Calm]] [[Oblivion:Calm|Calm]]===
+'''School: [[File:OBR-icon-magic-Illusion.png|20px]] [[Oblivion:Illusion|Illusion]]'''
+{|class="wikitable vtop" width="100%"
+|-{{ILL}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Serenity}}
+|000A97C6
+|Novice
+|[[Oblivion:Calm|Calm]] up to level 2 for 10sec on Target<br> (a.k.a. Calm 10pts for 10sec on Target)
+|13
+|[[Oblivion:Delphine_Jend|Delphine Jend]], [[Oblivion:Ohtesse|Ohtesse]]
+|-
+|{{Anchor|Soothing Touch}}
+|000A97C9
+|Novice
+|Calm up to level 2 for 15sec on Touch<br> (a.k.a. Calm 10pts for 15sec on Touch)
+|13
+|''(You start with this spell if [[Oblivion:Illusion|Illusion]] is one of your major skills)''<br>Delphine Jend
+|-
+|{{Anchor|Pacification}}
+|000A97C7
+|Apprentice
+|Calm up to level 2 for 20sec on Target<br> (a.k.a. Calm 10pts for 20sec on Target)
+|26
+|Delphine Jend
+|-
+|{{Anchor|Calming Touch}}
+|000A97CA
+|Journeyman
+|Calm up to level 7 for 20sec on Touch<br> (a.k.a. Calm 30pts for 20sec on Touch)
+|73
+|[[Oblivion:Aurelinwae|Aurelinwae]], Delphine Jend
+|}
+
+===[[File:OB-icon-Chameleon.png|24px|Chameleon]] [[Oblivion:Chameleon|Chameleon]]===
+'''School: [[File:OBR-icon-magic-Illusion.png|20px]] [[Oblivion:Illusion|Illusion]]'''
+{|class="wikitable vtop" width="100%"
+|-{{ILL}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Shroudwalk}}
+|0006D678
+|Journeyman
+|[[Oblivion:Chameleon|Chameleon]] 15% for 30sec on Self
+|{{FC|red|'''98'''}} ([[#Spell_Notes|60*]])
+|[[Oblivion:M'raaj-Dar|M'raaj-Dar]]
+|-
+|Chameleon
+|000A97CB
+|Journeyman
+|Chameleon 25% for 30sec on Self
+|116
+|[[Oblivion:Ita_Rienus|Ita Rienus]]
+|-
+|{{Anchor|Shadow}}
+|000A97CC
+|Expert
+|Chameleon 50% for 30sec on Self
+|282
+|[[Oblivion:Gaspar_Stegine|Gaspar Stegine]], Ita Rienus
+|-
+|{{Anchor|Cloak}}
+|000A97CD
+|Master
+|Chameleon 75% for 30sec on Self
+|474
+|[[Oblivion:Borissean|Borissean]]
+|}
+
+===[[File:OB-icon-Charm.png|24px|Charm]] [[Oblivion:Charm|Charm]]===
+'''School: [[File:OBR-icon-magic-Illusion.png|20px]] [[Oblivion:Illusion|Illusion]]'''
+{|class="wikitable vtop" width="100%"
+|-{{ILL}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Beguiling Touch}}
+|000A97AE
+|Novice
+|[[Oblivion:Charm|Charm]] 12pts for 30sec on Touch
+|14
+|[[Oblivion:Delphine_Jend|Delphine Jend]], [[Oblivion:Selena_Orania|Selena Orania]]
+|-
+|{{Anchor|Captivate}}
+|0001C4AD
+|Novice
+|Charm 10pts for 10sec on Touch
+|{{FC|red|'''18'''}} ([[#Spell_Notes|3*]])
+|Reward for [[Oblivion:Bravil Recommendation|Bravil Recommendation]] quest.
+|-
+|{{Anchor|Alluring Gaze}}
+|000A97AC
+|Novice
+|Charm 12pts for 30sec on Target
+|21
+|Delphine Jend
+|-
+|{{Anchor|Mesmerizing Grasp}}
+|000A97AF
+|Apprentice
+|Charm 24pts for 30sec on Touch
+|35
+|Delphine Jend
+|-
+|{{Anchor|Seductive Charm}}
+|000A97AD
+|Apprentice
+|Charm 24pts for 30sec on Target
+|52
+|Delphine Jend, [[Oblivion:Orag_gra-Bargol|Orag gra-Bargol]]
+|-
+|{{Anchor|Voice of Rapture}}
+|000A97B0
+|Journeyman
+|Charm 36pts for 30sec on Target
+|88
+|[[Oblivion:Aurelinwae|Aurelinwae]], [[Oblivion:Ita_Rienus|Ita Rienus]]
+|-
+|{{Anchor|Enthralling Presence}}
+|000A97FF
+|Journeyman
+|Charm 24pts in 20ft for 20sec on Target
+|105
+|Delphine Jend, [[Oblivion:Volanaro|Volanaro]]
+|}
+
+===[[File:OBR-icon-effect-Clairvoyance.png|24px|Clairvoyance]] [[Oblivion:Clairvoyance|Clairvoyance]]===
+'''School: [[File:OBR-icon-magic-Mysticism.png|20px]] [[Oblivion:Mysticism|Mysticism]]'''
+
+This effect only exists in ''[[Oblivion:Oblivion Remastered|Oblivion Remastered]]''.
+{|class="wikitable vtop" width="100%"
+|-{{MYS}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|Clairvoyance{{OBR}}
+|
+|Novice
+|[[Oblivion:Clairvoyance|Clairvoyance]] on Self for 30 sec{{OBR}}
+|1
+|All players begin with this spell{{OBR}}
+|}
+
+===[[File:OB-icon-Command.png|24px|Command Creature]] [[Oblivion:Command Creature|Command Creature]]===
+'''School: [[File:OBR-icon-magic-Illusion.png|20px]] [[Oblivion:Illusion|Illusion]]'''
+{|class="wikitable vtop" width="100%"
+|-{{ILL}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|Command Creature
+|000A97CE
+|Apprentice
+|[[Oblivion:Command Creature|Command Creature]] up to level 2 for 30sec on Target<br> (a.k.a. Command Creature 8pts for 30sec on Target)
+|38
+|[[Oblivion:Alberic_Litte|Alberic Litte]]
+|-
+|{{Anchor|Commanding Touch}}
+|000A97D0
+|Apprentice
+|Command Creature up to level 3 for 30sec on Touch<br> (a.k.a. Command Creature 12pts for 30sec on Touch)
+|43
+|Alberic Litte
+|-
+|{{Anchor|Dominating Touch}}
+|000A97D1
+|Journeyman
+|Command Creature up to level 6 for 30sec on Touch<br> (a.k.a. Command Creature 24pts for 30sec on Touch)
+|105
+|[[Oblivion:Athragar|Athragar]], [[Oblivion:Borissean|Borissean]]
+|-
+|{{Anchor|Dominate Creature}}
+|000A97CF
+|Expert
+|Command Creature up to level 9 for 30sec on Target<br> (a.k.a. Command Creature 36pts for 30sec on Target)
+|265
+|Athragar, [[Oblivion:Aurelinwae|Aurelinwae]]
+|}
+
+===[[File:OB-icon-Command.png|24px|Command Humanoid]] [[Oblivion:Command Humanoid|Command Humanoid]]===
+'''School: [[File:OBR-icon-magic-Illusion.png|20px]] [[Oblivion:Illusion|Illusion]]'''
+{|class="wikitable vtop" width="100%"
+|-{{ILL}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|Command Humanoid
+|0003C3F8
+|Apprentice
+|[[Oblivion:Command Humanoid|Command Humanoid]] up to level 2 for 30sec on Target<br> (a.k.a. Command Humanoid 8pts for 30sec on Target)
+|48
+|[[Oblivion:Alberic_Litte|Alberic Litte]]
+|-
+|{{Anchor|Will of Sithis}}
+|0006D679
+|Expert
+|Command Humanoid up to level 6 for 25sec on Target<br> (a.k.a. Command Humanoid 25pts for 25sec on Target)
+|{{FC|red|'''315'''}} ([[#Spell_Notes|173*]])
+|[[Oblivion:M'raaj-Dar|M'raaj-Dar]]
+|-
+|{{Anchor|Dominate Humanoid}}
+|0003C3F9
+|Expert
+|Command Humanoid up to level 9 for 30sec on Target<br> (a.k.a. Command Humanoid 36pts for 30sec on Target)
+|331
+|[[Oblivion:Athragar|Athragar]], [[Oblivion:Selena_Orania|Selena Orania]]
+|}
+
+===[[File:OB-icon-Cure.png|24px|Cure]] Cure===
+'''School: [[File:OBR-icon-magic-Restoration.png|20px]] [[Oblivion:Restoration|Restoration]]'''
+{|class="wikitable vtop" width="100%"
+|-{{RES}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Cure Disease}}
+|0003C3FA
+|Journeyman
+|[[Oblivion:Cure Disease|Cure Disease]] on Self
+|140
+|[[Oblivion:Avrus_Adas|Avrus Adas]], [[Oblivion:Isa_Raman|Isa Raman]], [[Oblivion:Ohtesse|Ohtesse]], [[Oblivion:Orag_gra-Bargol|Orag gra-Bargol]], [[Oblivion:Trevaia|Trevaia]], [[Oblivion:Tumindil|Tumindil]], [[Oblivion:Uravasa_Othrelas|Uravasa Othrelas]]
+|-
+|{{Anchor|Cure Paralysis}}
+|0003C3FB
+|Apprentice
+|[[Oblivion:Cure Paralysis|Cure Paralysis]] on Touch
+|50
+|Avrus Adas, Isa Raman, Ohtesse, Orag gra-Bargol, Trevaia, Tumindil, Uravasa Othrelas
+|-
+|{{Anchor|Cure Poison}}
+|0003C3FC
+|Apprentice
+|[[Oblivion:Cure Poison|Cure Poison]] on Self
+|60
+|Avrus Adas, Isa Raman, Ohtesse, Orag gra-Bargol, Trevaia, Tumindil, Uravasa Othrelas
+|}
+
+===[[File:OB-icon-Damage.png|24px|Damage Attribute]] [[Oblivion:Damage Attribute|Damage Attribute]]===
+'''School: [[File:OBR-icon-magic-Destruction.png|20px]] [[Oblivion:Destruction|Destruction]]'''
+
+There are no ''Damage Attribute'' spells available for purchase.
+===[[File:OB-icon-Damage.png|24px|Damage Fatigue]] [[Oblivion:Damage Fatigue|Damage Fatigue]]===
+'''School: [[File:OBR-icon-magic-Destruction.png|20px]] [[Oblivion:Destruction|Destruction]]'''
+{|class="wikitable vtop" width="100%"
+|-{{DES}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Curse of Weakness}}
+|000A97D2
+|Novice
+|[[Oblivion:Damage Fatigue|Damage Fatigue]] 15pts on Touch
+|14
+|[[Oblivion:Druja|Druja]], [[Oblivion:Volanaro|Volanaro]]
+|}
+
+===[[File:OB-icon-Damage.png|24px|Damage Health]] [[Oblivion:Damage Health|Damage Health]]===
+'''School: [[File:OBR-icon-magic-Destruction.png|20px]] [[Oblivion:Destruction|Destruction]]'''
+{|class="wikitable vtop" width="100%"
+|-{{DES}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Entropic Touch}}
+|000A97D3
+|Novice
+|[[Oblivion:Damage Health|Damage Health]] 5pts on Touch
+|9
+|[[Oblivion:Druja|Druja]]
+|-
+|{{Anchor|Entropic Bolt}}
+|000A97B1
+|Apprentice
+|Damage Health 10pts on Target
+|34
+|[[Oblivion:Sulinus_Vassinus|Sulinus Vassinus]]
+|-
+|{{Anchor|Withering Touch}}
+|000A97D4
+|Journeyman
+|Damage Health 30pts on Touch
+|93
+|[[Oblivion:Vigge_the_Cautious|Vigge the Cautious]]
+|-
+|{{Anchor|Withering Bolt}}
+|000A97B2
+|Expert
+|Damage Health 40pts on Target
+|202
+|[[Oblivion:Adrienne_Berene|Adrienne Berene]]
+|}
+
+===[[File:OB-icon-Damage.png|24px|Damage Magicka]] [[Oblivion:Damage Magicka|Damage Magicka]]===
+'''School: [[File:OBR-icon-magic-Destruction.png|20px]] [[Oblivion:Destruction|Destruction]]'''
+{|class="wikitable vtop" width="100%"
+|-{{DES}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Sever Magicka}}
+|0003C3DC
+|Apprentice
+|[[Oblivion:Damage Magicka|Damage Magicka]] 30pts on Target
+|28
+|[[Oblivion:Sulinus_Vassinus|Sulinus Vassinus]]
+|}
+
+===[[File:OB-icon-Demoralize.png|24px|Demoralize]] [[Oblivion:Demoralize|Demoralize]]===
+'''School: [[File:OBR-icon-magic-Illusion.png|20px]] [[Oblivion:Illusion|Illusion]]'''
+{|class="wikitable vtop" width="100%"
+|-{{ILL}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Touch of Fear}}
+|000A97D7
+|Apprentice
+|[[Oblivion:Demoralize|Demoralize]] up to level 3 for 20sec on Touch<br> (a.k.a. Demoralize 15pts for 20sec on Touch)
+|31
+|[[Oblivion:Delphine_Jend|Delphine Jend]]
+|-
+|{{Anchor|Voice of Dread}}
+|000A97D5
+|Journeyman
+|Demoralize up to level 5 for 20sec on Target<br> (a.k.a. Demoralize 20pts for 20sec on Target)
+|68
+|[[Oblivion:Ita_Rienus|Ita Rienus]]
+|-
+|{{Anchor|Fearful Gaze}}
+|000A97D6
+|Expert
+|Demoralize up to level 7 for 30sec on Target<br> (a.k.a. Demoralize 30pts for 30sec on Target)
+|171
+|Ita Rienus
+|-
+|{{Anchor|Grasp of Terror}}
+|000A97D8
+|Master
+|Demoralize up to level 20 for 30sec on Touch<br> (a.k.a. Demoralize 80pts for 30sec on Touch)
+|401
+|[[Oblivion:Aurelinwae|Aurelinwae]], Ita Rienus
+|-
+|{{Anchor|Terrifying Presence}}
+|000A97D9
+|Master
+|Demoralize up to level 17 for 30sec on Target<br> (a.k.a. Demoralize 70pts for 30sec on Target)
+|507
+|[[Oblivion:Raminus_Polus|Raminus Polus]]
+|}
+
+===[[File:OB-icon-Detectlife.png|24px|Detect Life]] [[Oblivion:Detect Life|Detect Life]]===
+'''School: [[File:OBR-icon-magic-Mysticism.png|20px]] [[Oblivion:Mysticism|Mysticism]]'''
+{|class="wikitable vtop" width="100%"
+|-{{MYS}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Minor Life Detection}}
+|000A97DC
+|Novice
+|[[Oblivion:Detect Life|Detect Life]] in 60ft for 10sec on Self
+|15
+|''(You start with this spell if [[Oblivion:Mysticism|Mysticism]] is one of your major skills)''<br>[[Oblivion:Alves_Uvenim|Alves Uvenim]], [[Oblivion:Calindil|Calindil]], [[Oblivion:Edgar_Vautrine|Edgar Vautrine]], [[Oblivion:Ita_Rienus|Ita Rienus]]
+|-
+|{{Anchor|Major Life Detection}}
+|000A97DB
+|Apprentice
+|Detect Life in 60ft for 20sec on Self
+|30
+|[[Oblivion:Alberic_Litte|Alberic Litte]], Alves Uvenim, [[Oblivion:Delphine_Jend|Delphine Jend]], [[Oblivion:Druja|Druja]], [[Oblivion:Ohtesse|Ohtesse]], [[Oblivion:Selena_Orania|Selena Orania]], [[Oblivion:Sulinus_Vassinus|Sulinus Vassinus]], [[Oblivion:Thaurron|Thaurron]], [[Oblivion:Trayvond_the_Redguard|Trayvond the Redguard]]
+|-
+|{{Anchor|Detect Pulse}}
+|0006D67F
+|Apprentice
+|Detect Life in 30ft for 65sec on Self
+|{{FC|green|'''38'''}} ([[#Spell_Notes|40*]])
+|[[Oblivion:M'raaj-Dar|M'raaj-Dar]]
+|-
+|{{Anchor|Greater Life Detection}}
+|000A97DA
+|Journeyman
+|Detect Life in 60ft for 60sec on Self
+|90
+|[[Oblivion:Agata|Agata]]
+|-
+|{{Anchor|Bloodhunt}}
+|0006D680
+|Expert
+|Detect Life in 50ft for 150sec on Self
+|{{FC|red|'''191'''}} ([[#Spell_Notes|179*]])
+|M'raaj-Dar
+|-
+|{{Anchor|Superior Life Detection}}
+|000A97DD
+|Expert
+|Detect Life in 120ft for 60sec on Self
+|220
+|Agata, [[Oblivion:Raminus_Polus|Raminus Polus]], [[Oblivion:Volanaro|Volanaro]]
+|-
+|{{Anchor|Legendary Life Detection}}
+|000A97DE
+|Master
+|Detect Life in 120ft for 120sec on Self
+|440
+|[[Oblivion:Aurelinwae|Aurelinwae]], [[Oblivion:Gaspar_Stegine|Gaspar Stegine]]
+|}
+
+===[[File:OB-icon-Disintegrate.png|24px|Disintegrate Armor]] [[Oblivion:Disintegrate Armor|Disintegrate Armor]]===
+'''School: [[File:OBR-icon-magic-Destruction.png|20px]] [[Oblivion:Destruction|Destruction]]'''
+{|class="wikitable vtop" width="100%"
+|-{{DES}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Corrode Armor}}
+|000A97A3
+|Apprentice
+|[[Oblivion:Disintegrate Armor|Disintegrate Armor]] 30pts on Touch
+|48
+|[[Oblivion:Sulinus_Vassinus|Sulinus Vassinus]]
+|-
+|Disintegrate Armor
+|000A97A4
+|Expert
+|Disintegrate Armor 100pts on Target
+|337
+|[[Oblivion:Adrienne_Berene|Adrienne Berene]]
+|}
+
+===[[File:OB-icon-Disintegrate.png|24px|Disintegrate Weapon]] [[Oblivion:Disintegrate Weapon|Disintegrate Weapon]]===
+'''School: [[File:OBR-icon-magic-Destruction.png|20px]] [[Oblivion:Destruction|Destruction]]'''
+{|class="wikitable vtop" width="100%"
+|-{{DES}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Corrode Weapon}}
+|000A97A5
+|Journeyman
+|[[Oblivion:Disintegrate Weapon|Disintegrate Weapon]] 60pts on Touch
+|117
+|[[Oblivion:Vigge_the_Cautious|Vigge the Cautious]]
+|-
+|Disintegrate Weapon
+|000A97A6
+|Master
+|Disintegrate Weapon 150pts on Target
+|569
+|[[Oblivion:Gaspar_Stegine|Gaspar Stegine]]
+|}
+
+===[[File:OB-icon-Dispel.png|24px|Dispel]] [[Oblivion:Dispel|Dispel]]===
+'''School: [[File:OBR-icon-magic-Mysticism.png|20px]] [[Oblivion:Mysticism|Mysticism]]'''
+{|class="wikitable vtop" width="100%"
+|-{{MYS}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Minor Dispel}}
+|0008D1E9
+|Novice
+|[[Oblivion:Dispel|Dispel]] 25pts on Self
+|22
+|''(You start with this spell if [[Oblivion:Mysticism|Mysticism]] is one of your major skills)''<br>[[Oblivion:Alves_Uvenim|Alves Uvenim]]
+|-
+|{{Anchor|Dispel Other}}
+|0003C3F5
+|Apprentice
+|Dispel 30pts on Target
+|41
+|Alves Uvenim
+|-
+|{{Anchor|Major Dispel}}
+|000A9831
+|Apprentice
+|Dispel 45pts on Self
+|47
+|Alves Uvenim, [[Oblivion:Calindil|Calindil]], [[Oblivion:Ungarion|Ungarion]]
+|-
+|{{Anchor|Greater Dispel}}
+|000A9832
+|Journeyman
+|Dispel 75pts on Self
+|90
+|[[Oblivion:Agata|Agata]]
+|-
+|{{Anchor|Greater Dispel Other}}
+|000A9835
+|Journeyman
+|Dispel 60pts on Target
+|101
+|Agata, [[Oblivion:Volanaro|Volanaro]]
+|-
+|{{Anchor|Superior Dispel}}
+|000A9833
+|Expert
+|Dispel 150pts on Self
+|219
+|Agata, [[Oblivion:Raminus_Polus|Raminus Polus]]
+|-
+|{{Anchor|Legendary Dispel}}
+|000A9834
+|Master
+|Dispel 250pts on Self
+|422
+|[[Oblivion:Borissean|Borissean]]
+|}
+
+===[[File:OB-icon-Drain.png|24px|Drain Attribute]] [[Oblivion:Drain Attribute|Drain Attribute]]===
+'''School: [[File:OBR-icon-magic-Destruction.png|20px]] [[Oblivion:Destruction|Destruction]]'''
+
+There are no ''Drain Attribute'' spells available for purchase.
+See [[Oblivion:Drain Attribute|Drain Attribute]] for information on how to obtain this spell effect for custom spells.
+
+===[[File:OB-icon-Drain.png|24px|Drain Fatigue]] [[Oblivion:Drain Fatigue|Drain Fatigue]]===
+'''School: [[File:OBR-icon-magic-Destruction.png|20px]] [[Oblivion:Destruction|Destruction]]'''
+{|class="wikitable vtop" width="100%"
+|-{{DES}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Minor Enervation}}
+|0003C3EF
+|Novice
+|[[Oblivion:Drain Fatigue|Drain Fatigue]] 15pts for 15sec on Target
+|12
+|[[Oblivion:Druja|Druja]]
+|-
+|{{Anchor|Major Enervation}}
+|0003C3F0
+|Apprentice
+|Drain Fatigue 30pts for 15sec on Target
+|31
+|[[Oblivion:Sulinus_Vassinus|Sulinus Vassinus]]
+|-
+|{{Anchor|Dire Enervation}}
+|0003C3F1
+|Expert
+|Drain Fatigue 60pts for 30sec on Target
+|152
+|[[Oblivion:Vigge_the_Cautious|Vigge the Cautious]]
+|}
+
+===[[File:OB-icon-Drain.png|24px|Drain Health]] [[Oblivion:Drain Health|Drain Health]]===
+'''School: [[File:OBR-icon-magic-Destruction.png|20px]] [[Oblivion:Destruction|Destruction]]'''
+{|class="wikitable vtop" width="100%"
+|-{{DES}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Minor Wound}}
+|0004C912
+|Novice
+|[[Oblivion:Drain Health|Drain Health]] 5pts for 10sec on Target
+|10
+|[[Oblivion:Druja|Druja]]
+|-
+|{{Anchor|Major Wound}}
+|0004C913
+|Apprentice
+|Drain Health 15pts for 10sec on Target
+|43
+|[[Oblivion:Edgar_Vautrine|Edgar Vautrine]], [[Oblivion:Sulinus_Vassinus|Sulinus Vassinus]]
+|-
+|{{Anchor|Dire Wound}}
+|0004C914
+|Journeyman
+|Drain Health 30pts for 10sec on Target
+|104
+|[[Oblivion:Vigge_the_Cautious|Vigge the Cautious]]
+|-
+|{{Anchor|Superior Wound}}
+|0004C915
+|Expert
+|Drain Health 50pts for 10sec on Target
+|201
+|[[Oblivion:Adrienne_Berene|Adrienne Berene]], [[Oblivion:Selena_Orania|Selena Orania]]
+|}
+
+===[[File:OB-icon-Drain.png|24px|Drain Magicka]] [[Oblivion:Drain Magicka|Drain Magicka]]===
+'''School: [[File:OBR-icon-magic-Destruction.png|20px]] [[Oblivion:Destruction|Destruction]]'''
+{|class="wikitable vtop" width="100%"
+|-{{DES}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Magicka Drain}}
+|0004C90F
+|Apprentice
+|[[Oblivion:Drain Magicka|Drain Magicka]] 30pts for 30sec on Touch
+|41
+|[[Oblivion:Sulinus_Vassinus|Sulinus Vassinus]]
+|-
+|{{Anchor|Greater Magicka Drain}}
+|0003C3F2
+|Journeyman
+|Drain Magicka 50pts for 30sec on Touch
+|80
+|[[Oblivion:Vigge_the_Cautious|Vigge the Cautious]]
+|-
+|{{Anchor|Superior Magicka Drain}}
+|0003C3F3
+|Expert
+|Drain Magicka 100pts for 30sec on Touch
+|196
+|[[Oblivion:Adrienne_Berene|Adrienne Berene]]
+|-
+|{{Anchor|Legendary Magicka Drain}}
+|0003C3F4
+|Master
+|Drain Magicka 120pts for 60sec on Touch
+|495
+|[[Oblivion:Borissean|Borissean]]
+|}
+
+===[[File:OB-icon-Drain.png|24px|Drain Skill]] [[Oblivion:Drain Skill|Drain Skill]]===
+'''School: [[File:OBR-icon-magic-Destruction.png|20px]] [[Oblivion:Destruction|Destruction]]'''
+{|class="wikitable vtop" width="100%"
+|-{{DES}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Drain Skill: Illusion }}
+|0003C3E7
+|Apprentice
+|[[Oblivion:Drain Skill|Drain Skill]]: Illusion 10pts for 20sec on Target
+|37
+|[[Oblivion:Sulinus_Vassinus|Sulinus Vassinus]]
+|-
+|{{Anchor|Drain Skill: Marksman }}
+|0003C3E6
+|Apprentice
+|Drain Skill: Marksman 10pts for 20sec on Target
+|37
+|Sulinus Vassinus
+|-
+|{{Anchor|Drain Skill: Alteration}}
+|0003C3E9
+|Journeyman
+|Drain Skill: Alteration 15pts for 25sec on Target
+|78
+|[[Oblivion:Vigge_the_Cautious|Vigge the Cautious]]
+|-
+|{{Anchor|Drain Skill: Destruction}}
+|0003C3E8
+|Journeyman
+|Drain Skill: Destruction 15pts for 25sec on Target
+|78
+|[[Oblivion:Edgar_Vautrine|Edgar Vautrine]], Vigge the Cautious
+|-
+|{{Anchor|Drain Skill: Hand to Hand}}
+|0003C3EA
+|Journeyman
+|Drain Skill: Hand to Hand 15pts for 25sec on Target
+|78
+|Vigge the Cautious
+|-
+|{{Anchor|Drain Skill: Heavy Armor}}
+|0003C3EB
+|Journeyman
+|Drain Skill: Heavy Armor 15pts for 25sec on Target
+|78
+|Vigge the Cautious
+|-
+|{{Anchor|Drain Skill: Blade}}
+|0003C3EC
+|Expert
+|Drain Skill: Blade 20pts for 45sec on Target
+|203
+|[[Oblivion:Adrienne_Berene|Adrienne Berene]]
+|-
+|{{Anchor|Drain Skill: Conjuration}}
+|0003C3ED
+|Expert
+|Drain Skill: Conjuration 20pts for 45sec on Target
+|203
+|Adrienne Berene
+|-
+|{{Anchor|Drain Skill: Restoration}}
+|0003C3EE
+|Expert
+|Drain Skill: Restoration 20pts for 45sec on Target
+|203
+|Adrienne Berene
+|}
+
+===[[File:OB-icon-Feather.png|24px|Feather]] [[Oblivion:Feather|Feather]]===
+'''School: [[File:OBR-icon-magic-Alteration.png|20px]] [[Oblivion:Alteration|Alteration]]'''
+{|class="wikitable vtop" width="100%"
+|-{{ALT}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Ease Burden}}
+|000A9800
+|Apprentice
+|[[Oblivion:Feather|Feather]] 50pts for 240sec on Self
+|35
+|[[Oblivion:Alberic_Litte|Alberic Litte]], [[Oblivion:Alves_Uvenim|Alves Uvenim]], [[Oblivion:Delphine_Jend|Delphine Jend]], [[Oblivion:Druja|Druja]], [[Oblivion:Edgar_Vautrine|Edgar Vautrine]], [[Oblivion:Selena_Orania|Selena Orania]], [[Oblivion:Sulinus_Vassinus|Sulinus Vassinus]], [[Oblivion:Thaurron|Thaurron]], [[Oblivion:Trayvond_the_Redguard|Trayvond the Redguard]]
+|-
+|{{Anchor|Lighten Load}}
+|000A9801
+|Journeyman
+|Feather 75pts for 300sec on Self
+|75
+|[[Oblivion:Orintur|Orintur]]
+|-
+|{{Anchor|Pack Mule}}
+|000A9802
+|Expert
+|Feather 150pts for 300sec on Self
+|183
+|Orintur, [[Oblivion:Raminus_Polus|Raminus Polus]]
+|-
+|{{Anchor|Beast of Burden}}
+|000A9803
+|Master
+|Feather 250pts for 360sec on Self
+|422
+|[[Oblivion:Aurelinwae|Aurelinwae]], [[Oblivion:Borissean|Borissean]]
+|}
+
+===[[File:OB-icon-Fire.png|24px|Fire Damage]] [[Oblivion:Fire Damage|Fire Damage]]===
+'''School: [[File:OBR-icon-magic-Destruction.png|20px]] [[Oblivion:Destruction|Destruction]]'''
+{|class="wikitable vtop" width="100%"
+|-{{DES}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|[[Oblivion:Leveled Spells#Wizard's Fury|Wizard's Fury]]
+|Variable
+|Variable
+|[[Oblivion:Fire Damage|Fire Damage]] on Target<br>[[Oblivion:Frost Damage|Frost Damage]] on Target<br>[[Oblivion:Shock Damage|Shock Damage]] on Target<br>
+|Var.
+|[[Oblivion:Leveled Spells|Leveled Spell]]. Reward for completing the [[Oblivion:A Plot Revealed|A Plot Revealed]] quest.
+|-
+|{{Anchor|Flare}}
+|000A97DF
+|Novice
+|Fire Damage 6pts on Target
+|11
+|''(You start with this spell)''<br>[[Oblivion:Druja|Druja]], [[Oblivion:Volanaro|Volanaro]]
+|-
+|{{Anchor|Weak Fireball}}
+|0001EF7F
+|Novice
+|Fire Damage 5pts in 5ft for 3sec on Target
+|{{FC|green|'''12'''}} ([[#Spell_Notes|26*]])
+|Given by [[Oblivion:Adrienne_Berene|Adrienne Berene]] during the [[Oblivion:Skingrad Recommendation|Skingrad Recommendation]] quest.
+|-
+|{{Anchor|Burning Touch}}
+|0004C91E
+|Novice
+|Fire Damage 10pts on Touch
+|14
+|Druja, [[Oblivion:Edgar_Vautrine|Edgar Vautrine]]
+|-
+|{{Anchor|Flame Touch}}
+|000A97E4
+|Apprentice
+|Fire Damage 25pts on Touch
+|46
+|[[Oblivion:Calindil|Calindil]], [[Oblivion:Sulinus_Vassinus|Sulinus Vassinus]], [[Oblivion:Ungarion|Ungarion]]
+|-
+|{{Anchor|Flash Bolt}}
+|000A97E0
+|Apprentice
+|Fire Damage 20pts on Target
+|52
+|[[Oblivion:Alberic_Litte|Alberic Litte]], [[Oblivion:Alves_Uvenim|Alves Uvenim]], [[Oblivion:Delphine_Jend|Delphine Jend]], Druja, [[Oblivion:Selena_Orania|Selena Orania]], Sulinus Vassinus, [[Oblivion:Thaurron|Thaurron]], [[Oblivion:Trayvond_the_Redguard|Trayvond the Redguard]]
+|-
+|{{Anchor|Searing Grasp}}
+|000A97E5
+|Journeyman
+|Fire Damage 45pts on Touch
+|97
+|[[Oblivion:Vigge_the_Cautious|Vigge the Cautious]]
+|-
+|{{Anchor|Blazing Spear}}
+|000A97E1
+|Journeyman
+|Fire Damage 35pts on Target
+|106
+|Vigge the Cautious
+|-
+|{{Anchor|Fire Ball}}
+|000A97E7
+|Journeyman
+|Fire Damage 30pts in 10ft on Target
+|131
+|Vigge the Cautious
+|-
+|{{Anchor|Scorching Blow}}
+|000A97E6
+|Expert
+|Fire Damage 80pts on Touch
+|204
+|Adrienne Berene
+|-
+|{{Anchor|Heat Blast}}
+|000A97E2
+|Expert
+|Fire Damage 70pts on Target
+|258
+|Adrienne Berene, [[Oblivion:Raminus_Polus|Raminus Polus]], Volanaro
+|-
+|{{Anchor|Fire Storm}}
+|000A97E8
+|Expert
+|Fire Damage 50pts in 15ft on Target
+|378
+|Adrienne Berene, Raminus Polus
+|-
+|{{Anchor|Immolating Blast}}
+|000A97E3
+|Master
+|Fire Damage 110pts on Target
+|461
+|[[Oblivion:Borissean|Borissean]], Vigge the Cautious
+|-
+|{{Anchor|Flame Tempest}}
+|000A97E9
+|Master
+|Fire Damage 75pts in 15ft on Target
+|635
+|Adrienne Berene, Borissean
+|-
+|{{Anchor|Enemies Explode}}
+|00014720
+|Master
+|Fire Damage 5pts in 10ft for 5sec on Target<br>Fire Damage 70pts in 20ft for 1sec on Target
+|842
+|Delphine Jend
+|}
+
+===[[File:OB-icon-Fireshield.png|24px|Fire Shield]] [[Oblivion:Fire Shield|Fire Shield]]===
+'''School: [[File:OBR-icon-magic-Alteration.png|20px]] [[Oblivion:Alteration|Alteration]]'''
+{|class="wikitable vtop" width="100%"
+|-{{ALT}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Heat Shell}}
+|000A9806
+|Apprentice
+|[[Oblivion:Fire Shield|Fire Shield]] 10% for 30sec on Self
+|54
+|[[Oblivion:Trayvond_the_Redguard|Trayvond the Redguard]], [[Oblivion:Ungarion|Ungarion]], [[Oblivion:Volanaro|Volanaro]]
+|-
+|Fire Shield
+|000A9808
+|Expert
+|Fire Shield 30% for 30sec on Self
+|221
+|[[Oblivion:Orintur|Orintur]]
+|-
+|{{Anchor|Flame Shield}}
+|000A9807
+|Master
+|Fire Shield 30% for 60sec on Self
+|443
+|Orintur
+|}
+
+===[[File:OB-icon-Fortify.png|24px|Fortify Attribute]] [[Oblivion:Fortify Attribute|Fortify Attribute]]===
+'''School: [[File:OBR-icon-magic-Restoration.png|20px]] [[Oblivion:Restoration|Restoration]]'''
+{|class="wikitable vtop" width="100%"
+|-{{RES}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Fortify Agility}}
+|000A9811
+|Apprentice
+|[[Oblivion:Fortify Agility|Fortify Agility]] 5pts for 90sec on Self
+|42
+|[[Oblivion:Isa_Raman|Isa Raman]]
+|-
+|{{Anchor|Fortify Endurance}}
+|000A9812
+|Apprentice
+|[[Oblivion:Fortify Endurance|Fortify Endurance]] 5pts for 90sec on Self
+|42
+|[[Oblivion:Avrus_Adas|Avrus Adas]]
+|-
+|{{Anchor|Fortify Intelligence}}
+|000A9813
+|Apprentice
+|[[Oblivion:Fortify Intelligence|Fortify Intelligence]] 5pts for 90sec on Self
+|42
+|[[Oblivion:Ohtesse|Ohtesse]]
+|-
+|{{Anchor|Fortify Luck}}
+|000A9814
+|Apprentice
+|[[Oblivion:Fortify Luck|Fortify Luck]] 5pts for 90sec on Self
+|42
+|[[Oblivion:Trevaia|Trevaia]]
+|-
+|{{Anchor|Fortify Personality}}
+|000A9815
+|Apprentice
+|[[Oblivion:Fortify Personality|Fortify Personality]] 5pts for 90sec on Self
+|42
+|Trevaia
+|-
+|{{Anchor|Fortify Speed}}
+|000A9816
+|Apprentice
+|[[Oblivion:Fortify Speed|Fortify Speed]] 5pts for 90sec on Self
+|42
+|[[Oblivion:Borissean|Borissean]], [[Oblivion:Uravasa_Othrelas|Uravasa Othrelas]]
+|-
+|{{Anchor|Fortify Strength}}
+|000A9817
+|Apprentice
+|[[Oblivion:Fortify Strength|Fortify Strength]] 5pts for 90sec on Self
+|42
+|[[Oblivion:Orag_gra-Bargol|Orag gra-Bargol]]
+|-
+|{{Anchor|Fortify Willpower}}
+|000A9818
+|Apprentice
+|[[Oblivion:Fortify Willpower|Fortify Willpower]] 5pts for 90sec on Self
+|42
+|[[Oblivion:Tumindil|Tumindil]]
+|-
+|{{Anchor|Greater Fortify Agility}}
+|000A9809
+|Journeyman
+|Fortify Agility 10pts for 90sec on Self
+|102
+|Isa Raman
+|-
+|{{Anchor|Greater Fortify Endurance}}
+|000A980A
+|Journeyman
+|Fortify Endurance 10pts for 90sec on Self
+|102
+|[[Oblivion:Aurelinwae|Aurelinwae]], Avrus Adas
+|-
+|{{Anchor|Greater Fortify Intelligence}}
+|000A980B
+|Journeyman
+|Fortify Intelligence 10pts for 90sec on Self
+|102
+|Aurelinwae, Ohtesse
+|-
+|{{Anchor|Greater Fortify Luck}}
+|000A980C
+|Journeyman
+|Fortify Luck 10pts for 90sec on Self
+|102
+|[[Oblivion:Gaspar_Stegine|Gaspar Stegine]], Trevaia
+|-
+|{{Anchor|Greater Fortify Personality}}
+|000A980D
+|Journeyman
+|Fortify Personality 10pts for 90sec on Self
+|102
+|Trevaia
+|-
+|{{Anchor|Greater Fortify Speed}}
+|000A980E
+|Journeyman
+|Fortify Speed 10pts for 90sec on Self
+|102
+|Uravasa Othrelas, [[Oblivion:Volanaro|Volanaro]]
+|-
+|{{Anchor|Greater Fortify Strength}}
+|000A980F
+|Journeyman
+|Fortify Strength 10pts for 90sec on Self
+|102
+|Orag gra-Bargol
+|-
+|{{Anchor|Greater Fortify Willpower}}
+|000A9810
+|Journeyman
+|Fortify Willpower 10pts for 90sec on Self
+|102
+|Aurelinwae, Tumindil
+|}
+
+===[[File:OB-icon-Fortify.png|24px|Fortify Fatigue]] [[Oblivion:Fortify Fatigue|Fortify Fatigue]]===
+'''School: [[File:OBR-icon-magic-Restoration.png|20px]] [[Oblivion:Restoration|Restoration]]'''
+{|class="wikitable vtop" width="100%"
+|-{{RES}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|Fortify Fatigue
+|0003C405
+|Novice
+|[[Oblivion:Fortify Fatigue|Fortify Fatigue]] 25pts for 45sec on Self
+|11
+|[[Oblivion:Edgar_Vautrine|Edgar Vautrine]], [[Oblivion:Ungarion|Ungarion]]
+|-
+|{{Anchor|Greater Fortify Fatigue}}
+|0003C406
+|Apprentice
+|Fortify Fatigue 50pts for 45sec on Self
+|26
+|Edgar Vautrine, Ungarion
+|}
+
+===[[File:OB-icon-Fortify.png|24px|Fortify Health]] [[Oblivion:Fortify Health|Fortify Health]]===
+'''School: [[File:OBR-icon-magic-Restoration.png|20px]] [[Oblivion:Restoration|Restoration]]'''
+{|class="wikitable vtop" width="100%"
+|-{{RES}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|Fortify Health
+|000A9820
+|Apprentice
+|[[Oblivion:Fortify Health|Fortify Health]] 30pts for 30sec on Self
+|32
+|[[Oblivion:Selena_Orania|Selena Orania]]
+|-
+|{{Anchor|Greater Fortify Health}}
+|000A9821
+|Expert
+|Fortify Health 60pts for 60sec on Self
+|158
+|[[Oblivion:Avrus_Adas|Avrus Adas]], [[Oblivion:Marc_Gulitte|Marc Gulitte]]
+|}
+
+===[[File:OB-icon-Fortifymagic.png|24px|Fortify Magicka]] [[Oblivion:Fortify Magicka|Fortify Magicka]]===
+'''School: [[File:OBR-icon-magic-Restoration.png|20px]] [[Oblivion:Restoration|Restoration]]'''
+{|class="wikitable vtop" width="100%"
+|-{{RES}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|Fortify Magicka
+|0003C407
+|Journeyman
+|[[Oblivion:Fortify Magicka|Fortify Magicka]] 30 pts for 60sec on Self
+|69
+|[[Oblivion:Marc_Gulitte|Marc Gulitte]], [[Oblivion:Edgar_Vautrine|Edgar Vautrine]], [[Oblivion:Raminus_Polus|Raminus Polus]], [[Oblivion:Ungarion|Ungarion]]
+|-
+|{{Anchor|Greater Fortify Magicka}}
+|0003C409
+|Expert
+|Fortify Magicka 60 pts for 60sec on Self
+|169
+|[[Oblivion:Avrus_Adas|Avrus Adas]], Marc Gulitte
+|}
+
+===[[File:OB-icon-Fortify.png|24px|Fortify Skill]] [[Oblivion:Fortify Skill|Fortify Skill]]===
+'''School: [[File:OBR-icon-magic-Restoration.png|20px]] [[Oblivion:Restoration|Restoration]]'''
+
+There are no ''Fortify Skill'' spells available for purchase.
+See [[Oblivion:Fortify Skill|Fortify Skill]] for information on how to obtain this spell effect for custom spells.
+
+===[[File:OB-icon-Frenzy.png|24px|Frenzy]] [[Oblivion:Frenzy|Frenzy]]===
+'''School: [[File:OBR-icon-magic-Illusion.png|20px]] [[Oblivion:Illusion|Illusion]]'''
+{|class="wikitable vtop" width="100%"
+|-{{ILL}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Touch of Frenzy}}
+|000A981B
+|Novice
+|[[Oblivion:Frenzy|Frenzy]] up to level 6 for 30sec on Touch<br> (a.k.a. Frenzy 25pts for 30sec on Touch)
+|7
+|[[Oblivion:Delphine_Jend|Delphine Jend]]
+|-
+|Frenzy
+|000A9819
+|Novice
+|Frenzy up to level 5 for 30sec on Target<br> (a.k.a. Frenzy 20pts for 30sec on Target)
+|8
+|Delphine Jend
+|-
+|{{Anchor|Rage}}
+|000A981A
+|Apprentice
+|Frenzy up to level 10 for 40sec on Target<br> (a.k.a. Frenzy 40pts for 40sec on Target)
+|26
+|Delphine Jend
+|-
+|{{Anchor|Touch of Rage}}
+|000A981C
+|Apprentice
+|Frenzy up to level 18 for 30sec on Touch<br> (a.k.a. Frenzy 75pts for 30sec on Touch)
+|30
+|[[Oblivion:Calindil|Calindil]], Delphine Jend
+|}
+
+===[[File:OB-icon-Frost.png|24px|Frost Damage]] [[Oblivion:Frost Damage|Frost Damage]]===
+'''School: [[File:OBR-icon-magic-Destruction.png|20px]] [[Oblivion:Destruction|Destruction]]'''
+{|class="wikitable vtop" width="100%"
+|-{{DES}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|[[Oblivion:Leveled Spells#Wizard's Fury|Wizard's Fury]]
+|Variable
+|Variable
+|[[Oblivion:Fire Damage|Fire Damage]] on Target<br>[[Oblivion:Frost Damage|Frost Damage]] on Target<br>[[Oblivion:Shock Damage|Shock Damage]] on Target<br>
+|Var.
+|[[Oblivion:Leveled Spells|Leveled Spell]]. Reward for completing the [[Oblivion:A Plot Revealed|A Plot Revealed]] quest.
+|-
+|{{Anchor|Snowball}}
+|000A97EA
+|Novice
+|Frost Damage 10pts on Target
+|21
+|[[Oblivion:Druja|Druja]], [[Oblivion:Edgar_Vautrine|Edgar Vautrine]], [[Oblivion:Volanaro|Volanaro]]
+|-
+|{{Anchor|Cold Touch}}
+|000A97EF
+|Novice
+|Frost Damage 15pts on Touch
+|23
+|''(You start with this spell if [[Oblivion:Destruction|Destruction]] is one of your major skills)''<br>Druja
+|-
+|{{Anchor|Frost Touch}}
+|000A97F0
+|Apprentice
+|Frost Damage 25pts on Touch
+|45
+|[[Oblivion:Sulinus_Vassinus|Sulinus Vassinus]], Volanaro
+|-
+|{{Anchor|Hailstone}}
+|000A97EB
+|Apprentice
+|Frost Damage 20pts on Target
+|51
+|Sulinus Vassinus
+|-
+|{{Anchor|Winter's Grasp}}
+|000A97F1
+|Journeyman
+|Frost Damage 45pts on Touch
+|96
+|[[Oblivion:Selena_Orania|Selena Orania]], [[Oblivion:Vigge_the_Cautious|Vigge the Cautious]]
+|-
+|{{Anchor|Frost Bolt}}
+|000A97EC
+|Journeyman
+|Frost Damage 35pts on Target
+|105
+|Vigge the Cautious
+|-
+|{{Anchor|Hail Storm}}
+|0003C3D6
+|Journeyman
+|Frost Damage 30pts in 10ft on Target
+|129
+|Vigge the Cautious
+|-
+|{{Anchor|Baronoff's Bloody Icicle}}
+|0006D67C
+|Journeyman
+|Frost Damage 30pts on Target
+|{{FC|red|'''132'''}} ([[#Spell_Notes|86*]])
+|[[Oblivion:M'raaj-Dar|M'raaj-Dar]]
+|-
+|{{Anchor|Black Winter}}
+|0006D67D
+|Expert
+|[[Oblivion:Paralyze|Paralyze]] for 2sec on Target<br>Frost Damage 20pts on Target
+|{{FC|red|'''200'''}} ([[#Spell_Notes|193*]])
+|M'raaj-Dar, [[Oblivion:Dark Brotherhood Murderer#Mage|Dark Brotherhood Murderer]] (Mage)
+|-
+|{{Anchor|Arctic Blow}}
+|000A97F2
+|Expert
+|Frost Damage 80pts on Touch
+|201
+|[[Oblivion:Adrienne_Berene|Adrienne Berene]]
+|-
+|{{Anchor|Ice Bolt}}
+|000A97ED
+|Expert
+|Frost Damage 70pts on Target
+|255
+|Adrienne Berene, [[Oblivion:Raminus_Polus|Raminus Polus]]
+|-
+|{{Anchor|Ice Storm}}
+|0003C3D7
+|Expert
+|Frost Damage 50pts in 15ft on Target
+|373
+|Adrienne Berene, Raminus Polus
+|-
+|{{Anchor|Ice Blast}}
+|000A97EE
+|Master
+|Frost Damage 110pts on Target
+|455
+|Vigge the Cautious
+|-
+|{{Anchor|Blizzard}}
+|0003C3D8
+|Master
+|Frost Damage 75pts in 20ft on Target
+|836
+|Adrienne Berene
+|}
+
+===[[File:OB-icon-Frostshield.png|24px|Frost Shield]] [[Oblivion:Frost Shield|Frost Shield]]===
+'''School: [[File:OBR-icon-magic-Alteration.png|20px]] [[Oblivion:Alteration|Alteration]]'''
+{|class="wikitable vtop" width="100%"
+|-{{ALT}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Frost Shell}}
+|000A981D
+|Apprentice
+|[[Oblivion:Frost Shield|Frost Shield]] 10% for 30sec on Self
+|54
+|[[Oblivion:Trayvond_the_Redguard|Trayvond the Redguard]], [[Oblivion:Ungarion|Ungarion]]
+|-
+|{{Anchor|Ice Shield}}
+|000A981E
+|Journeyman
+|Frost Shield 20% for 30sec on Self
+|131
+|[[Oblivion:Orintur|Orintur]]
+|-
+|{{Anchor|Glacial Wall}}
+|000A981F
+|Expert
+|Frost Shield 30% for 30sec on Self
+|221
+|Orintur
+|}
+
+===[[File:OB-icon-Invisibility.png|24px|Invisibility]] [[Oblivion:Invisibility|Invisibility]]===
+'''School: [[File:OBR-icon-magic-Illusion.png|20px]] [[Oblivion:Illusion|Illusion]]'''
+{|class="wikitable vtop" width="100%"
+|-{{ILL}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Deathly Visage}}
+|0006D681
+|Journeyman
+|[[Oblivion:Invisibility|Invisibility]] for 35sec on Self
+|{{FC|green|'''112'''}} ([[#Spell_Notes|140*]])
+|[[Oblivion:M'raaj-Dar|M'raaj-Dar]]
+|-
+|{{Anchor|Shadow Shape}}
+|000A97BE
+|Journeyman
+|Invisibility for 30 sec on Self
+|120
+|[[Oblivion:Ita_Rienus|Ita Rienus]]
+|-
+|{{Anchor|Ghostwalk}}
+|000A97BF
+|Expert
+|Invisibility for 60sec on Self
+|240
+|Ita Rienus, [[Oblivion:Raminus_Polus|Raminus Polus]]
+|-
+|{{Anchor|Spectral Form}}
+|000A97C0
+|Master
+|Invisibility for 120sec on Self
+|480
+|Ita Rienus
+|}
+
+===[[File:OB-icon-Light.png|24px|Light]] [[Oblivion:Light|Light]]===
+'''School: [[File:OBR-icon-magic-Illusion.png|20px]] [[Oblivion:Illusion|Illusion]]'''
+{|class="wikitable vtop" width="100%"
+|-{{ILL}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Illuminate}}
+|000A319D
+|Novice
+|[[Oblivion:Light|Light]] in 10ft for 90sec on Target
+|13
+|[[Oblivion:Delphine_Jend|Delphine Jend]]
+|-
+|{{Anchor|Starlight}}
+|000A9825
+|Novice
+|Light in 20ft for 60sec on Self
+|14
+|''(You start with this spell if [[Oblivion:Illusion|Illusion]] is one of your major skills)''<br>[[Oblivion:Calindil|Calindil]], Delphine Jend, [[Oblivion:Edgar_Vautrine|Edgar Vautrine]], [[Oblivion:Ungarion|Ungarion]]
+|-
+|{{Anchor|Moonlight}}
+|000A9826
+|Apprentice
+|Light in 30ft for 120sec on Self
+|47
+|Delphine Jend
+|-
+|{{Anchor|Candlelight}}
+|000A9827
+|Journeyman
+|Light in 40ft for 180sec on Self
+|103
+|[[Oblivion:Aurelinwae|Aurelinwae]], [[Oblivion:Ita_Rienus|Ita Rienus]]
+|-
+|{{Anchor|Torchlight}}
+|000A9828
+|Expert
+|Light in 50ft for 240sec on Self
+|183
+|Ita Rienus, [[Oblivion:Raminus_Polus|Raminus Polus]]
+|-
+|{{Anchor|Daylight}}
+|000A9829
+|Master
+|Light in 60ft for 480sec on Self
+|462
+|[[Oblivion:Gaspar_Stegine|Gaspar Stegine]]
+|}
+
+===[[File:OB-icon-Nighteye.png|24px|Night-Eye]] [[Oblivion:Night-Eye|Night-Eye]]===
+'''School: [[File:OBR-icon-magic-Illusion.png|20px]] [[Oblivion:Illusion|Illusion]]'''
+{|class="wikitable vtop" width="100%"
+|-{{ILL}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Eyes of Eventide}}
+|000A982F
+|Apprentice
+|[[Oblivion:Night-Eye|Night-Eye]] for 15sec on Self
+|33
+|[[Oblivion:Calindil|Calindil]], [[Oblivion:Delphine_Jend|Delphine Jend]], [[Oblivion:Ungarion|Ungarion]]
+|-
+|{{Anchor|Void Gazer}}
+|0006D67B
+|Apprentice
+|Night-Eye for 150sec on Self
+|{{FC|green|'''54'''}} ([[#Spell_Notes|330*]])
+|[[Oblivion:M'raaj-Dar|M'raaj-Dar]]
+|-
+|{{Anchor|Eyes of Midnight}}
+|000A9830
+|Journeyman
+|Night-Eye for 30sec on Self
+|66
+|[[Oblivion:Aurelinwae|Aurelinwae]], [[Oblivion:Ita_Rienus|Ita Rienus]]
+|}
+
+===[[File:OB-icon-Unlock.png|24px|Open]] [[Oblivion:Open|Open]]===
+'''School: [[File:OBR-icon-magic-Alteration.png|20px]] [[Oblivion:Alteration|Alteration]]'''
+{|class="wikitable vtop" width="100%"
+|-{{ALT}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Open Very Easy Lock}}
+|000A97FE
+|Novice
+|[[Oblivion:Open|Open]] Very Easy Lock on Target<br> (a.k.a. Open 7pts on Target)
+|7
+|''(You start with this spell if [[Oblivion:Alteration|Alteration]] is one of your major skills)''<br>[[Oblivion:Calindil|Calindil]], [[Oblivion:Trayvond_the_Redguard|Trayvond the Redguard]]
+|-
+|{{Anchor|The Unwelcome Guest|Unwelcome Guest}}
+|0006D67E
+|Novice
+|Open Easy Lock on Touch†<br> (a.k.a. Open 12pts on Touch)
+|10†
+|[[Oblivion:M'raaj-Dar|M'raaj-Dar]]
+|-
+|{{Anchor|Minor Latch Crack}}
+|0001CEED
+|Apprentice
+|Open Easy Lock on Target<br> (a.k.a. Open 20pts on Target)
+|{{FC|green|'''23'''}} ([[#Spell_Notes|29*]])
+|Given by [[Oblivion:Volanaro|Volanaro]] during the [[Oblivion:Bruma Recommendation|Bruma Recommendation]] quest.
+|-
+|{{Anchor|Open Easy Lock}}
+|000A9824
+|Apprentice
+|Open Easy Lock on Target<br> (a.k.a. Open 20pts on Target)
+|29
+|[[Oblivion:Alberic_Litte|Alberic Litte]], [[Oblivion:Alves_Uvenim|Alves Uvenim]], [[Oblivion:Delphine_Jend|Delphine Jend]], [[Oblivion:Druja|Druja]], [[Oblivion:Selena_Orania|Selena Orania]], [[Oblivion:Sulinus_Vassinus|Sulinus Vassinus]], [[Oblivion:Thaurron|Thaurron]], Trayvond the Redguard
+|-
+|{{Anchor|Open Average Lock}}
+|000A9836
+|Journeyman
+|Open Average Lock on Target<br> (a.k.a. Open 40pts on Target)
+|72
+|[[Oblivion:Orintur|Orintur]], Volanaro
+|-
+|{{Anchor|Open Hard Lock}}
+|000A9837
+|Expert
+|Open Hard Lock on Target<br> (a.k.a. Open 80pts on Target)
+|176
+|[[Oblivion:Gaspar_Stegine|Gaspar Stegine]], Orintur, [[Oblivion:Raminus_Polus|Raminus Polus]]
+|}
+† This is the only on-touch Open spell in the game, and it is impossible to create other touch Open spells; see [[Oblivion:Open#Notes|the effect's notes]].  It is cheaper than a custom spell of the same magnitude because it is on-touch instead of on-target. This has been "fixed" in Oblivion Remastered.
+
+===[[File:OB-icon-Paralyze.png|24px|Paralyze]] [[Oblivion:Paralyze|Paralyze]]===
+'''School: [[File:OBR-icon-magic-Illusion.png|20px]] [[Oblivion:Illusion|Illusion]]'''
+{|class="wikitable vtop" width="100%"
+|-{{ILL}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Debilitate}}
+|000A9838
+|Journeyman
+|[[Oblivion:Paralyze|Paralyze]] for 3sec on Touch
+|142
+|[[Oblivion:Ita_Rienus|Ita Rienus]]
+|-
+|{{Anchor|Black Winter}}
+|0006D67D
+|Expert
+|Paralyze for 2sec on Target<br>[[Oblivion:Frost Damage|Frost Damage]] 20pts on Target
+|{{FC|red|'''200'''}} ([[#Spell_Notes|193*]])
+|[[Oblivion:M'raaj-Dar|M'raaj-Dar]]
+|-
+|{{Anchor|Immobilize}}
+|000A9839
+|Expert
+|Paralyze for 7sec on Touch
+|332
+|Ita Rienus, [[Oblivion:Raminus_Polus|Raminus Polus]]
+|-
+|Paralyze
+|000A983A
+|Master
+|Paralyze for 10sec on Touch
+|475
+|[[Oblivion:Aurelinwae|Aurelinwae]], [[Oblivion:Borissean|Borissean]]
+|}
+
+===[[File:OB-icon-Rally.png|24px|Rally]] [[Oblivion:Rally|Rally]]===
+'''School: [[File:OBR-icon-magic-Illusion.png|20px]] [[Oblivion:Illusion|Illusion]]'''
+{|class="wikitable vtop" width="100%"
+|-{{ILL}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Inspiration}}
+|000AA032
+|Novice
+|[[Oblivion:Rally|Rally]] 25pts for 20sec on Target
+|5
+|[[Oblivion:Delphine_Jend|Delphine Jend]]
+|-
+|{{Anchor|Inspiring Touch}}
+|000AA033
+|Novice
+|Rally 25pts for 30sec on Touch
+|5
+|Delphine Jend
+|-
+|{{Anchor|Heroic Touch}}
+|000AA035
+|Apprentice
+|Rally 50pts for 60sec on Touch
+|26
+|Delphine Jend, [[Oblivion:Volanaro|Volanaro]]
+|-
+|{{Anchor|Heroism}}
+|000AA034
+|Apprentice
+|Rally 50pts for 45sec on Target
+|30
+|[[Oblivion:Aurelinwae|Aurelinwae]], Delphine Jend
+|}
+
+===[[File:OB-icon-Reflectdamage.png|24px|Reflect Damage]] [[Oblivion:Reflect Damage|Reflect Damage]]===
+'''School: [[File:OBR-icon-magic-Mysticism.png|20px]] [[Oblivion:Mysticism|Mysticism]]'''
+
+There are no ''Reflect Damage'' spells available for purchase.
+See [[Oblivion:Reflect Damage|Reflect Damage]] for information on how to obtain this spell effect for custom spells.
+
+===[[File:OB-icon-Reflectspell.png|24px|Reflect Spell]] [[Oblivion:Reflect Spell|Reflect Spell]]===
+'''School: [[File:OBR-icon-magic-Mysticism.png|20px]] [[Oblivion:Mysticism|Mysticism]]'''
+{|class="wikitable vtop" width="100%"
+|-{{MYS}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Superior Spell Reflection}}
+|000AA039
+|Expert
+|[[Oblivion:Reflect Spell|Reflect Spell]] 20pts for 20sec on Self
+|323
+|[[Oblivion:Agata|Agata]], [[Oblivion:Raminus_Polus|Raminus Polus]], [[Oblivion:Selena_Orania|Selena Orania]]
+|-
+|{{Anchor|Legendary Spell Reflection}}
+|000AA053
+|Master
+|Reflect Spell 25pts for 25sec on Self
+|538
+|Agata
+|}
+
+===[[File:OB-icon-Resist.png|24px|Resist Spell]] [[Oblivion:Resist Magic|Resist Magic]]===
+'''School: [[File:OBR-icon-magic-Restoration.png|20px]] [[Oblivion:Restoration|Restoration]]'''
+{|class="wikitable vtop" width="100%"
+|-{{RES}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Minor Magic Resistance}}
+|0008D1EA
+|Journeyman
+|[[Oblivion:Resist Magic|Resist Magic]] 15% for 20sec on Self
+|128
+|[[Oblivion:Thaurron|Thaurron]]
+|}
+
+===[[File:OB-icon-Restore.png|24px|Restore Attribute]] [[Oblivion:Restore Attribute|Restore Attribute]]===
+'''School: [[File:OBR-icon-magic-Restoration.png|20px]] [[Oblivion:Restoration|Restoration]]'''
+{|class="wikitable vtop" width="100%"
+|-{{RES}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Restore Agility}}
+|000AA03C
+|Apprentice
+|[[Oblivion:Restore Agility|Restore Agility]] 5pts on Self
+|29
+|[[Oblivion:Isa_Raman|Isa Raman]]
+|-
+|{{Anchor|Restore Endurance}}
+|000AA03F
+|Apprentice
+|[[Oblivion:Restore Endurance|Restore Endurance]] 5pts on Self
+|29
+|[[Oblivion:Avrus_Adas|Avrus Adas]]
+|-
+|{{Anchor|Restore Intelligence}}
+|000AA042
+|Apprentice
+|[[Oblivion:Restore Intelligence|Restore Intelligence]] 5pts on Self
+|29
+|[[Oblivion:Ohtesse|Ohtesse]]
+|-
+|{{Anchor|Restore Luck}}
+|000AA040
+|Apprentice
+|[[Oblivion:Restore Luck|Restore Luck]] 5pts on Self
+|29
+|[[Oblivion:Trevaia|Trevaia]]
+|-
+|{{Anchor|Restore Personality}}
+|000AA044
+|Apprentice
+|[[Oblivion:Restore Personality|Restore Personality]] 5pts on Self
+|29
+|Trevaia
+|-
+|{{Anchor|Restore Speed}}
+|000AA049
+|Apprentice
+|[[Oblivion:Restore Speed|Restore Speed]] 5pts on Self
+|29
+|[[Oblivion:Uravasa_Othrelas|Uravasa Othrelas]]
+|-
+|{{Anchor|Restore Strength}}
+|000AA047
+|Apprentice
+|[[Oblivion:Restore Strength|Restore Strength]] 5pts on Self
+|29
+|[[Oblivion:Orag_gra-Bargol|Orag gra-Bargol]]
+|-
+|{{Anchor|Restore Willpower}}
+|000AA04A
+|Apprentice
+|[[Oblivion:Restore Willpower|Restore Willpower]] 5pts on Self
+|29
+|[[Oblivion:Tumindil|Tumindil]]
+|}
+
+===[[File:OB-icon-Restore.png|24px|Restore Fatigue]] [[Oblivion:Restore Fatigue|Restore Fatigue]]===
+'''School: [[File:OBR-icon-magic-Restoration.png|20px]] [[Oblivion:Restoration|Restoration]]'''
+{|class="wikitable vtop" width="100%"
+|-{{RES}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Minor Respite}}
+|00027443
+|Novice
+|[[Oblivion:Restore Fatigue|Restore Fatigue]] 15pts on Self
+|6
+|[[Oblivion:Avrus_Adas|Avrus Adas]], [[Oblivion:Isa_Raman|Isa Raman]], [[Oblivion:Ohtesse|Ohtesse]], [[Oblivion:Orag_gra-Bargol|Orag gra-Bargol]], [[Oblivion:Trevaia|Trevaia]], [[Oblivion:Tumindil|Tumindil]], [[Oblivion:Uravasa_Othrelas|Uravasa Othrelas]]
+|-
+|{{Anchor|Major Respite}}
+|000A9823
+|Apprentice
+|Restore Fatigue 80pts on Self
+|54
+|Ohtesse, Tumindil, Uravasa Othrelas
+|}
+
+===[[File:OB-icon-Restore.png|24px|Restore Health]] [[Oblivion:Restore Health|Restore Health]]===
+'''School: [[File:OBR-icon-magic-Restoration.png|20px]] [[Oblivion:Restoration|Restoration]]'''
+{|class="wikitable vtop" width="100%"
+|-{{RES}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Heal Minor Wounds}}
+|00000136
+|Novice
+|[[Oblivion:Restore Health|Restore Health]] 8pts on Self
+|14
+|''(You start with this spell)''
+|-
+|{{Anchor|Night Mother's Caress}}
+|0006D67A
+|Apprentice
+|Restore Health 10pts for 2sec on Self
+|{{FC|green|'''33'''}} ([[#Spell_Notes|38*]])
+|[[Oblivion:M'raaj-Dar|M'raaj-Dar]]
+|-
+|{{Anchor|Convalescence}}
+|0006D7AF
+|Apprentice
+|Restore Health 15pts on Target
+|48
+|[[Oblivion:Avrus_Adas|Avrus Adas]], [[Oblivion:Isa_Raman|Isa Raman]], [[Oblivion:Ohtesse|Ohtesse]], [[Oblivion:Orag_gra-Bargol|Orag gra-Bargol]], [[Oblivion:Trevaia|Trevaia]], [[Oblivion:Tumindil|Tumindil]], [[Oblivion:Uravasa_Othrelas|Uravasa Othrelas]]
+|-
+|{{Anchor|Heal Major Wounds}}
+|000A9822
+|Apprentice
+|Restore Health 25pts on Self
+|61
+|[[Oblivion:Alberic_Litte|Alberic Litte]], [[Oblivion:Alves_Uvenim|Alves Uvenim]], Avrus Adas, [[Oblivion:Calindil|Calindil]], [[Oblivion:Delphine_Jend|Delphine Jend]], [[Oblivion:Druja|Druja]], Isa Raman, Orag gra-Bargol, [[Oblivion:Selena_Orania|Selena Orania]], [[Oblivion:Sulinus_Vassinus|Sulinus Vassinus]], [[Oblivion:Thaurron|Thaurron]], [[Oblivion:Trayvond_the_Redguard|Trayvond the Redguard]], Trevaia, Tumindil, Uravasa Othrelas
+|-
+|{{Anchor|Heal Greater Wounds}}
+|000AA03A
+|Journeyman
+|Restore Health 20pts for 2sec on Self
+|92
+|Avrus Adas, Orag gra-Bargol, Trevaia, Tumindil, Uravasa Othrelas
+|-
+|{{Anchor|Greater Convalescence}}
+|000C7661
+|Journeyman
+|Restore Health 20pts for 2sec on Target
+|138
+|Avrus Adas, Isa Raman, Ohtesse, Orag gra-Bargol, Trevaia, Tumindil, Uravasa Othrelas
+|-
+|{{Anchor|Heal Superior Wounds}}
+|000AA03B
+|Expert
+|Restore Health 25pts for 4sec on Self
+|246
+|Isa Raman, Ohtesse, Orag gra-Bargol, [[Oblivion:Raminus_Polus|Raminus Polus]], Tumindil
+|-
+|{{Anchor|Superior Convalescence}}
+|000C7662
+|Expert
+|Restore Health 20pts for 4sec on Target
+|277
+|Avrus Adas, Isa Raman, Ohtesse, Orag gra-Bargol, Trevaia, Tumindil, Uravasa Othrelas
+|-
+|{{Anchor|Heal Legendary Wounds}}
+|00083714
+|Master
+|Restore Health 30pts for 6sec on Self
+|466
+|[[Oblivion:Borissean|Borissean]], Isa Raman, Tumindil
+|}
+
+===[[File:OB-icon-Shield.png|24px|Shield]] [[Oblivion:Shield|Shield]]===
+'''School: [[File:OBR-icon-magic-Alteration.png|20px]] [[Oblivion:Alteration|Alteration]]'''
+{|class="wikitable vtop" width="100%"
+|-{{ALT}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Protect}}
+|000A97A7
+|Novice
+|[[Oblivion:Shield|Shield]] 5% for 30sec on Self
+|10
+|''(You start with this spell if [[Oblivion:Alteration|Alteration]] is one of your major skills)''<br>[[Oblivion:Calindil|Calindil]], [[Oblivion:Edgar_Vautrine|Edgar Vautrine]], [[Oblivion:Trayvond_the_Redguard|Trayvond the Redguard]], [[Oblivion:Ungarion|Ungarion]]
+|-
+|{{Anchor|Protect Other}}
+|00071090
+|Novice
+|Shield 10% for 20sec on Touch
+|17
+|Calindil, Trayvond the Redguard
+|-
+|{{Anchor|Defend}}
+|000A97A8
+|Apprentice
+|Shield 15% for 30sec on Self
+|43
+|[[Oblivion:Alberic_Litte|Alberic Litte]], [[Oblivion:Alves_Uvenim|Alves Uvenim]], [[Oblivion:Delphine_Jend|Delphine Jend]], [[Oblivion:Druja|Druja]], [[Oblivion:Selena_Orania|Selena Orania]], [[Oblivion:Sulinus_Vassinus|Sulinus Vassinus]], [[Oblivion:Thaurron|Thaurron]], Trayvond the Redguard
+|-
+|{{Anchor|Guard}}
+|000A97A9
+|Journeyman
+|Shield 30% for 30sec on Self
+|104
+|[[Oblivion:Orintur|Orintur]]
+|-
+|Shield
+|000A97AA
+|Expert
+|Shield 40% for 30sec on Self
+|151
+|Orintur, [[Oblivion:Raminus_Polus|Raminus Polus]]
+|-
+|{{Anchor|Aegis}}
+|000A97AB
+|Master
+|Shield 50% for 60sec on Self
+|403
+|[[Oblivion:Gaspar_Stegine|Gaspar Stegine]], Orintur
+|}
+
+===[[File:OB-icon-Shock.png|24px|Shock Damage]] [[Oblivion:Shock Damage|Shock Damage]]===
+'''School: [[File:OBR-icon-magic-Destruction.png|20px]] [[Oblivion:Destruction|Destruction]]'''
+{|class="wikitable vtop" width="100%"
+|-{{DES}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|[[Oblivion:Leveled Spells#Finger of the Mountain|Finger of the Mountain]]
+|Variable
+|Variable
+|[[Oblivion:Shock Damage|Shock Damage]] on Target<br>
+|Var.
+|[[Oblivion:Leveled Spells|Leveled Spell]]. Received from [[Oblivion:Cloud Top|Cloud Top]] during the [[Oblivion:Fingers of the Mountain|Fingers of the Mountain]] quest.
+|-
+|[[Oblivion:Leveled Spells#Wizard's Fury|Wizard's Fury]]
+|Variable
+|Variable
+|[[Oblivion:Fire Damage|Fire Damage]] on Target<br>[[Oblivion:Frost Damage|Frost Damage]] on Target<br>Shock Damage on Target<br>
+|Var.
+|[[Oblivion:Leveled Spells|Leveled Spell]]. Reward for completing the [[Oblivion:A Plot Revealed|A Plot Revealed]] quest.
+|-
+|{{Anchor|Shocking Touch}}
+|000A97FA
+|Novice
+|Shock Damage 10pts on Touch
+|14
+|''(You start with this spell if [[Oblivion:Destruction|Destruction]] is one of your major skills)''<br>[[Oblivion:Druja|Druja]], [[Oblivion:Edgar_Vautrine|Edgar Vautrine]], [[Oblivion:Ungarion|Ungarion]]
+|-
+|{{Anchor|Spark}}
+|000A97F3
+|Novice
+|Shock Damage 10pts on Target
+|22
+|Druja, [[Oblivion:Delphine_Jend|Delphine Jend]], [[Oblivion:Volanaro|Volanaro]]
+|-
+|{{Anchor|Electric Touch}}
+|000A97FB
+|Apprentice
+|Shock Damage 25pts on Touch
+|48
+|[[Oblivion:Calindil|Calindil]], [[Oblivion:Sulinus_Vassinus|Sulinus Vassinus]]
+|-
+|{{Anchor|Shock}}
+|000A97F4
+|Apprentice
+|Shock Damage 20pts on Target
+|54
+|Sulinus Vassinus
+|-
+|{{Anchor|Lightning Grasp}}
+|000A97FC
+|Journeyman
+|Shock Damage 45pts on Touch
+|101
+|[[Oblivion:Vigge_the_Cautious|Vigge the Cautious]]
+|-
+|{{Anchor|Lightning Bolt}}
+|000A97F8
+|Journeyman
+|Shock Damage 35pts on Target
+|110
+|Vigge the Cautious
+|-
+|{{Anchor|Shocking Burst}}
+|0003C3D9
+|Journeyman
+|Shock Damage 15pts in 10ft for 2 sec on Target
+|112
+|Vigge the Cautious
+|-
+|{{Anchor|Lightning Surge}}
+|000A97F6
+|Expert
+|Shock Damage 80pts on Touch
+|212
+|[[Oblivion:Adrienne_Berene|Adrienne Berene]]
+|-
+|{{Anchor|Lightning Ball}}
+|0003C3DA
+|Expert
+|Shock Damage 20pts in 15ft for 2sec on Target
+|243
+|Adrienne Berene, [[Oblivion:Raminus_Polus|Raminus Polus]]
+|-
+|{{Anchor|Lightning Blast}}
+|000A97FD
+|Expert
+|Shock Damage 70pts on Target
+|269
+|Adrienne Berene, Raminus Polus
+|-
+|{{Anchor|Lightning Storm}}
+|0003C3DB
+|Master
+|Shock Damage 30pts in 15ft for 2sec on Target
+|409
+|Adrienne Berene
+|-
+|{{Anchor|Electrocution}}
+|000A97F9
+|Master
+|Shock Damage 110pts on Target
+|479
+|[[Oblivion:Borissean|Borissean]], Vigge the Cautious
+|}
+
+===[[File:OB-icon-Shockshield.png|24px|Shock Shield]] [[Oblivion:Shock Shield|Shock Shield]]===
+'''School: [[File:OBR-icon-magic-Alteration.png|20px]] [[Oblivion:Alteration|Alteration]]'''
+{|class="wikitable vtop" width="100%"
+|-{{ALT}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Electric Shell}}
+|000A982A
+|Apprentice
+|[[Oblivion:Shock Shield|Shock Shield]] 10% for 30sec on Self
+|54
+|[[Oblivion:Trayvond_the_Redguard|Trayvond the Redguard]], [[Oblivion:Ungarion|Ungarion]]
+|-
+|{{Anchor|Lightning Shield}}
+|000A982B
+|Journeyman
+|Shock Shield 20% for 30sec on Self
+|131
+|[[Oblivion:Orintur|Orintur]]
+|-
+|{{Anchor|Lightning Wall}}
+|000A982C
+|Expert
+|Shock Shield 30% for 30sec on Self
+|221
+|Orintur
+|}
+
+===[[File:OB-icon-Silence.png|24px|Silence]] [[Oblivion:Silence|Silence]]===
+'''School: [[File:OBR-icon-magic-Illusion.png|20px]] [[Oblivion:Illusion|Illusion]]'''
+{|class="wikitable vtop" width="100%"
+|-{{ILL}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Hush}}
+|00027441
+|Journeyman
+|[[Oblivion:Silence|Silence]] for 10sec on Target
+|90
+|[[Oblivion:Ita_Rienus|Ita Rienus]]
+|-
+|{{Anchor|Mute}}
+|000AA04C
+|Expert
+|Silence in 15ft for 15sec on Target
+|303
+|Ita Rienus, [[Oblivion:Raminus_Polus|Raminus Polus]]
+|-
+|Silence
+|000AA04D
+|Master
+|Silence in 15ft for 20sec on Target
+|405
+|[[Oblivion:Borissean|Borissean]], [[Oblivion:Gaspar_Stegine|Gaspar Stegine]]
+|}
+
+===[[File:OB-icon-Soultrap.png|24px|Soul Trap]] [[Oblivion:Soul Trap|Soul Trap]]===
+'''School: [[File:OBR-icon-magic-Mysticism.png|20px]] [[Oblivion:Mysticism|Mysticism]]'''
+{|class="wikitable vtop" width="100%"
+|-{{MYS}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|Soul Trap
+|000AA04F
+|Apprentice
+|[[Oblivion:Soul Trap|Soul Trap]] for 20sec on Touch
+|60
+|[[Oblivion:Alberic_Litte|Alberic Litte]], [[Oblivion:Alves_Uvenim|Alves Uvenim]], [[Oblivion:Delphine_Jend|Delphine Jend]], [[Oblivion:Druja|Druja]], [[Oblivion:Selena_Orania|Selena Orania]], [[Oblivion:Sulinus_Vassinus|Sulinus Vassinus]], [[Oblivion:Thaurron|Thaurron]], [[Oblivion:Trayvond_the_Redguard|Trayvond the Redguard]], [[Oblivion:Ungarion|Ungarion]]
+|-
+|{{Anchor|Greater Soul Trap}}
+|000AA050
+|Journeyman
+|Soul Trap for 30sec on Target
+|135
+|[[Oblivion:Agata|Agata]]
+|-
+|{{Anchor|Superior Soul Trap}}
+|000AA051
+|Expert
+|Soul Trap in 10ft for 40sec on Target
+|270
+|Agata, [[Oblivion:Aurelinwae|Aurelinwae]]
+|-
+|{{Anchor|Legendary Soul Trap}}
+|000AA052
+|Master
+|Soul Trap in 20ft for 60sec on Target
+|810
+|[[Oblivion:Borissean|Borissean]]
+|}
+
+===[[File:OB-icon-Absorbspell.png|24px|Spell Absorption]] [[Oblivion:Spell Absorption|Spell Absorption]]===
+'''School: [[File:OBR-icon-magic-Mysticism.png|20px]] [[Oblivion:Mysticism|Mysticism]]'''
+{|class="wikitable vtop" width="100%"
+|-{{MYS}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Superior Spell Absorption}}
+|000AA055
+|Expert
+|[[Oblivion:Spell Absorption|Spell Absorption]] 20pts for 25sec on Self
+|347
+|[[Oblivion:Agata|Agata]], [[Oblivion:Gaspar_Stegine|Gaspar Stegine]]
+|-
+|{{Anchor|Legendary Spell Absorption}}
+|000AA056
+|Master
+|Spell Absorption 25pts for 25sec on Self
+|461
+|[[Oblivion:Borissean|Borissean]]
+|}
+
+===[[File:OB-icon-Summonzombie.png|24px|Summon]] [[Oblivion:Summon|Summon]]===
+'''School: [[File:OBR-icon-magic-Conjuration.png|20px]] [[Oblivion:Conjuration|Conjuration]]'''
+{|class="wikitable vtop" width="100%"
+|-{{CON}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Summon Skeleton}}
+|000AA05F
+|Apprentice
+|[[Oblivion:Summon|Summon]] Skeleton for 40sec on Self
+|45
+|''(You start with this spell if [[Oblivion:Conjuration|Conjuration]] is one of your major skills)''<br>[[Oblivion:Alberic_Litte|Alberic Litte]], [[Oblivion:Calindil|Calindil]], [[Oblivion:Volanaro|Volanaro]]
+|-
+|{{Anchor|Summon Zombie}}
+|000AA063
+|Apprentice
+|Summon Zombie for 30sec on Self
+|50
+|Alberic Litte, Calindil
+|-
+|{{Anchor|Summon Ghost}}
+|000AA05C
+|Apprentice
+|Summon Ghost for 25sec on Self
+|55
+|Alberic Litte, [[Oblivion:Ungarion|Ungarion]]
+|-
+|{{Anchor|Summon Scamp}}
+|000AA05E
+|Apprentice
+|Summon Scamp for 20sec on Self
+|60
+|Alberic Litte, [[Oblivion:Alves_Uvenim|Alves Uvenim]], [[Oblivion:Delphine_Jend|Delphine Jend]], [[Oblivion:Druja|Druja]], [[Oblivion:Edgar_Vautrine|Edgar Vautrine]], [[Oblivion:Selena_Orania|Selena Orania]], [[Oblivion:Sulinus_Vassinus|Sulinus Vassinus]], [[Oblivion:Thaurron|Thaurron]], [[Oblivion:Trayvond_the_Redguard|Trayvond the Redguard]], Ungarion
+|-
+|{{Anchor|Summon Skeleton Guardian}}
+|0003C415
+|Journeyman
+|Summon Skeleton Guardian for 40sec on Self
+|130
+|[[Oblivion:Athragar|Athragar]]
+|-
+|{{Anchor|Summon Flame Atronach}}
+|000AA05A
+|Journeyman
+|Summon Flame Atronach for 30sec on Self
+|135
+|Athragar
+|-
+|{{Anchor|Summon Headless Zombie}}
+|0003C414
+|Journeyman
+|Summon Headless Zombie for 25sec on Self
+|140
+|Athragar
+|-
+|{{Anchor|Summon Dremora}}
+|000AA059
+|Journeyman
+|Summon Dremora for 20sec on Self
+|145
+|Athragar
+|-
+|{{Anchor|Summon Skeleton Hero}}
+|0003C416
+|Expert
+|Summon Skeleton Hero for 50sec on Self
+|330
+|Athragar
+|-
+|{{Anchor|Summon Clannfear}}
+|000AA057
+|Expert
+|Summon Clannfear for 45sec on Self
+|340
+|Athragar
+|-
+|{{Anchor|Summon Faded Wraith}}
+|000AA062
+|Expert
+|Summon Faded Wraith for 40sec on Self
+|350
+|Athragar, [[Oblivion:Gaspar_Stegine|Gaspar Stegine]]
+|-
+|{{Anchor|Summon Frost Atronach}}
+|000AA05B
+|Expert
+|Summon Frost Atronach for 35sec on Self
+|360
+|Athragar
+|-
+|{{Anchor|Summon Daedroth}}
+|000AA058
+|Expert
+|Summon Daedroth for 30sec on Self
+|369
+|Athragar, [[Oblivion:Selena_Orania|Selena Orania]]
+|-
+|{{Anchor|Summon Skeleton Champion}}
+|0003C417
+|Expert
+|Summon Skeleton Champion for 25sec on Self
+|380
+|Athragar
+|-
+|{{Anchor|Summon Spider Daedra}}
+|0003C418
+|Expert
+|Summon Spider Daedra for 20sec on Self
+|390
+|Athragar, Gaspar Stegine
+|-
+|{{Anchor|Summon Storm Atronach}}
+|000AA060
+|Master
+|Summon Storm Atronach for 40sec on Self
+|500
+|[[Oblivion:Vigge_the_Cautious|Vigge the Cautious]]
+|-
+|{{Anchor|Summon Dremora Lord}}
+|0003C413
+|Master
+|Summon Dremora Lord for 35sec on Self
+|549
+|Volanaro
+|-
+|{{Anchor|Summon Xivilai}}
+|000AA061
+|Master
+|Summon Xivilai for 30sec on Self
+|600
+|[[Oblivion:Borissean|Borissean]]
+|-
+|{{Anchor|Summon Gloom Wraith}}
+|0003C419
+|Master
+|Summon Gloom Wraith for 25sec on Self
+|650
+|Borissean
+|-
+|{{Anchor|Summon Lich}}
+|000AA05D
+|Master
+|Summon Lich for 20sec on Self
+|700
+|Borissean
+|}
+
+===[[File:OB-icon-Telekinesis.png|24px|Telekinesis]] [[Oblivion:Telekinesis|Telekinesis]]===
+'''School: [[File:OBR-icon-magic-Mysticism.png|20px]] [[Oblivion:Mysticism|Mysticism]]'''
+{|class="wikitable vtop" width="100%"
+|-{{MYS}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Remote Manipulation}}
+|000AA064
+|Apprentice
+|[[Oblivion:Telekinesis|Telekinesis]] 10ft for 20sec on Target
+|28
+|[[Oblivion:Alberic_Litte|Alberic Litte]], [[Oblivion:Alves_Uvenim|Alves Uvenim]], [[Oblivion:Delphine_Jend|Delphine Jend]], [[Oblivion:Druja|Druja]], [[Oblivion:Selena_Orania|Selena Orania]], [[Oblivion:Sulinus_Vassinus|Sulinus Vassinus]], [[Oblivion:Thaurron|Thaurron]], [[Oblivion:Trayvond_the_Redguard|Trayvond the Redguard]], [[Oblivion:Ungarion|Ungarion]], [[Oblivion:Volanaro|Volanaro]]
+|-
+|{{Anchor|Psychic Motion}}
+|000AA065
+|Journeyman
+|Telekinesis 20ft for 30sec on Target
+|102
+|[[Oblivion:Agata|Agata]]
+|-
+|Telekinesis
+|000AA066
+|Expert
+|Telekinesis 30ft for 45sec on Target
+|257
+|Agata, [[Oblivion:Aurelinwae|Aurelinwae]]
+|-
+|{{Anchor|Movement Mastery}}
+|000AA067
+|Master
+|Telekinesis 40ft for 60sec on Target
+|495
+|[[Oblivion:Borissean|Borissean]]
+|}
+
+===[[File:OB-icon-Turnundead.png|24px|Turn Undead]] [[Oblivion:Turn Undead|Turn Undead]]===
+'''School: [[File:OBR-icon-magic-Conjuration.png|20px]] [[Oblivion:Conjuration|Conjuration]]'''
+{|class="wikitable vtop" width="100%"
+|-{{CON}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|Turn Undead
+|000AA068
+|Novice
+|[[Oblivion:Turn Undead|Turn Undead]] up to level 3 for 30sec on Target<br> (a.k.a. Turn Undead 15pts for 30sec on Target)
+|11
+|''(You start with this spell if [[Oblivion:Conjuration|Conjuration]] is one of your major skills)''<br>[[Oblivion:Alberic_Litte|Alberic Litte]], [[Oblivion:Trevaia|Trevaia]], [[Oblivion:Tumindil|Tumindil]], [[Oblivion:Ungarion|Ungarion]]
+|-
+|{{Anchor|Repulse Undead}}
+|000AA069
+|Apprentice
+|Turn Undead up to level 7 for 30sec on Target<br> (a.k.a. Turn Undead 30pts for 30sec on Target)
+|29
+|Alberic Litte, [[Oblivion:Ohtesse|Ohtesse]], Trevaia, Tumindil, [[Oblivion:Uravasa_Othrelas|Uravasa Othrelas]]
+|-
+|{{Anchor|Rebuke Undead}}
+|000AA06A
+|Journeyman
+|Turn Undead up to level 15 for 30sec on Target<br> (a.k.a. Turn Undead 60pts for 30sec on Target)
+|70
+|[[Oblivion:Athragar|Athragar]], [[Oblivion:Isa_Raman|Isa Raman]], Tumindil
+|-
+|{{Anchor|Dismiss Undead}}
+|000AA06B
+|Expert
+|Turn Undead up to level 18 for 60sec on Target<br> (a.k.a. Turn Undead 75pts for 60sec on Target)
+|187
+|Athragar, Isa Raman, [[Oblivion:Orag_gra-Bargol|Orag gra-Bargol]], Tumindil
+|}
+
+===[[File:OB-icon-Waterbreath.png|24px|Water Breathing]] [[Oblivion:Water Breathing|Water Breathing]]===
+'''School: [[File:OBR-icon-magic-Alteration.png|20px]] [[Oblivion:Alteration|Alteration]]'''
+{|class="wikitable vtop" width="100%"
+|-{{ALT}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Buoyancy}}
+|0001FBB4
+|Apprentice
+|[[Oblivion:Feather|Feather]] 5pts for 30sec on Self<br>[[Oblivion:Water Breathing|Water Breathing]] for 30sec on Self
+|{{FC|green|'''34'''}} ([[#Spell_Notes|43*]])
+|Given by Deetsan during the [[Oblivion:Cheydinhal Recommendation|Cheydinhal Recommendation]] quest.
+|-
+|Water Breathing
+|000AA06C
+|Apprentice
+|Water Breathing for 30sec on Self
+|43
+|[[Oblivion:Edgar_Vautrine|Edgar Vautrine]], [[Oblivion:Trayvond_the_Redguard|Trayvond the Redguard]], [[Oblivion:Ungarion|Ungarion]]
+|}
+
+===[[File:OB-icon-Waterwalk.png|24px|Water Walking]] [[Oblivion:Water Walking|Water Walking]]===
+'''School: [[File:OBR-icon-magic-Alteration.png|20px]] [[Oblivion:Alteration|Alteration]]'''
+{|class="wikitable vtop" width="100%"
+|-{{ALT}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|{{Anchor|Sea Stride}}
+|000AA071
+|Apprentice
+|[[Oblivion:Water Walking|Water Walking]] for 30sec on Self
+|39
+|[[Oblivion:Trayvond_the_Redguard|Trayvond the Redguard]]
+|}
+
+===Weakness===
+'''School: [[File:OBR-icon-magic-Destruction.png|20px]] [[Oblivion:Destruction|Destruction]]'''
+{|class="wikitable vtop" width="100%"
+|-{{DES}}
+|width=20%|'''Spell Name'''
+|width=5%|'''ID#'''
+|width=10%|'''Level'''
+|width=30%|'''Effects'''
+|width=5%|'''Cost'''
+|width=30%|'''Where to get'''
+|-
+|[[File:OB-icon-Fire.png|24px|Weakness to Fire]] {{Anchor|Weakness to Fire}}
+|0003C40D
+|Apprentice
+|[[Oblivion:Weakness to Fire|Weakness to Fire]] 25% for 30sec on Target
+|27
+|[[Oblivion:Calindil|Calindil]], [[Oblivion:Sulinus_Vassinus|Sulinus Vassinus]]
+|-
+|[[File:OB-icon-Frost.png|24px|Weakness to Frost]] {{Anchor|Weakness to Frost}}
+|0003C40E
+|Apprentice
+|[[Oblivion:Weakness to Frost|Weakness to Frost]] 25% for 30sec on Target
+|27
+|Sulinus Vassinus
+|-
+|[[File:OB-icon-Poisonweakness.png|24px|Weakness to Poison]] {{Anchor|Weakness to Poison}}
+|0003C411
+|Apprentice
+|[[Oblivion:Weakness to Poison|Weakness to Poison]] 25% for 30sec on Target
+|27
+|Calindil, Sulinus Vassinus, [[Oblivion:Ungarion|Ungarion]]
+|-
+|[[File:OB-icon-Shock.png|24px|Weakness to Shock]] {{Anchor|Weakness to Shock}}
+|0003C412
+|Apprentice
+|[[Oblivion:Weakness to Shock|Weakness to Shock]] 25% for 30sec on Target
+|27
+|Sulinus Vassinus
+|-
+|[[File:OB-icon-Damage.png|24px|Weakness to Magic]] {{Anchor|Weakness to Magicka}}
+|0003C40F
+|Journeyman
+|[[Oblivion:Weakness to Magic|Weakness to Magic]] 25% for 30sec on Target
+|69
+|[[Oblivion:Aurelinwae|Aurelinwae]], [[Oblivion:Vigge_the_Cautious|Vigge the Cautious]]
+|}
+{{Oblivion:Spell_List_Notes}}

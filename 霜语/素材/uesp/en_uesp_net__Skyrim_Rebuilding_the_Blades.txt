@@ -1,0 +1,79 @@
+<noinclude>{{Cleanup-srqrp
+|writtenBy=Beezer1029
+|checkedBy=
+|reward=Neondrmr
+|rewardChecked=Beezer1029
+}}</noinclude>{{Quest Header
+|Giver=[[Skyrim:Delphine|Delphine]]
+|Loc=[[Skyrim:Sky Haven Temple|Sky Haven Temple]]
+|Prev=[[Skyrim:Alduin's Wall|Alduin's Wall]]
+|Reward=Use the Blades to go [[Skyrim:Dragon Hunting|Dragon Hunting]] 
+|Image=SR-quest-Rebuilding the Blades.jpg
+|Imgdesc=[[Skyrim:Faendal|Faendal]] and [[Skyrim:Uthgerd the Unbroken|Uthgerd the Unbroken]] as newly-recruited Blades
+|description=Recruit new members for the [[Skyrim:Blades|Blades]].
+|ID=FreeformSkyhavenTempleA
+}}
+
+==Quick Walkthrough==
+#Locate and bring three suitable [[Skyrim:Followers|followers]] to Delphine.
+#Induct these followers into the [[Skyrim:Blades|Blades]].
+#Ask [[Skyrim:Esbern|Esbern]] about [[Skyrim:Dragon_Lairs|dragon lairs]] to start the repeatable quest [[Skyrim:Dragon Hunting|Dragon Hunting]].
+
+==Detailed Walkthrough==
+===Help Wanted===
+[[File:SR-npc-Delphine 35.jpg|thumb|right|Delphine inducting [[Skyrim:Lydia|Lydia]] into the Blades]]
+After completing [[Skyrim:Alduin's Wall|Alduin's Wall]], you may notice that the [[Skyrim:Blades|Blades']] mission of ridding Skyrim of [[Skyrim:Dragon|dragons]] may be rather daunting for just two people. Ask [[Skyrim:Delphine|Delphine]] about her apparent staffing shortage and she will reply, ''"The [[Skyrim:Thalmor|Thalmor]] hunted us down, remember? It wasn't exactly great for recruitment. But we have a headquarters of a sort now. We'll rebuild the Blades. Someday."'' As you are the [[Skyrim:Dovahkiin|Dragonborn]], and the Blades are sworn to protect you, you might be inclined to help Delphine find new recruits. When you offer, she will say, ''"If you find anyone you think would make a good recruit, I can certainly take a look at them. Remember, though, being a Blade is a lifelong commitment. Their loyalty has to be with us once they're in."''
+
+===Recruiting===
+To recruit a [[Skyrim:Followers|follower]] into the Blades, simply bring your new recruit to Delphine in [[Skyrim:Sky Haven Temple|Sky Haven Temple]] for introductions. Since being a Blade is binding, Delphine will ask you for confirmation: ''"Are you sure? I'll need to ask them to take an oath to leave their old life behind and stay here from now on."'' Confirm your selection and Delphine will agree. She will then give the oath to your first recruit:
+{|class="hiddentable"
+|- valign="top"
+| '''Delphine''':&nbsp; || ''"You there. The Dragonborn wishes to give you the chance to join the lost guardians of Tamriel. The dragon slayers. The Blades. Do you wish to become a Blade?"''
+|-
+| '''Follower''': || ''"I do."''
+|- valign="top"
+| '''Delphine''': || ''"Are you willing to trade away all claims and titles of your former life? To live here and devote yourself to protecting Tamriel from danger?"''
+|-
+| '''Follower''': || ''"I do."''
+|- valign="top"
+| '''Delphine''': || ''"Then by my right as acting grandmaster, I name you a Blade, with all the privileges, rights, and burdens that brings. Godspeed."''
+|}
+
+===Happy Hunting===
+You can bring two more recruits to Delphine for the oath taking. After the third, she will say ''"That's enough recruits for now. Ask Esbern about the dragon lairs he's been studying. We'll have the recruits do some hunting with you."'' Speak to Esbern to complete the quest and begin the [[Skyrim:Dragon Hunting|Dragon Hunting]] repeatable quest.
+
+==Notes==
+*You can still ask recruited Blades to follow you, but they will be situated at Sky Haven Temple rather than their place of usual residence.
+**If you induct your spouse into the Blades, then you can still move your spouse to a house you own. If you choose to live at your spouse's home, you will be directed to Sky Haven Temple.
+*All [[Skyrim:Followers#Permanent_Followers|permanent followers]] are eligible to join the Blades except [[SR:Serana|Serana]] and those from the [[Skyrim:Dark_Brotherhood|Dark Brotherhood]].
+*When a new recruit joins the Blades, they automatically leave your service, so a new follower can be recruited. Bugs affecting your ability to obtain new followers may be solved in this manner.
+*Hirelings that join the Blades can be hired for free after they move to the temple.
+*If one of the new recruits dies for whatever reason, they cannot be replaced by inducting another follower. As a mitigating factor, every recruit becomes a [[Skyrim:Protected NPCs|Protected NPC]]. To solve this issue, it is a strong strategic option to recruit [[Skyrim:Essential NPCs|essential characters]], e.g. [[Skyrim:Frea|Frea]]{{DB}}, [[Skyrim:Mjoll the Lioness|Mjoll]], [[Skyrim:Erandur|Erandur]], etc.
+*If the optional quest [[Skyrim:Paarthurnax (quest)|Paarthurnax]] has started, you can still recruit followers for Delphine. When it comes time to talk to Esbern however, he will not finish this quest or start the Dragon Hunting quest until Paarthurnax is slain.
+*Blades are forced to use [[Skyrim:Heavy_Armor|Heavy Armor]], [[Skyrim:Block|Block]], and [[Skyrim:One-handed|One-handed]], so recruits who do not favor these skills will be at a disadvantage.
+** With or without the [[Skyrim Mod:Unofficial Skyrim Patch|Unofficial Skyrim Patch]], most of the player's [[Skyrim:Housecarl|Housecarls]] are good Blades candidates, specializing in the required skills with a level cap of 50 which is higher than most other followers. 
+*** However recruiting them does effectively overwrite their role, leading to things such as the [[Skyrim:Hearthfire|Hearthfire]] Housecarls no longer defending their associated homes.
+*** It's possible that [[Skyrim:Rayya|Rayya]] may lose her ability to [[Skyrim:Combat#Dual-wielding_2|dual wield]], but her class still includes Block as a skill. 
+*** Without the patch [[Skyrim:Valdimar|Valdimar]] only lacks the Block skill, and may still be worth considering for his level cap and access to magic, with the patch he's changed to specialize in [[Skyrim:Light_Armor|Light Armor]] instead of Heavy Armor making him less suitable.
+** With or without the [[Skyrim Mod:Unofficial Skyrim Patch|Unofficial Skyrim Patch]], other good candidates with their listed level caps are [[SR:Borgakh the Steel Heart|Borgakh the Steel Heart]] (30), [[SR:Celann|Celann]] (No Level Cap), [[SR:Golldir|Golldir]] (30), [[SR:Kharjo|Kharjo]] (30), [[SR:Ogol|Ogol]] (30), [[SR:Ria|Ria]] (25), and [[SR:Torvar|Torvar]] (25).
+*** Without the patch: [[SR:Athis|Athis]] (25), [[SR:Cosnach|Cosnach]] (30), [[SR:Uthgerd the Unbroken|Uthgerd the Unbroken]] (30), and [[SR:Vorstag|Vorstag]] (40).
+*** With the patch: [[SR:Adelaisa Vendicci|Adelaisa Vendicci]] (25), [[SR:Erik the Slayer|Erik the Slayer]] (40), and [[SR:Ghorbash the Iron Hand|Ghorbash the Iron Hand]] (30).
+** With or without the [[Skyrim Mod:Unofficial Skyrim Patch|Unofficial Skyrim Patch]], the [[SR:Ghosts of the Tribunal|Ghosts of the Tribunal]] [[SR:Creation Club|Creation]] add three very ideal Blades candidates, having level caps of 100 with the required skills: [[Skyrim:Hand_Ethra_Mavandas|Hand Ethra Mavandas]], [[Skyrim:Hand_Kydren_Indobar|Hand Kydren Indobar]], and [[Skyrim:Vesparth_the_Toe|Vesparth the Toe]].
+
+==Bugs==
+{{bug|Any armor given to Blades inductees prior to their induction may be removed from their inventory.|USKP|2.0.5}}
+**Due to this bug, it appears that dragon priest masks are also lost. This renders the quest in [[Skyrim:Bromjunaar Sanctuary|Bromjunaar Sanctuary]] impossible to complete.
+{{bug|When dismissing Blade followers who were formerly housecarls, they will say ''"I will be back at your house if you need me, Thane"'', though they will actually return to Sky Haven Temple.|confirmed=1}}
+{{bug|Sometimes, followers recruited into the blades will travel back to where you recruited them, even though Delphine accepted them. A possible fix could be to load before recruiting the previous Blade (only possible if this wasn't the first follower you introduced to the Blades), recruit that previous Blade again and try again with your second one.|confirmed=1}}
+{{bug|Esbern may be unavailable when you try to talk to him. There is no dialogue option and he just says 'Did you say something?'.|confirmed=1}}
+{{bug|Followers may attack one another killing one of your blades members.|confirmed=1}}
+
+==Quest Stages==
+{{Journal Entries
+|10||{{Quest Objective|10|Bring a follower to Delphine}}
+|20||{{Quest Objective|20|Bring a follower to Delphine}}
+|30||{{Quest Objective|30|Bring a follower to Delphine}}
+|40||{{Quest Objective|40|Ask Esbern about dragon lairs}}
+|missing=50
+}}
+{{Skyrim Quest Stages Notes}}

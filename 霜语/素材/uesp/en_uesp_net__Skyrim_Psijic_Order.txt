@@ -1,0 +1,28 @@
+{{Trail|Factions}}
+The '''Psijic Order''' is a mysterious and ancient order of powerful mages based on the Isle of Artaeum. One of their number used to advise the Arch-Mage of the College of Winterhold, but the order and their headquarters have not been seen for over a century. The Psijic Order is considered by the [[Skyrim:Thalmor|Thalmor]] to be rivals to their power and potential threats since they will not allow themselves to be controlled by the Thalmor. For historical information on the order, see [[Lore:Psijic Order|the lore article]].
+
+Throughout the quests given by the [[Skyrim:College of Winterhold (faction)|College of Winterhold]], in which the [[Skyrim:The Eye of Magnus|Eye of Magnus]] acts as a plot device, a monk of the Psijic Order named [[Skyrim:Quaranir|Quaranir]] constantly warns you that the device is not something the world is prepared for and that it is your sole responsibility to prevent anyone channeling powers from the eye at all costs. Their intentions for, as well as their connection with, the Eye of Magnus remains unknown.
+
+The extent of the Order's power is unknown, but members have been shown to be capable of either slowing or stopping time entirely as well as a form of teleportation, though the former ability was said by Quaranir to require great effort on the mage's part and could not be performed for very long. All members of the Psijic Order seen in Skyrim wear their unique eponymous robes, which cannot be obtained legitimately. 
+
+==Members==
+{|class="wikitable" width="100px"
+|-
+!Name
+|-
+|
+;[[Skyrim:Gelebros|Gelebros]]
+;[[Skyrim:Nerien|Nerien]]
+;[[Skyrim:Quaranir|Quaranir]]
+;[[Skyrim:Tandil|Tandil]]
+|}
+
+==Related Quests==
+* {{Quest Link|Under Saarthal}}
+* {{Quest Link|Good Intentions}}
+* {{Quest Link|Revealing the Unseen}}
+* {{Quest Link|The Eye of Magnus}}
+
+==Note==
+* The Order's name is spelled 'Psijic' in subtitles and in-game texts but is spelled 'Psiijic' in the game's item files (viewable with the Creation Kit). This discrepancy is normally never viewable in-game, as the Order's robes, gloves, boots, and hood are not obtainable without console commands.
+*[[Skyrim:Soran's Journal|''Soran's Journal'']], added by the [[SR:Wild Horses|Wild Horses]] [[SR:Creation Club|Creation]], suggests that the Psijic Order may have transported one of the very last [[Skyrim:Unicorn|Unicorns]] forward in time following their extinction during [[Oblivion:Hircine|Hircine's quest]] in [[OB:Oblivion|''Oblivion'']].

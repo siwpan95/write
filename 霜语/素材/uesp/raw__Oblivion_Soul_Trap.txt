@@ -1,0 +1,97 @@
+{{Effect Summary
+|image=OB-icon-Soultrap.png
+|school=Mysticism
+|type=Offensive
+|id=STRP
+|cost=30
+|barter=0
+|avail=[[Oblivion:List of Spells by Effect#Soul Trap|Spells]]<br>[[Oblivion:Scrolls#Soul Trap|Scrolls]]<br>[[Oblivion:Sigil Stone#Soul Trap|Sigil Stones]]<br>[[Oblivion:Generic_Magic_Weapons#Soul Trap|Weapons]]<br>[[Oblivion:Ammunition#Soul Trap|Arrows]]
+|syntax=Soul Trap in A feet for D seconds.
+}}
+
+''Soul Trap'' locks the [[Oblivion:Souls|soul]] of a given creature or NPC in an empty [[Oblivion:Soul_Gem|soul gem]] immediately after its death.  You can cast the spell yourself (from [[#Spells|memory]] or a [[Oblivion:Scrolls|scroll]]) or use a [[#Weapons|weapon]] enchanted with the Soul Trap ability. 
+
+Note that the spell doesn't capture souls on its own. You must ensure that your victim dies within the next '''D''' seconds after you have cast a ''Soul Trap'' spell on them. If you fail to kill the target before the ''Soul Trap'' spell expires, you miss the chance. In addition to killing the victim within the spell's time limit, you must also have an appropriate soul gem in which to store it. All creatures and NPCs in the game have souls, of various strengths:
+
+{| class="wikitable" style = "text-align:center;"
+! Soul !! Owner !! Strength 
+|- 
+| Petty || Creature || 150
+|-
+| Lesser || Creature || 300
+|-
+| Common || Creature || 800
+|-
+| Greater || Creature || 1200
+|-
+| Grand || Creature || 1600
+|-
+| Black || NPC || 1600
+|-
+|}
+
+And there is a soul gem for each soul strength:
+
+{| class="wikitable" style = "text-align:center;"
+! Soul Gem !! Capacity
+|- 
+| Petty || 150
+|-
+| Lesser || 300
+|-
+| Common || 800
+|-
+| Greater || 1200
+|-
+| Grand || 1600
+|-
+| [[Oblivion:Black Soul Gem|Black]]<sup>*</sup> || 1600
+|-
+|}
+<sup>*</sup> The only soul gem capable of holding NPC souls.
+
+The more powerful the creature, the greater the soul strength it possesses. The '''Capacity''' of a soul gem must be greater than or equal to the '''Strength''' of a soul confined within that soul gem.
+
+===Filling Soul Gems===
+A soul will always fill the smallest empty [[Oblivion:Soul Gem|Soul Gem]] that can accommodate it. If no gem stones of the soul's level are available, it will look for progressively higher level gem stones until it finds an empty one to fill.
+
+Example: You are trapping a ''Common Soul'' and you have one empty ''Petty Soul Gem'', one full ''Common Soul Gem'', one empty ''Greater Soul Gem'', and one empty ''Grand Soul Gem'' in your inventory.  The soul will be stored in the ''Greater Soul Gem'' because it is the smallest empty gem that fits. This can be expensive if you accidentally trap a ''Lesser Soul'' when you only have empty ''Grand Soul Gems''.  Note that Black Soul Gems can hold non-NPC souls, and that Black Soul Gems will take precedence over [[Oblivion:Azura's Star|Azura's Star]]. Therefore, a Petty Soul '''will''' be placed in a Black Soul Gem if it's the only one in your inventory that can hold the trapped soul.
+
+If you get the message, "There is no soul gem in your inventory capable of holding such a soul," then you don't have an empty soul gem big enough to hold it (or you have attempted to capture the soul of an NPC and you do not have any empty [[Oblivion:Black Soul Gem|Black Soul Gem]]s). There are no partial captures; it is all or nothing. 
+
+Once you use a filled Soul Gem it is gone. One notable exception to this is Azura's Star, which is the equivalent of one ''Grand Soul Gem'' but is reusable.  You can find more at your local magically inclined or general [[Oblivion:Merchants|merchant]], if it is part of their inventory (this is a replicable commodity and non-general merchants who carry soul gems will create more on a regular basis like arrows).  Mages Guild members and thieves can also find soul gems lying around in most guild halls.  
+
+The [[Oblivion:Staff of Worms|Staff of Worms]] (acquired during the final Mages Guild quest [[Oblivion:Confront the King|Confront the King]]) allows you to resurrect a dead NPC for 30 seconds after which they die again allowing you to keep trapping the same soul repeatedly to fill multiple black Soul Gems. However, it might be easier to trap the soul of a summoned Dremora (Lord), which are considered NPCs. The Staff of Worms only works on NPCs, creatures are unaffected.
+
+=== Spells ===
+You can [[Oblivion:List of Spells by Effect#Soul Trap|purchase the soul trap spell]] at every [[Oblivion:Mages Guild|Mages Guild]].  You need to be at least apprentice level in [[Oblivion:Mysticism|Mysticism]] to be able to cast the cheapest version of the spell.
+
+Your Mysticism skill does not determine the strength of souls that you can trap. A one-second Soul Trap spell works as well as a 60-second Soul Trap spell, as long as you kill the target while the spell is active. Increased Mysticism skill will allow you access to Soul Trap spells of longer duration, and will allow you to cast the spells for less [[Oblivion:Magicka|Magicka]] cost.
+
+When you cast the Soul Trap spell on a target, you have until the spell wears off to slay it or you will fail to trap the soul. One strategy is to have a long-duration Soul Trap spell available so that you have the largest possible window in which to finish off your target (in case it takes longer than you expected). An alternative strategy is to cast the spell only after you have whittled down the target's health to a quickly dispatchable level.
+
+[[Oblivion:Spell Making|Custom]] spells that combine Soul Trap with a damage effect can be particularly effective.  Make sure that the soul trap effect lasts longer than the damage effect(s) in the spell.  A spell which works on touch will be cheaper to cast than one cast on a remote target.  Since this spell is best when used only to deliver the ''coup de grace'', it is OK for it to be used at close quarters.
+
+=== Weapons ===
+There are a few standard weapons that provide the Soul Trap effect.  The most well-known weapon is [[Oblivion:Umbra (sword)|Umbra]].  Several [[Oblivion:Generic Magic Weapons#Soul Trap|generic magic weapons]] are also available.  You can create a [[Oblivion:Mage's Staff|Mage's Staff]] with Soul Trap, although because the staff does not simultaneously do any damage, it is used just like a spell.
+
+[[Oblivion:Enchanting|Custom weapons]] can be created with the soul trap enchantment.  It is best to use a high-damage weapon for the enchantment.  The duration of the soul trap effect should generally only be 1 second (unless being combined with other damage effects that last more than one duration).  Other effects, such as 100 pts. [[Oblivion:Drain Health|Drain Health]] for one second, can be included to make the weapon more powerful.  There is also a [[Oblivion:Sigil Stone#Soul Trap|Sigil Stone]] with the Soul Trap effect, although the fixed duration of the sigil stone enchantment makes it less efficient than a weapon created at the Enchanting Altar.
+
+A weapon with soul trap should only be used to deal the final blow to an enemy.  When you're fighting and notice the enemy's health getting low, switch from your standard weapon to the soul trap weapon.   The reason why you shouldn't use this as a standard combat weapon is that with many foes (especially weaker ones) the number of hits needed to kill the creature with the Soul Trap weapon will likely use up more charges than its soul will refill.
+
+==Notes==
+* This effect can be gained for [[Oblivion:Spell Making|spell making]] and [[Oblivion:Enchanting|enchanting]] via [[Oblivion:List of Spells by Effect#Soul Trap|spells]] only.
+* Although ''Soul Trap'' does not physically harm the target, this effect is tagged as hostile.  Therefore casting it on someone is considered an attack and may incur a [[Oblivion:bounty|bounty]].
+*It is possible to ''soul trap'' a [[Oblivion:Summon|summoned]] creature - a convenient way to fill gems without hunting or committing [[Oblivion:Crime|crimes]]. Bear in mind, though, that the summon expiration does not trigger Soul Trap, and Dremora require Black Soul gems as they are counted as NPCs.
+* You do not have to personally kill a creature or NPC to trap its soul; as long as the creature or NPC dies before the effect expires (regardless of the cause; for example, you can shove a Xivilai into a pit of lava), the soul will be trapped.
+* In order to benefit from soul trap, ''you'' must cast it yourself.  For example, if a follower picks up a weapon that you drop on the ground with a soul trap enchantment, then, upon dying, the victim's soul will go into one of ''their'' soul gems, at which point, you must either pickpocket the soul gem or loot it from their corpse (also, very few NPCs carry empty soul gems around in the first place, and since they are not zero-weight, you cannot reverse-pickpocket them).
+* Another use of ''Soul Trap'' spells is to create [[Oblivion:Black Soul Gem|Black Soul Gem]]s.
+* The ''Mora's Soul Trap'' spell (given to you during [[Oblivion:Hermaeus Mora|Hermaeus Mora]]'s [[Oblivion:Daedric Quests|Daedric quest]]) is not a true ''Soul Trap'' spell; ''Mora's Soul Trap'' does not trap creatures in standard soul gems and it cannot be used to create Black Soul Gems.
+
+==See also==
+Sections:
+* [[Oblivion:Enchanting|Enchanting]]: Details on using filled Soul Gems to create and recharge enchanted items
+* [[Oblivion:Soul Gem|Soul Gems]]: Available soul gems
+* [[Oblivion:Souls|Souls]]: Soul strengths of various creatures.
+
+{{Oblivion Mysticism Effects}}

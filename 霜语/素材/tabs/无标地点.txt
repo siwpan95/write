@@ -1,0 +1,662 @@
+{{面包屑|词汇表}}
+本页面收录了《上古卷轴5天际》早期版本的无标地点的词汇翻译。在2011年11月11日发售不久，在游民星空网站上就出现了一些攻略贴，有了最初的地图和地名表，其中不少地名是游戏中没有标注的地名。由于当时还没有官方汉化，也没有民间汉化，未引起重视，也没有汉化组专门翻译这些地名。这里借助AI，对相关地名做了简单翻译。
+
+{| class="wikitable" style="text-align:center; vertical-align:middle;"
+|-
+! ENGLISH
+! 中文
+|-
+| A Bandit's Book
+| 强盗的藏书
+|-
+| A Bloody Trail
+| 血痕小径
+|-
+| A Peddler's Misfortune
+| 不幸的商人
+|-
+| Adventurer's Campsite
+| 霜风深渊冒险者营地
+|-
+| Alchemist's Camp: Evergreen Woods
+| 常青树林炼金师营地
+|-
+| Altar in the Woods: Autumnshade
+| 秋影林地祭坛
+|-
+| Altar of Xrib
+| 埃克斯利布祭坛
+|-
+| Ambushed Caravan
+| 遇袭的商队
+|-
+| Ashfallow Reaver Camp
+| 烬休掠夺者营地（掠夺者营地）
+|-
+| Avalanche Pass
+| 雪崩小径
+|-
+| Bandit Bridge: Pinewatch
+| 松木哨塔强盗索桥
+|-
+| Bandit Camp: Helgen Cliffs
+| 圣地镇崖下强盗营地
+|-
+| Bandit Camp: Ilinalta Foothills
+| 伊琳娜塔山麓强盗营地
+|-
+| Bandit Camp: Pinewatch Heights
+| 松木哨塔高地强盗营地
+|-
+| Bandit Camp: Skybound Underhang
+| 飞天崖下强盗营地
+|-
+| Bandit's Hovel
+| 强盗窝棚
+|-
+| Barnacle Boat
+| 藤壶船
+|-
+| Basalt Causeway
+| 玄武岩堤道
+|-
+| Bear Cave: Halldir's Cairn
+| 霍迪尔石冢熊穴
+|-
+| Bear Hunter's Camp
+| 猎熊人营地
+|-
+| Big Log Bridge
+| 巨木桥
+|-
+| Black Arts Burial Ground
+| 黑魔法坟地
+|-
+| Bloodied Box: Sleeping Tree Camp
+| 沉睡之树营地染血宝箱
+|-
+| Bloodied Grove
+| 血痕树林（灰烬魔伏击）
+|-
+| Bloodskal Copse
+| 血吟石冢树林
+|-
+| Border Corner Shrine
+| 交界地玛拉祭坛
+|-
+| Bridge at Old Hroldan
+| 古赫洛登桥
+|-
+| Brush Strongbox: Riverside
+| 河畔灌木丛宝箱
+|-
+| Burning Caravan: Evergreen Grove
+| 常青树林烧焦的商队
+|-
+| Burning Farmhouse
+| 焚毁的农舍
+|-
+| Chest and Gold
+| 宝箱与金币
+|-
+| Chest and Satchel
+| 宝箱与帆布包
+|-
+| Clam Digger's Camp
+| 挖蛤者营地
+|-
+| Collapsed Burial Ground
+| 坍塌的墓地
+|-
+| Cradle Stone Crag
+| 摇篮石峭壁
+|-
+| Cradlecrush Pond
+| 破碎摇篮池塘
+|-
+| Cronvangr Summoning Altar
+| 克隆万格召唤祭坛
+|-
+| Crumbling Bastion
+| 崩塌堡垒泽尼萨尔祭坛
+|-
+| Dark Elf's Grave
+| 暗精灵之墓
+|-
+| Darkwater Overhang
+| 黑水巢穴
+|-
+| Darkwater Stash
+| 黑水藏货点
+|-
+| Dawnstar Frost Troll Den
+| 晨星城冰霜巨魔巢穴
+|-
+| Dead Mammoth
+| 死去的猛犸
+|-
+| Dead Man's Treasure
+| 亡者的宝藏
+|-
+| Desolate Hunter's Camp
+| 荒凉猎人营地（掠夺者的末路）
+|-
+| Dragon Mound: Frozen Shoals
+| 冰封浅滩龙冢
+|-
+| Dragon Mound: Temple Foothills
+| 神殿山麓龙冢（伊斯因菲尔龙冢）
+|-
+| Draugr Burial Mound
+| 诺德尸鬼古坟
+|-
+| Driftwood Isle
+| 浮木岛
+|-
+| Dunmeri Camp
+| 暗精灵营地
+|-
+| Dwarven Arch: Harmugstahl Falls
+| 汉蒙斯托尔瀑布锻莫拱门
+|-
+| Dwarven Monument: Mount Anthor Summit
+| 安索尔山峰顶锻莫纪念碑
+|-
+| Dwarven Rubble: Druadach
+| 卓德克锻莫废墟
+|-
+| Dwarven Rubble: Karth River Confluence
+| 卡斯河交汇处锻莫废墟
+|-
+| Dwarven Rubble: Salvius Farm Trail
+| 萨尔乌斯农场小径锻莫废墟
+|-
+| Dwarven Ruins: Lair of the Wispmother
+| 幽魂之母锻莫遗迹
+|-
+| Eldergleam Sanctuary Treasure Crate
+| 古藤圣所珍宝箱
+|-
+| Fallowstone
+| 法罗石泽尼萨尔祭坛
+|-
+| Fetid Pond
+| 腐臭池塘
+|-
+| Fisherman's Camp: Lake Ilinalta
+| 伊琳娜塔湖渔夫营地
+|-
+| Fisherman's Camp: Slaughterfish Bay
+| 食人鱼湾渔夫营地
+|-
+| Fisherman's Island: Lake Ilinalta
+| 伊琳娜塔湖渔夫岛
+|-
+| Forgotten Spoils
+| 被遗忘的战利品
+|-
+| Forsworn Ambush Camp
+| 弃誓者伏击营地
+|-
+| Forsworn Camp: Bthardamz Outskirts
+| 布塔丹兹郊外弃誓者营地
+|-
+| Forsworn Camp: Gloomreach Pathway
+| 阴郁河段小径弃誓者营地
+|-
+| Forsworn Camp: Reachwater River
+| 触水岩弃誓者营地
+|-
+| Four Skull Lookout
+| 四颅哨塔
+|-
+| Froki's Peak
+| 弗洛基峰顶
+|-
+| Frost Troll Den: Jerall Mountain Ridge
+| 杰拉尔山脉山脊巨魔巢穴
+|-
+| Frost Troll Den: Uttering Hills
+| 出言山冰霜巨魔巢穴
+|-
+| Frozen Mammoth
+| 冰封的猛犸
+|-
+| Ghost Barrow
+| 幽灵古坟
+|-
+| Giant Nirnroot Island
+| 巨型奈恩根岛
+|-
+| Gold Miners' Floodgate
+| 金矿工人水闸（乌夏的营地）
+|-
+| Haafingar Nordic Burial Ruins
+| 海芬加领诺德古墓
+|-
+| Haafingar Sabre Cat's Lair
+| 海芬加领剑齿虎巢穴
+|-
+| Hagraven Camp: Ragnvald Scree
+| 拉根沃德碎石坡鬼婆营地
+|-
+| Hamvir’s Summit Hunter's Camp
+| 汉姆威尔高地猎人营地
+|-
+| Haul of the Horkers
+| 海象的收获
+|-
+| Hjaalmarch Hills
+| 希雅陲凯娜瑞丝祭坛
+|-
+| Horker Iceberg
+| 海象冰岩（海象魔冰岛）
+|-
+| Horker Standing Stones
+| 海象立石
+|-
+| Howling Wolf's Folly
+| 嚎狼废塔
+|-
+| Hrodulf's Last Stand
+| 贺多夫的最后抵抗
+|-
+| Hunter and Hunted
+| 猎手与猎物
+|-
+| Hunters' Camp: Autumnshade Hills
+| 秋影山丘猎人营地
+|-
+| Hunter's Camp: Dunmeth Pass
+| 丹莫斯山隘猎人营地
+|-
+| Hunter's Camp: Glacier's Edge
+| 冰川边缘猎人营地
+|-
+| Hunter's Camp: Sea Shore of Ghosts
+| 幽灵海岸猎人营地
+|-
+| Hunters' Camp: Slopes of Kagrenzel
+| 卡格雷泽尔山坡猎人营地
+|-
+| Hunters' Camp: Steamcrag Slopes
+| 雾崖山坡猎人营地
+|-
+| Hunter's Camp: Sulphur Soaking Pools
+| 硫磺温泉池猎人营地
+|-
+| Hunter's Camp: Sunderstone Gorge
+| 萨恩德石峡谷猎人营地
+|-
+| Hunter's Camp: The Guardian Stones
+| 守护之石湖畔营地
+|-
+| Hunter's Camp: Windhelm Plateau
+| 风舵城高地猎人营地
+|-
+| Hunter's Last Stand: Sea Shore of Ghosts
+| 幽灵海岸猎人的最后一战
+|-
+| Hunter's Overlook: Fellhammer Wastes
+| 铸锤荒原猎人瞭望点
+|-
+| Ice Shard Wild Animal Den
+| 冰屑野兽巢穴
+|-
+| Ilas-Tei's Last Stand
+| 伊尔拉斯-泰的最后一战
+|-
+| Ilinalta Foothills
+| 伊琳娜塔山麓塔洛斯祭坛
+|-
+| Ill-Gotten Gains: Sea Shore of Ghosts
+| 幽灵海岸的不义之财
+|-
+| Impact Crater
+| 撞击坑
+|-
+| Impact Crater (Tel Mithryn)
+| 泰尔密希临撞击坑
+|-
+| Isle of Basalt
+| 玄武岩岛
+|-
+| Julianos's Fallen
+| 掉落在地的尤里安诺斯祭坛
+|-
+| Juniper Tree Ruins
+| 杜松子树遗迹
+|-
+| Karth River Henge
+| 卡斯河石阵
+|-
+| Khajiit Caravan Massacre
+| 卡吉特商队惨案
+|-
+| King of the Mudcrabs
+| 泥蟹之王
+|-
+| Lost Treasure: Purewater Run
+| 纯水奔流遗落的宝藏
+|-
+| Lovers' Camp
+| 情侣营地
+|-
+| Lucky Lorenz's Shack
+| 幸运洛伦茨的木屋
+|-
+| Lurker Ambush (Ashfallow Dunes)
+| 烬休沙丘潜伏者伏击
+|-
+| Lurker Ambush (Tel Mithryn Peninsula)
+| 泰尔密希临半岛潜伏者伏击
+|-
+| Lurker Ambush (Tidal Pool)
+| 潜伏者伏击（潮汐池）
+|-
+| Mammoth Graveyard
+| 猛犸坟地
+|-
+| Mara's Eye Stones
+| 玛拉之眼石阵
+|-
+| Miner Immolation
+| 矿工焚身惨案（矿工的末路）
+|-
+| Mistwatch Folly
+| 迷雾塔楼废墟
+|-
+| Mudcrab Tidal Pools
+| 泥沼蟹潮汐池
+|-
+| Necromancer's Bluff
+| 死灵法师悬崖
+|-
+| Nordic Burial Grove
+| 诺德坟地
+|-
+| Northwind Chest
+| 北风山宝箱
+|-
+| Pincushion Peter
+| 刺猬哥
+|-
+| Pinemoon Bear Lair
+| 松木月亮山洞熊穴
+|-
+| Prospector's Shack: Bonechill Ridge
+| 寒骨山脊勘探者木屋
+|-
+| Puzzling Pillar Ruins
+| 谜柱遗迹
+|-
+| Reachman's Altar: Red Eagle Redoubt
+| 红鹰据点瑞驰祭坛
+|-
+| Reachwind Burial Mound
+| 临风古墓
+|-
+| Reavers' Folly
+| 掠夺者的荒唐事（灰烬跳虫岛）
+|-
+| Riekling Barrel Hoard
+| 蓝客灵木桶宝藏堆（蓝客灵伏击）
+|-
+| Riekling Chest
+| 蓝客灵宝箱（随机宝箱）
+|-
+| Riekling Outpost Island
+| 蓝客灵前哨岛（蓝客灵岛）
+|-
+| Ring of Boulders
+| 巨石环
+|-
+| River Rapids Treasure Chest
+| 急流宝箱
+|-
+| Riverside Bandit Camp
+| 河畔强盗营地
+|-
+| Riverwood Folly
+| 河木镇废塔
+|-
+| Rorikstead
+| 洛利克镇阿卡托什祭坛
+|-
+| Ruined Toll and Wispmother's Well
+| 废弃税关与幽魂之母水井
+|-
+| Rundi's Mistake
+| 伦迪的失误
+|-
+| Sabre Cat Ravine
+| 剑齿虎峡谷
+|-
+| Sabre Cat Rock
+| 剑齿虎岩
+|-
+| Sacrificial Altar: Evergreen Woods
+| 常青树林死灵祭坛
+|-
+| Sea of Ghosts
+| 幽灵海塔洛斯祭坛
+|-
+| Shoreline Bandit Camp
+| 崖下强盗营地
+|-
+| Shoreline Lovers' Tent
+| 海岸情侣营地
+|-
+| Single Hunter Camp
+| 孤独猎人营地
+|-
+| Smuggler's Alcove
+| 走私者石窟
+|-
+| Smuggler's Den: Whiterun
+| 白漫城走私者巢穴
+|-
+| Solstheim Shrine
+| 索瑟海姆祭坛
+|-
+| Spider Nest (Kagrumez)
+| 卡谷梅兹蜘蛛巢
+|-
+| Spider Nest (Logs)
+| 原木蜘蛛巢
+|-
+| Spiky Grass Island
+| 尖刺草小岛
+|-
+| Spriggan Grove
+| 树精树林
+|-
+| Steamcrag Hillock
+| 雾崖丘阿卡托什祭坛
+|-
+| Summoning Stones
+| 召唤石阵
+|-
+| Sunken Barrow: Lake Ilinalta
+| 伊琳娜塔湖底遗迹
+|-
+| Sunken Fishing Boat: Lake Ilinalta
+| 伊琳娜塔湖底渔船
+|-
+| Sunken Treasures
+| 沉没的宝藏
+|-
+| Swallowed Skeleton: Greymoor Foothills
+| 灰色荒原山麓被吞的骷髅
+|-
+| Swamp Pond Massacre
+| 沼泽池塘惨案
+|-
+| The Bloodied Bandit
+| 染血的强盗
+|-
+| The Conjurer's Altar: Lake Ilinalta
+| 伊琳娜塔湖岸召唤祭坛
+|-
+| The Conjurer's Caravan
+| 召唤师商队
+|-
+| The Ever-Anchored Ship
+| 永锚之船
+|-
+| The Expired Alchemist
+| 殒命的炼金师
+|-
+| The Exposed Miner
+| 曝尸的矿工
+|-
+| The Fisherman's Haul
+| 渔夫的收获（钓鱼营地）
+|-
+| The Headless Skeleton
+| 无头骷髅
+|-
+| The Iceberg Explorer
+| 冰山探索者
+|-
+| The Incautious Bather
+| 轻率的沐浴者
+|-
+| The Indigestible Emerald
+| 难咽的宝石
+|-
+| The Lady of the Lake
+| 湖中女士
+|-
+| The Mauled Refugees
+| 惨死的难民
+|-
+| The Miner's Lament
+| 矿工的悲歌
+|-
+| The Mournful Giant
+| 悲恸的巨人
+|-
+| The Poultry Reanimator: Lake Geir
+| 格尔湖家禽复活师
+|-
+| The Silvermoon: Lake Ilinalta
+| 伊琳娜塔湖银月号沉船
+|-
+| The Skeleton's Strong Box: Greymoor
+| 灰色荒原骷髅的宝箱
+|-
+| The Three Sentinels
+| 三哨兵塔
+|-
+| The Two Pillars
+| 双石柱
+|-
+| Toadstool Ring: Bilegulch Ridge
+| 胆汁峡谷山脊蘑菇环
+|-
+| Toppled Tower: Knifepoint Woods
+| 刀尖森林倾颓塔楼
+|-
+| Totem to the Dragon
+| 巨龙图腾
+|-
+| Trapped for Eternity
+| 永恒的陷阱
+|-
+| Trappers' Dilemma
+| 猎人的困境
+|-
+| Treasure Hunter's Camp: Lake Geir
+| 格尔湖寻宝者营地
+|-
+| Trius' Camp
+| 崔尤斯的营地
+|-
+| Troll Den: Rkund
+| 鲁肯德巨魔巢穴
+|-
+| Tumbledown Tower: Riften Outskirts
+| 裂谷城郊外倾颓塔楼
+|-
+| Twilight Valley
+| 暮光山谷阿卡托什祭坛
+|-
+| Two Pine Ridge
+| 双松岭
+|-
+| Watcher of Windhelm
+| 守望风舵
+|-
+| Watching Dawnstar
+| 守望晨星
+|-
+| Waterfall and Grazing Netch
+| 瀑布与食草气母
+|-
+| Wayward Peak Summit
+| 迷途峰顶
+|-
+| Wet Bones
+| 湿骨
+|-
+| White Cap Circle
+| 黄昏坟墓蘑菇环
+|-
+| White River Cape's chest
+| 白河岬角宝箱
+|-
+| White River Valley
+| 白河峡谷塔洛斯祭坛
+|-
+| Whiterun's NE Stone Pillar
+| 白漫城东北石柱
+|-
+| Wild Animal Den: Crystaldrift Cave
+| 浮晶洞野兽巢穴
+|-
+| Wild Animal Den: Dunmeth Pass
+| 丹莫斯山隘野兽巢穴
+|-
+| Wild Animal Den: Mistwatch
+| 迷雾塔楼野兽巢穴
+|-
+| Wild Animal Den: Orphan Rock
+| 孤儿岩野兽巢穴
+|-
+| Wild Animal Den: Pinewatch Outcropping
+| 松木哨塔崖下野兽巢穴
+|-
+| Wild Animal Den: Shor's Stone
+| 朔尔之石野兽巢穴
+|-
+| Wilderness Shrine of Kynareth
+| 野外凯娜瑞丝祭坛
+|-
+| Windhelm Hills
+| 风舵山丘
+|-
+| Winterhold Glaciers
+| 冬堡冰川塔洛斯祭坛
+|-
+| Wispmother's Crevasse
+| 幽魂之母峡谷
+|-
+| Witchmist Sulphur Pool
+| 女巫迷雾硫磺池
+|-
+| Wolf Den: Fellhammer Wastes
+| 铸锤荒原狼穴
+|-
+| Wood Cutter's Camp: Lake Geir
+| 格尔湖伐木营地
+|-
+| Yisra's Beachside Combustion
+| 伊斯拉的海岸焚身惨案
+|-
+| Yorgrim Forest Spider Trap
+| 约格利姆森林蜘蛛陷阱
+|}
+说明：
+* Folly 一般含义是荒唐事、愚行，但在建筑领域是专指装饰性的仿古塔楼建筑，游戏中多次出现这个词，翻译为废塔。
+* Pincushion Peter 是梭默大使馆附近一具骷髅，它身上插着至少五种武器。英文原意也是一个比喻，Pincushion是指针垫，Peter是常见人名，意思是被插得仿佛针垫一样的无名氏，这里按照中文常用比喻，称为“刺猬哥”。

@@ -1,0 +1,631 @@
+<noinclude>{{Trail|Magic|Spells}}
+This page lists '''[[Oblivion:Spells|Spells]]''' in the school of '''[[Oblivion:Illusion|Illusion]]'''.
+
+</noinclude>{| class=wikitable sortable
+
+|- {{ILL}}
+
+!width=1% class="unsortable"| 
+!width=14%| Spell Name
+!width=5%|[[Oblivion:Form ID|Form ID]]s
+!width=30% class="unsortable"| Effect Details 
+!width=5%|[[File:OBMagickaCostIcon small.png|Magicka Spell Cost|link=Oblivion:Magicka]]
+!width=30% class="unsortable"| How to Obtain
+
+|- {{ILL}}
+|colspan=6|<center>'''Novice'''</center>
+|-
+
+{{OB Spell
+|name=Alluring Gaze
+|icon=Charm
+|spellid=000A97AC
+|tomeid=xx084AEF
+|magicka=21
+|desc=:{{Effect Link|Charm}} 12 pts for 30 secs on Target
+|where=* Can be purchased from: [[Oblivion:Delphine Jend|Delphine Jend]]
+}}
+
+
+{{OB Spell
+|name=Beguiling Touch
+|icon=Charm
+|spellid=000A97AE
+|tomeid=xx0022A4
+|magicka=14
+|desc=:{{Effect Link|Charm}} 12 pts for 30 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Delphine Jend|Delphine Jend]], [[Oblivion:Selena Orania|Selena Orania]]
+}}
+
+{{OB Spell
+|name=Captivate
+|icon=Charm
+|spellid=0001C4AD
+|tomeid=None
+|magicka={{FC|red|'''18'''}} ([[#Spell Notes|3*]])
+|desc=:{{Effect Link|Charm}} 10 pts for 10 secs on Touch
+|where=* Reward for [[Oblivion:Bravil Recommendation|Bravil Recommendation]] quest.
+}}
+
+{{OB Spell
+|name=Chameleon
+|icon=Chameleon
+|spellid=0005DCC0
+|tomeid=xx00229D
+|magicka=14
+|desc=:{{Effect Link|Chameleon}} 10% for 12 secs on Self
+|where=* {{FC|red|Not available in game}}
+}}
+
+{{OB Spell
+|name=Frenzy
+|icon=Frenzy
+|spellid=000A9819
+|tomeid=xx0022EE
+|magicka=8
+|desc=:Affects humanoids up to level 5:<br>
+:{{Effect Link|Frenzy}} 20 pts for 30 secs on Target
+|where=* Can be purchased from: [[Oblivion:Delphine Jend|Delphine Jend]]
+}}
+
+{{OB Spell
+|name=Illuminate
+|icon=Light
+|spellid=000A319D
+|tomeid=xx002306
+|magicka=13
+|desc=:{{Effect Link|Light}} in 10 ft for 90 secs on Target
+|where=* Can be purchased from: [[Oblivion:Delphine Jend|Delphine Jend]]
+}}
+
+{{OB Spell
+|name=Inspiration
+|icon=Rally
+|spellid=000AA032
+|tomeid=xx002310
+|magicka=5
+|desc=:{{Effect Link|Rally}} 25 pts for 20 secs on Target
+|where=* Can be purchased from: [[Oblivion:Delphine Jend|Delphine Jend]]
+}}
+
+{{OB Spell
+|name=Inspiring Touch
+|icon=Rally
+|spellid=000AA033
+|tomeid=xx089900
+|magicka=5
+|desc=:{{Effect Link|Rally}} 25 pts for 30 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Delphine Jend|Delphine Jend]]
+}}
+
+{{OB Spell
+|name=Minor Invisibility
+|icon=Invisibility
+|spellid=0005DCC1
+|tomeid=None
+|magicka=24
+|desc=:{{Effect Link|Invisibility}} for 6 secs on Self
+|where=* {{FC|red|Not available in game}}
+}}
+
+{{OB Spell
+|name=Serenity
+|icon=Calm
+|spellid=000A97C6
+|tomeid=xx002299
+|magicka=13
+|desc=:Affects humanoids and creatures up to level 2:
+:{{Effect Link|Calm}} 10 pts for 30 secs on Target
+|where=* Can be purchased from: [[Oblivion:Delphine Jend|Delphine Jend]], [[Oblivion:Ohtesse|Ohtesse]]
+}}
+
+{{OB Spell
+|name=Soothing Touch
+|icon=Calm
+|spellid=000A97C9
+|tomeid=xx00229B
+|magicka=13
+|desc=:Affects humanoids and creatures up to level 2:
+:{{Effect Link|Calm}} 10 pts for 15 secs on Touch
+|where=* Players with [[Oblivion:Illusion|Illusion]] as a [[Oblivion:Skills|major skill]] start with this spell
+* Can be purchased from: [[Oblivion:Delphine Jend|Delphine Jend]]
+}}
+
+{{OB Spell
+|name=Starlight
+|icon=Light
+|spellid=000A9825
+|tomeid=xx002302
+|magicka=14
+|desc=:{{Effect Link|Light}} in 20 ft for 60 secs on Self
+|where=* Players with [[Oblivion:Illusion|Illusion]] as a [[Oblivion:Skills|major skill]] start with this spell
+* Can be purchased from: [[Oblivion:Delphine Jend|Delphine Jend]], [[Oblivion:Calindil|Calindil]], [[Oblivion:Edgar Vautrine|Edgar Vautrine]], [[Oblivion:Ungarion|Ungarion]]
+}}
+
+{{OB Spell
+|name=Touch of Frenzy
+|icon=Frenzy
+|spellid=000A981B
+|tomeid=xx0022F0
+|magicka=7
+|desc=:Affects humanoids up to level 6:
+:{{Effect Link|Frenzy}} 25 pts for 30 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Delphine Jend|Delphine Jend]]
+}}
+
+|- {{ILL}}
+|colspan=6|<center>'''Apprentice'''</center>
+|-
+
+{{OB Spell
+|name=Command Creature
+|icon=Command
+|spellid=000A97CE
+|tomeid=xx0022A6
+|magicka=38
+|desc=:Affects creatures up to level 2:
+:{{Effect Link|Command Creature}} 8 pts for 30 secs on Target
+|where=* Can be purchased from: [[Oblivion:Alberic Litte|Alberic Litte]]
+}}
+
+{{OB Spell
+|name=Command Humanoid
+|icon=Command
+|spellid=0003C3F8
+|tomeid=xx0022A8
+|magicka=48
+|desc=:Affects humanoids up to level 2:
+:{{Effect Link|Command Humanoid}} 8 pts for 30 secs on Target
+|where=* Can be purchased from: [[Oblivion:Alberic Litte|Alberic Litte]]
+}}
+
+{{OB Spell
+|name=Commanding Touch
+|icon=Command
+|spellid=000A97D0
+|tomeid=xx0022AA
+|magicka=43
+|desc=:Affects creatures up to level 3:
+:{{Effect Link|Command Creature}} 12 pts for 30 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Alberic Litte|Alberic Litte]]
+}}
+
+{{OB Spell
+|name=Eyes of Eventide
+|icon=Nighteye
+|spellid=000A982F
+|tomeid=xx002307
+|magicka=33
+|desc=:{{Effect Link|Night-Eye}} for 15 secs on Self
+|where=* Can be purchased from: [[Oblivion:Calindil|Calindil]], [[Oblivion:Delphine Jend|Delphine Jend]], [[Oblivion:Ungarion|Ungarion]]
+}}
+
+{{OB Spell
+|name=Heroic Touch
+|icon=Rally
+|spellid=000AA035
+|tomeid=xx089901
+|magicka=26
+|desc=:{{Effect Link|Rally}} 50 pts for 60 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Delphine Jend|Delphine Jend]], [[Oblivion:Volanaro|Volanaro]]
+}}
+
+{{OB Spell
+|name=Heroism
+|icon=Rally
+|spellid=000AA034
+|tomeid=xx002311
+|magicka=30
+|desc=:{{Effect Link|Rally}} 50 pts for 45 secs on Target
+|where=* Can be purchased from: [[Oblivion:Aurelinwae|Aurelinwae]], [[Oblivion:Delphine Jend|Delphine Jend]]
+}}
+
+{{OB Spell
+|name=Mesmerizing Grasp
+|icon=Charm
+|spellid=000A97AF
+|tomeid=xx0022A5
+|magicka=35
+|desc=:{{Effect Link|Charm}} 24 pts for 30 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Delphine Jend|Delphine Jend]]
+}}
+
+{{OB Spell
+|name=Moonlight
+|icon=Light
+|spellid=000A9826
+|tomeid=xx002303
+|magicka=47
+|desc=:{{Effect Link|Light}} 30 ft for 120 secs on Self
+|where=* Can be purchased from: [[Oblivion:Delphine Jend|Delphine Jend]]
+}}
+
+{{OB Spell
+|name=Pacification
+|icon=Calm
+|spellid=000A97C7
+|tomeid=xx00229A
+|magicka=26
+|desc=:Affects humanoids and creatures up to level 2:
+:{{Effect Link|Calm}} 10 pts for 20 secs on Target
+|where=* Can be purchased from: [[Oblivion:Delphine Jend|Delphine Jend]]
+}}
+
+{{OB Spell
+|name=Rage
+|icon=Frenzy
+|spellid=000A981A
+|tomeid=xx0022EF
+|magicka=26
+|desc=:Affects humanoids up to level 10:
+:{{Effect Link|Frenzy}} 40 pts for 40 secs on Target
+|where=* Can be purchased from: [[Oblivion:Delphine Jend|Delphine Jend]]
+}}
+
+{{OB Spell
+|name=Seductive Charm
+|icon=Charm
+|spellid=000A97AD
+|tomeid=xx0022A2
+|magicka=52
+|desc=:{{Effect Link|Charm}} 24 pts for 30 secs on Target
+|where=* Can be purchased from: [[Oblivion:Delphine Jend|Delphine Jend]], [[Oblivion:Orag gra-Bargol|Orag gra-Bargol]]
+}}
+
+{{OB Spell
+|name=Touch of Fear
+|icon=Demoralize
+|spellid=000A97D7
+|tomeid=xx0022B7
+|magicka=31
+|desc=:Affects living humanoids and creatures up to level 3:
+:{{Effect Link|Demoralize}} 15 pts for 20 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Delphine Jend|Delphine Jend]]
+}}
+
+{{OB Spell
+|name=Touch of Rage
+|icon=Frenzy
+|spellid=000A981C
+|tomeid=xx0022F1
+|magicka=30
+|desc=:Affects humanoids up to level 18:
+:{{Effect Link|Frenzy}} 75 pts for 30 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Calindil|Calindil]], [[Oblivion:Delphine Jend|Delphine Jend]]
+}}
+
+{{OB Spell
+|name=Void Gazer
+|icon=Nighteye
+|spellid=0006D67B
+|tomeid=None
+|magicka={{FC|green|'''54'''}} ([[#Spell Notes|330*]])
+|desc=:{{Effect Link|Night-Eye}} for 150 secs on Self
+|where=* Can be purchased from: [[Oblivion:M'raaj-Dar|M'raaj-Dar]]
+}}
+
+|- {{ILL}}
+|colspan=6|<center>'''Journeyman'''</center>
+|-
+
+{{OB Spell
+|name=Calming Touch
+|icon=Calm
+|spellid=000A97CA
+|tomeid=xx00229C
+|magicka=73
+|desc=:Affects humanoids and creatures up to level 7:
+:{{Effect Link|Calm}} 30 pts for 20 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Aurelinwae|Aurelinwae]], [[Oblivion:Delphine Jend|Delphine Jend]]
+}}
+
+{{OB Spell
+|name=Candlelight
+|icon=Light
+|spellid=000A9827
+|tomeid=xx002304
+|magicka=103
+|desc=:{{Effect Link|Light}} in 40 ft for 180 secs on Self
+|where=* Can be purchased from: [[Oblivion:Aurelinwae|Aurelinwae]], [[Oblivion:Ita Rienus|Ita Rienus]]
+}}
+
+{{OB Spell
+|name=Chameleon
+|icon=Chameleon
+|spellid=000A97CB
+|tomeid=xx00229D
+|magicka=116
+|desc=:{{Effect Link|Chameleon}} 25% for 30 secs on Self
+|where=* Can be purchased from: [[Oblivion:Ita Rienus|Ita Rienus]]
+}}
+
+{{OB Spell
+|name=Deathly Visage
+|icon=Invisibility
+|spellid=0006D681
+|tomeid=None
+|magicka={{FC|green|'''112'''}} ([[#Spell Notes|140*]])
+|desc=:{{Effect Link|Invisibility}} for 35 secs on Self
+|where=* Can be purchased from: [[Oblivion:M'raaj-Dar|M'raaj-Dar]]
+}}
+
+{{OB Spell
+|name=Debilitate
+|icon=Paralyze
+|spellid=000A9838
+|tomeid=xx00230D
+|magicka=142
+|desc=:{{Effect Link|Paralyze}} for 3 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Aurelinwae|Aurelinwae]], [[Oblivion:Ita Rienus|Ita Rienus]]
+}}
+
+{{OB Spell
+|name=Dominating Touch
+|icon=Command
+|spellid=000A97D1
+|tomeid=xx0022AB
+|magicka=105
+|desc=:Affects creatures up to level 6:
+:{{Effect Link|Command Creature}} for 30 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Athragar|Athragar]], [[Oblivion:Borissean|Borissean]]
+}}
+
+{{OB Spell
+|name=Enthralling Presence
+|icon=Charm
+|spellid=000A97FF
+|tomeid=xx0022A0
+|magicka=105
+|desc=:{{Effect Link|Charm}} 24 pts in 20 ft for 20 secs on Target
+|where=* Can be purchased from: [[Oblivion:Delphine Jend|Delphine Jend]], [[Oblivion:Volanaro|Volanaro]]
+}}
+
+{{OB Spell
+|name=Eyes of Midnight
+|icon=Nighteye
+|spellid=000A9830
+|tomeid=xx002308
+|magicka=66
+|desc=:{{Effect Link|Night-Eye}} for 30 secs on Self
+|where=* Can be purchased from: [[Oblivion:Aurelinwae|Aurelinwae]], [[Oblivion:Ita Rienus|Ita Rienus]]
+}}
+
+{{OB Spell
+|name=Hush
+|icon=Silence
+|spellid=00027441
+|tomeid=xx002337
+|magicka=90
+|desc=:{{Effect Link|Silence}} for 10 secs on Target
+|where=* Can be purchased from: [[Oblivion:Ita Rienus|Ita Rienus]]
+}}
+
+{{OB Spell
+|name=Shadow Shape
+|icon=Invisibility
+|spellid=000A97BE
+|tomeid=xx0022FF
+|magicka=120
+|desc=:{{Effect Link|Invisibility}} for 30 secs on Self
+|where=* Can be purchased from: [[Oblivion:Ita Rienus|Ita Rienus]]
+}}
+
+{{OB Spell
+|name=Shroudwalk
+|icon=Chameleon
+|spellid=0006D678
+|tomeid=None
+|magicka={{FC|red|'''98'''}} ([[#Spell Notes|60*]])
+|desc=:{{Effect Link|Chameleon}} 15% for 30 secs on Self
+|where=* Can be purchased from: [[Oblivion:M'raaj-Dar|M'raaj-Dar]]
+}}
+
+{{OB Spell
+|name=Voice of Dread
+|icon=Demoralize
+|spellid=000A97D5
+|tomeid=xx0022B4
+|magicka=68
+|desc=:Affects living humanoids and creatures up to level 5:
+:{{Effect Link|Demoralize}} 20 pts for 20 secs on Target
+|where=* Can be purchased from: [[Oblivion:Ita Rienus|Ita Rienus]]
+}}
+
+{{OB Spell
+|name=Voice of Rapture
+|icon=Charm
+|spellid=000A97B0
+|tomeid=xx0022A3
+|magicka=88
+|desc=:{{Effect Link|Charm}} 36 pts for 30 secs on Target
+|where=* Can be purchased from: [[Oblivion:Aurelinwae|Aurelinwae]], [[Oblivion:Ita Rienus|Ita Rienus]]
+}}
+
+|- {{ILL}}
+|colspan=6|<center>'''Expert'''</center>
+|-
+
+{{OB Spell
+|name=Black Winter
+|icon=Paralyze
+|spellid=0006D67D
+|tomeid=None
+|magicka={{FC|red|'''200'''}} ([[#Spell Notes|193*]])
+|desc=:{{Effect Link|Paralyze}} for 2 secs on Target<br>{{Effect Link|Frost Damage}} 20 pts on Target
+|where=* Can be purchased from: [[Oblivion:M'raaj-Dar|M'raaj-Dar]], [[Oblivion:Dark Brotherhood Murderer#Mage|Dark Brotherhood Murderer#Mage]]
+}}
+
+{{OB Spell
+|name=Dominate Creature
+|icon=Command
+|spellid=000A97CF
+|tomeid=xx0022A7
+|magicka=265
+|desc=:Affects creatures up to level 9:
+:{{Effect Link|Command Creature}} 36 pts for 30 secs on Target
+|where=* Can be purchased from: [[Oblivion:Athragar|Athragar]], [[Oblivion:Aurelinwae|Aurelinwae]]
+}}
+
+{{OB Spell
+|name=Dominate Humanoid
+|icon=Command
+|spellid=0003C3F9
+|tomeid=xx0022A9
+|magicka=331
+|desc=:Affects humanoids up to level 9:
+:{{Effect Link|Command Humanoid}} 36 pts for 30 secs on Target
+|where=* Can be purchased from: [[Oblivion:Athragar|Athragar]], [[Oblivion:Selena Orania|Selena Orania]]
+}}
+
+{{OB Spell
+|name=Fearful Gaze
+|icon=Demoralize
+|spellid=000A97D6
+|tomeid=xx0022B5
+|magicka=171
+|desc=:Affects living humanoids and creatures up to level 7:
+:{{Effect Link|Demoralize}} 30 pts for 30 secs on Target
+|where=* Can be purchased from: [[Oblivion:Ita Rienus|Ita Rienus]]
+}}
+
+{{OB Spell
+|name=Ghostwalk
+|icon=Invisibility
+|spellid=000A97BF
+|tomeid=xx002300
+|magicka=240
+|desc=:{{Effect Link|Invisibility}} for 60 secs on Self
+|where=* Can be purchased from: [[Oblivion:Ita Rienus|Ita Rienus]], [[Oblivion:Raminus Polus|Raminus Polus]]
+}}
+
+{{OB Spell
+|name=Immobilize
+|icon=Paralyze
+|spellid=000A9839
+|tomeid=xx00230E
+|magicka=332
+|desc=:{{Effect Link|Paralyze}} for 7 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Ita Rienus|Ita Rienus]], [[Oblivion:Raminus Polus|Raminus Polus]]
+}}
+
+{{OB Spell
+|name=Mute
+|icon=Silence
+|spellid=000AA04C
+|tomeid=xx002339
+|magicka=303
+|desc=:{{Effect Link|Silence}} in 15 ft for 15 secs on Target
+|where=* Can be purchased from: [[Oblivion:Ita Rienus|Ita Rienus]], [[Oblivion:Raminus Polus|Raminus Polus]]
+}}
+
+{{OB Spell
+|name=Shadow
+|icon=Chameleon
+|spellid=000A97CC
+|tomeid=xx00229E
+|magicka=282
+|desc=:{{Effect Link|Chameleon}} 50% for 30 secs on Self
+|where=* Can be purchased from: [[Oblivion:Gaspar Stegine|Gaspar Stegine]], [[Oblivion:Ita Rienus|Ita Rienus]]
+}}
+
+{{OB Spell
+|name=Torchlight
+|icon=Light
+|spellid=000A9828
+|tomeid=xx002305
+|magicka=183
+|desc=:{{Effect Link|Light}} in 50 ft for 240 secs on Self
+|where=* Can be purchased from: [[Oblivion:Ita Rienus|Ita Rienus]], [[Oblivion:Raminus Polus|Raminus Polus]]
+}}
+
+{{OB Spell
+|name=Will of Sithis
+|icon=Command
+|spellid=0006D679
+|tomeid=None
+|magicka={{FC|red|'''315'''}} ([[#Spell Notes|173*]])
+|desc=:Affects humanoids up to level 6:
+:{{Effect Link|Command Humanoid}} 25 pts for 25 secs on Target
+|where=* Can be purchased from: [[Oblivion:M'raaj-Dar|M'raaj-Dar]]
+}}
+
+
+|- {{ILL}}
+|colspan=6|<center>'''Master'''</center>
+|-
+
+{{OB Spell
+|name=Cloak
+|icon=Chameleon
+|spellid=000A97CD
+|tomeid=xx00229F
+|magicka=474
+|desc=:{{Effect Link|Chameleon}} 75% for 30 secs on Self
+|where=* Can be purchased from: [[Oblivion:Borissean|Borissean]]
+}}
+
+{{OB Spell
+|name=Daylight
+|icon=Light
+|spellid=000A9829
+|tomeid=None
+|magicka=462
+|desc=:{{Effect Link|Light}} in 60 ft for 480 secs on Self
+|where=* Can be purchased from: [[Oblivion:Gaspar Stegine|Gaspar Stegine]]
+}}
+
+{{OB Spell
+|name=Grasp of Terror
+|icon=Demoralize
+|spellid=000A97D8
+|tomeid=xx0022B8
+|magicka=401
+|desc=:Affects living humanoids and creatures up to level 20:
+:{{Effect Link|Demoralize}} 80 pts for 30 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Aurelinwae|Aurelinwae]], [[Oblivion:Ita Rienus|Ita Rienus]]
+}}
+
+{{OB Spell
+|name=Paralyze
+|icon=Paralyze
+|spellid=000A983A
+|tomeid=xx00230F
+|magicka=475
+|desc=:{{Effect Link|Paralyze}} for 10 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Aurelinwae|Aurelinwae]], [[Oblivion:Borissean|Borissean]]
+}}
+
+{{OB Spell
+|name=Silence
+|icon=Silence
+|spellid=000AA04D
+|tomeid=xx002338
+|magicka=405
+|desc=:{{Effect Link|Silence}} in 15 ft for 20 secs on Target
+|where=* Can be purchased from: [[Oblivion:Borissean|Borissean]], [[Oblivion:Gaspar Stegine|Gaspar Stegine]]
+}}
+
+{{OB Spell
+|name=Spectral Form
+|icon=Invisibility
+|spellid=000A97C0
+|tomeid=xx002301
+|magicka=480
+|desc=:{{Effect Link|Invisibility}} for 120 secs on Self
+|where=* Can be purchased from: [[Oblivion:Ita Rienus|Ita Rienus]]
+}}
+
+{{OB Spell
+|name=Terrifying Presence
+|icon=Demoralize
+|spellid=000A97D9
+|tomeid=xx0022B6
+|magicka=507
+|desc=:Affects living humanoids and creatures up to level 17:
+:{{Effect Link|Demoralize}} 70 pts for 30 secs on Target
+|where=* Can be purchased from: [[Oblivion:Raminus Polus|Raminus Polus]]
+}}
+
+|}
+<references /><noinclude>
+{{Oblivion:Spell List Notes}}</noinclude>

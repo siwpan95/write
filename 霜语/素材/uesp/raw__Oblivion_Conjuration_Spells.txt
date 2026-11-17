@@ -1,0 +1,407 @@
+<noinclude>{{Trail|Magic|Spells}}
+This page lists '''[[Oblivion:Spells|Spells]]''' in the school of '''[[Oblivion:Conjuration|Conjuration]]'''.
+
+</noinclude>{| class=wikitable width=100%
+|- {{CON}}
+!
+! Spell Name
+![[Oblivion:Form ID|Form ID]]s
+! Effect Details
+! [[File:OBMagickaCostIcon small.png|Magicka Spell Cost|link=Oblivion:Magicka]]
+! How to Obtain
+|- {{CON}}
+|colspan=6|<center>'''Novice'''</center>
+|-
+{{OB Spell
+|name=Bound Boots
+|icon=Boundarmor
+|spellid=000A97B4
+|tomeid=xx002289
+|magicka=24
+|desc=:{{Effect Link|Bound Boots}} for 20 secs on Self
+|where=* Can be purchased from: [[Oblivion:Alberic Litte|Alberic Litte]]
+}}
+{{OB Spell
+|name=Bound Dagger
+|icon=Boundweapon
+|spellid=000A97B7
+|tomeid=xx002291
+|magicka=21
+|desc=:{{Effect Link|Bound Dagger}} for 15 secs on Self
+|where=* Can be purchased from: [[Oblivion:Alberic Litte|Alberic Litte]], [[Oblivion:Edgar Vautrine|Edgar Vautrine]]
+}}
+{{OB Spell
+|name=Bound Gauntlets
+|icon=Boundarmor
+|spellid=000A97B8
+|tomeid=xx00228B
+|magicka=16
+|desc=:{{Effect Link|Bound Gauntlets}} for 20 secs on Self
+|where=* Can be purchased from: [[Oblivion:Alberic Litte|Alberic Litte]]
+}}
+{{OB Spell
+|name=Bound Helmet
+|icon=Boundarmor
+|spellid=000A97BA
+|tomeid=xx00228D
+|magicka=24
+|desc=:{{Effect Link|Bound Helmet}} for 20 secs on Self
+|where=* Can be purchased from: [[Oblivion:Alberic Litte|Alberic Litte]], [[Oblivion:Calindil|Calindil]]
+}}
+{{OB Spell
+|name=Minor Bound Armor
+|icon=Boundarmor
+|spellid=000C7625
+|tomeid=xx002285
+|magicka=24
+|desc=:{{Effect Link|Bound Cuirass}} for 20 secs on Self
+|where=* Can be learned from ''[[Oblivion:Spell Tomes#Existing Spells|Minor Bound Armor Tome]]''<br>
+* Not available without [[Oblivion:Spell Tomes|Spell Tomes]] [[Oblivion:Downloads|download]]
+}}
+{{OB Spell
+|name=Turn Undead
+|icon=Turnundead
+|spellid=000AA068
+|tomeid=xx00283D
+|magicka=11
+|desc=:Affects [[Oblivion:Undead|undead]] up to level 3:<br>
+:{{Effect Link|Turn Undead}} 15 pts for 30 secs on Target
+|where=* Players with [[Oblivion:Conjuration|Conjuration]] as a [[Oblivion:Skills|major skill]] start with this spell
+* Can be purchased from [[Oblivion:Alberic Litte|Alberic Litte]], [[Oblivion:Selene Duronia|Selene Duronia]]{{KotN}}, [[Oblivion:Trevaia|Trevaia]]{{Intnote|2}}, [[Oblivion:Tumindil|Tumindil]], [[Oblivion:Ungarion|Ungarion]]
+}}
+|- {{CON}}
+|colspan=6|<center>'''Apprentice'''</center>
+|-
+{{OB Spell
+|name=Bound Greaves
+|icon=Boundarmor
+|spellid=000A97B9
+|tomeid=xx00228C
+|magicka=54
+|desc=:{{Effect Link|Bound Greaves}} for 45 secs on Self
+|where=* Can be purchased from [[Oblivion:Alberic Litte|Alberic Litte]]
+}}
+{{OB Spell
+|name=Bound War Axe
+|icon=Boundweapon
+|spellid=000A97B3
+|tomeid=xx00228F
+|magicka=58
+|desc=:{{Effect Link|Bound Axe}} for 15 secs on Self
+|where=* Can be purchased from [[Oblivion:Alberic Litte|Alberic Litte]]
+}}
+{{OB Spell
+|name=Major Bound Armor
+|icon=Boundarmor
+|spellid=000C7626
+|tomeid=xx002286
+|magicka=60
+|desc=:{{Effect Link|Bound Cuirass}} for 30 secs on Self<br>
+:{{Effect Link|Bound Gauntlets}} for 30 secs on Self
+|where=* Can be learned from ''[[Oblivion:Spell Tomes#Existing Spells|Major Bound Armor Tome]]''<br>
+* Not available without [[Oblivion:Spell Tomes|Spell Tomes]] [[Oblivion:Downloads|download]]
+}}
+{{OB Spell
+|name=Reanimate
+|icon=Turnundead
+|spellid=0004A98B
+|tomeid=None
+|magicka=45
+|desc=:{{Effect Link|Reanimate}} for 30 secs on Target
+|where=* {{FC|red|Not available in game}}
+* The same effect is used for the [[Oblivion:Staff of Worms|Staff of Worms]]
+}}
+{{OB Spell
+|name=Repulse Undead
+|icon=Turnundead
+|spellid=000AA069
+|tomeid=xx00283E
+|magicka=29
+|desc=:Affects [[Oblivion:Undead|undead]] up to level 7:<br>
+:{{Effect Link|Turn Undead}} for 30 secs on Target
+|where=* Can be purchased from [[Oblivion:Alberic Litte|Alberic Litte]], [[Oblivion:Eris Senim|Eris Senim]]{{KotN}}, [[Oblivion:Kinther|Kinther]]{{KotN}}, [[Oblivion:Ohtesse|Ohtesse]], [[Oblivion:Selene Duronia|Selene Duronia]]{{KotN}}, [[Oblivion:Trevaia|Trevaia]], [[Oblivion:Tumindil|Tumindil]], [[Oblivion:Uravasa Othrelas|Uravasa Othrelas]]
+}}
+{{OB Spell
+|name=Summon Ghost
+|icon=Summonghost
+|spellid=000AA05C
+|tomeid=xx00282C
+|magicka=55
+|desc=:[[File:OB-icon-Summonghost.png|16px]] [[OB:Summon|Summon]] [[Oblivion:Undead#Ghost|Ghost]] for 25 secs on Self
+|where=* Can be purchased from [[Oblivion:Alberic Litte|Alberic Litte]], [[Oblivion:Ungarion|Ungarion]]
+}}
+{{OB Spell
+|name=Summon Scamp
+|icon=Summonscamp
+|spellid=000AA05E
+|tomeid=xx00282E
+|magicka=60
+|desc=:[[File:OB-icon-Summonscamp.png|16px]] [[OB:Summon|Summon]] [[Oblivion:Daedra#Scamp|Scamp]] for 20 secs on Self
+|where=* Can be purchased from [[Oblivion:Alberic Litte|Alberic Litte]], [[Oblivion:Alves Uvenim|Alves Uvenim]], [[Oblivion:Delphine Jend|Delphine Jend]], [[Oblivion:Druja|Druja]], [[Oblivion:Edgar Vautrine|Edgar Vautrine]], [[Oblivion:Selena Orania|Selena Orania]], [[Oblivion:Sulinus Vassinus|Sulinus Vassinus]], [[Oblivion:Thaurron|Thaurron]], [[Oblivion:Trayvond the Redguard|Trayvond the Redguard]], [[Oblivion:Ungarion|Ungarion]]
+}}
+{{OB Spell
+|name=Summon Skeleton
+|icon=Summonskeleton
+|spellid=000AA05F
+|tomeid=xx00282F
+|magicka=45
+|desc=:[[File:OB-icon-Summonskeleton.png|16px]] [[OB:Summon|Summon]] [[Oblivion:Undead#Skeleton|Skeleton]] for 40 secs on Self
+|where=* Players with [[Oblivion:Conjuration|Conjuration]] as a [[Oblivion:Skills|major skill]] start with this spell
+* Can be purchased from [[Oblivion:Alberic Litte|Alberic Litte]], [[Oblivion:Calindil|Calindil]], [[Oblivion:Volanaro|Volanaro]]
+}}
+{{OB Spell
+|name=Summon Zombie
+|icon=Summonzombie
+|spellid=000AA063
+|tomeid=xx002837
+|magicka=50
+|desc=:[[File:OB-icon-Summonzombie.png|16px]] [[OB:Summon|Summon]] [[Oblivion:Undead#Zombie|Zombie]] for 30 secs on Self
+|where=* Can be purchased from: [[Oblivion:Alberic Litte|Alberic Litte]], [[Oblivion:Calindil|Calindil]]
+}}
+|- {{CON}}
+|colspan=6|<center>'''Journeyman'''</center>
+|-
+{{OB Spell
+|name=Bound Bow
+|icon=Boundweapon
+|spellid=000A97B5
+|tomeid=xx002290
+|magicka=142
+|desc=:{{Effect Link|Bound Bow}} for 15 secs on Self
+|where=* Can be purchased from: [[Oblivion:Athragar|Athragar]], [[Oblivion:Aurelinwae|Aurelinwae]]{{WT}}
+}}
+{{OB Spell
+|name=Bound Cuirass
+|icon=Boundarmor
+|spellid=000A97B6
+|tomeid=xx00228A
+|magicka=72
+|desc=:{{Effect Link|Bound Cuirass}} for 60 secs on Self
+|where=* Can be purchased from: [[Oblivion:Athragar|Athragar]], [[Oblivion:Delphine Jend|Delphine Jend]]
+}}
+{{OB Spell
+|name=Bound Mace
+|icon=Boundweapon
+|spellid=000A97BB
+|tomeid=xx002292
+|magicka=136
+|desc=:{{Effect Link|Bound Mace}} for 15 secs on Self
+|where=* Can be purchased from: [[Oblivion:Athragar|Athragar]]
+}}
+{{OB Spell
+|name=Greater Bound Armor
+|icon=Boundarmor
+|spellid=000C7627
+|tomeid=xx002287
+|magicka=132
+|desc=:{{Effect Link|Bound Boots}} for 30 secs on Self<br>
+:{{Effect Link|Bound Cuirass}} for 30 secs on Self<br>
+:{{Effect Link|Bound Gauntlets}} for 30 secs on Self<br>
+:{{Effect Link|Bound Greaves}} for 30 secs on Self<br>
+|where=* Can be learned from ''[[Oblivion:Spell Tomes#Existing Spells|Greater Bound Armor Tome]]''<br>
+* Not available without [[Oblivion:Spell Tomes|Spell Tomes]] [[Oblivion:Downloads|download]]
+}}
+{{OB Spell
+|name=Rebuke Undead
+|icon=Turnundead
+|spellid=000AA06A
+|tomeid=xx00283F
+|magicka=70
+|desc=:Affects [[Oblivion:Undead|undead]] up to level 15:<br>
+:{{Effect Link|Turn Undead}} 60 pts for 30 secs on Target
+|where=* Can be purchased from: [[Oblivion:Athragar|Athragar]], [[Oblivion:Isa Raman|Isa Raman]], [[Oblivion:Tumindil|Tumindil]]
+}}
+{{OB Spell
+|name=Summon Dremora
+|icon=Summondremora
+|spellid=000AA059
+|tomeid=xx00282A
+|magicka=145
+|desc=:[[File:OB-icon-Summondremora.png|16px]] [[OB:Summon|Summon]] [[Oblivion:Dremora Caitiff|Dremora Caitiff]] for 20 secs on Self
+|where=* Can be purchased from: [[Oblivion:Athragar|Athragar]]
+}}
+{{OB Spell
+|name=Summon Flame Atronach
+|icon=Summonflameatronach
+|spellid=000AA05A
+|tomeid=xx002825
+|magicka=135
+|desc=:[[File:OB-icon-Summonflameatronach.png|16px]] [[OB:Summon|Summon]] [[Oblivion:Daedra#Flame Atronach|Flame Atronach]] for 30 secs on Self
+|where=* Can be purchased from: [[Oblivion:Athragar|Athragar]]
+}}
+{{OB Spell
+|name=Summon Headless Zombie
+|icon=Summonzombie
+|spellid=0003C414
+|tomeid=xx002838
+|magicka=140
+|desc=:[[File:OB-icon-Summonzombie.png|16px]] [[OB:Summon|Summon]] [[Oblivion:Headless Zombie|Headless Zombie]] for 25 secs on Self
+|where=* Can be purchased from: [[Oblivion:Athragar|Athragar]]
+}}
+{{OB Spell
+|name=Summon Skeleton Guardian
+|icon=SummonSkeletonGuardian
+|spellid=0003C415
+|tomeid=xx002831
+|magicka=130
+|desc=:[[File:OB-icon-SummonSkeletonGuardian.png|16px]] [[OB:Summon|Summon]] [[Oblivion:Skeleton Guardian|Skeleton Guardian]] for 40 secs on Self
+|where=* Can be purchased from: [[Oblivion:Athragar|Athragar]]
+}}
+|- {{CON}}
+|colspan=6|<center>'''Expert'''</center>
+|-
+{{OB Spell
+|name=Bound Shield
+|icon=Boundarmor
+|spellid=000A97BC
+|tomeid=xx00228E
+|magicka=216
+|desc=:{{Effect Link|Bound Shield}} for 120 secs on Self
+|where=* Can be purchased from: [[Oblivion:Athragar|Athragar]]
+}}
+{{OB Spell
+|name=Bound Sword
+|icon=Boundweapon
+|spellid=000A97BD
+|tomeid=xx002293
+|magicka=352
+|desc=:{{Effect Link|Bound Sword}} for 15 secs on Self
+|where=* Can be purchased from: [[Oblivion:Athragar|Athragar]], [[Oblivion:Raminus Polus|Raminus Polus]], [[Oblivion:Volanaro|Volanaro]]
+}}
+{{OB Spell
+|name=Dismiss Undead
+|icon=Turnundead
+|spellid=000AA06B
+|tomeid=xx002840
+|magicka=187
+|desc=:Affects [[Oblivion:Undead|undead]] up to level 18:<br>
+:{{Effect Link|Turn Undead}} 75 pts for 60 secs on Target
+|where=* Can be purchased from: [[Oblivion:Athragar|Athragar]], [[Oblivion:Isa Raman|Isa Raman]], [[Oblivion:Orag gra-Bargol|Orag gra-Bargol]], [[Oblivion:Tumindil|Tumindil]]
+}}
+{{OB Spell
+|name=Summon Clannfear
+|icon=Summonclannfear
+|spellid=000AA057
+|tomeid=xx002828
+|magicka=340
+|desc=:[[File:OB-icon-Summonclannfear.png|16px]] [[OB:Summon|Summon]] [[Oblivion:Daedra#Clannfear|Clannfear]] for 45 secs on Self
+|where=* Can be purchased from: [[Oblivion:Athragar|Athragar]]
+}}
+{{OB Spell
+|name=Summon Daedroth
+|icon=Summondaedroth
+|spellid=000AA058
+|tomeid=xx002829
+|magicka=369
+|desc=:[[File:OB-icon-Summondaedroth.png|16px]] [[OB:Summon|Summon]] [[Oblivion:Daedra#Daedroth|Daedroth]] for 30 secs on Self
+|where=* Can be purchased from: [[Oblivion:Athragar|Athragar]], [[Oblivion:Selena Orania|Selena Orania]]
+}}
+{{OB Spell
+|name=Summon Faded Wraith
+|icon=Summonfadedwraith
+|spellid=000AA062
+|tomeid=xx002834
+|magicka=350
+|desc=:[[File:OB-icon-Summonfadedwraith.png|16px]] [[OB:Summon|Summon]] [[Oblivion:Undead#Faded Wraith|Faded Wraith]] for 40 secs on Self
+|where=* Can be purchased from: [[Oblivion:Athragar|Athragar]], [[Oblivion:Gaspar Stegine|Gaspar Stegine]]
+}}
+{{OB Spell
+|name=Summon Frost Atronach
+|icon=Summonfrostatronach
+|spellid=000AA05B
+|tomeid=xx002826
+|magicka=360
+|desc=:[[File:OB-icon-Summonfrostatronach.png|16px]] [[OB:Summon|Summon]] [[Oblivion:Daedra#Frost Atronach|Frost Atronach]] for 35 secs on Self
+|where=* Can be purchased from: [[Oblivion:Athragar|Athragar]]
+}}
+{{OB Spell
+|name=Summon Skeleton Champion
+|icon=Summonskeleton
+|spellid=0003C417
+|tomeid=xx002830
+|magicka=380
+|desc=:[[File:OB-icon-Summonskeleton.png|16px]] [[OB:Summon|Summon]] [[Oblivion:Undead#Summon Skeleton Champion|Skeleton Champion]] for 25 secs on Self
+|where=* Can be purchased from: [[Oblivion:Athragar|Athragar]]
+}}
+{{OB Spell
+|name=Summon Skeleton Hero
+|icon=Summonskeleton
+|spellid=0003C416
+|tomeid=xx002832
+|magicka=330
+|desc=:[[File:OB-icon-Summonskeleton.png|16px]] [[OB:Summon|Summon]] [[Oblivion:Undead#Summon Skeleton Hero|Skeleton Hero]] for 50 secs on Self
+|where=* Can be purchased from: [[Oblivion:Athragar|Athragar]]
+}}
+{{OB Spell
+|name=Summon Spider Daedra
+|icon=Summonspiderdaedra
+|spellid=0003C418
+|tomeid=xx002833
+|magicka=390
+|desc=:[[File:OB-icon-Summonspiderdaedra.png|16px]] [[OB:Summon|Summon]] [[Oblivion:Daedra#Spider Daedra|Spider Daedra]] for 20 secs on Self
+|where=* Can be purchased from: [[Oblivion:Athragar|Athragar]], [[Oblivion:Gaspar Stegine|Gaspar Stegine]]
+}}
+{{OB Spell
+|name=Superior Bound Armor
+|icon=Boundarmor
+|spellid=000C7628
+|tomeid=xx002288
+|magicka=224
+|desc=:{{Effect Link|Bound Boots}} for 40 secs on Self<br>
+:{{Effect Link|Bound Cuirass}} for 40 secs on Self<br>
+:{{Effect Link|Bound Gauntlets}} for 40 secs on Self<br>
+:{{Effect Link|Bound Greaves}} for 40 secs on Self<br>
+:{{Effect Link|Bound Helmet}} for 40 secs on Self
+|where=* Can be learned from ''[[Oblivion:Spell Tomes#Existing Spells|Superior Bound Armor Tome]]''<br>
+* Not available without [[Oblivion:Spell Tomes|Spell Tomes]] [[Oblivion:Downloads|download]]
+}}
+|- {{CON}}
+|colspan=6|<center>'''Master'''</center>
+|-
+{{OB Spell
+|name=Summon Dremora Lord
+|icon=Summondremoralord
+|spellid=0003C413
+|tomeid=xx00282B
+|magicka=549
+|desc=:[[File:OB-icon-Summondremoralord.png|16px]] [[OB:Summon|Summon]] [[Oblivion:Dremora#Dremora Lord|Dremora Lord]] for 35 secs on Self
+|where=* Can be purchased from: [[Oblivion:Volanaro|Volanaro]]
+}}
+{{OB Spell
+|name=Summon Gloom Wraith
+|icon=Summongloomwraith
+|spellid=0003C419
+|tomeid=xx002835
+|magicka=650
+|desc=:[[File:OB-icon-Summongloomwraith.png|16px]] [[OB:Summon|Summon]] [[Oblivion:Undead#Gloom Wraith|Gloom Wraith]] for 25 secs on Self
+|where=* Can be purchased from: [[Oblivion:Borissean|Borissean]]
+}}
+{{OB Spell
+|name=Summon Lich
+|icon=Summonlich
+|spellid=000AA05D
+|tomeid=xx00282D
+|magicka=700
+|desc=:[[File:OB-icon-Summonlich.png|16px]] [[OB:Summon|Summon]] [[Oblivion:Undead#Lich|Lich]] for 20 secs on Self
+|where=* Can be purchased from: [[Oblivion:Borissean|Borissean]]
+}}
+{{OB Spell
+|name=Summon Storm Atronach
+|icon=Summonatronach
+|spellid=000AA060
+|tomeid=xx002827
+|magicka=500
+|desc=:[[File:OB-icon-Summonatronach.png|16px]] [[OB:Summon|Summon]] [[Oblivion:Daedra#Summon Storm Atronach|Storm Atronach]] for 40 secs on Self
+|where=* Can be purchased from: [[Oblivion:Vigge the Cautious|Vigge the Cautious]]
+}}
+{{OB Spell
+|name=Summon Xivilai
+|icon=Summonxivilai
+|spellid=000AA061
+|tomeid=xx002836
+|magicka=600
+|desc=:[[File:OB-icon-Summonxivilai.png|16px]] [[OB:Summon|Summon]] [[Oblivion:Daedra#Summon Xivilai|Xivilai]] for 30 secs on Self
+|where=* Can be purchased from: [[Oblivion:Borissean|Borissean]]
+}}
+|}<references /><noinclude>
+{{Oblivion:Spell List Notes}}</noinclude>

@@ -1,0 +1,202 @@
+{{面包屑|词汇表}}
+注：与ANK汉化不同的译名加粗显示。
+{| class="wikitable"
+|-
+!英文!!ANK!!Reconquista<br>汤镬/重光!!Unofficial<br>大學漢化!!Official<br>官方繁中
+|-
+|Cloaking Flame Spider||焰罩蜘蛛||焰罩蜘蛛||'''引火蜘蛛'''||焰罩蜘蛛
+|-
+|Exploding Flame Spider||爆焰蜘蛛||爆焰蜘蛛||'''闪燃爆蛛'''||爆焰蜘蛛
+|-
+|Exploding Frost Spider||爆霜蜘蛛||爆霜蜘蛛||'''骤寒爆蛛'''||爆霜蜘蛛
+|-
+|Exploding Poison Spider||爆毒蜘蛛||爆毒蜘蛛||'''烈毒爆蛛'''||爆毒蜘蛛
+|-
+|Exploding Shock Spider||爆电蜘蛛||爆电蜘蛛||'''殛电爆蛛'''||爆电蜘蛛
+|-
+|Flame Cloaked Spider||焰罩蜘蛛||焰罩蜘蛛||'''引火蜘蛛'''||焰罩蜘蛛
+|-
+|Frost Cloaked Spider||霜罩蜘蛛||霜罩蜘蛛||'''袭霜蜘蛛'''||霜罩蜘蛛
+|-
+|Glowing Spider||光蜘蛛||光蜘蛛||'''发光蜘蛛'''||光蜘蛛
+|-
+|J'zargo's Flame Cloak Scroll||扎格的火焰斗篷卷轴||'''吉'扎格的火焰斗篷卷轴'''||'''吉扎格的火焰斗篷术卷轴'''||'''扎格的烈焰斗篷卷轴'''
+|-
+|Jumping Flame Spider||烈焰跳蛛||烈焰跳蛛||烈焰跳蛛||烈焰跳蛛
+|-
+|Jumping Frost Spider||寒霜跳蛛||寒霜跳蛛||寒霜跳蛛||寒霜跳蛛
+|-
+|Jumping Poison Spider||毒药跳蛛||毒药跳蛛||'''剧毒跳蛛'''||毒药跳蛛
+|-
+|Jumping Shock Spider||闪电跳蛛||闪电跳蛛||'''雷霆跳蛛'''||闪电跳蛛
+|-
+|Mind Control Spider||脑控蜘蛛||脑控蜘蛛||'''控脑蜘蛛'''||脑控蜘蛛
+|-
+|Oil Spider||油蜘蛛||油蜘蛛||'''燃油蜘蛛'''||油蜘蛛
+|-
+|Pack Spider||驮蜘蛛||驮蜘蛛||'''携物蜘蛛'''||驮蜘蛛
+|-
+|Poison Cloaked Spider||毒罩蜘蛛||毒罩蜘蛛||'''泌毒蜘蛛'''||毒罩蜘蛛
+|-
+|Scroll of Bane of the Undead||亡灵毁灭卷轴||亡灵毁灭卷轴||'''破邪术卷轴'''||亡灵毁灭卷轴
+|-
+|Scroll of Banish Daedra||驱逐魔族卷轴||驱逐魔族卷轴||'''魔族遣返术卷轴'''||驱逐魔族卷轴
+|-
+|Scroll of Blizzard||暴风雪卷轴||暴风雪卷轴||'''暴雪气旋术卷轴'''||暴风雪卷轴
+|-
+|Scroll of Call to Arms||激励术卷轴||激励术卷轴||激励术卷轴||激励术卷轴
+|-
+|Scroll of Calm||安抚卷轴||安抚卷轴||'''安抚术卷轴'''||'''镇定卷轴'''
+|-
+|Scroll of Candlelight||烛光卷轴||烛光卷轴||'''烛光术卷轴'''||烛光卷轴
+|-
+|Scroll of Chain Lightning||闪电链卷轴||闪电链卷轴||'''闪电连锁术卷轴'''||闪电链卷轴
+|-
+|Scroll of Circle of Protection||庇佑光环卷轴||庇佑光环卷轴||'''庇护领域术卷轴'''||'''庇佑之环卷轴'''
+|-
+|Scroll of Command Daedra||控制魔族卷轴||控制魔族卷轴||'''魔族支配术卷轴'''||'''号令魔族卷轴术'''
+|-
+|Scroll of Conjure Dark Seducer Archer||    ||'''召唤黑暗诱惑者弓箭手卷轴'''||    ||'''召唤黑暗诱惑者弓手卷轴'''
+|-
+|Scroll of Conjure Dark Seducer Warrior||    ||'''召唤黑暗诱惑者战士卷轴'''||    ||'''召唤黑暗诱惑者战士卷轴'''
+|-
+|Scroll of Conjure Familiar||召唤幽灵魔狼卷轴||召唤幽灵魔狼卷轴||'''使魔召唤术卷轴'''||'''召唤魔宠卷轴'''
+|-
+|Scroll of Conjure Flame Atronach||召唤火焰元素卷轴||召唤火焰元素卷轴||'''烈焰属灵召唤术卷轴'''||召唤火焰元素卷轴
+|-
+|Scroll of Conjure Frost Atronach||召唤寒霜元素卷轴||召唤寒霜元素卷轴||'''寒霜属灵召唤术卷轴'''||召唤寒霜元素卷轴
+|-
+|Scroll of Conjure Golden Saint Archer||    ||'''召唤黄金圣徒弓箭手卷轴'''||    ||'''召唤黄金圣人弓手卷轴'''
+|-
+|Scroll of Conjure Golden Saint Warrior||    ||'''召唤黄金圣徒战士卷轴'''||    ||'''召唤黄金圣人战士卷轴'''
+|-
+|Scroll of Conjure Staada||    ||'''召唤史塔达卷轴'''||    ||'''召唤丝塔达卷轴'''
+|-
+|Scroll of Conjure Storm Atronach||召唤风暴元素卷轴||召唤风暴元素卷轴||'''风暴属灵召唤术卷轴'''||召唤风暴元素卷轴
+|-
+|Scroll of Courage||勇气卷轴||勇气卷轴||'''勇气术卷轴'''||勇气卷轴
+|-
+|Scroll of Cure Wounds||治愈伤口卷轴||治愈伤口卷轴||'''治疗伤口卷轴'''||治愈伤口卷轴
+|-
+|Scroll of Dead Thrall||亡魂奴仆卷轴||亡魂奴仆卷轴||'''尸仆支配术卷轴'''||亡魂奴仆卷轴
+|-
+|Scroll of Detect Life||感知生命卷轴||感知生命卷轴||'''生命感知术卷轴'''||感知生命卷轴
+|-
+|Scroll of Dragonhide||龙皮卷轴||龙皮卷轴||'''龙肤术卷轴'''||龙皮卷轴
+|-
+|Scroll of Dread Zombie||恐怖僵尸卷轴||恐怖僵尸卷轴||'''尸儡差遣术卷轴'''||恐怖僵尸卷轴
+|-
+|Scroll of Ebonyflesh||黑檀之身卷轴||'''黑檀岩之身卷轴'''||'''玄曜身术卷轴'''||黑檀之身卷轴
+|-
+|Scroll of Expel Daedra||驱散魔族卷轴||驱散魔族卷轴||'''魔族逐返术卷轴'''||驱散魔族卷轴
+|-
+|Scroll of Fast Healing||快速治愈术卷轴||快速治愈术卷轴||'''高效治疗术卷轴'''||'''快速治疗术卷轴'''
+|-
+|Scroll of Fear||恐惧卷轴||恐惧卷轴||'''惧逃术卷轴'''||'''威惧卷轴'''
+|-
+|Scroll of Fire Rune||火焰符文卷轴||火焰符文卷轴||'''暴炎法印卷轴'''||火焰符文卷轴
+|-
+|Scroll of Fire Storm||火焰风暴卷轴||火焰风暴卷轴||'''炎火爆燃术卷轴'''||火焰风暴卷轴
+|-
+|Scroll of Fireball||火球卷轴||火球卷轴||'''火球术卷轴'''||火球卷轴
+|-
+|Scroll of Firebolt||火焰箭卷轴||火焰箭卷轴||'''火弹术卷轴'''||火焰箭卷轴
+|-
+|Scroll of Flame Cloak||火焰斗篷卷轴||火焰斗篷卷轴||'''火焰斗篷术卷轴'''||'''烈焰斗篷卷轴'''
+|-
+|Scroll of Flame Thrall||烈焰奴仆卷轴||烈焰奴仆卷轴||'''烈焰侍灵召唤术卷轴'''||烈焰奴仆卷轴
+|-
+|Scroll of Frenzy||狂乱卷轴||狂乱卷轴||'''狂心术卷轴'''||狂乱卷轴
+|-
+|Scroll of Frost Cloak||寒霜斗篷卷轴||寒霜斗篷卷轴||'''冰霜斗篷术卷轴'''||寒霜斗篷卷轴
+|-
+|Scroll of Frost Rune||寒霜符文卷轴||寒霜符文卷轴||'''暴霜法印卷轴'''||寒霜符文卷轴
+|-
+|Scroll of Frost Thrall||寒霜奴仆卷轴||寒霜奴仆卷轴||'''寒霜侍灵召唤术卷轴'''||寒霜奴仆卷轴
+|-
+|Scroll of Fury||狂怒卷轴||狂怒卷轴||'''狂怒术卷轴'''||狂怒卷轴
+|-
+|Scroll of Grand Healing||特级治愈术卷轴||特级治愈术卷轴||'''强效群体治疗术卷轴'''||'''特级治愈卷轴'''
+|-
+|Scroll of Guardian Circle||守护光环卷轴||守护光环卷轴||'''圣佑领域术卷轴'''||'''守护之环卷轴'''
+|-
+|Scroll of Harmony||和睦卷轴||和睦卷轴||'''和睦术卷轴'''||和睦卷轴
+|-
+|Scroll of Heal Other||治愈恩泽卷轴||治愈恩泽卷轴||'''高效他人治疗术卷轴'''||'''治愈他人卷轴'''
+|-
+|Scroll of Hysteria||心魔卷轴||心魔卷轴||'''疯逃术卷轴'''||心魔卷轴
+|-
+|Scroll of Ice Spike||冰锥卷轴||冰锥卷轴||'''冰锥术卷轴'''||'''冰椎卷轴'''
+|-
+|Scroll of Ice Storm||冰风暴卷轴||冰风暴卷轴||'''冰霜气团术卷轴'''||冰风暴卷轴
+|-
+|Scroll of Invisibility||隐形卷轴||隐形卷轴||'''隐身术卷轴'''||'''隐身卷轴'''
+|-
+|Scroll of Ironflesh||铁甲术卷轴||铁甲术卷轴||'''铁身术卷轴'''||'''铁甲卷轴'''
+|-
+|Scroll of Lightning Bolt||闪电箭卷轴||闪电箭卷轴||'''闪电术卷轴'''||闪电箭卷轴
+|-
+|Scroll of Lightning Cloak||闪电斗篷卷轴||闪电斗篷卷轴||'''闪电斗篷术卷轴'''||闪电斗篷卷轴
+|-
+|Scroll of Lightning Rune||闪电符文卷轴||闪电符文卷轴||'''暴电法印卷轴'''||闪电符文卷轴
+|-
+|Scroll of Liminal Breach||    ||'''阈限突破卷轴'''||    ||'''阈限突破卷轴'''
+|-
+|Scroll of Magelight||魔光卷轴||魔光卷轴||'''魔光术卷轴'''||魔光卷轴
+|-
+|Scroll of Mass Paralysis||群体麻痹卷轴||群体麻痹卷轴||'''群体麻痹术卷轴'''||群体麻痹卷轴
+|-
+|Scroll of Mayhem||暴乱卷轴||暴乱卷轴||'''狂乱术卷轴'''||暴乱卷轴
+|-
+|Scroll of Muffle||静行卷轴||静行卷轴||'''消音术卷轴'''||静行卷轴
+|-
+|Scroll of Oakflesh||木甲术卷轴||木甲术卷轴||'''木身术卷轴'''||'''木甲卷轴'''
+|-
+|Scroll of Pacify||停战卷轴||停战卷轴||'''平息术卷轴'''||停战卷轴
+|-
+|Scroll of Paralyze||麻痹卷轴||麻痹卷轴||'''麻痹术卷轴'''||麻痹卷轴
+|-
+|Scroll of Raise Zombie||唤醒僵尸卷轴||唤醒僵尸卷轴||'''尸儡唤醒术卷轴'''||唤醒僵尸卷轴
+|-
+|Scroll of Rally||重振卷轴||重振卷轴||'''振奋术卷轴'''||重振卷轴
+|-
+|Scroll of Reanimate Corpse||复活僵尸卷轴||复活僵尸卷轴||'''尸儡唤起术卷轴'''||'''尸体术卷轴'''
+|-
+|Scroll of Repel Lesser Undead||驱离低等亡灵卷轴||驱离低等亡灵卷轴||'''初阶辟邪术卷轴'''||'''驱离次级不死生物卷轴'''
+|-
+|Scroll of Repel Undead||驱离亡灵卷轴||驱离亡灵卷轴||'''进阶辟邪术卷轴'''||'''驱离不死生物卷轴'''
+|-
+|Scroll of Revanant||复仇亡魂卷轴||复仇亡魂卷轴||'''尸儡驱使术卷轴'''||复仇亡魂卷轴
+|-
+|Scroll of Rout||溃退卷轴||溃退卷轴||'''溃逃术卷轴'''||溃退卷轴
+|-
+|Scroll of Soul Trap||摄魂陷阱卷轴||摄魂陷阱卷轴||'''缚魂术卷轴'''||摄魂陷阱卷轴
+|-
+|Scroll of Stoneflesh||石甲术卷轴||石甲术卷轴||'''石身术卷轴'''||石甲术卷轴
+|-
+|Scroll of Storm Thrall||风暴奴仆卷轴||风暴奴仆卷轴||'''风暴侍灵召唤术卷轴'''||风暴奴仆卷轴
+|-
+|Scroll of Telekinesis||念动术卷轴||念动术卷轴||念动术卷轴||念动术卷轴
+|-
+|Scroll of Turn Greater Undead||驱赶强力亡灵卷轴||驱赶强力亡灵卷轴||'''高阶驱邪术卷轴'''||'''驱赶强力不死生物卷轴'''
+|-
+|Scroll of Turn Lesser Undead||驱赶低等亡灵卷轴||驱赶低等亡灵卷轴||'''初阶驱邪术卷轴'''||'''驱赶次级不死生物卷轴'''
+|-
+|Scroll of Turn Undead||驱赶亡灵卷轴||驱赶亡灵卷轴||'''进阶驱邪术卷轴'''||'''驱赶不死生物卷轴'''
+|-
+|Scroll of Waterbreathing||水下呼吸卷轴||水下呼吸卷轴||'''水息术卷轴'''||水下呼吸卷轴
+|-
+|Shalidor's Insights: Alteration||沙利多的预言：变换系||沙利多的预言：变换系||'''沙利多的魔法心得：变换'''||沙利多的预言：变换系
+|-
+|Shalidor's Insights: Conjuration||沙利多的预言：召唤系||沙利多的预言：召唤系||'''沙利多的魔法心得：召唤'''||沙利多的预言：召唤系
+|-
+|Shalidor's Insights: Destruction||沙利多的预言：毁灭系||沙利多的预言：毁灭系||'''沙利多的魔法心得：毁灭'''||沙利多的预言：毁灭系
+|-
+|Shalidor's Insights: Illusion||沙利多的预言：幻术系||沙利多的预言：幻术系||'''沙利多的魔法心得：幻象'''||沙利多的预言：幻术系
+|-
+|Shalidor's Insights: Magicka||沙利多的预言：魔法||沙利多的预言：魔法||'''沙利多的魔法心得：法力'''||沙利多的预言：魔法
+|-
+|Shalidor's Insights: Restoration||沙利多的预言：恢复系||沙利多的预言：恢复系||'''沙利多的魔法心得：恢复'''||沙利多的预言：恢复系
+|-
+|Shock Cloaked Spider||电罩蜘蛛||电罩蜘蛛||'''放电蜘蛛'''||电罩蜘蛛
+|}

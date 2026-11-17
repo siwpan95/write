@@ -1,0 +1,99 @@
+<noinclude>{{Cleanup-srqrp
+|writtenBy=Multiple
+|checkedBy=Beezer1029
+|reward=Likelolwhat
+|rewardChecked=Beezer1029
+}}</noinclude>{{Quest Header
+|type=Main Quest
+|Giver=[[SR:Alduin|Alduin]]
+|Reward=All words of the [[Skyrim:Call Dragon|Call Dragon]] shout
+|Disp=
+|Prev=[[Skyrim:Alduin's Bane|Alduin's Bane]]
+|Conc=[[Skyrim:Season Unending|Season Unending]], [[Skyrim:Paarthurnax (quest)|Paarthurnax]]
+|Next=[[Skyrim:The World-Eater's Eyrie|The World-Eater's Eyrie]]
+|Loc=[[SR:Throat of the World|Throat of the World]], [[SR:High Hrothgar|High Hrothgar]], and/or [[SR:Sky Haven Temple|Sky Haven Temple]], [[Skyrim:Dragonsreach|Dragonsreach]]
+|Image=SR-quest-The Fallen.jpg
+|ImgDesc=Odahviing yoked in the trap
+|description=Capture and interrogate [[Skyrim:Odahviing|an ally]] of [[Skyrim:Alduin|Alduin]].
+|ID=MQ301
+|Icon=SR-qico-Main.png
+}}
+
+==Quick Walkthrough==
+# Talk to [[Skyrim:Paarthurnax_(dragon)|Paarthurnax]], [[Skyrim:Arngeir|Arngeir]], ''or'' [[Skyrim:Esbern|Esbern]].
+# Talk to the Jarl of [[Skyrim:Whiterun|Whiterun]].
+# Prepare a trap for [[Skyrim:Odahviing|Odahviing]].
+# Call Odahviing to [[Skyrim:Dragonsreach|Dragonsreach]].
+# Weaken and trap Odahviing.
+# Interrogate Odahviing.
+
+==Detailed Walkthrough==
+===The Civil War===
+When you have defeated [[Skyrim:Alduin|Alduin]], he will fly off. You must track down one of his minions to find Alduin again. Speak with [[Skyrim:Paarthurnax_(dragon)|Paarthurnax]], [[Skyrim:Arngeir|Arngeir]], or [[Skyrim:Esbern|Esbern]] to proceed. When the topic is discussed, they will all tell you that [[Skyrim:Dragonsreach|Dragonsreach]] was once used to [[Skyrim:Olaf and the Dragon|capture a dragon]]. If you decide to speak with Esbern, you will start the optional quest [[Skyrim:Paarthurnax (quest)|Paarthurnax]]. Go to [[Skyrim:Whiterun|Whiterun]] and speak with the [[Skyrim:Balgruuf the Greater|Jarl of Whiterun]]. Depending on your progress in the [[Skyrim:Civil War|civil war]], there are several options for what can happen next:
+
+*If the civil war has not been settled for either side, the jarl will at first be hesitant and tell you he can't capture a dragon with the ongoing war threatening his hold. You have to get both sides to agree with a truce by speaking to both [[Skyrim:Ulfric Stormcloak|Ulfric Stormcloak]] and [[Skyrim:General Tullius|General Tullius]]. This starts the quest [[Skyrim:Season Unending|Season Unending]], which will now have to be completed before you can proceed with The Fallen.
+
+*If the civil war has been settled for either the [[Skyrim:Imperial Legion|Imperials]] or the [[Skyrim:Stormcloaks|Stormcloaks]], the jarl will allow you permission upon speaking with him. This option actually becomes possible once either side of the civil war controls at least eight of the nine Holds: if you have joined the Stormcloaks, you must have started or completed the "Liberate Haafingar" objective of [[Skyrim:Liberation of Skyrim|Liberation of Skyrim]]; and if you have joined the Imperials, you must have started or completed the "Regain Eastmarch" objective of [[Skyrim:Reunification of Skyrim|Reunification of Skyrim]].
+
+*If you choose to complete [[Skyrim:Paarthurnax (quest)|Paarthurnax]] by killing him before the peace negotiations, this will anger [[Skyrim:Arngeir|Arngeir]] to the point where he refuses to talk to you. However, he will still agree to host the negotiations and talk to you only for the duration of the quest. Arngeir will comment on the loss of Paarthurnax during his standoff with the Blades.
+
+===Dragon Captive===
+After the peace treaty negotiations have been completed (see the quest [[Skyrim:Season Unending|Season Unending]] for further details), you will learn that you can use a Shout to summon a dragon, as all dragon names are Words of Power. Esbern has uncovered the name of one dragon in their records, [[Skyrim:Odahviing|Odahviing]]. Upon telling you the name of the dragon, you will automatically learn a new [[Skyrim:Call Dragon|Call Dragon]] shout. If you did not have to do Season Unending, you are instead sent to [[Skyrim:Paarthurnax (dragon)|Paarthurnax]], who provides you with the same information as Esbern, including the same Call Dragon shout. At the moment you learn the shout, your journal is updated to reflect Season Unending as complete, even if you had never actually started that quest.
+
+Go to Dragonsreach to prepare and spring the trap with the help of [[Skyrim:Balgruuf the Greater|Jarl Balgruuf]] or [[Skyrim:Vignar_Gray-Mane|Jarl Vignar Gray-Mane]], depending on the current allegiance of Whiterun. The area you need to go is located behind the throne room and up the stairs (you can just follow the jarl). Tell the jarl you're ready, then use the Call Dragon shout by holding it down for a moment. Odahviing will appear after a short delay and attack, being curious to test your power. Fight him, and draw him closer to the doors you came in through using the shout Dragonrend. Climb the stairs that start near the doors, or simply back up towards the rear of the room, and a large wooden yoke will drop down and snap around his neck, holding him in place. You can then interrogate him and he will start talking to you.
+
+He will tell you where Alduin has gone; a former temple of the [[Lore:Dragon Cult|Dragon Cult]] called [[Skyrim:Skuldafn Temple|Skuldafn Temple]]. Interrogate him further and he will reveal to you that it is impossible to get to Skuldafn without wings, but he will take you if you release him, as he, like the other dragons, has begun to question whether Alduin is fit to lead after your earlier defeat of him. Before you accept his offer, make sure you have everything you need for a long mission, as you will not be able to leave Skuldafn until after you have completed the next three quests. You cannot take any followers with you to Skuldafn. When you are ready, talk to a guard on the upper level to release Odahviing. He will not fly away, so talk to the now-freed Odahviing for the flight to Skuldafn.
+
+===Achievements===
+One [[Skyrim:Achievements|achievement]] is unlocked when you complete this quest:
+* {{achievement|The Fallen (achievement)|descr=no}}
+
+==Notes==
+*[[Skyrim:Farengar Secret-Fire|Farengar]] may come out and talk with Odahviing while you have him in captivity, and attempt to collect samples, resulting in a rather humorous scene.
+* The [[Skyrim:Call_Dragon|shout]] button must be pressed for a slightly longer time than previous shouts required, to get the name of the dragon out and actually cause him to appear.
+* When Odahviing appears, your shout cooldown, which would normally be 300 seconds, is reset to zero. Any further shouts will be subject to the normal cooldown.
+* If you have a small bounty when trying to release the dragon, all the guard will say is "Wait, I know you," and no other dialogue will appear. Simply pull the release chain yourself.
+* If Odahviing kills the guard that is supposed to release him, just pull the chain yourself.
+* Do not attack Odahviing when he is trapped. He will not respond, but when he is released, he will become hostile again.
+* Followers may keep Odahviing busy with a skirmish where he lands, preventing him from walking into the trap.
+* If you have started the Stormcloaks beginning quests, but gone no further in them, you may be unable to start a conversation with Ulfric or General Tullius until you get farther along in the quest line.
+* At stage 50 of the quest (defeated Alduin), the quest [[Skyrim:Paarthurnax (quest)|Paarthurnax]] will begin, though it will not be displayed in your journal.
+
+==Bugs==
+{{Bug|Odahviing may stop moving and become invincible once you get him through the doorway.|confirmed=1}}
+{{Bug|When Odahviing is captured, he will not talk to you. There is no option of talking to him, and he remains an enemy. This occurs after Vignar Gray-Mane has become jarl but the Companions questline has not been started. Even after becoming jarl, Vignar spends most of his time in Jorrvaskr. Simply do the first Companions mission and Vignar will leave the building. Once you get back to the Porch to summon Odahviing, Vignar will be there and the dragon will be captured properly.|USKP|2.0.4}}
+{{Bug|Odahviing sometimes becomes hostile after releasing him. To fix this, simply exit the Great Porch, wait a few hours inside Dragonsreach, and return to Odahviing.|confirmed=1}}
+{{Bug|After trapping Odahviing, you may fall through the ground and in turn be stuck under the map. This seems to be caused by standing under or near Odahviing when the trap is dropped into place. To fix this, simply fast travel, then come back.|confirmed=1}}
+{{Bug|Farengar will not appear if you have killed him, but the NPCs present will still register him as being there, trying to obtain a blood sample or some scales from Odahviing. The NPCs will say their dialogue for this scene, but Farengar will not be present to speak his lines.|USKP|1.2.4}}
+{{Bug|Odahviing will only fly around Dragonsreach and it'll be impossible to attack or interact with him.|confirmed=1}}
+**To solve this, exit the Great Porch, wait for 20 hours, then re-enter.
+**{{Pc22}} Alternatively, use the console to kill the guard, which triggers the next phase as if the dragon had done it himself.
+{{Bug|After the fight with Alduin, Paarthurnax might not land, making the first objective of speaking to him impossible. Instead of going to Arngeir or Esbern to progress, use Dragonrend on Paarthurnax. He will land and not attack you, allowing you to quickly complete this objective.|vn=1}}
+{{Bug|Vignar may ask you to negotiate a truce for the Civil War even if you have completed the Civil War questline. When you talk to the Greybeards, Arngeir will agree to host the negotiations, but you will never get the Season Unending objectives to talk with Tullius and Ulfric to actually trigger the negotiations.}}
+**{{Pc22}} After talking to Arngeir and convincing him to host the negotiations, type the console command: <code>setstage MQ301 40</code>. This will complete the objective in The Fallen to get help from the Greybeards and allow the quest to continue normally.
+{{Bug|Odahviing might be invincible when he first appears after you call him. This happens mostly when Vignar is the Jarl and player starts the quest after reaching a high level.|confirmed=1}}
+**Since he becomes unbeatable in this case, using Dragonrend shout method is a better option to trap him
+
+==Quest Stages==
+{{Journal Entries
+|10||After I defeated Alduin on the top of the Throat of the World, he fled from me. I need to locate his lair so I can finish him off, once and for all.
+{{Quest Objective|10|Talk to Paarthurnax {{Quest Comment|if he's alive}}|11|Talk to Arngeir|12|Talk to Esbern}}
+|25||After I defeated Alduin on the top of the Throat of the World, he fled from me. One of his dragon allies may be able to tell me where he's gone. I've learned that Dragonsreach, the Jarl's palace in Whiterun, was once used to imprison a dragon. I need to persuade the Jarl of Whiterun to help me trap a dragon in Dragonsreach.
+{{Quest Objective|20|Talk to the Jarl of Whiterun}}
+|30||After I defeated Alduin on the top of the Throat of the World, he fled from me. One of his dragon allies may be able to tell me where he's gone. I've learned that Dragonsreach, the Jarl's palace in Whiterun, was once used to imprison a dragon. If I can arrange a truce in the civil war, the Jarl of Whiterun has agreed to help me trap a dragon in Dragonsreach. Then I can interrogate the dragon and learn the location of Alduin's lair so I can finish him off, once and for all.
+{{Quest Objective|25|Get Greybeards' help in negotiating a truce}}
+|50:2||After I defeated Alduin on the top of the Throat of the World, he fled from me. One of his dragon allies may be able to tell me where he's gone. The Jarl of Whiterun has agreed to help me trap a dragon in Dragonsreach. Now I need some way to lure a dragon into the trap. Esbern or Paarthurnax might be able to help.
+{{Quest Objective|30|Learn Shout to call Odahviing}}
+|^||After I defeated Alduin on the top of the Throat of the World, he fled from me. One of his dragon allies may be able to tell me where he's gone. The Jarl of Whiterun has agreed to help me trap a dragon in Dragonsreach. Then I can interrogate the dragon and learn the location of Alduin's lair so I can finish him off, once and for all.
+{{Quest Objective|30|Learn Shout to call Odahviing}}
+|70||After I defeated Alduin on the top of the Throat of the World, he fled from me. One of his dragon allies may be able to tell me where he's gone. The Jarl of Whiterun has agreed to help me trap a dragon in Dragonsreach. I've learned a Shout which is the name of one of Alduin's allies, which should serve to bring him to the Dragonsreach courtyard so I can trap him there. Then I can interrogate the dragon and learn the location of Alduin's lair so I can finish him off, once and for all.
+{{Quest Objective|40|Prepare trap for Odahviing}}
+|120||{{Quest Objective|50|Call Odahviing to Dragonsreach}}
+|150||{{Quest Objective|60|Defeat and trap Odahviing}}
+|200||After I defeated Alduin on the top of the Throat of the World, he fled from me. One of his dragon allies may be able to tell me where he's gone. With the help of the Jarl of Whiterun, I've trapped the dragon Odahviing in Dragonsreach. Now to interrogate Odahviing and learn the location of Alduin's lair so I can finish him off, once and for all.
+{{Quest Objective|70|Interrogate Odahviing}}
+|220|fin|After I defeated Alduin on the top of the Throat of the World, he fled from me. One of his dragon allies may be able to tell me where he's gone. With the help of the Jarl of Whiterun, I've trapped the dragon Odahviing in Dragonsreach. Odahviing revealed that Alduin's lair is located in the ancient temple of Skuldafn, which is only accessible by air. Odahviing has offered to take me there, in return for his freedom.
+|missing=0, 1, 15, 18, 20, 21, 22, 27, 40, 125, 180, 230, 240
+}}
+{{Skyrim Quest Stages Notes}}
+{{Quest Footer|Next=[[Skyrim:The World-Eater's Eyrie|The World-Eater's Eyrie]]|Prev=[[Skyrim:Alduin's Bane|Alduin's Bane]]|Up=[[Skyrim:Main Quest|Main Quest]]}}

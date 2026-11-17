@@ -1,0 +1,853 @@
+<noinclude>{{Trail|Magic|Spells}}
+This page lists '''[[Oblivion:Spells|Spells]]''' in the school of '''[[Oblivion:Restoration|Restoration]]'''.
+
+</noinclude>{| class=wikitable sortable
+
+|- {{RES}}
+
+!width=1% class="unsortable"| 
+!width=14%| Spell Name
+!width=5%|[[Oblivion:Form ID|Form ID]]s
+!width=30% class="unsortable"| Effect Details 
+!width=5%|[[File:OBMagickaCostIcon small.png|Magicka Spell Cost|link=Oblivion:Magicka]]
+!width=30% class="unsortable"| How to Obtain
+
+|- {{RES}}
+|colspan=6|<center>'''Novice'''</center>
+|-
+
+{{OB Spell
+|name=Absorb Attribute: Agility
+|icon=Absorb
+|spellid=000A936D
+|tomeid=None
+|magicka=14
+|desc=:{{Effect Link|Absorb Agility}} 5 pts for 20 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Thaurron|Thaurron]]
+}}
+
+{{OB Spell
+|name=Absorb Attribute: Endurance
+|icon=Absorb
+|spellid=000A936E
+|tomeid=None
+|magicka=14
+|desc=:{{Effect Link|Absorb Endurance}} 5 pts for 20 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Thaurron|Thaurron]]
+}}
+
+{{OB Spell
+|name=Absorb Attribute: Intelligence
+|icon=Absorb
+|spellid=000A9788
+|tomeid=None
+|magicka=14
+|desc=:{{Effect Link|Absorb Intelligence}} 5 pts for 20 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Thaurron|Thaurron]]
+}}
+
+{{OB Spell
+|name=Absorb Attribute: Luck
+|icon=Absorb
+|spellid=000A9789
+|tomeid=None
+|magicka=14
+|desc=:{{Effect Link|Absorb Luck}} 5 pts for 20 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Edgar Vautrine|Edgar Vautrine]], [[Oblivion:Thaurron|Thaurron]]
+}}
+
+{{OB Spell
+|name=Absorb Attribute: Speed
+|icon=Absorb
+|spellid=000A978B
+|tomeid=None
+|magicka=14
+|desc=:{{Effect Link|Absorb Speed}} 5 pts for 20 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Thaurron|Thaurron]]
+}}
+
+{{OB Spell
+|name=Absorb Attribute: Strength
+|icon=Absorb
+|spellid=000A978C
+|tomeid=xx001D88
+|magicka=14
+|desc=:{{Effect Link|Absorb Strength}} 5 pts for 20 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Thaurron|Thaurron]]
+}}
+
+{{OB Spell
+|name=Absorb Attribute: Willpower
+|icon=Absorb
+|spellid=000A978D
+|tomeid=None
+|magicka=14
+|desc=:{{Effect Link|Absorb Willpower}} 5 pts for 20 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Thaurron|Thaurron]]
+}}
+
+{{OB Spell
+|name=Absorb Fatigue
+|icon=Absorb
+|spellid=000A936B
+|tomeid=None
+|magicka=11
+|desc=:{{Effect Link|Absorb Fatigue}} 10 pts on Touch
+|where=* Can be purchased from: [[Oblivion:Calindil|Calindil]], [[Oblivion:Thaurron|Thaurron]]
+}}
+
+{{OB Spell
+|name=Absorb Health
+|icon=Absorb
+|spellid=000A9367
+|tomeid=xx002280
+|magicka=12
+|desc=:{{Effect Link|Absorb Health}} 5 pts on Touch
+|where=* Players with [[Oblivion:Restoration|Restoration]] as a [[Oblivion:Skills|major skill]] start with this spell<br>
+* Can be purchased from: [[Oblivion:Thaurron|Thaurron]]
+}}
+
+{{OB Spell
+|name=Absorb Magicka
+|icon=Absorb
+|spellid=000A936C
+|tomeid=xx002284
+|magicka=14
+|desc=:{{Effect Link|Absorb Magicka}} 10 pts on Touch
+|where=* Can be purchased from: [[Oblivion:Gaspar Stegine|Gaspar Stegine]], [[Oblivion:Thaurron|Thaurron]]
+}}
+
+{{OB Spell
+|name=Absorb Skill: Acrobatics
+|icon=Absorb
+|spellid=000A978E
+|tomeid=None
+|magicka=16
+|desc=:{{Effect Link|Absorb Acrobatics}} 5 pts for 10 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Thaurron|Thaurron]]
+}}
+
+{{OB Spell
+|name=Absorb Skill: Athletics
+|icon=Absorb
+|spellid=000A9792
+|tomeid=None
+|magicka=16
+|desc=:{{Effect Link|Absorb Athletics}} 5 pts for 10 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Thaurron|Thaurron]]
+}}
+
+{{OB Spell
+|name=Absorb Skill: Illusion
+|icon=Absorb
+|spellid=000A979A
+|tomeid=None
+|magicka=16
+|desc=:{{Effect Link|Absorb Illusion}} 5 pts for 10 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Calindil|Calindil]], [[Oblivion:Thaurron|Thaurron]]
+}}
+
+{{OB Spell
+|name=Absorb Skill: Security
+|icon=Absorb
+|spellid=000A97A0
+|tomeid=None
+|magicka=16
+|desc=:{{Effect Link|Absorb Security}} 5 pts for 10 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Thaurron|Thaurron]]
+}}
+
+{{OB Spell
+|name=Fortify Fatigue
+|icon=Fortify
+|spellid=0003C405
+|tomeid=xx0022E8
+|magicka=11
+|desc=:{{Effect Link|Fortify Fatigue}} 25 pts for 45 secs on Self
+|where=* Can be purchased from: [[Oblivion:Edgar Vautrine|Edgar Vautrine]], [[Oblivion:Ungarion|Ungarion]]
+}}
+
+{{OB Spell
+|name=Heal Minor Wounds
+|icon=Restore
+|spellid=00000136
+|tomeid=None
+|magicka=14
+|desc=:{{Effect Link|Restore Health}} 8 pts on Self
+|where=* All players start with this spell
+}}
+
+{{OB Spell
+|name=Heal Minor Wounds
+|icon=Restore
+|spellid=00027442
+|tomeid=None
+|magicka={{FC|green|'''14'''}} ([[#Spell Notes|19*]])
+|desc=:{{Effect Link|Restore Health}} 10 pts on Self
+|where=* {{FC|red|Not available in game}}
+}}
+
+{{OB Spell
+|name=Minor Respite
+|icon=Restore
+|spellid=00027443
+|tomeid=xx00231D
+|magicka=6
+|desc=:{{Effect Link|Restore Fatigue}} 15 pts on Self
+|where=* Can be purchased from: [[Oblivion:Avrus Adas|Avrus Adas]], [[Oblivion:Isa Raman|Isa Raman]], [[Oblivion:Ohtesse|Ohtesse]], {{Nowrap|[[Oblivion:Orag gra-Bargol|Orag gra-Bargol]]}}, [[Oblivion:Trevaia|Trevaia]]{{Intnote|2}}, [[Oblivion:Tumindil|Tumindil]], [[Oblivion:Uravasa Othrelas|Uravasa Othrelas]]{{Intnote|3|‡}}
+}}
+
+{{OB Spell
+|name=Respite
+|icon=Restore
+|spellid=0005E155
+|tomeid=None
+|magicka=9
+|desc=:{{Effect Link|Restore Fatigue}} 20 pts on Self
+|where=* {{FC|red|Not available in game}}<br>
+}}
+
+|- {{RES}}
+|colspan=6|<center>'''Apprentice'''</center>
+|-
+
+{{OB Spell
+|name=Absorb Skill: Hand to Hand
+|icon=Absorb
+|spellid=000A9798
+|tomeid=None
+|magicka=40
+|desc=:{{Effect Link|Absorb Hand to Hand}} 10 pts for 10 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Thaurron|Thaurron]]
+}}
+
+{{OB Spell
+|name=Absorb Skill: Light Armor
+|icon=Absorb
+|spellid=000A979B
+|tomeid=None
+|magicka=40
+|desc=:{{Effect Link|Absorb Light Armor}} 10 pts for 10 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Thaurron|Thaurron]]
+}}
+
+{{OB Spell
+|name=Absorb Skill: Mercantile
+|icon=Absorb
+|spellid=000A979D
+|tomeid=None
+|magicka=40
+|desc=:{{Effect Link|Absorb Mercantile}} 10 pts for 10 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Edgar Vautrine|Edgar Vautrine]], [[Oblivion:Thaurron|Thaurron]]
+}}
+
+{{OB Spell
+|name=Absorb Skill: Mysticism
+|icon=Absorb
+|spellid=000A979E
+|tomeid=None
+|magicka=40
+|desc=:{{Effect Link|Absorb Mysticism}} 10 pts for 10 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Thaurron|Thaurron]]
+}}
+
+{{OB Spell
+|name=Absorb Skill: Restoration
+|icon=Absorb
+|spellid=000A979F
+|tomeid=None
+|magicka=40
+|desc=:{{Effect Link|Absorb Restoration}} 10 pts for 10 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Thaurron|Thaurron]]
+}}
+
+{{OB Spell
+|name=Convalescence
+|icon=Restore
+|spellid=0006D7AF
+|tomeid=xx002322
+|magicka=48
+|desc=:{{Effect Link|Restore Health}} 15 pts on Target
+|where=* Can be purchased from: [[Oblivion:Avrus Adas|Avrus Adas]], [[Oblivion:Isa Raman|Isa Raman]], [[Oblivion:Ohtesse|Ohtesse]], {{Nowrap|[[Oblivion:Orag gra-Bargol|Orag gra-Bargol]]}}, [[Oblivion:Trevaia|Trevaia]]{{Intnote|2}}, [[Oblivion:Tumindil|Tumindil]], [[Oblivion:Uravasa Othrelas|Uravasa Othrelas]]{{Intnote|3|‡}}
+}}
+
+{{OB Spell
+|name=Cure Paralysis
+|icon=Cure
+|spellid=0003C3FB
+|tomeid=xx0022AD
+|magicka=50
+|desc=:{{Effect Link|Cure Paralysis}} on Touch
+|where=* Can be purchased from: [[Oblivion:Avrus Adas|Avrus Adas]], [[Oblivion:Isa Raman|Isa Raman]], [[Oblivion:Ohtesse|Ohtesse]], {{Nowrap|[[Oblivion:Orag gra-Bargol|Orag gra-Bargol]]}}, [[Oblivion:Trevaia|Trevaia]]{{Intnote|2}}, [[Oblivion:Tumindil|Tumindil]], [[Oblivion:Uravasa Othrelas|Uravasa Othrelas]]{{Intnote|3|‡}}
+}}
+
+{{OB Spell
+|name=Cure Poison
+|icon=Cure
+|spellid=0003C3FC
+|tomeid=xx0022AE
+|magicka=60
+|desc=:{{Effect Link|Cure Poison}} on Self
+|where=* Can be purchased from: [[Oblivion:Avrus Adas|Avrus Adas]], [[Oblivion:Isa Raman|Isa Raman]], [[Oblivion:Ohtesse|Ohtesse]], {{Nowrap|[[Oblivion:Orag gra-Bargol|Orag gra-Bargol]]}}, [[Oblivion:Trevaia|Trevaia]]{{Intnote|2}}, [[Oblivion:Tumindil|Tumindil]], [[Oblivion:Uravasa Othrelas|Uravasa Othrelas]]{{Intnote|3|‡}}
+}}
+
+{{OB Spell
+|name=Fortify Agility
+|icon=Fortify
+|spellid=000A9811
+|tomeid=xx0022E0
+|magicka=42
+|desc=:{{Effect Link|Fortify Agility}} 5 pts for 90 secs on Self
+|where=* Can be purchased from: [[Oblivion:Isa Raman|Isa Raman]], [[Oblivion:Melliwin|Melliwin]]{{TD}}
+}}
+
+{{OB Spell
+|name=Fortify Endurance
+|icon=Fortify
+|spellid=000A9812
+|tomeid=xx0022E1
+|magicka=42
+|desc=:{{Effect Link|Fortify Endurance}} 5 pts for 90 secs on Self
+|where=* Can be purchased from: [[Oblivion:Avrus Adas|Avrus Adas]]
+}}
+
+{{OB Spell
+|name=Fortify Health
+|icon=Fortify
+|spellid=000A9820
+|tomeid=xx0022EA
+|magicka=32
+|desc=:{{Effect Link|Fortify Health}} 30 pts for 30 secs on Self
+|where=* Can be purchased from: [[Oblivion:Selena Orania|Selena Orania]]
+}}
+
+{{OB Spell
+|name=Fortify Intelligence
+|icon=Fortify
+|spellid=000A9813
+|tomeid=xx0022E2
+|magicka=42
+|desc=:{{Effect Link|Fortify Intelligence}} 5 pts for 90 secs on Self
+|where=* Can be purchased from: [[Oblivion:Ohtesse|Ohtesse]]
+}}
+
+{{OB Spell
+|name=Fortify Luck
+|icon=Fortify
+|spellid=000A9814
+|tomeid=xx0022E3
+|magicka=42
+|desc=:{{Effect Link|Fortify Luck}} 5 pts for 90 secs on Self
+|where=* Can be purchased from: [[Oblivion:Trevaia|Trevaia]]{{Intnote|2}}
+}}
+
+{{OB Spell
+|name=Fortify Personality
+|icon=Fortify
+|spellid=000A9815
+|tomeid=xx0022E4
+|magicka=42
+|desc=:{{Effect Link|Fortify Personality}} 5 pts for 90 secs on Self
+|where=* Can be purchased from: [[Oblivion:Trevaia|Trevaia]]{{Intnote|2}}
+}}
+
+{{OB Spell
+|name=Fortify Speed
+|icon=Fortify
+|spellid=000A9816
+|tomeid=xx0022E5
+|magicka=42
+|desc=:{{Effect Link|Fortify Speed}} 5 pts for 90 secs on Self
+|where=* Can be purchased from: [[Oblivion:Borissean|Borissean]], [[Oblivion:Melliwin|Melliwin]]{{TD}}, [[Oblivion:Uravasa Othrelas|Uravasa Othrelas]]{{Intnote|3|‡}}
+}}
+
+{{OB Spell
+|name=Fortify Strength
+|icon=Fortify
+|spellid=000A9817
+|tomeid=xx0022E6
+|magicka=42
+|desc=:{{Effect Link|Fortify Strength}} 5 pts for 90 secs on Self
+|where=* Can be purchased from: {{Nowrap|[[Oblivion:Orag gra-Bargol|Orag gra-Bargol]]}}
+}}
+
+{{OB Spell
+|name=Fortify Willpower
+|icon=Fortify
+|spellid=000A9818
+|tomeid=xx0022E7
+|magicka=42
+|desc=:{{Effect Link|Fortify Willpower}} 5 pts for 90 secs on Self
+|where=* Can be purchased from: [[Oblivion:Tumindil|Tumindil]]
+}}
+
+{{OB Spell
+|name=Greater Fortify Fatigue
+|icon=Fortify
+|spellid=0003C406
+|tomeid=xx0022E9
+|magicka=26
+|desc=:{{Effect Link|Fortify Fatigue}} 50 pts for 45 secs on Self
+|where=* Can be purchased from: [[Oblivion:Edgar Vautrine|Edgar Vautrine]], [[Oblivion:Ungarion|Ungarion]]
+}}
+
+{{OB Spell
+|name=Heal Major Wounds
+|icon=Restore
+|spellid=000A9822
+|tomeid=xx00231F
+|magicka=61
+|desc=:{{Effect Link|Restore Health}} 25 pts on Self
+|where=* Can be purchased from: [[Oblivion:Alberic Litte|Alberic Litte]], [[Oblivion:Alves Uvenim|Alves Uvenim]], [[Oblivion:Avrus Adas|Avrus Adas]], [[Oblivion:Calindil|Calindil]], [[Oblivion:Delphine Jend|Delphine Jend]], [[Oblivion:Druja|Druja]], [[Oblivion:Isa Raman|Isa Raman]], {{Nowrap|[[Oblivion:Orag gra-Bargol|Orag gra-Bargol]]}}, [[Oblivion:Selena Orania|Selena Orania]], [[Oblivion:Sulinus Vassinus|Sulinus Vassinus]], [[Oblivion:Thaurron|Thaurron]], [[Oblivion:Trayvond the Redguard|Trayvond the Redguard]], [[Oblivion:Trevaia|Trevaia]]{{Intnote|2}}, [[Oblivion:Tumindil|Tumindil]], [[Oblivion:Uravasa Othrelas|Uravasa Othrelas]]{{Intnote|3|‡}}
+}}
+
+{{OB Spell
+|name=Leech Health
+|icon=Absorb
+|spellid=000A9368
+|tomeid=xx002281
+|magicka=30
+|desc=:{{Effect Link|Absorb Health}} 10 pts on Touch
+|where=* Can be purchased from: [[Oblivion:Thaurron|Thaurron]]
+}}
+
+{{OB Spell
+|name=Major Respite
+|icon=Restore
+|spellid=000A9823
+|tomeid=xx00231E
+|magicka=54
+|desc=:{{Effect Link|Restore Fatigue}} 80 pts on Self
+|where=* Can be purchased from: [[Oblivion:Ohtesse|Ohtesse]], [[Oblivion:Tumindil|Tumindil]], [[Oblivion:Uravasa Othrelas|Uravasa Othrelas]]{{Intnote|3|‡}}
+}}
+
+{{OB Spell
+|name=Night Mother's Caress
+|icon=Restore
+|spellid=0006D67A
+|tomeid=None
+|magicka={{FC|green|'''33'''}} ([[#Spell Notes|38*]])
+|desc=:{{Effect Link|Restore Health}} 10 pts for 2 secs on Self
+|where=* Can be purchased from: [[Oblivion:M'raaj-Dar|M'raaj-Dar]]
+}}
+
+{{OB Spell
+|name=Restore Agility
+|icon=Restore
+|spellid=000AA03C
+|tomeid=xx002315
+|magicka=29
+|desc=:{{Effect Link|Restore Agility}} 5 pts on Self
+|where=* Can be purchased from: [[Oblivion:Isa Raman|Isa Raman]]
+}}
+
+{{OB Spell
+|name=Restore Endurance
+|icon=Restore
+|spellid=000AA03F
+|tomeid=xx002316
+|magicka=29
+|desc=:{{Effect Link|Restore Endurance}} 5 pts on Self
+|where=* Can be purchased from: [[Oblivion:Avrus Adas|Avrus Adas]]
+}}
+
+{{OB Spell
+|name=Restore Intelligence
+|icon=Restore
+|spellid=000AA042
+|tomeid=xx002317
+|magicka=29
+|desc=:{{Effect Link|Restore Intelligence}} 5 pts on Self
+|where=* Can be purchased from: [[Oblivion:Ohtesse|Ohtesse]]
+}}
+
+{{OB Spell
+|name=Restore Luck
+|icon=Restore
+|spellid=000AA040
+|tomeid=xx002318
+|magicka=29
+|desc=:{{Effect Link|Restore Luck}} 5 pts on Self
+|where=* Can be purchased from: [[Oblivion:Trevaia|Trevaia]]{{Intnote|2}}
+}}
+
+{{OB Spell
+|name=Restore Personality
+|icon=Restore
+|spellid=000AA044
+|tomeid=xx002319
+|magicka=29
+|desc=:{{Effect Link|Restore Personality}} 5 pts on Self
+|where=* Can be purchased from: [[Oblivion:Trevaia|Trevaia]]{{Intnote|2}}
+}}
+
+{{OB Spell
+|name=Restore Speed
+|icon=Restore
+|spellid=000AA049
+|tomeid=xx00231A
+|magicka=29
+|desc=:{{Effect Link|Restore Speed}} 5 pts on Self
+|where=* Can be purchased from: [[Oblivion:Uravasa Othrelas|Uravasa Othrelas]]{{Intnote|3|‡}}
+}}
+
+{{OB Spell
+|name=Restore Strength
+|icon=Restore
+|spellid=000AA047
+|tomeid=xx00231B
+|magicka=29
+|desc=:{{Effect Link|Restore Strength}} 5 pts on Self
+|where=* Can be purchased from: {{Nowrap|[[Oblivion:Orag gra-Bargol|Orag gra-Bargol]]}}
+}}
+
+{{OB Spell
+|name=Restore Willpower
+|icon=Restore
+|spellid=000AA04A
+|tomeid=xx00231C
+|magicka=29
+|desc=:{{Effect Link|Restore Willpower}} 5 pts on Self
+|where=* Can be purchased from: [[Oblivion:Tumindil|Tumindil]]
+}}
+
+|- {{RES}}
+|colspan=6|<center>'''Journeyman'''</center>
+|-
+
+{{OB Spell
+|name=Absorb Skill: Alteration
+|icon=Absorb
+|spellid=000A9790
+|tomeid=None
+|magicka=67
+|desc=:{{Effect Link|Absorb Alteration}} 15 pts for 10 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Edgar Vautrine|Edgar Vautrine]], [[Oblivion:Marc Gulitte|Marc Gulitte]]
+}}
+
+{{OB Spell
+|name=Absorb Skill: Block
+|icon=Absorb
+|spellid=000A9794
+|tomeid=None
+|magicka=67
+|desc=:{{Effect Link|Absorb Block}} 15 pts for 10 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Marc Gulitte|Marc Gulitte]]
+}}
+
+{{OB Spell
+|name=Absorb Skill: Conjuration
+|icon=Absorb
+|spellid=000A9796
+|tomeid=None
+|magicka=67
+|desc=:{{Effect Link|Absorb Conjuration}} 15 pts for 10 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Marc Gulitte|Marc Gulitte]]
+}}
+
+{{OB Spell
+|name=Absorb Skill: Heavy Armor
+|icon=Absorb
+|spellid=000A9799
+|tomeid=None
+|magicka=67
+|desc=:{{Effect Link|Absorb Heavy Armor}} 15 pts for 10 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Marc Gulitte|Marc Gulitte]]
+}}
+
+{{OB Spell
+|name=Absorb Skill: Marksman
+|icon=Absorb
+|spellid=000A979C
+|tomeid=None
+|magicka=67
+|desc=:{{Effect Link|Absorb Marksman}} 15 pts for 10 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Marc Gulitte|Marc Gulitte]]
+}}
+
+{{OB Spell
+|name=Consume Health
+|icon=Absorb
+|spellid=000A9369
+|tomeid=xx002282
+|magicka=74
+|desc=:{{Effect Link|Absorb Health}} 20 pts on Touch
+|where=* Can be purchased from: [[Oblivion:Marc Gulitte|Marc Gulitte]], [[Oblivion:Trevaia|Trevaia]]{{Intnote|2}}, [[Oblivion:Volanaro|Volanaro]]
+}}
+
+{{OB Spell
+|name=Cure Disease
+|icon=Cure
+|spellid=0003C3FA
+|tomeid=xx0022AC
+|magicka=140
+|desc=:{{Effect Link|Cure Disease}} on Self
+|where=* Can be purchased from: [[Oblivion:Avrus Adas|Avrus Adas]], [[Oblivion:Isa Raman|Isa Raman]], [[Oblivion:Ohtesse|Ohtesse]], {{Nowrap|[[Oblivion:Orag gra-Bargol|Orag gra-Bargol]]}}, [[Oblivion:Trevaia|Trevaia]]{{Intnote|2}}, [[Oblivion:Tumindil|Tumindil]], [[Oblivion:Uravasa Othrelas|Uravasa Othrelas]]{{Intnote|3|‡}}
+}}
+
+{{OB Spell
+|name=Fortify Magicka
+|icon=Fortify
+|spellid=0003C407
+|tomeid=xx0022EC
+|magicka=69
+|desc=:{{Effect Link|Fortify Magicka}} 30 pts for 60 secs on Self
+|where=* Can be purchased from: [[Oblivion:Edgar Vautrine|Edgar Vautrine]], [[Oblivion:Marc Gulitte|Marc Gulitte]], {{Nowrap|[[Oblivion:Raminus Polus|Raminus Polus]]}}, [[Oblivion:Ungarion|Ungarion]]
+}}
+
+{{OB Spell
+|name=Greater Convalescence
+|icon=Restore
+|spellid=000C7661
+|tomeid=xx002323
+|magicka=138
+|desc=:{{Effect Link|Restore Health}} 20 pts for 2 secs on Target
+|where=* Can be purchased from: [[Oblivion:Avrus Adas|Avrus Adas]], [[Oblivion:Isa Raman|Isa Raman]], [[Oblivion:Ohtesse|Ohtesse]], {{Nowrap|[[Oblivion:Orag gra-Bargol|Orag gra-Bargol]]}}, [[Oblivion:Trevaia|Trevaia]]{{Intnote|2}}, [[Oblivion:Tumindil|Tumindil]], [[Oblivion:Uravasa Othrelas|Uravasa Othrelas]]{{Intnote|3|‡}}
+}}
+
+{{OB Spell
+|name=Greater Fortify Agility
+|icon=Fortify
+|spellid=000A9809
+|tomeid=None
+|magicka=102
+|desc=:{{Effect Link|Fortify Agility}} 10 pts for 90 secs on Self
+|where=* Can be purchased from: [[Oblivion:Isa Raman|Isa Raman]], [[Oblivion:Melliwin|Melliwin]]{{TD}}
+}}
+
+{{OB Spell
+|name=Greater Fortify Endurance
+|icon=Fortify
+|spellid=000A980A
+|tomeid=None
+|magicka=102
+|desc=:{{Effect Link|Fortify Endurance}} 10 pts for 90 secs on Self
+|where=* Can be purchased from: [[Oblivion:Aurelinwae|Aurelinwae]]{{WT}}, [[Oblivion:Avrus Adas|Avrus Adas]]
+}}
+
+{{OB Spell
+|name=Greater Fortify Intelligence
+|icon=Fortify
+|spellid=000A980B
+|tomeid=None
+|magicka=102
+|desc=:{{Effect Link|Fortify Intelligence}} 10 pts for 90 secs on Self
+|where=* Can be purchased from: [[Oblivion:Aurelinwae|Aurelinwae]]{{WT}}, [[Oblivion:Ohtesse|Ohtesse]]
+}}
+
+{{OB Spell
+|name=Greater Fortify Luck
+|icon=Fortify
+|spellid=000A980C
+|tomeid=None
+|magicka=102
+|desc=:{{Effect Link|Fortify Luck}} 10 pts for 90 secs on Self
+|where=* Can be purchased from: [[Oblivion:Gaspar Stegine|Gaspar Stegine]], [[Oblivion:Trevaia|Trevaia]]{{Intnote|2}}
+}}
+
+{{OB Spell
+|name=Greater Fortify Personality
+|icon=Fortify
+|spellid=000A980D
+|tomeid=None
+|magicka=102
+|desc=:{{Effect Link|Fortify Personality}} 10 pts for 90 secs on Self
+|where=* Can be purchased from: [[Oblivion:Trevaia|Trevaia]]{{Intnote|2}}
+}}
+
+{{OB Spell
+|name=Greater Fortify Speed
+|icon=Fortify
+|spellid=000A980E
+|tomeid=None
+|magicka=102
+|desc=:{{Effect Link|Fortify Speed}} 10 pts for 90 secs on Self
+|where=* Can be purchased from: [[Oblivion:Uravasa Othrelas|Uravasa Othrelas]]{{Intnote|3|‡}}, [[Oblivion:Volanaro|Volanaro]], [[Oblivion:Melliwin|Melliwin]]{{TD}}
+}}
+
+{{OB Spell
+|name=Greater Fortify Strength
+|icon=Fortify
+|spellid=000A980F
+|tomeid=None
+|magicka=102
+|desc=:{{Effect Link|Fortify Strength}} 10 pts for 90 secs on Self
+|where=* Can be purchased from: {{Nowrap|[[Oblivion:Orag gra-Bargol|Orag gra-Bargol]]}}
+}}
+
+{{OB Spell
+|name=Greater Fortify Willpower
+|icon=Fortify
+|spellid=000A9810
+|tomeid=None
+|magicka=102
+|desc=:{{Effect Link|Fortify Willpower}} 10 pts for 90 secs on Self
+|where=* Can be purchased from: [[Oblivion:Aurelinwae|Aurelinwae]]{{WT}}, [[Oblivion:Tumindil|Tumindil]]
+}}
+
+{{OB Spell
+|name=Heal Greater Wounds
+|icon=Restore
+|spellid=000AA03A
+|tomeid=xx002320
+|magicka=92
+|desc=:{{Effect Link|Restore Health}} 20 pts for 2 secs on Self
+|where=* Can be purchased from: [[Oblivion:Avrus Adas|Avrus Adas]], {{Nowrap|[[Oblivion:Orag gra-Bargol|Orag gra-Bargol]]}}, [[Oblivion:Trevaia|Trevaia]]{{Intnote|2}}, [[Oblivion:Tumindil|Tumindil]], [[Oblivion:Uravasa Othrelas|Uravasa Othrelas]]{{Intnote|3|‡}}
+}}
+
+{{OB Spell
+|name=Minor Magic Resistance
+|icon=Resist
+|spellid=0008D1EA
+|tomeid=xx002314
+|magicka=128
+|desc=:{{Effect Link|Resist Magic}} 15% for 20 secs on Self
+|where=* Can be purchased from: [[Oblivion:Thaurron|Thaurron]]
+}}
+
+|- {{RES}}
+|colspan=6|<center>'''Expert'''</center>
+|-
+
+{{OB Spell
+|name=Absorb Skill: Blade
+|icon=Absorb
+|spellid=000A9793
+|tomeid=None
+|magicka=193
+|desc=:{{Effect Link|Absorb Blade}} 25 pts for 15 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Marc Gulitte|Marc Gulitte]], [[Oblivion:Selena Orania|Selena Orania]]
+}}
+
+{{OB Spell
+|name=Absorb Skill: Blunt
+|icon=Absorb
+|spellid=000A9795
+|tomeid=None
+|magicka=193
+|desc=:{{Effect Link|Absorb Blunt}} 25 pts for 15 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Marc Gulitte|Marc Gulitte]]
+}}
+
+{{OB Spell
+|name=Absorb Skill: Destruction
+|icon=Absorb
+|spellid=000A9797
+|tomeid=None
+|magicka=193
+|desc=:{{Effect Link|Absorb Destruction}} 25 pts for 15 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Marc Gulitte|Marc Gulitte]]
+}}
+
+{{OB Spell
+|name=Absorb Skill: Sneak
+|icon=Absorb
+|spellid=000A97A1
+|tomeid=None
+|magicka=193
+|desc=:{{Effect Link|Absorb Sneak}} 25 pts for 15 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Gaspar Stegine|Gaspar Stegine]], [[Oblivion:Marc Gulitte|Marc Gulitte]]
+}}
+
+{{OB Spell
+|name=Devour Health
+|icon=Absorb
+|spellid=000A936A
+|tomeid=xx002283
+|magicka=179
+|desc=:{{Effect Link|Absorb Health}} 40 pts on Touch
+|where=* Can be purchased from: [[Oblivion:Borissean|Borissean]], [[Oblivion:Marc Gulitte|Marc Gulitte]]
+}}
+
+{{OB Spell
+|name=Greater Fortify Health
+|icon=Fortify
+|spellid=000A9821
+|tomeid=xx0022EB
+|magicka=158
+|desc=:{{Effect Link|Fortify Health}} 60 pts for 60 secs on Self
+|where=* Can be purchased from: [[Oblivion:Avrus Adas|Avrus Adas]], [[Oblivion:Marc Gulitte|Marc Gulitte]]
+}}
+
+{{OB Spell
+|name=Greater Fortify Magicka
+|icon=Fortify
+|spellid=0003C409
+|tomeid=xx0022ED
+|magicka=169
+|desc=:{{Effect Link|Fortify Magicka}} 60 pts for 60 secs on Self
+|where=* Can be purchased from: [[Oblivion:Avrus Adas|Avrus Adas]], [[Oblivion:Marc Gulitte|Marc Gulitte]]
+}}
+
+{{OB Spell
+|name=Heal Superior Wounds
+|icon=Restore
+|spellid=000AA03B
+|tomeid=xx002321
+|magicka=246
+|desc=:{{Effect Link|Restore Health}} 25 pts for 4 secs on Self
+|where=* Can be purchased from: [[Oblivion:Isa Raman|Isa Raman]], [[Oblivion:Ohtesse|Ohtesse]], {{Nowrap|[[Oblivion:Orag gra-Bargol|Orag gra-Bargol]]}}, {{Nowrap|[[Oblivion:Raminus Polus|Raminus Polus]]}}, [[Oblivion:Tumindil|Tumindil]]
+}}
+
+{{OB Spell
+|name=Superior Convalescence
+|icon=Restore
+|spellid=000C7662
+|tomeid=xx002324
+|magicka=277
+|desc=:{{Effect Link|Restore Health}} 20 pts for 4 secs on Target
+|where=* Can be purchased from: [[Oblivion:Avrus Adas|Avrus Adas]], [[Oblivion:Isa Raman|Isa Raman]], [[Oblivion:Ohtesse|Ohtesse]], {{Nowrap|[[Oblivion:Orag gra-Bargol|Orag gra-Bargol]]}}, [[Oblivion:Trevaia|Trevaia]]{{Intnote|2}}, [[Oblivion:Tumindil|Tumindil]], [[Oblivion:Uravasa Othrelas|Uravasa Othrelas]]{{Intnote|3|‡}}
+}}
+
+|- {{RES}}
+|colspan=6|<center>'''Master'''</center>
+|-
+
+{{OB Spell
+|name=Absorb Fatigue
+|icon=Absorb
+|spellid=000CA0CA
+|tomeid=None
+|magicka=738
+|desc=:{{Effect Link|Absorb Fatigue}} 25 pts for 20 secs on Touch
+|where=* {{FC|red|Not available in game}}<br>
+* This spell appears on the spell lists for some NPCs. Curiously, it is assigned to NPCs who only have an Apprentice level Restoration Skill.
+}}
+
+{{OB Spell
+|name=Absorb Fatigue
+|icon=Absorb
+|spellid=000CA0CB
+|tomeid=None
+|magicka=1704
+|desc=:{{Effect Link|Absorb Fatigue}} 35 pts for 30 secs on Touch
+|where=* {{FC|red|Not available in game}}<br>
+* This spell appears on the spell lists for some NPCs. Curiously, it is assigned to NPCs who only have a Journeyman level Restoration Skill.
+}}
+
+{{OB Spell
+|name=Absorb Fatigue
+|icon=Absorb
+|spellid=000CA0CC
+|tomeid=None
+|magicka=4036
+|desc=:{{Effect Link|Absorb Fatigue}} 50 pts for 45 secs on Touch
+|where=* {{FC|red|Not available in game}}<br>
+* This spell appears on the spell lists for some NPCs. Curiously, it is assigned to NPCs who only have an Expert level Restoration Skill.
+}}
+
+{{OB Spell
+|name=Heal Legendary Wounds
+|icon=Restore
+|spellid=00083714
+|tomeid=None
+|magicka=466
+|desc=:{{Effect Link|Restore Health}} 30 pts for 6 secs on Self
+|where=* Can be purchased from: [[Oblivion:Borissean|Borissean]], [[Oblivion:Isa Raman|Isa Raman]], [[Oblivion:Tumindil|Tumindil]]
+}}
+|}
+
+{{Note|2||If you've installed [[Oblivion:Knights of the Nine|Knights of the Nine]], Trevaia will be dead. [[Oblivion:Selene Duronia|Selene Duronia]] will sell all of the same spells once you've completed the questline.}}
+{{Note|3|‡|Similar to Selene Duronia, [[Oblivion:Eris Senim|Eris Senim]] will replace Uravasa Othrelas.}}
+<references /><noinclude>
+{{Oblivion:Spell List Notes}}</noinclude>

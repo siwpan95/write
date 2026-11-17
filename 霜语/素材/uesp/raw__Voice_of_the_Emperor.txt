@@ -1,0 +1,24 @@
+{{Spell Summary
+|spellid=000e40ca
+|editorid=PowerImperialPacify
+|icon=SR-icon-spell-Magic Hat.png
+|type=Defensive
+|cast=Fire and Forget
+|delivery=Self
+|equip=Voice
+|school=Power
+|diff=Greater
+|duration=60 sec
+|range=75 ft
+|magnitude=99
+|area=0
+|desc=Calms nearby people for 60 seconds.
+|notes=* [[Skyrim:Imperial|Imperial]] racial ability.
+}}
+'''Voice of the Emperor''' is a [[Skyrim:Powers#Greater Powers|Greater Power]] possessed by all [[Skyrim:Imperial|Imperial]]s, which allows them once a day to cast a powerful [[Skyrim:Pacify (effect)|Pacify effect]] on all NPC targets within a 75 ft radius.
+
+<!--==Effects==-->
+
+==Notes==
+* This is by far the most powerful Pacify effect available, as it will work against enemies up to level 99, which is higher than any other found in the game.  However, unlike the Pacify spells, it only affects NPC targets, not creatures.  It will, however, work on vampires without having the [[Skyrim:Master of the Mind|Master of the Mind]] perk.
+{{Skyrim Powers}}

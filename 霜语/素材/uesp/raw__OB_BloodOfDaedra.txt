@@ -1,0 +1,132 @@
+{{Cleanup-obrp-quest
+|image=[[User:TheDravenator|TheDravenator]]
+|imageChecked=
+|writtenBy=
+|checkedBy=
+|objectivesChecked=
+|reward=
+|rewardChecked=
+}}{{Quest Header
+|type=Main Quest
+|Giver=[[Oblivion:Martin|Martin]] at [[Oblivion:Cloud Ruler Temple|Cloud Ruler Temple]]
+|Icon=OBR-icon-quest-main-Daedra.png
+|Iconsize=70px
+|Reward= 
+|Fame=0 (See [[#Bugs|Bugs]])
+|ReqItem=A Daedric Artifact
+|ReqLevel=2 (in order to obtain such an artifact)
+|Prev=[[Oblivion:Spies|Spies]]
+|Next=[[Oblivion:Bruma_Gate|Bruma Gate]]
+|Conc=One of [[Oblivion:Daedric Quests|Daedric Quests]]
+|Loc=[[Oblivion:Cloud_Ruler_Temple|Cloud Ruler Temple]], any of several [[Oblivion:Daedric_Quests|Daedric Shrines]]
+|ID=MQ08
+|Image=OB-quest-Blood of the Daedra.jpg
+|imgremaster=OBR-quest-Blood of the Daedra.jpg
+|ImgDesc=Martin needs a Daedric Artifact to open a portal
+|description=Locate a [[Oblivion:Daedra|Daedric]] [[Oblivion:Daedric Quests|artifact]] for [[Oblivion:Martin|Martin]].
+}}
+
+==Quick Walkthrough==
+# Speak with [[Oblivion:Brother Martin|Martin]] about finding [[Oblivion:Mankar Camoran|Mankar Camoran]]; he needs four particular items, the first being a Daedric Artifact.
+# Follow Martin's suggestions to learn more about Daedric Artifacts and their possible locations.
+# The quest names one artifact in particular to find and retrieve; any artifact from a Daedric shrine will do, however.
+# Give Martin the Artifact of your choice and give him more time to continue the translation of the [[Oblivion:Mysterium Xarxes|Mysterium Xarxes]].
+
+==Detailed Walkthrough==
+===Cloud Ruler Temple===
+After learning about the impending attack on [[Oblivion:Bruma|Bruma]] by the Mythic Dawn, speak to Martin about his progress on deciphering the ''Mysterium Xarxes''. It seems in order to open a portal to Paradise, four items are needed. So far he has only determined what one of those items is: a Daedric Artifact.
+
+===Blessings of the Fifteen===
+Ask Martin about "Daedric Artifacts" and he will suggest you read ''[[Oblivion:Modern Heretics|Modern Heretics]]'' for more information. The book will be on the table Martin sits at while working. The book provides all the information necessary to get a Daedric artifact from Azura's Shrine (including a map marker for its location). If you've been focusing on the main quest so far, the quickest way to get to Azura's Shrine is to fast travel back to [[Oblivion:Lake Arrius Caverns|Lake Arrius Caverns]] and head cross-country from there. The page on [[Oblivion:Azura|Azura]]'s quest describes what to expect once you reach the shrine. However, Azura is not the only option. There are 15 Daedric artifacts available in Cyrodiil, one from each of 15 Daedric Princes, and any of these artifacts will satisfy Martin's needs. Details on all of these quests are provided under [[Oblivion:Daedric Quests|Daedric Quests]].
+
+Probably the most important thing to consider when choosing an artifact to use is whether or not you can use the item effectively. The full value of each individual artifact is determined by your own style, and an excellent sword that no blade-strong person would ever dream of parting with may just be the right choice for an archer or mace-fighter to sacrifice. That said, each artifact does have some consistent qualities that make it a good or terrible choice to sacrifice:
+
+*'''[[Oblivion:Azura's Star|Azura's Star]]:''' It is highly recommended that you '''DO NOT''' give up Azura's Star, as this item is much too useful to lose. It is essentially a reusable [[Oblivion:Grand Soul Gem|Grand Soul Gem]] and it becomes particularly valuable as you start to rely on enchanted weapons later in the game. Even if you have never [[Oblivion:Soul Trap|trapped a single soul]], it's worth keeping the Star for later. It will become extraordinarily useful. Replaceable by Grand Soul Gems, up to the point where either the supply of those or your patience runs out.
+
+*'''[[Oblivion:Ebony Blade|Ebony Blade]]:''' An excellent blade for use against spellcasters, but not as effective against more mundane fighters, or monsters (who use powers that are immune to [[Oblivion:Silence|Silence]]). If you're on a witch-hunt, you will have to compare this with casting Silence or poisoning a weapon with a suitable concoction, and wielding instead a [[Oblivion:Daedric Longsword|Daedric Longsword]] (24 damage to the Ebony Blade's 23) enchanted with a Sigil Stone ([[Oblivion:Absorb Health|Absorb Health]] [[Oblivion:Sigil Stones|Sigil Stones]] are available as early as level 5 and absorb 10 points or more, with the highest, at level 17, absorbing 25; the Ebony Blade absorbs only 8 health).
+
+*'''[[Oblivion:Goldbrand|Goldbrand]]:''' A weapon with very high physical damage, rivaling that of the vaunted Umbra. Unlike Umbra though, this blade's enchantment inflicts further damage. If you're focused on longsword fighting, this is practically essential for your arsenal. A Daedric Longsword with a Fire Damage Transcendent Sigil Stone does 1 less physical and 3 more Fire Damage.
+
+*'''[[Oblivion:Mace of Molag Bal|Mace of Molag Bal]]:''' The Absorb Strength enchantment on the mace has no duration, making it wholly ineffective, and the low number of charges of Absorb Magicka make this a relatively poor weapon for actual use, even for a skilled Blunt user. A Daedric Mace does 1 less damage and the relevant Ascendent Sigil Stone absorbs ten times as much Magicka.
+** {{OBR22}} [[Oblivion: Oblivion Remastered|Oblivion Remastered]] addressed the lack of a duration on the Absorb Strength Enchantment, giving it a duration of 10 seconds.
+
+*'''[[Oblivion:Masque of Clavicus Vile|Masque of Clavicus Vile]]:''' If you do not intend to use [[Oblivion:Umbra (sword)|Umbra]], then the Masque of Clavicus Vile is an excellent choice to sacrifice, as it increases only your Personality, which is widely considered to be one of the least useful stats as Persuasion can be supplemented with an extensive array of aids including bribes, [[Oblivion:Charm|Charm]] spells, [[Oblivion:Fortify Attribute|Fortify Personality]] and [[Oblivion:Speechcraft|Speechcraft]], both available in spell and potion form. Fortify Personality is available at Enchanting Altars, but not in Sigil Stones. Utterly replaceable (other than appearance) by the [[Oblivion:Helm of the Crusader|Helm of the Crusader]] - found in Knights of the Nine - which is more durable, lighter and adds 25 Personality instead of 20, although [[Oblivion:Infamy|infamous]] characters cannot wear it and must complete the [[Oblivion:Pilgrimage|Pilgrimage]] again first.
+
+*'''[[Oblivion:Oghma Infinium|Oghma Infinium]]:''' The value of this artifact - especially when used by a high-level character - is almost beyond consideration. It offers you the opportunity to train your character beyond the conventional limits of skills and attributes and should be retained at the expense of any other artifact you have available. No comparable replacement. This item, however, is your failsafe should you no longer have access to any other item, as this item's quest cannot start until you have started this quest.
+** {{OBR22}} [[Oblivion: Oblivion Remastered|Oblivion Remastered]] it is possible to read the Oghma Infinium, and give it to Martin before it disappears from the inventory. This gives both the selected boon from the Oghma Infinium and progresses the quest. (Tested on PS5) 
+
+*'''[[Oblivion:Ring of Khajiiti|Ring of Khajiiti]]:''' The 35% [[Oblivion:Chameleon|Chameleon]] and Fortify Speed by 10pts effects of the ring make this artifact valuable for Stealth-based characters; a Transcendent Sigil Stone can provide 30% Chameleon and surpass the ring's Speed boost with 12pts, but ''not'' both.
+
+*'''[[Oblivion:Ring of Namira|Ring of Namira]]:''' This ring offers Reflect Damage 12% and Reflect Spell 10%. Potions can provide either effect at up to 24%, as do numerous other items, although the combination of the two qualities is uncommon ([[Oblivion:Mirror Shield|Mirror Shield]] is another instance).
+
+*'''[[Oblivion:Sanguine Rose|Sanguine Rose]]:''' This artifact can be a powerful weapon if used carefully, especially for a low-level character. However, it can also be a danger to the user. The Sanguine Rose summons a random Daedra next to your target, which usually attacks it. However, if you are standing nearby there is a chance it will attack you instead. At higher levels, it is entirely replaceable by - and unequivocally inferior to in many respects - [[Oblivion:Summon|Summon]] spells.
+
+*'''[[Oblivion:Saviour's Hide|Saviour's Hide]]:''' As a physical cuirass of [[Oblivion:Light Armor|Light Armor]] it is one of the best available, being only slightly less protective than Glass but one-fifth of its weight. If you are playing an [[Oblivion:High Elf|Altmer]], or you were born under [[Oblivion:The Apprentice|the Apprentice]] birthsign it will help counter your weakness to magic. Compare its 25% magic resistance to a Sigil Stone's maximum of 20%. Incomparable weight for the protection. Utterly replaceable (other than appearance and weight) by the highest level version of [[Oblivion:Mehrunes%27_Razor_Items#Morag_Tong_Cuirass|Morag Tong Cuirass]] found in Mehrunes' Razor - which not only gives 25% magic resistance but also 25% resistance to normal weapons, adds 13pts of Agility and has slightly higher armor rating.
+
+*'''[[Oblivion:Skeleton Key|Skeleton Key]]:''' Is extremely useful for anyone, since it gives you infinite tries to open a lock. For characters with sufficiently high magicka, [[Oblivion:Open|Open]] spells may be an alternative. However, there is a [[#Bugs|bug]] associated with this artifact.
+
+*'''[[Oblivion:Skull of Corruption|Skull of Corruption]]:''' At best, you can make good use of this staff in a tight situation; it especially helps stand-back conjurers when facing magic-using NPCs. At worst, it is a very entertaining toy. If you can keep it, then keep it. No comparable replacement.
+
+*'''[[Oblivion:Spell Breaker|Spell Breaker]]:''' An excellent shield, especially if you're going up against spellcasters. Even if you are unskilled in Heavy Armor, you can at least equip the shield to make use of its 30% [[Oblivion:Reflect Spell|Spell Reflection]], whether they have an accompanying weapon or not. Not a wise item to give up, as long as you can shoulder the weight. As with Ring of Namira, Reflect Spell can be provided with potions.
+
+*'''[[Oblivion:Volendrung|Volendrung]]:''' As one of the few weapons with a Paralyze enchantment, Volendrung has its strengths. But, as the heaviest artifact around, only a skilled Blunt fighter won't mind carrying it everywhere. Neither Sigil Stones nor the [[Oblivion:Enchanting|Enchanting]] Altar offer the Paralyze effect, but there are five Oblivion and three Shivering Isles ingredients available to make such a [[Oblivion:Poison|poison]].
+
+*'''[[Oblivion:Wabbajack|Wabbajack]]:''' When successfully struck, a target - no matter how damaged - is transformed into one of eight random creatures at full health, from a [[Oblivion:Rat|Rat]] all the way up to an [[Oblivion:Ogre|Ogre]]. After ten seconds, the target reverts back to its original form, fully healed. Available at level 2, and the quest to obtain it is relatively easy. Lightweight. No equivalent replacement. Not a good weapon for low level characters. However, the Wabbajack is actually quite useful to you if you can kill any creature it summons within ten seconds and more easily than the enemies normally faced. It can be considered a form of crowd control when fighting Ogres, Gloom Wraiths or Goblin Warlords, as there is a 90% chance it will summon something weaker than an Ogre.
+
+===Mysterium Artifact===
+Finding the other Daedric shrines is generally not easy: as suggested by ''Modern Heretics'', the shrines are remote and few people know of their existence. Which artifact to obtain for Martin is entirely up to you. One key factor is your level: each quest has a minimum level requirement, ranging from 2 to 20 (Azura and Sheogorath are the only quests available at level 2). Another key factor will be which artifact you think is least useful for you. All the Daedric artifacts have unique magical powers, including capabilities that are not otherwise available. The artifact you give to Martin will be destroyed and gone for good. Once you obtain a Daedric artifact, return to Martin and give him the artifact. Martin tells you he needs more time to continue translating the ''Mysterium Xarxes'' and tells you to speak with [[Oblivion:Jauffre|Jauffre]] in the meantime.
+
+==Notes==
+* Only the fifteen items [[#Blessings of the Fifteen|listed above]] can be used for this quest. All other items—even ones with Daedric origins (e.g., [[Oblivion:Mehrunes Razor|Mehrunes Razor]], the [[Oblivion:Staff of the Everscamp|Staff of the Everscamp]] or the [[Shivering:Staff of Sheogorath|Staff of Sheogorath]])—cannot be used.
+* This quest can be completed at level 1 by exploiting a loophole in the conditions for retrieving the Masque of Clavicus Vile. See [[Oblivion:Clavicus_Vile#Notes|here]] for more information.
+* {{Xbox22}} An [[Oblivion:Xbox_360_Achievements#Main_Quest_Achievements|achievement]] will be unlocked upon giving Martin an artifact.
+
+===Martin's Comments===
+Martin has a different response for each of the possible artifacts. These responses are:
+* [[Oblivion:Azura's Star|Azura's Star]]: ''Ah, Azura's Star... as beautiful as all the tales tell.''
+* [[Oblivion:Ebony Blade|Ebony Blade]]: ''I wonder if Mephala herself knows how many lives this foul blade has taken over the years? I will be glad to give the world a respite from it.''
+* [[Oblivion:Goldbrand|Goldbrand]]: ''This blade has slain many a hero over the years. Tamriel will be better off without it for a while.''
+* [[Oblivion:Mace of Molag Bal|Mace of Molag Bal]]: ''A fearsome weapon, and steeped in the ancient evil of its master. May its deadly power turn good, for once.''
+* [[Oblivion:Masque of Clavicus Vile|Masque of Clavicus Vile]]: ''Ah, the Masque of Clavicus Vile. You are wise not to let yourself get further enmeshed in his plots.''
+* [[Oblivion:Oghma Infinium|Oghma Infinium]]: ''Not many could resist the temptation of the Oghma Infinium. Now it is my turn to be put to the test!''
+* [[Oblivion:Ring of Khajiiti|Ring of Khajiiti]]: ''Thieves everywhere will curse us both for the loss of this ring, my friend. So be it.''
+* [[Oblivion:Ring of Namira|Ring of Namira]]: ''I'll sleep better once this keepsake of Namira is gone from my possession. A good choice for our purpose, though.''
+* [[Oblivion:Sanguine Rose|Sanguine Rose]]: ''I never thought to see this again. I once possessed it, briefly ... a lifetime ago, it seems now ...  To obtain it, and then give it up... I honor your dedication to our cause.''
+* [[Oblivion:Saviour's Hide|Saviour's Hide]]: ''There is no disguising the bestial nature of some of the daedric Princes.''
+* [[Oblivion:Skeleton Key|Skeleton Key]]: ''The merchants of Cyrodiil would sleep more soundly, knowing this Key is gone from the world. But why tell them?''
+* [[Oblivion:Skull of Corruption|Skull of Corruption]]: ''The world will be better off with this foul thing gone from it.''
+* [[Oblivion:Spell Breaker|Spell Breaker]]: ''Not many people would give up Spellbreaker for destruction, my friend. Your sacrifice honors me.''
+* [[Oblivion:Volendrung|Volendrung]]: ''Who now knows the tale of how this Dwemer hammer came to embody the power of one of their most bitter foes?''
+* [[Oblivion:Wabbajack|Wabbajack]]: ''Good riddance to this tool of mischief.''
+
+==Bugs==
+{{Bug|[[Oblivion:Spell Breaker|Spell Breaker]], [[Oblivion:Peryite|Peryite]]'s artifact, may not appear as an option in the list of artifacts when talking to Martin.|OOP|1.1.511}}
+** {{OBR Fix}}
+{{Bug|If you give up the [[Oblivion:Skeleton Key|Skeleton Key]], the game does not always properly register the removal of the +40 bonus to your Security skill.|UOP}}
+** {{pc22}} You can use [[Oblivion:console|console]] commands to revert to your old skill level. For example, to reduce your security from 71 to 31, type: <code>player.[[Oblivion:Console#setav|setav]] security 31</code>.
+{{Bug|This quest is supposed to reward 1 Fame point upon completion, but the <code>ModPCFame 1</code> command is set on Stage 0. This stage was meant for quest testing and cleanup, but is never set in the course of the normal game and is therefore unreachable without using the console command <code>SetStage MQ08 0</code>.|UOP}}
+
+== Journal Entries ==
+{{Journal Entries
+| 9
+| 
+| The book "Modern Heretics" describes the location of the Shrine of Azura. Perhaps if I visit this Shrine I can learn how to obtain a Daedric Artifact.
+| 10
+|
+| Martin has found a section of the Mysterium Xarxes which describes a ritual which will allow him to open a portal to Camoran's Paradise, where Mankar Camoran has taken the Amulet of Kings. He has learned that four items are required for this ritual, but has only {{sic|identifed|identified}} one so far: 'the blood of a Daedra Lord', which he says refers to a Daedric Artifact. '''then'''<br/>
+I need to locate a Daedric Artifact and bring it back to Martin at Cloud Ruler Temple.
+| 15
+|
+| I should read "Modern Heretics" for information about how to locate a daedric artifact.
+| 20
+|
+| I have a Daedric Artifact, which Martin needs for the ritual to open a portal to Camoran's Paradise. I should bring it to him at Cloud Ruler Temple.
+| 30
+|
+| I gave Martin the Daedric Artifact he needed for the Mysterium Xarxes ritual.
+| 100
+|fin
+| {{Quest Comment|Empty Journal Entry, is only used to finish the quest after stage 30 has been reached. Adds an achievement if you are playing on an Xbox 360 console}}
+}}
+{{OB Journal Entries Notes}}
+{{Quest Footer|Prev=[[Oblivion:Spies|Spies]]|Next=[[Oblivion:Bruma_Gate|Bruma Gate]]|Up=[[Oblivion:Main Quest|Main Quest]]}}

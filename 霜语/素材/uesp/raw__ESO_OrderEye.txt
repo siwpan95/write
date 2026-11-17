@@ -1,0 +1,25 @@
+<noinclude>{{Trail|Factions}}</noinclude>
+The [[Online:Order of the Eye|Order of the Eye]] is a subfaction of the [[Online:Mages Guild|Mages Guild]] whose object is to research side effects of the [[Online:Planemeld|Planemeld]].<noinclude>
+{{FMI}}
+
+==Members==
+{| class=wikitable
+!Named Members
+|-
+|
+;[[Online:Adeber Loumont|Adeber Loumont]]
+;[[Online:Alvur Baren|Alvur Baren]]
+;[[Online:Bonafryd|Bonafryd]]
+;Gilnenor{{ref|name=ONNeelo|[[Online:Neelo|Neelo]]'s dialogue during the quest ''[[Online:Of Knives and Long Shadows|Of Knives and Long Shadows]]''}}
+;[[Online:Neelo|Neelo]]
+;Ragar{{ref|name=ONNeelo|[[Online:Neelo|Neelo]]'s dialogue during the quest ''[[Online:Of Knives and Long Shadows|Of Knives and Long Shadows]]''}}
+;[[Online:Skaldir|Skaldir]]
+;[[Online:Wenridil|Wenridil]]
+|}
+
+==Related Quests==
+*{{Quest Link|Madness in Tamriel}}
+*{{Quest Link|Of Knives and Long Shadows}}
+
+{{Online Factions}}
+[[Category:Online-Factions-Mages Guild| Order of the Eye]]

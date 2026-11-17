@@ -1,0 +1,182 @@
+{{About|the city|the hold|Whiterun Hold}}{{Marker Icon|SR-mapicon-Whiterun.png}}{{City Summary
+|description=A major city in the center of Skyrim, and the capital of [[Skyrim:Whiterun Hold|Whiterun Hold]].
+|image=SR-place-Whiterun 02.jpg
+|width=220px
+|imgdesc=Whiterun
+|sumimg=SR-symbol-Whiterun.png
+|marker_id=Whiterun
+|color=#C8AF64
+|locationcode={{Small|WhiterunOrigin}}
+|location=Whiterun, in [[Skyrim:Whiterun Hold|Whiterun Hold]]
+|government=
+*[[Skyrim:Dragonsreach|Dragonsreach]]
+*[[Skyrim:Guard Barracks|Guard Barracks]]
+*[[Skyrim:Guard Barracks (Gate)|Guard Barracks (Gate)]]
+|inns=
+*[[Skyrim:The Bannered Mare|The Bannered Mare]]
+*[[Skyrim:The Drunken Huntsman|The Drunken Huntsman]]
+|shops=
+*[[Skyrim:Arcadia's Cauldron|Arcadia's Cauldron]]
+*[[Skyrim:Belethor's General Goods|Belethor's General Goods]]
+*[[Skyrim:Honningbrew Meadery|Honningbrew Meadery]]
+*[[Skyrim:Warmaiden's|Warmaiden's]]
+*[[Skyrim:Whiterun Stables|Whiterun Stables]]
+|guilds/temples=
+*[[Skyrim:Hall of the Dead (Whiterun)|Hall of the Dead]]
+*[[Skyrim:Jorrvaskr|Jorrvaskr]]
+*[[Skyrim:Temple of Kynareth|Temple of Kynareth]]
+|houses=
+*[[Skyrim:Amren's House|Amren's House]]
+*[[Skyrim:Battle-Born Farm|Battle-Born Farm]]
+*[[Skyrim:Breezehome|Breezehome]] ([[Skyrim:Houses|for sale]])
+*[[Skyrim:Carlotta Valentia's House|Carlotta Valentia's House]]
+*[[Skyrim:Chillfurrow Farm|Chillfurrow Farm]]
+*[[Skyrim:Heimskr's House|Heimskr's House]]
+*[[Skyrim:House Gray-Mane|House Gray-Mane]]
+*[[Skyrim:House of Clan Battle-Born|House of Clan Battle-Born]]
+*[[Skyrim:Olava the Feeble's House|Olava the Feeble's House]]
+*[[Skyrim:Pelagia Farm|Pelagia Farm]]
+*[[Skyrim:Severio Pelagia's House|Severio Pelagia's House]]
+*[[Skyrim:Uthgerd's House|Uthgerd's House]]
+*[[Skyrim:Ysolda's House|Ysolda's House]]
+}}__NOTOC__
+'''Whiterun''' is a major city in the center of Skyrim, and the capital of [[Skyrim:Whiterun Hold|Whiterun Hold]]. Its central location makes it the province's major commercial hub, as well as a crucial strategic point in the [[Skyrim:Civil War|Civil War]] between the [[Skyrim:Imperial Legion|Imperial Legion]] loyalists and [[Skyrim:Stormcloaks|Stormcloak]] rebels, as control of Whiterun Hold grants access to all surrounding lands. Whiterun is initially nominally aligned with the Empire, but [[Skyrim:Jarl|Jarl]] [[Skyrim:Balgruuf the Greater|Balgruuf the Greater]] seems to care more about the people of Whiterun than either side of the conflict, rendering the hold effectively neutral.
+
+Whiterun comprises three districts arranged in tiers and connected by stairways. The Plains District is the lowest and contains the city's marketplace and shops, inns, a few homes, and the city gates. The Wind District is the main residential area; it features the [[Skyrim:Temple of Kynareth|Temple of Kynareth]], [[Skyrim:Jorrvaskr|Jorrvaskr]], the ancient mead hall and headquarters of the [[Skyrim:Companions|Companions]], and the [[Skyrim:Skyforge|Skyforge]], worked by the greatest blacksmith in Skyrim, [[Skyrim:Eorlund Gray-Mane|Eorlund Gray-Mane]]. The Cloud District is dominated by the government seat [[Skyrim:Dragonsreach|Dragonsreach]] and its [[Skyrim:Dragonsreach Dungeon|dungeon]], and is the highest point in Whiterun. Local businesses and services include the smithy and weapons shop [[Skyrim:Warmaiden's|Warmaiden's]], the tavern and hunting supply store [[Skyrim:The Drunken Huntsman|The Drunken Huntsman]], [[Skyrim:Belethor's General Goods|Belethor's General Goods]], the alchemy shop [[Skyrim:Arcadia's Cauldron|Arcadia's Cauldron]], and [[Skyrim:The Bannered Mare|The Bannered Mare]] inn. The jarl's court wizard [[Skyrim:Farengar Secret-Fire|Farengar Secret-Fire]] has spells and enchanting supplies for sale and can teach you the basics of enchanting.
+
+For more information on Whiterun, see the [[Lore:Whiterun|lore article]].
+
+{{NewLeft}}
+==[[Skyrim:Whiterun People|Whiterun People]]==
+{{Skyrim:Whiterun People}}
+
+==Related Quests==
+===Quests Starting Here===
+====[[Skyrim:Main Quest|Main Quest]]====
+* {{Quest Link|Before the Storm}}
+* {{Quest Link|Bleak Falls Barrow (quest)}}
+* {{Quest Link|Dragon Rising}}
+* {{Quest Link|The Way of the Voice}}
+
+====[[Skyrim:Companions|Companions]]====
+* See [[Skyrim:Companions#Quests|Companions]].
+
+====[[Skyrim:Daedric Quests|Daedric]]====
+* {{Quest Link|The Whispering Door}}
+
+====[[Skyrim:Side Quests|Side Quests]]====
+* {{Quest Link|In My Time Of Need}}
+* {{Quest Link|Missing In Action}}
+* {{Quest Link|The Blessings of Nature}}
+
+====[[Skyrim:Creation Club|Creation Club]]====
+* {{Quest Link|Battle of the Champions}}
+* {{Quest Link|Beyond the Grave}}
+* {{Quest Link|In the Shadows}}
+* {{Quest Link|Smith 'N Slash}}
+* {{Quest Link|When the Cat's Away}}
+
+====[[Skyrim:Miscellaneous Quests|Miscellaneous Quests]]====
+{{Skyrim:Miscellaneous Quests/Whiterun}}
+
+==Notes==
+* [[Skyrim:Breezehome|Breezehome]] is a [[Skyrim:Houses|house]] available for purchase after completion of the quest [[Skyrim:Bleak Falls Barrow (quest)|Bleak Falls Barrow]]. It may be purchased from [[Skyrim:Proventus Avenicci|Proventus Avenicci]] for 5,000 gold, as a reward for retrieving the [[Skyrim:Dragonstone|Dragonstone]] for [[Skyrim:Balgruuf the Greater|Jarl Balgruuf's]] court mage, [[Skyrim:Farengar Secret-Fire|Farengar Secret-Fire]]. If it is not purchased at this point, and Whiterun is conquered by the Stormcloaks, it may be purchased from [[Skyrim:Brill|Brill]] as a reward for [[Skyrim:Battle for Whiterun (Stormcloaks)|helping the Stormcloaks conquer Whiterun]].
+* Data in the game files indicates at least six buildings were removed from Whiterun: Maiden-Loom Manor, Pathway Guard Tower, Shrine of Talos, Ulfberth's House, Whiterun Jail, and Wintersand Manor.
+* Approximately 220 alchemy [[Skyrim:Ingredients|ingredients]] are freely available in Whiterun, with a respawn time of 30 days. These include 71 purple mountain flower, 41 blue mountain flower, 30 lavender, 23 tundra cotton, and 22 red mountain flower found throughout the city, as well as 14 nightshade in the graveyard outside the Hall of the Dead and 7 Nordic barnacle in the pool outside Dragonsreach.
+* Whiterun also [[Arena:Whiterun|appears]] in ''[[Arena:Arena|Arena]]''.
+* There are 2 initial conversation scenes which trigger miscellaneous quests and may be missed. [[SR:Braith|Braith]] and [[SR:Lars Battle-Born|Lars Battle-Born]]'s conversation for [[Skyrim:Bullying_Braith|Bullying Braith]], and [[SR:Amren|Amren]] and [[SR:Saffir|Saffir]]'s conversation for [[Skyrim:Dungeon_Delving_(Bandits)#Amren's_Family_Sword|Amren's Family Sword]]. The 2 scenes only take place between 8am-8pm, but will not occur if you have ever entered the related area at a different time previously.
+* In [[General:Skyrim Cities' Design Excerpts|early design excerpts]], the Cloud, Wind, and Plains Districts were originally known as the Noble, Common, and Trade Districts respectively.
+
+==Bugs==
+{{Bug|If you sprint as soon as you fast travel to Whiterun, the game may freeze.|confirmed=1}}
+{{Bug|[[Skyrim:Louis Letrush|Louis Letrush]] may be found partially embedded into the ground just outside the city.|OSP|1.8}}
+{{Bug|During [[Skyrim:Battle for Whiterun|Battle for Whiterun]], random [[Skyrim:Dragon|dragon]] attacks may occur in and around the city.|OSP|1.9.26.0.8}}
+{{Bug|If you finish [[Skyrim:In My Time Of Need|In My Time Of Need]], the two [[Skyrim:Alik'r Warrior|Alik'r Warriors]] who started it will return to the city.|USKP|1.1}}
+{{Bug|If the Stormcloaks take Whiterun, two guards will spawn on the left side of the main gate instead of one on either side.|USKP|2.0.0}}
+{{Bug|Some of the items at the vendors in the marketplace aren't owned by them, allowing you to pick them up for free.|USKP|2.1.1}}
+{{Bug|A dialogue line referring to the Gildergreen here can be spoken by [[Skyrim:Child|children]] in any city due to a missing condition check.|UHFP|1.1.2}}
+{{Bug|You can leave the city without using the main gate by jumping on a barrel and over a wall near the gate. You can also do it by using the red plant formation on the north corner of House Gray-Mane.|confirmed=1}}
+
+==Maps==
+{|class="hiddentable vtop"
+|
+{{Perk Tree Setup|width=700|mark_color=White|text_color=black|font_size=100|mark_width=18}}{{Perk Tree
+|label=Map of Whiterun
+|image=SR-map-Whiterun.jpg
+|perks=
+{{Image Mark|797|181|1|mark_alt=Dragonsreach: Jarl's Quarters|position=on|mark_link=SR:Dragonsreach Jarl's Quarters}}
+{{Image Mark|897|191|2|mark_alt=Dragonsreach: Dungeon|position=on|mark_link=SR:Dragonsreach Dungeon}}
+{{Image Mark|691|290|3|mark_alt=Dragonsreach|position=on|mark_link=SR:Dragonsreach}}
+{{Image Mark|348|482|4|mark_alt=Hall of the Dead|position=on|mark_link=SR:Hall of the Dead (Whiterun)}}
+{{Image Mark|232|503|5|mark_alt=House of Clan Battle-Born|position=on|mark_link=SR:House of Clan Battle-Born}}
+{{Image Mark|770|512|6|mark_alt=Skyforge|position=on|mark_link=SR:Skyforge}}
+{{Image Mark|263|559|5|mark_alt=House of Clan Battle-Born|position=on|mark_link=SR:House of Clan Battle-Born}}
+{{Image Mark|393|583|7|mark_alt=Temple of Kynareth|position=on|mark_link=SR:Temple of Kynareth}}
+{{Image Mark|461|584|7|mark_alt=Temple of Kynareth|position=on|mark_link=SR:Temple of Kynareth}}
+{{Image Mark|285|636|8|mark_alt=Amren's House|position=on|mark_link=SR:Amren's House}}
+{{Image Mark|708|647|9|mark_alt=Jorrvaskr|position=on|mark_link=SR:Jorrvaskr}}
+{{Image Mark|758|645|9|mark_alt=Jorrvaskr|position=on|mark_link=SR:Jorrvaskr}}
+{{Image Mark|195|673|10|mark_alt=Carlotta Valentia's House|position=on|mark_link=SR:Carlotta Valentia's House}}
+{{Image Mark|246|678|11|mark_alt=Uthgerd's House|position=on|mark_link=SR:Uthgerd's House}}
+{{Image Mark|366|698|12|mark_alt=House Gray-Mane|position=on|mark_link=SR:House Gray-Mane}}
+{{Image Mark|428|673|12|mark_alt=House Gray-Mane|position=on|mark_link=SR:House Gray-Mane}}
+{{Image Mark|573|703|13|mark_alt=Heimskr's House|position=on|mark_link=SR:Heimskr's House}}
+{{Image Mark|678|793|14|mark_alt=Guard Barracks|position=on|mark_link=SR:Guard Barracks}}
+{{Image Mark|174|860|14|mark_alt=Guard Barracks|position=on|mark_link=SR:Guard Barracks}}
+{{Image Mark|279|846|15|mark_alt=The Drunken Huntsman|position=on|mark_link=SR:The Drunken Huntsman}}
+{{Image Mark|319|843|15|mark_alt=The Drunken Huntsman|position=on|mark_link=SR:The Drunken Huntsman}}
+{{Image Mark|418|866|16|mark_alt=Severio Pelagia's House|position=on|mark_link=SR:Severio Pelagia's House}}
+{{Image Mark|600|852|17|mark_alt=The Bannered Mare|position=on|mark_link=SR:The Bannered Mare}}
+{{Image Mark|97|897|18|mark_alt=Skyrim|position=on|mark_link=SR:Skyrim (place)}}
+{{Image Mark|583|913|17|mark_alt=The Bannered Mare|position=on|mark_link=SR:The Bannered Mare}}
+{{Image Mark|213|949|19|mark_alt=Warmaiden's|position=on|mark_link=SR:Warmaiden's}}
+{{Image Mark|295|935|20|mark_alt=Breezehome|position=on|mark_link=SR:Breezehome}}
+{{Image Mark|473|953|21|mark_alt=Belethor's General Goods|position=on|mark_link=SR:Belethor's General Goods}}
+{{Image Mark|523|963|22|mark_alt=Arcadia's Cauldron|position=on|mark_link=SR:Arcadia's Cauldron}}
+{{Image Mark|213|993|19|mark_alt=Warmaiden's|position=on|mark_link=SR:Warmaiden's}}
+{{Image Mark|443|993|21|mark_alt=Belethor's General Goods|position=on|mark_link=SR:Belethor's General Goods}}
+{{Image Mark|543|1013|22|mark_alt=Arcadia's Cauldron|position=on|mark_link=SR:Arcadia's Cauldron}}
+{{Image Mark|315|1033|23|mark_alt=Olava the Feeble's House|position=on|mark_link=SR:Olava the Feeble's House}}
+{{Image Mark|514|1068|24|mark_alt=Ysolda's House|position=on|mark_link=SR:Ysolda's House}}
+}}
+|
+:; {{Anchor|Cloud District}}
+# [[Skyrim:Dragonsreach Jarl's Quarters|Dragonsreach Jarl's Quarters]]
+# [[Skyrim:Dragonsreach Dungeon|Dragonsreach Dungeon]]
+# [[Skyrim:Dragonsreach|Dragonsreach]]
+#; {{Anchor|Wind District}}
+# [[Skyrim:Hall of the Dead (Whiterun)|Hall of the Dead]]
+# [[Skyrim:House of Clan Battle-Born|House of Clan Battle-Born]]
+# [[Skyrim:Skyforge|Skyforge]]
+# [[Skyrim:Temple of Kynareth|Temple of Kynareth]]
+# [[Skyrim:Amren's House|Amren's House]]
+# [[Skyrim:Jorrvaskr|Jorrvaskr]]
+# [[Skyrim:Carlotta Valentia's House|Carlotta Valentia's House]]
+# [[Skyrim:Uthgerd's House|Uthgerd's House]]
+# [[Skyrim:House Gray-Mane|House Gray-Mane]]
+# [[Skyrim:Heimskr's House|Heimskr's House]]
+#; {{Anchor|Plains District}}
+# [[Skyrim:Guard Barracks|Guard Barracks]]
+# [[Skyrim:The Drunken Huntsman|The Drunken Huntsman]]
+# [[Skyrim:Severio Pelagia's House|Severio Pelagia's House]]
+# [[Skyrim:The Bannered Mare|The Bannered Mare]]
+# [[Skyrim:Skyrim (place)|Skyrim]]
+# [[Skyrim:Warmaiden's|Warmaiden's]]
+# [[Skyrim:Breezehome|Breezehome]]
+# [[Skyrim:Belethor's General Goods|Belethor's General Goods]]
+# [[Skyrim:Arcadia's Cauldron|Arcadia's Cauldron]]
+# [[Skyrim:Olava the Feeble's House|Olava the Feeble's House]]
+# [[Skyrim:Ysolda's House|Ysolda's House]]
+|}
+* Each white dot corresponds directly to a door. All doors are numbered and relate to a Key on the side of the map.
+
+==Gallery==
+<gallery>
+File:SR-place-Whiterun.jpg|Whiterun in the original PC release of ''Skyrim''
+File:SR-place-Whiterun 03.jpg|The market
+File:SR-place-Whiterun and Throat of the World.jpg|Whiterun with the Throat of the World in the background
+</gallery>
+
+{{Skyrim Settlements}}
+
+[[fr:Skyrim:Blancherive]]

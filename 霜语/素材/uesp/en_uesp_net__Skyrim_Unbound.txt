@@ -1,0 +1,262 @@
+[[fr:Skyrim:Libération]]<noinclude>{{Cleanup-srqrp
+|writtenBy=Multiple
+|checkedBy=Beezer1029
+|reward=Multiple
+|rewardChecked=Beezer1029
+}}</noinclude>{{Quest Header
+|type=Main Quest
+|Giver=Automatic after character creation
+|Icon=SR-qico-Main.png
+|Reward=Access to Skyrim,<br>Various low level items,<br>[[Skyrim:Spell Tome: Sparks|Spell Tome: Sparks]]
+|ID=MQ101
+|Next=[[Skyrim:Before the Storm|Before the Storm]]
+|Loc=[[Skyrim:Helgen|Helgen]], [[Skyrim:Helgen Keep|Helgen Keep]]
+|image=SR-quest-Unbound.jpg
+|imgdesc=Alduin attacks
+|description=Escape [[Skyrim:Imperial Legion|Imperial]] custody and a [[Skyrim:Dragon|dragon]] attack.
+}}
+
+==Quick Walkthrough==
+#[[Skyrim:Character Creation|Create your character]].
+#Make your way to [[Skyrim:Helgen Keep|Helgen Keep]] to escape the [[Skyrim:Dragon|dragon]] attack.
+#Choose to enter Helgen Keep with either [[Skyrim:Ralof|Ralof]] or [[Skyrim:Hadvar|Hadvar]].
+#Loot containers and bodies for weapons, armor, and basic equipment.
+#Escape from [[Skyrim:Helgen|Helgen]].
+
+==Detailed Walkthrough==
+===Awakening===
+[[File:SR-quest-Unbound 05.jpg|thumb|right|''"Hey, you. You're finally awake."'']]
+[[File:SR-quest-Unbound 06.jpg|thumb|right|Fellow prisoners, Lokir and Ulfric Stormcloak]] You begin the game regaining consciousness to find yourself tied by the wrists, and under [[Skyrim:Imperial Legion|Imperial Legion]] custody in a prisoner caravan. In the carriage with you is [[Skyrim:Ralof|Ralof]] (a [[Lore:Stormcloaks|Stormcloak]] soldier), [[Skyrim:Lokir|Lokir]] (a horse thief), and [[Skyrim:Ulfric Stormcloak|Ulfric Stormcloak]] (leader of the Stormcloak rebellion and Jarl of [[Skyrim:Windhelm|Windhelm]]). You are all bound, but Ulric Stormcloak is also gagged. Ralof sits across from you, with Lokir next to him and Ulfric to your right. [[Skyrim:General Tullius|General Tullius]] rides a horse ahead of the first carriage, while [[Skyrim:Hadvar|Hadvar]], a Legion soldier, brings up the rear behind yours.
+
+As revealed by Ralof, you are all prisoners of the [[Skyrim:Imperial Legion|Empire]], who had set an ambush for the Stormcloaks near [[Skyrim:Darkwater Crossing|Darkwater Crossing]]. You and Lokir were caught up in the same action, though at the time you had been crossing the border, and Lokir had stolen a horse. Despite this, you and Lokir were arrested as potential Stormcloak sympathizers in this deadly [[Skyrim:Civil War|civil war]], and are heading for execution.    
+
+The carriage soon reaches [[Skyrim:Helgen|Helgen]], a town in [[Skyrim:Falkreath_Hold|Falkreath Hold]] not far from the southern border of Skyrim. At the time of your arrival, [[Skyrim:Siddgeir|Falkreath's Jarl]] is loyal to the Empire, and the hold is controlled by the Imperial Legion, though the Stormcloaks have some presence in the area, hiding in a [[Skyrim:Falkreath Stormcloak Camp|camp]] within the Hold.
+
+As the carriage enters Helgen you pass by General Tullius, [[Lore:Skyrim|Skyrim]]'s military governor, who has stopped to speak with the [[Skyrim:Thalmor|Thalmor]] First Emissary [[Skyrim:Elenwen|Elenwen]], also on horseback, accompanied by two [[Skyrim:Thalmor|Thalmor soldiers]] flanking her on foot. Ralof will point that out and comment on it.
+
+The carriage rides through the village and draws to a stop in the central area of the town. An [[Skyrim:Imperial Captain|Imperial Captain]] orders you and the other prisoners off the carts, then instructs you to proceed to the execution block as your name is called. Hadvar will first call Ulfric Stormcloak, and then Ralof. When Lokir is called, he will attempt to flee, but will always fail, since the Imperial Captain orders their archers to shoot him. After this, Hadvar will tell you to step forward.
+
+===Who Are You?===
+[[File:SR-quest-Unbound 07.jpg|thumb|left|''"Who are you?"'']]When Hadvar asks for your identity, you'll need to take a moment to decide.
+{| class="hiddentable"
+|
+:: <tt>'''Game: ([[Skyrim:Character Creation|Create and name your character]].)</tt>'''
+|}
+
+Once you've created and named your character, Hadvar will make a comment based on your race.
+{{Showhide/Start|Possible Comments}}
+{| class="wikitable"
+!Race !!Dialogue
+|-
+|rowspan=2 |'''[[Skyrim:High Elf|Altmer]]''' ||You're not with the [[Skyrim:Thalmor Embassy|Thalmor Embassy]], are you high elf? No, that can't be right...
+|-
+|I'm sorry. We'll make sure your remains are returned to [[Lore:Summerset Isle|Summerset Isle]].
+|-
+|rowspan=2 |'''[[Skyrim:Argonian|Argonian]]'''||Are you a relative of one of the [[Skyrim:Riften|Riften]] dock workers, Argonian?
+|-
+|I'm sorry. We'll make sure your remains are returned to [[Lore:Black Marsh|Black Marsh]].
+|-
+|rowspan=2 |'''[[Skyrim:Wood Elf|Bosmer]]'''||Not many wood elves would choose to come alone to Skyrim.
+|-
+|I'm sorry. We'll make sure your remains are returned to [[Lore:Valenwood|Valenwood]].
+|-
+|rowspan=2 |'''[[Skyrim:Breton|Breton]]'''||You from [[Lore:Daggerfall|Daggerfall]], Breton? Fleeing from some court intrigue?
+|-
+|I'm sorry. We'll make sure your remains are returned to [[Lore:High Rock|High Rock]].
+|-
+|rowspan=2 |'''[[Skyrim:Dark Elf|Dunmer]]'''||Another refugee? Gods really have abandoned your people, dark elf.
+|-
+|I'm sorry. We'll make sure your remains are returned to [[Lore:Morrowind|Morrowind]].
+|-
+|rowspan=2 |'''[[Skyrim:Imperial|Imperial]]'''||You're a long way from the [[Lore:Imperial City|Imperial City]]. What're you doing in Skyrim?
+|-
+|I'm sorry. We'll make sure your remains are returned to [[Lore:Cyrodiil|Cyrodiil]].
+|-
+|rowspan=2 |'''[[Skyrim:Khajiit|Khajiit]]'''||You with one of the [[Skyrim:Khajiit Traders|trade caravans]], Khajiit? Your kind always seems to find trouble.
+|-
+|I'm sorry. We'll make sure your remains are returned to [[Lore:Elsweyr|Elsweyr]].
+|-
+|rowspan=2 |'''[[Skyrim:Nord|Nord]]'''||You picked a bad time to come home to Skyrim, kinsman.
+|-
+|I'm sorry. At least you'll die here, in your homeland.
+|-
+|rowspan=2 |'''[[Skyrim:Orc|Orc]]'''||You from one of the [[Skyrim:Orc_Strongholds|strongholds]], Orc? How did you end up here?
+|-
+|I'm sorry. We'll make sure your remains are returned to [[Lore:Orsinium|Orsinium]].
+|-
+|rowspan=2 |'''[[Skyrim:Redguard|Redguard]]'''||What're you doing here, Redguard? You a sellsword? A [[Lore:Cyrus|sailor]] from [[Lore:Stros M'Kai|Stros M'kai]]?
+|-
+|I'm sorry. We'll make sure your remains are returned to [[Lore:Hammerfell|Hammerfell]].
+|}
+{{Showhide/End}}
+{{NewLeft}}
+
+===Keep Your Head===
+The captain will order your death even though your name is not on the list. You will be forced to follow her to the executioner's block and after a brief confrontation between General Tullius and Ulfric Stormcloak a distant noise will echo across the sky.
+[[File:SR-quest-Unbound 10.jpg|thumb|Right|''"What was that?"'']] The general will dismiss it as nothing and order that the executions begin, and a [[Skyrim:Priestess of Arkay|priestess of Arkay]] will begin to administer the last rites to the condemned. A Stormcloak soldier will interrupt her and is promptly executed, and the captain will then order you to step up to the block. An ominous sound will again echo through the mountains, this time louder. Most of the assembly will be briefly distracted, but the captain will not be put off by this. You will be ordered to the block and forced into position, ready to be executed. From that perspective, you should have a view of the headsman and the tower behind him. As the headsman raises his axe, a [[Skyrim:Dragon|dragon]] known as [[Skyrim:Alduin|Alduin]] flies into the scene.
+{{NewLeft}}
+
+===Return of the World-Eater===
+The dragon will descend onto the nearby tower with a crash and proceed to use a special shout that turns the sky red and sends flaming meteors crashing down, which eventually damages the city beyond repair, knocking the headsman to the ground.
+[[File:SR-quest-Unbound 13.jpg|thumb|right|Alduin begins his attack on Helgen.]]
+The second shout he uses, [[Skyrim:Unrelenting Force|Unrelenting Force]], will stagger you. However, Ralof will urge you to your feet to escape, reasoning that the gods may not provide another chance. When you are able to stand, you'll be able to move about freely, and the quest will appear in your journal.
+
+===Make Your Way to the Keep===
+[[File:SR-quest-Unbound 16.jpg|thumb|left|''"In here! This way! Come on!"'']]If you are able to get your bearings soon enough, you can follow right behind Ralof. If it takes you a little time, Ralof will go into a tall tower to the south-southwest and call to you: ''"In here. This way! Come on!"'' Follow him into the tower as fireballs rain down from the sky and boulders fly off in all directions from the explosions. Despite the apparent danger, you will have no trouble getting into the tower unless you loiter in unsheltered areas for an extended time.
+
+Enter the building far enough so that the door can close behind you. Inside, you'll see two injured Stormcloaks and another tending to them. The same three that were on the first cart alongside the male Stormcloak executed before you. Stepping onto the carpet in the middle of the small room and turning back around toward the door will position you to observe a conversation between Ralof and Ulfric. At this point you cannot pick-up or interact with items with your hands, as they are bound. No one cuts your bonds.
+
+[[File:SR-quest-Unbound 18.jpg|thumb|left|Alduin's shout blasts through the stairway.]][[File:SR-quest-Unbound 17.jpg|thumb|right|Alduin attacks.]]
+Both Ralof and Ulfric will urge you to hurry up through the tower. Follow Ralof up the staircase. When a Stormcloak soldier up ahead tells you that some fallen masonry needs to be moved out of the way, the wall to your right (southeast) will be blown in by Alduin. He will then attack through the hole with a [[Skyrim:Fire Breath|Fire Breath]] shout. Though you cannot perceive it as such, Alduin will shout ''"Toor... Shul!"'' meaning ''"Inferno... Sun"'' in the [[Lore:Dragon Language|dragon language]]. This shout will knock Ralof off the stairs, but he will climb back up to you. The gods may indeed be providing you some extra protection, at least for now—you will not be hurt by the shout, even if you don't heed Ralof's warning to step back. Eventually, however, once you venture outside of Helgen, encounters with dragons will prove much more dangerous.
+
+After Alduin flies off, Ralof will urge you to jump out the hole just created and down into a partially destroyed inn below, telling you that they will follow as soon as they can and meet you on the other side. Your target landing spot will be indicated by your objective marker. Move to the ledge and jump while continuing to move forward. If you go downstairs in the tower before jumping, you'll find Ralof tending to the wounds of the two injured Stormcloaks. While the third Stormcloak that was doing that before is now crouching next to Ulfric. 
+
+On landing, you may hear yourself grunt in pain, but you will only take minor damage. Travel eastward through the inn and drop down through the hole in the floor. Your objective marker will indicate the next waypoint. Follow Hadvar, the Imperial soldier you just saw near the execution block. He will be outside the door from the inn, and to your left (northeast), trying to help some citizens.
+
+Hadvar will be trying to coax a young boy, [[Skyrim:Haming|Haming]], away from an open area where his father, [[Skyrim:Torolf|Torolf]], lies injured in the road. As the boy returns toward Hadvar, Alduin will land to the northeast and send a Fire Breath shout toward Hadvar and the boy, killing Torolf. Hadvar will take Haming to safety back near the inn with another man, [[Skyrim:Gunnar Stone-Eye|Gunnar Stone-Eye]], and leave the boy in his care. When he sees you, Hadvar will address you as "prisoner" and tell you to follow him if you want to stay alive.
+
+[[File:SR-quest-Unbound 20.jpg|thumb|right|Ralof: ''"Jump and keep going! We'll meet you later!"'']]
+Follow Hadvar as he proceeds northeasterly across the area where Alduin just killed Torolf. Hadvar's purpose at this point is to ''"Find General Tullius and join the defense"'' of Helgen. Passing between a building and a stone wall, Hadvar will stop and advise you to stay near the wall. Alduin will then land on top of the wall and direct a Fire Breath shout at a Legionnaire ahead of you and to the right, around the corner.
+
+Once Alduin takes flight again, follow Hadvar up the steps and then to the left (northward) through the gap in the wall. Inside the ruined building, jog to the left, then turn right (eastward). You will exit into an open area where a number of [[Skyrim:Imperial_Mage|Imperial mages]], soldiers, and General Tullius will be counter-attacking Alduin with arrows and fireballs.
+{{Multiple Images
+|align=left
+|direction=horizontal
+|width=150
+|image1=SR-quest-Unbound 26.jpg
+|caption1=Follow Hadvar to the northeast.
+|image2=SR-quest-Unbound 27.jpg
+|caption2=Turn to the left (northward).
+|image3=SR-quest-Unbound 28.jpg
+|caption3=Hadvar: ''"Stay close to the [left] wall."''
+|image4=SR-quest-Unbound 29.jpg
+|caption4=Alduin lands and attacks again.
+}}
+{{Multiple Images
+|align=left
+|direction=horizontal
+|width=150
+|image1=SR-quest-Unbound 30.jpg
+|caption1=Follow Hadvar up the steps...
+|image2=SR-quest-Unbound 31.jpg
+|caption2=...then to the left (north).
+|image3=SR-quest-Unbound 32.jpg
+|caption3=Jog around to the left, then turn right (eastward).
+|image4=SR-quest-Unbound 33.jpg
+|caption4=Soldiers and mages counter-attack the dragon.
+}}
+{{NewLeft}}
+
+[[File:SR-quest-Unbound 03.jpg|Choose your path|thumb|right]]
+When Hadvar approaches General Tullius, the general will order him into the Keep, announcing a retreat. Telling you to stay close to him, Hadvar will head north, then turn left towards the entrance to the Keep.
+
+::Note: Hadvar should be taken seriously when he tells you to stay close to him. If you tag fairly close behind him at this point, Alduin will not harm you. If you choose to lag behind or explore the area, however, you will do so at your own considerable risk. Eventually, Alduin's shouts may hit you between this point and entering the Keep. He can use the Fire Breath shout and the less serious [[Skyrim:Unrelenting_Force|Unrelenting Force]] shout. If you are hit with the former, it may or may not kill you. The latter will violently shove you or may send you flying for a short distance. Once you reach the exterior of the Keep, if you remain outside for an extended period, Alduin may land and attack with a shout at close quarters or physically with his jaws, an attack that will be fatal.
+
+After running under an archway, Hadvar will encounter Ralof just outside the Keep. The two enemies will draw their weapons and prepare to fight before realizing that getting into the Keep and away from the dragon is a higher priority.
+
+As Hadvar and Ralof rush to two different but nearby entrances to the Keep, both calling to you to follow them, your journal will update to show the objective of making your way to the Keep as completed, and the next objective will appear, presenting you with a choice.
+
+===Unsafe Haven===
+:''Note: After entering the Keep, depending on whether you chose to enter with Hadvar or Ralof, the part of the interior map which you emerge in and the initial events that occur will differ slightly.''
+{| cellpadding=10
+|{{C|2}}
+If you choose to go with Ralof, you will discover the body of a dead Stormcloak, [[Skyrim:Gunjar|Gunjar]], in a circular room immediately after entering the keep. After freeing you from your bindings, Ralof will instruct you to recover the gear on Gunjar's body for your own use. While you equip yourself, Ralof will examine the doors. He will discover one door is locked, and the other can't be opened from the side you're on. Luckily, the captain and an Imperial soldier will come through and open the door secured from the other side. Once they open the door, you will be forced to kill them to recover the key to the other gate from their bodies. Don't forget to loot the barracks they came from.
+|{{AL|T}} {{C|2}}
+If you choose to go with Hadvar, you will enter the keep to find yourself in the barracks room where Hadvar will cut your bonds and instruct you to loot the room for some equipment. Once you have acquired some gear from the marked chest, he will open a gate and you will follow him down a path to the circular room containing Gunjar's body. Here you will face two hostile Stormcloaks. Once they are defeated, follow Hadvar onward through the opposite door.
+|}
+
+:''From here onward, the physical path taken by both Hadvar and Ralof is identical. Only the type of enemies and the accompanying dialogue is different: for Hadvar's path you face Stormcloaks, while for Ralof's path you face Imperial soldiers.''
+
+Going through the door onto the now opened-up path, the dragon's activities above will cause the ceiling to fall, forcing you to divert through a door on your left, where you will discover a storeroom with two Imperial soldiers/Stormcloaks gathering supplies. After defeating the enemies, Hadvar or Ralof will advise you to go through the barrels for any valuables they may contain.
+
+Continuing down, you will arrive at an interrogation room, where a battle between an Imperial [[Skyrim:Torturer|torturer]], his [[Skyrim:Torturer's Assistant|assistant]], and some Stormcloak soldiers is taking place, prompting you to fight with whichever enemies your escort is not aligned with. If you are with Hadvar, he has a conversation with the torturer, trying to convince him to come; his attempts prove futile, however, as only the assistant torturer follows. If you're with Ralof, he has a quick conversation with the surviving Stormcloaks, who will both choose to join your party. Hadvar/Ralof will then point to a cage with a dead [[Skyrim:Mage|mage]] and several valuables inside it (including mage [[Skyrim:Novice Robes|robes]], and [[Skyrim:Novice Hood|hood]] and a [[Skyrim:Sparks|Sparks]] spell tome), offering you several lockpicks, and suggesting you [[Skyrim:Lockpicking|pick the lock]] to get to the items. If you are not near Hadvar/Ralof when he offers you the picks, you will not get them, but there are a couple of picks in the room in the corner that also contains an iron shield and iron mace, as well as four picks inside a [[Skyrim:Knapsack|knapsack]] laying on a small table near the cells. The table also holds a copy of ''[[Skyrim:The Book of the Dragonborn|The Book of the Dragonborn]]''. There are two empty, locked cells on either side of the dead mage, and two other locked cells down the hall (this is a safe chance to practice the lockpicking skill, as well as learning the game mechanic).
+
+Continue down the corridor past some prison cells which can be unlocked for some minor loot, and through another prison room, and you will eventually enter a natural cave, filled with either Imperial soldiers guarding it for General Tullius, or some lost Stormcloaks. There is an [[Skyrim:Oil Slick|oil spill]] that can be set alight to damage the enemies on the upper level using the [[Skyrim:Flames|Flames]] spell.
+
+After the enemies are killed, the allied Stormcloak soldiers or torturer's assistant will stay in the room if they survived the assault, leaving you and Ralof/Hadvar to continue alone. You will find a raised drawbridge obstructing your path. A nearby lever can be used to lower the bridge, which will subsequently be destroyed by falling rubble shortly after you cross it. Continuing on, you will come to a skeleton near the passage leading towards another large cavern inhabited by several [[Skyrim:Frostbite Spider|frostbite spiders]]. Near the skeleton is an iron dagger, a potion of minor healing, and a coin purse. Once you defeat the spiders, head through a passage leading deeper into the caverns. In the next chamber, near an underground stream, you will encounter a resting [[Skyrim:Bear|bear]]. Ralof/Hadvar will advise you to [[Skyrim:Sneak|sneak]] past it, but he will give you a bow and some arrows in case you choose to ambush it. Fighting the bear is not too difficult with Hadvar/Ralof helping you. Afterwards, follow Hadvar/Ralof and exit the cave through a crevice in the rock. Leaving the dungeon, you'll see Alduin flying off into the distance, towards the north, completing the quest.
+
+===Achievements===
+One [[Skyrim:Achievements|achievement]] is unlocked when you complete this quest:
+* {{achievement|Unbound (achievement)|descr=no}}
+
+==Notes==
+*For all intents and purposes, choosing to side with Hadvar or Ralof doesn't matter, as you aren't locked out of any quest chain. The only difference between the two paths is the type of loot and enemies inside the keep, and the rewards given for helping them escape (given during the next quest). At the end, you will still have the option of choosing to side with the Empire or the Stormcloaks.
+*Both Hadvar and Ralof are essential NPCs at this point, so they cannot die, and will never turn hostile (unless you're an Altmer and cast Fury on them) until the quest is finished. This can be exploited to level up your attack skills ([[Skyrim:Destruction|Destruction]], [[Skyrim:One-handed|One-handed]], [[Skyrim:Two-handed|Two-handed]], and [[Skyrim:Archery|Archery]]) and [[Skyrim:Sneak|Sneak]] skill early in the game. You won't be able to pickpocket them, though.
+*The game always starts with a [[Lore:Calendar#Skyrim_Calendar|calendar]] date of the 17th of Last Seed, making this quest the only one in the game with a fixed date. The day of the week can vary, though:
+**If you had a game loaded immediately before starting your new game, the day of the week will be whatever it was before you exited back to the main menu.
+**If you did ''not'' have a game loaded, the day of the week will be Sundas.
+*You will always know the spells [[Skyrim:Flames|Flames]] and [[Skyrim:Healing|Healing]] by the time you start the quest, regardless of your race, and depending on your race, other spells will also be known:
+**[[Skyrim:High Elf|Altmer]] will also know [[Skyrim:Fury|Fury]].
+**[[Skyrim:Breton|Bretons]] will also know [[skyrim:Conjure Familiar|Conjure Familiar]].
+**[[Skyrim:Dark Elf|Dunmer]] will also know [[Skyrim:Sparks|Sparks]].
+*You may wish to see the main page for [[Skyrim:Skyrim|Skyrim]] for information such as using [[Skyrim:Controls|controls]] and our [[Skyrim:First_Time_Players|guide for first-time players]].
+*If you take too long to make your way up the stairs in the tower, Ralof and Ulfric will tell you to hurry up.
+**Likewise, if you take too long to make your way to the keep, Hadvar and General Tullius will do the same.
+*If you wait around in any one area for too long, Alduin will begin specifically targeting you.
+*It is possible to exit Helgen very early in the quest. Follow Ralof and Ulfric into the tower, then bring up the map in your journal and fast travel to Helgen. You'll appear outside the gates and free to roam around, but there are some conditions:
+**Your hands will remain bound at all times.
+**The camera will be stuck in first-person view.
+**The sky will have an orange dragon-like tint during the day. 
+**Your inventory, spells, and character menu will be unavailable.
+**You can discover locations, but you won't be able to clear any dungeons.
+**You can sprint, but you'll have to wait until your stamina replenishes naturally.
+**The ability to sleep, sit, wait, cast spells, and use racial powers will be absent.
+**The 2 alternating music tracks that play when making your way to the keep will play non-stop.
+**If you enter Helgen Keep through the exit this way, the bridge will already be destroyed.
+**You'll neither be able to finish the quest nor earn the achievement.
+***This feature won't be available if [[Skyrim:Survival Mode|Survival Mode]] is active, as fast travel will be disabled.
+*If you clip through the walls in the barracks in the Keep, you may fall and end up in the storage room. No one else will be present in the storage room, and you can freely search it. There is also a chance that the torturer, torturer's assistant, and the 2 Stormcloak soldiers in the torture room won't be hostile to you or each other, and you can freely talk to them. The 5 frostbite spiders and the bear in the cave aren't affected by this, though, and will still attack on sight.
+**Be warned, however, that once Hadvar or Ralof are freed from the key-locked gate, the 2 enemies in the storage room will come back, and the hostilities between the torturer, torturer's assistant, and the 2 Stormcloak soldiers in the torture room will return. Also, if you make your way to the cave and go back the other way, the bridge may still collapse in front of you.
+*It is possible to save [[Skyrim:Torolf|Torolf]] and the Legionnaire. When the dragon lands in front of Torolf and you are quick enough you can run past Alduin and he will fly off, not harming him. With the Legionnaire you have to be quick enough as well. If you get to him before Alduin lands on the wall, you can sprint into him, knock him into the building and Alduin's fire breath shout will miss. Be careful to stay in front of him though, as there is a chance he will run back to his spot, running into the fire shout.
+**You can also save [[Skyrim:Vilod|Vilod]] in the same manner if you run past Hadvar quickly enough.
+*After escaping from Helgen, it can be re-entered immediately. If you re-enter the Keep and any Imperial and/or Stormcloak soldiers you didn't kill were left behind, they will still be inside, but they won't be hostile.
+*When making your way to the keep, the locations to nearby [[Skyrim:Bonechill Passage|Bonechill Passage]], [[Skyrim:Greywater Grotto|Greywater Grotto]], [[Skyrim:Fort Neugrad|Fort Neugrad]], [[Skyrim:Orphan Rock|Orphan Rock]], and [[Skyrim:South Skybound Watch|South Skybound Watch]] will appear on your compass, but you won't be able to discover them yet.
+*By default you'll start with a carry weight limit of 300. If [[Skyrim:Survival Mode|Survival Mode]] is active, your carry weight limit will be cut in half to 150.
+*You can kill the Imperial Torturer and his assistant with no consequence, even if you are following Hadvar.
+*This is the only quest in the game where an [[Skyrim:Imperial Mage|Imperial Mage]] can be seen; [[Skyrim:Cut Content|originally]] they were meant to also appear in the [[Skyrim:Civil War|Civil War]] as troops, but didn't make it to the final version.
+*Even if you kill the bear with a sneak attack, Hadvar will say "Not the sneaking type, eh?" or Ralof will say "Sneaking is highly overrated, eh?"
+*If you enter the Keep with Hadvar, the on-screen tutorial message will say "Press activate to open containers." If you enter with Ralof, it will say "Press activate to loot bodies" instead.
+*Once you make your way out of Helgen, many [[Skyrim:Creation Club Quests|quests]] involving [[Skyrim:Creation Club|Creation Club]] content may start immediately, overloading your journal in the process.
+**The Anniversary update changes this so that the quests start more naturally through gameplay.
+
+==Bugs==
+{{cleanup|lots of very unlikely bugs here; needs removal of the most ridiculous ones, testing of the believable ones}}
+{{Bug|You might encounter bugs in the quest script where the game will stop progressing. These errors may occur even after a game restart, and possible fixes are a complete re-installation of the game or installing DXSETUP.exe from skyrim\DirectX10. There are several versions of the bug:|confirmed=1}}
+:{{Bug|You may start outside the cart with other prisoners, unable to do anything. This can be fixed by restarting the game.|confirmed=1}}
+:{{Bug|The cart of prisoners in front of you may clip, unexpectedly turn, flip on its side, or strike the city gate. This will sometimes cause the same to happen to your cart. On PS3, this can be caused by holding the PS button and any other button.|confirmed=1}}
+:{{Bug|The headsman may not carry out the first Stormcloak execution as scripted, which stops the script for your execution as well. This can be fixed by opening the [[Skyrim:Console|console]] and typing <code>prid 000654ed</code> followed by <code>kill</code>. Alternatively, the guards and executioner may successfully execute the Stormcloak, but will do nothing to lead ''you'' to the block.|confirmed=1}}
+:{{Bug|The Stormcloak execution may be successful as scripted, but the Stormcloak may go through the animation without being connected to his dying body and aggress against the other NPCs while dead. This results in a headless Stormcloak fighting and dying twice, and your execution delayed.|confirmed=1}}
+:{{Bug|When you are at the chopping block awaiting your execution, Alduin may not land on the tower, instead flying around in circles overhead, making the game unable to progress.|confirmed=1}}
+:** To fix this, uninstall any add-ons and start a new game.
+:**{{pc22}} Entering <code>killallactors</code> in the console may resolve this.
+{{Bug|After you follow Ralof up the stairs in the keep, Alduin may not blast a hole in the wall of the tower, preventing you from jumping through it to the inn.|confirmed=1}}
+**{{pc22}} Use the console command <code>tcl</code> and move through the wall halfway up the stairs, then over to the destroyed house to continue the game to the next stage.
+{{Bug|Hadvar may start much further away from the prisoner convoy than he's intended to be, or get waylaid by local wildlife and dismount to fight it off and not follow afterwards. As a consequence, he will be locked out of Helgen once the gate closes behind the convoy, and will not be present for the proceeding scene. Luckily the quest will proceed as usual, albeit without Hadvar to read off the lists or give commentary (the game will simply skip his dialogues in his absence), and on top of this Hadvar will reappear in his proper place after you exit the inn during Alduin's attack.|confirmed=1}}
+**{{Pc22}} This can be fixed after you get off the cart by using the console code <code>prid 0002bfa2</code> followed by <code>moveto player</code>. This will cause Hadvar to appear in front of you. He will then take his proper place in the scene.
+{{Bug|If you follow Hadvar/Ralof into the Keep, when you escape Helgen later, rather than going with you to Riverwood, he may deviate towards Embershard Mine instead of the Guardian Stones, and not move. This will also cause Sven and Hilde's dialogue to never play.|confirmed=1}}
+**Talk to him as you get to the corner above the stones, he will reply then turn around and run to the stones.
+{{Bug|When you enter Helgen Keep with Ralof, if you choose to go in with him, you may appear to jog in place, having no control over anything except for the menu and console command keys.|confirmed=1}}
+**{{Pc22}} This can be fixed by waiting until Ralof asks you to go there, so he can take your bindings off, then using the console command <code>player.moveto 0002bf9e</code>. This will teleport you to him, at which point he unbinds you and you regain all control.
+**{{Pc22}} The same bug can rarely happen with Hadvar, and is fixed similarly, except Hadvar's code is <code>0002bfa2</code>.
+**{{Pc22}} An alternate fix is to access the console and disable/re-enable player controls with <console>enableplayercontrols</code>. This should 'reset' the player and restore movement.
+{{Bug|Upon starting a new game the "Most Gold Carried" stat may be set to 140. This won't affect gameplay and the stat will update regularly if you have >140 [[Skyrim:Gold|Gold]] at any point.|confirmed=1}}
+{{Bug|Gunjar's corpse doesn't despawn with everyone else's.|USKP|1.2.7}}
+{{Bug|General Tullius has a line cut off just after Alduin lands to attack Helgen.|USKP|2.0.9}}
+
+==Quest Stages==
+{{Journal Entries
+|150||I have been captured by the Empire and sentenced to death alongside the Stormcloak rebels. We were taken to Helgen, but before I could be executed a dragon appeared and attacked the town. I need to find some way to escape.
+|160||{{Quest Objective|30|Make your way to the Keep}}
+{{Quest Objective|50|Enter the Keep with Hadvar or Ralof {{Quest Comment|Can occur at any stage between 160 and 195, as you approach the keep.}}}}
+|180||I have been captured by the Empire and sentenced to death alongside the Stormcloak rebels. We were taken to Helgen, but before I could be executed a dragon appeared and attacked the town. I need to find some way to escape.
+|250||{{Quest Objective|100|Escape Helgen}}
+|255:2||{{Quest Objective|60|Find some equipment {{Quest Comment|if you followed Hadvar}}}}
+|^||{{Quest Objective|65|Loot Gunjar's body {{Quest Comment|if you followed Ralof}}}}
+|315||{{Quest Objective|70|(Optional) Search the barrel for potions}}
+|390||{{Quest Objective|75|(Optional) Attempt to pick the lock to the cage}}
+|900|fin|I have escaped both my execution and a dragon attack at Helgen. I now have my freedom to do as I see fit in Skyrim.
+|missing=0, 2, 3, 5, 6, 7, 8, 9, 10, 12, 14, 15, 20, 22, 25, 26, 27, 28, 30, 32, 35, 37, 39, 40, 41, 42, 43, 45, 46, 50, 52, 54, 56, 58, 60, 62, 64, 65, 67, 70, 75, 80, 81, 82, 84, 85, 90, 95, 97, 98, 99, 100, 120, 130, 140, 145, 190, 195, 200, 202, 210, 220, 240, 252, 256, 257, 258, 260, 265, 267, 268, 270, 272, 275, 280, 285, 290, 292, 300, 305, 310, 317, 318, 320, 340, 350, 360, 365, 368, 370, 380, 395, 400, 450, 460, 470, 480, 485, 490, 500, 550, 560, 600, 630, 650, 700, 705, 710, 720, 725, 730, 750, 760, 780, 800, 1000
+}}
+{{Skyrim Quest Stages Notes}}
+
+{{Quest Footer|Next=[[Skyrim:Before the Storm|Before the Storm]]|Up=[[Skyrim:Main Quest|Main Quest]]}}

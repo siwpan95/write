@@ -1,0 +1,745 @@
+{{Trail|Items}} [[Category:Oblivion-Items-Miscellaneous]]
+==Tools==
+===Alchemy Equipment===
+{| class=wikitable
+! !! Name !! Grade !! ID
+! {{Weight Icon}}
+! {{Value Icon}}
+! [[Oblivion:Alchemy#Strength of Apparatus|Strength]]
+! Notes
+|-
+|rowspan=5| {{icon|m|Alembic}}
+|rowspan=5| {{Anchor|Alembic}}
+|Novice || {{ID|00010604}} || 7.0 || 50 || 0.1
+|rowspan=5| Decreases the magnitude of all negative effects in [[Oblivion:Alchemy|Alchemy]].<br>
+''(When brewing a Poison [i.e. a Potion with only negative effects], the Alembic will have the opposite effect, increasing negative effects and durations.)''
+|-
+| Apprentice || {{ID|0006E310}} || 7.25 || 100 || 0.25
+|-
+| Journeyman || {{ID|0006EE52}} || 7.5 || 250 || 0.5
+|-
+| Expert || {{ID|0006EE5C}} || 7.75 || 500 || 0.75
+|-
+| Master || {{ID|0006EE64}} || 8.0 || 1000 || 1.0
+|-
+|rowspan=5| {{icon|m|Calcinator}}
+|rowspan=5| {{Anchor|Calcinator}}
+| Novice || {{ID|0001057D}} || 5.0 || 50 || 0.1
+|rowspan=5| Increases the magnitude of ALL effects in Alchemy.
+|-
+| Apprentice || {{ID|0006E311}} || 5.25 || 100 || 0.25
+|-
+| Journeyman || {{ID|0006EE55}} || 5.5 || 250 || 0.5
+|-
+| Expert || {{ID|0006EE5E}} || 5.75 || 500 || 0.75
+|-
+| Master || {{ID|0006EE66}} || 6.0 || 1000 || 1.0
+|-
+|rowspan=6| {{icon|m|MortarAndPestle}}
+|rowspan=6| {{Anchor|Mortar & Pestle}}
+| ''Novice'' || ''{{ID|000C7968}}'' || ''1.0'' || ''25'' || ''0.1''
+|rowspan=6| Required tool for all Alchemy.<br>''(The first one is the one you get during the [[Oblivion:Tutorial|tutorial]]. The only difference is a script that makes a tutorial message appear the first time you pick it up. Also, it won't stack with other Novice Mortar & Pestles.)''<br>A [[Shivering:Mixing Bowl|Mixing Bowl]] is the equivalent of an Apprentice Mortar and Pestle and can be found in the [[Shivering:Shivering Isles|Shivering Isles]].
+|-
+| Novice || {{ID|000105E3}} || 1.0 || 25 || 0.1
+|-
+| Apprentice || {{ID|0006E312}} || 1.25 || 75 || 0.25
+|-
+| Journeyman || {{ID|0006EE57}} || 1.5 || 250 || 0.5
+|-
+| Expert || {{ID|0006EE60}} || 1.75 || 500 || 0.75
+|-
+| Master || {{ID|0006EE68}} || 2.0 || 1000 || 1.0
+|-
+|rowspan=5| {{icon|m|Retort}}
+|rowspan=5| {{Anchor|Retort}}
+| Novice || {{ID|00000C4F}} || 3.0 || 50 || 0.1
+|rowspan=5| Increases the magnitude and duration of all positive effects in Alchemy.
+|-
+| Apprentice || {{ID|0006E313}} || 3.25 || 100 || 0.25
+|-
+| Journeyman || {{ID|0006EE59}} || 3.5 || 250 || 0.5
+|-
+| Expert || {{ID|0006EE62}} || 3.75 || 500 || 0.75
+|-
+| Master || {{ID|0006EE6A}} || 4.0 || 1000 || 1.0
+|}
+
+:{|class=wikitable
+!Apparatus Quality Level!!Vendors sell to Character Level!!Dungeon loot at Character Level
+|-
+|Novice||1||1
+|-
+|Apprentice||6||5
+|-
+|Journeyman||14||9
+|-
+|Expert||18||13
+|-
+|Master||''Never''||17
+|}
+
+<gallery>
+File:OB-item-Alembic.png|Alembics
+File:OB-item-Calcinator.png|Calcinators
+File:OB-item-Mortar and Pestle.png|Mortars and Pestles
+File:OB-item-Retort.png|Retorts
+</gallery>
+
+===Soul Gems===
+See [[Oblivion:Soul Gem|Soul Gem]]s for details on soul gem usage and [[Oblivion:Souls|Souls]] for information on creature souls.
+{{Oblivion:Soul Gem}}
+
+===Other===
+{| class=wikitable
+! 
+! Name (ID)
+! {{Weight Icon}}
+! {{Value Icon}}
+! Notes
+|-
+| {{icon|m|Lockpick}}
+| {{Anchor|Lockpick}}<br>{{ID|0000000A}} || 0 || 3 || Used to open locks. See [[Oblivion:Security|Security]] for details.
+|-
+| {{icon|m|RepairHammer}}
+|style=white-space:nowrap| {{Anchor|Repair Hammer}}<br>{{ID|0000000C}} || 1 || 10 || Used to repair equipment. See [[Oblivion:Armorer|Armorer]] for details.
+|-
+| {{icon|m|SigilStone}}
+| [[Oblivion:Sigil_Stone|Sigil Stone]]<br>{{Small|(many)}} || 1.0 || 0 || Found in Oblivion gates, use to enchant your items. See [[Oblivion:Sigil Stone|Sigil Stone]] for more details and complete list.
+|-
+| {{icon|m|Torch}}
+| {{Anchor|Torch}}<br>{{IDs|0002CF9F|00084AA2|sep=<br>}} || 0 || 0 || Provides light in dark places.
+* Lasts for 1000 seconds before going out on its own. The duration is cumulative so you can use the torch for a while and put it away yourself and then use it again and again until the 1000 seconds are used up.
+* Will be extinguished if you go underwater unless a [[Oblivion:Water Walking|Water Walking]] effect is active.
+* You cannot carry a torch and a shield or two-handed weapon at once.
+* Torches generally cannot be dropped in their lit state. However, by dropping them, saving your game, quitting out of the game, and loading your save they will be lit.
+* The second one (ID <code>00084AA2</code>) is used during [[Oblivion:Namira|Namira]]'s daedric quest, and will be extinguished right away if wielded.
+|-
+| {{icon|m|VarlaStone}}
+| [[Oblivion:Varla Stone|Varla Stone]]<br>{{ID|00000194}} || 1 || 1000 || Recharges all magical items in your inventory. See [[Oblivion:Varla Stone|Varla Stone]] for details.
+|-
+| {{icon|m|WelkyndStone}}
+| [[Oblivion:Welkynd Stone|Welkynd Stone]]<br>{{ID|00000191}} || 1 || 50 || Restores your Magicka to the maximum. See [[Oblivion:Welkynd Stone|Welkynd Stone]] for details.
+|}
+
+==Valuables==
+These items aren't really useful for anything except a source of income. They're just listed separately so that they don't get lost amid the sea of useless clutter. Gems can be found as random loot in various chests and other containers.
+{| class=wikitable
+! width=48|
+! Name (ID)
+! {{Weight Icon}}
+! {{Value Icon}}
+! Notes
+|-
+| {{icon|m|Gold}}
+| {{Anchor|Gold}}<br> {{ID|0000000F}} || 0 || 1 || The main currency in Cyrodiil. Also known as Septims or Drakes.
+|-
+| {{icon|m|GoldNugget}}
+| {{Anchor|Gold Nugget}}<br> {{ID|00049808}} || 0.25 || 25 || Found in [[Oblivion:Gold Vein|Gold Veins]]
+* {{pc22}} With the [[Oblivion Mod:Unofficial Oblivion Patch|Unofficial Oblivion Patch]], these can be used to recharge magical items at Mana Fountains found in Oblivion planes if you also have the book [[Oblivion:Arcana_Restored|''Arcana Restored'']] in your inventory.
+|-
+| {{icon|m|SilverNugget}}
+| {{Anchor|Silver Nugget}}<br> {{ID|00049809}} || 0.25 || 15 || Found in [[Oblivion:Silver Vein|Silver Veins]]
+|-
+| {{icon|m|FlawedPearl}}
+| {{Anchor|Flawed Pearl}}<br> {{ID|00038B99}} || 0.1 || 2 || Found inside [[Oblivion:Clams|Clams]]
+|-
+| {{icon|m|Pearl}}
+| {{Anchor|Pearl}}<br> {{ID|00038B98}} || 0.1 || 5 || Found inside [[Oblivion:Clams|Clams]]
+|-
+| {{icon|m|FlawlessPearl}}
+| {{Anchor|Flawless Pearl}}<br> {{ID|00038B9A}} || 0.1 || 10 || 
+5 are needed for the Shivering Isles quest [[Shivering:Brithaur_(quest)|Brithaur]].
+|-
+| {{icon|m|FlawedTopaz}}
+| {{Anchor|Flawed Topaz}}<br> {{ID|00038B9C}} || 0.1 || 5 ||
+|-
+| {{icon|m|Topaz}}
+| {{Anchor|Topaz}}<br> {{ID|00038B9B}} || 0.1 || 10 ||
+|-
+| {{icon|m|Topaz}}
+| {{Anchor|Flawless Topaz}}<br> {{ID|00038B9D}} || 0.1 || 20 ||
+* {{pc22}} With the [[Oblivion Mod:Unofficial Oblivion Patch|Unofficial Oblivion Patch]], this item uses a [[:File:OB-icon-misc-FlawlessTopaz.png|different icon]].
+|-
+| {{icon|m|Ruby}}
+| {{Anchor|Flawed Ruby}}<br> {{ID|00038B9F}} || 0.1 || 10 ||
+* {{pc22}} With the [[Oblivion Mod:Unofficial Oblivion Patch|Unofficial Oblivion Patch]], this item uses a [[:File:OB-icon-misc-FlawedRuby.png|different icon]].
+|-
+| {{icon|m|FlawlessRuby}}
+| {{Anchor|Ruby}}<br> {{ID|00038B9E}} || 0.1 || 20 ||
+* {{pc22}} With the [[Oblivion Mod:Unofficial Oblivion Patch|Unofficial Oblivion Patch]], this item uses the Flawed Ruby icon.
+|-
+| {{icon|m|FlawlessRuby}}
+| {{Anchor|Flawless Ruby}}<br> {{ID|00038BA0}} || 0.1 || 40 ||
+|-
+| {{icon|m|FlawedSapphire}}
+| {{Anchor|Flawed Sapphire}}<br> {{ID|00038BA2}} || 0.1 || 15 ||
+|-
+| {{icon|m|Sapphire}}
+| {{Anchor|Sapphire}}<br> {{ID|00038BA1}} || 0.1 || 30 ||
+|-
+| {{icon|m|FlawlessSapphire}}
+| {{Anchor|Flawless Sapphire}}<br> {{ID|00038BA3}} || 0.1 || 60 ||
+|-
+| {{icon|m|Emerald}}
+| {{Anchor|Flawed Emerald}}<br> {{ID|00038BA6}} || 0.1 || 20 ||
+* {{pc22}} With the [[Oblivion Mod:Unofficial Oblivion Patch|Unofficial Oblivion Patch]], this item uses a [[:File:OB-icon-misc-FlawedEmerald.png|different icon]].
+|-
+| {{icon|m|FlawlessEmerald}}
+| {{Anchor|Emerald}}<br> {{ID|00038BA4}} || 0.1 || 40 ||
+* {{pc22}} With the [[Oblivion Mod:Unofficial Oblivion Patch|Unofficial Oblivion Patch]], this item uses the Flawed Emerald icon.
+|-
+| {{icon|m|FlawlessEmerald}}
+| {{Anchor|Flawless Emerald}}<br> {{ID|00038BA5}} || 0.1 || 80 ||
+|-
+| {{icon|m|Diamond}}
+| {{Anchor|Flawed Diamond}}<br> {{ID|00038BA8}} || 0.1 || 25 ||
+* {{pc22}} With the [[Oblivion Mod:Unofficial Oblivion Patch|Unofficial Oblivion Patch]], this item uses a [[:File:OB-icon-misc-FlawedDiamond.png|different icon]].
+|-
+| {{icon|m|FlawlessDiamond}}
+| {{Anchor|Diamond}}<br> {{ID|00038BA7}} || 0.1 || 50 ||
+* {{pc22}} With the [[Oblivion Mod:Unofficial Oblivion Patch|Unofficial Oblivion Patch]], this item uses the Flawed Diamond icon.
+|-
+| {{icon|m|FlawlessDiamond}}
+| {{Anchor|Flawless Diamond}}<br> {{ID|00038BA9}} || 0.1 || 100 ||
+|-
+| {{icon|m|WolfPelt}}
+| {{Anchor|Wolf Pelt}}<br> {{ID|000228E2}} || 1.0 || 10 || Found on wolves
+* One (or a bear pelt) is needed for [[Oblivion:Hircine|Hircine]]'s quest.
+* A wolf pelt is needed for a statue in [[Oblivion:Fighter's Stronghold|Battlehorn Castle]].
+
+|-
+| {{icon|m|BearPelt}}
+| {{Anchor|Bear Pelt}}<br> {{ID|000228E3}} || 8.0 || 30 || Found on bears
+* 20 needed if you are [[Oblivion:Expelled from the Fighters Guild|Expelled from the Fighters Guild]].
+* 20 are needed to receive [[Oblivion:Destruction Training|Destruction Master Training]].
+* One (or a wolf pelt) is needed for [[Oblivion:Hircine|Hircine]]'s quest.
+* A bear pelt is needed for a statue in [[Oblivion:Fighter's Stronghold|Battlehorn Castle]].
+5 bear pelts are for sale at each of these stores:
+* [[Oblivion:Fire and Steel|Fire and Steel]] and [[Oblivion:Northern Goods and Trade|Northern Goods and Trade]] in [[Oblivion:Chorrol|Chorrol]].
+* [[Oblivion:Jensine's "Good as New" Merchandise|Jensine's "Good as New" Merchandise]], [[Oblivion:Three Brothers Trade Goods|Three Brothers Trade Goods]], and [[Oblivion:The Copious Coinpurse|The Copious Coinpurse]] in [[Oblivion:Market District|Imperial City's Market District]].
+* [[Oblivion:Lelles' Quality Merchandise|Lelles' Quality Merchandise]] in [[Oblivion:Anvil|Anvil]]
+* [[Oblivion:The Fair Deal|The Fair Deal]] in [[Oblivion:Bravil|Bravil]]
+|-
+| {{icon|m|LionPelt}}
+| {{Anchor|Lion Pelt}}<br> {{ID|000228E4}} || 5.0 || 10 || Found on lions. Due to a bug, these are invisible when placed on the ground.
+* One is needed for [[Oblivion:Molag_Bal|Molag Bal]]'s quest.
+* A lion pelt is needed for a statue in [[Oblivion:Fighter's Stronghold|Battlehorn Castle]].
+|}
+
+<gallery>
+File:OBR-item-Gold 04.png|Both sides of Gold<br>(''Oblivion Remastered'')
+</gallery>
+
+==Quest Items==
+: ''See the [[Oblivion:Quest_Items|Quest Items]] page for a more exhaustive list of quest items.''
+
+Many of these items will have zero weight when you first find them, because they are designated as quest items that you cannot remove from your inventory. The weights listed in this table are the weights when the items are no longer flagged as quest items.
+{| class=wikitable
+!width=48|
+! Name (ID)
+! {{Weight Icon}}
+! {{Value Icon}}
+! Notes
+|-
+|{{icon|j|NoviceRing}}
+| {{Anchor|Ancotar's Ring of Protection}}<br>{{ID|00030135}} ||1.0||0||Handed over by [[Oblivion:Ancotar|Ancotar]] during the [[Oblivion:Zero Visibility|Zero Visibility]] quest.<br>Prevents the [[Oblivion:Reverse Invisibility|Reverse Invisibility]] scroll from harming you.
+|-
+|{{icon|i|Daedra Heart}}
+| {{Anchor|Argonian Heart}}<br>{{ID|0003558F}} || 1.0 || 0 ||Used as proof in a Dark Brotherhood related [[Oblivion:The Renegade Shadowscale|quest]] for the assassination of [[Oblivion:Scar-Tail|Scar-Tail]], a rogue Shadowscale, though the heart could belong to the [[Oblivion:Dead Argonian Agent|Argonian assassin]] that made an attempt on his life shortly before you arrived, depending on how you choose to complete the quest.
+|-
+|{{icon|m|AyleidStatue}}
+| {{Anchor|Ayleid Statue}}<br>{{IDs|0002AB48|000844C4|sep=<br>}} || 3.0<br>0 || 250 || Only found in a few Ayleid Ruins, these statues can be [[Oblivion:The_Collector|turned in]] for a reward.
+|-
+|{{icon|i|Cheese}}
+| {{Anchor|Blue Cheese}}<br>{{ID|000D3B25}} || 1.0 || 0 || One of several assorted cheeses found at the inn in [[Oblivion:Border_Watch|Border Watch]]. It cannot be eaten and is only used for decoration.
+|-
+|{{icon|m|Bone1}}
+| Bone<br>{{ID|000180DE}} || 5.0 || 0 || Found scattered about the bottom of [[Oblivion:Sinkhole_Cave|Sinkhole Cave]] in Oblivion Remastered. Its editor ID (''MQ12SkeletonBone'') suggests it was originally meant to be part of the [[Oblivion:Miscarcand (quest)|Miscarcand]] quest.
+|-
+|{{icon|i|Cheese}}
+| {{Anchor|Cheddar Cheese}}<br>{{ID|000D3B2F}} || 0 || 0 || One of several assorted cheeses found at the inn in [[Oblivion:Border_Watch|Border Watch]]. It cannot be eaten and is only used for decoration.
+|-
+|{{icon|b|CrumpledPaper}}
+| {{Anchor|Crumpled Piece of Paper}}<br>{{ID|000BF14D}} || 0 || 0 || Four copies are picked up during [[Oblivion:The Ultimate Heist|The Ultimate Heist]] by one of the guards on litter patrol.
+|-
+|{{icon|m|DirtyShoes}}
+| {{Anchor|Dirty Shoes}}<br>{{ID|0009F8FD}} || 0 || 0 || Not found in the game. The editor id (''Ms29DirtyShoes'') suggests it was originally intended for the quest [[Oblivion:Unfriendly Competition|Unfriendly Competition]].
+|-
+|{{icon|m|Potion}}
+| {{Anchor|Empty Hist Bottle}}<br>{{ID|0008996E}} || 1.0 || 0 || You will find several of these lying around the Blackwood Company Basement during the [[Oblivion:Fighters Guild|Fighters Guild]] quest [[Oblivion:The Hist|The Hist]]. They have virtually no practical use apart from decoration for an alchemist.
+|-
+|{{icon|m|FingerOfAdamusPhillida}}
+|{{nowrap|{{Anchor|Finger of Adamus Phillida}}}}<br>{{ID|001778DB}} || 0 || 0 || You get this after killing [[Oblivion:Adamus_Phillida|Adamus Phillida]] in the [[Oblivion:Dark Brotherhood|Dark Brotherhood]] quest [[Oblivion:Permanent_Retirement|Permanent Retirement]], in order to receive the bonus reward. It sits in the desk after the quest and can be retrieved again.
+|-
+|{{icon|b|Book4}}
+| {{Anchor|Fingers of the Mountain}}<br>{{ID|0000510D}} || 2 || 0 || This book is wanted by two people during the [[Oblivion:Fingers of the Mountain|Fingers of the Mountain]] quest.
+|-
+|{{icon|m|Hourglass}}
+| {{Anchor|Glass of Time}}<br>{{ID|0002A60B}} || 1000.0 || 0 || Unused. The Glass of Time you see in the game during a [[Oblivion:The Ultimate Heist|Thieves Guild quest]] is an activator rather than an item.
+|-
+|{{icon|m|BlackSoulGem}}
+| {{Anchor|Hermaeus Mora's Soul Gem}}<br>{{ID|0008B61E}} || 4.5 || 4 || A special soul gem used in [[Oblivion:Hermaeus_Mora|Hermaeus Mora's]] daedric quest.
+|-
+|{{icon|m|Stamper}}
+| {{Anchor|Imperial Legion Seal}}<br>{{ID|0000C22C}} || 0.5 || 50 || Used in a Thieves Guild quest
+|-
+|{{icon|m|Key-ShapedArrowhead}}
+| {{Anchor|Key-Shaped Arrowhead}}<br>{{ID|0001482C}} || 0.1 || 350 || Found in the Thieves Guild quest, [[Oblivion:Arrow of Extrication|Arrow of Extrication]] on the top floor of [[Oblivion:Fathis Aren's Tower|Fathis Aren's Tower]]
+|-
+|{{icon|j|Ring}}
+| {{Anchor|Kylius Lonavo's Ring}}<br>{{ID|00189181}} || 0 || 30 || Found on the body of [[Oblivion:Kylius Lonavo|Kylius Lonavo]] during the [[Oblivion:Raid on Greyland|Raid on Greyland]] quest. Must be handed over to [[Oblivion:Lerexus Callidus|Lerexus Callidus]] to complete the quest.
+|-
+|{{icon|m|Inkwell}}
+| {{Anchor|Languorwine Antidote}}<br>{{ID|00028276}} || 0 || 0 || Used during the Dark Brotherhood quest [[Oblivion:The Assassinated Man|The Assassinated Man]].
+|-
+|{{icon|m|Llathasa'sBust}}
+| {{Anchor|Llathasa's Bust}}<br>{{IDs|00008032|0001E861|sep=<br>}} || 8.0 || 200 || The object of interest in a Thieves Guild quest, [[Oblivion:The Elven Maiden|The Elven Maiden]].
+|-
+|{{icon|m|LoosePipe}}
+| {{Anchor|Loose Pipe}}<br>{{ID|00089783}} || 0 || 0 || Found during the Fighters Guild quest [[Oblivion:The Hist|The Hist]].
+|-
+|{{icon|m|MagickaPotion}}
+| {{Anchor|Magicka Potion}}<br>{{ID|001192AF}} || 0 || 0 || Not found in the game. Uses the same icon as [[Shivering:Essence of Breath|Essence of Breath]]{{SI}}.
+|-
+|{{icon|m|Gold}}
+| {{Anchor|Marana Rian's Coin}}<br>{{ID|000613C0}} || 0 || 1 || Steal this to receive Master-level [[Oblivion:Sneak Training|Sneak Training]].
+|-
+|{{icon|i|Cheese}}
+| {{Anchor|Marble Cheese}}<br>{{ID|000D3B2A}} || 1.0 || 0 || One of several assorted cheeses found at the inn in [[Oblivion:Border_Watch|Border Watch]].
+|-
+|{{icon|m|Skull}}
+| {{Anchor|Mother's Head}}<br>{{ID|0006AAA5}} || 2.0 || 0 || The head of Mathieu Bellamont's late mother. Found during the [[Oblivion:Following a Lead|Following a Lead]] quest.
+|-
+|{{icon|d|Newheim'sFlagon}}
+| {{Anchor|Newheim's Heirloom}}<br>{{ID|00002E90}} || 0 || 0 || Target of the Fighters Guild quest [[Oblivion:Newheim's Flagon|Newheim's Flagon]]. It can be dropped even though it's a quest item.
+|-
+|{{icon|d|CeramicUrn}}
+| {{Anchor|{{sic|Oaken-Hall|Oaken-Hull}} Heirloom}}<br>{{ID|000CBD41}} || 1.0 || 0 || Found in the basement of [[Oblivion:Gweden_Farm|Gweden Farm]] during [[Oblivion:The Siren's Deception|The Siren's Deception]] quest. Belongs to [[Oblivion:Heinrich Oaken-Hull|Heinrich Oaken-Hull]], but he won't take it back.
+|-
+|{{icon|i|Cheese}}
+| {{Anchor|Olroy Cheese}}<br>{{ID|0008C26A}} || 0 || 0 || One of several assorted cheeses found at the inn in [[Oblivion:Border_Watch|Border Watch]].<br>This one attracts rats to plague the town in the [[Oblivion:Sheogorath|Sheogorath]] shrine quest.
+|-
+|{{icon|m|CrystalBall}}
+| {{Anchor|Orb of Vaermina}}<br>{{ID|0001EC18}} || 0 || 0 || Found in [[Oblivion:Arkved's_Tower|Arkved's Tower]] during the [[Oblivion:Vaermina|Vaermina]] shrine quest.
+|-
+|{{icon|m|Pickaxe}}
+| {{Anchor|Pickaxe}}<br>{{ID|000180E0}} || 0 || 0 || Found in a Crate in [[Oblivion:Sinkhole_Cave|Sinkhole Cave]] in Oblivion Remastered. Its editor id (''MQ12DummyPickaxe01'') suggests it was originally intended for the [[Oblivion:Miscarcand_(quest)|Miscarcand]] quest.
+|-
+|{{icon|m|RewardPainting}}
+| {{Anchor|Reward Painting}}<br>{{ID|00034E62}} || 12.0 || 500 || This painting (that comes with an easel for display) is one possible reward for the [[Oblivion:Chorrol|Chorrol]] quest [[Oblivion:Canvas the Castle|Canvas the Castle]]; you receive it from [[Oblivion:Chanel|Chanel]].
+|-
+|{{icon|m|Potion}}
+| {{Anchor|Roderick's Medicine}}<br>{{ID|00030FD7}} || 0 || 0 || Found during the Dark Brotherhood quest [[Oblivion:Bad Medicine|Bad Medicine]]. It is identical in appearance to a Silver Carafe.
+|-
+|{{icon|m|Poison}}
+| {{Anchor|Roderick's Poison}}<br>{{ID|00030FD6}} || 0 || 0 || Received during the Dark Brotherhood quest [[Oblivion:Bad Medicine|Bad Medicine]]. After the quest, it sits in the Medicine Cabinet and can be retrieved again at any time.
+|-
+|{{icon|b|Scroll2}}
+| {{Anchor|Rolled Up Portrait}}<br>{{ID|00034E52}} || 5.0 || 1 || This is the stolen painting you are tasked to find during the [[Oblivion:Chorrol|Chorrol]] quest [[Oblivion:Canvas the Castle|Canvas the Castle]].
+|-
+|{{icon|m|Skull}}
+| {{Anchor|Rufio's Skull}}<br>{{ID|000918FA}} || 3.0 || 0 || Not found in the game. It was presumably intended for the quest [[Oblivion:A Knife in the Dark|A Knife in the Dark]].
+|-
+|{{icon|m|Hourglass}}
+| {{Anchor|Sands of Resolve}}<br>{{ID|0002FB3F}} || 0 || 5 || Pickpocketed from the necromancer [[Oblivion:Celedaen|Celedaen]] in order to kill him in the [[Oblivion:Dark Brotherhood|Dark Brotherhood]] quest [[Oblivion:Affairs of a Wizard|Affairs of a Wizard]].
+|-
+|{{icon|m|Savilla'sStone}}
+| {{Anchor|Savilla's Stone}}<br>{{IDs|00014706|000C4A2C|sep=<br>}} || 10.0 || 0 || Found in the [[Oblivion:Temple of the Ancestor Moths (dungeon)|Temple of the Ancestor Moths]] during the [[Oblivion:Thieves Guild|Thieves Guild]] quest [[Oblivion:Turning a Blind Eye|Turning a Blind Eye]].
+|-
+|{{icon|m|SkeletalHand}}
+| {{Anchor|Skeletal Hand}}<br>{{ID|00003A99}} || 3.0 || 0 || Found in the [[Oblivion:Benirus_Manor|Benirus Manor]] in Anvil during the [[Oblivion:Where_Spirits_Have_Lease|Where Spirits Have Lease]] quest.
+|-
+|{{icon|m|StatuetteOfADog}}
+| {{Anchor|Statuette of a Dog}}<br>{{IDs|00026B25|0007B7B0|sep=<br>}} || 0 || 0 || Received during the [[Oblivion:Clavicus_Vile|Clavicus Vile]] shrine quest.
+|-
+|{{icon|m|StoneOfSt.Alessia}}
+| {{Anchor|Stone of St. Alessia}}<br>{{ID|00003949}} || 0 || 0 || Retrieved during the [[Oblivion:Fighters Guild|Fighters Guild]] quest [[Oblivion:The_Stone_of_St._Alessia|The Stone of St. Alessia]].
+|-
+|{{icon|m|Bone1|24}}{{icon|m|Bone1|24}}<br>{{icon|m|Skull|24}}{{icon|m|Bones|24}}
+| {{Anchor|Svenja's Remains}}<br>{{IDs|000C55E0|000C55E1|000C55E2|000C55E3|sep=<br>}} || 20.0 || 0 || Svenja Snow-Song's Leg, Arm, Head, and Torso, respectively. You will find these on (or in) the Uderfrykte Matron's corpse after killing it on the unmarked quest [[Oblivion:The Horror of Dive Rock|The Horror of Dive Rock]].
+|-
+|{{icon|j|UlfgarFamilyRing}}
+| {{Anchor|Ulfgar Family Ring}}<br>{{ID|0001ECE4}}||1.0||5||One of the two pieces of evidence needed to start a war during [[Oblivion:Mephala|Mephala]]'s quest.
+|-
+|{{icon|m|Potion}}
+| {{Anchor|Vampirism Cure Potion}}<br>{{ID|0009812D}} || 1.0 || 500 || One of two potions you obtain at the end of the [[Oblivion:Vampire Cure|Vampire Cure]] quest.
+|-
+|{{icon|m|CrystalBall}}
+| {{Anchor|Varulae's Crystal Ball}}<br>{{ID|00095A38}} || 1.0 || 3 || Found on board The Serpent's Wake in Anvil during [[Oblivion:The_Ghost_Ship_of_Anvil|The Ghost Ship of Anvil]] quest.
+|-
+|{{icon|d|SilverVase}}
+| {{Anchor|Wedding Gift}}<br>{{ID|000CBD43}} || 2.0 || 3 || Found in the basement of [[Oblivion:Gweden_Farm|Gweden Farm]] during the [[Oblivion:The Siren's Deception|Siren's Deception]] quest. It's not clear who it belongs to, so you can't return it.
+|-
+|{{icon|i|Ogre Teeth}}
+| {{Anchor|West Weald Bear Fang}}<br>{{ID|0018AE3F}} || 0.25 || 10 || Tokens found during the [[Oblivion:Bear_Season|Bear Season]] quest.
+|}
+<gallery>
+File:OB-item-Orb of Vaermina.jpg|Orb of Vaermina
+File:OB-item-Stone of St. Alessia.jpg|Stone of St. Alessia
+File:OBR-item-Stone of St. Alessia.jpg|Stone of St. Alessia<br>(''Oblivion Remastered'')
+File:OBR-item-Ulfgar Family Ring.jpg|Ulfgar Family Ring<br>(''Oblivion Remastered'')
+</gallery>
+
+==Clutter==
+Clutter items are almost completely useless, as they usually have no function and the few that have any value sell for very little gold. However, they can be used as decoration for your house (specifically for those who wish to [[Oblivion:Roleplaying|roleplay]]). Unless otherwise mentioned in the table, the clutter items have no purpose.
+{| class=wikitable
+!width=48|
+! Name !! ID
+! {{Weight Icon}}
+! {{Value Icon}}
+! Notes
+|-
+| {{icon|m|BloodPotion}}
+| {{Anchor|Blood Potion}} || {{ID|001192AE}} || 0 || 0 || Found on the ground in [[Oblivion:Random Oblivion World 6|Random Oblivion World 6]]. Despite being called a potion, you cannot drink it or use it in any way. In particular, vampires '''cannot''' use Blood Potions for [[Oblivion:Vampirism#Feeding|feeding]]; vials of [[Oblivion:Human Blood|Human Blood]] cannot be used for feeding either.
+*{{pc22}} The [[Oblivion Mod:Unofficial Oblivion Patch|Unofficial Oblivion Patch]] changes the name of this item to "Discarded Daedric Blood Vial".
+|-
+| {{icon|m|Bone1|24}}{{icon|m|Bone1|24}}<br>{{icon|m|Bone2|24}}{{icon|m|Bone3|24}}
+| {{Anchor|Bone}} || {{ID|0001DE26}}<br> {{ID|000223A8}}<br> {{ID|00023880}}<br> {{ID|00023881}}
+| 4.0<br>2.0<br>1.0<br>7.0
+| 0<br>0<br>0<br>0
+| Thick bone<br>Thin bone<br>Clavicle (Note: actually a scapula)<br>Pelvis
+|-
+| {{icon|m|Bones}}
+| {{Anchor|Bones}} || {{ID|00023882}} || 5.0 || 0 ||Ribcage
+|-
+| {{icon|m|BouquetOfFlowers}}
+| {{Anchor|Bouquet of Flowers}} || {{ID|00049CFD}} || 0 || 0 || Cannot be harvested for [[Oblivion:ingredients|Ingredients]] (although pots of flowers, such as [[Oblivion:Flax|Flax]], found in buildings can be harvested).
+|-
+| {{icon|m|Broom}}
+| {{Anchor|Broom}} || {{ID|000250FF}}<br> {{ID|00019113}} || 4.0 || 0 ||
+|-
+| {{icon|m|BrushJar}}
+| {{Anchor|Brush Jar}} || {{ID|0001BBCB}} || 0.25 || 0 || {{Bug|These jars cannot fall down on their side, and start acting strange when they do.|UOP|nobullet=1}}
+|-
+| {{icon|m|Calipers}}
+| {{Anchor|Calipers}}|| {{ID|0001C66C}} || 1.5 || 0 || For some reason, [[Oblivion:M'aiq the Liar|M'aiq the Liar]] has a penchant for them. Shivering Isles adds a [[Shivering:Work is Never Done|quest]] in which [[Shivering:Tove the Unrestful|Tove the Unrestful]] wants you to collect at least fifty calipers.
+|-
+|{{AL|C}}| {{icon|m|Cloth1|24}}{{icon|m|Cloth1|24}}<br>{{icon|m|Cloth2|24}}{{icon|m|Cloth3|24}}<br>{{icon|m|Cloth3|24}}
+| {{Anchor|Cloth}} || {{ID|0000087A}}<br> {{ID|0000088D}}<br> {{ID|0000089F}}<br> {{ID|000008D8}}<br> {{ID|000008E6}} || 4.5 || 4 || Five different designs of cloth bolts.
+|-
+| {{icon|b|CrumpledPaper}}
+| {{Anchor|Crumpled Piece of Paper}} || {{ID|000A9353}}<br> {{ID|000A9355}}<br> {{ID|000A9357}} || 0 || 0 || Just what it says. The three versions listed here cannot be read and have no purpose. Other versions, listed at [[Oblivion:Notes|Notes]], (with different FormIDs but identical appearance) can be read.
+|-
+|rowspan=2| {{icon|m|CrystalBall}}
+|rowspan=2| {{Anchor|Crystal Ball}} || {{ID|0001048C}} || 2.0 || 5 || Dark-colored Crystal Ball
+|-
+| {{ID|0001C60D}} || 3.0 || 5 || Gold-colored Crystal Ball
+|-
+|{{AL|C}}| {{icon|m|FoldedCloth1|24}}{{icon|m|FoldedCloth1|24}}<br>{{icon|m|FoldedCloth2|24}}{{icon|m|FoldedCloth2|24}}<br>{{icon|m|FoldedCloth3|24}}
+| {{Anchor|Folded Cloth}} || {{ID|000008DA}}<br> {{ID|000008DC}}<br> {{ID|00000D41}}<br> {{ID|00000D52}}<br> {{ID|00000D76}} || 1.5 || 2 || Five different designs of folded cloth.
+|-
+| {{icon|m|HandScythe}}
+| {{Anchor|Hand Scythe}} || {{ID|00025100}} || 1.5 || 0 ||
+|-
+| {{icon|m|Hoe}}
+| {{Anchor|Hoe}} || {{ID|00025101}} || 2.5 || 0 ||
+|-
+| {{icon|m|Hourglass}}
+| {{Anchor|Hourglass}} || {{ID|0001C666}} || 0.5 || 0 ||
+|-
+| {{icon|m|Inkwell}}
+| {{Anchor|Inkwell}} || {{ID|00023D61}} || 0.1 || 0 ||
+|-
+| {{icon|m|Oar}}
+| {{Anchor|Oar}} || {{ID|00025102}} || 0 || 0 ||
+|-
+| {{icon|m|Paintbrush}}
+| {{Anchor|Paint Brush|Paintbrush}} || {{ID|0001BBC5}}<br> {{ID|0001BBC6}}<br> {{ID|0001BBC7}}<br> {{ID|0001BBC8}}<br> {{ID|0001BBC9}}<br> {{ID|0001BBCA}} || 0.1 || 0 || Due to a [[Oblivion:Exploitable Glitches#Floating Paint Brushes|bug]], these do not fall to the ground when you drop them. {{Bug|You can make stairways out of them to get to places that are otherwise inaccessible.|UOP|nobullet=1}}
+* {{OBR Fix}}
+|-
+| {{icon|m|PaintPalette}}
+| {{Anchor|Paint Palette}} || {{ID|0001BBCC}} || 1.0 || 0 || 
+|-
+| {{icon|m|Pickaxe}}
+| {{Anchor|Pickaxe}} || {{ID|00025103}} || 6.0 || 0 || Useless. It is ''not'' needed for mining and does not have any effect on the number of [[#Silver Nugget|Silver Nugget]]s or [[#Gold Nugget|Gold Nuggets]] that you obtain.
+|-
+| {{icon|m|Pitchfork}}
+| {{Anchor|Pitchfork}} || {{ID|00025113}} || 4.0 || 0 ||
+|-
+| {{icon|m|Quill}}
+| {{Anchor|Quill}} || {{ID|00023D63}} || 0.1 || 0 ||
+|-
+| {{icon|m|Rake}}
+| {{Anchor|Rake}} || {{ID|00025116}} || 4.0 || 0 ||
+|-
+| {{icon|m|Pickaxe}}
+| {{Anchor|Recently Used Pickaxe}} || {{ID|0009F8FA}} || 6.0 || 0 || Found in [[Oblivion:Rockmilk Cave|Rockmilk Cave]], [[Oblivion:Onyx Caverns|Onyx Caverns]], [[Oblivion:Outlaw Endre's Cave|Outlaw Endre's Cave]], [[Oblivion:Felgageldt Cave|Felgageldt Cave]], [[Oblivion:Fort Urasek|Fort Urasek]], [[Oblivion:Vahtacen|Vahtacen]], [[Oblivion:Fort Rayles|Fort Rayles]], [[Oblivion:Desolate Mine|Desolate Mine]], and outside [[Oblivion:Abandoned Mine|Abandoned Mine]]. Also in three places in the [[Shivering:Shivering Isles|Shivering Isles]]. In the Remaster, 1 can be found in Battlehorn Castle after purchasing the Trophy Hall upgrade (it will be in the taxidermist's room).
+|-
+| {{icon|m|Scales}}
+| {{Anchor|Scales}} || {{ID|000105F3}} || 3.0 || 3 || Two very different items are identified as '''Scales''' in Cyrodiil: the Scales listed here, which are the type used to weigh items, and the alchemy ingredient [[Oblivion:Scales|Scales]], which is collected from slaughterfish and Bitterfish Goblins.
+|-
+| {{icon|m|Scythe}}
+| {{Anchor|Scythe}} || {{ID|0002511A}} || 4.0 || 0 || 
+|-
+| {{icon|m|Shears}}
+| {{Anchor|Shears}} || {{ID|0002511C}} || 1.0 || 0 || 
+|-
+| {{icon|m|Shovel}}
+| {{Anchor|Shovel}} || {{ID|000251A8}} || 4.0 || 0 || 
+|-
+| {{icon|m|Skull}}
+| {{Anchor|Skull}} || {{ID|00023F6E}} || 3.0 || 0 || 
+|-
+| {{icon|m|StoneBrick}}
+| {{Anchor|Stone Brick}} || {{ID|00025946}}<br> {{ID|00025947}}<br> {{ID|00025948}}<br> {{ID|00025949}}<br> {{ID|0002594A}} || 2.0 || 0 || Found in the ruins of [[Oblivion:Vilverin|Vilverin]], [[Oblivion:Reynald Jemane|Reynald Jemane]]'s house in [[Oblivion:Chorrol|Chorrol]], the warehouses in [[Oblivion:Anvil|Anvil]] and the [[Oblivion:Imperial City|Imperial City]], and in Ambroise Canne's House in Skingrad. There is also one found in the taxidermist's room in [[Oblivion:Battlehorn Castle (place)|Battlehorn Castle]], two in the basement of [[Oblivion:Drakelowe|Drakelowe]] and several in the gaps in the walls near [[Oblivion:Modryn Oreyn|Modryn Oreyn's]] house in Chorrol. Also found right next to a broken wall in Leyawiin.
+|-
+| {{icon|m|Tongs}}
+| {{Anchor|Tongs}} || {{ID|0001C66F}}<br> {{ID|000251AC}} || 1.0<br>3.0 || 0 || Shivering Isles adds a [[Shivering:Work is Never Done|quest]] in which [[Shivering:Tove the Unrestful|Tove the Unrestful]] wants you to collect at least fifty tongs.
+|-
+| {{icon|m|Weight}}
+| {{Anchor|Weight}} || {{ID|0001C5ED}} || 1.0 || 0 ||
+|-
+| {{icon|m|Yarn}}
+| {{Anchor|Yarn}} || {{ID|00025205}}<br> {{ID|00025206}} || 1.5 || 0 || One is needed for [[Oblivion:Sheogorath|Sheogorath's]] quest.
+|}
+
+==Dishes==
+{| class="vtop" style="width:100%"
+|-
+|
+===Lower Class===
+{|class=wikitable style="margin:0; border-collapse:collapse"
+! width=96 |
+! Name !! ID
+! {{Weight Icon}}
+! {{Value Icon}}
+|-
+| {{nowrap|{{icon|m|Basket1}}{{icon|m|Basket2}}}}
+| {{Anchor|Basket}} || {{ID|00024D91}}<br> {{ID|00024D92}} || 0.25 || 0
+|-
+| {{icon|d|Bowl1}}{{icon|d|Bowl1}}<br>{{icon|d|Bowl1}}{{icon|d|Bowl2}}<br>{{icon|d|Bowl3}}{{icon|d|Bowl4}}
+| {{Anchor|Bowl}} || {{ID|0001F1D9}}<br> {{ID|0001F1DA}}<br> {{ID|0001F1DB}}<br> {{ID|000105D5}}<br> {{ID|000105D7}}<br> {{ID|000105D9}} || 0.5 || 0
+|-
+|{{AL|C}}| {{icon|d|CoveredPot}}
+| {{Anchor|Covered Pot}} || {{ID|000105DF}}<br> {{ID|000105E0}} || 1.0 || 0
+|-
+|{{AL|C}}| {{icon|d|Fork}}
+| {{Anchor|Fork}} || {{ID|00019116}} || 0.1 || 0
+|-
+|{{AL|C}}| {{icon|d|Knife}}
+| {{Anchor|Knife}} || {{ID|00019117}} || 0.1 || 0
+|-
+|{{AL|C}}| {{icon|d|Ladle}}
+| {{Anchor|Ladle}} || {{ID|000105DB}} || 0.2 || 0
+|-
+|{{AL|C}}| {{icon|d|Plate}}
+| {{Anchor|Plate}} || {{ID|00019118}} || 0.5 || 0
+|-
+|{{AL|C}}| {{icon|d|Spoon}}
+| {{Anchor|Spoon}} || {{ID|00019119}} || 0.1 || 0
+|-
+|{{AL|C}}| {{icon|d|TanCup}}{{icon|d|StoneCup}}<br>{{icon|d|StoneCup}}
+| {{Anchor|Stone Cup}} || {{ID|000104C7}}<br> {{ID|000104C9}}<br> {{ID|00019115}} || 0.5 || 0
+|-
+|{{AL|C}}| {{icon|d|StoneMug}}
+| {{Anchor|Stone Mug}} || {{ID|000104CB}} || 0.5 || 0
+|-
+|{{AL|C}}| {{icon|d|StonePitcher}}
+| {{Anchor|Stone Pitcher}} || {{ID|000105DD}} || 1.0 || 0
+|-
+|{{AL|C}}| {{icon|d|StoneCup}}
+| {{Anchor|Tan Cup}} || {{ID|0001F1DC}}<br> {{ID|0001F1DD}}<br> {{ID|0001F1DE}} || 0.5 || 0
+|-
+| {{icon|d|TanJug1}}{{icon|d|TanJug2}}<br>{{icon|d|TanJug2}}{{icon|d|TanJug3}}<br>{{icon|d|TanJug4}}{{icon|d|TanJug4}}
+| {{Anchor|Tan Jug}} || {{ID|0001F1DF}}<br> {{ID|0001F1E0}}<br> {{ID|0001F1E1}}<br> {{ID|0001F1E2}}<br> {{ID|0001F1E3}}<br> {{ID|0001F1E4}} || 1.0 || 0
+|-
+|{{AL|C}}| {{icon|d|StoneMug}}
+| {{Anchor|Tan Mug}} || {{ID|0001F1E5}} || 0.5 || 0
+|-
+|{{AL|C}}| {{icon|d|StonePitcher}}
+| {{Anchor|Tan Pitcher}} || {{ID|0001F1E6}} || 1.0 || 0
+|-
+|{{AL|C}}| {{icon|d|Plate}}
+| {{Anchor|Tan Plate}} || {{ID|0001F1E7}} || 0.5 || 0
+|}
+|
+
+===Middle Class===
+{| style="margin:0; border-collapse:collapse"
+|-{{AL|T}}
+| style="margin:0; padding:0" |
+{|class=wikitable style="margin:0 1em 0 0; border-collapse:collapse"
+! width=96 |
+! Name !! ID
+! {{Weight Icon}}
+! {{Value Icon}}
+|-
+|{{AL|C}}| {{icon|d|ClayBowl1}}{{icon|d|ClayBowl2}}<br>{{icon|d|ClayBowl3}}
+| {{Anchor|Clay Bowl}} || {{ID|00022295}}<br> {{ID|00022298}}<br> {{ID|00022299}} || 0.5 || 0
+|-
+| {{icon|d|ClayCup1}}{{icon|d|ClayCup2}}
+| {{Anchor|Clay Cup}} || {{ID|00022538}}<br> {{ID|00022539}} || 0.5 || 0
+|-
+|{{AL|C}}| {{icon|d|ClayGoblet}}
+| {{Anchor|Clay Goblet}} || {{ID|0002253C}} || 0.5 || 0
+|-
+|{{AL|C}}| {{icon|d|ClayPitcher1}}{{icon|d|ClayPitcher2}}<br>{{icon|d|ClayPitcher3}}
+| {{Anchor|Clay Pitcher}} || {{ID|00022543}}<br> {{ID|00022544}}<br> {{ID|00022545}} || 1.0 || 0
+|-
+| {{icon|d|ClayPlate1}}{{icon|d|ClayPlate2}}
+| {{Anchor|Clay Plate}} || {{ID|0002254C}}<br>{{ID|0002254D}} || 1.0 || 0
+|-
+|{{AL|C}}| {{icon|d|ClayTankard}}
+| {{Anchor|Clay Tankard}} || {{ID|00022559}} || 0.5 || 0
+|-
+|{{AL|C}}| {{icon|d|ClayUrn}}
+| {{Anchor|Clay Urn}} || {{ID|00022553}} || 1.0 || 0
+|-
+|{{AL|C}}| {{icon|d|ClayVase}}
+| {{Anchor|Clay Vase}} || {{ID|00022557}} || 1.0 || 0
+|-
+|{{AL|C}}| {{icon|d|MetalBowl}}
+| {{Anchor|Metal Bowl}} || {{ID|000CD400}} || 1.0 || 0
+|-
+|{{AL|C}}| {{icon|d|MetalGoblet}}
+| {{Anchor|Metal Goblet}} || {{ID|000CD401}} || 0.5 || 0
+|-
+|{{AL|C}}| {{icon|d|MetalPlate}}
+| {{Anchor|Metal Plate}} || {{ID|000CD402}} || 1.0 || 0
+|-
+|{{AL|C}}|{{icon|d|MetalTankard1}}{{icon|d|MetalTankard1}}<br>{{icon|d|MetalTankard1}}{{icon|d|MetalTankard2}}<br>{{icon|d|MetalTankard3}}
+| {{Anchor|Metal Tankard}} || {{ID|000CD403}}<br> {{ID|000CD404}}<br> {{ID|000CD405}}<br> {{ID|000CD406}}<br> {{ID|000CD407}} || 0.5<br>0.5<br>0<br>0.5<br>0.5 || 0
+|-
+|{{AL|C}}| {{icon|d|MetalUrn}}
+| {{Anchor|Metal Urn}} || {{ID|000CD4DB}}<br>{{ID|000CD4DC}}<br>{{ID|000CD4E8}}<br>{{ID|000CD4E9}} || 1.0 || 0
+|-
+|{{AL|C}}| {{icon|d|PewterBowl}}
+| {{Anchor|Pewter Bowl}} || {{ID|0001C624}}<br> {{ID|0001C625}} || 1.0 || 0
+|-
+| {{icon|d|PewterCup1}}{{icon|d|PewterCup2}}<br>{{icon|d|PewterCup1}}{{icon|d|PewterCup1}}
+| {{Anchor|Pewter Cup}} || {{ID|000104C0}}<br> {{ID|000104C1}}<br> {{ID|0001C616}}<br> {{ID|0001C619}} || 1.0 || 0
+|-
+|{{AL|C}}| {{icon|d|Fork}}
+| {{Anchor|Pewter Fork}} || {{ID|0001C622}} || 0.1 || 0
+|}
+| style="margin:0; padding:0" |
+{|class=wikitable style="margin:0; border-collapse:collapse"
+! width=96 |
+! Name !! ID
+! {{Weight Icon}}
+! {{Value Icon}}
+|-
+|{{AL|C}}| {{icon|d|Knife}}
+| {{Anchor|Pewter Knife}} || {{ID|0001C620}} || 0.1 || 0
+|-
+|{{AL|C}}| {{icon|d|PewterMug}}
+| {{Anchor|Pewter Mug}} || {{ID|0000FD93}}<br> {{ID|0000FDA4}}<br> {{ID|0000FDAC}} || 1.0 || 0
+|-
+|{{AL|C}}| {{icon|d|PewterPitcher}}
+| {{Anchor|Pewter Pitcher}} || {{ID|0001C61F}} || 2.0 || 0
+|-
+|{{AL|C}}| {{icon|d|PewterPlate}}
+| {{Anchor|Pewter Plate}} || {{ID|0001C626}}<br> {{ID|0001C627}} || 1.0 || 0
+|-
+|{{AL|C}}| {{icon|d|PewterPot}}
+| {{Anchor|Pewter Pot}} || {{ID|0001C61A}}<br> {{ID|0001C61B}}<br> {{ID|0001C61C}} || 2.0 || 0
+|-
+|{{AL|C}}| {{icon|d|Spoon}}
+| {{Anchor|Pewter Spoon}} || {{ID|0001C623}} || 0.1 || 0
+|-
+|{{AL|C}}| {{icon|d|Planter}}
+| {{Anchor|Planter}} || {{ID|00015BB4}}<br> {{ID|00015BB5}}<br> {{ID|00015BB6}} || 1.0 || 0
+|-
+|{{AL|C}}| {{icon|d|RedBowl}}
+| {{Anchor|Red Bowl}} || {{ID|000836CE}} || 0.5 || 0
+|-
+| {{icon|d|TanBowl1}}{{icon|d|TanBowl2}}<br>{{icon|d|TanBowl3}}{{icon|d|TanBowl(covered)}}
+| {{Anchor|Tan Bowl}} || | {{ID|00022535}}<br> {{ID|00022536}}<br> {{ID|00022537}}<br> {{ID|000836CF}} || 0.5 || 0
+|-
+| {{icon|d|TanCup1}}{{icon|d|TanCup2}}
+| {{Anchor|Tan Cup}} || {{ID|0002253A}}<br> {{ID|0002253B}} || 0.5 || 0
+|-
+|{{AL|C}}| {{icon|d|TanGoblet}}
+| {{Anchor|Tan Goblet}} || {{ID|00022542}} || 0.5 || 0
+|-
+|{{AL|C}}| {{icon|d|TanPitcher1}}{{icon|d|TanPitcher2}}<br>{{icon|d|TanPitcher3}}
+| {{Anchor|Tan Pitcher}} || {{ID|00022546}}<br> {{ID|00022547}}<br> {{ID|00022548}} || 1.0 || 0
+|-
+| {{icon|d|TanPlate1}}{{icon|d|TanPlate2}}
+| {{Anchor|Tan Plate}} || {{ID|0002254E}}<br> {{ID|0002254F}} || 1.0 || 0
+|-
+|{{AL|C}}| {{icon|d|TanTankard}}
+| {{Anchor|Tan Tankard}} || {{ID|00022550}} || 0.5 || 0
+|-
+|{{AL|C}}| {{icon|d|TanUrn1}}{{icon|d|TanUrn2}}<br>{{icon|d|TanUrn3}}
+| {{Anchor|Tan Urn}} || {{ID|00022554}}<br> {{ID|00022555}}<br> {{ID|00022556}} || 1.0 || 0
+|-
+|{{AL|C}}| {{icon|d|TanVase}}
+| {{Anchor|Tan Vase}} || {{ID|00022558}} || 1.0 || 0
+|-
+| {{icon|d|Urn1}}{{icon|d|Urn2}}
+| {{Anchor|Urn}} || {{ID|00022551}}<br> {{ID|00022552}} || 1.0 || 0
+|}
+|}
+|
+
+===Upper Class===
+{|class=wikitable style="margin:0; border-collapse:collapse"
+! width=96 |
+! Name !! ID
+! {{Weight Icon}}
+! {{Value Icon}}
+|-
+|{{AL|C}}| {{icon|d|CeramicBowl}}
+| {{Anchor|Ceramic Bowl}} || {{ID|0002507A}} || 0.5 || 0
+|-
+|{{AL|C}}| {{icon|d|PewterCup1}}
+| {{Anchor|Ceramic Cup}} || {{ID|0002507B}} || 0.5 || 0
+|-
+|{{AL|C}}| {{icon|d|CeramicGoblet}}
+| {{Anchor|Ceramic Goblet}} || {{ID|0002507C}} || 0.5 || 0
+|-
+|{{AL|C}}| {{icon|d|SilverPitcher}}
+| {{Anchor|Ceramic Pitcher}} || {{ID|0002507D}}<br> {{ID|0002507E}} || 1.0 || 0
+|-
+|{{AL|C}}| {{icon|d|CeramicPlate}}
+| {{Anchor|Ceramic Plate}} || {{ID|0002507F}} || 0.5 || 0
+|-
+|{{AL|C}}| {{icon|d|StoneMug}}
+| {{Anchor|Ceramic Tankard}} || {{ID|0002724F}} || 0.5 || 0
+|-
+|{{AL|C}}| {{icon|d|CeramicUrn}}
+| {{Anchor|Ceramic Urn}} || {{ID|00025080}} || 1.0 || 0
+|-
+|{{AL|C}}| {{icon|d|CeramicVase}}
+| {{Anchor|Ceramic Vase}} || {{ID|00025081}} || 1.0 || 0
+|-
+| {{icon|d|Planter1}}{{icon|d|Planter1}}<br>{{icon|d|Planter1}}{{icon|d|Planter1}}<br>{{icon|d|Planter2}}{{icon|d|Planter2}}
+| {{Anchor|Planter}} || {{ID|00015BB0}}<br> {{ID|00015BB3}}<br> {{ID|00015BB7}}<br> {{ID|00015BB8}}<br> {{ID|00015BBA}}<br> {{ID|00015BBB}} || 0.5 || 0
+|-
+| {{icon|d|SilverBowl1}}{{icon|d|SilverBowl2}}
+| {{Anchor|Silver Bowl}} || {{ID|00000C08}}<br> {{ID|000105E7}} || 1.0 || 4
+|-
+|{{AL|C}}| {{icon|d|SilverCarafe}}
+| {{Anchor|Silver Carafe}} || {{ID|00019107}} || 2.0 || 5
+|-
+|{{AL|C}}| {{icon|d|SilverFork}}
+| {{Anchor|Silver Fork}} || {{ID|0001924A}} || 0.1 || 2
+|-
+|{{AL|C}}| {{icon|d|PewterCup1}}
+| {{Anchor|Silver Glass}} || {{ID|0001DBFC}} || 1.0 || 3
+|-
+|{{AL|C}}| {{icon|d|SilverGoblet}}
+| {{Anchor|Silver Goblet}} || {{ID|0001DCCC}}<br> {{ID|0001DCCF}} || 1.0 || 3
+|-
+|{{AL|C}}| {{icon|d|Knife}}
+| {{Anchor|Silver Knife}} || {{ID|00023C13}} || 0.1 || 2
+|-
+|{{AL|C}}| {{icon|d|SilverPitcher}}
+| {{Anchor|Silver Pitcher}} || {{ID|00023C15}}<br> {{ID|00023C17}} || 2.0 || 4
+|-
+|{{AL|C}}| {{icon|d|SilverPlate}}
+| {{Anchor|Silver Plate}} || {{ID|00023C19}} || 1.0 || 2
+|-
+|{{AL|C}}| {{icon|d|Spoon}}
+| {{Anchor|Silver Spoon}} || {{ID|00023C1B}} || 0.1 || 2
+|-
+|{{AL|C}}| {{icon|d|SilverTankard}}
+| {{Anchor|Silver Tankard}} || {{ID|00023C1D}} || 1.0 || 2
+|-
+| {{icon|d|SilverUrn1}}{{icon|d|SilverUrn2}}
+| {{Anchor|Silver Urn}} || {{ID|00023C1F}}<br> {{ID|00023C21}} || 2.0 || 5
+|-
+|{{AL|C}}| {{icon|d|SilverVase}}
+| {{Anchor|Silver Vase}} || {{ID|00023C23}} || 2.0 || 3
+|}

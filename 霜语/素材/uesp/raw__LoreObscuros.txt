@@ -1,0 +1,12 @@
+<noinclude>{{Lore Artifacts Trail}}__NOTOC__[[File:ON-quest-Of Knives and Long Shadows 02.jpg|right|thumb|The Obscuros (ESO)]]</noinclude>
+The [[Lore:Obscuros|Obscuros]] is a scrying artifact that enhances the user's [[Lore:Sight|Sight]] and projects their visions in the form of holographic constructs for anyone to see. It is said to be the most powerful scrying device on Tamriel.{{ref|name=Lilatha}} It was used and protected by the [[Lore:Ancients|ancient]] [[Lore:Psijic Order|Psijics]] before being deactivated and hidden to prevent its misuse,{{ref|name=Lilatha|[[ON:Lilatha|Lilatha]]'s dialogue in [[ESO:Online|ESO]]}}{{ref|name=Knives|Events of [[ON:Of Knives and Long Shadows|Of Knives and Long Shadows]] in [[ESO:Online|ESO]]: ''[[Online:Summerset (Chapter)|Summerset]]''}} being relocated to the island of [[Lore:Dranil Kir|Dranil Kir]] and locked away with magical traps.{{ref|name=Load|[[ON:Dranil Kir|Dranil Kir]] loading screen in [[ESO:Online|ESO]]}} The artifacts' presence on the island made it infamously plagued by severe weather.{{ref|name=Dranil|[[ESO:Dranil Kir|Dranil Kir]] appearance in [[ESO:Online|ESO]]}}
+<noinclude> 
+{{NewLeft}}
+
+Circa {{Year|2E 582}}, the Psijic monk [[Lore:Lilatha|Lilatha]] sought to find the origin of several incidents regarding peoples' [[Lore:Shadow|shadows]] coming to life and killing them. She employed the help of the [[Lore:The Vestige|Vestige]] to assist her, who gathered an Anuic Lantern and Liminal Lens before meeting her at Dranil Kir to find the Obscuros. The pair reached, repaired, and activated the artifact, asking it where the [[Lore:Skeleton Key|Skeleton Key]] was located. It output a projection of the [[Lore:Clockwork City|Clockwork City]],{{ref|name=Knives}} which would prove to be accurate. Later that year, the Vestige would recover the Skeleton Key from the city, where it was being used to imprison [[Lore:Sotha Sil|Sotha Sil]].{{ref|name=ESOCWC|Events of [[Online:DLC#Clockwork City|ESO: ''Clockwork City'']]}}
+
+==Notes==
+*An object known as the Clockwork Obscuros was a souvenir of Sotha Sil's capable of displaying a projection of the Clockwork City.{{ref|[[ESO:Clockwork Obscuros|Clockwork Obscuros]] item description in [[ESO:Online|ESO]]}}
+
+==References==
+<references/></noinclude>

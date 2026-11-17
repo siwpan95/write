@@ -1,0 +1,371 @@
+<noinclude>{{Trail|Magic|Spells}}
+This page lists '''[[Oblivion:Spells|Spells]]''' in the school of '''[[Oblivion:Alteration|Alteration]]'''.
+
+</noinclude>{| class=wikitable sortable
+|- {{ALT}}
+!width=1% class="unsortable"| 
+!width=14%| Spell Name
+!width=5%|[[Oblivion:Form ID|Form ID]]s
+!width=30% class="unsortable"| Effect Details 
+!width=5%|[[File:OBMagickaCostIcon small.png|Magicka Spell Cost|link=Oblivion:Magicka]]
+!width=30% class="unsortable"| How to Obtain
+|- {{ALT}}
+|colspan=6|<center>'''Novice'''</center>
+|-
+{{OB Spell
+|name=Burdening Touch
+|icon=Burden
+|spellid=000A97C1
+|tomeid=xx002294
+|magicka=10
+|desc=:{{Effect Link|Burden}} 15 pts for 15 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Trayvond_the_Redguard|Trayvond the Redguard]]
+}}
+{{OB Spell
+|name=Open Very Easy Lock
+|icon=Unlock
+|spellid=000A97FE
+|tomeid=xx002309
+|magicka=7
+|desc=:{{Effect Link|Open}} (Very Easy Lock) 7 pts on Target
+|where=* Players with [[Oblivion:Alteration|Alteration]] as a [[Oblivion:Skills|major skill]] start with this spell<br>
+* Can be purchased from: [[Oblivion:Calindil|Calindil]], [[Oblivion:Tahm Blackwell|Tahm Blackwell]]{{TD}}, [[Oblivion:Trayvond_the_Redguard|Trayvond the Redguard]]
+}}
+{{OB Spell
+|name=Protect
+|icon=Shield
+|spellid=000A97A7
+|tomeid=xx002325
+|magicka=10
+|desc=:{{Effect Link|Shield}} 5% for 30 secs on Self
+|where=* Players with [[Oblivion:Alteration|Alteration]] as a [[Oblivion:Skills|major skill]] start with this spell<br>
+* Can be purchased from: [[Oblivion:Calindil|Calindil]], [[Oblivion:Edgar_Vautrine|Edgar Vautrine]], [[Oblivion:Trayvond_the_Redguard|Trayvond the Redguard]], [[Oblivion:Ungarion|Ungarion]]
+}}
+{{OB Spell
+|name=Protect Other
+|icon=Shield
+|spellid=00071090
+|tomeid=xx002329
+|magicka=17
+|desc=:{{Effect Link|Shield}} 10% for 20 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Calindil|Calindil]], [[Oblivion:Trayvond_the_Redguard|Trayvond the Redguard]]
+}}
+{{OB Spell
+|name=Stark Reality
+|icon=Burden
+|spellid=0001C12C
+|tomeid=None
+|magicka=10
+|desc=:{{Effect Link|Script Effect|Stark Reality}} (Remove All Inventory Items) in 300 ft on Target<br>
+:{{Effect Link|Drain Health}} 1 pt for 60 secs on Target
+|where=* Given by [[Oblivion:Sanguine|Sanguine]] during the [[Oblivion:Sanguine|Sanguine]] Daedric Quest.
+}}
+|- {{ALT}}
+|colspan=6|<center>'''Apprentice'''</center>
+|-
+{{OB Spell
+|name=Buoyancy
+|icon=Feather
+|spellid=0001FBB4
+|tomeid=None
+|magicka={{FC|green|'''34'''}} ([[#Spell Notes|43*]])
+|desc=:{{Effect Link|Feather}} 5 pts for 30 secs on Self<br>
+:{{Effect Link|Water Breathing}} for 30 secs on Self
+|where=* Given by [[Oblivion:Deetsan|Deetsan]] during the [[Oblivion:Cheydinhal Recommendation|Cheydinhal Recommendation]] quest.
+}}
+{{OB Spell
+|name=Defend
+|icon=Shield
+|spellid=000A97A8
+|tomeid=xx002326 
+|magicka=43
+|desc=:{{Effect Link|Shield}} 15% for 30 secs on Self
+|where=* Can be purchased from: [[Oblivion:Alberic Litte|Alberic Litte]], [[Oblivion:Alves Uvenim|Alves Uvenim]], [[Oblivion:Delphine Jend|Delphine Jend]], [[Oblivion:Druja|Druja]], [[Oblivion:Selena Orania|Selena Orania]], [[Oblivion:Sulinus Vassinus|Sulinus Vassinus]], [[Oblivion:Thaurron|Thaurron]], [[Oblivion:Trayvond the Redguard|Trayvond the Redguard]]
+}}
+{{OB Spell
+|name=Ease Burden
+|icon=Feather
+|spellid=000A9800
+|tomeid=xx0022D0
+|magicka=35
+|desc=:{{Effect Link|Feather}} 50 pts for 240 secs on Self
+|where=* Can be purchased from: [[Oblivion:Alberic Litte|Alberic Litte]], [[Oblivion:Alves Uvenim|Alves Uvenim]], [[Oblivion:Delphine Jend|Delphine Jend]], [[Oblivion:Druja|Druja]], [[Oblivion:Edgar Vautrine|Edgar Vautrine]], [[Oblivion:Selena Orania|Selena Orania]], [[Oblivion:Sulinus Vassinus|Sulinus Vassinus]], [[Oblivion:Thaurron|Thaurron]], [[Oblivion:Trayvond the Redguard|Trayvond the Redguard]]
+}}
+{{OB Spell
+|name=Electric Shell
+|icon=Shockshield
+|spellid=000A982A
+|tomeid=xx002334
+|magicka=54
+|desc=:{{Effect Link|Shock Shield}} 10% for 30 secs on Self
+|where=* Can be purchased from: [[Oblivion:Trayvond the Redguard|Trayvond the Redguard]], [[Oblivion:Ungarion|Ungarion]]
+}}
+{{OB Spell
+|name=Frost Shell
+|icon=Frostshield
+|spellid=000A981D
+|tomeid=xx0022FC
+|magicka=54
+|desc=:{{Effect Link|Frost Shield}} 10% for 30 secs on Self
+|where=* Can be purchased from: [[Oblivion:Trayvond the Redguard|Trayvond the Redguard]], [[Oblivion:Ungarion|Ungarion]]
+}}
+{{OB Spell
+|name=Heat Shell
+|icon=Fireshield
+|spellid=000A9806
+|tomeid=xx0022DD
+|magicka=54
+|desc=:{{Effect Link|Fire Shield}} 10% for 30 secs on Self
+|where=* Can be purchased from: [[Oblivion:Trayvond the Redguard|Trayvond the Redguard]], [[Oblivion:Ungarion|Ungarion]], [[Oblivion:Volanaro|Volanaro]]
+}}
+{{OB Spell
+|name=Hindering Touch
+|icon=Burden
+|spellid=000A97C2
+|tomeid=xx002295 
+|magicka=39
+|desc=:{{Effect Link|Burden}} 35 pts for 20 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Trayvond the Redguard|Trayvond the Redguard]], [[Oblivion:Ungarion|Ungarion]], [[Oblivion:Volanaro|Volanaro]]
+}}
+{{OB Spell
+|name=Minor Latch Crack
+|icon=Unlock
+|spellid=0001CEED
+|tomeid=None
+|magicka={{FC|green|'''23'''}} ([[#Spell Notes|29*]])
+|desc=:{{Effect Link|Open}} (Easy Lock) 20 pts on Target
+|where=* Given by [[Oblivion:Volanaro|Volanaro]] during the [[Oblivion:Bruma Recommendation|Bruma Recommendation]] quest.
+}}
+{{OB Spell
+|name=Open Easy Lock
+|icon=Unlock
+|spellid=000A9824
+|tomeid=xx00230A
+|magicka=29
+|desc=:{{Effect Link|Open}} (Easy Lock) 20 pts on Target
+|where=* Can be purchased from: [[Oblivion:Alberic Litte|Alberic Litte]], [[Oblivion:Alves Uvenim|Alves Uvenim]], [[Oblivion:Delphine Jend|Delphine Jend]], [[Oblivion:Druja|Druja]], [[Oblivion:Selena Orania|Selena Orania]], [[Oblivion:Sulinus Vassinus|Sulinus Vassinus]], [[Oblivion:Tahm Blackwell|Tahm Blackwell]]{{TD}}, [[Oblivion:Thaurron|Thaurron]], [[Oblivion:Trayvond the Redguard|Trayvond the Redguard]]
+}}
+{{OB Spell
+|name=Sea Stride
+|icon=Waterwalk
+|spellid=000AA071
+|tomeid=xx002846
+|magicka=39
+|desc=:{{Effect Link|Water Walking}} for 30 secs on Self
+|where=* Can be purchased from: [[Oblivion:Trayvond the Redguard|Trayvond the Redguard]]<br>
+* This is the only Water Walking effect spell in the game, aside from custom spells.
+}}
+{{OB Spell
+|name=The Unwelcome Guest
+|icon=Unlock
+|spellid=0006D67E
+|tomeid=None
+|magicka=10
+|desc=:{{Effect Link|Open}} (Easy Lock) 12 pts on Touch
+|where=* Can be purchased from: [[Oblivion:M'raaj-Dar|M'raaj-Dar]]<br>
+* {{pc22}} The [[Oblivion Mod:Unofficial Oblivion Patch|Unofficial Oblivion Patch]] changes the magnitude of this spell to 20 to allow all Easy-level locks to be opened. It also changes the spell from on-Touch to on-Target.
+* {{OBR Change|this is Target rather than Touch}}
+}}
+{{OB Spell
+|name=Water Breathing
+|icon=Waterbreath
+|spellid=000AA06C
+|tomeid=xx002845
+|magicka=43
+|desc=:{{Effect Link|Water Breathing}} for 30 secs on Self
+|where=* Can be purchased from: [[Oblivion:Edgar Vautrine|Edgar Vautrine]], [[Oblivion:Trayvond the Redguard|Trayvond the Redguard]], [[Oblivion:Ungarion|Ungarion]]
+}}
+|- {{ALT}}
+|colspan=6|<center>'''Journeyman'''</center>
+|-
+{{OB Spell
+|name=Easy Lock
+|icon=Lock
+|spellid=000A9805
+|tomeid=None
+|magicka=72
+|desc=:{{Effect Link|Lock}} (Easy Lock) 12 pts on Touch<br>
+|where=* {{FC|red|Not available in game}}
+}}
+{{OB Spell
+|name=Encumbering Touch
+|icon=Burden
+|spellid=000A97C3
+|tomeid=xx002296
+|magicka=78
+|desc=:{{Effect Link|Burden}} 50 pts for 25 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Orintur|Orintur]]
+}}
+{{OB Spell
+|name=Guard
+|icon=Shield
+|spellid=000A97A9
+|tomeid=xx002327 
+|magicka=104
+|desc=:{{Effect Link|Shield}} 30% for 30 secs on Self
+|where=* Can be purchased from: [[Oblivion:Orintur|Orintur]]
+}}
+{{OB Spell
+|name=Ice Shield
+|icon=Frostshield
+|spellid=000A981E
+|tomeid=xx0022FD
+|magicka=131
+|desc=:{{Effect Link|Frost Shield}} 20% for 30 secs on Self
+|where=* Can be purchased from: [[Oblivion:Orintur|Orintur]]
+}}
+{{OB Spell
+|name=Lighten Load
+|icon=Feather
+|spellid=000A9801
+|tomeid=xx0022D1
+|magicka=75
+|desc=:{{Effect Link|Feather}} 75 pts for 300 secs on Self
+|where=* Can be purchased from: [[Oblivion:Orintur|Orintur]]
+}}
+{{OB Spell
+|name=Lightning Shield
+|icon=Shockshield
+|spellid=000A982B
+|tomeid=xx002335
+|magicka=131
+|desc=:{{Effect Link|Shock Shield}} 20% for 30 secs on Self
+|where=* Can be purchased from: [[Oblivion:Orintur|Orintur]]
+}}
+{{OB Spell
+|name=Minor Frost Shield
+|icon=Frostshield
+|spellid=0006EF34
+|tomeid=None
+|magicka=136
+|desc=:{{Effect Link|Frost Shield}} 15% for 45 secs on Self<br>
+|where=* {{FC|red|Not available in game}}<br>
+* Was intended to be given out by [[Oblivion:Carahil|Carahil]] during the [[Oblivion:Anvil Recommendation|Anvil Recommendation]] quest, but instead she gives out scrolls.
+}}
+{{OB Spell
+|name=Open Average Lock
+|icon=Unlock
+|spellid=000A9836
+|tomeid=xx00230B
+|magicka=72
+|desc=:{{Effect Link|Open}} (Average Lock) 40 pts on Target
+|where=* Can be purchased from: [[Oblivion:Orintur|Orintur]], [[Oblivion:Tahm Blackwell|Tahm Blackwell]]{{TD}}, [[Oblivion:Volanaro|Volanaro]]
+}}
+|- {{ALT}}
+|colspan=6|<center>'''Expert'''</center>
+|-
+{{OB Spell
+|name=Average Lock
+|icon=Lock
+|spellid=000A982D
+|tomeid=None
+|magicka=184
+|desc=:{{Effect Link|Lock}} (Average Lock) 25 pts on Touch<br>
+|where=* {{FC|red|Not available in game}}
+}}
+{{OB Spell
+|name=Fire Shield
+|icon=Fireshield
+|spellid=000A9808
+|tomeid=xx0022DE
+|magicka=221
+|desc=:{{Effect Link|Fire Shield}} 30% for 30 secs on Self
+|where=* Can be purchased from: [[Oblivion:Orintur|Orintur]]
+}}
+{{OB Spell
+|name=Glacial Wall
+|icon=Frostshield
+|spellid=000A981F
+|tomeid=xx0022FE
+|magicka=221
+|desc=:{{Effect Link|Frost Shield}} 30% for 30 secs on Self
+|where=* Can be purchased from: [[Oblivion:Orintur|Orintur]]
+}}
+{{OB Spell
+|name=Lightning Wall
+|icon=Shockshield
+|spellid=000A982C
+|tomeid=xx002336
+|magicka=221
+|desc=:{{Effect Link|Shock Shield}} 30% for 30 secs on Self
+|where=* Can be purchased from: [[Oblivion:Orintur|Orintur]]
+}}
+{{OB Spell
+|name=Open Hard Lock
+|icon=Unlock
+|spellid=000A9837
+|tomeid=xx00230C
+|magicka=176
+|desc=:{{Effect Link|Open}} (Hard Lock) 80 pts on Target
+|where=* Can be purchased from: [[Oblivion:Gaspar Stegine|Gaspar Stegine]], [[Oblivion:Orintur|Orintur]], [[Oblivion:Raminus Polus|Raminus Polus]], [[Oblivion:Tahm Blackwell|Tahm Blackwell]]{{TD}}
+}}
+{{OB Spell
+|name=Oppressing Grasp
+|icon=Burden
+|spellid=000A97C4
+|tomeid=xx002297
+|magicka=158
+|desc=:{{Effect Link|Burden}} 75 pts for 30 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Orintur|Orintur]], [[Oblivion:Raminus Polus|Raminus Polus]]
+}}
+{{OB Spell
+|name=Pack Mule
+|icon=Feather
+|spellid=000A9802
+|tomeid=xx0022D2
+|magicka=183
+|desc=:{{Effect Link|Feather}} 150 pts for 300 secs on Self
+|where=* Can be purchased from: [[Oblivion:Orintur|Orintur]], [[Oblivion:Raminus Polus|Raminus Polus]]
+}}
+{{OB Spell
+|name=Shield
+|icon=Shield
+|spellid=000A97AA
+|tomeid=xx002328
+|magicka=151
+|desc=:{{Effect Link|Shield}} 40% for 30 secs on Self
+|where=* Can be purchased from: [[Oblivion:Orintur|Orintur]], [[Oblivion:Raminus Polus|Raminus Polus]]
+}}
+{{OB Spell
+|name=Weight of the World
+|icon=Burden
+|spellid=0007108A
+|tomeid=xx002298
+|magicka=178
+|desc=:{{Effect Link|Burden}} 60 pts for 30 secs on Target
+|where=* Can be purchased from: [[Oblivion:Orintur|Orintur]]
+}}
+|- {{ALT}}
+|colspan=6|<center>'''Master'''</center>
+|-
+{{OB Spell
+|name=Aegis
+|icon=Shield
+|spellid=000A97AB
+|tomeid=None
+|magicka=403
+|desc=:{{Effect Link|Shield}} 50% for 60 secs on Self
+|where=* Can be purchased from: [[Oblivion:Gaspar Stegine|Gaspar Stegine]], [[Oblivion:Orintur|Orintur]]
+}}
+{{OB Spell
+|name=Beast of Burden
+|icon=Feather
+|spellid=000A9803
+|tomeid=None
+|magicka=422
+|desc=:{{Effect Link|Feather}} 250 pts for 360 secs on Self
+|where=* Can be purchased from: [[Oblivion:Aurelinwae|Aurelinwae]]{{WT}}, [[Oblivion:Borissean|Borissean]]
+}}
+{{OB Spell
+|name=Flame Shield{{Intnote|Alteration1|[A]}}
+|icon=Fireshield
+|spellid=000A9807
+|tomeid=xx0022DF
+|magicka=443
+|desc=:{{Effect Link|Fire Shield}} 30% for 60 secs on Self<br>
+|where=* Can be purchased from: [[Oblivion:Orintur|Orintur]]
+}}
+|}
+:A.{{LNote|Alteration1}}''Flame Shield'' is listed as a Journeyman-level spell in the [[Oblivion Mod:Construction Set|Construction Set]], but has a magnitude and duration that automatically makes it a Master-level spell. It appears the intended effect should have been ''20% for 30 secs on Self'', like the other Journeyman-level elemental shield spells.
+::*{{UOP}}<references /><noinclude>
+{{Oblivion:Spell List Notes}}</noinclude>

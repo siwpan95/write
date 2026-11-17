@@ -1,0 +1,64 @@
+<noinclude>{{Cleanup-srqrp
+|writtenBy=Eddie the head
+|checkedBy=
+|reward=Secunda
+|rewardChecked=
+}}</noinclude>{{About|the Stormcloak version of this mission|the Imperial version|Message to Whiterun (Imperial)}}
+{{Quest Header
+|type=Stormcloaks
+|Giver=[[Skyrim:Ulfric Stormcloak|Ulfric Stormcloak]]
+|Reward=None
+|Disp=
+|Rep=
+|Prev=[[Skyrim:The Jagged Crown (Stormcloaks)|The Jagged Crown]]
+|Conc=
+|Next=[[Skyrim:Battle for Whiterun (Stormcloaks)|Battle for Whiterun]]
+|Loc=[[Skyrim:Whiterun|Whiterun]], [[Skyrim:Windhelm|Windhelm]]
+|Image=SR-quest-Message to Whiterun (Stormcloaks).jpg
+|ImgDesc=Ulfric planning a war against Whiterun
+|description=Deliver an axe to the [[Skyrim:Balgruuf the Greater|Jarl]] of [[Skyrim:Whiterun|Whiterun]].
+|ID=CW03
+|Icon=SR-qico-Stormcloaks.png
+}}
+==Quick Walkthrough==
+#Talk to [[Skyrim:Ulfric Stormcloak|Ulfric Stormcloak]].
+#Receive  Ulfric's War Axe.
+#Go to [[Skyrim:Whiterun|Whiterun]] and give the axe to Jarl [[Skyrim:Balgruuf_the_Greater|Balgruuf the Greater]].
+#Wait for Balgruuf's reply.
+#Return to Ulfric.
+
+==Detailed Walkthrough==
+===A Gift for a Jarl===
+[[Skyrim:Ulfric Stormcloak|Ulfric Stormcloak]] has decided that it's time to make [[Skyrim:Whiterun|Whiterun's]] Jarl [[Skyrim:Balgruuf the Greater|Balgruuf the Greater]] pick a side. Ulfric hopes to avoid bloodshed in Whiterun, so he'll give you an axe (''Ulfric's War Axe'') and tell you to deliver it to Balgruuf. He has no further message for you to take, as he says that the axe is a gesture between two warriors who understand each other and that Balgruuf will know its meaning.
+
+===Making Up His Mind===
+When you speak to Jarl Balgruuf, tell him you have a message from Ulfric. Balgruuf will take the axe, but whether or not the quest proceeds depends on if you've already finished [[Skyrim:Dragon Rising|Dragon Rising]] (and its prerequisite quests [[Skyrim:Before the Storm|Before the Storm]] and [[Skyrim:Bleak Falls Barrow (quest)|Bleak Falls Barrow]]). If you've already done Dragon Rising then the quest will continue normally; otherwise Balgruuf will hold on to the axe and postpone making a decision about it until Dragon Rising is complete.
+
+With the time having come to give Ulfric an answer, Balgruuf will discuss the matter with his steward [[Skyrim:Proventus Avenicci|Proventus Avenicci]] and his housecarl [[Skyrim:Irileth|Irileth]]. Balgruuf will state that he's not entirely happy with Imperial policy, but ultimately he'll decide to side with the Empire. He'll give the axe back to you and begin drafting a letter to negotiate with the [[Skyrim:Imperial_Legion|Imperial Legion]] about garrisoning some of their troops in Whiterun.
+
+===The Die is Cast===
+Go back to Windhelm and return the axe to Ulfric. He'll be disappointed in Balgruuf's decision, but [[Skyrim:Galmar Stone-Fist|Galmar]] will welcome it; he's ready for battle and eager to launch the assault. After a short conversation, Ulfric will issue orders that initiate the next quest: [[Skyrim:Battle for Whiterun (Stormcloaks)|Battle for Whiterun]].
+
+==Notes==
+*If you are on [[Skyrim:The World-Eater's Eyrie|The World-Eater's Eyrie]] quest and [[Skyrim:Odahviing|Odahviing]] is still in Dragonsreach, you will not be able to deliver the axe to Jarl Balgruuf.
+*If you have not completed [[Skyrim:Bleak Falls Barrow (quest)|Bleak Falls Barrow]] and [[Skyrim:Dragon Rising|Dragon Rising]], you will not be able to deliver the axe to Jarl Balgruuf.
+*Completing this quest places Whiterun under siege and makes the city in its normal state unavailable to you until the completion of [[Skyrim:Battle for Whiterun (Stormcloaks)|Battle for Whiterun]].
+
+==Bugs==
+{{Bug|Progressing through Message to Whiterun while Season Unending is still open will block progression for both quests.|OSP|1.4}}
+
+==Quest Stages==
+Only stages and objectives relevant to the Stormcloak version of this quest are included in the table.
+{{Journal Entries
+|10||I am to deliver a message to the Jarl of Whiterun. It is time for him to pick a side in the war.
+{{Quest Objective|11|Deliver axe to the Jarl of Whiterun}}
+|16||{{Quest Objective|16|Assist Jarl Balgruuf with the dragon threat}}
+|20||{{Quest Objective|20|Wait for the Jarl's response}}
+|50||The Jarl of Whiterun has sided with the Empire. I am to inform Jarl Ulfric Stormcloak of this decision.
+{{Quest Objective|50|Deliver axe to Jarl Ulfric}}
+|225||{{Quest Objective|225|Wait for orders from Jarl Ulfric}}
+|240|fin|
+|255|fin|{{VN|Unused?}}
+|missing=1, 2, 15, 30, 40, 199, 200, 230
+}}
+{{Skyrim Quest Stages Notes}}

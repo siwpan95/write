@@ -1,0 +1,160 @@
+{{Cleanup-obrp-quest
+|image=
+|imageChecked=
+|writtenBy=
+|checkedBy=
+|objectivesChecked=
+|reward=
+|rewardChecked=
+}}{{Featured Article}}{{Quest Header
+|type=Main Quest
+|Giver=[[Oblivion:Jauffre|Jauffre]] at [[Oblivion:Cloud Ruler Temple|Cloud Ruler Temple]]
+|Icon=OBR-icon-quest-main-Imperial City.png
+|Iconsize=70px
+|Reward=
+|Fame=Fame +1
+|Prev=[[Oblivion:Weynon Priory (quest)|Weynon Priory]]
+|Next=[[Oblivion:Dagon Shrine|Dagon Shrine]]
+|Loc=[[Oblivion:Cloud Ruler Temple|Cloud Ruler Temple]], [[Oblivion:The Imperial City|The Imperial City]]
+|Image=OB-quest-The Path of Dawn.jpg
+|ImgDesc=Baurus attacks the Mythic Dawn members
+|ID=MQ05
+|description=You must return to [[Oblivion:Baurus|Baurus]] in the [[Oblivion:The Imperial City|Imperial City]] to try to track down the stolen [[Oblivion:Amulet of Kings|Amulet of Kings]].
+}}
+
+==Quick Walkthrough==
+# Speak to Jauffre about the Amulet of Kings.
+# Find Baurus in the Imperial City. Help him defeat a Mythic Dawn assassin, which will give you a mysterious book.
+# Track down the rest of the Mythic Dawn Commentaries.
+## Book Two can be found at the Arcane University.
+## Book Three can be found at First Edition.
+## Book Four requires meeting a cultist in the Imperial Sewers, with Baurus.
+# The books give you a location where, in turn, you'll learn where the Mythic Dawn sanctuary is.
+
+==Detailed Walkthrough==
+
+===Preparation===
+During this quest, Baurus becomes non-essential, so before going on this quest, it is recommended to obtain some [[Oblivion:Spells#Restoration|Convalescence]] spells to assist in keeping him alive.
+
+===An Old Friend===
+{{Remaster Image|File:OB-interior-Cloud Ruler Temple Great Hall.jpg|OBR-interior-Cloud Ruler Temple Great Hall.jpg|Cloud Ruler Temple|right}}
+Talk to [[Oblivion:Jauffre|Jauffre]] after escorting him and [[Oblivion:Brother Martin|Martin]] to [[Oblivion:Cloud Ruler Temple|Cloud Ruler Temple]]. Now that Martin is safe and secure, the next obvious step is to retrieve the [[Oblivion:Amulet of Kings|Amulet of Kings]] so that Martin can light the Dragonfires. Anticipating this course of action, [[Oblivion:Baurus|Baurus]], the only Blade present at the Emperor's assassination to survive, has been gathering intelligence in the Imperial City. The two of you are to work in conjunction to retrieve the Amulet. You can find Baurus at [[Oblivion:Luther Broad's Boarding House|Luther Broad's Boarding House]] in the [[Oblivion:Elven Gardens District|Elven Gardens District]].
+
+Inside, you'll find Baurus sitting down and drinking. One other customer, [[Oblivion:Astav Wirich|Astav Wirich]], is always present in the corner behind him. Have a seat next to Baurus and chat with him. In the course of his intelligence-gathering, he has attracted unwanted attention and is being stalked. Suspicious of Astav, Baurus formulates a sting operation: He will leave to the secluded basement in the hope the man will follow. Sure enough, as Baurus leaves Astav follows. Head downstairs and intercept him.
+
+===Volume One: Astav and Baurus===
+When Astav discovers that he has an opportunity to strike Baurus down without Imperial interference, he'll summon his Mythic Dawn gear and try to assassinate him. Although the fight is pretty one sided in Baurus' favor, Baurus won't mind if you fight Astav from the rear. After Astav is dead, Baurus will instruct you to check his body for anything useful. You'll find a strange book entitled ''[[Oblivion:Mythic Dawn Commentaries 1|Mythic Dawn Commentaries 1]]''. Show it to Baurus, and he will suggest that you talk to [[Oblivion:Tar-Meena|Tar-Meena]], an expert of [[Lore:Daedric Princes|Daedric Cults]], in the [[Oblivion:Arcane University|Arcane University]], who may be able to tell you more about the book.
+
+===Volume Two: The Arcane University===
+Travel to the [[Oblivion:Arcane University|Arcane University]], located in the southeastern corner of the Imperial City. If you have completed [[Oblivion:Join the Mages Guild|Join the Mages Guild]], Tar-Meena will be wandering around the Mystic Archives. If not she will be found reading in the Arch-Mage's Lobby. Talk to her about the Mythic Dawn, and find out more about this cult and its patriarch, [[Oblivion:Mankar Camoran|Mankar Camoran]]. She says that you will need the complete set of the ''Mythic Dawn Commentaries'', also known as ''Commentaries on the [[Oblivion:Mysterium Xarxes|Mysterium Xarxes]]'', to find their headquarters. She offers you the [[Oblivion:Mythic Dawn Commentaries 2|second]] book, which leaves you to find books three and four.
+
+===Volume Three: First Edition===
+{{Remaster Image|File:OB-interior-First Edition.jpg|File:OBR-interior-First Edition.jpg|Find Phintias at the First Edition|right}}
+Tar-Meena suggests that you visit the [[Oblivion:First Edition|First Edition]] bookstore and speak with [[Oblivion:Phintias|Phintias]], the proprietor, who may have some information about the last two volumes. His bookstore is in the [[Oblivion:Market District|Market District]] on the northeast side of the Imperial City, near the center of the district. Upon arriving, ask Phintias about the Mysterium Xarxes. He'll say that while books one and two are rare, books three and four are next to impossible to find. He does happen to have a copy of the [[Oblivion:Mythic Dawn Commentaries 3|third one]], but it has already been paid for by another customer, [[Oblivion:Gwinas|Gwinas]]. As for book four, he states that he has never even seen a copy of it and has absolutely no idea on where you would find one.
+
+To obtain the third book at this point, you have a few options:
+* As soon as Gwinas buys the book, talk to him and tell him that the Mythic Dawn were the ones who murdered the emperor. As soon as he realizes this, he will give you the book and a note about the meeting.
+* If you boost Phintias' [[Oblivion:Disposition|disposition]] above 80, he will reluctantly sell the book to you for 100 gold. You will still need to confront Gwinas for the note.
+* Before Gwinas picks up the book, it can be found in a locked chest behind Phintias' counter. You can steal the book before Gwinas arrives and Phintias will not be able to give it to him. If you talk to Phintias, he will comment that the book has been stolen. Again, you will still need to get the note from Gwinas.
+* Gwinas can also be pickpocketed or killed for the book and/or the note.
+
+Volume four can only be obtained from a member of the Mythic Dawn. Gwinas has set up a meeting, of which he'll tell you the time and place, with his sponsor, [[Oblivion:Raven Camoran|Raven Camoran]]. You must go in his place to receive the fourth and final volume.
+
+===Volume Four: The Sewers===
+{{Remaster Image|File:OB-place-Sunken Sewers 02.jpg|File:OBR-interior-The Elven Gardens Sewers Sunken Sewers 02.jpg|A Mythic Dawn hideout|right}}
+As the quest log suggests, go see Baurus back at the Boarding House before heading out to the meeting and let him know what you've found so far. Accompany him through the rather long walk to the [[Oblivion:Elven Garden Sewers|Elven Garden Sewers]] and proceed inside where you'll encounter a few [[Oblivion:Animals#Mud_Crabs|mud crabs]] and leveled [[Oblivion:Goblins|goblins]]. There is very little loot throughout the sewers, so a direct route to the meeting place is advised. Rather annoyingly, Baurus remains walking the entire path and will stop walking if you run ahead, and you may find yourself backtracking often to retrieve him.
+
+As you follow Baurus through the sewers, periodically heal him to keep him at full strength. Heal him again just before entering the final door to the meeting area. He'll let you know when that is. This will keep him alive through the sewers and, if necessary, throughout the fight. If you do not have a [[Oblivion:Spells#Restoration|Convalescence]] spell, waiting will heal both of you at the same time. However, this will not work in the middle of a battle. The fight with the Mythic Dawn agents at the meeting area can be rather difficult, especially if you want to keep Baurus alive.
+Keeping Baurus alive is recommended because he can be a big help at lower levels, and also during the other battles in the Main Quest. Additionally, if you meet Baurus at the Cloud Ruler Temple after he and you travel through the sewers, he will thank you and give you a [[Oblivion:Free Skill Boosts|free skill increase]] in Blade, Block, and Heavy Armor.
+
+You may also wish to take the lead in order to protect Baurus on the way, since he is no longer essential. If you get too far ahead of him, he'll simply wait for you to come close enough to continue on. Once you reach the meeting area, Baurus suggests that you cover him, although, you can take the lead and have him cover you if you insist. In this path though, he will be discovered and attacked. Whatever happens, he says you must try to get the book and recover the Amulet of Kings. At this point, it is a good idea to rest or apply a Convalescence Spell to Baurus if you have one. Saving your game is also an excellent idea.
+
+There are many possible ways to continue from here, including the following:
+* If you take the stairs to the left of the door into the [[Oblivion:The Elven Garden Sewers|Sunken Sewers]], you'll be on an overlooking walkway with a great vantage point, as Baurus mentioned. The Sponsor will enter and talk to Baurus as two more cultists enter from the top. Without stealth options, these cultists will likely discover you. Even if they don't see you, the first cultist will recognize Baurus and attack. You have a moment before the two cultists enter to attack the cultist below in your manner of choosing. This stratagem tilts the fight greatly in your and Baurus' favor. Alternatively, if you have reasonably good [[Oblivion:Sneak|Sneak]] and [[Oblivion:Marksman|Marksman]] skills you can shoot through the gates up above and eliminate both cultists before they even enter the room. You can then hop down and assist Baurus in finishing off Raven Camoran.
+{{Remaster Image|File:OB-place-Sunken Sewers.jpg|File:OBR-interior-The Elven Gardens Sewers Sunken Sewers.jpg|Meet the Sponsor|right}}
+* Ignore Baurus' suggestion of using the vantage point and follow him through the door instead. He will sit at the table, while you should hide in the shadows to the right. The inset wall to the left is also an excellent place to wait. When the first cultist comes in, he stands facing the table with his back to you. If you have enough skill in Sneak you can ''immediately'' sneak up behind him and pick his pocket. If you take too long the other cultists will arrive. If you can pickpocket the book and sneak out of the room in Baurus' line of sight, he will shortly break off the meeting and follow you, and the two of you can leave in peace. He may leave even if you don't.
+* You may meet the Sponsor instead. Baurus will hide up on the overlook. Sit down in the chair, and the Sponsor will enter. If you get up or try to talk to him he will yell at you. When the other two agents enter the room, they will see Baurus and attack. If you are quick here, there is an opportunity to pickpocket the book before Baurus enters. This will allow you to leave without having to fight the Mythic Dawn Agents. The opportunity arises after the Sponsor has walked behind you and turned his back on you. You can also pickpocket the key to the Sunken Sewers.
+* Another option for keeping Baurus alive at higher levels is to tell Baurus that "I'm not ready to go yet" and then go through either door yourself. If you use a Detect Life spell, at least about 60 feet in range, you can see Raven Camoran through a metal gate on the lower level. He is usually around a corner, behind a wall. To attack him out of line-of-sight, use a ranged spell with an area-of-effect at the ground closest to his feet. He and the other cultists will come out and attack you. You can safely take out all three while Baurus is still waiting outside. When you are finished and have the book, go back out and talk to Baurus, who will go ahead to Cloud Ruler Temple, allowing the quest to proceed. If you proceed to do it this way Baurus will remain essential but the Sunken Sewers Key will not be added to Raven Camoran for you to loot.
+* Another option is to go onto the overlooking bridge and make sure Raven sees you while he is still behind the door. This will make him turn hostile but he will not open the gate so you can take him down with a bow or Destruction spell. The other two attackers will come in but will not be very hard to take out. One will carry a key, allowing you to get the book from behind the gate.
+* If you have raised your [[Oblivion:Illusion|Illusion]] skill to its maximum level, you can cast [[Oblivion:Command_Humanoid|Command Humanoid]] on one or more Mythic Dawn agents to increase the odds of Baurus surviving. See the [[Oblivion:Useful_Spells#Friendly Fire|Friendly Fire]] custom spell for one possible method.
+
+Loot ''[[Oblivion:Mythic Dawn Commentaries 4|Mythic Dawn Commentaries Four]]'' from the Sponsor along with a [[Oblivion:Raven Camoran#Notes|level-dependent ring]], a [[Oblivion:Sunken Sewers Key|Sunken Sewers Key]], a potion, and a scroll. Be sure to thoroughly explore the Mythic Dawn room as well, where there are three crates and three chests, including one boss-level chest that may contain additional enchanted items as well as additional copies of Mythic Dawn Commentaries books one to three.
+
+Once you have the book, you will part ways with Baurus, who states that he'll go to [[Oblivion:Cloud Ruler Temple|Cloud Ruler Temple]] to help protect [[Oblivion:Brother Martin|Martin]]. It is possible for Baurus to die while making his way back to the temple. Exit the sewers either the way you came or through the new area unlocked by the Sunken Sewers Key you retrieved from the cultists. You can also return to outside the cult room, take an immediate left into the next room and then exit up a ladder into Fathis Ules' basement. This method involves [[Oblivion:Crime|trespassing]], but it's the quickest way to the surface.
+
+===Cracking the Code===
+{{Remaster Tab|thumb=right|original=[[File:OB-quest-The Path of Dawn 02.jpg|thumb|none|Before...]]|remaster=[[File:OBR-quest-The Path of Dawn 02.jpg|thumb|none|Before...]]}}
+{{Remaster Tab|thumb=right|original=[[File:OB-quest-The Path of Dawn 03.jpg|thumb|none|...and after]]|remaster=[[File:OBR-quest-The Path of Dawn 03.jpg|thumb|none|...and after]]}}
+The four books each contain a clue as to the location of the cult. Go to [[Oblivion:Tar-Meena|Tar-Meena]] at the Arcane University. She'll think about the puzzle and asks you to get back to her tomorrow afternoon to see if she's made progress. If you wait a day and then ask her about the Mythic Dawn, she will tell you that she is sure that the key to the mystery lies in the first word—or even first letter—of each paragraph in the Commentaries....
+
+Look at the large red letters that begin the paragraphs in the book. Put them all together to read: <tt>GREEN EMPEROR WAY WHERE TOWER TOUCHES MIDDAY SUN</tt>.
+
+[[Oblivion:Green Emperor Way|Green Emperor Way]] is the central district of the Imperial City, where the [[Oblivion:Imperial Palace|Imperial Palace]] is located. If you are going strictly by the clue from the books, you should wait until nearly midday. Look to see where the [[Oblivion:White Gold Tower|White Gold Tower]] blocks the sun. Find the point where the tip of the tower touches the middle of the sun. You should be standing right in front of the [[Oblivion:Tomb of Prince Camarril|Tomb of Prince Camarril]], where a set of red runes are glowing to reveal the location of the Mythic Dawn shrine. Click to activate the tomb and advance the quest.
+
+If you're following the quest marker, there's no need to pay attention to the sun: you can follow the quest marker straight to the Tomb of Prince Camarril, located just south of the gate leading to the Talos Plaza District. You don't even need to talk to Tar-Meena. At any time after obtaining the fourth volume you can go to Green Emperor Way to advance the quest. The runes on the tomb will only glow from 11:48am to 12:30pm. You need to be standing on the south side of the tomb with the palace positioned behind the tomb to see the runes. The runes on the tomb actually glow every day from the very beginning of the game, but it is only possible to activate the tomb during this quest.
+
+==Notes==
+* [[File:OBR-icon-Oblivion Remastered.png|22px]] In [[Oblivion:Oblivion Remastered|Oblivion Remastered]], Baurus stays essential through the sewers up until the meeting, but will lose his essential status after this point.
+* Attacking Astav before he becomes hostile in the basement counts as assault, as he is not yet flagged as evil.
+* You can proceed in the quest without having the books in your inventory.
+* This is your only chance to get the Sunken Sewers key to the Talos Plaza sewers from Raven Camoran. If you forget it you must use console commands.
+* You will only receive the free skill boost from Baurus at Cloud Ruler Temple if your level in the skill is less than 90 when you talk with him.
+* {{Xbox22}} An [[Oblivion:Xbox_360_Achievements#Main_Quest_Achievements|achievement]] will be unlocked upon activating the tomb at midday.
+* If you do this quest at level 22 or above, when you go to meet the sponsor, the Mythic Dawn cult members have a very high chance of dropping high level jewelry such as the [[Oblivion:Mundane_Ring|Mundane Ring]].  You can guarantee one of these items to drop from the sponsor if you save before entering the room and reload as necessary, and a second to drop from the Mythic Dawn members that appear during the meeting if you make a second save after entering the room but before they appear.
+
+==Bugs==
+{{Bug|In some non-English versions of the game the riddle may be unsolveable, due to a translation error / miscommunication that results in the intended solution spelling out gibberish instead. In the German version, for example, it's impossible to solve the riddle yourself due to such.|confirmed=1}}
+**[[File:OBR-icon-Oblivion Remastered.png|22px]] In [[Oblivion:Oblivion Remastered|Oblivion Remastered]], the '''Polish''' localization has this issue. Other translations with Latin script had this issue addressed. The status regarding East Asian localizations (Chinese and Japanese) is still unknown.
+{{Bug|The seats that [[Oblivion:Astav Wirich|Astav Wirich]] and Baurus sit on during the first part of the quest are considered "owned furniture," meaning you are unable to sit on them.|UOP}}
+{{Bug|If you delay before reporting to Baurus after procuring book three, he may come and find you instead, and his range extends even outside the Imperial City. This can prove inconvenient, as you will be forced to walk with Baurus the entire way back to the sewers. Using fast travel to speed up the journey will not work, as Baurus does not follow you. There is also the possibility that Baurus will get stuck. If you meet him outside the Imperial City, he may not be able to figure out how to get back. This fatally halts the main storyline.|UOP}}
+**One possibility for "rescuing" Baurus is to attack him. Strike him enough times and he will chase you, allowing you to lead him where you need him to go, at which point you can yield to him. This will, however, earn you a bounty, and you may be chased by the guards, so be sure to yield to Baurus before a guard catches up to you. You can also solve this problem by being arrested and going to jail; serve your time, and when you get back outside, Baurus will be waiting. The quickest way to get arrested is to simply walk up to an Imperial City Guard and pickpocket them in plain view.
+**{{pc22}} You can solve this using the [[Oblivion:Console|console]]. Select Baurus with the console open (or enter <code>prid 32A17</code>), close the console, fast travel to the Imperial City, and enter <code>moveto player</code>. This will move Baurus instantly to your location. 
+{{Bug|When Baurus is walking up the stairs in the sewers, it is possible (although rare) for him to fall off the edge of the stairs and get trapped behind the barrels, thus requiring the reloading of an earlier save.|UOP}}
+{{Bug|If you have been [[Oblivion:Mages Guild Suspension|expelled from the Mages Guild]], Tar-Meena will not appear in the Arch-Mage's Lobby; she will stay in the Mystic Archives. The only way to get to her is to regain entrance to the University by completing the assigned tasks. If you have been permanently expelled, the only way to reach Tar-Meena is by using the [[Oblivion:Exploitable_Glitches#Floating_Paint_Brushes|paint brush glitch]] to jump the wall and wait on her to come out of the Mystic Archives at 6pm to head to the Mage's Quarters where she sleeps until midnight.|UOP}}
+{{Bug|If you are a [[Oblivion:Vampirism|vampire]], buying book three and interacting with Gwinas after he has been informed you have bought it might cause him to get stuck, even if charmed to 100 disposition. In this state, he will always immediately end conversation due to your vampirism, and the quest won't be progressed.}}
+**This can be fixed by reloading a save prior to buying book three, or with console commands.
+
+==Journal Entries==
+{{Journal Entries
+|0||
+|10||I should speak to Jauffre about how to recover the Amulet from the enemy.
+|20||Jauffre wants me to contact Baurus at Luther Broad's Boarding House in the Imperial City. The enemy has the Amulet of Kings, and Baurus may have the leads we need to get it back.
+|25||I must follow the man who is watching Baurus and me.
+|30||{{Quest Comment|Triggers Astav Wirich to follow Baurus}}
+|31||{{Quest Comment|Set when Astav ready to attack Baurus}}
+|32||The enemy agent who attacked Baurus is dead. I should find out what Baurus has learned about our enemies.
+|34||Baurus wants me to search the dead agent's body.
+|35||I have found a strange book about the Mythic Dawn cult. I should show this to Baurus.
+|36||Baurus has learned that the enemy is a secret cult of Mehrunes Dagon worshippers known as the Mythic Dawn. He will continue to track down agents in the Imperial City. I should talk to Tar-Meena at the Arcane University, an expert in daedric cults. She may be able to tell me more about how to find the Mythic Dawn.
+|40||Tar-Meena told me that Mankar Camoran is the leader of the Mythic Dawn. Tar-Meena believes that the location of their secret shrine is hidden within Mankar Camoran's books about the Mysterium Xarxes. If I want to locate the Mythic Dawn, I must find and decipher the clues in all four volumes.<br>Tar-Meena gave me the second of Mankar Camoran's books about the Mysterium Xarxes, but said that she has never seen Mankar Camoran's third and fourth books on the Mysterium Xarxes. She suggested that I speak to Phintias, the {{sic|prioprietor|proprietor}} of the First Edition bookstore in the Market District.
+|44||{{Quest Comment|Phintias sells player Volume 3}}
+|45||I now have Volume 3 of the four books I need. I should search Gwinas's body for clues to what he wanted with it. {{Quest Comment|If Gwinas is dead, stage 50 is done, and stage 71 is not done}} '''or'''<br>I now have Volume 3 of the four books I need. I now need to meet with the Sponsor to get Volume 4, but I should find Baurus first. {{Quest Comment|If stage 50 is done and stage 71 is done}} '''or'''<br>I now have Volume 3 of the four books I need, but I should find out why the bookseller had it. {{Quest Comment|If stage 50 is not done}} '''or'''<br>I now have Volume 3 of the four books I need. I should wait for Gwinas to come to the store, and see why he wanted it. {{Quest Comment|If stage 50 is done, stage 71 is not done, and Gwinas has not visited store}} '''or'''<br>I now have Volume 3 of the four books I need. I still need to find out what Gwinas wanted with it. {{Quest Comment|If stage 50 is done, stage 71 is not done, and Gwinas has visited store}}
+|50||Phintias, the bookseller at First Edition, has told me that he has a copy of Volume 3 of Mankar Camoran's "Commentaries on the Mysterium Xarxes" locked away. He is holding it for a client named Gwinas who has already paid for it. I need to get that book, and find out why Gwinas wanted it. {{Quest Comment|If Phintias has book}}'''or'''<br>Phintias told me he was holding Volume 3 of Mankar Camoran's "Commentaries on the Mysterium Xarxes" for a client named Gwinas, who has already paid for it. I should wait for Gwinas to come to the store, and see why he wanted it. {{Quest Comment|If Phintias does not have book}}
+|60||Phintias told me that Gwinas is on his way to pick up his copy of Volume 3. I should wait for him to arrive and find out what Gwinas knows.
+|62||Gwinas has picked up his copy of Volume 3. I need to get that book from Gwinas.
+|64||I found out that Gwinas is staying at the Tiber Septim Hotel in the Talos Plaza District. I need to find Gwinas and get Volume 3 of Camoran's "Commentaries" from him.
+|65||I found out that Gwinas is staying at the Tiber Septim Hotel in the Talos Plaza District. I need to find out what Gwinas wanted with Volume 3 of Camoran's "Commentaries".
+|70||Gwinas told me that Volume 4, the last book I need, can only be given to you by a member of the Mythic Dawn. He had set up a meeting with one, whom he called "The Sponsor". He was to go alone and sit at the table in the Sunken Sewer beneath the Imperial City. I will go and take that meeting instead, but should find Baurus first.
+|71||I took a note from Gwinas, from someone in the Mythic Dawn calling themselves "The Sponsor". The note explains that Volume 4, one of the books I need, can only be given to you by a member of the Mythic Dawn. He was to go alone and sit at the table in the Sunken Sewer beneath the Imperial City, where The Sponsor would meet him. I will go and take that meeting instead, but must get Volume 3 first. {{Quest Comment|If stage 45 is not done}} '''or'''<br>I took a note from Gwinas, from someone in the Mythic Dawn calling themselves "The Sponsor". The note explains that Volume 4, the last book I need, can only be given to you by a member of the Mythic Dawn. He was to go alone and sit at the table in the Sunken Sewer beneath the Imperial City, where The Sponsor would meet him. I will go and take that meeting instead, but should find Baurus first. {{Quest Comment|If stage 45 is done}}
+|72||{{Quest Comment|Triggers Baurus repositioning}}
+|75||I must follow Baurus to the Sunken Sewer beneath the Elven Gardens District and obtain Volume 4 of Mankar Camoran's "Commentaries on the Mysterium Xarxes". One of us will need to meet "The Sponsor" alone to get the book.
+|76||{{Quest Comment|Enables Raven when Baurus reaches sewers}}
+|77||I've decided to be the one to take the book from The Sponsor and Baurus will provide backup. No matter what happens, I must get that book.
+|78||I've decided Baurus will be the one to take the book from The Sponsor and I will provide backup. No matter what happens, we must get that book.
+|79||{{Quest Comment|Raven enters room; Baurus ceases to be essential}}
+|80||{{Quest Comment|Raven starts talking}}
+|81||The Sponsor has realized that I did not come alone. I must get the fourth book from him! {{Quest Comment|If stage 77 is done}} '''or'''<br>The Sponsor has realized that Baurus did not come alone. I must get the fourth book from him! {{Quest Comment|If stage 78 is done}}
+|82||The Sponsor wants me dead! I need to get the fourth book of Mankar Camoran's "Commentaries" from him no matter what. {{Quest Comment|If stage 77 is done}} '''or'''<br>The Sponsor wants Baurus dead! I need to get the fourth book of Mankar Camoran's "Commentaries" from him no matter what. {{Quest Comment|If stage 78 is done}}
+|85||{{Quest Comment|Triggers fighting}}
+|90||I have the fourth and last volume of Mankar Camoran's writings on the Mysterium Xarxes. I can now piece together the clues within them to find the Mythic Dawn's secret shrine. Maybe Tar-Meena can help.
+|91||Tar-Meena says that Mankar Camoran hid a message within his writings, so only the "enlightened ones" could join him and the Mythic Dawn. I should study these books some more.
+|92||Tar-Meena thinks using the first word of each paragraph in the books may reveal a message. I need to keep looking and see where this leads.
+|93||Tar-Meena has discovered the message in the books: "Green Emperor Way Where Tower Touches Midday Sun". I should go to Green Emperor Way by the Imperial Tower and see what can be found.
+|95||
+|100|fin|
+}}
+{{OB Journal Entries Notes}}
+{{Quest Footer|Prev=[[Oblivion:Weynon Priory (quest)|Weynon Priory]]
+|Up=[[Oblivion:Main Quest|Main Quest]]
+|Next=[[Oblivion:Dagon Shrine|Dagon Shrine]]
+}}

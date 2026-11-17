@@ -1,0 +1,40 @@
+[[fr:Skyrim:Allié draconique]]{{Shout Summary
+|id=00046b8c
+|icon=SR-icon-shout-White.png
+|quote=Odahviing! Hear my Voice and come forth. I summon you in my time of need.
+|word1=OD
+|wordid1=00046b89
+|cooldown1=5
+|info1=No effect.
+|location1=[[Skyrim:High Hrothgar|High Hrothgar]] or [[Skyrim:Sky Haven Temple|Sky Haven Temple]] (all words learned together during [[Skyrim:The Fallen|The Fallen]])
+|letters1=OD
+|word2=ah
+|wordid2=00046b8a
+|cooldown2=5
+|info2=No effect.
+|letters2=4
+|word3=ViiNG
+|wordid3=00046b8b
+|cooldown3=300
+|info3=Summons [[Skyrim:Odahviing|Odahviing]].
+|letters3=V3NG
+|transword1=Snow
+|transword2=Hunter
+|transword3=Wing
+|spellid1=000fead2
+|spellid2=000fead2
+|spellid3=00046b85
+}}
+[[File:SR-creature-Odahviing Battles Elder Dragon.jpg|thumb|left|Odahviing defending you from an Elder Dragon]]
+'''Call Dragon''' is a [[Skyrim:Dragon Shouts|dragon shout]] that summons [[Skyrim:Odahviing|Odahviing]] to fight alongside you, but only if it is used outdoors. After shouting all three words, there will be a short delay, then Odahviing will arrive at your location. Odahviing is essential, and will not leave your vicinity until you are out of combat, making this shout particularly useful for difficult fights. All three words of this shout are learned during [[Skyrim:The Fallen|The Fallen]], after which Odahviing will not respond again to this shout until the [[Skyrim:Main Quest|main quest]] is complete.
+
+{{NewLeft}}
+== Related Quests ==
+* {{Quest Link|The Fallen}}
+
+== Notes ==
+*Using the [[Skyrim:Waiting|wait]] function right after shouting and before Odahviing spawns should cause him to appear after using the wait function, nullifying the long cooldown period.
+*Odahviing will not come if you use the shout on Solstheim{{DB}} but will still activate the cooldown timer.
+*It does not count towards the summon count unlike [[Skyrim:Summon Durnehviir|Summon Durnehviir]].
+
+{{Skyrim Shouts}}

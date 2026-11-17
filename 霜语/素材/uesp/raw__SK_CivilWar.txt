@@ -1,0 +1,192 @@
+{{Trail|Quests}} __NOTOC__
+You will be asked to take sides in the '''Civil War''' being fought between the [[Skyrim:Imperial Legion|Imperial Legion]] and the [[Skyrim:Stormcloaks|Stormcloaks]] (a historical description of which may be found [[Lore:Stormcloak Rebellion|here]]). You can only choose one side.  Either choice allows you to start a series of quests, during which various battles of the Civil War are fought, ultimately resulting in your chosen side taking control of Skyrim. The overall quest arcs for the Imperial Legion and Stormcloaks are similar, and allow you to unlock the same [[#Achievements|achievements]].
+  
+== Choosing Sides ==
+You are first asked to choose sides shortly after you escape your near-execution and the subsequent dragon attack during the [[Skyrim:Unbound|Unbound]] quest, at the point when you choose whether to enter [[Skyrim:Helgen Keep|Helgen Keep]] with [[Skyrim:Ralof|Ralof]], a Stormcloak, or with [[Skyrim:Hadvar|Hadvar]], an Imperial soldier. However, this choice only determines which side you will be first asked to join. 
+
+After escaping the Helgen keep, your chosen companion will suggest that you join their side, adding the corresponding quest to your log. You can make a choice to accept the suggestion or you can postpone it. If you do make a choice, you can later change sides. While exploring Skyrim, you will fairly often meet soldiers from both sides, who will ask you to join their side if you have made no choice, or if you belong to the opposite side.
+
+To join an army, you need to go to that army's base to join (in [[Skyrim:Windhelm|Windhelm]] for the Stormcloaks, or in [[Skyrim:Solitude|Solitude]] for the Imperial Legion). If you have not initiated a quest to join either side, you can simply travel to either base and trigger the quest by speaking to members of the leadership. Both sides have an initiation task that you must first complete before you are inducted into the faction. Even after you are formally inducted, you will have yet one later chance to change sides. You will also be given a set of armor. Although you are not required to wear the armor, wearing the opponent's armor can result in your being accused of being a spy; ironically, this dialogue stops once you have joined one side or the other. Another implication of joining a side is that the other side now considers you an enemy. For example, if you are a Stormcloak you are no longer welcome in Imperial Camps, and after a warning, will be attacked by Imperial soldiers if you do not leave immediately.
+
+If you join the Imperials, the second quest that you receive in the Imperial questline will be [[Skyrim:The Jagged Crown (Imperial)|The Jagged Crown (Imperial)]], and if you join the Stormcloaks, the second quest that you receive in that questline will be [[Skyrim:The Jagged Crown (Stormcloaks)|The Jagged Crown (Stormcloak)]]. At the end of this quest, you have a final opportunity to keep or change sides in the Civil War.
+
+==Quests==
+{{chart/start}}
+{{chart| | | |ICO_I|JTL_I| |JTS_S|ICO_S|
+border=6|ICO_I=[[File:SR-qico-Imperial Legion.png|x51px|class=imageInvert]]|border_ICO_I=0|
+JTL_I=[[Skyrim:Joining the Legion|Joining the<br>Legion]]|boxstyle_JTL_I=background-color: #fbb|
+JTS_S=[[Skyrim:Joining the Stormcloaks|Joining the<br>Stormcloaks]]|boxstyle_JTS_S=background-color: #bbf|
+ICO_S=[[File:SR-qico-Stormcloaks-right.png|x51px|class=imageInvert]]|border_ICO_S=0}}
+{{chart|CC|~|~|~|~|t|~|~|~|e| | | | |KEY|KEY='''KEY'''|border_KEY=0
+|CC=[[Skyrim:Battle of the Champions|Battle of the Champions]]{{CC|Civil War Champions}}|boxstyle_CC=border:1px dashed}}
+{{chart| | | | | | |TJC_I| |TJC_S| | | |Quest|Quest=Quest|
+TJC_I=[[Skyrim:The Jagged Crown (Imperial)|The Jagged Crown]]|boxstyle_TJC_I=background-color: #fbb|
+TJC_S=[[Skyrim:The Jagged Crown (Stormcloaks)|The Jagged Crown]]|boxstyle_TJC_S=background-color: #bbf}}
+{{chart| | | | | | | |f|~|~|~|e| | | | |Optio|Optio=Optional Quest|boxstyle_Optio=border:1px dashed;}}
+{{chart| | | | | | |MTW_I| |MTW_S| | | |Achie|Achie=Achievement Quest|border_Achie=6|
+MTW_I=[[Skyrim:Message to Whiterun (Imperial)|Message to Whiterun]]|boxstyle_MTW_I=background-color: #fbb|
+MTW_S=[[Skyrim:Message to Whiterun (Stormcloaks)|Message to Whiterun]]|boxstyle_MTW_S=background-color: #bbf}}
+{{chart| | | | | | | |!| | | |!| | | | |MisAc|MisAc=Missable Achievement|boxstyle_MisAc=border:4px dotted;}}
+{{chart| | | | |,|-|BFW_I| |BFW_S|-|.| |
+BFW_I=[[Skyrim:Battle for Whiterun (Imperial)|Battle for Whiterun]]|boxstyle_BFW_I=background-color: #fbb|
+BFW_S=[[Skyrim:Battle for Whiterun (Stormcloaks)|Battle for Whiterun]]|boxstyle_BFW_S=background-color: #bbf}}
+{{chart| | | | |!| | |!| | | |!| | |!}}
+{{chart| | | |AFF_I|~|ROS_I| |LOS_S|~|RFN_S|7|
+AFF_I=[[Skyrim:A False Front (Imperial)|A False Front]]|boxstyle_AFF_I=background-color: #fbb|
+ROS_I=[[Skyrim:Reunification of Skyrim|Reunification<br>of Skyrim]]|rowspan_ROS_I=34|colspan_ROS_I=4|boxstyle_ROS_I=background-color: #fbb|
+LOS_S=[[Skyrim:Liberation of Skyrim|Liberation<br>of Skyrim]]|rowspan_LOS_S=34|colspan_LOS_S=4|boxstyle_LOS_S=background-color: #bbf|
+RFN_S=[[Skyrim:Rescue from Fort Neugrad|Rescue from Fort Neugrad]]|boxstyle_RFN_S=background-color: #bbf}}
+{{chart| | | | |!| | |             | | |:| |:}}
+{{chart| | |F|BFD_I|~|             |~|CMT_S|:|
+BFD_I=[[Skyrim:The Battle for Fort Dunstad (Imperial)|The Battle for Fort Dunstad]]|boxstyle_BFD_I=background-color: #fbb|
+CMT_S=[[Skyrim:Compelling Tribute (Stormcloaks)|Compelling Tribute]]|boxstyle_CMT_S=background-color: #bbf; border: 1px dashed;}}
+{{chart| | |:| |:| | |             | | |!| |:}}
+{{chart| | |:|CMT_I|~|             |~|BFS_S|:|
+CMT_I=[[Skyrim:Compelling Tribute (Imperial)|Compelling Tribute]]|boxstyle_CMT_I=background-color: #fbb; border: 1px dashed;|
+BFS_S=[[Skyrim:The Battle for Fort Sungard (Stormcloaks)|The Battle for Fort Sungard]]|boxstyle_BFS_S=background-color: #bbf; border: 4px dotted;}}
+{{chart| | |:| |!| | |             | | |!| |:}}
+{{chart| | |:|BFG_I|~|             |~|AFF_S|J|
+BFG_I=[[Skyrim:The Battle for Fort Greenwall (Imperial)|The Battle for Fort Greenwall]]|boxstyle_BFG_I=background-color: #fbb; border: 4px dotted;|border_BFG_I=6|
+AFF_S=[[Skyrim:A False Front (Stormcloaks)|A False Front]]|boxstyle_AFF_S=background-color: #bbf}}
+{{chart| | |L|7|!| | |             | | |!| }}
+{{chart| |F|~|RFK_I|~|             |~|BFS_S|~|7|
+RFK_I=[[Skyrim:Rescue from Fort Kastav|Rescue from Fort Kastav]]|boxstyle_RFK_I=background-color: #fbb|
+BFS_S=[[Skyrim:The Battle for Fort Snowhawk (Stormcloaks)|The Battle for Fort Snowhawk]]|boxstyle_BFS_S=background-color: #bbf}}
+{{chart| |:| | |:|:| |             | |:|:| | |:}}
+{{chart|BFS_I|7|:|:| |             | |:|:|F|BFD_S|
+BFS_I=[[Skyrim:The Battle for Fort Snowhawk (Imperial)|The Battle for Fort Snowhawk]]|boxstyle_BFS_I=background-color: #fbb; border: 1px dashed;|
+BFD_S=[[Skyrim:The Battle for Fort Dunstad (Stormcloaks)|The Battle for Fort Dunstad]]|boxstyle_BFD_S=background-color: #bbf; border: 1px dashed;}}
+{{chart|:| | |:|:|:| |             | |:|:|:| | |:}}
+{{chart|:|F|BFS_I|:| |             | |:|BFK_S|7|:|
+BFS_I=[[Skyrim:The Battle for Fort Neugrad|The Battle for Fort Neugrad]]|boxstyle_BFS_I=background-color: #fbb; border: 1px dashed;|
+BFK_S=[[Skyrim:The Battle for Fort Kastav|The Battle for Fort Kastav]]|boxstyle_BFK_S=background-color: #bbf; border: 1px dashed;}}
+{{chart|:|:| | |:|:| |             | |:|:| | |:|:}}
+{{chart|BFN_I|7|:|:| |             | |:|:|F|BFG_S|
+BFN_I=[[Skyrim:The Battle for Fort Sungard (Imperial)|The Battle for Fort Sungard]]|boxstyle_BFN_I=background-color: #fbb; border: 1px dashed;|
+BFG_S=[[Skyrim:The Battle for Fort Greenwall (Stormcloaks)|The Battle for Fort Greenwall]]|boxstyle_BFG_S=background-color: #bbf; border: 1px dashed;}}
+{{chart| | | |:|:|:| |             | |:|:|:| | | }}
+{{chart| | | |BFA_I|~|             |~|BFH_S|
+BFA_I=[[Skyrim:The Battle for Fort Amol|The Battle for Fort Amol]]|boxstyle_BFA_I=background-color: #fbb|
+BFH_S=[[Skyrim:The Battle for Fort Hraggstad|The Battle for Fort Hraggstad]]|boxstyle_BFH_S=background-color: #bbf}}
+{{chart| | | | |!| | |!| | | |!| | |!| }}
+{{chart| | | | |`|-|BFW_I| |BFS_S|-|'|
+border=6|BFW_I=[[Skyrim:Battle for Windhelm|Battle for Windhelm]]|boxstyle_BFW_I=background-color: #fbb|
+BFS_S=[[Skyrim:Battle for Solitude|Battle for Solitude]]|boxstyle_BFS_S=background-color: #bbf}}
+{{chart/end}}
+
+===Incomplete Quests===
+These quests would also have been available to both sides, but they were never completed.
+* CWMission08 - Your task would've been stopping a giant named Goldar from harassing supply caravans by giving him a painted cow as a peace offering, then convincing the giant to attack the opposition at a radiant location. All giants would've been allied with you upon finishing the quest. 
+* CWMission11 - You would've been sent on a spirit quest with an Orc named Makhel Abbas. Afterwards, you would've been made Blood-Kin to the Orc Strongholds by him, and he would've participated in Civil War battles on your side.
+
+==Civil War Rooms==
+[[File:SR-item-Civil War Map.jpg|thumb|A map of the Civil War in progress.]]
+In each [[Skyrim:Castles|Jarl's palace]], there is a war room with either an Imperial Legate or a Stormcloak officer in charge, depending on which side has control, as well as a map of Skyrim. The map has several locations marked with red and blue flags. Imperial-controlled areas are marked with red flags, and Stormcloak-controlled areas are marked with blue ones. As you progress through the Civil War questline or negotiate a trade in [[Skyrim:Season Unending|Season Unending]], the flag colors of the affected areas will change to reflect on which side gained control. To add them your map, aim the crosshair at a location and press A on Xbox 360, X on PS3, or E on PC. The locations you can mark on your map in the war rooms are these:
+
+===Hold Capitals===
+:{{Place Link|Dawnstar}}
+:{{Place Link|Falkreath}}
+:{{Place Link|Markarth}}
+:{{Place Link|Morthal}}
+:{{Place Link|Riften}}
+:{{Place Link|Solitude}}
+:{{Place Link|Whiterun}}
+:{{Place Link|Windhelm}}
+:{{Place Link|Winterhold}}
+
+===Towns===
+:{{Place Link|Dragon Bridge}}
+:{{Place Link|Helgen}}
+:{{Place Link|Ivarstead}}
+:{{Place Link|Karthwasten}}
+:{{Place Link|Riverwood}}
+:{{Place Link|Rorikstead}}
+:{{Place Link|Shor's Stone}}
+
+===Forts===
+:{{Place Link|Fort Amol}}
+:{{Place Link|Fort Dunstad}}
+:{{Place Link|Fort Greenwall}}
+:{{Place Link|Fort Greymoor}}
+:{{Place Link|Fort Hraggstad}}
+:{{Place Link|Fort Kastav}}
+:{{Place Link|Fort Neugrad}}
+:{{Place Link|Fort Snowhawk}}
+:{{Place Link|Fort Sungard}}
+
+== Affected NPCs and Quests ==
+Progressing through the Civil War quests will inevitably make some quests or NPCs unavailable to you. The affected quests and NPCs are listed below:
+
+{| class="wikitable"
+! Name !! Home !! Result
+|-
+| [[SR:Severio Pelagia|Severio Pelagia]] || [[SR:Severio Pelagia's House|Severio Pelagia's House]] in [[SR:Whiterun|Whiterun]]|| Suffers a scripted death during the [[SR:Battle for Whiterun|Battle for Whiterun]]
+|-
+| [[SR:Dengeir of Stuhn|Dengeir of Stuhn]] || [[SR:Dengeir's House|Dengeir's House]] in [[SR:Falkreath|Falkreath]] || His version of [[SR:Some Light Theft|Some Light Theft]] will become unavailable after becoming Jarl
+|-
+| [[SR:Igmund|Igmund]] || [[SR:Understone Keep|Understone Keep]] in [[SR:Markarth|Markarth]] || His quest,  [[SR:Dungeon Delving (Jarl - Hagravens)|Dungeon Delving (Jarl - Hagravens)]], will become unavailable after he gets exiled to the [[SR:Blue Palace|Blue Palace]]
+|-
+| [[SR:Ondolemar|Ondolemar]] || [[SR:Understone Keep|Understone Keep]] in [[SR:Markarth|Markarth]] || Receives a drop in relationship to -1, will suffer a scripted death once Markarth changes sides, even if done so during [[SR:Season Unending|Season Unending]]
+|-
+| [[SR:Gorm|Gorm]] || [[SR:Highmoon Hall|Highmoon Hall]] in [[SR:Morthal|Morthal]] || His quest [[SR:For the Good of Morthal|For the Good of Morthal]] will become unavailable after getting exiled to the [[SR:Blue Palace|Blue Palace]]
+|-
+| [[SR:Idgrod the Younger|Idgrod the Younger]] || [[SR:Highmoon Hall|Highmoon Hall]] in [[SR:Morthal|Morthal]] || Her version of [[SR:Delivery|Delivery]] will become unavailable after getting exiled to the [[SR:Blue Palace|Blue Palace]]
+|-
+| [[SR:Captain Aldis|Captain Aldis]] || [[SR:Castle Dour|Castle Dour]] in [[SR:Solitude|Solitude]] || Suffers a scripted death during the [[SR:Battle for Solitude|Battle for Solitude]], making the quests [[SR:For the Good of Morthal|For the Good of Morthal]] and [[SR:No News is Good News|No News is Good News]] unavailable
+|-
+| [[SR:Skald|Skald]] || [[SR:The White Hall|The White Hall]] in [[SR:Dawnstar|Dawnstar]] || His version of [[SR:Delivery|Delivery]] will become unavailable after getting exiled to the [[SR:Palace of the Kings|Palace of the Kings]]
+|-
+| [[SR:Harrald|Harrald]] || [[SR:Mistveil Keep|Mistveil Keep]] in [[SR:Riften|Riften]] || His quest [[SR:Bring It!|Bring It!]] will become unavailable after getting exiled to the [[SR:Palace of the Kings|Palace of the Kings]]
+|-
+| [[SR:Korir|Korir]] || [[SR:Jarl's Longhouse (Winterhold)|Jarl's Longhouse]] in [[SR:Winterhold|Winterhold]] || His version of [[SR:Dungeon Delving (Jarl - Caves)|Dungeon Delving (Jarl - Caves)]] will become unavailable after getting exiled to the[[SR:Palace of the Kings|Palace of the Kings]]
+|-
+| [[SR:Brunwulf Free-Winter|Brunwulf Free-Winter]] || [[SR:Brunwulf Free-Winter's House|Brunwulf Free-Winter's House]] in [[SR:Windhelm|Windhelm]] || His version of [[SR:Kill the Bandit Leader|Kill the Bandit Leader]] will become unavailable after becoming Jarl
+|}
+
+== Notes ==
+* The starting Hold positions for those that support the Stormcloaks and those that support the Empire are similar to the split between East and West Skyrim which took place during the [[Lore:War of Succession|War of Succession]].
+* By default, both sides control four Holds. The Empire controls [[Skyrim:Falkreath Hold|Falkreath]], [[Skyrim:Haafingar|Haafingar]], [[Skyrim:Hjaalmarch|Hjaalmarch]], and [[Skyrim:The Reach|The Reach]], while the Stormcloaks control [[Skyrim:Eastmarch|Eastmarch]], [[Skyrim:The Pale|The Pale]], [[Skyrim:The Rift|The Rift]], and [[Skyrim:Winterhold (region)|Winterhold]]. Jarl [[Skyrim:Balgruuf the Greater|Balgruuf]] of [[Skyrim:Whiterun Hold|Whiterun]] is neutral at first, but eventually sides with the Empire.
+* This questline is put on hold during the ceasefire negotiated in [[Skyrim:Season Unending|Season Unending]]; Civil War quests are unavailable until after the Main Questline is completed.
+** Season Unending will, however, be skipped if either Windhelm or Solitude is the last major city left to be taken.
+* As you capture each Hold or make a trade with two during Season Unending, the original [[Skyrim:Jarl|Jarls]], [[Skyrim:Steward|Stewards]], and [[Skyrim:Housecarl|Housecarls]] of the affected Holds will be banished and replaced with new ones. Stormcloak-aligned ones will be sent to [[Skyrim:Windhelm|Windhelm]], and Imperial-aligned ones will be sent to [[Skyrim:Solitude|Solitude]]. Their [[Skyrim:Disposition|dispositions]] will change accordingly. Likewise, the reverse will happen if you trade a Hold during Season Unending and recapture it later on (the new Jarls, Stewards, and Housecarls of the Hold you traded and retook will be banished and replaced by the original ones. Their [[Skyrim:Disposition|dispositions]] will change accordingly once again). The exception is Haafingar; Elisif is the only Jarl who will never be replaced.
+** Although you can make a trade between two Holds during Season Unending, Whiterun, Haafingar, and Eastmarch cannot be captured this way.
+* As you capture each Hold, any [[Skyrim:Crime|bounty]] you may have accumulated in that Hold will be cleared automatically.
+** If you make a trade with two Holds during Season Unending, any bounty you may have accumulated in both Holds will be cleared simultaneously. (Bounties in Whiterun, Haafingar, and Eastmarch cannot be auto-cleared this way.)
+* As you capture each Hold or make a trade with two during Season Unending, you'll gain another chance to become [[Skyrim:Thane|Thane]]. You can use it to clear bounties in the affected Holds one more time.
+** If you're not yet Thane in Falkreath, Hjaalmarch, The Pale, The Reach, The Rift, or Winterhold, the new Jarl may consider capturing that Hold as reason enough, potentially bypassing any original prerequisites.
+** Although you can make a trade between two Holds in Season Unending, you cannot reset your Thaneship in Whiterun, Haafingar, or Eastmarch this way.
+* Leftover dialogue, markers, quest updates, and other evidence suggests that at one time the game's developers intended the Civil War to be much more dynamic and complex than it currently is. Taking a hold would have involved capturing the outlying villages and/or points of interest as well as completing the regular missions. In addition, sieges like those seen during [[Skyrim:Battle_for_Whiterun_(Stormcloaks)|Battle For Whiterun]] and the final two battles were intended to occur with each hold capture. On top of this, the opposing side would actively participate in the war, which would have forced players to play defensive as well as offensive missions. Finally, it would have been possible for the opposing side to lose their main capital yet still have other holds, meaning the final battle may have taken place elsewhere (for example, for the Stormcloaks the final battle could also have taken place in Markarth, as well as Solitude.)
+* An alternate method of completing any quests requiring you to take over a fort is to attack and defeat the local [[Skyrim:Jarl|Jarl]]. Doing so is recommended in the event that the fort's defenders fail to spawn due to bugs. The quest will be marked as complete once the Jarl is on their knees. However, if the quest is completed this way, the guards and soldiers in the hold may not be replaced by guards and soldiers of the opposite faction. The Jarl and their court may not go into exile, nor will their replacements step forward or return from exile. Further bugs have also reportedly been triggered in this way.
+* Even after finishing the war, a lot of people will discuss it as if it is ongoing, and the events in the [[Skyrim:Dark Brotherhood|Dark Brotherhood]] questline that relate to it do not change in any way.
+* Both sides of the war have [[Skyrim:Military Camps|military camps]] dedicated to them, with one camp per Hold, depending on which side doesn't have control.
+* Despite their influence in the tension between the Stormcloaks and Imperials, the [[Skyrim:Thalmor|Thalmor]] play no major part in the war itself. 
+* If the Stormcloaks win the war, guard patrols in [[Skyrim:Castle Dour|Castle Dour]] will be comparatively lax; the Imperial guards that used to patrol the interior and guard the door will not be replaced. Likewise, if the Empire wins the war, guard patrols in the [[Skyrim:Palace of the Kings|Palace of the Kings]] will be comparatively lax; the Stormcloak guards that used to patrol the upper floors (added with [[Skyrim:Patch|Patch 1.9]]) will not be replaced.
+* If a mage [[Skyrim:Followers|follower]] who is capable of reanimating dead bodies like [[Skyrim:Serana|Serana]] is present during battles, they may reanimate enemy Imperial or Stormcloak soldiers that have already fallen, who must then be killed again to finish the battle.
+* If you exile the Jarl who gave you a [[Skyrim:Bounty Quests|bounty assignment]] before turning it in, you will need to visit them or their steward in exile to complete the quest. However, if you exile the Jarl during Season Unending and re-take their affected Hold later on, you can visit them and their steward in their default palace to finish the quest.
+* During [[Skyrim:Rescue from Fort Neugrad|Rescue from Fort Neugrad]] (for the Stormcloaks) and [[Skyrim:Rescue from Fort Kastav|Rescue from Fort Kastav]] (for the Empire), the prisoners you are sent to rescue will ignore your order if you tell them to wait. This is due to the script that handles them equipping their gear overriding the follow state variable that controls whether they're waiting or following.
+* It is not possible during a single playthrough to have all 9 forts garrisoned by soldiers (or get all the radiant CWFortSiegeFort quests neither). Only the first [[Skyrim:Military Forts#Civil War Forts|Civil War Fort]] you clear of generic enemies (not soldiers) will get a garrison due to a [[Skyrim talk:Fort Hraggstad#Inhabitants after clearing|bug]], the others must be cleared through the Civil War questline. The most you can get is 8 for either side, by planning in advance which holds to trade during [[Skyrim:Season Unending#The Negotiations: Overview|Season Unending negotiation]], because any traded hold will instantly grant a garrison to the corresponding fort. Also, any other fort controlled by the opposing faction will be garrisoned when you take it over during the related quest. So, the only forts that cannot get a garrison through the Civil War questline are your faction capital's ([[Skyrim:Fort Hraggstad|Fort Hraggstad]] or [[Skyrim:Fort Amol|Fort Amol]]) and the starting ones allied to your faction that do not change side during Season Unending (ideally [[Skyrim:Falkreath|Falkreath]] or [[Skyrim:Morthal|Morthal]] for the Imperial Legion, [[Skyrim:Dawnstar|Dawnstar]] or [[Skyrim:Winterhold|Winterhold]] for the Stormcloaks). Choose wisely from this pool the very first one you clear of generic enemies before starting the Civil War questline because it will be the only one you will get an extra garrison for.
+* Version 2.1.2 of the [[Skyrim Mod:Unofficial Skyrim Patch|Unofficial Skyrim Patch]] marks everything new inside and outside of each Civil War fort as owned by the fort's new corresponding faction once the soldiers move in. It also marks all items and containers at each military camp as owned by the camp's respective military faction, regardless whether they were owned beforehand or not.
+* With version 1.3.2 of the [[Skyrim Mod:Unofficial Skyrim Patch|Unofficial Skyrim Patch]], several dialogue greetings that no longer make sense once the Civil War is over have been conditioned to stop playing once it is.
+
+== Bugs ==
+{{Bug|During [[Skyrim:Battle for Whiterun|Battle for Whiterun]], a [[Skyrim:Dragon|dragon]] may attack the city, complicating matters even further.|OSP|1.9}}
+{{Bug|Fort garrisons may not properly repopulate after you've taken the first one in the Civil War due to the garrison quest not stopping itself properly after each battle.|USKP|1.2.7}}
+{{Bug|When a Civil War siege battle starts, you can disrupt the scene by talking to various soldiers, including the general leading the attack.|USKP|2.0.4}}
+{{Bug|The GetMyEditorLocationHoldLocation CWScript function and the DetermineAndSetCrimeFactionForSoldierActor CWScript function are both charged with determining the location of various soldiers in a garrison. This was done using GetEditorLocation on each alias, up to 64 soldiers in each possible battle. Unfortunately, it resulted in thousands of lines of Papyrus script errors because GetEditorLocation apparently returns a NONE sometimes instead of the expected CK editor location for the actor it's looking at. These errors meant that processing of a garrison reset called for in several minor villages and at every single fort in the game would be incomplete because of aborted function calls.|USKP|2.0.5|This has now been corrected by changing the two calls for GetEditorFunction into calls for GetCurrentLocation. This should be adequate for the purpose since soldiers at each fort and the various minor villages should remain within the affected locations when the resets are called for.}}
+{{Bug|If the Stormcloaks win the War, the [[Skyrim:Penitus Oculatus Outpost|Penitus Oculatus Outpost]] will remain active in [[Skyrim:Dragon Bridge|Dragon Bridge]], which can result in [[Skyrim:Penitus Oculatus|Penitus Oculatus agents]] and Stormcloak soldiers engaging each other in combat.|USKP|2.0.6|If the Stormcloaks win and the [[Skyrim:Dark Brotherhood|Dark Brotherhood]] questline is finished, the Penitus Oculatus Outpost will be cleared out.}}
+{{Bug|If the Stormcloaks win the War, Imperial soldiers can still be [[Skyrim:World Interactions|randomly seen]] with Stormcloak prisoners even though Tullius and Rikke will be dead by then meaning the Imperial soldiers won't have someone to report to anymore.|USKP|2.1.0|This random encounter will now be disabled if Solitude is captured.}}
+{{Bug|During the battles in Whiterun, Solitude, or Windhelm, it is possible for [[Skyrim:Adoption|adopted]] [[Skyrim:Children|children]] currently living in those cities to be transported back to their editor locations due to the AI package CWCitizensFleeSandboxEditorLocationLockDoors.|UHFP|2.0.3|This package will now have a condition blocking it from taking effect on members of the BYOHRelationshipAdoptionFaction so the kids will instead flee to your house under the control of the proper quest for this purpose.}}
+{{Bug|It is possible to bypass attacking a fort during the Civil War by forcing the Jarl to submit instead, but doing so would permanently break the further progression of the quest line at that point. This appears to be one contributing factor to Rikke or Galmar no longer giving missions out for additional battles.|USSEP|4.1.3}}
+*If you originally escaped Helgen with Ralof, but side with the Imperials, Hadvar is never enabled even though he's supposed to be. Similarly if you escaped Helgen with Hadvar but joined the Stormcloaks, Ralof is never enabled even though he's supposed to be. Both characters have lines assigned for this, and their aliases in each quest will not fill which will have lasting effects on their future relationships with the player.
+**Version 4.3 of the [[Skyrim Mod:Unofficial Skyrim Special Edition Patch|Unofficial Skyrim Special Edition Patch]] partially resolves this issue. Their aliases both neglected to check the "Allow Disabled" box, which broke the intended interactions. Due to the complexities involved, it will not be possible to entirely reverse the issues caused by this if you are already past this point in the game.
+{{Bug|If the Empire captures the Rift, Imperial soldiers will be present, but some of the original Stormcloak-aligned Rift Guards won't be removed. This often results in a fight to the death between the two groups confirmed=1.}}
+{{Bug|If Imperials take control of Dawnstar, it will still have a blue flag on the Civil War map, because the activator is referencing wrong entry.}}
+
+== Achievements ==
+The same achievements can be obtained regardless of which side you choose. Three [[Skyrim:Achievements|achievements]] (50 points; 2 Bronze and 1 Silver) are unlocked by the Civil War quests
+*{{achievement|Taking Sides}}
+** This is unlocked when you complete either the [[Skyrim:Joining the Stormcloaks|Joining the Stormcloaks]] or [[Skyrim:Joining the Legion|Joining the Legion]] quest.
+*{{achievement|War Hero}}
+** This is unlocked roughly halfway through the Civil War.  On the Stormcloak side, you must complete [[Skyrim:The Battle for Fort Sungard (Stormcloaks)|The Battle for Fort Sungard]].  On the Imperial side, you must complete [[Skyrim:The Battle for Fort Greenwall (Imperial)|The Battle for Fort Greenwall]].<br>Note that both of these quests are optional and may be skipped depending on the results of [[Skyrim:Season Unending|Season Unending]], which can cause you to miss this achievement. On the other hand, depending on the results of Season Unending, you can still get it, but you'll need to complete [[Skyrim:The Battle for Fort Sungard (Imperial)|The Battle for Fort Sungard]] on the Imperial side, or [[Skyrim:The Battle for Fort Greenwall (Stormcloaks)|The Battle for Fort Greenwall]] on the Stormcloak side.
+*{{achievement|Hero of Skyrim}}
+** This is unlocked once Skyrim has been liberated/reunified.  On the Stormcloak side, you must complete [[Skyrim:Battle for Solitude|Battle for Solitude]].  On the Imperial side, you must complete [[Skyrim:Battle for Windhelm|Battle for Windhelm]].

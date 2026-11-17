@@ -1,0 +1,46 @@
+<noinclude>{{Cleanup-srqrp
+|writtenBy=
+|checkedBy=
+|reward=
+|rewardChecked=
+}}</noinclude>{{CC Header|Alternative Armors - Daedric Plate}}{{Trail2|Alternative Armors - Daedric Plate|Quests|nocat=1}}{{Quest Header
+|notrail=1
+|Icon=SR-qico-Miscellaneous.png
+|Giver=
+|Loc=[[Skyrim:Dragonsreach|Dragonsreach]], [[Skyrim:Falkreath|Falkreath]], [[Skyrim:Knifepoint Ridge|Knifepoint Ridge]]
+|Reward=[[Skyrim:Daedric Plate Armor|Daedric Plate Armor]]
+|Prev=
+|Next=
+|Image=SR-interior-Dragonsreach Dungeon.jpg
+|Imgdesc=Dragonsreach Dungeon
+|description=Follow the trail of a set of valuable [[SR:Daedric Plate Armor|Daedric Plate]] armor.
+|ID=ccBGSSSE050_Quest
+|Mod=[[Skyrim:Alternative Armors - Daedric Plate|Alternative Armors - Daedric Plate]]
+}}[[Category:Skyrim-Quests]][[Category:Skyrim-Alternative Armors - Daedric Plate]][[Category:Skyrim-Creation Club-Quests]]
+
+==Quick Walkthrough==
+#Visit Edward's Grave.
+#Read the Khajiit's Note.
+#Investigate Knifepoint Ridge.
+#Retrieve the armor.
+
+==Detailed Walkthrough==
+You can begin this quest by going into the [[Skyrim:Dragonsreach#Dragonsreach_Dungeon|Dragonsreach Dungeon]] in [[Skyrim:Whiterun|Whiterun]]. On a table just within the jail area find a journal called ''[[Skyrim:Death of a Crimson Dirk|Death of a Crimson Dirk]]''. Following the directions given in the journal, travel to [[Skyrim:Falkreath|Falkreath]] in search of the grave of Edward. Your search can be slightly accelerated by looking for the dug up grave with a dead Khajiit nearby. Retrieve the ''[[Skyrim:Khajiit's Note|Khajiit's Note]]'' from his corpse to determine your next destination, [[Skyrim:Knifepoint Ridge|Knifepoint Ridge]]. The local bandits of the exterior camp will be hostile to you, and will protect your final target for this quest, the "bounty hunter" figure wearing the [[Skyrim:Daedric Plate Armor|Daedric Plate Armor]] mentioned in the note. Defeat him and any bandits that get in your way to retrieve the set. Read the ''[[Skyrim:Bounty Hunter's Note|Bounty Hunter's Note]]'' you can find on the body for confirmation of Edward's scheme.
+
+==Quest Stages==
+{{Journal Entries
+|10||I've heard stories of bandits being an issue throughout Skyrim. Perhaps if I visit the Dragonsreach Dungeon in Whiterun, I might find some information on their whereabouts.
+{{Quest Objective|10|Look for a note in Dragonsreach Dungeon}}
+|20||I've heard stories of bandits being an issue throughout Skyrim. At the dungeon in Whiterun, I read about one such bandit who died in Falkreath. I should visit the cemetery to confirm he's dead.
+{{Quest Objective|20|Visit Edward's grave in Falkreath}}
+|30||I've heard stories of bandits being an issue throughout Skyrim. At the dungeon in Whiterun, I read about one such bandit who died in Falkreath. However, upon arriving at the grave site, I found the body of a dead Khajiit.
+{{Quest Objective|30|Read the Khajiit's Note}}
+|40||I've heard stories of bandits being an issue throughout Skyrim. At the dungeon in Whiterun, I read about one such bandit who died in Falkreath. However, upon arriving at the grave site, I found the body of a dead Khajiit. The Khajiit was previously investigating a lead that points to Knifepoint Ridge.
+{{Quest Objective|40|Investigate Knifepoint Ridge}}
+|50||I've heard stories of bandits being an issue throughout Skyrim. At the dungeon in Whiterun, I read about one such bandit who died in Falkreath. However, upon arriving at the grave site, I found the body of a dead Khajiit. The Khajiit was previously investigating a lead that points to Knifepoint Ridge. After traveling to the bandit camp, I was attacked by a warrior in Daedric Plate armor.
+{{Quest Objective|50|Retrieve the armor}}
+|1000|fin|I've heard stories of bandits being an issue throughout Skyrim. At the dungeon in Whiterun, I read about one such bandit who died in Falkreath. However, upon arriving at the grave site, I found the body of a dead Khajiit. The Khajiit was previously investigating a lead that points to Knifepoint Ridge. After traveling to the bandit camp, I was attacked by a warrior in Daedric Plate armor. I defeated the warrior and retrieved his armor.
+|missing=1, 2, 3, 4, 45, 60, 70, 80, 90, 100
+}}
+{{Skyrim Quest Stages Notes}}
+{{Stub|Quest}}

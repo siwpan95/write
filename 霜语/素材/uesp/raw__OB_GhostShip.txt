@@ -1,0 +1,64 @@
+{{Cleanup-obrp-quest
+|image=Thuraya Salaris
+|imageChecked=
+|writtenBy=
+|checkedBy=
+|objectivesChecked=
+|reward=
+|rewardChecked=
+}}{{Quest Header
+|type=Anvil
+|Giver=[[Oblivion:Varulae|Varulae]] in [[Oblivion:Anvil|Anvil]] Docks
+|Icon=OBR-icon-quest-Miscellaneous.png
+|IconSize=70px
+|Reward=[[Oblivion:Redwave|Redwave]], an Enchanted Cutlass
+|ID=MS93
+|Loc=[[Oblivion:The Serpent's Wake|The Serpent's Wake]]; Anvil
+|Image=OB-place-The Serpent's Wake.jpg
+|imgremaster=OBR-quest-The Ghost Ship of Anvil.jpg
+|imgdesc=Is anything in Anvil not haunted?
+|description=[[Oblivion:Varulae|Varulae]] needs you to recover her crystal ball from the haunted ship.
+}}
+
+==Quick Walkthrough==
+# Speak with [[Oblivion:Varulae|Varulae]] on the deck of [[Oblivion:The Serpent's Wake|The Serpent's Wake]] in [[Oblivion:Anvil|Anvil]] Docks.
+# She asks you to retrieve her [[Oblivion:Varulae's Crystal Ball|crystal ball]] from the cargo hold of the haunted ship.
+# Defeat the [[Oblivion:Spectral Sailor|Spectral Sailors]] or run past them, making your way down to the hold.
+# Return Varulae's crystal ball to her, and she rewards you with the enchanted cutlass, [[Oblivion:Redwave|Redwave]].
+
+==Detailed Walkthrough==
+===The Serpent's Wake===
+On the west side of [[Oblivion:Anvil|Anvil]] Docks, there's a ship called [[Oblivion:The Serpent's Wake|The Serpent's Wake]]. Speak with [[Oblivion:Varulae|Varulae]], who is standing on the main deck. She will tell you that the ship has recently returned from [[Lore:Summerset Isle|Summerset Isle]] with a family heirloom of hers, a [[Oblivion:Varulae's Crystal Ball|crystal ball]]. Unfortunately, the crew of the ship has been murdered and their ghosts now haunt the lower decks. Varulae will ask you to go down to the cargo hold and recover her crystal ball. When you agree to help, you're given a [[Oblivion:Serpent's Wake Key|key]] so that you may enter. You can either run this quest quickly, without a fight, or stand against five [[Oblivion:Spectral Sailor|Spectral Sailors]]; as with all ghosts, they are [[Oblivion:Resist Normal Weapons|immune to normal weapons]]. Inside the first door is a ghost that will sometimes stay in the room, so you can use a ranged spell to kill it easily, even at a low level. Once a ghost dies it leaves a [[Oblivion:Sharpened Cutlass|sharpened cutlass]], which can be used to fight other ghosts.
+
+===The Anvil Harbor Massacre===
+Inside the ship there is a trap door to the mid deck on the floor to your left, and a normal door in front of you. There's a Spectral Sailor behind the door in front, but some nice treasure too. If you decide to enter the room up ahead, make sure you search the "Dead Captain" to find the [[Oblivion:Serpent's Wake Captain's Key|Serpent's Wake Captain's Key]] and open the Captain's Chest at the foot of the bed to get the randomly generated treasure. Proceed to the mid deck through the trap door. There are two Spectral Sailors here, and they'll most likely attack you at once. You can fight or run down the corridor to another trap door leading to the cargo hold. There's nothing of interest in the mid deck anyway.
+
+===Forget the Crew, Get the Ball===
+Downstairs, there's a Chest just next to where you enter, and in it is 'Varulae's Crystal Ball' that you're after. The last two Spectral Sailors are here as well. There's no need to fight them if you choose, although there is a bottle of Skooma and some gems behind them. Retrace your steps back to the main deck, and speak with Varulae again to give her back her crystal ball and receive [[Oblivion:Redwave|Redwave]], an enchanted cutlass, as your reward.
+
+==Notes==
+* In the quest [[Oblivion:Following a Lead|Following a Lead]] you will find the ''[[Oblivion:Traitor's Diary|Traitor's Diary]]'', which reveals what happened to the ship's crew.
+
+==Bugs==
+{{Bug|If you don't kill the ghosts they will follow you up onto the deck and even out to the docks, where any NPCs who are around will be drawn into the fight. The ghosts are much tougher than most of the quayside denizens, and will probably kill some of them ([[Oblivion:Varulae|Varulae]] however is invulnerable while the quest is in progress). If you wish to take advantage of this as a battle strategy, you can bring them out of the ship one at a time. Leaving the zone does not cause them to reset.|UOP}}
+** {{OBR22}} [[Oblivion: Oblivion Remastered|Oblivion Remastered]] fixes this bug.
+{{Bug|The sword [[Oblivion:Redwave|Redwave]] is technically leveled, but all seven variations of it are exactly the same. Thus, for all practical purposes, you receive the same reward no matter when you complete the quest.|UOP}}
+** {{OBR22}} [[Oblivion: Oblivion Remastered|Oblivion Remastered]] fixes this bug.
+{{Bug|You can pickpocket the crystal ball back from Varulae after you've given it to her. This isn't recommended, however, as it's still considered a quest item and you can't give it back to her, leaving you stuck with it forever.|UOP}}
+
+==Journal Entries==
+{| class="wikitable" 
+|-
+!colspan=3| The Ghost Ship of Anvil (MS93)
+|-
+! Stage
+! Finishes Quest
+! Journal Entry
+|-
+|10||||A High Elf Sorceress named Varulae has asked me to retrieve her crystal ball, located in the hold of the ship the Serpent's Wake, which is moored up in Anvil Bay. The crystal ball is in a chest in the ship's hold. I should be careful, however -- the crew have all been slain, and now roam the ship's decks as creatures of undeath.
+|-
+|20||||I have retrieved Varulae's crystal ball. I must now return it to her on the top deck of the Serpent's Wake.
+|-
+|100||align="center"|{{Yes}}||I have given Varulae her crystal ball. She gave me the captain's enchanted cutlass as a reward.
+|}
+{{OB Journal Entries Notes}}

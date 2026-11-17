@@ -1,0 +1,310 @@
+<noinclude>{{Trail|Magic|Spells}}
+This page lists '''[[Oblivion:Spells|Spells]]''' in the school of '''[[Oblivion:Mysticism|Mysticism]]'''.
+
+</noinclude>{| class=wikitable sortable
+
+|- {{MYS}}
+
+!width=1% class="unsortable"| 
+!width=14%| Spell Name
+!width=5%|[[Oblivion:Form ID|Form ID]]s
+!width=30% class="unsortable"| Effect Details 
+!width=5%|[[File:OBMagickaCostIcon small.png|Magicka Spell Cost|link=Oblivion:Magicka]]
+!width=30% class="unsortable"| How to Obtain
+
+|- {{MYS}}
+|colspan=6|<center>'''Novice'''</center>
+|-
+
+{{OB Spell
+|name=Clairvoyance{{OBR}}
+|icon=Clairvoyance
+|spellid=0B010705
+|tomeid=None
+|magicka=1
+|desc=:{{Effect Link|Clairvoyance}} on Self for 30 secs{{OBR}}
+|where=* All players start with this spell{{OBR}}
+}}
+
+{{OB Spell
+|name=Minor Dispel
+|icon=Dispel
+|spellid=0008D1E9
+|tomeid=xx0022C0
+|magicka=22
+|desc=:{{Effect Link|Dispel}} 25 pts on Self
+|where=* Players with [[Oblivion:Mysticism|Mysticism]] as a [[Oblivion:Skills|major skill]] start with this spell
+* Can be purchased from: [[Oblivion:Alves Uvenim|Alves Uvenim]]
+}}
+
+{{OB Spell
+|name=Minor Life Detection
+|icon=Detectlife
+|spellid=000A97DC
+|tomeid=xx0022B9
+|magicka=15
+|desc=:{{Effect Link|Detect Life}} in 60 ft for 10 secs on Self
+|where=* Players with [[Oblivion:Mysticism|Mysticism]] as a [[Oblivion:Skills|major skill]] start with this spell
+* Can be purchased from: [[Oblivion:Alves Uvenim|Alves Uvenim]], [[Oblivion:Calindil|Calindil]], [[Oblivion:Edgar Vautrine|Edgar Vautrine]], [[Oblivion:Ita Rienus|Ita Rienus]]
+}}
+
+
+|- {{MYS}}
+|colspan=6|<center>'''Apprentice'''</center>
+|-
+
+{{OB Spell
+|name=Detect Pulse
+|icon=Detectlife
+|spellid=0006D67F
+|tomeid=None
+|magicka={{FC|green|'''38'''}} ([[#Spell Notes|40*]])
+|desc=:{{Effect Link|Detect Life}} in 30 ft for 65 secs on Self
+|where=* Can be purchased from: [[Oblivion:M'raaj-Dar|M'raaj-Dar]]
+}}
+
+{{OB Spell
+|name=Dispel Other
+|icon=Dispel
+|spellid=0003C3F5
+|tomeid=xx088899
+|magicka=41
+|desc=:{{Effect Link|Dispel}} 30 pts on Target
+|where=* Can be purchased from: [[Oblivion:Alves Uvenim|Alves Uvenim]]
+}}
+
+{{OB Spell
+|name=Major Dispel
+|icon=Dispel
+|spellid=000A9831
+|tomeid=xx0022C1
+|magicka=47
+|desc=:{{Effect Link|Dispel}} 30 pts on Self
+|where=* Can be purchased from: [[Oblivion:Alves Uvenim|Alves Uvenim]], [[Oblivion:Calindil|Calindil]], [[Oblivion:Ungarion|Ungarion]]
+}}
+
+{{OB Spell
+|name=Major Life Detection
+|icon=Detectlife
+|spellid=000A97DB
+|tomeid=xx0022BA
+|magicka=30
+|desc=:{{Effect Link|Detect Life}} in 60 ft for 20 secs on Self
+|where=* Can be purchased from: [[Oblivion:Alberic Litte|Alberic Litte]], [[Oblivion:Alves Uvenim|Alves Uvenim]], [[Oblivion:Delphine Jend|Delphine Jend]], [[Oblivion:Druja|Druja]], [[Oblivion:Ohtesse|Ohtesse]], [[Oblivion:Selena Orania|Selena Orania]], [[Oblivion:Sulinus Vassinus|Sulinus Vassinus]], [[Oblivion:Thaurron|Thaurron]], [[Oblivion:Trayvond the Redguard|Trayvond the Redguard]]
+}}
+
+{{OB Spell
+|name=Remote Manipulation
+|icon=Telekinesis
+|spellid=000AA064
+|tomeid=xx002839
+|magicka=28
+|desc=:{{Effect Link|Telekinesis}} 10 pts for 20 secs on Target
+|where=* Can be purchased from: [[Oblivion:Alberic Litte|Alberic Litte]], [[Oblivion:Alves Uvenim|Alves Uvenim]], [[Oblivion:Delphine Jend|Delphine Jend]], [[Oblivion:Druja|Druja]], [[Oblivion:Selena Orania|Selena Orania]], [[Oblivion:Sulinus Vassinus|Sulinus Vassinus]], [[Oblivion:Thaurron|Thaurron]], [[Oblivion:Trayvond the Redguard|Trayvond the Redguard]], [[Oblivion:Ungarion|Ungarion]], [[Oblivion:Volanaro|Volanaro]]
+}}
+
+{{OB Spell
+|name=Soul Trap
+|icon=Soultrap
+|spellid=000AA04F
+|tomeid=xx00233A
+|magicka=60
+|desc=:{{Effect Link|Soul Trap}} for 20 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Alberic Litte|Alberic Litte]], [[Oblivion:Alves Uvenim|Alves Uvenim]], [[Oblivion:Delphine Jend|Delphine Jend]], [[Oblivion:Druja|Druja]], [[Oblivion:Melliwin|Melliwin]]<sup>[[Oblivion:Thieves Den|TD]]</sup>, [[Oblivion:Selena Orania|Selena Orania]], [[Oblivion:Sulinus Vassinus|Sulinus Vassinus]], [[Oblivion:Thaurron|Thaurron]], [[Oblivion:Trayvond the Redguard|Trayvond the Redguard]], [[Oblivion:Ungarion|Ungarion]]
+}}
+
+|- {{MYS}}
+|colspan=6|<center>'''Journeyman'''</center>
+|-
+
+{{OB Spell
+|name=Greater Dispel
+|icon=Dispel
+|spellid=000A9832
+|tomeid=xx0022C2
+|magicka=90
+|desc=:{{Effect Link|Dispel}} 75 pts on Self
+|where=* Can be purchased from: [[Oblivion:Agata|Agata]]
+}}
+
+{{OB Spell
+|name=Greater Dispel Other
+|icon=Dispel
+|spellid=000A9835
+|tomeid=xx08889A
+|magicka=101
+|desc=:{{Effect Link|Dispel}} 60 pts on Target
+|where=* Can be purchased from: [[Oblivion:Agata|Agata]], [[Oblivion:Volanaro|Volanaro]]
+}}
+
+{{OB Spell
+|name=Greater Life Detection
+|icon=Detectlife
+|spellid=000A97DA
+|tomeid=xx0022BB
+|magicka=90
+|desc=:{{Effect Link|Detect Life}} in 60 ft for 60 secs on Self
+|where=* Can be purchased from: [[Oblivion:Agata|Agata]]
+}}
+
+{{OB Spell
+|name=Greater Soul Trap
+|icon=Soultrap
+|spellid=000AA050
+|tomeid=xx00233B
+|magicka=135
+|desc=:{{Effect Link|Soul Trap}} for 30 secs on Target
+|where=* Can be purchased from: [[Oblivion:Agata|Agata]]
+}}
+
+{{OB Spell
+|name=Psychic Motion
+|icon=Telekinesis
+|spellid=000AA065
+|tomeid=xx00283A
+|magicka=28
+|desc=:{{Effect Link|Telekinesis}} 20 pts for 30 secs on Target
+|where=* Can be purchased from: [[Oblivion:Agata|Agata]]
+}}
+
+|- {{MYS}}
+|colspan=6|<center>'''Expert'''</center>
+|-
+
+{{OB Spell
+|name=Bloodhunt
+|icon=Detectlife
+|spellid=0006D680
+|tomeid=None
+|magicka={{FC|red|'''191'''}} ([[#Spell Notes|179*]])
+|desc=:{{Effect Link|Detect Life}} in 50 ft for 150 secs on Self
+|where=* Can be purchased from: [[Oblivion:M'raaj-Dar|M'raaj-Dar]]
+}}
+
+{{OB Spell
+|name=Superior Dispel
+|icon=Dispel
+|spellid=000A9833
+|tomeid=xx0022C3
+|magicka=219
+|desc=:{{Effect Link|Dispel}} 150 pts on Self
+|where=* Can be purchased from: [[Oblivion:Agata|Agata]], [[Oblivion:Raminus Polus|Raminus Polus]]
+}}
+
+{{OB Spell
+|name=Superior Life Detection
+|icon=Detectlife
+|spellid=000A97DD
+|tomeid=xx0022BC
+|magicka=220
+|desc=:{{Effect Link|Detect Life}} in 120 ft for 60 secs on Self
+|where=* Can be purchased from: [[Oblivion:Agata|Agata]], [[Oblivion:Raminus Polus|Raminus Polus]], [[Oblivion:Volanaro|Volanaro]]
+}}
+
+{{OB Spell
+|name=Superior Soul Trap
+|icon=Soultrap
+|spellid=000AA051
+|tomeid=xx00233C
+|magicka=270
+|desc=:{{Effect Link|Soul Trap}} in 10 ft for 40 secs on Target
+|where=* Can be purchased from: [[Oblivion:Agata|Agata]], [[Oblivion:Aurelinwae|Aurelinwae]]
+}}
+
+{{OB Spell
+|name=Superior Spell Absorption
+|icon=Absorbspell
+|spellid=000AA055
+|tomeid=None
+|magicka=347
+|desc=:{{Effect Link|Spell Absorption}} 20 pts for 25 secs on Self
+|where=* Can be purchased from: [[Oblivion:Agata|Agata]], [[Oblivion:Gaspar Stegine|Gaspar Stegine]]
+}}
+
+{{OB Spell
+|name=Superior Spell Reflection
+|icon=Reflectspell
+|spellid=000AA039
+|tomeid=xx002312
+|magicka=323
+|desc=:{{Effect Link|Reflect Spell}} 20 pts for 20 secs on Self
+|where=* Can be purchased from: [[Oblivion:Agata|Agata]], [[Oblivion:Raminus Polus|Raminus Polus]], [[Oblivion:Selena Orania|Selena Orania]]
+}}
+
+{{OB Spell
+|name=Telekinesis
+|icon=Telekinesis
+|spellid=000AA066
+|tomeid=xx00283B
+|magicka=257
+|desc=:{{Effect Link|Telekinesis}} 30 pts for 45 secs on Target
+|where=* Can be purchased from: [[Oblivion:Agata|Agata]], [[Oblivion:Aurelinwae|Aurelinwae]]
+}}
+
+|- {{MYS}}
+|colspan=6|<center>'''Master'''</center>
+|-
+
+{{OB Spell
+|name=Legendary Dispel
+|icon=Dispel
+|spellid=000A9834
+|tomeid=None
+|magicka=422
+|desc=:{{Effect Link|Dispel}} 250 pts on Self
+|where=* Can be purchased from: [[Oblivion:Borissean|Borissean]]
+}}
+
+{{OB Spell
+|name=Legendary Life Detection
+|icon=Detectlife
+|spellid=000A97DE
+|tomeid=None
+|magicka=440
+|desc=:{{Effect Link|Detect Life}} in 120 ft for 120 secs on Self
+|where=* Can be purchased from: [[Oblivion:Aurelinwae|Aurelinwae]], [[Oblivion:Gaspar Stegine|Gaspar Stegine]]
+}}
+
+{{OB Spell
+|name=Legendary Soul Trap
+|icon=Soultrap
+|spellid=000AA052
+|tomeid=None
+|magicka=810
+|desc=:{{Effect Link|Soul Trap}} in 20 ft for 60 secs on Target
+|where=* Can be purchased from: [[Oblivion:Borissean|Borissean]]
+}}
+
+{{OB Spell
+|name=Legendary Spell Absorption
+|icon=Absorbspell
+|spellid=000AA056
+|tomeid=xx002824
+|magicka=461
+|desc=:{{Effect Link|Spell Absorption}} 25 pts for 25 secs on Self
+|where=* Can be purchased from: [[Oblivion:Borissean|Borissean]]
+}}
+
+{{OB Spell
+|name=Legendary Spell Reflection
+|icon=Reflectspell
+|spellid=000AA053
+|tomeid=xx002313
+|magicka=538
+|desc=:{{Effect Link|Reflect Spell}} 25 pts for 25 secs on Self
+|where=* Can be purchased from: [[Oblivion:Agata|Agata]]
+}}
+
+{{OB Spell
+|name=Movement Mastery
+|icon=Telekinesis
+|spellid=000AA067
+|tomeid=xx00283C
+|magicka=495
+|desc=:{{Effect Link|Telekinesis}} 40 pts for 60 secs on Target
+|where=* Can be purchased from: [[Oblivion:Borissean|Borissean]]
+}}
+
+|}
+<references /><noinclude>
+{{Oblivion:Spell List Notes}}</noinclude>

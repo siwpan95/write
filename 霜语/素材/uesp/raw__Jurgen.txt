@@ -1,0 +1,39 @@
+{{NPC Summary
+|essential=yes
+|loc=[[Skyrim:Hall of Valor|Hall of Valor]], [[Skyrim:Sovngarde (place)|Sovngarde]]
+|race=Nord
+|gender=Male
+|class=[[Skyrim:Warrior (class)|Warrior]]
+|faction={{Faction|FavorExcludedFaction}}; {{Faction|MQ304SovngardeHeroFaction}}; {{Faction|Override normal combat dialogue}}
+|refid=00096FFD
+|baseid=000F1A49
+|image=SR-npc-Jurgen Windcaller.jpg
+|imgdesc=Jurgen Windcaller
+|class_details=[[Skyrim:CombatWarrior1H|CombatWarrior1H]]
+|skills='''[[Skyrim:Heavy Armor|Heavy Armor]]''', '''[[Skyrim:One-handed|One-handed]]''', [[Skyrim:Archery|Archery]], [[Skyrim:Block|Block]]
+|aggress=Aggressive
+|level=30
+|moral=No Crime
+|health=388
+|magicka=50
+|stamina=147
+|voicetype=MaleNordCommander
+}}
+'''Jurgen Windcaller''' is a [[Skyrim:Nord|Nord]] hero who can be found in [[Skyrim:Sovngarde (place)|Sovngarde]]. He wears [[Skyrim:Greybeard's Robes|Greybeard's robes]] along with a matching pair of [[Skyrim:Greybeard's Boots|boots]].
+
+A prominent war leader in the [[Lore:First Empire of the Nords|First Empire of the Nords]], Jurgen Windcaller used his voice as a weapon and a way to grow in strength, like many Tongues of the time. This changed for Jurgen, however, when the Nordic armies suffered an ignominious defeat at [[Lore:Red Mountain|Red Mountain]]. Jurgen would use the defeat as inspiration to discover the [[Lore:Way of the Voice|Way of the Voice]] and found the [[Skyrim:Greybeards|Greybeards]].
+
+For more information, see the [[Lore:Jurgen Windcaller|lore article]].
+{{NewLeft}}
+
+==Dialogue==
+When spoken to, Jurgen may comment on his devout followers, the Greybeards.
+:''"My disciples still follow the difficult path - the Way of the Voice is neither wide, nor easy. But if you stray from wisdom then to Sovngarde you will not return."'' 
+
+He will also warn you:
+:''"Fate drives you, but you follow your own path. Choose wisely, lest you wander into evil."''
+
+==Notes==
+* You must retrieve the [[Skyrim:Horn of Jurgen Windcaller|Horn of Jurgen Windcaller]] from his tomb in the Nordic ruin [[Skyrim:Ustengrav|Ustengrav]] during the quest [[Skyrim:The Horn of Jurgen Windcaller|The Horn of Jurgen Windcaller]].
+* When the player approaches his grave after taking the horn, they can absorb a dragon soul from it. What this means is unknown.
+* The inscription on his tomb in Ustengrav is "Windcaller" in [[Lore:Daedric Alphabet|Daedric]].

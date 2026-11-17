@@ -1,0 +1,41 @@
+{{Place Summary
+|type=Military Fort
+|marker_id=Fort
+|clearable=No
+|locationcode=WhiterunWatchtowerExterior, WhiterunWatchtowerExterior02
+|region=Whiterun Hold
+|location=West of [[Skyrim:Whiterun|Whiterun]]<br>North of [[Skyrim:Secunda's Kiss|Secunda's Kiss]]
+|image=SR-place-Western Watchtower.jpg
+|imgdesc=The Western Watchtower
+|description=A small [[Skyrim:Military Forts|fort]] west of [[Skyrim:Whiterun|Whiterun]].
+|addabove=The
+}} 
+{{NewLeft}}
+==Related Quests ==
+* {{Quest Link|Dragon Rising}}
+
+==Walkthrough==
+The tower is along the main road heading west from Whiterun, allowing the [[Skyrim:Whiterun Guard|Whiterun guards]] in the area to watch for any potential threats approaching from that direction. It can be entered via the crumbling wall that forms a ramp upwards. Outside the tower the area between the fallen walls contains a training dummy with some Iron Arrows shot into it.  Inside the tower are two unowned bedrolls and a small table with a lantern. The second floor contains an archery target and a bale of straw, while the top floor is empty. There are two [[Skyrim:Imperial Legion|Imperial Legion]] banners flying from the tower.
+
+Four Whiterun guards will be stationed at the tower to keep watch for enemies (see [[#Bugs|bugs]]).
+
+Once the quest [[Skyrim:Dragon Rising|Dragon Rising]] is complete, the area between the fallen walls contains two burnt corpses with loot and the charred remains of a wooden hut.
+
+==Notes==
+* There are two [[Skyrim:Iron Ore Vein|iron ore veins]] in the rocks to the west.
+* The Western Watchtower will not be marked as a location on your map until the quest Dragon Rising begins.
+* The Imperial Legion banners will be replaced by the [[Skyrim:Stormcloaks|Stormcloak]] banners if the [[Skyrim:Battle for Whiterun (Stormcloaks)|Stormcloaks capture Whiterun]] during the [[Skyrim:Civil War|Civil War]] questline.
+**Version 1.3.3 of the [[Skyrim Mod:Unofficial Skyrim Patch|Unofficial Skyrim Patch]] replaces the default Imperial Legion banners with yellow Whiterun banners to better reflect that Whiterun Hold is originally neutral in the Civil War questline.
+*Version 4.1.1 of the [[Skyrim Mod:Unofficial Skyrim Special Edition Patch|Unofficial Skyrim Special Edition Patch]] replaces Western Watchtower's fort map icon with the one used for [[Skyrim:Towers|Imperial towers]].
+*This wiki's current Skyrim satellite map displays Western Watchtower in its original state; the previous one displayed Western Watchtower in its damaged state.
+
+==Bugs==
+{{Bug|Sometimes the guards may be missing, possibly if the Stormcloaks hold Whiterun.|USKP|2.0.1}}
+{{Bug|The guards stationed at the tower may be stuck inside the entrance, both before and after Dragon Rising.}}
+
+==Gallery==
+<gallery>
+File:SR-interior-Western Watchtower.jpg|The ground floor
+File:SR-interior-Western Watchtower 02.jpg|The first floor
+File:SR-place-Western Watchtower 06.jpg|Looking toward Whiterun
+</gallery>

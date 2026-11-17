@@ -1,0 +1,799 @@
+<noinclude>{{Trail|Magic}}[[Category:Morrowind-Hints|Spell Effects]]{{TOCright}}</noinclude>
+'''[[MW:Spell Effects|Spell Effects]]''' are the basis of all magic in the game. Each spell effect falls under one of six schools of magic, which corresponds to six magic-related [[MW:Skills|skills]].
+
+Before they can be used, spells effects may need to be assigned some of the following properties:
+* '''Area''' — expressed in feet, this determines the radius of the spell effect. Any eligible target caught in this area will experience the spell effect; this also includes allies (a.k.a. "friendly fire")
+* '''Duration''' — the number of seconds in [[MW:Time|real time]] where the effect persists; it expires at the end of this duration. Some spell effects, like those related to teleportation, are instantaneous and cannot have any meaningful duration.
+* '''Magnitude''' — expressed as either a single number or a range of values, this determines the intensity of the spell effect.
+** Some spell effects, like those that related to curing, summoning, teleportation, water breathing and water walking, have no magnitude as they do not have varying degrees of intensity.
+** Other spell effects, especially those that inflict damage, may have a minimum and a maximum magnitude. However, unlike a weapon, where its damage is determined by how long the player holds the attack button, a spell effect's damage is simply a random number within the given range. For example, a [[MW:Fire Damage|Fire Damage]] effect with a magnitude of 3–5 has a one-in-three chance of inflicting 3, 4 or 5 points of damage.
+* '''Target''' — determines which target/s the spell effect will be applied to.
+** '''Self''' — applies the effect to the spell caster or, in the case of potions, the drinker.
+** '''Touch''' — applies the effect to any eligible targets within touching range of the spell caster.
+** '''Target''' — shoots a magical projectile, which applies the effect to the first eligible target it hits. In the case of enchanted weapons, the effect may be applied to any creature or NPC struck by the weapon.
+<noinclude>
+The following tables list all of the spell effects in ''[[MW:Morrowind|Morrowind]]'', including those in the ''[[TR:Tribunal|Tribunal]]'' and ''[[BM:Bloodmoon|Bloodmoon]]'' expansions.
+
+==Alteration Effects==
+'''[[MW:Alteration|Alteration]] effects''' manipulate the physical world and its natural properties. They include water breathing and walking, jumping, levitating, burdening, opening and locking, and creating shield barriers against physical damage.
+
+{|class="sortable wikitable" width=100%
+|-{{ALT}}
+!class=unsortable|Icon!!Title!!class=unsortable|Description!!Base Cost
+|-
+|[[File:MW-icon-effect-Burden.jpg]]
+|[[MW:Burden|Burden]]
+|Temporarily increases the weight carried by the subject, causing fatigue to be lost at a greater rate. The magnitude of the effect is the weight added. When the effect ends, the added weight disappears.
+|{{Al|R}}|1
+|-
+|[[File:MW-icon-effect-Feather.jpg]]
+|[[MW:Feather|Feather]]
+|Reduces the subject's encumbrance, resulting in a slower loss of fatigue. The magnitude is the units of weight removed from encumbrance.
+|{{Al|R}}|1
+|-
+|[[File:MW-icon-effect-Fire Shield.jpg]]
+|[[MW:Fire Shield|Fire Shield]]
+|Creates a shield of elemental fire around the subject's entire body. The effect reduces damage from Fire attacks and damages nearby enemies.
+
+'''Note:''' Despite the color of the icon being that for Destruction, the effect is actually under Alteration.
+|{{Al|R}}|3
+|-
+|[[File:MW-icon-effect-Frost Shield.jpg]]
+|[[MW:Frost Shield|Frost Shield]]
+|Creates a shield of elemental frost around the subject's entire body. The effect reduces damage from Frost attacks and damages nearby enemies.
+|{{Al|R}}|3
+|-
+|[[File:MW-icon-effect-Jump.jpg]]
+|[[MW:Jump|Jump]]
+|Increases the height and distance the subject may jump. The magnitude is proportional to the increase in a jump's height and distance.
+|{{Al|R}}|3
+|-
+|[[File:MW-icon-effect-Levitate.jpg]]
+|[[MW:Levitate|Levitate]]
+|Temporarily enables the subject to levitate into the air, moving in the direction of their choice. The magnitude is the speed at which the subject can move through the air.
+|{{Al|R}}|3
+|-
+|[[File:MW-icon-effect-Lightning Shield.jpg]]
+|[[MW:Lightning Shield|Lightning Shield]]
+|Creates a shield of elemental lightning around the subject's entire body. The effect reduces damage from Shock attacks and damages nearby enemies.
+|{{Al|R}}|3
+|-
+|[[File:MW-icon-effect-Lock.jpg]]
+|[[MW:Lock|Lock]]
+|Locks a container or door. The magnitude of the effect is the lock level placed on the container or door. The effect has no duration; the container or door remains locked until unlocked by the correct [[MW:Keys|key]], [[MW:Lockpick|lockpick]], or the [[MW:Open|Open]] effect.
+|{{Al|R}}|2
+|-
+|[[File:MW-icon-effect-Open.jpg]]
+|[[MW:Open|Open]]
+|Opens a locked container or door. The effect's magnitude is the highest lock level that can be opened.
+|{{Al|R}}|6
+|-
+|[[File:MW-icon-effect-Shield.jpg]]
+|[[MW:Shield|Shield]]
+|Creates a magical shield around the subject's entire body. The effect adds its magnitude to the subject's Armor Rating.
+|{{Al|R}}|2
+|-
+|[[File:MW-icon-effect-Slowfall.jpg]]
+|[[MW:Slowfall|Slowfall]]
+|Slows the subject's rate of descent, reducing damage received upon landing or falling from great heights.
+|{{Al|R}}|3
+|-
+|[[File:MW-icon-effect-Swift Swim.jpg]]
+|[[MW:Swift Swim|Swift Swim]]
+|Temporarily increases the swimming speed of the subject.
+|{{Al|R}}|2
+|-
+|[[File:MW-icon-effect-Water Breathing.jpg]]
+|[[MW:Water Breathing|Water Breathing]]
+|Permits the subject to breathe underwater for the duration of the effect.
+|{{Al|R}}|3
+|-
+|[[File:MW-icon-effect-Water Walking.jpg]]
+|[[MW:Water Walking|Water Walking]]
+|Permits the subject to walk on the surface of any body of water for the duration of the effect.
+|{{Al|R}}|3
+|}
+
+==Conjuration Effects==
+'''[[MW:Conjuration|Conjuration]] effects''' include the mental domination of mundane and magical creatures, summoning of otherworldly weapons and armor as well as Daedric or undead servants, all to serve and protect the caster.
+
+'''Note:''' Yellow entries appear only in [[TR:Tribunal|Tribunal]], and Blue only in [[BM:Bloodmoon|Bloodmoon]].
+<cleanspace>
+{{#define:conjures|Conjures a lesser-Daedra bound in the form of a magical, wondrously light}}
+{{#define:displaces|appears automatically equipped on the caster, displacing any currently equipped}}
+{{#define:re-equips|disappears and automatically re-equips any previously equipped}}
+{{#define:summon|to battle for the caster. It appears six feet in front of the caster and attacks any aggressive enemies until the effect ends or the summon is killed. At death, or when the effect ends, the summon disappears. {{sic|If summoned in town, guards will attack the caster and summoned creature on sight.|no_link=1}}}}
+</cleanspace>
+{|class="sortable wikitable" width=100%
+|-{{CON}}
+!class=unsortable|Icon!!Title!!class=unsortable|Description!!Base Cost
+|-
+|[[File:MW-icon-effect-Bound Battle Axe.jpg]]
+|[[MW:Bound Battle Axe|Bound Battle Axe]]
+|{{{conjures}}} Daedric battle axe. The battle axe {{{displaces}}} weapon to the inventory. When the effect ends, the battle axe {{{re-equips}}} weapon.
+|{{Al|R}}|2
+|-
+|[[File:MW-icon-effect-Bound Boots.jpg]]
+|[[MW:Bound Boots|Bound Boots]]
+|{{{conjures}}} pair of Daedric boots. The boots appear automatically equipped on the caster, displacing any currently equipped foot armor to the inventory. When the effect ends, the boots disappear, and automatically re-equip any previously equipped footwear.
+|{{Al|R}}|2
+|-
+|[[File:MW-icon-effect-Bound Cuirass.jpg]]
+|[[MW:Bound Cuirass|Bound Cuirass]]
+|{{{conjures}}} Daedric cuirass. The cuirass {{{displaces}}} chest armor to the inventory. When the effect ends, the cuirass {{{re-equips}}} chest armor.
+|{{Al|R}}|2
+|-
+|[[File:MW-icon-effect-Bound Dagger.jpg]]
+|[[MW:Bound Dagger|Bound Dagger]]
+|{{{conjures}}} Daedric dagger. The dagger {{{displaces}}} weapon to the inventory. When the effect ends, the dagger {{{re-equips}}} weapon.
+|{{Al|R}}|2
+|-
+|[[File:MW-icon-effect-Bound Gloves.jpg]]
+|[[MW:Bound Gloves|Bound Left Gauntlet]]
+|{{{conjures}}} Daedric armored glove. The armored glove {{{displaces}}} hand armor to the inventory. When the effect ends, the armored glove {{{re-equips}}} hand armor.
+|{{Al|R}}|2
+|-
+|[[File:MW-icon-effect-Bound Gloves.jpg]]
+|[[MW:Bound Gloves|Bound Right Gauntlet]]
+|{{{conjures}}} Daedric armored glove. The armored glove {{{displaces}}} hand armor to the inventory. When the effect ends, the armored glove {{{re-equips}}} hand armor.
+|{{Al|R}}|2
+|-
+|[[File:MW-icon-effect-Bound Helm.jpg]]
+|[[MW:Bound Helm|Bound Helm]]
+|{{{conjures}}} Daedric helm. The helm {{{displaces}}} head armor to the inventory. When the effect ends, the helm {{{re-equips}}} head armor.
+|{{Al|R}}|2
+|-
+|[[File:MW-icon-effect-Bound Longbow.jpg]]
+|[[MW:Bound Longbow|Bound Longbow]]
+|{{{conjures}}} Daedric longbow. The longbow {{{displaces}}} weapon to the inventory. When the effect ends, the longbow {{{re-equips}}} weapon.
+|{{Al|R}}|2
+|-
+|[[File:MW-icon-effect-Bound Longsword.jpg]]
+|[[MW:Bound Longsword|Bound Longsword]]
+|{{{conjures}}} Daedric longsword. The longsword {{{displaces}}} weapon to the inventory. When the effect ends, the longsword {{{re-equips}}} weapon.
+|{{Al|R}}|2
+|-
+|[[File:MW-icon-effect-Bound Mace.jpg]]
+|[[MW:Bound Mace|Bound Mace]]
+|{{{conjures}}} Daedric mace. The mace {{{displaces}}} weapon to the inventory. When the effect ends, the mace {{{re-equips}}} weapon.
+|{{Al|R}}|2
+|-
+|[[File:MW-icon-effect-Bound Shield.jpg]]
+|[[MW:Bound Shield|Bound Shield]]
+|{{{conjures}}} Daedric shield. The shield {{{displaces}}} shield to the inventory. When the effect ends, the shield {{{re-equips}}} shield.
+|{{Al|R}}|2
+|-
+|[[File:MW-icon-effect-Bound Spear.jpg]]
+|[[MW:Bound Spear|Bound Spear]]
+|{{{conjures}}} Daedric spear. The spear {{{displaces}}} weapon to the inventory. When the effect ends, the spear {{{re-equips}}} weapon.
+|{{Al|R}}|2
+|-
+|[[File:MW-icon-effect-Command Creature.jpg]]
+|[[MW:Command Creature|Command Creature]]
+|Compels a creature to fight the caster's enemies for the duration of the effect. The magnitude is the level of the creature affected. When the effect ends, the creature returns to its normal behavior.
+|{{Al|R}}|15
+|-
+|[[File:MW-icon-effect-Command Humanoid.jpg]]
+|[[MW:Command Humanoid|Command Humanoid]]
+|Compels a humanoid to fight the caster's enemies for the duration of the effect. The magnitude is the level of humanoid affected. When the effect ends, the humanoid returns to its normal behavior.
+|{{Al|R}}|15
+|-
+|[[File:MW-icon-effect-Summon Ancestral Ghost.jpg]]
+|[[MW:Summon Ancestral Ghost|Summon Ancestral Ghost]]
+|Summons an [[MW:Ancestor Ghost|Ancestral Ghost]] {{{summon}}} 
+|{{Al|R}}|7
+|-
+|[[File:MW-icon-effect-Summon Bonelord.jpg]]
+|[[MW:Summon Bonelord|Summon Bonelord]]
+|Summons a [[MW:Bonelord|Bonelord]] {{{summon}}}
+|{{Al|R}}|25
+|-
+|[[File:MW-icon-effect-Summon Lesser Bonewalker.jpg]]
+|[[MW:Summon Bonewalker|Summon Bonewalker]]
+|Summons a [[MW:Bonewalker|Bonewalker]] {{{summon}}}
+|{{Al|R}}|13
+|- {{RES}}
+|[[File:MW-icon-effect-Summon Bonewolf.jpg]]
+|[[BM:Summon Bonewolf|Summon Bonewolf]] {{BM}}
+|Summons a [[BM:Bonewolf|Bonewolf]] {{{summon}}}
+|{{Al|R}}|30
+|-
+|[[File:MW-icon-effect-Summon Clannfear.jpg]]
+|[[MW:Summon Centurion Sphere|Summon Centurion Sphere]]
+|Summons a [[MW:Centurion Sphere|Centurion Sphere]] {{{summon}}}
+|{{Al|R}}|25
+|-
+|[[File:MW-icon-effect-Summon Clannfear.jpg]]
+|[[MW:Summon Clannfear|Summon Clannfear]]
+|Summons a [[MW:Clannfear|Clannfear]] {{{summon}}}
+|{{Al|R}}|22
+|-
+|[[File:MW-icon-effect-Summon Daedroth.jpg]]
+|[[MW:Summon Daedroth|Summon Daedroth]]
+|Summons a [[MW:Daedroth|Daedroth]] {{{summon}}} 
+|{{Al|R}}|32
+|-
+|[[File:MW-icon-effect-Summon Dremora.jpg]]
+|[[MW:Summon Dremora|Summon Dremora]]
+|Summons a [[MW:Dremora|Dremora]] {{{summon}}}
+|{{Al|R}}|28
+|- {{CON}}
+|[[File:MW-icon-effect-Summon Fabricant.jpg]]
+|[[TR:Summon Fabricant|Summon Fabricant]] {{TR}}
+|Summons a [[TR:Verminous Fabricant|Fabricant]] {{{summon}}}
+|{{Al|R}}|10
+|-
+|[[File:MW-icon-effect-Summon Flame Atronach.jpg]]
+|[[MW:Summon Flame Atronach|Summon Flame Atronach]]
+|Summons a [[MW:Flame Atronach|Flame Atronach]] {{{summon}}}
+|{{Al|R}}|23
+|-
+|[[File:MW-icon-effect-Summon Frost Atronach.jpg]]
+|[[MW:Summon Frost Atronach|Summon Frost Atronach]]
+|Summons a [[MW:Frost Atronach|Frost Atronach]] {{{summon}}}
+|{{Al|R}}|27
+|-
+|[[File:MW-icon-effect-Summon Golden Saint.jpg]]
+|[[MW:Summon Golden Saint|Summon Golden Saint]]
+|Summons a [[MW:Golden Saint|Golden Saint]] {{{summon}}}
+|{{Al|R}}|55
+|-
+|[[File:MW-icon-effect-Summon Greater Bonewalker.jpg]]
+|[[MW:Summon Greater Bonewalker|Summon Greater Bonewalker]]
+|Summons a [[MW:Greater Bonewalker|Greater Bonewalker]] {{{summon}}}
+|{{Al|R}}|15
+|-{{RES}}
+|[[File:MW-icon-effect-Call Bear.jpg]]
+|[[MW:Summon Grizzly Bear|Summon Grizzly Bear]] {{BM}}
+|Summons a [[BM:Grizzly Bear|Grizzly Bear]] {{{summon}}}
+|{{Al|R}}|30
+|-
+|[[File:MW-icon-effect-Summon Hunger.jpg]]
+|[[MW:Summon Hunger|Summon Hunger]]
+|Summons a [[MW:Hunger|Hunger]] {{{summon}}}
+|{{Al|R}}|29
+|-
+|[[File:MW-icon-effect-Summon Scamp.jpg]]
+|[[MW:Summon Scamp|Summon Scamp]]
+|Summons a [[MW:Scamp|Scamp]] {{{summon}}}
+|{{Al|R}}|12
+|-
+|[[File:MW-icon-effect-Summon Skeletal Minion.jpg]]
+|[[MW:Summon Skeletal Minion|Summon Skeletal Minion]]
+|Summons a [[MW:Skeleton|Skeleton]] {{{summon}}}
+|{{Al|R}}|13
+|-
+|[[File:MW-icon-effect-Summon Storm Atronach.jpg]]
+|[[MW:Summon Storm Atronach|Summon Storm Atronach]]
+|Summons a [[MW:Storm Atronach|Storm Atronach]] {{{summon}}}
+|{{Al|R}}|38
+|-{{RES}}
+|[[File:MW-icon-effect-Call Wolf.jpg]]
+|[[MW:Summon Wolf|Summon Wolf]] {{BM}}
+|Summons a [[BM:Wolf|Wolf]] {{{summon}}}
+|{{Al|R}}|30
+|-
+|[[File:MW-icon-effect-Summon Winged Twilight.jpg]]
+|[[MW:Summon Winged Twilight|Summon Winged Twilight]]
+|Summons a [[MW:Winged Twilight|Winged Twilight]] {{{summon}}}
+|{{Al|R}}|52
+|-
+|[[File:MW-icon-effect-Turn Undead.jpg]]
+|[[MW:Turn Undead|Turn Undead]]
+|Temporarily increases an undead creature's flee rating (its inclination to run from an attacker). The effect's magnitude is the value increase to the flee rating.
+|{{Al|R}}|0.2
+|}
+
+==Destruction Effects==
+'''[[MW:Destruction|Destruction]] effects''' harm living and undead creatures, and include elemental damage, draining, damaging, vulnerability, and disintegration magical effects.
+<cleanspace>
+{{#define:elemental_damage|The magnitude is the elemental damage received by the subject.}}
+{{#define:is_restored_by|does not return to its original value at the end of the effect's duration; it restores normally, or may be restored with the}}
+{{#define:lost|lost each second of the effect's duration}}
+{{#define:reduced|reduced each second of the effect's duration}}
+{{#define:returns|returns to its original value when the effect ends}}
+{{#define:weakness_to|Decreases the subject's resistance to}}
+</cleanspace>
+{|class="sortable wikitable" width=100%
+|-{{DES}}
+!class=unsortable|Icon!!Title!!class=unsortable|Description!!Base Cost
+|-
+|[[File:MW-icon-effect-Corprus.jpg]]
+|[[MW:Corprus|Corprus]]
+|Infects the subject with corprus disease. Corprus is a special disease with unique properties. The subject remains affected by the disease until it is cured.
+|{{Al|R}}|2500
+|-
+|[[File:MW-icon-effect-Damage Attribute.jpg]]
+|[[MW:Damage Attribute|Damage Attribute]]
+|Lowers the value of one of the subject's base [[MW:Attributes|Attributes]]; any derived attributes are recalculated. The affected attribute {{{is_restored_by}}} corresponding [[MW:Restore Attribute|Restore Attribute]] effect. The magnitude is the units of attribute {{{lost}}}.
+|{{Al|R}}|8
+|-
+|[[File:MW-icon-effect-Damage Fatigue.jpg]]
+|[[MW:Damage Fatigue|Damage Fatigue]]
+|Lowers the value of the subject's [[MW:Fatigue|Fatigue]]. Fatigue {{{is_restored_by}}} [[MW:Restore Fatigue|Restore Fatigue]] effect. The magnitude is the units of fatigue {{{lost}}}.
+|{{Al|R}}|4
+|-
+|[[File:MW-icon-effect-Damage Health.jpg]]
+|[[MW:Damage Health|Damage Health]]
+|Lowers the value of the subject's [[MW:Health|Health]]. Health {{{is_restored_by}}} [[MW:Restore Health|Restore Health]] effect. The magnitude is the units of health {{{lost}}}.
+|{{Al|R}}|8
+|-
+|[[File:MW-icon-effect-Damage Magicka.jpg]]
+|[[MW:Damage Magicka|Damage Magicka]]
+|Lowers the value of the subject's [[MW:Magicka|Magicka]]. Magicka {{{is_restored_by}}} [[MW:Restore Magicka|Restore Magicka]] effect. The magnitude is the units of magicka {{{lost}}}.
+|{{Al|R}}|8
+|-
+|[[File:MW-icon-effect-Damage Skill.jpg]]
+|[[MW:Damage Skill|Damage Skill]]
+|Lowers the value of one of the subject's [[MW:Skills|Skills]]. The affected skill {{{is_restored_by}}} corresponding [[MW:Restore Skill|Restore Skill]] effect. The magnitude is the units of skill {{{lost}}}.
+|{{Al|R}}|8
+|-
+|[[File:MW-icon-effect-Disintegrate Armor.jpg]]
+|[[MW:Disintegrate Armor|Disintegrate Armor]]
+|Damages the health rating of a piece of armor equipped by the subject.
+|{{Al|R}}|6
+|-
+|[[File:MW-icon-effect-Disintegrate Weapon.jpg]]
+|[[MW:Disintegrate Weapon|Disintegrate Weapon]]
+|Damages the health rating of a weapon equipped by the subject.
+|{{Al|R}}|6
+|-
+|[[File:MW-icon-effect-Drain Attribute.jpg]]
+|[[MW:Drain Attribute|Drain Attribute]]
+|Temporarily lowers the value of one of the subject's base [[MW:Attributes|Attributes]]; any derived attributes are recalculated. The affected attribute {{{returns}}}, again, recalculating any derived attributes. The magnitude is the units of attribute {{{reduced}}}.
+|{{Al|R}}|1
+|-
+|[[File:MW-icon-effect-Drain Fatigue.jpg]]
+|[[MW:Drain Fatigue|Drain Fatigue]]
+|Temporarily lowers the value of the subject's [[MW:Fatigue|Fatigue]]. Fatigue {{{returns}}}. The magnitude is the units of fatigue {{{reduced}}}.
+|{{Al|R}}|2
+|-
+|[[File:MW-icon-effect-Drain Health.jpg]]
+|[[MW:Drain Health|Drain Health]]
+|Temporarily lowers the value of the subject's [[MW:Health|Health]]. Health {{{returns}}}. The magnitude is the units of health {{{reduced}}}.
+|{{Al|R}}|4
+|-
+|[[File:MW-icon-effect-Drain Magicka.jpg]]
+|[[MW:Drain Magicka|Drain Magicka]]
+|Temporarily lowers the value of the subject's [[MW:Magicka|Magicka]]. Magicka {{{returns}}}. The magnitude is the units of magicka {{{reduced}}}.
+|{{Al|R}}|4
+|-
+|[[File:MW-icon-effect-Drain Skill.jpg]]
+|[[MW:Drain Skill|Drain Skill]]
+|Temporarily lowers the value of one of the subject's [[MW:Skills|Skills]]. The affected skill {{{returns}}}. The magnitude is the units of skill {{{reduced}}}.
+|{{Al|R}}|1
+|-
+|[[File:MW-icon-effect-Fire Damage.jpg]]
+|[[MW:Fire Damage|Fire Damage]]
+|Produces a manifestation of elemental fire. {{{elemental_damage}}}
+|{{Al|R}}|5
+|-
+|[[File:MW-icon-effect-Frost Damage.jpg]]
+|[[MW:Frost Damage|Frost Damage]]
+|Produces a manifestation of elemental frost. {{{elemental_damage}}}
+|{{Al|R}}|5
+|-
+|[[File:MW-icon-effect-Poison.jpg]]
+|[[MW:Poison|Poison]]
+|Creates a spray of poisonous acid that causes damage to the health of the subject. The subject continues to lose health from the poison effect for the duration of the effect, unless the effect is canceled by a cure poison effect.
+|{{Al|R}}|9
+|-
+|[[File:MW-icon-effect-Shock Damage.jpg]]
+|[[MW:Shock Damage|Shock Damage]]
+|Produces bolts of elemental lightning. {{{elemental_damage}}}
+|{{Al|R}}|7
+|-
+|[[File:MW-icon-effect-Damage Magicka.jpg]]
+|[[MW:Stunted Magicka|Stunted Magicka]]
+|Prevents the subject from regenerating magicka while sleeping for the duration of the effect.
+|{{Al|R}}|1
+|-
+|[[File:MW-icon-effect-Sun Damage.jpg]]
+|[[MW:Sun Damage|Sun Damage]]
+|Causes the subject's health to be damaged while out of doors when the sun is up. The magnitude is the amount of health damaged. Damage is modified by the relative height of the sun in the sky, with the least damage occurring at sunrise (6 A.M.) and sunset (8 P.M.).
+|{{Al|R}}|1
+|-
+|[[File:MW-icon-effect-Vampirism.jpg]]
+|[[MW:Vampirism|Vampirism]]
+|Confers upon the subject all the abilities and weaknesses of the Porphyric Hemophilia disease.
+|{{Al|R}}|5
+|-
+|[[File:MW-icon-effect-Weakness to Blight Disease.jpg]]
+|[[MW:Weakness to Blight Disease|Weakness to Blight Disease]]
+|{{{weakness_to}}} [[MW:Diseases#Blight Diseases|blight diseases]].
+|{{Al|R}}|4
+|-
+|[[File:MW-icon-effect-Weakness to Common Disease.jpg]]
+|[[MW:Weakness to Common Disease|Weakness to Common Disease]]
+|{{{weakness_to}}} [[MW:Diseases#Common Diseases|common diseases]].
+|{{Al|R}}|2
+|-
+|[[File:MW-icon-effect-Weakness to Corprus Disease.jpg]]
+|[[MW:Weakness to Corprus Disease|Weakness to Corprus Disease]]
+|{{{weakness_to}}} [[MW:Corprus (disease)|Corprus disease]].
+|{{Al|R}}|4
+|-
+|[[File:MW-icon-effect-Weakness to Fire.jpg]]
+|[[MW:Weakness to Fire|Weakness to Fire]]
+|{{{weakness_to}}} [[MW:Fire Damage|Fire Damage]].
+|{{Al|R}}|2
+|-
+|[[File:MW-icon-effect-Weakness to Frost.jpg]]
+|[[MW:Weakness to Frost|Weakness to Frost]]
+|{{{weakness_to}}} [[MW:Frost Damage|Frost Damage]].
+|{{Al|R}}|2
+|-
+|[[File:MW-icon-effect-Weakness to Magicka.jpg]]
+|[[MW:Weakness to Magicka|Weakness to Magicka]]
+|{{{weakness_to}}} damage from non-elemental magic.
+|{{Al|R}}|2
+|-
+|[[File:MW-icon-effect-Weakness to Normal Weapons.jpg]]
+|[[MW:Weakness to Normal Weapons|Weakness to Normal Weapons]]
+|{{{weakness_to}}} damage from [[MW:Normal Weapons|Normal Weapons]] (non-enchanted or silver).
+|{{Al|R}}|2
+|-
+|[[File:MW-icon-effect-Weakness to Poison.jpg]]
+|[[MW:Weakness to Poison|Weakness to Poison]]
+|{{{weakness_to}}} [[MW:Poison|Poison]].
+|{{Al|R}}|2
+|-
+|[[File:MW-icon-effect-Weakness to Shock.jpg]]
+|[[MW:Weakness to Shock|Weakness to Shock]]
+|{{{weakness_to}}} [[MW:Shock Damage|Shock Damage]].
+|{{Al|R}}|2
+|}
+
+==Illusion Effects==
+'''[[MW:Illusion|Illusion]] effects''' alter the perceptions and thoughts of living subjects. Illusion effects include blind, light, paralyze, silence, calm or frenzy, chameleon, and invisibility.
+<cleanspace>
+{{#define:unaffected|undead and Daedra are unaffected by this}}
+</cleanspace>
+{|class="sortable wikitable" width=100%
+|-{{ILL}}
+!class=unsortable|Icon!!Title!!class=unsortable|Description!!Base Cost
+|-
+|[[File:MW-icon-effect-Blind.jpg]]
+|[[MW:Blind|Blind]]
+|Obscures the vision of the subject, reducing their chance to strike an opponent with weapon or hand-to-hand attacks.
+|{{Al|R}}|1
+|-
+|[[File:MW-icon-effect-Calm Creature.jpg]]
+|[[MW:Calm Creature|Calm<br>Creature]]
+|Temporarily reduces a creature's attack rating (its inclination to attack). The effect's magnitude is the value of the reduction of the attack rating. When the effect ends, the creature's attack rating returns to normal. Humanoids, {{{unaffected}}}.
+|{{Al|R}}|1
+|-
+|[[File:MW-icon-effect-Calm Humanoid.jpg]]
+|[[MW:Calm Humanoid|Calm<br>Humanoid]]
+|Temporarily reduces a humanoid's attack rating (its inclination to attack). The effect's magnitude is the value of the reduction of the attack rating. When the effect ends, the humanoid's attack rating returns to normal. Creatures, {{{unaffected}}}.
+|{{Al|R}}|1
+|-
+|[[File:MW-icon-effect-Chameleon.jpg]]
+|[[MW:Chameleon|Chameleon]]
+|Allows the subject to blend into the surroundings and remain unseen. The subject can attack and use objects without disrupting the effect. The effect ranges from 1% to 100% effectiveness, the magnitude being equal to the degree of concealment.
+|{{Al|R}}|1
+|-
+|[[File:MW-icon-effect-Charm.jpg]]
+|[[MW:Charm|Charm]]
+|Temporarily increases the subject's disposition towards the caster. When the effect ends, the subject's disposition returns to its original value.
+|{{Al|R}}|5
+|-
+|[[File:MW-icon-effect-Demoralize Creature.jpg]]
+|[[MW:Demoralize Creature|Demoralize<br>Creature]]
+|Temporarily increases a creature's flee rating (its inclination to run from an attacker). The effect's magnitude is the value of the increase of the flee rating. When the effect ends, the creature's flee rating returns to normal. Humanoids, {{{unaffected}}}.
+|{{Al|R}}|1
+|-
+|[[File:MW-icon-effect-Demoralize Humanoid.jpg]]
+|[[MW:Demoralize Humanoid|Demoralize<br>Humanoid]]
+|Temporarily increases a humanoid's flee rating (its inclination to flee from an attacker). The effect's magnitude is the value of the increase of the flee rating. When the effect ends, the humanoid's flee rating returns to normal. Creatures, {{{unaffected}}}.
+
+'''Note:''' This effect is coded as Mysticism, when it should clearly be Illusion.
+|{{Al|R}}|1
+|-
+|[[File:MW-icon-effect-Frenzy Creature.jpg]]
+|[[MW:Frenzy Creature|Frenzy<br>Creature]]
+|Temporarily increases a creature's attack rating (its inclination to attack). The effect's magnitude is the value of the increase in the attack rating. When the effect ends, the creature's attack rating returns to normal. Humanoids, {{{unaffected}}}.
+|{{Al|R}}|1
+|-
+|[[File:MW-icon-effect-Frenzy Humanoid.jpg]]
+|[[MW:Frenzy Humanoid|Frenzy<br>Humanoid]]
+|Temporarily increases a humanoid's attack rating (its inclination to attack). The effect's magnitude is the value of the increase in the attack rating. When the effect ends, the humanoid's attack rating returns to normal. Creatures, {{{unaffected}}}.
+|{{Al|R}}|1
+|-
+|[[File:MW-icon-effect-Invisibility.jpg]]
+|[[MW:Invisibility|Invisibility]]
+|Conceals the presence of the subject from observers. If the subject attacks, speaks, or activates an object, the effect is dispelled. The magnitude of this effect is not variable; the subject is always 100% invisible.
+|{{Al|R}}|20
+|-
+|[[File:MW-icon-effect-Light.jpg]]
+|[[MW:Light|Light]]
+|Creates a projectile of tangible light. Upon striking a subject, the projectile illuminates the area for the duration of the effect. The projectile does not cause any damage.
+|{{Al|R}}|0.2
+|-
+|[[File:MW-icon-effect-Night Eye.jpg]]
+|[[MW:Night Eye|Night Eye]]
+|Temporarily endows the subject with the ability to see in the dark. The effect's magnitude is the degree to which the ambient light level is raised.
+|{{Al|R}}|0.2
+|-
+|[[File:MW-icon-effect-Paralyze.jpg]]
+|[[MW:Paralyze|Paralyze]]
+|Renders the subject unable to move. This effect has no magnitude, only duration.
+|{{Al|R}}|40
+|-
+|[[File:MW-icon-effect-Rally Creature.jpg]]
+|[[MW:Rally Creature|Rally<br>Creature]]
+|Temporarily decreases a creature's flee rating (its inclination to flee from an attacker). The effect's magnitude is the value of the decrease in the flee rating. When the effect ends, the creature's flee rating returns to normal. Humanoids, {{{unaffected}}}.
+|{{Al|R}}|0.2
+|-
+|[[File:MW-icon-effect-Rally Humanoid.jpg]]
+|[[MW:Rally Humanoid|Rally<br>Humanoid]]
+|Temporarily decreases a humanoid's flee rating (its inclination to flee from an attacker). The effect's magnitude is the value of the decrease in the flee rating. When the effect ends, the humanoid's flee rating returns to normal. Creatures, {{{unaffected}}}.
+|{{Al|R}}|0.2
+|-
+|[[File:MW-icon-effect-Sanctuary.jpg]]
+|[[MW:Sanctuary|Sanctuary]]
+|Causes the subject to be harder to hit. The magnitude is the value that is added to the subject's chance to dodge attacks.
+|{{Al|R}}|1
+|-
+|[[File:MW-icon-effect-Silence.jpg]]
+|[[MW:Silence|Silence]]
+|Temporarily renders the subject unable to cast spells.
+|{{Al|R}}|40
+|-
+|[[File:MW-icon-effect-Sound.jpg]]
+|[[MW:Sound|Sound]]
+|Produces a disorienting noise in the subject's mind. The magnitude is the reduction in the subject's chance to successfully cast spells.
+|{{Al|R}}|3
+|}
+
+==Mysticism Effects==
+'''[[MW:Mysticism|Mysticism]] effects''' shape and focus otherworldly forces to bind souls in gems, teleport the caster’s body, manipulate the world with telekinesis, absorb, or reflect magical energies, or sense unseen objects at a distance.
+<cleanspace>
+{{#define:to_caster|from the subject to the caster}}
+</cleanspace>
+{|class="sortable wikitable" width=100%
+|-{{MYS}}
+!class=unsortable|Icon!!Title!!class=unsortable|Description!!Base Cost
+|-
+|[[File:MW-icon-effect-Absorb Attribute.jpg]]
+|[[MW:Absorb Attribute|Absorb Attribute]]
+|Temporarily transfers [[MW:Attributes|attributes]] {{{to_caster}}}. The caster may exceed the attribute's maximum of 100 for the duration of the effect. When the effect ends, both caster and subject attributes return to their original values.
+|{{Al|R}}|2
+|-
+|[[File:MW-icon-effect-Absorb Fatigue.jpg]]
+|[[MW:Absorb Fatigue|Absorb Fatigue]]
+|Permanently transfers [[MW:Fatigue|Fatigue]] {{{to_caster}}}, wearying the subject and invigorating the caster. The caster may not exceed their own natural maximum Fatigue value, but even if the caster is at full Fatigue, casting this effect will still drain the subject's Fatigue.
+|{{Al|R}}|4
+|-
+|[[File:MW-icon-effect-Absorb Health.jpg]]
+|[[MW:Absorb Health|Absorb Health]]
+|Permanently transfers [[MW:Health|Health]] {{{to_caster}}}, injuring the subject and vitalizing the caster. The caster may not exceed their own natural maximum Health value, but even if the caster is at full Health, casting this effect will still drain the subject's Health.
+|{{Al|R}}|8
+|-
+|[[File:MW-icon-effect-Absorb Magicka.jpg]]
+|[[MW:Absorb Magicka|Absorb Magicka]]
+|Permanently transfers [[MW:Magicka|Magicka]] {{{to_caster}}}, reducing the subject's spellcasting reservoirs and filling the caster's. The caster may not exceed their own natural maximum Magicka value, but even if the caster is at full Magicka, casting this effect will still drain the subject's Magicka.
+|{{Al|R}}|8
+|-
+|[[File:MW-icon-effect-Absorb Skill.jpg]]
+|[[MW:Absorb Skill|Absorb Skill]]
+|Temporarily transfers [[MW:Skills|skill]] levels {{{to_caster}}}. When the effect ends, both caster and subject skill levels return to their original values. Unused in the game, and only found on a developers' test item, [[MW:Clutterbane|Clutterbane]].
+|{{Al|R}}|2
+|-
+|[[File:MW-icon-effect-Almsivi Intervention.jpg]]
+|[[MW:Almsivi Intervention|Almsivi Intervention]]
+|Transports the subject of this effect instantaneously to the altar of the nearest shrine of the [[MW:Tribunal Temple|Tribunal Temple]].
+|{{Al|R}}|150
+|-
+|[[File:MW-icon-effect-Detect Animal.jpg]]
+|[[MW:Detect Animal|Detect Animal]]
+|Allows the caster of this effect to detect any entity animated by a spirit; said entities appear on the map as red-circle symbols. This effect includes all classes of monsters (creatures, undead, Daedra, Dwemer constructs). Humanoids are NOT detected by this effect. The magnitude is the range in feet from the caster that animals are detected.
+|{{Al|R}}|0.75
+|-
+|[[File:MW-icon-effect-Detect Enchantment.jpg]]
+|[[MW:Detect Enchantment|Detect Enchantment]]
+|Allows the caster of this effect to detect enchanted items; said items appear on the map as blue-circle symbols. The effect's magnitude is the range in feet from the caster that enchanted items are detected.
+|{{Al|R}}|1
+|-
+|[[File:MW-icon-effect-Detect Key.jpg]]
+|[[MW:Detect Key|Detect Key]]
+|Allows the caster of this effect to detect [[MW:Keys|Keys]]; their locations appear on the map as green-circle symbols. The effect's magnitude is the range in feet from the caster that keys are detected.
+|{{Al|R}}|1
+|-
+|[[File:MW-icon-effect-Dispel.jpg]]
+|[[MW:Dispel|Dispel]]
+|Removes magicka-based spell effects from the subject. Dispel does not affect abilities, disease, curses, or constant magic item effects. The magnitude is the chance an effect is removed.
+|{{Al|R}}|5
+|-
+|[[File:MW-icon-effect-Divine Intervention.jpg]]
+|[[MW:Divine Intervention|Divine Intervention]]
+|Transports the subject of this effect instantaneously to the altar of the nearest shrine of the [[MW:Imperial Cult|Imperial Cult]].
+|{{Al|R}}|150
+|-
+|[[File:MW-icon-effect-Mark.jpg]]
+|[[MW:Mark|Mark]]
+|Establishes a target location for the [[MW:Recall|Recall]] effect to act upon. The location is established directly at the position of the caster when the effect is used.
+|{{Al|R}}|350
+|-
+|[[File:MW-icon-effect-Recall.jpg]]
+|[[MW:Recall|Recall]]
+|Transports the subject of this effect instantaneously to the point set by the [[MW:Mark|Mark]] effect.
+|{{Al|R}}|350
+|-
+|[[File:MW-icon-effect-Reflect.jpg]]
+|[[MW:Reflect|Reflect]]
+|Allows the subject to reflect spell effects back at an attacking caster. The effect's magnitude is the chance that a spell effect is reflected. If the reflect is successful, the opposing effects reflect back at the attacking caster. If the reflect fails, the opposing effects take effect normally.
+|{{Al|R}}|10
+|-
+|[[File:MW-icon-effect-Soultrap.jpg]]
+|[[MW:Soultrap|Soultrap]]
+|Traps the soul of the targeted creature in the smallest empty soul gem in the caster's inventory, if the creature is killed during the effect's duration.
+|{{Al|R}}|2
+|-
+|[[File:MW-icon-effect-Spell Absorption.jpg]]
+|[[MW:Spell Absorption|Spell Absorption]]
+|Allows the caster to absorb an incoming effects's power as an increase to their reservoir of magicka. The magnitude is the chance that an incoming effect will be absorbed. If successful, the caster absorbs the incoming effects's cost in spell points as increased magicka. The caster's magicka cannot be increased above the caster's standard magicka level. If failed, the incoming effect takes effect normally.
+|{{Al|R}}|10
+|-
+|[[File:MW-icon-effect-Telekinesis.jpg]]
+|[[MW:Telekinesis|Telekinesis]]
+|Allows the subject to pick up items, open containers, and open interior doors from a distance. The magnitude is the number of feet the subject can reach.
+|{{Al|R}}|1
+|}
+
+==Restoration Effects==
+'''[[MW:Restoration|Restoration]] effects''' heal, restore, and fortify the body’s attributes and abilities, cure disease, and protect it from other malign influences. They can also augment or absorb strength, endurance, intelligence, agility, and other bodily attributes.
+<cleanspace>
+{{#define:cures|Cures the subject of}}
+{{#define:drained_or_damaged|that have been reduced by magical attack}}
+{{#define:resists|Increases the subject's resistance to}}
+{{#define:resists_damage_from|The magnitude is the percentage of reduction in damage caused by}}
+{{#define:restored|restored for each second of the effect's duration}}
+</cleanspace>
+{|class="sortable wikitable" width=100%
+|-{{RES}}
+!class=unsortable|Icon!!Title!!class=unsortable|Description!!Base Cost
+|-
+|[[File:MW-icon-effect-Cure Blight Disease.jpg]]
+|[[MW:Cure Blight Disease|Cure Blight Disease]]
+|{{{cures}}} [[MW:Diseases#Blight Diseases|Blight Diseases]] and restores all affected attributes.
+|{{Al|R}}|2000
+|-
+|[[File:MW-icon-effect-Cure Common Disease.jpg]]
+|[[MW:Cure Common Disease|Cure Common Disease]]
+|{{{cures}}} [[MW:Diseases#Common Diseases|Common Diseases]] and restores all affected attributes.
+|{{Al|R}}|300
+|-
+|[[File:MW-icon-effect-Cure Corprus Disease.jpg]]
+|[[MW:Cure Corprus Disease|Cure Corprus Disease]]
+|{{{cures}}} [[MW:Corprus|Corprus]].
+|{{Al|R}}|2500
+|-
+|[[File:MW-icon-effect-Cure Paralyzation.jpg]]
+|[[MW:Cure Paralyzation|Cure Paralyzation]]
+|{{{cures}}} [[MW:Paralyze|paralysis]].
+|{{Al|R}}|100
+|-
+|[[File:MW-icon-effect-Cure Poison.jpg]]
+|[[MW:Cure Poison|Cure Poison]]
+|{{{cures}}} any [[MW:Poison|Poison]] affecting them. The effect does not restore health lost to poisoning.
+|{{Al|R}}|100
+|-
+|[[File:MW-icon-effect-Fortify Attack.jpg]]
+|[[MW:Fortify Attack|Fortify Attack]]
+|Raises the subject's chance of making a successful hit with a weapon or hand-to-hand attack.
+
+This effect may be obtained only by completing the [[MW:Threads of the Webspinner|Threads of the Webspinner]] quest for the [[MW:Morag Tong|Morag Tong]].
+|{{Al|R}}|1
+|-
+|[[File:MW-icon-effect-Fortify Attribute.jpg]]
+|[[MW:Fortify Attribute|Fortify Attribute]]
+|Temporarily increases the value of one of a subject's [[MW:Attributes|Attributes]]. Any derived attributes are recalculated. The affected attribute {{{returns}}}. The magnitude is the value of the increase of the attribute.
+|{{Al|R}}|1
+|-
+|[[File:MW-icon-effect-Fortify Fatigue.jpg]]
+|[[MW:Fortify Fatigue|Fortify Fatigue]]
+|Temporarily increases the value of a subject's [[MW:Fatigue|Fatigue]]. Fatigue {{{returns}}}. The magnitude is the value of the increase in fatigue.
+|{{Al|R}}|0.5
+|-
+|[[File:MW-icon-effect-Fortify Health.jpg]]
+|[[MW:Fortify Health|Fortify Health]]
+|Temporarily increases the value of a subject's [[MW:Health|Health]]. Health {{{returns}}}. The magnitude is the value of the increase in health.
+|{{Al|R}}|1
+|-
+|[[File:MW-icon-effect-Fortify Magicka.jpg]]
+|[[MW:Fortify Magicka|Fortify Magicka]]
+|Temporarily increases the value of a subject's [[MW:Magicka|Magicka]]. Magicka {{{returns}}}. The magnitude is the value of the increase in magicka.
+|{{Al|R}}|1
+|-
+|[[File:MW-icon-effect-Fortify Maximum Magicka.jpg]]
+|[[MW:Fortify Maximum Magicka|Fortify Maximum Magicka]]
+|Modifies the multiplier used to derive the amount of magicka the subject currently retains. The magnitude is multiplied by the subject's [[MW:Intelligence|Intelligence]] to derive the magicka. The standard multiplier is 0.5. This effect is only available from [[MW:Birthsigns|Birthsigns]] or [[MW:Races|Racial effects]].
+|{{Al|R}}|4
+|-
+|[[File:MW-icon-effect-Fortify Skill.jpg]]
+|[[MW:Fortify Skill|Fortify Skill]]
+|Temporarily increases the value of one of the subject's [[MW:Skills|Skills]]. The affected skill {{{returns}}}. The magnitude is the value of the increase in the skill. This effect may only be found by completing the [[MW:Threads of the Webspinner|Threads of the Webspinner]] quest for the [[MW:Morag Tong|Morag Tong]] in versions of [[MW:Morrowind|Morrowind]] below 1.2. This effect may be purchased at the Temple of Almalexia in the [[TR:Tribunal|Tribunal]] expansion pack.
+|{{Al|R}}|1
+|-
+|[[File:MW-icon-effect-Remove Curse.jpg]]
+|[[MW:Remove Curse|Remove Curse]]
+|Removes the effect of a curse from the subject. (Since there are no curses in the game, this is not available anywhere.)
+|{{Al|R}}|15
+|-
+|[[File:MW-icon-effect-Resist Blight Disease.jpg]]
+|[[MW:Resist Blight Disease|Resist Blight Disease]]
+|{{{resists}}} [[MW:Diseases#Blight Diseases|Blight Diseases]]. {{{resists_damage_from}}} blight disease effects.
+|{{Al|R}}|5
+|-
+|[[File:MW-icon-effect-Resist Common Disease.jpg]]
+|[[MW:Resist Common Disease|Resist Common Disease]]
+|{{{resists}}} [[MW:Diseases#Common Diseases|Common Diseases]]. {{{resists_damage_from}}} common disease effects.
+|{{Al|R}}|2
+|-
+|[[File:MW-icon-effect-Resist Corprus Disease.jpg]]
+|[[MW:Resist Corprus Disease|Resist Corprus Disease]]
+|{{{resists}}} [[MW:Corprus|Corprus]] disease. {{{resists_damage_from}}} corprus disease effects.
+|{{Al|R}}|5
+|-
+|[[File:MW-icon-effect-Resist Fire.jpg]]
+|[[MW:Resist Fire|Resist Fire]]
+|{{{resists}}} [[MW:Fire Damage|Fire Damage]]. {{{resists_damage_from}}} elemental fire.
+|{{Al|R}}|2
+|-
+|[[File:MW-icon-effect-Resist Frost.jpg]]
+|[[MW:Resist Frost|Resist Frost]]
+|{{{resists}}} [[MW:Frost Damage|Frost Damage]]. {{{resists_damage_from}}} elemental frost.
+|{{Al|R}}|2
+|-
+|[[File:MW-icon-effect-Resist Magicka.jpg]]
+|[[MW:Resist Magicka|Resist Magicka]]
+|{{{resists}}} damage from non-elemental magic attacks. {{{resists_damage_from}}} attacks not based on elemental forces.
+|{{Al|R}}|2
+|-
+|[[File:MW-icon-effect-Resist Normal Weapons.jpg]]
+|[[MW:Resist Normal Weapons|Resist Normal Weapons]]
+|{{{resists}}} damage from [[MW:Normal Weapons|Normal Weapons]]. {{{resists_damage_from}}} non-enchanted or silver weapons.
+|{{Al|R}}|5
+|-
+|[[File:MW-icon-effect-Resist Paralysis.jpg]]
+|[[MW:Resist Paralysis|Resist Paralysis]]
+|{{{resists}}} [[MW:Paralyze|Paralysis]]. The magnitude is the percentage added to the subject's [[MW:Willpower|Willpower]]-based resistance.
+|{{Al|R}}|0.2
+|-
+|[[File:MW-icon-effect-Resist Poison.jpg]]
+|[[MW:Resist Poison|Resist Poison]]
+|{{{resists}}} [[MW:Poison|Poison]]. {{{resists_damage_from}}} poison.
+|{{Al|R}}|2
+|-
+|[[File:MW-icon-effect-Resist Shock.jpg]]
+|[[MW:Resist Shock|Resist Shock]]
+|{{{resists}}} [[MW:Shock Damage|Shock Damage]]. {{{resists_damage_from}}} elemental lightning.
+|{{Al|R}}|2
+|-
+|[[File:MW-icon-effect-Restore Attribute.jpg]]
+|[[MW:Restore Attribute|Restore Attribute]]
+|Restores any [[MW:Attributes|attributes]] {{{drained_or_damaged}}}. The magnitude is the units of attribute {{{restored}}}.
+|{{Al|R}}|1
+|-
+|[[File:MW-icon-effect-Restore Fatigue.jpg]]
+|[[MW:Restore Fatigue|Restore Fatigue]]
+|Replenishes the subject's [[MW:Fatigue|Fatigue]]. The magnitude is the units of fatigue {{{restored}}}.
+|{{Al|R}}|1
+|-
+|[[File:MW-icon-effect-Restore Health.jpg]]
+|[[MW:Restore Health|Restore Health]]
+|Replenishes the subject's [[MW:Health|Health]]. The magnitude is the units of health {{{restored}}}.
+|{{Al|R}}|5
+|-
+|[[File:MW-icon-effect-Restore Magicka.jpg]]
+|[[MW:Restore Magicka|Restore Magicka]]
+|Replenishes the subject's [[MW:Magicka|Magicka]]. The magnitude is the units of magicka {{{restored}}}.
+|{{Al|R}}|5
+|-
+|[[File:MW-icon-effect-Restore Skill.jpg]]
+|[[MW:Restore Skill|Restore Skill]]
+|Restores any [[MW:Skills|skill]] levels {{{drained_or_damaged}}}. The magnitude is the units of skill {{{restored}}}.
+|{{Al|R}}|1
+|}
+</noinclude><cleanspace><nowiki/></cleanspace>

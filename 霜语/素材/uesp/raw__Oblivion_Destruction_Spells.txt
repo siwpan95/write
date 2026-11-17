@@ -1,0 +1,1043 @@
+<noinclude>{{Trail|Magic|Spells}}
+This page lists '''[[Oblivion:Spells|Spells]]''' in the school of '''[[Oblivion:Destruction|Destruction]]'''.
+
+</noinclude>{| class=wikitable sortable
+
+|- {{DES}}
+
+!width=1% class="unsortable"| 
+!width=14%| Spell Name
+!width=5%|[[Oblivion:Form ID|Form ID]]s
+!width=30% class="unsortable"| Effect Details 
+!width=5%|[[File:OBMagickaCostIcon small.png|Magicka Spell Cost|link=Oblivion:Magicka]]
+!width=30% class="unsortable"| How to Obtain
+
+|- {{DES}}
+|colspan=6|<center>'''Novice'''</center>
+|-
+
+{{OB Spell
+|name=Burning Touch
+|icon=Fire
+|spellid=0004C91E
+|tomeid=xx0022D9
+|magicka=10
+|desc=:{{Effect Link|Fire Damage}} 10  pts on Touch
+|where=* Can be purchased from: [[Oblivion:Druja|Druja]], [[Oblivion:Edgar Vautrine|Edgar Vautrine]]
+}}
+
+{{OB Spell
+|name=Cold Touch
+|icon=Frost
+|spellid=000A97EF
+|tomeid=xx0022F8
+|magicka=23
+|desc=:{{Effect Link|Frost Damage}} 15 pts on Touch
+|where=* Players with [[Oblivion:Destruction|Destruction]] as a [[Oblivion:Skills|major skill]] start with this spell<br>
+* Can be purchased from: [[Oblivion:Druja|Druja]]
+}}
+
+{{OB Spell
+|name=Corrode Armor 
+|icon=Disintegrate
+|spellid=005DCC6
+|tomeid=None
+|magicka=43
+|desc=:{{Effect Link|Disintegrate Armor}} 20 pts on Target
+|where=* {{FC|red|Not available in game}}<br>
+* The ''Corrode Armor'' spell available from [[Oblivion:Sulinus Vassinus|Sulinus Vassinus]] is a different spell that is cast on Touch.
+}}
+
+{{OB Spell
+|name=Curse of Weakness
+|icon=Damage
+|spellid=0A97D2
+|tomeid=None
+|desc=:{{Effect Link|Damage Fatigue}} 15 pts on Touch
+|magicka=14
+|where=* Can be purchased from: [[Oblivion:Druja|Druja]], [[Oblivion:Volanaro|Volanaro]]
+}}
+
+{{OB Spell
+|name=Damage Agility 
+|icon=Damage
+|spellid=003C3FD
+|tomeid=None
+|magicka=15
+|desc=:{{Effect Link|Damage Attribute|Damage}} [[Oblivion:Agility|Agility]] 1 pt on Target
+|where=* {{FC|red|Not available in game}}
+}}
+
+{{OB Spell
+|name=Damage Endurance 
+|icon=Damage
+|spellid=003C3FE
+|desc=:{{Effect Link|Damage Attribute|Damage}} [[Oblivion:Endurance|Endurance]] 1pt on Target
+|tomeid=None
+|magicka=15
+|where=* {{FC|red|Not available in game}}
+}}
+
+{{OB Spell
+|name=Damage Luck 
+|icon=Damage
+|spellid=003C400
+|tomeid=None
+|magicka=15
+|desc=:{{Effect Link|Damage Attribute|Damage}} [[Oblivion:Luck|Luck]] 1pt on Target
+|where=* {{FC|red|Not available in game}}
+}}
+
+{{OB Spell
+|name=Drain Agility 
+|icon=Drain
+|spellid=003C3DF
+|tomeid=None
+|magicka=16
+|desc=:{{Effect Link|Drain Attribute|Drain}} [[Oblivion:Agility|Agility]] 5 pts for 20 secs on Target
+|where=* {{FC|red|Not available in game}}
+}}
+
+{{OB Spell
+|name=Drain Endurance 
+|icon=Drain
+|spellid=003C3E0
+|tomeid=None
+|magicka=16
+|desc=:{{Effect Link|Drain Attribute|Drain}} [[Oblivion:Endurance|Endurance]] 5 pts for 20 secs on Target
+|where=* {{FC|red|Not available in game}}
+}}
+
+{{OB Spell
+|name=Drain Luck 
+|icon=Drain
+|spellid=003C3E1
+|tomeid=None
+|magicka=16
+|desc=:{{Effect Link|Drain Attribute|Drain}} [[Oblivion:Luck|Luck]] 5 pts for 20 secs on Target
+|where=* {{FC|red|Not available in game}}
+}}
+
+{{OB Spell
+|name=Drain Skill: Light Armor
+|icon=Drain
+|spellid=0084B14
+|desc=:{{Effect Link|Drain Skill|Drain}} [[Oblivion:Light Armor|Light Armor]] 5 pts for 20 secs on Target
+|tomeid=None
+|magicka=15
+|where=* {{FC|red|Not available in game}}
+}}
+
+{{OB Spell
+|name=Entropic Touch
+|icon=Damage
+|spellid=000A97D3
+|tomeid=xx0022B1
+|magicka=9
+|desc=:{{Effect Link|Damage Health}} 5 pts on Touch
+|where=* Can be purchased from: [[Oblivion:Druja|Druja]]
+}}
+
+{{OB Spell
+|name=Flare
+|icon=Fire
+|spellid=0A97DF
+|tomeid=None
+|magicka=11
+|desc=:{{Effect Link|Fire Damage}} 6 pts on Target
+|where=* All players start with this spell<br>
+* Can be purchased from: [[Oblivion:Druja|Druja]], [[Oblivion:Volanaro|Volanaro]]
+}}
+
+{{OB Spell
+|name=Minor Enervation
+|icon=Drain
+|spellid=0003C3EF
+|desc=:{{Effect Link|Drain Fatigue}} 15 pts for 15 secs on Target
+|tomeid=xx0022C6
+|magicka=12
+|where=* Can be purchased from: [[Oblivion:Druja|Druja]]
+}}
+
+{{OB Spell
+|name=Minor Wound
+|icon=Drain
+|spellid=0004C912
+|tomeid=xx0022C9
+|magicka=10
+|desc=:{{Effect Link|Drain Health}} 5 pts for 10 secs on Target
+|where=* Can be purchased from: [[Oblivion:Druja|Druja]]
+}}
+
+{{OB Spell
+|name=Shocking Touch
+|icon=Shock
+|spellid=000A97FA
+|tomeid=xx002330
+|magicka=14
+|desc=:{{Effect Link|Shock Damage}} 10 pts on Touch
+|where=* Players with [[Oblivion:Destruction|Destruction]] as a [[Oblivion:Skills|major skill]] start with this spell<br>
+* Can be purchased from: [[Oblivion:Druja|Druja]], [[Oblivion:Edgar Vautrine|Edgar Vautrine]], [[Oblivion:Ungarion|Ungarion]]
+}}
+
+{{OB Spell
+|name=Snowball
+|icon=Frost
+|spellid=000A97EA
+|tomeid=xx0022F4
+|magicka=21
+|desc=:{{Effect Link|Frost Damage}} 10 pts on Target
+|where=* Can be purchased from: [[Oblivion:Druja|Druja]], [[Oblivion:Edgar Vautrine|Edgar Vautrine]], [[Oblivion:Volanaro|Volanaro]]
+}}
+
+{{OB Spell
+|name=Spark
+|icon=Shock
+|spellid=000A97F3
+|tomeid=xx00232C
+|magicka=22
+|desc=:{{Effect Link|Shock Damage}} 10 pts on Target
+|where=* Can be purchased from: [[Oblivion:Druja|Druja]], [[Oblivion:Delphine Jend|Delphine Jend]], [[Oblivion:Volanaro|Volanaro]]
+}}
+
+{{OB Spell
+|name=Weak Fireball
+|icon=Fire
+|spellid=01EF7F
+|tomeid=None
+|magicka={{FC|green|'''12'''}} ([[#Spell Notes|26*]])
+|desc=:{{Effect Link|Fire Damage}} 5 pts in 5 ft for 3 secs on Target
+|where=* Given to you by [[Oblivion:Adrienne Berene|Adrienne Berene]] during the [[Oblivion:Skingrad Recommendation|Skingrad Recommendation]] quest.
+}} 
+
+|- {{DES}}
+|colspan=6|<center>'''Apprentice'''</center>
+|-
+
+{{OB Spell
+|name=Corrode Armor
+|icon=Disintegrate
+|spellid=000A97A3
+|tomeid=xx0022BD
+|magicka=48
+|desc=:{{Effect Link|Disintegrate Armor}} 30 pts on Touch
+|where=* Can be purchased from: [[Oblivion:Sulinus Vassinus|Sulinus Vassinus]]
+}}
+
+{{OB Spell
+|name=Damage Speed 
+|icon=Damage
+|spellid=003C401
+|tomeid=None
+|magicka=61
+|desc=:{{Effect Link|Damage Attribute|Damage}} [[Oblivion:Speed|Speed]] 3 pts on Target
+|where=* {{FC|red|Not available in game}}
+}}
+
+{{OB Spell
+|name=Damage Willpower 
+|icon=Damage
+|spellid=003C403
+|tomeid=None
+|magicka=61
+|desc=:{{Effect Link|Damage Attribute|Damage}} [[Oblivion:Willpower|Willpower]] 3 pts on Target
+|where=* {{FC|red|Not available in game}}
+}}
+
+{{OB Spell
+|name=Drain Skill: Illusion 
+|icon=Drain
+|spellid=003C3E7
+|tomeid=None
+|magicka=37
+|desc=:{{Effect Link|Drain Skill|Drain}} [[Oblivion:Illusion|Illusion]] 10 pts for 20 secs on Target
+|where=* Can be purchased from: [[Oblivion:Sulinus Vassinus|Sulinus Vassinus]]
+}}
+
+{{OB Spell
+|name=Drain Skill: Marksman 
+|icon=Drain
+|spellid=003C3E6
+|tomeid=None
+|magicka=37
+|desc=:{{Effect Link|Drain Skill|Drain}} [[Oblivion:Marksman|Marksman]] 10 pts for 20 secs on Target
+|where=* Can be purchased from: [[Oblivion:Sulinus Vassinus|Sulinus Vassinus]]
+}}
+
+{{OB Spell
+|name=Drain Speed 
+|icon=Drain
+|spellid=003C3E2
+|tomeid=None
+|magicka=40
+|desc=:{{Effect Link|Drain Attribute|Drain}} [[Oblivion:Speed|Speed]] 10 pts for 20 secs on Target
+|where=* {{FC|red|Not available in game}}
+}}
+
+{{OB Spell
+|name=Drain Willpower 
+|icon=Drain
+|spellid=003C3E3
+|tomeid=None
+|magicka=40
+|desc=:{{Effect Link|Drain Attribute|Drain}} [[Oblivion:Willpower|Willpower]] 10 pts for 20 secs on Target
+|where=* {{FC|red|Not available in game}}
+}}
+
+{{OB Spell
+|name=Electric Touch
+|icon=Shock
+|spellid=000A97FB
+|tomeid=xx002331
+|magicka=48
+|desc=:{{Effect Link|Shock Damage}} 25 pts on Touch
+|where=* Can be purchased from:[[Oblivion:Calindil|Calindil]], [[Oblivion:Sulinus Vassinus|Sulinus Vassinus]]
+}}
+
+{{OB Spell
+|name=Entropic Bolt
+|icon=Damage
+|spellid=000A97B1
+|tomeid=xx0022AF
+|magicka=34
+|desc=:{{Effect Link|Damage Health}} 10 pts on Target
+|where=* Can be purchased from: [[Oblivion:Sulinus Vassinus|Sulinus Vassinus]]
+}}
+
+{{OB Spell
+|name=Flame Touch
+|icon=Fire
+|spellid=000A97E4
+|tomeid=xx0022DA
+|magicka=46
+|desc=:{{Effect Link|Fire Damage}} 25 pts on Touch
+|where=* Can be purchased from: [[Oblivion:Calindil|Calindil]], [[Oblivion:Sulinus Vassinus|Sulinus Vassinus]], [[Oblivion:Ungarion|Ungarion]]
+}}
+
+{{OB Spell
+|name=Flash Bolt
+|icon=Fire
+|spellid=000A97E0
+|tomeid=xx0022D6
+|magicka=52
+|desc=:{{Effect Link|Fire Damage}} 20 pts on Target
+|where=* Can be purchased from: [[Oblivion:Alberic Litte|Alberic Litte]], [[Oblivion:Alves Uvenim|Alves Uvenim]], [[Oblivion:Delphine Jend|Delphine Jend]], [[Oblivion:Druja|Druja]], [[Oblivion:Selena Orania|Selena Orania]], [[Oblivion:Sulinus Vassinus|Sulinus Vassinus]], [[Oblivion:Thaurron|Thaurron]], [[Oblivion:Trayvond the Redguard|Trayvond the Redguard]]
+}}
+
+{{OB Spell
+|name=Frost Touch
+|icon=Frost
+|spellid=000A97F0
+|tomeid=xx0022F9
+|magicka=45
+|desc=:{{Effect Link|Frost Damage}} 25 pts on Touch
+|where=* Can be purchased from: [[Oblivion:Sulinus Vassinus|Sulinus Vassinus]], [[Oblivion:Volanaro|Volanaro]]
+}}
+
+{{OB Spell
+|name=Hailstone
+|icon=Frost
+|spellid=000A97EB
+|tomeid=xx0022F5
+|magicka=51
+|desc=:{{Effect Link|Frost Damage}} 20 pts on Target
+|where=* Can be purchased from: [[Oblivion:Sulinus Vassinus|Sulinus Vassinus]]
+}}
+
+{{OB Spell
+|name=Magicka Drain
+|icon=Drain
+|spellid=0004C90F
+|tomeid=xx0022CD
+|magicka=41
+|desc=:{{Effect Link|Drain Magicka}} 30 pts for 30 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Sulinus Vassinus|Sulinus Vassinus]]
+}}
+
+{{OB Spell
+|name=Major Enervation
+|icon=Drain
+|spellid=0003C3F0
+|tomeid=xx0022C7
+|magicka=31
+|desc=:{{Effect Link|Drain Fatigue}} 30 pts for 15 secs on Target
+|where=* Can be purchased from: [[Oblivion:Sulinus Vassinus|Sulinus Vassinus]]
+}}
+
+{{OB Spell
+|name=Major Wound
+|icon=Drain
+|spellid=0004C913
+|tomeid=xx0022CA
+|magicka=43
+|desc=:{{Effect Link|Drain Health}} 15 pts for 10 secs on Target
+|where=* Can be purchased from: [[Oblivion:Edgar Vautrine|Edgar Vautrine]], [[Oblivion:Sulinus Vassinus|Sulinus Vassinus]]
+}}
+
+{{OB Spell
+|name=Sever Magicka
+|icon=Damage
+|spellid=0003C3DC
+|tomeid=xx0022B3
+|magicka=28
+|desc=:{{Effect Link|Damage Magicka}} 30 pts on Target
+|where=* Can be purchased from: [[Oblivion:Sulinus Vassinus|Sulinus Vassinus]]
+}}
+
+{{OB Spell
+|name=Shock
+|icon=Shock
+|spellid=000A97F4
+|tomeid=xx00232D
+|magicka=54
+|desc=:{{Effect Link|Shock Damage}} 20 pts on Target
+|where=* Can be purchased from: [[Oblivion:Sulinus Vassinus|Sulinus Vassinus]]
+}}
+
+{{OB Spell
+|name=Weakness to Fire
+|icon=Fire
+|spellid=0003C40D
+|tomeid=xx002847
+|magicka=27
+|desc=:{{Effect Link|Weakness to Fire}} 25% for 30 secs on Target
+|where=* Can be purchased from: [[Oblivion:Calindil|Calindil]], [[Oblivion:Sulinus Vassinus|Sulinus Vassinus]]
+}}
+
+{{OB Spell
+|name=Weakness to Frost
+|icon=Frost
+|spellid=0003C40E
+|tomeid=xx002848
+|magicka=27
+|desc=:{{Effect Link|Weakness to Frost}} 25% for 30 secs on Target
+|where=* Can be purchased from: [[Oblivion:Sulinus Vassinus|Sulinus Vassinus]]
+}}
+{{OB Spell
+|name=Weakness to Poison
+|icon=Poisonweakness
+|spellid=0003C411
+|tomeid=xx00284A
+|magicka=27
+|desc=:{{Effect Link|Weakness to Poison}} 25% for 30 secs on Target
+|where=* Can be purchased from: [[Oblivion:Calindil|Calindil]], [[Oblivion:Sulinus Vassinus|Sulinus Vassinus]], [[Oblivion:Ungarion|Ungarion]]
+}}
+
+{{OB Spell
+|name=Weakness to Shock
+|icon=Shock
+|spellid=0003C412
+|tomeid=xx00284B
+|magicka=27
+|desc=:{{Effect Link|Weakness to Shock}} 25% for 30 secs on Target
+|where=* Can be purchased from: [[Oblivion:Sulinus Vassinus|Sulinus Vassinus]]
+}} 
+
+|- {{DES}}
+|colspan=6|<center>'''Journeyman'''</center>
+|-
+
+{{OB Spell
+|name=Baronoff's Bloody Icicle
+|icon=Frost
+|spellid=06D67C
+|tomeid=None
+|magicka={{FC|red|'''132'''}} ([[#Spell Notes|86*]])
+|desc=:{{Effect Link|Frost Damage}} 30 pts on Target 
+|where=* Can be purchased from: [[Oblivion:M'raaj-Dar|M'raaj-Dar]]
+}}
+
+{{OB Spell
+|name=Blazing Spear
+|icon=Fire
+|spellid=000A97E1
+|tomeid=xx0022D7
+|magicka=106
+|desc=:{{Effect Link|Fire Damage}} 35 pts on Target
+|where=* Can be purchased from: [[Oblivion:Vigge the Cautious|Vigge the Cautious]]
+}}
+
+{{OB Spell
+|name=Corrode Weapon
+|icon=Disintegrate
+|spellid=000A97A5
+|tomeid=xx0022BF
+|magicka=117
+|desc=:{{Effect Link|Disintegrate Weapon}} 60 pts on Touch
+|where=* Can be purchased from: [[Oblivion:Vigge the Cautious|Vigge the Cautious]]
+}}
+
+{{OB Spell
+|name=Damage Intelligence 
+|icon=Damage
+|spellid=003C3FF
+|tomeid=None
+|magicka=117
+|desc=:{{Effect Link|Damage Attribute|Damage}} [[Oblivion:Intelligence|Intelligence]] 5 pts on Target
+|where=* {{FC|red|Not available in game}}
+}}
+
+{{OB Spell
+|name=Damage Strength 
+|icon=Damage
+|spellid=003C402
+|tomeid=None
+|magicka=117
+|desc=:{{Effect Link|Damage Attribute|Damage}} [[Oblivion:Strength|Strength]] 5 pts on Target
+|where=* {{FC|red|Not available in game}}
+}}
+
+{{OB Spell
+|name=Drain Intelligence 
+|icon=Drain
+|spellid=003C3E4
+|tomeid=None
+|magicka=76
+|desc=:{{Effect Link|Drain Attribute|Drain}} [[Oblivion:Intelligence|Intelligence]] 14 pts for 25 secs on Target
+|where=* {{FC|red|Not available in game}}
+}}
+
+{{OB Spell
+|name=Dire Wound
+|icon=Drain
+|spellid=0004C914
+|tomeid=xx0022CB
+|magicka=104
+|desc=:{{Effect Link|Drain Health}} 30 pts for 10 secs on Target
+|where=* Can be purchased from: [[Oblivion:Vigge the Cautious|Vigge the Cautious]]
+}}
+
+{{OB Spell
+|name=Drain Skill: Alteration
+|icon=Drain
+|spellid=03C3E9
+|tomeid=None
+|magicka=78
+|desc=:{{Effect Link|Drain Skill|Drain}} [[Oblivion:Alteration|Alteration]] 15 pts for 25 secs on Target
+|where=* Can be purchased from: [[Oblivion:Vigge the Cautious|Vigge the Cautious]]
+}}
+
+{{OB Spell
+|name=Drain Skill: Destruction
+|icon=Drain
+|spellid=03C3E8
+|tomeid=None
+|magicka=78
+|desc=:{{Effect Link|Drain Skill|Drain}} [[Oblivion:Destruction|Destruction]] 15 pts for 25 secs on Target
+|where=* Can be purchased from: [[Oblivion:Edgar Vautrine|Edgar Vautrine]], [[Oblivion:Vigge the Cautious|Vigge the Cautious]]
+}}
+
+{{OB Spell
+|name=Drain Skill: Hand to Hand
+|icon=Drain
+|spellid=03C3EA
+|tomeid=None
+|magicka=78
+|desc=:{{Effect Link|Drain Skill|Drain}} [[Oblivion:Hand to Hand|Hand to Hand]] 15 pts for 25 secs on Target
+|where=* Can be purchased from: [[Oblivion:Vigge the Cautious|Vigge the Cautious]]
+}}
+
+{{OB Spell
+|name=Drain Skill: Heavy Armor
+|icon=Drain
+|spellid=03C3EB
+|tomeid=None
+|magicka=78
+|desc=:{{Effect Link|Drain Skill|Drain}} [[Oblivion:Heavy Armor|Heavy Armor]] 15 pts for 25 secs on Target
+|where=* Can be purchased from: [[Oblivion:Vigge the Cautious|Vigge the Cautious]]
+}}
+
+{{OB Spell
+|name=Fire Ball
+|icon=Fire
+|spellid=000A97E7
+|tomeid=xx0022D3
+|magicka=131
+|desc=:{{Effect Link|Fire Damage}} 30 pts in 10 ft on Target
+|where=* Can be purchased from: [[Oblivion:Vigge the Cautious|Vigge the Cautious]]
+}}
+
+{{OB Spell
+|name=Frost Bolt
+|icon=Frost
+|spellid=000A97EC
+|tomeid=xx0022F6
+|magicka=105
+|desc=:{{Effect Link|Frost Damage}} 35 pts on Target
+|where=* Can be purchased from: [[Oblivion:Vigge the Cautious|Vigge the Cautious]]
+}}
+
+{{OB Spell
+|name=Greater Magicka Drain
+|icon=Drain
+|spellid=0003C3F2
+|tomeid=xx0022CE
+|magicka=80
+|desc=:{{Effect Link|Drain Magicka}} 50 pts for 30 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Vigge the Cautious|Vigge the Cautious]]
+}}
+
+{{OB Spell
+|name=Hail Storm
+|icon=Frost
+|spellid=0003C3D6
+|tomeid=xx0022F2
+|magicka=129
+|desc=:{{Effect Link|Frost Damage}} 30 pts in 10 ft on Target
+|where=* Can be purchased from: [[Oblivion:Vigge the Cautious|Vigge the Cautious]]
+}}
+
+{{OB Spell
+|name=Lightning Bolt
+|icon=Shock
+|spellid=000A97F8
+|tomeid=xx00232E
+|magicka=110
+|desc=:{{Effect Link|Shock Damage}} 35 pts on Target
+|where=* Can be purchased from: [[Oblivion:Vigge the Cautious|Vigge the Cautious]]
+}}
+
+{{OB Spell
+|name=Lightning Grasp
+|icon=Shock
+|spellid=000A97FC
+|tomeid=xx002332
+|magicka=101
+|desc=:{{Effect Link|Shock Damage}} 45 pts on Touch
+|where=* Can be purchased from: [[Oblivion:Vigge the Cautious|Vigge the Cautious]]
+}}
+
+{{OB Spell
+|name=Searing Grasp
+|icon=Fire
+|spellid=000A97E5
+|tomeid=xx0022DB
+|magicka=97
+|desc=:{{Effect Link|Fire Damage}} 45 pts on Touch
+|where=* Can be purchased from: [[Oblivion:Vigge the Cautious|Vigge the Cautious]]
+}}
+
+{{OB Spell
+|name=Shocking Burst
+|icon=Shock
+|spellid=0003C3D9
+|tomeid=xx00232A
+|magicka=112
+|desc=:{{Effect Link|Shock Damage}} 15 pts in 10 ft for 2  secs on Target
+|where=* Can be purchased from: [[Oblivion:Vigge the Cautious|Vigge the Cautious]]
+}}
+
+{{OB Spell
+|name=Weakness to Magicka
+|icon=Damage
+|spellid=0003C40F
+|tomeid=xx002849
+|magicka=69
+|desc=:{{Effect Link|Weakness to Magic}} 25% for 30 secs on Target
+|where=* Can be purchased from: [[Oblivion:Aurelinwae|Aurelinwae]]{{WT}}, [[Oblivion:Vigge the Cautious|Vigge the Cautious]]
+}}
+
+{{OB Spell
+|name=Winter's Grasp
+|icon=Frost
+|spellid=000A97F1
+|tomeid=xx0022F2
+|magicka=96
+|desc=:{{Effect Link|Frost Damage}} 45 pts on Touch
+|where=* Can be purchased from: [[Oblivion:Selena Orania|Selena Orania]], [[Oblivion:Vigge the Cautious|Vigge the Cautious]]
+}}
+
+{{OB Spell
+|name=Withering Touch
+|icon=Damage
+|spellid=000A97D4
+|tomeid=xx0022B2
+|magicka=93
+|desc=:{{Effect Link|Damage Health}} 30 pts on Touch
+|where=* Can be purchased from: [[Oblivion:Vigge the Cautious|Vigge the Cautious]]
+}}
+
+|- {{DES}}
+|colspan=6|<center>'''Expert'''</center>
+|-
+
+{{OB Spell
+|name=Arctic Blow
+|icon=Frost
+|spellid=000A97F2
+|tomeid=xx0022E8
+|magicka=201
+|desc=:{{Effect Link|Frost Damage}} 80 pts on Touch
+|where=* Can be purchased from: [[Oblivion:Adrienne Berene|Adrienne Berene]]
+}}
+
+{{OB Spell
+|name=Dire Enervation
+|icon= Drain
+|spellid=0003C3F1
+|tomeid=xx0022C8
+|magicka=152
+|desc=:{{Effect Link|Drain Fatigue}} 60 pts for 30 secs on Target
+|where=* Can be purchased from: [[Oblivion:Vigge the Cautious|Vigge the Cautious]]
+}}
+
+{{OB Spell
+|name=Disintegrate Armor
+|icon=Disintegrate
+|spellid=000A97A4
+|tomeid=xx0022BE
+|magicka=337
+|desc=:{{Effect Link|Disintegrate Armor}} 100 pts on Target
+|where=* Can be purchased from: [[Oblivion:Adrienne Berene|Adrienne Berene]]
+}}
+
+{{OB Spell
+|name=Drain Skill: Blade
+|icon=Drain
+|spellid=03C3EC
+|tomeid=None
+|magicka=203
+|desc=:{{Effect Link|Drain Skill|Drain}} [[Oblivion:Blade|Blade]] 20 pts for 45 secs on Target
+|where=* Can be purchased from: [[Oblivion:Adrienne Berene|Adrienne Berene]]
+}}
+
+{{OB Spell
+|name=Drain Skill: Conjuration
+|icon=Drain
+|spellid=03C3ED
+|tomeid=None
+|magicka=203
+|desc=:{{Effect Link|Drain Skill|Drain}} [[Oblivion:Conjuration|Conjuration]] 20 pts for 45 secs on Target
+|where=* Can be purchased from: [[Oblivion:Adrienne Berene|Adrienne Berene]]
+}}
+
+{{OB Spell
+|name=Drain Skill: Restoration
+|icon=Drain
+|spellid=03C3EE
+|tomeid=None
+|magicka=203
+|desc=:{{Effect Link|Drain Skill|Drain}} [[Oblivion:Restoration|Restoration]] 20 pts for 45 secs on Target
+|where=* Can be purchased from: [[Oblivion:Adrienne Berene|Adrienne Berene]]
+}}
+
+{{OB Spell
+|name=Fire Storm
+|icon=Fire
+|spellid=000A97E8
+|tomeid=xx0022D4
+|magicka=378
+|desc=:{{Effect Link|Fire Damage}} 50 pts in 15 ft on Target
+|where=* Can be purchased from: [[Oblivion:Adrienne Berene|Adrienne Berene]], [[Oblivion:Raminus Polus|Raminus Polus]]
+}}
+
+{{OB Spell
+|name=Heat Blast
+|icon=Fire
+|spellid=000A97E2
+|tomeid=xx0022D8
+|magicka=258
+|desc=:{{Effect Link|Fire Damage}} 70 pts on Target
+|where=* Can be purchased from: [[Oblivion:Adrienne Berene|Adrienne Berene]], [[Oblivion:Raminus Polus|Raminus Polus]], [[Oblivion:Volanaro|Volanaro]]
+}}
+
+{{OB Spell
+|name=Ice Bolt
+|icon=Frost
+|spellid=000A97ED
+|tomeid=xx0022F7
+|magicka=255
+|desc=:{{Effect Link|Frost Damage}} 70 pts on Target
+|where=* Can be purchased from: [[Oblivion:Adrienne Berene|Adrienne Berene]], [[Oblivion:Raminus Polus|Raminus Polus]]
+}}
+
+{{OB Spell
+|name=Ice Storm
+|icon=Frost
+|spellid=0003C3D7
+|tomeid=xx0022F3
+|magicka=373
+|desc=:{{Effect Link|Frost Damage}} 50 pts in 15 ft on Target
+|where=* Can be purchased from: [[Oblivion:Adrienne Berene|Adrienne Berene]], [[Oblivion:Raminus Polus|Raminus Polus]]
+}}
+
+{{OB Spell
+|name=Lightning Ball
+|icon=Shock
+|spellid=0003C3DA
+|tomeid=xx00232B
+|magicka=243
+|desc=:{{Effect Link|Shock Damage}} 20 pts in 15 ft for 2 secs on Target
+|where=* Can be purchased from: [[Oblivion:Adrienne Berene|Adrienne Berene]], [[Oblivion:Raminus Polus|Raminus Polus]]
+}}
+
+{{OB Spell
+|name=Lightning Blast
+|icon=Shock
+|spellid=000A97FD
+|tomeid=xx00232F
+|magicka=269
+|desc=:{{Effect Link|Shock Damage}} 70 pts on Target
+|where=* Can be purchased from: [[Oblivion:Adrienne Berene|Adrienne Berene]], [[Oblivion:Raminus Polus|Raminus Polus]]
+}}
+
+{{OB Spell
+|name=Lightning Surge
+|icon=Shock
+|spellid=000A97F6
+|tomeid=xx002333
+|magicka=212
+|desc=:{{Effect Link|Shock Damage}} 80 pts on Touch
+|where=* Can be purchased from: [[Oblivion:Adrienne Berene|Adrienne Berene]]
+}}
+
+{{OB Spell
+|name=Scorching Blow
+|icon=Fire
+|spellid=000A97E6
+|tomeid=xx0022DC
+|magicka=204
+|desc=:{{Effect Link|Fire Damage}} 80 pts on Touch
+|where=* Can be purchased from: [[Oblivion:Adrienne Berene|Adrienne Berene]]
+}}
+
+{{OB Spell
+|name=Superior Magicka Drain
+|icon=Drain
+|spellid=0003C3F3
+|tomeid=xx0022CF
+|magicka=196
+|desc=:{{Effect Link|Drain Magicka}} 100 pts for 30 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Adrienne Berene|Adrienne Berene]]
+}}
+
+{{OB Spell
+|name=Superior Wound
+|icon=Drain
+|spellid=0004C915
+|tomeid=xx0022CC
+|magicka=201
+|desc=:{{Effect Link|Drain Health}} 50 pts for 10 secs on Target 
+|where=* Can be purchased from: [[Oblivion:Adrienne Berene|Adrienne Berene]] [[Oblivion:Selena Orania|Selena Orania]]
+}}
+
+{{OB Spell
+|name=Withering Bolt
+|icon=Damage
+|spellid=000A97B2
+|tomeid=xx0022B0
+|magicka=202
+|desc=:{{Effect Link|Damage Health}} 40 pts on Target
+|where=* Can be purchased from: [[Oblivion:Adrienne Berene|Adrienne Berene]]
+}} 
+
+|- {{DES}}
+|colspan=6|<center>'''Master'''</center>
+|-
+
+{{OB Spell
+|name=Blizzard
+|icon=Frost
+|spellid=03C3D8
+|tomeid=None
+|magicka=836
+|desc=:{{Effect Link|Frost Damage}} 75 pts in 20 ft on Target
+|where=* Can be purchased from: [[Oblivion:Adrienne Berene|Adrienne Berene]]
+}}
+
+{{OB Spell
+|name=Disintegrate Weapon
+|icon=Disintegrate
+|spellid=0A97A6
+|tomeid=None
+|magicka=569
+|desc=:{{Effect Link|Disintegrate Weapon}} 150 pts on Target
+|where=* Can be purchased from: [[Oblivion:Gaspar Stegine|Gaspar Stegine]]
+}}
+
+{{OB Spell
+|name=Electrocution
+|icon=Shock
+|spellid=0A97F9
+|tomeid=None
+|magicka=479
+|desc=:{{Effect Link|Shock Damage}} 110 pts on Target
+|where=* Can be purchased from: [[Oblivion:Borissean|Borissean]], [[Oblivion:Vigge the Cautious|Vigge the Cautious]]
+}}
+
+{{OB Spell
+|name=Enemies Explode
+|icon=Fire
+|spellid=014720
+|tomeid=None
+|magicka=842
+|desc=:{{Effect Link|Fire Damage}} 5 pts in 10 ft for 5 secs on Target<br>
+:{{Effect Link|Fire Damage}} 70 pts in 20 ft for 1 sec on Target
+|where=* Can be purchased from: [[Oblivion:Delphine Jend|Delphine Jend]]
+}}
+
+{{OB Spell
+|name=Flame Tempest
+|icon=Fire
+|spellid=0A97E9
+|tomeid=None
+|magicka=635
+|desc=:{{Effect Link|Fire Damage}} 75 pts in 15 ft on Target
+|where=* Can be purchased from: [[Oblivion:Adrienne Berene|Adrienne Berene]], [[Oblivion:Borissean|Borissean]]
+}}
+
+{{OB Spell
+|name=Ice Blast
+|icon=Frost
+|spellid=0A97EE
+|tomeid=None
+|magicka=455
+|desc=:{{Effect Link|Frost Damage}} 110 pts on Target
+|where=* Can be purchased from: [[Oblivion:Vigge the Cautious|Vigge the Cautious]]
+}}
+
+{{OB Spell
+|name=Immolating Blast
+|icon=Fire
+|spellid=0A97E3
+|tomeid=None
+|magicka=461
+|desc=:{{Effect Link|Fire Damage}} 110 pts on Target
+|where=* Can be purchased from: [[Oblivion:Borissean|Borissean]], [[Oblivion:Vigge the Cautious|Vigge the Cautious]]
+}}
+
+{{OB Spell
+|name=Legendary Magicka Drain
+|icon=Drain
+|spellid=03C3F4
+|tomeid=None
+|magicka=495
+|desc=:{{Effect Link|Drain Magicka}} 120 pts for 60 secs on Touch
+|where=* Can be purchased from: [[Oblivion:Borissean|Borissean]]
+}}
+
+{{OB Spell
+|name=Lightning Storm
+|icon=Shock
+|spellid=03C3DB
+|tomeid=None
+|magicka=409
+|desc=:{{Effect Link|Shock Damage}} 30 pts in 15 ft for 2 secs on Target
+|where=* Can be purchased from: [[Oblivion:Adrienne Berene|Adrienne Berene]]
+}} 
+
+|- {{DES}}
+|colspan=6|<center>'''Leveled Spells'''</center>
+|-
+
+|rowspan=6|[[File:OB-icon-Shock.png|24px]]
+|rowspan=6 width=20%|'''{{Anchor|Finger of the Mountain}}'''
+|width=10%|<table class="vtop" style="font-size:x-small; line-height:130%; background-color:transparent"><tr><td style="text-align:right">Spell&nbsp;:</td><td>000C48A2</td></tr></table>
+|width=35%|
+::Level 1 (Novice)
+:{{Effect Link|Shock Damage}} 6 pts in 5 ft on Target
+|width=5%|11
+|rowspan=6 width=30%|
+* Reward for quest [[Oblivion:Fingers of the Mountain|Fingers of the Mountain]].
+
+* Due to an oversight, the spell costs significantly more magicka to cast than a comparable custom spell made at a [[Oblivion:Spell Making|Spellmaking Altar]]. The highest level of ''Finger of the Mountain'' is almost impossible to cast for most characters without significant amounts of [[Oblivion:Fortify Magicka|Fortify Magicka]].
+:*{{UOP}}
+
+* The two highest levels of ''Finger of the Mountain'' are the two most expensive spells to cast in the entire game. Even with level 100 [[Oblivion:Destruction|Destruction]] skill the strongest version of the spell costs 710 magicka.
+|-
+|width=10%|<table class="vtop" style="font-size:x-small; line-height:130%; background-color:transparent"><tr><td style="text-align:right">Spell&nbsp;:</td><td>000C48A3</td></tr></table>
+|width=35%|
+::Level 5 (Journeyman)
+:{{Effect Link|Shock Damage}} 20 pts in 5 ft on Target
+|width=5%|{{FC|red|'''75'''}} ([[#Leveled_Spell_Notes|54*]])
+|-
+|width=10%|<table class="vtop" style="font-size:x-small; line-height:130%; background-color:transparent"><tr><td style="text-align:right">Spell&nbsp;:</td><td>000C48A4</td></tr></table>
+|width=35%|
+::Level 10 (Expert)
+:{{Effect Link|Shock Damage}} 40 pts in 5 ft on Target
+|width=5%|{{FC|red|'''211'''}} ([[#Leveled_Spell_Notes|131*]])
+|-
+|width=10%|<table class="vtop" style="font-size:x-small; line-height:130%; background-color:transparent"><tr><td style="text-align:right">Spell&nbsp;:</td><td>000C48A5</td></tr></table>
+|width=35%|
+::Level 15 (Master)
+:{{Effect Link|Shock Damage}} 90 pts in 5 ft on Target
+|width=5%|{{FC|red|'''715'''}} ([[#Leveled_Spell_Notes|371*]])
+|-
+|width=10%|<table class="vtop" style="font-size:x-small; line-height:130%; background-color:transparent"><tr><td style="text-align:right">Spell&nbsp;:</td><td>000C48A6</td></tr></table>
+|width=35%|
+::Level 20 (Master)
+:{{Effect Link|Shock Damage}} 140 pts in 5 ft on Target
+|width=5%|{{FC|red|'''1386'''}} ([[#Leveled_Spell_Notes|653*]])
+|-
+|width=10%|<table class="vtop" style="font-size:x-small; line-height:130%; background-color:transparent"><tr><td style="text-align:right">Spell&nbsp;:</td><td>000C48A7</td></tr></table>
+|width=35%|
+::Level 26 (Master)
+:{{Effect Link|Shock Damage}} 200 pts in 10 ft on Target
+|width=5%|{{FC|red|'''3551'''}} ([[#Leveled_Spell_Notes|1547*]])
+
+|-
+|rowspan=7|[[File:OB-icon-Shock.png|24px]]<br>[[File:OB-icon-Fire.png|24px]]
+|rowspan=7 width=20%|'''{{Anchor|Wizard's Fury}}'''
+|width=10%|<table class="vtop" style="font-size:x-small; line-height:130%; background-color:transparent"><tr><td style="text-align:right">Spell&nbsp;:</td><td>000C4818</td></tr></table>
+|width=35%|
+::Level 1 (Novice)
+:{{Effect Link|Fire Damage}} 1 pt for 5 secs on Target<br>
+:{{Effect Link|Frost Damage}} 7 pts on Target<br>
+:{{Effect Link|Shock Damage}} 7 pts on Target
+|width=5%|{{FC|green|'''14'''}} ([[#Leveled_Spell_Notes|33*]])
+|rowspan=7 width=30%|
+* Reward for quest [[Oblivion:A Plot Revealed|A Plot Revealed]].
+
+* ''Wizard's Fury'' is significantly cheaper (>50% cheaper) than an equivalent custom spell made at the [[Oblivion:Spell Making|Spellmaking Altar]]. The costs in parentheses provide the magicka costs of the comparable custom spell.
+
+* The two lowest-leveled versions of the spell appear with a Shock icon in the player's inventory and appear as a lightning bolt; all the others show a Fire icon and act as a fire ball. This is due to a spell's appearance being linked to the highest costing effect.
+|-
+|width=10%|<table class="vtop" style="font-size:x-small; line-height:130%; background-color:transparent"><tr><td style="text-align:right">Spell&nbsp;:</td><td>000C4819</td></tr></table>
+|width=35%|
+::Level 5 (Apprentice)
+:{{Effect Link|Fire Damage}} 2 pt for 5 secs on Target<br>
+:{{Effect Link|Frost Damage}} 10 pts on Target<br>
+:{{Effect Link|Shock Damage}} 10 pts on Target
+|width=5%|{{FC|green|'''26'''}} ([[#Leveled_Spell_Notes|57*]])
+|-
+|width=10%|<table class="vtop" style="font-size:x-small; line-height:130%; background-color:transparent"><tr><td style="text-align:right">Spell&nbsp;:</td><td>000C481A</td></tr></table>
+|width=35%|
+::Level 10 (Apprentice)
+:{{Effect Link|Fire Damage}} 3 pt for 7 secs on Target<br>
+:{{Effect Link|Frost Damage}} 13 pts on Target<br>
+:{{Effect Link|Shock Damage}} 13 pts on Target
+|width=5%|{{FC|green|'''43'''}} ([[#Leveled_Spell_Notes|92*]])
+|-
+|width=10%|<table class="vtop" style="font-size:x-small; line-height:130%; background-color:transparent"><tr><td style="text-align:right">Spell&nbsp;:</td><td>000C481B</td></tr></table>
+|width=35%|
+::Level 15 (Journeyman)
+:{{Effect Link|Fire Damage}} 5 pt for 10 secs on Target<br>
+:{{Effect Link|Frost Damage}} 16 pts on Target<br>
+:{{Effect Link|Shock Damage}} 16 pts on Target
+|width=5%|{{FC|green|'''78'''}} ([[#Leveled_Spell_Notes|167*]])
+|-
+|width=10%|<table class="vtop" style="font-size:x-small; line-height:130%; background-color:transparent"><tr><td style="text-align:right">Spell&nbsp;:</td><td>000C481C</td></tr></table>
+|width=35%|
+::Level 20 (Journeyman)
+:{{Effect Link|Fire Damage}} 6 pt for 10 secs on Target<br>
+:{{Effect Link|Frost Damage}} 20 pts on Target<br>
+:{{Effect Link|Shock Damage}} 20 pts on Target
+|width=5%|{{FC|green|'''102'''}} ([[#Leveled_Spell_Notes|216*]])
+|-
+|width=10%|<table class="vtop" style="font-size:x-small; line-height:130%; background-color:transparent"><tr><td style="text-align:right">Spell&nbsp;:</td><td>000C481D</td></tr></table>
+|width=35%|
+::Level 25 (Expert)
+:{{Effect Link|Fire Damage}} 8 pt for 10 secs on Target<br>
+:{{Effect Link|Frost Damage}} 20 pts on Target<br>
+:{{Effect Link|Shock Damage}} 20 pts on Target
+|width=5%|{{FC|green|'''158'''}} ([[#Leveled_Spell_Notes|333*]])
+|-
+|width=10%|<table class="vtop" style="font-size:x-small; line-height:130%; background-color:transparent"><tr><td style="text-align:right">Spell&nbsp;:</td><td>000C481E</td></tr></table>
+|width=35%|
+::Level 30 (Expert)
+:{{Effect Link|Fire Damage}} 10 pt for 10 secs on Target<br>
+:{{Effect Link|Frost Damage}} 30 pts on Target<br>
+:{{Effect Link|Shock Damage}} 30 pts on Target
+|width=5%|{{FC|green|'''236'''}} ([[#Leveled_Spell_Notes|498*]])
+|}<references /><noinclude>
+{{Oblivion:Spell List Notes}}</noinclude>

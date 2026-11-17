@@ -1,0 +1,113 @@
+{{Trail|Quests}} [[Category:Oblivion-Quests| ]]
+:''"Daedric" redirects here. For the armor, see [[Oblivion:Armor#Daedric Armor|Armor &sect;&thinsp;Daedric Armor]]; for the weapons, see [[Oblivion:Weapons|Weapons]], under each weapon class.''
+The '''Daedric Quests''' are fifteen quests, each of which is completed at the request of one of the [[Lore:Daedric Princes|Daedric Princes]] and offers a Daedric [[Oblivion:Artifacts|artifact]] as a result. All of the Daedric Princes have a [[Oblivion:Daedric Shrines|shrine]] hidden somewhere in the wilderness of Cyrodiil, where people gather to worship them (although Mehrunes Dagon's shrine in the [[OB:Lake Arrius Caverns|Lake Arrius Caverns]] does not provide a quest). Daedra worship is not illegal in Cyrodiil, although it is contrary to the state-sanctioned religion of worshipping the [[Lore:Aedra|Aedra]] (the [[Oblivion:Nine Divines|Nine Divines]]).
+
+Once your character is at a sufficiently high level, you can visit a Daedric shrine and provide an appropriate offering (levels and offerings are provided in the following table). At that point, the shrine's Prince will give you a quest. The nature of the quest generally reflects the nature of the Prince who provided it. This means that some of the quests may involve requests to do illegal or immoral acts. As with all quests in the game, it is your choice whether or not you wish to complete it. Being caught doing something illegal for a Daedra may lead to a [[Oblivion:Bounty|bounty]] or [[Oblivion:Infamy|Infamy]], yet the quests themselves will increase your [[Oblivion:Fame|Fame]] (one point for each quest, except for [[Oblivion:Namira|Namira]]'s due to an oversight).
+
+As part of the [[Oblivion:Main Quest|Main Quest]], you will be required to complete one Daedric quest in order to provide [[Oblivion:Martin|Martin]] with a Daedric [[Oblivion:Artifacts|artifact]]. Martin will point you towards [[Oblivion:Azura|Azura]]'s quest, but you can choose to complete any of them; in fact, you certainly should not give the artifact from this quest to Martin, [[Oblivion:Azura's Star|Azura's Star]], since it is one of the most useful items which can be obtained in the game.
+
+[[File:OB-mapicon-DaedricShrine.png|frameless|right]]
+Finding the shrines can be difficult. Many of them can only be found if you stumble across them in the wilderness; they all have the map marker seen to the right, so keep an eye out. However, a few people know the location of a Daedric shrine, and talking to them will put a marker on your map. For a few of these characters, ''Daedra cults'' simply shows up as a possible conversation topic when you talk to them. In most cases, however, the topic ''Daedric shrines'' only appears if you have previously read ''[[Oblivion:Modern_Heretics|Modern Heretics: A Study of Daedra Worship in the Empire]]''. You will find a copy of this book next to Martin at [[Oblivion:Cloud Ruler Temple|Cloud Ruler Temple]] during [[Oblivion:Blood of the Daedra|Blood of the Daedra]]; it can also be found in the [[Oblivion:Arcane University#Mystic Archives|Mystic Archives]] and at [[Oblivion:First Edition|First Edition]].
+
+For locations of all the shrines see the '''{{Map Link|search=Daedric Shrine|Oblivion Map}}''' or the '''[[:File:OB-map-Daedric Shrines.jpg|Daedric Shrines Map]]'''.
+
+{|  class="wikitable sortable sticky-header" style = "text-align:center"
+|- class=sorttop
+! Shrine Quest
+!colspan=2| Reward
+! Level Req
+! class=unsortable; width=200px|Offering or Other Requirement
+! class=unsortable; width=130px|Who/What Marks it on your Map{{Ref|name=MustRead|With few exceptions (noted), you must either have read [[Oblivion:Modern_Heretics|''Modern Heretics'']] or have spoken with [[Oblivion:Ulene_Hlervu|Ulene Hlervu]] about ''Cheydinhal'' in addition to any other requirements before anyone will talk to you about the shrines.}}
+! class=unsortable|Location
+|- class=sortbottom
+|-
+| '''[[Oblivion:Azura|Azura]]''' ||{{hide|Az}}{{icon|m|Azura'sStar}}|| [[Oblivion:Azura's_Star|Azura's Star]] || {{hide|0}}2 || [[Oblivion:Glow_Dust|Glow Dust]] || [[Oblivion:Modern_Heretics|''Modern Heretics'']]<br>[[Oblivion:Borba_gra-Uzgash|Borba gra-Uzgash]]{{Ref|name=MartinRefugees|You must have read [[Oblivion:Martin|Martin]]'s copy of [[Oblivion:The_Refugees|The Refugees]] (no other copy will do).}}<br>{{Nowrap|[[Oblivion:Trayvond the Redguard|Trayvond the Redguard]]}}<br>[[Oblivion:Ulene Hlervu|Ulene Hlervu]] || North of [[Oblivion:Cheydinhal Castle|Cheydinhal Castle]], past [[Oblivion:Lake_Arrius|Lake Arrius]] {{Map Link|Azura's Shrine}}
+|-
+| '''[[Oblivion:Boethia|Boethia]]'''
+|{{hide|Go}}{{icon|w|Goldbrand}}|| [[Oblivion:Goldbrand|Goldbrand]]
+| 20 || [[Oblivion:Daedra_Heart|Daedra Heart]]
+| [[Oblivion:Borba_gra-Uzgash|Borba gra-Uzgash]]{{Ref|name=MartinRefugees}}
+| In the [[Oblivion:Valus_Mountains|Valus Mountains]], due east of the [[Oblivion:Reed_River|Reed River]] and due west of the M in the word "Mountains" on your map {{Map Link|Boethia's Shrine}}
+|-
+| '''[[Oblivion:Clavicus Vile|Clavicus Vile]]'''
+|{{hide|Mas}}{{icon|a|MasqueOfClavicusVile}}<br>{{icon|w|Umbra}}|| [[Oblivion:Masque_of_Clavicus_Vile|Masque of Clavicus Vile]]<br>or<br>[[Oblivion:Umbra_(sword)|Umbra]]
+| 20{{Ref|This quest can be completed at level 1 by getting the quest from [[Oblivion:Ma'Raska|Ma'Raska]] and then talking to Clavicus Vile with [[Oblivion:Umbra_(sword)|Umbra]] already in your inventory. This requires killing [[Oblivion:Umbra (person)|Umbra]] before you are directed to.}} || 500 Gold
+|
+| Southwest of the [[Oblivion:Imperial_City|Imperial City]] {{Map Link|Clavicus Vile's Shrine}}
+|-
+| '''[[Oblivion:Hermaeus Mora|Hermaeus Mora]]'''
+|{{hide|Og}}{{icon|b|OghmaInfinium}}|| [[Oblivion:Oghma Infinium|Oghma Infinium]]
+| 20 || All other Daedric quests completed, must have at least '''started''' [[Oblivion:Blood of the Daedra|Blood of the Daedra]]
+|
+| Due west of [[Oblivion:Cloud_Ruler_Temple|Cloud Ruler Temple]], past the T of the words "The Jerall Mountains" {{Map Link|Hermaeus Mora's Shrine}}
+|-
+| '''[[Oblivion:Hircine|Hircine]]'''
+|{{hide|SaH}}{{icon|a|Saviour'sHide}}|| [[Oblivion:Saviour's_Hide|Saviour's Hide]]
+| 17 || [[Oblivion:Bear_Pelt|Bear Pelt]] or [[Oblivion:Wolf_Pelt|Wolf Pelt]]
+| [[Oblivion:Ontus Vanin|Ontus Vanin]]
+| Southwest of the bridge that crosses the [[Oblivion:Upper_Niben|Upper Niben]] and due west of the N in the words "The Nibenay Valley" on the map {{Map Link|Hircine's Shrine}}
+|-
+| '''[[Oblivion:Malacath|Malacath]]'''
+|{{hide|Vo}}{{icon|w|Volendrung}}|| [[Oblivion:Volendrung|Volendrung]]
+| 10 || [[Oblivion:Troll_Fat|Troll Fat]]
+| [[Oblivion:Pinarus_Inventius|Pinarus Inventius]]<br>[[Oblivion:Thaurron|Thaurron]]
+| North-northwest of [[Oblivion:Anvil|Anvil]] {{Map Link|Malacath's Shrine}}
+|-
+| '''[[Oblivion:Mephala|Mephala]]'''
+|{{hide|Eb}}{{icon|w|EbonyBlade}}|| [[Oblivion:Ebony_Blade|Ebony Blade]]
+| 15 || [[Oblivion:Nightshade|Nightshade]]
+| [[Oblivion:Ontus Vanin|Ontus Vanin]]<br>[[Oblivion:Luther Broad|Luther Broad]]{{Ref|name=LutherDisp|You must raise Luther's Disposition to 60 or higher before he will speak to you about the shrines, but you do not need to have read ''[[Oblivion:Modern_Heretics|Modern Heretics]]'' or spoken with [[Oblivion:Ulene_Hlervu|Ulene Hlervu]].}}
+| Northeast of the [[Oblivion:Imperial_City|Imperial City]] {{Map Link|Mephala's Shrine}}
+|-
+| '''[[Oblivion:Meridia|Meridia]]'''
+|{{hide|RiK}}{{icon|j|RingOfKhajiiti}}|| [[Oblivion:Ring_of_Khajiiti|Ring of Khajiiti]]
+| 10 || [[Oblivion:Bonemeal|Bonemeal]], [[Oblivion:Ectoplasm|Ectoplasm]], or [[Oblivion:Mort Flesh|Mort Flesh]]
+|
+| West of [[Oblivion:Skingrad|Skingrad]] {{Map Link|Meridia's Shrine}}
+|-
+| '''[[Oblivion:Molag Bal|Molag Bal]]'''
+|{{hide|Mac}}{{icon|w|MaceOfMolagBal}}|| [[Oblivion:Mace_of_Molag_Bal|Mace of Molag Bal]]
+| 17 || [[Oblivion:Lion_Pelt|Lion Pelt]]
+|
+| West of the [[Oblivion:Imperial_City|Imperial City]] {{Map Link|Molag Bal's Shrine}}
+|-
+| '''[[Oblivion:Namira|Namira]]'''
+|{{hide|RiN}}{{icon|j|RingOfNamira}}|| [[Oblivion:Ring_of_Namira|Ring of Namira]]
+| {{hide|0}}5 || [[Oblivion:Personality|Personality]] less than or equal to 20
+|
+| East-southeast of [[Oblivion:Bruma|Bruma]]'s East Gate, just to the left of the B in the words "County Bruma" {{Map Link|Namira's Shrine}}
+|-
+| '''[[Oblivion:Nocturnal|Nocturnal]]'''
+|{{hide|Ske}}{{icon|m|SkeletonKey}}|| [[Oblivion:Skeleton_Key|Skeleton Key]]
+| 10 || None
+| [[Oblivion:Alves Uvenim|Alves Uvenim]]
+| Due west of the words "[[Oblivion:County Leyawiin|County Leyawiin]]" on the map {{Map Link|Nocturnal Shrine}}
+|-
+| '''[[Oblivion:Peryite|Peryite]]'''
+|{{hide|Sp}}{{icon|a|SpellBreaker}}|| [[Oblivion:Spell_Breaker|Spell Breaker]]
+| 10 || None
+|
+| On the south side of the [[Oblivion:Silverfish_River|Silverfish River]] where the river turns west towards the [[Oblivion:Niben_Bay|Niben Bay]] {{Map Link|Peryite's Shrine}}
+|-
+| '''[[Oblivion:Sanguine|Sanguine]]'''
+|{{hide|SaR}}{{icon|w|SanguineRose}}|| [[Oblivion:Sanguine_Rose|Sanguine Rose]]
+| {{hide|0}}8 || [[Oblivion:Cyrodilic_Brandy|Cyrodilic Brandy]]
+| [[Oblivion:Fadus Calidius|Fadus Calidius]]<br>[[Oblivion:Falanu Hlaalu|Falanu Hlaalu]]
+| North-northwest of [[Oblivion:Skingrad|Skingrad]] {{Map Link|Sanguine's Shrine}}
+|-
+| '''[[Oblivion:Sheogorath|Sheogorath]]'''
+|{{hide|Wa}}{{icon|w|Wabbajack}}|| [[Oblivion:Wabbajack|Wabbajack]]
+| {{hide|0}}2 || [[Oblivion:Soul_Gem|Lesser Soul Gem]], [[Oblivion:Lettuce|Lettuce]], and [[Oblivion:Yarn|Yarn]]
+|
+| North-northwest of [[Oblivion:Leyawiin|Leyawiin]] {{Map Link|Sheogorath's Shrine}}
+|-
+| '''[[Oblivion:Vaermina|Vaermina]]'''
+|{{hide|Sku}}{{icon|w|SkullOfCorruption}}|| [[Oblivion:Skull_of_Corruption|Skull of Corruption]]
+| {{hide|0}}5 || [[Oblivion:Black_Soul_Gem|Black Soul Gem]]
+| [[Oblivion:Ontus Vanin|Ontus Vanin]]<br>[[Oblivion:Luther Broad|Luther Broad]]{{Ref|name=LutherDisp}}
+| Southwest of [[Oblivion:Cheydinhal|Cheydinhal]] {{Map Link|Vaermina's Shrine}}
+|}
+<references/>
+
+==Notes==
+*[[OB:Mehrunes Dagon|Mehrunes Dagon]] and [[Shivering:Jyggalag|Jyggalag]] are the only Daedric Princes to not give out a quest. This is because they are the antagonists of the [[OB:Main Quest|base game main quest]] and [[Shivering:Main Quest|Shivering Isles DLC main quest]], respectively.

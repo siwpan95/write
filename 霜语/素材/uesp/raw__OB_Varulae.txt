@@ -1,0 +1,94 @@
+{{cleanup-obnpcrp
+|house= [[User:GuildKnight|GuildKnight]] (N/A - lives at [[Oblivion:The Count's Arms|The Count's Arms]])
+|houseChecked=[[User:Krusty|Krusty]] (in-game)
+|services=[[User:Corevette789|Corevette789]] N/A (In-Game)
+|servicesChecked=[[User:Krusty|Krusty]] (CS)
+|schedule= (already written)
+|scheduleChecked=[[User:Krusty|Krusty]] (in-game)
+|quests=(already written)
+|questsChecked=[[User:Krusty|Krusty]] (in-game)
+|dialogue=[[User:Krusty|Krusty]] (in-game)
+|dialogueChecked=[[User:SerCenKing|SerCenKing]] (CS)
+|faction=[[User:Krusty|Krusty]] (already written)
+|factionChecked=[[User:Jeancey|Jeancey]] (CS)
+|inventory=[[User:Mxk101|mxk101]] (CS)
+|inventoryChecked=[[User:Krusty|Krusty]] (in-game)
+|rumors=[[User:Krusty|Krusty]] (CS) (N/A - no rumors)
+|rumorsChecked=[[User:SerCenKing|SerCenKing]] (CS)
+|spells=[[User:KickbackYak|KickbackYak]] (CS)
+|spellsChecked=[[User:Krusty|Krusty]] (CS)
+}}{{Cleanup-obrp-npc
+|image=[[User:TheDravenator|TheDravenator]]
+|imageChecked=
+|dialogue=
+|dialogueChecked=
+|quests=
+|questsChecked=
+|services=
+|servicesChecked=
+|inventory=
+|inventoryChecked=
+|house=
+|houseChecked=
+|schedule=
+|scheduleChecked=
+}}{{NPC Summary
+|refid=00095A61
+|baseid=00095A45
+|city=[[Oblivion:Anvil|Anvil]]
+|house=[[Oblivion:The Serpent's Wake|The Serpent's Wake]] / [[Oblivion:The Count's Arms|The Count's Arms]]
+|race=High Elf
+|gender=Female
+|class=Mage
+|level=PC+0
+|health=30 + (3+0.6)x(PC-1), PC=5-117
+|magicka=238 + 7.5x(PC-1) (max=350)
+|resp=50
+|aggress=5
+|faction={{Faction|Anvil Citizen}}
+|essential=While [[Oblivion:The Ghost Ship of Anvil|The Ghost Ship of Anvil]] is active
+|image=OB-npc-Varulae.jpg
+|imgremaster=OBR-npc-Varulae.jpg
+|imageclose=OB-npc-Varulae 02.jpg
+|imgremasterclose=OBR-npc-Varulae 02.jpg
+|imgdesc=Varulae on the deck of her ship in [[Oblivion:Anvil|Anvil]]
+}}
+'''Varulae''' is a [[Oblivion:High Elf|High Elf]] [[Oblivion:Mage|mage]] and the owner of [[Oblivion:The Serpent's Wake|The Serpent's Wake]] in [[Oblivion:Anvil|Anvil]].  She hired a crew to retrieve a family heirloom from [[Lore:Summerset_Isle|Summerset Isle]], but they were all killed upon their return, and their spirits now haunt the ship. If you complete [[Oblivion:The Ghost Ship of Anvil|The Ghost Ship of Anvil]] quest by returning the heirloom to her, Varulae will reward you with [[Oblivion:Redwave|Redwave]], an enchanted [[Oblivion:Cutlass|cutlass]]. 
+
+She stands onboard ship night and day, hoping for someone to come to her aid; immediately upon completion of the quest, she walks to the [[Oblivion:The Count's Arms|Count's Arms]]. Thereafter she walks around on the ground floor of that establishment. She socializes with the tavernkeeper [[Oblivion:Wilbur|Wilbur]] and visitors, but neither sleeps nor eats.
+
+Varulae wears a set of upper-class clothing: a [[Oblivion:Red Velvet Blouse|red velvet blouse]], [[Oblivion:Red Velvet Garment|red velvet garment]] and [[Oblivion:Green Velvet  Shoes|green velvet shoes]]. She is armed with a [[Oblivion:Silver Dagger|silver dagger]] and carries a large amount of gold. After the related quest, she will carry around [[Oblivion:Varulae's Crystal Ball|her crystal ball]] at all times. Varulae also knows leveled sets of [[Oblivion:Leveled_Spells_Lists#Mage|mage]] and [[Oblivion:Leveled_Spells_Lists#Enchanter|enchanter]] spells.
+
+{{NewLeft}}
+==Related Quests==
+*{{Quest Link|The Ghost Ship of Anvil}}
+
+{{TOCright}}
+==Quest-Related Dialogue==
+===The Ghost Ship of Anvil===
+Apparently, Varulae has asked around Anvil for help but has been rejected over and over; when you approach her she will say: 
+:''"This is a travesty. A complete and utter travesty. The crystal ball is just sitting there in the hold, but I'll be damned if I'm going back onboard. And nobody will help me. Nobody! Not with those spirits roaming the decks. I don't suppose you'll help me? No, of course you won't..."'' 
+
+::'''Sorry, I can't help you right now.'''
+::''"Of course you can't! Nobody ever wants to help! That's what's wrong with the world these days. Everybody's so damned selfish!"'' 
+
+::'''Actually, I'd be glad to help.'''
+::''"Of course you can't! Nobody ever wants to help! That's the... Wait... Did you actually say you'd help me? Oh, how wonderful! I can't thank you enough! I've been going out of my mind ever since my crew was murdered! This is my ship, you see. The Serpent's Wake. I hired the crew to sail to Summerset Isle to retrieve a family heirloom, my mother's crystal ball. They made the journey, and arrived back all right, but then... [[Oblivion: Mathieu Bellamont|Someone]] murdered them! All of them! Now their spirits are haunting the ship! The crystal ball is in a chest in the ship's hold, but I can't get to it. I made it as far as the captain's cabin, but the spirits nearly killed me! Get the crystal ball and return it to me here, and I'll make it worth your trouble. Here, you'll need this key. Thank you so much! "''
+
+If approached again before you have the crystal ball:
+:''"Oh, I'll never get that crystal ball back. Not with those frightful spirits floating around..."''
+:''"No luck yet, hmm? Please, don't give up. That crystal ball means so much to me. It was my mother's, you see..."''
+
+When approaching her with the crystal ball, she will say: 
+:''"Oh! You've returned! I do hope you have good news."''
+
+When greeting you she will be overwhelmed with joy:
+:''"You did it! You actually made it back with the crystal ball! Oh thank you! Here, please take this as a reward! It's the captain's enchanted cutlass. I managed to grab it when I was in his cabin, before his spirit chased me out! Oh, thank you so very much!"''
+
+If approached again after the quest she can say:
+:''"So wonderful to see you again. I don't know what I would have done without your help."''
+:''"Oh, hello, dear friend! Let me just say once more how happy I am to have my crystal ball back. I'll never forget your selflessness and bravery!"''
+
+==Notes==
+* Varulae does not become an [[Oblivion:Essential NPCs|essential NPC]] until after she gives you the related quest. Before then, it is possible for her to be killed, which will result in being unable to start the quest.  When the quest is complete, she loses her essential status.
+* The quest journal refers to Varulae as a "High Elf Sorceress", although it is never implied, through dialogue or otherwise, that Varulae is a sorceress of any kind.

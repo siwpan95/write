@@ -1,0 +1,91 @@
+<noinclude>{{Cleanup-srqrp
+|writtenBy=Multiple
+|checkedBy=OriwaK
+|reward=Likelolwhat
+|rewardChecked=OriwaK
+}}</noinclude>[[Category:Skyrim-Quests-Dungeon Quests]]
+{{Quest Header
+|type=Side Quests
+|Giver=[[Skyrim:Captain Valmir|Captain Valmir]]
+|Reward=[[Skyrim:Rahgot (item)|Rahgot]],<br>[[Skyrim:Dragon Priest Staff (Rahgot)|Dragon Priest Staff]],<br>Word for the [[Skyrim:Storm Call|Storm Call]] shout
+|Disp=
+|Rep=
+|Prev=
+|Conc=
+|Next=
+|Loc=[[Skyrim:Forelhost|Forelhost]]
+|Image=SR-quest-Siege on the Dragon Cult.jpg
+|ImgDesc=Siege on the Dragon Cult
+|description= Enter the ruins of [[Skyrim:Forelhost|Forelhost]] and defeat [[Skyrim:Rahgot (creature)|Rahgot]] to recover his mask for [[Skyrim:Captain Valmir|Captain Valmir]].
+|ID=dunForelhostQST
+|Icon=
+|SuggLevel=24
+}}{{#addtotrail:Dungeon Quests|separator=' / '}}
+
+==Quick Walkthrough==
+# Speak to [[Skyrim:Captain Valmir|Captain Valmir]] to begin the quest.
+# Enter the ruins of [[Skyrim:Forelhost|Forelhost]].
+# (Optional) Find the [[Skyrim:Skorm Snow-Strider's Journal|journal]] of Skorm Snow-Strider.
+# Make your way through the first zone into the Crypt.
+# Either pick the lock on the well or find the key, then move on to the Refectory. 
+# Travel through the Refectory, find the glass claw and locate the [[Skyrim:Traps#Puzzle Door|puzzle door]].
+# Use the claw to enter and defeat [[Skyrim:Rahgot (creature)|Rahgot]].
+# Return to Valmir with the mask.
+
+==Detailed Walkthrough==
+[[File:SR-place-Forelhost.jpg|thumb|right|Valmir's camp sits in the ruins of Forelhost]]
+When you enter the courtyard of Forelhost for the first time, [[Skyrim:Captain Valmir|Captain Valmir]] will call to you. When the two of you get close enough, he'll initiate a conversation. He will claim he has been sent there by military forces in an attempt to recover a powerful artifact for the war effort. He asks for your help, since he cannot do it alone. According to him, this was the last stronghold of the Dragon Cult back in the First Era, and the commander's mask was allegedly an extremely powerful artifact. He requests that you enter the ruin and retrieve the item. He also mentions that the military general who stormed the fortress to wipe out the cult supposedly left his journal here, so finding it might provide some more information. 
+
+===Forelhost Stronghold===
+Shortly after entering the zone, you'll begin encountering ghosts of the cultists. They must be defeated or avoided to proceed. Work your way around to get behind the portcullis that is down, and you'll be able to enter the crypts. ''[[Skyrim:Skorm Snow-Strider's Journal|Skorm Snow-Strider's Journal]]'' is found along this path. It recounts that when they took the fortress, the defenders had collapsed the entry and all killed themselves, leaving the ghosts to haunt the place. The well was locked and poisoned, and with the losses suffered from the poisoned water, Skorm decided not to search for the key in the crypts, simply choosing to leave the survivors sealed within.
+
+===Forelhost Crypt===
+Once in the crypt, make your way to the well. If you can pick the lock, do so, and move on down; otherwise turn right instead and head through the crypt tunnels to the far end, where you'll find the [[Skyrim:Forelhost Well Key|key]]. Then head back to the well. After going down the well, follow the tunnels on to the Refectory. You will find a potion on top of a [[Skyrim:Weight Sensitive Plate|stand]] with [[Skyrim:Dart Trap|dart]] holes behind it - you can drop a wooden plate or something similar on the ground, pick up the potion, and use the plate/object to stop the darts.
+
+===Forelhost Refectory===
+Once in the Refectory, move through and find the [[Skyrim:Glass Claw|glass dragon claw]], which you'll need to open the [[Skyrim:Puzzle Door|puzzle door]] later. Continue on to the door. From top (outer ring) to bottom (inner ring), the solution is: '''Fox&mdash;Owl&mdash;Snake'''.
+
+You'll need to defeat the dragon priest [[Skyrim:Rahgot (creature)|Rahgot]] and four leveled draugr. Afterwards, loot Rahgot's body. He'll have the [[Skyrim:Rahgot (item)|mask]], a [[Skyrim:Dragon Priest Staff (Rahgot)|dragon priest staff]], and the [[Skyrim:Forelhost Balcony Key|key]] to the battlements.
+
+===Battlements===
+Head out onto the battlements to reach a [[Skyrim:Word Wall|word wall]], and learn a word for the [[Skyrim:Storm Call|Storm Call]] shout.
+
+After visiting the word wall move near the inside of the battlements; you'll see Captain Valmir talking to an enemy soldier. The objective to return to Valmir remains, so drop down. You'll find that Valmir has now dressed in the armor of the opposing side, to convince this other soldier to do the same job he sent you to do! He's an impostor! Defeat both Valmir and the enemy soldier to conclude the quest. If you wish, loot ''[[Skyrim:Valmir's Orders|Valmir's Orders]]'' to discover that he was actually an agent (strongly implied, but not explicitly stated, to be [[Skyrim:Thalmor|Thalmor]]) who was sent to retrieve the mask and return to [[Skyrim:Labyrinthian|Labyrinthian]] with it (presumably to use the mask on the matching pedestal in [[Skyrim:Bromjunaar Sanctuary|Bromjunaar Sanctuary]]).
+
+==Notes==
+* It is possible to ignore Valmir at the beginning of the quest (by ending conversation before agreeing to take the quest) and pickpocket the key to the ruins from him. You'll get an entry in your journal about his quest only when you reach the battlements and overhear his conversation with the second NPC.
+* It is also possible to kill Valmir immediately after arriving at this location but before going into the ruins. You can then loot his body for the scrap of paper revealing his treachery.
+* Version 1.3.3 of the [[Skyrim Mod:Unofficial Skyrim Patch|Unofficial Skyrim Patch]] delays the conversation between Valmir and the soldier until you're on the ground in the same area with them.
+
+==Bugs==
+{{Bug|If the puzzle door does not work, check [[Skyrim:Puzzle Totems#Bugs|here]] for possible fixes.|confirmed=1}}
+{{Bug|Captain Valmir may attack you on sight.|confirmed=1}}
+{{Bug|If you pickpocket the key and proceed to get the mask, after stepping outside, the quest will initiate with the objective to kill Captain Valmir. The soldier attacks but Valmir does not; you will gain a bounty for killing him but the quest does not complete.|confirmed=1}}
+{{Bug|If the claw is knocked off the pedestal before you pick it up, the metal gate may not lower.|confirmed=1}}
+**Dragging an item back onto the pedestal and removing it again will trigger the gate.
+{{Bug|If you find the Refectory Library gate is raised you cannot proceed.|confirmed=1}}
+**Leave the area and then return, the gates should be open.
+{{Bug|Multiple masks may be found on Rahgot's body.|USKP|1.3.3}}
+{{Bug|Just before you enter the ruin, Valmir will mistakenly refer to finding a staff instead of the mask.|UDBP|2.0.4|trackerid=14181}}
+{{Bug|If you Switch sides during the civil War Valmir will wear the first selected faction uniform. And may not be able to talk to the player.}}
+
+==Quest Stages==
+{{Journal Entries
+|10||I have been asked to defeat the Dragon Priest in Forelhost and to bring back his Mask. A journal left by Skorm Snow-Strider may reveal a way past the collapsed areas.
+{{Quest Objective|10|(Optional) Find Skorm Snow-Strider's journal}}
+{{Quest Objective|50|Obtain Rahgot's mask}}
+|20||I have been asked to defeat the Dragon Priest in Forelhost and to bring back his Mask. I have found the journal of Skorm Snow-Strider, which may reveal how to bypass the collapsed areas.
+|26||{{Quest Objective|30|(Optional) Find the key to the well in the Catacombs {{Quest Comment|if Valmir not killed}}}}
+|40||I have been asked to defeat the Dragon Priest in Forelhost and to bring back his Mask. I can reach the blocked off areas of the stronghold through the well.
+|50||I have been asked to defeat the Dragon Priest in Forelhost and to bring back his Mask.
+|60||I have defeated the Dragon Priest, Rahgot, and taken his Mask. I should return with it to Valmir.
+{{Quest Objective|60|Return to Valmir {{Quest Comment|if Valmir not killed}}}}
+|70||Valmir has betrayed me and has been tricking soldiers into the ruins. He must die.
+{{Quest Objective|70|Kill the imposter Valmir}}
+|100|fin|
+|110|fin|
+|''Unknown''||{{Quest Objective|20|(Optional) Show Skorm Snow-Strider's journal to Valmir}}
+[[Category:Skyrim-SRQRP-Unknown Objectives]]
+|missing=0, 1, 2, 3, 5, 15, 25, 30, 64, 65, 200
+}}
+{{Skyrim Quest Stages Notes}}

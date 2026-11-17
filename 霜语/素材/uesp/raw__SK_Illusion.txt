@@ -1,0 +1,280 @@
+<noinclude>{{Trail|Magic|Spells}} {{DEFAULTSORT:* Illusion Spells}}
+This page lists '''[[Skyrim:Spells|Spells]]''' in the school of '''[[Skyrim:Illusion|Illusion]]'''.
+</noinclude>
+{| class="wikitable sortable"
+|- {{ILL}}
+!width=1% class="unsortable"|{{icon|b|SpellTomeIllusion}}
+!width=14%|Spell Name<br/>([[Skyrim:Form ID|IDs]])
+!width=5% data-sort-type=number|Skill Level
+!width=5% data-sort-type=number|Tome<br/>{{Value Icon}}
+!width=5% data-sort-type=number|Magicka [[Skyrim:Magic Overview#Spell Cost|Base Cost]]
+!width=5% data-sort-type=number|Skill XP
+!width=30% class="unsortable"|Description and Effect Details
+!width=30% class="unsortable"|Where to Get
+{{SR Spell
+|name=Clairvoyance (spell)
+|icon=Magic Hat
+|spellid=00021143
+|tomeid=000ff7d1
+|skill=0
+|tome=50
+|magicka=25
+|magickaextra=/s
+|skillxp=0.25
+|skillxpextra=/s
+|desc=''Shows the path to the current goal:''
+* [[Skyrim:Clairvoyance (effect)|Clairvoyance]], for 1 sec
+|where=* Can be purchased from: [[Skyrim:Calcelmo|Calcelmo]], [[Skyrim:Drevis Neloren|Drevis Neloren]], [[Skyrim:Falion|Falion]], [[Skyrim:Farengar Secret-Fire|Farengar Secret-Fire]], [[Skyrim:Madena|Madena]], [[Skyrim:Nelacar|Nelacar]], [[Skyrim:Riverwood Trader|Riverwood Trader]], [[Skyrim:Sybille Stentor|Sybille Stentor]], [[Skyrim:Wuunferth the Unliving|Wuunferth the Unliving]], [[Skyrim:Wylandriah|Wylandriah]]
+* Can be found in [[Skyrim:Embershard Mine|Embershard Mine]]
+}}{{SR Spell
+|name=Courage
+|icon=Illusion Light
+|spellid=0004dee8
+|tomeid=0009e2ad
+|skill=0
+|tome=46
+|magicka=39
+|skillxp=39
+|desc=''Target won't flee for 60 seconds and gets some extra health and stamina:''
+* [[Skyrim:Rally (effect)|Courage]], 100 pts for 60 secs
+* [[Skyrim:Fortify Health|Fortify Health]], 25 pts for 60 secs
+* [[Skyrim:Fortify Stamina|Fortify Stamina]], 25 pts for 60 secs
+|where=* Can be purchased from: [[Skyrim:Calcelmo|Calcelmo]], [[Skyrim:Drevis Neloren|Drevis Neloren]], [[Skyrim:Falion|Falion]], [[Skyrim:Farengar Secret-Fire|Farengar Secret-Fire]], [[Skyrim:Madena|Madena]], [[Skyrim:Nelacar|Nelacar]], [[Skyrim:Sybille Stentor|Sybille Stentor]], [[Skyrim:Wuunferth the Unliving|Wuunferth the Unliving]], [[Skyrim:Wylandriah|Wylandriah]]
+* Can be found in [[Skyrim:Treva's Watch|Treva's Watch]]
+}}{{SR Spell
+|name=Fury
+|icon=Illusion Dark
+|spellid=0004deeb
+|tomeid=0009e2ac
+|skill=0
+|tome=43
+|magicka=67
+|skillxp=20
+|desc=''Creatures and people up to level 6 will attack anything nearby for 30 seconds:''
+* [[Skyrim:Frenzy (effect)|Fury]], 6 pts for 30 secs
+* [[Skyrim:Rally (effect)|Courage Secondary]], 6 pts for 30 secs
+|where=* [[Skyrim:High Elf|Altmer]] start with this spell
+* Can be purchased from: [[Skyrim:Calcelmo|Calcelmo]], [[Skyrim:Drevis Neloren|Drevis Neloren]], [[Skyrim:Falion|Falion]], [[Skyrim:Farengar Secret-Fire|Farengar Secret-Fire]], [[Skyrim:Madena|Madena]], [[Skyrim:Nelacar|Nelacar]], [[Skyrim:Riverwood Trader|Riverwood Trader]], [[Skyrim:Sybille Stentor|Sybille Stentor]], [[Skyrim:Wuunferth the Unliving|Wuunferth the Unliving]], [[Skyrim:Wylandriah|Wylandriah]]
+}}{{SR Spell
+|name=Calm
+|icon=Illusion Light
+|spellid=0004dee9
+|tomeid=000a2711
+|skill=25
+|tome=91
+|magicka=146
+|skillxp=36
+|desc=''Creatures and people up to level 9 won't fight for 30 seconds:''
+* [[Skyrim:Pacify (effect)|Calm]], 9 pts for 30 secs
+|where=* Can be purchased from: [[Skyrim:Calcelmo|Calcelmo]], [[Skyrim:Drevis Neloren|Drevis Neloren]], [[Skyrim:Falion|Falion]], [[Skyrim:Farengar Secret-Fire|Farengar Secret-Fire]], [[Skyrim:Madena|Madena]], [[Skyrim:Sybille Stentor|Sybille Stentor]], [[Skyrim:Wuunferth the Unliving|Wuunferth the Unliving]], [[Skyrim:Wylandriah|Wylandriah]]
+}}{{SR Spell
+|name=Fear (spell)
+|icon=Illusion Dark
+|spellid=0004deea
+|tomeid=000a2712
+|skill=25
+|tome=80
+|magicka=153
+|skillxp=38
+|desc=''Creatures and people up to level 9 flee from combat for 30 seconds:''
+* [[Skyrim:Fear (effect)|Fear]], 9 pts for 30 secs
+|where=* Can be purchased from: [[Skyrim:Calcelmo|Calcelmo]], [[Skyrim:Drevis Neloren|Drevis Neloren]], [[Skyrim:Falion|Falion]], [[Skyrim:Farengar Secret-Fire|Farengar Secret-Fire]], [[Skyrim:Madena|Madena]], [[Skyrim:Sybille Stentor|Sybille Stentor]], [[Skyrim:Wuunferth the Unliving|Wuunferth the Unliving]], [[Skyrim:Wylandriah|Wylandriah]]
+}}{{SR Spell
+|name=Muffle (spell)
+|icon=Magic Hat
+|spellid=0008f3eb
+|tomeid=000a270f
+|skill=25
+|tome=88
+|magicka=144
+|skillxp=144
+|desc=''You move more quietly for 180 seconds:''
+* [[Skyrim:Muffle (effect)|Muffle]], 1 pt for 180 secs
+|where=* Can be purchased from: [[Skyrim:Calcelmo|Calcelmo]], [[Skyrim:Drevis Neloren|Drevis Neloren]], [[Skyrim:Falion|Falion]], [[Skyrim:Farengar Secret-Fire|Farengar Secret-Fire]], [[Skyrim:Madena|Madena]], [[Skyrim:Sybille Stentor|Sybille Stentor]], [[Skyrim:Wuunferth the Unliving|Wuunferth the Unliving]], [[Skyrim:Wylandriah|Wylandriah]]
+}}{{SR Spell
+|name=Frenzy (spell)
+|icon=Illusion Dark
+|spellid=0004deee
+|tomeid=000a2714
+|skill=50
+|tome=330
+|magicka=209
+|skillxp=104
+|skillxpextra=/target
+|desc=''Creatures and people up to level 14 will attack anyone nearby for 60 seconds:''
+* [[Skyrim:Frenzy (effect)|Frenzy]], 14 pts for 60 secs in 15 ft
+* [[Skyrim:Rally (effect)|Rally Secondary]], 14 pts for 60 secs in 15 ft
+|where=* Can be purchased from: [[Skyrim:Drevis Neloren|Drevis Neloren]], [[Skyrim:Sybille Stentor|Sybille Stentor]] 
+}}{{SR Spell
+|name=Frenzy Rune
+|addon=DB
+|icon=Illusion Dark
+|spellid=xx0177b7
+|tomeid=xx0177bd
+|skill=50
+|tome=310
+|magicka=278
+|skillxp=278
+|desc=''Targets up to level 20 that fail to resist are frenzied for 30 seconds:''
+* Cast on ground
+* [[Skyrim:Frenzy (effect)|Frenzy Rune]], 20 pts for 30 secs
+|where=* Can be purchased from [[Skyrim:Talvas Fathryon|Talvas Fathryon]] after completing the quest [[Skyrim:From the Ashes|From the Ashes]]. 
+* Only available with the [[Skyrim:Dragonborn|Dragonborn add-on]]
+}}{{SR Spell
+|name=Orum's Aquatic Escape
+|addon=CC
+|icon=Invisibility
+|spellid=FExxx851
+|tomeid=FExxx866
+|skill=50
+|tome=350
+|magicka=165
+|skillxp=
+|desc=''Caster is invisible for <dur> seconds. Activating an object or attacking will break the spell. Can breathe water for 15 seconds. Improved night vision for 15 seconds.''
+* [[Skyrim:Invisibility (effect)|Orum's Aquatic Escape]], 15 sec
+* [[Skyrim:Waterbreathing (effect)|Water Breathing]], 15 sec
+* [[Skyrim:Night Eye (effect)|Night Eye]], 15 sec
+|where=* Can be found in [[Skyrim:Hob's Fall Cave|Hob's Fall Cave]] during [[Skyrim:The Lost Library|The Lost Library]] quest.
+* Can be purchased from: [[Skyrim:Drevis Neloren|Drevis Neloren]], [[Skyrim:Sybille Stentor|Sybille Stentor]]
+* Only available with the [[Skyrim:Arcane Accessories|Arcane Accessories]] creation.
+}}{{SR Spell
+|name=Rally (spell)
+|icon=Illusion Light
+|spellid=0004deec
+|tomeid=000a2713
+|skill=50
+|tome=300
+|magicka=113
+|skillxp=34
+|skillxpextra=/target
+|desc=''Targets won't flee for 60 seconds and get extra health and stamina:''
+* [[Skyrim:Rally (effect)|Rally]], 100 pts for 60 secs in 15 ft
+* [[Skyrim:Fortify Health|Fortify Health]], 25 pts for 60 secs in 15 ft
+* [[Skyrim:Fortify Stamina|Fortify Stamina]], 25 pts for 60 secs in 15 ft
+|where=* Can be purchased from: [[Skyrim:Drevis Neloren|Drevis Neloren]], [[Skyrim:Sybille Stentor|Sybille Stentor]]
+}}{{SR Spell
+|name=Fenrik's Welcome
+|addon=CC
+|icon=Alteration
+|spellid=FExxx84F
+|tomeid=FExxx867
+|skill=75
+|tome=350
+|magicka=116
+|skillxp=0
+|desc=''Caster becomes invisible and can open locks with level Expert and below for 5 seconds.  Activating an object or attacking will break the spell.''
+* [[Skyrim:Invisibility (effect)|Fenrik's Welcome]], 5 sec
+|where=* Can be found in [[Skyrim:Hob's Fall Cave|Hob's Fall Cave]] during [[Skyrim:The Lost Library|The Lost Library]] quest.
+* Can be purchased from: [[Skyrim:Drevis Neloren|Drevis Neloren]]
+* Only available with the [[Skyrim:Arcane Accessories|Arcane Accessories]] creation.
+}}{{SR Spell
+|name=Invisibility (spell)
+|icon=Invisibility
+|spellid=00027eb6
+|tomeid=000a2715
+|skill=75
+|tome=625
+|magicka=334
+|skillxp=83
+|desc=''Caster is invisible for 30 seconds. Activating an object or attacking will break the spell:''
+* [[Skyrim:Invisibility (effect)|Invisibility]], for 30 secs
+|where=* Can be purchased from: [[Skyrim:Drevis Neloren|Drevis Neloren]]
+}}{{SR Spell
+|name=Pacify (spell)
+|icon=Illusion Light
+|spellid=0004deed
+|tomeid=000a2717
+|skill=75
+|tome=610
+|magicka=290
+|skillxp=72
+|skillxpextra=/target
+|desc=''Creatures and people up to level 20 won't fight for 60 seconds:''
+* [[Skyrim:Pacify (effect)|Pacify]], 20 pts for 60 secs in 15 ft
+|where=* Can be purchased from: [[Skyrim:Drevis Neloren|Drevis Neloren]]
+}}{{SR Spell
+|name=Rout
+|icon=Illusion Dark
+|spellid=0004deef
+|tomeid=000a2718
+|skill=75
+|tome=653
+|magicka=316
+|skillxp=79
+|skillxpextra=/target
+|desc=''Creatures and people up to level 20 flee from combat for 30 seconds:''
+* [[Skyrim:Fear (effect)|Rout]], 20 pts for 30 secs in 15 ft
+|where=* Can be purchased from: [[Skyrim:Drevis Neloren|Drevis Neloren]]
+}}{{SR Spell
+|name=Call to Arms
+|icon=Illusion Light
+|spellid=0007e8dd
+|tomeid=000a271b
+|skill=100
+|tome=1150
+|magicka=655
+|skillxp=65
+|skillxpextra=/target
+|desc=''Targets have improved combat skills, health and stamina for 10 minutes:''
+* [[Skyrim:Fortify Marksman|Fortify Marksman]], 25 pts for 600 secs in 100 ft
+* [[Skyrim:Fortify One-handed|Fortify One-handed]], 25 pts for 600 secs in 100 ft
+* [[Skyrim:Fortify Two-handed|Fortify Two-handed]], 25 pts for 600 secs in 100 ft
+* [[Skyrim:Fortify Health|Fortify Health]], 25 pts for 600 secs in 100 ft
+* [[Skyrim:Fortify Stamina|Fortify Stamina]], 25 pts for 600 secs in 100 ft
+|where=* Can be purchased from: [[Skyrim:Drevis Neloren|Drevis Neloren]] (only after [[Skyrim:Illusion Ritual Spell|Illusion Ritual Spell]] has been completed)
+}}{{SR Spell
+|name=Harmony
+|icon=Illusion Light
+|spellid=0007e8db
+|tomeid=000a271a
+|skill=100
+|tome=1220
+|magicka=1052
+|skillxp=841
+|skillxpextra=/target
+|desc=''Creatures and people up to level 25 nearby won't fight for 60 seconds:''
+* [[Skyrim:Pacify (effect)|Harmony]], 25 pts for 60 secs in 250 ft
+|where=* Can be purchased from: [[Skyrim:Drevis Neloren|Drevis Neloren]] (only after [[Skyrim:Illusion Ritual Spell|Illusion Ritual Spell]] has been completed)
+}}{{SR Spell
+|name=Hysteria
+|icon=Illusion Dark
+|spellid=0007e8de
+|tomeid=000a271c
+|skill=100
+|tome=1240
+|magicka=866
+|skillxp=216
+|skillxpextra=/target
+|desc=''Creatures and people up to level 25 flee from combat for 60 seconds:''
+* [[Skyrim:Fear (effect)|Hysteria]], 25 pts for 60 secs in 250 ft
+|where=* Reward for quest [[Skyrim:Illusion Ritual Spell|Illusion Ritual Spell]]
+}}{{SR Spell
+|name=Mayhem
+|icon=Illusion Dark
+|spellid=0007e8da
+|tomeid=000a2719
+|skill=100
+|tome=1250
+|magicka=990
+|skillxp=396
+|skillxpextra=/target
+|desc=''Creatures and people up to level 25 will attack anyone nearby for 60 seconds:''
+* [[Skyrim:Frenzy (effect)|Mayhem]], 25 pts for 60 secs in 250 ft
+* [[Skyrim:Rally (effect)|Rally Secondary]], 25 pts for 60 secs in 250 ft
+|where=* Can be purchased from: [[Skyrim:Drevis Neloren|Drevis Neloren]] (only after [[Skyrim:Illusion Ritual Spell|Illusion Ritual Spell]] has been completed)
+}}{{SR Spell
+|name=Vision of the Tenth Eye
+|icon=Illusion Light
+|spellid=000b323e
+|tomeid=
+|skill=N/A
+|tome=N/A
+|magicka=0
+|skillxp=0
+|desc=''See what others cannot.''
+* Vision of the Tenth Eye, for 30 secs
+|where=* Not available for purchase
+* Given by [[Skyrim:Drevis Neloren|Drevis Neloren]] as part of the quest [[Skyrim:Illusion Ritual Spell|Illusion Ritual Spell]]
+}}
+|}<noinclude>
+{{Skyrim:Spell List Notes}}</noinclude>

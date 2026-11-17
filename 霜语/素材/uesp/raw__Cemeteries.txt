@@ -1,0 +1,12 @@
+{{Trail|Places}}{{#define:trimlinks|true}}
+[[File:SR-place-Solitude Hall of the Dead.jpg|thumb|right|Hall of the Dead in Solitude]]
+This page lists all the named '''cemeteries''' in [[Skyrim:Skyrim|Skyrim]].
+:{{Place Link|Hall of the Dead (Falkreath)|Hall of the Dead (Falkreath)}}
+:{{Place Link|Hall of the Dead (Markarth)|Hall of the Dead (Markarth)}}
+:{{Place Link|Hall of the Dead (Riften)|Hall of the Dead (Riften)}}
+:{{Place Link|Hall of the Dead (Solitude)|Hall of the Dead (Solitude)}}
+:{{Place Link|Hall of the Dead (Whiterun)|Hall of the Dead (Whiterun)}}
+:{{Place Link|Hall of the Dead (Windhelm)|Hall of the Dead (Windhelm)}}
+:{{Place Link|Morvayn Ancestral Tomb}}
+:{{Place Link|Temple Ancestral Tomb}}
+:{{Place Link|Ulen Ancestral Tomb}}

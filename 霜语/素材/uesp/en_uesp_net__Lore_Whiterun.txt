@@ -1,0 +1,184 @@
+<noinclude>{{cleanup-lpp|writtenby=Vincentius1}}{{Lore Places Trail}}{{Lore Place Summary
+|continent=Tamriel
+|province=Skyrim
+|region=Whiterun Hold
+|settlement=Whiterun
+|appears=[[Arena:Whiterun|Arena]], [[Skyrim:Whiterun|Skyrim]]
+|image=SR-place-Whiterun 02.jpg
+|imgdesc=Whiterun ca. {{Year|4E 201}}
+}}[[File:LO-map-Skyrim (Anthology).jpg|thumb|right|Map of Skyrim]]
+{|
+|
+:''"The heart of Skyrim, Whiterun bids you welcome. For travelers we offer a place of rest..."''<br>—In-game description in ''[[Arena:Arena|Arena]]''
+|}</noinclude>
+[[Lore:Whiterun|Whiterun]] is one of the nine major cities in the province of [[Lore:Skyrim|Skyrim]],{{Ref|name=SRMap|[[:File:SR-map-Skyrim.jpg|Map of Skyrim — The Elder Scrolls V: Skyrim]]}} and it serves as the capital of [[Lore:Whiterun Hold|Whiterun Hold]]. The city lies in the very heart of Skyrim and functions as the province's center of trade.{{Ref|name=SRLoad|[[Skyrim:Loading Screens#Whiterun|Whiterun]] loading screen text in ''[[Skyrim:Skyrim|Skyrim]]''}} It also holds great cultural and historical significance, having ties with the [[Lore:Five Hundred Companions|Five Hundred Companions]], who first settled it in the late [[Lore:Merethic Era|Merethic Era]]. Whiterun has been known by many titles, such as the '''Great City''',{{Ref|name=SOTR7|{{Cite Book|Songs of the Return, Vol 7}}}} the '''Jewel of the North''',{{Ref|name=AGGTW|{{Cite Book|A Gentleman's Guide to Whiterun}}}} and the '''Heart of Skyrim'''.{{Ref|name=AR|[[Arena:Whiterun|Whiterun]] location and rumors in ''[[Arena:Arena|Arena]]''}}{{Ref|name=AEGTS|{{Cite Book|An Explorer's Guide to Skyrim}}}} In the [[Lore:Dragon Language|dragon language]], the city is known as '''Ahrolsedovah''', which means ''Hill-of-Dragon''.{{Ref|name=HOJG|{{Cite Book|Holdings of Jarl Gjalund}}}}<noinclude>{{TOCleft|limit=3}}
+{{NewLine}}
+
+==Layout and Geography==
+[[File:SR-place-Dragonsreach.jpg|thumb|left|Dragonsreach]]
+[[File:MER-misc-Map of Whiterun 02.jpg|thumb|right|A stylized map of Whiterun in the Fourth Era]]
+Whiterun lies in the very center of Skyrim, in the wide, windswept grassy plains of Whiterun Hold. Specifically, it is on the eastern end of the hold, anchoring the cold and windy [[Lore:Tundra Plain|Tundra Plain]] that encompasses central Skyrim.{{Ref|name=SLEPG|[[Books:The Elder Scrolls V: Skyrim: Prima Official Game Guide#Legendary Edition|The Elder Scrolls V: Skyrim Legendary Prima Official Game Guide]]}}{{rp|847}} To the east is the [[Lore:White River|White River]], Skyrim's longest river.{{Ref|name=SRWhiterun|[[Skyrim:Whiterun|Whiterun]] in ''[[Skyrim:Skyrim|Skyrim]]''}} The city is built on a long promontory overlooking extensive scrubland. Skyrim's many roads all lead to Whiterun, connecting the distant holds together.{{Ref|name=THOS|{{Cite Book|The Holds of Skyrim}}}} Whiterun is neighbored by several settlements, such as [[Lore:Black Moor|Black Moor]] to the west, [[Lore:Nimalten City|Nimalten City]] to the southeast, [[Lore:Laintar Dale|Laintar Dale]] to the northeast, and [[Lore:Riverwood|Riverwood]] to the south-southwest.{{Ref|name=ARMap|[[:File:AR-map-Skyrim towns.png|Map of Skyrim – The Elder Scrolls: Arena]]}}
+
+Whiterun is described as a ''"fortress city"''. Its fortifications, from its stone and wooden palisade wall to its sheer defensive position on a high bluff overlooking the land, are considered archaic by modern standards.{{Ref|name=SLEPG}}{{rp|847}} The original villages in Skyrim's most isolated regions were built in a similar fashion,{{Ref|name=PGE1|{{Cite Book|PGE|1|Skyrim}}}} and despite its status as a major city, Whiterun retains the feel of a small Nord village. Its main entrance is a winding stone path protected by three layers of fortifications, built to protect it from bandits and marauders.{{Ref|name=SLEPG}}{{rp|847}} Many farms and businesses are established outside its walls.{{Ref|name=SRWhiterun}} Honningbrew Meadery is Whiterun's renowned [[Lore:Mead|meadery]] and lies on its southern road.{{Ref|name=SLEPG}}{{rp|847}}
+
+Whiterun is divided into three districts. The first is the Plains District, named so because it is the lowest neighborhood in the city.{{Ref|name=AGGTW}} It contains the city gates, its many merchants, and its bustling marketplace. The Wind District is the residential area, containing many landmarks such as the [[Lore:Hall of the Dead|Hall of the Dead]], [[Lore:Temple of Kynareth|Temple of Kynareth]], and [[Lore:Jorrvaskr|Jorrvaskr]], the hall of the Companions.{{Ref|name=SRWhiterun}} The district is named after the strong winds that blow through it. Its highest, but smallest district is the Cloud District. Because it sits on the mountain, it lies the closest to the clouds, hence its name.{{Ref|name=SLEPG}}{{rp|849}} Its only building is [[Lore:Dragonsreach|Dragonsreach]], the hold's seat of power. It has been compared to [[Lore:Cyrodiil|Cyrodilic]] castles.{{Ref|name=AEGTS}} It is built on a water source that flows through the city and drains into the White River.{{Ref|name=SRWhiterun}}
+{{NewLine}}
+
+===Notable Locales===
+{| width=75%
+|- valign=top
+|width=25%|
+*The Bannered Mare{{Ref|name=AGGTW}}{{Ref|name=SLEPG}}{{rp|848}}
+*[[Lore:Conclave of the One|Conclave of the One]]{{Ref|name=AR}}
+*[[Lore:Dragonsreach|Dragonsreach]]{{Ref|name=SRWhiterun}}
+*[[Lore:Gildergreen|Gildergreen]]{{Ref|name=SRWhiterun}}
+*[[Lore:Hall of the Dead|Hall of the Dead]]{{Ref|name=SRWhiterun}}
+|width=25%|
+*Honningbrew Meadery{{Ref|name=SRWhiterun}}
+*[[Lore:Battle-Born|House of Clan Battle-Born]]{{Ref|name=SRWhiterun}}
+*[[Lore:Gray-Mane|House Gray-Mane]]{{Ref|name=SRWhiterun}}
+*[[Lore:Jorrvaskr|Jorrvaskr]]{{Ref|name=SRWhiterun}}
+*[[Lore:Mages Guild|Mages Guild]]{{Ref|name=AR}}{{intnote|loc}}
+|width=25%|
+*[[Lore:Skyforge|Skyforge]]{{Ref|name=SRWhiterun}}
+*Statue of [[Lore:Talos|Talos]]{{Ref|name=SRWhiterun}}
+*[[Lore:Temple of Kynareth|Temple of Kynareth]]{{Ref|name=SRWhiterun}}
+*[[Lore:Thieves Guild|Thieves Guild]]{{Ref|name=SRAmnesty|[[Skyrim:Imitation Amnesty|Imitation Amnesty]] faction quest in ''[[Skyrim:Skyrim|Skyrim]]''}}
+*Whiterun Marketplace{{Ref|name=SRWhiterun}}{{Ref|name=SLEPG}}{{rp|848}}
+|}{{note|loc|3=''Either this location was destroyed or its associated faction is dissolved. See the linked page or reference for more information.''}}
+
+====Districts====
+{| width=50%
+|- valign=top
+|width=25%|
+*Cloud District{{Ref|name=SRWhiterun}}
+*Plains District{{Ref|name=SRWhiterun}}
+|width=25%|
+*Poorer Quarters{{Ref|name=TRB1|{{Cite Book|The Real Barenziah, v 1}}}}
+*Wind District{{Ref|name=SRWhiterun}}
+|}
+
+==History==
+===Tale of the Jorrvaskr===
+[[File:SR-place-Jorrvaskr.jpg|thumb|left|Jorrvaskr]]
+[[File:SR-place-Skyforge.jpg|thumb|right|The Skyforge]]
+Whiterun's founding dates back to the late [[Lore:Merethic Era|Merethic Era]], after [[Lore:Ysgramor|Ysgramor]] and the Five Hundred Companions reclaimed [[Lore:Saarthal|Saarthal]] and set out across Skyrim in [[Lore:The Return|the Return]]. [[Lore:Jeek of the River|Jeek of the River]], captain of the Jorrvaskr and a close friend to Ysgramor, was the first to leave the grounded fleet. They traveled southward and fought many [[Lore:Snow Elf|elves]], but their numbers never fell. One of their crewmates, Jonder the Tiny, was sent ahead of the party and saw in a vast landscape, a single hill with a bird monument, whose eyes and beak were opened in flame.{{Ref|name=SOTR7}}
+
+Having acknowledged the land's fertility, the Atmorans questioned their elven captives why the elves had never settled there. Though they never gave an answer, they clearly feared the monument, and from their babblings, the Atmorans realized the monument is older than the elves themselves. Nothing could be said about the people who possibly built it, but it was known to drive magic almost as old as [[Lore:Nirn|Nirn]].{{Ref|name=SOTR7}}
+
+The Companions felt if it was something the elves feared, then it was something they needed to keep. And so two laborers, Manwe and Menro, with wood imported from [[Lore:Atmora|Atmora]] began to build a settlement. The Jorrvaskr was converted into a [[Lore:Mead|mead hall]] and Jeek's Companions decided to settle here until the end of their days.{{Ref|name=SOTR7}} The bird monument, around which the settlement was built, became known as the Skyforge,{{Ref|name=SRWhiterun}} because it was an ancient forge outside on a mountain, and close to the sky.{{Ref|name=SLEPG}}{{rp|850}}
+
+For the longest time, Jorrvaskr was the only building in the area, but over time, a community formed around it, as commonly happened around mead halls.{{Ref|name=SRProventus|[[Skyrim:Proventus Avenicci|Proventus Avenicci]]'s dialogue in ''[[Skyrim:Skyrim|Skyrim]]''}} Eventually, a great city had formed, built on the running banks of the White River.{{Ref|name=SOTR7}} Jeek is remembered as the founder of Whiterun. Not only was he the first to explore Skyrim, he was the first to settle down and dedicate himself as a protector for the common people, the less war-gifted as they came afterward.{{Ref|name=GH|{{Cite Book|Great Harbingers}}}}
+{{NewLine}}
+
+===Early History===
+[[File:SR-creature-Numinex.jpg|thumb|left|The Skull of Numinex]]
+{{Quote Box|O, Olaf, our subjugator, the one-eyed betrayer;<br>death-dealing demon and dragon-killing King.<br>Your legend is lies, lurid and false;<br>your cunning capture of Numinex, a con for the ages.|Excerpt from ''[[Lore:King Olaf's Verse|King Olaf's Verse]]'', written by [[Lore:Svaknir|Svaknir]]}}
+Whiterun has existed for many years. Two of its oldest families are the Battle-Borns and the Gray-Manes,{{Ref|name=SRVignar|[[Skyrim:Vignar Gray-Mane|Vignar Gray-Mane]]'s dialogue in ''[[Skyrim:Skyrim|Skyrim]]''}} with the latter having worked at the Skyforge since they arrived in Whiterun.{{Ref|name=SREorlund|[[Skyrim:Eorlund Gray-Mane|Eorlund Gray-Mane]]'s dialogue in ''[[Skyrim:Skyrim|Skyrim]]''}} During its early years, the Gildergreen tree was planted as a seedling in the city's Winds District, attracting devotees of Kynareth from all over.{{Ref|name=SRDanica|[[Skyrim:Danica Pure-Spring|Danica Pure-Spring]]'s dialogue in ''[[Skyrim:Skyrim|Skyrim]]''}} Records confirm Whiterun Hold, named after the city,{{Ref|name=SLEPG}}{{rp|844}} existed by the early [Lore:First Era|First Era]], after the [[Lore:Dragon War|Dragon War]].{{Ref|name=HOJG|{{Cite Book|Holdings of Jarl Gjalund}}}} The first [[Lore:Jarl|Jarl]] of Whiterun was known as [[Lore:Rasman|Rasman the Red]].{{Ref|name=WHJL|{{Cite Book|Whiterun Hold Jarl's Letter}}}} 
+
+During the [[Lore:War of Succession|War of Succession]] of the early First Era, a [[Lore:Dragon|dragon]] named [[Lore:Numinex|Numinex]] terrorized the Skyrim countryside until a warrior named [[Lore:Olaf One-Eye|Olaf One-Eye]] rose up to challenge him. In some accounts, he was known as the Jarl of Whiterun, but others claimed he promised the people of Whiterun that he would capture Numinex if they made him Jarl. In any case, Olaf confronted the dragon at [[Lore:Mount Anthor|Mount Anthor]] and brought him to Whiterun in captivity.{{Ref|name=OATD|{{Cite Book|Olaf and the Dragon}}}}
+
+The people of Whiterun were impressed by his accomplishment and a large stone holding cell was built into Whiterun's palace, which was consequently renamed [[Lore:Dragonsreach|Dragonsreach]]. Olaf eventually began his campaign for High Kingship and ended the War of Succession{{Ref|name=OATD}} in {{Year|1E 420}},{{Ref|name=PGE1}} largely because of his victory over Numinex.{{Ref|name=TCOF|{{Cite Book|The Crown of Freydis}}}} He then left Whiterun to reign in [[Lore:Solitude|Solitude]].{{Ref|name=SACJ|{{Cite Book|Solitude: A Charred Journal}}}} The Legend of Olaf and the dragon Numinex is one of Skyrim's most celebrated stories but it had many detractors and doubters in its time. Most famous was the Solitude bard [[Lore:Svaknir|Svaknir]], who wrote ''[[Lore:King Olaf's Verse|King Olaf's Verse]]'', which directly challenged Olaf's claims of the event. In retaliation, Svaknir was thrown into prison and left to die. His verse, however, was later added to the [[Lore:Poetic Edda|Poetic Edda]].{{Ref|name=OATD}}{{Ref|name=SRViarmo|[[Skyrim:Viarmo|Viarmo]]'s dialogue in ''[[Skyrim:Skyrim|Skyrim]]''}}
+{{NewLine}}
+
+===Whiterun in the Second and Third Eras===
+[[File:ON-npc-Jarl Morryn.jpg|thumb|right|Jarl Morryn of Whiterun ca. 2E 582]]
+After the death of High King [[Lore:Logrolf|Logrolf]] in {{Year|2E 431}}, a schism formed in Skyrim, resulting in the formation of two kingdoms in the [[Lore:Eastern Skyrim|east]] and [[Lore:Western Skyrim|west]]. Whiterun Hold fell in with the west, at the time ruled by [[Lore:Svartr|Svartr]] of Solitude.{{Ref|name=TCOF}}{{Ref|name=LEOERZI|{{Cite Book|Loremaster's Episode of ESO-RP ZOS Interview|ns_base=GEN}}}} Over the years, Whiterun and Western Skyrim's alliance waned despite their familial ties. By the reign of High King [[Lore:Svargrim|Svargrim]], Solitude had not received an envoy from Whiterun in years.{{Ref|name=ONRigurt|[[Online:Rigurt the Brash|Rigurt the Brash]]'s dialogue in [[Online:Online|ESO]]&#58; ''[[Online:Greymoor|Greymoor]]''}}
+
+Sometime in the mid-Second Era, around {{Year|2E 577}}, Whiterun was terrorized by crazed outsiders and the sound of howling [[Lore:Wolf|wolves]] that preceded nightly disappearances. Tensions were high when a Battle-Born noble was found naked, covered in blood and surrounded by dead Gray-Mane livestock. The situation was resolved when an unnamed stranger arrived and offered to investigate. With the Jarl’s blessing, the stranger investigated and found neither family responsible. The court alchemist and the Jarl disappeared during the incident. Though it was purely conjecture, people believed that it was a conspiracy against both families and so the newly-ascended Jarl, [[Lore:Morryn|Morryn]], declared the alchemist, [[Lore:Arkasis|Arkasis]], a menace to Whiterun Hold.{{Ref|name=MTCA|{{Cite Book|Meet the Character - Arkasis}}}}
+
+At some point around {{Year|2E 582}}, there was a figure known as Benkor, the Butcher of Whiterun. He was imprisoned at an unknown location for conspiracy.{{Ref|name=DOTPE|{{Cite Book|Demands of the Painted Eye|ns_base=ON}}}} The late Second Era was considered a dark period for the Companions as false and dishonorable Harbingers ruled Jorrvaskr. But one warrior, Kyrnil Long-Nose, gathered several noble fighters and stormed the mead hall, restoring honor to the Companions.{{Ref|name=GH}} Around this time, a young [[Lore:Barenziah|Barenziah]], disguised as a boy, escaped her home in [[Lore:Darkmoor|Darkmoor]] with the stable boy named Straw, to the closest city of importance, Whiterun. After a few days, they found jobs as caravan guards and later traveled east to [[Lore:Riften|Riften]].{{Ref|name=BOB1|{{Cite Book|Biography of Barenziah, v 1}}}} 
+
+During the [[Lore:Imperial Simulacrum|Imperial Simulacrum]], the city-state of Whiterun was an active settlement. It was ruled by King Asgis and had a rivalry with [[Lore:Dawnstar|Dawnstar]] and [[Lore:Falcrenth|Falcrenth]].{{Ref|name=AR}} In the late Third Era, Whiterun and nearby [[Lore:Hrothgar|Hrothgar]] suffered through many calamities, including dynastic feuds, attacks by [[Lore:Hörme|Hörme]] bandits, and several disastrous winters. Locals attributed these events to [[Lore:Jsashe|Jsashe]], the leader of a local coven of [[Lore:Witches|witches]]. She was later exalted and named the Witch-Queen of Whiterun. Although she wielded power from across the county, her magic had not brought prosperity.{{Ref|name=PGE3|{{Cite Book|PGE|3|Skyrim}}}}
+{{NewLine}}
+
+===Jarl Balgruuf's reign and Onward===
+[[File:SR-npc-Balgruuf the Greater.jpg|thumb|left|Jarl Balgruuf the Greater]]
+[[File:SR-quest-Battle for Whiterun (Imperial) 02.jpg|thumb|right|The Battle of Whiterun]]
+By {{Year|4E 201}}, Whiterun was ruled by Jarl [[Lore:Balgruuf the Greater|Balgruuf the Greater]], who remained neutral in the ongoing [[Lore:Skyrim Civil War|Skyrim Civil War]] and held Whiterun's interest above either side.{{Ref|name=SRBalgruuf|[[Skyrim:Balgruuf the Greater|Balgruuf the Greater]]'s dialogue in ''[[Skyrim:Skyrim|Skyrim]]''}} As soldiers returned from the war severely injured, the disciples in the Temple of Kynareth worked tirelessly to heal them. Eventually, their duties as priests were overshadowed by their duties as healers. The Gildergreen was struck by lightning, but the priests’ work treating wounded soldiers left them little time to tend it, leaving it in a poor state. As a result, pilgrims came less often.{{Ref|name=SRDanica|[[Skyrim:Danica Pure-Spring|Danica Pure-Spring]]'s dialogue in ''[[Skyrim:Skyrim|Skyrim]]''}} 
+
+An adventurer offered to help revive the Gildergreen, so the Temple's lead priestess, Danica Pure-Spring, gave them a quest to retrieve [[Lore:Nettlebane|Nettlebane]] and siphon [[Lore:Eldergleam|Eldergleam]]'s sap to restore it. A Kynaran pilgrim named Maurice Jondrelle accompanied the adventurer to [[Lore:Eldergleam Sanctuary|Eldergleam Sanctuary]] and offered to instead bring a sapling to the temple. While the outcome is unknown, the Gildergreen site in Whiterun was restored.{{Ref|name=SRNature|[[Skyrim:The Blessings of Nature|The Blessings of Nature]] quest in ''[[Skyrim:Skyrim|Skyrim]]''}}
+
+The Companions of Jorrvaskr went through great change at the time. Having long since accepted [[Lore:Hircine|Hircine]]'s gift of [[Lore:Lycanthropy|lycanthropy]], the Companions were at war with the [[Lore:Silver Hand|Silver Hand]], a group of [[Lore:Werewolf|werewolf]] hunters. This all culminated in an assault on Jorrvaskr, where its harbinger, [[Lore:Kodlak Whitemane|Kodlak Whitemane]], was killed.{{Ref|name=SRBlood|[[Skyrim:Blood's Honor|Blood's Honor]] faction quest in ''[[Skyrim:Skyrim|Skyrim]]''}} His funeral was attended by many figures across Whiterun, such as Jarl Balgruuf and his court, and a pyre was burned on the Skyforge.{{Ref|name=SRGlory|[[Skyrim:Glory of the Dead|Glory of the Dead]] faction quest in ''[[Skyrim:Skyrim|Skyrim]]''}} Kodlak's honorable soul ignited its fires and gave it strength unseen in eras.{{Ref|name=SREorlund}} With its pieces recovered, the Skyforge's smith, [[Lore:Eorlund Gray-Mane|Eorlund Gray-Mane]], reforged [[Lore:Wuuthrad|Wuuthrad]].{{Ref|name=SRGlory}}
+
+Whiterun played a pivotal role in the [[Lore:Dragon Crisis|Dragon Crisis]]. After the [[Lore:Last Dragonborn|Last Dragonborn]] escaped the destruction in [[Lore:Helgen|Helgen]], they traveled to Whiterun to warn Jarl Balgruuf of the danger to [[Lore:Riverwood|Riverwood]] now that [[Lore:Dragon|dragons]] were loose.{{Ref|name=SRBefore|[[Skyrim:Before the Storm|Before the Storm]] story quest in ''[[Skyrim:Skyrim|Skyrim]]''}} From then on, the warrior assisted the Jarl, from recovering the [[Lore:Dragonstone|Dragonstone]] in [[Lore:Bleak Falls Barrow|Bleak Falls Barrow]],{{Ref|name=SRBleak|[[Skyrim:Bleak Falls Barrow (quest)|Bleak Falls Barrow]] story quest in ''[[Skyrim:Skyrim|Skyrim]]''}} to defeating the dragon [[Lore:Mirmulnir|Mirmulnir]] at the western watchtower. It was there that they learned of their true nature as Dragonborn.{{Ref|name=SRRising|[[Skyrim:Dragon Rising|Dragon Rising]] story quest in ''[[Skyrim:Skyrim|Skyrim]]''}} From then on, they traversed Skyrim on their quest to defeat the dragons and eventually enlisted the Jarl of Whiterun's help again. A plan was hatched to capture one of [[Lore:Alduin|Alduin]]'s allies, the dragon [[Lore:Odahviing|Odahviing]], by using Numinex's old prison in Dragonsreach. Though the Jarl required convincing, the plan was a success and the Last Dragonborn was guaranteed a ride to [[Lore:Skuldafn|Skuldafn]], for a final confrontation with Alduin in [[Lore:Sovngarde|Sovngarde]].{{Ref|name=SRFallen|[[Skyrim:The Fallen|The Fallen]] story quest in ''[[Skyrim:Skyrim|Skyrim]]''}}
+
+As the Skyrim Civil War escalated, Whiterun became a battleground between the factions. One of the Jarls, either Balgruuf or [[Lore:Ulfric Stormcloak|Ulfric Stormcloak]], leader of the [[Lore:Stormcloaks|Stormcloaks]], sent a war axe to communicate their decisions to the other. When it was rejected, the Stormcloaks and [[Lore:Imperial Legion|Imperial Legion]] gathered their forces for the Battle of Whiterun. General [[Lore:Tullius|Tullius]] sent soldiers led by Legate Quentin Cipius to protect Whiterun from the invading Stormcloaks.{{Ref|name=SRMessage|Message to Whiterun ([[Skyrim:Message to Whiterun (Imperial)|Imperial]]/[[Skyrim:Message to Whiterun (Stormcloaks)|Stormcloaks]]) faction quests in ''[[Skyrim:Skyrim|Skyrim]]''}} The Stormcloaks built their military camp across the river south of Whiterun and deployed [[Lore:Siege Weapons|siege weapons]] upon the city. Much of Whiterun was razed by fire and its citizens barricaded themselves in their homes. The Stormcloaks assaulted the city gates and the Gildergreen's monument was torn apart. While the victor is unknown, Whiterun resumed activity and the winning faction was one step closer to Skyrim's unification.{{Ref|name=SRBattle|Battle for Whiterun ([[Skyrim:Battle for Whiterun (Imperial)|Imperial]]/[[Skyrim:Battle for Whiterun (Stormcloaks)|Stormcloaks]]) faction quests in ''[[Skyrim:Skyrim|Skyrim]]''}}
+{{NewLine}}
+
+===Known Rulers===
+:''See this section in the following article: '''[[Lore:Whiterun Hold#Known Rulers|Whiterun Hold]]'''''
+{{NewLine}}
+
+==Culture and Society==
+[[File:SR-quest-The Blessings of Nature.jpg|thumb|left|The Gildergreen]]
+[[File:SR-banner-Whiterun.png|thumb|right|150px|Banner of Whiterun]]
+:''For more information, see the: '''[[Lore:Nord#Culture|Culture]]''' and '''[[Lore:Nord#Society|Society]]''' sections on the Nord page.''
+Whiterun is seen by many as the most "pure" Nordic city and its people live a simple yet harsh life that is rooted in tradition. The culture of Whiterun is what best exemplifies the meaning of being a "true Nord."{{Ref|name=SLEPG}}{{rp|847}} Whiterun's central location in Skyrim has made it the province's premier trading hub,{{Ref|name=SRLoad}} thus one of Skyrim's wealthiest cities. The hold at large is known as the province's breadbasket and contains numerous farms across its land.{{Ref|name=THOS}}{{Ref|name=COSWWE|{{Cite Book|Cheeses of Skyrim: Whiterun, Winterhold, Eastmarch}}}} The Companions are an order of mercenaries and warriors-for-hire,{{Ref|name=SRAela|[[Skyrim:Aela the Huntress|Aela the Huntress]]' dialogue in ''[[Skyrim:Skyrim|Skyrim]]''}} and they historically made Whiterun and Jorrvaskr their headquarters.{{Ref|name=NOS|{{Cite Book|Nords of Skyrim}}}}
+
+Whiterun's symbol is a [[Lore:Horse|horse]] and it is meant to symbolize freedom, and the people's nobility, strength, and loyalty. Two medallions featuring this symbol were forged in Jarl Rasman's time. Only one of these has been passed down between Jarls, while the other one is kept away.{{Ref|name=WHJL}} The Whiterun Windsteed is a breed of horse known for its steady temperament and gentle gaits, making them a perfect first mount for a novice horserider. It is a favorite among stablemasters.{{Ref|name=ONWindsteed|[[Online:Whiterun Windsteed|Whiterun Windsteed]] mount description in [[Online:Online|ESO]]}} The Bannered Mare in the Fourth Era was a favorite destination for travelers. Its story revolves around a horse that belonged to a Nordic king. When the king died in battle, his horse carried his banner, inspiring his warriors to victory and thus, inspiring the inn's name.{{Ref|name=SLEPG}}{{rp|848}}
+
+Two of the city's oldest families are the [[Lore:Battle-Born|Battle-Borns]] and the [[Lore:Gray-Mane|Gray-Manes]], who trace their lineage to Ysgramor's Companions.{{Ref|name=SRVignar}} The latter have been the mastersmiths of the Skyforge since the city's early days.{{Ref|name=SREorlund}} The Skyforge was what inspired Whiterun's founding, as it was discovered by Jeek of the River and his Companions, and inspired them to settle here. The true nature of this monument is unknown, including its original creators. From the ''[[Lore:Songs of the Return|Songs of the Return]]'', the elves feared its power and clearly, it drew from ancient magic as old as Nirn. It is theorized to have been some remnant of the [[Lore:Aedra|Aedra]]'s efforts to turn [[Lore:Mundus|Mundus]] into paradise, before [[Lore:Lorkhan|Lorkhan]]'s shattering in [[Lore:Convention|Convention]].{{Ref|name=SOTR7}}
+
+[[Lore:Steel|Skyforge Steel]] is the unique metal made from the Skyforge by Clan Gray-Mane. It is said that the [[Lore:Souls|souls]] of past [[Lore:Hero|heroes]] is what gives the steel its strength.{{Ref|name=SREorlund}} Many people from abroad, like [[Lore:Cyrodiil|Cyrodiil]] and [[Lore:High Rock|High Rock]] were in awe by its beauty and deadly power.{{Ref|name=NOS}} The [[Lore:Gildergreen|Gildergreen]] is a sacred tree of [[Lore:Kynareth|Kynareth]] in the city's Wind District. Having sensed its holiness, disciples of Kynareth have come from far and wide to hear the winds flow through its branches. It was originally grown from a cutting of the Eldergleam, an ancient tree supposedly from Atmora.{{Ref|name=SRDanica}}
+
+Whiterun is known to take anyone as a [[Lore:Thane|thane]].{{Ref|name=ONHolgunn|[[Online:Holgunn One-Eye|Holgunn One-Eye]]'s dialogue in [[Online:Online|ESO]]}} Once they are named a Thane of Whiterun, they receive a special item, a key to the city. It symbolizes their new role as guardian of the city. A rare, unique item kept in Whiterun's treasury are coins minted in Jarl Olaf One-Eye's reign to commemorate his victory over Numinex.{{Ref|name=WHJL}} The Windracers are a group of elite warriors who fight to defend Whiterun. They wear tattoos that represent the unity of purpose and fleetness of foot.{{Ref|name=ONWindBody|[[Online:Whiterun Windracer Body Markings|Whiterun Windracer Body Markings]] item description in [[Online:Online|ESO]]}} They also learn how to navigate the town during the night. After their first night battle, a member is rewarded with face markings that make note of their courage and skill.{{Ref|name=ONWindFace|[[Online:Whiterun Windracer Face Markings|Whiterun Windracer Face Markings]] item description in [[Online:Online|ESO]]}}
+
+Several songs and stories have origins in Whiterun. ''Ragnar the Red'' is a traditional song of Whiterun that despite its grim ending, is considered light and rollicking, and a favorite in inns all over Skyrim.{{Ref|name=SOSR|{{Cite Book|Songs of Skyrim: Revised}}}} The legend of the former Jarl of Whiterun, Olaf One-Eye and the dragon Numinex is one of the most celebrated stories in Skyrim. In his research into the legend, Fourth Era scholar Adonato Leotelli noted its theme of surpassing heroism, of a Nord warrior overcoming a terrifying adversary.{{Ref|name=OATD}}
+
+The ''Hounds of Black Moor'' is one of the earliest books in the popular [[Lore:Investigator Vale|Investigator Vale]] series and is considered instrumental in the series' large success. It revolves around a complicated dispute between two fictional families, involving crazed outsiders and alleged shapeshifters who attacked their livestock. The character eventually discovers the young court alchemist, Morhjartyr, had poisoned the jarl with a concoction that turned them into a werewolf. She follows the alchemist to his hideout, Black Moor Keep, where she tricks and knocks them both from the high walls, never to be seen again.{{Ref|name=MTCA}}
+
+The Chronicler-at-Large, Adandora, who has done extensive research on the supposed real Investigator Vale, Lady [[Lore:Arabelle Davaux|Arabelle Davaux]], learned that the events in the ''Hounds of Black Moor'' closely matched actual events in 2E 577, when an unnamed stranger resolved a conflict with the Battle-Borns and Gray-Manes, and led to the prosecution of Whiterun's court alchemist Arkasis. She also noted that this would correspond to an unexpected delay Arabelle Davaux experienced on her trip to [[Lore:Vvardenfell|Vvardenfell]]. All of Adandora's findings were documented in her book, ''Investigator Vale Does Not Cry Wolf: The Truth Behind the Hounds of Black Moor''.{{Ref|name=MTCA}}
+{{NewLine}}
+
+==Gallery==
+<gallery>
+File:AR-place-Whiterun.jpg|Whiterun<br>(Arena)
+File:SR-place-The Bannered Mare.jpg|The Bannered Mare<br>(Skyrim)
+File:SR-place-Hall of the Dead (Whiterun).jpg|The Hall of the Dead<br>(Skyrim)
+File:SR-npc-Whiterun Guard.jpg|Whiterun Guard<br>(Skyrim)
+File:ON-card-Whiterun Windracer Body Markings.png|Whiterun Windracer Body Markings<br>(ESO)
+File:ON-card-Whiterun Windracer Face Markings.png|Whiterun Windracer Face Markings<br>(ESO)
+File:ON-pet-Whiterun Wolfhound.jpg|A Whiterun Wolfhound<br>(ESO)
+File:ON-mount-Whiterun Windsteed.jpg|A Whiterun Windsteed<br>(ESO)
+File:ON-mount-Whiterun Mountain Charger.jpg|A Whiterun Mountain Charger<br>(ESO)
+File:ON-pet-Whiterun Mottled Goat.jpg|A Whiterun Mottled Goat<br>(ESO)
+File:BL-decoration-Whiterun Banner.jpg|Whiterun Banner<br>(Blades)
+File:BL-banner-WhiterunBanner.png|Whiterun Banner<br>(Blades)
+File:BL-banner-ImperialArenaWhiterunBanner.png|Imperial Arena Banner<br>(Blades)
+</gallery>
+
+===Miscellaneous===
+<gallery>
+File:LG-cardart-Whiterun Recruit.png|Whiterun Recruit<br>(Legends)
+File:LG-cardart-Whiterun Trooper.png|Whiterun Trooper<br>(Legends)
+File:LG-cardart-Whiterun Protector (Nord).png|Whiterun Protector - Nord<br>(Legends)
+File:LG-cardart-Whiterun Protector (Werewolf).png|Whiterun Protector - Werewolf<br>(Legends)
+File:SRMU-world-Whiterun.png|Whiterun <br>(Minecraft Skyrim Mash-up)
+File:SRMU-world-Dwemer ruin 1.png|[[Lore:Dwemer Ruins|Dwemer ruin]] buried beneath Dragonsreach <br>(Minecraft Skyrim Mash-up)
+</gallery>
+
+===Concept Art===
+<gallery>
+File:SR-concept-WhiterunCityTundra.jpg|Whiterun Tundra concept art (Skyrim)
+File:SR-concept-Whiterun Castle.jpg|Whiterun Castle concept art (Skyrim)
+File:GEN-misc-SkyrimCitiesWhiterun4.png|Whiterun concept map (Skyrim)
+File:SR-concept-Crystalline Throne.png|Throne of Whiterun concept art (Skyrim)
+</gallery>
+
+==Notes==
+*''[[Arena:Arena|Arena]]'' was originally conceived as a fighting game featuring a tournament that took the player to each of Tamriel's cities to challenge different gladiatorial teams. According to a file from that stage of development left behind in the final game, Whiterun's gladiatorial team would have been called "the Devastators".{{Ref|group=UOL|[http://www.imperial-library.info/content/go-blades Original TES: Arena texts at the Imperial Library]}}
+*In the ''[[General:Skyrim Mash-up|Skyrim Mash-Up Pack]]'' for ''Minecraft'', there is a secreted [[Lore:Dwemer Ruins|Dwarven Ruin]] beneath Dragonsreach that can only be accessed by digging downwards directly beneath the keep's balcony. It consists of one small room, a single chest containing a set of Dwarven Armor, as well as Dwarven doors and bars. The doors open onto a series of dead-end cavern tunnels.
+
+==See Also==
+*{{GSI|Arena:Whiterun|Skyrim:Whiterun}}
+===Books===
+*{{Book Link|A Gentleman's Guide to Whiterun}}
+*{{Book Link|Songs of the Return, Vol 7}}
+*{{Book Link|Whiterun Hold Jarl's Letter}}
+
+==References==
+<references/>
+{{UOL}}
+<references group=UOL/>
+</noinclude>

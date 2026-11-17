@@ -1,0 +1,159 @@
+{{Place Summary
+|type=Hold
+|image=SR-place-The Pale.jpg
+|imgdesc=The snow-covered pine forests of the Pale on a rare sunny day
+|description=A [[Skyrim:holds|hold]] in northern [[Lore:Skyrim|Skyrim]], with its capital in [[Skyrim:Dawnstar|Dawnstar]].
+|location=
+|region=
+|mapname=none
+|locationcode=none
+|respawn=skip
+|capital=[[Skyrim:Dawnstar|Dawnstar]]
+|palace=[[Skyrim:The White Hall|The White Hall]]
+|fort=[[Skyrim:Fort Dunstad|Fort Dunstad]]
+|affil=Stormcloaks
+|jarl_i=[[Skyrim:Brina Merilis|Brina Merilis]]
+|jarl_s=[[Skyrim:Skald|Skald]]
+|carl_i=[[Skyrim:Horik Halfhand|Horik Halfhand]]
+|carl_s=[[Skyrim:Jod|Jod]]
+}} It is initially affiliated with the [[Skyrim:Stormcloaks|Stormcloaks]], but can be captured by the [[Skyrim:Imperial Legion|Imperial Legion]] after completing [[Skyrim:A False Front (Imperial)|A False Front]] and [[Skyrim:The Battle for Fort Dunstad (Imperial)|The Battle for Fort Dunstad]]. It can also change sides as part of negotiations during [[Skyrim:Season Unending|Season Unending]].
+
+The Pale is sparsely populated, with safe places for travelers few and far between. The snowy terrain that makes up most of the hold is unsuitable for farming; however, the far southern edge, where not mountainous, is more hospitable.
+
+One of three entrances to [[Skyrim:Blackreach|Blackreach]] is in the depths of [[Skyrim:Raldbthar|Raldbthar]], a [[Skyrim:Dwarven Ruins|Dwarven ruin]] south of [[Skyrim:Lake Yorgrim|Lake Yorgrim]], the largest lake in the Pale. [[Skyrim:River Yorgrim|River Yorgrim]] flows from this lake.
+[[File:SR-map-The Pale.jpg|thumb|right|Map of the Pale]] [[File:SR-place-Dawnstar.jpg|thumb|right|Dawnstar, the hold capital]]
+{{NewLeft}}
+
+==Flora and Fauna==
+[[Skyrim:Snowberries|Snowberries]] thrive in the harsh, snow-covered environment, but the sturdy [[Skyrim:Blue Mountain Flower|blue]] and [[Skyrim:Purple Mountain Flower|purple]] variants of the mountain flower can also be found. Along the coast, [[Skyrim:Nordic Barnacle|Nordic barnacles]], [[Skyrim:Clam|clams]], and [[Skyrim:Spiky Grass|spiky grass]] dominate.
+
+[[Skyrim:Giant|Giants]] are common here, as are the usual denizens of the snow: [[Skyrim:Snowy Sabre Cat|sabre cats]], [[Skyrim:Wolf|wolves]], [[Skyrim:Ice Wraith|ice wraiths]], [[Skyrim:Troll|trolls]], and [[Skyrim:Frostbite Spider|frostbite spiders]].
+
+==[[Skyrim:Places|Places]]==
+All locations in the Pale with individual map markers are listed. There are a few places without map markers listed for their significance.
+
+===[[Skyrim:Cities|Hold Capital]]===
+* {{Place Link|Dawnstar}}
+
+===[[Skyrim:Settlements|Farms, Towns, and Settlements]] including [[Skyrim:Orc Strongholds|Orc Strongholds]] and [[Skyrim:Inns|Inns]]===
+* {{Place Link|Anga's Mill}}
+* {{Place Link|Dawnstar Sanctuary}}
+* {{Place Link|Hall of the Vigilant}}
+* {{Place Link|Heljarchen Hall}}
+* {{Place Link|Loreius Farm}}
+* {{Place Link|Nightgate Inn}}
+* {{Place Link|The Stumbling Sabrecat}}
+
+===[[Skyrim:Camps|Camps]], including [[Skyrim:Giant Camps|Giant Camps]] and [[Skyrim:Military Camps|Military Camps]]===
+* {{Place Link|Blizzard Rest}}
+* {{Place Link|Pale Imperial Camp}}
+* {{Place Link|Pale Stormcloak Camp}}
+* {{Place Link|Red Road Pass}}
+* {{Place Link|Stonehill Bluff}}
+* {{Place Link|Tumble Arch Pass}}
+
+===[[Skyrim:Caves|Caves]]===
+* {{Place Link|Bronze Water Cave}}
+* {{Place Link|Dimhollow Crypt}}
+* {{Place Link|Duskglow Crevice}}
+* {{Place Link|Forsaken Cave}}
+
+===[[Skyrim:Dragon Lairs|Dragon Lairs]]===
+* {{Place Link|Shearpoint}}
+
+===[[Skyrim:Ruins|Ruins]] including [[Skyrim:Dwarven Ruins|Dwarven]] and [[Skyrim:Nordic Ruins|Nordic]]===
+* {{Place Link|Blackreach}}
+* {{Place Link|Frostmere Crypt}}
+* {{Place Link|High Gate Ruins}}
+* {{Place Link|Hillgrund's Tomb}}
+* {{Place Link|Irkngthand}}
+* {{Place Link|Korvanjund}}
+* {{Place Link|Raldbthar}}
+* {{Place Link|Silverdrift Lair}}
+* {{Place Link|Tower of Mzark}}
+* {{Place Link|Volunruud}}
+* {{Place Link|Windward Ruins}}
+* {{Place Link|Yorgrim Overlook}}
+
+===[[Skyrim:Standing Stones|Standing Stones]] and [[Skyrim:Daedric Shrines|Daedric Shrines]]===
+* {{Place Link|Shrine of Mehrunes Dagon}}
+
+===[[Skyrim:Towers|Towers]] and [[Skyrim:Military Forts|Forts]]===
+* {{Place Link|Fort Dunstad}}
+* {{Place Link|Nightcaller Temple}}
+
+===[[Skyrim:Landmarks|Landmarks]], including [[Skyrim:Bodies of Water|Bodies of Water]], [[Skyrim:Clearings|Clearings]], [[Skyrim:Ships|Ships and Shipwrecks]]===
+* {{Place Link|Great Lift at Raldbthar}}
+* {{Place Link|Lake Yorgrim}}
+* {{Place Link|River Yorgrim}}
+* {{Place Link|Sea of Ghosts}}
+* {{Place Link|The Sea Squall}}
+* {{Place Link|Shrouded Grove}}
+* {{Place Link|Weynon Stones}}
+* {{Place Link|Wreck Of The Brinehammer}}
+
+===[[Skyrim:Unmarked Places|Unmarked Places]]===
+*There is one [[Skyrim:Dragon Mounds|Dragon Mound]] in the Pale.
+**East of the [[Skyrim:Pale Imperial Camp|Pale Imperial Camp]].
+*There is one [[Skyrim:Shrines|Shrine]] in the Pale.
+**A [[Skyrim:Shrine of Dibella|Shrine of Dibella]] east of [[Skyrim:Windward Ruins|Windward Ruins]].
+
+==The Pale Quests==
+Quests that are started in or related to the Pale (except for radiant quests begun in other holds) are listed here:
+
+===[[Skyrim:Main Quest|Main Quest]]===
+* {{Quest Link|Elder Knowledge}}
+* {{Quest Link|Alduin's Bane}}
+
+===[[Skyrim:Imperial Legion|Imperial Legion]] Civil War Quests===
+* {{Quest Link|Reunification of Skyrim}}
+* {{Quest Link|A False Front (Imperial)}}
+* {{Quest Link|The Battle for Fort Dunstad (Imperial)}}
+* {{Quest Link|The Jagged Crown (Imperial)}}
+
+===[[Skyrim:Stormcloaks|Stormcloaks]] Civil War Quests===
+* {{Quest Link|The Jagged Crown (Stormcloaks)}}
+
+===[[Skyrim:Daedric Quests|Daedric Quests]]===
+* {{Quest Link|Waking Nightmare}}
+* {{Quest Link|Pieces of the Past}}
+* {{Quest Link|Discerning the Transmundane}}
+
+===[[Skyrim:Dark Brotherhood|Dark Brotherhood]]===
+* {{Quest Link|Kill Beitild}}
+* {{Quest Link|The Cure for Madness}}
+* {{Quest Link|Where You Hang Your Enemy's Head...}}
+* {{Quest Link|The Dark Brotherhood Forever}}
+* {{Quest Link|Hail Sithis!}}
+* {{Quest Link|The Silence Has Been Broken}}
+* {{Quest Link|Delayed Burial}}
+* {{Quest Link|Recipe for Disaster}}
+
+===[[Skyrim:Thieves Guild (faction)|Thieves Guild]]===
+* {{Quest Link|Blindsighted}}
+
+===[[Skyrim:College of Winterhold (faction)|College of Winterhold]]===
+* {{Quest Link|Destruction Ritual Spell}}
+
+===[[Skyrim:Dawnguard|Dawnguard]]===
+* {{Quest Link|Awakening}}
+
+===[[Skyrim:Side Quests|Side Quests]]===
+* {{Quest Link|Kyne's Sacred Trials}}
+* {{Quest Link|The Pale Lady}}
+* {{Quest Link|Rise in the East}}
+* {{Quest Link|Repairing the Phial}}
+* {{Quest Link|A Scroll For Anska}}
+* {{Quest Link|The White Phial (quest)}}
+
+===[[Skyrim:Creation Club Quests|Creation Club Quests]]===
+* {{Quest Link|Brothers in Irons}}
+* {{Quest Link|The Gray Cowl of Nocturnal}}
+* {{Quest Link|Saturalia Preparation}}
+* {{Quest Link|Tilted Scales}}
+* {{Quest Link|Unholy Vigil}}
+
+===Other===
+In addition, many miscellaneous quests are located in the Pale. They are listed [[Skyrim:Miscellaneous Quests#The Pale|here]].
+
+{{Skyrim Holds}}

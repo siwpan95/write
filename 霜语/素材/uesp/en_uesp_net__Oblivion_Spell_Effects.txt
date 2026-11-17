@@ -1,0 +1,207 @@
+{{Trail|Magic}}
+{{TOCright}}
+The '''Base Cost''' values in this table can be used to determine the base cost of spells in the game, using the equation provided on the [[Oblivion:Spell Making|Spell Making]] page.  (Note, however, that a few built-in spells have arbitrary base costs that are not derived in this manner).
+
+The '''Barter Factor''' is the increase a Constant Effect enchantment gives to an object's value per magnitude of the effect. So a Fortify Blunt 10pts enchantment will increase the cost of the item by 1000. Effects without a magnitude, such as [[Oblivion:Night Eye|Night Eye]], [[Oblivion:Water Breathing|Water Breathing]], and [[Oblivion:Water Walking|Water Walking]], use a fixed magnitude of 5 for the calculation.
+
+Several other pages also provide information on the spells in [[Oblivion:Oblivion|Oblivion]]:
+* [[Oblivion:Magical Effects|Magical Effects]] provides details on these spell effects.
+* [[Oblivion:Spells|Spells]] lists all the built-in spells, sorted by school and mastery level
+* [[Oblivion:Leveled Spells|Leveled Spells]] lists the leveled spells that can be received on various quests.
+* [[Oblivion:List of Spells by Effect|List of Spells by Effect]] lists all the built-in spells, similar to [[Oblivion:Spells|Spells]] but sorted by effect.
+* See [[Oblivion:Magic|Magic]] for a comprehensive list of magic-related information.
+
+==School of [[Oblivion:Alteration|Alteration]]==
+
+{| class="wikitable sortable collapsible OBMagicAlt" style="width: 100%;"
+!scope="col" width="25%"|Effect Name
+!scope="col" width="10%"|Effect ID
+!scope="col" width="10%"|Base Cost
+!scope="col" width="10%"|Barter Factor
+!scope="col" width="45%" class=unsortable|Description
+{{/Effect Entry|Burden|OB-icon-Burden.png|Reduce the target's maximum [[Oblivion:encumbrance|encumbrance]].}}
+{{/Effect Entry|Feather|OB-icon-Feather.png|Increase the target's maximum encumbrance.}}
+{{/Effect Entry|Fire Shield|OB-icon-Fireshield.png|Creates a fire shield (armor points + fire resistance) around the target's body.}}
+{{/Effect Entry|Frost Shield|OB-icon-Frostshield.png|Creates a frost shield (armor points + frost resistance) around the target's body.}}
+{{/Effect Entry|Open|OB-icon-Unlock.png|Opens a locked container or door.<br>See [[Oblivion:Open|Open]] for point-to-difficulty conversion.<br>(Note that ''Open'' spells are always targeted, with several exceptions.)}}
+{{/Effect Entry|Shield|OB-icon-Shield.png|Creates a magical shield that contributes to target's armor rating.}}
+{{/Effect Entry|Shock Shield|OB-icon-Shockshield.png|Creates a shock shield (armor points + shock resistance) around the target's body.}}
+{{/Effect Entry|Water Breathing|OB-icon-Waterbreath.png|Lets the target breathe underwater.}}
+{{/Effect Entry|Water Walking|OB-icon-Waterwalk.png|Lets the target walk on water.}}
+|}
+
+==School of [[Oblivion:Conjuration|Conjuration]]==
+
+{| class="wikitable sortable collapsible OBMagicCon" style="width: 100%;"
+!scope="col" width="25%"|Effect Name
+!scope="col" width="10%"|Effect ID
+!scope="col" width="10%"|Base Cost
+!scope="col" width="10%"|Barter Factor
+!scope="col" width="45%" class=unsortable|Description
+{{/Effect Entry|Bound Boots|OB-icon-Boundarmor.png|Conjures a pair of Daedric Boots. (Light Armor)|id=BABO|cost=12.0|barter=0}}
+{{/Effect Entry|Bound Cuirass|OB-icon-Boundarmor.png|Conjures a Daedric Cuirass. (Heavy Armor)|id=BACU|cost=12.0|barter=0}}
+{{/Effect Entry|Bound Gauntlets|OB-icon-Boundarmor.png|Conjures a pair of Daedric Gauntlets. (Light Armor)|id=BAGA|cost=8.0|barter=0}}
+{{/Effect Entry|Bound Greaves|OB-icon-Boundarmor.png|Conjures a pair of Daedric Greaves. (Heavy Armor)|id=BAGR|cost=12.0|barter=0}}
+{{/Effect Entry|Bound Helmet|OB-icon-Boundarmor.png|Conjures a Daedric Helmet. (Light Armor)|id=BAHE|cost=12.0|barter=0}}
+{{/Effect Entry|Bound Shield|OB-icon-Boundarmor.png|Conjures a Daedric Shield. (Light Armor)|id=BASH|cost=18.0|barter=0}}
+{{/Effect Entry|Bound Axe|OB-icon-Boundweapon.png|Conjures a Daedric Axe. (Blunt One Hand, Speed: 1.1, Reach: 0.8, Damage: 18)|id=BWAX|cost=39.0|barter=0}}
+{{/Effect Entry|Bound Bow|OB-icon-Boundweapon.png|Conjures a Daedric Bow. (Marksmanship, Speed: 1.0, Damage: 15)|id=BWBO|cost=95.0|barter=0}}
+{{/Effect Entry|Bound Dagger|OB-icon-Boundweapon.png|Conjures a Daedric Dagger. (Blade One Hand, Speed: 1.4, Reach: 0.6, Damage: 13)|id=BWDA|cost=14.0|barter=0}}
+{{/Effect Entry|Bound Mace|OB-icon-Boundweapon.png|Conjures a Daedric Mace. (Blunt One Hand, Speed: 0.9, Reach: 1.0, Damage: 22)|id=BWMA|cost=91.0|barter=0}}
+{{/Effect Entry|Bound Sword|OB-icon-Boundweapon.png|Conjures a Daedric Claymore. (Blade Two Hand, Speed: 0.8, Reach: 1.3, Damage: 29)|id=BWSW|cost=235.0|barter=0}}
+{{/Effect Entry|Summon Rufio's Ghost|OB-icon-Summonghost.png|Summons Rufio's Ghost. (Used in a Dark Brotherhood quest.)|id=Z001|cost=13.0|barter=0|effectpage=Summon}}
+{{/Effect Entry|Summon Ancestor Guardian|OB-icon-Summonzombie.png|Summons Ancestor Guardian. ([[Oblivion:Dark Elf|Dunmer]] racial ability)|id=Z002|cost=33.3|barter=0|effectpage=Summon}}
+{{/Effect Entry|Summon Spiderling|OB-icon-Summonzombie.png|Summons Spiderling.  (Used by Spider Daedra)|id=Z003|cost=45.0|barter=0|effectpage=Summon}}
+{{/Effect Entry|Summon Bear|OB-icon-Summonzombie.png|Summons Bear.  (Used by Spriggans, available to the player with the [[Oblivion:Spell Tomes|Spell Tomes]] official plug-in.)|id=Z005|cost=47.3|barter=0|effectpage=Summon}}
+{{/Effect Entry|Summon Clannfear|OB-icon-Summonclannfear.png|Summons Clannfear.|id=ZCLA|cost=75.56|barter=0|effectpage=Summon}}
+{{/Effect Entry|Summon Daedroth|OB-icon-Summondaedroth.png|Summons Daedroth.|id=ZDAE|cost=123.33|barter=0|effectpage=Summon}}
+{{/Effect Entry|Summon Dremora|OB-icon-Summondremora.png|Summons Dremora.|id=ZDRE|cost=72.5|barter=0|effectpage=Summon}}
+{{/Effect Entry|Summon Dremora Lord|OB-icon-Summondremoralord.png|Summons Dremora Lord.|id=ZDRL|cost=157.14|barter=0|effectpage=Summon}}
+{{/Effect Entry|Summon Flame Atronach|OB-icon-Summonflameatronach.png|Summons Flame Atronach.|id=ZFIA|cost=45.0|barter=0|effectpage=Summon}}
+{{/Effect Entry|Summon Frost Atronach|OB-icon-Summonfrostatronach.png|Summons Frost Atronach.|id=ZFRA|cost=102.86|barter=0|effectpage=Summon}}
+{{/Effect Entry|Summon Ghost|OB-icon-Summonghost.png|Summons Ghost.|id=ZGHO|cost=22.0|barter=0|effectpage=Summon}}
+{{/Effect Entry|Summon Headless Zombie|OB-icon-Summonheadlesszombie.png|Summons Headless Zombie.|id=ZHDZ|cost=56.0|barter=0|effectpage=Summon}}
+{{/Effect Entry|Summon Lich|OB-icon-Summonlich.png|Summons Lich.|id=ZLIC|cost=350.0|barter=0|effectpage=Summon}}
+{{/Effect Entry|Summon Scamp|OB-icon-Summonscamp.png|Summons Scamp.|id=ZSCA|cost=30.0|barter=0|effectpage=Summon}}
+{{/Effect Entry|Summon Skeleton|OB-icon-Summonskeleton.png|Summons Skeleton.|id=ZSKE|cost=11.25|barter=0|effectpage=Summon}}
+{{/Effect Entry|Summon Skeleton Guardian|OB-icon-SummonSkeletonGuardian.png|Summons Skeleton Guardian.|id=ZSKA|cost=32.5|barter=0|effectpage=Summon}}
+{{/Effect Entry|Summon Skeleton Hero|OB-icon-Summonskeleton.png|Summons Skeleton Hero.|id=ZSKH|cost=66.0|barter=0|effectpage=Summon}}
+{{/Effect Entry|Summon Skeleton Champion|OB-icon-Summonskeleton.png|Summons Skeleton Champion.|id=ZSKC|cost=152.0|barter=0|effectpage=Summon}}
+{{/Effect Entry|Summon Spider Daedra|OB-icon-Summonspiderdaedra.png|Summons Spider Daedra.|id=ZSPD|cost=195.0|barter=0|effectpage=Summon}}
+{{/Effect Entry|Summon Storm Atronach|OB-icon-Summonatronach.png|Summons Storm Atronach.|id=ZSTA|cost=125.0|barter=0|effectpage=Summon}}
+{{/Effect Entry|Summon Faded Wraith|OB-icon-Summonfadedwraith.png|Summons Faded Wraith.|id=ZWRA|cost=87.5|barter=0|effectpage=Summon}}
+{{/Effect Entry|Summon Gloom Wraith|OB-icon-Summongloomwraith.png|Summons Gloom Wraith.|id=ZWRL|cost=260.0|barter=0|effectpage=Summon}}
+{{/Effect Entry|Summon Xivilai|OB-icon-Summonxivilai.png|Summons Xivilai.|id=ZXIV|cost=200.0|barter=0|effectpage=Summon}}
+{{/Effect Entry|Summon Zombie|OB-icon-Summonzombie.png|Summons Zombie.|id=ZZOM|cost=16.67|barter=0|effectpage=Summon}}
+{{/Effect Entry|Turn Undead|OB-icon-Turnundead.png|Decrease undead creature's Confidence (willingness to fight).}}
+|}
+
+==School of [[Oblivion:Destruction|Destruction]]==
+
+{| class="wikitable sortable collapsible OBMagicDes" style="width: 100%;"
+!scope="col" width="25%"|Effect Name
+!scope="col" width="10%"|Effect ID
+!scope="col" width="10%"|Base Cost
+!scope="col" width="10%"|Barter Factor
+!scope="col" width="45%" class=unsortable|Description
+{{/Effect Entry|Damage Attribute|OB-icon-Damage.png|Damages target's named [[Oblivion:Attributes|attribute]].}}
+{{/Effect Entry|Damage Fatigue|OB-icon-Damage.png|Damages target's [[Oblivion:Fatigue|Fatigue]].}}
+{{/Effect Entry|Damage Health|OB-icon-Damage.png|Damages target's [[Oblivion:Health|Health]].}}
+{{/Effect Entry|Damage Magicka|OB-icon-Damage.png|Damages target's [[Oblivion:Magicka|Magicka]].}}
+{{/Effect Entry|Disintegrate Armor|OB-icon-Disintegrate.png|Damage the Health of equipped armor.}}
+{{/Effect Entry|Disintegrate Weapon|OB-icon-Disintegrate.png|Damage the Health of an equipped weapon.}}
+{{/Effect Entry|Drain Attribute|OB-icon-Drain.png|Temporarily lowers target's named [[Oblivion:Attributes|attribute]].}}
+{{/Effect Entry|Drain Fatigue|OB-icon-Drain.png|Temporarily lowers target's [[Oblivion:Fatigue|Fatigue]].}}
+{{/Effect Entry|Drain Health|OB-icon-Drain.png|Temporarily lowers target's [[Oblivion:Health|Health]].}}
+{{/Effect Entry|Drain Magicka|OB-icon-Drain.png|Temporarily lowers target's [[Oblivion:Magicka|Magicka]].}}
+{{/Effect Entry|Drain Skill|OB-icon-Drain.png|Temporarily lowers target's named [[Oblivion:Skills|skill]].}}
+{{/Effect Entry|Fire Damage|OB-icon-Fire.png|Produce a manifestation of elemental fire.}}
+{{/Effect Entry|Frost Damage|OB-icon-Frost.png|Produce a manifestation of elemental frost.}}
+{{/Effect Entry|Shock Damage|OB-icon-Shock.png|Produce a manifestation of elemental shock.}}
+{{/Effect Entry|Weakness to Disease|OB-icon-Weakness.png|Decrease target's resistance to common disease.}}
+{{/Effect Entry|Weakness to Fire|OB-icon-Fire.png|Decrease target's resistance to elemental fire.}}
+{{/Effect Entry|Weakness to Frost|OB-icon-Frost.png|Decrease target's resistance to elemental frost.}}
+{{/Effect Entry|Weakness to Magic|OB-icon-Damage.png|Decrease target's resistance to magic.}}
+{{/Effect Entry|Weakness to Normal Weapons|OB-icon-Weakness.png|Decrease target's resistance to normal weapons.}}
+{{/Effect Entry|Weakness to Poison|OB-icon-Poisonweakness.png|Decrease target's resistance to poison.}}
+{{/Effect Entry|Weakness to Shock|OB-icon-Shock.png|Decrease target's resistance to elemental shock.}}
+|}
+
+==School of [[Oblivion:Illusion|Illusion]]==
+
+{| class="wikitable sortable collapsible OBMagicIll" style="width: 100%;"
+!scope="col" width="25%"|Effect Name
+!scope="col" width="10%"|Effect ID
+!scope="col" width="10%"|Base Cost
+!scope="col" width="10%"|Barter Factor
+!scope="col" width="45%" class=unsortable|Description
+{{/Effect Entry|Calm|OB-icon-Calm.png|Decrease target's Aggression (inclination to attack).}}
+{{/Effect Entry|Chameleon|OB-icon-Chameleon.png|Blend into the surroundings.  Similar to Invisibility, but not perfect, unless you use 100% Chameleon.  However, the effect stays if you attack or do another action.}}
+{{/Effect Entry|Charm|OB-icon-Charm.png|Increase target's disposition.}}
+{{/Effect Entry|Command Creature|OB-icon-Command.png|Make targeted creature fight for you.}}
+{{/Effect Entry|Command Humanoid|OB-icon-Command.png|Make targeted humanoid fight for you.}}
+{{/Effect Entry|Demoralize|OB-icon-Demoralize.png|Decrease target's Confidence (willingness to fight).}}
+{{/Effect Entry|Frenzy|OB-icon-Frenzy.png|Increase target's Aggression (inclination to attack).}}
+{{/Effect Entry|Invisibility|OB-icon-Invisibility.png|Makes the target invisible but not inaudible.  The effect dissipates if the target does anything but move e.g attack or pickpocket.}}
+{{/Effect Entry|Light|OB-icon-Light.png|Illuminates the target.}}
+{{/Effect Entry|Night-Eye|OB-icon-Nighteye.png|Ability to see in the dark.}}
+{{/Effect Entry|Paralyze|OB-icon-Paralyze.png|Render target unable to move.}}
+{{/Effect Entry|Rally|OB-icon-Rally.png|Increase target's Confidence (willingness to attack).}}
+{{/Effect Entry|Silence|OB-icon-Silence.png|Render target incapable of casting spells.}}
+|}
+
+==School of [[Oblivion:Mysticism|Mysticism]]==
+
+{| class="wikitable sortable collapsible OBMagicMys" style="width: 100%;"
+!scope="col" width="25%"|Effect Name
+!scope="col" width="10%"|Effect ID
+!scope="col" width="10%"|Base Cost
+!scope="col" width="10%"|Barter Factor
+!scope="col" width="45%" class=unsortable|Description
+{{/Effect Entry|Detect Life|OB-icon-Detectlife.png|Allows to see living things through solid objects.}}
+{{/Effect Entry|Dispel|OB-icon-Dispel.png|Remove Magicka-based spell effects from the target.}}
+{{/Effect Entry|Reflect Damage|OB-icon-Reflectdamage.png|Reflect any weapon damage back at the attacker.}}
+{{/Effect Entry|Reflect Spell|OB-icon-Reflectspell.png|Reflect any spell effect back at the caster.}}
+{{/Effect Entry|Soul Trap|OB-icon-Soultrap.png|Traps target's soul in the smallest possible soul gem.}}
+{{/Effect Entry|Spell Absorption|OB-icon-Absorbspell.png|Turns incoming spell's power into equal Magicka increase.}}
+{{/Effect Entry|Telekinesis|OB-icon-Telekinesis.png|Allows you to pick up an item from a distance.}}
+|}
+
+==School of [[Oblivion:Restoration|Restoration]]==
+
+{| class="wikitable sortable collapsible OBMagicRes" style="width: 100%;"
+!scope="col" width="25%"|Effect Name
+!scope="col" width="10%"|Effect ID
+!scope="col" width="10%"|Base Cost
+!scope="col" width="10%"|Barter Factor
+!scope="col" width="45%" class=unsortable|Description
+{{/Effect Entry|Absorb Attribute|OB-icon-Absorb.png|Transfer a portion of target's named [[Oblivion:Attributes|attribute]] to you.}}
+{{/Effect Entry|Absorb Fatigue|OB-icon-Absorb.png|Transfer a portion of target's [[Oblivion:Fatigue|Fatigue]] to you.}}
+{{/Effect Entry|Absorb Health|OB-icon-Absorb.png|Transfer a portion of target's [[Oblivion:Health|Health]] to you.}}
+{{/Effect Entry|Absorb Magicka|OB-icon-Absorb.png|Transfer a portion of target's [[Oblivion:Magicka|Magicka]] to you.}}
+{{/Effect Entry|Absorb Skill|OB-icon-Absorb.png|Transfer a portion of target's named [[Oblivion:Skills|skill]] to you.}}
+{{/Effect Entry|Cure Disease|OB-icon-Cure.png|Cures common disease.}}
+{{/Effect Entry|Cure Paralysis|OB-icon-Cure.png|Cures paralyzation.}}
+{{/Effect Entry|Cure Poison|OB-icon-Cure.png|Cures poisoning.}}
+{{/Effect Entry|Fortify Attribute|OB-icon-Fortify.png|Increase the value of target's named [[Oblivion:Attributes|attribute]].}}
+{{/Effect Entry|Fortify Fatigue|OB-icon-Fortify.png|Increase the value of target's [[Oblivion:Fatigue|Fatigue]].}}
+{{/Effect Entry|Fortify Health|OB-icon-Fortify.png|Increase the value of target's [[Oblivion:Health|Health]].}}
+{{/Effect Entry|Fortify Magicka|OB-icon-Fortify.png|Increase the value of target's [[Oblivion:Magicka|Magicka]].}}
+{{/Effect Entry|Fortify Skill|OB-icon-Fortify.png|Increase the value of target's named [[Oblivion:Skills|skill]].}}
+{{/Effect Entry|Resist Disease|OB-icon-Resist.png|Increase target's resistance to common disease.}}
+{{/Effect Entry|Resist Fire|OB-icon-Resist.png|Increase target's resistance to damage from elemental fire.}}
+{{/Effect Entry|Resist Frost|OB-icon-Resist.png|Increase target's resistance to damage from elemental frost.}}
+{{/Effect Entry|Resist Magic|OB-icon-Resist.png|Increase target's resistance to magic.}}
+{{/Effect Entry|Resist Normal Weapons|OB-icon-Resist.png|Increase target's resistance to damage from normal weapons.}}
+{{/Effect Entry|Resist Paralysis|OB-icon-Resist.png|Increase target's resistance to paralysis.}}
+{{/Effect Entry|Resist Poison|OB-icon-Resist.png|Increase target's resistance to damage from poison.}}
+{{/Effect Entry|Resist Shock|OB-icon-Resist.png|Increase target's resistance to damage from elemental shock.}}
+{{/Effect Entry|Restore Attribute|OB-icon-Restore.png|Restore target's named [[Oblivion:Attributes|attribute]].}}
+{{/Effect Entry|Restore Fatigue|OB-icon-Restore.png|Restore target's [[Oblivion:Fatigue|Fatigue]].}}
+{{/Effect Entry|Restore Health|OB-icon-Restore.png|Restore target's [[Oblivion:Health|Health]].}}
+{{/Effect Entry|Restore Magicka|OB-icon-Restore.png|Restore target's [[Oblivion:Magicka|Magicka]].}}
+|}
+
+==Special Spell Effects==
+Several of these effects are described in more detail on the individual effect pages; see links provided below.
+{|  class="wikitable sortable collapsible" style="width: 100%;"
+!scope="col" width="25%"|Effect Name
+!scope="col" width="10%"|Effect ID
+!scope="col" width="10%"|Base Cost
+!scope="col" width="10%"|Barter Factor
+!scope="col" width="45%" class=unsortable|Description
+{{/Effect Entry|Lock|OB-icon-Lock.png|The opposite of [[#Open|Open]]: locks a door, container, or other lockable item.  Effect was removed from the game.}}
+{{/Effect Entry|Script Effect|OB-icon-Burden.png|Used for numerous scripted spell effects}}
+{{/Effect Entry|Summon 20 Extra|OB-icon-Summonzombie.png|Unused summon effect.  Might be useful info for modders.|id=Z020|cost=0|barter=0|effectpage=Summon}}
+{{/Effect Entry|Summon Mythic Dawn Helmet|OB-icon-Summonfadedwraith.png|Used by [[Oblivion:Mythic Dawn Agents|Mythic Dawn Agents]]|id=MYHL|cost=110|barter=0|color=OBMagicCon|effectpage=}}
+{{/Effect Entry|Summon Mythic Dawn Armor|OB-icon-Summonfadedwraith.png|Used by [[Oblivion:Mythic Dawn Agents|Mythic Dawn Agents]]|id=MYTH|cost=120|barter=0|color=OBMagicCon|effectpage=}}
+{{/Effect Entry|Reanimate|OB-icon-Turnundead.png|Brings a dead NPC back to life, and allies them with the caster. Used by [[Oblivion:Staff of Worms|Staff of Worms]], and the [[Shivering:Magic#Risen Flesh|Risen Flesh]]{{SI}} Greater Power.}}
+{{/Effect Entry|Disease Info||Diseases will use data from this.|id=DISE|cost=0|barter=1|color=OBMagicDes|effectpage=}}
+{{/Effect Entry|Poison Info||Poisons will use data from this.|id=POSN|cost=0|barter=0|color=OBMagicDes|effectpage=}}
+{{/Effect Entry|Mehrunes Dagon Custom Effect||Seems to have a Damage Health effect, but is largely untested. Has no shader|id=DUMY|cost=0|barter=1|color=OBMagicDes|effectpage=}}
+{{/Effect Entry|Stunted Magicka|OB-icon-Stuntedmagicka.png|Result of [[Oblivion:The Atronach|the Atronach]] birthsign; can be acquired several other ways, too.}}
+{{/Effect Entry|Sun Damage|OB-icon-Sundamage.png|Side effect of Vampirism}}
+{{/Effect Entry|Vampirism|OB-icon-Vampirism.png|Seems to have something to do with your appearance change when playing a vampire (can be cast as a targeted spell: "Vampire Reward Spell", but disease "Porphyric Hemiphilia" effect is cast on self)|id=VAMP|cost=0|barter=0|color=OBMagicDes|effectpage=}}
+{{/Effect Entry|Darkness|OB-icon-Darkness.png|Not the opposite of [[#light|Light]]; instead, shrouds the target or the player in darkness, reducing the amount of light falling upon them. Removed from the game, with several warnings not to use it.}}
+{{/Effect Entry|Resist Water Damage||Increase target's resistance to damage by lava.}}
+|}

@@ -1,0 +1,75 @@
+<noinclude>{{Cleanup-srqrp
+|writtenBy=Multiple
+|checkedBy=
+|reward=Krusty
+|rewardChecked=RobinHood70
+}}</noinclude>{{About|the Imperial version of this mission|the Stormcloak version|Message to Whiterun (Stormcloaks)}}
+{{Quest Header
+|type=Imperial Legion
+|Giver=[[Skyrim:General Tullius|General Tullius]]
+|Reward=None
+|Disp=
+|Rep=
+|Prev=[[Skyrim:The Jagged Crown (Imperial)|The Jagged Crown]]
+|Conc=[[Skyrim:Dragon Rising|Dragon Rising]]
+|Next=[[Skyrim:Battle for Whiterun (Imperial)|Battle for Whiterun]]
+|Loc=[[Skyrim:Solitude|Solitude]], [[Skyrim:Whiterun|Whiterun]], [[Skyrim:Windhelm|Windhelm]]
+|Image=SR-quest-Message to Whiterun (Imperial).jpg
+|ImgDesc=Whiterun prepares for some excitement!
+|description=Deliver the message that will decide [[Skyrim:Whiterun|Whiterun]]'s allegiance.
+|ID=CW03
+|Icon=SR-qico-Imperial Legion.png
+}}
+
+==Quick Walkthrough==
+#Deliver a [[Skyrim:Message from General Tullius|message]] to the [[Skyrim:Balgruuf the Greater|Jarl of Whiterun]].
+#Wait for the [[Skyrim:Jarl|Jarl's]] response.
+#Deliver Balgruuf's axe to Jarl Ulfric.
+#Return to Whiterun and warn Jarl Balgruuf.
+#Report to [[Skyrim:Legate Quentin Cipius|Legate Quentin Cipius]].
+
+==Detailed Walkthrough== 
+===Deliver the message===
+[[Skyrim:General Tullius|General Tullius]], as strong military intelligence suggests, is worried that the [[Skyrim:Stormcloaks|Stormcloaks]]' next move might be on the pearl of Skyrim, [[Skyrim:Whiterun|Whiterun]]. He wants the Legion to be part of the defense and will hand you a [[Skyrim:Quest Items#Message from General Tullius|message]] for its Jarl, [[Skyrim:Balgruuf the Greater|Balgruuf the Greater]], offering Imperial military support against a potential attack, in exchange for the breaking of Whiterun's ambiguous political position on the [[Skyrim:Civil War|Civil War]] in favor of the [[Skyrim:Imperial Legion|Empire]]. He needs someone he can trust to deliver it and sets you up to the task. Now you may travel to Whiterun and make your way up to [[SR:Dragonsreach|Dragonsreach]], the Jarl's residence, and speak to him to hand over the message. 
+===Peace seeking===
+Jarl Barlgruuf will initially be reluctant to accept Imperial aid, as any political stance would probably offend one of the two factions, meaning "war" for his city and his people. As last resort, to communicate to the leader of the Stormcloaks and Jarl of [[Skyrim:Windhelm|Windhelm]], [[Skyrim:Ulfric Stormcloak|Ulfric Stormcloak]], according to the [[Skyrim:Nord|Nord]] tradition, offering his [[Skyrim:Quest Items#Balguuf's War Axe|axe]] for him to keep, as a symbol of peace between them, and it's up to you to deliver it. As the smart man he is, Balgruuf will simultaneously write a letter to General Tullius, to settle the terms of his eventual allegiance to the Empire and the Legionnaires presence in the hold.
+
+===War it is===
+In keeping with your role as courier, you may now travel to the city of Windhelm, and the [[SR:Palace of the Kings|Palace of the Kings]] to talk to Ulfric. Upon meeting you, he will be impressed by your courage in making the delivery, but will tell you to return the axe, adding that Jarl Balgruuf "''should prepare to entertain... visitors''". As Ulfric subtly projects his military plans of invading Whiterun, you may go back to Dragonsreach carrying the bad news to warn the Jarl, who will downheartedly take back the axe and resume setting up the defenses with fresh Imperial forces.
+
+Speaking to the newly appointed Whiterun Imperial Officer, [[Skyrim:Legate Quentin Cipius|Legate Quentin Cipius]], will reveal that the enemy is already on the move, and he will urge you to rush down to the gates to defend the city, prompting the next quest: [[Skyrim:Battle for Whiterun (Imperial)|Battle for Whiterun]].
+
+==Notes==
+*Balgruuf will not agree to read the message before [[Skyrim:Dragon_Rising|Dragon Rising]] has been completed.
+*If you are on [[Skyrim:The World-Eater's Eyrie|The World-Eater's Eyrie]] quest and [[Skyrim:Odahviing|Odahviing]] is still in Dragonsreach, you will not be able to deliver the message to Jarl Balgruuf.
+*If you have a bounty in Whiterun, Legate Cipius will attempt to arrest you when you report to him.  It would be a good idea to clear your bounty before reporting to Legate Cipius.
+*Balgruuf's War Axe can be kept by instead speaking directly to Legate Cipius rather than Balgruuf. The next quest will begin with the axe still in your inventory, no longer a quest item.
+
+==Bugs==
+{{Bug|On your return to Dragonsreach with the axe, NPCs other than the Jarl may start dialogues with you and ask for your immediate assistance in fending off the Stormcloak attack. If you do so without speaking to Balgruuf, the journal entry "''Return to Whiterun and warn the Jarl''" may never disappear.|confirmed=1}}
+**{{pc22}}You can fix this with the console command <code>player.setobjectivecompleted cwpostwhiterunobj 1 1</code>.
+{{Bug|When Jarl Balgruuf and Proventus discuss Tullius's message, they may stop talking, leaving you unable to continue. Loading a previous save should fix this.|confirmed=1}}
+{{Bug|This quest may fail to even start after giving Tullius the Crown and receiving the appropriate dialogue.|confirmed=1}}
+**{{pc22}}You can fix this with the console command <code>setstage cw03 10</code>. However, sometimes this may fill the console with values instead of starting the quest, in which case you can restart your game and re-enter this console command and the quest will begin.
+{{Bug|Legate Quentin Ciprius may not talk to you when you return the axe to Whiterun.|confirmed=1}}
+**This might be fixed by exiting and re-entering Dragonsreach.
+{{Bug|Balgruuf and Legate Cipius will continue their scene without completing the quest objective when returning Balgruuf's axe. The dialogue where the axe is returned can be rushed through and miss the script call to advance the quest. This is due to it using an onEnd block instead of an onBegin block when speaking to Balgruuf.|USSEP|4.3.7}}
+{{Bug|Progressing through Season Unending while Message to Whiterun is active is not possible, see page for [[Skyrim: Season Unending|Season Unending]] for more details and workarounds.|OSP|1.4}}
+
+==Quest Stages==
+Only stages and objectives relevant to the Imperial version of this quest are included in the table.
+{{Journal Entries
+|10||I am to deliver a message to the Jarl of Whiterun. It is time for him to pick a side in the war.
+{{Quest Objective|10|Deliver message to the Jarl of Whiterun}}
+|16||{{Quest Objective|16|Assist Jarl Balgruuf with the dragon threat}}
+|20||{{Quest Objective|20|Wait for the Jarl's response}}
+|50||The Jarl of Whiterun has sided with the Empire. I am to inform Jarl Ulfric Stormcloak of this decision.
+{{Quest Objective|50|Deliver axe to Jarl Ulfric}}
+|100||Ulfric plans to make war on Whiterun. I should return and warn the Jarl.
+{{Quest Objective|100|Return to Whiterun and warn the Jarl}}
+|150||{{Quest Objective|150|Report to Legate Quentin Cipius}}
+|210|fin|
+|255|fin|{{VN|Unused?}}
+|missing=1, 2, 15, 30, 40, 199, 200, 230
+}}
+{{Skyrim Quest Stages Notes}}

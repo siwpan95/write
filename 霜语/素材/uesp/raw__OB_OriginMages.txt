@@ -1,0 +1,10 @@
+{{Game Book
+|icon=OB-icon-book-Book5.png
+|id=0002458f
+|value=70
+|weight=1.0
+|loc=*[[Oblivion:Anvil Mages Guild|Anvil Mages Guild]] Living Quarters
+*[[Oblivion:Chorrol Mages Guild|Chorrol Mages Guild]] First Floor
+*Chorrol Mages Guild Living Quarters
+*[[Oblivion:Leyawiin Mages Guild|Leyawiin Mages Guild]] Private Quarters
+}}

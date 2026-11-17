@@ -1,0 +1,96 @@
+{{Place Summary
+|type=Nordic Ruin
+|marker_id=Nordic Ruin
+|zones=2
+|clearable=No
+|dungeon=Yes
+|respawn=Never
+|level=Min: 6
+|occupants=[[Skyrim:Bandit|Bandits]], [[Skyrim:Warlock|Warlocks]], [[Skyrim:Draugr|Draugr]], [[Skyrim:Skeleton|Skeletons]], [[Skyrim:Frostbite Spider|Frostbite Spiders]]
+|treasure=''[[Skyrim:Mystery of Talara, v 2|Mystery of Talara, v 2]]''
+|locationcode=UstengravExterior01, Ustengrav01, Ustengrav02
+|region=Hjaalmarch
+|location=Northeast of [[Skyrim:Morthal|Morthal]]<br>South of [[Skyrim:High Gate Ruins|High Gate Ruins]]
+|wordwall=[[Skyrim:Become Ethereal|Become Ethereal]]
+|enchanting=1
+|oretype=Corundum
+|orenum=2
+|oretype2=Iron
+|orenum2=1
+|oretype3=Silver
+|orenum3=1
+|image=SR-place-Ustengrav.jpg
+|imgdesc=Ustengrav
+|description=A medium-sized [[Skyrim:Nordic Ruins|Nordic ruin]] northeast of [[Skyrim:Morthal|Morthal]] containing [[Skyrim:Bandit|bandits]], [[Skyrim:Warlock|warlocks]], [[Skyrim:Draugr|draugr]], [[Skyrim:Skeleton|skeletons]], and [[Skyrim:Frostbite Spider|frostbite spiders]].
+|addbelow=It contains two zones: ''[[#Ustengrav|Ustengrav]]'' and ''[[#Ustengrav Depths|Ustengrav Depths]]''.
+}} [[Category:Skyrim-Places-Bandit Camps]] 
+Its [[Skyrim:Word Wall|word wall]] teaches part of the [[Skyrim:Become Ethereal|Become Ethereal]] [[Skyrim:Dragon Shouts|dragon shout]]. Bandits have occupied the ruins and set up a camp outside the entrance. However, warlocks have tried to occupy the ruin, resulting in many casualties between the rival groups. The ongoing battles have alerted the sleeping draugr, who have engaged with both groups. Most of the ruin will be inaccessible before the quest [[Skyrim:The Horn of Jurgen Windcaller|The Horn of Jurgen Windcaller]]; if the ruin is entered prior to this quest, bandits and warlocks will be engaged in battle in the first main chamber, the exit from which will be blocked.
+
+{{NewLeft}}
+==Related Quests==
+*{{Quest Link|Bandit Attack}}
+*{{Quest Link|The Horn of Jurgen Windcaller}}
+
+==Walkthrough==
+===Exterior===
+There are two bandits outside by the camp, and the corpses of two more can be found nearby: one by the campfire, and one slightly north of the fire. When you first approach the campsite, the living bandits are already zombies of a [[Skyrim:Necromancer|necromancer]], who will likely also raise one of the [[Skyrim:Bandit (dead)|dead bandits]]. If you kill the necromancer, the living bandits will die automatically.
+
+The camp itself consists of two bedrolls (one under a lean-to shelter), a woodpile with a woodcutter's axe nearby, a bucket, and a tankard on a rock. There are four [[Skyrim:Deathbell|deathbell]] plants growing alongside the rough path from the lake. Inside the barrow mound is another dead bandit, an unlocked [[Skyrim:Chest|chest]], a shovel, a few sacks, and a barrel with two bottles of [[Skyrim:Skooma|skooma]] on it.
+
+===Ustengrav===
+There is a dead bandit to the right as you enter the ruin, and human bones to the left with an iron weapon among the bones. There is another dead bandit near the bottom of the stairs ahead. There is a dead bandit by the pillar in the middle of the first room, and another at the far side; both are liable to be reanimated by warlocks during any fight. All of the remaining living bandits are zombies of a [[Skyrim:High Elf|High Elf]] necromancer. If you remain hidden, shortly after you arrive, these enemies will head deeper into the ruin. 
+
+To the left of the entrance to the large chamber is a platform with a [[Skyrim:Containers#Draugr|dead draugr]], a [[Skyrim:Potion of Minor Healing|potion of minor healing]], and a random potion. In the area with the warlocks is a table and a chest. On the table is a potion of minor healing, a loaf of [[Skyrim:Bread|bread]], a [[Skyrim:Gourd|gourd]], an [[Skyrim:Iron Sword|iron sword]], an [[Skyrim:Iron Dagger|iron dagger]], and two random books. The path continues to the north of the table.
+
+Along the path are three dead warlocks and a draugr. The tunnel opens to a short corridor occupied by four draugr; another two warlocks have engaged in a fight with them. There is also a [[Skyrim:Spellcaster Trap|spellcaster trap]] to the left. In the first alcove to the right by the brazier are two potions of minor healing. Through the door to the left are two rooms filled with urns, one to the west and one to the northeast. The {{Anchor|western room|Secret Room}} contains six intact [[Skyrim:Urn|urns]], one [[Skyrim:Burial Urn|burial urn]], one broken urn, a chest, and a potion of minor healing. In the broken urn are two additional potions. The northeastern room contains twelve intact urns, two burial urns, a [[Skyrim:Canis Root|canis root]], a [[Skyrim:Chaurus Eggs|chaurus egg]] (inside a [[Skyrim:Cast Iron Pot|cast iron pot]]), a potion of minor healing, a [[Skyrim:Potion of Health|potion of health]], a [[Skyrim:Draught of the Healer|draught of the healer]], and a copy of the [[Skyrim:Restoration|Restoration]] [[Skyrim:Skill Books|skill book]] ''[[Skyrim:Mystery of Talara, v 2|Mystery of Talara, v 2]]''.
+
+Continuing east then south along the path, there is a partially hidden staircase to the right just before the next large room. There is a table in the room down the stairs holding eighteen loose gold coins and a random ancient Nord weapon. To the left of the table on the wall is a partially hidden pull chain, which reveals a secret passageway ending in a room with a chest.
+
+The last room in the zone consists of a narrow, two-level main chamber with an overlooking balcony. A draugr will burst from its sarcophagus to the right as you enter, while another already patrols the far side of the room. Another slumbering draugr is between the two active ones, and a dead draugr lies by the first of three alcoves on the right. There is an iron battleaxe by the middle alcove, and an iron helmet by the last alcove. The stairs up to the balcony are at the far end of the room, and there is a chest, two potions of minor healing, and a random potion. A stone bridge leads to the door to ''Ustengrav Depths''. In the corner before the final steps down to the door is a petty soul gem, and there is a large coin purse by the door.
+
+===Ustengrav Depths===
+[[File:SR-place-Ustengrav Depths.jpg|thumb|c|right|The depths]]
+As you descend the stairs into the depths of the ruin, there is a hole in the wall to the right providing a view of the main chamber, with an iron sword on the floor nearby. Farther down the stairs, where the wall opens to reveal another view of the main chamber, is a patrolling draugr. An ancient Nord bow lies near a lantern and a spent brazier. On a rocky ledge just over the wall that the lantern sits upon is a leveled shield. Take precaution, as it is somewhat difficult to get back if you choose to retrieve the shield. This is a good spot to ambush the skeletons that patrol the main chamber with long-range attacks.
+
+Down the stairs to the south is an [[Skyrim:Iron Ore Vein|iron ore vein]] on the southwest wall. The path forward is to the left of the vein, but is trapped. There are four pressure plates on the ground, two of which are [[Skyrim:Flame Spout Trap|flame spout traps]]. The traps can be safely bypassed by staying to the left, as only the two right-hand plates are traps. Farther along, the path is blocked by some rubble. The path forward is to the east, where the tunnel opens to a stone bridge over a feasting hall.
+
+Two draugr patrol the area: one in the main area, and another on another stone bridge on the other side of the room. Across the bridge are some stairs leading in a rough circle down to the level below. This level of the room contains a table to the right of the lower entrance, five stone tables along the left-hand side of the raised platform ahead, two tables to the right in front of a throne, and one more table and an urn on the other side of the platform. Along with three loaves of bread and two [[Skyrim:Grilled Leeks|grilled leeks]], the five tables to the left hold a [[Skyrim:Charred Skeever Hide|charred skeever hide]], a branch of [[Skyrim:Lavender|lavender]], some [[Skyrim:Jazbay Grapes|jazbay grapes]], and a [[Skyrim:Purple Mountain Flower|purple mountain flower]]. There are several cheeses on the tables by the throne, and a sheaf of [[Skyrim:Wheat|wheat]] is on the far table. It is entirely possible to avoid the first draugr here. There is a room to the east running the length of the main room, with doors on either side. There is a chest and two potions of minor healing in this eastern room.
+
+After climbing stairs exiting the lower level to the south, then crossing the other bridge, the path returns to the tunnel on the other side of the blockage. The next room looks rather bare, but to the left is a small room. The entrance to the small room is blocked by two gates, which are raised by two separate handles. One handle is beside the gates, but the other is beside a sarcophagus to the west of the gates. Alternatively, there is a chain behind the first gate that you can reach through the gate to activate. Upon approaching the sarcophagus, a draugr will awaken, while another awakens from another sarcophagus to the north; there is also a third dead draugr that by the third sarcophagus. There is an [[Skyrim:Oil Slick|oil slick]] between the sarcophagi that can be used to deal damage to the draugr. The small room contains an [[Skyrim:Arcane Enchanters|arcane enchanter]], a random dagger, some ruined books, a chest, a potion of healing, an empty soul gem, and a random potion. Returning to the main room, through the tunnel to the west and up the stairs to the left is a table with a troll skull, some ruined books, and a poison. The path continues north from here.
+
+[[File:SR-quest-The Horn of Jurgen Windcaller 3.jpg|thumb|right|Patrolling skeletons]]
+The tunnel opens to a ledge in the main chamber. There is a stone path heading left that has collapsed and leads down to the main room. Three skeletons patrol this open chamber, and another two patrol a raised walkway along the south and west walls. There is one last skeleton sitting in the throne in the northwest corner; it will awaken if it detects any non-skeletons. There are pedestals to either side of the throne, each with a random potion. The stairs up to the walkway are to the left of the entrance in the room's southwest corner, and at the top is a flame spout trap. A dead draugr lies across the trap, leaving it in a state of perpetual activation. There are seven tiles on the ground by the trap, and the safe path is straight through the middle. Immediately after passing the trap, along the wall to the left and behind some rubble is a chest. Farther along is a small alcove to the left with a troll skull, a petty soul gem, a garnet, and a flawless garnet. At the end of the walkway, you can see a chest in a chamber blocked by rubble; there is an unorthodox way to reach it. By the first stone pillar are a series of pillars that were once connected to lead across the chamber, but the walkways between them have collapsed. The key to accessing the blocked chamber is the [[Skyrim:Whirlwind Sprint|Whirlwind Sprint]] shout. The broken parts still point to each other, and careful use of the shout allows the gaps to be crossed. The chamber contains the chest, a dead draugr, and a lesser soul gem.
+
+Just to the left of the bottom of the entrance pillar, there is a dirt path along the wall that leads southeast to a [[Skyrim:Corundum Ore Vein|corundum ore vein]]. Note that it is very difficult to return up the path after this point. Dropping from the ledge past the vein, at the bottom and to the left is a well-lit alcove, with a chest, a random potion, and a potion of minor healing. To the northeast is another corundum ore vein on the same level, while from the alcove, along some descending ledges to the north and past a dead draugr, is a [[Skyrim:Silver Ore Vein|silver ore vein]], with another dead draugr around the corner after the vein. The word wall to the east should now be clearly visible. Before approaching the wall, there is a secret room behind the nearby waterfall. This small treasure room contains a chest and a random sword, and is guarded by a slumbering draugr. The word wall teaches a word for the Become Ethereal shout.
+
+[[File:SR-trap-Glowing_Stones.jpg|thumb|left|Speed is of the essence]]
+There is a dirt path behind the word wall that circles back up to the throne chamber. The earthen bridge to the east leads to the final part of the large main chamber. Three [[Skyrim:Glowing Stones|stone posts]] stand in a triangle, with a series of closed gates straight ahead. A skeleton patrols a balcony above and to the right, with two burial urns and a potion of minor healing on the balcony. To the left of the stones lies a dead draugr and a potion of minor magicka amid some rubble. This puzzle requires speed to solve, literally. Each stone activates one of the three gates blocking the path ahead, but on a timer. It is impossible to sprint through the stones and the gates. The Whirlwind Sprint shout needs to be used, but only once you have sprinted through all three stones. Between the first two gates are pull chains to open the preceding gates.
+
+At the top of the stairs past the gates is a room with the entire floor covered in flame spout traps. However, none of the pressure plates on the raised section ahead work. The area may be passed safely by proceeding straight ahead, jumping over the piles of rubble into the next room, moving to the left, then jumping across to a small set of steps. This next room contains two frostbite spiders and a giant frostbite spider that drops from the ceiling, as well as three [[Skyrim:Egg Sac|spider egg sacs]]. The exit to the east is blocked by two thick spider webs. There is a ledge above the exit that is accessible by a series of jumps using the wooden beams along the walls, but there is nothing on the ledge.
+
+[[File:SR-quest-The Horn of Jurgen Windcaller.jpg|thumb|right|The statues]]
+Beyond the exit, a short tunnel past a door leads to a closed gate. A pull chain to the left activates the gate, with another to the right on the other side. Passing the pillars causes four large stone statues to emerge from the water on either side of the room. This is the resting place of [[Lore:Jurgen Windcaller|Jurgen Windcaller]]. There are two burial urns in front of the coffin, and a [[Skyrim:Mysterious Note (Delphine)|mysterious note]] in the stone hand at the top of the coffin. There are two sarcophagi, one on either side of the coffin, with a dead draugr lying outside each. Behind the coffin is an urn and a door. Through the door is a room filled with six more urns, two burial urns, a chest, and twenty-four loose gold coins scattered near the chest. To the left is a tunnel leading up to a door back to ''Ustengrav''. Farther up the tunnel, a lever opens a secret door to the [[#Secret Room|western urn room]] found shortly after the main chamber.
+
+==Notes==
+* When passing through the stone posts puzzle, it is possible to use the Whirlwind Sprint shout twice in a row in quick succession.
+* The resurrected bandits here were originally intended to be named "Cursed Bandit". The unused message <code>CursedBanditName</code> would've applied this name, and the script <code>QF_dunUstengravQST_0002125B </code> refers to them as such, although in the final game they're just normal bandits without any unique characteristics.
+* The dead bandits and mages inside will never respawn or despawn, making them excellent targets to raise as [[Skyrim:Dead Thrall|thralls]].
+* If you return to Jurgen Windcaller's coffin after completing The Horn of Jurgen Windcaller, you can activate it to release a dragon soul.
+* With the ''[[Skyrim:Hearthfire|Hearthfire]]'' add-on installed, you can find [[Skyrim:Windstad Manor|Windstad Manor]] north of here.
+
+==Bugs==
+{{Bug|The frostbite spiders in the room before the giant frostbite spider may get stuck in the walls.|confirmed=1}}
+** Disturbing the desiccated corpse on the ledge to the right will make them emerge.
+{{Bug|The three puzzle gates in ''Ustengrav Depths'' are supposed to stay open after you have sprinted through, but may not.|confirmed=1}}
+** Waiting an hour once through the gates will teleport [[Skyrim:Followers|followers]] to your side.
+** {{Pc22}} You can get through using the [[Skyrim:Console|console]] command <code>tcl</code>, but this doesn't help followers. There are pull chains that can be activated on the other side of two of the gates. Through the console, you can also use the follower's [[Skyrim:Form ID|reference ID]] and the <code>moveto player</code> command to move your follower to your location, should they get stuck on the other side.
+** {{Xbox22}} The puzzle gates can be tricked into staying open if you're quick enough to enter and exit each of the three stones' activation ranges, making them stay active.
+{{Bug|The Horn of Jurgen Windcaller, if you return to Ustengrav, appears hovering well above its placement on the tomb due to an animation block on the mesh that wasn't supposed to be there.|USKP|1.3.1}}
+{{Bug|Scenes in the first large chamber where the necromancers are supposed to be tending the bandit thralls would be disrupted in which a necromancer attacks two bandits who are mining and stay idle (or do the mining animation) without fighting back. This is because the trigger to start the quest which holds the aliases that should pacify them is inside the dungeon and doesn't generally have enough time to run its script before the AI decides to attack each other.|USKP|2.0.4|The trigger box has now been moved to the outside of the dungeon so that the quest will be started and the pacification aliases will be properly filled before you enter.}}
+{{Bug|The bandits and necromancer outside of the dungeon respawn despite it being classed as a "no reset zone".|USKP|2.1.2}}
+
+==Maps==
+<gallery>
+File:SR-map-Ustengrav.jpg|Ustengrav
+File:SR-map-Ustengrav Depths.jpg|Ustengrav Depths
+</gallery>

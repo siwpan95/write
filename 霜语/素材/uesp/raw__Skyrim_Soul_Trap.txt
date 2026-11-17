@@ -1,0 +1,6 @@
+'''Soul Trap''' can refer to two things:
+
+* [[Skyrim:Soul Trap (effect)|Soul Trap (effect)]], a magical effect in the Conjuration school
+* [[Skyrim:Soul Trap (spell)|Soul Trap (spell)]], a spell using that effect
+
+{{disambig}}

@@ -1,0 +1,77 @@
+{{NPC Summary
+|essential=
+|city=[[Skyrim:Riften|Riften]]
+|loc=[[Skyrim:Hall of the Dead (Riften)|Hall of the Dead]]
+|race=Imperial
+|gender=Female
+|class=Priest
+|faction={{Faction|CrimeFactionRift}}; {{Faction|TownRiftenFaction}}
+|refid=00019DD9
+|baseid=00013347
+|image=SR-npc-Alessandra.jpg
+|imgdesc=Alessandra
+|skills='''[[Skyrim:Restoration|Restoration]]''', '''[[Skyrim:Speech|Speech]]''', [[Skyrim:Alchemy|Alchemy]], [[Skyrim:Conjuration|Conjuration]], [[Skyrim:Enchanting|Enchanting]], [[Skyrim:Smithing|Smithing]]
+|aggress=Unaggressive
+|level=10
+|moral=Any Crime
+|health=125
+|magicka=50
+|stamina=110
+|voicetype=FemaleEvenToned
+}}[[File:SR-npc-Alessandra_02.jpg|thumb|right|''"This is all I know how to do... prepare and inter the deceased."'']]
+'''Alessandra''' is an [[Skyrim:Imperial|Imperial]] [[Skyrim:Priest|priestess]] of [[Lore:Arkay|Arkay]], who is solely and bitterly responsible for tending to [[Skyrim:Riften|Riften]]'s [[Skyrim:Hall of the Dead (Riften)|Hall of the Dead]]. She is quite uncomfortable about her line of work, due to some unfinished business in the past. During the [[Skyrim:Pilgrimage|related quest]] she will ask you to sort things out and give her inner peace.
+
+She spends all day surrounded by the dead. She wakes up at 7am and starts the day with a one-hour breakfast. She will then work for twelve hours, mostly tending to the body of a dead [[Skyrim:Nord (dead)#Nord2|Nord]] on the table. At 7pm she takes a quick one-hour dinner, then proceeds to work until her bedtime at midnight.  She sleeps in a room in the adjoining [[Skyrim:Temple of Mara|Temple of Mara]].
+
+She wears a set of [[Skyrim:Monk Robes|monk robes]] with a pair of [[Skyrim:Boots#000bacd7|boots]]. She wields a leveled [[Skyrim:Dagger|dagger]] (up to [[Skyrim:Elven|elven]] quality at level 20) and carries a [[Skyrim:Belted Tunic|belted tunic]] and an assortment of [[Skyrim:Leveled Lists#Poor|lower-class items and gold]]. She knows several spells as well, specifically [[Skyrim:Frostbite|Frostbite]], [[Skyrim:Ice Spike|Ice Spike]], [[Skyrim:Oakflesh|Oakflesh]], and [[Skyrim:Lesser Ward|Lesser Ward]].
+{{NewLeft}}
+== Related Quests ==
+* {{Quest Link|Pilgrimage}}
+* {{Quest Link|Spread the Love}}
+==Quest-Related Events==
+===Pilgrimage===
+If you speak to her and ask her about her work, she will explain the unfortunate situation:
+:'''You tend the graveyard?'''
+:''"If you're trying to ask if I tend the hall of the dead alone, then the answer is yes. You think anyone around here is going to lift a shovel to help me? Guess again. 'Leave the dirty work to old Alessandra.' Look, I didn't ask for this job, I got stuck with it thanks to my father."'' 
+:'''How's your father to blame for your job?'''
+:''"My father was a Priest of Arkay. All my life was spent around the dead, being forced to learn the proper burial rituals and prayers. I never had any friends; who'd want to spend time with 'the little weird girl who hangs around dead people?' So I grew up with a miserable trade. This is all I know how to do... prepare and inter the deceased."'' 
+:'''How can you make peace with your father?'''
+:''"I'd like to make the journey to the Hall of the Dead in {{sic|Windhelm|Whiterun|description=incorrect name}} and give my ceremonial dagger to Andurs, the caretaker. I believe once it's interred with my father's remains I'll be at peace with his memory."''
+
+You now have a choice to help her or not:
+:'''Good luck with that.'''
+::''"Yes. Perhaps one day I'll be able to make the journey, but for now I need to tend the dead."''
+
+:'''I can bring it for you.'''
+::''"I hadn't asked you because I was afraid you'd say no. I appreciate your help. Here, I'm entrusting you with the dagger. Bring it to Andurs and he'll take care of the rest."''
+
+Once you offer to help her you can ask her about the dagger:
+:''"Anything else before you make the journey?"''
+:'''What's special about the dagger?'''
+:''"A Priest of Arkay is entrusted with a ceremonial dagger once they've completed their training. {{sic|It usually|It is usually|description=missing word}} given by the head priest who sanctified the ritual. In my case, the head priest happened to be my father. The thing is, I never wanted to follow in his footsteps... {{sic|I|In}} some ways I still don't."'' 
+:'''But you ended up doing it anyway'''
+:''"I had to for honor's sake, but I had waited too long. My father died before he could see my training to completion. When I finally became a priest, they gave me the new high priest's dagger, but I already owned my father's. So you see, I have to return it. It breaks tradition, and I need to tell him that I finally did what he wanted."'' 
+
+She will send you on your way with: 
+:''"Be cautious, the pilgrimage to the Shrine is not an easy one."''
+
+In [[Skyrim:Whiterun|Whiterun]], local [[Skyrim:Hall of the Dead (Whiterun)|Hall of the Dead]] priest [[Skyrim:Andurs|Andurs]] definitely knows about Alessandra's problem. When you hand him the [[Skyrim:Alessandra's Dagger|ceremonial dagger]], he will be grateful: ''"She finally decided to return it to her father. Bless her heart. I will make sure this finds its way to his tomb as soon as possible. Thank you for bringing it, my child."'' 
+
+When you return to Alessandra in Riften, she will immediately say: 
+:''"The pilgrimage is complete, I can feel it."'' 
+:'''I gave the dagger to Andurs.'''
+:''"I felt a caress on my cheek some time ago... I thought it to be a trick of the wind, but I think it was a message from my father. We've made peace with one another without even uttering a single word and I'm content for the first time in my life. I thank you. Here, please accept this as a token of my appreciation for your selfless action."'' 
+
+She will then hand you a reward (see [[Skyrim:Pilgrimage#Bugs|this section]]) and will start to greet you with:
+:''"I'm feeling much better thanks to your efforts."''
+===Spread the Love===
+She will accept a pamphlet from the temple:
+:'''Here, sister. Blessings of Mara upon you.'''
+:''"Oh, a new pamphlet from Dinya? I'll be glad to read it. Thanks."''
+==Dialogue==
+When you enter her workplace, she can potentially say: 
+:''"Come to laugh at the grave tender?"''
+:''"I can see that disapproving look in your eye."'' 
+:''"I'd ask you maintain civility while you're here."''
+== Bugs ==
+{{Bug|Alessandra says Andurs is in Windhelm, but he is actually in Whiterun.|USKP|1.2.6}}

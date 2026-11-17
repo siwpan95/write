@@ -1,0 +1,140 @@
+{{Trail}}{{#define:trimlinks|true}}{{TOCright}}
+There is a large variety of '''places''' in ''[[Skyrim:Skyrim|Skyrim]]''; for reference, see the key of the [[Skyrim:Maps#Icons|icons used to mark places on maps]]. This page only lists some of the most interesting locations in the game. Other places are listed on the following dedicated pages:
+{{Bullet Link|All-Maker Stones|Standing stones found in the wilderness of [[SR:Solstheim|Solstheim]]}}{{DB}}
+{{Bullet Link|Barracks|Guard barracks throughout Skyrim}}
+{{Bullet Link|Bodies of Water|Lakes, rivers, and seas}}
+{{Bullet Link|Castles|Castles and Jarl longhouses}}
+{{Bullet Link|Cemeteries|Where the dead of Skyrim are buried}}
+{{Bullet Link|Dragon Mounds|Sites where Dragons were buried}}
+{{Bullet Link|Guild Halls|The various headquarters for the guilds of Skyrim}}
+{{Bullet Link|Holds|The holds (political regions) that make up Skyrim}}
+{{Bullet Link|Houses|Properties you can purchase as a home across Skyrim}}
+{{Bullet Link|Inns|Inns, taverns, and places where you can rent a room}}
+{{Bullet Link|Jails|The jails found throughout Skyrim}}
+{{Bullet Link|Shrines|Shrines to the Nine Divines}}
+{{Bullet Link|Stables|Stables, where you can buy [[Skyrim:Horses|horses]]}}
+{{Bullet Link|Standing Stones|Magical stones which grant special abilities or powers}}
+{{Bullet Link|Stores|Merchant stores}}
+{{Bullet Link|Temples|The various temples of the [[Lore:Nine Divines|Nine Divines]]}}
+{{Bullet Link|[[Skyrim:Word Wall|Word Walls]]|Locations where word walls can be found}}
+{{Bullet Link|Worldspaces|Exterior areas that are technically separate from the main world of Skyrim}}
+{{Bullet Link|Other Places|Other places that do not fit into another category}}
+{{Bullet Link|Unmarked Places|Places that do not appear on the map}}
+
+Places added by [[Skyrim:Dawnguard|Dawnguard]], [[Skyrim:Dragonborn|Dragonborn]], [[Skyrim:Hearthfire|Hearthfire]], and [[Skyrim:Creation Club|Creation Club]] are annotated with "DG", "DB", "HF", and "CC" superscripts, respectively.
+
+'''Note:''' The [[:Category:Skyrim-Places|Skyrim-Places category]] provides an index of all places in the game.
+
+==[[Skyrim:Cities|Cities]]==
+{{Skyrim:Cities}}
+
+==[[Skyrim:Settlements|Settlements]]==
+{{Skyrim:Settlements}}
+
+==Notes==
+*Version 2.0.7 of the [[Skyrim Mod:Unofficial Skyrim Patch|Unofficial Skyrim Patch]] replaces Brandy-Mug Farm's settlement map icon with the one used for small farms.
+
+==[[File:SR-mapicon-Docks.png|bottom]] [[Skyrim:Other Places#Docks|Docks]]==
+:{{Place Link|East Empire Company Warehouse}}
+:{{Place Link|Icewater Jetty}}
+:{{Place Link|Northshore Landing}}
+:{{Place Link|Riften Docks}}
+
+==[[File:SR-mapicon-Lighthouse.png|bottom]] [[Skyrim:Other Places#Lighthouses|Lighthouses]]==
+:{{Place Link|Frostflow Lighthouse}}
+:{{Place Link|Solitude Lighthouse}}
+
+==[[File:SR-mapicon-Camp.png|bottom]] [[Skyrim:Camps|Camps]]==
+{{Skyrim:Camps}}
+
+* You can set up your own [[File:SR-mapicon-Camp.png|13px]]'''[[SR:Campsite|campsite]]''' with the [[SR:Camping|Camping]] [[Skyrim:Creation Club|Creation]] installed. The campsite adds a fast travel marker to your map, although you can only have one campsite set up at a time.
+
+==[[File:SR-mapicon-Cave.png|bottom]] [[Skyrim:Caves|Caves]]==
+{{Skyrim:Caves}}
+
+==[[File:SR-mapicon-Shrine.png|bottom]] [[Skyrim:Daedric Shrines|Daedric Shrines]]==
+{{Skyrim:Daedric Shrines}}
+
+==[[File:SR-mapicon-Dragon Lair.png|bottom]] [[Skyrim:Dragon Lairs|Dragon Lairs]]==
+{{Skyrim:Dragon Lairs}}
+
+==[[File:SR-mapicon-Dwemer.png|bottom]] [[Skyrim:Dwarven Ruins|Dwarven Ruins]]==
+{{Skyrim:Dwarven Ruins}}
+
+==[[File:SR-mapicon-Giant Camp.png|bottom]] [[Skyrim:Giant Camps|Giant Camps]]==
+{{Skyrim:Giant Camps}}
+
+==[[Skyrim:Landmarks|Landmarks]]==
+{{Skyrim:Landmarks}}
+
+==[[Skyrim:Military Camps|Military Camps]]==
+{{Skyrim:Military Camps}}
+
+==[[File:SR-mapicon-Fort.png|bottom]] [[Skyrim:Military Forts|Military Forts]]==
+{{Skyrim:Military Forts}}
+
+==Notes==
+*Version 4.1.1 of the [[Skyrim Mod:Unofficial Skyrim Special Edition Patch|Unofficial Skyrim Special Edition Patch]] replaces Western Watchtower's fort map icon with the one used for [[Skyrim:Towers|Imperial towers]].
+
+==[[File:SR-mapicon-Mine.png|bottom]] [[Skyrim:Mines|Mines]]==
+{{Skyrim:Mines}}
+
+==Notes==
+*Version 3.0.6 of the [[Skyrim Mod:Unofficial Skyrim Legendary Edition Patch|Unofficial Skyrim Legendary Edition Patch]] replaces the [[Skyrim:Caves|cave]] map icon for Soljund's Sinkhole with the one used for mines.
+
+==[[File:SR-mapicon-Nordic Dwelling.png|bottom]] [[Skyrim:Nordic Dwellings|Nordic Dwellings]]==
+{{Skyrim:Nordic Dwellings}}
+
+==[[File:SR-mapicon-Nordic Ruin.png|bottom]] [[Skyrim:Nordic Ruins|Nordic Ruins]]==
+{{Skyrim:Nordic Ruins}}
+
+==[[File:SR-mapicon-Shipwreck.png|bottom]] [[Skyrim:Ships|Ships and Shipwrecks]]==
+{{Skyrim:Shipwrecks}}
+
+==[[Skyrim:Towers|Towers]]==
+{{Skyrim:Towers}}
+
+==Beyond Skyrim==
+* {{Place Link|Apocrypha}}
+** {{Place Link|Apocrypha (Epistolary Acumen)|Apocrypha (Epistolary Acumen)}}
+** {{Place Link|Apocrypha (Filament and Filigree)|Apocrypha (Filament and Filigree)}}
+** {{Place Link|Apocrypha (The Hidden Twilight)|Apocrypha (The Hidden Twilight)}}
+** {{Place Link|Apocrypha (The Sallow Regent)|Apocrypha (The Sallow Regent)}}
+** {{Place Link|Apocrypha (The Winds of Change)|Apocrypha (The Winds of Change)}}
+** {{Place Link|Apocrypha (Untold Legends)|Apocrypha (Untold Legends)}}
+** {{Place Link|Apocrypha (Waking Dreams)|Apocrypha (Waking Dreams)}}
+* {{Place Link|Azura's Star Interior}}
+* {{Place Link|Dayspring Canyon}}
+** {{Place Link|Fort Dawnguard}}
+*** {{Place Link|Dead Drop Falls}}
+** {{Place Link|Mossy Glen Cave}}
+* {{Place Link|Deadlands}}
+* {{Place Link|Forgotten Vale}}
+** {{Place Link|Darkfall Grotto}}
+** {{Place Link|Forgotten Vale Cave}}
+** {{Place Link|Forgotten Vale Forest}}
+** {{Place Link|Forgotten Vale Overlook}}
+** {{Place Link|Glacial Crevice}}
+** {{Place Link|Inner Sanctum (Vale)}}
+** {{Place Link|Sharpslope Cave}}
+* {{Place Link|The Mind of a Madman}}
+* {{Place Link|Misty Grove}}
+* {{Place Link|Soul Cairn}}
+** {{Place Link|Boneyard}}
+** {{Place Link|Reaper's Lair}}
+* {{Place Link|Sovngarde (place)}}
+** {{Place Link|Hall of Valor}}
+
+==See Also==
+* Places added by official add-ons:
+** '''[[Skyrim:Dawnguard Places|Dawnguard Places]]
+** '''[[Skyrim:Dragonborn Places|Dragonborn Places]]
+* '''[[Skyrim:Playroom|Playroom]]''' — A playable space that serves as the main menu for [[SR:Skyrim VR|Skyrim VR]].
+* '''[[Skyrim:Test Cells|Test Cells]]''' — A descriptive list of all test cells and unused cells in Skyrim's data.
+
+==Achievements==
+[[Skyrim:Achievements|Achievements]] related to places include:
+* {{achievement|Explorer}}
+* {{achievement|Delver|link=1}}
+
+[[fr:Skyrim:Lieux]]

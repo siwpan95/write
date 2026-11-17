@@ -1,0 +1,54 @@
+[[fr:Skyrim:Dawnguard]]{{protection|semi|move}}{{Mod Header|Dawnguard|shortcut={{DG}}|icon=SR-icon-Dawnguard 02.png}}{{about|the official add-on|other uses|Dawnguard (disambiguation)}}{{Content Summary
+|image=SR-cover-Dawnguard Box Art.jpg
+|size=1.12 GB (PC) / 583.12 MB (Xbox) / 667 MB (PS3)
+|pc=Available from [http://store.steampowered.com/app/211720/ Steam]<br>($19.99/€19.99/£13.99/¥2499/$24.23 AUD/429 RUB)
+|ps3=Available from the Playstation Store<br> ($20/$25 AUD/¥2400)
+|xbox= Available from [http://marketplace.xbox.com/en-US/Product/The-Elder-Scrolls-V-Skyrim-Dawnguard/8ab49c69-b2d8-4055-99c8-a941655f5de8 Xbox Marketplace]<br>($19.99 US & Canada, was 1600 MS Points)
+|other=Included with [[SR:Special Edition|Special Edition]], [[SR:Switch|Switch Edition]], [[SR:Skyrim VR|Skyrim VR]], and [[SR:Anniversary Edition|Anniversary Edition]]
+|patch=[[Skyrim:Patch#Version 1.6.90.0.6|1.6.90.0.6]]
+|imgdesc=''Dawnguard'' box art
+|released=26 June 2012 (Xbox 360)<br/>2 August 2012 (PC)<br/>26 February 2013 (PS3, US)<br/>27 February 2013 (PS3, English-speaking EU)
+}}{{TOCright}}[[Category:Skyrim-Dawnguard| ]][[File:SR-cover-Dawnguard.jpg|thumb|right|The image that was the centerpiece of the announcement of ''Dawnguard'']]
+'''''Dawnguard''''' is the first major [[Skyrim:Add-ons|official add-on]] for ''[[Skyrim:Skyrim|Skyrim]]''. The add-on revolves around the [[Skyrim:Dawnguard (faction)|Dawnguard]], an ancient organization dedicated to hunting [[Skyrim:Vampire|vampires]] and thwarting the schemes of [[Skyrim:Lord Harkon|Lord Harkon]], who intends to use an [[Lore:Elder Scrolls|Elder Scroll]] to permanently blot out the sun. You can choose to aid the Dawnguard in their quest to destroy the vampires, or join the vampire clan and gain the powers of a [[Skyrim:Vampire Lord|Vampire Lord]].
+{|
+|
+:''Dawnguard™ is the first official game add-on for The Elder Scrolls V: Skyrim® - the 2011 Game of the Year. The Vampire Lord Harkon has returned to power. By using the Elder Scrolls, he seeks to do the unthinkable - to end the sun itself. Will you join the ancient order of the Dawnguard and stop him? Or will you become a Vampire Lord yourself? Featuring an all new faction questline and locations, the ultimate choice will be yours.'' —[http://marketplace.xbox.com/en-US/Product/The-Elder-Scrolls-V-Skyrim-Dawnguard/8ab49c69-b2d8-4055-99c8-a941655f5de8 Official Summary]
+|}{{NewLeft}}
+
+==Quest Information==
+{{Bullet Link|Dawnguard Quests|altname=Quests|39 quests have been added by the add-on, with both a main questline and multiple side quests - There is no quest immediately added to the quest journal when you first install the add-on}}
+{{Bullet Link|Surgery|A [[Skyrim:Galathil|face sculptor]] has appeared in Riften and can change your character's appearance}}
+
+==Gameplay Information==
+{{Bullet Link|Dawnguard Creatures|altname=Creatures|Of the creatures added by the add-on, most are new variants of creatures already present in the original version of the game - A few creatures added are entirely new types, and there are several unique creatures added as well}}
+{{Bullet Link|Dawnguard Items|altname=Items|New items added by the add-on include apparel, armor, books, jewelry, weapons, and more}}
+{{Bullet Link|Dawnguard Magic|altname=Magic|Three new [[Skyrim:Blessings|blessings]], four new [[Skyrim:Dragon Shouts|dragon shouts]] (only three of which are player-accessible), and nine new [[Skyrim:Spells|spells]] are added by the add-on - In addition, new features have been added to [[Skyrim:Lycanthropy|Lycanthropy]] and general [[Skyrim:Vampirism|Vampirism]], while the [[Skyrim:Vampire Lord|Vampire Lord]] form is entirely new}}
+{{Bullet Link|Dawnguard NPCs|altname=NPCs|Over 80 new NPCs have been added by the add-on, many of which are aligned with one of the two new major factions - Some can be found at their main location immediately after installing the add-on, while others can only be encountered during certain quests}}
+{{Bullet Link|Dawnguard Places|altname=Places|Almost 30 new places have been added by the add-on, though none appear on the map immediately - Some places may not be entered until the related quests have been started, and many quests will send the player to places that already existed in the original version of the game}}
+
+==Factions==
+Two new [[Skyrim:Factions|factions]] are added with this add-on:
+
+'''[[Skyrim:Dawnguard (faction)|The Dawnguard]]''' — A group of [[Skyrim:Vampire|vampire]] hunters dedicated to destroying the Volkihar vampire clan.
+*All players who complete the first quest in the add-on's [[Skyrim:Dawnguard Quests#Main Quests|main questline]] must help this faction initially.
+*Membership in this faction allows you to freely enter and use all areas within [[Skyrim:Fort Dawnguard|Fort Dawnguard]].
+
+'''[[Skyrim:Volkihar Vampire Clan|Volkihar Vampire Clan]]''' — The Volkihar vampire clan, led by [[Skyrim:Lord Harkon|Lord Harkon]], intends to blot out the sun and dominate Skyrim.
+*Players may choose to join this faction during the add-on's main questline, or destroy the faction altogether.
+*Membership in this faction allows you to freely enter and use all areas within [[Skyrim:Volkihar Keep|Volkihar Keep]].
+
+==Notes==
+* Ten new [[Skyrim:Achievements#Dawnguard|achievements]] can be earned after installing the ''Dawnguard'' add-on.
+* Eighteen new [[Skyrim:Loading Screens|loading screens]] are added by the add-on.
+* Many new [[Skyrim:World Interactions|world interactions]] are added by the add-on which do not have their own individual article pages.
+** Several of these have been removed from the [[SR:Special Edition|Special Edition]] and [[SR:Switch|Switch]] versions of the game, to prevent the random vampire attacks in cities which often result in the death of innocent NPCs.
+* ''Dawnguard'' was subject to a 30-day exclusivity deal with Microsoft, where it was only available on the Xbox 360 (from 26 June 2012). As it turned out, it was released for the PC after 36 days, and due to severe performance issues, it was February 2013 before it was released for the PS3.
+
+==Bugs==
+{{Bug|The [[Skyrim:Alchemy Lab|alchemy lab]] in [[Skyrim:Breezehome|Breezehome]] may become unpurchasable, or may not appear after it has been purchased.|UDGP|1.0|dlc=DG}} 
+**''[[Skyrim:Hearthfire|Hearthfire]]'' inadvertently fixes this by resetting the steward's dialogue to include the children's room.
+**{{Pc22}} This may be fixed via the console by entering <code>"e4ef9".disable</code> followed by <code>"e4ec8".enable</code>.
+
+==See Also==
+*[https://www.youtube.com/watch?v=3PjBSicSVqI Official Trailer]
+*[[Skyrim:Pre-Release Content#Dawnguard Screenshots|Pre-Release Screenshots]]

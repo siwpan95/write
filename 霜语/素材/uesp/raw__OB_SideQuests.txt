@@ -1,0 +1,84 @@
+{{Trail|Quests}}[[Category:Oblivion-Quests| ]]
+==Main Cities==
+All of these quests start in Cyrodiil's large cities, and are therefore also listed under [[Oblivion:Quests#Main Cities|Main Cities]] on the [[Oblivion:Quests|Quests]] page.
+*{{Quest Link|A Brotherhood Betrayed}}
+*{{Quest Link|A Brush with Death}}
+*{{Quest Link|A Shadow Over Hackdirt}}
+*{{Quest Link|An Unexpected Voyage}}
+*{{Quest Link|Buy a house in the Imperial City}}
+*{{Quest Link|Buying a house in Bravil}}
+*{{Quest Link|Buying a house in Bruma}}
+*{{Quest Link|Buying a house in Cheydinhal}}
+*{{Quest Link|Buying a house in Chorrol}}
+*{{Quest Link|Buying a house in Leyawiin}}
+*{{Quest Link|Buying a house in Skingrad}}
+*{{Quest Link|Canvas the Castle}}
+*{{Quest Link|Caught in the Hunt}}
+*{{Quest Link|Corruption and Conscience}}
+*{{Quest Link|Helping Hands}}
+*{{Quest Link|Imperial Corruption}}
+*{{Quest Link|Knights of the White Stallion (quest)}}
+*{{Quest Link|Legacy Lost}}
+*{{Quest Link|Lifting the Vale}}
+*{{Quest Link|Mazoga the Orc (quest)}}
+*{{Quest Link|Nothing You Can Possess}}
+*{{Quest Link|Order of the Virtuous Blood (quest)}}
+*{{Quest Link|Origin of the Gray Prince}}
+*{{Quest Link|Paranoia}}
+*{{Quest Link|Raid on Greyland}}
+*{{Quest Link|Secrets of the Ayleids}}
+*{{Quest Link|Seeking Your Roots}}
+*{{Quest Link|Separated at Birth}}
+*{{Quest Link|Sins of the Father}}
+*{{Quest Link|Tears of the Savior}}
+*{{Quest Link|The Collector}}
+*{{Quest Link|The Forlorn Watchman (quest)}}
+*{{Quest Link|The Ghost Ship of Anvil}}
+*{{Quest Link|The Killing Field}}
+*{{Quest Link|The Rosethorn Cache}}
+*{{Quest Link|The Siren's Deception}}
+*{{Quest Link|The Wayward Knight}}
+*{{Quest Link|Through A Nightmare, Darkly}}
+*{{Quest Link|Two Sides of the Coin}}
+*{{Quest Link|Unfriendly Competition}}
+*{{Quest Link|Vampire Cure}}
+*{{Quest Link|Where Spirits Have Lease}}
+*{{Quest Link|Whom Gods Annoy}}
+
+==Settlements==
+All of these quests (except [[Oblivion:Goblin Trouble|Goblin Trouble]]) start in various small villages, farms, and inns, and are therefore also listed under [[Oblivion:Quests#Settlements|Settlements]] on the [[Oblivion:Quests|Quests]] page.
+*{{Quest Link|A Venerable Vintage}}
+*{{Quest Link|Bear Season}}
+*{{Quest Link|Go Fish}}
+*{{Quest Link|Goblin Trouble}}
+*{{Quest Link|No Stone Unturned}}
+*{{Quest Link|Revenge Served Cold}}
+*{{Quest Link|The Gravefinder's Repose}}
+*{{Quest Link|The Potato Snatcher}}
+*{{Quest Link|The Sunken One (quest)}}
+*{{Quest Link|When the Vow Breaks}}
+*{{Quest Link|Zero Visibility}}
+
+==Hidden Quests==
+These quests do not appear in the journal.
+*{{Quest Link|A Ring of Keys}}
+*{{Quest Link|Attack on Fort Sutch}}
+*{{Quest Link|Bittneld and Emfrid}}
+*{{Quest Link|Black Bow Bandits}}
+*'''[[Oblivion:Magical Stones|Heaven Stones]]''': Gain new powers by finding all the game's heaven stones.
+*{{Quest Link|Illegal Cargo}}
+*{{Quest Link|Lich of Lost Boy Cavern}}
+*{{Quest Link|The Horror of Dive Rock}}
+*'''[[Oblivion:Wayshrines|The Pilgrimage of the Nine Divines]]''': Show your piety by visiting the wayshrines scattered across the land.
+*{{Quest Link|The Unbeaten Path}}
+*{{Quest Link|Unwanted Tenants}}
+
+==Official Download Quests==
+These quests are added by [[Oblivion:Downloads|official downloads]] and start immediately after installing the related downloads.
+*{{Quest Link|Battlehorn Castle (quest)}}
+*{{Quest Link|Deepscorn Hollow (quest)}}
+*{{Quest Link|Dunbarrow Cove (quest)}}
+*{{Quest Link|Frostcrag Spire (quest)}}
+*{{Quest Link|Horse Armor (quest)}}
+*{{Quest Link|Repairing the Orrery}}
+*{{Quest Link|Unearthing Mehrunes Razor}}

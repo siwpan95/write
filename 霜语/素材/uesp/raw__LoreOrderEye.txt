@@ -1,0 +1,24 @@
+<noinclude>{{Lore Factions Trail}}__NOTOC__
+[[File:ON-npc-Skaldir.jpg|thumb|right|Docent Skaldir]]
+</noinclude>
+The [[Lore:Order of the Eye|Order of the Eye]] is a sub-faction of the [[Lore:Mages Guild|Mages Guild]] that specializes in the art of [[Lore:Sight|sight]] and use their abilities to scour tombs and ruins for extraplanar threats like the [[Lore:Planemeld|Planemeld]] in the mid-[[Lore:Second Era|Second Era]].{{Ref|name=ONAlvur|[[Online:Alvur Baren|Alvur Baren]]'s dialogue in [[Online:Online|ESO]]}}{{Ref|name=ONBonafryd|[[Online:Bonafryd|Bonafryd]]'s dialogue in [[Online:Online|ESO]]}} They also seek out [[Lore:Artifacts|daedric artifacts]] and rifts created from the veil that separates [[Lore:Nirn|Nirn]] and [[Lore:Oblivion|Oblivion]].{{Ref|name=ONBonafryd}} Members of the order are called Scryers and are normally taught by the Docent.{{Ref|name=OOTED|{{Cite Book|Order of the Eye Dispatch|ns_base=ON}}}}
+
+The Order of the Eye utilizes a myriad of tools in their profession, such as a scrying-bowl filled with [[Lore:Water Magic|water]],{{Ref|name=NN|{{Cite Book|Neelo's Notes}}}} a gazing mirror,{{Ref|name=WL|{{Cite Book|Wenridil's Logbook}}}} and spheres that are sometimes made from metal like  [[Lore:Ebony|ebony]]. They also practice augury and use flocks of birds to receive their sight.{{Ref|name=AJ|{{Cite Book|Adeber's Journal}}}}<noinclude>
+
+==History==
+In {{Year|2E 582}}, the Order of the Eye were employed by the Mages Guild in response to the Planemeld. Daedric artifacts associated with the Prince of Madness, [[Lore:Sheogorath|Sheogorath]], had appeared all throughout Tamriel in various dungeons. The Mage {{Lore Link|Alvur Baren}} enlisted adepts of the guild to hunt down these artifacts and return them to the guild.{{Ref|name=ONAlvur}}
+
+Later that year, many members of the Order received hazy visions of a [[Lore:Skeleton Key|daedric artifact]] and began independent investigations on their visions. However, each one of them were later killed by their own [[Lore:Shadow|shadow]]s.{{Ref|name=ONBonafryd}} A dispatch was sent out by an associate scryer, Docent {{Lore Link|Skaldir}}, to meet with him at the Guildhall in [[Lore:Mournhold|Mournhold]]. One person that received the dispatch was [[Lore:The Vestige|the Vestige]], who made haste to Mournhold and met with Skaldir. Unfortunately, Skaldir was killed by his own shadow before he could finish relaying information to the Vestige. Skaldir's friend, {{Lore Link|Bonafryd}} of {{Lore Link|Clan Owlcloak}}, asked the Vestige to warn other members of the Order before they suffered the same fate as Skaldir.{{Ref|name=ONKnives|[[Online:Of Knives and Long Shadows|Of Knives and Long Shadows]] prologue quest in [[Online:Online|ESO]]}}
+
+After they met with the three other scryers, the Vestige received a vision of the [[Lore:Psijic Order|Psijic Mage]], [[Lore:Lilatha|Lilatha]], that they should meet her in [[Lore:Vulkhel Guard|Vulkhel Guard]] after they fulfilled her task for them. Eventually, the Vestige met with Lilatha and found their way to the island of [[Lore:Dranil Kir|Dranil Kir]], where they were ambushed by Bonafryd, who revealed her involvement in the shadow attacks. The Vestige struck down the traitorous mage and received a vision from the [[Lore:Obscuros|Obscuros]] that showed the [[Lore:Clockwork City|Clockwork City]] and an unknown [[Lore:Nocturnal Shrike|daedra]].{{Ref|name=ONKnives}}
+
+==Notes==
+*It is unknown how the Order of the Eye relates with the Master of the Scrye, a high-ranking member of the Mages Guild that serves as counsel to the Master of Incunabula.{{Ref|name=OOTMG|{{Cite Book|Origin of the Mages Guild}}}}
+
+==See Also==
+*{{GSI|Online:Order of the Eye}}
+
+== References ==
+<references/>
+{{Lore Imperial Organizations}}
+</noinclude>

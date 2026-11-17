@@ -1,0 +1,4150 @@
+{{面包屑|词汇表}}
+注：与ANK不同的译名加粗显示
+注：数据来自"PERK_FULL", "SHOU_FULL", "SPEL_FULL", "ENCH_FULL", "MGEF_FULL"
+
+{| class="wikitable"
+|-
+!英文!!ANK!!Reconquista<br>汤镬/重光!!Unofficial<br>大學漢化!!Official<br>官方繁中
+|-
+|AE Soul Drain||    ||    ||    ||'''AE灵魂泄能'''
+|-
+|Abscond Spell||    ||    ||    ||'''潜逃法术'''
+|-
+|Abscond Spell Magic Effect||    ||    ||    ||'''潜逃法术魔法效果'''
+|-
+|Absorb||吸取||吸取||'''浑沌吸收'''||吸取
+|-
+|Absorb Health||吸取生命||吸取生命||吸取生命||吸取生命
+|-
+|Absorb Health and Magicka||    ||'''吸取生命力和法力'''||    ||'''吸取生命力和法力'''
+|-
+|Absorb Magicka||吸取法力||吸取法力||吸取法力||吸取法力
+|-
+|Absorb Spells||吸取法术||吸取法术||吸取法术||吸取法术
+|-
+|Absorb Stamina||吸取体力||吸取体力||'''吸取耐力'''||'''吸取精力'''
+|-
+|Acid||酸液||酸液||酸液||酸液
+|-
+|Acid Spit||酸蚀喷液||酸蚀喷液||酸蚀喷液||酸蚀喷液
+|-
+|Add Apo Water Damage||    ||    ||'''增加朊水损害'''||    
+|-
+|Add Perk||    ||    ||    ||'''新增额外能力'''
+|-
+|Additional Werewolf Transformation||额外狼人变身||额外狼人变身||'''额外的狼人变化效果'''||额外狼人变身
+|-
+|Addled||    ||'''神志不清'''||    ||'''糊涂'''
+|-
+|Addled Effect Timer||    ||    ||    ||'''糊涂效果计时'''
+|-
+|Adept Alteration||变换系老手||变换系老手||'''行家级变换系法术'''||变换系老手
+|-
+|Adept Conjuration||召唤系老手||召唤系老手||'''行家级召唤系法术'''||召唤系老手
+|-
+|Adept Destruction||毁灭系老手||毁灭系老手||'''行家级毁灭系法术'''||毁灭系老手
+|-
+|Adept Illusion||幻术系老手||幻术系老手||'''行家级幻象系法术'''||幻术系老手
+|-
+|Adept Locks||开锁老手||开锁老手||'''行家级开锁术'''||开锁老手
+|-
+|Adept Restoration||恢复系老手||恢复系老手||'''行家级恢复系法术'''||恢复系老手
+|-
+|Adrenaline Rush||肾上腺素效应||肾上腺素效应||'''潜能爆发'''||肾上腺素效应
+|-
+|Advanced Armors||高级护甲锻造||高级护甲锻造||'''进阶护甲锻造'''||'''进阶护甲锻造'''
+|-
+|Adventurer Backpack||    ||'''冒险者背包'''||    ||'''冒险家背包'''
+|-
+|Aetherial Crown||神光水晶皇冠||神光水晶皇冠||'''乙太头冠'''||神光水晶皇冠
+|-
+|Aetherial Shield Bash Spell||神光水晶盾牌猛击技能||神光水晶盾牌猛击技能||'''乙太盾牌－猛击法术'''||神光水晶盾牌猛击技能
+|-
+|Aetherial Shield Perk||神光水晶盾牌额外能力||神光水晶盾牌额外能力||'''乙太盾牌－技能'''||神光水晶盾牌额外能力
+|-
+|Aetherial Summons||神光召唤||神光召唤||'''乙太之召唤'''||神光召唤
+|-
+|Agent of Dibella||蒂贝拉的使者||蒂贝拉的使者||'''迪贝拉的使者'''||蒂贝拉的使者
+|-
+|Agent of Kynareth||凯娜瑞丝药水||凯娜瑞丝药水||'''凯娜瑞斯药水'''||凯娜瑞丝药水
+|-
+|Agent of Mara||玛拉的使者||玛拉的使者||玛拉的使者||玛拉的使者
+|-
+|Aggro Cloak||闹事斗篷||闹事斗篷||'''诱敌斗篷术'''||闹事斗篷
+|-
+|Agile Defender||灵巧防御||灵巧防御||灵巧防御||灵巧防御
+|-
+|Ahzidal's Arcana||阿季达的奥术||阿季达的奥术||阿季达的奥术||阿季达的奥术
+|-
+|Ahzidal's Genius||阿季达的天赋||阿季达的天赋||阿季达的天赋||阿季达的天赋
+|-
+|Ahzidal's Necromancy||阿季达的亡灵法术||阿季达的亡灵法术||'''阿季达的死灵术'''||'''阿季达的死灵法术'''
+|-
+|Ahzidal's Rage||阿季达的狂怒||阿季达的狂怒||阿季达的狂怒||阿季达的狂怒
+|-
+|Ahzidal's Retribution||阿季达的惩罚||阿季达的惩罚||阿季达的惩罚||阿季达的惩罚
+|-
+|Ahzidal's Vision||阿季达的视界||阿季达的视界||阿季达的视界||阿季达的视界
+|-
+|Ahzidal's Warding||阿季达的结界术||阿季达的结界术||阿季达的结界术||阿季达的结界术
+|-
+|Akatosh's Aspect||    ||'''龙神觉醒'''||    ||'''阿卡托什的觉醒'''
+|-
+|Akatosh's Talon||    ||'''龙神之爪'''||    ||'''阿卡托什之爪'''
+|-
+|Albino Poison||白化蜘蛛毒素||白化蜘蛛毒素||白化蜘蛛毒素||白化蜘蛛毒素
+|-
+|Alchemist||炼金术士||炼金术士||'''炼金术掌握'''||'''炼金师'''
+|-
+|Alduin regen||奥杜因的恢复||奥杜因的恢复||'''奥杜因的再生'''||奥杜因的恢复
+|-
+|Alik'ri Fishing Rod Description||    ||    ||    ||'''阿里喀尔钓竿说明'''
+|-
+|Alik'ri Fishing Rod Enchantment||    ||    ||    ||'''阿里喀尔钓竿附魔'''
+|-
+|Allure||魅力诱惑||魅力诱惑||魅力诱惑||魅力诱惑
+|-
+|Alteration Dual Casting||变换系双手施法||变换系双手施法||'''变换系双手施展'''||变换系双手施法
+|-
+|Altris' Blood Ritual||阿翠思的鲜血仪式||阿翠思的鲜血仪式||阿翠思的鲜血仪式||阿翠思的鲜血仪式
+|-
+|Amulet Drain Magicka||吸法护符||吸法护符||'''法力掠夺护符'''||'''降低法力护符'''
+|-
+|Ancano's Sparks||安卡诺的闪电术||安卡诺的闪电术||'''安卡诺的电击术'''||'''安卡诺的电击术'''
+|-
+|Ancestor's Wrath||先祖之怒||先祖之怒||先祖之怒||先祖之怒
+|-
+|Ancient Knowledge||远古知识||远古知识||远古知识||远古知识
+|-
+|Animage||迷惑动物||迷惑动物||'''野兽迷惑'''||迷惑动物
+|-
+|Animal Allegiance||动物效忠||动物效忠||动物效忠||动物效忠
+|-
+|Animal Damage||动物伤害||动物伤害||动物伤害||动物伤害
+|-
+|Animal Vigor||野性活力||野性活力||'''野性精力'''||野性活力
+|-
+|Apple Poisoning||    ||'''毒苹果'''||'''浸毒苹果'''||'''苹果中毒'''
+|-
+|Apply Perk||应用特长||应用特长||应用特长||应用特长
+|-
+|Apprentice Alteration||变换系学徒||变换系学徒||'''学徒级变换系法术'''||变换系学徒
+|-
+|Apprentice Conjuration||召唤系学徒||召唤系学徒||'''学徒级召唤系法术'''||召唤系学徒
+|-
+|Apprentice Destruction||毁灭系学徒||毁灭系学徒||'''学徒级毁灭系法术'''||毁灭系学徒
+|-
+|Apprentice Illusion||幻术系学徒||幻术系学徒||'''学徒级幻象系法术'''||幻术系学徒
+|-
+|Apprentice Locks||开锁学徒||开锁学徒||'''学徒级开锁术'''||开锁学徒
+|-
+|Apprentice Restoration||恢复系学徒||恢复系学徒||'''学徒级恢复系法术'''||恢复系学徒
+|-
+|Apprentice Stone||学徒之石||学徒之石||学徒之石||学徒之石
+|-
+|Arcane Blacksmith||奥术锻造||奥术锻造||'''术识锻造'''||'''奥术附魔锻造'''
+|-
+|Arcane Enchanter Recipe||奥术附魔台配方||奥术附魔台配方||    ||'''附魔台配方'''
+|-
+|Argonian Fishing Rod Description||    ||    ||    ||'''亚龙人钓竿说明'''
+|-
+|Argonian Fishing Rod Enchantment||    ||    ||    ||'''亚龙人钓竿附魔'''
+|-
+|Armor - Dragonhide||龙肤术||龙肤术||'''护甲－龙肤变换'''||'''护甲 - 龙皮'''
+|-
+|Armor - Ebony||檀甲术||檀甲术||'''护甲－玄曜石变换'''||'''护甲 - 黑檀'''
+|-
+|Armor - Ebony||    ||'''檀甲术'''||    ||'''护甲 - 黑檀'''
+|-
+|Armor - Iron||铁甲术||铁甲术||'''护甲－铁质变换'''||'''护甲 - 铁'''
+|-
+|Armor - Oak||木甲术||木甲术||'''护甲－橡树变换'''||'''护甲 - 橡木'''
+|-
+|Armor - Oak||木甲术||木甲术||'''木身术'''||'''盔甲 - 橡木'''
+|-
+|Armor - Stone||石甲术||石甲术||'''护甲－岩石变换'''||'''护甲 - 石'''
+|-
+|Armor - Wisp Cloak||护甲 - 幽魂斗篷||护甲 - 幽魂斗篷||'''护甲－幽魂斗篷'''||'''护甲–幽魂斗篷'''
+|-
+|Armor Boost||    ||    ||'''护甲提升'''||    
+|-
+|Armsman||臂力过人||臂力过人||臂力过人||臂力过人
+|-
+|Arniel's Convection||阿内尔对流术||阿内尔对流术||'''阿内尔的加热术'''||阿内尔对流术
+|-
+|Arrow Defense||弓箭防御||弓箭防御||弓箭防御||弓箭防御
+|-
+|Articulation||清晰发音||清晰发音||'''振聋发聩'''||清晰发音
+|-
+|Ash Breath||灰烬吐息||灰烬吐息||灰烬吐息||灰烬吐息
+|-
+|Ash Gout||灰烬泥泞||灰烬泥泞||灰烬泥泞||灰烬泥泞
+|-
+|Ash Guardian||灰烬守护者||灰烬守护者||'''凝灰岩卫'''||灰烬守护者
+|-
+|Ash Guardian Attack||灰烬守护者攻击||灰烬守护者攻击||'''凝灰岩卫攻击'''||灰烬守护者攻击
+|-
+|Ash Rune||灰烬符文||灰烬符文||'''灰烬封禁法印'''||灰烬符文
+|-
+|Ash Shell||灰烬之壳||灰烬之壳||'''灰烬封禁术'''||灰烬之壳
+|-
+|Ash Spawn Abilities||灰烬魔能力||灰烬魔能力||    ||    
+|-
+|Ash Spawn Body Effect||    ||    ||'''凝灰鬼体效应'''||    
+|-
+|Ash Spawn Death Effect||    ||    ||'''凝灰鬼死亡特效'''||    
+|-
+|Ash Spray||灰烬喷射||灰烬喷射||灰烬喷射||灰烬喷射
+|-
+|Ash breath||灰烬吐息||灰烬吐息||灰烬吐息||灰烬吐息
+|-
+|Ashspawn Spell||灰烬喷发法术||灰烬喷发法术||灰烬喷发法术||灰烬喷发法术
+|-
+|Aspect of Terror||恐怖面目||恐怖面目||恐怖面目||恐怖面目
+|-
+|Assassin's Blade||刺客之刃||刺客之刃||刺客之刃||刺客之刃
+|-
+|Ataxia||运动失调||运动失调||'''运动失调症'''||'''运动失调症'''
+|-
+|Atromancy||元素控制||元素控制||'''召唤精通'''||元素控制
+|-
+|Atronach||元素||元素||'''属灵'''||元素
+|-
+|Atronach Thrall Healing||元素奴仆治愈术||元素奴仆治愈术||'''侍灵治疗术'''||'''元素奴仆治愈之术'''
+|-
+|Attribute Penalty Health||    ||    ||    ||'''属性惩罚生命力'''
+|-
+|Attribute Penalty Magicka||    ||    ||    ||'''属性惩罚法力'''
+|-
+|Attribute Penalty Stamina||    ||    ||    ||'''属性惩罚精力'''
+|-
+|Augmented Flames||火焰增强||火焰增强||火焰增强||火焰增强
+|-
+|Augmented Frost||寒霜增强||寒霜增强||寒霜增强||寒霜增强
+|-
+|Augmented Shock||闪电增强||闪电增强||闪电增强||'''电击增强'''
+|-
+|Aura Whisper||灵气低语||灵气低语||'''光环低语'''||'''光环低语'''
+|-
+|Auriel Shrine Spell||奥丽瑞的祭坛法术||'''奥瑞尔的祭坛法术'''||'''奥瑞尔圣坛符咒'''||奥丽瑞的祭坛法术
+|-
+|Auriel's Arrows Blocker||奥丽瑞的弓格挡者||'''奥瑞尔之弓格挡者'''||'''拦截奥瑞尔之箭'''||奥丽瑞的弓格挡者
+|-
+|Auriel's Bow||奥丽瑞的弓||'''奥瑞尔之弓'''||'''奥瑞尔之弓'''||奥丽瑞的弓
+|-
+|Auriel's Bow Effect||    ||    ||'''奥瑞尔之弓－效果'''||    
+|-
+|Auriel's Shield||奥丽瑞的护盾||'''奥瑞尔之盾'''||'''奥瑞尔之盾'''||奥丽瑞的护盾
+|-
+|Auriel's Shield Knockback||奥丽瑞的护盾击退||'''奥瑞尔之盾击退'''||'''奥瑞尔之盾击退附魔'''||奥丽瑞的护盾击退
+|-
+|Auriel's Shield Knockback High||奥丽瑞的护盾击退效果高||'''奥瑞尔之盾击退效果高'''||'''奥瑞尔之盾击退附魔－高等威力'''||奥丽瑞的护盾击退效果高
+|-
+|Auriel's Shield Knockback Low||奥丽瑞的护盾击退效果低||'''奥瑞尔之盾击退效果低'''||'''奥瑞尔之盾击退附魔－低等威力'''||奥丽瑞的护盾击退效果低
+|-
+|Auriel's Shield Knockback Mid||奥丽瑞的护盾击退效果中||'''奥瑞尔之盾击退效果中'''||'''奥瑞尔之盾击退附魔－中等威力'''||奥丽瑞的护盾击退效果中
+|-
+|Auriels Bow Beam Effects||奥丽瑞的弓光柱效果||'''奥瑞尔之弓光柱效果'''||'''奥瑞尔之弓－瞄准效果'''||奥丽瑞的弓光柱效果
+|-
+|Auriels Bow Sky Bolt||奥丽瑞的弓天空箭||'''奥瑞尔之弓天空箭'''||'''奥瑞尔之弓－天空箭'''||奥丽瑞的弓天空箭
+|-
+|Autumn Spell||    ||    ||    ||'''秋之法术'''
+|-
+|Autumn Staff||    ||    ||    ||'''秋之杖'''
+|-
+|Autumn's Blessing||    ||'''秋季的赐福'''||    ||'''秋之赐福'''
+|-
+|Autumn's Cloak||    ||'''秋之斗篷'''||    ||'''秋日掩护'''
+|-
+|Autumn's Grace||    ||'''秋之恩惠'''||    ||'''秋之恩惠'''
+|-
+|Avoid Death||不死之身||不死之身||'''濒死救赎'''||不死之身
+|-
+|Backstab||背刺一击||背刺一击||背刺一击||背刺一击
+|-
+|Bane of Kynareth||    ||'''凯娜瑞丝之敌'''||    ||'''凯娜瑞丝克星'''
+|-
+|Bane of the Undead||亡灵毁灭术||亡灵毁灭术||'''破邪术'''||'''不死生物克星'''
+|-
+|Banish||驱逐||驱逐||'''遣返湮灭'''||驱逐
+|-
+|Banish - Damage Health||驱逐 - 减损生命||驱逐 - 减损生命||    ||'''驱逐 - 减损生命力'''
+|-
+|Banish Daedra||驱逐魔族||驱逐魔族||'''魔族遣返术'''||驱逐魔族
+|-
+|Banish Summoned||驱逐召唤物||驱逐召唤物||'''遣返湮灭'''||驱逐召唤物
+|-
+|Banish Undead||    ||'''驱逐亡灵'''||    ||'''驱逐不死生物'''
+|-
+|Banish/Command Undead Push||    ||    ||    ||'''驱逐/控制不死生物原力'''
+|-
+|Barbarian||野蛮人||野蛮人||'''野蛮之力'''||野蛮人
+|-
+|Bardic Knowledge||吟游诗人智识||吟游诗人智识||吟游诗人智识||吟游诗人智识
+|-
+|Bash Disarm||缴械猛击||缴械猛击||缴械猛击||缴械猛击
+|-
+|Bats||蝙蝠位移||蝙蝠位移||'''化蝠型态'''||'''蝙蝠'''
+|-
+|Bats Cloak||蝙蝠斗篷||蝙蝠斗篷||'''化蝠斗篷'''||蝙蝠斗篷
+|-
+|Bats Control||控制蝙蝠||控制蝙蝠||'''化蝠控制'''||控制蝙蝠
+|-
+|Bats Damage||蝙蝠伤害||蝙蝠伤害||'''化蝠伤害'''||蝙蝠伤害
+|-
+|Bats Effect||蝙蝠效果||蝙蝠效果||'''化蝠效果'''||蝙蝠效果
+|-
+|Bats Knockdown||蝙蝠打击||蝙蝠打击||'''化蝠一击'''||蝙蝠打击
+|-
+|Battle Cry||战斗呐喊||'''战吼'''||'''战嚎'''||'''战嚎'''
+|-
+|Battle Fury||战斗之怒||战斗之怒||战斗之怒||战斗之怒
+|-
+|Bear Spirit||    ||'''熊魂'''||    ||'''熊魂'''
+|-
+|Bearclaw Enchantment||    ||    ||    ||'''熊爪附魔'''
+|-
+|Beast Form||野兽形态||野兽形态||野兽形态||野兽形态
+|-
+|Beast Tongue||兽语||兽语||兽语||兽语
+|-
+|Become Ethereal||虚体变换||虚体变换||虚体变换||虚体变换
+|-
+|Bend To Will Effect - Stagger||意志屈服效果 - 失衡||意志屈服效果 - 失衡||    ||意志屈服效果 - 失衡
+|-
+|Bend Will||意志屈服||意志屈服||意志屈服||意志屈服
+|-
+|Benefactor||增益成分||增益成分||'''药效增强'''||增益成分
+|-
+|Benthic Scream||底栖尖啸||底栖尖啸||底栖尖啸||底栖尖啸
+|-
+|Berserk||狂暴愤怒||狂暴愤怒||'''狂暴'''||狂暴愤怒
+|-
+|Berserk Frost||    ||'''狂暴寒霜'''||    ||'''狂暴寒霜'''
+|-
+|Berserker Rage||狂暴愤怒||狂暴愤怒||'''狂战士化'''||狂暴愤怒
+|-
+|Bestial Strength||野性力量||野性力量||'''兽化威力'''||野性力量
+|-
+|Between||两者之间||两者之间||两者之间||两者之间
+|-
+|Bittercup Effect||    ||    ||    ||'''苦之杯效果'''
+|-
+|Black Heart Blight||郁心衰退||郁心衰退||'''黑心瘟'''||郁心衰退
+|-
+|Black Market||黑市||黑市||'''黑色交易'''||黑市
+|-
+|Blackguard's Hidden Pockets||黑卫的隐蔽口袋||黑卫的隐蔽口袋||黑卫的隐蔽口袋||黑卫的隐蔽口袋
+|-
+|Blackguard's Nimble Fingers||黑卫的心灵手巧||黑卫的心灵手巧||黑卫的心灵手巧||黑卫的心灵手巧
+|-
+|Blackguard's Sly of Hand||黑卫的妙手空空||黑卫的妙手空空||黑卫的妙手空空||黑卫的妙手空空
+|-
+|Blackguard's Voice||黑卫之声||黑卫之声||黑卫之声||黑卫之声
+|-
+|Blackout||眼前发黑||眼前发黑||眼前发黑||眼前发黑
+|-
+|Bladesman||刀刃精通||刀刃精通||'''刀剑精通'''||刀刃精通
+|-
+|Blank||空白||空白||'''空白的'''||空白
+|-
+|Bleeding||流血||流血||流血||流血
+|-
+|Bleeding Damage||流血伤害||流血伤害||流血伤害||流血伤害
+|-
+|Blessing Of The Fox||狐狸赐福||狐狸赐福||狐狸赐福||狐狸赐福
+|-
+|Blessing Of The Fox Invisibility||狐狸隐形赐福||狐狸隐形赐福||'''狐狸隐身赐福'''||'''狐狸隐身赐福'''
+|-
+|Blessing Of The Hunt||狩猎赐福||狩猎赐福||狩猎赐福||狩猎赐福
+|-
+|Blessing Of The Stag||雄鹿赐福||雄鹿赐福||雄鹿赐福||雄鹿赐福
+|-
+|Blessing Of The Stag Prince||雄鹿王子赐福||雄鹿王子赐福||雄鹿王子赐福||雄鹿王子赐福
+|-
+|Blessing of Akatosh||阿卡托什赐福||阿卡托什赐福||阿卡托什赐福||阿卡托什赐福
+|-
+|Blessing of Almalexia||    ||'''阿玛莱西亚的祝福'''||    ||'''爱玛蕾希雅的祝福'''
+|-
+|Blessing of Arkay||阿尔凯赐福||阿尔凯赐福||阿尔凯赐福||阿尔凯赐福
+|-
+|Blessing of Auriel||奥丽瑞的赐福||'''奥瑞尔的赐福'''||'''奥瑞尔之赐福'''||'''奥丽瑞的祝福'''
+|-
+|Blessing of Azura||阿祖拉赐福||阿祖拉赐福||阿祖拉赐福||阿祖拉赐福
+|-
+|Blessing of Boethiah||波耶西亚赐福||波耶西亚赐福||波耶西亚赐福||波耶西亚赐福
+|-
+|Blessing of Dibella||蒂贝拉赐福||蒂贝拉赐福||'''迪贝拉赐福'''||蒂贝拉赐福
+|-
+|Blessing of Julianos||尤里安诺斯赐福||尤里安诺斯赐福||'''尤里安诺思赐福'''||尤里安诺斯赐福
+|-
+|Blessing of Kynareth||凯娜瑞丝赐福||凯娜瑞丝赐福||'''凯娜瑞斯赐福'''||凯娜瑞丝赐福
+|-
+|Blessing of Mara||玛拉赐福||玛拉赐福||玛拉赐福||玛拉赐福
+|-
+|Blessing of Mephala||梅法拉赐福||梅法拉赐福||梅法拉赐福||梅法拉赐福
+|-
+|Blessing of Nocturnal||诺克图娜尔的赐福||诺克图娜尔的赐福||'''娜克图诺的赐福'''||诺克图娜尔的赐福
+|-
+|Blessing of Sotha Sil||    ||'''索萨·希尔的祝福'''||    ||'''索萨．席的祝福'''
+|-
+|Blessing of Stendarr||斯坦德尔赐福||'''斯丹达尔赐福'''||'''斯丹达尔赐福'''||斯坦德尔赐福
+|-
+|Blessing of Talos||塔洛斯赐福||塔洛斯赐福||塔洛斯赐福||塔洛斯赐福
+|-
+|Blessing of Vaermina||    ||'''瓦尔迷纳的祝福'''||    ||'''瓦尔迷纳的祝福'''
+|-
+|Blessing of Vivec||    ||'''维威克的祝福'''||    ||'''维瓦克的祝福'''
+|-
+|Blessing of Zenithar||泽尼萨尔赐福||泽尼萨尔赐福||泽尼萨尔赐福||泽尼萨尔赐福
+|-
+|Blind||致盲||致盲||致盲||致盲
+|-
+|Blinding Speed||    ||'''疾速'''||    ||'''疾速'''
+|-
+|Blizzard||暴风雪||暴风雪||'''暴雪气旋术'''||暴风雪
+|-
+|Blizzard Hazar||暴风雪损伤||暴风雪损伤||    ||
+|-
+|BlizzardBodyArtHolder||暴风雪BodyArtHolder||暴风雪BodyArtHolder||    ||    
+|-
+|Block Runner||奔跑防御||奔跑防御||奔跑防御||奔跑防御
+|-
+|Blood Cloak||鲜血斗篷||鲜血斗篷||'''血族斗篷'''||鲜血斗篷
+|-
+|Blood Cloak Effect||鲜血斗篷效果||鲜血斗篷效果||    ||鲜血斗篷效果
+|-
+|Blood Harvest||鲜血采集||鲜血采集||'''鲜血采样'''||鲜血采集
+|-
+|Blood Healing||鲜血治疗||鲜血治疗||'''鲜血疗愈'''||鲜血治疗
+|-
+|Blood Ingestion||摄取鲜血||摄取鲜血||'''血液摄取'''||摄取鲜血
+|-
+|Blood Plague||腥血瘟疫||腥血瘟疫||'''噬血疫病'''||腥血瘟疫
+|-
+|Blood Ritual||鲜血仪式||鲜血仪式||鲜血仪式||鲜血仪式
+|-
+|Blood Thirst||嗜血||嗜血||嗜血||嗜血
+|-
+|Blood of the Ancients||上古之血||上古之血||'''远古血脉'''||上古之血
+|-
+|Bloodscythe||割血镰||割血镰||割血镰||割血镰
+|-
+|Bloodscythe Armor Reduction||割血镰武装降级||割血镰武装降级||割血镰武装降级||割血镰武装降级
+|-
+|Bloodskal Blade||血吟刃||'''血饮刃'''||'''血饮刃'''||血吟刃
+|-
+|Bloodskal Enchantment||血吟附魔||'''血饮附魔'''||'''血饮刃附魔'''||血吟附魔
+|-
+|Bloodskal Red Glow||血吟红光||'''血饮红光'''||'''血饮红光'''||血吟红光
+|-
+|Bloodskal Strike||血吟打击||'''血饮打击'''||'''血饮冲击波'''||血吟打击
+|-
+|Bloodthirst||    ||'''血嗜'''||    ||'''血嗜'''
+|-
+|Bloodthirst Ability||    ||    ||    ||'''血嗜能力'''
+|-
+|Bloodthirst Display Effect||    ||    ||    ||'''血嗜显示效果'''
+|-
+|Bloodthirst Speed||    ||    ||    ||'''血嗜速度'''
+|-
+|Bloodthorn||血荆棘||血荆棘||血荆棘||血荆棘
+|-
+|Bloodworm Helm Enchantment||    ||    ||    ||'''血虫头盔附魔'''
+|-
+|Bloody Claws||染血的爪子||染血的爪子||'''嗜杀之爪'''||染血的爪子
+|-
+|Bloody Grip||血之握||血之握||'''鲜血支配'''||血之握
+|-
+|Bloody Grip Cloak Effect||血之握斗篷效果||血之握斗篷效果||    ||血之握斗篷效果
+|-
+|Boethiah's Blessing||波耶西亚的赐福||波耶西亚的赐福||波耶西亚的赐福||波耶西亚的赐福
+|-
+|Boethiah's Embrace||波耶西亚的拥抱||波耶西亚的拥抱||波耶西亚的拥抱||波耶西亚的拥抱
+|-
+|Boethiah's Shadow||波耶西亚的阴影||波耶西亚的阴影||波耶西亚的阴影||波耶西亚的阴影
+|-
+|Bone Break Fever||骨折发炎||骨折发炎||'''骨痛热'''||'''骨痛热'''
+|-
+|Bone Break Fever Applicator||    ||    ||    ||'''骨痛热套用器'''
+|-
+|Bone Breaker||碎骨者||碎骨者||'''分筋裂骨'''||'''裂骨者'''
+|-
+|Bone Colossus Heal Skele||    ||    ||    ||'''骷髅巨人治疗骷髅'''
+|-
+|Bone Colossus Perk||    ||    ||    ||'''骷髅巨人额外能力'''
+|-
+|Bone Colossus Stomp||    ||    ||    ||'''骷髅巨人践踏'''
+|-
+|Bone Wolf's Gift||    ||'''骨狼天赋'''||    ||'''骨狼送礼能力'''
+|-
+|Bone Wolf's Revenge||    ||'''骨狼复仇'''||    ||'''骨狼的复仇'''
+|-
+|Bone Wolf's Reward||    ||'''骨狼报恩'''||    ||'''骨狼的奖赏'''
+|-
+|Bones of the Earth||大地之骨||大地之骨||大地之骨||大地之骨
+|-
+|Boss Channel Effect||    ||    ||    ||'''头目引导效果'''
+|-
+|Boss Channelling Spell||    ||    ||    ||'''头目引导法术'''
+|-
+|Bound Axe||束缚手斧||束缚手斧||'''魔力塑形战斧'''||'''召唤斧头'''
+|-
+|Bound Battleaxe||束缚巨斧||束缚巨斧||'''战斧塑形术'''||'''召唤巨斧'''
+|-
+|Bound Battleaxe FX||束缚巨斧伤害||束缚巨斧伤害||    ||    
+|-
+|Bound Bow||束缚弓||束缚弓||'''战弓塑形术'''||'''召唤战弓'''
+|-
+|Bound Bow||束缚弓||束缚弓||'''魔力塑形战弓'''||'''召唤战弓'''
+|-
+|Bound Bow FX||束缚弓伤害||束缚弓伤害||    ||    
+|-
+|Bound Dagger||束缚匕首||束缚匕首||'''匕首塑形术'''||束缚匕首
+|-
+|Bound Dagger||束缚匕首||束缚匕首||'''魔力塑形匕首'''||束缚匕首
+|-
+|Bound Quiver||    ||'''束缚箭'''||    ||'''召唤箭袋'''
+|-
+|Bound Sword||束缚剑||束缚剑||'''长剑塑形术'''||'''召唤单手剑'''
+|-
+|Bound Sword||束缚剑||束缚剑||'''魔力塑形长剑'''||'''召唤单手剑'''
+|-
+|Bound Sword FX||束缚剑伤害||束缚剑伤害||    ||    
+|-
+|Bow Base Effect||    ||'''毁灭边缘基础效果'''||    ||'''弓基础效果'''
+|-
+|Bow of Shadows||    ||'''暗影之弓'''||    ||'''暗影弓'''
+|-
+|Bow of Shadows Invisibility||    ||    ||    ||'''暗影弓隐形'''
+|-
+|Bow of Shadows Magic Effect||    ||    ||    ||'''暗影弓魔法效果'''
+|-
+|Brain Rot||脑部腐坏||脑部腐坏||'''腐脑病'''||脑部腐坏
+|-
+|Brain Rot Applicator||    ||    ||    ||'''脑部腐坏套用器'''
+|-
+|Breath of Nchuak||恩华刻之息||恩华刻之息||恩华刻之息||恩华刻之息
+|-
+|Brelyna's Practice Spell||布莱丽娜的练习用法术||布莱丽娜的练习用法术||'''布莱丽娜的练习法术'''||'''布莱丽娜的练习魔法'''
+|-
+|Briarheart Geis||荆棘之心||荆棘之心||'''荆棘之心忌咒'''||荆棘之心
+|-
+|Briarheart Harvest||收集荆棘之心||收集荆棘之心||收集荆棘之心||收集荆棘之心
+|-
+|Briarheart Lifeforce||荆棘之心生命||荆棘之心生命||'''荆棘之心生命力'''||'''荆棘之心生命力'''
+|-
+|Bribery||贿赂收买||贿赂收买||贿赂收买||贿赂收买
+|-
+|Bromjunaar's Mystery||布鲁加纳的神秘||布鲁加纳的神秘||'''布罗姆琼那的奥秘'''||'''布鲁加纳的秘密'''
+|-
+|Bromjunaar's Mystery||布鲁加纳的神秘||布鲁加纳的神秘||'''布罗姆琼那的奥秘'''||布鲁加纳的神秘
+|-
+|Brown Rot||    ||'''尸毒病'''||    ||'''褐腐病'''
+|-
+|Build Camp||    ||'''扎营'''||    ||'''建立营地'''
+|-
+|Bullseye||正中要害||正中要害||正中要害||正中要害
+|-
+|Burden||    ||'''增重减益'''||    ||'''重担'''
+|-
+|Burning||燃烧||燃烧||燃烧||燃烧
+|-
+|Burning Chaos||    ||'''灼烧混沌'''||    ||'''燃烧混乱'''
+|-
+|Call Dragon||召唤傲达威英||召唤傲达威英||召唤傲达威英||'''龙之召唤'''
+|-
+|Call Dragon - all||召唤傲达威英 - 全种||召唤傲达威英 - 全种||'''召唤傲达威英 - all'''||'''召唤龙 - 全种'''
+|-
+|Call Dragon Effect||召唤傲达威英 - 效果||召唤傲达威英 - 效果||    ||'''召唤龙效果'''
+|-
+|Call Of The Wild||荒野呼唤||荒野呼唤||荒野呼唤||荒野呼唤
+|-
+|Call Storm||召唤风暴||召唤风暴||召唤风暴||召唤风暴
+|-
+|Call of Valor||勇气召唤||勇气召唤||'''英灵召唤'''||勇气召唤
+|-
+|Call of the Wild||荒野呼唤||荒野呼唤||荒野呼唤||荒野呼唤
+|-
+|Call to Arms||激励术||激励术||激励术||激励术
+|-
+|Calm||安抚术||安抚术||安抚术||'''镇定术'''
+|-
+|Calm All||安抚所有生物||安抚所有生物||安抚所有生物||安抚所有生物
+|-
+|Calm Dragon||安抚龙||安抚龙||安抚龙||安抚龙
+|-
+|Calm Spider||    ||    ||    ||'''安抚蜘蛛'''
+|-
+|Candlelight||烛光术||烛光术||烛光术||烛光术
+|-
+|Cannibalism||同类相食||同类相食||同类相食||同类相食
+|-
+|Catalyst||催化剂||催化剂||催化剂||催化剂
+|-
+|Catapult Projectile Effect||    ||    ||    ||'''投石器投掷效果'''
+|-
+|Catapult Projectile Spell||    ||    ||    ||'''投石器投掷法术'''
+|-
+|Cellar||地窖||地窖||    ||'''地下室'''
+|-
+|Chain Lightning||闪电链||闪电链||'''闪电连锁术'''||闪电链
+|-
+|Champion of the Night||暗夜勇士||暗夜勇士||'''暗夜代表'''||暗夜勇士
+|-
+|Champion's Stance||勇士姿态||勇士姿态||勇士姿态||勇士姿态
+|-
+|Channeling Beam||连结射线||连结射线||连结射线||连结射线
+|-
+|Chaos Damage||混沌伤害||混沌伤害||'''浑沌伤害'''||混沌伤害
+|-
+|Charm||魅惑||魅惑||魅惑||魅惑
+|-
+|Charm Mudcrab||    ||'''引诱泥沼蟹'''||    ||'''魅惑泥沼蟹'''
+|-
+|Charm Mudcrab Hit||    ||    ||    ||'''魅惑泥沼蟹命中'''
+|-
+|Charm Mudcrab Hit Spell||    ||    ||    ||'''魅惑泥沼蟹命中法术'''
+|-
+|Charm Mudcrab Movement Speed||    ||    ||    ||'''魅惑泥沼蟹移动速度'''
+|-
+|Charm Mudcrabs||    ||'''引诱泥沼蟹'''||    ||'''魅惑泥沼蟹'''
+|-
+|Chaurus Poison||巢蚁毒||'''巢螋毒'''||'''巢螋毒素'''||巢蚁毒
+|-
+|Chaurus Spit||巢蚁唾液||'''巢螋唾液'''||'''巢螋唾液'''||巢蚁唾液
+|-
+|Check For Heal||    ||    ||'''检视并治疗'''||    
+|-
+|Check If Armor Equipped||    ||    ||    ||'''检查护甲是否已装备'''
+|-
+|Check Water||查看水面||查看水面||'''检视水面'''||'''检视水面'''
+|-
+|Check on Equip||    ||    ||    ||'''装备时检查'''
+|-
+|Chill Touch||宁静之触||宁静之触||'''寒冷之触'''||宁静之触
+|-
+|Chilly||    ||'''寒冷'''||    ||'''冷飕飕'''
+|-
+|Choking Grasp||    ||'''窒息之握'''||    ||'''窒息之握'''
+|-
+|Choking Pollen||    ||    ||    ||'''窒息花粉'''
+|-
+|Chrysamere||    ||'''克里萨米尔'''||    ||'''法术吸收'''
+|-
+|Chrysamere||    ||'''克里萨米尔'''||    ||'''克萨米尔剑'''
+|-
+|Chrysamere - Absorb Magicka||    ||'''克里萨米尔 - 吸取法力'''||    ||'''克萨米尔剑：法力吸取'''
+|-
+|Chrysamere - Resist Fire||    ||'''克里萨米尔 - 火焰抗性'''||    ||'''克萨米尔剑：火焰抗性'''
+|-
+|Chrysamere - regen health||    ||'''克里萨米尔 - 恢复生命'''||    ||'''克萨米尔剑：恢复生命力'''
+|-
+|Chrysamere Enchantment||    ||'''克里萨米尔附魔'''||    ||'''克萨米尔剑附魔'''
+|-
+|Circle of Protection||庇佑光环||庇佑光环||'''庇护领域术'''||'''庇佑之环'''
+|-
+|Circle of Vitality||元气光环||元气光环||'''活力领域术'''||'''元气之环'''
+|-
+|Clairvoyance||洞察术||洞察术||'''向导术'''||洞察术
+|-
+|Clan Ice-Blade Enchantment||    ||'''冰刃氏族附魔'''||    ||'''冰锋家族附魔'''
+|-
+|Claws||爪||爪||'''利爪'''||爪
+|-
+|Clear Skies||澄澈天空||澄澈天空||澄澈天空||澄澈天空
+|-
+|Cloak||    ||'''斗篷'''||    ||'''斗篷'''
+|-
+|Close Wounds||愈合术||愈合术||'''强效治疗术'''||'''伤口愈合术'''
+|-
+|Club Pound||棍棒重击||棍棒重击||棍棒重击||棍棒重击
+|-
+|Cold - Chilly||    ||'''寒冷值 - 寒冷'''||    ||'''寒冷 - 冷飕飕'''
+|-
+|Cold - Comfortable||    ||'''寒冷值 - 舒适'''||    ||'''寒冷 - 舒适'''
+|-
+|Cold - Freezing||    ||'''寒冷值 - 冰冷'''||    ||'''寒冷 - 寒冻'''
+|-
+|Cold - Numb||    ||'''寒冷值 - 冻僵'''||    ||'''寒冷 - 冻僵'''
+|-
+|Cold - Very Cold||    ||'''寒冷值 - 非常冷'''||    ||'''寒冷 - 非常寒冷'''
+|-
+|Cold - Warm||    ||'''寒冷值 - 温暖'''||    ||'''寒冷 - 温暖'''
+|-
+|Cold FX Shader||    ||    ||    ||'''寒冷效果着色器'''
+|-
+|Cold as the Dead||如尸体般寒冷||如尸体般寒冷||如尸体般寒冷||如尸体般寒冷
+|-
+|Collector's Touch||收藏家之赐||收藏家之赐||收藏家之赐||收藏家之赐
+|-
+|College Practice Ward||学院的练习结界||学院的练习结界||学院的练习结界||学院的练习结界
+|-
+|Combat Heal Rate||战斗生命速度||战斗生命速度||'''战斗生命速率'''||'''战斗生命速率'''
+|-
+|Combat Vigor||战斗活力||战斗活力||战斗活力||战斗活力
+|-
+|Comfortable||    ||'''舒适'''||    ||'''舒适'''
+|-
+|Command||控制||控制||'''支配魔族'''||控制
+|-
+|Command Animal||控制动物||控制动物||控制动物||控制动物
+|-
+|Command Daedra||控制魔族||控制魔族||'''魔族支配术'''||'''号令魔族'''
+|-
+|Command Spider||    ||'''号令蜘蛛'''||    ||'''指挥蜘蛛'''
+|-
+|Command Undead||    ||'''控制亡灵'''||    ||'''控制不死生物'''
+|-
+|Companion's Insight||同伴洞察力||同伴洞察力||同伴洞察力||同伴洞察力
+|-
+|Concentrated Poison||毒药精炼||毒药精炼||毒药精炼||毒药精炼
+|-
+|Conditioning||轻若无物||轻若无物||轻若无物||轻若无物
+|-
+|Conductive Helmet||    ||    ||    ||'''传导头盔'''
+|-
+|Conjuration Dual Casting||召唤系双手施法||召唤系双手施法||'''召唤系双手施展'''||召唤系双手施法
+|-
+|Conjure  Sundered Shade||    ||'''召唤碎裂幽影'''||    ||'''召唤碎裂幽影'''
+|-
+|Conjure Ancient Deathpriest||    ||'''召唤古代死亡祭司'''||    ||'''召唤远古死亡祭司'''
+|-
+|Conjure Ancients||召唤先祖||召唤先祖||'''召唤先人'''||召唤先祖
+|-
+|Conjure Ash Guardian||召唤灰烬守护者||召唤灰烬守护者||'''凝灰岩卫召唤术'''||召唤灰烬守护者
+|-
+|Conjure Ash Spawn||召唤灰烬魔||召唤灰烬魔||'''凝灰鬼召唤术'''||召唤灰烬魔
+|-
+|Conjure Ash Spawn||召唤灰烬魔||召唤灰烬魔||'''召唤凝灰鬼'''||召唤灰烬魔
+|-
+|Conjure Ayleid Lich||    ||'''召唤亚历德巫妖'''||    ||'''召唤亚历德巫妖'''
+|-
+|Conjure Bone Colossus||    ||'''召唤骨巨人'''||    ||'''召唤骷髅巨人'''  
+|-
+|Conjure Boneman||召唤暗黑骷髅||召唤暗黑骷髅||'''骨骸召灵术'''||'''召唤黑骷髅'''
+|-
+|Conjure Boneman||召唤暗黑骷髅||召唤暗黑骷髅||'''召唤骨骸'''||'''召唤黑骷髅'''
+|-
+|Conjure Cursed Spectre||    ||'''召唤诅咒幽灵'''||    ||'''召唤诅咒幽灵'''
+|-
+|Conjure Daedra||    ||'''召唤魔族'''||    ||'''召唤魔族'''
+|-
+|Conjure Dark Seducer Archer||    ||'''召唤黑暗诱惑者弓箭手'''||    ||'''召唤黑暗诱惑者弓手'''
+|-
+|Conjure Dark Seducer Warrior||    ||'''召唤黑暗诱惑者战士'''||    ||'''召唤黑暗诱惑者战士'''
+|-
+|Conjure Dragon Priest||召唤龙祭司||召唤龙祭司||'''龙祭司召唤术'''||召唤龙祭司
+|-
+|Conjure Dremora Lord||召唤魔人领主||召唤魔人领主||'''魔人将士召唤术'''||召唤魔人领主
+|-
+|Conjure Dremora Lord||召唤魔人领主||召唤魔人领主||'''召唤魔人将士'''||召唤魔人领主
+|-
+|Conjure Dremora Lord||    ||'''召唤魔人领主'''||    ||'''召唤魔人领主'''
+|-
+|Conjure Dwarven Sphere||召唤矮人机械球||召唤矮人机械球||召唤矮人机械球||召唤矮人机械球
+|-
+|Conjure Dwarven Spider||召唤矮人蜘蛛||召唤矮人蜘蛛||召唤矮人蜘蛛||召唤矮人蜘蛛
+|-
+|Conjure Familiar||召唤幽灵魔狼||召唤幽灵魔狼||'''使魔召唤术'''||'''召唤魔宠'''
+|-
+|Conjure Familiar||召唤幽灵魔狼||召唤幽灵魔狼||'''召唤使魔'''||'''召唤魔宠'''
+|-
+|Conjure Flame Atronach||召唤火焰元素||召唤火焰元素||'''烈焰属灵召唤术'''||召唤火焰元素
+|-
+|Conjure Flame Atronach||召唤火焰元素||召唤火焰元素||'''召唤烈焰属灵'''||召唤火焰元素
+|-
+|Conjure Flame Atronach||    ||'''召唤火焰元素'''||    ||'''召唤火焰元素'''
+|-
+|Conjure Flame Thrall||烈焰奴仆||烈焰奴仆||'''召唤烈焰侍灵'''||'''召唤烈焰奴仆'''
+|-
+|Conjure Flame Thrall||烈焰奴仆||烈焰奴仆||'''召唤烈焰侍灵'''||'''使役烈焰'''
+|-
+|Conjure Flaming Familiar||召唤烈焰魔狼||召唤烈焰魔狼||'''召唤烈焰使魔'''||'''召唤火焰魔宠'''
+|-
+|Conjure Foul Zombie||    ||'''召唤邪恶僵尸'''||    ||'''召唤恶臭僵尸'''
+|-
+|Conjure Frost Atronach||召唤寒霜元素||召唤寒霜元素||'''寒霜属灵召唤术'''||召唤寒霜元素
+|-
+|Conjure Frost Atronach||召唤寒霜元素||召唤寒霜元素||'''召唤寒霜属灵'''||召唤寒霜元素
+|-
+|Conjure Frost Atronach||    ||'''召唤寒霜元素'''||    ||'''召唤寒霜元素'''
+|-
+|Conjure Frost Thrall||寒霜奴仆||寒霜奴仆||'''召唤寒霜侍灵'''||'''召唤寒霜奴仆'''
+|-
+|Conjure Frost Thrall||寒霜奴仆||寒霜奴仆||'''召唤寒霜侍灵'''||'''使役寒霜'''
+|-
+|Conjure Gargoyle||召唤石像鬼||召唤石像鬼||召唤石像鬼||召唤石像鬼
+|-
+|Conjure Golden Saint Archer||    ||'''召唤黄金圣徒弓箭手'''||    ||'''召唤黄金圣人弓手'''
+|-
+|Conjure Golden Saint Warrior||    ||'''召唤黄金圣徒战士'''||    ||'''召唤黄金圣人战士'''
+|-
+|Conjure Haunting Spirit||    ||'''召唤徘徊精魄'''||    ||'''召唤徘徊精魄'''
+|-
+|Conjure Haunting Spirit||    ||'''召唤徘徊精魄'''||    ||    
+|-
+|Conjure High Seeker||召唤高等追寻者||召唤高等追寻者||'''召唤高等识巡者'''||召唤高等追寻者
+|-
+|Conjure Ice Wraith||召唤冰怨灵||召唤冰怨灵||'''召唤冰幻灵'''||召唤冰怨灵
+|-
+|Conjure Lurker||    ||'''召唤潜伏者'''||    ||'''召唤潜伏者'''
+|-
+|Conjure Malignant Zombie||    ||'''召唤恶性僵尸'''||    ||'''召唤邪恶僵尸'''
+|-
+|Conjure Mistman||召唤迷雾飘魂||召唤迷雾飘魂||'''雾骸召灵术'''||召唤迷雾飘魂
+|-
+|Conjure Mistman||召唤迷雾飘魂||召唤迷雾飘魂||'''召唤雾骸'''||召唤迷雾飘魂
+|-
+|Conjure Potent Flame Atronach||召唤强力火焰元素||召唤强力火焰元素||'''召唤强力烈焰属灵'''||召唤强力火焰元素
+|-
+|Conjure Potent Flame Thrall||召唤强力烈焰奴仆||召唤强力烈焰奴仆||'''召唤强力烈焰侍灵'''||'''召唤强力的烈焰奴仆'''
+|-
+|Conjure Potent Frost Atronach||召唤强力寒霜巨人||召唤强力寒霜巨人||'''召唤强力寒霜属灵'''||'''召唤强力寒霜元素'''
+|-
+|Conjure Potent Frost Atronach||召唤强力寒霜巨人||召唤强力寒霜巨人||'''召唤强力寒霜属灵'''||'''召唤特效寒霜元素'''
+|-
+|Conjure Potent Frost Atronach||召唤强力寒霜巨人||召唤强力寒霜巨人||'''召唤强力寒霜属灵'''||'''召唤特效寒霜巨人'''
+|-
+|Conjure Potent Frost Thrall||召唤强力寒霜奴仆||召唤强力寒霜奴仆||'''召唤强力寒霜侍灵'''||召唤强力寒霜奴仆
+|-
+|Conjure Potent Storm Thrall||召唤强力风暴奴仆||召唤强力风暴奴仆||'''召唤强力风暴侍灵'''||    
+|-
+|Conjure Putrid Zombie||    ||'''召唤腐坏僵尸'''||    ||'''召唤腐败僵尸'''
+|-
+|Conjure Seeker||召唤追寻者||召唤追寻者||'''识巡者召唤术'''||召唤追寻者
+|-
+|Conjure Seeker||召唤追寻者||召唤追寻者||'''召唤识巡者'''||召唤追寻者
+|-
+|Conjure Skeleton Champion||    ||'''召唤骷髅勇士'''||    ||'''召唤骷髅勇士'''
+|-
+|Conjure Skeleton Champion||    ||'''召唤骷髅勇士'''||    ||    
+|-
+|Conjure Skeleton Marksman||    ||'''召唤骷髅神射手'''||    ||'''召唤骷髅神射手'''
+|-
+|Conjure Skeleton Marksman||    ||'''召唤骷髅神射手'''||    ||    
+|-
+|Conjure Skeleton Minion||    ||'''召唤骷髅喽啰'''||    ||'''召唤骷髅手下'''
+|-
+|Conjure Skeleton Minion||    ||'''召唤骷髅喽啰'''||    ||    
+|-
+|Conjure Skeleton Warlock||    ||'''召唤骷髅巫师'''||    ||'''召唤骷髅巫师'''
+|-
+|Conjure Skeleton Warlock||    ||'''召唤骷髅巫师'''||    ||    
+|-
+|Conjure Spectral Dragon||召唤幽灵龙||召唤幽灵龙||召唤幽灵龙||召唤幽灵龙
+|-
+|Conjure Staada||    ||'''召唤史塔达'''||    ||'''召唤丝塔达'''
+|-
+|Conjure Storm Atronach||召唤风暴元素||召唤风暴元素||'''风暴属灵召唤术'''||召唤风暴元素
+|-
+|Conjure Storm Atronach||召唤风暴元素||召唤风暴元素||'''召唤风暴属灵'''||召唤风暴元素
+|-
+|Conjure Storm Atronach||    ||'''召唤风暴元素'''||    ||'''召唤风暴元素'''
+|-
+|Conjure Storm Thrall||风暴奴仆||风暴奴仆||'''召唤风暴侍灵'''||'''召唤风暴奴仆'''
+|-
+|Conjure Storm Thrall||风暴奴仆||风暴奴仆||'''召唤风暴侍灵'''||'''使役风暴'''
+|-
+|Conjure Sundered Shade||    ||'''召唤碎裂幽影'''||    ||'''召唤碎裂幽影'''
+|-
+|Conjure Sundered Shade||    ||'''召唤碎裂幽影'''||    ||    
+|-
+|Conjure Tomb Guardian||    ||'''召唤坟墓守护者'''||    ||'''召唤坟墓守护者'''
+|-
+|Conjure Tomb Guardian||    ||'''召唤坟墓守护者'''||    ||    
+|-
+|Conjure Undying Ghost||    ||'''召唤不死鬼魂'''||    ||'''召唤不死鬼魂'''
+|-
+|Conjure Undying Ghost||    ||'''召唤不死鬼魂'''||    ||    
+|-
+|Conjure Werebear||召唤熊人||召唤熊人||'''熊人召唤术'''||召唤熊人
+|-
+|Conjure Werebear||召唤熊人||召唤熊人||召唤熊人||召唤熊人
+|-
+|Conjure Wrathman||召唤狂暴亡灵||召唤狂暴亡灵||'''怒骸召灵术'''||召唤狂暴亡灵
+|-
+|Conjure Wrathman||召唤狂暴亡灵||召唤狂暴亡灵||'''召唤怒骸'''||召唤狂暴亡灵
+|-
+|Conjure Zombie||    ||'''召唤僵尸'''||    ||'''召唤僵尸'''
+|-
+|Constant Damage Health||持续减损生命||持续减损生命||'''持续伤害'''||'''持续减损生命力'''
+|-
+|Cool Area||    ||'''寒冷区域'''||    ||'''凉爽区域'''
+|-
+|Corpse Curse||死尸诅咒||死尸诅咒||'''尸僵诅咒'''||死尸诅咒
+|-
+|Corpus Enchanter||体质附魔||体质附魔||体质附魔||体质附魔
+|-
+|Courage||勇气术||勇气术||勇气术||勇气术
+|-
+|Courage Secondary||次级勇气||次级勇气||'''次级勇气术'''||次级勇气
+|-
+|Courier Ability||    ||    ||    ||'''信使能力'''
+|-
+|Courier Check||    ||    ||    ||'''信使检查'''
+|-
+|Courier Perk||    ||'''邮差额外能力'''||    ||'''信使额外能力'''
+|-
+|Crab Flaming Pot Effect||    ||    ||    ||'''螃蟹燃烧罐效果'''
+|-
+|Crab Flaming Pot Item Spell||    ||    ||    ||'''螃蟹燃烧罐物品法术'''
+|-
+|Crab claws||蟹爪||蟹爪||蟹爪||蟹爪
+|-
+|Crippling Ataxia||    ||'''致残运动失调'''||    ||'''致残的运动失调症'''
+|-
+|Crippling Bone Break Fever||    ||'''致残骨折发炎'''||    ||'''致残的骨痛热'''
+|-
+|Crippling Brain Rot||    ||'''致残脑部腐坏'''||    ||'''致残的脑部腐坏'''
+|-
+|Crippling Brown Rot||    ||'''致残尸毒病'''||    ||'''致残的褐腐病'''
+|-
+|Crippling Droops||    ||'''致残委靡症'''||    ||'''致残的委靡症'''
+|-
+|Crippling Greenspore||    ||'''致残绿孢症'''||    ||'''致残的绿孢病'''
+|-
+|Crippling Gutworm||    ||'''致残肠胃寄生虫'''||    ||'''致残的肠虫病'''
+|-
+|Crippling Rattles||    ||'''致残响尾毒'''||    ||'''致残的响尾毒'''
+|-
+|Crippling Rockjoint||    ||'''致残关节石化病'''||    ||'''致残的关节石化病'''
+|-
+|Crippling Witbane||    ||'''致残魔障症'''||    ||'''致残的魔障症'''
+|-
+|Critical Charge||致命突袭||致命突袭||致命突袭||致命突袭
+|-
+|Critical Hit||暴击||暴击||暴击||暴击
+|-
+|Critical Shot||精准射击||精准射击||精准射击||精准射击
+|-
+|Cure Disease||治愈疾病||治愈疾病||'''治疗疾病'''||'''治病'''
+|-
+|Cure Poison||解毒药水||解毒药水||'''治疗中毒'''||'''解毒'''
+|-
+|Cure all diseases before changing||转化前治疗所有疾病||转化前治疗所有疾病||转化前治疗所有疾病||转化前治疗所有疾病
+|-
+|Cursed Ring of Hircine||海尔辛的诅咒戒指||海尔辛的诅咒戒指||'''海尔辛的诅咒指环'''||'''海尔辛的诅咒指环'''
+|-
+|Cushioned||冲击吸收||冲击吸收||'''冲击解除'''||冲击吸收
+|-
+|Custom Fit||量身打造||量身打造||量身打造||量身打造
+|-
+|Cutpurse||扒手||扒手||'''五鬼搬运'''||'''划破钱包'''
+|-
+|Cyclone||气旋龙吼||气旋龙吼||'''抛空气旋'''||'''气旋'''
+|-
+|Daedric Smithing||魔族锻造||魔族锻造||'''魔族工艺锻造'''||'''魔族材质锻造'''
+|-
+|Damage Carry Weight||减损负重力||减损负重力||减损负重力||减损负重力
+|-
+|Damage Health||减损生命||减损生命||减损生命||'''减损生命力'''
+|-
+|Damage Health Regen||减缓目标生命恢复速度||减缓目标生命恢复速度||'''减损生命恢复'''||'''减缓目标生命力恢复速度'''
+|-
+|Damage Health Regeneration||减缓生命恢复||减缓生命恢复||'''减损生命恢复'''||'''减缓目标生命恢复速度'''
+|-
+|Damage Health Regeneration||减缓生命恢复||减缓生命恢复||'''减损生命恢复'''||'''减缓生命力恢复速度'''
+|-
+|Damage Health Regeneration||    ||'''减缓生命恢复'''||    ||'''减缓生命力恢复速度'''
+|-
+|Damage Lockpicking||伤害撬锁术||伤害撬锁术||'''减损开锁能力'''||伤害撬锁术
+|-
+|Damage Magicka||减损法力||减损法力||减损法力||减损法力
+|-
+|Damage Magicka||    ||'''减损法力'''||    ||'''降低法力'''
+|-
+|Damage Magicka Regen||减缓法力||减缓法力||'''减损法力恢复'''||'''减缓目标法力恢复速度'''
+|-
+|Damage Magicka Regeneration||减缓法力恢复||减缓法力恢复||'''减损法力恢复'''||'''减缓法力恢复速度'''
+|-
+|Damage Resistance||伤害抗性||伤害抗性||伤害抗性||伤害抗性
+|-
+|Damage Stamina||减损体力||减损体力||'''减损耐力'''||'''降低精力'''
+|-
+|Damage Stamina Regen||减缓体力||减缓体力||'''减损耐力恢复'''||'''减缓精力恢复'''
+|-
+|Damage Stamina Regeneration||减缓体力恢复||减缓体力恢复||'''减损耐力恢复'''||'''减缓精力恢复速度'''
+|-
+|Dark Moon||    ||'''暗月'''||    ||'''暗月'''
+|-
+|Dark Sacrifice||黑暗献祭||黑暗献祭||黑暗献祭||黑暗献祭
+|-
+|Dark Souls||黑暗灵魂||黑暗灵魂||黑暗灵魂||黑暗灵魂
+|-
+|Dark Souls Dread Zombie||暗魂恐怖僵尸术||暗魂恐怖僵尸术||    ||暗魂恐怖僵尸术
+|-
+|Dark Souls Health Bonus||    ||    ||    ||'''暗魂生命力加成'''
+|-
+|Dark Souls Reanimate Corpse||暗黑复活僵尸||暗黑复活僵尸||    ||'''暗魂尸体复活术'''
+|-
+|Dark Souls Revenant||暗黑魂行僵尸||暗黑魂行僵尸||    ||'''暗魂魂行术'''
+|-
+|Dark Souls Zombie||黑暗灵魂僵尸||黑暗灵魂僵尸||    ||黑暗灵魂僵尸
+|-
+|Dawnbreaker||破晓者||破晓者||破晓者||破晓者
+|-
+|Dawnfang Absorb Health||    ||'''黎明之牙吸取生命力'''||    ||'''晓牙吸取生命力'''
+|-
+|Dawnfang Day Night Effects||    ||    ||    ||'''暮牙日夜间效果'''
+|-
+|Dawnfang Description Effect||    ||    ||    ||'''晓牙效果说明'''
+|-
+|Dawnfang Effect||    ||    ||    ||'''晓牙效果'''
+|-
+|Dawnfang FX||    ||'''黎明之牙效果'''||    ||'''晓牙效果'''
+|-
+|Dawnfang Fire Damage||    ||'''黎明之牙火焰伤害'''||    ||'''晓牙火焰伤害'''
+|-
+|Dawnfang Kill Count Increment Effect||    ||    ||    ||'''晓牙杀敌数加乘效果'''
+|-
+|Dead Thrall||亡魂奴仆||亡魂奴仆||'''尸仆支配术'''||亡魂奴仆
+|-
+|Deadly Aim||致命瞄准||致命瞄准||致命瞄准||致命瞄准
+|-
+|Deadly Bash||致命盾击||致命盾击||'''致命反击'''||'''致命冲击'''
+|-
+|Death Hound Attack||死亡猎犬攻击||死亡猎犬攻击||'''僵犬攻击'''||'''死亡地狱犬攻击'''
+|-
+|Death Hound abilities||死亡猎犬特殊能力||死亡猎犬特殊能力||    ||'''死亡地狱犬特殊能力'''
+|-
+|Deathbrand Breath||死亡烙印吐息||死亡烙印吐息||死亡烙印吐息||死亡烙印吐息
+|-
+|Deathbrand Endurance||死亡烙印耐力||死亡烙印耐力||死亡烙印耐力||死亡烙印耐力
+|-
+|Deathbrand Ferocity||死亡烙印残暴||死亡烙印残暴||死亡烙印残暴||死亡烙印残暴
+|-
+|Deathbrand Haul||死亡烙印搬运||死亡烙印搬运||死亡烙印搬运||死亡烙印搬运
+|-
+|Deathbrand Instinct||死亡烙印直觉||死亡烙印直觉||死亡烙印直觉||死亡烙印直觉
+|-
+|Debilitated||    ||'''精疲力尽'''||    ||'''操劳过度'''
+|-
+|Deep Freeze||深度冻结||深度冻结||深度冻结||深度冻结
+|-
+|Deep Freeze Paralyze||深度冻结麻痹||深度冻结麻痹||深度冻结麻痹||深度冻结麻痹
+|-
+|Deep Wisdom||    ||'''深邃智慧'''||    ||'''深度智慧'''
+|-
+|Deep Wounds||重创打击||重创打击||重创打击||重创打击
+|-
+|Deer Glow Spell||鹿幽光法术||鹿幽光法术||'''光辉之鹿法术'''||鹿幽光法术
+|-
+|Deflect Arrows||偏转箭头||偏转箭头||'''箭袭防御'''||偏转箭头
+|-
+|Deft Movement||灵动步伐||灵动步伐||灵动步伐||灵动步伐
+|-
+|Demoralize||士气低落||士气低落||士气低落||士气低落
+|-
+|Denstagmer's Ring||    ||'''丹斯塔格莫之戒'''||    ||'''丹仕塔格莫的指环'''
+|-
+|Destroy Skull of Corruption||破坏堕落头骨||破坏堕落头骨||'''破坏腐坏头骨'''||破坏堕落头骨
+|-
+|Destruction Dual Casting||毁灭系双手施法||毁灭系双手施法||'''毁灭系双手施展'''||毁灭系双手施法
+|-
+|Detect All Creatures||感知生物||感知生物||'''万物感知术'''||'''侦测所有生物'''
+|-
+|Detect All Creatures||感知生物||感知生物||'''万物感知术'''||'''感知所有生物'''
+|-
+|Detect Ash Source||辨识灰烬魔来源||辨识灰烬魔来源||'''辨识凝灰鬼来源'''||辨识灰烬魔来源
+|-
+|Detect Dead||感知亡灵||感知亡灵||'''亡者感知术'''||'''感知亡者术'''
+|-
+|Detect Life||感知生命||感知生命||'''生命感知术'''||'''感知生命术'''
+|-
+|Detect Life||感知生命||感知生命||感知生命||'''感知生命术'''
+|-
+|Detect Life||    ||'''感知生命'''||    ||'''感知生命术'''
+|-
+|Detect Life - Predator Combat||感知生命 - 掠食者战斗||感知生命 - 掠食者战斗||    ||'''感知生命术–掠食者战斗'''
+|-
+|Detect Life - Predator Normal||感知生命 - 掠食者一般||感知生命 - 掠食者一般||    ||'''感知生命术–掠食者一般'''
+|-
+|Detect Life - Predator Searching||感知生命 - 掠食者搜索||感知生命 - 掠食者搜索||    ||'''感知生命术–掠食者搜索'''
+|-
+|Detect Life - Predator Searcing||感知生命 - 掠食者搜索||感知生命 - 掠食者搜索||    ||'''感知生命术–掠食者搜索'''
+|-
+|Detect Life Base||    ||    ||    ||'''感知生命术基础'''
+|-
+|Detect Life Enemy Exterior||    ||    ||    ||'''感知范围之外有生命的敌人'''
+|-
+|Detect Life Enemy Interior||感知附近敌对目标||感知附近敌对目标||    ||    
+|-
+|Detect Life Enemy Interior||    ||    ||    ||'''感知范围之内有生命的敌人'''
+|-
+|Detect Life Follower||    ||    ||    ||'''感知有生命的追随者'''
+|-
+|Detect Life Friend Exterior||感知范围之外的友好目标||感知范围之外的友好目标||    ||感知范围之外的友好目标
+|-
+|Detect Life Friend Exterior||    ||    ||    ||'''感知范围之外有生命的朋友'''
+|-
+|Detect Life Friend Interior||感知附近友好目标||感知附近友好目标||    ||'''感知范围之内的友好目标'''
+|-
+|Detect Life Friend Interior||    ||    ||    ||'''感知范围之内有生命的朋友'''
+|-
+|Detect Life Guard Exterior||    ||    ||    ||'''感知范围之外有生命的守卫'''
+|-
+|Detect Undead Enemy Interior||感知附近敌对亡灵||感知附近敌对亡灵||    ||    
+|-
+|Detect Undead Friend Interior||感知室内友好亡灵||感知室内友好亡灵||    ||    
+|-
+|Devastating Blow||毁灭打击||毁灭打击||毁灭打击||毁灭打击
+|-
+|Dibella's Comfort||    ||'''蒂贝拉的慰藉'''||    ||'''蒂贝拉的慰藉'''
+|-
+|Disarm||卸载武器||卸载武器||卸载武器||'''缴械武器'''
+|-
+|Disarming Bash||缴械盾击||缴械盾击||'''破防反击'''||缴械盾击
+|-
+|Disintegrate||粉身碎骨||粉身碎骨||粉身碎骨||粉身碎骨
+|-
+|Dismay||惊慌失措||惊慌失措||'''挫志咆哮'''||惊慌失措
+|-
+|Dismay - Faas||惊慌失措 - Faas||惊慌失措 - Faas||'''挫志咆哮 - Faas'''||惊慌失措 - Faas
+|-
+|Dismay - Maar||惊慌失措 - Maar||惊慌失措 - Maar||'''挫志咆哮 - Maar'''||惊慌失措 - Maar
+|-
+|Dismay - Ru||惊慌失措 - Ru||惊慌失措 - Ru||'''挫志咆哮 - Ru'''||惊慌失措 - Ru
+|-
+|Dismaying Shout||挫志咆哮||挫志咆哮||挫志咆哮||挫志咆哮
+|-
+|Dispel Night Eye||消除夜视||消除夜视||消除夜视||消除夜视
+|-
+|Disrobing||    ||'''脱衣'''||    ||'''裸身'''
+|-
+|Disrobing Enchantment||    ||    ||    ||'''裸身附魔'''
+|-
+|Distintegrate||瓦解||瓦解||瓦解||瓦解
+|-
+|Divine Crusader Boots||    ||'''圣灵圣教军靴子'''||    ||'''神灵十字军靴'''
+|-
+|Divine Crusader Cuirass||    ||'''圣灵圣教军护甲'''||    ||'''神灵十字军胸甲'''
+|-
+|Divine Crusader Gauntlets||    ||'''圣灵圣教军腕甲'''||    ||'''神灵十字军腕甲'''
+|-
+|Divine Crusader Helm||    ||'''圣灵圣教军头盔'''||    ||'''神灵十字军头盔'''
+|-
+|Dog Armor||狗护甲||狗护甲||'''狗的护甲'''||狗护甲
+|-
+|Dragon Armor||龙甲锻造||龙甲锻造||'''龙类制品锻造'''||'''龙系材质锻造'''
+|-
+|Dragon Aspect||龙魂觉醒||龙魂觉醒||龙魂觉醒||龙魂觉醒
+|-
+|Dragon Aspect - Arms||手臂觉醒||手臂觉醒||'''龙魂觉醒－手部'''||'''龙魂觉醒——手部'''
+|-
+|Dragon Aspect - Head||头部觉醒||头部觉醒||'''龙魂觉醒－头部'''||'''龙魂觉醒——头部'''
+|-
+|Dragon Bite||龙之咬||龙之咬||'''龙类撕咬'''||'''龙咬'''
+|-
+|Dragon Breath||龙息||龙息||龙息||龙息
+|-
+|Dragon Damage||巨龙伤害||巨龙伤害||巨龙伤害||巨龙伤害
+|-
+|Dragon Disarm||巨龙缴械||巨龙缴械||巨龙缴械||巨龙缴械
+|-
+|Dragon Infusion||龙魂注入||龙魂注入||'''龙击抑制'''||龙魂注入
+|-
+|Dragon Priest abilities||龙祭司能力||龙祭司能力||    ||    
+|-
+|Dragon Research||巨龙研究||巨龙研究||    ||巨龙研究
+|-
+|Dragon Storm||龙风暴||龙风暴||龙风暴||龙风暴
+|-
+|Dragon Storm Call||巨龙风暴召唤||巨龙风暴召唤||巨龙风暴召唤||巨龙风暴召唤
+|-
+|Dragon Sword Effect||龙族之剑效果||龙族之剑效果||    ||龙族之剑效果
+|-
+|Dragon Unrelenting Force||巨龙冷酷之力||'''巨龙无情之力'''||'''巨龙无形冲击'''||巨龙冷酷之力
+|-
+|Dragon breath||龙息术||龙息术||龙息术||龙息术
+|-
+|Dragon's Oath||    ||'''巨龙之誓'''||    ||'''龙之誓'''
+|-
+|Dragonborn Flame||龙裔火焰||龙裔火焰||'''龙裔火灵'''||龙裔火焰
+|-
+|Dragonborn Force||龙裔之力||龙裔之力||'''龙裔震威'''||龙裔之力
+|-
+|Dragonborn Frost||龙裔寒霜||龙裔寒霜||'''龙裔冰结'''||龙裔寒霜
+|-
+|Dragonhide||龙肤术||龙肤术||龙肤术||'''龙皮术'''
+|-
+|Dragonrend||龙魂撕裂||龙魂撕裂||龙魂撕裂||龙魂撕裂
+|-
+|Dragonrend Effect - Prevent Flying||龙魂撕裂效果 - 无法飞翔||龙魂撕裂效果 - 无法飞翔||    ||龙魂撕裂效果 - 无法飞翔
+|-
+|Dragonrend Effect - Prevent Flying||龙魂撕裂效果 - 无法飞翔||龙魂撕裂效果 - 无法飞翔||    ||    
+|-
+|Dragons Breath||龙息||龙息||龙息||龙息
+|-
+|Dragonskin||龙肤||龙肤||'''龙皮'''||龙肤
+|-
+|Dragonslayer's Blessing||屠龙者的赐福||屠龙者的赐福||屠龙者的赐福||屠龙者的赐福
+|-
+|Drain Claws||泄能爪子||泄能爪子||'''摄食之爪'''||泄能爪子
+|-
+|Drain Effect To Look For Targets||    ||    ||    ||'''降低效果找寻目标'''
+|-
+|Drain Effect To Look For Targets||    ||    ||    ||'''吸收目标搜索效果'''
+|-
+|Drain Health||吸取生命||吸取生命||'''吸食生命'''||'''降低生命力'''
+|-
+|Drain Life||吸血术||吸血术||'''生命掠夺'''||'''吸取生命'''
+|-
+|Drain Magicka||吸取法力||吸取法力||'''吸食法力'''||'''降低法力'''
+|-
+|Drain Stamina||吸取体力||吸取体力||'''吸食耐力'''||'''降低精力'''
+|-
+|Drain Vitality||吸取活力||吸取活力||'''活力摄取'''||'''降低活力'''
+|-
+|Drain Vitality - Health||吸取生命||吸取生命||'''活力摄取－生命'''||'''降低活力–生命力'''
+|-
+|Drain Vitality - Magicka||吸取法力||吸取法力||'''活力摄取－法力'''||'''降低活力–法力'''
+|-
+|Drain Vitality - Stamina||吸取体力||吸取体力||'''活力摄取－耐力'''||'''降低活力–精力'''
+|-
+|Drained||    ||'''困乏'''||    ||'''乏力'''
+|-
+|Draining Claws||泄能之爪||泄能之爪||'''逝力搬弄'''||泄能之爪
+|-
+|Draugr Frost Cloak||尸鬼寒霜斗篷||尸鬼寒霜斗篷||'''尸鬼冰霜斗篷术'''||'''诺德亡灵寒霜斗篷'''
+|-
+|Draugr Glow Eyes||尸鬼红眼||尸鬼红眼||    ||'''诺德亡灵红眼'''
+|-
+|Dread Cloak||恐惧斗篷||恐惧斗篷||恐惧斗篷||恐惧斗篷
+|-
+|Dread Zombie||恐怖僵尸||恐怖僵尸||'''尸儡差遣术'''||恐怖僵尸
+|-
+|Dreamsteal||盗梦||盗梦||    ||盗梦
+|-
+|Dremora Prices||魔人价钱||魔人价钱||魔人价钱||魔人价钱
+|-
+|Droops||委靡||'''萎靡症'''||'''疲弛病'''||'''委靡症'''
+|-
+|Drugged||上瘾||上瘾||上瘾||上瘾
+|-
+|Drunken Master||醉酒的||醉酒的||醉酒的||醉酒的
+|-
+|Dual Flurry||双持乱舞||双持乱舞||双持乱舞||双持乱舞
+|-
+|Dual Savagery||野蛮双持||野蛮双持||野蛮双持||野蛮双持
+|-
+|DualFlurry||双持乱舞||双持乱舞||    ||    
+|-
+|Dukaan's Fury||度坎之怒||度坎之怒||'''度坎的愤怒'''||'''度坎的暴怒'''
+|-
+|Dummy Fake Spell||    ||    ||    ||'''假人法术'''
+|-
+|Durnehvir Stats Boost||度尼维尔能力增强||度尼维尔能力增强||    ||度尼维尔能力增强
+|-
+|Duskfang Effect||    ||    ||    ||'''暮牙效果'''
+|-
+|Duskfang Frost Damage||    ||'''黄昏之牙寒霜伤害'''||    ||'''暮牙火焰伤害'''
+|-
+|Duskfang Magicka Drain||    ||'''黄昏之牙降低法力'''||    ||'''暮牙降低法力'''
+|-
+|Dwarven Beam Effect||    ||    ||    ||'''矮人光束效果'''
+|-
+|Dwarven Crown||    ||'''矮人王冠'''||    ||'''矮人王冠'''
+|-
+|Dwarven Drone Fly||    ||'''矮人蜻蜓'''||    ||'''矮人飞虫'''
+|-
+|Dwarven Fishing Rod Description||    ||    ||    ||'''矮人钓竿说明'''
+|-
+|Dwarven Fishing Rod Enchantment||    ||    ||    ||'''矮人钓竿附魔'''
+|-
+|Dwarven Smithing||矮人锻造||矮人锻造||'''矮人工艺锻造'''||'''矮人材质锻造'''
+|-
+|Dwarven Spider FX||矮人蜘蛛能力||矮人蜘蛛能力||    ||    
+|-
+|Dwarven centurion abilities||矮人百夫长能力||矮人百夫长能力||    ||    
+|-
+|Dwarven resistances||矮人抗性||矮人抗性||矮人抗性||矮人抗性
+|-
+|Eagle Eye||鹰眼视觉||鹰眼视觉||鹰眼视觉||鹰眼视觉
+|-
+|Ebony Blade Absorb Health||生命吸取之黑檀刃||'''生命吸取之黑檀岩刃'''||'''玄曜石利刃的生命吸取'''||'''生命吸取之黑檀岩刃'''
+|-
+|Ebony Blade Enchantment||附魔的黑檀刃||'''附魔的黑檀岩刃'''||'''玄曜石利刃附魔'''||'''附魔的黑檀岩刃'''
+|-
+|Ebony Mail Muffle||黑檀链甲的轻身术||'''黑檀岩链甲的轻身术'''||'''玄曜石链甲的消音术'''||'''黑檀岩链甲的轻身术'''
+|-
+|Ebony Mail Poison Damage||黑檀链甲毒素伤害||'''黑檀岩链甲毒素伤害'''||'''玄曜石链甲毒素伤害'''||'''黑檀岩链甲毒素伤害'''
+|-
+|Ebony Smithing||黑檀锻造||'''黑檀岩锻造'''||'''玄曜石制品锻造'''||'''黑檀材质锻造'''
+|-
+|Ebonyflesh||檀甲术||檀甲术||'''玄曜身术'''||'''黑檀甲术'''
+|-
+|Eclipse Blast||日蚀爆裂||日蚀爆裂||'''蚀光轰击'''||日蚀爆裂
+|-
+|Electrified||通电||通电||通电||通电
+|-
+|Electrified Water Hazard||带电水灾害||带电水灾害||带电水灾害||带电水灾害
+|-
+|Elemental Adaptation||    ||'''元素适应'''||    ||'''元素适应'''
+|-
+|Elemental Blast||    ||'''元素爆裂'''||    ||'''元素引爆'''
+|-
+|Elemental Bolt||    ||'''元素箭'''||    ||'''元素闪电'''
+|-
+|Elemental Burst||    ||'''元素爆炸'''||    ||'''元素爆炸'''
+|-
+|Elemental Channeling||    ||'''元素引导'''||    ||'''元素连结'''
+|-
+|Elemental Damage||    ||'''元素伤害'''||    ||'''元素伤害'''
+|-
+|Elemental Flare||    ||'''元素燃烧'''||    ||'''元素火焰'''
+|-
+|Elemental Fury||元素之怒||元素之怒||元素之怒||元素之怒
+|-
+|Elemental Potency||元素潜能||元素潜能||元素潜能||元素潜能
+|-
+|Elemental Protection||元素保护||元素保护||'''元素防御'''||元素保护
+|-
+|Elemental Resistance||    ||'''元素抗性'''||    ||'''元素抗性'''
+|-
+|Elf Slayer||精灵杀手||精灵杀手||精灵杀手||精灵杀手
+|-
+|Elven Smithing||精灵锻造||精灵锻造||'''精灵工艺锻造'''||'''精灵材质锻造'''
+|-
+|Elytra Bite||    ||'''翅鞘虫撕咬'''||    ||'''鞘翅虫之咬'''
+|-
+|Elytra's Fierce Aura||    ||'''翅鞘虫的悍猛光环'''||    ||'''鞘翅虫的好斗灵光'''
+|-
+|Elytra's Uplifting Aura||    ||'''翅鞘虫的鼓舞光环'''||    ||'''鞘翅虫的提振灵光'''
+|-
+|Embrace of Shadows||暗影拥抱||暗影拥抱||暗影拥抱||暗影拥抱
+|-
+|Emitter Steam Blast||释放蒸汽爆炸||释放蒸汽爆炸||    ||释放蒸汽爆炸
+|-
+|Empower Necromancy||    ||'''强化亡灵法术'''||    ||'''强化死灵法术'''
+|-
+|Empowered Keening||    ||'''哀恸强化'''||    ||'''强化的哀恸'''
+|-
+|Empowered Sunder||    ||'''离散强化'''||    ||'''强化的萨恩德'''
+|-
+|Enchanter||附魔师||附魔师||'''附魔术掌握'''||'''附魔掌握'''
+|-
+|Enchanting Table||附魔桌||附魔桌||    ||附魔桌
+|-
+|Enhanced Crossbow||强化弩||强化弩||'''钢制强化弩'''||'''强化石弩'''
+|-
+|Equilibrium||调和术||调和术||'''舍命法力术'''||调和术
+|-
+|Esbern's Potion||伊思本药水||伊思本药水||'''艾思本的药剂'''||伊思本药水
+|-
+|Eternal Spirit||永恒灵魂||永恒灵魂||'''飘渺虚体'''||永恒灵魂
+|-
+|Ethereal||虚空化||虚空化||虚空化||虚空化
+|-
+|Etherealize||乙太化||乙太化||'''使其轻飘无物'''||乙太化
+|-
+|Exhaustion Consumable Debuff||    ||'''精疲力尽消耗品负面效果'''||    ||'''疲竭消耗减益'''
+|-
+|Expel Daedra||驱散魔族||驱散魔族||'''魔族逐返术'''||驱散魔族
+|-
+|Experimenter||试药专精||试药专精||'''试药精通'''||试药专精
+|-
+|Expert Alteration||变换系专家||变换系专家||'''专家级变换系法术'''||变换系专家
+|-
+|Expert Conjuration||召唤系专家||召唤系专家||'''专家级召唤系法术'''||召唤系专家
+|-
+|Expert Destruction||毁灭系专家||毁灭系专家||'''专家级毁灭系法术'''||毁灭系专家
+|-
+|Expert Illusion||幻术系专家||幻术系专家||'''专家级幻象系法术'''||幻术系专家
+|-
+|Expert Locks||开锁专家||开锁专家||'''专家级开锁术'''||开锁专家
+|-
+|Expert Restoration||恢复系专家||恢复系专家||'''专家级恢复系法术'''||恢复系专家
+|-
+|Exploding Flame Spider||爆焰蜘蛛||爆焰蜘蛛||'''闪燃爆蛛'''||爆焰蜘蛛
+|-
+|Exploding Frost Spider||爆霜蜘蛛||爆霜蜘蛛||'''骤寒爆蛛'''||爆霜蜘蛛
+|-
+|Exploding Spider||爆破蜘蛛||爆破蜘蛛||爆破蜘蛛||爆破蜘蛛
+|-
+|Explosion Damage||爆炸伤害||爆炸伤害||爆炸伤害||爆炸伤害
+|-
+|Extra Damage||额外伤害||额外伤害||额外伤害||额外伤害
+|-
+|Extra Effect||额外附魔||额外附魔||额外附魔||额外附魔
+|-
+|Extra Pockets||额外口袋||额外口袋||'''次元袋'''||额外口袋
+|-
+|Extraction Perk||萃取额外能力||萃取额外能力||'''提取精华'''||萃取额外能力
+|-
+|Faction - Kyne's Peace||派系 - 凯娜之静||派系 - 凯娜之静||'''派系-凯娜瑞斯的和平'''||'''派系 - 凯娜的宁静'''
+|-
+|Faction Ability||    ||    ||    ||'''阵营能力'''
+|-
+|Faction Effect||    ||    ||    ||'''阵营效果'''
+|-
+|Fade Other||障眼术||障眼术||'''隐身他人'''||障眼术
+|-
+|Fake Ability||    ||    ||    ||'''伪造能力'''
+|-
+|Fake Effect||    ||    ||    ||'''伪造效果'''
+|-
+|Fake Lightning Bolt||假闪电箭||假闪电箭||'''仿闪电术'''||假闪电箭
+|-
+|Fake Perk||    ||    ||    ||'''伪造额外能力'''
+|-
+|Fake Protection||假保护||假保护||假保护||假保护
+|-
+|Fall Forest Freezing Area||    ||'''落叶林严寒区域'''||    ||'''秋林寒冻区域'''
+|-
+|Falmer Poison||伐莫毒药||伐莫毒药||'''法莫毒药'''||'''伐莫族毒药'''
+|-
+|False Summon Ash Guardian||召唤灰烬守护者失败||召唤灰烬守护者失败||'''召唤凝灰岩卫失败'''||召唤灰烬守护者失败
+|-
+|Familiar Visuals||    ||    ||    ||'''魔宠视界'''
+|-
+|Famished||    ||'''饥馑'''||    ||'''饿坏了'''
+|-
+|Fast||迅速||迅速||迅速||迅速
+|-
+|Fast Healing||快速治愈术||快速治愈术||'''高效治疗术'''||快速治愈术
+|-
+|Father's Love||父爱||父爱||'''为父之爱'''||父爱
+|-
+|Fatigue - Debilitated||    ||'''疲劳值 - 精疲力尽'''||    ||'''疲乏 - 操劳过度'''
+|-
+|Fatigue - Drained||    ||'''疲劳值 - 困乏'''||    ||'''疲乏 - 乏力'''
+|-
+|Fatigue - Lover's Comfort||    ||'''疲劳值 - 爱人的慰籍'''||    ||'''疲乏 - 爱人的慰藉'''
+|-
+|Fatigue - Refreshed||    ||'''疲劳值 - 充满活力'''||    ||'''疲乏 - 恢复'''
+|-
+|Fatigue - Rested||    ||'''疲劳值 - 休息完毕'''||    ||'''疲乏 - 已休息'''
+|-
+|Fatigue - Tired||    ||'''疲劳值 - 疲劳'''||    ||'''疲乏 - 脱力'''
+|-
+|Fatigue - Weary||    ||'''疲劳值 - 疲惫'''||    ||'''疲乏 - 倦怠'''
+|-
+|Fatigue - Well Rested||    ||'''疲劳值 - 充分休息'''||    ||'''疲乏 - 已充分休息'''
+|-
+|Fatigue Stage 1 Imod Applicator||    ||    ||    ||'''疲乏阶段1 Imod套用器'''
+|-
+|Fatigue Stage 2 Imod Applicator||    ||    ||    ||'''疲乏阶段2 Imod套用器'''
+|-
+|Fatigue Stage 3 Imod Applicator||    ||    ||    ||'''疲乏阶段3 Imod套用器'''
+|-
+|Fatigue Stage 4 Imod Applicator||    ||    ||    ||'''疲乏阶段4 Imod套用器'''
+|-
+|Fatigue Stage 5 Imod Applicator||    ||    ||    ||'''疲乏阶段5 Imod套用器'''
+|-
+|Fear||恐惧||恐惧||'''拒战逃避'''||'''威惧术'''
+|-
+|Fear||恐惧||恐惧||'''拒战逃避'''||恐惧
+|-
+|Fear||恐惧术||恐惧术||'''惧逃术'''||'''威惧术'''
+|-
+|Fear||恐惧||恐惧||'''惧逃术'''||'''威惧术'''
+|-
+|Fear||    ||'''恐惧术'''||    ||'''恐惧'''
+|-
+|Fear||    ||'''恐惧术'''||    ||    
+|-
+|Featherlift Pockets||羽制包裹||羽制包裹||羽制包裹||羽制包裹
+|-
+|Feed||啃食||啃食||啃食||'''吸血'''
+|-
+|Feed Blood||喂食鲜血||喂食鲜血||'''吸食鲜血'''||喂食鲜血
+|-
+|Fence||销赃||销赃||'''销售赃物'''||销赃
+|-
+|Fenrik's Welcome||    ||'''芬瑞克之迎'''||    ||'''范瑞克的热烈欢迎'''
+|-
+|Fiery Soul Trap||炽烈的摄魂陷阱||炽烈的摄魂陷阱||'''火焚与灵魂困限'''||炽烈的摄魂陷阱
+|-
+|Fighting Stance||战斗姿态||战斗姿态||战斗姿态||战斗姿态
+|-
+|Fire||火焰||火焰||火焰||火焰
+|-
+|Fire Ball||火球术||火球术||火球术||火球术
+|-
+|Fire Barrier||火焰屏障||火焰屏障||'''火墙'''||'''火墙'''
+|-
+|Fire Barrier||火焰屏障||火焰屏障||'''火墙'''||火焰屏障
+|-
+|Fire Breath||烈焰吐息||烈焰吐息||烈焰吐息||烈焰吐息
+|-
+|Fire Breath (for DRAGONS only)||烈焰吐息（仅限巨龙）||烈焰吐息（仅限巨龙）||烈焰吐息（仅限巨龙）||烈焰吐息（仅限巨龙）
+|-
+|Fire Damage||火焰伤害||火焰伤害||火焰伤害||火焰伤害    
+|-
+|Fire Death||火焰死亡||火焰死亡||火焰死亡||火焰死亡
+|-
+|Fire Enchanter||火焰附魔||火焰附魔||'''火系附魔'''||火焰附魔
+|-
+|Fire Flow||火焰潮||火焰潮||火焰潮||火焰潮
+|-
+|Fire Hazard||火焰灾害||火焰灾害||火焰灾害||火焰灾害
+|-
+|Fire Mage||火焰法师||火焰法师||火焰法师||火焰法师
+|-
+|Fire Mastery||火焰掌握||火焰掌握||火焰掌握||火焰掌握
+|-
+|Fire Rune||火焰符文||火焰符文||'''暴炎法印'''||火焰符文
+|-
+|Fire Spider Flame Trail||    ||    ||'''火焰蜘蛛痕迹'''||    
+|-
+|Fire Storm||火焰风暴||火焰风暴||'''炎火爆燃术'''||火焰风暴
+|-
+|Fire Storm||    ||'''火焰风暴'''||    ||'''火焰风暴'''
+|-
+|Fire Storm Cloak||火焰风暴斗篷||火焰风暴斗篷||'''火焰斗篷术'''||火焰风暴斗篷
+|-
+|Fire Stream||火焰流||火焰流||火焰流||火焰流
+|-
+|Fire Wyrm Attack||火龙攻击||火龙攻击||火龙攻击||火龙攻击
+|-
+|Fire Wyrm Flames||火龙烈焰||火龙烈焰||火龙烈焰||火龙烈焰
+|-
+|Fire breath||烈焰吐息||烈焰吐息||烈焰吐息||烈焰吐息
+|-
+|Fire hazard||火焰损伤||火焰损伤||'''火焰灾害'''||'''火焰灾害'''
+|-
+|Fire/Frost Resist||火焰/寒霜抗性||火焰/寒霜抗性||'''火焰 / 寒霜抗性'''||火焰/寒霜抗性
+|-
+|FireStorm||    ||    ||'''炎火爆燃术'''||    
+|-
+|Fireball||火球术||火球术||火球术||火球术
+|-
+|Firebolt||火焰箭||火焰箭||'''火弹术'''||火焰箭
+|-
+|Firebolt Storm||火焰箭风暴||火焰箭风暴||'''火焰弹风暴'''||火焰箭风暴
+|-
+|Firebolt Storm Spell||火焰箭风暴||火焰箭风暴||'''火焰弹风暴'''||火焰箭风暴
+|-
+|Firemage flame resistance||火法师火焰抗性||火法师火焰抗性||火法师火焰抗性||火法师火焰抗性
+|-
+|Fists of Randagulf||    ||'''朗达古夫之拳'''||    ||'''蓝达格尔夫拳套'''
+|-
+|Fists of Steel||钢铁之拳||钢铁之拳||'''铁拳出击'''||钢铁之拳
+|-
+|Flame||火焰||火焰||火焰||火焰
+|-
+|Flame Atronach Attack||火焰元素攻击||火焰元素攻击||    ||    
+|-
+|Flame Atronach abilities||火焰元素能力||火焰元素能力||    ||    
+|-
+|Flame Atronach abilities||    ||    ||    ||'''火焰元素能力'''
+|-
+|Flame Cloak||火焰斗篷||火焰斗篷||'''火焰斗篷术'''||'''烈焰斗篷'''
+|-
+|Flame Cloak||    ||'''火焰斗篷'''||    ||'''烈焰斗篷'''
+|-
+|Flame Cloaked Spider||焰罩蜘蛛||焰罩蜘蛛||'''引火蜘蛛'''||焰罩蜘蛛
+|-
+|Flame Explosion||火焰爆炸||火焰爆炸||火焰爆炸||火焰爆炸
+|-
+|Flame Spider||烈焰蜘蛛||烈焰蜘蛛||烈焰蜘蛛||烈焰蜘蛛
+|-
+|Flame Spider Abilities||焰罩蜘蛛技能||焰罩蜘蛛技能||    ||焰罩蜘蛛技能
+|-
+|Flame Spider Resist||烈焰蜘蛛抗性||烈焰蜘蛛抗性||烈焰蜘蛛抗性||烈焰蜘蛛抗性
+|-
+|Flame Target Visuals||火焰目标视界||火焰目标视界||火焰目标视界||火焰目标视界
+|-
+|Flame Thrall||烈焰奴仆||烈焰奴仆||'''烈焰侍灵召唤术'''||烈焰奴仆
+|-
+|Flames||火舌术||火舌术||'''火燃术'''||火舌术
+|-
+|Flaming Familiar||烈焰魔狼||烈焰魔狼||'''烈焰使魔召唤术'''||'''烈焰魔宠'''
+|-
+|Flaming Familiar Explosion||烈焰魔狼爆炸||烈焰魔狼爆炸||'''烈焰使魔召唤术爆炸'''||'''火精灵爆炸'''
+|-
+|Flaming Thrall Explosion||火奴爆炸||火奴爆炸||'''烈焰侍灵火球爆炸'''||火奴爆炸
+|-
+|Fling||抛掷||抛掷||抛掷||抛掷
+|-
+|Font Absorb Health||    ||    ||'''吸取生命的圣水器'''||    
+|-
+|Food Poisoning||    ||'''食物中毒'''||    ||'''食物中毒'''
+|-
+|Food bonus||食物奖励||食物奖励||食物奖励||食物奖励
+|-
+|Force Without Effort||毫不费力||毫不费力||毫不费力||毫不费力
+|-
+|Forgemaster Fire Breath||熔炉大师烈焰吐息||熔炉大师烈焰吐息||'''锻炉警备长的火焰喷射'''||熔炉大师烈焰吐息
+|-
+|Forgemaster Fireball||熔炉大师火球术||熔炉大师火球术||'''锻炉警备长的火球射击'''||熔炉大师火球术
+|-
+|Forgemaster Flame Cloak||熔炉大师火焰斗篷||熔炉大师火焰斗篷||'''锻炉警备长的火焰斗篷'''||'''熔炉大师烈焰斗篷'''
+|-
+|Forgemaster Resistances||熔炉大师抗性||熔炉大师抗性||'''锻炉警备长的抵抗力'''||熔炉大师抗性
+|-
+|Foritfy all magic skills||强化所有法术||强化所有法术||'''强化所有法力技能'''||'''强化所有法力技能'''
+|-
+|Fork of Horripilation||    ||'''惊骇之叉'''||    ||'''寒毛之叉'''
+|-
+|Fork of Horripilation Netch Damage||    ||'''惊骇之叉呕吐气母损害'''||    ||'''寒毛之叉耐区伤害'''
+|-
+|Fortified Combat Healing||强化战斗恢复||强化战斗恢复||'''强化战斗治疗'''||'''强化战斗治疗'''
+|-
+|Fortified Combat Healing||    ||'''强化战斗恢复'''||    ||'''强化战斗治疗'''
+|-
+|Fortified Healing||强化恢复系||强化恢复系||'''强化治疗'''||'''强化治疗'''
+|-
+|Fortify Alchemy||强化炼金||强化炼金||'''强化炼金术'''||'''炼金强化'''
+|-
+|Fortify Alteration||强化变换系||强化变换系||'''强化变换系法术'''||'''变换系法术强化'''
+|-
+|Fortify Alteration||强化变换系||强化变换系||'''强化变换系法术'''||强化变换系
+|-
+|Fortify Alteration & Magicka Regen||强化变换系 & 恢复法力||强化变换系 & 恢复法力||'''强化变换系法术及法力恢复'''||'''变换系及法力恢复强化'''
+|-
+|Fortify Archery||强化箭术||强化箭术||'''强化射击'''||'''箭术强化'''
+|-
+|Fortify Armor||    ||'''强化护甲'''||    ||'''强化护甲'''
+|-
+|Fortify Armor Perks||强化护甲能力||强化护甲能力||    ||    
+|-
+|Fortify Armor Rating||强化护甲||强化护甲||'''强化护具防御力'''||'''强化护甲值'''
+|-
+|Fortify Armor Rating||    ||'''强化护甲'''||    ||'''强化护甲值'''
+|-
+|Fortify Barter||强化交易||强化交易||强化交易||'''交易强化'''
+|-
+|Fortify Barter||强化交易||强化交易||强化交易||强化交易
+|-
+|Fortify Barter and One-Handed||强化交易 & 单手武器||强化交易 & 单手武器||'''强化交易技能和单手武器'''||'''强化交易技能和单手武器'''
+|-
+|Fortify Block||强化格挡||强化格挡||强化格挡||'''格挡强化'''
+|-
+|Fortify Blocking||强化格挡||强化格挡||强化格挡||强化格挡
+|-
+|Fortify Blocking||    ||'''强化格挡'''||    ||'''强化格挡'''
+|-
+|Fortify Bow Stagger||强化弓箭失衡||强化弓箭失衡||'''强化弓的失衡度'''||    
+|-
+|Fortify Carry Weight||强化负重||强化负重||强化负重||'''强化负重力'''
+|-
+|Fortify Carry Weight||    ||'''负重增强'''||    ||'''负重增强'''
+|-
+|Fortify Conjuration||强化召唤系||强化召唤系||'''强化召唤系法术'''||'''召唤系法术强化'''
+|-
+|Fortify Conjuration||    ||'''强化召唤系'''||    ||'''强化召唤系法术'''
+|-
+|Fortify Conjuration & Illusion||    ||'''强化召唤系 & 幻术系'''||    ||'''强化召唤系及幻术系法术'''
+|-
+|Fortify Conjuration & Magicka Regen||强化召唤系 & 恢复法力||强化召唤系 & 恢复法力||'''强化召唤系法术及法力恢复'''||'''召唤系及法力恢复强化'''
+|-
+|Fortify Destruction||强化毁灭系||强化毁灭系||'''强化毁灭系法术'''||'''毁灭系法术强化'''
+|-
+|Fortify Destruction & Magicka Regen||强化毁灭系 & 恢复法力||强化毁灭系 & 恢复法力||'''强化毁灭系法术及法力恢复'''||'''毁灭系及法力恢复强化'''
+|-
+|Fortify Destruction and Alteration||    ||'''强化毁灭系 & 变换系'''||    ||'''强化毁灭系及变换系法术'''
+|-
+|Fortify Enchanting||强化附魔||强化附魔||'''强化附魔术'''||强化附魔
+|-
+|Fortify HMS||强化HMS||强化HMS||'''强化生命、法力、耐力'''||强化HMS
+|-
+|Fortify Healing Rate||恢复生命||恢复生命||'''强化生命恢复'''||'''生命恢复强化'''
+|-
+|Fortify Health||强化生命||强化生命||强化生命||'''强化生命力'''
+|-
+|Fortify Health - Master of the Mind||强化生命 - 意志大师||强化生命 - 意志大师||    ||强化生命 - 意志大师
+|-
+|Fortify Heavy Armor||强化重甲||强化重甲||强化重甲||'''重甲强化'''
+|-
+|Fortify Heavy Armor||    ||'''强化重甲'''||    ||'''强化重甲'''
+|-
+|Fortify Illusion||强化幻术系||强化幻术系||'''强化幻象系法术'''||'''幻术系法术强化'''
+|-
+|Fortify Illusion & Magicka Regen||强化幻术系 & 恢复法力||强化幻术系 & 恢复法力||'''强化幻象系法术及法力恢复'''||'''幻术系及法力恢复强化'''
+|-
+|Fortify Light Armor||强化轻甲||强化轻甲||强化轻甲||'''轻甲强化'''
+|-
+|Fortify Lockpick & Pickpocket||    ||    ||    ||'''强化开锁与扒窃'''
+|-
+|Fortify Lockpicking||强化开锁||强化开锁||强化开锁||'''开锁强化'''
+|-
+|Fortify Magicka||强化法力||强化法力||强化法力||'''法力强化'''
+|-
+|Fortify Magicka Rate||恢复法力||恢复法力||'''强化法力恢复'''||'''法力恢复强化'''
+|-
+|Fortify Magicka Regen||恢复法力||恢复法力||'''强化法力恢复'''||'''法力恢复强化'''
+|-
+|Fortify Magicka and Magic Resist||强化法力 & 魔法抗性||强化法力 & 魔法抗性||'''强化法力和魔法抗性'''||'''强化法力和魔法抗性'''
+|-
+|Fortify Marksman||强化箭术||强化箭术||'''强化射击'''||强化箭术
+|-
+|Fortify Melee Damage||    ||'''强化近战伤害'''||    ||'''强化近战伤害'''
+|-
+|Fortify One-Handed||强化单手||强化单手||'''强化单手武器'''||'''单手武器强化'''
+|-
+|Fortify Persuasion||强化说服||强化说服||强化说服||强化说服
+|-
+|Fortify Pickpocket||强化扒窃||强化扒窃||强化扒窃||'''扒窃强化'''
+|-
+|Fortify Power Attacks||    ||'''强化重击'''||    ||'''强化强力攻击'''
+|-
+|Fortify Restoration||强化恢复系||强化恢复系||'''强化恢复系法术'''||'''恢复系法术强化'''
+|-
+|Fortify Restoration & Magica Regen||强化恢复系 & 恢复法力||强化恢复系 & 恢复法力||'''强化恢复系法术及法力恢复'''||'''恢复系及法力恢复强化'''
+|-
+|Fortify Shouts||强化龙吼||强化龙吼||强化龙吼||强化龙吼
+|-
+|Fortify Smithing||强化锻造||强化锻造||强化锻造||'''锻造强化'''
+|-
+|Fortify Sneak||强化潜行||强化潜行||强化潜行||'''潜行强化'''
+|-
+|Fortify Sneak and Destruction||潜行技能 & 毁灭系强化||潜行技能 & 毁灭系强化||'''强化潜行和毁灭系法术'''||'''潜行技能和毁灭系强化'''
+|-
+|Fortify Speech||口才强化||口才强化||'''强化口才'''||口才强化
+|-
+|Fortify Speech and One-H||强化口才 & 单手||强化口才 & 单手||'''强化口才和单手武器'''||'''强化口才和单手武器'''
+|-
+|Fortify Speechcraft||强化口才||强化口才||强化口才||强化口才
+|-
+|Fortify Spells||强化法术||强化法术||强化法术||强化法术
+|-
+|Fortify Stamina||强化体力||强化体力||'''强化耐力'''||'''精力强化'''
+|-
+|Fortify Stamina - Master of the Mind||强化体力 - 意志大师||强化体力 - 意志大师||    ||'''强化精力 - 意志大师'''
+|-
+|Fortify Stamina Rate||体力恢复||体力恢复||'''强化耐力恢复'''||'''精力恢复强化'''
+|-
+|Fortify Stamina Regen||恢复体力||恢复体力||'''强化耐力恢复'''||'''精力恢复强化'''
+|-
+|Fortify Two-Handed||强化双手||强化双手||'''强化双手武器'''||'''双手武器强化'''
+|-
+|Fortify Unarmed||强化徒手||强化徒手||'''强化徒手搏击'''||'''强化徒手搏击'''
+|-
+|Fortify Unarmed Damage||强化徒手||强化徒手||'''强化徒手搏击伤害'''||'''强化徒手伤害'''
+|-
+|Fortify Warmth||强化温暖||'''强化保暖'''||'''强化保暖'''||'''加强保暖'''
+|-
+|Freeze||冻结||冻结||'''冻锥术'''||冻结
+|-
+|Freeze Bash||    ||'''冻结盾击'''||    ||'''冻结猛击'''
+|-
+|Freezing||    ||'''严寒'''||    ||'''寒冻'''
+|-
+|Freezing Area||    ||'''严寒区域'''||    ||'''寒冻区域'''
+|-
+|Freezing Water||    ||'''严寒水域'''||    ||'''寒冻水域'''
+|-
+|Freezing Water Check||    ||'''严寒水域检查'''||    ||'''寒冻水域检查'''
+|-
+|Frenzy Rune||狂乱符文||狂乱符文||'''狂心法印'''||狂乱符文
+|-
+|Friendly Fire||友方伤害||友方伤害||友方伤害||友方伤害
+|-
+|Frost||寒霜||寒霜||寒霜||寒霜
+|-
+|Frost Atronach Attack||寒霜元素攻击||寒霜元素攻击||    ||寒霜元素攻击
+|-
+|Frost Atronach abilities||寒霜元素能力||寒霜元素能力||    ||'''寒霜元素特殊能力'''
+|-
+|Frost Barrier||寒霜屏障||寒霜屏障||寒霜屏障||寒霜屏障
+|-
+|Frost Barrier IceWraith||寒霜护盾冰怨灵||寒霜护盾冰怨灵||    ||寒霜护盾冰怨灵
+|-
+|Frost Breath||寒霜吐息||寒霜吐息||寒霜吐息||寒霜吐息
+|-
+|Frost Cloak||寒霜斗篷||寒霜斗篷||'''冰霜斗篷术'''||寒霜斗篷
+|-
+|Frost Cloak - Death Hound||寒霜斗篷 - 死亡猎犬||寒霜斗篷 - 死亡猎犬||'''冰霜斗篷术－僵犬'''||'''寒霜斗篷–死亡地狱犬'''
+|-
+|Frost Cloak Freeze||寒霜斗篷冻结||寒霜斗篷冻结||    ||寒霜斗篷冻结
+|-
+|Frost Cloaked Spider||霜罩蜘蛛||霜罩蜘蛛||'''袭霜蜘蛛'''||霜罩蜘蛛
+|-
+|Frost Damage||寒霜伤害||寒霜伤害||寒霜伤害||寒霜伤害
+|-
+|Frost Enchanter||寒霜附魔||寒霜附魔||'''冰系附魔'''||寒霜附魔
+|-
+|Frost Flow||寒霜潮||寒霜潮||寒霜潮||寒霜潮
+|-
+|Frost Mage||寒霜法师||寒霜法师||寒霜法师||寒霜法师
+|-
+|Frost Mastery||寒霜掌握||寒霜掌握||寒霜掌握||寒霜掌握
+|-
+|Frost Rune||寒霜符文||寒霜符文||'''暴霜法印'''||寒霜符文
+|-
+|Frost Spider Resist||寒霜蜘蛛抗性||寒霜蜘蛛抗性||寒霜蜘蛛抗性||寒霜蜘蛛抗性
+|-
+|Frost Stream||寒霜流||寒霜流||寒霜流||寒霜流
+|-
+|Frost Strike||寒霜打击||寒霜打击||寒霜打击||寒霜打击
+|-
+|Frost Thrall||寒霜奴仆||寒霜奴仆||'''寒霜侍灵召唤术'''||寒霜奴仆
+|-
+|Frost breath||寒霜吐息||寒霜吐息||寒霜吐息||寒霜吐息
+|-
+|Frostbite||霜噬术||霜噬术||'''冰寒术'''||霜噬术
+|-
+|Frostbite Poison||    ||'''寒霜之毒'''||    ||'''寒霜之毒'''
+|-
+|Frostbite Poison||寒霜之毒||寒霜之毒||'''寒霜毒素'''||寒霜之毒
+|-
+|Frostbite Venom||霜噬毒液||霜噬毒液||霜噬毒液||霜噬毒液
+|-
+|Frostbitten||    ||'''冻伤'''||    ||'''霜噬'''
+|-
+|Frostbitten Effect Timer||    ||    ||    ||'''霜噬效果计时'''
+|-
+|Frostfeed||霜饲||霜饲||'''寒霜冻创'''||霜饲
+|-
+|Frostmoon Bloodlust||霜月嗜血||霜月嗜血||霜月嗜血||霜月嗜血
+|-
+|Frostmoon Howl||霜月嗥叫||霜月嗥叫||霜月嗥叫||霜月嗥叫
+|-
+|Frostmoon Hunt||霜月狩猎||霜月狩猎||霜月狩猎||霜月狩猎
+|-
+|Frostmoon Instinct||霜月直觉||霜月直觉||霜月直觉||霜月直觉
+|-
+|Frostmoon Predator||霜月掠食者||霜月掠食者||霜月掠食者||霜月掠食者
+|-
+|Frozen Breath||    ||    ||    ||'''冰冻吐息'''
+|-
+|Frozen Creature's abilities||冰冻生物特殊能力||冰冻生物特殊能力||    ||冰冻生物特殊能力
+|-
+|Frozen Steam Breath||    ||'''寒霜蒸汽之息'''||    ||'''冰冻蒸气之息'''
+|-
+|Full Moon Rising||满月升起||满月升起||满月升起||满月升起
+|-
+|Fury||愤怒术||愤怒术||'''狂怒术'''||愤怒术
+|-
+|Gargoyle Abilities||石像鬼特殊能力||石像鬼特殊能力||    ||石像鬼特殊能力
+|-
+|Gargoyle Sentinel Abilities||石像鬼看守者特殊能力||石像鬼看守者特殊能力||    ||石像鬼看守者特殊能力
+|-
+|Gargoyle Unarmed Damage||石像鬼徒手伤害||石像鬼徒手伤害||'''石像鬼之徒手伤害'''||石像鬼徒手伤害
+|-
+|Generic Damage||一般性伤害||一般性伤害||一般性伤害||一般性伤害
+|-
+|Generic Frost Damage||一般性寒霜伤害||一般性寒霜伤害||'''寒霜伤害'''||一般性寒霜伤害
+|-
+|Ghost||    ||'''鬼魂'''||    ||'''鬼魂'''
+|-
+|Ghost Ability||    ||    ||    ||'''鬼魂特殊能力'''
+|-
+|Ghost Extra Damage Perk||幽灵额外伤害额外能力||幽灵额外伤害额外能力||'''幽灵额外伤害特技'''||幽灵额外伤害额外能力
+|-
+|Ghost Half Damage Perk||幽灵半数伤害额外能力||幽灵半数伤害额外能力||'''幽灵半数伤害特技'''||幽灵半数伤害额外能力
+|-
+|Ghost Visuals||鬼魂视界||鬼魂视界||鬼魂视界||鬼魂视界
+|-
+|Ghost Visuals Fire||鬼魂视界火焰||鬼魂视界火焰||鬼魂视界火焰||鬼魂视界火焰
+|-
+|Ghost Visuals Nightingale||鬼魂视界夜莺||鬼魂视界夜莺||鬼魂视界夜莺||鬼魂视界夜莺
+|-
+|Ghost Visuals Red||    ||'''鬼魂视界红'''||    ||'''鬼魂视界红'''
+|-
+|Ghost Visuals Storm||鬼魂视界风暴||鬼魂视界风暴||鬼魂视界风暴||鬼魂视界风暴
+|-
+|Ghostveil||鬼魂面纱||鬼魂面纱||鬼魂面纱||鬼魂面纱
+|-
+|Giant Snow Spider abilities||巨型寒霜蜘蛛能力||巨型寒霜蜘蛛能力||    ||    
+|-
+|Giant Stomp||巨型践踏||巨型践踏||    ||巨型践踏
+|-
+|Glass Smithing||玻璃锻造||'''玻璃岩锻造'''||'''翠琉璃制品锻造'''||'''玻璃材质锻造'''
+|-
+|Gloomwraith ability||    ||    ||    ||'''幽暗怨灵能力'''
+|-
+|Glowing Spider||光蜘蛛||光蜘蛛||'''发光蜘蛛'''||光蜘蛛
+|-
+|Goblin Abilities||    ||    ||    ||'''哥布林能力'''
+|-
+|Golden Touch||点石成金||点石成金||'''寻金之手'''||点石成金
+|-
+|Gorging||狼吞虎咽||狼吞虎咽||'''同类猎食'''||狼吞虎咽
+|-
+|Grand Healing||特级治愈术||特级治愈术||'''强效群体治疗术'''||'''特级治疗术'''
+|-
+|Great Critical Charge||强力突袭||强力突袭||强力突袭||强力突袭
+|-
+|Greater Magic Resistance||高级魔法抗性||高级魔法抗性||'''高阶魔法抗性'''||高级魔法抗性
+|-
+|Greater Ward||强力结界术||强力结界术||'''高阶结界术'''||'''高级结界术'''
+|-
+|Green Ghost Ability||    ||    ||    ||'''绿鬼魂能力'''
+|-
+|Green Thumb||园艺专精||园艺专精||'''园艺精通'''||园艺专精
+|-
+|Greenspore||    ||'''致残绿孢症'''||    ||'''绿孢病'''
+|-
+|Guardian Circle||守护光环||守护光环||'''圣佑领域术'''||'''守护之环'''
+|-
+|Guardian Circle Restore Health||守护光环恢复生命效果||守护光环恢复生命效果||    ||'''守护之环恢复生命力效果'''
+|-
+|Gutworm||    ||'''肠胃寄生虫'''||    ||'''肠虫病'''
+|-
+|Hack and Slash||创口割裂||创口割裂||'''猛烈砍击'''||创口割裂
+|-
+|Hag's End Drain Health||巫婆之终的降低生命||巫婆之终的降低生命||'''鬼婆乐土的生命损耗'''||'''巫婆之终的降低生命力'''
+|-
+|Hag's End Soul Trap||巫婆之终的摄魂陷阱||巫婆之终的摄魂陷阱||'''鬼婆乐土的缚魂术'''||巫婆之终的摄魂陷阱
+|-
+|Haggling||讨价还价||讨价还价||讨价还价||讨价还价
+|-
+|Half damage||一半伤害||一半伤害||一半伤害||一半伤害
+|-
+|Halldir's Pacify||霍迪尔的平息术||霍迪尔的平息术||'''哈迪尔的平息术'''||'''霍迪尔的停战术'''
+|-
+|Halldir's Soul Trap||霍迪尔的摄魂陷阱||霍迪尔的摄魂陷阱||'''哈迪尔的缚魂术'''||霍迪尔的摄魂陷阱
+|-
+|Halldir's Staff||霍迪尔的法杖||霍迪尔的法杖||霍迪尔的法杖||霍迪尔的法杖
+|-
+|Hangman's Noose||    ||'''绞杀套索'''||    ||'''绞刑圈套'''
+|-
+|Harkon Conjuration Delay||哈孔召唤延迟||哈孔召唤延迟||'''延迟哈根施法'''||'''赫冈召唤延迟'''
+|-
+|Harkon Faux Reanimate||哈孔错误重生||哈孔错误重生||'''伪造哈根复活'''||'''赫冈错误重生'''
+|-
+|Harkon Turning Immunity||    ||    ||'''免疫哈根的转变'''||    
+|-
+|Harkon's Invulnerability Shield||哈孔的无敌护盾||哈孔的无敌护盾||'''哈根的无敌之盾'''||'''赫冈的无敌护盾'''
+|-
+|Harkon's Invulnerability.||无敌的哈孔。||无敌的哈孔。||'''哈根是无敌的。'''||'''无敌的赫冈。'''
+|-
+|Harmless Lightning Bolt||无害的闪电箭||无害的闪电箭||'''无害的闪电术'''||无害的闪电箭
+|-
+|Harmony||和睦术||和睦术||和睦术||和睦术
+|-
+|Haunting Gift||    ||'''鬼影赠礼'''||    ||'''鬼影赠礼'''
+|-
+|Haunting Spirit Steal Skills||    ||    ||    ||'''徘徊精魄偷窃技能'''
+|-
+|Headsman||刽子手||刽子手||'''行刑者'''||刽子手
+|-
+|Heal Other||治愈恩泽||治愈恩泽||'''高效他人治疗术'''||'''治愈他人'''
+|-
+|Heal Undead||治疗亡灵||治疗亡灵||'''邪物修复术'''||'''治疗不死生物'''
+|-
+|Healing||治愈术||治愈术||'''治疗术'''||治愈术
+|-
+|Healing Hands||治愈之触||治愈之触||'''他人治疗术'''||'''治愈之手'''
+|-
+|Health Damage||生命损伤||生命损伤||'''生命伤害'''||'''生命力损伤'''
+|-
+|Health regeneration||恢复生命||恢复生命||'''再生生命'''||'''生命恢复'''
+|-
+|Health/Magicka Damage||生命/法力减损||生命/法力减损||'''生命/法力伤害'''||'''生命力/法力伤害'''
+|-
+|Heavy Fire Damage||严重火焰伤害||严重火焰伤害||严重火焰伤害||严重火焰伤害
+|-
+|Hidden Pickpocket Perk||    ||    ||    ||'''隐藏扒窃额外能力'''
+|-
+|Hidden Pockets||心灵手巧||心灵手巧||心灵手巧||心灵手巧
+|-
+|Hide||    ||'''藏匿'''||    ||'''隐藏'''
+|-
+|Highborn||高贵血统||高贵血统||'''优等血脉'''||高贵血统
+|-
+|Histskin||希树之肤||希树之肤||'''希思特之肤'''||希树之肤
+|-
+|Hoarfrost||灰霜||灰霜||'''白霜'''||灰霜
+|-
+|Holy Aura||    ||'''神圣光环'''||    ||'''神圣光环'''
+|-
+|Homecooked Meal||家常菜||家常菜||'''家常膳食'''||'''家常膳食'''
+|-
+|Hopesfire Ability||    ||    ||    ||'''希望之火能力'''
+|-
+|Horse abilities||马匹技能||马匹技能||    ||马匹技能
+|-
+|Howl Of The Pack||群体吼叫||群体吼叫||'''群体狼嚎'''||群体吼叫
+|-
+|Howl of Terror||恐惧吼叫||恐惧吼叫||'''恐惧狼嚎'''||恐惧吼叫
+|-
+|Howl of the Pack||群体吼叫||群体吼叫||'''群体狼嚎'''||群体吼叫
+|-
+|Hunger - Famished||    ||'''饥饿值 - 饥馑'''||    ||'''饥饿 - 饿坏了'''
+|-
+|Hunger - Hungry||    ||'''饥饿值 - 饿'''||    ||'''饥饿 - 饥饿'''
+|-
+|Hunger - Peckish||    ||'''饥饿值 - 略饿'''||    ||'''饥饿 - 有点饿'''
+|-
+|Hunger - Satisfied||    ||'''饥饿值 - 满足'''||    ||'''饥饿 - 吃饱'''
+|-
+|Hunger - Starving||    ||'''饥饿值 - 饿殍'''||    ||'''饥饿 - 饥肠辘辘'''
+|-
+|Hunger - Well Fed||    ||'''饥饿值 - 吃饱喝足'''||    ||'''饥饿 - 饱足'''
+|-
+|Hungry||    ||'''饥饿'''||    ||'''饥饿'''
+|-
+|Hunter Backpack||    ||'''猎手背包'''||    ||'''猎人背包'''
+|-
+|Hunter's Discipline||猎人戒律||猎人戒律||'''猎人原则'''||猎人戒律
+|-
+|Huntsman's Prowess||猎人勇气||猎人勇气||'''猎人的勇气'''||'''猎人的勇气'''
+|-
+|Hypnotic Gaze||催眠凝视||催眠凝视||催眠凝视||催眠凝视
+|-
+|Hysteria||心魔术||心魔术||'''疯逃术'''||心魔术
+|-
+|Ice Barrier for Snow Elf Fight||雪精灵战斗的冰霜防护罩||雪精灵战斗的冰霜防护罩||'''冰障阻碍了雪精灵的战斗'''||雪精灵战斗的冰霜防护罩
+|-
+|Ice Bite||寒霜||寒霜||寒霜||寒霜
+|-
+|Ice Cloak||冰斗篷||冰斗篷||'''冰霜斗篷术'''||冰斗篷
+|-
+|Ice Cloak Freeze||    ||    ||    ||'''冰斗篷冻结'''
+|-
+|Ice Form||寒冰形态||寒冰形态||'''冻结吐息'''||'''冰之形态'''
+|-
+|Ice Hazard||寒霜损伤||寒霜损伤||'''寒霜灾害'''||'''寒霜灾害'''
+|-
+|Ice Spike||冰锥术||冰锥术||冰锥术||冰锥术
+|-
+|Ice Storm||冰风暴||冰风暴||'''冰霜气团术'''||冰风暴
+|-
+|Ice Terror||冰雪之惧||冰雪之惧||冰雪之惧||冰雪之惧
+|-
+|Ice Volley||冰晶齐射||冰晶齐射||冰晶齐射||冰晶齐射
+|-
+|Ice Volley||    ||'''冰晶齐射'''||    ||'''冰晶齐射'''
+|-
+|Ice Wraith Bite||冰怨灵之咬||冰怨灵之咬||'''冰幻灵之咬'''||冰怨灵之咬
+|-
+|Ice Wraith FX Ability||冰怨灵效果能力||冰怨灵效果能力||    ||    
+|-
+|Ice Wraith abilities||冰怨灵能力||冰怨灵能力||    ||    
+|-
+|Icy Spear||冰矛术||冰矛术||冰矛术||冰矛术
+|-
+|Ignite||燃烧||燃烧||'''炎弹术'''||燃烧
+|-
+|Illusion Dual Casting||幻术系双手施法||幻术系双手施法||'''幻象系双手施展'''||幻术系双手施法
+|-
+|Immolate||牺牲||牺牲||牺牲||牺牲
+|-
+|Immolation||祭品||祭品||祭品||祭品
+|-
+|Immunity to damage||伤害豁免||伤害豁免||伤害豁免||伤害豁免
+|-
+|Impact||毁灭冲击||毁灭冲击||'''毁灭冲撞'''||毁灭冲击
+|-
+|Imperial Dragon Boots||    ||'''帝国巨龙战靴'''||    ||'''帝国龙靴'''
+|-
+|Imperial Dragon Cuirass||    ||'''帝国巨龙护甲'''||    ||'''帝国龙胸甲'''
+|-
+|Imperial Dragon Gauntlets||    ||'''帝国巨龙腕甲'''||    ||'''帝国龙腕甲'''
+|-
+|Imperial Dragon Helmet||    ||'''帝国巨龙头盔'''||    ||'''帝国龙头盔'''
+|-
+|Imperial Dragon Shield||    ||'''帝国巨龙之盾'''||    ||'''帝国龙盾'''
+|-
+|Imperial Luck||帝国幸运||帝国幸运||帝国幸运||帝国幸运
+|-
+|Improve Sneak||提升潜行||提升潜行||提升潜行||提升潜行
+|-
+|Improved Hidden Pockets||次级隐蔽口袋||次级隐蔽口袋||次级隐蔽口袋||次级隐蔽口袋
+|-
+|Improved Nimble Fingers||次级心灵手巧||次级心灵手巧||次级心灵手巧||次级心灵手巧
+|-
+|Improved Remedy||改良药水||改良药水||'''改良药品'''||改良药水
+|-
+|Improved Sly of Hand||次级妙手空空||次级妙手空空||次级妙手空空||次级妙手空空
+|-
+|Improved Swindler's Voice||次级巧舌如簧||次级巧舌如簧||次级巧舌如簧||次级巧舌如簧
+|-
+|Improved Virulity||改良毒素||改良毒素||改良毒素||改良毒素
+|-
+|In City Check||    ||    ||    ||'''城市内检查'''
+|-
+|In City Check Spell||    ||    ||    ||'''城市内检查法术'''
+|-
+|Incinerate||烈焰焚烧||烈焰焚烧||'''火炮术'''||'''烈焰焚烧术'''
+|-
+|Increase Damage from Alduin||增加奥杜因的伤害||增加奥杜因的伤害||增加奥杜因的伤害||增加奥杜因的伤害
+|-
+|Increase Detection||强化感知||强化感知||强化感知||强化感知
+|-
+|Increased Magicka||增加法力||增加法力||'''提高法力'''||增加法力
+|-
+|Increased Magicka Regen||恢复法力||恢复法力||'''提高法力恢复'''||'''提高法力恢复'''
+|-
+|Increased Speed||提高速度||提高速度||提高速度||'''速度提升'''
+|-
+|Inner Spirit||    ||'''内部精魂'''||    ||'''内在灵魂'''
+|-
+|Inner Spirit Boost||    ||'''内部精魂增益'''||    ||'''内在灵魂增强'''
+|-
+|Inner Spirit: Bear||    ||'''内部精魂：熊'''||    ||'''内在灵魂：熊'''
+|-
+|Inner Spirit: Hawk||    ||'''内部精魂：鹰'''||    ||'''内在灵魂：鹰'''
+|-
+|Inner Spirit: Wolf||    ||'''内部精魂：狼'''||    ||'''内在灵魂：狼'''
+|-
+|Insightful Enchanter||附魔渗透||附魔渗透||附魔渗透||附魔渗透
+|-
+|Instant Kill||必杀||必杀||必杀||必杀
+|-
+|Insubstantial||虚化||虚化||'''幽冥伤害'''||虚化
+|-
+|Intense Flames||烈焰压迫||烈焰压迫||烈焰压迫||烈焰压迫
+|-
+|Intense Flames Fear||烈焰压迫恐惧||烈焰压迫恐惧||    ||烈焰压迫恐惧
+|-
+|Intimidation||咄咄逼人||咄咄逼人||咄咄逼人||咄咄逼人
+|-
+|Investor||商业投资||商业投资||'''商业资助'''||商业投资
+|-
+|Invisibility||隐形||隐形||'''隐匿身形'''||'''隐身术'''
+|-
+|Invisibility Phantom||隐形鬼怪||隐形鬼怪||隐形鬼怪||隐形鬼怪
+|-
+|Ironflesh||铁甲术||铁甲术||'''铁身术'''||铁甲术
+|-
+|J'zargo's Flame Cloak||扎格的火焰斗篷||'''吉'扎格的火焰斗篷'''||'''吉扎格的火焰斗篷术'''||'''扎格的烈焰斗篷'''
+|-
+|Juggernaut||重型装甲||重型装甲||重型装甲||重型装甲
+|-
+|Jumping Flame Spider||烈焰跳蛛||烈焰跳蛛||烈焰跳蛛||烈焰跳蛛
+|-
+|Jumping Frost Spider||寒霜跳蛛||寒霜跳蛛||寒霜跳蛛||寒霜跳蛛
+|-
+|Jyrik's Blessing||杰利克的赐福||杰利克的赐福||'''杰瑞克的赐福'''||杰利克的赐福
+|-
+|Jzargo Flames||扎格的火舌术||'''吉'扎格的火舌术'''||'''吉扎格的火燃术'''||扎格的火舌术
+|-
+|Kagrenac's Knowledge||    ||'''卡格瑞纳克的知识'''||    ||'''卡格纳克的知识'''
+|-
+|Karliah's Invisibility||卡莉亚的隐身术||卡莉亚的隐身术||'''卡莱雅的隐身术'''||卡莉亚的隐身术
+|-
+|Karstaag's Frost Cloak||卡斯塔的寒霜斗篷||卡斯塔的寒霜斗篷||'''卡斯塔的冰霜斗篷术'''||卡斯塔的寒霜斗篷
+|-
+|Karstaag's Resistances||卡斯塔的抵抗||卡斯塔的抵抗||'''卡斯塔的抵抗力'''||卡斯塔的抵抗
+|-
+|Karstaag's Summons||卡斯塔的召唤||卡斯塔的召唤||卡斯塔的召唤||卡斯塔的召唤
+|-
+|Karstaag's Will||卡斯塔之愿||卡斯塔之愿||卡斯塔之愿||卡斯塔之愿
+|-
+|Katria Weaknesses||卡提雅的弱点||卡提雅的弱点||'''卡崔雅的弱点'''||卡提雅的弱点
+|-
+|Keening's Sting||哀恸之刺||哀恸之刺||'''锐锋之刺'''||哀恸之刺
+|-
+|Keeper Abilities||守护者特殊能力||守护者特殊能力||    ||守护者特殊能力
+|-
+|Keeper Soul Drain||守护者灵魂泄能||守护者灵魂泄能||'''石冢魂卫的灵魂吸收'''||守护者灵魂泄能
+|-
+|Keymaster||摸钥大师||摸钥大师||'''摸钥'''||摸钥大师
+|-
+|Kindred Mage||迷惑血亲||迷惑血亲||'''人类迷惑'''||迷惑血亲
+|-
+|Knockback||    ||'''击退'''||    ||'''击退'''
+|-
+|Knockdown Effect||击倒效果||击倒效果||'''击退效果'''||击倒效果
+|-
+|Knowledge Drain||智识耗尽||智识耗尽||智识耗尽||智识耗尽
+|-
+|Konahrik's Privilege||科纳瑞克的特权||科纳瑞克的特权||'''科纳瑞克的优越'''||科纳瑞克的特权
+|-
+|Krosis' Subterfuge||克洛斯的诡计||克洛斯的诡计||'''克洛希斯的诡计'''||克洛斯的诡计
+|-
+|Kyne's Blessing||凯娜的赐福||凯娜的赐福||凯娜的赐福||凯娜的赐福
+|-
+|Kyne's Peace||凯娜之静||凯娜之静||'''凯娜的宁静'''||'''凯娜的宁静'''
+|-
+|Lava Damage||熔岩伤害||熔岩伤害||    ||熔岩伤害
+|-
+|Lesser Magic Resistance||次级魔法抗性||次级魔法抗性||'''低阶魔法抗性'''||次级魔法抗性
+|-
+|Lesser Recovery||次级恢复术||次级恢复术||'''低阶法力复原'''||次级恢复术
+|-
+|Lesser Shield||次级护盾||次级护盾||    ||次级护盾
+|-
+|Lesser Ward||次级结界术||次级结界术||'''初阶结界术'''||次级结界术
+|-
+|Light||    ||'''微光术'''||'''光亮'''||'''光'''
+|-
+|Light Beam||光束||光束||光束||光束
+|-
+|Light Damage||月灼伤害||月灼伤害||'''闪电伤害'''||'''电击伤害'''
+|-
+|Light Fingers||灵巧手指||灵巧手指||'''巧手'''||灵巧手指
+|-
+|Light Foot||轻盈步伐||轻盈步伐||轻盈步伐||轻盈步伐
+|-
+|Light Touch||轻触||轻触||'''巧手'''||轻触
+|-
+|Lightning Bolt||闪电箭||闪电箭||'''闪电术'''||闪电箭
+|-
+|Lightning Bolt Call Storm||闪电风暴||闪电风暴||'''暴风雨闪电'''||闪电风暴
+|-
+|Lightning Breath||    ||    ||    ||'''闪电吐息'''
+|-
+|Lightning Cloak||闪电斗篷||闪电斗篷||'''闪电斗篷术'''||闪电斗篷
+|-
+|Lightning Cloak Drain||    ||    ||    ||'''雷神披风低下'''
+|-
+|Lightning Mage||闪电法师||闪电法师||闪电法师||闪电法师
+|-
+|Lightning Rune||闪电符文||闪电符文||'''暴电法印'''||闪电符文
+|-
+|Lightning Storm||闪电风暴||闪电风暴||'''雷霆连击术'''||闪电风暴
+|-
+|Limbsplitter||断肢者||断肢者||'''肢解'''||'''肢体分解'''
+|-
+|Lingering Damage Health||生命流失||生命流失||'''持续减损生命'''||'''持续减损生命力'''
+|-
+|Lingering Damage Magicka||法力流失||法力流失||'''持续减损法力'''||'''持续减损法力'''
+|-
+|Lingering Damage Stamina||体力流失||体力流失||'''持续减损耐力'''||'''持续减损精力'''
+|-
+|Lingering Fire Damage||持续火焰伤害||持续火焰伤害||持续火焰伤害||持续火焰伤害
+|-
+|Lingering Fire Damage||持续火焰伤害||持续火焰伤害||持续火焰伤害||'''持续的火焰伤害'''
+|-
+|Lingering Poison Damage||    ||    ||    ||'''缓消毒药伤害'''
+|-
+|Lingering Steam Damage||持续的蒸汽伤害||持续的蒸汽伤害||'''长效的蒸气伤害'''||持续的蒸汽伤害
+|-
+|Locate||锁定||锁定||锁定||锁定
+|-
+|Locksmith||锁匠直觉||锁匠直觉||锁匠直觉||锁匠直觉
+|-
+|Locksmith's Touch||锁匠之赐||锁匠之赐||锁匠之赐||锁匠之赐
+|-
+|Lord's Mail||    ||'''君王链甲'''||    ||'''圣主链甲'''
+|-
+|Lord's Mail (Cursed)||    ||'''受诅咒的君王链甲'''||    ||'''圣主链甲（受诅咒）'''
+|-
+|Lord's Mail Absorb Health||    ||    ||    ||'''圣主链甲吸取生命力'''
+|-
+|Lord's Mail Cloak||    ||    ||    ||'''圣主链甲斗篷'''
+|-
+|Loved||爱恋||爱恋||爱恋||爱恋
+|-
+|Lover||恋人||恋人||恋人||恋人
+|-
+|Lover's Comfort||爱人的慰藉||爱人的慰藉||爱人的慰藉||爱人的慰藉
+|-
+|Lover's Insight||恋人洞察力||恋人洞察力||恋人洞察力||恋人洞察力
+|-
+|Lower Carry Weight||减轻负重力||减轻负重力||减轻负重力||减轻负重力
+|-
+|Lower Carry Weight||减轻负重力||减轻负重力||减轻负重力||'''减轻负重'''
+|-
+|Lower Carry Weight||    ||'''减轻负重力'''||    ||'''减轻负重'''
+|-
+|Lower Regeneration Rates||    ||'''减缓恢复速度'''||    ||'''降低恢复速度'''
+|-
+|Lurker Abilitites||    ||    ||'''窥泅者能力'''||    
+|-
+|Lurker Slime||潜伏者黏液||潜伏者黏液||'''窥泅者黏液'''||潜伏者黏液
+|-
+|Lurker Spray||潜伏者喷射||潜伏者喷射||'''窥泅者喷射'''||潜伏者喷射
+|-
+|Lurker Stagger Area Attack||潜伏者范围失衡攻击||潜伏者范围失衡攻击||'''窥泅者范围失衡攻击'''||潜伏者范围失衡攻击
+|-
+|Lurker's Cloak||潜伏者斗篷||潜伏者斗篷||'''窥泅者斗篷'''||潜伏者斗篷
+|-
+|Lurker's Shadow||潜伏者暗影||潜伏者暗影||'''窥泅者暗影'''||潜伏者暗影
+|-
+|Mace of Molag Bal Enchantment||莫拉格·巴尔钉锤附魔||莫拉格·巴尔钉锤附魔||莫拉格·巴尔钉锤附魔||'''莫拉格．巴尔钉锤附魔'''
+|-
+|Mage||法师||法师||法师||法师
+|-
+|Mage Armor||法师护甲||法师护甲||法师护甲||法师护甲
+|-
+|Mage Backpack||    ||'''法师背包'''||    ||'''法师背包'''
+|-
+|Magelight||魔光术||魔光术||魔光术||魔光术
+|-
+|Magic Draugr FX||尸鬼魔法效果||尸鬼魔法效果||    ||    
+|-
+|Magic Resistance||魔法抗性||魔法抗性||魔法抗性||魔法抗性
+|-
+|Magical Instruments||魔法乐器||魔法乐器||魔法乐器||魔法乐器
+|-
+|Magicka Damage||法力减损||法力减损||'''法力伤害'''||法力减损
+|-
+|Magicka Draining Claws||法力泄能之爪||法力泄能之爪||'''逝力搬弄法力'''||法力泄能之爪
+|-
+|Make Me A Healer||    ||    ||'''帮我治疗'''||    
+|-
+|Makes Spell high priority for AI/Cast Once Only||使AI优先使用法术或只施展一次||使AI优先使用法术或只施展一次||    ||'''使AI优先使用法术/或只施展一次'''
+|-
+|Mammoth abilities||长毛象能力||长毛象能力||    ||长毛象能力
+|-
+|Mara's Wrath||    ||'''玛拉之怒'''||    ||'''玛拉之怒'''
+|-
+|Marked for Death||死亡印记||死亡印记||死亡印记||死亡印记
+|-
+|Marked for Death - Armor||死亡印记 - 护甲||死亡印记 - 护甲||'''死亡印记－护甲'''||'''死亡印记：装甲'''
+|-
+|Marked for Death - Aus||    ||    ||'''死亡印记 - Aus'''||    
+|-
+|Marked for Death - Health||死亡印记 - 生命||死亡印记 - 生命||'''死亡印记－生命'''||'''死亡印记：生命值'''
+|-
+|Marked for Death - Krii||死亡印记 - 克理||死亡印记 - 克理||    ||死亡印记 - 克理
+|-
+|Marked for Death - Krii||死亡印记 - 克理||死亡印记 - 克理||'''死亡印记 - Krii'''||    
+|-
+|Marked for Death - Lun||    ||    ||'''死亡印记 - Lun'''||    
+|-
+|Mass Charm||群体魅惑||群体魅惑||'''群体安抚术'''||群体魅惑
+|-
+|Mass Paralysis||群体麻痹术||群体麻痹术||群体麻痹术||群体麻痹术
+|-
+|Massive Fire Damage||大量火焰伤害||大量火焰伤害||'''巨大的火焰伤害'''||大量火焰伤害
+|-
+|Master Alteration||变换系大师||变换系大师||'''大师级变换系法术'''||变换系大师
+|-
+|Master Conjuration||召唤系大师||召唤系大师||'''大师级召唤系法术'''||召唤系大师
+|-
+|Master Destruction||毁灭系大师||毁灭系大师||'''大师级毁灭系法术'''||毁灭系大师
+|-
+|Master Illusion||幻术系大师||幻术系大师||'''大师级幻象系法术'''||幻术系大师
+|-
+|Master Locks||开锁大师||开锁大师||'''大师级开锁术'''||开锁大师
+|-
+|Master Over Chaos||    ||'''统御混沌'''||    ||'''混乱之师'''
+|-
+|Master Restoration||恢复系大师||恢复系大师||'''大师级恢复系法术'''||恢复系大师
+|-
+|Master Trader||贸易大师||贸易大师||贸易大师||贸易大师
+|-
+|Master Transmute||    ||'''大师级变换矿石'''||    ||'''大师级变换'''
+|-
+|Master of the Mind||心灵掌控||心灵掌控||'''心灵掌控大师'''||心灵掌控
+|-
+|Master's Gaze||主人的凝视||主人的凝视||'''大师的凝视'''||主人的凝视
+|-
+|Matching Set||护甲适身||护甲适身||'''体装合一'''||'''轻甲适身'''
+|-
+|Matching Set||    ||'''护甲适身'''||    ||'''轻甲适身'''
+|-
+|Mayhem||暴乱术||暴乱术||'''狂乱术'''||暴乱术
+|-
+|Mehrunes Razor Enchantment||梅鲁涅斯的利刃附魔||梅鲁涅斯的利刃附魔||梅鲁涅斯的利刃附魔||梅鲁涅斯的利刃附魔
+|-
+|Melee Damage||近战伤害||近战伤害||近战伤害||近战伤害
+|-
+|Memory Recorder||记忆纪录器||记忆纪录器||记忆纪录器||记忆纪录器
+|-
+|Mentor's Ring||    ||'''导师之戒'''||    ||'''导师的指环'''
+|-
+|Merchant||行商||行商||'''纵横商场'''||行商
+|-
+|Meridia's Light||梅瑞狄雅之光||梅瑞狄雅之光||'''梅芮狄娅之光'''||梅瑞狄雅之光
+|-
+|Meridia's Retribution||梅瑞狄雅的报应||梅瑞狄雅的报应||'''梅芮狄娅的报答'''||梅瑞狄雅的报应
+|-
+|Midden Torch||枯骨地牢火把||枯骨地牢火把||'''废弃物运送通路火炬'''||枯骨地牢火把
+|-
+|Mind of Chaos||    ||'''混沌意识'''||    ||'''混乱之心'''
+|-
+|Miraak Mask Shout||秘拉克面具咆哮||'''密拉克面具咆哮'''||'''密拉克面具吼声'''||秘拉克面具咆哮
+|-
+|Miraak Teleport||    ||    ||'''密拉克传送'''||    
+|-
+|Miraak Teleport Return||    ||    ||'''密拉克传送返回'''||    
+|-
+|Miraak's Sparks||秘拉克的闪电术||'''密拉克的闪电术'''||'''密拉克的电击术'''||'''秘拉克的电击术'''
+|-
+|Misdirection||误导||误导||误导||误导
+|-
+|Mist Form||雾霭形态||雾霭形态||'''化雾型态'''||'''雾霭型态'''
+|-
+|Mist Form Muffle||迷雾形态静行||迷雾形态静行||'''化雾型态消音'''||'''迷雾型态静行'''
+|-
+|Modify Alteration||调整变换系||调整变换系||调整变换系||调整变换系
+|-
+|Modify Conjuration||调整召唤系||调整召唤系||调整召唤系||调整召唤系
+|-
+|Modify Destruction||调整毁灭系||调整毁灭系||调整毁灭系||调整毁灭系
+|-
+|Modify Illusion||调整幻术系||调整幻术系||'''调整幻象系'''||调整幻术系
+|-
+|Modify Restoration||调整恢复系||调整恢复系||调整恢复系||调整恢复系
+|-
+|Mora's Agony||莫拉的痛楚||莫拉的痛楚||莫拉的痛楚||莫拉的痛楚
+|-
+|Mora's Boon||莫拉的恩惠||莫拉的恩惠||莫拉的恩惠||莫拉的恩惠
+|-
+|Mora's Curse||莫拉的诅咒||莫拉的诅咒||莫拉的诅咒||莫拉的诅咒
+|-
+|Mora's Grasp||莫拉的掌控||莫拉的掌控||莫拉的掌控||莫拉的掌控
+|-
+|Morokei Channel||摩洛克伊通道||摩洛克伊通道||    ||摩洛克伊通道
+|-
+|Mortal Wound||凡人受伤||凡人受伤||'''极度创伤'''||凡人受伤
+|-
+|Moth Juice||先祖蛾体液||先祖蛾体液||先祖蛾体液||先祖蛾体液
+|-
+|Mother's Love||母爱||母爱||'''为母之爱'''||母爱
+|-
+|Muffle||静行术||静行术||'''消除声响'''||'''静行'''
+|-
+|Muffle Pet||静行宠物||    ||    ||'''让宠物叫声不那么明显'''
+|-
+|Muffled Movement||无声移动||无声移动||无声移动||无声移动
+|-
+|Multiple Summon||多重召唤||多重召唤||多重召唤||多重召唤
+|-
+|MultipleSummons||多重召唤||多重召唤||多重召唤||多重召唤
+|-
+|Muted Step||衔枚疾走||衔枚疾走||衔枚疾走||衔枚疾走
+|-
+|Mystic Axe||秘术斧头||秘术斧头||'''魔力塑形战斧'''||秘术斧头
+|-
+|Mystic Binding||秘术之契||秘术之契||'''魔能收束'''||秘术之契
+|-
+|Mystic Bow||秘术弓||秘术弓||'''魔力塑形战弓'''||秘术弓
+|-
+|Mystic Dagger||神秘匕首||神秘匕首||'''魔力塑形匕首'''||神秘匕首
+|-
+|Mystic Quiver||    ||'''神秘箭支'''||    ||'''神秘箭袋'''
+|-
+|Mystic Sword||秘术剑||秘术剑||'''魔力塑形长剑'''||'''秘术长剑'''
+|-
+|Mystic Venom||    ||'''神秘毒液'''||    ||'''神秘毒液'''
+|-
+|Mythic Dawn Faction||    ||    ||    ||'''破晓神教阵营'''
+|-
+|Namira's Blessing||娜米拉的赐福||娜米拉的赐福||娜米拉的赐福||娜米拉的赐福
+|-
+|Necro Skeleton Ability||亡灵骷髅能力||亡灵骷髅能力||    ||    
+|-
+|Necro Skeleton Ability||亡灵骷髅能力||亡灵骷髅能力||    ||'''死灵骷髅特殊能力'''
+|-
+|Necromage||亡灵法师||亡灵法师||'''死灵术士'''||'''操灵法师'''
+|-
+|Necromancer's Ritual||    ||'''亡灵法师的仪式'''||    ||'''死灵术士的仪式'''
+|-
+|Necromancer's Spell||    ||'''亡灵法师的法术'''||    ||'''死灵术士的法术'''
+|-
+|Necromancy||亡灵法术||亡灵法术||'''死灵术士'''||'''死灵法术'''
+|-
+|Necromantic Healing||亡灵治疗术||亡灵治疗术||'''邪物修护术'''||'''死灵治疗术'''
+|-
+|Needs Damage Attributes||    ||'''需求损伤基本属性'''||    ||'''需要伤害属性'''
+|-
+|Negate Survival Penalty||    ||    ||    ||'''吸收生存惩罚'''
+|-
+|Neloth's Health Boost||尼洛施的生命强化||尼洛施的生命强化||'''尼洛施的强化生命'''||'''尼洛施的生命力强化'''
+|-
+|Neloth's Health Spell||尼洛施的生命法术||尼洛施的生命法术||尼洛施的生命法术||'''尼洛施的生命力法术'''
+|-
+|Neloth's Memory Spell||尼洛施的记忆法术||尼洛施的记忆法术||尼洛施的记忆法术||尼洛施的记忆法术
+|-
+|Netch abilities||气母能力||气母能力||    ||    
+|-
+|Night Cloak||黑夜斗篷||黑夜斗篷||'''夜色斗篷'''||黑夜斗篷
+|-
+|Night Eye||夜视||夜视||夜视||夜视
+|-
+|Night Eye Dispel||驱除夜视||驱除夜视||驱除夜视||驱除夜视
+|-
+|Night Stalker's Footsteps||夜间行者||夜间行者||'''夜行者的脚步'''||'''夜行者的脚步'''
+|-
+|Night Thief||夜贼||夜贼||夜贼||夜贼
+|-
+|Nightingale Armor Full Set||全套夜莺护甲||全套夜莺护甲||全套夜莺护甲||全套夜莺护甲
+|-
+|Nightingale Shadow Ability||夜莺幽影技能||夜莺幽影技能||'''夜莺阴影能力'''||夜莺幽影技能
+|-
+|Nightingale Shadow Mercer||夜莺暗影||夜莺暗影||'''墨瑟的夜莺阴影能力'''||'''夜莺暗影 墨瑟'''
+|-
+|Nightingale Shadow Perk||夜莺幽影额外能力||夜莺幽影额外能力||'''夜莺阴影能力'''||夜莺幽影额外能力
+|-
+|Nightingale Strife||夜莺猛击||夜莺猛击||'''夜莺冲突能力'''||'''夜莺冲突术'''
+|-
+|Nightingale Strife Mercer||夜莺猛击||夜莺猛击||'''墨瑟的夜莺冲突能力'''||'''夜莺猛击 墨瑟'''
+|-
+|Nightingale Subterfuge||夜莺诡计||夜莺诡计||'''夜莺诡计能力'''||'''夜莺诡计术'''
+|-
+|Nightingale's Grasp||夜莺之握||夜莺之握||夜莺之握||夜莺之握
+|-
+|Nightingale's Halo||夜莺灵光||夜莺灵光||夜莺灵光||夜莺灵光
+|-
+|Nightingale's Resolve||夜莺之心||夜莺之心||夜莺之心||夜莺之心
+|-
+|Nightingale's Shadow||夜莺之影||夜莺之影||'''夜莺阴影能力'''||夜莺之影
+|-
+|Nightingale's Storm||夜莺风暴||夜莺风暴||'''夜莺的风暴'''||'''夜莺的风暴'''
+|-
+|Nightingale's Stride||夜莺之跃||夜莺之跃||夜莺之跃||夜莺之跃
+|-
+|Nightingale's Talon||夜莺之爪||夜莺之爪||夜莺之爪||夜莺之爪
+|-
+|Nightmare Ability||梦魇能力||梦魇能力||梦魇能力||梦魇能力
+|-
+|Nightstalker's Footsteps||夜间行者||夜间行者||'''夜行者的脚步'''||'''夜行者的脚步'''
+|-
+|Nimble Fingers||隐蔽口袋||隐蔽口袋||隐蔽口袋||隐蔽口袋
+|-
+|No Falling Damage||没有坠落伤害||没有坠落伤害||没有坠落伤害||没有坠落伤害
+|-
+|No Pickpocket Perk||    ||'''无扒窃额外能力'''||    ||'''无扒窃额外能力'''
+|-
+|No damage||没有伤害||没有伤害||没有伤害||没有伤害
+|-
+|Noop Effect||    ||    ||    ||'''无操作效果'''
+|-
+|Noop Spell||    ||    ||    ||'''无操作法术'''
+|-
+|Nord Battle Cry Perk||诺德人战斗呐喊额外能力||'''诺德人战吼额外能力'''||'''诺德人的战嚎特技'''||'''诺德人战斗咆哮额外能力'''
+|-
+|Nordic Jewelry Enchanting||    ||'''诺德饰品附魔'''||    ||'''诺德珠宝附魔'''
+|-
+|North Wind||北方寒风||北方寒风||北方寒风||北方寒风
+|-
+|Not User Facing||    ||    ||    ||'''非使用者界面'''
+|-
+|Notched Pickaxe||锯齿鹤嘴锄||'''我的世界鹤嘴锄'''||'''缺痕十字镐'''||锯齿鹤嘴锄
+|-
+|Novice Alteration||变换系新手||变换系新手||'''入门级变换系法术'''||变换系新手
+|-
+|Novice Conjuration||召唤系新手||召唤系新手||'''入门级召唤系法术'''||召唤系新手
+|-
+|Novice Destruction||毁灭系新手||毁灭系新手||'''入门级毁灭系法术'''||毁灭系新手
+|-
+|Novice Illusion||幻术系新手||幻术系新手||'''入门级幻象系法术'''||幻术系新手
+|-
+|Novice Locks||开锁新手||开锁新手||'''入门级开锁术'''||开锁新手
+|-
+|Novice Restoration||恢复系新手||恢复系新手||'''入门级恢复系法术'''||恢复系新手
+|-
+|Numb||    ||'''冻僵'''||    ||'''冻僵'''
+|-
+|Oakflesh||木甲术||木甲术||'''木身术'''||木甲术
+|-
+|Oblivion Binding||湮灭之契||湮灭之契||'''湮灭收束'''||湮灭之契
+|-
+|Oil Spider||油蜘蛛||油蜘蛛||'''燃油蜘蛛'''||油蜘蛛
+|-
+|Omen of Warding||结界先兆||结界先兆||结界先兆||结界先兆
+|-
+|On Ice Paralyze||冰冻麻痹术||冰冻麻痹术||'''冰冻麻痹'''||冰冻麻痹术
+|-
+|Oppressive Cloud||压迫之云||压迫之云||压迫之云||压迫之云
+|-
+|Oppressive Fog||压迫之雾||压迫之雾||    ||    
+|-
+|Orcish Smithing||兽人锻造||兽人锻造||'''兽人工艺锻造'''||'''兽人材质锻造'''
+|-
+|Orcish Smithing||    ||'''兽人锻造'''||    ||'''兽人材质锻造'''
+|-
+|Orum's Aquatic Escape||    ||'''奥鲁姆水遁'''||    ||'''欧鲁姆的水中脱逃'''
+|-
+|Otar's Will||奥塔之愿||奥塔之愿||奥塔之愿||奥塔之愿
+|-
+|Overdraw||力透千钧||力透千钧||力透千钧||力透千钧
+|-
+|Overencumbered||    ||'''超负'''||    ||'''超重'''
+|-
+|Pacify||平息术||平息术||平息术||'''安抚'''
+|-
+|Pacify||平息术||平息术||平息术||'''停战术'''
+|-
+|Pacify||    ||'''平息术'''||    ||'''安抚'''
+|-
+|Pack Spider||驮蜘蛛||驮蜘蛛||'''携物蜘蛛'''||驮蜘蛛
+|-
+|Paralysis||麻痹||麻痹||'''麻痹术'''||麻痹
+|-
+|Paralysis Rune||    ||'''麻痹符文'''||    ||'''麻痹术符文'''
+|-
+|Paralyze||麻痹术||麻痹术||'''麻痹全身'''||麻痹术
+|-
+|Paralyzing Strike||瘫痪打击||瘫痪打击||瘫痪打击||瘫痪打击
+|-
+|Parent's Touch||父母之触||父母之触||    ||父母之触
+|-
+|Peckish||    ||'''略饿'''||    ||'''有点饿'''
+|-
+|Perfect Touch||轻触||轻触||'''娴熟之触'''||轻触
+|-
+|Persuasion||舌灿莲花||舌灿莲花||舌灿莲花||舌灿莲花
+|-
+|Pet Abilities||宠物能力||    ||    ||宠物能力
+|-
+|Pet Magic Resistance||    ||    ||    ||'''宠物魔法抗性'''
+|-
+|Phantom Form||鬼魂形态||鬼魂形态||鬼魂形态||鬼魂形态
+|-
+|Physician||药剂医师||药剂医师||'''医疗精通'''||'''治疗专精'''
+|-
+|Pine Forest Freezing Area||    ||'''松林严寒区域'''||    ||'''松林寒冻区域'''
+|-
+|Poison||毒药||毒药||'''毒素'''||毒药
+|-
+|Poison Cloak||毒药斗篷||毒药斗篷||'''毒素斗篷'''||毒药斗篷
+|-
+|Poison Cloak||    ||'''毒药斗篷'''||    ||'''毒素斗篷'''
+|-
+|Poison Damage||毒素伤害||毒素伤害||毒素伤害||毒素伤害
+|-
+|Poison Fire||    ||    ||    ||'''毒素火焰'''
+|-
+|Poison Gas||毒气||毒气||毒气||毒气
+|-
+|Poison Hazard||毒药灾害||毒药灾害||'''毒素灾害'''||毒药灾害
+|-
+|Poison Rune||毒药符文||毒药符文||'''毒害法印'''||毒药符文
+|-
+|Poison Spider||毒药蜘蛛||毒药蜘蛛||'''毒素蜘蛛'''||毒药蜘蛛
+|-
+|Poison Spray||喷溅毒液||喷溅毒液||喷溅毒液||喷溅毒液
+|-
+|Poison Talons||剧毒之爪||剧毒之爪||'''渗毒魔爪'''||剧毒之爪
+|-
+|Poisoned||投毒||投毒||'''施毒'''||投毒
+|-
+|Poisoner||毒药精通||毒药精通||毒药精通||'''毒药专精'''
+|-
+|Polymorph Skeever||变换恶鼠||变换恶鼠||变换恶鼠||变换恶鼠
+|-
+|Potency: Conjure Storm Atronach||能力：召唤强力风暴元素||能力：召唤强力风暴元素||'''召唤强力风暴属灵'''||'''能力：召唤风暴元素'''
+|-
+|Power Attacks/Damage Resistance||重击/伤害抗性||重击/伤害抗性||'''强力攻击 / 伤害抗性'''||'''强攻击/伤害抗性'''
+|-
+|Power Bash||强力盾击||强力盾击||'''强力反击'''||'''盾牌猛击'''
+|-
+|Power Shot||强力之箭||强力之箭||'''强力一击'''||'''强力一击'''
+|-
+|Power attacks, no stamina||重击，没有体力||重击，没有体力||'''强力攻击，没有耐力'''||'''强攻击，没有精力'''
+|-
+|Power of Apocrypha||阿波科法之力||'''晦典之力'''||'''晦明识界之力'''||阿波科法之力
+|-
+|Power of Saarthal||萨瑟尔之力||萨瑟尔之力||萨瑟尔之力||萨瑟尔之力
+|-
+|Power of the Grave||墓地之力||墓地之力||'''逝地之力'''||墓地之力
+|-
+|Predator's Grace||掠食者的恩赐||掠食者的恩赐||掠食者的恩赐||掠食者的恩赐
+|-
+|Pride of Hirstaang||    ||'''赫斯惴河的荣耀'''||    ||'''赫斯坦格的荣耀'''
+|-
+|Protect Soul||保护灵魂||保护灵魂||'''灵魂防护'''||保护灵魂
+|-
+|Prowler's Profit||惯窃的利益||惯窃的利益||'''惯偷的利益'''||惯窃的利益
+|-
+|Psychic Agony||通灵折磨||通灵折磨||通灵折磨||通灵折磨
+|-
+|Purity||净化血液||净化血液||'''纯净药手'''||'''净化'''
+|-
+|Puzzle Effect||    ||    ||    ||'''谜题效果'''
+|-
+|Quick Hands||眼明手快||眼明手快||眼明手快||眼明手快
+|-
+|Quick Reflexes||灵活反应||灵活反应||'''瞬间反应'''||灵活反应
+|-
+|Quick Shot||快速射击||快速射击||快速射击||快速射击
+|-
+|QuickShot||快速射击||快速射击||'''速射'''||'''速射'''
+|-
+|QuickShot||    ||'''快速射击'''||    ||'''速射'''
+|-
+|Quiet Casting||安静施法||安静施法||'''静默施法'''||安静施法
+|-
+|Rage||心灵狂怒||心灵狂怒||'''狂暴愤怒'''||心灵狂怒
+|-
+|Rage Of The Ancients||先古之怒||先古之怒||'''古灵之怒'''||先古之怒
+|-
+|Raise Dead||唤醒死尸||唤醒死尸||'''复活死者'''||'''唤醒不死'''
+|-
+|Raise Dead Visual||    ||    ||'''提高不死者视觉'''||    
+|-
+|Raise Souls||复活灵魂||复活灵魂||'''灵魂复活'''||复活灵魂
+|-
+|Raise Zombie||唤醒僵尸||唤醒僵尸||'''尸儡唤醒术'''||唤醒僵尸
+|-
+|Raise Zombie||唤醒僵尸||唤醒僵尸||'''尸儡唤醒术'''||'''唤醒僵尸术'''
+|-
+|Ralis Knockback Effect||    ||    ||'''拉利斯击退效果'''||    
+|-
+|Rally||重振术||重振术||'''振奋术'''||重振术
+|-
+|Rally Secondary||次级复元||次级复元||'''次级振奋术'''||次级复元
+|-
+|Random Werewolf Transformations||乱数狼人变身||乱数狼人变身||'''随机的狼人变化效果'''||乱数狼人变身
+|-
+|Range of Movement||移动范围||移动范围||移动范围||移动范围
+|-
+|Ranger||游侠||游侠||'''绿林游侠'''||'''绿林游侠'''
+|-
+|Rattles||响尾毒||响尾毒||'''躁萎病'''||响尾毒
+|-
+|Ravage Health||弱化生命||弱化生命||'''毒害生命'''||'''伤害生命'''
+|-
+|Ravage Magicka||弱化法力||弱化法力||'''毒害法力'''||'''减损法力'''
+|-
+|Ravage Stamina||弱化体力||弱化体力||'''毒害耐力'''||'''减损精力'''
+|-
+|Raw Diet||    ||'''生啖活吞'''||    ||'''生食'''
+|-
+|Reanimate||复活术||复活术||'''唤起亡者'''||复活术
+|-
+|Reanimate||复活术||复活术||'''尸儡唤起术'''||复活术
+|-
+|Reanimate||    ||'''复活术'''||    ||'''复活术'''
+|-
+|Reanimate (Self)||复活术（自身）||复活术（自身）||'''唤起亡者（自身）'''||复活术（自身）
+|-
+|Reanimate Corpse||复活僵尸||复活僵尸||'''尸儡唤起术'''||'''复活尸体'''
+|-
+|Reanimate Thrall||复活奴仆||复活奴仆||'''唤起尸仆'''||复活奴仆
+|-
+|Recover Magicka||恢复魔法||恢复魔法||'''复原法力'''||'''恢复法力'''
+|-
+|Recovery||快速恢复||快速恢复||'''法力复原'''||快速恢复
+|-
+|Red Eagle||红鹰||红鹰||红鹰||红鹰
+|-
+|Red Eagle Fire Damage||红鹰火焰伤害||红鹰火焰伤害||红鹰火焰伤害||红鹰火焰伤害
+|-
+|Red Eagle Turn Undead||红鹰的驱赶亡灵||红鹰的驱赶亡灵||'''红鹰的进阶驱邪术'''||'''红鹰的驱赶不死生物'''
+|-
+|Red Ghost Ability||    ||    ||    ||'''红鬼魂能力'''
+|-
+|Red Glow||红光||红光||    ||红光
+|-
+|Reduce Attack Damage||减少攻击伤害||减少攻击伤害||'''降低攻击伤害'''||减少攻击伤害
+|-
+|Reduce Attack Damage||    ||'''减少攻击伤害'''||    ||'''减少攻击伤害'''
+|-
+|Reduce Carry Weight||    ||'''减损负重'''||    ||'''减轻负重'''
+|-
+|Reduce Damage||减少伤害||减少伤害||'''降低伤害'''||减少伤害
+|-
+|Reduce Damage||    ||'''减少伤害'''||    ||'''减少伤害'''
+|-
+|Reduced Archery||    ||'''降低弓术'''||    ||'''减损箭术'''
+|-
+|Reduced Attack Speed||    ||'''降低攻速'''||    ||'''减少攻击速度'''
+|-
+|Reduced Block||    ||'''降低格挡'''||    ||'''减少格挡'''
+|-
+|Reduced Damage||    ||    ||    ||'''已减少伤害'''
+|-
+|Reduced Damage 0.5||减少伤害 0.5||减少伤害 0.5||'''降低伤害 0.5'''||减少伤害 0.5
+|-
+|Reduced Health||减少生命||减少生命||'''降低生命'''||'''降低生命'''
+|-
+|Reduced Lockpick & Pickpocket||降低开锁 & 扒窃||降低开锁 & 扒窃||'''降低开锁及扒窃'''||'''降低开锁与扒窃'''
+|-
+|Reduced Magicka||减少法力||减少法力||'''降低法力'''||减少法力
+|-
+|Reduced Magicka Regen||降低法力恢复||降低法力恢复||降低法力恢复||降低法力恢复
+|-
+|Reduced Magicka Regeneration||    ||'''减少法力恢复'''||    ||'''减少法力恢复速度'''
+|-
+|Reduced Movement Speed||    ||'''降低移动速度'''||    ||'''降低移动速度'''
+|-
+|Reduced Sneak||    ||'''降低潜行'''||    ||'''减损潜行'''
+|-
+|Reduced Speech||    ||'''降低口才'''||    ||'''减损口才'''
+|-
+|Reduced Stamina||减少体力||减少体力||'''降低耐力'''||'''降低精力'''
+|-
+|Reduced Stamina||    ||'''减少体力'''||    ||'''减少精力'''
+|-
+|Reduced Stamina||减少体力||减少体力||'''降低耐力'''||'''减少精力'''
+|-
+|Reduced Stamina Regen||降低体力恢复||降低体力恢复||'''降低耐力恢复'''||'''降低精力恢复'''
+|-
+|Reduced Stamina Regen||降低体力恢复||降低体力恢复||'''降低耐力恢复'''||'''降低精力'''
+|-
+|Reduced Stamina Regen||    ||'''降低体力恢复'''||    ||'''降低精力恢复'''
+|-
+|Reduced Stamina Regeneration||    ||'''降低体力恢复'''||    ||'''减缓精力恢复速度'''
+|-
+|Reduced Weapon Damage||降低武器伤害||降低武器伤害||降低武器伤害||降低武器伤害
+|-
+|Reduced Weapon Damage||    ||'''降低武器伤害'''||    ||'''降低武器伤害'''
+|-
+|Reduced Weapon Skills||    ||'''降低武器技能'''||    ||'''降低武器技能'''
+|-
+|Reduced Weapon skills||降低武器技能||降低武器技能||降低武器技能||降低武器技能
+|-
+|Reduced Weapon skills||    ||'''降低武器技能'''||    ||'''降低武器技能'''
+|-
+|Reflect Attack||反弹攻击||反弹攻击||反弹攻击||反弹攻击
+|-
+|Reflect Blows||反弹攻击||反弹攻击||反弹攻击||反弹攻击
+|-
+|Reflecting Shield Effect||反射护盾效果||反射护盾效果||'''反射之盾效果'''||反射护盾效果
+|-
+|Reforged Divine Crusader Boots||    ||'''重铸圣灵圣教军靴子'''||    ||'''重铸神灵十字军靴'''
+|-
+|Reforged Divine Crusader Cuirass||    ||'''重铸圣灵圣教军护甲'''||    ||'''重铸神灵十字军胸甲'''
+|-
+|Reforged Divine Crusader Gauntlets||    ||'''重铸圣灵圣教军腕甲'''||    ||'''重铸神灵十字军腕甲'''
+|-
+|Reforged Divine Crusader Helm||    ||'''重铸圣灵圣教军头盔'''||    ||'''重铸神灵十字军头盔'''
+|-
+|Refreshed||    ||'''充满活力'''||    ||'''恢复'''
+|-
+|Regenerate Health||恢复生命||恢复生命||'''再生生命'''||'''恢复生命力'''
+|-
+|Regenerate Health||    ||'''恢复生命'''||    ||'''恢复生命力'''
+|-
+|Regenerate Magicka||恢复法力||恢复法力||'''再生法力'''||恢复法力
+|-
+|Regenerate Stamina||恢复体力||恢复体力||'''再生耐力'''||'''恢复精力'''
+|-
+|Regeneration||妙手回春||妙手回春||妙手回春||妙手回春
+|-
+|Region Info||    ||    ||    ||'''地区资讯'''
+|-
+|Relics of the Crusader||    ||'''圣教军遗物'''||    ||'''十字军的圣物'''
+|-
+|Remodel Entryway - A||整建门厅 - 甲||整建门厅 - 甲||    ||'''整建门厅-A'''
+|-
+|Remove Earth||移除土石||移除土石||'''移除地之石'''||移除土石
+|-
+|Remove Fire||移除火石||移除火石||移除火石||移除火石
+|-
+|Remove Tree||移开树木||移开树木||移开树木||移开树木
+|-
+|Remove Water||移除水石||移除水石||'''移除水之石'''||移除水石
+|-
+|Remove Wind||移除风石||移除风石||'''移除风之石'''||移除风石
+|-
+|Repel Lesser Undead||驱离低等亡灵||驱离低等亡灵||'''初阶辟邪术'''||'''驱离次级不死生物'''
+|-
+|Repel Undead||驱离亡灵||驱离亡灵||'''进阶辟邪术'''||'''驱离不死生物'''
+|-
+|Resist Damage||伤害抵抗||伤害抵抗||'''伤害抗性'''||伤害抵抗
+|-
+|Resist Disease||疾病抗性||疾病抗性||疾病抗性||疾病抗性
+|-
+|Resist Disease and Poison||疾病与毒药抵抗力||疾病与毒药抵抗力||'''疾病与毒素抗性'''||疾病与毒药抵抗力
+|-
+|Resist Fatigue||    ||'''疲劳抗性'''||    ||'''疲乏抗性'''
+|-
+|Resist Fire||火焰抗性||火焰抗性||火焰抗性||火焰抗性
+|-
+|Resist Fire||    ||'''火焰抗性'''||    ||'''火焰抗性'''
+|-
+|Resist Freezing Water||抵抗冰水||'''冻水抗性'''||'''冻水抗性'''||'''撑过寒冻水域'''
+|-
+|Resist Frost||寒霜抗性||寒霜抗性||寒霜抗性||寒霜抗性
+|-
+|Resist Frost||    ||'''寒霜抗性'''||    ||'''寒霜抗性'''
+|-
+|Resist Hunger||    ||'''抵抗饥饿'''||    ||'''饥饿抗性'''
+|-
+|Resist Magic||魔法抗性||魔法抗性||魔法抗性||魔法抗性
+|-
+|Resist Magic||    ||'''魔法抗性'''||    ||'''魔法抗性'''
+|-
+|Resist Poison||毒素抗性||毒素抗性||毒素抗性||毒素抗性
+|-
+|Resist Poison||    ||'''毒素抗性'''||    ||'''毒素抗性'''
+|-
+|Resist Shock||闪电抗性||闪电抗性||闪电抗性||'''电击抗性'''
+|-
+|Resist Shock||    ||'''闪电抗性'''||    ||'''电击抗性'''
+|-
+|Respite||缓解舒张||缓解舒张||缓解舒张||缓解舒张
+|-
+|Rested||已休息||已休息||已休息||已休息
+|-
+|Restoration Dual Casting||恢复系双手施法||恢复系双手施法||'''恢复系双手施展'''||恢复系双手施法
+|-
+|Restore Cold||恢复寒冷||'''减轻低温'''||'''减轻低温'''||恢复寒冷
+|-
+|Restore Health||回复生命||回复生命||回复生命||'''恢复生命力'''
+|-
+|Restore Health Area||范围恢复生命||范围恢复生命||'''范围回复生命'''||范围恢复生命
+|-
+|Restore Health Blank||恢复体力||恢复体力||    ||恢复体力
+|-
+|Restore Health and Magicka||    ||'''恢复生命力和法力'''||    ||'''恢复生命力和法力'''
+|-
+|Restore Health to Undead||恢复亡灵生命||恢复亡灵生命||'''不死者之回复生命'''||'''恢复不死生物生命力'''
+|-
+|Restore Hunger Large||减少大量饥饿度||'''减轻饥饿 - 高度'''||'''减轻饥饿 - 高度'''||'''恢复饥饿大'''
+|-
+|Restore Hunger Medium||减少中量饥饿度||'''减轻饥饿 - 中度'''||'''减轻饥饿 - 中度'''||'''恢复饥饿中'''
+|-
+|Restore Hunger Small||减少少量饥饿度||'''减轻饥饿 - 低度'''||'''减轻饥饿 - 低度'''||'''恢复饥饿小'''
+|-
+|Restore Hunger Very Small||减少微量饥饿度||'''减轻饥饿 - 极低'''||'''减轻饥饿 - 极低'''||'''恢复饥饿极小'''
+|-
+|Restore Magicka||回复法力||回复法力||回复法力||'''恢复法力'''
+|-
+|Restore Stamina||回复体力||回复体力||'''回复耐力'''||'''恢复精力'''
+|-
+|Restore Stamina Area||范围恢复体力||范围恢复体力||'''范围回复耐力'''||'''范围恢复精力'''
+|-
+|Resurrect||复活||复活||复活||复活
+|-
+|Revenant||魂行僵尸||魂行僵尸||'''尸儡驱使术'''||'''魂行术'''
+|-
+|Revert Form||形态还原||形态还原||'''型态复旧'''||'''型态还原'''
+|-
+|Revert to Human||还原成人类||还原成人类||'''回归原貌'''||还原成人类
+|-
+|Riding Dragon Detector Effect||    ||    ||    ||'''骑龙探测器效果'''
+|-
+|Ring of Hircine||海尔辛戒指||海尔辛戒指||'''海尔辛指环'''||'''海尔辛指环'''
+|-
+|Ring of Khajiit||    ||'''凯季特之戒'''||    ||'''虎人的指环'''
+|-
+|Ring of Namira||娜米拉戒指||娜米拉戒指||'''娜米拉指环'''||'''娜米拉指环'''
+|-
+|Ring of Phynaster||    ||'''菲纳斯特之戒'''||    ||'''费纳斯特指环'''
+|-
+|Ring of Surroundings||    ||'''周遭之戒'''||    ||'''环境指环'''
+|-
+|Ring of the Wind||    ||'''疾风之戒'''||    ||'''风之指环'''
+|-
+|Riposte||还击||还击||还击||还击
+|-
+|Rockjoint||关节石化病||关节石化病||'''僵直关节病'''||关节石化病
+|-
+|Room 1 Workbench||1号房工作台||1号房工作台||    ||1号房工作台
+|-
+|Room 1 Workbench Disable||1号房间停用工作台||1号房间停用工作台||    ||1号房间停用工作台
+|-
+|Room 1 Workbench Enable||1号房间启用工作台||1号房间启用工作台||    ||1号房间启用工作台
+|-
+|Room 10||10号房间||10号房间||    ||10号房间
+|-
+|Room 10 Layout||10号房间布局||10号房间布局||    ||'''10号房间配置'''
+|-
+|Room 10 Workbench||10号房工作台||10号房工作台||    ||10号房工作台
+|-
+|Room 10 Workbench Disable||10号房间停用工作台||10号房间停用工作台||    ||10号房间停用工作台
+|-
+|Room 10 Workbench Enable||10号房间启用工作台||10号房间启用工作台||    ||10号房间启用工作台
+|-
+|Room 11||11号房间||11号房间||    ||11号房间
+|-
+|Room 11 Layout||11号房间布局||11号房间布局||    ||'''11号房间配置'''
+|-
+|Room 11 Workbench||11号房工作台||11号房工作台||    ||11号房工作台
+|-
+|Room 11 Workbench Disable||11号房间停用工作台||11号房间停用工作台||    ||11号房间停用工作台
+|-
+|Room 11 Workbench Enable||11号房间启用工作台||11号房间启用工作台||    ||11号房间启用工作台
+|-
+|Room 12 Workbench||12号房工作台||12号房工作台||    ||12号房工作台
+|-
+|Room 12 Workbench Disable||12号房间停用工作台||12号房间停用工作台||    ||12号房间停用工作台
+|-
+|Room 12 Workbench Enable||12号房间启用工作台||12号房间启用工作台||    ||12号房间启用工作台
+|-
+|Room 1B Workbench||1B号房工作台||1B号房工作台||    ||1B号房工作台
+|-
+|Room 1B Workbench Disable||1B号房间停用工作台||1B号房间停用工作台||    ||1B号房间停用工作台
+|-
+|Room 1B Workbench Enable||1B号房间启用工作台||1B号房间启用工作台||    ||1B号房间启用工作台
+|-
+|Room 2 Workbench||2号房工作台||2号房工作台||    ||2号房工作台
+|-
+|Room 2 Workbench Disable||2号房间停用工作台||2号房间停用工作台||    ||2号房间停用工作台
+|-
+|Room 2 Workbench Enable||2号房间启用工作台||2号房间启用工作台||    ||2号房间启用工作台
+|-
+|Room 3||3号房间||3号房间||    ||3号房间
+|-
+|Room 3 Layout||3号房间布局||3号房间布局||    ||'''3号房间配置'''
+|-
+|Room 3 Workbench||3号房工作台||3号房工作台||    ||3号房工作台
+|-
+|Room 3 Workbench Disable||3号房间停用工作台||3号房间停用工作台||    ||3号房间停用工作台
+|-
+|Room 3 Workbench Enable||3号房间启用工作台||3号房间启用工作台||    ||3号房间启用工作台
+|-
+|Room 4 Layout||4号房间布局||4号房间布局||    ||'''4号房间配置'''
+|-
+|Room 4 Workbench||4号房工作台||4号房工作台||    ||4号房工作台
+|-
+|Room 4 Workbench Disable||4号房间停用工作台||4号房间停用工作台||    ||4号房间停用工作台
+|-
+|Room 4 Workbench Enable||4号房间启用工作台||4号房间启用工作台||    ||4号房间启用工作台
+|-
+|Room 5||5号房间||5号房间||    ||5号房间
+|-
+|Room 5 Layout||5号房间布局||5号房间布局||    ||'''5号房间配置'''
+|-
+|Room 5 Workbench||5号房工作台||5号房工作台||    ||5号房工作台
+|-
+|Room 5 Workbench Disable||5号房间停用工作台||5号房间停用工作台||    ||5号房间停用工作台
+|-
+|Room 5 Workbench Enable||5号房间启用工作台||5号房间启用工作台||    ||5号房间启用工作台
+|-
+|Room 6||6号房间||6号房间||    ||6号房间
+|-
+|Room 6 Layout||6号房间布局||6号房间布局||    ||'''6号房间配置'''
+|-
+|Room 6 Workbench||6号房工作台||6号房工作台||    ||6号房工作台
+|-
+|Room 6 Workbench Disable||6号房间停用工作台||6号房间停用工作台||    ||6号房间停用工作台
+|-
+|Room 6 Workbench Enable||6号房间启用工作台||6号房间启用工作台||    ||6号房间启用工作台
+|-
+|Room 7||7号房间||7号房间||    ||7号房间
+|-
+|Room 7 Layout||7号房间布局||7号房间布局||    ||'''7号房间配置'''
+|-
+|Room 7 Workbench||7号房工作台||7号房工作台||    ||7号房工作台
+|-
+|Room 7 Workbench Disable||7号房间停用工作台||7号房间停用工作台||    ||7号房间停用工作台
+|-
+|Room 7Workbench Enable||7号房间启用工作台||7号房间启用工作台||    ||7号房间启用工作台
+|-
+|Room 8||8号房间||8号房间||    ||8号房间
+|-
+|Room 8 Layout||8号房间布局||8号房间布局||    ||'''8号房间配置'''
+|-
+|Room 8 Workbench||8号房工作台||8号房工作台||    ||8号房工作台
+|-
+|Room 8 Workbench Disable||8号房间停用工作台||8号房间停用工作台||    ||8号房间停用工作台
+|-
+|Room 8 Workbench Enable||8号房间启用工作台||8号房间启用工作台||    ||8号房间启用工作台
+|-
+|Room 9||9号房间||9号房间||    ||9号房间
+|-
+|Room 9 Layout||9号房间布局||9号房间布局||    ||'''9号房间配置'''
+|-
+|Room 9 Workbench||9号房工作台||9号房工作台||    ||9号房工作台
+|-
+|Room 9 Workbench Disable||9号房间停用工作台||9号房间停用工作台||    ||9号房间停用工作台
+|-
+|Room 9 Workbench Enable||9号房间启用工作台||9号房间启用工作台||    ||9号房间启用工作台
+|-
+|Room4||4号房间||4号房间||    ||4号房间
+|-
+|Root of Power||能力之根||能力之根||能力之根||能力之根
+|-
+|Rout||溃退术||溃退术||'''溃逃术'''||溃退术
+|-
+|Rune Hammer Spell||符文锤法术||符文锤法术||'''符文战锤法术'''||符文锤法术
+|-
+|Rune Master||符文大师||符文大师||'''法印大师'''||符文大师
+|-
+|Rune Shield Spell||符文护盾法术||符文护盾法术||'''符文盾牌法术'''||符文护盾法术
+|-
+|Sabre Cat Glow Spell||剑齿虎幽光法术||剑齿虎幽光法术||    ||剑齿虎幽光法术
+|-
+|Sailor's Repose||水手的安眠||水手的安眠||水手的安眠||水手的安眠
+|-
+|Saint Jiub's Kiss||圣鸠步之吻||圣鸠步之吻||'''圣徒杰布的吻'''||圣鸠步之吻
+|-
+|Sanguinare Vampiris||血腥吸血热||血腥吸血热||'''成瘾性吸血症'''||血腥吸血热
+|-
+|Satisfied||    ||'''满足'''||    ||'''吃饱'''
+|-
+|Savage Blows||野蛮一击||野蛮一击||野蛮一击||野蛮一击
+|-
+|Savage Feeding||残忍啃食||残忍啃食||'''野地猎食'''||'''残忍吸血'''
+|-
+|Savage Feeding||残忍啃食||残忍啃食||'''野地猎食'''||残忍啃食
+|-
+|Savage Strike||狂暴打击||狂暴打击||狂暴打击||狂暴打击
+|-
+|Scent Of Blood||血之气息||血之气息||血之气息||血之气息
+|-
+|Scholar's Insight||学者洞察力||学者洞察力||学者洞察力||学者洞察力
+|-
+|Scholastic Mastery||学富五车||学富五车||学富五车||学富五车
+|-
+|Scourge Abilities||    ||    ||    ||'''惩罚之锤能力'''
+|-
+|Scourge Cooldown||    ||    ||    ||'''惩罚之锤冷却'''
+|-
+|Scream For Mora||    ||    ||'''为莫拉尖叫'''||    
+|-
+|Scrib Poison||撕壳步毒素||撕壳步毒素||'''沙蝗毒素'''||撕壳步毒素
+|-
+|Scroll of Oblivion||    ||'''湮灭卷轴'''||    ||'''湮灭卷轴'''
+|-
+|Scrounger Ability||    ||    ||    ||'''乞讨能力'''
+|-
+|Scrounger Effect||    ||    ||    ||'''乞讨效果'''
+|-
+|Searing Embers||炽热余火||炽热余火||炽热余火||炽热余火
+|-
+|Season's Shield||    ||'''季节之盾'''||    ||'''四季之盾'''
+|-
+|Secret Servant||秘密仆役||秘密仆役||'''神秘仆役'''||秘密仆役
+|-
+|Secret of Arcana||奥术之密||奥术之密||'''术识之奥秘'''||奥术之密
+|-
+|Secret of Protection||保护之密||保护之密||'''防护之奥秘'''||保护之密
+|-
+|Secret of Strength||力量之密||力量之密||'''力量之奥秘'''||力量之密
+|-
+|Seeker Drain||追寻者的消耗||追寻者的消耗||'''识巡者吸收'''||'''追寻者耗尽'''
+|-
+|Seeker of Might||巨力追寻者||巨力追寻者||'''战技之导引'''||巨力追寻者
+|-
+|Seeker of Shadows||暗影追寻者||暗影追寻者||'''影伏之导引'''||暗影追寻者
+|-
+|Seeker of Sorcery||魔法追寻者||魔法追寻者||'''术法之导引'''||魔法追寻者
+|-
+|Self Pacify||净心||净心||净心||净心
+|-
+|Septimus Vanish||塞普汀默斯消逝||塞普汀默斯消逝||'''赛普汀默斯消逝'''||塞普汀默斯消逝
+|-
+|Serana's Soul Trap||瑟拉娜的摄魂陷阱||瑟拉娜的摄魂陷阱||'''瑟拉娜的缚魂术'''||瑟拉娜的摄魂陷阱
+|-
+|Serpent's Spit||海蛇唾液||海蛇唾液||'''巨蛇唾液'''||海蛇唾液
+|-
+|Serpent's Venom||海蛇剧毒||海蛇剧毒||'''巨蛇剧毒'''||海蛇剧毒
+|-
+|Severe Ataxia||    ||'''重度运动失调'''||    ||'''严重的运动失调症'''
+|-
+|Severe Bone Break Fever||    ||'''重度骨折发炎'''||    ||'''严重的骨痛热'''
+|-
+|Severe Brain Rot||    ||'''重度脑部腐坏'''||    ||'''严重的脑部腐坏'''
+|-
+|Severe Brown Rot||    ||'''重度尸毒病'''||    ||'''严重的褐腐病'''
+|-
+|Severe Droops||    ||'''重度委靡症'''||    ||'''严重的委靡症'''
+|-
+|Severe Greenspore||    ||'''重度绿孢症'''||    ||'''严重的绿孢病'''
+|-
+|Severe Gutworm||    ||'''重度肠胃寄生虫'''||    ||'''严重的肠虫病'''
+|-
+|Severe Rattles||    ||'''重度响尾毒'''||    ||'''严重的响尾毒'''
+|-
+|Severe Rockjoint||    ||'''重度关节石化病'''||    ||'''严重的关节石化病'''
+|-
+|Severe Witbane||    ||'''重度魔障症'''||    ||'''严重的魔障症'''
+|-
+|Shade Ability||    ||    ||    ||'''幽影能力'''
+|-
+|Shadow Warrior||暗影战士||暗影战士||暗影战士||暗影战士
+|-
+|Shadow Warrior Invisibility||暗影战士隐身术||暗影战士隐身术||'''影者武士隐身术'''||'''影者武士隐身术'''
+|-
+|Shadowcloak Invisibility||暗影斗篷隐身术||暗影斗篷隐身术||暗影斗篷隐身术||暗影斗篷隐身术
+|-
+|Shadowcloak of Nocturnal||暗影斗篷||暗影斗篷||'''娜克图诺的暗影斗篷'''||'''诺克图娜尔的暗影斗篷'''
+|-
+|Shadowmere Abilities||微影之力||微影之力||    ||微影之力
+|-
+|Shadowrend FX||    ||    ||    ||'''影裂效果'''
+|-
+|Shadowrend FX Ench||    ||    ||    ||'''影裂效果附魔'''
+|-
+|Shadowrend Ghost Visuals||    ||    ||    ||'''影裂鬼魂视界'''
+|-
+|Shadowsight||暗影视力||暗影视力||暗影视力||暗影视力
+|-
+|Shadowstrength||暗影之力||暗影之力||暗影之力||暗影之力
+|-
+|Shadowstrike||暗影一击||暗影一击||暗影一击||暗影一击
+|-
+|Shadowthrive||暗影降临||暗影降临||暗影降临||暗影降临
+|-
+|Shatter||    ||'''粉碎'''||    ||'''粉碎'''
+|-
+|Shattering Frost||    ||'''粉碎寒霜'''||    ||'''粉碎寒霜'''
+|-
+|Shield - Lesser||次级护盾||次级护盾||次级护盾||次级护盾
+|-
+|Shield Charge||冲刺盾击||冲刺盾击||冲刺盾击||冲刺盾击
+|-
+|Shield Charge Cloak Effect||盾击效果||盾击效果||    ||盾击效果
+|-
+|Shield Charge Knockback||盾档击退||盾档击退||    ||盾档击退
+|-
+|Shield Wall||盾墙||盾墙||'''坚壁防御'''||盾墙
+|-
+|Shock||闪电||闪电||闪电||'''电击'''
+|-
+|Shock Barrier||闪电屏障||闪电屏障||闪电屏障||'''电击屏障'''
+|-
+|Shock Bolt Storm||    ||'''闪电箭风暴'''||    ||'''闪电风暴'''
+|-
+|Shock Cloak||闪电斗篷||闪电斗篷||'''闪电斗篷术'''||闪电斗篷
+|-
+|Shock Damage||闪电伤害||闪电伤害||闪电伤害||'''电击伤害'''
+|-
+|Shock Hazard||闪电损伤||闪电损伤||'''闪电灾害'''||'''闪电灾害'''
+|-
+|Shock Rune||闪电符文||闪电符文||'''暴电法印'''||'''电击符文'''
+|-
+|Shock Spider Resist||闪电蜘蛛抗性||闪电蜘蛛抗性||闪电蜘蛛抗性||闪电蜘蛛抗性
+|-
+|Shock Spit||闪电吐息||闪电吐息||闪电吐息||闪电吐息
+|-
+|Shock Touch||雷电触及||雷电触及||'''雷电之触'''||雷电触及
+|-
+|Shockwave||冲击波||冲击波||冲击波||冲击波
+|-
+|Shout Timer||龙吼计时||龙吼计时||龙吼计时||龙吼计时
+|-
+|Shrine Base||祭坛底座||祭坛底座||    ||祭坛底座
+|-
+|Shrine Pray Reset Effect||    ||    ||    ||'''祭坛祷告重设效果'''
+|-
+|Shrouded Armor Full Set||隐秘护甲全套||隐秘护甲全套||'''全套影蔽护甲'''||'''紧身护甲全套'''
+|-
+|Silence||沉默||沉默||'''寂静无声'''||沉默
+|-
+|Silent Moons Enchant||静月附魔||静月附魔||静月附魔||'''静月施法'''
+|-
+|Silent Roll||悄声翻滚||悄声翻滚||'''静声翻滚'''||悄声翻滚
+|-
+|Silver Tongue||巧舌如簧||巧舌如簧||巧舌如簧||巧舌如簧
+|-
+|Silverbolt Perk||    ||'''银制弩矢技能'''||'''银矢特技'''||'''银制弩箭额外能力'''
+|-
+|Silvered||镀银||镀银||镀银||镀银
+|-
+|Sinderion's Serendipity||辛德莱昂的巧技||辛德莱昂的巧技||'''辛德莱昂的意外收获'''||辛德莱昂的巧技
+|-
+|Skeever Polymorph||恶鼠变形术||恶鼠变形术||恶鼠变形术||恶鼠变形术
+|-
+|Skein of Magnus||玛格努斯的庇护||玛格努斯的庇护||玛格努斯的庇护||玛格努斯的庇护
+|-
+|Skele Ability||    ||'''骷髅能力'''||    ||'''骷髅能力'''
+|-
+|Skeleton Abilities||骷髅能力||骷髅能力||    ||'''骷髅特殊能力'''
+|-
+|Skeleton Key Perk||骷髅钥匙额外能力||骷髅钥匙额外能力||'''骷髅钥匙能力'''||骷髅钥匙额外能力
+|-
+|Skill Boosts||技能增强||技能增强||技能增强||技能增强
+|-
+|Skill book points||技能书点数||技能书点数||技能书点数||技能书点数
+|-
+|Skullcrusher||碎颅者||碎颅者||'''粉碎头颅'''||碎颅者
+|-
+|Slime||黏液||黏液||黏液||黏液
+|-
+|Slow||降低速度||降低速度||'''减慢速度'''||'''减速'''
+|-
+|Slow - not dragons||减速 - 非龙||减速 - 非龙||    ||减速 - 非龙
+|-
+|Slow Cloak||减速披风||减速披风||'''缓慢斗篷'''||减速披风
+|-
+|Slow Cloak Effect||减速披风效应||减速披风效应||    ||'''减速披风的效用'''
+|-
+|Slow Effect||减缓效果||减缓效果||    ||减缓效果
+|-
+|Slow Time||延缓时间||延缓时间||延缓时间||延缓时间
+|-
+|Slow Time Effect||减缓时间效果||减缓时间效果||    ||'''超自然反应'''
+|-
+|Slow Weapon||    ||    ||    ||'''慢速武器'''
+|-
+|SlowTime||低速时间||低速时间||'''延缓时间'''||低速时间
+|-
+|Sly of Hand||妙手空空||妙手空空||妙手空空||妙手空空
+|-
+|Small House Layout||小型房屋布局||小型房屋布局||    ||'''小型房屋配置'''
+|-
+|Smite||    ||'''吸取体力'''||    ||'''降低精力'''
+|-
+|Smite Damage||    ||'''重击伤害'''||    ||'''重击伤害'''
+|-
+|Smithing||铁匠||铁匠||'''锻造'''||铁匠
+|-
+|Smithing Expertise||锻造专家||锻造专家||'''锻造职能'''||'''锻造中级'''
+|-
+|Smithing Expertise||锻造专家||锻造专家||'''锻造职能'''||'''锻造专精'''
+|-
+|Snakeblood||抗毒体质||抗毒体质||抗毒体质||抗毒体质
+|-
+|Sneak Pet||潜行宠物||    ||    ||'''偷带宠物'''
+|-
+|Snow Bear abilities||雪熊能力||雪熊能力||    ||雪熊能力
+|-
+|Soul Ability||灵魂能力||灵魂能力||    ||灵魂能力
+|-
+|Soul Atronach abilities||魂之精灵的能力||魂之精灵的能力||    ||魂之精灵的能力
+|-
+|Soul Cairn Crystal Drain||灵魂石冢水晶泄能||灵魂石冢水晶泄能||'''石冢魂圈水晶的吸收'''||灵魂石冢水晶泄能
+|-
+|Soul Cairn Summon||灵魂石冢召唤||灵魂石冢召唤||'''魂圈召唤'''||灵魂石冢召唤
+|-
+|Soul Cloak||魂之披风||魂之披风||'''灵魂斗篷'''||魂之披风
+|-
+|Soul Curse||    ||'''灵魂诅咒'''||    ||'''灵魂诅咒'''
+|-
+|Soul Curse - Damage||    ||'''灵魂诅咒 - 伤害'''||    ||'''灵魂诅咒 - 伤害'''
+|-
+|Soul Rend Damage||灵魂撕裂伤害||灵魂撕裂伤害||灵魂撕裂伤害||灵魂撕裂伤害
+|-
+|Soul Sacrifice||    ||'''灵魂献祭'''||    ||'''灵魂献祭'''
+|-
+|Soul Siphon||灵魂虹吸||灵魂虹吸||灵魂虹吸||灵魂虹吸
+|-
+|Soul Split||    ||'''灵魂分裂'''||    ||'''灵魂分裂'''
+|-
+|Soul Squeezer||灵魂榨取||灵魂榨取||灵魂榨取||灵魂榨取
+|-
+|Soul Stealer||灵魂窃取||灵魂窃取||'''灵魂摄取'''||灵魂窃取
+|-
+|Soul Tear||灵魂撕裂||灵魂撕裂||'''魂体剖断'''||灵魂撕裂
+|-
+|Soul Tear Damage||灵魂撕裂伤害||灵魂撕裂伤害||'''魂体剖断伤害'''||灵魂撕裂伤害
+|-
+|Soul Tear Reanimate||灵魂撕裂复活术||灵魂撕裂复活术||'''魂体剖断之复活'''||灵魂撕裂复活术
+|-
+|Soul Tear Trap||灵魂撕裂陷阱||灵魂撕裂陷阱||'''魂体剖断陷阱'''||灵魂撕裂陷阱
+|-
+|Soul Trap||摄魂陷阱||摄魂陷阱||'''灵魂困限'''||摄魂陷阱
+|-
+|Soul Visuals||    ||    ||'''灵魂视界'''||    
+|-
+|Soulrender||破魂者||破魂者||破魂者||破魂者
+|-
+|Soulrender Dispel||驱除破魂者||驱除破魂者||驱除破魂者||驱除破魂者
+|-
+|Soulsteal||    ||'''灵魂窃取'''||    ||'''窃魂'''
+|-
+|Soup Check||    ||    ||    ||'''热汤检查'''
+|-
+|Soup Perk||    ||    ||    ||'''热汤额外能力'''
+|-
+|Sovereign Band||    ||'''权势之戒'''||    ||'''王者指环'''
+|-
+|Sparks||电火花||电火花||'''电击术'''||'''电击术'''
+|-
+|Spear Summon||    ||    ||    ||'''长矛召唤'''
+|-
+|Special Paralysis Ability||特殊麻痹技能||特殊麻痹技能||'''特殊麻痹能力'''||特殊麻痹技能
+|-
+|Special Paralyze||特殊麻痹术||特殊麻痹术||'''特殊麻痹'''||特殊麻痹术
+|-
+|Spectral Arrow||幽灵箭||幽灵箭||'''幽冥箭矢术'''||幽灵箭
+|-
+|Spectral Assassin||幽灵刺客||幽灵刺客||幽灵刺客||幽灵刺客
+|-
+|Speed Burst||风驰电掣||风驰电掣||风驰电掣||风驰电掣
+|-
+|Spell Absorption||法术吸收||法术吸收||法术吸收||法术吸收
+|-
+|Spellbreaker||破法者||破法者||破法者||破法者
+|-
+|Spells, no magicka||法术，没有法力||法术，没有法力||法术，没有法力||法术，没有法力
+|-
+|Spider Bite||蜘蛛之咬||蜘蛛之咬||'''蜘蛛啃咬'''||蜘蛛之咬
+|-
+|Spider Control||    ||'''控制蜘蛛'''||    ||'''控制蜘蛛'''
+|-
+|Spider Control||控制蜘蛛||控制蜘蛛||控制蜘蛛||控制蜘蛛
+|-
+|Spider Fire||蜘蛛之火||蜘蛛之火||蜘蛛之火||蜘蛛之火
+|-
+|Spider Poison||蜘蛛毒液||蜘蛛毒液||蜘蛛毒液||'''蜘蛛之毒'''
+|-
+|Spider Spit||蜘蛛毒液||蜘蛛毒液||    ||蜘蛛毒液
+|-
+|Spider Visuals Fire||蜘蛛视界火焰||蜘蛛视界火焰||蜘蛛视界火焰||蜘蛛视界火焰
+|-
+|Spider Visuals Frost||蜘蛛视界寒霜||蜘蛛视界寒霜||蜘蛛视界寒霜||蜘蛛视界寒霜
+|-
+|Spider Visuals Glowing||蜘蛛视界发光||蜘蛛视界发光||蜘蛛视界发光||蜘蛛视界发光
+|-
+|Spider Visuals Poison||蜘蛛视界毒药||蜘蛛视界毒药||'''蜘蛛视界毒素'''||蜘蛛视界毒药
+|-
+|Spider Visuals Shock||蜘蛛视界闪电||蜘蛛视界闪电||蜘蛛视界闪电||'''蜘蛛视界电击'''
+|-
+|Spriggan Claw||树精之爪||树精之爪||'''树精利爪'''||树精之爪
+|-
+|Spriggan Earth Mother abilities||树精大地之母特殊能力||树精大地之母特殊能力||    ||树精大地之母特殊能力
+|-
+|Spriggan Heal||树精治愈术||树精治愈术||'''树精治疗术'''||'''树精治愈之术'''
+|-
+|Spriggan Matron Swarm Spray||树精虫群喷射||树精虫群喷射||    ||树精虫群喷射
+|-
+|Spriggan Poison||树精之毒||树精之毒||'''树精毒汁'''||树精之毒
+|-
+|Spriggan Spray||    ||    ||    ||'''树精喷射'''
+|-
+|Spriggan Swarm||树精群||树精群||树精群||树精群
+|-
+|Spriggan Swarm Spray||树精群体喷射||树精群体喷射||树精群体喷射||树精群体喷射
+|-
+|Spriggan Variant Swarm Spray||树精虫群喷射||树精虫群喷射||    ||树精虫群喷射
+|-
+|Spriggan abilities||树精能力||树精能力||    ||树精能力
+|-
+|Spriggan's Resilience||树精的适应力||树精的适应力||树精的适应力||树精的适应力
+|-
+|Spring Spell||    ||    ||    ||'''春之法术'''
+|-
+|Spring Staff||    ||    ||    ||'''春之杖'''
+|-
+|Spring's Blessing||    ||'''春季的赐福'''||    ||'''春之赐福'''
+|-
+|Spring's Grace||    ||'''春之恩惠'''||    ||'''春之恩惠'''
+|-
+|Spring's Step||    ||'''春之脚步'''||    ||'''春日脚步'''
+|-
+|Sprint Hammer||体力战锤||体力战锤||'''精力战锤'''||'''精力战锤'''
+|-
+|Stability||稳定变换||稳定变换||'''恒定之心'''||稳定变换
+|-
+|Staff Enchanting Mult||    ||    ||'''法杖附魔设备'''||    
+|-
+|Staff of Chastening||    ||'''管束法杖'''||    ||'''惩戒法杖'''
+|-
+|Staff of Ehlno Ede||    ||'''凡人终结之杖'''||    ||'''艾诺艾德之杖'''
+|-
+|Staff of Judgement||    ||'''裁决法杖'''||    ||'''审判法杖'''
+|-
+|Staff of Magnus Effect||玛格努斯之杖效果||玛格努斯之杖效果||    ||玛格努斯之杖效果
+|-
+|Staff of Peace||    ||'''和平法杖'''||    ||'''和平法杖'''
+|-
+|Staff of Shaming||    ||'''羞辱法杖'''||    ||'''羞辱法杖'''
+|-
+|Staff of Sheogorath Paralysis||    ||'''谢尔格拉之杖麻痹'''||    ||'''谢尔格拉麻痹之杖''' 
+|-
+|Staff of War||    ||'''战争法杖'''||    ||'''战争法杖'''
+|-
+|Stag Prince Increment Effect||雄鹿王子增益效果||雄鹿王子增益效果||'''雄鹿王子加乘效果'''||'''雄鹿王子加乘效果'''
+|-
+|Stagger||失衡||失衡||'''失去平衡'''||失衡
+|-
+|Stagger Attack||失衡攻击||失衡攻击||    ||失衡攻击
+|-
+|Stagger Push||失衡推击||失衡推击||    ||失衡推击  
+|-
+|Stalhrim Enchanting||魔冰附魔||'''钢冰附魔'''||'''刚冰石附魔'''||'''魔冰岩附魔'''
+|-
+|Stalwart||    ||'''强壮有力'''||    ||'''坚定之士'''
+|-
+|Stamina Damage||体力减损||体力减损||'''耐力伤害'''||'''精力减损'''
+|-
+|Stamina reduction||体力减少||体力减少||'''耐力减少'''||'''精力减少'''
+|-
+|Standing Moving Detector Effect||    ||    ||    ||'''站立移动探测器效果'''
+|-
+|Standing Stone - Earth||立石——土||立石——土||'''立石－土'''||立石——土
+|-
+|Standing Stone - Tree||立石——树||立石——树||'''立石－树'''||立石——树
+|-
+|Standing Stones - Tree||立石——树||立石——树||'''立石－树'''||立石——树
+|-
+|Starving||    ||'''饿殍'''||    ||'''饥肠辘辘'''
+|-
+|Steadfast Ward||坚固结界术||坚固结界术||'''进阶结界术'''||坚固结界术
+|-
+|Steady Hand||稳定之手||稳定之手||稳定之手||稳定之手
+|-
+|Steady Hand (1)||稳定之手（1）||稳定之手（1）||稳定之手（1）||稳定之手（1）
+|-
+|Steady Hand (2)||稳定之手（2）||稳定之手（2）||稳定之手（2）||稳定之手（2）
+|-
+|Steal Skills||    ||    ||    ||'''偷窃技能'''
+|-
+|Stealth||隐匿身形||隐匿身形||隐匿身形||隐匿身形
+|-
+|Steam Breath||蒸汽之息||蒸汽之息||'''蒸汽喷射'''||蒸汽之息
+|-
+|Steam Construct Healing||蒸汽装置治疗中||蒸汽装置治疗中||    ||蒸汽装置治疗中
+|-
+|Steam Damage||蒸汽伤害||蒸汽伤害||'''蒸气伤害'''||蒸汽伤害
+|-
+|Steam Damage / Restoration||蒸汽伤害/恢复||蒸汽伤害/恢复||'''蒸气伤害 / 恢复系魔法'''||蒸汽伤害/恢复
+|-
+|Steam Hazard||蒸汽灾害||蒸汽灾害||蒸汽灾害||蒸汽灾害
+|-
+|Steam breath||蒸汽之息||蒸汽之息||'''蒸汽喷射'''||蒸汽之息
+|-
+|Steamed||蒸发||蒸发||蒸发||蒸发
+|-
+|Steel Smithing||钢制锻造||钢制锻造||'''钢铁制品锻造'''||'''钢铁材质锻造'''
+|-
+|Stendarr's Aura||斯坦德尔的光环||'''斯丹达尔的光环'''||'''斯丹达尔圣域术'''||斯坦德尔的光环
+|-
+|Stendarr's Aura - Isran||斯坦德尔的光环 - 伊士冉||'''斯丹达尔的光环 - 伊士冉'''||'''斯丹达尔圣域术－伊瑟伦'''||斯坦德尔的光环 - 伊士冉
+|-
+|Stendarr's Aura Light||斯坦德尔的明亮光环||'''斯丹达尔的明亮光环'''||'''斯丹达尔圣域术之光'''||斯坦德尔的明亮光环
+|-
+|Stomp||践踏||践踏||践踏||践踏
+|-
+|Stoneflesh||石甲术||石甲术||'''石身术'''||石甲术
+|-
+|Stop Rune||阻挡符文||阻挡符文||'''阻挡法印'''||阻挡符文
+|-
+|Stop Time||    ||'''时间停止'''||    ||'''时间停止'''
+|-
+|Storm Atronach Attack||风暴元素攻击||风暴元素攻击||    ||    
+|-
+|Storm Atronach abilities||风暴元素能力||风暴元素能力||    ||    
+|-
+|Storm Bash||    ||'''风暴盾击'''||    ||'''风暴猛击'''
+|-
+|Storm Call||风暴召唤||风暴召唤||风暴召唤||风暴召唤
+|-
+|Storm Call - Bah||召唤风暴 - Bah||召唤风暴 - Bah||'''风暴召唤 - Bah'''||召唤风暴 - Bah
+|-
+|Storm Call - Qo||    ||    ||'''风暴召唤 - Qo'''||'''召唤风暴 - 闪电'''
+|-
+|Storm Call - Strun||召唤风暴 - 风暴||召唤风暴 - 风暴||'''风暴召唤 - Strun'''||召唤风暴 - 风暴
+|-
+|Storm Call Lightning Bolt||闪电风暴||闪电风暴||'''暴风雨闪电'''||闪电风暴
+|-
+|Storm Enchanter||闪电附魔||闪电附魔||闪电附魔||'''电击附魔'''
+|-
+|Storm Flow||风暴潮||风暴潮||风暴潮||风暴潮
+|-
+|Storm Lightning||    ||'''风暴闪电'''||    ||'''风暴闪电'''
+|-
+|Storm Mastery||风暴掌握||风暴掌握||风暴掌握||风暴掌握
+|-
+|Storm Thrall||风暴奴仆||风暴奴仆||'''风暴侍灵召唤术'''||风暴奴仆
+|-
+|Storm-Bear Boots||    ||'''风暴熊罴战靴'''||    ||'''风暴熊靴'''
+|-
+|Storm-Bear Cuirass||    ||'''风暴熊罴护甲'''||    ||'''风暴熊胸甲'''
+|-
+|Storm-Bear Gauntlets||    ||'''风暴熊罴腕甲'''||    ||'''风暴熊腕甲'''
+|-
+|Storm-Bear Helmet||    ||'''风暴熊罴头盔'''||    ||'''风暴熊头盔'''
+|-
+|Storm-Bear Shield||    ||'''风暴熊罴之盾'''||    ||'''风暴熊盾牌'''
+|-
+|Stormbear Helmet Perk||    ||    ||    ||'''风暴熊头盔额外能力'''
+|-
+|Storyteller's Touch||诗人之赐||诗人之赐||诗人之赐||诗人之赐
+|-
+|Strangulation||    ||'''绞杀术'''||    ||'''勒毙'''
+|-
+|Subterfuge||诡计术||诡计术||诡计术||诡计术
+|-
+|Summer Spell||    ||    ||    ||'''夏之法术'''
+|-
+|Summer Staff||    ||    ||    ||'''夏之杖'''
+|-
+|Summer's Embrace||    ||'''夏之拥抱'''||    ||'''夏日怀抱'''
+|-
+|Summon Ancestor Ghost||    ||'''召唤先祖鬼魂'''||    ||'''召唤先祖鬼魂'''
+|-
+|Summon Ancients||召唤先人||召唤先人||召唤先人||召唤先人
+|-
+|Summon Arniel's Shade||召唤阿内尔之影||召唤阿内尔之影||'''阿内尔之影召唤术'''||召唤阿内尔之影
+|-
+|Summon Arvak||召唤阿尔瓦克||召唤阿尔瓦克||'''阿尔瓦克召灵术'''||'''召唤阿瓦克'''
+|-
+|Summon Autumn||    ||'''召唤秋季'''||    ||'''召唤秋天'''
+|-
+|Summon Bear Spirit||    ||'''召唤熊魂'''||    ||'''召唤熊魂'''
+|-
+|Summon Bone Wolf||    ||'''召唤骨狼'''||    ||'''召唤骨狼'''
+|-
+|Summon Count Perk||    ||    ||    ||'''召唤计数额外能力'''
+|-
+|Summon Daedric Horse||    ||'''召唤魔族战马'''||    ||'''召唤魔族马'''
+|-
+|Summon Dremora||召唤魔人||召唤魔人||召唤魔人||召唤魔人
+|-
+|Summon Dremora||    ||'''召唤魔人'''||    ||'''召唤魔人'''
+|-
+|Summon Dremora Butler||召唤魔人管家||召唤魔人管家||'''召唤魔人仆役'''||召唤魔人管家
+|-
+|Summon Dremora Merchant||召唤魔人商人||召唤魔人商人||召唤魔人商人||召唤魔人商人
+|-
+|Summon Durnehviir||召唤度尼维尔||召唤度尼维尔||'''召唤杜奈法'''||召唤度尼维尔
+|-
+|Summon Foul Zombie||    ||'''召唤邪恶僵尸'''||    ||'''召唤恶臭僵尸'''
+|-
+|Summon Gargoyle||召唤石像鬼||召唤石像鬼||召唤石像鬼||召唤石像鬼
+|-
+|Summon Ghost||召唤鬼魂||召唤鬼魂||召唤鬼魂||召唤鬼魂
+|-
+|Summon Hero from Sovngarde||召唤松加德的英雄||'''召唤安息圣域的英雄'''||'''召唤沉睡净土的英雄'''||'''召唤英灵殿的英雄'''
+|-
+|Summon Ice Wolves||召唤冰狼||召唤冰狼||    ||召唤冰狼
+|-
+|Summon Images||    ||'''召唤暗影'''||    ||'''召唤影像'''
+|-
+|Summon Karstaag||召唤卡斯塔||召唤卡斯塔||召唤卡斯塔||召唤卡斯塔
+|-
+|Summon Malignant Zombie||    ||'''召唤恶性僵尸'''||    ||'''召唤邪恶僵尸'''
+|-
+|Summon Portal||召唤传送门||召唤传送门||    ||召唤传送门
+|-
+|Summon Putrid Zombie||    ||'''召唤腐坏僵尸'''||    ||'''召唤腐败僵尸'''
+|-
+|Summon Rain Description||    ||    ||    ||'''召唤下雨说明'''
+|-
+|Summon Rain Enchantment||    ||    ||    ||'''召唤下雨附魔'''
+|-
+|Summon Shade||    ||'''召唤幽影'''||    ||'''召唤幽影'''
+|-
+|Summon Spectral Assassin||召唤幽灵刺客||召唤幽灵刺客||召唤幽灵刺客||召唤幽灵刺客
+|-
+|Summon Spectral Dragon||召唤幽灵龙||召唤幽灵龙||召唤幽灵龙||召唤幽灵龙
+|-
+|Summon Spring||    ||'''召唤春季'''||    ||'''召唤春天'''
+|-
+|Summon Summer||    ||'''召唤夏季'''||    ||'''召唤夏天'''
+|-
+|Summon Tower Ghost||    ||'''召唤塔楼鬼魂'''||    ||'''召唤高塔鬼魂'''
+|-
+|Summon Unbound Dremora||召唤不受束缚的魔人||召唤不受束缚的魔人||'''不羁魔人召唤术'''||召唤不受束缚的魔人
+|-
+|Summon Unbound Dremora||    ||'''召唤不受束缚的魔人'''||    ||'''召唤不受束缚的魔人'''
+|-
+|Summon Undead From Soul Cairn||从灵魂石冢召唤亡灵||从灵魂石冢召唤亡灵||'''从石冢魂圈召唤不死者'''||'''从灵魂石冢召唤不死生物'''
+|-
+|Summon Werewolves||召唤狼人||召唤狼人||    ||召唤狼人
+|-
+|Summon Winter||    ||'''召唤冬季'''||    ||'''召唤冬天'''
+|-
+|Summon Wolf Spirit||    ||'''召唤狼魂'''||    ||'''召唤狼魂'''
+|-
+|Summon Zombie||    ||'''召唤僵尸'''||    ||'''召唤僵尸'''
+|-
+|Summoner||召唤师||召唤师||召唤师||召唤师
+|-
+|Sun Bane||日光灭绝||日光灭绝||'''暗灭日临'''||日光灭绝
+|-
+|Sun Blast||太阳爆裂||太阳爆裂||'''阳焱爆击'''||太阳爆裂
+|-
+|Sun Damage||太阳伤害||太阳伤害||'''日光伤害'''||太阳伤害
+|-
+|Sun Damage||    ||'''太阳伤害'''||    ||'''太阳伤害'''
+|-
+|Sun Damage - Blessed||太阳伤害 - 庇佑||太阳伤害 - 庇佑||'''日光伤害－神圣的'''||'''太阳伤害–庇佑'''
+|-
+|Sun Fire||艳阳之火||艳阳之火||'''阳焱术'''||艳阳之火
+|-
+|Sun Flare||艳阳燃烧||艳阳燃烧||艳阳燃烧||艳阳燃烧
+|-
+|Sunder's Fury||    ||'''离散之怒'''||    ||'''萨恩德之怒'''
+|-
+|Super Magelight||超强魔光术||超强魔光术||超强魔光术||超强魔光术
+|-
+|Supernatural Reflexes||超常反应||超常反应||'''诡奇反馈'''||'''超自然反应'''
+|-
+|Surefoot||脚踏实地||脚踏实地||脚踏实地||脚踏实地
+|-
+|Sweep||横扫千军||横扫千军||横扫千军||横扫千军
+|-
+|Swim Check Spell||    ||    ||    ||'''游泳检查法术'''
+|-
+|Swimming Check||    ||    ||    ||'''游泳检查'''
+|-
+|Swindler's Voice||巧舌如簧||巧舌如簧||巧舌如簧||巧舌如簧
+|-
+|Tainted Blood Withdrawals||饮用被亵渎的血||饮用被亵渎的血||'''停止吸收腐败之血'''||饮用被亵渎的血
+|-
+|Tainted Blood of the Ancients||上古污血||上古污血||'''远古腐血'''||'''先古污血'''
+|-
+|Tame Dragon||驯服龙||驯服龙||驯服龙||驯服龙
+|-
+|Targe Bashing Bleeding||盾击出血||盾击出血||'''盾刺出血'''||盾击出血
+|-
+|Targe bleeding||盾击流血||盾击流血||'''盾刺出血'''||盾击流血
+|-
+|Telekinesis||念动术||念动术||念动术||念动术
+|-
+|Telekinesis Aggro||    ||'''念动'''||    ||'''念动箭攻击'''
+|-
+|Telekinesis Arrows||    ||'''念动箭'''||    ||'''念动箭'''
+|-
+|Telekinesis Effect||念动效果||念动效果||    ||念动效果
+|-
+|Teleport Arachnia||    ||'''传送阿蛛'''||    ||'''传送阿拉克尼亚'''
+|-
+|Teleport Dwarven Mudcrab||    ||'''矮人泥沼蟹传送术'''||    ||'''传送矮人泥沼蟹'''
+|-
+|Teleport Hilda||    ||'''传送希尔达'''||    ||'''传送希尔达'''
+|-
+|Teleport Nix-Hound||    ||'''传送虚无猎犬'''||    ||'''传送尼克斯猎犬'''
+|-
+|Teleport Pet: Arachnia||    ||'''传送宠物：阿蛛'''||    ||'''传送宠物：阿拉克尼亚'''
+|-
+|Teleport Pet: Bone Wolf||    ||'''传送宠物：骨狼'''||    ||'''传送宠物：骨狼'''
+|-
+|Teleport Pet: Demented Elytra Nymph||    ||'''召唤宠物：痴癫翅鞘虫若虫'''||    ||'''传送宠物：疯癫鞘翅幼虫'''
+|-
+|Teleport Pet: Dwarven Mudcrab||    ||'''传送宠物：矮人泥沼蟹'''||    ||'''传送宠物：矮人泥沼蟹'''
+|-
+|Teleport Pet: Hilda||    ||'''传送宠物：希尔达'''||    ||'''传送宠物：希尔达'''
+|-
+|Teleport Pet: Manic Elytra Nymph||    ||'''召唤宠物：狂躁翅鞘虫若虫'''||    ||'''传送宠物：狂躁鞘翅幼虫'''
+|-
+|Teleport Pet: Nix-Hound||    ||'''传送宠物：虚无猎犬'''||    ||'''传送宠物：尼克斯猎犬'''
+|-
+|Teleport Pet: Skritch||    ||'''传送宠物：吱吱'''||    ||'''传送宠物：斯克里奇'''
+|-
+|Teleport Pet: Sweet Roll||    ||'''传送宠物：甜卷'''||    ||'''传送宠物：小甜卷'''
+|-
+|Teleport Pet: Thistle||    ||'''传送宠物：蓟花'''||    ||'''传送宠物：小蓟'''
+|-
+|Teleport Skritch||    ||'''传送吱吱'''||    ||'''传送斯克里奇'''
+|-
+|Teleport Sweet Roll||    ||'''传送甜卷'''||    ||'''传送小甜卷'''
+|-
+|Teleport Thistle||    ||'''传送蓟花'''||    ||'''传送小蓟'''
+|-
+|Teleportation||传送||传送||传送||传送
+|-
+|Telmithryn Teleport||    ||    ||'''塔利马斯里传送'''||    
+|-
+|Temple Blessing Cost Perk||    ||    ||    ||'''神殿祝福消耗额外能力'''
+|-
+|Tentacle Damage||触手伤害||触手伤害||触手伤害||触手伤害
+|-
+|Tentacle Explosion||触手爆裂||触手爆裂||触手爆裂||触手爆裂
+|-
+|Terror||恐惧||恐惧||恐惧||恐惧
+|-
+|The Apprentice Stone||学徒之石||学徒之石||学徒之石||学徒之石
+|-
+|The Atronach Stone||元素之石||元素之石||'''属灵之石'''||元素之石
+|-
+|The Blade||    ||    ||    ||'''剑'''
+|-
+|The Fire Within||龙火气息||龙火气息||龙火气息||龙火气息
+|-
+|The Gift of Charity||慈悲的回报||慈悲的回报||'''慈善的祝福'''||慈悲的回报
+|-
+|The Lady Stone||女士之石||女士之石||女士之石||女士之石
+|-
+|The Lady: Recover Health||女士：生命恢复||女士：生命恢复||'''女士：复原生命'''||'''女士：恢复生命力'''
+|-
+|The Lady: Recover Stamina||女士：体力恢复||女士：体力恢复||'''女士：复原耐力'''||'''女士：恢复精力'''
+|-
+|The Lord Stone||君王之石||君王之石||'''主君之石'''||君王之石
+|-
+|The Lord: Damage Resist||君王：伤害抗性||君王：伤害抗性||'''主君：伤害抵抗'''||君王：伤害抗性
+|-
+|The Lord: Magic Resist||君王：魔法抗性||君王：魔法抗性||'''主君：魔法抵抗'''||君王：魔法抗性
+|-
+|The Lover Stone||恋人之石||恋人之石||恋人之石||恋人之石
+|-
+|The Mage Stone||法师之石||法师之石||法师之石||法师之石
+|-
+|The Ritual Stone||仪式之石||仪式之石||仪式之石||仪式之石
+|-
+|The Serpent Stone||海蛇之石||海蛇之石||'''巨蛇之石'''||海蛇之石
+|-
+|The Shadow Stone||暗影之石||暗影之石||暗影之石||暗影之石
+|-
+|The Shield||    ||    ||    ||'''盾牌'''
+|-
+|The Staff||    ||    ||    ||'''法丈'''
+|-
+|The Steed||骏马||骏马||'''战马'''||骏马
+|-
+|The Steed Stone||骏马之石||骏马之石||'''战马之石'''||骏马之石
+|-
+|The Thief Stone||盗贼之石||盗贼之石||盗贼之石||盗贼之石
+|-
+|The Tower Stone||高塔之石||高塔之石||高塔之石||高塔之石
+|-
+|The Warrior Stone||战士之石||战士之石||战士之石||'''勇士之石'''
+|-
+|Thief||盗贼||盗贼||盗贼||盗贼
+|-
+|Thief Backpack||    ||'''盗贼背包'''||    ||'''盗贼背包'''
+|-
+|Thirst for Blood||嗜血||嗜血||'''吸血'''||嗜血
+|-
+|Throw Voice||辗转之声||辗转之声||辗转之声||辗转之声
+|-
+|Throw Voice Effect||    ||    ||    ||'''辗转之声效果'''
+|-
+|Thunderbolt||雷暴术||雷暴术||'''雷电术'''||雷暴术
+|-
+|Time Slowdown||时间减慢||时间减慢||'''体感时间减慢'''||时间减慢
+|-
+|Tired||    ||'''疲劳'''||    ||'''脱力'''
+|-
+|Torch||    ||'''火把'''||    ||'''火把'''
+|-
+|Torch Fire||火把的火光||火把的火光||'''火炬光'''||火把的火光
+|-
+|Totem of Ice Brothers||寒冰血亲图腾||寒冰血亲图腾||'''冰狼象征'''||寒冰血亲图腾
+|-
+|Totem of Terror||恐惧图腾||恐惧图腾||'''畏惧象征'''||恐惧图腾
+|-
+|Totem of the Moon||月亮图腾||月亮图腾||'''满月象征'''||月亮图腾
+|-
+|Totem of the Predator||猎食者图腾||猎食者图腾||'''掠食象征'''||猎食者图腾
+|-
+|Touch of Death||    ||'''死亡之触'''||    ||'''死亡之触'''
+|-
+|Tower||高塔之石||高塔之石||'''高塔'''||'''塔楼'''
+|-
+|Tower Ghost||    ||'''塔楼鬼魂'''||    ||'''高塔鬼魂'''
+|-
+|Tower of Strength||稳固||稳固||'''稳若巨塔'''||稳固
+|-
+|Toxic Pollen Damage||    ||    ||    ||'''毒素花粉伤害'''
+|-
+|Toxic Runoff||    ||    ||    ||'''毒素径流'''
+|-
+|Toxic Runoff Damage||    ||    ||    ||'''毒素径流伤害'''
+|-
+|Transmogrify||变换系||变换系||'''变形术'''||'''变形术'''
+|-
+|Transmundane||    ||'''超凡'''||    ||'''超凡'''
+|-
+|Transmute||变换矿石||变换矿石||'''矿质变换术'''||变换矿石
+|-
+|Transmute Mineral Ore||点石为金||点石为金||'''变换矿石'''||'''变换矿石'''
+|-
+|Trap Sunlight||阳光||阳光||'''阻止阳光'''||阳光
+|-
+|Treasure Hunter||宝物猎人||宝物猎人||宝物猎人||宝物猎人
+|-
+|Trick Shot Disarm||巧射缴械武器||巧射缴械武器||'''巧射卸载武器'''||巧射缴械武器
+|-
+|TrickShot||巧射||巧射||巧射||巧射
+|-
+|Troll Armor||巨魔护甲||巨魔护甲||'''三眼巨猿护甲'''||巨魔护甲
+|-
+|Trueflame Ability||    ||    ||    ||'''真焰能力'''
+|-
+|Turn||转动||转动||'''转变'''||'''转化'''
+|-
+|Turn||    ||'''转动'''||    ||'''转动'''
+|-
+|Turn Greater Undead||驱赶强力亡灵||驱赶强力亡灵||'''高阶驱邪术'''||'''驱赶强力不死生物'''
+|-
+|Turn Lesser Undead||驱赶低等亡灵||驱赶低等亡灵||'''初阶驱邪术'''||'''驱赶次级不死生物'''
+|-
+|Turn Raised Undead||驱散活尸||驱散活尸||'''进阶驱邪术'''||驱散活尸
+|-
+|Turn Undead||驱赶亡灵||驱赶亡灵||'''驱离不死者'''||'''驱赶不死生物'''
+|-
+|Turn Undead||驱赶亡灵||驱赶亡灵||'''进阶驱邪术'''||'''驱赶不死生物'''
+|-
+|Turn Undead Fear||    ||'''驱散恐惧亡灵'''||    ||'''吓退不死生物'''
+|-
+|Turn Undead Push||驱离亡灵原力||驱离亡灵原力||    ||'''驱离不死生物原力'''
+|-
+|Turn of the Seasons||    ||'''寒来暑往'''||    ||'''四季更迭'''
+|-
+|Twin Souls||双生灵魂||双生灵魂||'''灵魂双生'''||双生灵魂
+|-
+|Umbra Enchantment||    ||    ||    ||'''暗影附魔'''
+|-
+|Umbra Soul Form||    ||    ||    ||'''暗影灵魂形态'''
+|-
+|Unarmed Damge||徒手伤害||徒手伤害||徒手伤害||徒手伤害
+|-
+|Unbounded Flames||    ||'''无束火舌'''||    ||'''无限火焰'''
+|-
+|Unbounded Freeze||    ||'''无束冻结'''||    ||'''无限冰冻'''
+|-
+|Unbounded Freezing||    ||'''无束冻结'''||    ||'''无限冰冻'''
+|-
+|Unbounded Frostbite||    ||'''无束霜噬'''||    ||'''无限霜噬术'''
+|-
+|Unbounded Storms||    ||'''无束风暴'''||    ||'''无限风暴'''
+|-
+|Unbreakable||牢不可破||牢不可破||牢不可破||牢不可破
+|-
+|Unearthly Will||神秘意志||神秘意志||'''超常意志'''||神秘意志
+|-
+|Unequip Spells In Melee Mode||    ||    ||'''在近战模式下不能使用法术'''||    
+|-
+|Unhindered||轻如鸿毛||轻如鸿毛||轻如鸿毛||轻如鸿毛
+|-
+|Unknown Effect||未知效果||未知效果||未知效果||未知效果
+|-
+|Unlimited Magicka||法力无限||法力无限||法力无限||法力无限
+|-
+|Unlimited Stamina||体力无限||体力无限||'''耐力无限'''||'''精力无限'''
+|-
+|Unrelenting Force||冷酷之力||'''无情之力'''||'''无形冲击'''||冷酷之力
+|-
+|Unrelenting Force||    ||'''无情之力'''||    ||'''冷酷之力'''
+|-
+|Unrelenting Force - Fus||冷酷之力 - 伏斯||'''无情之力 - 伏斯'''||'''无形冲击 - Fus'''||    
+|-
+|Unrelenting Force - Fus Ro||冷酷之力 - 伏斯 洛||冷酷之力 - 伏斯 洛||    ||'''冷酷之力–伏斯 洛'''
+|-
+|Unrelenting Force - Fus Ro||冷酷之力 - 伏斯 洛||'''无情之力 - 伏斯 洛'''||'''无形冲击 - Fus Ro'''||    
+|-
+|Unrelenting Force - Fus Ro Da||冷酷之力 - 伏斯 洛 达||'''无情之力 - 伏斯 洛 达'''||'''无形冲击 - Fus Ro Da'''||    
+|-
+|Unrelenting Force - Fus Ro Da||冷酷之力 - 伏斯 洛 达||'''无情之力 - 伏斯 洛 达'''||    ||    
+|-
+|Unrelenting Force Middle||中等冷酷之力||'''中等无情之力'''||'''中等无形冲击'''||中等冷酷之力
+|-
+|Unrelenting Force Strong||超强冷酷之力||'''超强无情之力'''||'''超强无形冲击'''||超强冷酷之力
+|-
+|Unrelenting Force Weak||微弱冷酷之力||'''微弱无情之力'''||'''微弱无形冲击'''||微弱冷酷之力
+|-
+|Unseal Door||大门洞开||大门洞开||大门洞开||大门洞开
+|-
+|Unsummon||    ||'''取消召唤'''||    ||'''取消召唤'''
+|-
+|Valdr's Dagger||瓦尔德的匕首||瓦尔德的匕首||瓦尔德的匕首||瓦尔德的匕首
+|-
+|Vampire Change Stagger||    ||    ||'''吸血鬼交错变化'''||    
+|-
+|Vampire Claws||吸血鬼之爪||吸血鬼之爪||吸血鬼之爪||吸血鬼之爪
+|-
+|Vampire Death Bleeding||吸血鬼血之枯竭||吸血鬼血之枯竭||'''吸血鬼之致死出血'''||吸血鬼血之枯竭
+|-
+|Vampire Hood||吸血鬼兜帽||吸血鬼兜帽||吸血鬼兜帽||吸血鬼兜帽
+|-
+|Vampire Lord||吸血鬼领主||吸血鬼领主||'''吸血鬼贵族'''||吸血鬼领主
+|-
+|Vampire Lord Abilities||吸血鬼领主特殊能力||吸血鬼领主特殊能力||    ||吸血鬼领主特殊能力
+|-
+|Vampire Lord Enhancements||吸血鬼领主强化||吸血鬼领主强化||'''吸血鬼贵族增强'''||吸血鬼领主强化
+|-
+|Vampire Lord Form||吸血鬼领主形态||吸血鬼领主形态||'''吸血鬼贵族外形'''||'''吸血鬼领主型态'''
+|-
+|Vampire Mage||吸血鬼法师||吸血鬼法师||吸血鬼法师||吸血鬼法师
+|-
+|Vampire Mesmerize||吸血鬼催眠法术||吸血鬼催眠法术||'''吸血鬼的魅惑'''||吸血鬼催眠法术
+|-
+|Vampire Regen||吸血鬼恢复力||吸血鬼恢复力||'''吸血鬼再生'''||吸血鬼恢复力
+|-
+|Vampire Resistances||吸血鬼抗性||吸血鬼抗性||吸血鬼抗性||吸血鬼抗性
+|-
+|Vampire Restore Hunger Large||    ||'''吸血鬼恢复大量饥饿度'''||    ||'''吸血鬼恢复饥饿大'''
+|-
+|Vampire Sleep Perk||吸血鬼睡眠额外能力||吸血鬼睡眠额外能力||'''血族之寐天赋'''||吸血鬼睡眠额外能力
+|-
+|Vampire Touch||吸血鬼之触||吸血鬼之触||吸血鬼之触||吸血鬼之触
+|-
+|Vampire's Bane||吸血鬼克星||吸血鬼克星||'''净邪术'''||吸血鬼克星
+|-
+|Vampire's Gaze||吸血鬼的凝视||吸血鬼的凝视||吸血鬼的凝视||吸血鬼的凝视
+|-
+|Vampire's Seduction||吸血鬼诱惑||吸血鬼诱惑||'''吸血鬼的诱惑'''||'''吸血鬼的诱惑'''
+|-
+|Vampire's Seduction||    ||'''吸血鬼诱惑'''||    ||'''吸血鬼的魅惑'''
+|-
+|Vampire's Servant||吸血鬼奴仆||吸血鬼奴仆||'''吸血鬼的仆从'''||'''吸血鬼的仆从'''
+|-
+|Vampire's Sight||吸血鬼视野||吸血鬼视野||吸血鬼视野||吸血鬼视野
+|-
+|Vampiric Blood Rested||吸血鬼之血已休息||吸血鬼之血已休息||'''吸血鬼之血的平息'''||吸血鬼之血已休息
+|-
+|Vampiric Drain||吸血鬼吸蚀||吸血鬼吸蚀||'''血族摄食'''||吸血鬼吸蚀
+|-
+|Vampiric Drain(Shade)||吸血鬼吸蚀（恶灵）||吸血鬼吸蚀（恶灵）||'''血族摄食（少量）'''||吸血鬼吸蚀（恶灵）
+|-
+|Vampiric Grip||吸血鬼之握||吸血鬼之握||'''血族掌握'''||吸血鬼之握
+|-
+|Vampiric Invisibility||吸血鬼隐身术||吸血鬼隐身术||吸血鬼隐身术||吸血鬼隐身术
+|-
+|Vampiric Strength||吸血鬼力量||吸血鬼力量||'''吸血鬼的力量'''||'''吸血鬼之力'''
+|-
+|Venomfang Poison||毒牙毒素||毒牙毒素||'''啮齿毒素'''||毒牙毒素
+|-
+|Very Cold||    ||'''非常冷'''||    ||'''非常寒冷'''
+|-
+|Vile Vapor||邪恶蒸气||邪恶蒸气||邪恶蒸气||邪恶蒸气
+|-
+|Vile Vapors||邪恶蒸汽||邪恶蒸汽||邪恶蒸汽||邪恶蒸汽
+|-
+|Vision of the Tenth Eye||第十视界||第十视界||'''第十视界术'''||第十视界
+|-
+|Visuals||    ||    ||'''视界'''||    
+|-
+|Voice of the Emperor||帝王之声||帝王之声||帝王之声||帝王之声
+|-
+|Voice of the Sky||天际之音||天际之音||'''苍穹之声'''||天际之音
+|-
+|Vokun's Mastery||沃坤精通||沃坤精通||沃坤精通||沃坤精通
+|-
+|Volendrung Enchantment||瓦伦特朗附魔||瓦伦特朗附魔||'''沃伦德朗战锤附魔'''||瓦伦特朗附魔
+|-
+|Volsung's Guile||沃尔松格的背叛||沃尔松格的背叛||沃尔松格的背叛||沃尔松格的背叛
+|-
+|Vortex||佛特斯||佛特斯||'''涡卷术'''||佛特斯
+|-
+|Vortex Effect||佛特斯效果||佛特斯效果||    ||佛特斯效果
+|-
+|Wabba Visuals||瓦巴视界||瓦巴视界||瓦巴视界||瓦巴视界
+|-
+|Wabbajack||瓦巴杰克||瓦巴杰克||瓦巴杰克||瓦巴杰克
+|-
+|Wabbajack Alt||瓦巴杰克备选||瓦巴杰克备选||    ||    
+|-
+|Wabbajack Damage||瓦巴杰克伤害||瓦巴杰克伤害||瓦巴杰克伤害||瓦巴杰克伤害
+|-
+|Waking Nightmare||恶梦苏醒||恶梦苏醒||'''噩梦苏醒'''||恶梦苏醒
+|-
+|Wall Of Flames||烈焰之墙||烈焰之墙||'''烈焰障壁术'''||烈焰之墙
+|-
+|Wall Of Frost||寒霜之墙||寒霜之墙||'''冰棘障壁术'''||寒霜之墙
+|-
+|Wall Of Storms||风暴之墙||风暴之墙||'''电弧障壁术'''||'''雷电之墙'''
+|-
+|Wall of Flames||烈焰之墙||烈焰之墙||'''烈焰障壁术'''||烈焰之墙
+|-
+|Wall of Frost||寒霜之墙||寒霜之墙||'''冰棘障壁术'''||寒霜之墙
+|-
+|Wall of Frost and Flames||    ||'''寒霜烈焰之墙'''||    ||'''寒霜与烈焰之墙'''
+|-
+|Wall of Storms||风暴之墙||风暴之墙||'''电弧障壁术'''||'''雷电之墙'''
+|-
+|Ward - Deflection||结界 - 偏转||结界 - 偏转||'''护盾－能量偏移'''||结界 - 偏转
+|-
+|Ward - Greater||强力结界||强力结界||'''护盾－高阶结界'''||'''结界 - 高级'''
+|-
+|Ward - Lesser||次级结界||次级结界||'''护盾－初阶结界'''||'''结界 - 次级'''
+|-
+|Ward - Steadfast||坚固结界||坚固结界||'''护盾－进阶结界'''||'''结界 - 坚定'''
+|-
+|Ward Absorb||结界吸收||结界吸收||'''汲能结界'''||结界吸收
+|-
+|Ward of Hasedoki||    ||'''哈泽多基结界'''||    ||'''哈塞朵其的结界'''
+|-
+|Warden's Lash||典狱官的鞭笞||典狱官的鞭笞||典狱官的鞭笞||典狱官的鞭笞
+|-
+|Warlock's Ring||    ||'''男巫之戒'''||    ||'''巫师的指环'''
+|-
+|Warm||    ||'''温暖'''||    ||'''温暖'''
+|-
+|Warm Area||    ||'''温暖区域'''||    ||'''温暖区域'''
+|-
+|Warmaster||战争主导||战争主导||'''将领'''||战争主导
+|-
+|Warmaster Knockdown||战争大师击倒||战争大师击倒||战争大师击倒||战争大师击倒
+|-
+|Warrior||战士||战士||战士||战士
+|-
+|Water Breathing||    ||'''水中呼吸'''||    ||'''水中呼吸'''
+|-
+|WaterDamage||    ||    ||'''水系伤害'''||    
+|-
+|Waterbreathing||水下呼吸||水下呼吸||'''水息术'''||水下呼吸
+|-
+|Waters of Life||活力之泉||活力之泉||活力之泉||活力之泉
+|-
+|Waters of Oblivion||    ||'''湮灭之水'''||    ||'''湮灭之水'''
+|-
+|Waterwalking||水面行走||水面行走||水面行走||水面行走
+|-
+|Wax Key||复制钥匙||复制钥匙||'''钥匙复制'''||复制钥匙
+|-
+|Wayshrine Casting Effect||指路祭坛法术效果||指路祭坛法术效果||'''道途圣坛 Casting Effect'''||指路祭坛法术效果
+|-
+|Weakened||    ||'''虚弱'''||    ||'''虚弱'''
+|-
+|Weakened Effect Timer||    ||    ||    ||'''虚弱效果计时'''
+|-
+|Weakened Soul||虚弱灵魂||虚弱灵魂||'''灵魂削弱'''||虚弱灵魂
+|-
+|Weakness||    ||'''虚弱'''||    ||'''虚弱'''
+|-
+|Weakness to Cold||    ||'''寒冷虚弱'''||    ||'''寒冷虚弱'''
+|-
+|Weakness to Disease||    ||'''疾病虚弱'''||    ||'''疾病虚弱'''
+|-
+|Weakness to Fatigue||    ||'''疲劳虚弱'''||    ||'''疲劳虚弱'''
+|-
+|Weakness to Fire||火焰虚弱||火焰虚弱||火焰虚弱||火焰虚弱
+|-
+|Weakness to Fork||    ||'''叉子虚弱'''||    ||'''叉虚弱'''
+|-
+|Weakness to Frost||寒霜虚弱||寒霜虚弱||寒霜虚弱||寒霜虚弱
+|-
+|Weakness to Frost||    ||'''寒霜虚弱'''||    ||'''寒霜虚弱'''
+|-
+|Weakness to Light of Day||    ||'''昼光虚弱'''||    ||'''昼光虚弱'''
+|-
+|Weakness to Magic||魔法虚弱||魔法虚弱||魔法虚弱||魔法虚弱
+|-
+|Weakness to Poison||毒素虚弱||毒素虚弱||毒素虚弱||毒素虚弱
+|-
+|Weakness to Shock||闪电虚弱||闪电虚弱||闪电虚弱||'''电击虚弱'''
+|-
+|Weakness to Sunlight||阳光虚弱||阳光虚弱||阳光虚弱||阳光虚弱
+|-
+|Weary||    ||'''疲惫'''||    ||'''倦怠'''
+|-
+|Web Mother Bite||    ||    ||    ||'''诡网蛛母之咬'''
+|-
+|Web Trap||    ||'''蛛网陷阱'''||    ||'''蛛网陷阱'''
+|-
+|Weight||    ||'''体型'''||    ||'''重量'''
+|-
+|Well Fed||    ||'''吃饱喝足'''||    ||'''饱足'''
+|-
+|Well Fitted||合身护甲||合身护甲||'''重甲合身'''||'''重甲适身'''
+|-
+|Well Rested||充分休息||充分休息||充分休息||充分休息
+|-
+|Werebear Abilities||熊人技能||熊人技能||    ||熊人技能
+|-
+|Werebear Form||熊人形态||熊人形态||熊人形态||熊人形态
+|-
+|Werewolf Abilities||狼人能力||狼人能力||    ||    
+|-
+|Werewolf Claws||狼人之爪||狼人之爪||狼人之爪||狼人之爪
+|-
+|Werewolf Feed||狼人之噬||狼人之噬||狼人之噬||狼人之噬
+|-
+|Werewolf Gorging Health Restore||    ||    ||'''狼人借由同类猎食来回复生命'''||    
+|-
+|Werewolf Knockback Effect||狼人击退效果||狼人击退效果||狼人击退效果||狼人击退效果
+|-
+|Werewolf Victim Effect||狼人牺牲品效果||狼人牺牲品效果||狼人牺牲品效果||狼人牺牲品效果
+|-
+|Whale Breath||鲸鱼吐息||鲸鱼吐息||鲸鱼吐息||鲸鱼吐息
+|-
+|Whirlwind Cloak||旋风斗篷||旋风斗篷||'''旋风斗篷术'''||旋风斗篷
+|-
+|Whirlwind Cloak Damage||旋风斗篷伤害||旋风斗篷伤害||'''旋风斗篷术伤害'''||旋风斗篷伤害
+|-
+|Whirlwind Damage||旋风伤害||旋风伤害||旋风伤害||旋风伤害
+|-
+|Whirlwind Sprint||旋风冲刺||旋风冲刺||旋风冲刺||旋风冲刺
+|-
+|White Phial Effect||雪瓶效果||雪瓶效果||    ||雪瓶效果
+|-
+|Wind Walker||风之行者||风之行者||风之行者||风之行者
+|-
+|Windshear Bash||风击||风击||'''风压'''||风击
+|-
+|Windshear Bash Effect||风击效果||风击效果||    ||风击效果
+|-
+|Windshear Bash Perk||风击额外能力||风击额外能力||    ||风击额外能力
+|-
+|Windshear Bash Spell||风击魔法||风击魔法||    ||风击魔法
+|-
+|Winter Spell||    ||    ||    ||'''冬之法术'''
+|-
+|Winter Staff||    ||    ||    ||'''冬之杖'''
+|-
+|Winter's Blessing||    ||'''冬季的赐福'''||    ||'''冬之赐福'''
+|-
+|Winter's Grace||    ||'''冬之恩惠'''||    ||'''冬之恩赐'''
+|-
+|Winter's Grip||    ||'''冬之掌握'''||    ||'''冬日束缚'''
+|-
+|Wisp Cloak||幽魂斗篷||幽魂斗篷||幽魂斗篷||幽魂斗篷
+|-
+|Wisp's Health Blessing||幽魂的生命赐福||幽魂的生命赐福||幽魂的生命赐福||幽魂的生命赐福
+|-
+|Wisp's Kiss||幽魂之吻||幽魂之吻||幽魂之吻||幽魂之吻
+|-
+|Wisp's Magicka Blessing||幽魂的法力赐福||幽魂的法力赐福||幽魂的法力赐福||幽魂的法力赐福
+|-
+|Wisp's Stamina Blessing||幽魂的体力赐福||幽魂的体力赐福||'''幽魂的耐力赐福'''||'''幽魂的精力赐福'''
+|-
+|Witbane||魔障症||魔障症||'''坏智症'''||魔障症
+|-
+|Witchlight abilities||魔光能力||魔光能力||    ||    
+|-
+|Wolf Spirit||    ||'''狼魂'''||    ||'''狼魂'''
+|-
+|Wounded Spider Damage||受伤蜘蛛伤害||受伤蜘蛛伤害||受伤蜘蛛伤害||受伤蜘蛛伤害
+|-
+|Wounds||伤口||伤口||'''创伤'''||伤口
+|-
+|Wraithguard||    ||'''怨灵守卫'''||    ||'''幽守'''
+|-
+|Writhing Effect||触手效果||触手效果||触手效果||触手效果
+|-
+|Writhing Wall||触手墙||触手墙||触手墙||触手墙
+|-
+|Writhing Wall Slow Effect||触手墙减缓效果||触手墙减缓效果||触手墙减缓效果||触手墙减缓效果
+|-
+|Zahkriisos' Ire||萨克里斯的盛怒||萨克里斯的盛怒||萨克里斯的盛怒||'''萨克里斯的怒火'''
+|-
+|Zephyr Null Enchantment||    ||    ||'''西风微拂附魔'''||    
+|-
+|Zombie Regen||    ||    ||    ||'''僵尸恢复'''
+|-
+|Zombie by Spider||僵尸蜘蛛||僵尸蜘蛛||僵尸蜘蛛||僵尸蜘蛛
+|-
+|reanimate spell||复活魔法||复活魔法||'''回复法力'''||复活魔法
+|}
