@@ -11,6 +11,7 @@
   C5 表格完整性：每个表格必须有分隔行，且各行列数与表头一致
   C6 重复段：相邻两行非空且完全相同（复制粘贴事故）
   C7 占位残留：预填的实书编号（如 F12、第41章）与「TODO」
+  C9 校验报告同步：校验报告.txt 声明的统计数字必须与本次实测一致
 用法：python3 tools/check_package.py [包根目录]
 退出码：0 全过；1 有 ERROR。
 """
@@ -243,6 +244,39 @@ def main():
     STATS["节引用校验"] = CNT["sec_ref"]
     STATS["路径核验"] = CNT["path"]
     STATS["表格/行校验"] = "%d / %d" % (CNT["table"], CNT["row"])
+
+    # C9 校验报告同步
+    # 校验报告.txt 是验收凭据，它声明的统计若与实测脱钩，等于验收依据失准。
+    # v3.14 修订版曾因改了 14 号而忘记重跑自检，报告数字落后一次提交（见 CHANGELOG）。
+    # 此处比对声明值与实测值，任何一方改动而另一方未跟上即报错。
+    report_path = os.path.join(ROOT, "校验报告.txt")
+    REPORT_KEYS = (("文件引用校验", "文件引用校验"),
+                   ("节引用校验", "节引用校验"),
+                   ("路径核验", "路径核验"),
+                   ("字符数", "字符数"))
+    if os.path.exists(report_path):
+        rep = io.open(report_path, "r", encoding="utf-8-sig").read()
+        for label, key in REPORT_KEYS:
+            m = re.search(r"^\s*%s\s+([0-9]+)" % label, rep, re.M)
+            if not m:
+                WARNS.append("C9 校验报告.txt：未找到「%s」一行，无法核对" % label)
+                continue
+            declared = int(m.group(1))
+            actual = STATS[key]
+            if declared != actual:
+                ERRORS.append("C9 校验报告.txt：「%s」声明 %d，实测 %d —— 报告与代码树脱钩，"
+                              "改完文档须重跑本脚本并回填该数字" % (label, declared, actual))
+        m = re.search(r"^\s*表格/行校验\s+([0-9]+)\s*/\s*([0-9]+)", rep, re.M)
+        if not m:
+            WARNS.append("C9 校验报告.txt：未找到「表格/行校验」一行，无法核对")
+        else:
+            if int(m.group(1)) != CNT["table"] or int(m.group(2)) != CNT["row"]:
+                ERRORS.append("C9 校验报告.txt：「表格/行校验」声明 %s / %s，实测 %d / %d —— "
+                              "报告与代码树脱钩，须重跑本脚本并回填该数字"
+                              % (m.group(1), m.group(2), CNT["table"], CNT["row"]))
+    else:
+        WARNS.append("C9 校验报告.txt：文件缺失，包的验收凭据不在")
+
     STATS["ERROR"] = len(ERRORS)
     STATS["WARN"] = len(WARNS)
 
