@@ -34,3 +34,7 @@ __pycache__/
 # 入库的是**知识资产**：graph.json（连接图谱）、MOC-*.md（内容地图）、
 # 00-原子笔记/（原子笔记）、01-MOC/（跨项目导航）。
 PKM/index.json
+
+# 正文文风校验中间产物（2026-11-17）
+# prose_style_check.py 默认输出 findings.json，可随时重跑，不入库。
+findings.json

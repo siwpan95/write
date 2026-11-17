@@ -13,10 +13,10 @@
   "knowledge_docs": 793,
   "knowledge_orphan_rate": 0.1,
   "frontmatter_docs": 35,
-  "plugins": 13,
+  "plugins": 14,
   "projects_registered": 3,
-  "checkers_registered": 6,
-  "checker_adapters": 5,
+  "checkers_registered": 7,
+  "checker_adapters": 7,
   "graph_schema": 1,
   "sources": {
     "docs/by_type/total_links/total_broken/knowledge_*/frontmatter_docs": "PKM/graph.json",

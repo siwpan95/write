@@ -142,10 +142,10 @@ powershell -ExecutionPolicy Bypass -File tools\bootstrap.ps1   # Windows
 > | 断链 | **0** | `PKM/graph.json` |
 > | 知识节点孤立率 | **0.1%** | `PKM/graph.json` |
 > | frontmatter 文档数 | **35** | `PKM/graph.json` |
-> | 插件数 | **13** | `tools/cordis.yml`（行首 `- id`） |
+> | 插件数 | **14** | `tools/cordis.yml`（行首 `- id`） |
 > | 已注册项目 | **3** | `tools/cordis.yml`（projects 段） |
-> | 已注册检查器 | **6** | `tools/cordis.yml`（checker-* 插件） |
-> | 检查器适配器 | **5** | `tools/checkers/*.py`（doc-review 直连引擎，故少 1） |
+> | 已注册检查器 | **7** | `tools/cordis.yml`（checker-* 插件） |
+> | 检查器适配器 | **7** | `tools/checkers/*.py`（doc-review 直连引擎，故少 1） |
 >
 > 文档形态分布：正文 566 / 设定 427 / 模板 340 / 总览 26
 >

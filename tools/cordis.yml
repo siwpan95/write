@@ -170,6 +170,21 @@
     adapter: ./tools/checkers/rules_check.py
     # 闸门口径：规则漂移＝ERROR（规则失效必须显性上报）；统计类＝INFO
 
+- id: checker-prose-style
+  name: ./plugins/17-checker-prose-style.mjs
+  inject:
+    - config
+    - runner
+    - checkers
+  config:
+    # 适配器：正文文风红线（05 文风卡 / 06 §8.3）
+    adapter: ./tools/checkers/prose_style_check.py
+    # 闸门口径：禁用词上限0 / 比喻词 / 冒号提示语 ＝ ERROR；
+    #           上限1 超量 / 条件禁用词 / 破折号连段 / 招牌句式超限 ＝ WARN
+    # 只收模板包红线项；技能硬禁令（冒号/破折号/翻案句等）适用对象是论坛散文，
+    # 对网文正文大量假阳性，不进汇总。要看全量用：
+    #   python tools/checkers/prose_style_check.py --root .
+
 - id: report
   name: ./plugins/20-report.mjs
   inject:
