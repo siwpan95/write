@@ -242,8 +242,10 @@ def save(path: Path, text: str, bom: bool, crlf: bool):
 
 
 def main() -> int:
+    # 仓根由脚本位置推导，避免写死本机绝对路径导致跨机失效。
+    default_root = Path(__file__).resolve().parent.parent.parent
     ap = argparse.ArgumentParser()
-    ap.add_argument("--root", default="E:/projects/repos/write")
+    ap.add_argument("--root", default=str(default_root), help="仓根目录（默认由脚本位置推导）")
     ap.add_argument("--apply", action="store_true", help="真正写入；默认只预览")
     args = ap.parse_args()
     root = Path(args.root)
