@@ -1,0 +1,105 @@
+{{NPC Summary
+|level=1
+|loc=[[SR:Bleak Falls Barrow (place)|Bleak Falls Barrow]]
+|race=Dark Elf
+|gender=Male
+|class=[[Skyrim:Thief (class)|Thief]]
+|faction={{Faction|Bandit Ally Faction}}; {{Faction|Spiders (faction)}}
+|refid=00039655
+|baseid=00039646
+|image=SR-npc-Arvel the Swift.jpg
+|imgdesc=Arvel the Swift
+|aggress=Unaggressive
+|class_details=[[Skyrim:CombatThief|CombatThief]]
+|moral=No Crime
+|skills=[[Skyrim:Destruction|Destruction]]
+|health=25
+|magicka=50
+|stamina=50
+|voicetype=MaleDarkElf
+}} __NOTOC__
+[[File:SR-npc-Arvel_the_Swift_02.jpg|thumb|right|Arvel caught in a web]]
+'''Arvel the Swift''' is a [[Skyrim:Dark Elf|Dark Elf]] [[Skyrim:Thief (class)|thief]] who stole a unique [[SR:Golden Claw|golden claw]] from the [[Skyrim:Riverwood Trader|Riverwood Trader]] in [[Skyrim:Riverwood|Riverwood]], and then retreated to [[Skyrim:Bleak Falls Barrow (place)|Bleak Falls Barrow]]. You might be [[Skyrim:The Golden Claw|tasked]] with recovering the golden claw from him by the [[Skyrim:Lucan Valerius|owner]] of the shop in question, or you might be tasked with finding the owner of the claw, if found by other means. 
+
+Arvel wears a set of [[Skyrim:Hide Armor|hide armor]], including matching pairs of [[Skyrim:Hide Bracers|bracers]] and [[Skyrim:Hide Boots|boots]], as well as a [[Skyrim:Hide Helmet|hide helmet]]. He also carries an [[SR:Iron Sword|iron sword]] with him, as well as a spare [[Skyrim:Belted Tunic|belted tunic]]. Upon his death, his [[SR:Arvel's Journal|journal]] and the golden claw can also be found on him.
+
+{{NewLeft}}
+== Related Quests ==
+*{{Quest Link|The Golden Claw}}
+*{{Quest Link|Bleak Falls Barrow (quest)}}
+
+== Quest-Related Events ==
+=== The Golden Claw ===
+As you near the webbing-filled room, you will start to hear Arvel calling out, initially assuming you're one of his cohorts:
+:''"Is... is someone coming? Is that you Harknir? Bjorn? Soling? I know I ran ahead with the claw, but I need help! You. Over here!"''
+
+He will also continue yelling as you approach further:
+:''"Hey, over here!"''
+:''"Get me out of here!"''
+:''"Don't leave me, for [[Lore:Arkay|Arkay]]'s sake!"''
+:''"Help me! Help!"''
+:''"Help me out of here!"''
+:''"Get me down. Get me down!"''
+
+As soon as you enter the room, a giant [[Skyrim:Wounded Frostbite Spider|wounded frostbite spider]] descends to the floor. This will make Arvel state:
+:''"No. Not again. Help!"''
+
+Arvel will then start to panic and yell out remarks such as;
+:''"Ah, kill it. Kill it!"''
+:''"Get it away from me. Get it away!"''
+:''"Don't let it get me. Help!"''
+:''"Agh. Agh!"''
+:''"Keep it away from me!"''
+
+He can also be heard yelling:
+:''"Where are you going? Come back!"''
+:''"Wait, come back!"''
+:''"Noooo!"''
+:''"Aaaaagh!"''
+
+Once the spider has been defeated, he will be overjoyed and say one of the following lines:
+:''"Is it over?''"
+:''"Is it dead?"''
+:''"Is it safe now?"''
+
+When you greet him for the first time, his response will depend on whether you have killed the spider or not. If you have not yet killed it, he will say: 
+:''"What? Who are you? Oh, never mind. Cut me down before that thing gets us!"''
+
+If you've dispatched it already, he will instead thank you: 
+:''"You did it. You killed it. Now cut me down before anything else shows up."''
+
+Either way, you can then follow up by asking him about the claw:
+:'''Where's the golden claw?'''
+:''"Yes, the claw. I know how it works. The claw, the markings, the door in the Hall of Stories. I know how they all fit together! Help me down, and I'll show you. You won't believe the [[Skyrim:Dragon Shouts|power]] the Nords have hidden there."''
+
+::'''Hand over the claw first!'''
+::''"Does it look like I can move? You have to cut me down, first."'' 
+
+::'''Fine. Let me see if I can cut you down.'''
+::''"Sweet breath of Arkay, thank you."''
+
+As you begin to cut him down he will say;
+:''"That's it. Keep hacking at it."''
+:''"Don't stop. Keep cutting."''
+:''"It's coming loose. I can feel it."'' 
+
+If you start leaving before he's fully freed will have him yelling at you:
+:''"Cut me down, or you'll never get the claw!"''
+:''"Where are you... get me down from this!"''
+
+However, once you free him it becomes clear that he has no intention of giving the claw to you. He will instead run towards the next room and brush you aside with;
+:''"You fool! Why should I share the treasure with anyone?"''
+:''"Sorry, but I have a treasure to get to..."''
+:''"So long "friend." Ha ha ha!"''
+:''"I'm too swift for you!"''
+
+Once he reaches the next room full of [[Skyrim:Draugr|draugr]], he will try to defend himself, but usually dies. If you save him from the undead, he will be killed by the [[Skyrim:Spike Wall|spike wall]] trap or the [[Skyrim:Swinging Blades|swinging blades]] trap. If you get too close, he will also turn hostile and start fighting you directly. Regardless, it is impossible to keep him alive.
+
+== Notes ==
+*At the entrance to the barrow you may hear two bandits talk about Arvel: 
+**'''Bandit #1''': ''"So we're just supposed to sit here while Arvel runs off with that golden claw?"''<br>
+**'''Bandit #2''': ''"That dark elf wants to go on ahead, let him. Better than us risking our necks."''<br>
+**'''Bandit #1''': ''"What if Arvel doesn't come back? I want my share from that claw!"''<br>
+**'''Bandit #2''': ''"Just shut it and keep an eye out for trouble."''
+* Talking to Arvel after freeing him will cause a "This person is busy." message to appear on the top left of the screen.
+* Arvel was featured in pre-release videos of the game, such as for E3 and QuakeCon. However, a slightly different version of Arvel was shown in those demo videos which still exists in the files (BaseID <code>00099991</code>). The most notable differences include the fact that this version doesn't have a unique face, instead using the default Dark Elf male face, and that both the claw and journal can always be found in his inventory. In the final game, they're added to his inventory via script upon his death.

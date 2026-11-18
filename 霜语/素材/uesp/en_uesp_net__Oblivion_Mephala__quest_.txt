@@ -1,1 +1,97 @@
-ERR HTTP Error 404: Not Found
+{{Cleanup-obrp-quest
+|image=
+|imageChecked=
+|writtenBy=
+|checkedBy=
+|objectivesChecked=
+|reward=
+|rewardChecked=
+}}{{Quest Header
+|type=Daedric
+|Giver=[[Oblivion:Dredena Hlavel|Dredena Hlavel]] at [[Oblivion:Mephala's Shrine|Mephala's Shrine]]
+|Icon=OBR-icon-quest-Daedra.png
+|Iconsize=70px
+|ReqLevel=15
+|ReqItem=[[Oblivion:Nightshade|Nightshade]]
+|Reward=[[Oblivion:Ebony Blade|Ebony Blade]]
+|Fame=Fame +1
+|Loc=[[Oblivion:Bleaker's Way|Bleaker's Way]]
+|Image=OB-quest-Mephala.jpg
+|imgremaster=OBR-Statue-Mephala.jpg
+|ImgDesc=Shrine of Mephala
+|ID=DAMephala
+|description=Start a feud between two prominent families.
+}}
+
+==Quick Walkthrough==
+#Once you have reached level 15, travel to the Shrine of [[Lore:Mephala|Mephala]], and make an offering of [[Oblivion:Nightshade|nightshade]].
+# Activate the shrine with the offering between midnight and dawn to receive your task.
+# Kill the leaders of two prominent families in [[Oblivion:Bleaker's Way|Bleaker's Way]].
+# Plant evidence suggesting the deaths were the product of house warring.
+# Return to the shrine for your reward of the [[Oblivion:Ebony Blade|Ebony Blade]].
+
+==Detailed Walkthrough==
+===Locating the Shrine of [[Lore:Mephala|Mephala]]===
+[[Oblivion:Mephala's Shrine|Mephala's Shrine]] is located in the [[Oblivion:Great Forest|Great Forest]], east of the [[Oblivion:Silver Road|Silver Road]], halfway between where it meets the [[Oblivion:Orange Road|Orange]] and [[Oblivion:Red Ring Road|Red Ring Roads]].
+
+The location of this Shrine can be marked on your map by:
+* Speaking to [[Oblivion:Ontus Vanin|Ontus Vanin]] about "Daedric shrines"; you must have already read ''[[Oblivion:Modern Heretics|Modern Heretics]]'' or have spoken with [[Oblivion:Ulene Hlervu|Ulene Hlervu]] about "Cheydinhal".
+* Speaking to [[Oblivion:Luther Broad|Luther Broad]] about "Imperial City"; you must raise disposition to 60.
+
+===An Offering to the God===
+You need to be at least level 15 to start this quest. Talk to the Dunmer there, [[Oblivion:Dredena Hlavel|Dredena Hlavel]]. Request an audience and she will tell you to make an offering of nightshade between midnight and dawn; places where it can be found are detailed on the [[Oblivion:Nightshade|Nightshade]] article. Once you have some nightshade, activate the shrine. Mephala wants you to go to [[Oblivion:Bleaker's Way|Bleaker's Way]] and kill the leaders of the two prominent families there. Her exact dialogue is:
+:''Call me 'Webspinner'. Pluck but a single thread, and the weave unravels. In Bleaker's Way, two families, Nord and Dunmer, live in perfect harmony. But beneath the surface lurks the secret seed of strife. Kill the leaders of the two families. Plant evidence to implicate the other family as the killer. And don't get caught. Be cunning. Don't spoil my scheme. And don't die... that would spoil everything. Ha-ha-ha-hah!''
+
+The leaders are [[Oblivion:Hrol Ulfgar|Hrol Ulfgar]] and [[Oblivion:Nivan Dalvilu|Nivan Dalvilu]].  After killing them you are supposed to plant evidence making it look like the other family was responsible for the murder.
+[[File:OB-quest-Mephala 02.jpg|thumb|right|Dalvilu vs Ulfgar - the fight begins]]
+
+===The Task at Hand===
+When you first get to Bleaker's Way, you need to find the fake evidence.  Inside Nivan Dalvilu's house you will find a [[Oblivion:Dalvilu Ceremonial Dagger|Dalvilu Cermonial Dagger]]{{sic}}, located on a low table to the right of the entrance; this dagger should be planted on Hrol Ulfgar's body after you've killed him.  In Hrol Ulfgar's house you will find the [[Oblivion:Ulfgar Family Ring|Ulfgar Family Ring]], located next to a ''[[Oblivion:Guide to Leyawiin|Guide to Leyawiin]]'' on a table near the base of the attic stairs; the ring should be planted on Nivan Dalvilu's body also after you've killed him. Wait in their houses until they come home, and kill them. Plant the evidence listed above. Before returning to Mephala's shrine, talk to any of the Dalvilu or Ulfgar family members about Hrol Ulfgar or Nivan Dalvilu to plant the seeds of animosity.  Once that is done, the families will openly attack each other until one of the families has been destroyed.
+
+Return to the shrine to receive the [[Oblivion:Ebony Blade|Ebony Blade]], a one-handed blade with [[Oblivion:Silence|Silence]] and [[Oblivion:Absorb Health|Absorb Health]] enchantments. Mephala will congratulate you:
+:''Well done, little webspinner. Is there a prettier sight than friends at war? Take pleasure in the strife you have caused, mortal. Savor the divine essence of a well-spun plot. And here's a little needle to help you stitch your own tangled tapestries.''
+
+==Notes==
+* This is one of the few quests that requires you to murder. For players wanting to avoid the stat increment for this there are several options:
+** The aggression of the clan leaders is 20, meaning that they will attack you with a disposition lower than 15. Simply use the persuasion mini-game to accomplish this - they will then attack you first.
+** Creatures from the wilderness may kill the leaders for you.
+** Given that you are not caught, [[Oblivion:Reverse Pickpocketing|reverse pickpocketing]] a [[Oblivion:Poisoned Apple|Poisoned Apple]] into the leaders.
+** If you've obtained the [[Oblivion:Sanguine Rose|Sanguine Rose]] reward from [[Oblivion:Sanguine|Sanguine]], you can use its power to summon [[Oblivion:Daedra|Daedra]] to kill both men on your behalf.
+** If you have completed the [[Oblivion:Vaermina|Vaermina]] quest, you can use the [[Oblivion:Skull of Corruption|Skull of Corruption]] on your victims. The copies created will commit the murders for you.
+* There are several ways to fail this quest:
+** If you are caught committing a crime in Bleaker's Way (e.g., if you are caught breaking into one of the family's houses) before starting this quest, you will not even be allowed to start the quest.
+** If everybody in Bleaker's Way dies.
+* It is impossible to keep the ''Dalvilu Cermonial Dagger''{{sic}} or the ''Ulfgar Family Ring'' if you complete the quest. Once the items are placed in the dead bodies, they are removed from the game via script.
+*{{Pc22}} If you use the console to resurrect one of the members of the defeated family, the family that survived will all die.
+* If you want to [[Oblivion:Mercantile|invest]] in every store in Cyrodiil you should ensure that you have already invested with the Bleaker's Way innkeeper, [[Oblivion:Kirsten|Kirsten]] Ulfgar, or that the quest succeeds. Even if she survives the battle you will be unable to trade or invest with her if you fail the quest.
+* {{vn}}
+
+==Bugs==
+{{Bug|If you go back to Bleaker's Way after you completed the quest and kill the remaining family members, you'll still get a message that everybody in Bleaker's Way died and that you've spoiled Mephala's scheme.|UOP}}
+** {{OBR Fix}} Going back and killing the remaining family members in the remaster won't show the message.
+** {{ps22}}{{Xbox22}} This bug can be very useful to console players who have no access to the command console and have been disqualified from [[Oblivion:Hermaeus Mora|Hermaeus Mora's]] quest by failing [[Oblivion:Malacath|Malacath's]] or [[Oblivion:Namira|Namira's]] quests. When the erroneous quest update happens, the counter used to track completed Daedric shrine quests is incremented for a second time, and this will make up for a missing quest. However, the counter must be exactly 14 to trigger Hermaeus Mora's quest, so completing this quest twice in addition to the other 13 daedric quests will prevent it from starting.
+{{Bug|Sometimes, if you kill either leader and plant evidence too quickly (i.e. before you have received the quest update saying that the leader is dead), the game will act as though the evidence wasn't planted; this can be remedied by simply removing the evidence, and re-planting it (you will know that this has happened if you can still see the stolen item in the dead body's inventory list).|confirmed=1}}
+{{Bug|[[File:Flag Germany.png|22px]] In the German version of Oblivion, Dredena Hlavel tells you to offer "Nachtschatten", but that ingredient does not exist in the game. It is a translator's error: the ingredient Nightshade is actually named "Tollkirsche".|confirmed=1}}
+{{Bug|{{OBR Change|a line of Mephala's dialogue is missing. She skips the following line: ''"Savor the divine essence of a well-spun plot. And here's a little needle to help you stitch your own tangled tapestries."''}}|confirmed=1}}
+
+==Journal Entries==
+{{Journal Entries
+|5||
+|10||Mephala's followers have told me that, in order to summon the Daedra, I must first leave an offering of nightshade at her statue between midnight and dawn. [You must be level 15 to begin this quest.]
+|20||Mephala has told me about the settlement of Bleaker's Way. She would like me to kill the leaders of the two families, and leave evidence that the murders were done by the other family. I am to allow no one to see me commit the crimes.
+|30||I have learned Nivan Dalvilu is the head of the Dalvilu family, and Hrol Ulfgar the leader of the Nordic clan.
+|40||I have found a Dalvilu ceremonial dagger. This might be useful to leave as evidence.
+|50||I have found the Ulfgar family ring. This might be useful to leave as evidence.
+|60||I have killed Nivan Dalvilu. I should leave something in his corpse to implicate the Ulfgar clan.
+|65||I have left the Ulfgar family ring in the corpse of Nivan Dalvilu.
+|70||I have killed Hrol Ulfgar. I should leave something in his corpse to implicate the Dalvilu clan.
+|75||I have left the Dalvilu dagger in the corpse of Hrol Ulfgar.
+|80||I've placed evidence on both bodies of the family leaders. Now I must tell someone I saw them attack each other.
+|85||I reported the 'attacks' on the family leaders. Soon the families will be at each other's throats. Now I must return to the shrine of Mephala.
+|90||I've been detected committing a crime in Bleaker's Way. I will not be able to continue my task for Mephala.
+|100|fin|Mephala was pleased with the strife I have caused. She has rewarded me with the Ebony Blade.
+|105|fin|Mephala was disappointed in my failure.
+|110|fin|Something I did in Bleaker's Way apparently spoiled Mephala's schemes, so she refused my offering.
+|115|fin|By killing everyone in Bleaker's Way, I've spoiled Mephala's scheme, and spoiled any chance of gaining her favor.
+}}
+{{OB Journal Entries Notes}}

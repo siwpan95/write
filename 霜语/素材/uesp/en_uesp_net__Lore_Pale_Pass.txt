@@ -1,0 +1,57 @@
+<noinclude>{{Lore Places Trail}}__NOTOC__{{cleanup-lpp|writtenby=Legoless}}{{Lore Place Summary
+|continent=Tamriel
+|province=Cyrodiil
+|province2=Skyrim
+|region=Jerall Mountains
+|type=Mountain Pass
+|name=Pale Pass
+|image=OB-place-Pale Pass.jpg
+|imgdesc=The Pale Pass
+|appears=[[OB:Pale Pass|Oblivion]], [[Skyrim:Skyrim|Skyrim]]}}
+[[File:SR-place-Pale Pass.jpg|thumb|right|The gate to Pale Pass as seen from Skyrim]]</noinclude>
+[[Lore:Pale Pass|Pale Pass]] is a secluded pass through the [[Lore:Jerall Mountains|Jerall Mountains]] on the [[Lore:Cyrodiil|Cyrodiil]]-[[Lore:Skyrim|Skyrim]] border. A ruined [[Lore:Imperial|Imperial]] fort can be found in the pass. The flora is similar to the rest of the mountain range, and a tribe of [[Lore:Ogre|ogres]] inhabit the area. A cobbled road winds its way through the pass, and many small frozen lakes culminate in the lowest parts of the valley. 
+
+The easiest way to get to and from the pass on the Cyrodiil side is to go through a natural cave system located north of [[Lore:Bruma|Bruma]], named the {{Lore Link|Serpent's Trail}} by the Akaviri. The pass emerges into [[Lore:Falkreath Hold|Falkreath Hold]] on the Skyrim side, near the settlements of [[Lore:Helgen|Helgen]] and [[Lore:Neugrad Watch|Neugrad Watch]].{{Ref|name=TESVSPOGG|{{Cite Book|The Elder Scrolls V: Skyrim: Prima Official Game Guide|ns_base=Books}}}}{{Ref|name=BJ|{{Cite Book|ns_base=SR|Bandit's Journal (Fort Neugrad)}}}}<noinclude>
+{{NewLeft}}
+==History==
+The Imperials of Cyrodiil have long had a presence in the pass. Some time in the [[Lore:First Era|First Era]], Fort Pale Pass was built. The structure was apparently used as an outpost. For his heroism at the pass, [[Lore:Kantus Jeril|Kantus Jeril]] was appointed as the first Count of [[Lore:Chorrol|Chorrol]].{{ref|name=OBLoading|[[Oblivion:Loading Screens|Oblivion loading screens]]}}
+
+===Battle of Pale Pass===
+In {{Year|1E 2703}}, raiders from [[Lore:Akavir|Akavir]] invaded [[Lore:Tamriel|Tamriel]], landing on the eastern coast of [[Lore:Morrowind|Morrowind]] and trekking to the Jeralls. [[Lore:Reman Cyrodiil|Reman Cyrodiil]] unified the remaining factions from the [[Lore:Alessian Empire|Alessian Empire]] to form the Army of Reman, and led an attack on the Akaviri invaders. [[Lore:Vivec|Vivec]], who was displeased with the invaders for trespassing in Morrowind, allied himself with the Trident-Kings of the [[Lore:Dreugh|Dreugh]] and attacked the Akaviri from the rear, blocking off supplies and reinforcements.{{Ref|name=OBNarina|[[Oblivion:Countess Narina Carvain|Countess Narina Carvain]] circa {{Year|3E 433}}}} 
+
+The invaders then captured and occupied the fort in Pale Pass, which made for a well-hidden outpost. The fort ran out of supplies when messengers failed to deliver orders from the garrison at Grey Ridge, which would have informed Akaviri Commander [[Lore:Mishaxhi|Mishaxhi]] to ration its food, as the supplies were to be delayed by a month.{{Ref|name=ADT|{{Cite Book|Akaviri Diary Translation}}}} Reman led an assault on Pale Pass, and although reports differ widely on the battle, the end result is the same. The remaining Akaviri, upon hearing the voice of Reman Cyrodiil, knelt and swore their lives to him. Fragments of late First Era texts refer to the warriors dropping to their knees saying "we have been searching, for you".{{Ref|name=RF|{{Cite Book|The Rise and Fall of the Blades}}}}{{Ref|name=OBNarina}} Following their surrender, the Akaviri dead were given a proper burial and the survivors were absorbed into Reman's army as the Akaviri [[Lore:Dragonguard|Dragonguard]].{{ref|name=Dirge|[[Online:Dirge Truptor|Dirge Truptor]]'s dialogue in [[Online:Online|ESO]]}} The [[Lore:Tsaesci (race)|Tsaesci]] proved to be good advisers and helped Reman forge his new [[Lore:Second Empire|Empire]] and even ruled the Second Empire during the [[Lore:Akaviri Potentate|Akaviri Potentate]], until its collapse.
+[[File:MER-art-Skyrim Anthology Map.jpg|thumb|right|Skyrim]]
+
+===Second Era===
+During the mid-[[Lore:Second Era|Second Era]], Pale Pass was still commonly used to travel between Bruma and [[Lore:Falkreath|Falkreath]]. Mountain travelers were known to leave offerings of food for the local {{Lore Link|Bear|masked bear}}s, a species native the region around the pass. These "bear bars" along the trail are thought to have contributed to the domestication of the species for use as mounts.{{ref|name=ESOMounts|[[Lore:Elder Scrolls Online - Crown Store Showcase/Mounts|ESO Crown Store Showcase]]}} According to legend, the region's masked bears were introduced by the Akaviri invaders in the First Era.{{ref|[[ON:Masked Bear Cub|Masked Bear Cub]] pet description in [[ESO:Online|ESO]]}} Trappers would also capture Pale Pass [[Lore:Hare|Mountain Hare]]s to be sold as pets.{{ref|[[Online:Pale Pass Mountain Hare|Pale Pass Mountain Hare]] pet in [[ESO:ESO|ESO]]}}
+
+During the [[Lore:Interregnum|Interregnum]] at some point prior to {{Year|2E 578}}, the [[Lore:Five Companions|Five Companions]] journeyed through Pale Pass on their years-long quest to locate the [[Lore:Amulet of Kings|Amulet of Kings]]. They were confronted in the pass by a group of exiled [[Lore:Dragonguard|Dragonguard]] riders, who had been shadowing them for several days. The Emperor [[Lore:Varen Aquilarios|Varen Aquilarios]] swore a pact with the {{Lore Link|Vampire|vampiric}} Dragonguard captain [[Lore:Chevalier Renald|Chevalier Renald]], allowing the Companions to continue on their journey without issue.{{ref|{{Cite Book|Meet the Character - Chevalier Renald}}}}
+
+===Third Era===
+In time, the location of the pass seemingly faded from memory. The pass was unwittingly discovered by a thief on the 14th of [[Lore:Calendar#Months of the Year|Hearthfire]], {{Year|3E 362}}. The thief, known only as "G.S.", had stolen the Ring of Omnipotence from the wizard Ortharzel in Cyrodiil. The thief tried to cross the border into Skyrim, but Ortharzel caught up with him in the Jeralls and blasted him down the mountain with two fireballs. The thief ended up in Pale Pass, and used chests from the ruins of the Akaviri fort to hide the stolen ring. He left behind a letter for a friend of his before departing, intending for it to lead his friend to the ring should he not return to the pass.{{Ref|name=CN|{{Cite Book|Crumpled Note|ns_base=OB}}}} This friend never came to claim the ring.
+
+In {{Year|3E 433}}, Countess [[Lore:Narina Carvain|Narina Carvain]] of Bruma sent out scouts to find the pass. The countess was a renowned collector of Akaviri artifacts, and wanted to add the Draconian Madstone to her collection. The Madstone, a talisman which can protect the wearer from poisons of any type, was last reported to have been held in the ruins of Fort Pale Pass.{{Ref|name=OBNarina}} The countess had come into the possession of a diary written by one of the failed messengers from Grey Ridge, Xhaferi. It recounts how he and another messenger, Sylaj, met their doom in the Serpent's Trail cave at the hands of ogres.{{Ref|name=ADT}} The diary also came with a key to the fort and a rough map of the region. The countess sent out scouts and only located one of the landmarks from the map. She later hired the [[Lore:Hero of Kvatch|Hero of Kvatch]] to recover the Madstone. The Hero succeeded in getting to the fort, and discovered the Ring of Omnipotence hidden by the thief seventy years previous.{{Ref|name=OB|Events of [[OB:Lifting the Vale|Lifting the Vale]] in ''[[Oblivion:Oblivion|Oblivion]]''}}
+
+The Hero of Kvatch located the bones of Xhaferi, preserved in the cold of the Serpent's Trail, and retrieved the undelivered orders, which were written on a slate rock. The ruins of the ancient fort were in bad shape, having been partially buried under snow. The subterrain of the fort was filled with undead Akaviri soldiers and dangerous traps. The Hero delivered the orders to the lingering spirit of Mishaxhi, which freed the fort's inhabitants of undeath. The Hero retrieved the Madstone and returned to Countess Narina Carvain.{{Ref|name=OB}} The Black Horse Courier published a special edition paper about the discovery of Fort Pale Pass, titled ''Pale Pass Discovery!'', although they incorrectly attributed the fall of the fort to the landslide which had covered the ruins, rather than the delayed supplies.{{ref|name=PPD|{{Cite Book|Pale Pass Discovery!|ns_base=OB}}}}
+
+===Fourth Era===
+By the year {{Year|4E 182}}, most maps containing the Jerralls would depict the location of Pale Pass, such as the one drawn by cartographer [[Lore:Nataly Dravarol|Nataly Dravarol]], and the pass had for roughly two centuries become a common route for travelers passing through the mountains.{{Ref|name=SRMap|[[:File:MER-art-Skyrim Anthology Map.jpg|Map of Skyrim]]}} In {{Year|4E 201}}, the Pale Pass was all but closed due to avalanches, preventing Imperial reinforcements from helping to secure Falkreath Hold under Imperial control during the [[Lore:Stormcloak Rebellion|Stormcloak Rebellion]].{{Ref|name=IM|{{Cite Book|ns_base=SR|Imperial Missive (Fort Neugrad)}}}}{{Ref|name=SM|{{Cite Book|ns_base=SR|Stormcloak Missive (Fort Neugrad)}}}}{{Ref|name=BJ}} However, it remained one of the Legion's main supply lines, and access to the pass was needed to maintain an Imperial presence in [[Lore:Whiterun Hold|Whiterun Hold]].{{ref|name=SRUlfric|[[Skyrim:Ulfric Stormcloak|Ulfric Stormcloak]]'s dialogue in ''[[SR:Skyrim|Skyrim]]''}} As of the 2nd of Last Seed, [[Lore:Vigil of Stendarr|Vigilants of Stendarr]] were known to guard the Pale Pass.{{ref|name=ELJ|{{Cite Book|ns_base=SR|Excavation Leader's Journal}}}}
+
+==Gallery==
+<gallery>
+File:OBR-place-Pale Pass.jpg|Pale Pass (''Oblivion Remastered'')
+File:OB-book-PalePassMap.jpg|A map showing the entrance to the Serpent's Trail, sketched by Xhaferi
+File:OB-place-Pale Pass Fort.jpg|The ruins of the fort circa {{Year|3E 433}}
+File:OB-place-Sentinel.jpg|[[Lore:Statues/Other_Statues#The Sentinel|The Sentinel]] - used as a waypoint by Akaviri invaders to find the path to Pale Pass
+File:ON-mount-Masked Bear.jpg|A Masked Bear
+File:ON-pet-Anthorbred Avalanche Dog.jpg|An Anthorbred Avalanche Dog
+File:ON-pet-Pale Pass Mountain Hare.jpg|A Pale Pass Mountain Hare
+</gallery>
+
+==See Also==
+*For game-specific information, see the ''[[OB:Oblivion|Oblivion]]'' articles on [[Oblivion:Pale Pass|Pale Pass]] and [[Oblivion:Fort Pale Pass|Fort Pale Pass]].
+
+==References==
+<references/>
+{{Template:Lore Tamriel}}
+</noinclude>

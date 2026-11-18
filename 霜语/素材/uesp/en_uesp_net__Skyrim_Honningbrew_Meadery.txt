@@ -1,0 +1,108 @@
+<noinclude>{{Cleanup-shrp
+|writtenby=Biffa
+|checkedby=
+}}</noinclude>{{Place Summary
+|type=Settlement
+|marker_id=Settlement
+|zones=3
+|respawn=See [[#Notes|Notes]]
+|level=Min: 8
+|occupants=[[Skyrim:Frostbite Spider|Frostbite Spiders]], [[Skyrim:Skeever|Skeevers]], [[Skyrim:Hamelyn|Hamelyn]]
+|treasure=''[[Skyrim:Three Thieves|Three Thieves]]''<br>''[[Skyrim:A Game at Dinner|A Game at Dinner]]''<br>[[Skyrim:Quest_Items#Honningbrew_Decanter|Honningbrew Decanter]]
+|locationcode=HonningbrewMeaderyExterior01, HonningbrewMeadery01, HonningbrewMeadery02, HonningbrewMeadery03
+|region=Whiterun Hold
+|location=Southeast of [[Skyrim:Whiterun|Whiterun]]<br>North-northeast of [[Skyrim:Riverwood|Riverwood]]
+|alchemy=1
+|clay=1
+|shadowmark=loot
+|shadowmark2=fence
+|image=SR-place-Honningbrew Meadery.jpg
+|imgdesc=Honningbrew Meadery
+|description=a small [[Skyrim:Settlements|meadery]] southeast of [[Skyrim:Whiterun|Whiterun]] owned by [[Skyrim:Sabjorn|Sabjorn]].
+}}[[File:SR-place-Honningbrew Meadery 2.jpg|right|thumb|Honningbrew Meadery before completion of Dampened Spirits]][[File:SR-place-Honningbrew Meadery 3.jpg|right|thumb|Honningbrew Meadery after completion of Dampened Spirits]]
+It produces [[Skyrim:Honningbrew Mead|Honningbrew Mead]] in competition with [[Skyrim:Black-Briar Mead|Black-Briar Mead]]. The site contains two buildings: ''[[#Honningbrew Meadery|Honningbrew Meadery]]'' and ''[[#Honningbrew Boilery|Honningbrew Boilery]]'', both of which share a ''[[#Honningbrew Basement|basement]]''.
+{{NewLeft}}
+==Residents==
+{| class="wikitable" width="200px"
+!Residents
+|-
+|
+;[[Skyrim:Eimar|Eimar]]
+;[[Skyrim:Mallus Maccius|Mallus Maccius]] {{Service Icon|Fence}} *
+;[[Skyrim:Sabjorn|Sabjorn]] (Owner) {{Service Icon|Food and Drink}} †
+|-
+|}
+<nowiki>*</nowiki> This person only becomes a [[Skyrim:Fence (merchant)|fence]] and is placed in charge of the meadery after completing the quest [[Skyrim:Dampened Spirits|Dampened Spirits]].<br>
+† This person is no longer available after completing the quest Dampened Spirits.
+
+==Related Quests==
+===[[Skyrim:Thieves Guild (faction)|Thieves Guild]]===
+* {{Quest Link|Dampened Spirits}}
+* {{Quest Link|The Litany of Larceny}}
+
+==Walkthrough==
+===Exterior===
+The meadery is at the crossroad by the bridges southeast of Whiterun. There are two "Honningbrew Meadery" signs, one on either side of the path leading to the entrance to the meadery, which is always unlocked. There is a third sign to the right of the entrance to the boilery, which is kept locked and requires a key. Stacked around the entrance to the boilery are many barrels, some containing bottles of Honningbrew Mead, and others regular [[Skyrim:Food|foodstuffs]]. There are numerous flowers and plants in the immediate vicinity, as well as [[Skyrim:Monarch Butterfly|monarch butterflies]] and [[Skyrim:Blue Butterfly|blue butterflies]] during the day and [[Skyrim:Luna Moth|luna moths]] and [[Skyrim:Torchbug|torchbugs]] in the evenings and at night.
+{| class="wikitable"
+!Plants
+!Animals
+|-
+|
+; 2 [[Skyrim:Blue Mountain Flower|Blue Mountain Flower]]
+; 3 [[Skyrim:Lavender|Lavender]]
+; 1 [[Skyrim:Purple Mountain Flower|Purple Mountain Flower]]
+; 4 [[Skyrim:Red Mountain Flower|Red Mountain Flower]]
+; 1 [[Skyrim:Thistle Branch|Thistle]]
+; 1 [[Skyrim:Tundra Cotton|Tundra Cotton]]
+|
+; 1 [[Skyrim:Chicken|Chicken]]
+|}
+
+===Honningbrew Meadery===
+[[File:SR-interior-Honningbrew Meadery.jpg|left|thumb|Storage area]]The meadery is the larger right-hand building. A counter is in front of the wall opposite the entrance. Prior to starting the quest [[Skyrim:Dampened Spirits|Dampened Spirits]], Sabjorn and his employees, [[Skyrim:Eimar|Eimar]] and [[Skyrim:Mallus Maccius|Mallus Maccius]], can be found here. Sabjorn is happy to buy and sell foodstuffs. On your immediate left upon entering is a bookcase holding eight common [[Skyrim:Books|books]], and on your right is an end table with a bowl of [[Skyrim:Red Apple|red apples]] on top. The counter has five bottles of Honningbrew Mead, a [[Skyrim:Sweet Roll|sweet roll]], and a [[Skyrim:Honey Nut Treat|honey nut treat]] on top, and a further twenty-one bottles of mead underneath. Behind the bar are two sets of shelves holding nine more bottles of mead and another sweet roll, as well as some cheap crockery. Against the east wall is a long wooden table with several mead barrels on top, with a bowl containing four honey nut treats beside them. In both the northeastern and northwestern corners are small tables and chairs, holding a total of four bottles of Honningbrew Mead, an [[Skyrim:Apple Pie|apple pie]], two red apples, a honey nut treat, and a [[Skyrim:Sliced Eidar Cheese|sliced eidar cheese]]. A third small table is against the east wall, with a single bottle of Honningbrew Mead and a sweet roll on top. In the southwestern corner is a stack of barrels containing more bottles of Honningbrew Mead. There are double doors in the middle of the west wall leading to the storage area.
+
+After starting the quest Dampened Spirits, when you enter you will find Sabjorn standing in front of the counter alone with two dead [[Skyrim:Skeever|skeevers]] on the floor, one at either end of the room. After speaking with Sabjorn and convincing him to let you help, he will hand you a copy of the [[Skyrim:Honningbrew Meadery Key|Honningbrew Meadery key]], which opens both the door into the basement and also the door to his sleeping quarters in the loft.
+
+The storage area is filled with many stacks of barrels containing bottles of Honningbrew Mead and sacks of foodstuffs. Towards the rear of the room is a set of shelves holding eighteen bottles, a narrow table with five more bottles on top, and a bucket underneath containing four more bottles. At the southern end of the room is a flight of stairs leading down to a door to ''[[#Honningbrew Basement|Honningbrew Basement]]'', which is locked and requires the Honningbrew Meadery key given by Sabjorn. There are three [[Skyrim:Bear Trap|bear traps]] at the top of the stairs, and another at the bottom by the door.
+
+At the northern end of the room are four more bottles of Honningbrew Mead on top of barrels. In the northeastern corner is a doorway to a flight of stairs leading up to the loft. Under the stairs is one more bottle of mead. The loft is only partially boarded along the west, south, and part of the east walls, with a railing overlooking the storage area below. Against the west wall is a single owned bed, with a wall shelf above it holding a copy of ''[[Skyrim:The Lusty Argonian Maid, v2|The Lusty Argonian Maid, v2]]'', a red apple, and an [[Skyrim:Eidar Cheese Wedge|eidar cheese wedge]]. Against the south wall is a small square table, with a bottle of Honningbrew Mead on top and an owned bedroll beside it. At the end of the boarding on the east wall is an adept-locked door, which is opened using the Honningbrew Meadery key given by Sabjorn.
+
+You will need to visit Sabjorn's quarters to access the information needed for [[Skyrim:Maven Black-Briar|Maven Black-Briar]] for the quest Dampened Spirits. His bedroom contains a large owned double bed coming out from the north wall, with end tables on either side. On top of the end table on the left is a bottle of Honningbrew Mead, a red apple, and a [[Skyrim:Goat Cheese Wedge|goat cheese wedge]], while on the end table on the right is a common book. Under the bed is a bowl containing a bottle of Black-Briar Mead. Against the east wall is an expert-locked door; to the left is Sabjorn's dresser, which is locked and requires a [[Skyrim:Sabjorn's Dresser Key|key]]. It has a set of [[Skyrim:Clothes|clothes]] and a bowl containing [[Skyrim:Boiled Creme Treat|boiled creme treats]] on top. To the right of the door is a tall wardrobe containing [[Skyrim:Fine Clothes|fine clothes]]. Against the south wall is a long wooden table, with a plate of [[Skyrim:Grilled Leeks|grilled leeks]] and two [[Skyrim:Salmon Steak|salmon steaks]], an [[Skyrim:Iron Dagger|iron dagger]], a bottle of [[Skyrim:Wine|wine]], a note entitled ''[[Skyrim:Have Need of Cynric (Sabjorn)|Have Need of Cynric]]'' from Maven, and an empty display case. To the right is a small cupboard. The west wall has a set of shelves against it holding ten common books, a bottle of [[Skyrim:Alto Wine|alto wine]], and a bottle of wine. To the left on the floor is a [[Skyrim:Drum|drum]], and to the right is a small wooden table and two chairs. On the table is a bottle of alto wine, two honey nut treats, a common book, and a copy of the [[Skyrim:Alchemy|Alchemy]] [[Skyrim:Skill Books|skill book]] ''[[Skyrim:A Game at Dinner|A Game at Dinner]]''.
+
+The expert-locked door leads to a small room with two wall shelves behind the door on the north wall. On these is a medium [[Skyrim:Coin Purse|coin purse]] and some fine crockery, and next to them is a tall wardrobe containing fine clothes. Opposite, against the south wall is a long end table with three [[Skyrim:Silver Ingot|silver ingots]], a medium coin purse, a [[Skyrim:Silver Necklace|silver necklace]], an empty [[Skyrim:Strongbox|strongbox]], and the [[Skyrim:Honningbrew Decanter|Honningbrew Decanter]], a unique item prized by [[Skyrim:Delvin Mallory|Delvin Mallory]] as part of the quest [[Skyrim:The Litany of Larceny|The Litany of Larceny]]. To the right of the end table, on the floor, is a large coin purse.
+
+===Honningbrew Basement===
+[[File:SR-interior-Honningbrew Basement.jpg|left|thumb|Honningbrew Basement]]The basement only becomes accessible once you start the quest Dampened Spirits and receive the Honningbrew Meadery key from Sabjorn. Upon entering, you will see several dead skeevers and a bear trap in front of you. Off to the left is a [[Skyrim:Venomfang Skeever|skeever]] that has been magically enhanced to be poisonous, similarly to [[Skyrim:Frostbite Spider|frostbite spiders]]. The room contains several large vats and large stacks of unusable barrels. In the middle of the east wall is a set of shelves holding five bottles of Honningbrew Mead, and on the south wall, at the far end, are two barrels containing more bottles of Honningbrew Mead with a set of shelves that have been knocked over to reveal a tunnel behind. Two bear traps have been set in front of the hole.
+
+Just inside the tunnel is another dead skeever, near where the tunnel descends to the south. At the bottom, the tunnel turns to the east, then opens into a cave containing four more skeevers, some of which are venomous. The cave has quite a lot of vegetation that can obscure your view. On the ground are three bottles of Honningbrew Mead, and against the east wall a barrel containing more bottles of mead. To the north is a narrow tunnel leading onwards. Follow the tunnel as it continues to descend past a web sac containing a [[Skyrim:Skeever Tail|skeever tail]] near a [[Skyrim:Glowing Mushroom|glowing mushroom]] on the wall and takes three turns. Just after the final turn to the east, the tunnel opens into another cave, with several frostbite spiders, more web sacs, and many glowing mushrooms on the walls. Again to the north is a narrow tunnel, which after two turns opens into a cave containing only several unusable barrels, an unusable crate, and two bear traps. At the far end, a tunnel with a [[Skyrim:Tripwire|tripwire]] across the entrance that triggers a [[Skyrim:Swinging Mace|swinging mace]] trap descends to the east. Keep following the tunnel as it takes two turns before opening into another cave. You will be immediately spotted by a skeever, unless your [[Skyrim:Sneak|Sneak]] skill is exceptional. Also in the cave are several other skeevers, some venomous, and a mad alchemist named [[Skyrim:Hamelyn|Hamelyn]].
+
+Once they are all defeated, loot Hamelyn to find [[Skyrim:Hamelyn's Journal|his journal]], which explains how he was exiled from the [[Skyrim:College of Winterhold (faction)|College of Winterhold]] and jailed in Whiterun for being a danger and insane; he escaped the jail, and plotted his revenge against both the people of Whiterun and Winterhold. To the southeast you will find the skeever nest to the right of an [[Skyrim:Alchemy Lab|alchemy lab]]. Between the nest and the lab is a novice-locked [[Skyrim:Chest|chest]], two leveled [[Skyrim:Potions|potions]], and a copy of the Sneak skill book ''[[Skyrim:Three Thieves|Three Thieves]]''. To the north is another narrow tunnel that takes two turns as it rises and eventually leads to the basement under the boilery. At the exit from the tunnel are two more bear traps and another set of shelves that has been moved to reveal the tunnel. The basement contains many large vats and barrels, but only one, on your left as you enter the basement, contains bottles of Honningbrew Mead. At the far end, on the north wall, is a door leading up into the boilery itself.
+
+===Honningbrew Boilery===
+[[File:SR-interior-Honningbrew Boilery.jpg|left|thumb|Honningbrew Boilery interior]][[File:SR-place-Honningbrew Boilery.jpg|right|thumb|Honningbrew Boilery exterior]]
+The boilery contains four large boilers, three of which have fires under them. They are on a raised section in the middle of the room. To the right of the vat without the fire is a long wooden table with a bowl containing three bottles of Honningbrew Mead, two more separate bottles of mead, and a sweet roll. To the right of the table is a barrel containing more bottles of mead. Around the outside of the room are several crates, food sacks, barrels containing more bottles of mead, and a tall wardrobe containing fine clothes. In the middle of the north wall is a door leading outside, which is locked and requires the [[Skyrim:Honningbrew Brewhouse Key|Honningbrew Brewhouse key]] on the hook to the right of the door. To the left of the door is a flight of wooden stairs leading up to a balcony that runs around the edge of three of the walls to provide access to the lids of the boilers. At the top of the stairs is a small cupboard, and on the balcony are several food sacks and a few barrels containing more bottles of mead. In the middle of the east wall is an apprentice-locked chest containing minor loot. At the far end of the balcony is a dresser containing clothes.
+
+Once you have added the poison to the boiler, the quest objective will instruct you to return to Sabjorn. When you reenter the meadery, you will find the commander of the guard in Whiterun, [[Skyrim:Commander Caius|Commander Caius]], with Sabjorn standing behind the counter, and Mallus Maccius standing at the other end of the room. The skeevers and blood have been cleaned up, and Sabjorn has been delaying the commander awaiting the all-clear from you. Sabjorn will tell you that you'll have to wait until the end of the tasting for your pay. Once Sabjorn has been taken to [[Skyrim:Dragonsreach|Dragonsreach]] by the commander, you will be free to speak to Mallus, who, after a short monologue, will hand you the key to Sabjorn's dresser. The dresser contains a [[Skyrim:Promissory Note|promissory note]] and a few [[Skyrim:Gold|coins]]. Once you have returned to Maven, Mallus will be available as a [[Skyrim:Fence (merchant)|fence]].
+
+{{NewLeft}}
+==Notes==
+* The main building will respawn after ten days. However, ''Honningbrew Basement'' and ''Honningbrew Boilery'' never respawn.
+* Before the completion of the quest Dampened Spirits, there is a {{Shadowmark|Loot}} [[Skyrim:Shadowmarks (Thieves Guild)|shadowmark]] to the left of the entrance door, placed there because of the gold, silver necklace, silver ingots, and Honningbrew Decanter behind an expert-locked door inside.
+* Upon the completion of the quest Dampened Spirits, a {{Shadowmark|Fence}} shadowmark replaces the {{Shadowmark|Loot}} shadowmark, with Mallus Maccius as the fence, and "Black-Briar Meadery" signs replace the "Honningbrew Meadery" signs.
+* If you steal the Honningbrew Mead from the barrels in the back of the meadery before Dampened Spirits is finished and return here after finishing the quest, the barrels will refill themselves with Black-Briar Mead, allowing you to steal the mead again and make even more gold.
+* If you bring [[Skyrim:Serana|Serana]]{{DG}} here, she will occasionally approach the barrel [[Skyrim:Commander Caius|Commander Caius]] drinks from in Dampened Spirits, then pour and drink an invisible goblet of mead from it.
+* Despite Mallus suggesting it as an alternate point of entry, you cannot enter the brewhouse until after you make your way through the tunnels for the first time. The front door is unpickable and can only be unlocked using the key that you find inside the boilery.
+* During [[Skyrim:Battle for Whiterun|Battle for Whiterun]], the building will be apprentice-locked. If you pick the lock, Sabjorn will be back in charge with both him and Mallus Maccius telling you to get out and treating you as if they don't know you. You will be unable to trade with either of them.
+* According to [[Skyrim:Phinis Gestor|Phinis Gestor]], two men, [[Skyrim:Borvir|Borvir]] and [[Skyrim:Rundi|Rundi]], attempted to concoct something to compete with Honningbrew Mead by using frost magic to keep the mead cold for a short period of time.
+* [[Skyrim:Torvar|Torvar]] occasionally says ''"Might head down to the meadery later. See what they're brewing up. You can smell the honey on the wind."'' This indicates he might be a fan of Honningbrew Mead.
+* One [[Skyrim:Clay Deposit|clay deposit]]{{HF}} is beside the stone bridge on the river bank just northeast of the meadery.
+* All three Skyrim Atmospheres tracks that play in areas like [[Skyrim:Riverwood|Riverwood]] and [[Skyrim:Ivarstead|Ivarstead]] also play inside the main building, basement, and boilery.
+* ''Honning'' is the Danish and Norwegian word for ''honey''.
+
+==Bugs==
+{{Bug|If you break into the building before Dampened Spirits has begun, that quest may never become available after [[Skyrim:Loud and Clear|Loud and Clear]] is finished.|OSP|1.4|However, if this bug has already been triggered on a prior version to Patch 1.4, then the quest will remain unavailable on that save file even with the patch installed.}}
+{{Bug|After you finish Dampened Spirits, the Honningbrew Mead barrels outside of the meadery may not be changed to Black-Briar Mead barrels.|USKP|2.1.1|Proper enable parents have been added to the existing barrels as well as the created replacement barrels. The barrels were also missing their ownership settings.}}
+{{Bug|Two barrels in the basement of the building, right before the entrance to the cave, can be seen merged together in the same location with identical X, Y, and Z positions, but with different form ID's (000A6433 and 000A6434).|USKP|2.1.3|Both aforementioned barrels are now separate from each other.}}
+*Mallus Maccius may not have the option to sell merchandise here after Dampened Spirits is finished, despite offering to provide fence services. Instead, at odd hours of the day, he may respond as if you're barred from entering the building.
+
+{{Skyrim Settlements}}

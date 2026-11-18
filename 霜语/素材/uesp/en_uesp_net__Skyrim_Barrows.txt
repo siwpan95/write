@@ -1,1 +1,57 @@
-#REDIRECT [[Skyrim:Nordic Ruins]]
+<noinclude>{{Trail|Places}}{{#define:trimlinks|true}}[[Category:Skyrim-Dragonborn-Places| ]]
+[[File:SR-concept-Nordic_Ruins.jpg|thumb|right|400px|Concept art of Nordic Ruins]]
+[[File:SR-mapicon-Nordic Ruin.png|bottom]] This page lists all the '''Nordic ruins''' in [[Skyrim:Skyrim|Skyrim]].
+</noinclude>
+:{{Place Link|Angarvunde}}
+:{{Place Link|Ansilvund}}
+:{{Place Link|Arcwind Point}}
+:{{Place Link|Bleak Falls Barrow (place)}}
+:{{Place Link|Blind Cliff Bastion}}
+:{{Place Link|Bloodskal Barrow}}
+:{{Place Link|Bromjunaar Sanctuary}}
+:{{Place Link|Champion's Rest}}
+:{{Place Link|Dead Men's Respite}}
+:{{Place Link|Deepwood Redoubt}}
+:{{Place Link|Dustman's Cairn}}
+:{{Place Link|Folgunthur}}
+:{{Place Link|Forelhost}}
+:{{Place Link|Frostmere Crypt}}
+:{{Place Link|Geirmund's Hall}}
+:{{Place Link|Gyldenhul Barrow}}
+:{{Place Link|Hag Rock Redoubt}}
+:{{Place Link|Hag's End}}
+:{{Place Link|High Gate Ruins}}
+:{{Place Link|Hillgrund's Tomb}}
+:{{Place Link|Ironbind Barrow}}
+:{{Place Link|Kilkreath Ruins}}
+:{{Place Link|Kolbjorn Barrow}}
+:{{Place Link|Korvanjund}}
+:{{Place Link|Labyrinthian}}
+:{{Place Link|Lost Valley Redoubt}}
+:{{Place Link|Ragnvald}}
+:{{Place Link|Rannveig's Fast}}
+:{{Place Link|Saarthal}}
+:{{Place Link|Shalidor's Maze}}
+:{{Place Link|Shriekwind Bastion}}
+:{{Place Link|Shroud Hearth Barrow}}
+:{{Place Link|Silent Moons Camp}}
+:{{Place Link|Silverdrift Lair}}
+:{{Place Link|Sivdur's Respite}}
+:{{Place Link|Skuldafn}}
+:{{Place Link|Snow Veil Sanctum}}
+:{{Place Link|Twilight Sepulcher}}
+:{{Place Link|Ustengrav}}
+:{{Place Link|Vahlok's Tomb}}
+:{{Place Link|Valthume}}
+:{{Place Link|Volskygge}}
+:{{Place Link|Volunruud}}
+:{{Place Link|White Ridge Barrow}}
+:{{Place Link|Yngol Barrow}}
+:{{Place Link|Ysgramor's Tomb}}
+
+==Notes==
+*Version 2.0.9 of the [[Skyrim Mod:Unofficial Skyrim Patch|Unofficial Skyrim Patch]] replaces [[Skyrim:Yngvild|Yngvild]]'s [[Skyrim:Caves|cave]] map icon with the one used for Nordic ruins.
+
+==See Also==
+* [[Skyrim:Nordic_Dwellings|Nordic Dwellings]]
+* [[Skyrim:Towers|Nordic Towers]]

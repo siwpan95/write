@@ -1,0 +1,667 @@
+{{Trail|Add-ons}}{{Protection|semi|full}}{{Mod Header|Creation Club|icon=SR-misc-Creation Club Logo.png}}__NOTOC__[[File:SR-misc-Creation Club Logo.png|frameless|right]]<onlyinclude>
+'''{{nbsl|Skyrim:Creation Club|Creation Club}}''' was an in-game [[wikipedia:Microtransaction|microtransactional]] store for [[Skyrim:Special Edition|Skyrim Special Edition]]. A [[wikipedia:Virtual goods|virtual currency]] called '''Creation Club Credits''' was sold within it, which was used to purchase unique [[Skyrim:Add-ons|add-ons]] called [[Skyrim:Creations|Creations]]. Each Creation released through Creation Club is official [[General:Bethesda|Bethesda]] content, developed with third-party developers and contracted [[Skyrim Mod:Mods|mod]] authors. As official content, Creation Club content does not disable [[Skyrim:Achievements|achievement]] acquisition.
+
+The service entered beta on September 28, 2017 and officially launched on October 4, 2017. It was never available for [[SR:Skyrim VR|Skyrim VR]].
+
+All 74 Creations are included in the [[Skyrim:Anniversary Edition|Anniversary Edition]]. Special Edition and [[SR:Switch|Switch]] users also receive free access to four Creations: [[Skyrim:Fishing|Fishing]], [[Skyrim:Rare Curios|Rare Curios]], [[Skyrim:Survival Mode|Survival Mode]], and [[Skyrim:Saints & Seducers|Saints & Seducers]]. Several other discounted Creations were offered for free either on a permanent or temporary basis. On Switch, the Anniversary Upgrade with all the Creations is available, but not the Creation Club itself.
+
+As of December 5, 2023, Creation Club has been retired and the Verified Creator Program is intended to be its replacement. While Creation Club Creations are considered official content, [[Skyrim Mod:Verified Creator Program|Verified Creator Program]] Creations are considered third party [[Skyrim Mod:Mods|mods]].</onlyinclude>
+
+For a spoiler-free guide to help you find all of the Creation Club content, see [[Skyrim:Creation Club First Time Players|Creation Club First Time Players]].
+
+==Creations==
+There are many Creation Club Creations that are available for purchase. They are organized into categories, including a Featured category that showed off Creations that were new or on sale.
+
+Creations may occasionally be put on sale or made available for free; for example, Dwarven Armored Mudcrab was usually 100% off.
+
+{|class="wikitable sortable"
+!colspan=2 width=12%|Creation!!width=10%|Release Date!!data-sort-type="number" width=5%|Credits!!width=5%|Categories!!class=unsortable|Description
+|-
+![[File:SR-menu-Survival Mode.jpg|90px|link=Skyrim:Survival Mode]]
+![[Skyrim:Survival Mode|{{Anchor|Survival Mode}}]]
+|style=text-align:center data-sort-value="September 28, 2017"|September 28, 2017 (beta)<br/>October 4, 2017
+|style=text-align:center data-sort-value=0|<s>500</s>
+----
+Free
+|style=text-align:center|Gameplay
+|''In Survival Mode, your greatest adversary is Skyrim itself. Unrelenting cold, harsh wilderness, famine and fatigue -  do you have the strength to endure? (Creation can be turned on or off in Settings menu. For details, consult Help Menu.)''
+|-
+![[File:SR-menu-Arcane Accessories.jpg|90px|link=Skyrim:Arcane Accessories]]
+![[Skyrim:Arcane Accessories|{{Anchor|Arcane Accessories}}]]
+|style=text-align:center|October 4, 2017
+|style=text-align:center|100
+|style=text-align:center|Apparel<br>Weapons
+|''From robes that grant spellcasting bonuses, to ancient tomes holding powerful spells like Paralysis Rune and Unbounded Frost, this pack will increase any mage's effectiveness. (Robes and Spells can be purchased at vendors and appear in containers.)''
+|-
+![[File:SR-menu-Arcane Archer Pack.jpg|90px|link=Skyrim:Arcane Archer Pack]]
+![[Skyrim:Arcane Archer Pack|{{Anchor|Arcane Archer Pack}}]]
+|style=text-align:center|October 4, 2017
+|style=text-align:center|150
+|style=text-align:center|Weapons
+|''Give your hunting a magickal advantage with equipment specially designed for archers, like Telekinesis Arrows, Soul Stealer Arrows, Fire and Ice Arrows, Lightning Arrows, and a unique power that equips a Bound Quiver. (Telekinesis arrows are found in The Arcanaeum in the College of Winterhold, Soul Stealer Arrows can be found in Kagrumez. All other arrows can be purchased at vendors & appear in containers.)''
+|-
+![[File:SR-menu-Chrysamere.jpg|90px|link=Skyrim:Chrysamere]]
+![[Skyrim:Chrysamere|{{Anchor|Chrysamere}}]]
+|style=text-align:center|October 4, 2017
+|style=text-align:center|300
+|style=text-align:center|Weapons
+|''Known as the Paladin's Blade and Sword of Heroes, this legendary claymore is imbued with powerful magic, like Fire Resistance, Spell Absorption, and devastating damage. (Weapon can be found in Forelhost southeast of Riften.)''
+|-
+![[File:SR-menu-Divine Crusader.jpg|90px|link=Skyrim:Divine Crusader]]
+![[Skyrim:Divine Crusader|{{Anchor|Divine Crusader}}]]
+|style=text-align:center|October 4, 2017
+|style=text-align:center|500
+|style=text-align:center|Apparel<br>Weapons
+|''Now you, too, can wield the powerful equipment of the Divine Crusader, Pelinal Whitestrake - once reserved only for the revered Knights of the Nine. Created by Maty743. (Armor can be found by exploring Four Skull Lookout far east-northeast of Markarth.)''
+|-
+![[File:SR-menu-Plague of the Dead.jpg|90px|link=Skyrim:Plague of the Dead]]
+![[Skyrim:Plague of the Dead|{{Anchor|Plague of the Dead}}]]
+|style=text-align:center|October 4, 2017
+|style=text-align:center|400
+|style=text-align:center|Creatures<br>Gameplay
+|''In Skyrim, when the sun falls, the dead rise! Beat back the zombie hordes, and retrieve valuable Mort Flesh.  (Creations appear at night at certain locations in the world and through a quest.) (Quest "The Rising Dead" starts by reading an Anonymous Letter delivered by courier upon reaching level 5.)''
+|-
+![[File:SR-menu-Ruin's Edge.jpg|90px|link=Skyrim:Ruin's Edge]]
+![[Skyrim:Ruin's Edge|{{Anchor|Ruin's Edge}}]]
+|style=text-align:center|October 4, 2017
+|style=text-align:center|400
+|style=text-align:center|Weapons
+|''Wield this deadly dark bow, favored weapon of Syl, the Duchess of Dementia. Each arrow shot has the chance to cast a spell, like Paralyze, Silence, Demoralize, or Frenzy. (Weapon is located in Stony Creek Cave far southeast of Windhelm.)''
+|-
+![[File:SR-menu-Staff of Sheogorath.jpg|90px|link=Skyrim:Staff of Sheogorath]]
+![[Skyrim:Staff of Sheogorath|{{Anchor|Staff of Sheogorath}}]]
+|style=text-align:center|October 4, 2017
+|style=text-align:center|250
+|style=text-align:center|Weapons
+|''Symbol of office for the Madgod Sheogorath, this grotesque staff has the power to stop opponents in their tracks. Also included is a bonus artifact, the Fork of Horripilation. (Quest "Put a Fork in it" starts by reading a "Mysterious Note" at The Retching Netch in Raven Rock.)''
+|-
+![[File:SR-menu-Stendarr's Hammer.jpg|90px|link=Skyrim:Stendarr's Hammer]]
+![[Skyrim:Stendarr's Hammer|{{Anchor|Stendarr's Hammer}}]]
+|style=text-align:center|October 4, 2017
+|style=text-align:center data-sort-value=100|<s>200</s>
+----
+100
+|style=text-align:center|Weapons
+|''Rumored to have been wielded by Stendarr, the God of Righteous Might and Merciful Forbearance himself, this two-handed hammer will deliver devastation to any foe. (Weapon can be stolen from the Dwemer Museum in Markarth)''
+|-{{ThickLine}}
+![[File:SR-menu-Dwarven Armored Mudcrab.jpg|90px|link=Skyrim:Dwarven Armored Mudcrab]]
+![[Skyrim:Dwarven Armored Mudcrab|{{Anchor|Dwarven Armored Mudcrab}}]]
+|style=text-align:center|November 30, 2017
+|style=text-align:center data-sort-value=0|<s>50</s>
+----
+Free
+|style=text-align:center|Creatures
+|''It's a mystery how, why, or where this faithful companion received his special armor, but one thing's for certain - nobody's seen a Mudcrab like this before. (Pet can be purchased from Calcelmo in Markarth.)''
+|-
+![[File:SR-menu-Lord's Mail.jpg|90px|link=Skyrim:Lord's Mail]]
+![[Skyrim:Lord's Mail|{{Anchor|Lord's Mail}}]]
+|style=text-align:center|November 30, 2017
+|style=text-align:center data-sort-value=150|<s>300</s>
+----
+150
+|style=text-align:center|Apparel
+|''The legendary Imperial relic known as The Lord's Mail is rumored to be in the possession of Redguard mercenaries. The Imperial Legion has ordered you to retrieve it by any means. (Quest "Gift of Kynareth" starts by reading "Letter to General Tullius" at Castle Dour in Solitude.)''
+|-{{ThickLine}}
+![[File:SR-menu-Adventurer's Backpack.jpg|90px|link=Skyrim:Adventurer's Backpack]]
+![[Skyrim:Adventurer's Backpack|{{Anchor|Adventurer's Backpack}}]]
+|style=text-align:center|April 5, 2018
+|style=text-align:center|400
+|style=text-align:center|Apparel<br>Gameplay
+|''Don't head off into the wilderness without your Adventurer's Backpack. Craft 16 variations with assorted effects! Created by Rob Vogel (fadingsignal). (Backpacks can be purchased at vendors and crafted via Forge.)''
+|-
+![[File:SR-menu-Camping.jpg|90px|link=Skyrim:Camping]]
+![[Skyrim:Camping|{{Anchor|Camping}}]]
+|style=text-align:center|April 5, 2018
+|style=text-align:center|300
+|style=text-align:center|Gameplay<br>World
+|''Make Skyrim that much more accommodating with this cozy movable campsite, complete with a lean-to for sleeping, campfire for warmth and some cooking, and a new fast travel marker (Creation craftable via Forge)''
+|-
+![[File:SR-menu-Nix-Hound.jpg|90px|link=Skyrim:Nix-Hound]]
+![[Skyrim:Nix-Hound|{{Anchor|Nix-Hound}}]]
+|style=text-align:center|April 5, 2018
+|style=text-align:center|200
+|style=text-align:center|Creatures
+|''Found in the wilderness of Solstheim, a tamed Nix-Hound can be adopted as your faithful companion. Nix-Hounds can carry items, and scrounge for useful ingredients. (Pet can be purchased from Revus Sarvani near Tel Mithryn or Geldis Sadri at {{sic|the The|The|description=duplicate word}} Retching Netch Corner Club in Raven Rock if the former is deceased.  Hostile Nix-Hounds can be found in the Solstheim wilderness.)''
+|-
+![[File:SR-menu-Shadowrend.jpg|90px|link=Skyrim:Shadowrend]]
+![[Skyrim:Shadowrend|{{Anchor|Shadowrend}}]]
+|style=text-align:center|April 5, 2018
+|style=text-align:center|300
+|style=text-align:center|Weapons
+|''To obtain the legendary Shadowrend – an enchanted sword or battleaxe of tremendous power – you need only face the most worthy foe imaginable: yourself. Quest implemented by Richard "unoctium" Edwards (Quest "Through a Glass, Darkly" starts by claiming the weapon in the hot springs near the Atronach Stone.)''
+|-
+![[File:SR-menu-Tundra Homestead.jpg|90px|link=Skyrim:Tundra Homestead]]
+![[Skyrim:Tundra Homestead|{{Anchor|Tundra Homestead}}]]
+|style=text-align:center|April 5, 2018
+|style=text-align:center|300
+|style=text-align:center|World
+|''Tundra Homestead provides a cozy cottage just outside Whiterun. Complete with crafting stations and fully furnished, this home is a quiet getaway from adventuring. Full support for spouses and adopted children included.  Created by Elianora. (House outside the city is purchased from the Jarl's Steward in Dragonsreach.)''
+|-{{ThickLine}}
+![[File:SR-menu-Myrwatch.jpg|90px|link=Skyrim:Myrwatch]]
+![[Skyrim:Myrwatch|{{Anchor|Myrwatch}}]]
+|style=text-align:center|August 29, 2018
+|style=text-align:center|400
+|style=text-align:center|World
+|''Deep in the heart of Hjaalmarch lies a tower of unknown provenance. Legends say it was a home and hearth, an exquisitely decorated residence built by mages who defected from the College of Winterhold. But whatever its secrets, the truth can only be known by finding a way in. Created by Elianora. (Quest "Myrwatch" starts by traveling to the tower east of Morthal, and reading "Hans's Journal" nearby.)''
+|-
+![[File:SR-menu-Nordic Jewelry.jpg|90px|link=Skyrim:Nordic Jewelry]]
+![[Skyrim:Nordic Jewelry|{{Anchor|Nordic Jewelry}}]]
+|style=text-align:center|August 29, 2018
+|style=text-align:center|200
+|style=text-align:center|Apparel
+|''Beset with a jewel made of the highest quality stalhrim, these elegant, handcrafted jewelry pieces combine traditional Nordic design with an elegance fit for a Jarl. Each gem is expertly chosen for its purity, color, and magical affinity. The ornate setting is made of the finest quicksilver that is guaranteed to retain its finish. Choose from three craftable options including a Nordic amulet, ring, or circlet, and travel the holds of Skyrim with style and grace. (Quest "Nordic Jewelry" starts by reading the Certificate of Authenticity obtained if you buy Nordic jewelry from Madesi, Bersi Honey-Hand, Endarie, or Belethor.)''
+|-
+![[File:SR-menu-Pets of Skyrim.jpg|90px|link=Skyrim:Pets of Skyrim]]
+![[Skyrim:Pets of Skyrim|{{Anchor|Pets of Skyrim}}]]
+|style=text-align:center|August 29, 2018
+|style=text-align:center|300
+|style=text-align:center|Creatures
+|''Become a powerful beastmaster with the Skyrim Pet Pack. Rescue tamed creatures and recruit them as your trusted followers. Use their unique abilities to adapt and thrive as you explore the breadth of Skyrim. From stealthy foxes to web-spinning spiders - as well as goats, rabbits, and skeevers - you can recruit the pet that best matches your gameplay. With five different animal species to choose from, there's a fun and furry companion for every adventurer. (Quest "Pets of Skyrim" starts by reading the note For Sale in The Bannered Mare.)''
+|-
+![[File:SR-menu-Rare Curios.jpg|90px|link=Skyrim:Rare Curios]]
+![[Skyrim:Rare Curios|{{Anchor|Rare Curios}}]]
+|style=text-align:center|August 29, 2018
+|style=text-align:center data-sort-value=0|<s>100</s>
+----
+Free
+|style=text-align:center|Gameplay
+|''Alchemists have always known that the rarest ingredients bring life to the most powerful potions. This is why Khajiit caravans have brought along rare imports from the far reaches of Tamriel, from the Ashlands of Morrowind to the twisted gardens of the Shivering Isles. With these ingredients in hand, you can craft new potions, arrows, and poisons, including the poisoned apple favored by assassins. You can also find rare stones crafted by the Ayleids, as things exotic and foreign make their way to Skyrim. (Items added to Khajiit merchant vendors.)''
+|-{{ThickLine}}
+![[File:SR-menu-Bone Wolf.jpg|90px|link=Skyrim:Bone Wolf]]
+![[Skyrim:Bone Wolf|{{Anchor|Bone Wolf}}]]
+|style=text-align:center|October 4, 2018
+|style=text-align:center|200
+|style=text-align:center|Creatures
+|''Despite being raised by necromancers, a Bone Wolf's true loyalty is earned through actions rather than magic. A faithful companion with a bone to pick, this skeletal pet will reward your friendship by carrying items and boosting your damage against the undead. Quest created by Skinnytecboy. (Quest "Let Sleeping Wolves Lie" starts by reading the Letter from Bolgeir Bearclaw delivered by courier after completion of "The Wolf Queen Awakened".)''
+|-
+![[File:SR-menu-Staff of Hasedoki.jpg|90px|link=Skyrim:Staff of Hasedoki]]
+![[Skyrim:Staff of Hasedoki|{{Anchor|Staff of Hasedoki}}]]
+|style=text-align:center|October 4, 2018
+|style=text-align:center|250
+|style=text-align:center|Weapons
+|''It's said the wizard Hasedoki traveled all of Tamriel in search of his equal, before binding his soul to a staff. Through the years this mysterious weapon has changed many hands, as if warding off anyone who isn't worthy enough to claim it. Now, it's your turn. Quest created by Kris Takahashi. (Quest "The Staff of Hasedoki" starts by reading the Smuggler's Trade Notes at the bandit camp west of Dragonsreach.)''
+|-
+![[File:SR-menu-Wild Horses.jpg|90px|link=Skyrim:Wild Horses]]
+![[Skyrim:Wild Horses|{{Anchor|Wild Horses}}]]
+|style=text-align:center|October 4, 2018
+|style=text-align:center|500
+|style=text-align:center|Creatures<br>Gameplay
+|''The horses of Skyrim are hardy and strong, and taming them requires grit and patience. Use a hostler's map to find these animals in the wild and mount them, and try not to get bucked! Once tamed, you can register them at the nearest stable and customize their saddles, as well as the saddles of any other horse you own. You may even find the rare unicorn brought back from dead, to right a wrong of the past. (Quest to find a unicorn, "Creature of Legend," can be found by reading Soran's Journal at the Arcanaeum. A map to other horses may be purchased at any hostler.)''
+|-{{ThickLine}}
+![[File:SR-menu-Civil War Champions.jpg|90px|link=Skyrim:Civil War Champions]]
+![[Skyrim:Civil War Champions|{{Anchor|Civil War Champions}}]]
+|style=text-align:center|December 6, 2018
+|style=text-align:center|600
+|style=text-align:center|Apparel<br>Weapons
+|''In the midst of an unending war, the Stormcloaks and Imperials have agreed to a duel. Two champions are to meet on the field of battle, to decide once and for all whose warriors are the fiercest. Choose a side, don the armor of the champion, and prove your mettle. Created by Borja "Borx25" Franco. Quest created by Kris Takahashi. (Quest "Battle of the Champions" starts by reading Battle of Champions at The Drunken Huntsman in Whiterun or waiting for a letter from a commanding officer.)''
+|-
+![[File:SR-menu-Elite Crossbows.jpg|90px|link=Skyrim:Elite Crossbows]]
+![[Skyrim:Elite Crossbows|{{Anchor|Elite Crossbows}}]]
+|style=text-align:center|December 6, 2018
+|style=text-align:center|400
+|style=text-align:center|Weapons
+|''The crossbow has long been the weapon of choice for skilled hunters, whether the prey be animals of the forest or creatures of the night. Forged from the rarest of metals, the Ebony and Elven crossbows represent two of the most deadly ranged weapons in all of Tamriel. (Quest "Night Hunter" starts by reading Kragrash's Letter at Ironback Hideout northwest of Solitude.)''
+|-
+!data-sort-value="SR-menu-Forgotten Seasons"|[[File:SR-prerelease-Forgotten Seasons 05.jpg|90px|link=Skyrim:Forgotten Seasons]]
+![[Skyrim:Forgotten Seasons|{{Anchor|Forgotten Seasons}}]]
+|style=text-align:center|December 6, 2018
+|style=text-align:center|1200
+|style=text-align:center|Apparel<br>Creatures<br>Gameplay<br>World
+|''Forgotten Seasons offers a brand new dungeon adventure featuring work from a number of creators. In addition to its spacious exploration, the creation provides a myriad of unique rewards including a new mount, armor, items, and perks, many of which feature custom art assets and designs. Created by Trainwiz. Dwarven Crown by PrivateEye. Additional art support by Elianora. Additional art support by Rob Vogel "fadingsignal". Additional design by Kris Takahashi. (Search for the Runoff Caverns west of Lost Valley Redoubt.)''
+|-
+![[File:SR-menu-Saturalia Holiday Pack.jpg|90px|link=Skyrim:Saturalia Holiday Pack]]
+![[Skyrim:Saturalia Holiday Pack|{{Anchor|Saturalia Holiday Pack}}]]
+|style=text-align:center|December 6, 2018
+|style=text-align:center|300
+|style=text-align:center|Apparel<br>Creatures
+|''Once known as a day of debauchery, Saturalia has since transformed into a time of gift giving and cheer. Celebrate the holidays with these festive Saturalia garments, and spread merriment across Skyrim on your very own reindeer! Created by Virginia "Steelfeathers" Smith (Outfit and mount obtained from Agrane Peryval, west of Dawnstar.)''
+|-
+![[File:SR-menu-Sunder & Wraithguard.jpg|90px|link=Skyrim:Sunder & Wraithguard]]
+![[Skyrim:Sunder & Wraithguard|{{Anchor|Sunder & Wraithguard}}]]
+|style=text-align:center|December 6, 2018
+|style=text-align:center|500
+|style=text-align:center|Apparel<br>Weapons
+|''Crafted by the Dwemer Tonal Architect Lord Kagrenac, Sunder and Wraithguard represent two of the three tools created to tap into the Heart of Lorkhan. Imbued with ancient magic, the weapons are said to empower not only their wielder, but each other. Additional Art Support by Elianora. (Quest "Legends Lost" starts by reading the Lost Caravan Guard's Note at the New Gnisis Cornerclub in Windhelm.)''
+|-
+![[File:SR-menu-Vigil Enforcer Armor Set.jpg|90px|link=Skyrim:Vigil Enforcer Armor Set]]
+![[Skyrim:Vigil Enforcer Armor Set|{{Anchor|Vigil Enforcer Armor Set}}]]
+|style=text-align:center|December 6, 2018
+|style=text-align:center|600
+|style=text-align:center|Apparel
+|''While Stendarr may offer mercy, the Vigil have none to spare. Among the ranks of these holy warriors are armored paladins who shed their priestly robes for hide and steel. Collect and craft four unique armor sets and deliver Stendarr's justice to both the abominations and those corrupted by them. Created by Maty743. Quest created by Kris Takahashi. (Quest "Unholy Vigil" starts by reading the Letter to Keeper Carcette in the Hall of the Vigilant south of Dawnstar.)''
+|-{{ThickLine}}
+![[File:SR-menu-Arms of Chaos.jpg|90px|link=Skyrim:Arms of Chaos]]
+![[Skyrim:Arms of Chaos|{{Anchor|Arms of Chaos}}]]
+|style=text-align:center|March 14, 2019
+|style=text-align:center|500
+|style=text-align:center|Apparel<br>Weapons
+|''The original Staff of Chaos, or Balac-thurm, was shattered into pieces and lost to time. In the years since, mages have sought to recreate its magic. Follow the path of these mages as you obtain an ancient ring and restore the artifacts of chaos, including two new staves and an enchanted amulet! Creation by PrivateEye. Quest by Kris Takahashi. (Quest "The Arms of Chaos" starts by reading Hyenril's Journal at Skytemple Ruins, north of the College of Winterhold.)''
+|-
+![[File:SR-menu-Shadowfoot Sanctum.jpg|90px|link=Skyrim:Shadowfoot Sanctum]]
+![[Skyrim:Shadowfoot Sanctum|{{Anchor|Shadowfoot Sanctum}}]]
+|style=text-align:center|March 14, 2019
+|style=text-align:center|400
+|style=text-align:center|World
+|''A thief does not fear the dark, for they call the shadows home. Shadowfoot Sanctum is a brand new player domicile nestled in the dark underbelly of the Riften Ratways. With a secret sewer entrance and easy access to the Thieves Guild, Shadowfoot Sanctum provides both convenience and concealment for any aspiring thief, as well as a secret room to display your spoils with discretion. Created by Elianora. (House can be purchased from Vekel the Man in the Ragged Flagon in the Riften Ratway.)''
+|-
+![[File:SR-menu-Spell Knight Armor.jpg|90px|link=Skyrim:Spell Knight Armor]]
+![[Skyrim:Spell Knight Armor|{{Anchor|Spell Knight Armor}}]]
+|style=text-align:center|March 14, 2019
+|style=text-align:center|400
+|style=text-align:center|Apparel<br>Gameplay
+|''Adorn the armor of the Spell Knight, the Keepers of the Crypt of Hearts, renowned throughout High Rock for their bravery and valor. Learn the story of the Spell Knight whose heart was stolen by a witch and obtain the armor that was their standard. The Spell Knight Armor comes in three variants, including iron, steel, and ebony! Creation by ElleH. Quest by Kris Takahashi (Quest "Crypt of the Heart" starts by reading Crypt of the Heart - Draft at the Silver-Blood Inn in Markarth.)''
+|-
+![[File:SR-menu-Umbra.jpg|90px|link=Skyrim:Umbra]]
+![[Skyrim:Umbra|{{Anchor|Umbra}}]]
+|style=text-align:center|March 14, 2019
+|style=text-align:center|500
+|style=text-align:center|Weapons
+|''The history of this Daedric artifact is recounted in the rise and fall of those that have wielded it. Forged from wicked hands and vile mind, legend says that Umbra itself lives. Umbra introduces a brand new dungeon to Skyrim featuring stunning visuals, puzzle solving, and an exhilarating boss fight! Additional Art Support by Elianora. (Quest "Vile Whispers" starts by reading the Vigilant's Report in Champion's Rest, found in the mountains north-northeast of Riften.)''
+|-{{ThickLine}}
+![[File:SR-menu-Alternative Armors - Dwarven Mail.png|90px|link=Skyrim:Alternative Armors - Dwarven Mail]]
+![[Skyrim:Alternative Armors - Dwarven Mail|{{Anchor|Alternative Armors - Dwarven Mail}}]]
+|style=text-align:center|June 13, 2019
+|style=text-align:center|100
+|style=text-align:center|Apparel
+|''Includes four pieces of light Dwarven Mail armor as featured in The Elder Scrolls: Blades!. (Quest "Fan Favorite" starts by reading Arena Fan's Note at a camp southeast of Ivarstead.)''
+|-
+![[File:SR-menu-Alternative Armors - Stalhrim Fur.png|90px|link=Skyrim:Alternative Armors - Stalhrim Fur]]
+![[Skyrim:Alternative Armors - Stalhrim Fur|{{Anchor|Alternative Armors - Stalhrim Fur}}]]
+|style=text-align:center|June 13, 2019
+|style=text-align:center|100
+|style=text-align:center|Apparel
+|''Includes four pieces of heavy Stalhrim armor as featured in The Elder Scrolls: Blades! Quest by Kris Takahashi. (Quest "Ancient Ice" starts by reading Skjol's Journal at the camp south-southwest of Skaal Village.)''
+|-
+![[File:SR-menu-Dawnfang & Duskfang.jpg|90px|link=SR:Dawnfang & Duskfang]]
+![[Skyrim:Dawnfang & Duskfang|{{Anchor|Dawnfang & Duskfang}}]]
+|style=text-align:center|June 13, 2019
+|style=text-align:center|500
+|style=text-align:center|Weapons
+|''Sealed away in the depths of the Riften Ratways is a dark and terrible secret, and at its heart, a sword of two minds. Transformed by the light of the sun and the moons, Dawnfang and Duskfang grants you the power to wield fire and ice and drink the souls of the vanquished. But to do that, you must first free the soul that binds it. Quest created by Skinnytecboy. (Quest "A Soul Divided" starts by exploring the Riften Ratway)''
+|-
+![[File:SR-menu-Expanded Crossbow Pack.png|90px|link=Skyrim:Expanded Crossbow Pack]]
+![[Skyrim:Expanded Crossbow Pack|{{Anchor|Expanded Crossbow Pack}}]]
+|style=text-align:center|June 13, 2019
+|style=text-align:center|750
+|style=text-align:center|Weapons
+|''Available now at the Fletcher in Solitude, eight crossbows made from the finest Tamrielic materials! Choose from simple but elegant crossbows of Imperial, Orcish, Silver, or Nordic design, or high grade versions of Glass, Stalhrim, Daedric and Dragonbone! Purchase these finely assembled weapons at the Fletcher, or acquire one and learn to craft them yourself! Created by Borja "Borx25" Franco.''
+|-
+![[File:SR-menu-Netch Leather Armor.png|90px|link=Skyrim:Netch Leather Armor]]
+![[Skyrim:Netch Leather Armor|{{Anchor|Netch Leather Armor}}]]
+|style=text-align:center|June 13, 2019
+|style=text-align:center|600
+|style=text-align:center|Apparel
+|''A tribe of hungry Rieklings seeks your aid to help hunt down a large bull netch. It's not the meat or jelly they wish to consume, however, but its leather. Help the tribe sate their stomachs or save them from their misguided appetites. Featuring the return of Netch Leather armor, including two additional skins. Quest by Kris Takahashi. (Quest "More Than You Can Chew" starts by reading the Peddler's Journal on a body of a Dark Elf north-northwest of Skaal Village, and southeast of Haknir's Shoal.)''
+|-{{ThickLine}}
+![[File:SR-menu-Alternative Armors - Daedric Mail.jpg|90px|link=Skyrim:Alternative Armors - Daedric Mail]]
+![[Skyrim:Alternative Armors - Daedric Mail|{{Anchor|Alternative Armors - Daedric Mail}}]]
+|style=text-align:center|July 25, 2019
+|style=text-align:center|100
+|style=text-align:center|Apparel
+|''Includes three pieces of light Daedric armor as featured in The Elder Scrolls: Blades! Quest by Kris Takahashi. (Quest "Missing Merchant" starts by speaking to the innkeeper of Candlehearth Hall in Windhelm.)''
+|-
+![[File:SR-menu-Alternative Armors - Dragonscale.jpg|90px|link=Skyrim:Alternative Armors - Dragonscale]]
+![[Skyrim:Alternative Armors - Dragonscale|{{Anchor|Alternative Armors - Dragonscale}}]]
+|style=text-align:center|July 25, 2019
+|style=text-align:center|100
+|style=text-align:center|Apparel
+|''Includes four pieces of light Dragonscale armor as featured in The Elder Scrolls: Blades! Quest by Kris Takahashi. (Quest "Tilted Scales" starts by reading The Crimson Dirks, v4 in Candlehearth Hall in Windhelm.)''
+|-
+![[File:SR-menu-Alternative Armors - Elven Hunter.jpg|90px|link=Skyrim:Alternative Armors - Elven Hunter]]
+![[Skyrim:Alternative Armors - Elven Hunter|{{Anchor|Alternative Armors - Elven Hunter}}]]
+|style=text-align:center|July 25, 2019
+|style=text-align:center|100
+|style=text-align:center|Apparel
+|''Includes three pieces of light Elven Hunter armor as featured in The Elder Scrolls: Blades! Quest by Kris Takahashi. (Quest "Once a Hunter" starts by reading Guard Dossier: Aesrael in the Falkreath Barracks.)''
+|-{{ThickLine}}
+![[File:SR-menu-Alternative Armors - Ebony Plate.jpg|90px|link=Skyrim:Alternative Armors - Ebony Plate]]
+![[Skyrim:Alternative_Armors - Ebony Plate|{{Anchor|Alternative Armors - Ebony Plate}}]]
+|style=text-align:center|November 20, 2019
+|style=text-align:center|100
+|style=text-align:center|Apparel
+|''Includes four pieces of heavy Ebony armor as featured in The Elder Scrolls: Blades! Quest by Kris Takahashi. (Quest "Heart of Crimson" starts by reading the Letter from Tyra Blood-Fire delivered by courier upon reaching level 32.)''
+|-
+![[File:SR-menu-Alternative Armors - Steel Soldier.jpg|90px|link=Skyrim:Alternative Armors - Steel Soldier]]
+![[Skyrim:Alternative Armors - Steel Soldier|{{Anchor|Alternative Armors - Steel Soldier}}]]
+|style=text-align:center|November 20, 2019
+|style=text-align:center|100
+|style=text-align:center|Apparel
+|''Includes four pieces of heavy Steel armor as featured in The Elder Scrolls: Blades! Quest by Kris Takahashi. (Quest "Over the Edge" starts by reading Suicide at Dragon Bridge in Four Shields Tavern at Dragon Bridge.)''
+|-
+![[File:SR-menu-Dead Man's Dread.jpg|90px|link=Skyrim:Dead Man's Dread]]
+![[Skyrim:Dead Man's Dread|{{Anchor|Dead Man's Dread}}]]
+|style=text-align:center|November 20, 2019
+|style=text-align:center|750
+|style=text-align:center|Apparel<br>Weapons
+|''Shanties from across Tamriel sing of Cyrus, the hero of Stros M'Kai. Some believe he ventured north, on the legendary ship Dead Man's Dread. Find the lost ship, retrieve the treasures of Cyrus, and learn the fate of its crew. Includes two weapons, multiple new outfits, as well as naval home. Quest created by Kris Takahashi. Additional art support by Elianora. (Quest "The Restless" starts by reading the book The Restless at The Winking Skeever in Solitude.)''
+|-
+![[File:SR-menu-Goblins.jpg|90px|link=Skyrim:Goblins]]
+![[Skyrim:Goblins|{{Anchor|Goblins}}]]
+|style=text-align:center|November 20, 2019
+|style=text-align:center|400
+|style=text-align:center|Creatures
+|''From the caves of Cyrodiil comes a horde of these feisty green creatures, led by a mysterious "Blue God" wielding a Goblin Staff. Includes new encounters, an ingredient, and a recruitable goblin! Quest by Kris Takahashi. Art support by ElleH. (Quest "Blue in the Face" starts by reading Letter to Clexius at The Bee and Barb in Riften.)''
+|-
+![[File:SR-menu-Saints & Seducers.jpg|90px|link=Skyrim:Saints & Seducers]]
+![[Skyrim:Saints & Seducers|{{Anchor|Saints & Seducers}}]]
+|style=text-align:center|November 20, 2019
+|style=text-align:center data-sort-value=0|<s>1500</s>
+----
+Free
+|style=text-align:center|Apparel<br>Creatures<br>Gameplay<br>Weapons<br>World
+|''This creation contains multiple quests, a new dungeon, two artifacts, several new sets of weapons and armor, recruitable pets, alchemy ingredients, summoning spells, and more all from the realm of the Mad God Sheogorath! Includes bonus Creation "Rare Curios". Additional art support by Elianora. Additional design by Kris Takahashi. (Quest "Balance of Power" starts by talking to the traveling Khajiit Merchant Ri'saad.)''
+|-
+![[File:SR-menu-Hendhraheim.jpg|90px|link=Skyrim:Hendraheim]]
+![[Skyrim:Hendraheim|{{Anchor|Hendraheim}}]]
+|style=text-align:center|November 20, 2019
+|style=text-align:center|400
+|style=text-align:center|World
+|''In the mountains of the Reach is a grand Nordic hall, built in a tradition befitting the warriors of old. The walls are decorated in triumph, each piece a memory of its owner's lasting valor.  Created by Elianora. (Quest "Hendraheim" starts by reading the Warrior's Challenge delivered by courier upon reaching level 10.)''
+|-
+![[File:SR-menu-The Gray Cowl Returns!.jpg|90px|link=Skyrim:The Gray Cowl Returns!]]
+![[Skyrim:The Gray Cowl Returns!|{{Anchor|The Gray Cowl Returns!}}]]
+|style=text-align:center|November 20, 2019
+|style=text-align:center|250
+|style=text-align:center|Apparel
+|''The legend of the Gray Fox is known throughout history, yet the ones who wear the cowl remain nameless. To become the next Gray Fox, you must first restore the identity of the Cowl's bearer, and only then can your crimes be bereft of a name. Quest created by Kris Takahashi (Quest "The Gray Cowl of Nocturnal" starts by confronting a thief in the Riften graveyard.)''
+|-{{ThickLine}}
+![[File:SR-menu-Alternative Armors - Daedric Plate.jpg|90px|link=Skyrim:Alternative Armors - Daedric Plate]]
+![[Skyrim:Alternative Armors - Daedric Plate|{{Anchor|Alternative Armors - Daedric Plate}}]]
+|style=text-align:center|November 11, 2021
+|style=text-align:center|50
+|style=text-align:center|Apparel
+|''Includes two pieces of heavy Daedric armor as featured in The Elder Scrolls: Blades! Quest by Kris Takahashi. (Quest "Beyond the Grave" starts by reading Death of a Crimson Dirk in Dragonreach Dungeon in Whiterun.)''
+|-
+![[File:SR-menu-Alternative Armors - Dragon Plate.jpg|90px|link=Skyrim:Alternative Armors - Dragon Plate]]
+![[Skyrim:Alternative Armors - Dragon Plate|{{Anchor|Alternative Armors - Dragon Plate}}]]
+|style=text-align:center|November 11, 2021
+|style=text-align:center|100
+|style=text-align:center|Apparel
+|''Includes four pieces of heavy Dragon Plate armor as featured in The Elder Scrolls: Blades plus the famed Dragonbone Mail.  Quest by Kris Takahashi.''
+|-
+![[File:SR-menu-Alternative Armors - Dwarven Plate.jpg|90px|link=Skyrim:Alternative Armors - Dwarven Plate]]
+![[Skyrim:Alternative Armors - Dwarven Plate|{{Anchor|Alternative Armors - Dwarven Plate}}]]
+|style=text-align:center|November 11, 2021
+|style=text-align:center|50
+|style=text-align:center|Apparel
+|''Includes two pieces of heavy Dwarven armor as featured in The Elder Scrolls: Blades! Quest by Kris Takahashi.  (Quest "Mightier than the Sword" starts by reading Looter's Note at the Silver-Blood Inn in Markarth.)''
+|-
+![[File:SR-menu-Alternative Armors - Iron.jpg|90px|link=Skyrim:Alternative Armors - Iron]]
+![[Skyrim:Alternative Armors - Iron|{{Anchor|Alternative Armors - Iron}}]]
+|style=text-align:center|November 11, 2021
+|style=text-align:center|100
+|style=text-align:center|Apparel
+|''Includes four pieces of heavy Iron armor as featured in The Elder Scrolls: Blades! Quest by Kris Takahashi.  (Quest "Brothers in Irons" starts by reading Nightgate Inn Patron's Note in Nightgate Inn.)''
+|-
+![[File:SR-menu-Alternative Armors - Leather.jpg|90px|link=Skyrim:Alternative Armors - Leather]]
+![[Skyrim:Alternative Armors - Leather|{{Anchor|Alternative Armors - Leather}}]]
+|style=text-align:center|November 11, 2021
+|style=text-align:center|100
+|style=text-align:center|Apparel
+|''Includes four pieces of light Leather armor as featured in The Elder Scrolls: Blades! Quest by Kris Takahashi.''
+|-
+![[File:SR-menu-Alternative Armors - Orcish Plate.jpg|90px|link=Skyrim:Alternative Armors - Orcish Plate]]
+![[Skyrim:Alternative Armors - Orcish Plate|{{Anchor|Alternative Armors - Orcish Plate}}]]
+|style=text-align:center|November 11, 2021
+|style=text-align:center|100
+|style=text-align:center|Apparel
+|''Includes four pieces of heavy Orcish armor as featured in The Elder Scrolls: Blades! Quest by Kris Takahashi.  (Quest "Smith 'n Slash" starts by reading "Guard's Dossier: Yakhtu gra-Orkulg" at the Guard Barracks inside the gate in Whiterun.)''
+|-
+![[File:SR-menu-Alternative Armors - Orcish Scaled.jpg|90px|link=Skyrim:Alternative Armors - Orcish Scaled]]
+![[Skyrim:Alternative Armors - Orcish Scaled|{{Anchor|Alternative Armors - Orcish Scaled}}]]
+|style=text-align:center|November 11, 2021
+|style=text-align:center|100
+|style=text-align:center|Apparel
+|''Includes four pieces of light Orcish armor as featured in The Elder Scrolls: Blades! Quest by Kris Takahashi.  (Quest "Gambler's Edge" starts by reading Guard's Dossier: Antonius at the Mistveil Keep Barracks in Riften.)''
+|-
+![[File:SR-menu-Alternative Armors - Silver.jpg|90px|link=Skyrim:Alternative Armors - Silver]]
+![[Skyrim:Alternative Armors - Silver|{{Anchor|Alternative Armors - Silver}}]]
+|style=text-align:center|November 11, 2021
+|style=text-align:center|100
+|style=text-align:center|Apparel
+|''Includes four pieces of heavy Silver armor as featured in The Elder Scrolls: Blades! Quest by Kris Takahashi. (Quest "When the Cat's Away" starts by reading M'Sharra's Diary at The Bannered Mare in Whiterun.)''
+|-
+![[File:SR-menu-Bittercup.jpg|90px|link=Skyrim:Bittercup]]
+![[Skyrim:Bittercup|{{Anchor|Bittercup}}]]
+|style=text-align:center|November 11, 2021
+|style=text-align:center|200
+|style=text-align:center|World
+|''In the forests of Falkreath lies a mysterious altar, promising the gift of a single boon. Walk the path that reflects your desire — or lack thereof — and embark on a unique adventure based on that choice. Discover the fabled Bittercup and three separate quests!''
+|-
+![[File:SR-menu-Bloodchill Manor.jpg|90px|link=Skyrim:Bloodchill Manor]]
+![[Skyrim:Bloodchill Manor|{{Anchor|Bloodchill Manor}}]]
+|style=text-align:center|November 11, 2021
+|style=text-align:center|400
+|style=text-align:center|World
+|''Perched high in the mountains to the north. This unique player home features several multi-level living quarters, including a dungeon area and bed coffins perfect for warden of the night. Created by Elianora. Quest by Kris Takahashi. (Quest "Guests for Dinner" starts by reading the Dinner Invitation delivered by courier upon reaching level 12.)''
+|-
+![[File:SR-menu-Bow of Shadows.jpg|90px|link=Skyrim:Bow of Shadows]]
+![[Skyrim:Bow of Shadows|{{Anchor|Bow of Shadows}}]]
+|style=text-align:center|November 11, 2021
+|style=text-align:center|200
+|style=text-align:center|Weapons
+|''Forged by Nocturnal and used by assassins, it grants the user the gifts of invisibility and speed. Quest by Kris Takahashi. (Quest "In the Shadows" starts by speaking to the Jarl's Steward in Dragonsreach.)''
+|-
+![[File:SR-menu-Farming.jpg|90px|link=Skyrim:Farming]]
+![[Skyrim:Farming|{{Anchor|Farming}}]]
+|style=text-align:center|November 11, 2021
+|style=text-align:center|400
+|style=text-align:center|Gameplay<br>World
+|''Build, upgrade, and manage your own farmstead in the heart of Whiterun. Elect a steward to oversee the day-to-day and purchase upgrades such as animal pens, windmills, apiaries and stables. Whether it's building a commercial empire, growing crops, or working with animals, there are no shortage of gameplay options here. Created by Virginia "Steelfeathers" Smith. (Quest "The Unquiet Dead" starts by investigating Goldenhills Plantation east of Rorikstead.)''
+|-
+![[File:SR-menu-Fearsome Fists.jpg|90px|link=Skyrim:Fearsome Fists]]
+![[Skyrim:Fearsome Fists|{{Anchor|Fearsome Fists}}]]
+|style=text-align:center|November 11, 2021
+|style=text-align:center|100
+|style=text-align:center|Apparel
+|''Fearsome Fists - From Iron to Dragonplate, this creation offers fifteen gauntlet variants that can be crafted, purchased, or found in the world. Each pair has been affixed with spikes, blades, or horns to give impact to your unarmed attacks.  Mix and match with existing armors to diversify your look! Created by Hothtrooper44. (Items appear at vendors, in chests, and can be crafted at any forge.)''
+|-
+![[File:SR-menu-Fishing.jpg|90px|link=Skyrim:Fishing]]
+![[Skyrim:Fishing|{{Anchor|Fishing}}]]
+|style=text-align:center|November 11, 2021
+|style=text-align:center data-sort-value=0|Free
+|style=text-align:center|Gameplay
+|''Test your mettle as a fisherman in a brand new series of fishing quests, and catch over twenty new aquatic species in waters across Skyrim! Cook them or display them in Lakeview Manor, Heljarchen Hall and Windstad Manor in your home aquarium! (Initial quest, "Angler Acquaintances," starts by using any Fishing Supplies scattered across Skyrim.)''
+|-
+![[File:SR-menu-Gallows Hall.jpg|90px|link=Skyrim:Gallows Hall]]
+![[Skyrim:Gallows Hall|{{Anchor|Gallows Hall}}]]
+|style=text-align:center|November 11, 2021
+|style=text-align:center|400
+|style=text-align:center|World
+|''Old forts have long been bastions for the dead, as mortals both wicked and misunderstood have hung from their gallows. Here, a necromancer can find a home, filling its coffers with treasures that suit the morbid and macable - provided they survive it. Claim the legendary Bloodworm Helm, Helm of Oreyn Bearclaw, and the Staff of Worms to wield the power of Mannimarco himself! Created by Rich Marin. Quest by Kris Takahashi. (Quest "Dreams of the Dead" starts by reading Naara's Journal within the abandoned fort on the northern edge of Mara's Eye Pond.)''
+|-
+![[File:SR-menu-Ghosts of the Tribunal.jpg|90px|link=Skyrim:Ghosts of the Tribunal]]
+![[Skyrim:Ghosts of the Tribunal|{{Anchor|Ghosts of the Tribunal}}]]
+|style=text-align:center|November 11, 2021
+|style=text-align:center|900
+|style=text-align:center|Apparel<br>Weapons
+|''In the aftermath of the Red Year, worship of the Tribunal has been replaced by the Reclamation. Yet the strands of memory linger on Solstheim, the chant of ALMSIVI muttered by rebel priests and devotees of the old way. Includes over a dozen weapons and several armors featured in the Elder Scrolls III: Morrowind, including Hopesfire, Trueflame, and masks of the Tribunal. Quest by Kris Takahashi. (Quest "Ghosts of the Tribunal" starts by reading Heretic Dossier: Blacksmith's Confessional at the Temple in Raven Rock.)''
+|-
+![[File:SR-menu-Goldbrand.jpg|90px|link=Skyrim:Goldbrand]]
+![[Skyrim:Goldbrand|{{Anchor|Goldbrand}}]]
+|style=text-align:center|November 11, 2021
+|style=text-align:center|300
+|style=text-align:center|Weapons
+|''The legendary katana Goldbrand has been wielded by those who have turned the pages of history. Now, this weapon has returned to Skyrim, to the resting place of one such hero. Discover the ancient tomb and be the one to write its next chapter. (Quest "A Matter of Pride" starts by finding Eranya in the Sacellum of Boethiah east of Windhelm.)''
+|-
+![[File:SR-menu-Headman's Cleaver.jpg|90px|link=Skyrim:Headman's Cleaver]]
+![[Skyrim:Headman's Cleaver|{{Anchor|Headman's Cleaver}}]]
+|style=text-align:center|November 11, 2021
+|style=text-align:center|100
+|style=text-align:center|Weapons
+|''The Bloodfall Queen has had her cleaver stolen by an old foe. Track the bandits to their hideout, and claim the Headman's Cleaver as your reward. The Queen can replace the weapon. What she desires is revenge. Quest by Kris Takahashi. (Quest "Blood in the Water" can be provided when asking an innkeeper if they've heard any rumors lately.)''
+|-
+![[File:SR-menu-Horse Armor - Elven.jpg|90px|link=Skyrim:Horse Armor - Elven]]
+![[Skyrim:Horse Armor - Elven|{{Anchor|Horse Armor - Elven}}]]
+|style=text-align:center|November 11, 2021
+|style=text-align:center data-sort-value=0|<s>250</s>
+----
+Free
+|style=text-align:center|Apparel
+|''Tamriel is a dangerous place. Protect your horse from danger with this beautiful handcrafted armor. (Obtained via hostler at any stable.)''
+|-
+![[File:SR-menu-Horse Armor - Steel.jpg|90px|link=Skyrim:Horse Armor - Steel]]
+![[Skyrim:Horse Armor - Steel|{{Anchor|Horse Armor - Steel}}]]
+|style=text-align:center|November 11, 2021
+|style=text-align:center data-sort-value=0|<s>250</s>
+----
+Free
+|style=text-align:center|Apparel
+|''Tamriel is a dangerous place. Protect your horse from danger with this beautiful handcrafted armor. (Obtained via hostler at any stable.)''
+|-
+![[File:SR-menu-Nchuanthumz Dwarven Home.jpg|90px|link=Skyrim:Nchuanthumz: Dwarven Home]]
+![[Skyrim:Nchuanthumz: Dwarven Home|{{Anchor|Nchuanthumz: Dwarven Home}}]]
+|style=text-align:center|November 11, 2021
+|style=text-align:center|400
+|style=text-align:center|World
+|''Operate the downstairs Manufactory and build automatons to restore this cavernous home to its original luster. Once rebuilt, its spacious halls make it the perfect residence for any fan of Dwemer architecture and engineering. Creation by Flenarn and Arthmoor. (Quest starts by reading "Seeks-Ancient-Artifacts' Journal, v1" in the Frozen Hearth in Winterhold.)''
+|-
+![[File:SR-menu-Necromantic Grimoire.jpg|90px|link=Skyrim:Necromantic Grimoire]]
+![[Skyrim:Necromantic Grimoire|{{Anchor|Necromantic Grimoire}}]]
+|style=text-align:center|November 11, 2021
+|style=text-align:center|100
+|style=text-align:center|Gameplay
+|''Rule over the realm of life and death with the Necromantic Arts pack. This creation features a unique necromancer robe with all new enchantments and variants, and 13 necromancy themed spells allowing you to conjure a wide variety of skeletons, apparitions, and powerful creatures, including the mighty Bone Colossus! Created by Virginia "Steelfeathers" Smith. (Items can be purchased at vendors and appear in containers.)''
+|-
+![[File:SR-menu-Redguard Elite Armaments.jpg|90px|link=Skyrim:Redguard Elite Armaments]]
+![[Skyrim:Redguard Elite Armaments|{{Anchor|Redguard Elite Armaments}}]]
+|style=text-align:center|November 11, 2021
+|style=text-align:center|400
+|style=text-align:center|Apparel<br>Weapons
+|''Connect with a network of Redguard agents known as the Remnants, and help them recover one of their own from the Thalmor. Includes a brand new set of light armor plus two new weapons, such as the legendary Yokudan sword Boneshaver! Created by ElleH and Jose McCallum "Shoeburglar." (Quest "Interception" starts by talking to Azadi in Shor's Stone far north of Riften.)''
+|-
+![[File:SR-menu-Staves.jpg|90px|link=Skyrim:Staves (Creation)]]
+![[Skyrim:Staves (Creation)|{{Anchor|Staves}}]]
+|style=text-align:center|November 11, 2021
+|style=text-align:center|600
+|style=text-align:center|Weapons
+|''Features seven classic staves from the Elder Scrolls III: Morrowind. Purchase staves with unique enchantments from [[Skyrim:Neloth|Master Neloth]], or buy an unenchanted staff and apply one yourself! (Items appear at vendors and in chests.)''
+|-
+![[File:SR-menu-The Cause.jpg|90px|link=Skyrim:The Cause]]
+![[Skyrim:The Cause|{{Anchor|The Cause}}]]
+|style=text-align:center|November 11, 2021
+|style=text-align:center|900
+|style=text-align:center|Characters<br>Weapons<br>World
+|''Despite their losses, the Mythic Dawn continue to serve Lord Dagon in the shadows, in search of a new gate, and a different ending. Features brand new enemies, locations, weapons, flora, and a conjurable Daedric Horse, all contained in a multi-layered adventure! Created by Rob Vogel "fadingsignal" (Quest "The Cause" starts by reading the Stranger's Plea delivered by courier upon reaching level 46.)''
+|-
+![[File:SR-menu-The Contest.jpg|90px|link=Skyrim:The Contest]]
+![[Skyrim:The Contest|{{Anchor|The Contest}}]]
+|style=text-align:center|November 11, 2021
+|style=text-align:center|200
+|style=text-align:center|Weapons
+|''Behind the din of tavern chatter, two warriors are embroiled in an argument. To settle it, they embark on a quest to see who can slay a monstrous spider. Follow their trail and learn what became of them. Includes the legendary "Fists of Randagulf" and the "Ice Blade of the Monarch"! Quest by Kris Takahashi. (Quest "Caught in a Web" starts by reading Adonato Leotelli's Journal in Candlehearth Hall.)''
+|}
+
+==Bundles==
+Bundles contain multiple Creations that can be purchased together for a reduced price. These are not always available, but despite their descriptions may reappear. Due to the limitations of the store, these cost the same no matter how many Creations you own.
+
+In most cases, it is recommended that you do not buy a bundle if you already own one in the set. There are some exceptions to this, as outlined [[#Notes|below]].
+
+{|class="wikitable sortable"
+!class=unsortable colspan=2 width=12%|Bundle!!width=5%|Credits!!width=5%|Categories!!class=unsortable|Description
+|-
+![[File:SR-menu-Sheogorath Bundle.jpg|90px]]
+!{{Anchor|Sheogorath Bundle}}
+|{{AL|C}}|450
+|{{AL|C}}|Weapons
+|''The Bundle includes [[#Ruin's Edge|Ruin's Edge]] and the [[#Staff of Sheogorath|Staff of Sheogorath]], together are worth 650 credits. (No additional discounts are applied if you already own a Creation in this Bundle. To check if you already own a Creation, look under the Purchased tab.)''
+|-
+![[File:SR-menu-Divine Crusader and Chrysamere Bundle.jpg|90px]]
+!{{Anchor|Divine Crusader and Chrysamere Bundle}}
+|{{AL|C}}|600
+|{{AL|C}}|Apparel<br>Weapons
+|''FOR LIMITED TIME ONLY.''
+
+''This Bundle includes [[#Divine Crusader|Divine Crusader]] and [[#Chrysamere|Chrysamere]], together are worth 800 credits. (NOTE: The price does not change if you already own a Creation in this Bundle. To check if you already own a Creation, look under the Purchased tab.)''
+|-
+![[File:SR-menu-Survival Bundle.jpg|90px]]
+!{{Anchor|Survival Bundle}}
+|{{AL|C}}|900
+|{{AL|C}}|Gameplay
+|''The Bundle includes [[#Survival Mode|Survival Mode]], [[#Camping|Camping]] and [[#Adventurer's Backpack|Adventurer's Backpack]], together are worth 1200 credits. (NOTE: The price does not change if you already own a Creation in this Bundle. To check if you already own a Creation, look under the Purchased tab.)''
+|-
+![[File:SR-menu-Community Creator Bundle.jpg|90px]]
+!{{Anchor|Community Creator Bundle}}
+|{{AL|C}}|1200
+|{{AL|C}}|Apparel<br>Weapons<br>World
+|''Featuring 4 Creations from the community Creators including fadingsignal, Maty743, unoctium and Elianora. This Bundle includes [[#Adventurer's Backpack|Adventurer's Backpack]], [[#Tundra Homestead|Tundra Homestead]], [[#Shadowrend|Shadowrend]] and [[#Divine Crusader|Divine Crusader]], together are worth 1500 credits. (NOTE: The price does not change if you already own a Creation in this Bundle. To check if you already own a Creation, look under the Purchased tab.)''
+|-
+![[File:SR-menu-The Sword, Backpack and Nix-Hound Bundle.jpg|90px]]
+!{{Anchor|The Sword, Backpack and Nix-Hound Bundle}}
+|{{AL|C}}|650
+|{{AL|C}}|Apparel<br>Creatures<br>Weapons
+|''The Bundle includes [[#Shadowrend|Shadowrend]], [[#Adventurer's Backpack|The Adventurer's Backpack]], and the [[#Nix-Hound|Nix-Hound]], together are worth 900 credits. (NOTE: The price does not change if you already own a Creation in this Bundle. To check if you already own a Creation, look under the Purchased tab.)''
+|-
+![[File:SR-menu-Weapon Rack Bundle.jpg|90px]]
+!{{Anchor|Weapon Rack Bundle}}
+|{{AL|C}}|1200
+|{{AL|C}}|Weapons
+|''The Bundle includes [[#Stendarr's Hammer|Stendarr's Hammer]], [[#Staff of Sheogorath|Staff of Sheogorath]], [[#Staff of Hasedoki|Staff of Hasedoki]], [[#Ruin's Edge|Ruin's Edge]], [[#Chrysamere|Chrysamere]], and [[#Shadowrend|Shadowrend]]. Together are worth 1700 credits. (NOTE: The price does not change if you already own a Creation in this Bundle. To check if you already own a Creation, look under the Purchased tab.)''
+|-
+![[File:SR-menu-Community Creator Bundle Vol. 2.png|90px]]
+!{{Anchor|Community Creator Bundle Vol. 2}}
+|{{AL|C}}|2000
+|{{AL|C}}|Apparel<br />Weapons<br />World
+|''Featuring 6 Creations from an all-star cast of Community Creators including Borja "Borx25" Franco, Maty743, Kris Takahashi, Steelfeathers, Elianora, and Skinnytecboy. This Bundle includes [[#Civil War Champions|Civil War Champions]], [[#Vigil Enforcer Armor Set|Vigil Enforcer Armor Set]], [[#Saturalia Holiday Pack|Saturalia Holiday Pack]], [[#Pets of Skyrim|Pets of Skyrim]], [[#Myrwatch|Myrwatch]], and [[#Bone Wolf|Bone Wolf]], a total value of 2400 credits! (NOTE: The price does not change if you already own a Creation in this Bundle. To check if you already own a Creation, look under the Purchased tab.)''
+|-
+![[File:SR-menu-Dwarven Bundle.jpg|90px]]
+!{{Anchor|Dwarven Bundle}}
+|{{AL|C}}|1500
+|{{AL|C}}|Gameplay<br>World
+|''Featuring 2 Dungeon Adventures packed with Dwemer secrets! Includes [[#Forgotten Seasons|Forgotten Seasons]] and [[#Sunder & Wraithguard|Sunder & Wraithguard]], a total value of 1700 credits. (NOTE: The price does not change if you already own a Creation in this Bundle. To check if you already own a Creation, look under the Purchased tab.)''
+|-
+![[File:SR-menu-The Elder Scrolls 25th Anniversary Bundle.jpg|90px]]
+!{{Anchor|The Elder Scrolls 25th Anniversary Bundle}}
+|{{AL|C}}|2500
+|{{AL|C}}|Apparel<br>Creatures<br>Gameplay<br>Weapons<br>World
+|''Celebrate a quarter century of Tamrielic legends and lore with the 25th Anniversary Bundle! This comprehensive offering brings classic weapons, staves, armor, beasts, and magical ingredients from events past and present to the world of Skyrim! It features a dozen creations in total, including [[#Stendarr's Hammer|Stendarr's Hammer]], [[#Staff of Sheogorath|Staff of Sheogorath]], [[#Ruin's Edge|Ruin's Edge]], [[#Divine Crusader|Divine Crusader]], [[#Chrysamere|Chrysamere]], [[#Lord's Mail|Lord's Mail]], [[#Shadowrend|Shadowrend]], [[#Nix-Hound|Nix-Hound]], [[#Rare Curios|Rare Curios]], [[#Staff of Hasedoki|Staff of Hasedoki]], [[#Sunder & Wraithguard|Sunder & Wraithguard]], and [[#Bone Wolf|Bone Wolf]]. A total value of 3500 credits. (NOTE: The price does not change if you already own a Creation in this Bundle. To check if you already own a Creation, look under the Purchased tab.)''
+|-
+![[File:SR-menu-Elianora Home Bundle.jpg|90px]]
+!{{Anchor|Elianora Home Bundle}}
+|{{AL|C}}|750
+|{{AL|C}}|World
+|''The day begins and ends at home, but for the true adventurer, no single home will do. This bundle features three new homes from legendary creator Elianora, including [[#Tundra Homestead|Tundra Homestead]], [[#Myrwatch|Myrwatch]], and [[#Shadowfoot Sanctum|Shadowfoot Sanctum]]. Whether you want to relax in your private cottage, watch the skies from your mage's tower, or sleep softly in the shadows, these homes provide the perfect bookends for any journey. A total value of 1100 credits. (NOTE: The price does not change if you already own a Creation in this Bundle. To check if you already own a Creation, look under the Purchased tab.)''
+|-
+![[File:SR-menu-Mad God Bundle.jpg|90px]]
+!{{Anchor|Mad God Bundle}}
+|{{AL|C}}|1800
+|{{AL|C}}|Apparel<br>Creatures<br>Weapons<br>World
+|''Featuring a new dungeon, five artifacts, several new sets of weapons and armor, recruitable pets, over 50 alchemy ingredients, summoning spells, and more!  Includes [[#Saints & Seducers|Saints & Seducers]], [[#Rare Curios|Rare Curios]]{{intnote|1|†}}, [[#Ruin's Edge|Ruin's Edge]], [[#Shadowrend|Shadowrend]], and the [[#Staff of Sheogorath|Staff of Sheogorath]], a total value of {{sic|2150 credits|description=error. Assuming Rare Curios is free with Saints & Seducers, the price of each individual item amounts to 2,450. If accounting for the Sheogorath Bundle, the total amount would be 2,250}}. (NOTE: The price does not change if you already own a Creation in this Bundle. To check if you already own a Creation, look under the Purchased tab.)''
+|-
+![[File:SR-menu-Crossbow Collection.png|90px]]
+!{{Anchor|Crossbow Collection}}{{intnote|2|‡}}
+|{{AL|C}}|900
+|{{AL|C}}|Weapons
+|''Featuring ten new crossbows crafted from rare and high-grade materials, including Imperial, Orcish, Silver, Nordic, Glass, Stalhrim, Elven, Ebony, Daedric and Dragonbone. Purchase eight of the weapons from the Fletcher in Solitude, and track down the hideout of the Night Hunter to complete the set. A total value of 1150 credits. (NOTE: The price does not change if you already own a Creation in this Bundle. To check if you already own a Creation, look under the Purchased tab.)''
+|}
+
+{{note|1|†|Saints & Seducers automatically comes with Rare Curios.}}
+{{note|2|‡|This Bundle consists of the [[#Elite Crossbows|Elite Crossbows]] and [[#Expanded Crossbow Pack|Expanded Crossbow Pack]] Creations.}}
+
+==Notes==
+* Creations occasionally receive updates. These will need to be manually downloaded from the Creation Club store interface.
+* As of November 11, 2021, the cheapest way to acquire the entire CC collection is to purchase the Anniversary Upgrade.
+*The only time it is cost effective to buy a bundle despite already owning some of the Creations contained therein are as follows:
+** Weapon Rack Bundle + Stendarr's Hammer (save 300 credits)
+** Weapon Rack Bundle + Staff of Hasedoki/Staff of Sheogorath (save 250 credits)
+** Weapon Rack Bundle + Chrysamere/Shadowrend (save 200 credits)
+** Community Creator Bundle Vol. 2 + Bone Wolf (save 200 credits)
+** Weapon Rack Bundle + Ruin's Edge (save 100 credits)
+** Community Creator Bundle Vol. 2 + Saturalia Holiday Pack/Pets of Skyrim (save 100 credits)
+** The Sword, Backpack and Nix-Hound Bundle + Nix-Hound (save 50 credits)
+** Weapon Rack Bundle + Stendarr's Hammer + Staff of Hasedoki/Staff of Sheogorath (save 50 credits)
+**  The Elder Scrolls 25th Anniversary Bundle + any combination of Creations it contains which cost 850 credits or less combined (too many to list separately)
+** Elianora Home Bundle + Tundra Homestead (save 50 credits)
+:This didn't apply if Creations were on sale.
+* Purchasing a Creation played the "Level Increase for a skill" sound effect.
+* Purchasing and/or downloading the Anniversary Upgrade was done outside the Creation Club interface. However, now with Creation Club defunct, players must still Purchase and/or download the Anniversary Upgrade outside the new Creations interface to initiate the download of their owned Creations, except on Switch.
+* Most Creations are in the [[Skyrim:Form ID#Creation Club|{{tt|.esl}} format]], with ten exceptions that are in {{tt|.esm}} format. The Creations that will take up a load order slot are [[Skyrim:Bloodchill Manor|Bloodchill Manor]], [[Skyrim:The Cause|The Cause]], [[Skyrim:Dead Man's Dread|Dead Man's Dread]], [[Skyrim:Fishing|Fishing]], [[Skyrim:Forgotten Seasons|Forgotten Seasons]], [[Skyrim:Ghosts of the Tribunal|Ghosts of the Tribunal]], [[Skyrim:Nchuanthumz: Dwarven Home|Nchuanthumz: Dwarven Home]], [[Skyrim:Saints & Seducers|Saints & Seducers]], [[Skyrim:Tundra Homestead|Tundra Homestead]], and [[Skyrim:Umbra|Umbra]].
+
+==Bugs==
+{{Bug|{{pc22}} On a PC with a non-English keyboard, registering for Creation Club can be difficult. The text field will not accept the normal way to enter an "@" needed for the email address.|confirmed=1}}
+**You can try switching your keyboard to use an English layout, or attempting other common shortcuts to produce an @ (e.g. <code>Shift</code> + <code>2</code>, <code>Shift</code> + <code>'</code>, <code>Shift</code> + <code>Ä</code>).
+
+==See Also==
+{{Bullet Link|Creation Club Books|A list of all books added by Creation Club.}}
+{{Bullet Link|Creation Club Items|A list of all items added by Creation Club.}}
+{{Bullet Link|Creation Club Quests|A list of all quests added by Creation Club.}}

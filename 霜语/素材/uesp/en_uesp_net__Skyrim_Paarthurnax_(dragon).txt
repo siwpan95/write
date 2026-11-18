@@ -1,0 +1,342 @@
+{{Protection|semi}}{{About|the creature|the quest|Paarthurnax (quest)}}
+{{Creature Summary
+|loc=[[Skyrim:Throat of the World|Throat of the World]]
+|titlename=Paarthurnax
+|type=Monsters
+|species=Dragon
+|soul=Dragon
+|level=10
+|class=Dragon
+|refid=0003C57D
+|baseid=0003C57C
+|faction={{Faction|FavorExcludedFaction}}; {{Faction|Greybeards}}; {{Faction|PaarthurnaxFaction}}; {{Faction|Special Dialogue Friendly Bleedout}}
+|health=905
+|magicka=150
+|image=SR-creature-Paarthurnax 02.jpg
+|imgdesc=Paarthurnax
+|drops=[[Skyrim:Dragon#Loot|Dragon Loot]]
+|perks=[[Skyrim:Dragonskin (perk)|Dragonskin]]
+|skills='''[[Skyrim:Archery|Archery]]''', '''[[Skyrim:Block|Block]]''', '''[[Skyrim:One-handed|One-handed]]''', '''[[Skyrim:Sneak|Sneak]]'''
+|stamina=130
+|essential=Yes, until the quest [[Skyrim:Paarthurnax (quest)|Paarthurnax]]
+}}{{TOCright}}
+'''Paarthurnax''' is a meditative [[Skyrim:Dragon|dragon]] residing on the [[Skyrim:Throat of the World|Throat of the World]], skywards of [[Skyrim:High Hrothgar|High Hrothgar]]. From here, he serves as the leader of the [[Skyrim:Greybeards|Greybeards]], who are fiercely protective of him.
+
+During the [[Skyrim:The_Dragon_War|Dragon War]], Paarthurnax served as lieutenant to [[Skyrim:Alduin|Alduin]], and they were supposedly close allies. Paarthurnax himself counts Alduin as a brother. During his time as lieutenant, he is said to have committed several atrocities against mankind, despite also being the one who turned the tide in the favor of men.
+
+It was Paarthurnax who taught the first Tongues, [[Skyrim:Gormlaith Golden-Hilt|Gormlaith Golden-Hilt]], [[Skyrim:Hakon One-Eye|Hakon One-Eye]], and [[Skyrim:Felldir the Old|Felldir the Old]], to turn the tide in the Dragon War. Despite Paarthurnax claiming he did this after Alduin's false proclamation of Godhood, Nordic legends say Paarthurnax was sent by [[Lore:Kyne|Kyne]] to teach man the [[Lore:Thu'um|thu'um]]. After leaving, and secluding himself atop the Throat of the World, he was able to overcome his draconic instincts by practicing a philosophy invented by [[Skyrim:Jurgen Windcaller|Jurgen Windcaller]] known as the [[Lore:Way of the Voice|Way of the Voice]].
+
+After the construction of High Hrothgar, Paarthurnax became the grandmaster of the Greybeards, but remained in seclusion at the peak of the Throat of the World. Paarthurnax also recalls visiting the captured dragon, [[Lore:Numinex|Numinex]], in [[Skyrim:Dragonsreach|Dragonsreach]] around the first era.
+
+Even long after the Dragon War, few but the Greybeards trust him, partly because of his race, but mostly [[Skyrim:Paarthurnax (quest)|because of his past]]. Especially distrustful of the dragon are the [[Skyrim:Blades|Blades]], [[Skyrim:Delphine|Delphine]] and [[Skyrim:Esbern|Esbern]], who wish him dead. Despite this, Paarthurnax, who thinks of himself as being only what "father [[Lore:Akatosh|Akatosh]]" made him to be, willingly shares his knowledge with [[Skyrim:Dovahkiin|Dovahkiin]], and remains hospitable even in the face of death.
+
+His name can be separated into three words in the [[Lore:Dragon Language|dragon language]]: Paar Thur Nax, meaning "Ambition Overlord Cruelty".
+
+Surprisingly, he only knows the [[Skyrim:Fire Breath|Fire Breath]] [[Skyrim:Dragon Shouts|shout]].
+
+He may greet you with ''"Drem Yol Lok. Greetings."'' or ''"Speak. I will listen."'' Exiting dialogue will have him say either ''"{{hover|breath and focus|Su'um ahrk morah.}}"'' or ''"{{hover|Sky (above), Voice (within)|Lok, Thu'um.}}"''
+
+==Related Quests==
+*{{Quest Link|The Throat of the World}}
+*{{Quest Link|Elder Knowledge}}
+*{{Quest Link|Alduin's Bane}}
+*{{Quest Link|Paarthurnax (quest)}}
+*{{Quest Link|The Fallen}}
+*{{Quest Link|Dragonslayer}}
+
+==Dialogue==
+===[[Skyrim:The Throat of the World|The Throat of the World]]===
+When the player first arrives at the top of the Throat of the World, Paarthurnax will fly in, land, and initiate conversation.
+:''"{{hover|Peace Fire Sky|Drem Yol Lok}}. Greetings, {{hover|traveler|wunduniik}}. I am Paarthurnax. Who are you? What brings you to my strunmah...my mountain?"''
+
+If you leave without responding and return later, his greeting will change:
+:''"You are bold, {{hover|traveler|wunduniik}}. You dare enter a Dovah's home without permission."''
+
+You will have three choices to respond to him with. If you choose the third option, you can ask him an additional question.
+{|class=wikitable compress
+|-
+!Option
+!Response
+|-
+|'''I wasn't expecting you to be a dragon.''' || ''"I am as my father Akatosh made me. As are you... Dovahkiin."''
+|-
+|'''You're the master of the Greybeards?''' || ''"They see me as master. Wuth. Onik. Old and wise. It is true I am old..."''
+|-
+|'''I think you already know who I am.''' || ''"Yes. {{hover|True|Vahzah}}. You speak true, Dovahkiin. Forgive me. It has been long since I held {{hover|speak/talk|tinvaak}} with a stranger. I gave in to the temptation to prolong our speech."''<br>'''Why live alone on a mountain if you love conversation?'''<br>''"{{hover|Extinguish Hunger|Evenaar Bahlok}}. There are many hungers it is better to deny than to feed. {{hover|Do not feed|Dreh ni nahkip}}. Discipline against the lesser aids in {{Hover|vanquish (denial)|qahnaar}}... denial of the greater."''
+|}
+
+Regardless of the response you choose, he will continue:
+:''"Tell me. Why do you come here, {{hover|intruder|volaan}}? Why do you intrude on my meditation?"''
+:'''I need to learn the Dragonrend Shout. Can you teach me?'''
+:''"{{hover|Peace|Drem}}. Patience. There are formalities which must be observed, at the first meeting of two of the dov."''
+
+[[File:SR-quest-The Throat of the World.jpg|Paarthurnax lands on the word wall|thumb|right]]
+Paarthurnax will exit dialogue with you, directs your attention to the Word Wall and breathes fire upon it.
+:'''Paarthurnax:''' ''"By long tradition, the elder speaks first. Hear my Thu'um! Feel it in your bones. Match it, if you are Dovahkiin!"''
+:'''Paarthurnax:''' ''"{{hover|Fire...Inferno...Sun!|Yol...Toor...Shul!}}"''
+
+If you hesitate for long, Paarthurnax will encourage you to approach the Word Wall.
+:'''Paarthurnax:''' ''"The Word calls you. Go to it."''
+:'''Paarthurnax:''' ''"I have spoken. The {{hover|Word of Power|Rotmulaag}} awaits."''
+:'''Paarthurnax:''' ''"Why do you intrude here, if not for tinvaak?"''  
+
+After you learn the Word, Paarthurnax will speak once more before granting you his understanding of Fire Breath, unlocking the word you just learned.
+:'''Paarthurnax:''' ''"A gift, Dovahkiin. Yol. Understand Fire as the dov do."'' 
+
+Once the Word has been unlocked, Paarthurnax will urge you to use your new Shout on him.
+:'''Paarthurnax:''' ''"Do not be afraid. {{hover|(be) Fearless|Faasnu}}. Let me feel the power of your Thu'um."''
+
+If you hesitate, he will encourage you to Shout at him:
+:'''Paarthurnax:''' ''"Come, Dovahkiin. {{hover|Sting Fire|Nin Yol}}. Strike me with the fire of your Thu'um."''
+:'''Paarthurnax:''' ''"Why do you delay? Are you Dovahkiin or not?"''
+:'''Paarthurnax:''' ''"Now, show me what you can do. Greet me not as Argonian/elf/{{sic|khajiit|Khajiit|description=lowercase letter}}/mortal/{{sic|orc|Orc|description=lowercase letter}}, but as dovah!"''
+
+After you have used Fire Breath on him, he will say:
+:'''Paarthurnax:''' ''"Aaah... yes! {{hover|blood of the dragon is strong|Sossedov los mul}}. The Dragonblood runs strong in you. It is long since I had the pleasure of speech with one of my own kind."''
+
+He will then take flight and resettle on the word wall. Once you approach him, he will resume the conversation.
+:''"So. You have made your way here, to me. No easy task for a joor... mortal. Even for one of Dovah Sos. Dragonblood. What would you ask of me?"''
+:'''Can you teach me the Dragonrend Shout?'''
+:''"Ah. I have expected you. {{hover|Foretold|Prodah}}. You would not come all this way for tinvaak with an old dovah. No. You seek your weapon against Alduin."''
+
+{|class=wikitable compress
+|-
+!Option
+!Response
+|-
+|'''How did you know I came for Dragonrend?''' || ''"{{hover|Alduin/let loose/time|Alduin komeyt tiid}}. What else would you seek? Alduin and Dovahkiin return together. But I do not know the Thu'um you seek. {{hover|Sorrow|Krosis}}. It cannot be known to me."''
+|-
+|'''The Greybeards didn't want me to come at all.''' || ''"Hmm. Yes. They are very protective of me. {{hover|Worthy Friends|Bahlaan fahdonne}}. But I do not know the Thu'um you seek. Krosis. It cannot be known to me."''
+|-
+|'''Do you know Dragonrend or not?''' || ''"Krosis. Sorrowfully, no. It cannot be known to me."''
+|}
+
+All three options lead to you asking for clarification:
+:'''You don't know it?'''
+:''"Your kind - joorre - mortals - created it as a weapon against the dov... the dragons. Our hadrimme, our minds cannot even... comprehend its concepts."''
+:'''How can I learn it, then?'''
+:''"Drem. All in good time. First, I have a question for you. Why do you want to learn this Thu'um?"''
+
+If you exit the conversation at this point, or at any point before Paarthurnax cuts the conversation short, then when conversation is resumed, he will ask his question again.
+:'''Paarthurnax:''' ''"You have not answered my question: Why do you need to learn this Thu'um?"''
+
+You will then have three more options to choose from in response. There are two answers to Paarthurnax if the second option is chosen, one of which is the third option.
+{|class=wikitable compress
+|-
+!Option
+!Response 
+|-
+|'''That's none of your business.''' || ''"{{hover|No|Nid}}. If you wish me to answer your question, you must answer mine."''
+|-{{ThickLine}}
+|'''I need to stop Alduin.''' || ''"Yes. Alduin... {{hover|Brother|Zeymah}}. The elder brother. Gifted, grasping and troublesome, as is so often the case with firstborn. But why? Why must you stop Alduin?"''
+'''The prophecy says that only the Dragonborn can stop him.'''<br>
+:''"True... But qostiid - prophecy - tells what may be, not what should be. {{hover|Prophecy is a weak guide|Qostiid sahlo aak}}. Just because you can do a thing, does not always mean you should. Do you have no better reason for acting than destiny? Are you nothing more than a plaything of dez... of fate?"''
+{| class="wikitable" style="border-style: none none none none"
+|-
+|style="border-style: none none solid none|
+:'''I didn't come here to debate philosophy with you.'''
+::''"Hahaha! You have much to learn of the dov, then. There is nothing else but philosophy to a dovah. It is no accident that we do battle with our Thu'um, our Voices. There is no distinction between debate and combat to a dragon. {{hover|Talk is battle|Tinvaak los grah}}. For us it is one and the same."''
+|-
+|style="border-style: none none solid none|
+:'''What better reason to act than to fulfill my destiny?'''
+::''"If you can see your destiny clearly, your sight is clearer than mine. {{hover|remember|Dahmaan}} - remember, Alduin also follows his destiny, as he sees it. But, I bow before your certainty. In a way, I envy you. The curse of much knowledge is often indecision."''
+|-
+|style="border-style: solid none solid none|
+:'''I don't believe in destiny. But I will stop Alduin.'''
+::''"And so, perhaps, your destiny will be fulfilled. Who can say? {{hover|Fate Slippery|Dez motmahus}}. Even to the dov, who ride the currents of Time, destiny is elusive. Alduin believes that he will prevail, with good reason. {{hover|He Strong|Rok mul}}. And he is no fool. {{hover|Not Fool, Very Far From|Ni mey, rinik gut nol}}. Far from it. He began as the wisest and most far-seeing of us all."''
+|}
+'''I like this world. I don't want it to end. (see [[#I like this world. I don't want it to end.|option 3]])'''
+|-{{ThickLine}}
+|'''{{Anchor|I like this world. I don't want it to end.}}''' || ''"{{hover|Good|Pruzah}}. As good a reason as any. There are many who feel as you do, although not all. Some would say that all things must end, so that the next can come to pass. Perhaps this world is simply the Egg of the next kalpa? {{hover|World Unborn|Lein vokiin}}? Would you stop the next world from being born?"''
+{| class="wikitable" style="border-style: none none none none"
+|-
+|style="border-style: none none solid none|'''I didn't come here to debate philosophy with you.'''||style="border-style: none none solid none|''"Hahaha! You have much to learn of the dov, then. There is nothing else but philosophy to a dovah. It is no accident that we do battle with our Thu'um, our Voices. There is no distinction between debate and combat to a dragon. {{hover|Talk is battle|Tinvaak los grah}}. For us it is one and the same."''
+|-
+|style="border-style: solid none none none|'''The next world will have to take care of itself.'''||style="border-style: solid none none none|''"{{hover|Fair|Paaz}}. A fair answer. {{hover|Balance Force|Ro fus}}... maybe you only balance the forces that work to quicken the end of this world. Even we who ride the currents of Time cannot see past Time's end... {{hover|the whirlwind/vortex of time is treacherous/turbulent|Wuldsetiid los tahrodiis}}. Those who try to hasten the end, may delay it. Those who work to delay the end, may bring it closer."''
+|}
+|}
+
+Eventually, no matter what options you pick, Paarthurnax will continue, giving you three options once again:
+:''"But you have indulged my weakness for speech long enough. Krosis. Now I will answer your question. Do you know why I live here, at the peak of the Monahven – what you name Throat of the World?"''
+:'''No. Dragons like mountains, right?'''
+::''"True. But few now remember that this was the very spot where Alduin was defeated by the ancient Tongues. {{hover|Memory unceasing|Vahrukt unslaad}}... perhaps none but me now remember how he was defeated."''
+:'''I never thought about it.'''
+::''"This is the most sacred mountain in Skyrim. {{hover|Most Sacred Mountain|Zok revak strunmah}}. The great mountain of the world. Here the ancient Tongues, the first mortal masters of the voice, brought Alduin to battle and defeated him."''
+:'''You said you were going to answer my question.'''
+::''"Drem. Patience. I am answering, in my way. This is the most sacred mountain in Skyrim. Most Sacred Mountain. The great mountain of the world. Here the ancient Tongues, the first mortal masters of the voice, brought Alduin to battle and defeated him."''
+
+No matter which option you chose, the conversation continues. Asking about the Elder Scroll will allow you to ask an additional question.
+:'''Using the Dragonrend Shout, right?'''
+:''"Yes and no. {{hover|Defeat But Not Conquered|Viik nuz ni kron}}. Alduin was not truly defeated, either. If he was, you would not be here today, seeking to... defeat him. The Nords of those days used the Dragonrend Shout to cripple Alduin. But this was not enough. {{hover|His Strength Unending/Ceaseless/Eternal|Ok mulaag unslaad}}. It was the Kel – the Elder Scroll. They used it to... cast him adrift on the currents of Time."''
+:'''An Elder Scroll? What's that?'''
+::''"Hmm. How to explain in your tongue? The dov have words for such things that joorre do not. It is... an artifact from outside time. It does not exist, but it has always existed. {{hover|Gods Created|Rah wahlaan}}. They are... hmm... fragments of creation. The Kelle... Elder Scrolls, as you name them, they have often been used for prophecy. Yes, your prophecy comes from an Elder Scroll. But this is only a small part of their power.  {{hover|Fearful Power|Zofaas suleyk}}."''
+::'''How does any of this help me?'''
+::''"{{hover|Time Broken|Tiid krent}}. Time was... shattered here because of what the ancient Nords did to Alduin. If you brought that Kel, that Elder Scroll back here... to the Tiid-Ahraan, the Time-Wound... With the Elder Scroll that was used to break Time, you may be able to... cast yourself back. To the other end of the break. You could learn Dragonrend from those who created it."''
+:'''Are you saying the ancient Nords sent Alduin forward in time?'''
+::''"Not intentionally. Some hoped he would be gone forever, forever lost. {{hover|Fools|Meyye}}. I knew better. Tiid bo amativ. Time flows ever onward. One day he would surface. Which is why I have lived here. For thousands of mortal years I have waited. I knew where he would emerge but not when."''
+
+===[[Skyrim:Elder Knowledge|Elder Knowledge]]===
+Elder Knowledge begins with the player still in conversation with Paarthurnax. You will have only one of two options depending on whether you have already met and talked to [[Skyrim:Urag gro-Shub|Urag gro-Shub]], but the response from Paarthurnax will be the same for either one:
+:'''Do you know where I can find an Elder Scroll?'''
+:''"Krosis. No. I know little of what has passed below in the long years I have lived here. You are likely better informed than I."''
+{|class=hiddentable
+|width=50%|<center>If you've talked to Urag:</center>
+|width=50%|<center>If you haven't talked to Urag:</center>
+|-
+|
+:'''The Lorekeeper at the College of Winterhold might know.'''
+|
+:'''Hmm. Esbern or Arngeir might have some idea.'''
+|}
+::::::::''"Trust your instincts, Dovahkiin. Your blood will show you the way."''
+
+You will then have four topics (not options; you can choose them all, one by one) to ask Paarthurnax about, three of which relate to this quest, and the last of which relates to meditating on Words of Power. The latter are covered in the [[#Meditation|Meditation section]]. If you exited dialogue when the quest began, the option above will be listed as well, for a total of five possible topics.
+
+:'''What do I do with the Elder Scroll when I find it?'''
+::''"Return it here, to the Tiid-Ahraan. Then... {{hover|The Elder Scrolls are unknown/unknowable|Kelle vomindok}}. Nothing is certain with such things... But I believe the Scroll's bond with the Tiid-Ahraan will allow you a... a seeing, a vision of the moment of its creation. Then you will feel – know – Dragonrend, in the power of its first expression. You will see them... {{hover|old friends|wuth fadonne}}... my friends – Hakon, Gormlaith, Felldir."''
+:'''Hakon, Gormlaith, Felldir? Who are they?'''
+::''"The first mortals that I taught the Thu'um – the first Tongues. The leaders of the rebellion against Alduin. They were mighty, in their day. Even to attempt to defeat Alduin... {{hover|Mighty Heroes|sahrot hunne}}. The Nords have had many heroes since, but none greater."''
+:'''How could an Elder Scroll cast Alduin through time?'''
+::''"Vomindok. I do not know. Perhaps in the very doing they erased the knowing of it from Time itself. The dov are children of Akatosh. Thus we are specially... attuned to the flow of Time. Perhaps also uniquely vulnerable. I warned them against such a rash action. Even I could not foresee its consequences. {{hover|they (would) not hear|Nust ni hon}}. They would not listen."''
+::'''You mean you were there?'''
+::''"Yes. There were a few of us who rebelled against Alduin's {{hover|Overlord(ship)|thur}}... his tyranny. We aided the humans in his overthrow. But they did not trust us. {{hover|Not trust|Ni ov}}. Their inner councils were kept hidden from us. I was far from here on the day of Alduin's downfall. But all dov felt the... sundering of Time itself."''
+:'''What does the Dragonrend Shout actually do?'''
+::''"I cannot tell you in detail. I never heard it used. {{hover|Blessings (thankfully)|Kogaan}}. It was the first Thu'um created solely by mortals. It was said to force a dragon to experience the concept of Mortality. A truly {{hover|incomprehensible|vonmindoraan}}... incomprehensible idea to the immortal dov."''
+
+===[[Skyrim:Alduin's Bane|Alduin's Bane]]===
+[[File:SR-quest-Alduin's Bane 02.jpg|thumb|right|Paarthurnax faces Alduin]]
+When you arrive at the Throat of the World with the Elder Scroll, Paarthurnax will be quite impressed with your efforts.
+:''"You have it. The Kel - the Elder Scroll. {{hover|Time bends... touch|Tiid kreh... qalos}}. Time shudders at its touch. There is no question. You are doom-driven. {{hover|Blessing (of) Akatosh|Kogaan Akatosh}}. The very bones of the earth are at your disposal. Go then. Fulfill your destiny. Take the Scroll to the Time-Wound. Do not delay. [[Skyrim:Alduin|Alduin]] will be coming. He cannot miss the signs."''
+
+After the cutscene in the Merethic Era ends, Alduin appears and taunts you. Paarthurnax will then urge you to move:
+:'''Paarthurnax:''' ''"{{hover|You fail.|Lost funt.}} You are too late, Alduin! Dovahkiin! Use Dragonrend, if you know it!"''
+
+At the beginning of the fight with Alduin, Paarthurnax will say:
+:'''Paarthurnax:''' ''"{{hover|Unending enemy!|Unslaad hokoron}}! Never again!"''
+
+He will then repeatedly urge you to use Dragonrend.
+:'''Paarthurnax:''' ''"{{hover|Dragonborn, (your) opposite awaits!|Dovahkiin, vosaraan!}} Use Dragonrend before Alduin consumes you!"''
+:'''Paarthurnax:''' ''"Use Dragonrend, Dovahkiin!"''
+:'''Paarthurnax:''' ''"He is too strong on the wing! Bring him to {{hover|earth|gol}} with Dragonrend!"''
+:'''Paarthurnax:''' ''"Use Dragonrend! It is the only chance to defeat him!"''
+
+Once you have brought Alduin down with Dragonrend; Paarthunaax will continue to encourage you:
+:'''Paarthurnax:''' ''"Now, Dovahkiin! Now he is vulnerable!"''
+:'''Paarthurnax:''' ''"This is your chance, Dovahkiin! Strike with all your force!"''
+:'''Paarthurnax:''' ''"Hurt him while he is grounded!"''
+
+===[[Skyrim:The Fallen|The Fallen]]===
+
+:''"Lot krongrah. You truly have the Voice of a dovah. Alduin's allies will think twice after this victory."''
+:'''It wasn't really a victory, since Alduin escaped.''' 
+:''"Ni liivrah hin mere. True, this is not the final krongah - victory. But not even the heroes of old were able to defeat Alduin in open battle. Alduin always was pahlok - arrogant in his power. Uznahgar paar. He took domination as his birthright. This should shake the loyalty of the dov who serve him."''
+:'''I need to find out where Alduin went.''' 
+:''"Yes... one of his allies could tell us. Motmahus... But it will not be easy to... convince one of them to betray him. Perhaps the hofkahsejun - the palace in Whiterun... Dragonsreach. It was originally built to house a captive dovah. A fine place to trap one of Alduin's allies, hmm?"''
+:'''The Jarl of Whiterun might not think so.'''
+:''"Hmm, yes. But you su'um is strong. I do not doubt you can convince him of the need."''
+:'''Dragonsreach was built to hold a dragon?'''
+:''"Yes. This was ages ago, you understand. There were more of us then. Before the bruniike - the Akaviri - came and killed all my zeymah. I used to visit him from time to time. Nearly crazed by loneliness and captivity. Tiiraz sivaas. He did not even remember his own name. I do not know how he came to be caught. But the bronjun... the Jarl... was very proud of his pet. Paak! The hofkahsejun has been known as Dragonsreach ever since."''
+
+
+:''"Drem Yol Lok. Greetings."''
+:'''I need a way to lure a dragon to Dragonsreach. Any ideas?''' 
+:''"Hmm. Yes, I have been pondering on exactly that question. Lingrah morah. I have tasted the voices of Alduin's allies on the wind. Pogaan nahlaas, vokrii wah jun. There is one who I remember well. Odahviing. He is the one to tell us where Alduin has gone."''
+:'''So we know his name. How does that help me get him to Dragonsreach?''' 
+:''"Ah, I forgot how little you know of the dov. Our names are always made up of three Rotmulaag - Words of Power. You see - Paar-thur-nax - a Thu'um - a Shout, yes?"''
+:'''Why would he come when called?''' 
+:''"He is not compelled to come, but the dov are prideful by nature. Few could resist such a challenge. Especially from you, Dovahkiin. But Odahviing, he is...headstrong? Boziik. Rash. Even among the dov, he was known for this. He will not resist the challenge of your Voice, Dovahkiin. He will come. Now - hear his name. Odaviing. Taste it in the wind, Od-ah-viing. Know it in your su'um. Od-ah-viing!"''
+
+===[[Skyrim:Paarthurnax (quest)|Paarthurnax]]===
+[[File:SR-quest-Paarthurnax (quest).jpg|thumb|right|You will be sent to kill Paarthurnax]]
+During the main quest, [[Skyrim:Delphine|Delphine]] and [[Skyrim:Esbern|Esbern]] will demand you to kill Paarthurnax for the atrocities he committed during the Dragon War.
+
+Upon approaching Paarthurnax, you can tell him that the Blades say he deserves to die. He tells you that their feelings are justified, and that they shouldn't trust him. You can then ask why they shouldn't trust him, and Paarthurnax will explain his position.
+:'''The Blades say you deserve to die.'''
+:''"The Blades are wise not to trust me. {{hover|Wisdom not trust|Onikaan ni ov}}. I would not trust another {{hover|dragon|dovah}}."''
+:'''Why shouldn't they trust you?'''
+:''"{{hover|Dragons were created for domination|Dov wahlaan fah rel}}. We were made to dominate. The will to power is in our blood. You feel it in yourself, do you not? I can be trusted. I know this. But they do not. {{hover|Wisdom is not trusting a dragon|Onikaan ni ov dovah}}. It is always wise to mistrust a dovah. I have overcome my nature only through meditation and long study of the Way of the Voice. No day goes by where I am not tempted to return to my inborn nature. {{hover|Honor is fighting the lure of power.|Zin krif horvut se suleyk.}} What is better - to be born good, or to overcome your evil nature through great effort?"''
+
+===[[Skyrim:Dragonslayer|Dragonslayer]]===
+After returning from [[Skyrim:Sovngarde (place)|Sovngarde]], several dragons will be awaiting you at the peak of the Throat of the World, and will recite a chant acknowledging the defeat of Alduin. When they are done, Paarthurnax will speak to you if he was not killed earlier.
+:''"So, it is done. {{hover|Alduin (is) dead|Alduin dilon}}. The Eldest is no more, he who came before all others, and has always been."''
+
+You have three options:
+{|class=wikitable
+!Option!!Response
+|-
+|'''You don't sound very happy about it.'''||''"Happy? No, I am not happy. {{hover|My brother was once the crown of my father|Zeymahi lost ont du'ul Bormahu}}. Alduin was once the crown of our father Akatosh's creation."''
+|-
+|'''I have no regrets. Alduin had to be destroyed.'''||''"Of course. Alduin {{hover|created his (own) doom|wahlaan daanii}}. I would not have helped you if I thought otherwise."''
+|-
+|'''Alduin brought this on himself.'''||''"Indeed. Alduin {{hover|created his (own) doom|wahlaan daanii}}. His doom was written when he claimed for himself the lordship that properly belongs to Bormahu - our father Akatosh."''
+|}
+
+If you chose one of the first two options, he will say both follow-up responses; otherwise, he will just say the second:
+:''"You did what was necessary. Alduin had flown far from the path of right action in his {{hover|arrogance|pahlok}} - the arrogance of his power."''
+:''"But I cannot celebrate his fall. {{hover|I am sad at his fall|Zu'u tiiraaz ahst ok mah}}. He was my brother once. This world will never be the same."''
+
+Your available options and Paarthurnax's replies will depend on what you told him earlier during [[#The Throat of the World|The Throat of the World]].
+{|class=wikitable
+!Option!!Response
+|-
+|rowspan=2|'''I was just fulfilling my destiny as Dragonborn.'''
+|''"You once told me you did not believe in destiny."''
+|-
+|''"Indeed, you saw more clearly than I - certainly more clearly than Alduin. {{hover|He failed to see|Rok funta koraav}}."''
+|-
+|'''I told you I'd stop him, and I did.'''
+|''"And so you fulfilled your destiny, which you once said you did not believe in."''
+|-
+|rowspan=2|'''The world is a better place without Alduin.'''
+|''"Perhaps. At least it will continue to exist. {{hover|Such is the world|Grik los lein}}. And, as you told me once, the next world will have to take care of itself. {{hover|So it is/So be it|Ful nii los}}. Even I cannot see past Time's ending."''
+|-
+|''"I am glad you believe that. At least it will continue to exist. {{hover|Such is the world|Grik los lein}}. Even I cannot see past Time's ending to what comes next. {{hover|(there is) no seeing through (the) end of time|Niid koraav zeim dinoksetiid}}. We must do the best we can with this world."''
+|}
+
+Again, if you chose one of the first two options, he will say both follow-up responses; otherwise, he will just say the second:
+:''"Perhaps now you have some insight into the forces that shape the vennesetiid... the currents of Time. Perhaps you begin to see the world as a dovah."''
+:''"But I forget myself. Krosis. {{hover|Sorrow is (a) loyal friend|So los mid fahdon}}. Melancholy is an easy trap for a dovah to fall into. You have won a mighty victory. {{hover|Mighty victory|Sahrot krongrah}} - one that will echo through all the ages of this world for those who have eyes to see. Savor your triumph, Dovahkiin. This is not the last of what you will write upon the currents of Time."''
+
+After exiting dialogue, he takes flight and exclaims:
+:''"{{hover|Rout|Goraan}}! I feel younger than I have in many an age. Many of the {{hover|dragons|dovahhe}} are now scattered across {{hover|Skyrim|Keizaal}}. Without Alduin's lordship, they may yet bow to the {{hover|truth|vahzen}}... rightness of my Thu'um. But willing or no, they will hear it! Fare thee well, Dovahkiin!"''
+
+==Meditation==
+[[File:SR-creature-Paarthurnax.jpg|thumb|Paarthurnax perches on a word wall.]]
+After you start Elder Knowledge, you can ask Paarthurnax about meditating on the Words.
+:'''You're the Master of the Greybeards. Do others come here to train?'''
+:''"I have taught the Way of the Voice for centuries and the Thu'um since long before that. But no, Dovahkiin. Others do not come here to train anymore. Saraan. You are the first in over a hundred years. I meditate on the Rotmulaag - the Words of Power. I counsel in their use. It is enough for me."''
+:'''You meditate on the Words? How?'''
+:''"Knowing a Word of Power is to take its meaning into yourself. Contemplate the meaning of a {{hover|Word of Power|Rotmulaag}}. You will become closer to that Word, as it fills your inner self. Will I teach you, Dovahkiin? What Word calls you to deeper understanding? There are three to master: Fus, Feim, and Yol."'' 
+
+The [[Skyrim:Powers#Abilities|effect]] applies until you choose another, and does not conflict with the [[Skyrim:Standing Stone|Standing Stones]]. If you kill Paarthurnax, the bonus will not disappear, but you won't be able to change it.
+{| class=wikitable
+!colspan=3|Fus - Force
+|-
+|[[Skyrim:Force Without Effort|Force Without Effort]]||''You stagger 25% less and foes stagger 25% more.''||Augments power attacks and [[Skyrim:Unrelenting Force|Unrelenting Force]] shout
+|-
+|colspan=3|''"It is called 'Force' in your tongue. But as you push the world, so does the world push back. Think of the way force may be applied effortlessly. Imagine but a whisper pushing aside all in its path. That is 'Fus.' Let its meaning fill you. {{hover|Breath and focus.|Su'um ahrk morah.}} You will push the world harder than it pushes back."''
+|-
+!colspan=3|Feim - Fade
+|-
+|[[Skyrim:Eternal Spirit|Eternal Spirit]]||''While Ethereal, you recover health 25% faster.''||Only active and visible on Active Effects menu when using [[Skyrim:Become Ethereal|Become Ethereal]] shout
+|-
+|colspan=3|''"'Fade' in your tongue. Mortals have greater affinity for this Word than the {{hover|Dragons|dov}}. Everything mortal fades away in time, but the spirit remains. Ponder the meaning of spirit. {{hover|Eternal spirit.|Unslaad zii.}} Where mortal flesh may wither and die, the spirit endures. That is 'Feim.' Let that meaning fill you. {{hover|Breath and focus.|Su'um ahrk morah.}} You will find that your spirit will give you more strength."''
+|-
+!colspan=3|Yol - Fire
+|-
+|[[Skyrim:The Fire Within|The Fire Within]]||colspan=2| ''[[Skyrim:Fire Breath|Fire Breath]] shout deals 25% more damage.''
+|-
+|colspan=3|''"In your tongue, the Word simply means 'Fire.' It is change given form. Power at its most primal. That is the true meaning of 'Yol.' {{hover|Power|Suleyk.}} Power. You have it, as do all {{hover|Dragons|dov}}. But power is inert without action and choice. Think of this as the fire builds in your su'um, in your breath. {{hover|Breath and focus.|Su'um ahrk morah.}} What will you burn? What will you spare?"''
+|}
+
+After the first time you speak to Paarthurnax on this subject, instead of the conversation given above, you can simply tell him you want to meditate. He will then ask you which word you want to focus on. Otherwise his dialogue is the same as the table above.
+:'''I wish to meditate on a Word of Power.'''
+:''"Which calls to you, Dovahkiin? Fus, Feim, or Yol?"''
+
+==Notes==
+*[[Skyrim:Sissel|Sissel]], a young girl from [[Skyrim:Rorikstead|Rorikstead]], will tell you that she had a dream about a ''"good dragon"'' who was ''"old and gray"'' but ''"wasn't scary"''. While it's likely that this was a vision of Paarthurnax, there's no confirmation of this in the game.
+*During the dialogue with him he refers to a time cycle, Kalpa, which is a [[wikipedia:Sanskrit|Sanskrit]] word sometimes translated as an eon.
+*Paarthurnax is voiced by [[wikipedia:Charles Martinet#Video Games|Charles Martinet]].
+*When questioning Paarthurnax about others who have come to train with him, he states that you are the first in over a hundred years. While Ulfric Stormcloak studied with the Greybeards, he left before becoming a Greybeard himself, and Arngeir tells you during [[Skyrim:The Throat of the World|The Throat of the World]] that Paarthurnax rarely meets with them, and never with outsiders. So, Ulfric Stormcloak never studied with Paarthurnax himself.
+*Paarthurnax also [[Legends:Paarthurnax|appears]] in the [[Legends:Heroes of Skyrim|Heroes of Skyrim]] card expansion for ''[[LG:Legends|Legends]]''.
+{{Skyrim Dragons}}

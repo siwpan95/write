@@ -1,0 +1,97 @@
+<noinclude>{{Cleanup-shrp
+|writtenby=Biffa
+|checkedby=
+}}</noinclude>{{Place Summary
+|type=Guild Hall
+|marker_id=Landmark
+|zones=1
+|clearable=No
+|treasure=[[Skyrim:Specialty Gear#Blades Equipment|Blades Equipment]]<br>[[Skyrim:Dragonbane|Dragonbane]]<br>''[[Skyrim:Mace Etiquette|Mace Etiquette]]''
+|locationcode=SkyHavenTemple
+|region=The Reach
+|location=East of [[Skyrim:Markarth|Markarth]]<br>Through the [[Skyrim:Karthspire|Karthspire]] cave
+|grindstone=1
+|cooking=1
+|image=SR-place-Sky Haven Temple Exterior.jpg
+|imgdesc=Sky Haven Temple
+|description=A large mountaintop fort that served as the major [[Skyrim:Blades|Blades]] temple and outpost in [[Skyrim:Skyrim|Skyrim]], now long abandoned and in [[Skyrim:Forsworn|Forsworn]] territory.
+}} [[Category:Skyrim-Places-Guild Halls]] [[Category:Skyrim-Places-Landmarks]] [[Category:Skyrim-Places-Military Forts]] It has a long and rich history as the Blades' main base in Skyrim. According to [[Skyrim:Esbern|Esbern]], the temple has been abandoned for thousands of years, although the date it was last in use by the Blades is unknown. After it has been reclaimed by acting Grandmaster [[Skyrim:Delphine|Delphine]], she will attempt to rebuild the Blades, using it as a hidden base of operations.
+
+It is also the long-forgotten location of [[Lore:Alduin's Wall|Alduin's Wall]], a pictorial repository of ancient [[Lore:Akaviri|Akaviri]] dragonlore, including all the information ever gathered regarding [[Skyrim:Alduin|Alduin]], the [[Skyrim:Dragon Cult|Dragon Cult]], and their reign of terror. It also details a prophecy regarding their defeat. The last panel speaks of Alduin's return and his contending with the last [[Skyrim:Dovahkiin|Dragonborn]] at the end of time. More information on the history of the temple and Alduin's Wall can be found on the [[Lore:Sky Haven Temple|lore page]].
+
+The temple can only be accessed once stage 30 of the quest [[Skyrim:Alduin's Wall|Alduin's Wall]] has been reached. It is possible to discover the map marker beforehand, thus skipping the Forsworn and puzzles in the [[Skyrim:Karthspire|Karthspire]], by fast traveling during the quest, but entry to the temple will be impossible. The temple includes an interior, ''[[#Sky Haven Temple|Sky Haven Temple]]'', and an [[#Exterior|exterior]] courtyard at the top of the Karthspire mountain. The interior consists of sleeping quarters, a dining hall, and a small armory. The courtyard is used to watch over the surrounding area and for training purposes.
+
+When you and Delphine have reclaimed the temple as the new headquarters of the Blades, you can bring up to three [[Skyrim:Followers|followers]] back to her and have them inducted into the Blades. Esbern offers the [[Skyrim:Dragonslayer's Blessing|Dragonslayer's Blessing]] (stackable with divine blessings) that lasts for five days, giving you a greatly increased chance of critical hits against [[Skyrim:Dragon|dragons]], and will tell you about his [[Skyrim:Dragon Research|dragon research]], eventually offering a potion that grants the [[Skyrim:Dragon Infusion|Dragon Infusion]] [[Skyrim:Powers|ability]], which causes you to take less damage from dragons. He will also offer the services of all the newly recruited Blades to aid you in [[Skyrim:Dragon Hunting|hunting a dragon]] at a random [[Skyrim:Dragon Lairs|dragon lair]].
+
+If you fast travel to Sky Haven Temple after discovering it, you will actually land inside the Karthspire, in front of the door to the temple near the blood seal.
+
+==Residents==
+{{Skyrim:Sky Haven Temple People}}
+Note: The quest [[Skyrim:Rebuilding the Blades|Rebuilding the Blades]] allows you to make up to three of your followers into Blades. They will leave their former lives and reside here. If any of them die after becoming a Blade, you cannot replace them.
+
+==Related Quests==
+[[File:SR-quest-Rebuilding the Blades.jpg|thumb|right|Two new recruits relaxing]]
+===[[Skyrim:Main Quest|Main Quest]]===
+* {{Quest Link|Alduin's Wall}}
+* {{Quest Link|The Throat of the World}}
+* {{Quest Link|Elder Knowledge}}
+* {{Quest Link|The Fallen}}
+* {{Quest Link|Paarthurnax (quest)}}
+
+===Blades Quests===
+* {{Quest Link|Dragon Hunting}}
+* {{Quest Link|Dragon Research}}
+* {{Quest Link|Rebuilding the Blades}}
+
+==Walkthrough==
+===Exterior===
+[[File:SR-place-Karthspire.jpg|thumb|right|The exterior of Sky Haven temple from the Karthspire]]
+Two separate exterior areas connect to the temple: the cave outside the entrance from the Karthspire, and the courtyard at the top of the mountain. The only distinct features of the Karthspire cave exterior are a stone face covering the entrance, the "blood seal" on the ground before it bearing the Dragonborn symbol, and the large unlocked [[Skyrim:Chest|chest]] in the center of the cavern with unlit braziers at each corner. There is also a [[Skyrim:Quicksilver Ore Vein|quicksilver ore vein]] on the right-hand wall as you enter this area. See [[Skyrim:Karthspire|here]] for full details of this area and the cave system leading to it.
+
+The courtyard is on top of the mountain and has an impressive field of vision, covering most of the main roads leading to and from [[Skyrim:Markarth|Markarth]]. From the courtyard, it is possible to see [[Skyrim:Reachwind Eyrie|Reachwind Eyrie]] to the south, and [[Skyrim:Kolskeggr Mine|Kolskeggr Mine]] to the north. The western view is blocked by part of the mountains in that direction, while the eastern view is blocked by the temple building. By climbing the rocks behind the building, it is possible to see the waterfalls beside [[Skyrim:Old Hroldan Inn|Old Hroldan Inn]], [[Skyrim:Soljund's Sinkhole|Soljund's Sinkhole]], and [[Skyrim:Sundered Towers|Sundered Towers]] to the east, while Markarth to the west is just visible.
+
+There are two open-sided structures outside in the courtyard; one has several [[Skyrim:Hanging Moss|hanging moss]] growing from the roof. Both structures are initially empty.
+
+After returning from the quest [[Skyrim:The Throat of the World|The Throat of the World]], the first structure will have two archery targets, one raised on a bale of straw, and a practice dummy. The structure with an arched roof will function as a lookout post. When Esbern is found outside, he will stand lookout. When Delphine is outside, she will alternate between training alone, training with each of the Blade recruits, or standing lookout. Any recruits will alternate between training alone, training with Delphine, and wandering about the small area. There are also five trees with [[Skyrim:Juniper Berries|juniper berries]] and a tree stump with [[Skyrim:Mora Tapinella|mora tapinella]] fungus growing on it around the courtyard. Although it is a fairly small area, it is large enough for a dragon to land, giving the recruits some live targets to train on.
+
+===Sky Haven Temple===
+[[File:SR-interior-Sky Haven Temple.jpg|thumb|Sky Haven Temple's main hall]]
+When you first arrive in the company of Delphine and Esbern, the Temple will be quite dark; a light source is highly recommended. You enter after clearing the puzzles and traps and passing the blood seal in the cave outside. At the top of a few flights of stairs from the door is the main room. This room is quite large, and contains the main object of interest, '''Alduin's Wall''', which prophesies the Dragonborn's [[Skyrim:Dragonslayer|fate]]. Esbern will immediately rush over to it and start to inspect it while muttering to himself. This large room serves as the dining room, gathering room, and Esbern's study. In the middle of the lower part of the room is a very long, empty stone dining table, with a smaller, empty wooden table.
+
+Esbern will set up his study to the right-hand side of the wall, and as the [[Skyrim:Main Quest|main quest]] progresses, more books will be added to his table and bookcase. Most of his books are about dragons or the Dragonborn prophecy, and although he mentions a library in the Temple, one does not exist in-game.
+
+The multitude of stairs in the hall can be quite confusing. From the entrance, the left-hand and central stairs lead to the main room, while the right-hand stairs lead to the side of the same room and a set of stairs to the level above Alduin's Wall. The stairs in the northwest corner of the main room split: the left-hand fork leads to the front of the sleeping quarters, while the right-hand fork leads to halfway between the sleeping quarters and the area above the wall. The three sets of stairs in the area above the wall all lead to another small area containing five separate doors, all of which lead to the courtyard at the top of the mountain.
+
+The sleeping quarters in the northwestern corner initially contains seven unlocked chests containing minor loot, an empty set of shelves, five unowned single beds, and an old extinguished campfire. In the middle of the room are four chairs and two empty wooden tables, one small and square and the other longer, as well as two food barrels beside a pillar.
+
+The stone dining table in the main hall points almost directly at the armory to the west. On the wooden table in the armory is [[Skyrim:Dragonbane|Dragonbane]] (a one-handed Akaviri katana), an [[Skyrim:Iron Dagger|iron dagger]], an [[Skyrim:Iron Mace|iron mace]], and the [[Skyrim:One-handed|One-handed]] [[Skyrim:Skill Books|skill book]] ''[[Skyrim:Mace Etiquette|Mace Etiquette]]''. Hanging on the wall to the left are six [[Skyrim:Blades Sword|Blades swords]], and between the wall and table is an unlocked chest containing all five pieces of the [[Skyrim:Specialty Gear#Blades Equipment|Blades equipment]] and some [[Skyrim:Gold|coins]].
+
+Once you have completed the quest The Throat of the World and return to the temple, you will find that the braziers have all been lit, casting slightly more light, but still leaving large areas in darkness. There are now rugs scattered on the floor throughout. The long stone table in the main chamber containing Alduin's Wall now holds an [[Skyrim:Iron Greatsword|iron greatsword]], two bottles of [[Skyrim:Alto Wine|alto wine]], a bottle of [[Skyrim:Wine|wine]], two bottles of [[Skyrim:Nord Mead|Nord mead]], a [[Skyrim:Cabbage|cabbage]], a [[Skyrim:Salmon Steak|salmon steak]], a [[Skyrim:Potato|potato]], a sprig of [[Skyrim:Snowberries|snowberries]], several loaves of [[Skyrim:Bread|bread]], and a wedge of cheese among fine crockery. Three chairs are arranged along either side of the table. To the left of the wall is a long wooden table and chair with various [[Skyrim:Weapons|arms]] and [[Skyrim:Armor|armor]], including an [[Skyrim:Iron Helmet|iron helmet]], a [[Skyrim:Banded Iron Shield|banded iron shield]], a [[Skyrim:Hunting Bow|hunting bow]], a [[Skyrim:Steel Mace|steel mace]], a [[Skyrim:Dwarven Sword|dwarven sword]], an [[Skyrim:Iron War Axe|iron war axe]], and two loose [[Skyrim:Iron Arrow|iron arrows]]. On the floor to the left is a [[Skyrim:Grindstone|grindstone]].
+
+The table and bookcase to the right of the wall is where Esbern can normally be found studying. On the table is a [[Skyrim:Salt Pile|salt pile]], a [[Skyrim:Garlic|garlic]] bulb, several rolls of paper, and copies of ''[[Skyrim:The Book of the Dragonborn|The Book of the Dragonborn]]'' and a complete set of ''[[Skyrim:Brief History of the Empire|Brief History of the Empire]]'' volumes 1–4. To the right is a set of shelves holding eleven [[Skyrim:Books|common books]] and several rarer or unique books including ''[[Skyrim:Atlas of Dragons|Atlas of Dragons]]'', ''[[Skyrim:Effects of the Elder Scrolls|Effects of the Elder Scrolls]]'', ''[[Skyrim:Dragon Language: Myth no More|Dragon Language: Myth no More]]'', ''[[Skyrim:Flight from the Thalmor|Flight from the Thalmor]]'', and ''[[Skyrim:Remanada|Remanada]]''.
+
+The armory still contains the same items left previously, while in the sleeping quarters the cooking fire has been relit and now has a [[Skyrim:Cooking Pot|cooking spit]] hanging in front. The beds and chests are exactly as you left them; however, the small table now has a small mead barrel on top, and the longer table is now laid with two bottles of alto wine, a bottle of wine, a [[Skyrim:Baked Potatoes|baked potato]], a portion of [[Skyrim:Grilled Leeks|grilled leeks]], a salmon steak, a [[Skyrim:Seared Slaughterfish|seared slaughterfish]] steak, a potato, several loaves of bread, and pieces of cheese. The shelving unit is also now filled with clutter.
+
+==Notes==
+* All items are free to take when you arrive. This changes when you receive the quest [[Skyrim:Paarthurnax (quest)|Paarthurnax]], when Esbern tells you that the Blades will not offer you their support until the quest is complete. If the quest is left uncompleted, all items in Sky Haven Temple will be considered owned, but will be free to take again after the quest is completed.
+* Once a follower has become a Blade, he or she will be free to hire. This is particularly handy if your favorite followers are [[Skyrim:Hireling|hirelings]].
+* With the [[Skyrim:Hearthfire|Hearthfire]] add-on, [[Skyrim:Personal Steward|Stewards]] who are Blades will stay at the [[Skyrim:Construction|house that they are steward of]], and not go back here.
+* The book ''[[Skyrim:Annals of the Dragonguard|Annals of the Dragonguard]]'' details the construction of Alduin's Wall in the {{Year|1E 2812|First Era}}.
+* The temple is mentioned in the book ''[[Skyrim:The Rise and Fall of the Blades|The Rise and Fall of the Blades]]''.
+* Alduin's Wall was called [[Lore:Reman|Reman]]'s Wall at some point in development of the game, as hinted by concept art.
+* In the river west below from the high mountain courtyard, there's a boat containing gems, it's also noted in the [[Skyrim:Reachwater_Rock|Reachwater Rock]] page.
+
+==Bugs==
+{{Bug|Dialogue for Sky Haven Temple is only supposed to be used by Blade recruits when they're here. [[Skyrim:Patch|Official Skyrim Patch]] 1.9 removed the condition, which then broke recruit responses outside of the temple if they are your current follower.|USKP|2.0.0}}
+{{Bug|Not all of the followers that you recruit into the Blades will stay here. Check your follower's page before recruiting them, as some tend to run between here and their "former" home.|USKP|1.1}}
+{{Bug|Delphine appears to have been unable to light all of the torch pits due to bad navmeshing in the cell making her unable to reach them all reliably.|USKP|2.0.4}}
+{{Bug|Despite being part of The Reach and having large sections exposed to the sky above, Karthspire Redoubt (the part of Sky Haven Temple where the puzzle doors are) only ever uses fog weather which doesn't match the parent worldspace.|USKP|2.0.4}}
+{{Bug|Sky Haven Temple has no designated horse markers assigned.|USLEEP|3.0.1}}
+
+==Gallery==
+<gallery>
+File:SR-place-Sky Haven Temple 02.jpg|Sky Haven Temple
+File:SR-npc-Delphine 38.jpg|Life in Sky Haven
+File:SR-place-Sky Haven Temple 03.jpg|Courtyard
+File:SR-place-Kolskeggr Mine 02.jpg|View of [[Skyrim:Kolskeggr Mine|Kolskeggr Mine]] from the courtyard
+</gallery>

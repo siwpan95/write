@@ -1,0 +1,243 @@
+{{Skills Summary
+|Image=SR-skill-Illusion.png
+|Special=Magic
+|ExTrail=[[Skyrim:Magic Overview|Magic]]
+}}
+'''Illusion''' is one of the five schools of [[Skyrim:Magic Overview|magic]] in Skyrim. Illusion magic focuses on changing the perception of the world from the viewpoint of the target. Increasing this skill reduces magicka cost when casting Illusion spells. The Illusion skill tree has a total of 13 perks, requiring a total of 13 perk points to fill.
+
+In-game Description: ''The School of Illusion involves manipulating the mind of the enemy.  This skill makes it easier to cast spells like Fear, Calm, and Invisibility.''
+
+For historical information, see the [[Lore:Illusion|main lore article]].
+
+==Summary==
+
+Illusion contains a range of spells that play with your enemies' minds. While no Illusion spell does any direct damage, spells and perks in this school are a good supplement to Stealth-focused characters, and make stealthy play more viable for mages.
+
+===Main Effects===
+Progressively more powerful spells with each of these effects are available as your character develops. Some of these effects can also be produced using [[Skyrim:Alchemy|Alchemy]] and [[Skyrim:Enchanting|enchantments]].
+*'''[[Skyrim:Pacify (effect)|Pacify]]''' spells minimize aggression and cause the affected to lose the will to fight unless attacked first.
+*'''[[Skyrim:Fear (effect)|Fear]]''' spells minimize confidence and cause the affected to run away.
+*'''[[Skyrim:Frenzy (effect)|Frenzy]]''' spells maximize aggression and cause the affected to lose allegiance and attack anyone they see.
+*'''[[Skyrim:Rally (effect)|Rally]]''' spells maximize confidence and increase the stats of the affected and prevent them from fleeing.
+*'''[[Skyrim:Muffle (effect)|Muffle]]''' helps the caster to sneak around by reducing the noise made by walking.
+*'''[[Skyrim:Invisibility (effect)|Invisibility]]''' removes the ability to be detected by sight, but unlike sneaking, wears off immediately if the caster touches something, casts a spell or uses a weapon.
+
+=== Spell Types ===
+For each effect type, the pattern of spells is consistent:
+{|class="wikitable sortable" style="text-align:center;"
+! Type !! Targets !! Duration !! Spell Level !! Target Level !! Pacify !! Fear !! Frenzy !! Rally
+|-
+| rowspan=2|'''Missile''' || rowspan=2|Single target || rowspan=2|30 seconds || Novice || 6 || || || [[sr:Fury|Fury]] || [[sr:Courage|Courage]] (60 second duration)
+|-
+| Apprentice || 9 || [[sr:Calm|Calm]] || [[sr:Fear (spell)|Fear]] || || 
+|-
+| rowspan=2|'''Area Missile''' || rowspan=2|Targets within 15' of impact || rowspan=2|60 seconds || Adept || 14 || || || [[sr:Frenzy (spell)|Frenzy]] || [[sr:Rally (spell)|Rally]]
+|-
+| Expert || 20 || [[sr:Pacify (spell)|Pacify]] || [[sr:Rout|Rout]] || || 
+|-
+|'''Wide Area''' || Targets within 250' of caster || 60 seconds || Master || 25 || [[sr:Harmony|Harmony]] || [[sr:Hysteria|Hysteria]] || [[sr:Mayhem|Mayhem]] || [[sr:Call to Arms|Call to Arms]] (100' radius / 10 min. duration)
+|}
+Target Level does not apply to Rally effects.  All missiles, area or not, are range 469 feet.
+
+=== Usage ===
+Illusion is a formidable tool against almost every enemy in Skyrim, [[Skyrim:Dragon|dragon]]s being a notable exception. It can be used on its own as a combat tool, but it is best used in conjunction with another skill to take on enemies. 
+
+The only effect that serves as a combat tool is [[#Frenzy|Frenzy]], which can be used to cause groups of enemies to decimate each other. Frenzy spells can also be useful for hunting [[Skyrim:Deer|deer]] and other fleeing animals, as they will turn and attack you instead of running away. Furthermore, casting a Frenzy spell on someone is not considered a crime if you are hidden when you cast it (regardless of whether or not you have the [[#Quiet Casting|Quiet Casting]] perk). This can make some of the [[Skyrim:Dark Brotherhood|Dark Brotherhood]] contracts much easier. 
+
+You can simply avoid combat with [[#Fear|Fear]], or [[#Pacify|Pacify]], the latter of which has the additional use of allowing you to converse and trade with otherwise hostile NPCs. Pacify spells may also allow you to set up additional sneak attacks if the first did not kill your opponent. [[#Invisibility|Invisibility]] and [[#Muffle|Muffle]] can allow you to bypass enemies, even in full daylight, or setup [[Skyrim:Sneak|sneak]] kills. Followers can be [[#Rally|rallied]] to provide better protection at times too. Quiet Casting also affects use of the [[Skyrim:Dragon Shouts|Thu'um]], so you will be able to shout and stay undetected.
+
+Drawbacks to the skill are that [[Skyrim:Undead|undead]], [[Skyrim:Daedra|Daedra]], and [[Skyrim:Dwarven Automatons|dwarven automatons]] are unaffected by Illusion spells until the perk [[#Master of the Mind|Master of the Mind]] is activated. Without the Quiet Casting perk, enemies will be able to hear the casting of the sneak-oriented spells [[skyrim:hide (spell)|Hide]], Muffle, and Invisibility, and may still be able to detect you.
+
+==Skill Perks==
+{{Perk Tree Setup|width=400}}
+{{Perk Tree|perks=
+{{Image Mark|540|678|Novice Illusion|mark_alt=Novice Illusion: 0 Illusion. Cast Novice level Illusion spells for half magicka.|position=bottom}}
+{{Image Mark|781|542|Animage|mark_alt=Animage: 20 Illusion. Illusion spells now work on higher level animals.|position=right}}
+{{Image Mark|643|374|Kindred Mage|mark_alt=Kindred Mage: 40 Illusion. All Illusion spells work on higher level people.|position=right}}
+{{Image Mark|633|239|Quiet Casting|mark_alt=Quiet Casting: 50 Illusion. All spells you cast from any school of magic are silent to others.|position=right}}
+{{Image Mark|315|469|Apprentice Illusion|mark_alt=Apprentice Illusion: 25 Illusion. Cast Apprentice level Illusion spells for half magicka.|position=left}}
+{{Image Mark|329|308|Adept Illusion|mark_alt=Adept Illusion: 50 Illusion. Cast Adept level Illusion spells for half magicka.|position=left}}
+{{Image Mark|319|222|Expert Illusion|mark_alt=Expert Illusion: 75 Illusion. Cast Expert level Illusion spells for half magicka.|position=left}}
+{{Image Mark|429|118|Master Illusion|mark_alt=Master Illusion: 100 Illusion. Cast Master level Illusion spells for half magicka.|position=topleft}}
+{{Image Mark|515|421|Hypnotic Gaze|mark_alt=Hypnotic Gaze: 30 Illusion. Calm spells now work on higher level opponents. Cumulative with Kindred Mage and Animage.|position=bottom}}
+{{Image Mark|446|268|Aspect of Terror|mark_alt=Aspect of Terror: 50 Illusion. Fear spells work on higher level opponents. Cumulative with Kindred Mage and Animage.|position=bottomright}}
+{{Image Mark|507|235|Rage|mark_alt=Rage: 70 Illusion. Frenzy spells work on higher level opponents. Cumulative with Kindred Mage and Animage.|position=topleft}}
+{{Image Mark|576|129|Master of the Mind|mark_alt=Master of the Mind: 90 Illusion. Illusion spells work on undead, daedra and automatons.|position=topright}}
+{{Image Mark|197|661|Illusion Dual Casting|mark_alt=Illusion Dual Casting: 20 Illusion. Dual casting an Illusion spell overcharges the effects into an even more powerful version.|position=top}}
+}}
+{{NewLeft}}
+{|class="wikitable sortable"
+!Perk
+!class=unsortable|In-Game Description
+!class=unsortable|Notes
+!class=unsortable|[[Skyrim:Form ID|ID]]
+!data-sort-type="number"|Skill Req.
+!Perk Req.
+|-
+|''{{Anchor|Novice Illusion}}''
+| Cast Novice level Illusion spells for half magicka.
+|
+| {{ID|000f2ca9}}
+|
+|
+|-
+|''{{Anchor|Animage}}''
+| Illusion spells now work on higher level animals{{intnote|nonundead|††}}.
+| Adds +8{{intnote|rally|†}} levels to the spell maximum.
+| {{ID|000581e1}}
+| 20 Illusion
+| Novice Illusion
+|-
+|''{{Anchor|Kindred Mage}}''
+| All Illusion spells work on higher level people{{intnote|nonundead|††}}.
+| Adds +10{{intnote|rally|†}} levels to the spell maximum.
+| {{ID|000581e2}}
+| 40 Illusion
+| Animage
+|-
+|''{{Anchor|Quiet Casting}}''
+| All spells you cast from any school of magic are silent to others.
+| All shouts are also silent.
+| {{ID|000581fd}}
+| 50 Illusion
+| Kindred Mage
+|-
+|''{{Anchor|Apprentice Illusion}}''
+| Cast Apprentice level Illusion spells for half magicka.
+|
+| {{ID|000c44c3}}
+| 25 Illusion
+| Novice Illusion
+|-
+|''{{Anchor|Adept Illusion}}''
+| Cast Adept level Illusion spells for half magicka.
+|
+| {{ID|000c44c4}}
+| 50 Illusion
+| Apprentice&nbsp;Illusion
+|-
+|''{{Anchor|Expert Illusion}}''
+| Cast Expert level Illusion spells for half magicka.
+|
+| {{ID|000c44c5}}
+| 75 Illusion
+| Adept Illusion
+|-
+|''{{Anchor|Master Illusion}}''
+| Cast Master level Illusion spells for half magicka.
+|
+| {{ID|000c44c6}}
+| 100&nbsp;Illusion
+| Expert Illusion
+|-
+|''{{Anchor|Hypnotic Gaze}}''
+| Calm spells now work on higher level opponents. Cumulative with Kindred Mage and Animage.
+| Adds +8 levels to the spell maximum. Applies to Pacify and Harmony as well as Calm.
+| {{ID|00059b77}}
+| 30 Illusion
+| Novice Illusion
+|-
+|''{{Anchor|Aspect of Terror}}''
+| Fear spells work on higher level opponents. Cumulative with Kindred Mage and Animage.
+| Adds +10 levels to the spell maximum. This perk also gives an extra 10 (15 if both ranks of Augmented Flames are unlocked first) points of damage to fire spells, as they also utilize a fear effect.
+| {{ID|00059b78}}
+| 50 Illusion
+| Hypnotic Gaze
+|-
+|''{{Anchor|Rage}}''
+| Frenzy spells work on higher level opponents. Cumulative with Kindred Mage and Animage.
+| Adds +12 levels to the spell maximum.
+| {{ID|000c44b5}}
+| 70 Illusion
+| Aspect of Terror
+|-
+|''{{Anchor|Master of the Mind}}''
+| Illusion spells work on undead{{intnote|nonundead|††}}, daedra, and automatons.
+|
+| {{ID|00059b76}}
+| 90 Illusion
+| Quiet Casting ''or'' Rage
+|-
+|''{{Nowrap|{{Anchor|Illusion Dual Casting}}}}''
+| [[Skyrim:Magic_Overview#Dual-Casting|Dual casting]] an Illusion spell overcharges the effects into an even more powerful version.
+| This slightly more than doubles the maximum level of any level-based Illusion spell, while it instead improves the ''duration'' of [[Skyrim:Courage|Courage]], [[Skyrim:Rally (spell)|Rally]], and [[Skyrim:Call to Arms|Call to Arms]]. Level adjustments from Animage, Kindred Mage, Hypnotic Gaze, Aspect of Terror, or Rage are applied ''before'' the doubling effect (2.2 times the spell power for 2.8 times the magicka cost).
+| {{ID|000153d0}}
+| 20 Illusion
+| Novice Illusion
+|}
+{{Note|rally|†|For the spells [[Skyrim:Courage|Courage]], [[Skyrim:Rally (spell)|Rally]], and [[Skyrim:Call to Arms|Call to Arms]], this number is instead added to the stat boosts granted by those spells.}}
+{{Note|nonundead|††|''Animage'' and ''Kindred Mage'' check the target both for having the necessary trait ''and'' for ''lacking'' the undead trait; accordingly, ''Master of the Mind'' and these perks will never affect the spell at the same time against an undead target (primarily of interest against vampires).}}
+
+== Spells ==
+{{Skyrim:Illusion Spells}}
+===Spell List Notes===
+{{Skyrim:Spell List Notes|noheader=1}}
+
+===Magical Effects===
+A list of standard Illusion spells can be found on the [[Skyrim:Illusion Spells|Spells]] page.  The following individual effects are all considered to be part of the school of Illusion (see the individual effect pages for full details on availability; the [[Skyrim:Magical Effects#Illusion|Magical Effects]] article also provides a summary):
+
+*{{icon|sp|Magic_Hat|24}} [[Skyrim:Clairvoyance (effect)|Clairvoyance]]
+*{{icon|sp|Illusion Light|24}} [[Skyrim:Rally (effect)|Rally]]
+*{{icon|sp|Illusion Dark|24}} [[Skyrim:Fear (effect)|Fear]]
+*{{icon|sp|Illusion Dark|24}} [[Skyrim:Frenzy (effect)|Frenzy]]
+*{{icon|sp|Illusion Light|24}} [[Skyrim:Pacify (effect)|Pacify]]
+*{{icon|sp|Invisibility|24}} [[Skyrim:Invisibility (effect)|Invisibility]]
+*{{icon|sp|Magic_Hat|24}} [[Skyrim:Muffle (effect)|Muffle]]
+
+== Skill Increases ==
+=== Character Creation ===
+The following [[Skyrim:Races|races]] have an initial skill bonus to Illusion:
+* +10 bonus: [[Skyrim:High Elf|Altmer]]
+* +5 bonus: [[Skyrim:Breton|Breton]], [[Skyrim:Dark Elf|Dunmer]]
+
+===[[Skyrim:Trainers|Trainers]]===
+* [[Skyrim:Atub|Atub]] in [[Skyrim:Largashbur|Largashbur]] (Expert)
+* [[Skyrim:Drevis Neloren|Drevis Neloren]] in the [[Skyrim:College of Winterhold (place)|College of Winterhold]] (Master)
+
+===[[Skyrim:Skill Books|Skill Books]]===
+* ''[[Skyrim:2920, Sun's Dawn, v2|2920, Sun's Dawn, v2]]''
+* ''[[Skyrim:Before the Ages of Man|Before the Ages of Man]]''
+* ''[[Skyrim:The Black Arts On Trial|The Black Arts On Trial]]''
+* ''[[Skyrim:Incident at Necrom|Incident at Necrom]]''
+* ''[[Skyrim:Mystery of Talara, Part 4|Mystery of Talara, Part 4]]''
+
+===[[Skyrim:Free_Skill_Boosts|Free Skill Boosts]]===
+* +1 Illusion reward from [[Skyrim:Sybille Stentor|Sybille Stentor]] for completing the quest [[Skyrim:Kill the Vampire|Kill the Vampire]].
+* +1 Illusion reward (+1 every magic skill) from [[Skyrim:Pantea_Ateia|Pantea Ateia]] ([[Skyrim:Bards_College|Bards College]]) for completing the quest [[Skyrim:Pantea's_Flute|Pantea's Flute]].
+* +5 Illusion (+5 every magic skill) by selecting "The Path of Magic" when reading the [[Skyrim:Oghma Infinium|Oghma Infinium]] after completing the quest [[Skyrim:Discerning_the_Transmundane|Discerning the Transmundane]].
+
+===Gaining Skill XP===
+* Casting higher level spells gives generally faster skill increases (Novice<Apprentice<Adept<Expert<Master).
+* It is possible to reduce or even completely eliminate the magicka cost of spells by stacking [[Skyrim:Fortify Illusion|Fortify Illusion]] enchanting effects, which is very helpful for Illusion training. The [[Skyrim:Secret of Arcana|Secret of Arcana]]{{DB}} power does the same thing, but only for 30 seconds.
+* Casting Muffle on yourself repeatedly will level up your Illusion quickly, even if there are no enemies around.
+*If you reset your Illusion skill after learning the master-level spells (after completing the Master Illusion Ritual quest), casting Harmony repeatedly in a heavily populated area, such as Whiterun, will (re)level up your Illusion significantly. Combined with the Secret of Arcana and depending on how many NPCs the spell hits, you could level from 15 to 100 in under 30 seconds by casting the spell. 
+* Casting Courage or Rally on NPCs is effective and is not considered a crime. Courage uses less magicka, but Rally will level the skill more quickly. However, both can rarely turn a few otherwise non-hostile NPCs hostile, such as [[Skyrim:Vigilants of Stendarr|Vigilants of Stendarr]] and [[Skyrim:Reveler|Revelers]].
+* If using Rally to level, try to hit as many people as possible in one shot. Casting it into groups of people will raise the skill much faster than hitting single targets.
+* Simultaneously casting Rout and Pacify (one assigned to each hand) on an enemy will rapidly level Illusion. Although the effects of Pacify should keep the target stationary, this is best done in a small enclosed area to ensure that you can hit the target each time the spells are cast.
+
+==Dialogue==
+When the player reaches a high level in this skill, NPCs (particularly guards) will sometimes comment: ''"You're the one that casts those illusions. Impressive."''
+
+==Notes==
+*''Clairvoyance'', ''Invisibility'', and ''Muffle'' can be cast to gain experience even if there is no one around. All other spells must be cast on a valid target to gain experience, although this does not have to be an enemy.
+*Casting ''Invisibility'' without the ''Quiet Casting'' perk may allow your character to still be detected. Enemies will investigate the sound, and may find you even if you have moved from where you originally cast the spell.
+*[[Skyrim:Vampire|Vampires]] are not affected by Illusion spells unless you have ''Master of the Mind''. Even then, they are considered undead rather than people for the purposes of the ''Kindred Mage'' perk.
+*The ''Necromage'' perk in the [[Skyrim:Restoration|Restoration]] tree helps with making Illusion spells work against higher level undead.
+*[[Skyrim:Falmer|Falmer]] can be affected by Illusion spells without ''Master of the Mind'', but are not affected by ''Kindred Mage'' or ''Animage''.
+*[[Skyrim:Dragon|Dragons]] are immune to all Illusion spells cast at them, regardless of skill level or perks.
+*''Vision of the Tenth Eye'' can be used as a kind of [[Skyrim:Night Eye (effect)|Night Eye]] spell with some effectiveness if needed, which does not appear to increase the ability of NPCs to detect you and allows for vision beyond the limited range of [[Skyrim:Candlelight|Candlelight]] and [[Skyrim:Magelight|Magelight]], though its long cast time, short duration and glare from light sources can be considerable downsides.
+*Master-level Illusion spells do not benefit from Dual Casting; however, they can still overcome the level 50+ cap with the relevant perks and by using ''Fortify Illusion'' potions.
+*Casting ''Mayhem'' will often cause items in the vicinity to shift around and become irretrievable.
+*''Quiet Casting'' also affects [[Skyrim:Dragon Shouts|shouts]].
+*The effects of ''Courage'', ''Rally'', and ''Call to Arms'' are independent from each other. Because of that, the bonuses from all 3 aforementioned spells can be stacked together.
+*There are indications in the data files that at one point in the game's development, Mysticism would have been present as a school in place of Illusion. This is evidenced by an unused texture file containing names of all of the skills, in which Mysticism is present instead of Illusion, as well as the hardcoded order of Actor Values in the Creation Kit, in which Illusion is listed under "M" where Mysticism would go.
+
+== Bugs ==
+{{Bug|''Aspect of Terror'' adds extra damage to fire spells, including chaos damage spells. This extra damage is affected by the Augmented Flames(/Frost/Shock for chaos) perks as long as the perks are obtained in the following order: Hypnotic Gaze, Augmented perks, Aspect of Terror, Animage. In any other order some of the damage might be lost upon a Save/Load.|USKP|1.2}}
+{{Bug|The enchantment for the Staff of Courage doesn't match the effects given by the Courage spell. The enchantment for the Staff of Inspiration also doesn't match the effects given by the Rally spell.|USKP|1.2.4}}
+{{Bug|The bonus damage effects for Call to Arms will not work on undead, daedra, or automatons even with the Master of the Mind perk unlocked. From looking through the creation kit, this is due to the corresponding magic effects not existing.|USKP|2.0.4|trackerid=15488}}
+{{Bug|The explosion effect model for several Illusion spells that throw off "dark" explosions has a malformed mesh block with numerous bad values that can cause lag, and likely CTDs due to the engine being overloaded with out-of-range calculations.|USSEP|4.3.5}}
+{{Bug|Neither "Fenrik's Welcome" nor "Orum's Aquatic Escape" from the [[Skyrim:Arcane Accessories|Arcane Accessories]] Creation appear to give *any* experience to Illusion at all.}}
+{{Bug|Repeatedly casting Rally spells may spontaneously cause a CTD. It might be advisable to save often if one is doing this in order to train Illusion.|Confirmed=1}}
+{{Skyrim Illusion Effects}}
+{{Skyrim Skills}}

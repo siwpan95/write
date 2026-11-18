@@ -1,0 +1,12 @@
+{{Mod Header|Dragonborn}}[[Category:Skyrim-Dragonborn-Items-Books]]{{Game Book Compilation
+|mod=[[Skyrim:Dragonborn|Dragonborn]]
+|smod=DB
+|lorename=Black Book
+|Waking Dreams|Black Book: Waking Dreams (book)|
+|Epistolary Acumen|Black Book: Epistolary Acumen (book)|
+|Untold Legends|Black Book: Untold Legends (book)|
+|The Winds of Change|Black Book: The Winds of Change (book)|
+|The Sallow Regent|Black Book: The Sallow Regent (book)|
+|Filament and Filigree|Black Book: Filament and Filigree (book)|
+|The Hidden Twilight|Black Book: The Hidden Twilight (book)|
+}}

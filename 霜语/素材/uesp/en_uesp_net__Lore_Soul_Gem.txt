@@ -1,0 +1,127 @@
+<noinclude>{{Lore Item Trail|Crystal}}[[File:SR-item-Soul Gem.jpg|thumb|left|Soul Gems]]{{Quote Box|''Before the Psijics of Artaeum, it is said, [Raven Direnni] created the art of enchantment, learning how to bind a soul into a gem and use that to ensorcel all manners of weaponry.''|''[[Lore:De Rerum Dirennis|De Rerum Dirennis]]''}}__NOTOC__</noinclude>
+[[Lore:Soul Gem|Soul Gems]] are [[Lore:morpholith|morpholith]]s (known to come from larger '''Animus Geodes''') used in the process of binding [[Lore:souls|souls]] using magic. These gems are used to enchant and charge magical items, animate undead or artificial constructs, or cast powerful destructive spells.{{ref|name=ON|Events of [[Online:Online|ESO]]}} For this purpose, creatures' souls are usually trapped at the moment of death.{{Ref|name=LB|{{Cite Book|Liminal Bridges}}}} Soul gems can be mined from geode veins, one of the locations to contain geode veins is [[Lore:Blackreach|Blackreach.]]{{ref|name=SR|Events of ''[[Skyrim:Skyrim|Skyrim]]''}} The origin of Soul Gems can be traced back to Harvester of Souls himself, [[Lore:Molag Bal|Molag Bal]], who used a portion of his power in their creation.{{ref|name=Census|group=UOL|{{Cite Book|Imperial Census of Daedra Lords|ns_base=General}}}} Black Soul Gems can be found within the depths of [[Lore:Coldharbour|Coldharbour]],{{Ref|name=TLV|{{Cite Book|The Legend of Vastarie}}}} where Bal fine-tunes them to increase their efficiency.{{ref|[[ON:The Wailing Maw|The Wailing Maw]] loading screen text in [[ESO:Online|ESO]]}}
+<noinclude>
+{{NewLeft}}
+
+==History==
+[[File:LG-cardart-Black Soul Gem.png|thumb|right|[[Lore:Soul Trap|Soul Trap]]]]
+Utilizing a soul-gem infusion, the [[Lore:First Era|First Era]] archmage [[Lore:Voernet|Voernet]] recorded his memories and personality into a projection simulacrum designed to observe, delegate, and maintain his [[Lore:Nowhere Vault|Nowhere Vault]].{{ref|name=ONSVM|[[Online:Sage Voernet's Memorium|Sage Voernet's Memorium]]'s dialogue in [[Online:Online|ESO]]}} [[Lore:Soul Trap|Soul trapping]] is known to date back to at least the First Era, where techniques to bind a soul to an unhatched egg were practiced in [[Lore:Black Marsh|Black Marsh]] before they were banned because the techniques were prone to error.{{ref|name=RGDreekius|[[Redguard:Dreekius|Dreekius]]' dialogue in ''[[Redguard:Redguard|Redguard]]''}} After the [[Lore:Mages Guild|Mages Guild]] was founded in {{Year|2E 230}},{{Ref|name=MGC|{{Cite Book|Mages Guild Charter}}}}{{Ref|name=XanTimeline|group=UOL|{{Cite Book|Xanathar's Library Archive/History|ns_base=General}}}} the ban was lifted and the practice of soul trapping resumed.{{ref|name=RGDreekius}} Soul-trapping spells and soul gems were standardized in the early centuries of the Mages Guild.{{Ref|name=GMOST|{{Cite Book|Guild Memo on Soul-Trapping}}}}
+
+Sometime after the genesis of the [[Lore:Clockwork City|Clockwork City]], [[Lore:Sotha Sil|Sotha Sil]] was dissatisfied with the potency of regular Soul Gems as power sources for his ambitious designs, and sought to improve upon them. One such iteration was by utilizing larger animus geodes, but their uses were still limited.{{ref|name=MPStars|Dialogue of various [[Online:Star|Stars]] in the [[Online:Mnemonic Planisphere|Mnemonic Planisphere]]}} In the case of his mechanical constructs, the [[Lore:Factotum|Factotums]], he eventually came up with the animo core—a brass vessel that utilized geodes grinded into geodic distillate.{{ref|name=FurnAnimo|[[Online:Clockwork Furnishings#Energetic Animo Core|Energetic Animo Core]] furnishing item in [[Online:Online|ESO]]}} Later, Sotha Sil would seek to uncover the secrets to everlasting life, and was the first to reverse engineer soul gems into Black Soul Gems.{{ref|[[ON:Asylum Sanctorium|Asylum Sanctorium]] loading screen text in [[ESO:Online|ESO]]}} He used the aging [[Lore:Temple Saints|Temple Saints]], [[Lore:Felms|Felms]], [[Lore:Olms|Olms]], and [[Lore:Llothis|Llothis]] as test subjects, transferring their souls into Black Soul Gems, with Factotum bodies as vessels. Like others who had transferred their souls into Factotum vessels, the three went insane, resulting in the study of Black Soul Gems being banned by the [[Lore:Clockwork Apostles|Clockwork Apostles]].{{ref|name=Llandras|[[ON:Alienist Llandras|Alienist Llandras]]' dialogue in [[Online:Online|ESO]]}}
+
+Outside the isolated confines of the Clockwork City, Sotha Sil's findings were unknown. [[Lore:Mannimarco|Mannimarco]] and his underlings were expelled from [[Lore:Artaeum|Artaeum]] by the [[Lore:Psijic Order|Psijic Order]] in the early [[Lore:Second Era|Second Era]] for delving into the art of [[Lore:Necromancy|Necromancy]]. One of Mannimarco's followers, [[Lore:Vastarie|Vastarie]], allied with him over the common goal of seeking "to trap souls as one might capture lesser Daedra". They believed their objective was to be found within Coldharbour, which Vastarie agreed to venture into herself; she would be the first to bring Black Soul Gems from Coldharbour to Tamriel. They were perfect for their ambitions, as unlike other soul gems, they were "small, capable of containing even the most willful of souls, and apparently indestructible."{{Ref|name=TLV}}
+
+Vastarie attempted to replicate black soul gems, but Mannimarco's aspirations would come to conflict with her own. Mannimarco desired to use them to gain power, while Vastarie desired to build upon them for ethical reasons. Fearing Mannimarco, Vastarie fled with her husband away from his clutches, and continued to improve on her creation, eventually coming up with a perfected Sigil Geode. She intended to use it to consult with the souls within for knowledge that could be recorded. However, when she contacted [[Lore:Vanus Galerion|Vanus Galerion]] of the Mages Guild to report her findings, it disgusted him. Many followed Vanus in his path away from the technology, but Vastarie was undettered and continued her research.{{Ref|name=TLV}}
+
+By the [[Lore:Third Era|Third Era]], only white souls were being captured by the standard spells and gems of the Guild, and this practice was so thoroughly ingrained that most mages continued to avoid trapping black souls well after the Guild was disbanded.{{ref|name=OB|Events of ''[[Oblivion:Oblivion|Oblivion]]''}}{{ref|name=SR}} Black soul gems could bypass this limitation and trap even the most willful of souls, though they were hard to acquire and required travel to various Daedric Planes.{{Ref|name=TLV}} Necromancers, led by the [[Lore:Order of the Black Worm|Order of the Black Worm]], pioneered an easier way to create a black soul gem using the rituals of [[Lore:Mannimarco|the Revenant]]. Although capable of storing black souls, the gems were dangerous to handle as small bits of the caster's soul could leak into the gem.{{Ref|name=SBAW|{{Cite Book|Souls, Black and White}}}}
+
+==Uses==
+[[File:ON-item-Black Soul Gems.jpg|Black Soul Gems|thumb|right|Black Soul Gems]]{{Quote Box|''You shake it to see if there's a soul inside. Nope.''|About a Greater Soul Gem{{ref|[[SkyrimVSE:Quests#Rewards|Greater Soul Gem]] item description in ''[[SkyrimVSE:Skyrim Very Special Edition|Skyrim Very Special Edition]]''}}}}
+It is not enough to cast a spell upon an inert object to create an enchantment. Magic requires thought, intent, will and emotion. The soul thus powers the enchantment. The bigger the soul, the more powerful the enchantment.{{ref|name=TragedyBlack}} Soul gems come in many sizes, corresponding to the size of the soul that the gem can trap; the standard sizes are "minor", "petty", "lesser", "common", "greater", and "grand". Soul gem artifacts, such as the [[Lore:Amulet of Kings|Amulet of Kings]] and [[Lore:Azura's Star|Azura's Star]], are capable of trapping "divine" souls.{{ref|name=DivineV|[[Morrowind:Souls|Soul]] of [[Morrowind:Vivec (god)|Vivec]] in ''[[Morrowind:Morrowind|Morrowind]]''}}{{ref|name=DivineA|[[Tribunal:Souls|Soul]] of [[Tribunal:Almalexia|Almalexia]] in ''[[Morrowind:Morrowind|Morrowind]]: [[Tribunal:Tribunal|Tribunal]]''}} Souls are also categorized into "black" souls, the souls of sapient races, and "white" souls, the souls of lesser creatures, although the distinction is arbitrary. The division was implemented in the early days of the Mages Guild at the behest of Vanus Galerion, in an effort to limit the practice of soul trapping.{{Ref|name=GMOST}} [[Lore:Arkay|Blessings of Arkay]] and various ritual rites also seem to protect unwilling souls that would be classified as "black" from being trapped or manipulated, though it is not clear if this is the case in general or only with the souls of the dead who had gone through proper burial rites.{{ref|name=ATE|{{Cite Book|Arkay the Enemy}}}}
+
+Only black soul gems can hold the souls of men and elves.{{ref|name=TragedyBlack|{{Cite Book|A Tragedy in Black}}}} Some have speculated that when a mortal soul is used in the enchantment process through the use of a black soul gem, it is supposedly sent to the [[Lore:Soul Cairn|Soul Cairn]] for all eternity. A transaction between the [[Lore:Ideal Masters|Ideal Masters]] and willing necromancers can occur, in which case one can offer souls in exchange for power or armies of undead.{{ref|[[SR:Serana|Serana]]'s dialogue in ''[[Skyrim:Skyrim|Skyrim]]''}} In at least a few cases, trapped souls have retained consciousness within a soul gem itself.{{ref|name=ON}}{{ref|name=SR}}{{Ref|name=STIAI|{{Cite Book|Soul-Trapping I: An Introduction}}}} Soul gems can seemingly capture essences other than an Anuic animus that a mortal possess, such as vestiges and other types of animius. According to [[Lore:Mannimarco|Mannimarco]], the [[Lore:Amulet of Kings|Amulet of Kings]] was the most powerful soul gem ever created, capable of capturing even the essence of a [[Lore:Daedric Prince|Daedric Prince]]. In {{Year|2E 582}}, Mannimarco plotted to trap Molag Bal's essence with the Amulet of Kings as part of his scheme to become a god, but he was defeated before he could perform the ritual.{{ref|name=ON}}{{ref|name=Manni|[[Online:Mannimarco#Shadow of Sancre Tor|Mannimarco]]'s dialogue in [[Online:Online|ESO]]}}
+
+It is believed that in certain cases the consumption of a soul gem may cause the eater to obtain new abilities and interests.{{Ref|name=Vole|[[Online:Vole|Vole]]'s dialogue in [[ON:Online|ESO]]}} Some enchantments can be recharged and powered by blood.{{ref|name=GYN|[[ON:General Yeveth Noramil|General Yeveth Noramil]]'s dialogue in [[Online:Online|ESO]]}}
+
+Soul [[Lore:Tomato|Tomatoes]] from the [[Lore:Shivering Isles|Shivering Isles]] can serve the same function as a soul gem.{{ref|name=STCC|[[Skyrim:Soul Tomato|Soul Tomato]] in ''[[Skyrim:Skyrim|Skyrim]]&#58; [[Skyrim:Creation Club|Creation Club]]''}}{{Ref|name=STSI|[[Shivering:Soul Tomato|Soul Tomato]] in ''[[Shivering:Shivering Isles|Shivering Isles]]''}}
+
+==Notable Soul Gems==
+* [[Lore:A'tor's Soul Gem|A'tor's Soul Gem]] — Also known as N'Gasta's Amulet, this soul gem was a red diamond with a [[Lore:Dragon|dragon]] setting that housed the soul of Crown Prince [[Lore:A'tor|A'tor]] before it was transferred to the [[Lore:Soul Sword|Soul Sword]].
+* [[Lore:Azura's Star|Azura's Star]]
+* [[Lore:Amulet of Kings|Amulet of Kings]]
+* [[LO:Gem of the Hero|Gem of the Hero]] &mdash; An enchanted soul gem capable of healing wounds, containing the soul of [[LO:Kirel Aman|Kirel Aman]]. 
+* [[Lore:Mantella|Mantella]]
+* {{Lore Link|Quintilla}}'s Werewolf Gem &mdash; A soul gem cut and shaped into a gemstone. The only known soul gem to be enchanted and re-enchanted.
+* [[Lore:Hermaeus Mora|Hermaeus Mora]]'s Soul Gem &mdash; A special black soul gem that can hold several souls.
+* Colossal Black Soul Gem &mdash; A special black soul gem that contained the soul of Arch Mage [[Lore:Hannibal Traven|Hannibal Traven]].
+
+==Varieties==
+The following is an assortment of different types of soul gems, sorted in descending order from least to most powerful:
+<!--Morrowind icons should ideally be replaced with transparent 3D renders, once those are uploaded-->
+{|class="wikitable"
+! Type !! Daggerfall !! Morrowind !! Oblivion !! Skyrim !! ESO !! Blades !! Other !! Description / Notes
+|-
+| '''Petty'''
+| || [[File:MW-icon-tool-Petty Soul Gem.png|center|60x60px]] || [[File:OB-icon-misc-SoulGem2.png|center|60x60px]] || [[File:SR-icon-misc-PettySoulGem.png|center|60x60px]] || [[File:ON-icon-soul gem-Petty.png|center|60x60px]] || [[File:BL-item-Petty Soul Gem.jpg|center|60x60px]] || [[File:CT-icon-resource-Soul Gem.png|center|60x60px]] || These are the lowest form of soul gems and typically appear as tiny crystals ranging in color from pink, purple, and white.
+|-
+| '''Lesser'''
+| || [[File:MW-icon-tool-Lesser Soul Gem.png|center|60x60px]] || [[File:OB-icon-misc-SoulGem1.png|center|60x60px]] || [[File:SR-icon-misc-LesserSoulGem.png|center|60x60px]] || [[File:ON-furnishing-Soul Gem, Lesser.jpg|center|60x60px]] || [[File:BL-item-Lesser Soul Gem.jpg|center|60x60px]] || || These are on the lower end of soul gems in terms of power, and typically appear as tiny crystals ranging in color from dark blue, cyan, and pink.
+|-
+| '''Middling/Minor'''
+| || || || || [[File:ON-icon-soul gem-Minor.png|center|60x60px]] || [[File:BL-item-Middling Soul Gem.jpg|center|60x60px]] || || These are on the lower end of soul gems in terms of power, either capable of more or less capacity than lesser gems, and typically appear as tiny crystals ranging in color from pink to purple.
+|-
+| '''Common'''
+| [[File:DF-icon-ingredient-Diamond.png|center|60x60px]] || [[File:MW-icon-tool-Common Soul Gem.png|center|60x60px]] || [[File:OB-icon-misc-SoulGem1.png|center|60x60px]] || [[File:SR-icon-misc-CommonSoulGem.png|center|60x60px]] || [[File:ON-furnishing-Soul Gem, Common.jpg|center|60x60px]] || [[File:BL-item-Common Soul Gem.jpg|center|60x60px]] || || These are on the middle tier of soul gems, capable of holding a standard capacity of souls, and typically appear as average sized crystals ranging in color from light blue, purple, and pink.
+|-
+| '''Exceptional'''
+|  ||  ||  ||  ||  || [[File:BL-item-Exceptional Soul Gem.jpg|center|60x60px]] || [[File:LG-icon-Soul Gem.png|center|60x60px]] || These are on the middle tier of soul gems, and typically appear as well-cut crystals ranging in color from cyan to purple.
+|-
+| '''Great/Greater'''
+| || [[File:MW-icon-tool-Greater Soul Gem.png|center|60x60px]] || [[File:OB-icon-misc-SoulGem1.png|center|60x60px]] || [[File:SR-icon-misc-GreaterSoulGem.png|center|60x60px]] || [[File:ON-furnishing-Soul Gem, Great.jpg|center|60x60px]] || [[File:BL-item-Greater Soul Gem.jpg|center|60x60px]] || || These are on the higher end of soul gems in terms of power, and typically appear as a cluster of crystals ranging in color from purple to cyan.
+|-
+| '''Elevated'''
+| || || || || || [[File:BL-item-Elevated Soul Gem.jpg|center|60x60px]] || || These are on the higher end of soul gems in terms of power, and typically appear as a cluster of crystals that are cyan in color.
+|-
+| '''Grand'''
+| || [[File:MW-icon-tool-Grand Soul Gem.png|center|60x60px]] || [[File:OB-icon-misc-SoulGem1.png|center|60x60px]] || [[File:SR-icon-misc-GrandSoulGem.png|center|60x60px]] || [[File:ON-furnishing-Soul Gem, Grand.jpg|center|60x60px]] || [[File:BL-item-Grand Soul Gem.jpg|center|60x60px]] || [[File:LG-icon-soul gem.png|center|60x60px]] || These are on the higher end of soul gems in terms of power, and typically appear as a cluster of large crystals ranging in color from amber, light blue, and purple.
+|-
+| '''Glorious'''
+| || || || || [[File:ON-icon-soul gem-Crown.png|center|60x60px]] || [[File:BL-item-Glorious Soul Gem.jpg|center|60x60px]] || || These are on the higher end of soul gems in terms of power, being a tier above grand, and typically appear as a cluster of large crystals ranging in color from light blue, purple, and light green. The [[Lore:Gold Coast Trading Company|Gold Coast Trading Company]] sold gems capable of holding souls from petty to above grand called "Crown Soul Gems".{{Ref|name=CSG|[[Online:Crown_Store/all#Crown_Soul_Gem_Pack|Crown Soul Gems]] in [[ON:Online|ESO]]}}
+|-
+| '''Transcendent'''
+| || || || || || [[File:BL-item-Transcendent Soul Gem.jpg|center|60x60px]] || || These are the highest form among the normal classification of gems, capable of holding creatures with powerful souls, and typically appear as large yellow crystal clusters.
+|-
+| '''Divine'''<!--Includes soul gems that are more powerful than grand-->
+| [[File:DF-item-Mantella.png|center|60x60px]] || [[File:MW-item-Azura's Star.jpg|center|60x60px]] || [[File:OB-item-Azura's Star.jpg|center|60x60px]] || [[File:SR-icon-misc-Azura'sStar.png|center|60x60px]] || [[File:ON-item-Amulet of Kings.jpg|center|60x60px]] || || || These are the most powerful types of gems and go beyond any standard classification. They capable of holding souls of incredibly powerful beings such as [[Lore:Demigod|demigods]] (in the case of [[Lore:Azura's Star|Azura's Star]]),{{Ref|name=MWAzurasStar|[[Morrowind:Azura's Star|Azura's Star]] being the only gem capable of holding [[MW:Vivec (god)|Vivec]] and [[TR:Almalexia|Almalexia]]'s souls in ''[[MW:Morrowind|Morrowind]]''}} and can be used to power incredibly advanced constructs such as the [[Lore:Numidium|Numidium]] (in the case of the [[Lore:Mantella|Mantella]]).{{ref|name=DFMantella|[[Daggerfall:The Mantella Revealed|The Mantella Revealed]], Letter 2}}
+|-
+! colspan=9 style="text-align:center" | Miscellaneous
+|-
+| '''Black'''
+| || || [[File:OB-item-Black Soul Gem.jpg|center|60x60px]] || [[File:SR-icon-misc-BlackSoulGem.png|center|60x60px]] || [[File:ON-furnishing-Replica Black Soul Gem.jpg|center|60x60px]] || || [[File:LG-cardart-Black Soul Gem Alt.png|center|60x60px]] ||<!--Add info-->
+|-
+| '''Tomato'''
+| || || [[File:SI-Soul-Tomato.png|center|60x60px]] || [[File:SR-icon-misc-Soul Tomato.png|center|60x60px]] || || || || These can serve the same function as grand soul gems.{{Ref|name=STSI}}
+|-
+| '''Varla'''
+| || || [[File:OB-icon-misc-VarlaStone.png|center|60x60px]] || [[File:SR-icon-misc-Flawed Varla Stone.png|center|60x60px]] || [[File:ON-furnishing-Varla Stone, Glowing.jpg|center|60x60px]] || [[File:BL-item-quest item-Varla Stone of Air.jpg|center|60x60px]] || || These can also hold souls at the same capacity of common soul gems.{{Ref|name=FVS|[[Skyrim:Flawed Varla Stone|Flawed Varla Stone]] in ''Skyrim''}}
+|}
+
+==Gallery==
+<gallery mode="traditional">
+File:MW-item-Soul Gems.jpg|Soul Gems (Morrowind)
+File:OB-item-Soul Gems.jpg|Soul Gems (Oblivion)
+File:ON-item-Soul Gems 03.jpg|Soul Gems (ESO)
+File:LG-icon-Soul Gem.png|Soul Gem (Legends)
+File:LG-back-SoulGem.png|Soul Gem card back (Legends)
+File:LG-card-playing cards soul gems 07.png|Soul Gems artwork (Legends)
+File:BL-item-Soul Gems.jpg|Soul Gems (Blades)
+File:CT-icon-resource-Soul Gem.png|Soul Gem (Castles)
+File:RG-item-Amulet.png|A Soul Gem within an amulet (Redguard)
+File:OB-item-Azura's Star.jpg|Azura's Star (Oblivion)
+File:SR-icon-misc-Soul Gem Arrowhead.png|A Soul Gem fashioned into an arrowhead (Skyrim)
+File:ON-furnishing-Soul Gem Module, Experimental.jpg|Experimental soul gem module (ESO)
+File:ON-crown store-Crown Soul Gem.jpg|Crown Soul Gems (ESO)
+File:ON-quest-Shadow of Sancre Tor 05.jpg|Amulet of Kings (ESO) 
+File:SR-activity-Mining (Geode Vein).jpg|Geode Vein (Skyrim)
+File:SR-book-Dwemer Arrow Diagram.jpg|A Dwemer diagram of a soul stealer arrow and soul gem (Skyrim)
+File:SR-icon-misc-Soul Gem Shards.png|Soul gem shards (Skyrim)
+File:BL-icon-banner-Guild Banner 34.png|A soul gem banner (Blades)
+File:SkyrimTAG-icon-Soul Gem Component.png|Soul gem component <br>(Skyrim - The Adventure Game)
+File:SI-Soul-Tomato.png|A Soul Tomato (Shivering Isles)
+</gallery>
+
+==Notes==
+*The [[Lore:Jewel of Fire|Jewel of Fire]] was described as holding [[Lore:Jagar Tharn|Jagar Tharn]]'s lifeforce.{{ref|[[Arena:Jagar Tharn|Jagar Tharn]]'s dialogue in ''[[Arena:Arena|Arena]]''}} It is unknown how similarly the Jewel functioned to soul gems.
+
+==See Also==
+*{{GSI|Battlespire:Enchantments#9260|Redguard:Soul Gem|Morrowind:Soul Gems|Oblivion:Soul Gem|Skyrim:Soul Gems|Legends:Soul Gems|Online:Soul Gems|Blades:Enchanting Materials}}
+*[[Lore:Sigil Geode|Sigil Geode]]
+
+===Books===
+*{{Book Link|Souls, Black and White}}
+*{{Book Link|The Legend of Vastarie}}
+
+==References==
+<references/>
+{{UOL}}
+<references group=UOL/>{{Lore Magic Footer}}</noinclude>

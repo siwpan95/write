@@ -1,1 +1,34 @@
-ERR HTTP Error 404: Not Found
+{{CC Header|Ghosts of the Tribunal}}[[Category:Skyrim-Ghosts of the Tribunal]][[Category:Skyrim-Creation Club-NPCs]]{{NPC Summary
+|protected=
+|loc=[[SR:Ashfall's Tear|Ashfall's Tear]]
+|image=SR-npc-Caretaker Ineril.jpg
+|imgdesc=Caretaker Ineril
+|race=Dark Elf
+|gender=Female
+|class=
+|faction=
+|refid=0500102e
+|baseid=ff000d6c
+|gold=1500 (+1000 [[Skyrim:Master Trader|Master Trader]])
+|level=1
+|class_details=
+|skills=
+|follower=
+|aggress=Very Aggressive
+|moral=No Crime
+|sells=General
+|health=50
+|magicka=50
+|stamina=50
+|voicetype=
+|mod=[[Skyrim:Ghosts of the Tribunal|Ghosts of the Tribunal]]
+}}
+'''Caretaker Ineril''' is a [[SR:Dark Elf|Dark Elf]] general goods merchant and a member of the heretical [[Skyrim:Tribunal Temple|Tribunal Temple]] who lives in [[SR:Ashfall's Tear|Ashfall's Tear]]. She will only appear in the game after giving one of the translated [[SR:Propaganda Letter|Propaganda Letters]] to [[SR:Geldis Sadri|Geldis Sadri]] during the related quest.
+{{NewLeft}}
+
+==Related Quests==
+* {{Quest Link|Her Word Against Theirs}}
+
+==Standard Merchandise==
+{{huh}}
+{{Stub|NPC}}

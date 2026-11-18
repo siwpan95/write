@@ -1,0 +1,87 @@
+<noinclude>{{Cleanup-shrp
+|writtenby=Biffa
+|checkedby=
+}}</noinclude>{{Place Summary
+|type=Inn
+|zones=1
+|image=SR-place-Old Hroldan.jpg
+|imgdesc=Old Hroldan Inn
+|region=The Reach
+|occupants=
+|grindstone=1
+|description=A remote inn in [[Skyrim:The Reach|the Reach]] where [[Lore:Tiber Septim|Tiber Septim]] once stayed.
+|location=East of [[Skyrim:Markarth|Markarth]] and southwest of [[Skyrim:Rorikstead|Rorikstead]].
+|locationcode=OldHroldanInn
+|marker_id=Settlement
+|job1=[[Skyrim:Eydis|Eydis]]
+|job2=[[Skyrim:Skuli|Skuli]]
+|jobtitle2=Server
+|job3=[[Skyrim:Leontius Salvius|Leontius Salvius]]
+|jobtitle3=Laborer
+|roomcost=10
+|buys=Innkeeper ([[Skyrim:Food|Food]], [[Skyrim:Raw Food|Raw Food]])
+|gold=100
+|sells=See [[#Standard Merchandise|Standard Merchandise]]
+|lumber=1
+|stone=2
+|lorepage=Old Hroldan
+}}It is operated by [[Skyrim:Eydis|Eydis]] with the help of her young son [[Skyrim:Skuli|Skuli]]. Eydis claims her husband is fighting in the war, though there appears to be some doubt as to which side he fights for. [[Skyrim:Leontius Salvius|Leontius Salvius]] spends all day working outside on various menial tasks, and offers no services.
+
+The inn is north of the road from [[Skyrim:Fort Sungard|Fort Sungard]] to [[Skyrim:Markarth|Markarth]] near where the road crosses the [[Skyrim:Karth River|Karth River]]. 
+
+Being in an isolated location in an otherwise desolate settlement, the inn touts its ties to Tiber Septim's conquest of Hroldan, and claims to have the same bed the young general slept in the night before the battle which they offer to their patrons. 
+{{NewLeft}}
+==Residents==
+{|class="wikitable" width="200px"
+|-
+!Residents
+|-
+|
+;[[Skyrim:Eydis|Eydis]] {{Service Icon|Innkeeper}}{{Service Icon|Food and Drink}} 
+;[[Skyrim:Ghost of Old Hroldan|Ghost of Old Hroldan]] * 
+;[[Skyrim:Leontius Salvius|Leontius Salvius]] †
+;[[Skyrim:Skuli|Skuli]] {{Service Icon|Food and Drink}} 
+|}
+<nowiki>*</nowiki> Only while [[Skyrim:The Ghost of Old Hroldan|The Ghost of Old Hroldan]] is active.<br>
+† Becomes innkeeper only if Eydis is dead.
+
+==Related Quests==
+===Quests Starting Here===
+====[[Skyrim:Miscellaneous Quests|Miscellaneous Quests]]====
+* {{Quest Link|The Ghost of Old Hroldan}}
+
+===Other Quests===
+====[[Skyrim:Miscellaneous Quests|Miscellaneous Quests]]====
+* {{Quest Link|Rogatus's Letter}}
+
+==Walkthrough==
+===Exterior===
+The path to the inn is on your right when traveling from [[Skyrim:Fort Sungard|Fort Sungard]] to [[Skyrim:Markarth|Markarth]] a few paces before you cross the [[Skyrim:Karth River|Karth River]]. Along the path that passes the inn are a couple tree stumps with [[Skyrim:Mora Tapinella|mora tapinella]] fungus growing on them as well as several of the [[Skyrim:Juniper Berries|juniper trees]] that abound in the region. The path continues past the inn and eventually joins another path that goes from [[Skyrim:Soljund's Sinkhole|Soljund's Sinkhole]] to near [[Skyrim:Rorikstead|Rorikstead]] before petering out. There is a patch of [[Skyrim:White Cap|white cap]] fungus growing to the left of the front porch, and a [[Skyrim:Wood Chopping Block|wood chopping block]] and a [[Skyrim:Grindstone|grindstone]] are south of the entrance. On the porch to the left of the entrance are three [[Skyrim:Food|food]] barrels, and the [[SR:Fishing Map - The Reach|Fishing Map - The Reach]] is on the right barrel.
+
+===Old Hroldan Inn===
+The entrance leads directly into the common room, which like most inns in [[Lore:Skyrim|Skyrim]], has a long firepit down the middle of the room, five long wooden tables against the side walls, and a counter at the far end. There are several barrels containing foodstuffs around the room and three doorways off the main room, two to the northwest and one to the southeast. The tables are laden with a selection of bottles of [[Skyrim:Alto Wine|alto wine]] and [[Skyrim:Wine|wine]], a couple loaves of [[Skyrim:Bread|bread]], and either [[Skyrim:Chicken's Egg|chicken's eggs]] or [[Skyrim:Pine Thrush Egg|pine thrush eggs]], except for the table in the western corner, which has a couple [[Skyrim:Salmon Steak|salmon steaks]] and several pieces of cheese instead of the eggs. There is a basket beside the firepit containing three pieces of [[Skyrim:Firewood|firewood]]. The counter, which is at the northeast end of the room and is where [[Skyrim:Eydis|Eydis]] spends her days, has a bottle of alto wine, a bottle of wine, several pieces of cheese, and a copy of ''[[Skyrim:Final Lesson|Final Lesson]]'' on top, and two more bottles of wine, a small [[Skyrim:Coin Purse|coin purse]], an [[Skyrim:Iron War Axe|iron war axe]], and five loose [[Skyrim:Gold|septims]] underneath. Behind the counter, along the northeast wall, are a couple large vats and a set of shelves holding three bottles of alto wine and five bottles of wine, with a pile of firewood to the right. There are several racks hanging from the ceiling in front of the vats and shelves holding a total of eleven [[Skyrim:Rabbit (dead)|rabbits]], six [[Skyrim:Pheasant|pheasants]], two [[Skyrim:Garlic|garlic]] braids, a bunch of dried [[Skyrim:Elves Ear|elves ear]], and a bunch of dried [[Skyrim:Frost Mirriam|frost mirriam]]. On either side of the doorway to the southeast are two sets of shelves holding a total of two bottles of alto wine, six bottles of wine, seven bottles of [[Skyrim:Nord Mead|Nord mead]], four loaves of bread, and three bunches of elves ear.
+
+The large bedroom to the southeast is Tiber Septim's room, and is where Eydis claims [[Lore:Tiber Septim|Tiber Septim]] slept on his first night after seizing Old Hroldan from the [[Lore:Reachmen|Witchmen of High Rock]]. The battle is famous for being where Hjalti Early-Beard (later Tiber Septim) earned the name Talos Stormcrown, when he used the [[Skyrim:Thu'um|Thu'um]] to break the settlement's defenses. Eydis will rent you the room for 10 septims a day. The room is the one to the southeast, and contains a large double bed by the southeast wall with an end table on either side, one of which has a copy of the [[Skyrim:Two-handed|Two-handed]] [[Skyrim:Skill Books|skill book]] ''[[Skyrim:Battle of Sancre Tor|Battle of Sancre Tor]]'' on top, while the other has a bottle of wine on top. There are also an unlocked [[Skyrim:Chest|chest]] at the foot of the bed, a long unlocked chest against the southwest wall, and a kettle in the southern corner containing a copy of ''[[Skyrim:Killing - Before You're Killed|Killing - Before You're Killed]]''. In the western corner, along the northwest wall, is an owned single bed. The first time you sleep in this room will initiate the [[Skyrim:The Ghost of Old Hroldan|quest]] to help an ancient ghost. None of the items in this room are owned, though the double bed will be unless you rent the room. The smaller bed off to the side however, is always owned.
+
+Opposite the Tiber Septim room are two more smaller bedrooms. The bedroom to the left contains an owned single bed in the southwestern corner with a round wooden table and chair beside it and a novice-locked chest at the foot of the bed, with a tall wardrobe containing [[Skyrim:Clothes|clothes]] against the northwest wall. On the table are a bottle of [[Skyrim:Black-Briar Mead|Black-Briar mead]] and a copy of ''[[Skyrim:Olaf and the Dragon|Olaf and the Dragon]]''. The bedroom to the right contains an owned single bed in the northeastern corner with a round wooden table and chair beside it, a novice-locked chest at the foot of the bed, and a dresser against the northeast wall. There is a copy of ''[[Skyrim:Horker Attacks|Horker Attacks]]'' on the table.
+
+==Standard Merchandise==
+This is the merchandise found in the inn's [[Skyrim:Merchant Chest|merchant chest]]. These items are only available if purchased from the merchant; they cannot be [[Skyrim:Pickpocket|pickpocketed]] or stolen.  They are [[Skyrim:Respawning|restocked]] every two days.
+{| class="wikitable"
+! Count !! Item
+|-
+| 7 || Random [[Skyrim:Food#Beverages|drinks]]
+|-
+| 10 || Random inn food
+|-
+| 1 || [[Skyrim:Salt Pile|Salt Pile]]
+|}
+
+==Notes==
+* Unused game data indicates the inn was originally intended to be part of a larger settlement known as '''Old Hroldan'''.
+** Several internal references indicate the inn was originally named the "Hanged Man's Inn", rather than the Old Hroldan Inn.
+** An [[Skyrim:Unfinished Quests|unfinished quest]] tied to the location reveals that at one point, a mine (the name of which is unknown) and at least four other NPCs were to be present: two Reachman miners and cousins named '''Lioch''' and '''Maeduin''', a Nord mine overseer named '''Heggvild''', and an unnamed fourth NPC who was possibly one of the settlement's higher-ups.
+* If you take the path to the north into the mountains, it'll lead towards the village of [[Skyrim:Rorikstead|Rorikstead]]. Along the way you'll encounter a small camp with the lovers Karan and [[Skyrim:Talvur|Talvur]]. Unfortunately, they've been killed (possibly by the [[Skyrim:Animals|predator]] nearby), but ''[[Skyrim:Karan's Journal|Karan's Journal]]'' indicates they have a stash hidden right nearby in a stump. Later, a [[Skyrim:Shrine of Mara|Shrine of Mara]] can be found here.
+* If you cast a spell inside the inn, Skuli will ask if you can turn him invisible. If you shout when you're here, Skuli will ask if you're one of the [[Skyrim:Greybeards|Greybeards]].
+
+{{Skyrim Settlements}}

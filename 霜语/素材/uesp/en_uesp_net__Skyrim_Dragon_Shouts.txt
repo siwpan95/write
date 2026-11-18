@@ -1,0 +1,119 @@
+{{Protection|semi|full}}{{Trail|Magic}} [[Category:Skyrim-Dragon Shouts]][[File:SR-creature-Dragon Dead Absorb Soul.jpg|thumb|Absorbing a soul from a slain dragon]]
+'''Dragon shouts''' (a.k.a. '''The Voice''' or '''Thu'um''') are phrases of [[Lore:Dragon Language|dragon language]], consisting of three separate words of power, that can be used to unleash varied powerful effects. [[Skyrim:Dragon|Dragon]]s are naturally able to use dragon shouts, but very few people possess this capability. As the [[Skyrim:Dovahkiin|Dovahkiin]] (Dragonborn), a mortal with the soul of a dragon, you were born with this power. You can use dragon shouts only after completing [[Skyrim:Dragon Rising|Dragon Rising]] in the [[Skyrim:Main Quest|Main Quest]], from which point you can absorb a dragon's soul after slaying it. You can learn a total of 20 dragon shouts in the standard version of Skyrim, but that number can be increased to 27 dragon shouts by installing [[Skyrim:Add-ons|official add-ons]].
+
+The [[Skyrim:Dawnguard|Dawnguard]] add-on adds three new dragon shouts for players, while [[Skyrim:Dragonborn|Dragonborn]] adds a total of four new dragon shouts.
+
+To acquire a dragon shout, or to strengthen an existing shout:
+* Discover and approach a [[Skyrim:Word Wall|word wall]] to learn a word of power.
+* Unlock the word by selecting or hovering over it, and pressing '''R''' (PC), [[File:UESP-icon-Xbox X.png|22px|X]] (Xbox), [[File:UESP-icon-Xbox Y.png|22px|Y]] (Nintendo Switch) or [[File:UESP-icon-PS3 Square.png|20px|Square]] (PlayStation).
+** To unlock a word, you must use a dragon soul that you have absorbed. If you have no dragon souls available, you must kill a dragon and absorb its soul.
+*Over the course of the main questline, you will learn 15 words of power from several characters. These words are immediately unlocked when you receive them. You will need 44 additional dragon souls to unlock all the remaining words available.
+
+When you unlock the first word of a dragon shout, you will have access to its most basic version. Unlocking the shout's second and third words will allow for the use of a more powerful shout that will last longer, deal more damage, or have additional effects. However, certain shouts will have no effect at all unless all three words have been unlocked and are spoken at once.
+
+==Locating Dragon Shouts==
+Some words of power can be learned only at certain points as you progress through the main questline. A few others require access to locations that become accessible only during specific faction quests (see the table below). Most words can be learned at any time by discovering a word wall, which are generally located at [[Skyrim:Dragon_Lairs|dragon lairs]] or in [[Skyrim:Dungeons|dungeons]]. There are two methods of actively seeking information on their locations, both of which can be used concurrently:
+
+*If you use a dragon shout in towns, inhabited dungeons or encampments, a [[Skyrim:Courier|courier]] may afterwards locate you in an outdoor area and give you a ''[[Skyrim:Letter from a Friend|Letter from a Friend]]'' which will make available a miscellaneous [[Skyrim:Shout - learn about word wall|quest]] leading to a word wall. Couriers will continue delivering such letters until all currently available words of power have been learned. However, you will not receive a new ''Letter from a Friend'' until you have completed the quest associated with the previous letter so received. 
+
+*Once you have completed [[Skyrim:The Horn of Jurgen Windcaller|The Horn of Jurgen Windcaller]], you can seek out [[Skyrim:Arngeir|Arngeir]] in High Hrothgar to ask him if the Greybeards have found the locations of any words of power. He will direct you to a word wall by marking it on your map, which starts a miscellaneous [[Skyrim:The Words of Power|quest]]. When you have learned all currently-available words, Arngeir will stop providing locations.
+
+==Using Dragon Shouts==
+Dragon shouts are, in many ways, similar to [[Skyrim:Magic|Magic]] but their use is not restricted by any stats or skills. To use a shout, it must first be selected from the Shouts or Favorites menu (only one shout or [[Skyrim:Powers|Power]] can be selected at a time). The shout can then be used by pressing the [[Skyrim:Controls#Power|Dragon Shout/Power]] button. Once the second and third words of a shout are unlocked, the shout can be "charged" by holding the shout button down. Tapping the shout button will unleash the weakest version of the shout, holding it down briefly will release the middle version, and simply holding the button will unleash the most powerful available version of the shout. Once the shout is fully charged, your character will release it automatically. 
+
+Using a shout will trigger a cool down time in which additional shouts cannot be used. The amount of time left in the cool down period can be seen as a blue outline around the compass at the top of the screen. Once the outline has receded completely, a shout can be used again. Shout cool down times vary greatly, but using more words of the shout will always make the cool down longer, with the exceptions of [[Skyrim:Throw Voice|Throw Voice]], [[Skyrim:Dragon Aspect|Dragon Aspect]]{{DB}}, and [[Skyrim:Call of Valor|Call of Valor]]. The effects from the [[Skyrim:Amulet of Talos|Amulet of Talos]], [[Skyrim:Blessing of Talos|Blessing of Talos]], and [[Skyrim:Dragon Aspect|Dragon Aspect]]{{DB}} shout reduce the cool down period and can be stacked. Meditation on a word of power with [[Skyrim:Paarthurnax_(dragon)|Paarthurnax]] and/or [[Skyrim:Powers#Dragonborn Flame|Powers]] in [[Skyrim:Dragonborn|Dragonborn]]  can increase the power of certain shouts as well. 
+
+Shouts have a variety of uses both in and out of combat. Some shouts are simply helpful in traversing areas while many others can effectively turn the tide of a battle if used strategically. Since employing a powerful shout will often prevent the use of multiple shouts during a single combat, weighing a shout's effects and magnitude (one, two, or three words) versus its cool down time can help you use shouts more efficiently.
+
+==Available Dragon Shouts==
+The order in which you visit word walls associated with a particular shout does not matter. Word walls will always give you the first word not already learned for a shout. This is also true of the quest-taught words of Whirlwind Sprint, learned in [[Skyrim:The Way of the Voice|The Way of the Voice]], and [[Skyrim:Fire Breath|Fire Breath]], learned in [[Skyrim:The Throat of the World|The Throat of the World]]; you will always learn the next word not already learned.
+
+{|class="wikitable"
+! !!width="150" | Dragon Shout ([[Skyrim:Form ID|ID]])
+!colspan=2|Word of Power
+!Translation
+!Word Wall Location
+!Cool Down Time
+|-
+{{Shout Entry|Animal Allegiance}}
+{{Shout Entry|Aura Whisper}}
+{{Shout Entry|Battle Fury}}
+{{Shout Entry|Become Ethereal}}
+{{Shout Entry|Bend Will}}
+{{Shout Entry|Call Dragon}}
+{{Shout Entry|Call of Valor}}
+{{Shout Entry|Clear Skies}}
+{{Shout Entry|Cyclone}}
+{{Shout Entry|Disarm}}
+{{Shout Entry|Dismay}}
+{{Shout Entry|Dragon Aspect}}
+{{Shout Entry|Dragonrend}}
+{{Shout Entry|Drain Vitality}}
+{{Shout Entry|Elemental Fury}}
+{{Shout Entry|Fire Breath}}
+{{Shout Entry|Frost Breath}}
+{{Shout Entry|Ice Form}}
+{{Shout Entry|Kyne's Peace}}
+{{Shout Entry|Marked for Death}}
+{{Shout Entry|Slow Time}}
+{{Shout Entry|Soul Tear}}
+{{Shout Entry|Storm Call}}
+{{Shout Entry|Summon Durnehviir}}
+{{Shout Entry|Throw Voice}}
+{{Shout Entry|Unrelenting Force}}
+{{Shout Entry|Whirlwind Sprint}}
+|}
+
+==Unavailable Dragon Shouts==
+All shouts used by dragons are different version of the ones available in the game. In addition there are a few shouts only available to certain NPCs and dragons:
+* [[Skyrim:Alduin|Alduin]] has a dragon shout named "{{Anchor|Dragon Storm Call}}". It is similar to [[Skyrim:Storm Call|Storm Call]], but it calls forth a meteor storm instead of a lightning storm and the sky turns red instead of stormy gray. Alduin used this shout to destroy [[skyrim:Helgen|Helgen]]. [[Skyrim:Clear Skies|Clear Skies]] interrupts the storm.
+* Alduin has another shout called "{{Anchor|ResurrectionShout}}" that resurrects dead dragons. Its words of power are "Slen Tiid Vo", which translate to "Flesh Time (Opposite of)". It should be noted that you can learn the words Tiid (Time) and Slen (Flesh), showing that words can be part of different shouts.
+* The soul-snare mist created by Alduin in [[Skyrim:Sovngarde (place)|Sovngarde]] is technically not a dragon shout, but a script. It creates a mist where Alduin hides and feeds upon the trapped souls. Its words of power are "Ven Mul Riik", which translate to "Wind Strong Gale".
+* The shout used by [[Skyrim:Tsun|Tsun]] to return you to [[Lore:Nirn|Nirn]] from Sovngarde is another unavailable shout. Its words of power are "Nahl Daal Vus", which translate to "Living Return Nirn".
+* The shout used by the Greybeards to create ethereal forms for you to practice shouts on is called [[Skyrim:Phantom Form‎|Phantom Form‎]]. Its words of power are "Fiik Lo Sah", which is translated as "Mirror Deceive Phantom". The shout was apparently intended to be available, as it is voiced for all races.
+* During the learning of Whirlwind Sprint, [[Skyrim:Borri|Borri]] opens the gate doors by saying "Bex", meaning "Open". This is not a shout, but a script.
+* [[Skyrim:Dwarven Centurion|Dwarven Centurions]] have a "{{Anchor|Steam Breath}}" power that is treated as a dragon shout by the game engine. The closest thing you can obtain to this is the lesser power [[Skyrim:Breath of Nchuak|Breath of Nchuak]], added by [[Skyrim:Dragonborn|Dragonborn]] and only available with the [[Skyrim:Visage of Mzund|Visage of Mzund]] equipped.
+* [[Skyrim:Dawnguard|Dawnguard]] adds [[Skyrim:Soul Cairn Summon|Soul Cairn Summon]], a shout unique to [[Skyrim:Durnehviir (dragon)|Durnehviir]]. Its words of power are "Diil Qoth Zaam", translated as "Undead Tomb Slave". Each word summons an undead minion from the Soul Cairn; the full shout will summon a [[Skyrim:Wrathman|wrathman]], [[Skyrim:Boneman|boneman]], and [[Skyrim:Mistman|mistman]] to aid Durnehviir in combat. These summons are available to you, but rather in spell form. Even if you obtain this shout with [[Skyrim:Console|console]] commands, you can only summon one undead unless you use the console to add the multiple summon perk that Durnehviir has.
+
+==Notes==
+*You can absorb one dragon soul without fighting a dragon after finishing the quest [[Skyrim:The Horn of Jurgen Windcaller|The Horn of Jurgen Windcaller]].
+*The souls [[Skyrim:Miraak (person)|Miraak]]{{DB}} stole from you throughout the game will be returned when you kill him during the quest [[Skyrim:At the Summit of Apocrypha|At the Summit of Apocrypha]].
+*If you use a dragon shout in a city while there are no hostile opponents present, a guard may run up to you and ask you to stop, complaining that the villagers are getting nervous; however, there are no other consequences, regardless of the dialogue option chosen or whether you continue to shout.
+**This is true even for shouts that are not supposed to reveal your location to others, such as Aura Whisper or Throw Voice, or for shouts that have no effect, such as Elemental Fury without an equipped weapon.
+*The three race categories (Human, Mer, and Beast) have their own unique voices and pronunciations when shouting.{{VN}}
+*The male human shouts (Breton, Nord, Imperial, and Redguard) were voiced by Mark Lampert, the game's sound designer.
+*The following NPCs are able to use dragon shouts: all members of the [[Skyrim:Greybeards|Greybeards]], [[Skyrim:Ulfric Stormcloak|Ulfric Stormcloak]], [[Skyrim:Felldir the Old|Felldir the Old]], [[Skyrim:Gormlaith Golden-Hilt|Gormlaith Golden-Hilt]], [[Skyrim:Hakon One-Eye|Hakon One-Eye]], [[Skyrim:Tsun|Tsun]], the [[Skyrim:Ebony Warrior|Ebony Warrior]]{{DB}}, and [[Skyrim:Miraak (person)|Miraak]]{{DB}}.
+*All dragons, some draugr and draugr deathlords can also use the Voice.
+*When the Greybeards teach Whirlwind Sprint to you, after you learn the word but before they give you the power to use it, you can use a dragon soul to unlock it. Afterwards, the Greybeards will gift you with the power to use it, therefore giving you two words of Whirlwind Sprint. (This also works when [[Skyrim:Paarthurnax (dragon)|Paarthurnax]] teaches you Fire Breath.)
+** If you do this, then reading a second word will not grant you the third word. You will still have to read all three words to learn all three words.
+
+==Bugs==
+{{Bug|Arngeir may not give you the option to ask him for words of power.|confirmed=1}}
+{{Bug|Sometimes, the word will not appear on the wall, leaving you unable to learn the entire shout. There does not appear to be a fix for this; even loading from a previous save will not cause the word to appear. Associated audio and visual effects may be present, but you will not learn the word. The audio will continue to play every time you visit the site. It is possible that the word will become available at the wall if the area is left unvisited for a long period of time.|confirmed=1}}
+** {{Pc22}} One fix is using the console command <code>player.teachword wordid</code> -- however, this will not finish related quests. For the <code>teachword</code> command, you need the id of each shout's individual word of power, not the id posted in the table here, and they can be found on each shout's individual page.
+*** {{Pc22}} Using the command <code>SetStage FreeFormHighHrothgarA 20</code> will end [[Skyrim:The_Words_of_Power|The Words of Power]] and allow you to acquire another quest normally. This only ends the quest; you will still need to use the <code>teachword</code> command to learn the shout.
+{{Bug|Some of the sound files do not match the words of some shouts. For example, the female Khajiit voicing for "Marked For Death" is only "Krii!" for the single tap version (one word) - the 3 word version comes out "Yun Lud Aus!" instead.|USKP|2.0.0}}
+{{Bug|Sometimes when you kill a dragon, it will die and its body will be lootable, but you will not absorb its soul.  This is usually the result of a dragon you already killed earlier respawning.|USKP|1.0}}
+{{Bug|If a shout is activated while in the water where you can't use it, then it will activate as soon as you would be able to (as soon as the water becomes shallow); however, no matter what words of the shout you know or how long you hold it, it will always cast the weakest version.|confirmed=1}}
+{{Bug|If a shout is activated while holding a drawn bow, then it will activate as soon as you would be able to (once you're finished sheathing/firing your bow); however, no matter what words of the shout you know or how long you hold it, it will always cast the weakest version.|vn=1}}
+{{Bug|The first word of clear skies, "Lok", sounds the same regardless of race or gender.|vn=1}}
+{{Bug|Using the soul of a dragon to unlock a shout while the animation for the soul absorption is still playing will grant you another soul after the "dragon soul absorbed" message appears.|vn=1}}
+{{Bug|With [[SR:Dawnguard|Dawnguard]] installed, dragon souls may not unlock new shouts, even if the player has more than one dragon soul.|vn=1|dlc=DG}}
+
+== Achievements ==
+[[Skyrim:Achievements|Achievements]] related to dragon shouts are listed below.
+* {{achievement|Dragon Soul (achievement)}}
+** This achievement is unlocked during [[Skyrim:Dragon Rising|Dragon Rising]], since it is the first quest where a dragon can be killed.
+*{{achievement|Dragonrider|mod=DB}}
+*{{achievement|Dragon Aspect (achievement)|mod=DB}}
+* {{achievement|Dragon Hunter}}
+** Any twenty dragons can be killed to obtain this achievement.
+** You can track your progress towards this achievement using the "Dragon Souls Collected" statistic, on the "Magic" page of your journal's "General Stats" section.
+* {{achievement|Words of Power (achievement)}}
+** Most players will unlock this achievement at the end of [[Skyrim:The Horn of Jurgen Windcaller|The Horn of Jurgen Windcaller]], when the final word of [[Skyrim:Unrelenting Force|Unrelenting Force]] is learned from the [[Skyrim:Greybeards|Greybeards]].  However, it can also be unlocked by visiting all three word walls for any given dragon shout. [[Skyrim:Shearpoint|Shearpoint]] has all three words of the [[Skyrim:Throw Voice|Throw Voice]] shout.
+* {{achievement|Thu'um Master}}
+** To unlock this achievement, one word of each of the twenty available shouts must be unlocked (learning any twenty different words of power is not sufficient).
+** It cannot be unlocked until the [[Skyrim:Main Quest|main quest]] is completed, because several of the shouts are only learned as part of the main quest — and one shout ([[Skyrim:Call of Valor|Call of Valor]]) is only learned at the completion of the final quest, [[Skyrim:Dragonslayer|Dragonslayer]]. This is no longer the case with the release of the add-ons as other shouts are now available.
+** The other shout that is easy to miss for this achievement is [[Skyrim:Throw Voice|Throw Voice]], since it can only be learned in one location, Shearpoint.
+** You can track your progress towards this achievement using the "Shouts Learned" statistic, on the "Magic" page of your journal's "General Stats" section.
+* {{achievement|Soul Tear (achievement)}}

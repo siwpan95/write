@@ -1,0 +1,78 @@
+<noinclude>{{Cleanup-srqrp
+|writtenBy=
+|checkedBy=
+|reward=TorchicBlaziken
+|rewardChecked=
+}}</noinclude>{{Mod Header|Dragonborn}}
+{{Trail2|Dragonborn|Quests|link2=Dragonborn Quests|Side Quests}}[[Category:Skyrim-Quests]]{{Quest Header
+|notrail=1
+|type=Side Quests
+|Giver=The Black Book ''[[Skyrim:Black Book: The Sallow Regent (book)|The Sallow Regent]]''
+|Icon=SR-qico-Miscellaneous.png
+|Reward=[[Skyrim:Seeker of Might|Seeker of Might]], [[Skyrim:Seeker of Shadows|Seeker of Shadows]], or [[Skyrim:Seeker of Sorcery|Seeker of Sorcery]] ability
+|Prev=
+|Next=
+|Loc=[[Skyrim:White Ridge Barrow|White Ridge Barrow]], [[Skyrim:Apocrypha (The Sallow Regent)|Apocrypha‎]]
+|Image=SR-quest-Black Book The Sallow Regent.jpg
+|ImgDesc=The Sallow Regent
+|ID=DLC2BlackBook05Quest
+|description=Learn the [[Skyrim:Black Book: The Sallow Regent (book)|Black Book]]'s hidden knowledge.
+|SuggLevel=30
+}}
+
+== Quick Walkthrough ==
+# Read the Black Book ''[[Skyrim:Black Book: The Sallow Regent (book)|The Sallow Regent]]'' in [[Skyrim:White Ridge Barrow|White Ridge Barrow]].
+# Travel through [[Skyrim:Apocrypha (The Sallow Regent)|Apocrypha‎]].
+# Learn the Black Book's hidden knowledge.
+# Choose your reward.
+
+== Detailed Walkthrough ==
+[[File:SR-place-Apocrypha-The Sallow Regent.jpg|thumb|The darkness inside]]
+<!-- Instructions: The detailed walkthrough should provide full information about the quest, organized into paragraphs.  Spoilers belong in this section.--> <!-- Added by arcanearcher -->
+After reading The Sallow Regent you will enter a considerably darker region of Apocrypha than most others. Quickly light a torch or cast a spell of Candlelight as entering the darkness will quickly drain your health. Upon entering you will encounter a small poisoned pool with a pod next to it containing a few books, some gold, and possibly a spell tome. If you are low on potions or health after the long trek through the Barrow, it is wise to avoid this pod as the tentacle will inevitably strike you. It may be possible to access it without injury using the [[Skyrim:Slow Time|Slow Time]] shout.
+
+Visibility is poor in this section of Apocrypha. Fog combined with abstruse darkness makes for a haunting environment. A hovering light which you can follow in the absence of a torch or light spell will mark the way forward. After passing under a curved lamp you will find a circular pool with an amorphous eye protruding from the depths, next to another pod. Watch for the tentacle here as well, though this one is easier to access safely than the first.
+
+Following the hovering lamp you will make a right turn at the next curved lamp and ascend a hallway leading to an open area where you will encounter two or three seekers. The fog and absence of lighting makes it difficult to ascertain their location while they are still invisible (as normally they leave a faint, black aura where they float), so be prepared for a fight as soon as you climb the ramp. With the [[Skyrim:Eagle Eye|Eagle Eye]] and [[Skyrim:Steady Hand|Steady Hand]] Archery skills it is possible to snipe them through the fog through careful observation.  The arena in front of you will be lit spontaneously by waves of light drifting through the black mist.
+
+After dispatching the seekers return to the lamp that marks the entry way to this area. Turn to your left and move along the wall to encounter a pod containing some minor loot. Go back to the lamp and turn right, following the right hand wall until you find a two shelves set upon stone carved pillars. You will find there the speech skill book [[Skyrim:2920, Second Seed, v5|2920, Second Seed, v5]] along with the alteration spell book [[Skyrim: Detect Undead|Detect Undead]], among numerous ruined books. You may also find a few scrolls or a soul gem. Between the pillars sits another pod. Continue following the right hand wall until you come across a semi-spherical object with a large claw like formation extending forth from its top. Around the corner to the right you will find an altar containing the spell tome [[Skyrim: Conjure Seeker| Conjure Seeker]] with several soul gems amid some ruined books.
+
+Turn east and make way toward the light hovering around two curved street lamps, above which flies a green and yellow banner. There is a pod to the left of the portal containing a few books and possibly an Atronach Forge Recipe. Pass through the lamps and up a ramp until you reach a winding path with no boundaries. Be careful here as you can easily fall off either side. The pathways that connect each pillar expand and contract with the motion of the overhead lights, so be aware of their presence or you will fall to your death. 
+
+You will notice a Lurker shambling down the ramp one level higher, potentially coming your way. Casting a spell of Magelight towards any object in his vicinity will divert his attention. It is possible to cause the Lurker to fall off the platform by using Magelight repeatedly so that he follows the light up the ramp until he meets a pathway that is not lit. If you don't know Magelight then ranged attacks are your best bet here, as the pathways are narrow and you can easily be thrown off by the force of the Lurker's attacks. It may be possible to use [[Skyrim: Unrelenting Force|Unrelenting Force]] to shove the Lurker off the ramps as well. 
+
+Ascending the ramps you will encounter another altar with a spell tome and one or more soul crystals. Your final encounter may be with a Lurker Guardian, so be prepared for a fight when you reach the main platform just before ascending the stairs to the end of Apocrypha. After you have defeated it, you will find to the right of ''[[Skyrim:Black Book: The Sallow Regent (book)|The Sallow Regent]]'' a scroll of Summon Storm Atronach and a [[Skyrim:Flame Thrall|Flame Thrall]] spell tome. To the left another you will find another altar containing several soul gems and a vessel. Read the book to exit Apocrypha and return to [[Skyrim:White Ridge Barrow|White Ridge Barrow]], thus finishing the quest.
+
+=== Rewards ===
+Your choice of one of three abilities:
+* [[Skyrim:Seeker of Might|Seeker of Might]] — [[Skyrim:Combat|Combat]] skills are all 10% more effective.
+* [[Skyrim:Seeker of Sorcery|Seeker of Sorcery]] — All [[Skyrim:Spells|spells]] cost 10% less [[Skyrim:Magicka|magicka]]. Enchantments are 10% more powerful.
+* [[Skyrim:Seeker of Shadows|Seeker of Shadows]] — [[Skyrim:Stealth|Stealth]] skills are all 10% more effective.
+
+===Achievements===
+One [[Skyrim:Achievements#Dragonborn|achievement]] is related to this quest:
+* {{Achievement|Hidden Knowledge|descr=no}}
+
+== Notes ==
+*The section of Apocrypha‎ that you land in here is perhaps one of the more difficult areas. Besides the typical dangers encountered in this realm, the environment is badly lit (pitch black in areas), and the dark areas will quickly eat away at your health. Using spells such as [[Skyrim:Candlelight|Candlelight]] or [[Skyrim:Magelight|Magelight]], or carrying a [[Skyrim:Torch|torch]] is an effective way to avoid health damage. Alternatively, you may attempt to remain in the illuminated area under the floating eye lamps, or simply sprint through the stage using potions as needed. If you enter this area already in need of healing, it would be prudent to heal yourself immediately before moving on. Damage is dealt even if you have 100% immunity to poison, 100% resistant to magic, or use the [[Skyrim:Become Ethereal|Become Ethereal]] shout. 
+* This section has a [[Skyrim:Seeker|Seeker]], a High Seeker, a [[Skyrim:Lurker|Lurker]], and a Lurker Vindicator. Knowing the Candlelight spell and attacking from long range and/or using sneak attacks can be particularly effective.
+* You can change the reward at any time by traveling to Solstheim and re-reading the book. This will transport you to Apocrypha near the reward location and you can select a different one.
+* The quest rewards apply to all skills under their respective categories.  Therefore Seeker of Might makes Smithing 10% more effective, and Seeker of Shadows makes created potions 10% more powerful.
+
+== Bugs ==
+{{Bug|Upon returning to Solstheim, the sound effect of the health drain may continue to play indefinitely, or your health might continue to deplete as if you're still in the shadows of Apocrypha.|confirmed=1}}
+** Exiting to the main menu might solve this issue. If not, clearing the game cache should.
+** After you exit Apocrypha, load a different save then reload the auto-save that was just made and this will stop.
+** Transforming into a werewolf or a vampire lord and back will cause the sound to stop.
+** This can be corrected by saving current progress in a new file, quitting to the Main Menu, then returning to the game without loss of progress.
+** Reading the book again and returning to Apocrypha, and then rereading it to return to Solstheim solved the problem as well.
+** Another way to fix this is leaving Apocrypha by committing suicide rather than using the books to escape as dying in Apocrypha teleports you back to Nirn.
+{{Bug|Upon returning to Solstheim, a second copy of The Sallow Regent may appear in your inventory and both copies become unreadable.|confirmed=1}}
+
+== Quest Stages ==
+{{Journal Entries
+|10||I read the Black Book called "The Sallow Regent", and found myself in Hermaeus Mora's realm of Apocrypha. I should uncover the knowledge hidden here, or read the book again to escape.
+{{Quest Objective|10|Learn the Black Book's hidden knowledge}}
+|20|fin|I uncovered the hidden knowledge contained in the Black Book "The Sallow Regent".
+}}
+{{Skyrim Quest Stages Notes}}

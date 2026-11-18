@@ -1,0 +1,160 @@
+<noinclude>{{Trail|Quests}}</noinclude>
+'''Thane''' is an honorary title presented by the [[Skyrim:Jarl|jarl]] of a [[Skyrim:Holds|hold]] to individuals of high esteem. The bestowed title is one of both recognition and prestige. Thanes may be chosen due to their importance to the city or for their heroic deeds. It is possible to become a thane of every hold regardless of which side in the [[Skyrim:Civil War|Civil War]] is chosen (although it is impossible to become Thane of [[Skyrim:Eastmarch|Eastmarch]] if no side is chosen). Each jarl has their own requirements for the title and may bestow the honor on multiple people.
+
+==Benefits of Being a Thane==
+*Grants you a personal [[Skyrim:Housecarl|housecarl]] [[Skyrim:Followers|follower]] (if available). 
+*Grants you a symbolic weapon of the city.
+*Guards will forgive any [[Skyrim:Crime#Bounties|bounty]] of less than 2000 gold (once per hold). However, a crime can be pardoned twice if a hold is captured during the civil war and the new jarl appoints the player thane.
+
+==Becoming a Thane==
+The general process for becoming a thane comes down to a relatively general formula with the exception of Whiterun, where it is initially achieved by completing the quest [[Skyrim:Dragon Rising|Dragon Rising]] and does not require the steps below to complete, unless you have joined the Stormcloaks and completed [[Skyrim:Battle for Whiterun (Stormcloaks)|Battle for Whiterun]]. 
+# You befriend the jarl through a quest or favors.
+# The jarl asks you to demonstrate your value to the hold by [[Skyrim:Making Friends and Influencing People|assisting the people]] in the hold, five people in holds with major cities and three people in the other holds.
+# The jarl asks you to purchase a [[Skyrim:Houses|house]] in the city if the hold is one of the five with major cities: Whiterun (Whiterun), The Rift (Riften), Eastmarch (Windhelm), Haafingar (Solitude), and The Reach (Markarth).
+# The jarl grants the title of thane and all that comes with it.
+
+If [[Skyrim:Hearthfire|Hearthfire]] is installed, then the three minor holds of Falkreath (Falkreath), Hjaalmarch (Morthal), and The Pale (Dawnstar) will also appoint a housecarl and grant the right to purchase a plot of land on which you may [[Skyrim:Construction|build your own residence]]. Your housecarl can be taken as your follower or will otherwise remain in the jarl's residence awaiting instructions. The same happens if you are granted the thaneship of Whiterun during the [[Skyrim:Dragon Rising|Dragon Rising]] quest. Thus, only Winterhold lacks the opportunity for the player to acquire a residence in the hold; likewise, there is no housecarl available for the player in Winterhold.
+
+Progress made in assisting the people is dependent on disposition of citizens of the hold. Each citizen whose [[Skyrim:Disposition|disposition]] is raised to friend counts towards the objective. If you raise someone's disposition before the objective to assist the people is given, that will still be taken into account. Note that if you befriend the same citizen twice, it only counts once for the thane quest. Also, if a friend dies, you do not lose progress (usually in those cases, you will have received an [[Skyrim:Inheritance|Inheritance]].) In most cases, there is one quest for each citizen which will befriend him/her. Some citizens may have more than one quest which will befriend them. Many citizens have no specific quest available at all. A friend must be an ordinary citizen of the hold, not just living in it; members of [[Skyrim:Khajiit Traders|Khajiit caravans]] and [[Skyrim:Orc Strongholds|Orc strongholds]] do not count towards the total. Befriending the Jarl also doesn't count as that is a prerequisite to being given the objective.
+
+The thane quests and their general pieces are related below:
+
+{|
+|
+{| class="wikitable sortable" style=text-align:center
+!Quest
+!Jarl
+!Favors & Quests
+!Residence
+!Housecarl
+!Honorary Weapon {{Intnote|Weapon|[b]}}
+|-
+|rowspan=2|'''[[Skyrim:Thane of Eastmarch|Thane of Eastmarch]]'''
+|bgcolor="87CEEB"|'''[[Skyrim:Ulfric Stormcloak|Ulfric Stormcloak]]'''
+|[[Skyrim:Rescue from Fort Neugrad|Rescue from Fort Neugrad]] and [[Skyrim:Blood on the Ice|Blood on the Ice]]
+|rowspan=2|[[Skyrim:Hjerim|Hjerim]]
+|rowspan=2|[[Skyrim:Calder|Calder]]
+|rowspan=2|Axe of Eastmarch
+|-
+|bgcolor="FA8072"|[[Skyrim:Brunwulf Free-Winter|Brunwulf Free-Winter]]
+|[[Skyrim:Battle for Windhelm|Battle for Windhelm]]
+|-
+|rowspan=2|'''[[Skyrim:Thane of Falkreath|Thane of Falkreath]]'''
+|bgcolor="FA8072"|'''[[Skyrim:Siddgeir|Siddgeir]]'''
+|[[Skyrim:Rare Gifts|Rare Gifts]], [[Skyrim:Kill the Bandit Leader (Jarl)|Kill the Bandit Leader]]
+|rowspan=2|[[Skyrim:Lakeview_Manor|Lakeview Manor]]{{HF}}
+|rowspan=2|[[Skyrim:Rayya|Rayya]]{{HF}}
+|rowspan=2|Blade of Falkreath
+|-
+|bgcolor="87CEEB"|[[Skyrim:Dengeir of Stuhn|Dengeir of Stuhn]]
+|[[Skyrim:Rescue from Fort Neugrad|Rescue from Fort Neugrad]] {{Intnote|Unending|[a]}}
+|-
+|'''[[Skyrim:Thane of Haafingar|Thane of Haafingar]]'''
+|bgcolor="FA8072"|'''[[Skyrim:Elisif the Fair|Elisif the Fair]]'''&nbsp;{{Intnote|Elisif|[d]}}
+|[[Skyrim:Elisif's Tribute|Elisif's Tribute]]
+|[[Skyrim:Proudspire Manor|Proudspire Manor]]
+|[[Skyrim:Jordis the Sword-Maiden|Jordis the Sword-Maiden]]
+|Blade of Haafingar
+|-
+|rowspan=2|'''[[Skyrim:Thane of Hjaalmarch|Thane of Hjaalmarch]]'''
+|bgcolor="FA8072"|'''[[Skyrim:Idgrod Ravencrone|Idgrod Ravencrone]]'''
+|[[Skyrim:Laid to Rest|Laid to Rest]]
+|rowspan=2|[[Skyrim:Windstad_Manor|Windstad Manor]]{{HF}}
+|rowspan=2|[[Skyrim:Valdimar|Valdimar]]{{HF}}
+|rowspan=2|Blade of Hjaalmarch
+|-
+|bgcolor="87CEEB"|[[Skyrim:Sorli the Builder|Sorli the Builder]]
+|[[Skyrim:The Battle for Fort Snowhawk (Stormcloaks)|The Battle for Fort Snowhawk]] {{Intnote|Unending|[a]}}
+|-
+|rowspan=2|'''[[Skyrim:Thane of the Pale|Thane of the Pale]]'''
+|bgcolor="87CEEB"|'''[[Skyrim:Skald|Skald]]'''
+|[[Skyrim:Kill the Giant (Jarl)|Kill the Giant]]
+|rowspan=2|[[Skyrim:Heljarchen Hall|Heljarchen Hall]]{{HF}}
+|rowspan=2|[[Skyrim:Gregor|Gregor]]{{HF}}
+|rowspan=2|Blade of the Pale
+|-
+|bgcolor="FA8072"|[[Skyrim:Brina Merilis|Brina Merilis]]
+|[[Skyrim:The Battle for Fort Dunstad (Imperial)|The Battle for Fort Dunstad]] {{Intnote|Unending|[a]}}
+|-
+|rowspan=2|'''[[Skyrim:Thane of the Reach|Thane of the Reach]]'''
+|bgcolor="FA8072"|'''[[Skyrim:Igmund|Igmund]]'''
+|[[Skyrim:Dungeon Delving (Jarl - Hagravens)|Find Hrolfdir's Shield]]
+|rowspan=2|[[Skyrim:Vlindrel Hall|Vlindrel Hall]]
+|rowspan=2|[[Skyrim:Argis the Bulwark|Argis the Bulwark]]
+|rowspan=2|Blade of the Reach
+|-
+|bgcolor="87CEEB"|[[Skyrim:Thongvor Silver-Blood|Thongvor Silver-Blood]]
+|[[Skyrim:The Battle for Fort Sungard (Stormcloaks)|The Battle for Fort Sungard]] {{Intnote|Unending|[a]}}
+|-
+|rowspan=2|'''[[Skyrim:I Done Got Thaned!|Thane of the Rift]]'''
+|bgcolor="87CEEB"|'''[[Skyrim:Laila Law-Giver|Laila Law-Giver]]'''
+|rowspan=2|[[Skyrim:Supply and Demand|Supply and Demand]]
+|rowspan=2|[[Skyrim:Honeyside|Honeyside]]
+|rowspan=2|[[Skyrim:Iona|Iona]]
+|rowspan=2|Blade of the Rift {{Intnote|Blade of the Rift}}
+|-
+|bgcolor="FA8072"|[[Skyrim:Maven Black-Briar|Maven Black-Briar]]
+|-
+|rowspan=2|'''[[Skyrim:Thane of Whiterun|Thane of Whiterun]]'''
+|bgcolor="FA8072"|'''[[Skyrim:Balgruuf the Greater|Balgruuf the Greater]]'''
+|[[Skyrim:Dragon Rising|Dragon Rising]] {{Intnote|Whiterun|[c]}}
+|rowspan=2|[[Skyrim:Breezehome|Breezehome]]
+|rowspan=2|[[Skyrim:Lydia|Lydia]]
+|Axe of Whiterun
+|-
+|bgcolor="87CEEB"|[[Skyrim:Vignar Gray-Mane|Vignar Gray-Mane]]
+|[[Skyrim:Battle for Whiterun (Stormcloaks)|Battle for Whiterun]]
+|Blade of Whiterun
+|-
+|rowspan=2|'''[[Skyrim:Thane of Winterhold|Thane of Winterhold]]'''
+|bgcolor="87CEEB"| '''[[Skyrim:Korir|Korir]]'''
+|[[Skyrim:Dungeon Delving (Jarl - Caves)|Find the Helm of Winterhold]]
+|rowspan=2|None
+|rowspan=2|None
+|rowspan=2|Blade of Winterhold
+|-
+|bgcolor="FA8072"|[[Skyrim:Kraldar|Kraldar]]
+|[[Skyrim:Rescue from Fort Kastav|Rescue from Fort Kastav]] {{Intnote|Unending|[a]}}
+|}
+| valign=top |
+{| class="wikitable" style="font-size:85%;" width=105px
+|bgcolor="#FA8072" width=1% |&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;||[[Skyrim:Imperial Legion|Imperial Legion]]
+|}
+{| class="wikitable" style="font-size:85%" width=105px
+|bgcolor="#87CEEB" width=1%|&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;||[[Skyrim:Stormcloaks|Stormcloaks]]
+|}
+|}
+{{Note|Unending|^a|If [[Skyrim:Season Unending|Season Unending]] has been used to change the jarls of holds, the new jarls will allow you to become thane without completing any other prerequisite quests, with the exception of the Jarl of the Rift.}}
+{{Note|Weapon|^b|All honorary weapons listed are randomly assigned enchanted melee weapons. More information can be found on [[Skyrim:Leveled Lists#Enchanted Weapons|this page]].}}
+{{Note|Whiterun|^c|Dragon Rising grants thane status by itself. There are no further requirements to become Thane of Whiterun if Balgruuf is still Jarl of Whiterun, and there is no other way to become Thane of Whiterun while he is Jarl.}}
+{{Note|Elisif|^d|Elisif the Fair remains Jarl of Haafingar even if it is conquered by the Stormcloaks.}}
+{{Note|Windhelm|^e|It is impossible to become Thane of Eastmarch without taking one or the other side in the Civil War: you must either join the Stormcloaks to win Ulfric's favor and commit permanently to their side by conquering Whiterun for them (which is beyond the point-of-no-return that allows defecting to the Imperials), or join the Legion, win the civil war outright for the Empire (since the city cannot change hands during [[Skyrim:Season Unending|Season Unending]]), remove Ulfric from power in Windhelm and curry favor with his pro-Imperial replacement.}}
+{{Note|Blade of the Rift|†|{{Bug|The "Blade of the Rift" is never actually given as a reward: instead, you will receive a generic un-renamed enchanted weapon.|USKP|1.2|nobullet=1}}}}
+
+==NPC Thanes==
+NPCs that are thanes are typically identified through dialogue. There is no specific faction marking for thanes. 
+
+[[File:SR-npc-Erikur.jpg|thumb|thumb|right|Thane Erikur of Haafingar]]
+{| class="wikitable sortable"
+!Name !! Hold !! House !! class=unsortable|Notes
+|-
+||[[Skyrim:Bryling|Bryling]]||[[Skyrim:Haafingar|Haafingar]]||[[Skyrim:Bryling's House|Bryling's House]]||Owns [[Skyrim:Rockwallow Mine|Rockwallow Mine]].
+|-
+||[[Skyrim:Dengeir of Stuhn|Dengeir of Stuhn]] || [[Skyrim:Falkreath Hold|Falkreath Hold]] || [[Skyrim:Dengeir's House|Dengeir's House]] || Former Jarl of Falkreath, deposed by his nephew [[Skyrim:Siddgeir|Siddgeir]]. Siding with the Stormcloaks will allow him to regain the title of Jarl.
+|-
+||[[Skyrim:Erikur|Erikur]]||[[Skyrim:Haafingar|Haafingar]]||[[Skyrim:Erikur's House|Erikur's House]]||Sister is [[Skyrim:Gisli|Gisli]].
+
+|}
+
+[[Skyrim:Mjoll the Lioness|Mjoll the Lioness]] is declared by [[Skyrim:The Rift|the Rift]]'s jarl, [[Skyrim:Laila Law-Giver|Laila Law-Giver]], to be a champion of the people. Her virtue and heroic nature are extolled by Laila, but this only represents one facet of being a thane.
+
+== Notes ==
+* If the jarl that named you thane is replaced through the events of the Civil War or via [[Skyrim:Season Unending|Season Unending]], you will lose the title, though you can regain it by speaking to the new jarl. You do not need to complete favor tasks a second time, because the new jarl is always grateful to you for your help in installing him or her and will accept that as a favor task in itself. The only exception is the Rift, where both Maven and Laila require you to complete a [[Skyrim:Supply and Demand|non-repeatable task]] as a prerequisite for the title.
+* If the jarl is replaced and you then regain your thaneship, the bounty forgiveness will reset and you will be able to use it a second time under the new jarl. As the holds of the Reach, Falkreath, Hjaalmarch, the Pale and Winterhold can change hands twice throughout the game, this theoretically allows you to clear your bounty three times in these holds. 
+* It is strongly recommended that before completing the Dark Brotherhood contract to kill Helvard, you either become [[Skyrim:Thane of Falkreath|Thane of Falkreath]] first, or do Siddgeir/Dengeir's quests later to regain their grace.
+*If Erikur or Bryling die, their housecarls ([[Skyrim:Melaran|Melaran]] and [[Skyrim:Irnskar Ironhand|Irnskar Ironhand]], respectively) will replace them as thanes.
+*If you lose your thane status in your hold (due to the jarl that granted it being removed by the Civil War or Season Unending), then your housecarl will still call you thane but you will be unable to use your status to avoid being arrested by the guards until it is reinstated.
+
+{{Skyrim Thane Quests}}
+
+[[Category:Skyrim-NPCs]]

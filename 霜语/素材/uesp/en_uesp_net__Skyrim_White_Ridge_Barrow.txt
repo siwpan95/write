@@ -1,0 +1,134 @@
+{{Mod Header|Dragonborn}}{{Place Summary
+|type=Nordic Ruin
+|zones=2
+|description=A medium-sized [[Skyrim:Nordic Ruins|Nordic ruin]] in the northern part of Solstheim inhabited by [[Skyrim:Bandit|bandits]] and [[Skyrim:Spiders|spiders]].
+|treasure=[[Skyrim:Dukaan (item)|Dukaan (Mask)]]
+|region=Solstheim
+|location=West of [[Skyrim:Hrothmund's Barrow|Hrothmund's Barrow]], east of the [[Skyrim:Stalhrim Source|Stalhrim Source]]
+|locationcode=DLC2WhiteRidgeBarrow01, DLC2WhiteRidgeBarrow02, DLC2WhiteRidgeBarrowExterior01
+|marker_id=Nordic Ruin
+|dungeon=Yes
+|clearable=Yes
+|level=Min: 30
+|occupants=[[Skyrim:Albino Spider|Albino Spiders]], [[Skyrim:Bandit|Bandits]], [[Skyrim:Draugr|Draugr]], [[Skyrim:Dukaan (creature)|Dukaan]], [[Skyrim:Flame Spider|Flame Spiders]], [[Skyrim:Merilar Rendas|Merilar Rendas]]
+|addbelow=It contains a [[Skyrim:Word Wall|word wall]] for part of the [[Skyrim:Cyclone|Cyclone]] shout, the dragon priest [[Skyrim:Dukaan (creature)|Dukaan]], the ''[[Skyrim:Black Book: The Sallow Regent (book)|Black Book: The Sallow Regent]]'', and an [[#Imbuing Chamber|imbuing chamber]] in which you can create [[Skyrim:Spider Scrolls|spider scrolls]]. 
+|respawn=Never
+|image=SR-place-White Ridge Barrow.jpg
+|imgdesc=White Ridge Barrow
+|ruby=13
+|heartstone=2
+|sapphire=2
+|wordwall=[[Skyrim:Cyclone|Cyclone]]
+|ns_map=Dragonborn
+}} [[Category:Skyrim-Dragonborn-Places-Animal Dens]] 
+It contains two zones: ''[[#White Ridge Barrow|White Ridge Barrow]]'' and ''[[#White Ridge Sanctum|White Ridge Sanctum]]''. 
+{{NewLeft}}
+== Related Quests ==
+* {{Quest Link|Black Book (quest)}}
+* {{Quest Link|Black Book: The Sallow Regent (quest)}}
+* {{Quest Link|Lost Knowledge}}
+* {{Quest Link|A New Order}}
+
+== Walkthrough ==
+
+=== Exterior ===
+[[File:SR-place-White Ridge Barrow 07.jpg|left|thumb|Backdoor to the imbuing chamber]]The exterior of the main entrance is fairly devoid of features. There is a single [[Skyrim:Snowberries|snowberry]] bush and an open ice field in front of the barrow. To the south is a stream flowing south from under White Ridge Barrow. Farther to the south is an unmarked shack, with two glowing blue eggs outside containing [[Skyrim:Jumping Frost Spider (item)|jumping frost spiders]] and an [[Skyrim:Albino Spider|albino spider]]. Behind and to the west of the shack are two [[Skyrim:Sapphire Geode|sapphire geodes]]. Inside the shack is an [[Skyrim:Albino Spider Pod|albino spider egg]] and a trap door leading directly to the imbuing chamber; however, the door is locked ([[Skyrim:Merilar's Cage Door Key|key]] required). The key can be collected from the interior of White Ridge Barrow, making access to the imbuing chamber far easier on return trips. In front of the iron door into the barrow, there is blood splatter on the ground. The barrow is due west of [[Skyrim:Hrothmund's Barrow|Hrothmund's Barrow]] and east of the [[Skyrim:Stalhrim Source|Stalhrim Source]].
+{{NewLeft}}
+
+===White Ridge Barrow===
+[[File:SR-interior-White Ridge Barrow.jpg|thumb|right|First room]]You'll enter into a small room with two dead [[Skyrim:Reaver|reavers]], one of them slouched against a barred wooden door straight ahead. There are two bed rolls on the right, and a chest in the northwest corner. Remaining items in the room are a few bottles of [[Skyrim:Ale|ale]], an [[Skyrim:Iron Sword|iron sword]], and some food and eating implements on a long table. A smaller table to the left holds two pieces of [[Skyrim:Firewood|firewood]] and an [[Skyrim:Iron Dagger|iron dagger]], with a [[Skyrim:Woodcutter's Axe|woodcutter's axe]] to the left next to a pile of firewood.
+
+Lift the bar and open the door to find a dead reaver on the other side, and proceed down the stairs ahead. You'll pass another two reavers and two albino spiders, all dead. Take care of two further living spiders, loot the egg on the left side of the passage, and proceed to a fork ahead. Both directions lead to a door on the opposite side; however, taking the right fork, there is another spider egg on your right, and an [[Skyrim:Imp Stool|imp stool]] growing by the outer wall. Through a door to the left at the back of the circular passage, you'll find skeletal remains at the top of a wooden spiral staircase, along with an iron dagger, a small [[Skyrim:Coin Purse|coin purse]], and three loose [[Skyrim:Gold|coins]]. Continue down the staircase past more and more spiderwebs. At the bottom, there is a corridor heading east, with two dead albino spiders and an albino spider egg on the left-hand side. You'll pass another dead reaver with a [[Skyrim:Potion of Healing|potion of healing]] beside him on the floor just before entering a large web-filled room containing a [[Skyrim:Flame Cloaked Spider (creature)|flame cloaked spider]] and more albino spiders. To the left side of the room are two [[Skyrim:Ruby Geode|ruby geodes]] with a [[Skyrim:Pickaxe|pickaxe]] in front of them, and two glowing red egg sacs that will release flame cloaked spiders to the right of the geodes. On the right side near the southwest corner is an empty [[Skyrim:Lesser Soul Gem|lesser soul gem]], and to the southeast is another red glowing egg sac containing a flame cloaked spider. There are two albino spider eggs by two pillars. In the center of the room is a platform containing two [[Skyrim:Burial Urn|burial urns]]. Another large [[Skyrim:Urn|urn]] sits behind the stone benches to the right of the platform. To the left behind the benches is another albino spider, and among some bones are copies of ''[[Skyrim:Amongst the Draugr|Amongst the Draugr]]'' and ''[[Skyrim:Harvesting Frostbite Spider Venom|Harvesting Frostbite Spider Venom]]''.
+
+[[File:SR-interior-White Ridge Barrow 03.jpg|thumb|left|Ancient equipment]]You'll find a pull chain ahead which lowers a drawbridge in front of you when activated. The bridge itself isn't helpful quite yet, as another drawbridge is still raised in a room across from you, but you can use the [[Skyrim:Whirlwind Sprint|Whirlwind Sprint]] [[Skyrim:Shout|shout]] to make it to the far side; aim for the right of the raised bridge, as this is where the gap is. You can also reach the far side with careful jumping by landing on the support log between the two halves of the bridge, then jumping from there to the right side with the gap. Whichever method you employ, use the pull chain on the far platform, which features an empty [[Skyrim:Greater Soul Gem|greater soul gem]] in an unlit brazier to the north and a chest next to the chain, to lower the other half of the bridge. Head back across the bridge and descend either staircase to the room's lower level. Kill the reaver patrolling here. There is a [[Skyrim:Bleeding Crown|bleeding crown]] fungus growing against the southeast wall, and two albino spider eggs against the same wall farther to the south. In the southern corner is a table in shallow water holding an [[Skyrim:Ancient Nord Helmet|ancient Nord helmet]] and a [[Skyrim:Honed Ancient Nord Greatsword of Cold|honed ancient Nord greatsword of Cold]], with a pair of [[Skyrim:Ancient Nord Boots|ancient Nord boots]] beside it. Beware the flame cloaked spider which may burst from its egg sac if you come too close.
+ 
+Another staircase at the north side of the room leads up to a new area. Loot the large urn to the right before arriving at what appears to be a dead end. Destroy some thick spiderwebs ahead of you to reveal an iron door, behind which is another room containing two albino spiders and their eggs. There are some [[Skyrim:Glowing Mushrooms|glowing mushrooms]] on the walls, and the bodies of three skeletons and two draugr nearby. When you come close enough to the back of the chamber, a leveled [[Skyrim:Draugr|draugr]] will awaken from its sarcophagus. After defeating it, loot the two unlocked chests, one on each side of the room. You can go no further here, so head back to the large chamber to the south toward the table in shallow water and continue around the corner to the west.
+
+To the west is a reaver, a [[Skyrim:Jumping Flame Spider (creature)|jumping flame spider]], and two red glowing spider eggs that will burst when you approach to release two more jumping flame spiders. The eggs are on a raised area with two open sarcophagi, one in each corner, with the two dead draugr lying on the ground nearby. Head down the corridor ahead and turn left, watching out for a flame cloaked spider which hides in its egg in the tiny room on the right. Kill an albino spider in the corridor on the left and harvest the [[Skyrim:Damaged Albino Spider Pod|damaged albino spider pod]] from the egg on the left. Continue onward, turning left again at the end of the hallway. Mine the two ruby geodes and two [[Skyrim:Heart Stone|heart stone]] deposits, and continue forward to kill another flame cloaked spider before reaching the entrance to the next zone.
+
+===White Ridge Sanctum===
+[[File:SR-interior-White Ridge Barrow 04.jpg|thumb|left|Merilar Rendas]]Proceed down the first hallway. Ahead is a pile of rubble with an unlit brazier on top, inside which is a pickaxe and two pieces of [[Skyrim:Iron Ore|iron ore]]. On your right just before the brazier are two draugr corpses lying in front of a barred wooden door. Prepare yourself for an onslaught in the following huge chamber, where several enemies await: two reavers, two flame cloaked spiders, and [[Skyrim:Merilar Rendas|Merilar Rendas]], a [[Skyrim:Dark Elf|Dunmer]] sorcerer who carries six flame cloaked spiders and six jumping flame spiders in her inventory. [[Skyrim:Merilar's Journal|Her journal]] contains information about the spiders and some clues as to what you may find ahead. Take the [[Skyrim:Merilar's Cage Door Key|key]] from her body and continue on.
+
+[[File:SR-interior-White Ridge Barrow 05.jpg|thumb|right|Albino spiders]]In the northeast corner of the chamber, you'll find an imp stool growth beneath a wooden ramp leading up to a room containing the most notable feature in White Ridge Sanctum: the [[#Imbuing Chamber|imbuing chamber]]. There are seven albino spiders in the room at the top of the ramp, as well as four red glowing eggs that spawn jumping flame spiders. At the top of the ramp, on your left is a dead reaver and two ruby geodes. To the right is another dead reaver, and farther to the right, slightly behind you, is one of the red glowing eggs. Two more glowing eggs are to the east under a wooden bridge. The albino spiders are wandering all over the room and will investigate any fighting. The fourth glowing egg is on the wooden structure, to your right as you enter, by the beginning of the wooden bridge. A third ruby geode rests beneath the supports of the bridge in the room's eastern corner, and a third dead reaver rests near an adept-locked cage door to the north. Behind the door is a mass of spider webs, blocking the path.
+
+Use the key you took from Merilar to open the door, and hack or burn through the thick webbing beyond. The corridor turns to the east, with a barred wooden door on your left. First proceed to the end of the hallway and turn left to find a chest. You may hear a reaver yelling for help, so prepare yourself. Through the barred door await four [[Skyrim:Bandit|bandits]] and two albino spiders in a small room. Dispatch them (runes cast near the base of the door, without unbarring it, can be a safe and effective technique), loot the three albino spider eggs, then backtrack to the other side of the cage door you came through.
+
+[[File:SR-interior-White Ridge Barrow 06.jpg|thumb|left|The bedroom]]Walk under the supports for the bridge to the southeast side of the room to find what remains of a bedroom, now home to an albino spider and covered in spiderwebs. On the right side of the room, you'll find a bed next to a small table which holds a random book, a random health potion, three loose coins, an [[Skyrim:Emerald|emerald]], an [[Skyrim:Apothecary's Satchel|apothecary's satchel]], and another copy of the key carried by Merilar. A medium coin purse is on the floor. The bookcase near the foot of the bed holds nine random books, a [[Skyrim:Troll Skull|troll skull]], and another random health potion. On the left side of the room, there is another bed and two bookcases. The southern bookcase holds eleven random books, a [[Skyrim:Sapphire (item)|sapphire]], a leveled extra magicka potion, a bottle of [[Skyrim:Wine|wine]], a bottle of [[Skyrim:Alto Wine|alto wine]], and three sacks. The northern bookcase holds nine random books, a [[Skyrim:Ruby|ruby]], two [[Skyrim:Petty Soul Gem|petty soul gems]] (one empty, one filled), and a small sack. There is a leveled extra magicka potion on the floor to the left of this bookcase, and a large coin purse to the right. There are also two albino spider eggs between the two bookcases.
+
+Back in the main cave, at the top of the ramp is an expert-locked cage which can be unlocked with the same key. Inside the cage, you'll find the body of [[Skyrim:Servos Rendas|Servos Rendas]]. [[Skyrim:Servos' Journal|His journal]] indicates that the four bandits were locked in the room with the spiders as part of experiments he and his sister, Merilar, had been conducting with the spiders. On the table behind him are two damaged albino spider pods, three standard albino spider pods, and two [[Skyrim:Salt Pile|salt piles]], while the [[Skyrim:Knapsack|knapsack]] below contains eight more albino spider pods. The table to the left holds a pickaxe, three rubies, and a copy of Servos' [[Skyrim:Spider Experiment Notes|spider experiment notes]], next to the imbuing chamber itself. For more information on using the device, see [[#Imbuing Chamber|this section]].
+
+Leave the cage and cross the bridge ahead. On the other side, on your left are three sacks and a crate with two random [[Skyrim:Healing|healing]] [[Skyrim:Potions|potions]] and a [[Skyrim:Leather Strips|leather strip]] on top, followed by a ladder leading up to a trap door. The trap door exits to Solstheim, placing you in the shack directly south of the main entrance, and requires Merilar's key. Proceed through the tunnel past the ladder to the northeast, where you'll find evidence of previous mining activity. Past a growth of [[Skyrim:Fly Amanita|fly amanita]] on the left, to the right is a knapsack and an open crate containing two [[Skyrim:Iron Ore|iron ores]], one [[Skyrim:Silver Ore|silver ore]], and a leather strip. A ruby geode is to the left of the crate, with another farther along on your left.
+
+Backtrack to the main chamber of White Ridge Sanctum, cross the wooden bridge spanning the chasm with a stream flowing through it, turn to the west, and proceed through the corridor on the west side. On your left, just as you enter the corridor, is a red glowing egg, and on your right are two random soul gems in an iron bowl on the ground. There are also two albino spiders and a glowing red egg containing a flame cloaked spider hidden behind a pillar at the bottom of the first flight of stairs. The corridor turns to the east and descends again into a flooded area, with a chest in the flooded circular room visible from above through a grating in the floor of the main chamber. The path continues to the north to the bottom of the chasm, where four ruby geodes are scattered about. Return to the main chamber once again, taking the stone stairs leading up to the south on your right. At the top of the first flight is a glowing red egg opposite to the east containing a jumping flame spider. Turn to the south and climb another flight of stairs to find some blood splatters, a lamp, and a pickaxe in front of some spider webbing blocking the path. Past the webbing is an empty chamber, with an unlocked iron door surrounded by candles. 
+
+[[File:SR-interior-White Ridge Barrow 02.jpg|thumb|left|Dukaan in front of the word wall]]Through the door is a room containing a [[Skyrim:Word Wall|word wall]] for part of the [[Skyrim:Cyclone|Cyclone]] shout. As you approach the wall, the [[Skyrim:Dragon Priest|dragon priest]] [[Skyrim:Dukaan (creature)|Dukaan]] will burst from his nearby sarcophagus and attack. Defeat him, loot the chest in front of his sarcophagus, and learn the new word. On the other side of the room, below the stairs by which you entered, is the ''[[Skyrim:Black Book: The Sallow Regent (book)|Black Book: The Sallow Regent]]''. Reading it will begin the similarly named [[Skyrim:Black Book: The Sallow Regent (quest)|quest]], in which you are transported to [[Skyrim:Apocrypha|Apocrypha]]. Remember the trap door exit that is across the wooden bridge from the cage for a shortcut to exit. 
+{{NewLeft}}
+
+=== Imbuing Chamber ===
+[[File:SR-activity-Imbuing Chamber.jpg|thumb|right|The Imbuing Chamber]]
+The Imbuing Chamber device allows you to create [[Skyrim:Spider Scrolls|spider scrolls]]. These can be equipped in each hand, and are thrown rather than cast. Some [[Skyrim:Spider Experiment Notes|notes]] next to the device describe a few recipes, but more can be discovered by experimenting based on the instructions.
+
+To operate, place ingredients in the receptacle, then activate the switch on the front of the device. Recipes for spider creation follow an easy pattern, with albino spider pods and damaged albino spider pods being the core components. The following lists describe additional usable materials and their effects.
+
+'''Pods'''
+* Albino Spider Pods — May be combined with a [[Skyrim:Gems|gem]] and (optionally) a salt pile. Regular gems may be replaced with any soul gem or [[Skyrim:Dwarven Oil|Dwarven oil]], but salt piles are useless in this combination.
+** '''Gem only''' — Jumping spider. Jumps at nearest enemy and explodes, dealing elemental damage.
+** '''Gem and Salt Pile''' — Element-cloaked spider. Follows the player and continuously deals elemental damage to enemies near it.
+** '''Soul Gem''' — Mind control spider. Attaches to creatures and people, who will then become friendly and fight for you for 30 seconds.
+** '''Dwarven Oil''' — [[Skyrim:Oil Spider (item)|Oil spider]].
+* Damaged Albino Spider Pods — May only be combined with a gem.
+** '''Gem only''' — Creates a dead spider that explodes when enemies approach it, dealing elemental damage.
+
+'''Gems'''<br>
+Gems determine the elemental damage of the spiders. Diamonds and garnets have no known use.
+* [[Skyrim:Amethyst|Amethyst]] — [[Skyrim:Shock Cloaked Spider (item)|Shock cloaked]]
+* [[Skyrim:Emerald|Emerald]] — [[Skyrim:Poison Cloaked Spider|Poison cloaked]]
+* Ruby — Flame cloaked
+* Sapphire — Frost cloaked
+
+'''Notes:'''
+* Imbuing a pod with a standard gem yields three spiders. Flawless gems yield six spiders.
+* Imbued spiders will appear under "scrolls" in your inventory.
+* There are numerous recipes for creating spiders:
+:{|class="wikitable collapsible"
+!Recipes
+|-
+|
+*[[Skyrim:Recipe - Exploding Flame Spider|Recipe - Exploding Flame Spider]]
+*[[Skyrim:Recipe - Exploding Flame Spider 2x|Recipe - Exploding Flame Spider 2x]]
+*[[Skyrim:Recipe - Exploding Frost Spider|Recipe - Exploding Frost Spider]]
+*[[Skyrim:Recipe - Exploding Frost Spider 2x|Recipe - Exploding Frost Spider 2x]]
+*[[Skyrim:Recipe - Exploding Poison Spider|Recipe - Exploding Poison Spider]]
+*[[Skyrim:Recipe - Exploding Poison Spider 2x|Recipe - Exploding Poison Spider 2x]]
+*[[Skyrim:Recipe - Exploding Shock Spider|Recipe - Exploding Shock Spider]]
+*[[Skyrim:Recipe - Exploding Shock Spider 2x|Recipe - Exploding Shock Spider 2x]]
+*[[Skyrim:Recipe - Flame Cloaked Spider|Recipe - Flame Cloaked Spider]]
+*[[Skyrim:Recipe - Flame Cloaked Spider 2x|Recipe - Flame Cloaked Spider 2x]]
+*[[Skyrim:Recipe - Frost Cloaked Spider|Recipe - Frost Cloaked Spider]]
+*[[Skyrim:Recipe - Frost Cloaked Spider 2x|Recipe - Frost Cloaked Spider 2x]]
+*[[Skyrim:Recipe - Glowing Spider|Recipe - Glowing Spider]] (Not found in-game)
+*[[Skyrim:Recipe - Jumping Flame Spider|Recipe - Jumping Flame Spider]]
+*[[Skyrim:Recipe - Jumping Flame Spider 2x|Recipe - Jumping Flame Spider 2x]]
+*[[Skyrim:Recipe - Jumping Frost Spider|Recipe - Jumping Frost Spider]]
+*[[Skyrim:Recipe - Jumping Frost Spider 2x|Recipe - Jumping Frost Spider 2x]]
+*[[Skyrim:Recipe - Jumping Poison Spider|Recipe - Jumping Poison Spider]]
+*[[Skyrim:Recipe - Jumping Poison Spider 2x|Recipe - Jumping Poison Spider 2x]]
+*[[Skyrim:Recipe - Jumping Shock Spider|Recipe - Jumping Shock Spider]]
+*[[Skyrim:Recipe - Jumping Shock Spider 2x|Recipe - Jumping Shock Spider 2x]]
+*[[Skyrim:Recipe - Mind Control Spider|Recipe - Mind Control Spider]]
+*[[Skyrim:Recipe - Oil Spider|Recipe - Oil Spider]]
+*[[Skyrim:Recipe - Pack Spider|Recipe - Pack Spider]] (Not found in-game)
+*[[Skyrim:Recipe - Poison Cloaked Spider|Recipe - Poison Cloaked Spider]]
+*[[Skyrim:Recipe - Poison Cloaked Spider 2x|Recipe - Poison Cloaked Spider 2x]]
+*[[Skyrim:Recipe - Shock Cloaked Spider|Recipe - Shock Cloaked Spider]]
+*[[Skyrim:Recipe - Shock Cloaked Spider 2x|Recipe - Shock Cloaked Spider 2x]]
+|}
+
+==Notes==
+*This location is mentioned in [[ON:Online|ESO]] during the quest [[ON:A Web of Troubles|A Web of Troubles]], which explains the origins of the magical spiders.
+
+==Bugs==
+{{Bug|When activating the bars on wooden doors, they may not lift, preventing you from proceeding to the next area.|confirmed=1}}
+**Waiting for 48 hours or reloading from the previous zone or cell should resolve this.
+{{Bug|The word wall may appear as though it's already been used, and the animation won't play. Nevertheless, if you stand close to it, you'll obtain the word as expected.|confirmed=1}}
+{{Bug|White Ridge Barrow was assigned the LocTypeAnimalDen keyword instead of the LocTypeDraugrCrypt keyword. This could potentially result in it being chosen as a radiant location for [[Skyrim:Animal Extermination (B)|Animal Extermination]].|USLEEP|3.0.9}}

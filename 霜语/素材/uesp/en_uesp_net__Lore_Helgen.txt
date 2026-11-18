@@ -1,0 +1,39 @@
+<noinclude>{{Lore Places Trail}}
+{{Lore Place Summary
+|continent=Tamriel
+|province=Skyrim
+|region=Falkreath Hold
+|settlement=Helgen
+|image=SR-place-Helgen.jpg
+|imgdesc=Helgen, {{Year|4E 201}}
+|appears=[[Skyrim:Helgen|Skyrim]]
+}}{{TOCright}}</noinclude>
+[[Lore:Helgen|Helgen]], referred to as the "Gateway to the North" due to the many travelers who visited while coming from [[Lore:Cyrodiil|Cyrodiil]] to the south,{{Ref|name=EGtS|{{Cite Book|An Explorer's Guide to Skyrim}}}} was a fortified hamlet located east-northeast of the city of [[Lore:Falkreath|Falkreath]], south of [[Lore:Riverwood|Riverwood]], and north of [[Lore:Pale Pass|Pale Pass]].{{Ref|name=TESVSPOGG|{{Cite Book|The Elder Scrolls V: Skyrim: Prima Official Game Guide|ns_base=Books}}}}{{rp|118}} 
+
+The rather small "backwater hovel" was guarded by a wooden wall and the slopes of the mountains it was nestled in,{{Ref|name=EGtS}} and surrounded a large fort known as Helgen Keep. The Keep held a barracks for Imperial troops, a torture room, and led into a series of caves that traveled north into the wilderness.{{Ref|name=Helgen}}{{Ref|name=HK|[[Skyrim:Helgen Keep|Helgen Keep]] in ''[[Skyrim:Skyrim|Skyrim]]''}}<noinclude>
+{{NewLeft}}
+==History==
+The [[Lore:Mede Dynasty|Mede]] [[Lore:Third Empire|Empire]] maintained a strong military presence throughout [[Lore:Falkreath Hold|Falkreath Hold]], particularly in Helgen, as far back as {{Year|4E 180}}.{{Ref|name=Blades|[[Blades:Falkreath Banner|Falkreath Banner Decoration]] in ''[[BL:Blades|Blades]]''}} 
+
+On the 17th of Last Seed, {{Year|4E 201}}, an Imperial convoy carrying [[Lore:Ulfric Stormcloak|Ulfric Stormcloak]], several of [[Lore:Stormcloaks|his soldiers]], a horse thief, and the [[Lore:Last Dragonborn|Last Dragonborn]] arrived at Helgen for an execution, only to be interrupted by the surprise [[Lore:Return of the Dragons|return]] of, and attack on the village by, [[Lore:Alduin|Alduin]]. Ulfric, Tullius, and {{Lore Link|Elenwen}} all managed to escape alive, but every citizen of Helgen died during the attack, leaving only a young boy named Haming as the sole known survivor of the village.{{Ref|name=Unbound|[[Skyrim:Unbound|Unbound]] quest in ''[[Skyrim:Skyrim|Skyrim]]''}}{{Ref|name=HamingandFroki|[[Skyrim:Haming|Haming]] and [[Skyrim:Froki Whetted-Blade|Froki Whetted-Blade]]'s dialogue in ''[[Skyrim:Skyrim|Skyrim]]''}} Helgen was left in a state of ruin, which bandits later took residence of.{{Ref|name=Helgen|[[Skyrim:Helgen|Helgen]] in ''[[Skyrim:Skyrim|Skyrim]]''}} Though Vilod perished in the attack, his mead made using the native juniper berry and red mountain flowers lived on in Helgen and beyond, truly embodying the spirit of Skyrim.{{Ref|name=TESOCBT|{{Cite Book|The Elder Scrolls: The Official Cookbook|ns_base=Books}} - [[Books:The Elder Scrolls: The Official Cookbook/Recipe List#Drinks|Recipe List, Juniper Berry Mead]]}}<noinclude>
+{{NewLeft}}
+
+== Gallery==
+<gallery>
+File:SR-place-Helgen_02.jpg|Helgen, before its ruination
+File:MER-art-Skyrim Anthology Map.jpg|A map of Skyrim, showing Helgen's location
+File:LG-cardart-Helgen_Squad_Leader.png|Helgen Squad Leader ([[LG:Helgen Squad Leader|Legends]])
+File:LG-cardart-Alduin Alt.png|Alduin destroying Helgen (Legends)
+</gallery>
+
+==Notes==
+* A location known as [[Lore:North Keep|North Keep]] appeared in ''[[Arena:North Keep|Arena]]'' west of the location of Helgen (on a different road), sharing a similar name to the town's aliases of the "Gateway to the North" and "Helgen Keep". The town of [[Lore:Oakwood|Oakwood]] in Arena was also found closer to Helgen's location, on the same road between [[Lore:Fort Neugrad|Fort Neugrad]] and [[Lore:Riverwood|Riverwood]]. It is unclear that either of them are intended to be the same town as Helgen.{{Ref|name=Arena|[[Arena:North Keep|North Keep]] and [[Arena:Oakwood|Oakwood]] in ''[[Arena:Arena|Arena]]''}} According to the unofficial text, [[General:Skyrim In the New Era|Skyrim In the New Era]], Helgen has gone by several names, and has been inhabited by refugees from Oakwood and Neugrad after those settlements were destroyed.{{Ref|name=SINE|group=UOL|{{Cite Book|Skyrim In the New Era|ns_base=General}}}}
+
+==See Also==
+*{{GSI|Skyrim:Helgen}}
+
+==References==
+<references/>
+{{UOL}}
+<references group=UOL/>
+</noinclude>

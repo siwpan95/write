@@ -1,0 +1,199 @@
+<noinclude>{{Trail|Magic}}[[Category:Lore-All Terms]]__NOTOC__{{About|redirect=Tongue||language|Linguistics}}</noinclude>[[File:LG-cardart-Unrelenting Force.png|left|thumb|The Last Dragonborn using the thu'um, as seen in ''[[LG:Legends|Legends]]'']]
+The [[Lore:Thu'um|Thu'um]], also referred to as the '''Masculine Breath''',{{ref|name=PGE1I|{{Cite Book|PGE|1|Invocation}}}} '''Storm Voice''',{{Ref|name=VOF|{{Cite Book|Varieties of Faith...}}}} or simply the '''Voice''', is a form of [[Lore:Magic|magic]] most commonly practiced by [[Lore:Nord|Nords]] that uses the [[Lore:Dragon Language|language of the dragons]] to produce mystical shouts comparable to powerful [[Lore:Spells|spells]]. The word actually means "shout" in the [[Lore:Dragon|dragon]] tongue. It is said dragons make no distinction between debating and fighting, and so their words have always been magical and powerful, for those who take the time to learn and understand their meaning.{{Ref|name=SRPaarthurnax|[[Skyrim:Paarthurnax (dragon)|Paarthurnax]]'s dialogue in ''[[Skyrim:Skyrim|Skyrim]]''}} The Nords believe that [[Lore:Kyne|Kyne]], the Goddess of the Storm and chief deity of their pantheon,{{ref|name=DATN|{{Cite Book|Divines and the Nords}}}}{{ref|name=VOFTN|{{Cite Book|Varieties of Faith: The Nords}}}} breathed onto the land at the [[Lore:Throat of the World|Throat of the World]] to form them.{{Ref|name=PGE1S|{{Cite Book|PGE|1|Skyrim}}}} According to Nordic belief, the thu'um channels the vital essence embodied in breath and voice. Those who can wield this power are called Tongues by the Nords. Most, if not all, people have some capacity for the thu'um, but it takes a particular talent and many, many years of study and training to become a Tongue. The thu'um can be used for a wide variety of purposes, anything from sharpening blades to quickly traveling across the land, even controlling animals or killing enemies. Some stories suggest that the ancient Tongues even had the power to "sing [[Lore:Shor|Shor]]'s ghost into the world".{{Ref|name=PGE1S}}{{Ref|name=FSOKW|{{Cite Book|Five Songs of King Wulfharth}}}} The most powerful Tongues must be careful when they speak and are often gagged for safety, as their voice can cause great destruction.{{Ref|name=PGE1S}} [[Lore:Word Walls|Word Walls]] resonate with the energies of the thu'um.{{Ref|name=Arngeir|[[Skyrim:Arngeir|Arngeir]]'s dialogue in ''[[Skyrim:Skyrim|Skyrim]]''}}<noinclude>
+{{NewLeft}}
+
+==Origins==
+[[File:LG-cardart-Paarthurnax.png|right|thumb|Paarthurnax, who taught the thu'um to the Nords]]
+The thu'um can be traced to ancient [[Lore:Atmora|Atmora]]{{ref|name=MOTLAHSF|group=UOL|{{Cite Book|ns_base=General|Minutes of the Lusty Argonian Historical Society, Evening Star, 3E 432}}}} with the first known human users of the thu'um being the [[Lore:Dragon Priest|priests]] of the [[Lore:Dragon Cult|Dragon Cult]],{{Ref|name=TGATD|{{Cite Book|The Guardian and the Traitor}}}} who were likely granted this ability from the bond they had with their respective Dragon lord.{{Ref|name=ZaanDialogue|[[Online:Zaan the Scalecaller|Zaan the Scalecaller]]'s dialogue in [[Online:Online|ESO]]: ''[[Online:Dragon Bones|Dragon Bones]]''}}{{Ref|name=THOZTS|{{Cite Book|The History of Zaan the Scalecaller}}}}
+
+In the late [[Lore:Merethic Era|Merethic Era]], the dragon [[Lore:Paarthurnax|Paarthurnax]] taught the thu'um to the humans who would rebel against the Dragon Cult and their dragon overlords, who were worshiped as gods.{{Ref|name=SRPaarthurnax}} These early Nords would become known as the Tongues, and began using their newfound Shouting abilities to slay the dragons.{{Ref|name=TDW|{{Cite Book|The Dragon War}}}} The three chiefs of the Tongues, [[Lore:Gormlaith Golden-Hilt|Gormlaith Golden-Hilt]], [[Lore:Hakon One-Eye|Hakon One-Eye]], and [[Lore:Felldir the Old|Felldir the Old]], devised the Dragonrend shout to force dragons to experience mortality. They used it to cripple [[Lore:Alduin|Alduin]], but ultimately had to banish him through time using an [[Lore:Elder Scrolls|Elder Scroll]].{{Ref|name=SRPaarthurnax}}{{Ref|name=Skyrim|Events of [[Skyrim:Alduin's Bane|Alduin's Bane]] in ''[[Skyrim:Skyrim|Skyrim]]''}} Most contemporary Nords believe the thu'um was taught directly to mortals by the daughters of Kyne, while the truth and existence of Paarthurnax are kept secret.{{Ref|name=VOF}}
+
+Before and during the [[Lore:Skyrim Conquests|Skyrim Conquests]] around {{Year|1E 240}}, the greatest Nordic war chiefs were also Tongues, including ([[Lore:Derek the Tall|Derek the Tall]], [[Lore:Jorg Helmbolg|Jorg Helmbolg]], [[Lore:Hoag Merkiller|Hoag Merkiller]]).{{Ref|name=PGE1S}} They needed no conventional siege weapons when attacking a city, instead using the Voice to shout down the gates and allow their armies to storm in.{{Ref|name=COTS|{{Cite Book|Children of the Sky}}}} During the first [[Lore:Akavir|Akavir]]i invasion in {{Year|1E 2703}}, the invaders faced [[Lore:Reman I|Reman I]] in a climactic battle at [[Lore:Pale Pass|Pale Pass]]. When they heard Reman's voice, they realized he was who they were searching for, and swore fealty to him.{{ref|name=TRAFOTB|{{Cite Book|The Rise and Fall of the Blades}}}}
+
+==Decline==
+In the early [[Lore:First Era|First Era]], [[Lore:Skyrim|Skyrim]]'s military suffered an ignominious defeat against [[Lore:Morrowind|Morrowind]] at the [[Lore:Battle of Red Mountain|Battle of Red Mountain]]. Present at the battle was [[Lore:Jurgen Windcaller|Jurgen Windcaller]], an extremely powerful Tongue. He was disturbed by the inability of the thu'um to secure victory, and meditated for seven years on "how Strong Voices could fail".{{ref|name=Hrothgar|The [[Skyrim:High Hrothgar#Etched Tablets|Etched Tablets]] of High Hrothgar in ''[[Skyrim:Skyrim|Skyrim]]''}} His eventual conclusions formed the basis of the philosophy of the [[Lore:Way of the Voice|Way of the Voice]], stating that the thu'um should only be used in times of true need, not as a routine tool of conquest. Since then, the most powerful Tongues have typically become [[Lore:Greybeards|Greybeards]], a group of monks who live at [[Lore:High Hrothgar|High Hrothgar]], a settlement near the summit of the Throat of the World, where they silently study, meditate, and train until a time of true need arises. They speak only on the rarest of occasions, such as to announce the destiny of the great [[Lore:Tiber Septim|Tiber Septim]], who united [[Lore:Tamriel|Tamriel]] into the [[Lore:Third Empire|Third Empire]] and later became [[Lore:Talos|Talos]], the Ninth Divine.{{Ref|name=PGE1S}} In {{Year|4E 201}}, the Greybeards spoke again to call the [[Lore:Hero|Dovahkiin]] to High Hrothgar for instruction on how to use the thu'um.{{ref|name=DragRis|Events of [[SR:Dragon Rising|Dragon Rising]] in ''[[SR:Skyrim|Skyrim]]''}}{{ref|name=WotV|Events of [[SR:The Way of the Voice|The Way of the Voice]] in ''[[SR:Skyrim|Skyrim]]''}}
+
+==Known Shouts==
+[[File:ON-creature-Maarselok Unrelenting Force.jpg|thumb|right|A Dragon using Unrelenting Force]]
+*'''Animal Allegiance''' - Raan Mir Tah, meaning Animal Allegiance Pack, is a shout that can call for the beasts of the wilderness to aid the Tongue in combat.{{ref|name=SS|[[Skyrim:Dragon Shouts|Dragon Shouts]] in ''[[SR:Skyrim|Skyrim]]''}}
+*'''Aura Whisper''' - Laas Yah Nir, meaning Life Seek Hunt, is a shout that reveals the life force of any and all beings nearby.{{ref|name=SS}}
+*'''Battle Fury''' - Mid Vur Shaan, meaning Loyal Valor Inspire, is a shout that allows the allies of the Tongue to fight faster and with more fury.{{ref|name=SDB|[[Skyrim:Dragon Shouts|Dragon Shouts]] in ''[[Skyrim:Skyrim|Skyrim]]: [[Skyrim:Dragonborn|Dragonborn]]''}}
+*'''Become Ethereal''' - Feim Zii Gron, meaning Fade Spirit Bind, is a shout that turns the Tongue into an intangible ghost-like form, unable to be harmed.{{ref|name=SS}}
+*'''Bend Will''' - Gol Hah Dov, meaning Earth Mind Dragon, allows the Tongue to bend and control the will of others, even dragons.{{ref|name=SDB}}
+*'''Blade Sharpening''' - It is said that shouts can be used to sharpen blades.{{Ref|name=COTS}}
+*'''Blizzard''' - Some dragons in the [[Lore:Second Era|Second Era]] used a shout that formed a blizzard around them, similar to the [[Lore:Destruction|Destruction]] spell of the same name.{{ref|name=ODS|[[Online:Dragon|Dragon]] abilities in [[ESO:Online|ESO]]}}
+*'''Bravery''' - It is said that a strong Nord can instill bravery in men with his battle-cry.{{Ref|name=COTS}}
+*'''Call Dragon''' - The name of a dragon is a shout, and calling them will summon them. The dragon is not compelled to answer the call.{{ref|name=SS}}
+*'''Call of Valor''' - Hun Kaal Zoor, meaning Hero Champion Legend, is a shout that can summon the ghost of a hero from [[Lore:Sovngarde|Sovngarde]] to aid the Tongue in battle.{{ref|name=SS}}
+*'''Call Person''' - It is said that the greatest of the Nords can call to specific people over hundreds of miles.{{Ref|name=COTS}}
+*'''Clear Skies''' - Lok Vah Koor, meaning Sky Spring Summer, is a shout that can dispel storms and clouds, and even magical mists.{{ref|name=SS}}
+*'''Command''' - It is said that the power of command is a common effect of shouting.{{Ref|name=COTS}}
+*'''Cyclone''' - Ven Gaar Nos, meaning Wind Unleash Strike, is a shout that can summon a whirling tornado.{{ref|name=SDB}}
+*'''Disarm''' - Zun Haal Viik, meaning Weapon Hand Defeat, is a shout that rips a weapon out of an opponent's hands.{{ref|name=SS}}
+*'''Dismay''' - Faas Ru Maar, meaning Fear Run Terror, is a shout that forces enemies to flee in terror from the Tongue.{{Ref|name=COTS}}{{ref|name=SS}}
+*'''Dragon Aspect''' - Mul Qah Diiv, meaning Strength Armor Wyrm, is a shout that gives the Tongue the strength to deliver colossal blows, magical armor to withstand powerful attacks, and an empowered thu'um. This shout can also summon an ancient [[Lore:Dragonborn|Dragonborn]] to aid the Tongue in battle.{{ref|name=SDB}}
+*'''Dragonrend''' - Joor Zah Frul, meaning Mortal Finite Temporary, is a shout that inflicts the concept of mortality upon a dragon, lashing at its very soul and forcing it to land. This shout was created by the Nords to slay these otherwise immortal beasts.{{ref|name=SS}}
+*'''Dragon Storm Call''' / '''Meteor Storm''' - This is a shout commonly used by [[Lore:Alduin|Alduin the World-Eater]], though other dragons have been shown to know it. The shout turns the sky red and rains down flaming boulders from the sky in a [[Lore:Meteors|meteor]] storm.{{ref|name=SS}}{{ref|name=ODS}}
+*'''Drain Vitality''' - Gaan Lah Haas, meaning Stamina Magicka Health, is a shout that drains magical and mortal energies from enemies.{{ref|name=SDG|[[Skyrim:Dragon Shouts|Dragon Shouts]] in ''[[Skyrim:Skyrim|Skyrim]]: [[Skyrim:Dawnguard|Dawnguard]]''}}
+*'''Earth Spike''' - Some dragons in the Second Era used a shout that casts balls of fire to the ground, summoning molten stalagmites to emerge where they land. These spikes could then explode in fire and lava when an enemy walked nearby.{{ref|name=ODS}}
+*'''Elemental Fury''' - Su Grah Dun, meaning Air Battle Grace, is a shout that allows the Tongue to fight faster and with more fury.{{ref|name=SS}}
+*'''Event Denouement''' - Event Denouement is a shout used by [[Lore:Barfok|Barfok]], Maid of Planes, to guarantee her victory in any battle she fought.{{Ref|name=LOV9|{{Cite Book|36 Lessons of Vivec, Sermon 9}}}}
+*'''Fireball''' - Many dragons have used a shout that casts a fireball towards their enemy, similar to the Destruction spell of the same name.{{ref|name=SS}}{{ref|name=ODS}}
+*'''Fire Breath''' - Yol Toor Shul, meaning Fire Inferno Sun, allows the Tongue to exhale a torrent of flames.{{ref|name=SS}}{{ref|name=ODS}}
+*'''Form Change''' - This shout could be used by [[Lore:Bhag|Bhag]], the Two-Tongued, though it is unknown if this refers to an ability to shapeshift or his ability to speak in two layers.{{Ref|name=LOV9}}
+*'''Frostbolt''' - Some Second Era dragons used a shout that launched a ball of ice toward their enemies.{{ref|name=ODS}}
+*'''Frost Breath''' - Fo Krah Diin, meaning Frost Cold Freeze, is a shout that allows the Tongue to breathe freezing cold winds.{{ref|name=SS}}{{ref|name=ODS}}
+*'''Heart Roaring''' - This is a shout used by [[Lore:Chemua|Chemua]], the Running Hunger, to turn an opponent against their own allies.{{Ref|name=LOV9}}
+*'''Ice Fields''' - Some Second Era dragons used a shout that raised sharp icicles from the ground.{{ref|name=ODS}}
+*'''Ice Form''' - Iiz Slen Nus, meaning Ice Flesh Statue, is a shout that encases an opponent in ice, freezing them solid.{{ref|name=SS}}
+*'''Ice Storm''' - Some dragons in the [[Lore:Fourth Era|Fourth Era]] used a shout that casts a swirling storm of ice, similar to the Destruction spell of the same name.{{ref|name=SS}}
+*'''Kyne's Peace''' - Kaan Drem Ov, meaning Kyne Peace Trust, is a shout that calms nearby animals into docility, making them unwilling to fight or flee.{{ref|name=SS}}
+*'''Lightning Bolt''' - Some dragons in the Second Era used a shout that casts a lightning bolt towards their enemy, similar to the Destruction spell of the same name.{{ref|name=ODS}}
+*'''Lightning Breath''' - Some dragons in the Second Era could exhale arcs of lightning towards their enemies.{{ref|name=ODS}}
+*'''Marked for Death''' - Krii Lun Aus, meaning Kill Leech Suffer, is a shout that weakens the armor and drains the life of an opponent, spelling their doom.{{ref|name=SS}}
+*'''Nahl Daal Vus''' - This is a shout used by [[Lore:Tsun|Tsun]] to return the [[Lore:Last Dragonborn|Last Dragonborn]] to [[Lore:Nirn|Nirn]] after Alduin is defeated.{{ref|name=SS}}
+*'''Open''' - Bex, meaning "Open", can open doors.{{ref|name=SS}}
+*'''Phantom Form''' - Fiik Lo Sah, meaning Mirror Deceive Phantom, is a shout that can create ethereal forms of the Tongue.{{ref|name=SS}}
+*'''Raise Dead''' - Used by [[Lore:Hoag Merkiller|Hoaga, Mouth of Mud]], and some dragons, this shout can raise the dead to fight again.{{ref|name=ODS}}{{Ref|name=LOV9}}
+*'''Resurrection Shout''' - Slen Tiid Vo, meaning Flesh Time (Opposite of), is a shout used by Alduin to resurrect long-dead dragons.{{ref|name=SS}}
+*'''Shor's Song''' - The [[Lore:Greybeards|Greybeards]] were able to sing Shor's ghost into the world, allowing the dead god to lead the armies of the Nords in the [[Lore:Battle of Red Mountain|Battle of Red Mountain]].{{Ref|name=FSOKW}}
+*'''Sky Sickening''' - Chemua, the Running Hunger, could use this shout to "give clouds stomach aches", turning the rain into bile.{{Ref|name=LOV9}}
+*'''Slow Time''' - Tiid Klo Ul, meaning Time Sand Eternity, is a Shout that slows time around the Tongue.{{ref|name=SS}}{{ref|name=ODS}}
+*'''Soul Cairn Summon''' - Diil Qoth Zaam, meaning Undead Tomb Slave, is a shout that allows the Tongue to summon members of the [[Lore:Soul Guard|Soul Guard]] from the [[Lore:Soul Cairn|Soul Cairn]]. It was used by [[Lore:Durnehviir|Durnehviir]].{{ref|name=SDG}}
+*'''Soul-Snare Mist''' - Ven Mul Riik, meaning Wind Strong Gale, is a shout used by Alduin to ensnare the souls of Sovngarde in a mist. This is a shout that Alduin guards jealously.{{ref|name=SS}}
+*'''Soul Tear''' - Rii Vaaz Zol, meaning Essence Tear Zombie, is a shout that cuts through flesh and shatters soul, ripping the soul of an opponent out of them and raising them from the dead to fight for the Tongue.{{ref|name=ODS}}{{ref|name=SDG}}
+*'''Storm Call''' - Strun Bah Qo, meaning Storm Wrath Lightning, summons a storm and calls down lightning on the enemies of the Tongue.{{ref|name=SS}}{{ref|name=ODS}}
+*'''Strike Enemy''' - Shouts can be used to strike enemies.{{Ref|name=COTS}}
+*'''Summon Durnehviir''' - Similar to Call Dragon, except this shout allowed the Last Dragonborn to summon Durnehviir from the Soul Cairn.{{ref|name=SDG}}
+*'''Summon Fire Atronachs''' - Some dragons in the Second Era used a shout that could summon [[Lore:Flame Atronach|fire atronachs]].{{ref|name=ODS}}
+*'''Summon Flame Wyrms''' - Some dragons in the Second Era used a shout that could summon [[Lore:Flame Wyrm|flame wyrms]].{{ref|name=ODS}}
+*'''Summon Frost Atronachs''' - Some dragons in the Second Era used a shout that could summon [[Lore:Frost Atronach|frost atronachs]].{{ref|name=ODS}}
+*'''Summon Iron Atronachs''' - Some dragons in the Second Era used a shout that could summon [[Lore:Iron Atronach|iron atronachs]].{{ref|name=ODS}}
+*'''Summon Storm Atronachs''' - Some dragons in the Second Era used a shout that could summon [[Lore:Storm Atronach|storm atronachs]].{{ref|name=ODS}}
+*'''Surety''' - This shout could be used by Bhag, the Two-Tongued, though its effects are unknown.{{Ref|name=LOV9}}
+*'''Teleportation Shout''' - It is said that the greatest Nords can move by casting a shout, appearing where it lands.{{Ref|name=COTS}}{{intnote|nb1|[nb 1]}}
+*'''Throw Voice''' - Zul Mey Gut, meaning Voice Fool Far, is a shout that allows the sound of the thu'um to appear from unknown sources, confounding enemies.{{ref|name=SS}}
+*'''Unrelenting Force''' - Fus Ro Dah, meaning Force Balance Push, is a shout that pushes aside anything in the Tongue's path with an incredible wave of force.{{Ref|name=COTS}}{{ref|name=SS}}
+*'''What Happens When You Shake the Dragon Just So''' - This shout was used by [[Lore:Wulfharth|Ysmir Wulfharth]] to restore the [[Lore:Nord|Nords]] to their proper ages after "nearly every Nord was eaten down to six years old" by Alduin.{{Ref|name=FSOKW}}
+*'''Whirlwind Sprint''' - Wuld Nah Kest, meaning Whirlwind Fury Tempest, is a shout that allows the Tongue to rush forward with immense speed.{{ref|name=SS}}
+
+==Known Tongues==
+Tongues are individuals who have the ability to use the thu'um. They usually require a great deal of study and training to develop their power, but in some cases the power comes naturally to them.
+
+===Dragonborn===
+[[File:LG-cardart-Miraak, Dragonborn.png|right|thumb|Miraak, the first Dragonborn, as seen in ''[[LG:Legends|Legends]]'']]
+A [[Lore:Dragonborn|Dragonborn]] (or Dovahkiin in the dragon tongue) possesses the ability not only to absorb the [[Lore:Dragon Souls|souls of slain dragons]], but to thereby absorb knowledge of their language, thus learning in a short time what it would take other Tongues a lifetime of intense training and study to achieve.{{ref|name=WotV}}
+
+*[[Lore:Miraak|Miraak]]
+*[[Lore:Wulfharth|Ysmir Wulfharth]]
+*[[Lore:Reman Cyrodiil|Reman Cyrodiil]]
+*[[Lore:Tiber Septim|Tiber Septim]]
+*[[Lore:Potema|Potema]]
+*[[Lore:Last Dragonborn|Last Dragonborn]]
+
+===Ancient Nord Heroes===
+The Ancient Nord Heroes, described as "the first mortal masters of the voice", were among the first Nords who learned the power of the thu'um and were instrumental in Alduin's defeat during the [[Lore:Dragon War|Dragon War]].
+* [[Lore:Hakon One-Eye|Hakon One-Eye]]
+* [[Lore:Felldir the Old|Felldir the Old]]
+* [[Lore:Gormlaith Golden-Hilt|Gormlaith Golden-Hilt]]
+
+===Great Nord War Chiefs===
+In the days of the conquest of Morrowind and the founding of the [[Lore:First Empire of the Nords|First Empire]], several notable Nordic war chiefs were known to wield the Voice. [[Lore:Dunmer|Dunmer]] historical accounts vilify them as "demon chieftains" and remember some of them by other names.
+
+* [[Lore:Hoag Merkiller|Hoag Merkiller]]
+* [[Lore:Derek the Tall|Derek the Tall]]
+* [[Lore:Jorg Helmbolg|Jorg Helmbolg]]
+* "[[Lore:Barfok|Barfok, Maid of Planes]]"
+* "[[Lore:Bhag|Bhag, the Two-Tongued]]"
+* "[[Lore:Chemua|Chemua, the Running Hunger]]" 
+
+===[[Lore:Greybeards|Greybeards]]===
+[[File:LG-cardart-Greybeard Mentor.jpg|right|thumb|A Greybeard mentor, as seen in ''[[LG:Legends|Legends]]'']]
+The Greybeards are an ancient and honored order of monks who preach a lifestyle of meditative study of the thu'um, known as the [[Lore:Way of the Voice|Way of the Voice]].
+
+* [[Lore:Jurgen Windcaller|Jurgen Windcaller]]
+* [[Lore:Arngeir|Arngeir]]
+* Borri 
+* Einarth
+* Wulfgar 
+* [[Lore:Modir the Far|Modir the Far]]
+* [[Lore:Grundwulf|Grundwulf]] (former)
+* [[Lore:Ulfric Stormcloak|Ulfric Stormcloak]] (former)
+
+===[[Lore:Dragon Priest|Dragon Priests]]===
+Dragon Priests of the Dragon Cult were known to be powerful mages who also wielded the power of the thu'um.{{Ref|name=TGATD}}
+* [[Lore:Ahzidal|Ahzidal]]
+* Akiirdal
+* [[Lore:Arthosiis|Arthosiis]] 
+* Dukaan
+* Haldriin
+* [[Lore:Hevnoraak|Hevnoraak]]
+* [[Lore:Korthor|Korthor]]
+* [[Lore:Krosis|Krosis]]
+* Magrathi
+* Miraak, in addition to being a Dragonborn was also a Dragon Priest
+* [[Lore:Morokei|Morokei]]
+* Nahkriin
+* [[Lore:Otar the Mad|Otar the Mad]]
+* [[Lore:Rahgot|Rahgot]]
+* Tulnir
+* Vahlok the Jailor
+* Vokun
+* Volsung
+* Vosis
+* Zaan the Scalecaller
+* Zahkriisos
+
+===Other===
+* [[Lore:Olaf One-Eye|Olaf One-Eye]]
+* [[Lore:Kvenel the Tongue|Kvenel the Tongue]]
+* [[Lore:Jorunn|Jorunn the Skald-King]]
+* Ebony Warrior
+* [[Lore:Red Eagle|Red Eagle]]{{Ref|name=RE|[[Skyrim:Red Eagle|Red Eagle]]'s abilities in ''[[Skyrim:Skyrim|Skyrim]]''}}
+* Ivar Snow-Bear{{Ref|name=SINE|group=UOL|{{Cite Book|Skyrim In the New Era|ns_base=General}}}}
+* [[Lore:Ysgramor|Ysgramor]]{{intnote|nb2|[nb 2]}}
+* [[Lore:Nurarion|Nurarion the Perfect]]{{intnote|nb3|[nb 3]}}
+* Oskar the Fool {{Ref|name=SRThrow|[[Skyrim:Throw Voice#Word Wall Translations|Throw Voice]] word wall in ''[[Skyrim:Skyrim|Skyrim]]''}}
+* [[Lore:Curalmil|Curalmil]]{{Ref|name=Curalmil|[[Skyrim:Curalmil|Curalmil]]'s abilities in ''[[Skyrim:Skyrim|Skyrim]]''}}
+* [[Lore:Vrage|Vrage]]
+
+===Divines=== 
+[[File:LG-cardart-Alduin 02.jpg|right|thumb|Alduin, firstborn of Akatosh, as seen in ''[[LG:Legends|Legends]]'']]
+Divine beings associated with the thu'um and its usage 
+* [[Lore:Akatosh|Akatosh]]
+* [[Lore:Alduin|Alduin]]
+* [[Lore:Shor|Shor]]
+* [[Lore:Tsun|Tsun]]
+* [[Lore:Kyne|Kyne]]
+* [[Lore:Morihaus|Morihaus]]
+* [[Lore:Talos|Talos]]
+* [[Lore:Vivec|Vivec]]
+* All [[Lore:Dragon|Dragons]]
+{{NewLine}}
+
+==Gallery==
+<gallery>
+File:SR-quest-The Way of the Voice2.jpg|High Hrothgar
+File:SR-quest-Alduin's Wall.jpg|Alduin's Wall depicts the Dragon War
+File:LG-cardart-Word Wall.jpg|A word wall, as seen in ''[[LG:Legends|Legends]]''
+File:LG-cardart-Fire Breath.png|Fire Breath (Legends)
+File:LG-cardart-Call of Valor.png|Call of Valor (Legends)
+File:LG-cardart-Drain Vitality.png|Drain Vitality (Legends)
+File:LG-cardart-Soul Tear.png|Soul Tear (Legends)
+</gallery>
+==Notes==
+*{{LNote|nb1|1.|It is unknown if this teleportation shout mentioned in the book is simply a description of the Whirlwind Sprint shout.}}
+*{{LNote|nb2|2.|Despite predating the "first mortal masters of the voice"  Ysgramor is described in Nordic legends with feats such as "Shouting Some Sense" into the Nords,{{Ref|name=FSKW|{{Cite Book|Five Songs of King Wulfharth}}}} and with "breath weighted with power sounds".{{ref|group=UOL|{{Cite Book|The Seven Fights of The Aldudagga|ns_base=GEN}}}}  This could be due to a nature possibly interlinked with dragons - be it that he was a literal dragon,{{Ref|name=UOL4|group=UOL}} or (more likely given his stature during the time period) he was a Dragon Priest.{{ref|group=UOL|[[General:Kurt Kuhlmann's Posts|Kurt Kuhlmann's Posts]]}}}}
+*{{LNote|nb3|3.|Nurarion of Summerset was said to [[Online:Moon-Singer_Feziya-ko#A_War_Story|possess a voice]] that could "cut lightning bolts in half and turn mountains to rubble". He was said to use this gift to calm the seas and banish [[Lore:Orgnum|King Orgnum]]'s storms "to the ends of the earth" with a scream. This power was granted to him by [[Lore:Clavicus Vile|Clavicus Vile]] in the [[Lore:Merethic Era|Merethic Era]]. While it's never explicitly called the thu'um, these abilities align with its power.}}
+*[[Lore:Akaviri|Akaviri]] swordsmen have been described as possessing a power similar to the thu'um, called "[[Lore:Kiai|kiai]]".{{Ref|name=COTS}}
+*Following his transformative process from using the [[Lore:Mehrunes' Razor|Mehrunes' Razor]],{{fact}} [[Lore:Mankar Camoran|Mankar Camoran]] claimed that he could now speak with another tongue and "speak fire".{{ref|name=MDC1|{{Cite Book|Mythic Dawn Commentaries 1}}}}
+*The Red Dome Templars (also known as the Red Templars) were unstable crusaders who drank the blood of [[Lore:Talos|Talos]] in order to obtain short-term martial shouting powers. They were hated by the rest of the [[Lore:Imperial Legion|Legion]] and a significant number of the members of the [[Lore:Elder Council|Elder Council]] wanted them dispersed. Due to this, they were mainly sent off to remote places like [[Lore:Morrowind|Morrowind]].{{Ref|name=PoM|{{Cite Book|People of Morrowind|ns_base=GEN}}}}{{Ref|name=UOL4|group=UOL|[[General:Michael Kirkbride's Posts|Michael Kirkbride's Posts]]}}
+*While almost all Dragon Shouts possess only three Words of Power, there is record of a possible shout that uses four. The alleged shout "Ziil Los Dii Du", which roughly means "your soul is mine to devour", was shouted by [[Lore:Miraak|Miraak]] in conjunction with the names of targeted dragons to absorb their souls.{{Ref|name=DBMiraak|[[Skyrim:Miraak (person)|Miraak]]'s dialogue in ''[[Skyrim:Skyrim|Skyrim]]: [[Skyrim:Dragonborn|Dragonborn]]''}} Whether this is a shout Miraak learned from the forbidden teachings of [[Lore:Hermaeus Mora|Hermaeus Mora]] or this is some other power of the thu'um is unclear.
+
+==Books==
+* {{Book Link|Children of the Sky}}
+
+==References==
+<references/> {{UOL}}
+<references group=UOL/>
+{{Lore Magic Footer}}</noinclude>

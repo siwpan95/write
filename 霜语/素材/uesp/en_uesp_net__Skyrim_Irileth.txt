@@ -1,0 +1,311 @@
+{{NPC Summary
+|essential=yes
+|city=[[Skyrim:Whiterun|Whiterun]]
+|loc=[[Skyrim:Dragonsreach|Dragonsreach]]
+|race=Dark Elf
+|gender=Female
+|class=Nightblade
+|faction={{Faction|CrimeFactionWhiterun}}; {{Faction|DragonsreachOccupants}}; {{Faction|Imperial Government}}; {{Faction|Ruling Government}}; {{Faction|TownWhiterunFaction}}
+|refid=0001A67F
+|baseid=00013BB8
+|image=SR-npc-Irileth.jpg
+|imgdesc=Irileth
+|perks=[[Skyrim:Augmented Shock|Augmented Shock]] (rank 1); [[Skyrim:Bladesman|Bladesman]] (rank 1); [[Skyrim:Custom Fit|Custom Fit]]; [[Skyrim:Fighting Stance|Fighting Stance]]; [[Skyrim:IrilethVsDragons|IrilethVsDragons]]; [[Skyrim:Magic Resistance|Magic Resistance]] (rank 1)
+|skills='''[[Skyrim:Destruction|Destruction]]''', '''[[Skyrim:Sneak|Sneak]]''', [[Skyrim:Alteration|Alteration]], [[Skyrim:One-handed|One-handed]]
+|aggress=Aggressive
+|level=PC&times;0.8 (range&#061;10-30)
+|moral=No Crime
+|health=50+(PC-1.2)&times;6.7
+|magicka=50+(PC-1.2)&times;2.7
+|stamina=50+(PC-1.2)&times;2.7
+|voicetype=FemaleDarkElf
+}}__NOTOC__
+'''Irileth''' is a [[Skyrim:Dark Elf|Dark Elf]] [[Skyrim:Nightblade|nightblade]] who serves as [[Skyrim:Housecarl|housecarl]] to [[Skyrim:Jarl|Jarl]] [[Skyrim:Balgruuf the Greater|Balgruuf the Greater]] of [[Skyrim:Whiterun|Whiterun]], and remains by his side at all times within [[Skyrim:Dragonsreach|Dragonsreach]]. Although it is highly uncommon for a Dunmer to serve as housecarl in Skyrim, Irileth and Balgruuf fought in many battles together when they were younger. When Balgruuf was named as Jarl of Whiterun, she demanded that she be his housecarl, on account of their long-forged battle-bond. 
+
+Irileth wears a set of [[Skyrim:Leather Armor|leather armor]], along with a matching pair of [[Skyrim:Leather Bracers|bracers]] and [[Skyrim:Leather Boots|boots]]. She fights with a [[Skyrim:Steel Sword of Cold|Steel Sword of Cold]]. When attacking at range, she uses [[Skyrim:Steel Arrow|steel arrows]] and an [[Skyrim:Elven Bow|elven bow]], regardless of character level. She also makes frequent use of [[Skyrim:Destruction|Destruction]] magic, namely [[Skyrim:Shock Damage|Shock]] spells.
+
+{{NewLeft}}
+== Spells ==
+Irileth knows the following spells: 
+{|class=wikitable
+|-
+![[Skyrim:Alteration|Alteration]]
+![[Skyrim:Destruction|Destruction]]
+![[Skyrim:Restoration|Restoration]]
+|-
+|[[Skyrim:Stoneflesh|Stoneflesh]]||[[Skyrim:Lightning Cloak|Lightning Cloak]]||[[Skyrim:Lesser Ward|Lesser Ward]]
+|- 
+| || [[Skyrim:Lightning Bolt|Lightning Bolt]] || 
+|- 
+| || [[Skyrim:Chain Lightning|Chain Lightning]] ||
+|}
+In addition, she has a unique perk that halves the damage of her destruction spells when used on dragons.
+
+== Related Quests ==
+* {{Quest Link|Before the Storm}}
+* {{Quest Link|Dragon Rising}}
+* {{Quest Link|Message to Whiterun (Imperial)}}
+* {{Quest Link|Message to Whiterun (Stormcloaks)}}
+* {{Quest Link|Battle for Whiterun}}
+
+==Quest-Related Events==
+===Before the Storm===
+[[File:SR-npc-Irileth 02.jpg|thumb|right|''"What's the meaning of this interruption?"'']]
+When you enter [[Skyrim:Dragonsreach|Dragonsreach]] to inform [[Skyrim:Balgruuf the Greater|Jarl Balgruuf]] of the dragon attack at [[Skyrim:Helgen|Helgen]], you'll stumble upon him arguing with his steward, [[Skyrim:Proventus Avenicci|Proventus]], regarding the [[Lore:Stormcloak Rebellion|civil war]]. Irileth will draw her weapon and will slowly approach you when she spots you: 
+:''"What's the meaning of this interruption? Jarl Balgruuf is not receiving visitors."'' 
+
+:'''I have news from Helgen. About the dragon attack.'''
+:''"Well, that explains why the guards let you in. Come on then, the Jarl will want to speak to you personally."'' 
+
+:'''Alvor/Gerdur sent me. Riverwood is in danger.''' '''(Asked by either [[Skyrim:Alvor|Alvor]] or [[Skyrim:Gerdur|Gerdur]] to request aid from the Jarl)'''
+:''"As housecarl, my job is to deal with all dangers that threaten the Jarl or his people. So you have my attention. Now, explain yourself."'' 
+
+Either option leads to:
+
+:'''A dragon has destroyed Helgen.'''
+:''"You know about Helgen? The Jarl will want to speak to you personally. Approach."'' 
+
+:'''I was told to give the message directly to the Jarl.'''
+:''"Whatever you have to say to the Jarl, you can say to me. I'm starting to think..."'' (After which the Jarl will ask her to let you through.)
+
+However, if you went straight to [[Skyrim:Solitude|Solitude]] or [[Skyrim:Windhelm|Windhelm]] to join up with [[Skyrim:Imperial Legion|the Imperial Legion]] or [[Skyrim:Stormcloaks|the Stormcloaks]], you'll end up having to hand Jarl Balgruuf a message from [[Skyrim:General Tullius|General Tullius]] or [[Skyrim:Ulfric Stormcloak|Ulfric]]. In that case, after she asks you why you are interrupting, you can tell her you have a message from either Tullius or Ulfric, which will grant you an audience with the Jarl immediately: 
+:''"You'd better speak to the Jarl, then."''
+[[File:SR-npc-Irileth 03.jpg|thumb|right|''"Yes, my Jarl."'']]
+Once you have told Balgruuf about the dragon attack in [[Skyrim:Helgen|Helgen]], the concerned jarl will turn to his steward, [[Skyrim:Proventus Avenicci|Proventus Avenicci]], while Irileth will take the opportunity to get her points across:
+
+{|class="hiddentable"
+|-
+|'''Balgruuf''': || ''"What do you say now, Proventus? Shall we continue to trust in the strength of our walls? Against a dragon?"''
+|-
+|'''Irileth''': || ''"My lord, we should send troops to Riverwood at once. It's in the most immediate danger, if that dragon is lurking in the mountains..."''
+|-
+|'''Proventus''': || ''"The [[Skyrim:Siddgeir|Jarl of Falkreath]] will view that as a provocation! He'll assume we're preparing to join Ulfric's side and attack him."''
+|-
+|'''Balgruuf''': || ''"Enough! I'll not stand idly by while a dragon burns my hold and slaughters my people! Irileth, send a detachment to Riverwood at once."''
+|-
+|'''Irileth''': || ''"Yes, my Jarl."''
+|-
+|}
+
+After this conversation, Irileth travels all the way to the main gate in southern Whiterun, where she meets up with three nervous [[Skyrim:Whiterun Guard|Whiterun guards]] outside the [[Skyrim:Guard Barracks (Gate)|guard barracks]] for a quick briefing:
+
+{|class="hiddentable"
+|-
+|'''Irileth''': || ''"The Jarl has finally agreed to send you back to Riverwood."''
+|- valign="top"
+|'''Guard''': || ''"Yes, Housecarl. We'll leave immediately. It's just us against a dragon, is that it?"''
+|-
+|'''Irileth''': || ''"I can't afford to send anyone else. And we don't know where the dragon is. Your main job will be to keep an eye out and get the people to safety if the town is attacked. I don't expect the three of you to fight off a dragon by yourselves. But I do expect you to do your duty."''
+|-
+|'''Guard''': || ''"Of course. We'll keep Riverwood safe. You can count on it. Let's move out. Time's a wasting."''
+|-
+|}
+
+The three soldiers will then run all the way to Riverwood to do their duties, while Irileth will return to her usual spot in Dragonsreach.
+
+===Dragon Rising===
+While you are handing over the [[Skyrim:Dragonstone|Dragonstone]] to court wizard [[Skyrim:Farengar Secret-Fire|Farengar Secret-Fire]], a guard will run upstairs to the Jarl to inform about a [[Skyrim:Dragon|dragon]] at the [[Skyrim:Western Watchtower|Western Watchtower]]. Irileth will utter: ''"Wait for me."'', before quickly running downstairs, interrupting your conversation with the court wizard by shouting:
+:'''Irileth''': ''"Farengar! Farengar, you need to come at once. A dragon's been sighted nearby. (to you) You should come, too."''
+:'''Farengar''': ''"A dragon! How exciting! Where was it seen? What was it doing?"''
+:'''Irileth''': ''"I'd take this a bit more seriously if I were you. If a dragon decides to attack Whiterun, I don't know if we can stop it. Let's go."''
+
+They will proceed up the stairs, where Balgruuf will be standing near an exhausted guard:
+{|class="hiddentable"
+|-
+|'''Balgruuf''': || ''"So, Irileth tells me you came from the western watchtower?"''
+|- valign="top"
+|'''Irileth''': || ''"Tell him what you told me. About the dragon."''
+|-
+|'''Guard''': || ''"Uh... that's right. We saw it coming from the south. It was fast... faster than anything I've ever seen."''
+|-
+|'''Balgruuf''': || ''"What did it do? Is it attacking the watchtower?"''
+|-
+|'''Guard''': || ''"No, my lord. It was just circling overhead when I left. I never ran so fast in my life... I thought it would come after me for sure."''
+|-
+|'''Balgruuf''': || ''"Good work, son. We'll take it from here. Head down to the barracks for some food and rest. You've earned it. Irileth, you'd better gather some guardsmen and get down there."''
+|-
+|'''Irileth''': || ''"I've already ordered my men to muster near the main gate."''
+|-
+|'''Balgruuf''': || ''"Good. Don't fail me."''
+|-
+|}
+
+The jarl will then turn to you: 
+:'''Balgruuf:''' ''"I want you to go with Irileth and help her fight this dragon. You survived Helgen, so you have more experience with dragons than anyone else here. One last thing, Irileth. This isn't a death or glory mission. I need to know what we're dealing with."'' 
+:'''Irileth:''' ''"Don't worry, my lord. I'm the very soul of caution."'' 
+
+She will then set off towards the watchtower and ask you to meet her there: 
+:''"I'll see you at the watchtower as soon as the rest of the men have gathered."''
+[[File:SR-quest-Dragon Rising.jpg|thumb|right|''"Shall we go kill us a dragon?"'']]
+{|class="hiddentable"
+|- valign="top"
+|'''Irileth''': || ''"Here's the situation. A dragon is attacking the Western Watchtower."''
+|-
+| '''Soldiers''': || ''"Now we're in for it."'' / ''"A dragon?"''
+|-
+|'''Irileth''': || ''"You heard right! I said a dragon! I don't much care where it came from or who sent it. What I do know is that it's made the mistake of attacking Whiterun!"''
+|-
+|'''Soldier''': || ''"But Housecarl... how can we fight a dragon?
+|-
+|'''Irileth''': || ''"That's a fair question. None of us have ever seen a dragon before, or expected to face one in battle. But we are honorbound to fight it, even if we fail. This dragon is threatening our homes... our families. Could you call yourselves Nords if you ran from this monster? Are you going to let me face this thing alone?"''
+|-
+|'''Soldiers''': || ''"No, Housecarl!"'' / ''"We're so dead..."''
+|-
+|'''Irileth''': || ''"But it's more than our honor at stake here. Think of it - the first dragon seen in [[Lore:Skyrim|Skyrim]] since the [[Lore:Third Era|last age]]. The glory of killing it is ours, if you're with me! Now what do you say? Shall we go kill us a dragon?"''
+|-
+|'''Soldiers''': || ''"Yeah!"'' /''"Damn right!"'' / ''"We're with you!"''
+|-
+|'''Irileth''': || ''"Let's move out."''
+|-
+|}
+[[File:SR-quest-Dragon Rising 04.jpg|thumb|right|''"No signs of any dragon right now."'']]
+She and the soldiers will then run off towards the Western Watchtower. If you manage to approach her on the way, she will just say: 
+:''"Let's go. We need to get to the Western Watchtower before it's too late."''
+
+They will keep running down the road, stopping at a rock a few hundred feet east of the watchtower, where they'll take cover as Irileth inspects the tower from afar and provides a quick briefing: 
+:''"No signs of any dragon right now, but it sure looks like he's been here. I know it looks bad, but we've got to figure out what happened. And if that dragon is still skulking around somewhere. Spread out and look for survivors. We need to know what we're dealing with."''
+
+If you talk to her after witnessing the burning tower, she will say:
+:''"Be careful. We need to find out what happened here."''''
+
+She and the soldiers will draw their weapons and run towards the tower, and as you discover a guard hiding on the destroyed bridge, he'll shout: 
+
+'''Guard''': ''"No! Get back! It's still here somewhere! Hroki and Tor just got grabbed when they tried to make a run for it!"''<br>
+'''Irileth''': ''"Guardsman! What happened here? Where's this dragon? Quickly now!"''<br>
+'''Guard''': ''"I don't know! Kynareth save us, here he comes again..."''
+[[File:SR-quest-Dragon Rising 06.jpg|thumb|right|Irileth bravely faces Mirmulnir]]
+If you've already arrived and found the guard on your own, the guard will give you the same warning, after which the dragon approaches and Irileth and her men will try to catch up as fast as they can, skipping the previous dialogue. Irileth will be quick to shout out orders in an attempt at organization:  
+:''"Here he comes! Find cover and make every arrow count!"''
+
+She'll also yell out to you:
+:''"Scatter and get behind cover! We need to hurt it, somehow! If you've got a bow or spells, now would be a good time to use them!"''
+
+When Mirmulnur is slain from a distance, Irileth can be heard saying: 
+:''"Let's make sure that overgrown lizard is really dead. Damned good shooting, boys!"''
+
+She'll then urge you to check on the dead ragon:
+:''"We'd better go make sure that bastard is really dead. Collect us a trophy or something to bring back to {{sic|Ulfric|Balgruuf}}."''
+
+When you're close to its dead body and it starts to dissolve, a startled Irileth will exclaim as she and the men will run to take cover while you absorb the dragon's soul: 
+:"''Everybody get back!"''
+
+When you've completed absorbing the soul, a soldier will walk up to you:
+:'''Soldier 1''': ''"You... must be Dragonborn!"''
+
+He initiates a conversation with you in which he claims you're Dragonborn, after which a second soldier approaches:
+
+:'''Soldier 2''': ''"Dragonborn? What are you talking about?"''
+
+At this point more soldiers approach the carcass.
+{|class="hiddentable"
+|- valign="top"
+|'''Soldier 3''': || ''"That's right! My grandfather used to tell stories about the Dragonborn. Those born with the Dragon Blood in 'em. Like old [[Lore:Tiber Septim|Tiber Septim]] himself."''
+|-
+|'''Soldier 2''': || ''"I never heard of Tiber Septim killing any dragons."''
+|-
+|'''Soldier 1''': || ''"There weren't any dragons then, idiot. They're just coming back now for the first time in... forever."''
+|-
+|'''Soldier 3''': || ''"But the old tales tell of the Dragonborn who could kill dragons and steal their power. You must be one!"''
+|-
+|'''Soldier 4''': || ''"What do you say, Irileth? You're being awfully quiet."''
+|-
+|'''Soldier 2''': || ''"Come on, Irileth, tell us, do you believe in this Dragonborn business?"''
+|-
+|}
+[[File:SR-quest-Dragon Rising 07.jpg|thumb|right|''"Here's a dead dragon, and that's something I definitely understand."'']]
+At that point Irileth will have come out of hiding while she has been listening to the conversation. She will focus on the dragon's corpse as she claims:
+{|class="hiddentable"
+|- valign="top"
+|'''Irileth''': || ''"Hmph. Some of you would be better off keeping quiet than flapping your gums on matters you don't know anything about. Here's a dead dragon, and that's something I definitely understand. Now we know we can kill them. But I don't need some mythical Dragonborn. Someone who can put down a dragon is more than enough for me."''
+|-
+|'''Soldier 1''': || "''You wouldn't understand, Housecarl. You ain't a Nord."'' 
+|-
+|'''Irileth''': || "''I've been all across [[Lore:Tamriel|Tamriel]]. I've seen plenty of things just as outlandish as this. I'd advise you all to trust in the strength of your sword arm over tales and legends."''
+|-
+|}
+She'll then turn her attention towards you: 
+:''"That was the hairiest fight I've ever been in, and I've been in more than a few. I don't know about this Dragonborn business, but I'm sure glad you're with us. You better get back to Whiterun right away. Jarl Balgruuf will want to know what happened here."'' 
+
+She will then stay behind and will only repeat: 
+:''"I'm taking command here for the moment. You head back to Whiterun and let the Jarl know what happened."''
+
+As soon as you have spoken to Jarl Balgruuf, Irileth returns to Dragonsreach.
+
+===The Fallen===
+During the quest [[Skyrim:The Fallen|The Fallen]], after you have convinced Balgruuf to use his palace as a dragon trap, Irileth will only comment: 
+:''"I don't know how you talked the Jarl into this plan of yours."'' 
+
+She will head up to the great porch of Dragonsreach and scout the landscape for dragons saying nothing but: 
+:''"Let's get this over with."'' 
+
+When [[Skyrim:Odahviing|Odahviing]] arrives, she will draw her bow and do her best to get him to land without killing him. When he is down, she will shout:  
+:''"Get it into the trap before it kills us all!"'' 
+
+Once the dragon is stuck in the trap, she will position herself at a safe distance while you talk to Odahviing.
+
+===The World-Eater's Eyrie===
+After a while, when the quest [[Skyrim:The World-Eater's Eyrie|The World-Eater's Eyrie]] is initiated, she will start wandering around the captured dragon and will, when [[Skyrim:Farengar Secret-Fire|Farengar Secret-Fire]] turns up and makes bad suggestions to the captured dragon, say: 
+:''"Farengar, very bad idea. Even for you."'' 
+
+Once Odahviing is freed, she will go down to the dragon and ensure it keeps its promise. When you climb onto the dragon she will comment: 
+:''"You're either the bravest person I've ever met, or the biggest fool."''
+
+===Battle for Whiterun (Imperials)===
+After [[Skyrim:Legate Quentin Cipius|Legate Quentin Cipius]] and Jarl Balgruuf's meeting, Irileth will approach Proventus Avenicci about her concerns regarding the guards sent from the palace to fight the invading Stormcloaks. {{vn|Is this a one-time event after the meeting or ambient dialogue that takes place after Message to Whiterun (Imperials)?}}
+
+:'''Irileth''': ''"I am concerned about the Jarl's safety. Too many of our guards have been redeployed to fight the Stormcloaks."''
+:'''Proventus''': ''"What would you have me do? If we do not send men to fight in the war, you'll find yourself guarding one of Ulfric's men."''
+:'''Irileth''': ''"And if an assassin slips past the night watch, we won't have a Jarl at all. Without Balgruuf's leadership, Whiterun will descend into chaos."''
+:'''Proventus''': ''"Nonsense. If Balgruuf falls, someone wil take his place, for better or worse. In the meantime, we have a war to win. And win it we must."''
+
+===Battle for Whiterun (Stormcloaks)===
+Once the battle starts, Irileth will be at Dragonsreach with Balgruuf. Upon reaching the throne room you will be greeted to this exchange: 
+
+:"Halt in the name of the Jarl Balgruuf the Greater!"''
+:'''Balgruuf''': ''"It's a little late for that, don't you think?"''
+:'''Irileth''': ''"Stay back, lord!"''
+:'''Balgruuf''': ''"I'll be damned if I let this rabble take my city without raising my own sword."''
+:'''Irileth''': ''"Protect the Jarl with your lives!"''
+
+After this conversation, Irileth will attack you until you get Balgruuf to surrender.
+
+== Dialogue ==
+Her greetings:
+:''"You are a welcome guest, but you must still respect the rules of the Jarl's household."''
+:''"We can never rest easy, for Balgruuf's enemies will not."''
+:''"Please keep your weapons sheathed in the Jarl's presence."''
+:''"It seems our enemies have no end of spies, saboteurs and assassins to send against us."''
+:''"Think very carefully about your next move..."''
+
+Greetings if exiled:
+:''"Exile or no, my duty to Balgruuf remains. Keep that in mind when you approach him, for I will be watching."''
+:''"Keep your distance..."''
+
+If spoken to:
+:'''How did a dark elf come to be Housecarl?'''
+:''"Balgruuf and I share a battle bond. We met as youths, and forged our friendship in the fires of war. When he became Jarl, I insisted on serving as his protector. He had no cause to argue. Gods, you are curious. Almost... dangerously so."''
+
+:'''What does a Housecarl do?'''
+:''"I am charged with protecting the Jarl from any and all threats. Powerful men have many enemies. More so, in times of strife. So you can imagine the dangers. Oh yes, there have been attempts on the Jarl's life. More than one would-be assassin has met his end at the tip of my blade."''
+::'''What threats does the jarl face?'''
+::''"Take your pick. Dragons, Stormcloak assassins, ambitious and unscrupulous nobles... Sometimes I think his own children want him dead. And those are just the physical threats. Assaults on his sanity are another matter entirely. Every day, he deals with obsequious functionaries and incompetent bureaucrats. Sadly, I'm not allowed to eliminate them. Well, not yet, anyway."''
+
+Her goodbyes:
+:''"I've got my eyes on you."''
+:'''Mind yourself in front of the Jarl, or we'll have serious problems."''
+
+==Conversations==
+Irileth may be seen talking with Jarl Balgruuf about his security:
+
+'''Irileth''': ''"Balgruuf, did you slip out again last night for a drink at the [[Skyrim:The Bannered Mare|Bannered Mare]]?"''<br>
+'''Jarl Balgruuf the Greater''': ''"Heard about that, did you? Yes, I went out for a pint or two. What of it?"''<br>
+'''Irileth''': ''"These secret visits to the tavern will make you an easy target for an enemy assassin. You should have told me first."''<br>
+'''Jarl Balgruuf the Greater''': ''"Damn it, woman, I'm the Jarl of Whiterun! I won't apologize for talking to my people. You can't protect me every moment of the day."''<br>
+'''Irileth''': ''"That might be so, but it will never stop me from trying."''<br>
+
+== Notes ==
+*In the ''[[Books:The Elder Scrolls V: Skyrim: Prima Official Game Guide|Prima Official Game Guide]]'', the summary for her reads ''"Irileth is unusual for a Housecarl: She's female, a Dark Elf, and doesn't fit the role of muscle-bound protector. But that doesn't make her any less effective. Irileth is actually a skilled assassin, trained in [[Lore:Morrowind|Morrowind]] by the [[Lore:Morag Tong|Morag Tong]]. She met Balgruuf several years prior and the two became fast friends and adventuring companions."''
+*Even though Irelith is marked as Essential, her NPC reference has a WIDeadBodyCleanUpScript attached. Which suggests at some point Bethesda may have had plans to have her Essential flag removed after a certain quest.
+
+== Bugs ==
+{{Bug|As long as Irileth is housecarl, she stays near the throne all day, never sleeping.|USKP|1.3.1|trackerid=12207}}

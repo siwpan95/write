@@ -1,0 +1,112 @@
+<noinclude>{{Cleanup-srqrp
+|writtenBy=Krusty
+|checkedBy=Gideon Dragontongue
+|reward=Eddie the Head and Aliana
+|rewardChecked=Kiz
+}}</noinclude>{{About|the quest|the place|Skyrim:Bleak Falls Barrow (place)}}{{Quest Header
+|type=Main Quest
+|Giver=[[Skyrim:Balgruuf the Greater|Jarl Balgruuf the Greater]]
+|Icon=SR-qico-Main.png
+|Reward=Enchanted Leveled Armor,<br>Permission to buy [[Skyrim:Breezehome|Breezehome]],<br>Word for the [[Skyrim:Unrelenting Force|Unrelenting Force]] shout
+|Disp==2 (Balgruuf)
+|Prev=[[Skyrim:Before the Storm|Before the Storm]]
+|Next=[[Skyrim:Dragon Rising|Dragon Rising]]
+|Conc=[[Skyrim:The Golden Claw|The Golden Claw]]
+|Loc=[[SR:Riverwood|Riverwood]], [[SR:Bleak Falls Barrow (place)|Bleak Falls Barrow]], <br>[[Skyrim:Dragonsreach|Dragonsreach]]
+|Image=SR-place-Bleak Falls Barrow.jpg
+|ImgDesc=Bleak Falls Barrow
+|ID=MQ103
+|description=Retrieve the [[Skyrim:Dragonstone|Dragonstone]].
+|SuggLevel=6
+}}
+
+==Quick Walkthrough==
+# Talk to [[Skyrim:Farengar Secret-Fire|Farengar Secret-Fire]].
+# Start the quest [[Skyrim:The Golden Claw|The Golden Claw]].
+# Retrieve the [[Skyrim:Dragonstone|Dragonstone]] from [[Skyrim:Bleak Falls Barrow (place)|Bleak Falls Barrow]].
+# Return to Farengar.
+
+==Detailed Walkthrough==
+===Meet the Court Wizard===
+During the final stages of the quest [[Skyrim:Before the Storm|Before the Storm]], you will be tasked with a trip from [[Skyrim:Riverwood|Riverwood]] to [[Skyrim:Whiterun|Whiterun]] to tell [[Skyrim:Balgruuf the Greater|Jarl Balgruuf]] about what happened in [[Skyrim:Helgen|Helgen]]. Make your way to the [[Skyrim:Dragonsreach|Dragonsreach]] palace, where you will be stopped by the housecarl [[Skyrim:Irileth|Irileth]], who will demand a good reason to interrupt the jarl. You can either tell her about the dragon or report that Riverwood calls for the jarl's aid, both of which will grant you an immediate audience. Deliver the news to Balgruuf, who will order troops to be sent to Riverwood at once and then present you with a reward. He will then remember a job suitable for an adventurer such as yourself and lead you to the court wizard [[Skyrim:Farengar Secret-Fire|Farengar Secret-Fire]], who has been researching dragons. Farengar wants you to fetch the unique [[Skyrim:Dragonstone|Dragonstone]] from [[Skyrim:Bleak Falls Barrow (place)|Bleak Falls Barrow]], an ancient Nordic tomb near Riverwood. When you question him on what he knows about the quest, he will keep his information sources secret.
+
+'''Note:''' If you already cleared Bleak Falls Barrow and retrieved the Dragonstone during the quest [[Skyrim:The_Golden_Claw|The Golden Claw]], Farengar will prompt you to hand it over immediately and complete the quest. See the [[#Notes|notes section]] for what you may have missed.
+
+===Bleak Falls Barrow===
+As the concurrent quest [[Skyrim:The Golden Claw|The Golden Claw]] runs simultaneously with this quest, travel to Riverwood and enter the [[Skyrim:Riverwood Trader|Riverwood Trader]]. Talk to the proprietor, who will tell you that a precious item was stolen from the main trading room, which will trigger the quest. Locate the ancient barrow and fight the bandits protecting the entrance. Bleak Falls Temple starts with a giant chamber with dead [[Skyrim:Skeever|skeevers]] scattered about and the voices of two [[Skyrim:Bandit|bandit]] inhabitants audible from the back of the room, discussing something of great importance. If you have not yet triggered [[Skyrim:The Golden Claw|The Golden Claw]], it will begin now, due to the subject of the conversation:
+[[File:SR-quest-Bleak_Falls_Barrow_04.jpg|thumb|right|Bandits in Bleak Falls Temple]]
+'''Bandit #1''': ''"So we're just supposed to sit here while Arvel runs off with that golden claw?"''<br>
+'''Bandit #2''': ''"That dark elf wants to go on ahead, let him. Better than us risking our necks."''<br>
+'''Bandit #1''': ''"What if Arvel doesn't come back? I want my share from that claw!"''<br>
+'''Bandit #2''': ''"Just shut it and keep an eye out for trouble."''
+
+Either use ranged attacks on them from afar, battle them up-close and personally, or sneak around them and search the area for loot, including the contents of a locked chest. Proceed through the empty tunnels until you arrive in a puzzle room where another bandit is attempting to pull a handle. You can attack him yourself, or allow him to be killed by [[Skyrim:Dart Trap|darts]] that he accidentally triggers. To avoid the same fate, look around the room and towards the upper level to see the correct combination for the movable pillars. Two symbols are up on the ledge above, while the middle one has fallen to the ground level next to the lever. They should be read from left to right, using the one on the ground as the middle symbol, in order to find the combination: '''Snake&mdash;Snake&mdash;Whale'''. Activate the movable pillars to position them. You can now pull the handle without being killed. The iron gate will swing open, allowing access to a room with a [[Skyrim:Soul Gems|soul gem]], a potion, a chest, and a copy of the [[Skyrim:Pickpocket|Pickpocket]] skill book ''[[Skyrim:Thief (book)|Thief]]''. Locate the spiral staircase, head underground, and beware of a few skeevers lurking on the steps.
+
+===Arvel the Swift===
+[[File:SR-quest-Bleak_Falls_Barrow_02.jpg|thumb|right|''"Get it away from me. Get it away!"'']]
+At the foot of the stairs, everything is covered in cobwebs, hinting at the next major room's inhabitant. As you move around, you will notice a voice calling out from somewhere: ''"Is... is someone coming? Is that you Harknir? Bjorn? Soling? I know I ran ahead with the claw, but I need help!"'' Follow the sound and you will end up in a large chamber guarded by a [[Skyrim:Wounded Frostbite Spider|wounded frostbite spider]]. After the battle, examine the western tunnel where [[Skyrim:Arvel the Swift|Arvel the Swift]] is hanging in the webs, completely unable to move and obviously being kept for a later meal. Talk to him and he will reveal that he knows how to use the golden claw and makes great promises to you if you free him from the web:
+
+''"You did it. You killed it. Now cut me down before anything else shows up."''<br>
+'''Where's the golden claw?'''<br>
+''"Yes, the claw. I know how it works. The claw, the markings, the door in the Hall of Stories. I know how they all fit together! Help me down, and I'll show you. You won't believe the power the Nords have hidden there."''
+
+Attack the webs surrounding Arvel and he will be free; unfortunately, he will also betray you and take off running deeper into Bleak Falls Barrow. You can either give chase or let him run, as he is too weak to survive the upcoming [[Skyrim:Draugr|draugr]]-infested catacombs. Run past two rooms and gather a small amount of loot along the way, including a soul gem. When the dead start to rise, dispose of them and beware the [[Skyrim:Pressure_Plate|pressure plate]] and the corresponding [[Skyrim:Spike Wall|spike wall]]. Be on the lookout for Arvel the Swift, who will likely fall prey to either the spiked wall or the following leveled draugr enemy. When you find his body, loot the [[Skyrim:Golden_Claw|golden claw]] and, for a bit of help on how to solve upcoming puzzles in the barrow, his [[Skyrim:Arvel's Journal|journal]]. When you claim the claw, you will receive a quest update for the [[Skyrim:The Golden Claw|corresponding quest]], and will be told to discover the 'secret of Bleak Falls Barrow'. 
+
+Proceed forward and kill the three draugr in the next room.  To the right of the [[Skyrim:Swinging_Blades|swinging blades]] is a short staircase that ends in rubble.  There is a chest containing minor loot at the top of the stairs. Dodge the [[Skyrim:Swinging_Blades|swinging blades]] in the eastern tunnel. In the catacombs ahead, use the [[Skyrim:Oil Slicks|oil slick]] on the floor to your advantage or kill the attacking draugr normally. Follow the path until you arrive in a large chamber with a waterfall and one more draugr enemy, as well as a chest with minor loot. Activate the chain, head downstream along the underground creek, and beware the long fall where the creek turns into a waterfall through a hole in the eastern wall. If you search this area, you will find a pick and can learn how to mine ore. There is minor loot in the area and plants/mushrooms to gather. By the waterfall and entrance to the narrow tunnel, there is a chest to loot. Take the narrow tunnel leading south. You will emerge on a bridge halfway down the waterfall for a fight against another draugr (note that if you are a higher level you may find a [[Skyrim: Frost Troll|frost troll]] instead of a draugr). Head all the way down to the bottom for some minor loot in a locked chest, then return to the bridge and head north. The final room is protected by a leveled draugr. Upon its defeat, loot yet another locked chest in the room and then head through the door to Bleak Falls Sanctum.
+
+===The Secret of Bleak Falls Barrow===
+[[File:SR-quest-Bleak Falls Barrow.jpg|thumb|right|A mysterious wall]]
+In the beginning, the Sanctum is rather quiet with a set of swinging blades as the only obstacle. The next room, however, sees three draugr enemies and another helpful oil slick, if needed. Climb the wooden structure and proceed over the bridge to open the iron door. You will now face a puzzle door with three rotating rings. Following Arvel's advice from his journal, take a closer look at the golden claw in your inventory for the right combination. Rotate the rings to achieve the combination of '''Bear&mdash;Moth&mdash;Owl''' (bear on top, owl on bottom), then place the claw in the keyhole and watch as the door lowers.
+
+It opens to a huge chamber, complete with waterfalls, bats, and a [[Skyrim:Word Wall|Word Wall]]. Before entering the area with the wall, investigate the rocks to the right for a hidden, locked chest. Take a look opposite the word wall for a suspicious-looking sarcophagus and a chest with a good number of valuable items. Approach the word wall to learn the secret of the barrow, a word for the [[Skyrim:Unrelenting Force|Unrelenting Force]] shout. After learning the word, the sarcophagus will burst open and a boss-level draugr overlord will step out and attack. Fight him and then examine his corpse for the [[Skyrim:Dragonstone|Dragonstone]], the item requested by [[Skyrim:Farengar Secret-Fire|Farengar Secret-Fire]]. Before leaving, look to the south; behind the smaller waterfall is another chest. Finally, climb up the stairs and activate the handle, which will elevate the stone wall and bring you to an alternative exit from Bleak Falls Barrow.
+
+===A Stranger===
+In his quarters inside [[Skyrim:Dragonsreach|Dragonsreach]], provided you started this quest before clearing out Bleak Falls Barrow (see [[#Notes|notes]]), Farengar Secret-Fire will be accompanied by [[Skyrim:Delphine|Delphine]], the innkeeper from the [[Skyrim:Sleeping Giant Inn|Sleeping Giant Inn]] in Riverwood. She is obviously his 'reliable source', as the conversation reveals quite an extensive knowledge about the dragon situation.
+[[File:SR-quest-Bleak_Falls_Barrow_03.jpg|thumb|right|Delphine and Farengar Secret-Fire]]
+'''Farengar''': ''"You see? The terminology is clearly First Era or even earlier. I'm convinced this is a copy of a much older text.  Perhaps dating to just after the Dragon War. If so, I could use this to cross-reference the names with other later texts."''<br>
+'''Delphine''': ''"Good. I'm glad you're making progress. My employers are anxious to have some tangible answers."''<br>
+'''Farengar''': ''"Oh, have no fear. The Jarl himself has finally taken an interest, so I'm now able to devote most of my time to this research."''<br>
+'''Delphine''': ''"Time is running, Farengar, don't forget. This isn't some theoretical question. Dragons have come back."''<br>
+'''Farengar''':  ''"Yes, yes. Don't worry. Although the chance to see a living dragon up close would be tremendously valuable... Now, let me show you something else I found... very intriguing... I think your employers may be interested as well..."''<br>
+'''Delphine''': ''"You have a visitor."''<br>
+'''Farengar''': ''"Hmm? Ah, yes, the Jarl's protege! Back from Bleak Falls Barrow? You didn't die, it seems."''
+
+At this point, Farengar will notice your presence and lift the Dragonstone from your inventory with his thanks. While not as grateful as Farengar, Delphine is quite impressed with your efforts. After this acknowledgment, Delphine will return to studying the copy of ''[[Skyrim:Holdings_of_Jarl_Gjalund|Holdings of Jarl Gjalund]]'' while Farengar will direct you to Jarl Balgruuf for your reward. After this, the quest [[Skyrim:Dragon Rising|Dragon Rising]] will initiate and you will have to wait a few moments for your reward...
+
+===Achievements===
+One [[Skyrim:Achievements|achievement]] is unlocked when you complete this quest:
+* {{Achievement|Bleak Falls Barrow (achievement)|descr=no}}
+
+==Notes==
+*If you manage to race ahead of Arvel and clear the draugr, he will stop at the first swinging axe trap. If he spots you after the first draugr area, he will become hostile and attack you.
+* By going directly to Bleak Falls Barrow before visiting Jarl Balgruuf, it is possible to completely circumvent this quest, as [[Skyrim:The Golden Claw|The Golden Claw]] quest will take over. This doesn't really affect the game, but there are some changes:
+** Farengar and Jarl Balgruuf's conversation will be limited to a short introduction as the jarl leaves right away. 
+** You will not get to experience Farengar and [[Skyrim:Delphine|Delphine]]'s conversation, and the book ''[[Skyrim:Holdings of Jarl Gjalund|Holdings of Jarl Gjalund]]'' will never turn up on Farengar's desk. 
+** Farengar will be somewhat impressed by the fact that you already have the Dragonstone in your possession and give slightly different dialogue.
+*After you hand in the Dragonstone, the Axe of Whiterun, a leveled axe with a random enchantment, is generated and placed in Jarl Balgruuf's inventory. Reloading will cause it to have a different enchantment.
+
+==Bugs==
+{{Bug|If the puzzle door or rotating pillars do not work, check [[Skyrim:Puzzle Totems#Bugs|here]] for possible fixes.|confirmed=1}}
+{{Bug|Farengar's goodbye dialogue plays over the top of Balgruuf's closing parts of the same scene, making it difficult or impossible to tell what either one of them are saying.}}
+**Activating subtitles and moving back and forth between them can help.
+{{Bug|Delphine's scene dialogue with Farengar overlaps when she points out he has a visitor. This causes Farengar's line to be truncated and his next one to begin, creating an awkward transition.|USSEP|4.3}}
+{{Bug|You may find that once you have killed the draugr boss, he does not register as a container, in which case you cannot retrieve the Dragonstone and therefore cannot complete the quest.|confirmed=1}}
+**Bethesda technical support recommends reverting to a save prior to you entering the dungeon, raising your level, and then returning to the Dragonstone quest. This problem occurs if you are hidden when reading the word on the wall. Reloading prior to reading this and letting the draugr spot you as he comes out solves the issue. Simply save on a new file after killing the draugr overlord and then load that save. The overlord will now be "lootable".
+**{{pc22}} You can use the resurrect command in the console and kill him again. Then you will be able to loot the Dragonstone from his corpse.
+**Simply advancing the quest will also work by using the command <code>setstage MQ103 180</code> which will then change the current objective to "Deliver the Dragonstone to Farengar". You can add the Dragonstone to your inventory via the console, but it will not be removed by Farengar later. You can advance the quest without it.
+{{Bug|Casting any [[Skyrim:Frenzy (effect)#Spells|frenzy spell]] on the Wounded Frostbite Spider will cause Arvel to run free and begin to fight it. After it dies or the effect wears off, he will stand where he is and engage in the normal dialogue with you. You still have to go cut the webs, and after you do so, he will begin his sprint down the hall like normal.|confirmed=1}}
+{{Bug|After completing the quest, Irileth may not come in and start Dragon Rising.|confirmed=1}}
+
+==Quest Stages==
+{{Journal Entries
+|10||Jarl Balgruuf thinks I may be able to help Farengar, his court wizard, with something related to dragons.
+{{Quest Objective|10|Talk to Farengar}}
+|50||Farengar Secret-Fire, Jarl Balgruuf's court wizard, has asked me to retrieve a Dragonstone from Bleak Falls Barrow, a stone tablet that he believes contains a map of ancient dragon burial sites. He hopes this will help him understand how and why dragons are returning to Tamriel.
+{{Quest Objective|50|Retrieve the Dragonstone}}
+|180||{{Quest Objective|80|Deliver the Dragonstone to Farengar}}
+|190|fin|Farengar Secret-Fire, Jarl Balgruuf's court wizard, asked me to retrieve a Dragonstone from Bleak Falls Barrow, a stone tablet that he believes contains a map of ancient dragon burial sites. He hopes this will help him understand how and why dragons are returning to Tamriel. He was pleased when I returned with it, and promised that the Jarl will reward me for my efforts.
+|missing=0, 1, 5, 8, 15, 20, 55, 60, 80, 90, 100, 182, 185, 200
+}}
+{{Skyrim Quest Stages Notes}}
+
+{{Quest Footer|Prev=[[Skyrim:Before the Storm|Before the Storm]]|Next=[[Skyrim:Dragon Rising|Dragon Rising]]|Up=[[Skyrim:Main Quest|Main Quest]]|Conc=[[Skyrim:The Golden Claw|The Golden Claw]]}}

@@ -1,0 +1,5 @@
+'''Fence''' may refer to three things:
+* [[Skyrim:Fence (merchant)|Fence (merchant)]], a merchant who will buy stolen goods
+* [[Skyrim:Fence (faction)|Fence (faction)]], the faction to which these merchants belong
+* [[Skyrim:Fence (perk)|Fence (perk)]], a Speech skill perk that allows you to sell stolen goods to any merchant that you have invested in
+{{disambig}}

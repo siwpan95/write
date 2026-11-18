@@ -1,0 +1,65 @@
+{{CC Header|Necromantic Grimoire}}[[Category:Skyrim-Necromantic Grimoire]][[Category:Skyrim-Creation Club-Magic]]{{Spell Summary
+|spellid=FExxx874
+|tomeid=FExxx896
+|editorid=ccVSVSSE003_SPELL_SoulSplit
+|icon=SR-icon-spell-Banish.png
+|type=Offensive
+|cast=Fire and Forget
+|delivery=Target Actor
+|equip=Either Hand
+|school=Conjuration
+|diff=Apprentice 
+|duration=60
+|range=50 ft
+|magnitude=
+|area=
+|cost=96
+|charge=0,5
+|barter=100
+|desc=Sacrifice a friendly conjured or reanimated minion to summon 2 Sundered Shades for 60 seconds.
+|purchase=*[[Skyrim:Phinis Gestor|Phinis Gestor]]
+* {{huh}}
+|found=*Can be found upon an Enchanting Table in [[Skyrim:Ilinalta's Deep|Ilinalta's Deep]].
+}}
+'''Soul Split''' is an Apprentice level [[Skyrim:Conjuration|Conjuration]] spell added by the [[Skyrim:Necromantic_Grimoire|Necromantic Grimoire]] [[Skyrim:Creation Club|Creation]].
+==Effects==
+* Kills the target
+* [[Skyrim:Conjure|Conjure  Sundered Shade]], for 60 secs
+
+==Perks==
+* [[Skyrim:Necromancy|Necromancy]], Greater duration for spell.
+* [[Skyrim:Dark Souls|Dark Souls]], increases Health with 100.
+
+==Notes== 
+* Sundered Shades are immune to '''Soul Split'''.
+* Sundered Shades spawn on the same spot making it look like there is only one until you move away.
+*The Soul Split spell was inspired by a ''[[Legends:Legends|Legends]]'' card [[LG:Soul Split|of the same name]].
+
+{| class=wikitable width=100%
+! Creature ([[Skyrim:Form ID|ID]])
+! Lvl
+! {{Health Icon}}
+! {{Magicka Icon}}
+! {{Stamina Icon}}
+! Abilities
+! Attacks
+! [[Skyrim:Souls|Soul]]
+|-
+| Sundered Shade {{ID|FExxx8A9|par=1}}
+|style="text-align:center"| 4
+|style="text-align:center"| 77 / {{hover|With Dark Souls Perk.|177}}
+|style="text-align:center"| 128
+|style="text-align:center"| 50
+|
+* [[Skyrim:Waterwalking|Waterwalking]]
+* 100% [[Skyrim:Resist Poison|Resist Poison]]
+* 100% [[Skyrim:Resist Disease|Resist Disease]]
+* 25% [[Skyrim:Resist Frost|Resist Frost]]
+|
+*[[Skyrim:Frostbite|Frostbite]]
+*[[Skyrim:Ice Volley|Ice Volley]]
+|
+{{huh}}
+|}
+
+{{Skyrim Conjuration Spells}}

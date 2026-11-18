@@ -1,0 +1,49 @@
+<noinclude>{{Cleanup-srqrp
+|writtenBy=Multiple
+|checkedBy=
+|reward= Secunda
+|rewardChecked=
+}}</noinclude>{{Trail2|Dragonborn|Quests|link2=Dragonborn Quests|Miscellaneous|link3=Miscellaneous Quests}}{{Mod Header|Dragonborn}}
+[[Category:Skyrim-Quests]]{{Quest Header
+|notrail=1
+|Giver=[[Skyrim:Madman|Madman]]
+|Icon=
+|Reward= One of a series of [[Skyrim:Black Book (book)|Black Books]]
+|Prev=
+|Next=
+|Loc=[[Skyrim:Benkongerike|Benkongerike]], [[Skyrim:Kolbjorn Barrow|Kolbjorn Barrow]], [[Skyrim:Raven Rock Mine|Raven Rock Mine]], [[Skyrim:Tel Mithryn (tower)|Tel Mithryn Tower]], or [[Skyrim:White Ridge Barrow|White Ridge Barrow]]
+|Image=SR-quest-Black Book.jpg
+|ImgDesc=A Black Book
+|ID=DLC2WE06
+|description=Retrieve a Black Book from a dungeon.
+}}
+
+== Quick Walkthrough ==
+# Be approached by a [[Skyrim:Madman|madman]] ranting about a black book.
+# Kill the madman when he turns hostile and find his [[Skyrim:Scribbles of a Madman|note]] revealing the book's location.
+# Retrieve the black book from the dungeon.
+
+== Detailed Walkthrough ==
+In your travels across [[Skyrim:Solstheim|Solstheim]] you may come across a [[Skyrim:Madman|madman]] shouting things related to some [[Skyrim:Black Book (book)|mysterious books]]. He has a chance to spawn at several specific spots all over the island of Solstheim as part of a [[Skyrim:World Interactions#Black Book|world interaction]]. After a short conversation your map will be updated with the location of a Black Book and the madman will attack you. After defeating the madman you will need to travel to the location on your map to retrieve the Black Book.
+
+Possible locations you can be sent to include: [[Skyrim:Benkongerike|Benkongerike]], [[Skyrim:Kolbjorn Barrow|Kolbjorn Barrow]], [[Skyrim:Raven Rock Mine|Raven Rock Mine]],{{vn}} [[Skyrim:Tel Mithryn (tower)|Tel Mithryn Tower]], and [[Skyrim:White Ridge Barrow|White Ridge Barrow]].
+
+If the madman dies before he finishes the conversation, this quest will not be added unless you read the note on his body.
+
+== Notes ==
+*The madman will not approach you if you have already collected all of the [[Skyrim:Black Book (book)|Black Books]].
+*If the book you are sent to collect is the one in [[Skyrim:Tel Mithryn (tower)|Tel Mithryn]], you will not be able to access it until you've done a number of quests for [[Skyrim:Neloth|Neloth]], so this quest may remain open for a while.
+
+== Bugs ==
+{{Bug|Reading the madman's note can cause a glitched journal entry sending you to retrieve a book you have already found, for example to Tel Mithryn.|UDBP|1.0.4}}
+**{{pc22}} Type <code>SetStage DLC2WE06 200</code>. This clears the quest and removes the entry.
+{{Bug|After completing or leaving [[Skyrim:Black Book: Filament and Filigree (quest)|Filament and Filigree]] or [[Skyrim:Black Book: The Sallow Regent (quest)|The Sallow Regent]] you may hear a hissing sound.|vn=1}}
+**Reentering the book should remove the sound
+{{Bug|Even if you have collected all of the Black Books, this quest may activate, as the two main quest books are not properly excluded from the list.|UDBP|2.0.3}}
+
+== Quest Stages ==
+{{Journal Entries
+|50||{{Quest Objective|1|Find the Black Book in <Alias&#61;Dungeon>}}
+|missing=0, 10, 20, 100, 200, 255
+}}
+{{Skyrim Quest Stages Notes}}

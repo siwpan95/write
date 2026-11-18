@@ -1,0 +1,132 @@
+<noinclude>{{Cleanup-srqrp
+|writtenBy=Dreamshadow
+|checkedBy=
+|reward=Likelolwhat (None)
+|rewardChecked=82.69.158.102
+}}</noinclude>{{About|the Imperial version of this mission|the Stormcloak version|Battle for Whiterun (Stormcloaks)}}
+{{Quest Header
+|type=Imperial Legion
+|Giver=Automatic after [[SR:Message to Whiterun (Imperial)|Message to Whiterun (Imperial)]]
+|Reward=[[Skyrim:Imperial_Legion#Ranks|Quaestor]] rank with a [[Skyrim:Leveled Lists#Enchanted Weapons|leveled enchanted weapon]]
+|Disp= =2 ([[Skyrim:Balgruuf the Greater|Balgruuf the Greater]])
+|Rep=
+|Prev=[[Skyrim:Message to Whiterun (Imperial)|Message to Whiterun]]
+|Conc=
+|Next=[[Skyrim:Reunification of Skyrim|Reunification of Skyrim]],<br>''[[#Report to the Jarl of Whiterun|Report to the Jarl of Whiterun]]''
+|Loc=[[Skyrim:Whiterun|Whiterun]]
+|Image=SR-quest-Battle for Whiterun (Imperial) 02.jpg
+|ImgDesc=Smoke rising over Whiterun
+|description= Protect [[Skyrim:Whiterun|Whiterun]] from the [[Skyrim:Stormcloaks|Stormcloak]] invasion.
+|ID=CWSiegeObj<br>CWPostWhiterunObj
+|Icon=SR-qico-Imperial Legion.png
+|radiant=yes
+}}
+
+==Quick Walkthrough==
+# Meet with [[Skyrim:Legate Rikke|Legate Rikke]].
+# Defend [[Skyrim:Whiterun|Whiterun]].
+# Destroy the attacking force of [[Skyrim:Stormcloaks|Stormcloaks]].
+# Talk to Jarl [[Skyrim:Balgruuf the Greater|Balgruuf the Greater]] after his speech.
+
+==Detailed Walkthrough==
+===Battle for Whiterun===
+====The Burning City====
+[[File:SR-quest-Battle for Whiterun (Imperial) 03.jpg|thumb|right|The Burning City]]
+At the end of [[Skyrim:Message to Whiterun (Imperial)|Message to Whiterun]], report to [[Skyrim:Legate Quentin Cipius|Legate Quentin Cipius]] and he will tell you the latest news about the [[Skyrim:Stormcloaks|Stormcloaks]] and give you your new orders: ''"The Stormcloaks are here. In force. Get down to the front line. This is it. We must hold the city. Move it!"'' 
+
+Upon leaving [[Skyrim:Dragonsreach|Dragonsreach]], you will find [[Skyrim:Whiterun|Whiterun]] under siege by Stormcloak catapults. Along the city wall of the Plains District, the [[Skyrim:Imperial Legion|Imperial Legion]] will be returning fire with their own catapults. The streets will be busy with citizens running back to their houses and city guards making ready to fight the enemy. Whiterun will suffer great destruction during the battle. [[Skyrim:Severio Pelagia|Severio Pelagia]] will be killed and his [[Skyrim:Severio Pelagia's House|home]], as well as [[Skyrim:Heimskr's House|Heimskr's]], will be destroyed.
+
+====The Bleeding Battlefield====
+Just outside the city gates, you will find [[Skyrim:Legate Rikke|Legate Rikke]] on the strategically important main entryway, busy addressing a crowd of fully-armed Imperial Soldiers:
+
+''"This is it men! This is an important day for the Empire and for the Legion. And for all of Skyrim. This is the day we send a message to Ulfric Stormcloak and the rebel Jarls who support him. But make no mistake. What we do here today, we do for Skyrim and her people. By cutting out the disease of this rebellion, we will make this country whole again! Ready now! Everyone, with me! For the Empire! For the Legion! Rrrrrraaaaaaaaaaaaahhhhhhh!!!!"''
+
+Soon after Rikke finishes her speech, the Stormcloaks will start their attack. Their archers will provide suppression fire from a distance outside the gate, while the main force will move up the main road in groups. First, you need to defend the barricades, then the drawbridge. Finally, you need to kill attacking soldiers until the percentage of attackers remaining drops to zero. Legate Rikke and [[Skyrim:Hadvar|Hadvar]], both of whom are [[Skyrim:Essential NPCs|essential]] and cannot be killed, will give you a hand during the defense, so stay close to one or both of them if you are having difficulty. The united force of Whiterun guards and Imperial soldiers will take advantage of the fortifications and draw the attention of many enemies.
+
+Don't worry if you are unable to defend the barricades or drawbridge. It does not affect the ending of the quest or your reward. When the percentage of remaining attackers drops to zero, the battle will be over and this quest will be complete. Any surviving Stormcloaks will lose heart and flee the battlefield. This starts an unnamed miscellaneous quest with the objective ''[[#Report to the Jarl of Whiterun|Report to the Jarl of Whiterun]]''. Also, completion of [[Skyrim:Battle for Whiterun (Imperial)|Battle for Whiterun]] automatically starts the next quest [[Skyrim:Reunification of Skyrim|Reunification of Skyrim]].
+
+===Report to the Jarl of Whiterun===
+====The Inspiring Speech====
+[[File:SR-quest-Battle for Whiterun (Imperial) 04.jpg|thumb|right|The Inspiring Speech]]
+
+[[Skyrim:Irileth|Irileth]] will tell everyone to follow her, as [[Skyrim:Balgruuf the Greater|Jarl Balgruuf the Greater]] wishes to speak. You may listen to his speech after the combat:
+
+''"Revel in your victory here today, even as the gods revel in your honor! They already sing of your valor and skill! The halls of Sovngarde are no doubt ringing with your praises! In defeating these Stormcloak traitors, you have proven the hollowness of their cause and the fullness of your hearts. The citizens of Whiterun are forever in your debt! But Ulfric will not stop here. No, he will continue to strike out against any true Nord who remains faithful to the Empire. He will continue to sow discord and chaos wherever he can. And so, we must each one of us, continue to fight this insurrection, lest our fallen brothers have died for naught! Lest our honor be lessened should we allow these bloodthirsty beasts to prowl our lands! Carry on men, my gratitude and blessings go with you! For Whiterun! For the Empire!"''
+
+At the end of his speech, you may talk to him. The jarl will thank you and grant you the privilege of buying a house in his city, if you haven't already: ''"Thank you for your role in all of this. It'd be my honor should you decide to make Whiterun your home. Speak with Proventus. He'll make the necessary arrangements."''. This completes the miscellaneous quest.
+
+===Reward===
+As part of the next quest, [[Skyrim:Reunification of Skyrim|Reunification of Skyrim]], when you return to General Tullius in Solitude, he commends you for the victory and gives you the rank of [[Skyrim:Imperial_Legion#Ranks|Quaestor]], along with a [[Skyrim:Leveled Lists#Enchanted Weapons|leveled enchanted weapon]].
+
+==Notes==
+[[File:SR-quest-Battle for Whiterun (Imperial).jpg|thumb|right|The soldiers muster a defense of the city]]
+* This quest, [[Skyrim:Battle for Whiterun (Stormcloaks)|Battle for Whiterun (Stormcloaks)]], [[Skyrim:Battle for Solitude|Battle for Solitude]], and [[Skyrim:Battle for Windhelm|Battle for Windhelm]] are all different radiant versions of the same quest.
+* After Balgruuf finishes his speech, you can ask him why he chose to side with the Imperials and what it will take to win the war.
+** His response for why he sided with the Imperials will be ''"Mutual advantage! Any fool can see that. For centuries, we have benefitted from the Empire's protection, and prosperous trade with the south. In exchange, the people of [[Lore:Cyrodiil|Cyrodiil]] sleep peacefully, knowing that their northern border is guarded by the fiercest warriors in all Tamriel."''
+** His response for what it will take to win the war will be ''"Ulfric Stormcloak's head on a pike. Do you think Ulfric really cares about Skyrim's independence, or the welfare of its people? I promise you, he doesn't. He's nothing more than a barbarian renegade, whose lust for power has cost the lives of countless innocents."''
+* Even before this quest has begun, Whiterun Guards and Stormcloak soldiers can be seen engaging each other in combat.
+* If you previously befriended [[Skyrim:Fralia Gray-Mane|Fralia Gray-Mane]], Fralia will remain friendly after the Empire gains control of Whiterun.
+* If you previously told [[Skyrim:Idolaf Battle-Born|Idolaf Battle-Born]] that you support the Gray-Manes, Idolaf will remain hostile after the Empire gains control of Whiterun.
+* If [[Skyrim:Lucia|Lucia]]{{HF}} has been adopted, she will be transferred to the Bannered Mare until after the battle is over. This happens because her editor location is there and CWCitizensFlee will pick her up in one of the aliases.
+* [[Skyrim:The Bannered Mare|The Bannered Mare]] will have a barricade across the main entrance and both doors will be expert-locked, however if you pick the lock, both [[Skyrim:Hulda|Hulda]] and [[Skyrim:Saadia|Saadia]] will have their normal speech options, welcoming you and are willing to trade.
+* [[Skyrim:Breezehome|Breezehome]] becomes locked again, key required.
+* [[Skyrim:Honningbrew Meadery|Honningbrew Meadery]] is apprentice-locked during this battle, however if you pick the lock [[Skyrim:Sabjorn|Sabjorn]] will be back in charge with both him and [[Skyrim:Mallus Maccius|Mallus Maccius]] telling you to get out and treating you as if they don't know you. You are unable to trade with either of them.
+* You will be unable to enter [[Skyrim:Jorrvaskr|Jorrvaskr]] during or after the battle as all the doors require a key.
+* Your horse can easily be killed if it's waiting by the stables, as it does if you fast-traveled here.
+* Followers who are accompanying you when receiving this quest cannot exit the Whiterun city gates with you, and instead stay inside the walls until you return.
+** Select the "part ways" dialogue before leaving the city gates and recruit them again on the other side. This does not work for followers who return to Whiterun when dismissed, such as [[Skyrim:Lydia|Lydia]] or [[Skyrim:Jenassa|Jenassa]].
+** During the previous quest [[Skyrim:Message to Whiterun (Imperial)|Message to Whiterun]], tell your follower to wait just outside the city gates before returning Balgruuf's war axe to the jarl.
+*It can be somewhat difficult to keep the barricade intact because your own archers will shoot at it while trying to shoot the enemies. To get around this, you can run past the stable and into the field. This is essentially the spawn point. You will have to kill about 50 enemies by yourself, but they will prioritize attacking you over the town.
+**In fact, defending the city becomes much easier when exactly one of the barricades is down, as the gap will form a bottleneck and the Stormcloaks will ignore the other barricade.
+*There is a temporary Stormcloak camp outside the city next to the Meadery. If you run to it directly after the battle, there will be one Stormcloak Soldier in the large tent looking at the map, but no other inhabitants.
+*After this quest [[Skyrim:Fort Greymoor|Fort Greymoor]] will be garrisoned by Imperial Soldiers. Additionally, due to the destruction of [[Skyrim:Heimskr's House|his house]], [[Skyrim:Heimskr|Heimskr]] will preach outside the Shrine of Talos 24/7.
+**Heimskr was supposed to be arrested and sent to the Dragonsreach dungeon due to the Empire having control of Whiterun, but that never happens. In addition, the Shrine of Talos isn't affected in any way.
+
+==Bugs==
+{{Bug|[[Skyrim:Vilkas|Vilkas]] may fail to greet you properly after the battle is finished.|OSP|1.9}}
+{{Bug|Random [[Skyrim:Dragon|dragon]] attacks may occur in and around the city of Whiterun during this quest.|OSP|1.9.26.0.8}}
+{{Bug|[[Skyrim:Legate Quentin Cipius|Legate Quentin Cipius]] may not start this quest, instead giving only generic greetings.|confirmed=1}}
+** This bug is caused by quest aliases for the CWSiege quest failing to fill if they are missing.
+{{Bug|After this quest, Heimskr doesn't get arrested and instead simply preaches in front of the [[Skyrim:Shrines#Shrine of Talos|Shrine of Talos]] nonstop.|confirmed=1}}
+{{Bug|After you finish this quest, [...] may appear in your journal instead of the name of the next quest and the quest marker will disappear.|confirmed=1}}
+** Do not stand next to Balgruuf when he's running up the ramp to deliver his speech. Go stand in among the soldiers he will be addressing below him. Then you will be within the trigger area and the quest will correctly update.
+** Sometimes the bug is caused because the trigger area isn't spawning precisely in the correct location (it sometimes spawns too high, you can't hit it by walking through it).  So, another thing that often helps is after you deliver the axe to Ulfric, don't go straight back to Whiterun.  Spend time doing other things and other quests, away from the Whiterun cell, until the area has time to respawn '''with the quest flags set.'''  Otherwise, the area is all respawned with all the quest updates and alterations to the area all happening at once, the moment you enter the cell - and this sometimes glitches, ending up with the master quest being labeled [...].  This helps insure that by the time you DO go back to Whiterun, the trigger area will have spawned in the right spot (down around where the soldiers gather, in the grassy area near the entrance gate) and will update the quest correctly.
+{{Bug|NPCs such as Aela, Lydia, Lucia (if adopted), and your hired bard may appear as soon as you leave Whiterun and be attacked by the Whiterun guards. Additionally, no Stormcloak guards will spawn.|confirmed=1}}
+** Be sure to dismiss all followers before exiting the city gates, Additionally, move your family to a different city before you start this quest.
+** {{Pc22}}Use the [[Skyrim:Console|console]] command <code>setstage CWSiegeObj 9000</code> to complete the quest instead.
+{{Bug|Legate Rikke may not complete her speech, making the battle unwinnable. Balgruuf may also fail to give his speech at the end of the quest.|confirmed=1}}
+** Re-entering Whiterun's main gate may update the quest objective from "Meet with Legate Rikke" to "Defend the Barricades".
+** It is possible to attack Rikke until she becomes hostile, and then to yield to her, to move the quest forward. Balgruuf's speech may be bypassed simply by travelling away from the area after the battle. Both will prevent you from watching the entire scene, but will allow you to continue play.
+** This bug seems to be related to guards failing to travel to the mustering point prior to the battle, and therefore the speech scene being unable to proceed until those actors are in their correct positions -- possibly related to the locking main gate that prevents your followers from joining you for the battle.
+{{Bug|If you report to General Tullius before reporting to the Jarl of Whiterun, the miscellaneous quest ''[[#Report to the Jarl of Whiterun|Report to the Jarl of Whiterun]]'' will be stuck in your journal with no way to complete it.|confirmed=1}}
+**{{Pc22}}The console command <code>CompleteAllObjectives CWPostWhiterunObj</code> can be used to complete the related quest.
+{{Bug|Upon reaching the barricades, the Stormcloaks may run away but the quest will not update, leaving the quest marker at the barricades}}
+**Reloading the autosave from exiting Whiterun fixes this issue
+{{Bug|Rarely, after exiting Dragonsreach, the quest will update to 'Speak with General Tullius' and the battle will be skipped. NPCs will react as if you fought in the battle.}}
+{{Bug|When defending the barricades, if you destroy both of them yourself before the enemy does, the Stormcloaks will be unable to find the barricades and you will end up fighting on the field alone.|vn=1}}
+{{Bug|There is a rare situation where you and the enemies will not be able to destroy the barricades.|vn=1}}
+** Restarting the game will fix this.
+{{Bug|If you manage to keep the barricades intact, the drawbridge will not open. People then take the ramp and walk around the drawbridge ''towards'' Whiterun but drop off the wall moving ''away from'' Whiterun. The latter may result in people with low health dying due to the drop.|vn=1}}
+** Restarting the battle and letting the Stormcloaks destroy at least one barricade will fix this.
+** The drawbridge may be reenabled using console commands <code>prid 6a167</code>, then <code>disable</code>, then again <code>prid 17055</code> and <code>enable</code> reopening the path for the player. However, this does not reset the navmesh with NPCs still using the detour.
+
+==Quest Stages==
+Only the quest stages and objectives that are possibly relevant to this radiant version of the quest are shown.
+{{Journal Entries
+|name=Battle for Whiterun
+|id=CWSiegeObj
+|1||The Stormcloaks are attacking Whiterun. I have been ordered to defend the outer walls and keep the rebels from taking the city.
+|8999|fail|
+|9000|fin|We have successfully defended the city of Whiterun. Demonstrating the weakness of the rebels' cause and the excellence of the Imperial Legion.
+|''Unknown''||{{Quest Objective|2000|Meet with Legate Rikke}}
+{{Quest Objective|2030|Defend the Barricades}}
+{{Quest Objective|2040|Defend the Drawbridge}}
+{{Quest Objective|2999|Destroy Attackers (<Global&#61;CWPercentPoolRemainingAttacker>% Remaining)}}
+[[Category:Skyrim-SRQRP-Unknown Objectives]]
+|!|‎ |CWPostWhiterunObj
+|1||{{Quest Objective|1|Report to the Jarl of Whiterun}}
+|100|fin
+|missing=
+**CWFortSiege: 9999
+}}
+{{Skyrim Quest Stages Notes}}

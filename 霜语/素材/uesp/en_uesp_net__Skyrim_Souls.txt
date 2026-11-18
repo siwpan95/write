@@ -1,0 +1,254 @@
+{{Trail|Magic}}{{Incomplete|1=This page is in progress. Some creatures and information about them are missing. If you have some information about creatures, please help us by editing this page.}}
+{{About|the souls in soul gems|the NPCs in the Soul Cairn|Soul}}
+Every '''[[Lore:Souls|soul]]''' in Skyrim is one of six possible strengths: [[:Category:Skyrim-Souls-Petty|Petty]], [[:Category:Skyrim-Souls-Lesser|Lesser]], [[:Category:Skyrim-Souls-Common|Common]], [[:Category:Skyrim-Souls-Greater|Greater]], [[:Category:Skyrim-Souls-Grand|Grand]], and [[:Category:Skyrim-Souls-Black|Black]]. More powerful creatures have more powerful souls. When a creature or NPC dies under a [[Skyrim:Soul Trap (effect)|Soul Trap]] effect, its soul is captured in the smallest sufficiently-sized [[Skyrim:Soul Gems|soul gem]] in the player's inventory. A soul may fill a gem larger than itself, which may be undesirable if one is in short supply of large gems. Filled soul gems may be used for [[Skyrim:Enchanting|enchanting]] items and [[Skyrim:Enchanting#Recharging_Weapons|recharging weapons]].
+
+All NPCs, [[Skyrim:Dremora|Dremora]], and [[Skyrim:Ghost|ghosts]] have Black souls, which are as powerful as Grand souls but only fit in Black soul gems or [[Skyrim:The Black Star (item)|The Black Star]]. The soul level of any other creature is instead determined by its level as listed below; most creatures have a static level, but certain "leveled" creatures have a level equal to the player's level, possibly with a modifier (i.e. a multiplier or offset) applied.
+
+{| class="wikitable"
+! Soul Level !! Charge Capacity !! Creature Level
+|-
+|'''Petty'''||250||1-3
+|-
+|'''Lesser'''||500||4-15
+|-
+|'''Common'''||1000||16-27
+|-
+|'''Greater'''||2000||28-37
+|-
+|'''Grand'''||3000||38+ or [[Skyrim:NPCs|NPC]]
+|}
+
+==Souls Table==
+This table lists the soul levels of creatures in Skyrim, though not NPCs (all of them have Black souls). Leveled creatures have any level modifiers listed in superscript.  For "special" leveled creatures, see that creature's page.
+
+{| class="wikitable sortable striped" style="margin:0 auto"
+!Creature
+!Soul Level
+|-
+|[[Skyrim:Alpha Wolf|Alpha Wolf]]||Petty
+|-
+|[[Skyrim:Ash Hopper|Ash Hopper]]{{DB}}||Lesser
+|-
+|[[Skyrim:Ash Spawn|Ash Spawn]]{{DB}}||Common
+|-
+|[[Skyrim:Ash Spawn Skirmisher|Ash Spawn Skirmisher]]{{DB}}||Greater
+|-
+|[[Skyrim:Ash Spawn Immolator|Ash Spawn Immolator]]{{DB}}||Grand
+|-
+|[[Skyrim:Bear|Bear]]||Lesser
+|-
+|[[Skyrim:Betty Netch|Betty Netch]]{{DB}}||Grand
+|-
+|[[Skyrim:Bristleback|Bristleback]]{{DB}}||Lesser
+|-
+|[[Skyrim:Burnt Spriggan|Burnt Spriggan]]{{DB}}||Greater
+|-
+|[[Skyrim:Bull Netch|Bull Netch]]{{DB}}||Greater
+|-
+|[[Skyrim:Cave Bear|Cave Bear]]||Common
+|-
+|[[Skyrim:Chaurus Hunter|Chaurus Hunter]]{{DG}}||Greater
+|-
+|[[Skyrim:Chaurus Reaper|Chaurus Reaper]]||Common
+|-
+|[[Skyrim:Chaurus|Chaurus]]||Lesser
+|-
+|[[Skyrim:Chicken|Chicken]]||Petty
+|-
+|rowspan="2"|[[Skyrim:Corrupted Shade|Corrupted Shade]]
+|Leveled
+|-
+|Petty
+|-
+|[[Skyrim:Cow|Cow]]||Petty
+|-
+|[[Skyrim:Curalmil|Curalmil]]||Common
+|-
+|[[Skyrim:Deer|Deer]]||Petty
+|-
+|[[Skyrim:Death_Hound|Death Hound]]{{DG}}||Lesser
+|-
+|[[Skyrim:Dog|Dog]]||Petty
+|-
+|[[Skyrim:Dragon Priest|Dragon Priest]]||Grand
+|-
+|rowspan="2"|[[Skyrim:Draugr Death Overlord|Draugr Death Overlord]]||Greater
+|-
+|Grand
+|-
+|rowspan="3"|[[Skyrim:Draugr Deathlord|Draugr Deathlord]]||Common
+|-
+|Greater
+|-
+|Grand
+|-
+|[[Skyrim:Draugr Overlord|Draugr Overlord]]||Lesser
+|-
+|[[Skyrim:Restless Draugr|Draugr Restless]]||Lesser
+|-
+|[[Skyrim:Draugr Scourge Lord|Draugr Scourge Lord]]||Common
+|-
+|[[Skyrim:Draugr Scourge|Draugr Scourge]]||Common
+|-
+|[[Skyrim:Draugr Thrall|Draugr Thrall]]||Petty
+|-
+|[[Skyrim:Draugr Wight|Draugr Wight]]||Lesser
+|-
+|[[Skyrim:Draugr|Draugr]]||Petty
+|-
+|[[Skyrim:Dwarven Centurion|Dwarven Centurion]]||No soul (Resists Soul Trap)
+|-
+|[[Skyrim:Dwarven Sphere|Dwarven Sphere]]||No soul (Resists Soul Trap)
+|-
+|[[Skyrim:Dwarven Spider|Dwarven Spider]]||No soul (Resists Soul Trap)
+|-
+|[[Skyrim:Elk|Elk]]||Petty
+|-
+|[[Skyrim:Falmer Gloomlurker|Falmer Gloomlurker]]||Leveled<sup>L:-5</sup>
+|-
+|rowspan="2"|[[Skyrim:Falmer Nightprowler|Falmer Nightprowler]]||Common (Shaman)
+|-
+|Greater (Other)
+|-
+|rowspan="2"|[[Skyrim:Falmer Shadowmaster|Falmer Shadowmaster]]||Common
+|-
+|Grand
+|-
+|[[Skyrim:Falmer Skulker|Falmer Skulker]]||Lesser
+|-
+|rowspan="2"|[[Skyrim:Falmer Warmonger|Falmer Warmonger]]{{DG}}||Greater
+|-
+|Grand
+|-
+|[[Skyrim:Falmer|Falmer]]|| Lesser
+|-
+|[[Skyrim:Flame Atronach|Flame Atronach]]||Lesser
+|-
+|[[Skyrim:Fox|Fox]]||Petty
+|-
+|[[Skyrim:Frost Atronach|Frost Atronach]]||Common
+|-
+|[[Skyrim:Frost Giant|Frost Giant]]{{DG}}||Grand
+|-
+|[[Skyrim:Frost Troll|Frost Troll]]||Common
+|-
+|rowspan="2"|[[Skyrim:Frostbite Spider|Frostbite Spider]]||Petty
+|-
+|Lesser
+|-
+|[[Skyrim:Gargoyle|Gargoyle]]{{DG}}||Lesser
+|-
+|[[Skyrim:Giant Frostbite Spider|Giant Frostbite Spider]]||Lesser
+|-
+|[[Skyrim:Giant|Giant]]||Greater
+|-
+|[[Skyrim:Goat|Goat]]||Petty
+|-
+|[[Skyrim:Hagraven|Hagraven]]||Common
+|-
+|[[Skyrim:Horker|Horker]]||Petty
+|-
+|[[Skyrim:Horse|Horse]]||Lesser
+|-
+|[[Skyrim:Hulking Draugr|Hulking Draugr]]{{DG}}||Common
+|-
+|[[Skyrim:Ice Wolf|Ice Wolf]]||Lesser
+|-
+|[[Skyrim:Ice Wraith|Ice Wraith]]||Lesser
+|-
+|rowspan="3"|[[Skyrim:King Olaf One-Eye|King Olaf One-Eye]]||Common
+|-
+|Greater
+|-
+|Grand
+|-
+|[[Skyrim:Magic Anomaly|Magic Anomaly]]||Leveled<sup>L:1.75x</sup>
+|-
+|[[Skyrim:Mammoth|Mammoth]]||Grand
+|-
+|[[Skyrim:Mikrul Gauldurson|Mikrul Gauldurson]]||Common
+|-
+|[[Skyrim:Mounted Riekling|Mounted Riekling]]||Common
+|-
+|[[Skyrim:Mounted Riekling|Mounted Riekling]] (near Karstaag) ||Leveled<sup>L:Special</sup>
+|-
+|[[Skyrim:Mudcrab|Mudcrab]]||Petty
+|-
+|[[Skyrim:Netch Calf|Netch Calf]]{{DB}}||Common
+|-
+|rowspan="2"|[[Skyrim:Queen Potema#Potema's Remains|Potema's Remains]]||Common
+|-
+|Grand
+|-
+|[[Skyrim:Pit Wolf|Pit Wolf]]||Lesser
+|-
+|[[Skyrim:Rabbit|Rabbit]]||Petty
+|-
+|[[Skyrim:Red Eagle|Red Eagle]]||Leveled<sup>L:Special</sup>
+|-
+|[[Skyrim:Restless Draugr|Restless Draugr]]||Lesser
+|-
+|[[Skyrim:Riekling|Riekling]]||Lesser
+|-
+|[[Skyrim:Riekling Charger|Riekling Charger]]||Grand
+|-
+|[[Skyrim:Riekling Chief|Riekling Chief]]||Common
+|-
+|[[Skyrim:Riekling Courser|Riekling Courser]]||Greater
+|-
+|[[Skyrim:Riekling Hunter|Riekling Hunter]]||Common
+|-
+|[[Skyrim:Riekling Rider|Riekling Rider]]||Common
+|-
+|[[Skyrim:Riekling Scout|Riekling Scout]]||Lesser
+|-
+|[[Skyrim:Riekling Warrior|Riekling Warrior]]||Common
+|-
+|[[Skyrim:Sabre Cat|Sabre Cat]]||Lesser
+|-
+|[[Skyrim:Shade|Shade]]||Lesser
+|-
+|[[Skyrim:Sigdis Gauldurson|Sigdis Gauldurson]]||Common
+|-
+|[[Skyrim:Skeever|Skeever]]||Petty
+|-
+|[[Skyrim:Skeleton|Skeleton]]||Petty
+|-
+|[[Skyrim:Slaughterfish|Slaughterfish]]||Petty
+|-
+|[[Skyrim:Snow Bear|Snow Bear]]||Common
+|-
+|[[Skyrim:Snow Fox|Snow Fox]]||Petty
+|-
+|[[Skyrim:Snowy Sabre Cat|Snowy Sabre Cat]]||Lesser
+|-
+|[[Skyrim:Spectral Warhound|Spectral Warhound]]||Leveled
+|-
+|[[Skyrim:Spriggan Earth Mother|Spriggan Earth Mother]]{{DG}}||Greater
+|-
+|[[Skyrim:Spriggan Matron|Spriggan Matron]]||Common
+|-
+|[[Skyrim:Spriggan|Spriggan]]||Lesser
+|-
+|[[Skyrim:Storm Atronach|Storm Atronach]]||Greater
+|-
+|[[Skyrim:The Pale Lady|The Pale Lady]]||Greater
+|-
+|[[Skyrim:Troll|Troll]]||Lesser
+|-
+|[[Skyrim:Udefrykte|Udefrykte]]||Common
+|-
+|[[Skyrim:Venomfang Skeever|Venomfang Skeever]]||Lesser
+|-
+|[[Skyrim:Werebear|Werebear]]{{DB}}||Common
+|-
+|[[Skyrim:Werewolf|Werewolf]]||Lesser
+|-
+|[[Skyrim:Wispmother|Wispmother]]||Greater
+|-
+|[[Skyrim:Wisp|Wisp]]||Petty
+|-
+|[[Skyrim:Wolf|Wolf]]||Petty
+|-
+|[[Skyrim:Wounded Frostbite Spider|Wounded Frostbite Spider]]||Lesser
+|}

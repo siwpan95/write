@@ -1,0 +1,45 @@
+{{Place Summary
+|type=Town
+|marker_id=Town
+|locationcode=KarthwastenExterior01, KarthwastenExterior02, KarthwastenExterior03, KarthwastenExterior04, KarthwastenExteriorEdge
+|region=The Reach
+|location=Northeast of [[Skyrim:Markarth|Markarth]]<br>West of [[Skyrim:Broken Tower Redoubt|Broken Tower Redoubt]]
+|tanning=1
+|smelter=2
+|grindstone=1
+|stone=2
+|image=SR-place-Karthwasten.jpg
+|imgdesc=Karthwasten
+|description=a mining [[Skyrim:Towns|town]] in the northern [[Skyrim:The Reach|Reach]].
+}}
+[[Skyrim:Ainethach|Ainethach]] is the owner of the whole town including the two surrounding mines. The mines at Karthwasten are two of the few mines in the Reach that are not owned by a [[Skyrim:Nord|Nord]].
+
+When you first enter Karthwasten, you will see the townsfolk squaring off against a group of mercenaries sent by the [[Skyrim:Thonar Silver-Blood#Silver-Blood Family|Silver-Blood family]] in [[Skyrim:Markarth|Markarth]] to stop them from working [[Skyrim:Sanuarach Mine|Sanuarach Mine]] until Ainethach agrees to sell the land to them.
+
+The town consists of three buildings in a semicircle: [[Skyrim:Karthwasten Hall|Karthwasten Hall]], where Ainethach lives, [[Skyrim:Enmon's House|Enmon's house]], where [[Skyrim:Enmon|Enmon]] lives with his wife [[Skyrim:Mena|Mena]] and daughter [[Skyrim:Fjotra|Fjotra]], and the [[Skyrim:Karthwasten Miner's Barracks|miner's barracks]], where [[Skyrim:Belchimac|Belchimac]], [[Skyrim:Lash gra-Dushnikh|Lash gra-Dushnikh]], and [[Skyrim:Ragnar|Ragnar]] live. There is a [[Skyrim:Tanning Rack|tanning rack]] in front of Karthwasten Hall and a [[Skyrim:Grindstone|grindstone]] on the deck in front of the miner's barracks.
+
+Sanuarach Mine is the main [[Skyrim:Silver|silver]] mine. Its only entrance is north of Karthwasten Hall. In front of the entrance is a [[Skyrim:Smelter|smelter]], three pieces of [[Skyrim:Silver Ore|silver ore]] in a cart opposite, and a [[Skyrim:Juniper Berries|Juniper]] tree on a rock. The entrance to [[Skyrim:Fenn's Gulch Mine|Fenn's Gulch Mine]] is at the northwestern end of town and has another smelter, two [[Skyrim:Silver Ingot|silver ingots]], and a piece of silver ore to the left of the entrance, with another Juniper tree to the right of the entrance.
+
+{{NewLeft}}
+==[[Skyrim:Karthwasten People|Karthwasten Residents]]==
+{{Skyrim:Karthwasten People}}
+
+==Related Quests==
+===Quests Starting Here===
+====[[Skyrim:Miscellaneous Quests|Miscellaneous Quests]]====
+{{Skyrim:Miscellaneous Quests/Karthwasten}}
+
+===Other Quests===
+====[[Skyrim:Side Quests|Side Quests]]====
+* {{Quest Link|The Heart of Dibella}}
+
+====[[Skyrim:Miscellaneous Quests|Miscellaneous Quests]]====
+* {{Quest Link|Gharol's Message}}
+
+==Notes==
+* Northeast of Karthwasten, there is a small bloodied altar holding a [[Skyrim:Black Soul Gem|black soul gem]] and a piece of bloodied cheese.
+* East-northeast of Karthwasten, on a hill facing down to the river next to a circle of ancient stones, there is a [[Skyrim:Corundum Ore Vein|corundum ore vein]].
+* West of Karthwasten, below the hill with the [[Skyrim:Shrine to Peryite|Shrine to Peryite]], there is an unmarked stone totem with a dead body and some loot.
+* Karthwasten appears in ''[[Arena:Arena|Arena]]'' as [[Arena:Karthwasten Hall|Karthwasten Hall]], and also [[Online:Karthwasten|appears]] in [[Online:Online|ESO]].
+
+{{Skyrim Settlements}}

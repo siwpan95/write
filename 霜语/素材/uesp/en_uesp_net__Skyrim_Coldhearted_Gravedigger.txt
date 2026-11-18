@@ -1,0 +1,30 @@
+{{NPC Summary
+|city=[[Skyrim:Windhelm|Windhelm]]
+|loc=[[Skyrim:Hall of the Dead (Windhelm)|Hall of the Dead]]
+|race=Nord
+|gender=Female
+|class=[[Skyrim:Warrior (class)|Warrior]]
+|faction={{Faction|DBRecuringTarget9CrimeFaction}}
+|refid=000A031F
+|baseid=00087B9D
+|image=SR-npc-Coldhearted_Gravedigger.jpg
+|imgdesc=Coldhearted Gravedigger
+|class_details=[[Skyrim:CombatWarrior2H|CombatWarrior2H]]
+|skills=[[Skyrim:Two-handed|Two-handed]]
+|aggress=Aggressive
+|level=1
+|moral=No Crime
+|health=50
+|magicka=50
+|stamina=50
+|voicetype=FemaleEvenToned
+}}
+The '''Coldhearted Gravedigger''' is a [[Skyrim:Nord|Nord]] [[Skyrim:Warrior (class)|warrior]] who may appear in the [[Skyrim:Hall of the Dead (Windhelm)|Hall of the Dead]] in [[Skyrim:Windhelm|Windhelm]] during the quest [[Skyrim:The Dark Brotherhood Forever|The Dark Brotherhood Forever]]. She is one of ten possible targets.
+
+The Gravedigger wears farm [[Skyrim:Clothes#000261c0|clothes]] along with a pair of [[Skyrim:Boots#000261bd|boots]] and a pair of [[Skyrim:Gloves#000261c1|gloves]]. She wields an [[Skyrim:Iron Dagger|iron dagger]] in combat.
+{{NewLeft}}
+==Related Quests==
+* {{Quest Link|The Dark Brotherhood Forever}}
+==Quest-Related Events==
+If spoken to she will say:
+:''"I'm dying for a rest. I swear, I could lie down right now, and just sleep forever."''

@@ -1,0 +1,41 @@
+{{Place Summary
+|type=Town
+|marker_id=Town
+|zones=1
+|respawn=see [[#Notes|Notes]]
+|occupants=[[Skyrim:Bandit|Bandits]], [[Skyrim:Imperial Legion|Imperial Legion Soldiers]], [[Skyrim:Stormcloaks|Stormcloak Soldiers]]
+|locationcode=HelgenExterior
+|region=Falkreath Hold
+|location=South of [[Skyrim:Riverwood|Riverwood]]<br>North of [[Skyrim:Greywater Grotto|Greywater Grotto]]
+|image=SR-place-Helgen 02.jpg
+|imgdesc=Helgen before the dragon attack
+|description=a [[Skyrim:Towns|town]] in eastern [[Skyrim:Falkreath Hold|Falkreath Hold]].
+}}[[File:SR-place-Helgen.jpg|thumb|right|Helgen after the dragon attack]]
+It is the location where you begin the game, as you are transported there to be executed. Largely run by the [[Skyrim:Imperial Legion|Imperial military]], the town features several fortified towers and buildings. Shortly after your arrival, the settlement comes under attack by the ancient [[Skyrim:Dragon|dragon]] [[Skyrim:Alduin|Alduin]], and you are forced to escape through [[Skyrim:Helgen Keep|Helgen Keep]].
+
+If you return to the town after visiting [[Skyrim:Whiterun|Whiterun]], the ruins will be inhabited by a group of [[Skyrim:Bandit|bandits]].
+
+{{NewLeft}}
+==[[Skyrim:Helgen People|Helgen People]]==
+{{Skyrim:Helgen People}}
+
+==Related Quests==
+* {{Quest Link|Unbound}}
+
+==Notes==
+* During the introductory sequence before the initial quest [[Skyrim:Unbound|Unbound]], [[Skyrim:Ralof|Ralof]] remembers [[Skyrim:Vilod|Vilod]], who used to make [[Skyrim:Mead with Juniper Berry|mead with juniper berries]]. If you later return to Helgen, bottles of this mead may be found on the second floor of the partly destroyed inn you jumped into during Unbound.
+* Two additional residents are present during the introductory sequence; these unnamed NPCs are referenced only as <code>MQ101GenericCivilianNordMale</code> and <code>MQ101GenericCivilianNordFemale</code> in the game data. They're seen carrying firewood and a bucket inside the gate when the carriage enters town, but are never seen again.
+* Helgen doesn't count as a discovered location, and therefore won't count toward the [[Skyrim:Explorer|Explorer]] achievement.
+* Helgen is the default destination for bad AI targets, meaning that bugged NPCs may end up wandering nearby.
+* Approximately halfway down the road to [[Skyrim:Pinewatch|Pinewatch]], a small group of bandits has set up camp under an overhanging ledge. The bandits guard a novice-locked chest and a copy of the [[Skyrim:Light Armor|Light Armor]] [[Skyrim:Skill Books|skill book]] ''[[Skyrim:The Refugees|The Refugees]]''.
+* The locked gate, bandits, barrels, chest, potions, mead bottles, Cast Iron Pot, Wooden Bowl, Kettle, Basket, Wooden Ladle and Tankard respawn; burnt corpses, the wardrobe, and the end table don't respawn.
+*The double bed at the inn is considered “owned”; however, if you choose to escape Helgen with Hadvar, you will be allowed to sleep in the bed after becoming friends with his uncle Alvor.
+*This wiki's current Skyrim satellite map displays Helgen in its original state; the previous one displayed Helgen in its destroyed state.
+
+==Bugs==
+{{Bug|The mead with juniper berries isn't properly enabled during your arrival and will only appear upon your later return to Helgen.|USKP|1.2.1}}
+{{Bug|Vilod and Matlara are left alive after the dragon attack and can be seen wandering Helgen after its destruction.|USKP|1.3.3}}
+{{Bug|When [[Skyrim:Valdimar|Valdimar]] is assigned as a Housecarl for [[Skyrim:Windstad Manor|Windstad Manor]], he may be found here instead.|UHFP|1.0.3}}
+{{Bug|Bandits, containers, and items don't have their encounter zone set and will respawn despite being in a "no reset" zone.|USSEP|4.0.8}}
+
+{{Skyrim Settlements}}

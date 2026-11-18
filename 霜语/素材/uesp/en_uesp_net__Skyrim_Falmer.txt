@@ -1,0 +1,1150 @@
+{{Trail|Creatures|Monsters}}[[Category:Skyrim-Souls-Lesser]][[Category:Skyrim-Creatures-All]]
+[[Category:Skyrim-Creatures-Monsters-Falmer]]
+[[File:SR-creature-Falmer 02.jpg|thumb|right|A Falmer crouching in a Dwemer ruin]]
+'''Falmer''', once known as '''Snow Elves''', were thought to have been hunted to extinction by the [[Skyrim:Nord|Nords]]. They now live deep underground and have devolved into disfigured, violent remnants of their former selves, with their senses having adapted to a life in the dark. Their primitive [[SR:Falmer Weapons|weapons]] and [[SR:Falmer Armor|armor]] are made from [[SR:Chaurus Chitin|chaurus chitin]], and they often live near [[Skyrim:Chaurus|chaurus]], apparently keeping some of them as livestock. Despite their elvish heritage, the Falmer are considered to be creatures, not NPCs (and therefore they do not have black [[Skyrim:Souls|souls]]).  They tend to prefer poisoning their weapons with toxins developed from both chaurus and [[Skyrim:Frostbite Spider|Frostbite Spider]] venom. They often make their lairs in close proximity to [[Lore:Dwemer|Dwemer]] technology, apparently unwilling to wander far from where their ancestors took shelter from the Nords. In dungeons, Falmer often emerge from [[SR:Falmer Hive|hive traps]] to ambush you.  Falmer are blind and hunt by sound. Although their hearing is very sensitive, their lack of sight can be used against them if you can move silently or attack from a distance. 
+{{TOCleft|limit=3}}
+The ''[[Skyrim:Dawnguard|Dawnguard]]'' [[Skyrim:Add-ons|add-on]] adds further depth to the history of the Falmer. [[Skyrim:Knight-Paladin Gelebor|Knight-Paladin Gelebor]], one of two known surviving Snow Elves, recounts how the Snow Elves sought protection from their Nord enemies long ago.  The Dwemer agreed to shelter them, but at a high cost: the Snow Elves were forced to eat a toxic fungus, which rendered them completely blind. This was an extremely unsavory choice in the eyes of many of the Snow Elves, but those who sought alternatives to the deal were either killed (by the Dwemer or others), relented, or simply vanished. In time, the now-blinded Falmer became slaves to their Dwemer protectors.  In light of their sad fate, Gelebor refers to the monstrous Falmer in contemporary Skyrim as "the Betrayed".  He also claims that the toxin the Dwemer used to blind them is not responsible for the sorry state of contemporary Falmer, and hints that the rest of the transformation can be explained by thousands of years of evolution.
+{{NewLine}}
+
+==Falmer Types==
+Falmer utilize a variety of fighting styles, including melee, ranged, and magic attacks. The specific variety you will meet is level-dependent, and you will continue to meet low-level versions even at high levels. Boss-level Falmer, however, will always be at the highest possible level. The ''Dawnguard'' add-on adds the Falmer Warmonger, which is one of the few creatures to have a grand soul.
+
+All Falmer are blind (80 pts) and have a [[SR:Fortify Sneak|Fortify Sneak]] ability (30 pts). Most Falmer you will encounter are male; in fact, the Falmer listed in the tables below are all male in the base game. If ''Dawnguard'' is installed, however, the Falmer shaman will all be female and wear a special female Falmer outfit (their gender is still marked as male in the game data, however; only the Falmer Warmonger shaman is actually marked as being female).
+
+Any Falmer that uses martial attacks (all types except shaman) also has a leveled "Falmer Poison" perk, which allows them to apply a leveled poison to their weapons.  This poison is actually a spell that lasts for 3-4 seconds and causes a set amount of damage to health on hit (rather than damage per second over time).
+
+{{NewLine}}
+{{SkyrimBox/Start|text-color=black|main-color=#FBEFD5}}
+===Melee Fighters===
+[[File:SR-creature-Falmer Melee.jpg|thumb|right|A Falmer fighter carrying a Falmer sword]]
+These Falmer prefer to fight up close, wielding a fearsome weapon in one hand and a shield in the other.  In addition to a [[SR:Falmer Shield|Falmer Shield]], they carry either a [[SR:Falmer Sword|Falmer Sword]], a [[SR:Honed Falmer Sword|Honed Falmer Sword]], a [[SR:Falmer War Axe|Falmer War Axe]], or a [[SR:Honed Falmer War Axe|Honed Falmer War Axe]].  Falmer of level 22 or higher (except Warmongers) will also be equipped with a [[SR:Falmer Helmet|Falmer Helmet]].  
+
+In addition to the gear listed above, melee Falmer loot includes the following items:
+* 50% chance to carry leveled amount of gold
+* 75% chance to carry [[SR:Gems|gems]], [[SR:Ore|ore]], Dwemer metal objects, [[SR:Ingredients|ingredients]] (common, uncommon, or rare), a shovel or pickaxe, or [[SR:Damage Health|damage health]] [[SR:Poisons|poisons]]
+* May also drop [[SR:Falmer Ear|Falmer ears]] (one at a 50% chance, one at a 25% chance)
+* Falmer of level 15 or higher have a 50% chance of having a healing potion (Falmer Shadowmasters and Warmongers are guaranteed to carry one)
+
+If ''Dawnguard'' is installed, Falmer Skulkers, Gloomlurkers, Nightprowlers, and Shadowmasters may spawn either with the default gear listed above, or with the same heavy armor outfit as the Falmer Warmongers.  These "heavy armor" alternatives are identified by the "[[SR:Form ID|xx]]" at the beginning of the IDs listed in the table below.  Falmer Warmongers are equipped with the following armor:
+* '''Boots''': 25% chance to have either [[SR:Falmer Hardened Boots|Falmer Hardened Boots]] or [[SR:Falmer Heavy Boots|Falmer Heavy Boots]]
+* '''Cuirass''': 75% chance to have either [[SR:Falmer Hardened Armor|Falmer Hardened Armor]] or [[SR:Falmer Heavy Armor|Falmer Heavy Armor]]
+* '''Gauntlets''': 25% chance to have either [[SR:Falmer Hardened Gauntlets|Falmer Hardened Gauntlets]] or [[SR:Falmer Heavy Gauntlets|Falmer Heavy Gauntlets]]
+* '''Helmet''': either a [[SR:Falmer Hardened Helm|Falmer Hardened Helm]] or a [[SR:Falmer Heavy Helm|Falmer Heavy Helm]]
+{| class="wikitable"
+! Name !! PC Level !! NPC Level !! [[Skyrim:Form ID|IDs]] !! {{Health Icon}} !! {{Magicka Icon}} !! {{Stamina Icon}} !! Perks
+|-
+|Falmer
+|align=center|1
+|align=center|9
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|00023a99}}
+|-
+|{{M|size=14x14px}} || {{ID|00052382}}
+|}
+|align=center|180
+|align=center|177	
+|align=center|163
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 1.5|Extra Damage 1.5]] 
+|-
+|• Falmer Poison <small>(5 pts for 3 sec.)</small>
+|}
+|-
+|Falmer Skulker
+|align=center|15
+|align=center|15
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|00023a9a}}
+|-
+|{{M|size=14x14px}} || {{ID|xx00e8e4}}
+|}
+|align=center|290
+|align=center|197
+|align=center|198
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 2|Extra Damage 2]]
+|-
+|• Falmer Poison <small>(6 pts for 3 sec.)</small>
+|}
+|-
+|Falmer Gloomlurker
+|align=center|22
+|align=center|22
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|00023a9b}}
+|-
+|{{M|size=14x14px}} || {{ID|xx00e8e8}}
+|}
+|align=center|410
+|align=center|220
+|align=center|210
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 2|Extra Damage 2]]
+|-
+|• Falmer Poison <small>(7 pts for 3 sec.)</small>
+|}
+|-
+|Falmer Nightprowler
+|align=center|30
+|align=center|30
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|00023a9c}}
+|-
+|{{M|size=14x14px}} || {{ID|xx00e8ee}}
+|}
+|align=center|550
+|align=center|197
+|align=center|300
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 2.5|Extra Damage 2.5]]
+|-
+|• Falmer Poison <small>(9 pts for 3 sec.)</small> 
+|}
+|-
+|{{Anchor|Falmer Shadowmaster}}
+|align=center|38
+|align=center|38
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|00023a9d}}
+|-
+|{{M|size=14x14px}} || {{ID|xx00e8ef}}
+|}
+|align=center|700
+|align=center|273
+|align=center|362
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 2.5|Extra Damage 2.5]]
+|-
+|• Falmer Poison <small>(12 pts for 3 sec.)</small>
+|}
+|-
+|{{Anchor|Falmer Warmonger}}{{DG}}
+|align=center|48
+|align=center|48
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|xx015caa}}
+|}
+|align=center|920
+|align=center|307
+|align=center|378
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 2.5|Extra Damage 2.5]]
+|-
+|• Falmer Poison <small>(12 pts for 4 sec.)</small>
+|}
+|}
+
+====Melee Bosses====
+[[File:SR-creature-Falmer Warmonger.jpg|thumb|right|A Falmer Warmonger in full heavy armor]]
+Falmer melee bosses have the same equipment and loot as the melee Falmer listed above, but appear at higher levels.  At low levels, Falmer bosses can be much more difficult than normal Falmer; at higher levels, the bosses are actually lower level than regular melee Falmer, but have slightly higher stats.
+
+{| class="wikitable"
+! Name !! PC Level !! NPC Level !! [[Skyrim:Form ID|IDs]] !! {{Health Icon}} !! {{Magicka Icon}} !! {{Stamina Icon}} !! Spells !! Perks
+|-
+|Falmer Skulker
+|align=center|1-22
+|align=center|18
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|00052387}}
+|}
+|align=center|370
+|align=center|182	
+|align=center|228
+|style="font-size:90%"|• [[SR:Healing|Healing]]
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 2|Extra Damage 2]]
+|-
+|• Falmer Poison <small>(6 pts for 3 sec.)</small>
+|}
+|-
+|Falmer Gloomlurker
+|align=center|38
+|align=center|26
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|0005238c}}
+|}
+|align=center|500
+|align=center|233
+|align=center|242
+|style="font-size:90%"|• [[SR:Healing|Healing]]
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 2|Extra Damage 2]]
+|-
+|• Falmer Poison <small>(7 pts for 3 sec.)</small>
+|}
+|-
+|Falmer Nightprowler
+|align=center|46
+|align=center|35
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|0005238d}}
+|}
+|align=center|640
+|align=center|213
+|align=center|357
+|style="font-size:90%"|• [[SR:Healing|Healing]]
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 2.5|Extra Damage 2.5]]
+|-
+|• Falmer Poison <small>(9 pts for 3 sec.)</small>
+|}
+|-
+|Falmer Shadowmaster
+|align=center|54
+|align=center|44
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|0005238e}}
+|}
+|align=center|830
+|align=center|293
+|align=center|372
+|style="font-size:90%"|• [[SR:Healing|Healing]]
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 2.5|Extra Damage 2.5]]
+|-
+|• Falmer Poison <small>(12 pts for 3 sec.)</small>
+|}
+|-
+|Falmer Warmonger{{DG}}
+|align=center|64
+|align=center|54
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|xx015cb2}}
+|}
+|align=center|930
+|align=center|327
+|align=center|388
+|style="font-size:90%"|• [[SR:Healing|Healing]]
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 2.5|Extra Damage 2.5]]
+|-
+|• Falmer Poison <small>(12 pts for 4 sec.)</small> 
+|}
+|}
+{{NewLine}}
+
+===Archers===
+[[File:SR-creature-Falmer Archer.jpg|thumb|right|A Falmer archer stalking toward his enemy]]
+Some Falmer prefer to stay at a distance and assault you with missile attacks.  These archers wield a [[SR:Falmer Bow|Falmer Bow]] and carry 12 [[SR:Falmer Arrow|Falmer Arrows]], and have a chance to carry a small number of other arrows (of any quality from [[SR:Iron|iron]] to [[SR:Daedric|Daedric]]).  Level 1 archers also carry a Falmer Sword, and any archer of level 22 or higher is equipped with a Falmer Helmet.
+
+In addition to the gear listed above, Falmer archer loot includes the following items:
+* 50% chance to carry leveled amount of gold
+* 75% chance to carry gems, ore, Dwemer metal objects, ingredients (common, uncommon, or rare), a shovel or pickaxe, or damage health poisons
+* May also drop Falmer Ears (one at a 50% chance, one at a 25% chance)
+
+If ''Dawnguard'' is installed, Falmer Warmonger archers will appear starting at level 48.  These heavily-armored Falmer have the following equipment in addition to the gear listed above:
+* '''Boots''': 25% chance to have either Falmer Hardened Boots or Falmer Heavy Boots
+* '''Cuirass''': 75% chance to have either Falmer Hardened Armor or Falmer Heavy Armor
+* '''Gauntlets''': 25% chance to have either Falmer Hardened Gauntlets or Falmer Heavy Gauntlets
+* '''Helmet''': either a Falmer Hardened Helm or a Falmer Heavy Helm
+{| class="wikitable"
+! Name !! PC Level !! NPC Level|Level !! [[Skyrim:Form ID|IDs]] !! {{Health Icon}} !! {{Magicka Icon}} !! {{Stamina Icon}} !! Perks
+|-
+|Falmer
+|align=center|1
+|align=center|9
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|00025d2c}}
+|-
+|{{M|size=14x14px}} || {{Small|00052385}}
+|}
+|align=center|180
+|align=center|177
+|align=center|163
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 1.5|Extra Damage 1.5]]
+|-
+|•  Falmer Poison <small>(5 pts for 3 sec.)</small>
+|}
+|-
+|Falmer Skulker
+|align=center|15
+|align=center|15
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|00025d2a}}
+|}
+|align=center|290
+|align=center|197
+|align=center|198
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 2|Extra Damage 2]]
+|-
+|• Falmer Poison <small>(6 pts for 3 sec.)</small>
+|}
+|-
+|Falmer Gloomlurker
+|align=center|22
+|align=center|22
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|00025d24}}
+|}
+|align=center|410
+|align=center|220
+|align=center|210
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 2|Extra Damage 2]]
+|-
+|• Falmer Poison <small>(7 pts for 3 sec.)</small>
+|}
+|-
+|Falmer Nightprowler
+|align=center|30
+|align=center|30
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|00025d26}}
+|}
+|align=center|550
+|align=center|197
+|align=center|300
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 2.5|Extra Damage 2.5]]
+|-
+|• Falmer Poison <small>(9 pts for 3 sec.)</small>
+|}
+|-
+|Falmer Shadowmaster
+|align=center|38
+|align=center|38
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|00025d28}}
+|}
+|align=center|700
+|align=center|273
+|align=center|362
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 2.5|Extra Damage 2.5]]
+|-
+|• Falmer Poison <small>(12 pts for 3 sec.)</small>
+|}
+|-
+|Falmer Warmonger{{DG}}
+|align=center|48
+|align=center|48
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|xx015caf}}
+|}
+|align=center|920
+|align=center|307
+|align=center|378
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 2.5|Extra Damage 2.5]]
+|-
+|• Falmer Poison <small>(12 pts for 4 sec.)</small>
+|}
+|}
+{{NewLine}}
+
+===Shaman===
+[[File:SR-creature-Falmer Skulker.jpg|thumb|right|A Falmer Shaman wielding her bound sword]]
+[[File:SR-creature-Falmer Shadowmaster.jpg|thumb|right|A Shadowmaster shaman using a staff of Lightning Bolts]]
+Falmer shaman are skilled spellcasters, relying primarily on the use of offensive spells in combat.  Although they do not know the [[SR:Bound Sword|Bound Sword]] spell, all shaman carry a bound sword with the following enchantments: Banish Summoned (an effect that functions like the [[SR:Oblivion Binding|Oblivion Binding]] perk), [[SR:Soul Trap (effect)|Soul Trap]] (5 seconds), and Turn Raised Undead (essentially a [[SR:Turn Undead (effect)|Turn Undead]] effect).  Falmer shaman do not wear armor.
+
+In addition to the gear listed above, Falmer shaman loot includes the following items:
+* 50% chance to carry leveled amount of gold
+* 75% chance to carry a selection of ore, ingredients (common, uncommon, or rare), damage health poisons, or [[SR:Soul Gems|soul gems]]
+* May also drop Falmer Ears (one at a 50% chance, one at a 25% chance)
+
+If ''Dawnguard'' is installed, Falmer Warmonger shaman will appear starting at level 48.  They do not wear heavy armor like their martial counterparts, but they do have a chance to carry either a Bound Sword or a staff of [[SR:Firebolt|Firebolts]], [[SR:Ice Spike|Ice Spikes]], or [[SR:Lightning Bolt|Lightning Bolts]].
+
+{| class="wikitable"
+! Name !! PC Level !! NPC Level|Level !! [[Skyrim:Form ID|IDs]] !! {{Health Icon}} !! {{Magicka Icon}} !! {{Stamina Icon}} !! Spells !! Perks
+|-
+|Falmer
+|align=center|1
+|align=center|5
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{F|size=15x15px}} || {{ID|00025d36}}
+|}
+|align=center|133
+|align=center|120
+|align=center|157
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Fast Healing|Fast Healing]]
+|-
+|• [[SR:Ice Spike|Ice Spike]]
+|-
+|• [[SR:Lesser Ward|Lesser Ward]]
+|-
+|• [[SR:Oakflesh|Oakflesh]]
+|-
+|• [[SR:Sparks|Sparks]]
+|}
+| ''None''
+|-
+|Falmer Skulker
+|align=center|15
+|align=center|8
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{F|size=15x15px}} || {{ID|00025d34}}
+|}
+|align=center|183
+|align=center|185
+|align=center|187
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Frostbite|Frostbite]]
+|-
+|• [[SR:Lightning Bolt|Lightning Bolt]]
+|-
+|• [[SR:Steadfast Ward|Steadfast Ward]]
+|-
+|• [[SR:Stoneflesh|Stoneflesh]]
+|}
+|style="font-size:90%"|• [[SR:Extra Damage 1.5|Extra Damage 1.5]]
+|-
+|Falmer Gloomlurker
+|align=center|22
+|align=center|14
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{F|size=15x15px}} || {{ID|00025d2e}}
+|}
+|align=center|258
+|align=center|265
+|align=center|197
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Fast Healing|Fast Healing]]
+|-
+|• [[SR:Frostbite|Frostbite]]
+|-
+|• [[SR:Ice Spike|Ice Spike]]
+|-
+|• [[SR:Lightning Cloak|Lightning Cloak]]
+|-
+|• [[SR:Steadfast Ward|Steadfast Ward]]
+|}
+|style="font-size:90%"|• [[SR:Extra Damage 2|Extra Damage 2]]
+|-
+|Falmer Nightprowler
+|align=center|30
+|align=center|19
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{F|size=15x15px}} || {{ID|00025d30}}
+|}
+|align=center|350
+|align=center|340
+|align=center|230
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Fast Healing|Fast Healing]]
+|-
+|• [[SR:Ice Spike|Ice Spike]]
+|-
+|• [[SR:Sparks|Sparks]] 
+|-
+|• [[SR:Steadfast Ward|Steadfast Ward]] 
+|-
+|• [[SR:Stoneflesh|Stoneflesh]]
+|}
+|style="font-size:90%"|• [[SR:Extra Damage 2|Extra Damage 2]]
+|-
+|Falmer Shadowmaster
+|align=center|38
+|align=center|25
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{F|size=15x15px}} || {{ID|00025d32}}
+|}
+|align=center|400
+|align=center|420
+|align=center|240
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Fast Healing|Fast Healing]] 
+|-
+|• [[SR:Frost Cloak|Frost Cloak]] 
+|-
+|• [[SR:Ironflesh|Ironflesh]] 
+|-
+|• [[SR:Lightning Bolt|Lightning Bolt]] 
+|-
+|• [[SR:Steadfast Ward|Steadfast Ward]]
+|}
+|style="font-size:90%"|• [[SR:Extra Damage 2|Extra Damage 2]]
+|-
+|Falmer Warmonger{{DG}}
+|align=center|48
+|align=center|35
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{F|size=15x15px}} || {{ID|xx015cb0}}
+|}
+|align=center|533
+|align=center|470
+|align=center|257
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Chain Lightning|Chain Lightning]] 
+|-
+|• [[SR:Fast Healing|Fast Healing]] 
+|-
+|• [[SR:Frost Cloak|Frost Cloak]] 
+|-
+|• [[SR:Ironflesh|Ironflesh]] 
+|-
+|• [[SR:Lightning Bolt|Lightning Bolt]] 
+|-
+|• [[SR:Steadfast Ward|Steadfast Ward]]
+|}
+|style="font-size:90%"|• [[SR:Extra Damage 2|Extra Damage 2]]
+|}
+{{NewLine}}
+
+===Spellswords===
+[[File:SR-creature-Falmer Spellsword.jpg|thumb|right|A Falmer Spellsword chasing down his enemy]]
+Falmer spellswords mix the martial attacks of their melee cousins and the magical attacks of the Falmer shaman.  They wield either a Falmer Sword, a Honed Falmer Sword, a Falmer War Axe, or a Honed Falmer War Axe, and they do not carry a shield, preferring instead to keep a hand free for spells.  Falmer of level 22 or higher (except Warmongers) will also be equipped with a Falmer Helmet.  
+
+In addition to the gear listed above, Falmer spellsword loot includes the following items:
+* 50% chance to carry leveled amount of gold
+* 75% chance to carry gems, ore, Dwemer metal objects, ingredients (common, uncommon, or rare), a shovel or pickaxe, or damage health poisons
+* May also drop Falmer Ears (one at a 50% chance, one at a 25% chance)
+
+If ''Dawnguard'' is installed, Falmer Warmonger spellswords will appear starting at level 48.  These heavily-armored Falmer have the following equipment in addition to the gear listed above:
+* '''Boots''': 25% chance to have either Falmer Hardened Boots or Falmer Heavy Boots
+* '''Cuirass''': 75% chance to have either Falmer Hardened Armor or Falmer Heavy Armor
+* '''Gauntlets''': 25% chance to have either Falmer Hardened Gauntlets or Falmer Heavy Gauntlets
+* '''Helmet''': either a Falmer Hardened Helm or a Falmer Heavy Helm
+{| class="wikitable"
+! Name !! PC Level !! NPC Level|Level !! [[Skyrim:Form ID|IDs]] !! {{Health Icon}} !! {{Magicka Icon}} !! {{Stamina Icon}} !! Spells !! Perks
+|-
+|Falmer
+|align=center|1
+|align=center|9
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|00063224}}
+|-
+|{{M|size=14x14px}} || {{ID|00063225}}
+|}
+|align=center|180
+|align=center|177
+|align=center|163
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Frostbite|Frostbite]] 
+|-
+|• [[SR:Healing|Healing]]
+|}
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 1.5|Extra Damage 1.5]] 
+|-
+|• Falmer Poison <small>(5 pts for 3 sec.)
+|}
+|-
+|Falmer Skulker
+|align=center|15
+|align=center|15
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|00063226}}
+|}
+|align=center|290
+|align=center|197
+|align=center|198
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Healing|Healing]] 
+|-
+|• [[SR: Ice Spike| Ice Spike]] 
+|-
+|• [[SR:Sparks|Sparks]]
+|}
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 2|Extra Damage 2]] 
+|-
+|• Falmer Poison <small>(6 pts for 3 sec.)</small>
+|}
+|-
+|Falmer Gloomlurker
+|align=center|22
+|align=center|22
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|00063227}}
+|}
+|align=center|410
+|align=center|220
+|align=center|210
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Frostbite|Frostbite]] 
+|-
+|• [[SR:Frost Cloak|Frost Cloak]] 
+|-
+|• [[SR:Healing|Healing]] 
+|-
+|• [[SR:Lightning Bolt|Lightning Bolt]]
+|}
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 2|Extra Damage 2]] 
+|-
+|• Falmer Poison <small>(7 pts for 3 sec.)</small>
+|}
+|-
+|Falmer Nightprowler
+|align=center|30
+|align=center|30
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|0006322a}}
+|}
+|align=center|550
+|align=center|197
+|align=center|300
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Chain Lightning|Chain Lightning]] 
+|-
+|• [[SR:Healing|Healing]] 
+|-
+|• [[SR:Ice Spike|Ice Spike]] 
+|-
+|• [[SR:Sparks|Sparks]]
+|}
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 2.5|Extra Damage 2.5]] 
+|-
+|• Falmer Poison <small>(9 pts for 3 sec.)</small>
+|}
+|-
+|Falmer Shadowmaster
+|align=center|38
+|align=center|38
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|0006322b}}
+|}
+|align=center|700
+|align=center|273
+|align=center|362
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Chain Lightning|Chain Lightning]] 
+|-
+|• [[SR:Healing|Healing]] 
+|-
+|• [[SR:Ice Spike|Ice Spike]]
+|-
+|• [[SR:Wall of Frost|Wall of Frost]]
+|}
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 2.5|Extra Damage 2.5]] 
+|-
+|• Falmer Poison <small>(12 pts for 3 sec.)</small>
+|}
+|-
+|Falmer Warmonger{{DG}}
+|align=center|48
+|align=center|48
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|xx015cb1}}
+|}
+|align=center|920
+|align=center|307
+|align=center|378
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Chain Lightning|Chain Lightning]] 
+|-
+|• [[SR:Healing|Healing]] 
+|-
+|• [[SR:Ice Spike|Ice Spike]] 
+|-
+|• [[SR:Wall of Frost|Wall of Frost]]
+|}
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 2.5|Extra Damage 2.5]] 
+|-
+|• Falmer Poison <small>(12 pts for 4 sec.)</small>
+|}
+|}
+{{NewLine}}
+====Spellsword Bosses====
+[[File:SR-creature-Falmer Spellsword Boss.jpg|thumb|right|A Spellsword boss readies his war axe and lightning.]]
+Falmer spellsword bosses have the same equipment and loot as the spellsword Falmer listed above, but appear at higher levels.  At low levels, Falmer bosses can be much more difficult than normal Falmer; at higher levels, the bosses are actually lower level than regular spellsword Falmer, but have slightly higher stats.
+
+{| class="wikitable"
+! Name !! PC Level !! NPC Level|Level !! [[Skyrim:Form ID|IDs]] !! {{Health Icon}} !! {{Magicka Icon}} !! {{Stamina Icon}} !! Spells !! Perks
+|-
+|Falmer Skulker
+|align=center|1-22
+|align=center|18
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|0006322d}}
+|}
+|align=center|370
+|align=center|257
+|align=center|203
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Healing|Healing]] 
+|-
+|• [[SR:Ice Spike|Ice Spike]] 
+|-
+|• [[SR:Sparks|Sparks]]
+|}
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 2|Extra Damage 2]] 
+|-
+|• Falmer Poison <small>(6 pts for 3 sec.)</small>
+|}
+|-
+|Falmer Gloomlurker
+|align=center|38
+|align=center|26
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|0006322f}}
+|}
+|align=center|500
+|align=center|283
+|align=center|242
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Frostbite|Frostbite]]
+|-
+|• [[SR:Frost Cloak|Frost Cloak]]
+|-
+|• [[SR:Healing|Healing]]
+|-
+|• [[SR:Lightning Bolt|Lightning Bolt]]
+|}
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 2|Extra Damage 2]] 
+|-
+|• Falmer Poison <small>(7 pts for 3 sec.)</small>
+|}
+|-
+|Falmer Nightprowler
+|align=center|46
+|align=center|35
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|0006322e}}
+|}
+|align=center|640
+|align=center|313
+|align=center|307
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Chain Lightning|Chain Lightning]]
+|-
+|• [[SR:Healing|Healing]]
+|-
+|• [[SR:Ice Spike|Ice Spike]]
+|-
+|• [[SR:Sparks|Sparks]] 
+|}
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 2.5|Extra Damage 2.5]] 
+|-
+|• Falmer Poison <small>(9 pts for 3 sec.)</small>
+|}
+|-
+|Falmer Shadowmaster
+|align=center|54
+|align=center|44
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|00063230}}
+|}
+|align=center|830
+|align=center|403
+|align=center|272
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Chain Lightning|Chain Lightning]]
+|-
+|• [[SR:Healing|Healing]]
+|-
+|• [[SR:Ice Spike|Ice Spike]]
+|-
+|• [[SR:Wall of Frost|Wall of Frost]]
+|}
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 2.5|Extra Damage 2.5]]
+|-
+|• Falmer Poison <small>(12 pts for 3 sec.)</small>
+|}
+|-
+|Falmer Warmonger{{DG}}
+|align=center|64
+|align=center|54
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|xx015cb3}}
+|}
+|align=center|930
+|align=center|437
+|align=center|288
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Chain Lightning|Chain Lightning]]
+|-
+|• [[SR:Healing|Healing]]
+|-
+|• [[SR:Ice Spike|Ice Spike]]
+|-
+|• [[SR:Wall of Frost|Wall of Frost]]
+|}
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 2.5|Extra Damage 2.5]] 
+|-
+|• Falmer Poison <small>(12 pts for 4 sec.)</small>
+|}
+|}
+{{NewLine}}
+==={{Anchor|Feral Falmer}}{{DG}}===
+[[File:SR-creature-Feral Falmer.jpg|thumb|right|A feral Falmer lurking in the darkness of Darkfall Grotto]]
+Feral Falmer only appear in the ''Dawnguard'' add-on, and can be found in [[Skyrim:Darkfall Grotto|Darkfall Grotto]], a small cave in the [[SR:Forgotten Vale|Forgotten Vale]].  They carry no weapons and have no armor, but do carry a selection of the following items:
+* 50% chance to carry leveled amount of gold
+* 75% chance to carry gems, ore, Dwemer metal objects, ingredients (common, uncommon, or rare), a shovel or pickaxe, or damage health poisons
+* May also drop Falmer Ears (one at a 50% chance, one at a 25% chance)
+
+{| class="wikitable"
+! Name !! NPC Level|Level !! [[Skyrim:Form ID|IDs]] !! {{Health Icon}} !! {{Magicka Icon}} !! {{Stamina Icon}} !! Perks
+|-
+|Falmer
+|align=center|9
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|xx00d984}}
+|}
+|align=center|180
+|align=center|177
+|align=center|163
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 1.5|Extra Damage 1.5]]
+|-
+|• Falmer Poison <small>(5 pts for 3 sec.)</small>
+|}
+|}
+{{NewLine}}
+==={{Anchor|Frozen Falmer}}{{DG}}===
+Frozen Falmer only appear in the ''Dawnguard'' add-on, and can be found in the [[Skyrim:Inner Sanctum (Vale)|Inner Sanctum]] of [[Lore:Auriel|Auriel]]'s Chapel in the Forgotten Vale.  All frozen Falmer are, in fact, Feral Falmer who were encased in ice. They are weak to fire attacks and have 100% resistance to Frost.  Frozen Falmer come in two varieties: Frozen Vampire Falmer and Frozen Falmer Shaman.
+====Frozen Vampire Falmer====
+[[File:SR-creature-Frozen Vampire Falmer.jpg|Frozen Falmer|thumb|right|A Frozen Vampire Falmer spattered with blood]]
+Frozen Vampire Falmer use unarmed attacks in battle. They do not have any weapons or armor, and carry no other items.
+
+{| class="wikitable"
+! Name !! PC Level !! NPC Level|Level !! [[Skyrim:Form ID|IDs]] !! {{Health Icon}} !! {{Magicka Icon}} !! {{Stamina Icon}} !!  [[File:FireIcon small.png|Resist Fire]] !! [[File:FrostIcon small.png|Resist Frost]] !! Perks
+|-
+|Frozen Vampire Falmer 
+|align=center|1
+|align=center|1
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|xx01511f}}
+|}
+|align=center|100
+|align=center|150
+|align=center|150
+|{{FC|Red|-25}}
+|100
+|style="font-size:90%"|• Falmer Poison <small>(5 pts for 3 sec.)</small>
+|-
+|Frozen Vampire Falmer
+|align=center|15
+|align=center|10
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|xx015120}}
+|}
+|align=center|190
+|align=center|180
+|align=center|165
+|{{FC|Red|-25}}
+|100
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 1.5|Extra Damage 1.5]]
+|-
+|• Falmer Poison <small>(5 pts for 3 sec.)</small>
+|}
+|-
+|Frozen Vampire Falmer
+|align=center|30
+|align=center|20
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|xx015121}}
+|}
+|align=center|290
+|align=center|213
+|align=center|182
+|{{FC|Red|-25}}
+|100
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 2|Extra Damage 2]]
+|-
+|• Falmer Poison <small>(5 pts for 3 sec.)</small>
+|}
+|-
+|Frozen Vampire Falmer
+|align=center|40
+|align=center|30
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|xx015122}}
+|}
+|align=center|390
+|align=center|247
+|align=center|198
+|{{FC|Red|-25}}
+|100
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 2.5|Extra Damage 2.5]]
+|-
+|• Falmer Poison <small>(5 pts for 3 sec.)</small>
+|}
+|-
+|Frozen Vampire Falmer
+|align=center|50
+|align=center|40
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|xx015123}}
+|}
+|align=center|490
+|align=center|280
+|align=center|215
+|{{FC|Red|-25}}
+|100
+|style="font-size:90%"|
+{|class="hiddentable"
+|• [[SR:Extra Damage 2.5|Extra Damage 2.5]]
+|-
+|• Falmer Poison <small>(5 pts for 3 sec.)</small>
+|}
+|}
+{{NewLine}}
+====Frozen Falmer Shaman====
+[[File:SR-creature-Frozen Falmer Shaman.jpg|thumb|right|A Frozen Falmer Shaman unleashing a Lightning Bolt]]
+Frozen Falmer Shaman use spells in combat. Although they do not know the Bound Sword spell, all shaman carry a bound sword with the following enchantments: Banish Summoned (an effect that functions like the Oblivion Binding perk), Soul Trap (5 seconds), and Turn Raised Undead (essentially a Turn Undead effect). Although the Frozen Falmer Shaman have a leveled amount of gold and a selection of other miscellaneous items, all frozen Falmer actually shatter into several pieces and melt on death, so no corpse is left behind to be looted.
+
+{| class="wikitable"
+! Name !! PC Level !! NPC Level|Level !! [[Skyrim:Form ID|IDs]] !! {{Health Icon}} !! {{Magicka Icon}} !! {{Stamina Icon}} !!  [[File:FireIcon small.png|Resist Fire]] !! [[File:FrostIcon small.png|Resist Frost]] !! Spells !! Perks
+|-
+|Frozen Falmer Shaman
+|align=center|1
+|align=center|1
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|xx015127}}
+|}
+|align=center|100
+|align=center|150
+|align=center|150
+|{{FC|Red|-25}}
+|100
+|rowspan=5 style="font-size:90%"|
+{|class="hiddentable"
+| • [[SR:Fast Healing|Fast Healing]]
+|-
+|• [[SR:Frost Cloak|Frost Cloak]]
+|-
+|• [[SR:Ironflesh|Ironflesh]]
+|-
+|• [[SR:Lightning Bolt|Lightning Bolt]]
+|-
+|• [[SR:Steadfast Ward|Steadfast Ward]]
+|}
+|''None''
+|-
+|Frozen Falmer Shaman
+|align=center|15
+|align=center|10
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|xx015128}}
+|}
+|align=center|190
+|align=center|180
+|align=center|165
+|{{FC|Red|-25}}
+|100
+|style="font-size:90%"|• [[SR:Extra Damage 1.5|Extra Damage 1.5]]
+|-
+|Frozen Falmer Shaman
+|align=center|30
+|align=center|20
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|xx015129}}
+|}
+|align=center|290
+|align=center|213
+|align=center|182
+|{{FC|Red|-25}}
+|100
+|style="font-size:90%"|• [[SR:Extra Damage 2|Extra Damage 2]]
+|-
+|Frozen Falmer Shaman
+|align=center|40
+|align=center|30
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|xx015122}}
+|}
+|align=center|390
+|align=center|247
+|align=center|198
+|{{FC|Red|-25}}
+|100
+|style="font-size:90%"|• [[SR:Extra Damage 2|Extra Damage 2]]
+|-
+|Falmer Shadowmaster
+|align=center|50
+|align=center|40
+|align=center|
+{|class="hiddentable" style="text-align:left;"
+|{{M|size=14x14px}} || {{ID|xx015123}}
+|}
+|align=center|490
+|align=center|280
+|align=center|215
+|{{FC|Red|-25}}
+|100
+|style="font-size:90%"|• [[SR:Extra Damage 2|Extra Damage 2]]
+|}
+{{NewLine}}
+{{SkyrimBox/End}}
+
+==Companions==
+[[File:SR-place-Falmer Tent.jpg|thumb|right|A Falmer tent]]
+Falmer are typically accompanied by a few [[Skyrim:monsters|monsters]], which will vary depending upon your level.  The monsters will be the same level as the minimum PC level listed in the table below (so at levels 6-11, the Frostbite Spider companion will be level 6, and so on).
+{| class="wikitable"
+|-
+! Player Level !! Companion
+|-
+| 1 || [[Skyrim:Frostbite Spider|Frostbite Spider]] or [[Skyrim:Skeever|Skeever]]
+|-
+| 6 || [[SR:Frostbite Spider|Frostbite Spider]]
+|-
+| 12 || [[Skyrim:Chaurus|Chaurus]]
+|-
+| 14 || [[Skyrim:Giant Frostbite Spider|Giant Frostbite Spider]]
+|-
+| 20 || [[Skyrim:Chaurus Reaper|Chaurus Reaper]]
+|}
+
+==Hearthfire==
+The ''[[Skyrim:Hearthfire|Hearthfire]]'' [[Skyrim:Add-ons|add-on]] lets you build Falmer statues in the [[Skyrim:Trophy Room|trophy room]] addition of any homestead. The Falmer trophy can be built on either a large or a small base, but the materials needed are the same for both:
+{|class="wikitable" valign="middle"
+!colspan=3|Large Base Falmer
+!rowspan=2 width=0.5|
+!colspan=3|Small Base Falmer
+|-
+|colspan=2 width=40%|
+:
+* [[Skyrim:Falmer Sword|Falmer Sword]]
+* 2 [[Skyrim:Falmer Ear|Falmer Ear]]
+|width=1px style="padding:0"|[[File:SR-trophy-Falmer Large.jpg|frameless|175px]]
+|colspan=2 width=40%|
+:
+* Falmer Sword
+* 2 Falmer Ear
+|width=1px style="padding:0"|[[File:SR-trophy-Falmer Small.jpg|frameless|175px]]
+|}
+
+==Related Quests==
+* {{Quest Link|Discerning the Transmundane}}
+* {{Quest Link|Extracting an Argonian}}
+* {{Quest Link|Touching the Sky}}
+
+==Notes==
+[[File:SR-place-Falmer Tent Scorpion.jpg|Falmer tent with scorpion|right|thumb]]
+*In some ruins, such as [[Skyrim:Nchuand-Zel|Nchuand-Zel]], you might see small, two-foot-tall versions of Falmer.
+*In ''Dawnguard'' locations (such as the caves leading to the [[Skyrim:Forgotten Vale|Forgotten Vale]]), some of the Falmer tents are crafted with an [[Skyrim:Unused Creatures#Scorpion|unknown scorpion creature]].
+*Frozen Vampire Falmer do not actually use vampire abilities (invisibility, the Drain Life spell, etc.) but have a unique look: they have Vampire Lord lookalike wings on their backs, though they cannot use them. All Frozen Falmer (Vampire ones and others) shatter upon death, leaving behind no corpse to raise (such as with [[Skyrim:Dread Zombie|Dread Zombie]]), though they can be harvested for a soul with the appropriate [[Skyrim:Soul Trap (spell)|spell]] or enchanted weapon.
+*All Feral Falmer (and their "Frozen" counterparts) do not spawn with weapons, but if there is one nearby, they will pick it up and use it. If a Frozen Falmer/Frozen Vampire Falmer picks up a weapon, it will be lost when they are killed, as there is no corpse left behind to loot. If you drop weapons in the Chantry to avoid being overencumbered (a very real possibility in the vast Forgotten Vale), make sure they aren't anything you ever want to use again.
+* The weaponry for Melee and Spellsword Falmer is [[Skyrim:Leveled Lists|leveled]]. Only Falmer of level 18 or higher can spawn with "Honed Falmer" weapons. Falmer of level 21 are just as likely to spawn with a "Honed Falmer" weapon as a regular one, and are twice as likely to spawn with one at level 28 or higher.
+
+==Bugs==
+{{Bug|Placed Falmer corpses or ones you've just killed might have their knees bent the wrong way (forward instead of backward).|vn=1}}
+{{Bug|Falmer Shamans do not have "Uses Spelllist" enabled in the Creation Kit, indicating that they don't actually cast spells.|vn=1}}
+{{Bug|If you unlock a Falmer-style chest, the prompt to unlock it may still appear, even though you already unlocked it.|confirmed=1}}
+**Press your activate key again, and you should now be able to search the chest properly.
+{{Bug|[[Skyrim:Wuuthrad|Wuuthrad]]'s damage bonus against elves does not apply to Frozen Falmer{{DG}}.|UDGP|2.0.2|dlc=DG}}
+*The Falmer shield doesn't have the DLC1ArmorMaterielFalmerHeavyOriginal and ArmorHeavy keywords set like the other pieces in the set.
+
+==See Also==
+*For historical information about the Falmer, see the [[Lore:Falmer|lore article]].
+
+===Books===
+* {{Book Link|Aevar Stone-Singer}}
+* {{Book Link|The Betrayed}}{{DG}}
+* {{Book Link|Diary of Faire Agarwen}}{{DG}}
+* {{Book Link|Fall of the Snow Prince}}
+* {{Book Link|The Falmer: A Study}}
+* {{Book Link|Ghosts in the Storm}}
+* {{Book Link|Journal of Mirtil Angoth}}{{DG}}
+* {{Book Link|Touching the Sky (book)}}{{DG}}
+* {{Book Link|The Wispmother}}
+
+==Gallery==
+<gallery>
+File:SR-creature-Frozen Falmer.jpg|A Falmer in the Chantry of Auri-El, frozen in time
+File:SR-creature-Frozen Falmer 02.jpg|A Frozen Falmer in the Chantry of Auri-El
+File:SR-creature-Frozen Falmer Shaman 02.jpg|A Frozen Falmer Shaman
+File:SR-creature-Frozen Falmer Shaman 03.jpg|A Frozen Falmer Shaman holding a Circlet of Waterbreathing
+File:SR-quest-Touching the Sky 05.jpg|Frozen Falmer in the Chantry of Auri-El
+File:SR-creature-Frozen Falmer 03.jpg|Frozen Falmer in the Chantry of Auri-El
+File:SR-quest-Touching the Sky 04.jpg|Vyrthur and the Frozen Falmer in the Chantry's Inner Sanctum
+</gallery>
+{{Skyrim Races}}

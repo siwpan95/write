@@ -1,0 +1,214 @@
+{{Trail|Items}}
+[[File:SR-item-Soul_Gem.jpg|thumb|right|From left to right: Petty, Lesser, Common, Greater, Grand and Black Soul Gems]]
+'''Soul Gems''' are [[Skyrim:Miscellaneous Items|miscellaneous items]] which can be used to [[Skyrim:Soul Trap (effect)|trap]] the [[Skyrim:Souls|souls]] of dying creatures or NPCs. The resulting filled soul gems can be used as power sources for enchanted items, either when initially creating [[Skyrim:Enchanting|custom enchanted items]] or when [[Skyrim:Enchanting#Recharging_Weapons|recharging]] depleted enchanted weapons. Soul gems come in a range of capacities, from petty to grand, plus some special soul gems. Only black soul gems and the [[Skyrim:The Black Star (item)|Black Star]] can be used to capture the soul of an NPC, which is always a grand soul in size. There are also [[Skyrim:Soul Gem Fragment|soul gem fragments]] found in the game. These are classified as minor loot and are not actual soul gems.
+
+Empty soul gems can also be harvested from [[Skyrim:Geode Vein|geode veins]], which are only found in [[Skyrim:Blackreach|Blackreach]]. Each mined vein will result in 2–3 soul gems of any size, including black soul gems. The mined soul gems are level-dependent; at level 16 grand and black soul gems will start to appear, and the probability for either will max out at level 31.
+
+==Related Quests==
+*{{Quest Link|Restocking Soul Gems}}
+
+==Types of Soul Gems==
+===Standard Soul Gems===
+{| class="wikitable sortable"
+!class=unsortable|
+!Name
+!Soul
+![[Skyrim:Form ID|ID]]
+!width=22|{{Weight Icon}}
+!width=22|{{Value Icon}}
+!Capacity
+|-
+|rowspan=2|[[File:SR-icon-misc-PettySoulGem.png|48px]]
+|rowspan=2|{{Anchor|Petty Soul Gem}}
+|{{sort|0}}|none
+|{{ID|0002e4e2}}
+|rowspan=2|0.1
+|10
+|rowspan=2|250 (Petty)
+|-
+|{{sort|1}}|Petty
+|{{ID|0002e4e3}}
+|40
+|-
+|rowspan=2|[[File:SR-icon-misc-LesserSoulGem.png|48px]]
+|rowspan=2|{{Anchor|Lesser Soul Gem}}
+|{{sort|0}}|none
+|{{ID|0002e4e4}}
+|rowspan=2|0.2
+|25
+|rowspan=2|500 (Lesser)
+|-
+|{{sort|2}}|Lesser
+|{{ID|0002e4e5}}
+|80
+|-
+|rowspan=2|[[File:SR-icon-misc-CommonSoulGem.png|48px]]
+|rowspan=2|{{Anchor|Common Soul Gem}}
+|{{sort|0}}|none
+|{{ID|0002e4e6}}
+|rowspan=2|0.3
+|50
+|rowspan=2|1000 (Common)
+|-
+|{{sort|3}}|Common
+|{{ID|0002e4f3}}
+|150
+|-
+|rowspan=2|[[File:SR-icon-misc-GreaterSoulGem.png|48px]]
+|rowspan=2|{{Anchor|Greater Soul Gem}}
+|{{sort|0}}|none
+|{{ID|0002e4f4}}
+|rowspan=2|0.4
+|100
+|rowspan=2|2000 (Greater)
+|-
+|{{sort|4}}|Greater
+|{{ID|0002e4fb}}
+|350
+|-
+|rowspan=2|[[File:SR-icon-misc-GrandSoulGem.png|48px]]
+|rowspan=2|{{Anchor|Grand Soul Gem}} *
+|{{sort|0}}|none
+|{{ID|0002e4fc}}
+|rowspan=2|0.5
+|200
+|rowspan=2|3000 (Grand)
+|-
+|{{sort|5}}|Grand
+|{{ID|0002e4ff}}
+|500
+|}
+<nowiki>*</nowiki>If you get a message saying that you do not have a large enough soul gem to capture a soul, even though you have an empty grand soul gem in your inventory, it means that you are trying to catch a humanoid soul, which requires a black soul gem.
+
+===Special Soul Gems===
+{| class="wikitable sortable"
+!class=unsortable|
+!Name
+!Soul
+![[Skyrim:Form ID|ID]]
+!width=22|{{Weight Icon}}
+!width=22|{{Value Icon}}
+!Capacity
+!class="unsortable"|Notes
+|-
+|[[File:SR-icon-misc-Azura'sStar.png|48px]]
+|[[Skyrim:Azura's Star|Azura's Star]]
+|none
+|{{ID|00063b27}}
+|0
+|1000
+|3000 (Grand)
+|Equivalent to a grand soul gem, but does not break on use.
+|-
+|rowspan=2|[[File:SR-icon-misc-BlackSoulGem.png|48px]]
+|rowspan=2|{{Anchor|Black Soul Gem}}
+|none
+|{{ID|0002e500}}
+|rowspan=2|1
+|300
+|rowspan=2|3000 (Grand)
+|rowspan=2|Special soul gems that can capture humanoid souls. Guaranteed samples can be found at any level in [[SR:Broken Fang Cave|Broken Fang Cave]], [[SR:Ilinalta's Deep|Ilinalta's Deep]], [[SR:Ironbind Barrow|Ironbind Barrow]], [[SR:Castle Volkihar|Castle Volkihar]], [[SR:Apocrypha (The Hidden Twilight)|Apocrypha]], [[SR:Soul Cairn|Soul Cairn]], [[SR: Hag's End|Hag's End]], [[SR:Hob's Fall Cave|Hob's Fall Cave]], and [[SR:Karthwasten|Karthwasten]].
+|-
+|Grand
+|{{ID|0002e504}}
+|750
+|-
+|[[File:SR-icon-misc-Flawed Varla Stone.png|48px]]
+|[[Skyrim:Flawed Varla Stone|Flawed Varla Stone]] {{CC|Rare Curios}}
+|none
+|{{ID|FExxx801}}
+|0.3
+|1000
+|1000 (Common)
+|Equivalent to a common soul gem, if you have [[SR:Rare Curios|Rare Curios]] {{CC}} installed, but does not break on use.
+|-
+|[[File:SR-icon-misc-BlackSoulGem.png|48px]]
+|[[Skyrim:Soul Essence Gem|Soul Essence Gem]] {{DG}}
+|none
+|{{ID|xx00EA6A}}
+|0.5
+|250
+|0
+|Used to store your soul if you became partially soul trapped to enter the [[SR:Soul Cairn|Soul Cairn]]. Changes to a Black Soul Gem and removes the [[SR:Weakened Soul|Weakened Soul]] effect when picked up at the end of '''[[SR:Beyond Death|Beyond Death]]'''.
+|-
+|rowspan=2|[[File:SR-icon-misc-Soul Tomato.png|48px]]
+|rowspan=2|{{Anchor|Soul Tomato}} {{CC|Saints & Seducers}}
+|none
+|{{ID|xx000804}}
+|rowspan=2|0.5
+|250
+|rowspan=2|3000 (Grand)
+|rowspan=2|Equivalent to a grand soul gem, if you have [[SR:Saints & Seducers|Saints and Seducers]] {{CC}} installed. Two respawning soul tomatoes can be found in [[SR:Kinthal|Kinthal]]'s camp (east of [[SR:Karthwasten|Karthwasten]]) on a stone table. These previously [[SI:Soul Tomato|appeared]] in the ''[[SI:Shivering Isles|Shivering Isles]]'' expansion for ''[[OB:Oblivion|Oblivion]]''.
+|-
+|Grand
+|{{ID|xx137F40}}
+|600
+|-
+|[[File:SR-icon-misc-TheBlackStar.png|48px]]
+|[[Skyrim:The Black Star (item)|The Black Star]]
+|none
+|{{ID|00063b29}}
+|0
+|1000
+|3000 (Grand)
+|Equivalent to a black soul gem, but does not break on use.
+|-
+|[[File:SR-icon-misc-LesserSoulGem.png|48px]]
+|[[Skyrim:Treated Soul Gem|Treated Soul Gem]]
+|none
+|{{ID|00094e40}}
+|0.2
+|25
+|500 (Lesser)
+|Unobtainable.
+|-
+|[[File:SR-icon-misc-GrandSoulGem.png|48px]]
+|{{Anchor|Wylandriah's Soul Gem}}
+|none
+|{{ID|00043e26}}
+|0
+|0
+|3000 (Grand)
+|Obtained during the '''[[Skyrim:Hunt and Gather|Hunt and Gather]]''' quest.
+|-
+|[[File:SR-icon-misc-GrandSoulGem.png|48px]]
+|[[Skyrim:Warped Soul Gem|Warped Soul Gem]]
+|none
+|{{ID|0006a106}}<br>{{ID|0006a109}}<br>{{ID|0006a107}}<br>{{ID|0006a110}}<br>{{ID|0006a108}}<br>{{ID|0010e44b}}
+|0.5
+|0
+|0
+|Received during '''[[Skyrim:Arniel's Endeavor|Arniel's Endeavor]]'''. However, it cannot be used to trap souls.
+|}
+
+==Notes==
+[[File:SR-activity-Lightning Attractor.jpg|thumb|right|A Lightning Attractor for creating black soul gems]]
+* To use a soul gem to recharge a weapon, first select the weapon in your inventory and then:
+:*{{Pc22}} press the Wait key, which is T by default
+:*{{Ps22}} press R1
+:*{{Xbox22}} press RB
+:*{{Ns22}} press R
+:*A small menu will open where the description ordinarily is, and you can choose a soul gem to use.
+* Soul gems are consumed upon being used to recharge a weapon. This is one reason why it is a good idea to fill your soul gems as efficiently as possible (e.g. grand soul gems for grand souls, common soul gems for common souls, etc.). A soul gem not being used to its fullest capacity could be considered a waste (losing a grand soul gem because you used the petty soul contained within to recharge a weapon, for example). However, you can simply drop a filled gem to empty it (note that this will empty all self-filled gems (see [[#Bugs|bugs]])).
+* [[Skyrim:Followers|Followers]] using weapons enchanted with [[Skyrim:Soul Trap (effect)|Soul Trap]] or [[Skyrim:Fiery Soul Trap|Fiery Soul Trap]] may fill all of their empty soul gems of the type used by the trapped soul after only trapping one soul. (For instance, a follower killing a soul trapped Frost Troll while carrying 17 Common Soul Gems fills them all, instead of just one.)
+* Standard merchants do not sell black soul gems. To purchase one you must talk to either [[Skyrim:Enthir|Enthir]] at the [[Skyrim:College of Winterhold (place)|College of Winterhold]] while he is in his quarters, or [[Skyrim:Falion|Falion]] in [[Skyrim:Morthal|Morthal]].
+* The quest [[Skyrim:Rising at Dawn|Rising at Dawn]] requires you to fill a black soul gem to cure yourself of vampirism.
+* If you have the [[Skyrim:Dawnguard|Dawnguard]] add-on installed, grand or greater soul gems can be transformed into black soul gems by using the Lightning Attractors found in the [[Skyrim:Soul Cairn|Soul Cairn]]. Each Lightning Attractor can only be used once.
+* Soul fissures are another common feature of the Soul Cairn; they are cracks in the ground with air rising visibly out of them, which causes them to emit a hissing noise. Activating a soul fissure will fill the largest soul gem in your inventory, filling black soul gems first. The soul fissures aren't restricted to one-time use, though, allowing you to reactivate them when the Soul Cairn resets.
+** Azura's Star, the Black Star, the Flawed Varla Stone{{CC|Rare Curios}}, and the Soul Tomato{{CC|Saints and Seducers}} won't be filled if you activate a soul fissure there.
+* Another option for converting greater and grand soul gems to black soul gems is the Altar of the Revenant, available after completing the [[Skyrim:Gallows Hall (place)|Gallows Hall]] quest added by the Gallows Hall creation.
+* If you become partially soul trapped to enter the Soul Cairn, the soul essence gem can be retrieved before talking to [[Skyrim:Valerica|Valerica]] in [[Skyrim:Beyond Death|Beyond Death]]. If you do so, she won't talk about it.
+* All enemies defeated in the Soul Cairn, except for [[Skyrim:Durnehviir (dragon)|Durnehviir]]{{DG}}, will have at least one soul gem in their inventory.
+* If you have the [[Skyrim:Dragonborn|Dragonborn]] add-on installed, you can combine any soul gem (empty or filled) with an [[Skyrim:Albino Spider Pod|albino spider pod]] at the [[Skyrim:Imbuing Chamber|imbuing chamber]] in [[Skyrim:White Ridge Barrow|White Ridge Barrow]] to create a [[Skyrim:Mind Control Spider|mind control spider]]. 
+* According to lore, after a black soul gem is used, the soul it contained goes to the Soul Cairn. However, in-game this doesn't happen, and the soul is simply used and the gem disappears.
+* Humanoid souls captured by black soul gems and The Black Star will always be of grand value.
+
+==Bugs==
+{{Bug|Soul gems that you filled yourself, with the exception of grand and black, do not change in value when filled. For example, a common soul gem (valued at 50 when empty), will not increase in value with a soul in it, even though a prefilled common soul gem is valued at 150. This also causes them to not stack properly in your inventory.|USKP}}<!--TODO: find the specific change log entry for this fix-->
+**The soul gems will stack properly if you store multiple filled gems in a container, exit the interface, then come back and take them back. This needs to be repeated every time you fill multiple soul gems.
+{{Bug|Soul gems that you filled yourself may be emptied if dropped, or transferred to a follower or container.|USKP|1.0|Only partially filled soul gems will be emptied, in order to allow you to fix any errors in filling them.}}
+{{Bug|Wylandriah's soul gem is fillable and can be used to recharge enchanted weapons, despite being a quest item. Recharging enchanted weapons or enchanting items with Wylandriah's gem will consume it and therefore break the quest.|USKP|1.0}}
+{{Bug|Although the Black Star is described as only able to hold black souls, all types of souls can be captured. This may either be a bug, or Nelacar may be mistaken when telling you this.|USKP|2.0.1|The Black Star will now accept black souls ONLY.}}
+**Further research into the lore behind black soul gems indicates that although not ideal, they are supposed to be able to carry any type of soul. The only lore restriction on them is the process by which they are made, which is irrelevant in terms of Skyrim loot. As a result, version 3.0.7 of the [[Skyrim Mod:Unofficial Skyrim Legendary Edition Patch|Unofficial Skyrim Legendary Edition Patch]] modifies the fix from Unofficial Skyrim Patch 2.0.1 to only apply to the Black Star, which is definitively mentioned in lore and in-game dialogue as ONLY accepting black souls.
+{{Bug|Soul gems make no impact sounds when falling onto the ground due to none ever being set.|USKP|2.0.4}}
+{{Bug|The bug fix from Unofficial Patch 2.0.4 erroneously removed the audio that plays when dropping or selling soul gems.|USKP|2.0.5|The previous audio fix has been reversed.}}

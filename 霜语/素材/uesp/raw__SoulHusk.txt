@@ -1,1 +1,2690 @@
-#REDIRECT [[Skyrim:Food#Soul_Husk]] [[Category:Redirects to Broader Subjects]] [[Category:Skyrim-Items-Food]] [[Category:Skyrim-Dawnguard]] [[Category:Skyrim-Dawnguard-Items]]
+{{Trail|Items}}
+'''Food''' items can be eaten to [[Skyrim:Restore Health|restore]] your [[Skyrim:Health|health]] or [[Skyrim:Stamina|stamina]], and some provide additional benefits to magicka, archery, block, barter, carry weight, cure disease, poison/fire/frost resistance, waterbreathing, or warmth. 
+
+Raw food provides only trivial benefits, but it can be [[Skyrim:Cooking|cooked]] into 58 food items, 2 poisoned apples, and 17 hot soups, or [[Skyrim:Baking|baked]] into 15 food items, to increase the benefits. Food is cheaper and more widely available than potions, and creating cooked food does not involve the [[Skyrim:Alchemy|Alchemy]] skill. However, even cooked food typically provides weaker effects than potions do. Nonetheless, a small number of dishes provide quite long-lasting effects, with several of the soups, stews, and bisques like [[#Beef Stew|Beef Stew]] lasting longer than all stamina potions, and [[#Elsweyr Fondue|Elsweyr Fondue]] is actually more powerful than a number of magicka potions.
+
+Stamina regeneration food such as vegetable soup is rather useful for melee based characters; the stamina regeneration each second allows you to use power attacks continuously until the effect wears off. Alcoholic beverages like ale, mead, and wine typically provide an immediate boost to stamina but reduced stamina regeneration for a period of time.
+
+Most food items can be sold to any innkeeper or food vendor, as well as to general goods merchants (exceptions are noted in the following tables). A limited number of food items are categorized as raw food, and these items can also be sold to apothecary merchants. In addition, innkeepers and food vendors will have a selection of food items available for purchase.
+
+With the addition of [[Skyrim:Survival Mode|Survival Mode]] food is also used to replenish [[Skyrim:Hunger|Hunger]]. Different foods have different weights of replenishment lowering the Hunger meter by set amounts. Very small replenishes 2, small replenishes 18, medium replenishes 220, and large replenishes 380.
+
+Foods added by [[Skyrim:Dawnguard|Dawnguard]], [[Skyrim:Dragonborn|Dragonborn]], [[Skyrim:Hearthfire|Hearthfire]], and [[Skyrim:Creation Club|Creation Club]] are annotated with "DG", "DB", "HF", and "CC" superscripts, respectively. 
+
+==Regular Food==
+This section includes all food items that cannot be created by the player by [[Skyrim:Baking|baking]] or [[Skyrim:Cooking|cooking]], although most of these items can be used as ingredients in baking and cooking recipes. Several of these items are also classified by merchants as being raw food; they can be sold to apothecary merchants and innkeepers.
+
+===Raw Meat===
+{{Showhide/Start|expanded=on}}
+Raw meat can generally be obtained from the bodies of dead [[Skyrim:Animals|animals]]. In the case of small game (e.g., rabbits and pheasants), already-caught animals can also be found hanging in homes and inns, and can be harvested to obtain the meat. Similarly, salmon can also be found hanging from racks near rivers. A variety of fish can be caught by hand or by using a [[Skyrim:Fishing Items#Weapons|rod]] with the [[Skyrim:Fishing (activity)|Fishing]] [[Skyrim:Fishing|Creation]]. Certain barrels are internally identified as meat barrels and will always contain raw meat, as well as [[Skyrim:Salt Pile|salt pile]]s and other ingredients.
+
+Three stall merchants, [[Skyrim:Hogni Red-Arm|Hogni Red-Arm]] in [[Skyrim:Markarth|Markarth]], [[Skyrim:Anoriath|Anoriath]] in [[Skyrim:Whiterun|Whiterun]] and [[Skyrim:Marise Aravel|Marise Aravel]] in [[Skyrim:Riften|Riften]], specialize in raw meat. In addition, some varieties of meat can be bought from [[Skyrim:Hunter|hunter]]s encountered in the wilderness.
+
+Nearly all raw meat can be cooked by simply combining it with salt. A few meats (beef, chicken, clams, crab, horker, venison) can also be made into more elaborate dishes or stews by combining them with vegetables as well as salt.
+{| class="wikitable sortable"
+!class=unsortable|
+!Name ([[Skyrim:Form ID|ID]])
+!width=22|{{Weight Icon}}
+!width=22|{{Value Icon}}
+![[Skyrim:Hunger|Hunger]]{{Creation Club|Survival Mode}}
+!Effect(s)
+!class="unsortable"|Notes
+|-{{HE|Angler}}
+|[[File:SR-icon-food-Angler.png|48px]]
+|Angler{{CC|Fishing}}<br>{{ID|xx000890|par=1}}
+|2||30||Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+|Details:
+* Large Fish, common
+Sources:
+* Freezing waters only while using the [[SR:Argonian Fishing Rod|Argonian Fishing Rod]].
+* [[SR:Pilgrim's Trench|Pilgrim's Trench]], small cavern on the ocean floor
+|-{{HE|Arctic Char}}
+|[[File:SR-icon-food-Arctic Char.png|48px]]
+|Arctic Char{{CC|Fishing}}<br>{{ID|xx0008A4|par=1}}
+|1||10||Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+|Details:
+* Large Fish, Uncommon, Any Weather
+Sources:
+* Freezing waters
+* [[SR:Hela's Folly|Hela's Folly]]
+* [[SR:Orphan's Tear|Orphan's Tear]] (within the sunken deck)
+* [[SR:Pilgrim's Trench|Pilgrim's Trench]]
+|-{{HE|Arctic Grayling}}
+|[[File:SR-icon-food-Arctic Grayling.png|48px]]
+|Arctic Grayling{{CC|Fishing}}<br>{{ID|xx0008A3|par=1}}
+|0.5||5||Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+|Details:
+* Large Fish, Common, Any Weather
+Sources:
+* Freezing waters; e.g. [[SR:Dawnstar|Dawnstar]] fishing spot near the boat.
+|-{{HE|Ash Hopper Leg}}
+|[[File:SR-icon-food-Ash Hopper Leg.png|48px]]
+|Ash Hopper Leg{{DB}}<br>{{ID|xx03d125|par=1}}
+|1||2||Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+|Sources:
+* Dropped by [[Skyrim:Ash Hopper|ash hoppers]]
+|-{{HE|Ash Hopper Meat}}
+|[[File:SR-icon-food-Ash Hopper Meat.png|48px]]
+|Ash Hopper Meat{{DB}}<br>{{ID|xx03bd15|par=1}}
+|0.5||2||Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+|Sources:
+* Dropped by [[Skyrim:Ash Hopper|ash hoppers]]
+|-{{HE|Boar Meat}}
+|[[File:SR-icon-food-Boar Meat.png|48px]]
+|Boar Meat{{DB}}<br>{{ID|xx03bd14|par=1}}
+|1||2||Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+|Sources:
+* 4 guaranteed samples can be found in 2 different locations, most notably [[Skyrim:Bristleback Cave|Bristleback Cave]]
+* Dropped by [[Skyrim:Riekling|rieklings]] and [[Skyrim:Bristleback|bristlebacks]]
+|-{{HE|Brook Bass}}
+|[[File:SR-icon-food-Brook Bass.png|48px]]
+|Brook Bass{{CC|Fishing}}<br>{{ID|xx00089C|par=1}}
+|0.5||1||Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+|Details:
+* Large Fish, Common, Any Weather
+Sources:
+* Outside [[SR:Mixwater Mill|Mixwater Mill]]
+* Temperate Lakes and Rivers
+|-{{HE|Carp}}
+|[[File:SR-icon-food-Carp.png|48px]]
+|Carp{{CC|Fishing}}<br>{{ID|xx000898|par=1}}
+|0.5||2||Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+|Details:
+* Large Fish, Common, Any Weather
+Sources:
+* Outside [[SR:East Empire Company Warehouse|East Empire Company Warehouse]]
+* Under Dragonsreach bridge. 
+* Temperate Lakes
+|-{{HE|Catfish}}
+|[[File:SR-icon-food-Catfish.png|48px]]
+|Catfish{{CC|Fishing}}<br>{{ID|xx000897|par=1}}
+|1||2||Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+|Details:
+* Large Fish, Common, Rainy Weather
+Sources:
+* Temperate Lakes; e.g. Near [[SR:Geirmund's Hall|Geirmund's Hall]], [[SR:Riften|Riften]], or [[SR:Falkreath|Falkreath]]
+|-{{HE|Chicken Breast}}
+|[[File:SR-icon-food-ChickenBreast.png|48px]]
+|Chicken Breast<br>{{ID|000f2011|par=1}}
+|0.2
+|3
+|Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+| Sources:
+* Six guaranteed samples can be found in three different locations, most notably [[Skyrim:Treva's Watch|Treva's Watch]].
+* Dropped by all [[Skyrim:Chicken|chicken]]s
+* 79% chance of 1-8 samples being sold by [[Skyrim:Anoriath|Anoriath]]
+* 71% chance of 1-7 samples being sold by [[Skyrim:Marise Aravel|Marise Aravel]]
+Uses:
+* One chicken breast is one of two items needed to [[Skyrim:Cooking|cook]] a [[Skyrim:Grilled Chicken Breast|grilled chicken breast]].
+* Recognized by vendors as raw food, meaning it can be sold to apothecary merchants and innkeepers
+* One chicken breast is one of five items needed to [[Skyrim:Baking|bake]] a [[Skyrim:Food#Chicken Dumpling|chicken dumpling]]{{HF}}.
+|-{{HE|Clam Meat}}
+|[[File:SR-icon-food-ClamMeat.png|48px]]
+|Clam Meat<br>{{ID|000eba03|par=1}}
+|0.1
+|1
+|Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 1 pt
+| Sources:
+* 23 guaranteed samples can be found in four different locations, most notably seventeen centered 500 feet west-southwest of [[Skyrim:Northwatch Keep|Northwatch Keep]]. {{Map Link|x=-153739|y=112049}}
+* Can be harvested from [[Skyrim:Passive_Creatures#Clam|clams]]. 792 clams can be found underwater in 39 different locations, most notably around the [[Skyrim:Wreck Of The Brinehammer|Wreck Of The Brinehammer]] and around [[Skyrim:Dawnstar Sanctuary|Dawnstar Sanctuary]].
+* 94% chance of being found in [[Skyrim:Containers#Barrel|fish barrels]]
+Uses:
+* Cannot be cooked in the original version of the game
+* One clam meat is one of four items needed to [[Skyrim:Cooking|cook]] [[Skyrim:Clam Chowder|clam chowder]]{{HF}}.
+* One clam meat is one of five items needed to [[Skyrim:Cooking|cook]] [[Skyrim:Hot Clam Chowder|hot clam chowder]]{{CC|Survival Mode}}.
+* Recognized by vendors as raw food, meaning it can be sold to apothecary merchants and innkeepers
+|-{{HE|Cod}}
+|[[File:SR-icon-food-Cod.png|48px]]
+|Cod{{CC|Fishing}}<br>{{ID|xx0008A2|par=1}}
+|1||15||Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+|Details:
+* Large Fish, Common, Any Weather
+Sources:
+* Freezing waters
+* Outside [[SR:Anga's Mill|Anga's Mill]]
+* Outside [[SR: Bronze Water Cave|Bronze Water Cave]]
+|-{{HE|Crab Meat}}
+|[[File:SR-icon-food-Crab Meat.png|48px]]
+|Crab Meat{{CC|Fishing}}<br>{{ID|xx000EFE|par=1}}
+|0.1||2||Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+|Sources:
+* [[SR:Mudcrab|Mudcrab]]s
+* Fish Barrels; e.g. Outside the [[SR:Riften Fishery|Riften Fishery]] on the docks.
+Uses{{CC|Fishing}}:
+* One crab meat is one of the three items needed to [[Skyrim:Baking|bake]] [[Skyrim:Crab Cakes|crab cakes]].
+* One crab meat is one of the four items needed to [[Skyrim:Cooking|cook]] [[Skyrim:Crab Stew|crab stew]], [[Skyrim:Hot Creamy Crab Bisque|(hot)]] [[Skyrim:Creamy Crab Bisque|creamy crab bisque]], [[Skyrim:Potato Crab Chowder|potato crab chowder]], or [[Skyrim:Roasted Tomato Crab Bisque|(hot)]] [[Skyrim:Roasted Tomato Crab Bisque|roasted tomato crab bisque]].
+* One crab meat is one of the five items needed to cook [[Skyrim:Hot Crab Stew|hot crab stew]]{{CC|Survival Mode}} or [[Skyrim:Hot Potato Crab Chowder|hot potato crab chowder]]{{CC|Survival Mode}}.
+|-{{HE|Direfish}}
+|[[File:SR-icon-food-Direfish.png|48px]]
+|Direfish{{CC|Fishing}}<br>{{ID|xx000896|par=1}}
+|1||2||Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+|Details:
+* Large Fish, Common
+Sources:
+* Underground fishing spots
+* Inside [[SR:Broken Oar Grotto|Broken Oar Grotto]]
+* [[SR:Embershard Mine|Embershard Mine]]
+|-{{HE|Dog Meat}}
+|[[File:SR-icon-food-DogMeat.png|48px]]
+|Dog Meat<br>{{ID|000edb2e|par=1}}
+|0.2
+|3
+|Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+| Sources:
+* 81 guaranteed samples can be found in 28 different locations, most notably 44 at [[Skyrim:Faldar's Tooth|Faldar's Tooth]].
+* 50% chance of being dropped by any [[Skyrim:Dog|dog]], including all named dogs
+Uses:
+* Two pieces of raw meat (dog meat, horker meat, horse meat, leg of goat, or mammoth snout) are two of four items needed at the [[Skyrim:Atronach Forge|Atronach Forge]] to create an [[Skyrim:Unbound Dremora|Unbound Dremora]] (requires the [[Skyrim:Sigil Stone|Sigil Stone]]).
+|-{{HE|Fresh Meat}}
+|[[File:SR-icon-food-MammothSnout.png|48px]]
+|Fresh Meat<br>{{ID|0010211a|par=1}}
+|3
+|6
+|Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+| Quest-specific version of [[#Mammoth Snout|mammoth snout]] used in the quest [[Skyrim:Speak to Lod|Speak to Lod]]
+* This meat cannot be used for cooking or used at the Atronach Forge. It also cannot be sold to innkeepers or other food vendors, but only to general goods merchants.
+* If added by [[Skyrim:Console|console]] commands, the item will be called "Mammoth Snout" in your inventory.
+|-{{HE|Glass Catfish}}
+|[[File:SR-icon-food-Glass Catfish.png|48px]]
+|Glass Catfish{{CC|Fishing}}<br>{{ID|xx0008A0|par=1}}
+|0.5||2||Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+|Details:
+* Large Fish, Common
+Sources:
+* Underground fishing spots
+* [[Skyrim:Blackreach|Blackreach]]
+* [[SR:Lost Knife Hideout|Lost Knife Hideout]]
+* Inside Reachwater Rock
+|-{{HE|Horker Meat}}
+|[[File:SR-icon-food-HorkerMeat.png|48px]]
+|Horker Meat<br>{{ID|00065c9b|par=1}}
+|1
+|3
+|Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 1 pt
+| Sources:
+* 41 guaranteed samples can be found in nineteen different locations, most notably in [[Skyrim:Japhet's Folly|Japhet's Folly]].
+* Dropped by all [[Skyrim:Horker|horker]]s
+* 71% chance of 1-7 samples being sold by [[Skyrim:Marise Aravel|Marise Aravel]]
+* 79% chance of 1-8 samples being sold by [[Skyrim:Anoriath|Anoriath]]
+* 55% chance of being sold by [[Skyrim:Hunter|hunter]]s
+* Three samples can be harvested from the [[Skyrim:Passive_Creatures#Horker_.28dead.29|dead horker]] hanging in [[Skyrim:Skaal Village|Skaal Village]]{{DB}}.
+Uses:
+* One horker meat is one of two items needed to cook a [[Skyrim:Horker Loaf|horker loaf]].
+* One horker meat is one of four items needed to [[Skyrim:Cooking|cook]] [[Skyrim:Horker Stew|horker stew]].
+* One horker meat is one of five items needed to [[Skyrim:Cooking|cook]] [[Skyrim:Hot Horker Stew|hot horker stew]]{{CC|Survival Mode}}.
+* One horker meat is one of three items needed to cook [[Skyrim:Horker and Ash Yam Stew|horker and ash yam stew]] with Dragonborn installed.
+* One horker meat is one of four items needed to cook [[Skyrim:Hot Horker and Ash Yam Stew|hot horker and ash yam stew]]{{CC|Survival Mode}}.
+* Two pieces of raw meat (dog meat, horker meat, horse meat, leg of goat, or mammoth snout) are two of four items needed at the [[Skyrim:Atronach Forge|Atronach Forge]] to create an [[Skyrim:Unbound Dremora|Unbound Dremora]] (requires the [[Skyrim:Sigil Stone|Sigil Stone]]).
+|-{{HE|Horse Meat}}
+|[[File:SR-icon-food-HorseMeat.png|48px]]
+|Horse Meat<br>{{ID|00065c9c|par=1}}
+|2
+|3
+|Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+| Sources:
+* 23 guaranteed samples can be found in seventeen different locations, most notably in [[Skyrim:Castle Dour, Emperor's Tower|Castle Dour, Emperor's Tower]].
+* 33% chance of being dropped by all [[Skyrim:Horse|horse]]s, including purchased horses and named horses
+Uses:
+* One horse meat is one of two items needed to [[Skyrim:Cooking|cook]] a [[Skyrim:Horse Haunch|horse haunch]].
+* Two pieces of raw meat (dog meat, horker meat, horse meat, leg of goat, or mammoth snout) are two of four items needed at the [[Skyrim:Atronach Forge|Atronach Forge]] to create an [[Skyrim:Unbound Dremora|Unbound Dremora]] (requires the [[Skyrim:Sigil Stone|Sigil Stone]]).
+|-{{HE|Leg of Goat}}
+|[[File:SR-icon-food-LegOfGoat.png|48px]]
+|Leg of Goat<br>{{ID|00065c9a|par=1}}
+|1
+|3
+|Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+| Sources:
+* 42 guaranteed samples can be found in 35 different locations, most notably in [[Skyrim:Driftshade Cellar|Driftshade Cellar]].
+* 33% chance of being dropped by all [[Skyrim:Goat|goat]]s, including [[Skyrim:Gleda the Goat|Gleda the Goat]]
+* 79% chance of 1-8 being sold by [[Skyrim:Anoriath|Anoriath]]
+* 71% chance of 1-7 being sold by [[Skyrim:Marise Aravel|Marise Aravel]]
+* 82% chance of 1-6 being sold by hunters
+Uses:
+* One leg of goat is one of two items needed to [[Skyrim:Cooking|cook]] a [[Skyrim:Leg of Goat Roast|leg of goat roast]].
+* Two pieces of raw meat (dog meat, horker meat, horse meat, leg of goat, or mammoth snout) are two of four items needed at the [[Skyrim:Atronach Forge|Atronach Forge]] to create an [[Skyrim:Unbound Dremora|Unbound Dremora]] (requires the [[Skyrim:Sigil Stone|Sigil Stone]]).
+|-{{HE|Mammoth Snout}}
+|[[File:SR-icon-food-MammothSnout.png|48px]]
+|Mammoth Snout<br>{{ID|000669a4|par=1}}
+|3
+|6
+|Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+| Sources:
+* 20 guaranteed samples can be found in fourteen different locations, most notably in [[Skyrim:Halted Stream Camp|Halted Stream Camp]].
+* Dropped by all [[Skyrim:Mammoth|mammoth]]s, including [[Skyrim:Mammoth Guardian Spirit|Mammoth Guardian Spirit]]s
+* Always sold by [[Skyrim:Hogni Red-Arm|Hogni Red-Arm]]
+Uses:
+* One mammoth snout is one of two items needed to [[Skyrim:Cooking|cook]] a [[Skyrim:Mammoth Steak|mammoth steak]].
+* Two pieces of raw meat (dog meat, horker meat, horse meat, leg of goat, or mammoth snout) are two of four items needed at the [[Skyrim:Atronach Forge|Atronach Forge]] to create an [[Skyrim:Unbound Dremora|Unbound Dremora]] (requires the [[Skyrim:Sigil Stone|Sigil Stone]]).
+* Recognized by vendors as raw food, meaning it can be sold to apothecary merchants and innkeepers
+|-{{HE|Mudcrab Legs}}
+|[[File:SR-icon-food-MudcrabLegs.png|48px]]
+|Mudcrab Legs{{HF}}<br>{{ID|xx003540|par=1}}
+|0.1
+|3
+|Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 1 pt
+| Added by the [[Skyrim:Hearthfire|Hearthfire]] add-on
+Sources:
+* Dropped by all [[Skyrim:Mudcrab|mudcrab]]s
+* Found in the [[Skyrim:Construction|player-built]] homes
+Uses:
+* One mudcrab legs is one of two items needed to [[Skyrim:Cooking|cook]] [[Skyrim:Steamed_Mudcrab_Legs|steamed mudcrab legs]]{{HF}}.
+
+|-{{HE|Nix-Hound Meat}}
+|[[File:SR-icon-food-DogMeat.png|48px]]
+|Nix-Hound Meat{{CC|Nix-Hound}}<br>{{ID|FExxx819|par=1}}
+|0.2
+|3
+|Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+|
+Sources:
+* Dropped by all [[Skyrim:Nix-Hound|Nix-Hounds]]
+Uses:
+* Used for cooking [[Skyrim:Cooked Nix-Hound Meat|Cooked Nix-Hound Meat]]
+
+|-{{HE|Pheasant Breast}}
+|[[File:SR-icon-food-PheasantBreast.png|48px]]
+|Pheasant Breast<br>{{ID|00065c9d|par=1}}
+|0.2
+|3
+|Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+| Sources:
+* 55 guaranteed samples can be found in 36 different locations, most notably the [[Skyrim:Penitus Oculatus Outpost|Penitus Oculatus Outpost]] and the [[Skyrim:Guardhouse|Guardhouse]].
+* Can be harvested from [[Skyrim:Pheasant|pheasants]], found hanging from ceiling racks in buildings. 314 pheasants can be found in 125 different locations, most notably [[Skyrim:Japhet's Folly Towers|Japhet's Folly Towers]].
+* 79% chance of 1-8 samples being sold by [[Skyrim:Anoriath|Anoriath]]
+* 71% chance of 1-7 samples being sold by [[Skyrim:Marise Aravel|Marise Aravel]]
+* 55% chance of being sold by hunters
+Uses:
+* One pheasant breast is one of two items needed to [[Skyrim:Cooking|cook]] a [[Skyrim:Pheasant Roast|pheasant roast]].
+* Recognized by vendors as raw food, meaning it can be sold to apothecary merchants and innkeepers
+|-{{HE|Pogfish}}
+|[[File:SR-icon-food-Pogfish.png|48px]]
+|Pogfish{{CC|Fishing}}<br>{{ID|xx000891|par=1}}
+|1||2||Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+|Details:
+* Large Fish, Uncommon, Any Weather
+Sources:
+* [[Skyrim:Riverwood|Riverwood]] fishing spot
+* Temperate Rivers
+|-{{HE|Raw Beef}}
+|[[File:SR-icon-food-RawBeef.png|48px]]
+|Raw Beef<br>{{ID|00065c99|par=1}}
+|0.2
+|4
+|Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+| Sources:
+* 57 guaranteed samples can be found in 46 different locations, most notably [[Skyrim:Japhet's Folly|Japhet's Folly]].
+* Dropped by all [[Skyrim:Cow|cow]]s
+* 79% chance of 1-8 samples being sold by [[Skyrim:Anoriath|Anoriath]]
+* 71% chance of 1-7 samples being sold by [[Skyrim:Marise Aravel|Marise Aravel]]
+Uses:
+* One raw beef is one of two items needed to [[Skyrim:Cooking|cook]] [[Skyrim:Cooked Beef|cooked beef]].
+* One raw beef is one of four items needed to cook [[Skyrim:Beef Stew|beef stew]] or [[Skyrim:Hot Beef Stew|hot beef stew]]{{CC|Survival Mode}}.
+|-{{HE|Raw Rabbit Leg}}
+|[[File:SR-icon-food-RawRabbitLeg.png|48px]]
+|Raw Rabbit Leg<br>{{ID|00065c9e|par=1}}
+|0.1
+|2
+|Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+| Sources:
+* 66 guaranteed samples can be found in 48 different locations, most notably [[Skyrim:Pinewatch|Pinewatch]].
+* Dropped by all [[Skyrim:Rabbit|rabbit]]s
+* Can be harvested from [[Skyrim:Rabbit (dead)|dead rabbits]], found hanging from ceiling racks in buildings. 529 such rabbits can be found in 175 different locations, most notably [[Skyrim:Japhet's Folly Towers|Japhet's Folly Towers]].
+* 79% chance of 1-8 samples being sold by [[Skyrim:Anoriath|Anoriath]]
+* 71% chance of 1-7 samples being sold by [[Skyrim:Marise Aravel|Marise Aravel]]
+* 55% chance of being sold by hunters
+Uses:
+* One raw rabbit leg is one of two items needed to [[Skyrim:Cooking|cook]] a [[Skyrim:Rabbit Haunch|rabbit haunch]].
+* Recognized by vendors as raw food, meaning it can be sold to apothecary merchants and innkeepers
+|-{{HE|Salmon}}
+|[[File:SR-icon-food-Salmon.png|48px]]
+|Salmon{{CC|Fishing}}<br>{{ID|xx00089B|par=1}}
+|0.5||3||Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+|Details:
+* Large Fish, Very Common, Any Weather
+*Can also be used to make [[SR:Salmon Steak|Salmon Steak]]
+Sources: 
+* Everywhere
+|-{{HE|Salmon Meat}}
+|[[File:SR-icon-food-SalmonMeat.png|48px]]
+|Salmon Meat<br>{{ID|00065c9f|par=1}}
+|0.1
+|3
+|Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+| Sources:
+* 138 guaranteed samples can be found in 38 different locations, most notably 28 centered 330 feet south of [[Skyrim:Merryfair Farm|Merryfair Farm]]. {{Map Link|x=167275|y=-95667}}
+* Can be harvested from salmon found hanging on drying racks. 618 such salmon can be found in 110 different locations, most notably 53 in [[Skyrim:Riften Fishery|Riften Fishery]].
+* Can be harvested from live salmon
+** 89 guaranteed salmon can be found in eighteen different locations, most notably fourteen centered 250 feet east of [[Skyrim:Honningbrew Meadery|Honningbrew Meadery]]. {{Map Link|x=36161|y=-18742}}
+** Salmon are also one of several fish that can spawn at fish spawning sites. 673 spawning sites can be found in 83 different locations, most notably around [[Skyrim:Orphan's Tear|Orphan's Tear]] and [[Skyrim:Septimus Signus's Outpost|Septimus Signus's Outpost]].
+* Two always sold by [[Skyrim:Addvar|Addvar]]
+Uses:
+* One salmon meat is one of two items needed to [[Skyrim:Cooking|cook]] a [[Skyrim:Salmon Steak|salmon steak]].
+* Recognized by vendors as raw food, meaning it can be sold to apothecary merchants and innkeepers
+|-{{HE|Scorpion Fish}}
+|[[File:SR-icon-food-Scorpion Fish.png|48px]]
+|Scorpion Fish{{CC|Fishing}}<br>{{ID|xx0008A1|par=1}}
+|1||30||Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+|Details:
+* Large Fish, Rare
+Sources:
+* Eleven underground fishing [[Skyrim:Fishing_(activity)#Fishing_Locations|spots]] only while using the [[SR:Argonian Fishing Rod|Argonian Fishing Rod]].  
+* [[SR:Darkfall Cave|Darkfall Cave]] One (which respawns rarely) to catch by hand.
+|-{{HE|Slaughterfish}}
+|[[File:SR-icon-food-Slaughterfish.png|48px]]
+|Slaughterfish{{CC|Fishing}}<br>{{ID|xx000F25|par=1}}
+|0.5||5||Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+|Details:
+* Large Fish, Common, Any Weather
+Sources:
+* Temperate Lakes and Streams
+|-{{HE|Tripod Spiderfish}}
+|[[File:SR-icon-food-Tripod Spiderfish.png|48px]]
+|Tripod Spiderfish{{CC|Fishing}}<br>{{ID|xx00089E|par=1}}
+|0.5||10||Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+|Details:
+* Large Fish, Uncommon
+Sources:
+* Underground fishing spots
+* [[Skyrim:Blackreach|Blackreach]]
+* Inside [[SR:Broken Oar Grotto|Broken Oar Grotto]], 19 in total.
+* [[Skyrim:Clearspring Cave|Clearspring Cave]], 2 total.
+* [[SR:Embershard Mine|Embershard Mine]]
+* [[Skyrim:Lost Prospect Mine|Lost Prospect Mine]]
+* Inside [[Skyrim:Reachwater Rock|Reachwater Rock]]
+* [[Skyrim:Shadowgreen Cavern|Shadowgreen Cavern]], under a rock in the pool of water.
+|-{{HE|Vampire Fish}}
+|[[File:SR-icon-food-Vampire Fish.png|48px]]
+|Vampire Fish{{CC|Fishing}}<br>{{ID|xx00088B|par=1}}
+|1||10||Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+|Details:
+* Large Fish, Uncommon
+Sources:
+* Underground fishing spots
+* [[SR:Castle Volkihar|Castle Volkihar]] - 10 can be found in the surrounding waters.
+* [[SR:Lost Knife Hideout|Lost Knife Hideout]]
+* Inside Reachwater Rock
+* [[Skyrim:Dead Drop Falls|Dead Drop Falls]]
+* [[Skyrim:Dimhollow Crypt|Dimhollow Crypt]] - 5 can be found in the water surrounding [[Skyrim:Serana|Serana]]'s coffin. 
+|-{{HE|Venison}}
+|[[File:SR-icon-food-Venison.png|48px]]
+|Venison<br>{{ID|000669a2|par=1}}
+|2
+|4
+|Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+| Sources:
+* 66 guaranteed samples can be found in 47 different locations, most notably around [[Skyrim:Hunter's Rest|Hunter's Rest]] and [[Skyrim:Broken Oar Grotto|Broken Oar Grotto]].
+* Dropped by all [[Skyrim:Deer|deer]], [[Skyrim:Elk|elk]], and the [[Skyrim:White Stag|White Stag]]
+* Nearly always sold by hunters
+Uses:
+* One venison is one of two items needed to [[Skyrim:Cooking|cook]] a [[Skyrim:Venison Chop|venison chop]].
+* One venison is one of four items needed to cook [[Skyrim:Venison Stew|venison stew]] or [[Skyrim:Hot Venison Stew|hot venison stew]]{{CC|Survival Mode}}.
+|}
+{{Showhide/End}}
+
+===Fruit/Vegetables===
+{{Showhide/Start|expanded=1}}
+In addition to the specific locations listed in the following table, most of the following fruits and vegetables are also commonly found in food [[Skyrim:containers|containers]], namely barrels, large sacks, sacks, and small sacks. The only items not randomly found in such containers are gourds and leeks. The ability to [[Skyrim:Greenhouse#Food and Ingredients|plant and grow]] some fruit and vegetables was added by the [[Skyrim:Hearthfire|Hearthfire]] add-on.
+{| class="wikitable sortable"
+!class=unsortable|
+!Name ([[Skyrim:Form ID|ID]])
+!width=22|{{Weight Icon}}
+!width=22|{{Value Icon}}
+![[Skyrim:Hunger|Hunger]]{{Creation Club|Survival Mode}}
+!Effect(s)
+!class="unsortable"|Notes
+|-{{HE|Ash Yam}}
+|[[File:SR-icon-food-Ash Yam.png|48px]]
+|Ash Yam{{DB}}<br>{{ID|xx0206e7|par=1}}
+|0.1||1||Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 1 pt
+|Sources:
+* 188 already-harvested ash yams can be found in 19 different locations, most notably in the [[Skyrim:Ienth Farm|Ienth Farm]].
+* Can be harvested from plants throughout [[Skyrim:Solstheim|Solstheim]]
+Uses:
+* One ash yam is one of three items needed to cook [[Skyrim:Horker and Ash Yam Stew|horker and ash yam stew]]{{DB}}.
+* One ash yam is one of four items needed to cook [[Skyrim:Hot Horker and Ash Yam Stew|hot horker and ash yam stew]]{{CC|Survival Mode}}.
+|-{{HE|Cabbage}}
+|[[File:SR-icon-food-Cabbage.png|48px]]
+|Cabbage<br>{{ID|00064b3f|par=1}}
+|0.25
+|2
+|Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 1 pt
+| Sources:
+* 472 already-harvested cabbages can be found in 162 different locations, most notably the [[Skyrim:Thalmor Embassy|Thalmor Embassy]] and [[Skyrim:Understone Keep|Understone Keep]].
+* Six cabbages are always sold by [[Skyrim:Jala|Jala]].
+* 84% chance of 1-8 being sold by [[Skyrim:Carlotta Valentia|Carlotta Valentia]]
+* 77% chance of 1-7 being sold by [[Skyrim:Marise Aravel|Marise Aravel]]
+* Can be harvested from cabbage plants. 221 plants can be found in 21 different locations, most notably near [[Skyrim:Rorikstead|Rorikstead]] and at [[Skyrim:Pelagia Farm|Pelagia Farm]].
+* Can be planted and harvested in the [[Skyrim:Construction#Exterior|garden]] and optional [[Skyrim:Greenhouse|greenhouse]] addition of [[Skyrim:Construction|player-built]] homes
+Uses:
+* One cabbage is one of two items needed to cook [[Skyrim:Cabbage Soup|cabbage soup]] or [[Skyrim:Hot Cabbage Soup|hot cabbage soup]]{{CC|Survival Mode}}.
+* One cabbage is one of three items needed to cook [[Skyrim:Apple Cabbage Stew|apple cabbage stew]] or [[Skyrim:Hot Apple Cabbage Stew|hot apple cabbage stew]]{{CC|Survival Mode}}.
+* One cabbage is one of four items needed to cook [[Skyrim:Cabbage Potato Soup|cabbage potato soup]] or [[Skyrim:Hot Cabbage Potato Soup|hot cabbage potato soup]]{{CC|Survival Mode}}.
+* One cabbage is one of four items needed to cook [[Skyrim:Vegetable Soup|vegetable soup]].
+* One cabbage is one of five items needed to cook [[Skyrim:Hot Vegetable Soup|hot vegetable soup]].
+* Can be sold to [[Skyrim:Azzada Lylvieve|Azzada Lylvieve]], [[Skyrim:Boti|Boti]], [[Skyrim:Lemkil|Lemkil]], [[Skyrim:Mathies|Mathies]], [[Skyrim:Reldith|Reldith]], [[Skyrim:Severio Pelagia|Severio Pelagia]], or [[Skyrim:Synda Llanith|Synda Llanith]] for the quest [[Skyrim:Gather Wheat|Gather Wheat]]
+|-{{HE|Carrot}}
+|[[File:SR-icon-food-Carrot.png|48px]]
+|Carrot<br>{{ID|00064b40|par=1}}
+|0.1
+|1
+|Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 1 pt
+| Sources:
+* 191 already-harvested carrots can be found in 68 different locations, most notably at [[Skyrim:Dragonsreach|Dragonsreach]].
+* 84% chance of being sold by most innkeepers
+* 191 guaranteed samples found in 68 different locations.
+* Can be planted and harvested in the [[Skyrim:Construction#Exterior|garden]] and optional [[Skyrim:Greenhouse|greenhouse]] addition of [[Skyrim:Construction|player-built]] homes
+Uses:
+* One carrot is one of four items needed to cook [[Skyrim:Beef Stew|beef stew]] or [[Skyrim:Hot Beef Stew|hot beef stew]]{{CC|Survival Mode}}.
+
+|-{{HE|Gourd}}
+|[[File:SR-icon-food-Gourd.png|48px]]
+|Gourd<br>{{ID|0010d666|par=1}}
+|0.2
+|1
+|Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 1 pt
+| Sources:
+* 223 already-harvested gourds can be found in 114 different locations, most notably the [[Skyrim:East Empire Company Warehouse|East Empire Company Warehouse]].
+* Can be harvested from gourd plants. 423 plants can be found in 56 different locations, most notably [[Skyrim:Heartwood Mill|Heartwood Mill]] and [[Skyrim:Sarethi Farm|Sarethi Farm]].
+* This vegetable is less common than the other fruits and vegetables because it is not in the leveled lists used to generate the contents of random food containers (barrels and all varieties of sacks).
+* Can be planted and harvested in the [[Skyrim:Construction#Exterior|garden]] and optional [[Skyrim:Greenhouse|greenhouse]] addition of [[Skyrim:Construction|player-built]] homes
+Uses:
+* Can be sold to [[Skyrim:Alfhild Battle-Born|Alfhild Battle-Born]], [[Skyrim:Avrusa Sarethi|Avrusa Sarethi]], [[Skyrim:Mathies|Mathies]], or [[Skyrim:Synda Llanith|Synda Llanith]] for the quest [[Skyrim:Gather Wheat|Gather Wheat]]
+{{Bug|This vegetable cannot be sold to innkeepers or other food vendors, but only to general goods merchants.|USKP|2.0.7|They can also be sold to food vendors.}}
+{{Bug|One of the [[Skyrim:Resist Frost|Resist Frost]] [[Skyrim:Recipes|recipes]] incorrectly calls for a gourd as an ingredient. Gourds cannot be used in alchemy.|USKP|1.3.2|The recipe now says to use [[Skyrim:Silverside Perch|Silverside Perch]].}}
+|-{{HE|Green Apple}}
+|[[File:SR-icon-food-GreenApple.png|48px]]
+|Green Apple<br>{{ID|00064b2f|par=1}}
+|0.1
+|3
+|Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+| Sources:
+* 316 apples can be found in 87 different locations, most notably [[Skyrim:Mistveil Keep|Mistveil Keep]] and [[Skyrim:The Bee and Barb|The Bee and Barb]].
+* 84% chance of being sold by most innkeepers
+Uses:
+* {{HF|1}} One green apple is one of three items needed to [[Skyrim:Baking|bake]] an [[Skyrim:Apple_Dumpling|apple dumpling]].
+* {{HF|1}} Two green apples are two of nine items needed to bake an [[Skyrim:Apple_Pie|apple pie]].
+* {{CC|Rare Curios}} One green apple is one of two items needed to [[Skyrim:Cooking|cook]] a [[Skyrim:Rare_Curios_Items#Food|poisoned green apple]].
+|-{{HE|Leek}}
+|[[File:SR-icon-food-Leek.png|48px]]
+|Leek<br>{{ID|000669a5|par=1}}
+|0.1
+|1
+|Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 1 pt
+| Sources:
+* 241 already-harvested leeks can be found in 94 different locations, most notably the [[Skyrim:Thalmor Embassy|Thalmor Embassy]].
+* Three leeks are always sold by [[Skyrim:Jala|Jala]].
+* Can be harvested from leek plants. 170 plants can be found in 21 different locations, most notably [[Skyrim:Battle-Born Farm|Battle-Born Farm]] and [[Skyrim:Loreius Farm|Loreius Farm]].
+* This vegetable is less common than the other fruits and vegetables because it is not in the leveled lists used to generate the contents of random food containers (barrels and all varieties of sacks).
+* Can be planted and harvested in the [[Skyrim:Construction#Exterior|garden]] and optional [[Skyrim:Greenhouse|greenhouse]] addition of [[Skyrim:Construction|player-built]] homes
+Uses:
+* [[Skyrim:Food#Grilled Leeks|Grilled leeks]] can be cooked in a Cooking Pot with the Anniversary Edition, using 1 Leek. Can be cooked over a campfire with the [[Skyrim:Camping|Camping]] creation using 2 Leeks.
+* One leek is one of four items needed to [[Skyrim:Cooking|cook]] [[Skyrim:Hot Cabbage Potato Soup|(hot)]] [[Skyrim:Cabbage Potato Soup|cabbage potato soup]], [[Skyrim:Crab Stew|crab stew]]{{CC|Fishing}}, [[Skyrim:Hot Tomato Soup|(hot)]] [[Skyrim:Tomato Soup|tomato soup]], [[Skyrim:Vegetable Soup|vegetable soup]], or [[Skyrim:Hot Venison Stew|(hot)]] [[Skyrim:Venison Stew|venison stew]].
+* One leek is one of five items needed to [[Skyrim:Cooking|cook]] [[Skyrim:Hot Crab Stew|hot crab stew]]{{CC|Survival Mode}} or  [[Skyrim:Hot Vegetable Soup|hot vegetable soup]]{{CC|Survival Mode}}.
+* One leek is one of five items needed to [[Skyrim:Baking|bake]] a [[Skyrim:Food#Chicken Dumpling|chicken dumpling]]{{HF}}.
+* Can be sold to [[Skyrim:Addvild|Addvild]], [[Skyrim:Alfhild Battle-Born|Alfhild Battle-Born]], [[Skyrim:Boti|Boti]], [[Skyrim:Katla|Katla]], or [[Skyrim:Lemkil|Lemkil]] for the quest [[Skyrim:Gather Wheat|Gather Wheat]]
+|-{{HE|Potato}}
+|[[File:SR-icon-food-Potato.png|48px]]
+|Potato<br>{{ID|00064b41|par=1}}
+|0.1
+|1
+|Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 1 pt
+| Sources:
+* 1079 already-harvested potatoes can be found in 197 different locations, most notably the [[Skyrim:Thalmor Embassy|Thalmor Embassy]] and [[Skyrim:Understone Keep|Understone Keep]].
+* Can be harvested from potato plants. 264 plants can be found in 29 different locations, most notably around [[Skyrim:Rorikstead|Rorikstead]] and around [[Skyrim:Solitude Sawmill|Solitude Sawmill]].
+* Can be planted and harvested in the [[Skyrim:Construction#Exterior|garden]] and optional [[Skyrim:Greenhouse|greenhouse]] addition of [[Skyrim:Construction|player-built]] homes
+Uses:
+* One potato is needed to [[Skyrim:Baking|bake]] a [[Skyrim:Baked Potatoes|baked potato]]{{HF}}.
+* One potato is one of two items needed to cook [[Skyrim:Potato_Soup|potato soup]]{{HF}}.
+* One potato is one of four items needed to cook [[Skyrim:Hot Cabbage Potato Soup|(hot)]] [[Skyrim:Cabbage Potato Soup|cabbage potato soup]], [[Skyrim:Clam_Chowder|clam chowder]]{{HF}}, [[Skyrim:Crab Stew|crab stew]]{{CC|Fishing}}, [[Skyrim:Potato Crab Chowder|potato crab chowder]]{{CC|Fishing}}, [[Skyrim:Vegetable Soup|vegetable soup]], or [[Skyrim:Hot Venison Stew|(hot)]] [[Skyrim:Venison Stew|venison stew]].
+* One potato is one of five items needed to cook [[Skyrim:Hot Clam_Chowder|hot clam chowder]]{{CC|Survival Mode}}, [[Skyrim:Hot Crab Stew|hot crab stew]]{{CC|Survival Mode}}, [[Skyrim:Hot Potato Crab Chowder|hot potato crab chowder]]{{CC|Survival Mode}}, or [[Skyrim:Hot Vegetable Soup|hot vegetable soup]]{{CC|Survival Mode}}.
+* Can be sold to [[Skyrim:Addvild|Addvild]], [[Skyrim:Avrusa Sarethi|Avrusa Sarethi]], [[Skyrim:Azzada Lylvieve|Azzada Lylvieve]], [[Skyrim:Boti|Boti]], [[Skyrim:Katla|Katla]], [[Skyrim:Lemkil|Lemkil]], [[Skyrim:Mathies|Mathies]], [[Skyrim:Reldith|Reldith]], [[Skyrim:Severio Pelagia|Severio Pelagia]], or [[Skyrim:Vigdis Salvius|Vigdis Salvius]] for the quest [[Skyrim:Gather Wheat|Gather Wheat]]
+|-{{HE|Red Apple}}
+|[[File:SR-icon-food-RedApple.png|48px]]
+|Red Apple<br>{{ID|00064b2e|par=1}}
+|0.1
+|3
+|Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+| Sources:
+* 553 red apples can be found in 124 different locations, most notably the [[Skyrim:Hall of Countenance|Hall of Countenance]] and the [[Skyrim:Thalmor Embassy|Thalmor Embassy]].
+* Four apples are always sold by [[Skyrim:Jala|Jala]].
+* 84% chance of being sold by most innkeepers
+Uses:
+* One red apple is one of three items needed to [[Skyrim:Cooking|cook]] [[Skyrim:Apple Cabbage Stew|apple cabbage stew]] or [[Skyrim:Hot Apple Cabbage Stew|hot apple cabbage stew]]{{CC|Survival Mode}}.
+* One red apple is one of three items needed to [[Skyrim:Baking|bake]] an [[Skyrim:Apple_Dumpling|apple dumpling]]{{HF}}.
+* Two red apples are two of nine items needed to bake an [[Skyrim:Apple_Pie|apple pie]]{{HF}}.
+* One red apple is one of two items needed to [[Skyrim:Cooking|cook]] a [[Skyrim:Rare_Curios_Items#Food|poisoned red apple]]{{CC|Rare Curios}}.
+|-{{HE|Soul Husk}}
+|[[File:SR-icon-food-Soul Husk.png|48px]]
+|Soul Husk{{DG}}<br>{{ID|xx014dc4|par=1}}
+|0.1
+|1
+|
+|
+* [[Skyrim:Resist Magic|Resist Magic]], 10% for 10 secs
+* Protect Soul, 10 secs
+| Sources:
+* Can only be found in the [[Skyrim:Soul Cairn|Soul Cairn]].
+** With the [[Skyrim:Green Thumb|Green Thumb]] perk, you will harvest two Soul Husks instead of one.
+Uses:
+* Prevents the health draining effects of the [[Skyrim:Ideal Master Crystal|Ideal Master Crystals]].
+* 25 of them can be traded to [[Skyrim:Morven Stroud|Morven Stroud]] for leveled gear.
+* 5 of them can be traded to [[Skyrim:Valerica|Valerica]] for [[Skyrim:Soul Husk Extract|Soul Husk Extract]], but only after completing [[Skyrim:Beyond Death|Beyond Death]], leaving the Soul Cairn, and coming back.
+|-{{HE|Tomato}}
+|[[File:SR-icon-food-Tomato.png|48px]]
+|Tomato<br>{{ID|00064b42|par=1}}
+|0.1
+|4
+|Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 1 pt
+| Sources:
+* 279 tomatoes can be found in 60 different locations, most notably the [[Skyrim:Thalmor Embassy|Thalmor Embassy]] and [[Skyrim:Proudspire Manor|Proudspire Manor]].
+* Seven are always sold by [[Skyrim:Jala|Jala]].
+* 84% chance of being sold by most innkeepers
+Uses:
+* One tomato is one of four items needed to [[Skyrim:Cooking|cook]] [[Skyrim:Horker Stew|horker stew]], [[Skyrim:Hot Tomato Soup|(hot)]] [[Skyrim:Tomato Soup|tomato soup]], [[Skyrim:Hot Roasted Tomato Crab Bisque|(hot)]] [[Skyrim:Roasted Tomato Crab Bisque|roasted tomato crab bisque]], or [[Skyrim:Vegetable Soup|vegetable soup]].
+* One crab meat is one of the five items needed to [[Skyrim:Cooking|cook]] [[Skyrim:Hot Horker Stew|hot horker stew]]{{CC|Survival Mode}} or [[Skyrim:Hot Vegetable Soup|hot vegetable soup]]{{CC|Survival Mode}}.
+|-{{HE|Wild Gourd}}
+|[[File:SR-icon-food-Wild Gourd.png|48px]]
+|Wild Gourd{{CC|Forgotten Seasons}}<br>{{ID|xx019D20|par=1}}
+|0.3
+|3
+|Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 3 pts
+| Sources:
+* Found in [[Skyrim:Runoff Caverns#Autumn's Bells|Autumn's Bells in Runoff Caverns]]
+|}
+Food plants that can be planted and harvested:
+<gallery>
+File:SR-flora-Ash Yam.jpg|Ash Yam, harvest only
+File:SR-flora-Cabbage.jpg|Cabbage, plant and harvest
+File:SR-flora-Carrot.jpg|Carrot, plant and harvest
+File:SR-flora-Gourd.jpg|Gourd, plant and harvest<br>Wild Gourd, harvest only
+File:SR-flora-Leek.jpg|Leek, plant and harvest
+File:SR-flora-Potato.jpg|Potato, plant and harvest
+File:SR-flora-Soul Husk.jpg|Soul Husk, harvest only
+</gallery>
+{{Showhide/End}}
+{{NewLine}}{{Mod Note|Hearthfire}}
+
+===Baking & Cooking Items===
+{{Showhide/Start|expanded=1}}
+These raw foods are used in [[Skyrim:Baking|baking]] and/or [[Skyrim:Cooking|cooking]]. The ability to bake items in a player-built [[Skyrim:Kitchen|kitchen]] was introduced by the [[Skyrim:Hearthfire|Hearthfire]] add-on.
+{| class="wikitable sortable"
+! class=unsortable|
+!Name ([[Skyrim:Form ID|ID]])
+!width=22|{{Weight Icon}}
+!width=22|{{Value Icon}}
+![[Skyrim:Hunger|Hunger]]{{Creation Club|Survival Mode}}
+!Effect(s)
+!class="unsortable"|Notes
+|-{{HE|Butter}}
+|[[File:SR-icon-food-Butter.png|48px]]
+|Butter{{HF}}<br>{{ID|xx00353c|par=1}}
+|0.1
+|1
+|Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+| Sources:
+* Obtained from the churn in the optional [[Skyrim:Kitchen|kitchen]] addition of [[Skyrim:Construction|player-built]] homes
+* Can be sold by innkeepers and some food vendors
+* Found in random loot
+Uses:
+* One butter is one of eight items needed to bake [[Skyrim:Apple Pie|apple pie]].
+* One butter is one of five items needed to bake a [[Skyrim:Boiled Creme Treat|boiled creme treat]].
+* One butter is one of four items needed to cook [[Skyrim:Clam_Chowder|clam chowder]]{{HF}}.
+* One butter is one of four items needed to cook [[Skyrim:Hot Creamy Crab Bisque|(hot)]] [[Skyrim:Creamy Crab Bisque|creamy crab bisque]]{{CC|Fishing}}.
+* One butter is one of three items needed to bake two [[Skyrim:Garlic_Bread|garlic bread]]{{HF}}.
+* One butter is one of five items needed to cook [[Skyrim:Hot Clam_Chowder|hot clam chowder]]{{CC|Survival Mode}}.
+* One butter is one of five items needed to cook [[Skyrim:Hot Potato Crab Chowder|hot potato crab chowder]]{{CC|Survival Mode}}.
+* One butter is one of four items needed to bake a [[Skyrim:Jazbay_Crostata|jazbay crostata]]{{HF}}.
+* One butter is one of five items needed to bake a [[Skyrim:Juniper_Berry_Crostata|juniper berry crostata]]{{HF}}.
+* One butter is one of three items needed to cook a [[Skyrim:Long Taffy Treat|long taffy treat]].
+* One butter is one of the four items needed to cook [[Skyrim:Potato Crab Chowder|potato crab chowder]].
+* One butter is one of the four items needed to cook [[Skyrim:Roasted Tomato Crab Bisque|(hot)]] [[Skyrim:Roasted Tomato Crab Bisque|Roasted Tomato Crab Bisque]]{{CC|Survival Mode}}.
+* One butter is one of four items needed to bake a [[Skyrim:Snowberry_Crostata|snowberry crostata]]{{HF}}.
+* One butter is one of two items needed to cook [[Skyrim:Steamed_Mudcrab_Legs|steamed mudcrab legs]]{{HF}}.
+* One butter is one of five items needed to bake a [[Skyrim:Sweet Roll|sweet roll]].
+
+|-{{HE|Honey}}
+|[[File:SR-icon-food-Honey.png|48px]]
+|Honey<br>{{ID|0010394d|par=1}}
+|0.1
+|2
+|Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+| Honey could be collected from:
+
+* [[Skyrim:Werebear|Werebears]]{{DB}} (high chance)
+* [[Skyrim:Apiary|Apiaries]] at [[Skyrim:Goldenhills Plantation|Goldenhills Plantation]]{{CC|Farming}} (moderate chance)
+* Pantry closet at [[Skyrim:Goldenhills Plantation|Goldenhills Plantation]]{{CC|Farming}} (moderate chance)
+
+Limited samples of honey are available from:
+
+* [[Skyrim:Haelga's Bunkhouse|Haelga's Bunkhouse]]
+* [[Skyrim:Wulfgar|Wulfgar]] at [[Skyrim:High Hrothgar|High Hrothgar]]
+* Mantles above dining tables in [[Skyrim:Main Hall|main halls]] of [[Skyrim:Construction|player-built]] houses{{HF}}
+* The [[Skyrim:Greathall|Greathall]] in [[Skyrim:Skaal Village|Skaal Village]]{{DB}}
+* [[Skyrim:Thirsk Mead Hall|Thirsk Mead Hall]]{{DB}}
+Uses:
+* One honey is one of five items needed to bake a [[Skyrim:Boiled Creme Treat|boiled creme treat]].
+* One honey is one of three items needed to cook a [[Skyrim:Long Taffy Treat|long taffy treat]].
+
+|-{{HE|Jug of Milk}}
+| [[File:SR-icon-food-Jug of Milk.png|48px]]
+|Jug of Milk{{HF}}<br>{{ID|xx003534|par=1}}
+|1
+|2
+|Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+| Sources:
+* Obtained from the optional [[Skyrim:Kitchen|kitchen]] addition of [[Skyrim:Construction|player-built]] homes
+* Can be sold by innkeepers and some food vendors
+* Found in random loot
+* Can be obtained by milking [[SR:Hilda|Hilda]]{{CC|Pets of Skyrim}}
+* [[SR:Pantry Cupboard|Pantry Cupboard]] at [[SR:Goldenhills Plantation|Goldenhills Plantation]]{{CC|Farming}}
+Uses:
+* Two jugs of milk are two of three items needed to cook [[Skyrim:Eidar Cheese Wheel|eidar cheese wheel]].
+* Two jugs of milk are two of three items needed to cook [[Skyrim:Goat Cheese Wheel|goat cheese wheel]].
+* One jug of milk is one of five items needed to bake a [[Skyrim:Boiled Creme Treat|boiled creme treat]].
+* One jug of milk is one of four items needed to bake [[Skyrim:Bread|bread]].
+* One jug of milk is one of four items needed to cook [[Skyrim:Clam_Chowder|clam chowder]]{{HF}}.
+* One jug of milk is one of five items needed to cook [[Skyrim:Hot Clam_Chowder|hot clam chowder]]{{CC|Survival Mode}}.
+* One jug of milk is one of five items needed to cook [[Skyrim:Hot Potato Crab Chowder|hot potato crab chowder]]{{CC|Survival Mode}}.
+* One jug of milk is one of the four items needed to cook [[Skyrim:Potato Crab Chowder|potato crab chowder]].
+* One jug of milk is one of five items needed to bake [[Skyrim:Potato_Bread|potato bread]]{{HF}}.
+* One jug of milk is one of five items needed to bake a [[Skyrim:Sweet Roll|sweet roll]].
+
+|-{{HE|Sack of Flour}}
+| [[File:SR-icon-food-Sack of Flour.png|48px]]
+|Sack of Flour{{HF}}<br>{{ID|xx003538|par=1}}
+|0.5
+|1
+|Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 1 pt
+| Sources:
+* Found in various rooms of [[Skyrim:Construction|player-built]] homes
+* Found in random loot
+* Can be created at a [[Skyrim:Grain Mill|grain mill]] using three wheat
+* Can be sold by innkeepers
+Uses:
+* One sack of flour is one of eight items needed to bake an [[Skyrim:Apple Pie|apple pie]].
+* One sack of flour is one of three items needed to bake an [[Skyrim:Apple_Dumpling|apple dumpling]]{{HF}}.
+* One sack of flour is one of five items needed to bake a [[Skyrim:Boiled Creme Treat|boiled creme treat]].
+* One sack of flour is one of four items needed to bake [[Skyrim:Bread|bread]].
+* One sack of flour is one of two items needed to bake [[Skyrim:Braided Bread|braided bread]]{{HF}}.
+* One sack of flour is one of five items needed to bake a [[Skyrim:Chicken Dumpling|chicken dumpling]]{{HF}}.
+* One sack of flour is one of three items needed to bake [[Skyrim:Crab Cakes|crab cakes]].
+* One sack of flour is one of four items needed to cook [[Skyrim:Hot Creamy Crab Bisque|(hot)]] [[Skyrim:Creamy Crab Bisque|creamy crab bisque]]{{CC|Fishing}}.
+* One sack of flour is one of four items needed to bake a [[Skyrim:Jazbay_Crostata|jazbay crostata]]{{HF}}.
+* One sack of flour is one of five items needed to bake a [[Skyrim:Juniper_Berry_Crostata|juniper berry crostata]]{{HF}}.
+* One sack of flour is one of five items needed to bake a [[Skyrim:Lavender_Dumpling|lavender dumpling]]{{HF}}.
+* One sack of flour is one of five items needed to bake [[Skyrim:Potato_Bread|potato bread]]{{HF}}.
+* One sack of flour is one of four items needed to bake a [[Skyrim:Snowberry_Crostata|snowberry crostata]]{{HF}}.
+* One sack of flour is one of five items needed to bake a [[Skyrim:Sweet Roll|sweet roll]].
+|}
+{{Showhide/End}}
+
+===Other Raw Food===
+{{Showhide/Start|expanded=1}}
+These [[Skyrim:Alchemy|Alchemy]] [[Skyrim:Ingredients|ingredients]] are listed here either because they are classified as raw food by merchants, or because they are used as ingredients in baking or cooking recipes.
+{| class=wikitable
+! class=unsortable| !! Name !! Merchant !! Uses / Notes !! Item Type
+|-
+| [[File:SR-icon-ingredient-Chicken's Egg.png|48px]]
+| [[Skyrim:Chicken's Egg|Chicken's Egg]] || Yes || [[Skyrim:Apple Pie|Apple Pie]]{{HF}}; [[Skyrim:Bread|Bread]]{{HF}}; [[Skyrim:Potato Bread|Potato Bread]]; [[Skyrim:Sweet Roll|Sweet Roll]]{{HF}} || Alchemy Ingredient
+|-
+| [[File:SR-icon-ingredient-Garlic.png|48px]]
+| [[Skyrim:Garlic|Garlic]] || Yes || [[Skyrim:Chicken Dumpling|Chicken Dumpling]]{{HF}}; [[Skyrim:Garlic Bread|Garlic Bread]]{{HF}}; [[Skyrim:Beef Stew|Beef Stew]]; [[Skyrim:Crab Stew|Crab Stew]]{{CC|Fishing}}; [[Skyrim:Horker Stew|Horker Stew]]; [[Skyrim:Horker and Ash Yam Stew|Horker and Ash Yam Stew]]{{DB}}; [[Skyrim:Tomato Soup|Tomato Soup]] || Alchemy Ingredient
+|-
+| [[File:SR-icon-ingredient-Jazbay Grapes.png|48px]]
+| [[Skyrim:Jazbay Grapes|Jazbay Grapes]] || No || [[Skyrim:Jazbay Crostata|Jazbay Crostata]]{{HF}} || Alchemy Ingredient
+|-
+| [[File:SR-icon-ingredient-Juniper Berries.png|48px]]
+| [[Skyrim:Juniper Berries|Juniper Berries]] || Yes || [[Skyrim:Juniper Berry Crostata|Juniper Berry Crostata]]{{HF}} || Alchemy Ingredient
+|-
+| [[File:SR-icon-ingredient-Ironwood Fruit.png|48px]]
+| [[Skyrim:Ironwood Fruit|Ironwood Fruit]]{{CC|Bittercup}} || No || [[Skyrim:Ironwood Soup|Ironwood Soup]]{{CC|Bittercup}}; [[Skyrim:Hot Ironwood Soup|Hot Ironwood Soup]]{{CC|Bittercup}} || Alchemy Ingredient
+|-
+| [[File:SR-icon-ingredient-Lavender.png|48px]]
+| [[Skyrim:Lavender|Lavender]] || No || [[Skyrim:Horker Stew|Horker Stew]], [[Skyrim:Lavender Dumpling|Lavender Dumpling]]{{HF}} || Alchemy Ingredient
+|-
+| [[File:SR-icon-ingredient-Moon Sugar.png|48px]]
+| [[Skyrim:Moon Sugar|Moon Sugar]] || No || [[Skyrim:Elsweyr Fondue|Elsweyr Fondue]]; [[Skyrim:Lavender Dumpling|Lavender Dumpling]]{{HF}} || Alchemy Ingredient
+|-
+| [[File:SR-icon-ingredient-Salt Pile.png|48px]]
+| [[Skyrim:Salt Pile|Salt Pile]] || Yes || Used in nearly every recipe || Alchemy Ingredient
+|-
+| [[File:SR-icon-ingredient-Slaughterfish Egg.png|48px]]
+| [[Skyrim:Slaughterfish Egg|Slaughterfish Egg]] || Yes || none || Alchemy Ingredient
+|-
+| [[File:SR-icon-ingredient-Snowberries.png|48px]]
+| [[Skyrim:Snowberries|Snowberries]] || Yes || [[Skyrim:Snowberry Crostata|Snowberry Crostata]]{{HF}}, [[Skyrim:Lavender Dumpling|Lavender Dumpling]]{{HF}}|| Alchemy Ingredient
+|-
+| [[File:SR-icon-ingredient-Wheat.png|48px]]
+| [[Skyrim:Wheat|Wheat]] || Yes || With [[Skyrim:Hearthfire|Hearthfire]], you can use 3 wheat at [[Skyrim:Milling|grain mills]] to create a [[Skyrim:Sack_of_Flour|sack of flour]]{{HF}} || Alchemy Ingredient
+|}
+{{Showhide/End}}
+
+===Ready Made Food===
+{{Showhide/Start|expanded=1}}
+Most of these 9 items can be bought from innkeepers. They are also commonly found in most inns and houses, though they will usually be owned by the owner of the property.
+{| class="wikitable sortable"
+!class=unsortable|
+!Name ([[Skyrim:Form ID|ID]])
+!width=22|{{Weight Icon}}
+!width=22|{{Value Icon}}
+![[Skyrim:Hunger|Hunger]]{{Creation Club|Survival Mode}}
+!Effect(s)
+!width=11|Heal /{{Weight Icon}}
+!width=11|Heal /{{Value Icon}}
+!width=11|Stam /{{Weight Icon}}
+!width=11|Stam /{{Value Icon}}
+!class="unsortable"|Notes
+|-{{HE|Charred Skeever Meat}}
+|[[File:SR-icon-food-CharredSkeeverMeat.png|48px]]
+|Charred Skeever Meat<br>{{ID|000e8448|par=1}}
+|0.2
+|4
+|Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+|10
+|0.5
+|0
+|0
+| 
+* Only one sample in Skyrim exists, found in [[Skyrim:Raldbthar Deep Market|Raldbthar Deep Market]]. Two samples on [[Skyrim:Solstheim|Solstheim]] can be found in the cellar of [[Skyrim:Hrodulf's House|Hrodulf's House]]{{DB}}
+* Should not be confused with [[Skyrim:Charred Skeever Hide|charred skeever hide]] or [[Skyrim:Skeever Tail|skeever tail]], both of which are alchemy ingredients and are much more common than the meat.
+|-{{HE|Eidar Cheese Wedge}}
+|[[File:SR-icon-food-EidarCheeseWedge.png|center|30px]]
+|Eidar Cheese Wedge<br>{{ID|00064b32|par=1}}
+|0.25
+|5
+|Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 1 pt
+|4
+|0.2
+|0
+|0
+|
+* 296 guaranteed samples can be found in 167 different locations, most notably the [[Skyrim:Thalmor Embassy|Thalmor Embassy]] and [[Skyrim:Mistveil Keep|Mistveil Keep]].
+* 34% chance of 1-5 samples being sold by most innkeepers
+* May be carried by most common citizens
+|-{{HE|Goat Cheese Wedge}}
+|[[File:SR-icon-food-GoatCheeseWedge.png|48px]]
+|Goat Cheese Wedge<br>{{ID|00064b31|par=1}}
+|0.25
+|4
+|Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 1 pt
+|4
+|0.25
+|0
+|0
+|
+* 331 guaranteed samples can be found in 165 different locations, most notably [[Skyrim:The Katariah|The Katariah]] and [[Skyrim:Understone Keep|Understone Keep]].
+* 34% chance of being sold by most innkeepers
+* May be carried by most common citizens
+|-{{HE|Homecooked Meal}}
+|[[File:SR-icon-food-ApplePie.png|48px]]
+|Homecooked Meal<br>{{ID|000cd614|par=1}}
+|1
+|5
+|Large
+|''Homecooked Meal'' perk:
+* [[Skyrim:Regenerate Health|Regenerate Health]], 25% for 600 secs
+* [[Skyrim:Regenerate Magicka|Regenerate Magicka]], 25% for 600 secs
+* [[Skyrim:Regenerate Stamina|Regenerate Stamina]], 25% for 600 secs
+|*
+|*
+|*
+|*
+|
+* Can be given to you by your [[Skyrim:Marriage|spouse]] once per day
+|-{{HE|Honey Nut Treat}}
+|[[File:SR-icon-food-HoneyNutTreat.png|48px]]
+|Honey Nut Treat<br>{{ID|00064b38|par=1}}
+|0.1
+|2
+|Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+|50
+|2.5
+|0
+|0
+|
+* 88 guaranteed samples can be found in 38 different locations, most notably [[Skyrim:Honningbrew Meadery|Honningbrew Meadery]].
+* 34% chance of being sold by most innkeepers
+|-{{HE|Mammoth Cheese Bowl}}
+|[[File:SR-icon-food-MammothCheeseBowl.png|48px]]
+|Mammoth Cheese Bowl<br>{{ID|000669a3|par=1}}
+|0.5
+|3
+|Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 10 pts
+* [[Skyrim:Restore Stamina|Restore Stamina]], 15 pts
+|20
+|3.3
+|30
+|5
+|
+* Fourteen guaranteed samples can be found in ten different locations. 
+* Can be harvested from [[:File:SR-flora-Mammoth Cheese.jpg|mammoth cheese]] found in [[Skyrim:Giant Camps|giant camps]]. 51 sources can be found in fifteen different locations, most notably around [[Skyrim:Guldun Rock|Guldun Rock]] and [[Skyrim:Stonehill Bluff|Stonehill Bluff]].
+|-{{HE|Sliced Eidar Cheese}}
+|[[File:SR-icon-food-SlicedEidarCheese.png|48px]]
+|Sliced Eidar Cheese<br>{{ID|00064b36|par=1}}
+|2
+|10
+|Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 15 pts
+|7.5
+|1.5
+|0
+|0
+|
+* 248 guaranteed samples can be found in 137 different locations, most notably the [[Skyrim:Blue Palace|Blue Palace]].
+|-{{HE|Sliced Goat Cheese}}
+|[[File:SR-icon-food-SlicedGoatCheese.png|48px]]
+|Sliced Goat Cheese<br>{{ID|00064b35|par=1}}
+|2
+|8
+|Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 15 pts
+|7.5
+|1.9
+|0
+|0
+|
+* 180 guaranteed samples can be found in 137 different locations, most notably the [[Skyrim:Thalmor Embassy|Thalmor Embassy]].
+|-{{HE|Spiced Beef}}
+|[[File:SR-icon-food-CookedBeef.png|48px]]
+|Spiced Beef<br>{{ID|000cadfb|par=1}}
+|0.5
+|4
+|Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+|25
+|1.25
+|0
+|0
+|
+* Only two samples can be found, in the [[Skyrim:Markarth Stables|Markarth Stables]] and carried by [[Skyrim:Voada|Voada]] in the [[Skyrim:Understone Keep|Understone Keep]] kitchen.
+|}
+<gallery>
+File:SR-flora-Mammoth Cheese.jpg|Mammoth Cheese
+</gallery>
+{{Showhide/End}}
+{{NewLine}}
+
+{{Mod Note|Hearthfire}}
+=={{Anchor|Player-Baked Food}}==
+{{Showhide/Start|expanded=1}}
+In addition to the specific locations listed in the following table, with the [[Skyrim:Hearthfire|Hearthfire]] add-on and player-built [[Skyrim:Kitchen|kitchen]], these 15 items can be created by the player by [[Skyrim:Baking|baking]] raw food. Salt pile is required in 8 of the 15 recipes, and a sack of flour is required in 13 of the 15 recipes.
+{| class="wikitable sortable"
+!class=unsortable|
+!Name ([[Skyrim:Form ID|ID]])
+!width=22|{{Weight Icon}}
+!width=22|{{Value Icon}}
+![[Skyrim:Hunger|Hunger]]{{Creation Club|Survival Mode}}
+!Effect(s)
+!width=11|Heal /{{Weight Icon}}
+!width=11|Heal /{{Value Icon}}
+!width=11|Stam /{{Weight Icon}}
+!width=11|Stam /{{Value Icon}}
+!Ingredients
+!Notes
+|-{{HE|Apple Dumpling}}
+|[[File:SR-icon-food-Dumpling.png|48px]]
+|Apple Dumpling{{HF}}<br>{{ID|xx003533|par=1}}
+|0.1
+|3
+|Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+* [[Skyrim:Fortify Archery|Fortify Archery]], 5% for 60 secs
+|50
+|1.67
+|0
+|0
+|[[Skyrim:Sack of Flour|Sack of Flour]]{{HF}}<br> [[Skyrim:Green Apple|Green Apple]]<br> [[Skyrim:Red Apple|Red Apple]]
+|
+* Several already-baked samples can be found in the [[Skyrim:Construction|player-built]] homes.
+|-{{HE|Apple Pie}}
+|[[File:SR-icon-food-ApplePie.png|48px]]
+|Apple Pie<br>{{ID|00064b43|par=1}}
+|0.5
+|5
+|Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 10 pts
+|20
+|2
+|0
+|0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Sack of Flour|Sack of Flour]]{{HF}}<br>[[Skyrim:Butter|Butter]]{{HF}}<br>[[Skyrim:Chicken's Egg|Chicken's Egg]]<br> [[Skyrim:Green Apple|Green Apple]]<br> [[Skyrim:Red Apple|Red Apple]]
+|
+* 68 pies can be found in 48 different locations, most notably five in the [[Skyrim:Hall of Countenance|Hall of Countenance]].
+* 34% chance of being sold by most innkeepers
+* May be carried by various NPCs
+|-{{HE|Baked Potatoes}}
+|[[File:SR-icon-food-BakedPotatoes.png|48px]]
+|Baked Potatoes<br>{{ID|00064b3a|par=1}}
+|0.1
+|2
+|Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+|50
+|2.5
+|0
+|0
+|[[Skyrim:Potato|Potato]]
+|
+* 189 samples can be found in 108 different locations, most notably in the [[Skyrim:Thalmor Embassy|Thalmor Embassy]], [[Skyrim:Blue Palace|Blue Palace]], and [[Skyrim:Bards College|Bards College]].
+* 34% chance of being sold by most innkeepers
+* May be carried by any common citizen
+* Can be baked in an Oven with Anniversary Edition installed. 
+|-{{HE|Boiled Creme Treat}}
+|[[File:SR-icon-food-BoiledCremeTreat.png|48px]]
+|Boiled Creme Treat<br>{{ID|00064b30|par=1}}
+|0.5
+|4
+|Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 10 pts
+|20
+|2.5
+|0
+|0
+| [[Skyrim:Salt Pile|Salt Pile]]<br> [[Skyrim:Sack of Flour|Sack of Flour]]{{HF}}<br> [[Skyrim:Butter|Butter]]{{HF}}<br> [[Skyrim:Jug of Milk|Jug of Milk]]{{HF}}<br> [[Skyrim:Honey|Honey]]{{CC|Rare Curios}}
+|
+* 131 guaranteed samples can be found in 53 different locations, most notably [[Skyrim:Jorrvaskr|Jorrvaskr]] and the [[Skyrim:Blue Palace|Blue Palace]].
+*Can be baked in an Oven with Anniversary Edition installed.
+|-{{HE|Braided Bread}}
+|[[File:SR-icon-food-BraidedBread.png|48px]]
+|Braided Bread{{HF}}<br>{{ID|xx0009db|par=1}}
+|0.2
+|2
+|Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+* [[Skyrim:Fortify Carry Weight|Fortify Carry Weight]], 5 pts for 30 secs
+|10
+|1
+|0
+|0
+| [[Skyrim:Salt Pile|Salt Pile]]<br> [[Skyrim:Sack of Flour|Sack of Flour]]{{HF}}
+|
+|-{{HE|Bread}}
+|[[File:SR-icon-food-Bread1.png|48px]]<br>[[File:SR-icon-food-Bread2.png|48px]]
+|Bread<br>{{ID|00065c97|par=1}}<br/>{{ID|00065c98|par=1}}
+|0.2
+|2
+|Small<br>Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 2 pts
+|10
+|1
+|0
+|0
+| [[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Sack of Flour|Sack of Flour]]{{HF}}<br>[[Skyrim:Jug of Milk|Jug of Milk]]{{HF}}<br>[[Skyrim:Chicken's Egg|Chicken's Egg]]
+|
+* 1377 guaranteed loaves can be found in 232 different locations, most notably the [[Skyrim:Thalmor Embassy|Thalmor Embassy]] and the [[Skyrim:Blue Palace|Blue Palace]].
+* 34% chance of being sold by most innkeepers
+* An oversized loaf can be found in a basket on the kitchen shelves in [[Skyrim:Breezehome|Breezehome]].
+* The [[Skyrim:Hearthfire|Hearthfire]] add-on adds a [[Skyrim:Baking#Bread|bread recipe]].
+|-{{HE|Chicken Dumpling}}
+|[[File:SR-icon-food-Dumpling.png|48px]]
+|Chicken Dumpling{{HF}}<br>{{ID|xx0117ff|par=1}}
+|0.1
+|3
+|Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 15 pts
+* [[Skyrim:Restore Health|Restore Health]], 1 pt for 120 secs
+|
+|
+|
+|
+| [[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Sack of Flour|Sack of Flour]]{{HF}}<br>[[Skyrim:Chicken Breast|Chicken Breast]]<br>[[Skyrim:Garlic|Garlic]]<br>[[Skyrim:Leek|Leek]]
+|
+|-{{HE|Crab Cakes}}
+|[[File:SR-icon-food-Crab Cakes.png|48px]]
+|Crab Cakes{{CC|Fishing}}<br>{{ID|xx000F78|par=1}}
+|0.1
+|5
+|Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 15 pts
+* [[Skyrim:Fortify Block|Fortify Block]], 5% for 60 secs
+|150
+|3
+|0
+|0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Sack of Flour|Sack of Flour]]{{HF}}<br>[[Skyrim:Crab Meat|Crab Meat]]
+|
+|-{{HE|Garlic Bread}}
+|[[File:SR-icon-food-GarlicBread.png|48px]]
+|Garlic Bread{{HF}}<br>{{ID|xx0009dc|par=1}}
+|0.1
+|2
+|Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 1 pt
+* [[Skyrim:Cure Disease|Cure Disease]]
+|10
+|0.5
+|0
+|0
+| [[Skyrim:Garlic|Garlic]]<br>[[Skyrim:Butter|Butter]]{{HF}}<br>[[Skyrim:Bread|Bread]]
+|
+*When baking, two are created at the same time
+|-{{HE|Jazbay Crostata}}
+|[[File:SR-icon-food-Jazbay Crostata.png|48px]]
+|Jazbay Crostata{{HF}}<br>{{ID|xx00353a|par=1}}
+|0.2
+|5
+|Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 10 pts
+* [[Skyrim:Fortify Magicka|Fortify Magicka]], 4 pts for 60 secs
+|50
+|2
+|0
+|0
+| [[Skyrim:Sack of Flour|Sack of Flour]]{{HF}}<br>[[Skyrim:Butter|Butter]]{{HF}}<br> 2 [[Skyrim:Jazbay Grapes|Jazbay Grapes]]
+|
+*Found in the [[Skyrim:Construction|player-built]] homes
+|-{{HE|Juniper Berry Crostata}}
+|[[File:SR-icon-food-Juniper Berry Crostata.png|48px]]
+|Juniper Berry Crostata{{HF}}<br>{{ID|xx003539|par=1}}
+|0.2
+|5
+|Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 4 pts
+* [[Skyrim:Restore Health|Restore Health]], 2 pts for 60 secs
+|
+|
+|
+|
+| [[Skyrim:Sack of Flour|Sack of Flour]]{{HF}}<br>[[Skyrim:Butter|Butter]]{{HF}}<br>3 [[Skyrim:Juniper Berries|Juniper Berries]]<br> 
+|
+* Found in the [[Skyrim:Construction|player-built]] homes
+|-{{HE|Lavender Dumpling}}
+|[[File:SR-icon-food-Dumpling.png|48px]]
+|Lavender Dumpling{{HF}}<br>{{ID|xx011801|par=1}}
+|0.1
+|3
+|Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+* [[Skyrim:Fortify Magicka|Fortify Magicka]], 10 pts for 60 secs
+* [[Skyrim:Resist Magic|Resist Magic]], 10% for 60 secs
+|50
+|1.67
+|0
+|0
+| [[Skyrim:Sack of Flour|Sack of Flour]]{{HF}}<br>[[Skyrim:Moon Sugar|Moon Sugar]]<br> 2 [[Skyrim:Snowberries|Snowberries]]<br>[[Skyrim:Lavender|Lavender]]
+|
+|-{{HE|Potato Bread}}
+|[[File:SR-icon-food-PotatoBread.png|48px]]
+|Potato Bread{{HF}}<br>{{ID|xx003537|par=1}}
+|0.2
+|2
+|Medium
+| 
+* [[Skyrim:Restore Health|Restore Health]], 3 pts 
+|15
+|1.5
+|0
+|0
+| [[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Sack of Flour|Sack of Flour]]{{HF}}<br>[[Skyrim:Jug of Milk|Jug of Milk]]{{HF}}<br>[[Skyrim:Potato|Potato]]<br>[[Skyrim:Chicken's Egg|Chicken's Egg]]
+|
+* Found in the [[Skyrim:Construction|player-built]] homes
+* This is one case where the whole is less than the sum of its parts - eating the milk, flour, and potato separately will restore four points of health.
+|-{{HE|Snowberry Crostata}}
+|[[File:SR-icon-food-Snowberry Crostata.png|48px]]
+|Snowberry Crostata{{HF}}<br>{{ID|xx00353b|par=1}}
+|0.2
+|5
+|Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 10 pts
+* [[Skyrim:Resist Fire|Resist Fire]], 4% for 60 secs
+|50
+|2
+|0
+|0
+| [[Skyrim:Sack of Flour|Sack of Flour]]{{HF}}<br>[[Skyrim:Butter|Butter]]{{HF}}<br>2 [[Skyrim:Snowberries|Snowberries]]
+|
+* Found in the [[Skyrim:Construction|player-built]] homes
+|-{{HE|Sweet Roll}}
+|[[File:SR-icon-food-SweetRoll.png|48px]]
+|Sweet Roll<br>{{ID|00064b3d|par=1}}
+|0.1
+|2
+|Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+|50
+|2.5
+|0
+|0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Sack of Flour|Sack of Flour]]{{HF}}<br>[[Skyrim:Butter|Butter]]{{HF}}<br> [[Skyrim:Jug of Milk|Jug of Milk]]{{HF}}<br>[[Skyrim:Chicken's Egg|Chicken's Egg]]
+|
+* 160 guaranteed samples can be found in 83 different locations, most notably the [[Skyrim:Thalmor Embassy|Thalmor Embassy]].
+* 34% chance of being sold by most innkeepers
+* The [[Skyrim:Hearthfire|Hearthfire]] add-on adds a [[Skyrim:Baking#Sweet Roll|sweet roll recipe]].
+|}
+{{Showhide/End}}
+
+==Player-Cooked Food==
+{{Showhide/Start|expanded=1}}
+In addition to the specific locations listed in the following table, these 60 items can all be created by [[Skyrim:Cooking|cooking]] raw food, with an additional 17 hot soups available in Survival mode. Salt pile is required in 49 of the 60 recipes, and fire salts are required in all 17 of the hot soup recipes. For items with two icons, the second icon is a new appearance given to the item after [[Skyrim:Hearthfire|Hearthfire]] is installed. With the exception of the poisoned apples, all cooked food has positive benefits for the player.
+{| class="wikitable sortable"
+!class=unsortable|
+!Name ([[Skyrim:Form ID|ID]])
+!width=22|{{Weight Icon}}
+!width=22|{{Value Icon}}
+![[Skyrim:Hunger|Hunger]]{{Creation Club|Survival Mode}}
+!Effect(s)
+!width=11|Heal /{{Weight Icon}}
+!width=11|Heal /{{Value Icon}}
+!width=11|Stam /{{Weight Icon}}
+!width=11|Stam /{{Value Icon}}
+!Ingredients
+!Notes
+|-{{HE|Apple Cabbage Stew}}
+|{{nowrap|[[File:SR-icon-food-Soup.png|48px]]<br>[[File:SR-icon-food-Apple Cabbage Stew.png|48px]]{{HF}}}}
+|Apple Cabbage Stew<br>{{ID|000eba01|par=1}}
+|0.5
+|8
+|Large
+|
+* [[Skyrim:Restore Stamina|Restore Stamina]], 15 pts
+* [[Skyrim:Restore Health|Restore Health]], 10 pts
+|20
+|1.25
+|30
+|1.9
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Red Apple|Red Apple]]<br>[[Skyrim:Cabbage|Cabbage]]
+|
+* One already-cooked sample can be found in the [[Skyrim:Abandoned Prison|Abandoned Prison]].
+* This stew cannot be sold to innkeepers or other food vendors, but only to general goods merchants, unless you have the ''Merchant'' [[Skyrim:Speech|Speech]] perk.
+|-{{HE|Beef Stew}}
+|[[File:SR-icon-food-Soup.png|48px]]<br>[[File:SR-icon-food-Beef Stew.png|48px]]{{HF}}
+|Beef Stew<br>{{ID|000f4314|par=1}}
+|0.5
+|8
+|Large
+|
+* [[Skyrim:Fortify Stamina|Fortify Stamina]], 25 pts for 720 secs
+* [[Skyrim:Restore Stamina|Restore Stamina]], 2 pts/sec for 720 secs
+|0
+|0
+|50
+|3.3
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Raw Beef|Raw Beef]]<br>[[Skyrim:Carrot|Carrot]]<br>[[Skyrim:Garlic|Garlic]]
+|
+* Six already-cooked samples can be found in five different locations, most notably the [[Skyrim:Arch-Mage's Quarters|Arch-Mage's Quarters]].
+* This stew cannot be sold to innkeepers or other food vendors, but only to general goods merchants, unless you have the ''Merchant'' Speech perk.
+|-{{HE|Cabbage Potato Soup}}
+|[[File:SR-icon-food-Soup.png|48px]]<br>[[File:SR-icon-food-Cabbage Potato Soup.png|48px]]{{HF}}
+|Cabbage Potato Soup<br>{{ID|000f431b|par=1}}
+|0.5
+|5
+|Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 10 pts
+* [[Skyrim:Restore Stamina|Restore Stamina]], 10 pts
+|20
+|2
+|20
+|2
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Potato|Potato]]<br>[[Skyrim:Leek|Leek]]<br>[[Skyrim:Cabbage|Cabbage]]
+|
+* Three already-cooked samples can be found in [[Skyrim:Severin Manor|Severin Manor]]{{DB}} and in [[Skyrim:Alor House|Alor House]]{{DB}}.
+* This soup cannot be sold to innkeepers or other food vendors, but only to general goods merchants, unless you have the ''Merchant'' Speech perk.
+|-{{HE|Cabbage Soup}}
+|[[File:SR-icon-food-Soup.png|48px]]<br>[[File:SR-icon-food-Cabbage Soup.png|48px]]{{DB}}
+|Cabbage Soup<br>{{ID|000eba02|par=1}}
+|0.5
+|5
+|Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 10 pts
+* [[Skyrim:Restore Stamina|Restore Stamina]], 10 pts
+|20
+|2
+|20
+|2
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Cabbage|Cabbage]]
+|
+* Only one already-cooked sample is available, in [[Skyrim:Chillwind Depths|Chillwind Depths]].
+* This soup cannot be sold to innkeepers or other food vendors, but only to general goods merchants
+* With [[Skyrim:Dragonborn|Dragonborn]] installed, this soup can be cooked, though it now only restores 8 Stamina.
+|-{{HE|Clam Chowder}}
+|[[File:SR-icon-food-Clam Chowder.png|48px]]
+|Clam Chowder{{HF}}<br>{{ID|xx00353e|par=1}}
+|0.5
+|5
+|Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 10 pts
+* [[Skyrim:Restore Stamina|Restore Stamina]], 10 pts
+|20
+|2
+|20
+|2
+|[[Skyrim:Clam_Meat|Clam Meat]]<br> [[Skyrim:Potato|Potato]]<br> [[Skyrim:Jug_of_Milk|Jug of Milk]]{{HF}}<br> [[Skyrim:Butter|Butter]]{{HF}}
+|
+* No guaranteed locations
+|-{{HE|Cooked Angelfish}}
+|[[File:SR-icon-food-Cooked Angelfish.png|48px]]
+|Cooked Angelfish{{CC|Fishing}}<br>{{ID|xx000881|par=1}}
+|0.2||40||Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+| 25 || 0.125 || 0 || 0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Angelfish|Angelfish]]
+|
+* No guaranteed locations.
+|-{{HE|Cooked Angler}}
+|[[File:SR-icon-food-Cooked Angler.png|48px]]
+|Cooked Angler{{CC|Fishing}}<br>{{ID|xx0008A5|par=1}}
+|2||40||Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+| 2.5 || 0.125 || 0 || 0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Angler|Angler]]
+|
+* No guaranteed locations.
+|-{{HE|Cooked Angler Larvae}}
+|[[File:SR-icon-food-Cooked Angler Larvae.png|48px]]
+|Cooked Angler Larvae{{CC|Fishing}}<br>{{ID|xx00088E|par=1}}
+|0.2||2||Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+| 25 || 2.5 || 0 || 0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Angler Larvae|Angler Larvae]]
+|
+* No guaranteed locations.
+|-{{HE|Cooked Arctic Char}}
+|[[File:SR-icon-food-Cooked Arctic Char.png|48px]]
+|Cooked Arctic Char{{CC|Fishing}}<br>{{ID|xx00088D|par=1}}
+|1||15||Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+| 5 || 0.333... || 0 || 0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Arctic Char|Arctic Char]]
+|
+* Only one already-cooked sample is available, in [[Skyrim:Winking Skeever|Winking Skeever]].
+* Needed for the quest [[SR:The Ultimate Feast|The Ultimate Feast]] {{CC|Fishing}}.
+|-{{HE|Cooked Arctic Grayling}}
+|[[File:SR-icon-food-Cooked Arctic Grayling.png|48px]]
+|Cooked Arctic Grayling{{CC|Fishing}}<br>{{ID|xx00088C|par=1}}
+|0.5||8||Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+| 10 || 0.625 || 0 || 0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Arctic Grayling|Arctic Grayling]]
+|
+* No guaranteed locations.
+|-{{HE|Cooked Beef}}
+|[[File:SR-icon-food-CookedBeef.png|48px]]
+|Cooked Beef<br>{{ID|000721e8|par=1}}
+|0.5
+|5
+|Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 10 pts
+|20
+|2
+|0
+|0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Raw Beef|Raw Beef]]
+|
+* Fifteen already-cooked samples can be found in nine different locations, most notably [[Skyrim:Castle Dour|Castle Dour]].
+* 72% chance of being sold by most innkeepers
+* 12% chance of being carried by all common citizens
+|-{{HE|Cooked Boar Meat}}
+|[[File:SR-icon-food-Cooked Boar Meat.png|48px]]
+|Cooked Boar Meat{{DB}}<br>{{ID|xx03cf72|par=1}}
+|1||15
+|Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 15 pts
+|15||1||0||0
+| | [[Skyrim:Salt Pile|Salt Pile]]<br> [[Skyrim:Boar Meat|Boar Meat]]
+
+|
+* Only one sample exists, found in [[Skyrim:Morvayn Manor|Morvayn Manor]]
+|-{{HE|Cooked Brook Bass}}
+|[[File:SR-icon-food-Cooked Brook Bass.png|48px]]
+|Cooked Brook Bass{{CC|Fishing}}<br>{{ID|xx00087C|par=1}}
+|0.5||2||Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+| 10 || 2.5 || 0 || 0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Brook Bass|Brook Bass]]
+|
+* Four already-cooked samples can be found in 4 different locations, most notably [[Skyrim:Solitude|Solitude's]] market.
+|-{{HE|Cooked Carp}}
+|[[File:SR-icon-food-Cooked Carp.png|48px]]
+|Cooked Carp{{CC|Fishing}}<br>{{ID|xx00087E|par=1}}
+|0.5||5||Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+| 10 || 1 || 0 || 0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Carp|Carp]]
+|
+|-{{HE|Cooked Catfish}}
+|[[File:SR-icon-food-Cooked Catfish.png|48px]]
+|Cooked Catfish{{CC|Fishing}}<br>{{ID|xx00087F|par=1}}
+|1||5||Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+| 5 || 1 || 0 || 0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Catfish|Catfish]]
+|
+* Only one already-cooked sample is available, in [[Skyrim:Solitude|Solitude's]] market.
+|-{{HE|Cooked Cod}}
+|[[File:SR-icon-food-Cooked Cod.png|48px]]
+|Cooked Cod{{CC|Fishing}}<br>{{ID|xx00087A|par=1}}
+|1||18||Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+| 5 || 0.2777... || 0 || 0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Cod|Cod]]
+|
+* No guaranteed locations.
+|-{{HE|Cooked Direfish}}
+|[[File:SR-icon-food-Cooked Direfish.png|48px]]
+|Cooked Direfish{{CC|Fishing}}<br>{{ID|xx000880|par=1}}
+|1||5||Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+| 5 || 1 || 0 || 0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Direfish|Direfish]]
+|
+* No guaranteed locations.
+|-{{HE|Cooked Glass Catfish}}
+|[[File:SR-icon-food-Cooked Glass Catfish.png|48px]]
+|Cooked Glass Catfish{{CC|Fishing}}<br>{{ID|xx000882|par=1}}
+|0.5||5||Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+| 10 || 1 || 0 || 0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Glass Catfish|Glass Catfish]]
+|
+* No guaranteed locations.
+|-{{HE|Cooked Glassfish}}
+|[[File:SR-icon-food-Cooked Glassfish.png|48px]]
+|Cooked Glassfish{{CC|Fishing}}<br>{{ID|xx00088F|par=1}}
+|0.2||2||Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+| 25 || 2.5 || 0 || 0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Glassfish|Glassfish]]
+|
+* No guaranteed locations.
+|-{{HE|Cooked Goldfish}}
+|[[File:SR-icon-food-Cooked Goldfish.png|48px]]
+|Cooked Goldfish{{CC|Fishing}}<br>{{ID|xx000883|par=1}}
+|0.2||15||Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+| 25 || 0.333... || 0 || 0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Goldfish|Goldfish]]
+|
+* No guaranteed locations.
+|-{{HE|Cooked Juvenile Mudcrab}}
+|[[File:SR-icon-food-Cooked Juvenile Mudcrab.png|48px]]
+|Cooked Juvenile Mudcrab{{CC|Fishing}}<br>{{ID|xx00089A|par=1}}
+|0.2||15||Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+| 25 || 0.333... || 0 || 0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Juvenile Mudcrab|Juvenile Mudcrab]]
+|
+* No guaranteed locations.
+
+|-{{HE|Cooked Lyretail Anthias}}
+|[[File:SR-icon-food-Cooked Lyretail Anthias.png|48px]]
+|Cooked Lyretail Anthias{{CC|Fishing}}<br>{{ID|xx000884|par=1}}
+|0.2||40||Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+| 25 || 0.125 || 0 || 0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Lyretail Anthias|Lyretail Anthias]]
+|
+* No guaranteed locations.
+
+|-{{HE|Cooked Nix-Hound Meat}}
+|[[File:SR-icon-food-CookedNix-HoundMeat.png|48px]]
+|Cooked Nix-Hound Meat{{CC|Nix-Hound}}<br>{{ID|FExxx81B|par=1}}
+|1||15||Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 12 pts
+| 12 || 0.8 || 0 || 0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Nix-Hound Meat|Nix-Hound Meat]]
+|
+
+|-{{HE|Cooked Pearlfish}}
+|[[File:SR-icon-food-Cooked Pearlfish.png|48px]]
+|Cooked Pearlfish{{CC|Fishing}}<br>{{ID|xx00087B|par=1}}
+|0.2||18||Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+| 25 || 0.2777... || 0 || 0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Pearlfish|Pearlfish]]
+|
+* No guaranteed locations.
+|-{{HE|Cooked Pogfish}}
+|[[File:SR-icon-food-Cooked Pogfish.png|48px]]
+|Cooked Pogfish{{CC|Fishing}}<br>{{ID|xx00088A|par=1}}
+|1||5||Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+| 5 || 1 || 0 || 0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Pogfish|Pogfish]]
+|
+* No guaranteed locations.
+|-{{HE|Cooked Pygmy Sunfish}}
+|[[File:SR-icon-food-Cooked Pygmy Sunfish.png|48px]]
+|Cooked Pygmy Sunfish{{CC|Fishing}}<br>{{ID|xx000885|par=1}}
+|0.2||5||Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+| 25 || 1 || 0 || 0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Pygmy Sunfish|Pygmy Sunfish]]
+|
+* No guaranteed locations.
+|-{{HE|Cooked Scorpion Fish}}
+|[[File:SR-icon-food-Cooked Scorpion Fish.png|48px]]
+|Cooked Scorpion Fish{{CC|Fishing}}<br>{{ID|xx00087D|par=1}}
+|1||40||Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+| 5 || 0.125 || 0 || 0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Scorpion Fish|Scorpion Fish]]
+|
+* No guaranteed locations.
+|-{{HE|Cooked Spadefish}}
+|[[File:SR-icon-food-Cooked Spadefish.png|48px]]
+|Cooked Spadefish{{CC|Fishing}}<br>{{ID|xx000886|par=1}}
+|0.2||18||Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+| 25 || 0.2777... || 0 || 0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Spadefish|Spadefish]]
+|
+* No guaranteed locations.
+|-{{HE|Cooked Tripod Spiderfish}}
+|[[File:SR-icon-food-Cooked Tripod Spiderfish.png|48px]]
+|Cooked Tripod Spiderfish{{CC|Fishing}}<br>{{ID|xx000887|par=1}}
+|0.5||15||Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+| 25 || 0.333... || 0 || 0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Tripod Spiderfish|Tripod Spiderfish]]
+|
+* No guaranteed locations.
+|-{{HE|Cooked Vampire Fish}}
+|[[File:SR-icon-food-Cooked Vampire Fish.png|48px]]
+|Cooked Vampire Fish{{CC|Fishing}}<br>{{ID|xx000888|par=1}}
+|1||18||Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+| 5 || 0.2777... || 0 || 0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Vampire Fish|Vampire Fish]]
+|
+* No guaranteed locations.
+|-{{HE|Crab Stew}}
+|[[File:SR-icon-food-Crab Stew.png|48px]]
+|Crab Stew{{CC|Fishing}}<br>{{ID|xx000F76|par=1}}
+|0.5||5||Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 1 pt/sec for 720 secs
+* [[Skyrim:Restore Stamina|Restore Stamina]], 2 pts/sec for 720 secs
+| 2 || 0.2 || 4 || 0.4
+|[[Skyrim:Garlic|Garlic]]<br>[[Skyrim:Potato|Potato]]<br>[[Skyrim:Leek|Leek]]<br>[[Skyrim:Crab Meat|Crab Meat]]
+|
+* Only one already-cooked sample is available, in [[Skyrim:Winking Skeever|Winking Skeever]].
+* Needed for the quest [[SR:The Ultimate Feast|The Ultimate Feast]] {{CC|Fishing}}.
+|-{{HE|Creamy Crab Bisque}}
+|[[File:SR-icon-food-Creamy Crab Bisque.png|48px]]
+|Creamy Crab Bisque{{CC|Fishing}}<br>{{ID|xx000F02|par=1}}
+|0.5||8||Large
+|
+* [[Skyrim:Fortify Stamina|Fortify Stamina]], 25 pts for 720 secs
+* [[Skyrim:Restore Stamina|Restore Stamina]], 2 pts/sec for 720 secs
+| 0 || 0 || 4 || 0.25
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Sack of Flour|Sack of Flour]]<br>[[Skyrim:Butter|Butter]]<br>[[Skyrim:Crab Meat|Crab Meat]]
+|
+* No guaranteed locations.
+|-{{HE|Eidar Cheese Wheel}}
+|[[File:SR-icon-food-EidarCheeseWheel.png|48px]]
+|Eidar Cheese Wheel<br>{{ID|00064b34|par=1}}
+|2
+|13
+|Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 15 pts
+|7.5
+|1.2
+|0
+|0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>2 [[Skyrim:Jug of Milk|Jugs of Milk]]
+|Sources:
+* 301 guaranteed samples can be found in 122 different locations, most notably the [[Skyrim:East Empire Company Warehouse|East Empire Company Warehouse]] and the [[Skyrim:Thalmor Embassy|Thalmor Embassy]].
+* Can  be cooked in a Cooking Pot with the Anniversary Edition. 
+Uses:
+* One Eidar cheese wheel is one of three items needed to cook an [[Skyrim:Elsweyr Fondue|Elsweyr fondue]].
+|-{{HE|Elsweyr Fondue}}
+|[[File:SR-icon-food-Soup.png|48px]]<br>[[File:SR-icon-food-Elsweyr Fondue.png|48px]]{{HF}}
+|Elsweyr Fondue<br>{{ID|000f4320|par=1}}
+|0.5
+|5
+|Large
+|
+* [[Skyrim:Regenerate Magicka|Regenerate Magicka]], 25% for 720 secs
+* [[Skyrim:Fortify Magicka|Fortify Magicka]], 100 pts for 720 secs
+|0
+|0
+|0
+|0
+|[[Skyrim:Eidar Cheese Wheel|Eidar Cheese Wheel]]<br>[[Skyrim:Moon Sugar|Moon Sugar]]<br>[[Skyrim:Ale|Ale]]
+|
+* No guaranteed locations.
+* Ingredients for eight samples can be found in a storeroom in [[Skyrim:Fort Frostmoth|Fort Frostmoth]]{{DB}}.
+* This fondue cannot be sold to innkeepers or other food vendors, but only to general goods merchants, unless you have the ''Merchant'' Speech perk.
+|-{{HE|Goat Cheese Wheel}}
+|[[File:SR-icon-food-GoatCheeseWheel.png|48px]]
+|Goat Cheese Wheel<br>{{ID|00064b33|par=1}}
+|2
+|10
+|Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 15 pts
+|7.5
+|1.67
+|0
+|0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>2 [[Skyrim:Jug of Milk|Jugs of Milk]]
+|
+* 401 guaranteed samples found in 161 different locations, most notably the [[Skyrim:Thalmor Embassy|Thalmor Embassy]] and the [[Skyrim:East Empire Company Warehouse|East Empire Company Warehouse]].
+* Can  be cooked in a Cooking Pot with the Anniversary Edition. 
+|-{{HE|Grilled Chicken Breast}}
+|[[File:SR-icon-food-GrilledChickenBreast.png|48px]]
+|Grilled Chicken Breast<br>{{ID|000e8947|par=1}}
+|0.2
+|4
+|Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+|25
+|1.25
+|0
+|0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Chicken Breast|Chicken Breast]]
+|
+* Six already-cooked samples can be found in five different locations, most notably [[Skyrim:Daighre's House|Daighre's House]].
+* 57% chance of being sold by most innkeepers
+* May be carried by most common citizens
+|-{{HE|Grilled Leeks}}
+|[[File:SR-icon-food-GrilledLeeks.png|48px]]
+|Grilled Leeks<br>{{ID|00064b3e|par=1}}
+|0.1
+|2
+|Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 6 pts
+|60
+|3
+|0
+|0
+|[[Skyrim:Leek|Leeks]]
+|
+* 229 guaranteed samples can be found in 118 different locations, notably [[Skyrim:Fort Dunstad|Fort Dunstad]] and [[Skyrim:Crystaldrift Cave|Crystaldrift Cave]].
+* 34% chance of being sold by most innkeepers
+* May be carried by most common citizens
+* Can be cooked in a Cooking Pot with the Anniversary Edition, using 1 Leek. Can be cooked over a campfire with the [[Skyrim:Camping|Camping]] creation using 2 Leeks. 
+|-{{HE|Horker and Ash Yam Stew}}
+|[[File:SR-icon-food-Horker and Ash Yam Stew.png|48px]]
+|Horker and Ash Yam Stew{{DB}}<br>{{ID|xx03cd5b|par=1}}
+|0.5||9
+|Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 16 pts
+* [[Skyrim:Restore Stamina|Restore Stamina]], 12 pts
+|32||1.78||24||1.33
+|[[Skyrim:Ash Yam|Ash Yam]]{{DB}}<br>[[Skyrim:Horker Meat|Horker Meat]]<br>[[Skyrim:Garlic|Garlic]]
+|
+* Three already-cooked samples can be found in [[Skyrim:Morvayn Manor|Morvayn Manor]].
+|-{{HE|Horker Loaf}}
+|[[File:SR-icon-food-HorkerLoaf.png|48px]]
+|Horker Loaf<br>{{ID|0007224e|par=1}}
+|1
+|4
+|Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 10 pts
+|10
+|2.5
+|0
+|0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Horker Meat|Horker Meat]]
+|
+* Eight already-cooked loaves can be found in seven different locations, most notably two centered 410 feet south of [[Skyrim:Bleakcoast Cave|Bleakcoast Cave]]. {{Map Link|x=146854|y=82346}}
+* 34% chance of being sold by most innkeepers
+* May be carried by most common citizens
+|-{{HE|Horker Stew}}
+|[[File:SR-icon-food-Soup.png|48px]]<br>[[File:SR-icon-food-Horker Stew.png|48px]]{{HF}}
+|Horker Stew<br>{{ID|000f4315|par=1}}
+|0.5
+|8
+|Large
+|
+* [[Skyrim:Restore Stamina|Restore Stamina]], 15 pts
+* [[Skyrim:Restore Health|Restore Health]], 15 pts
+* [[Skyrim:Restore Health|Restore Health]], 1 pt/sec for 720 secs
+|30
+|1.9
+|30
+|1.9
+|[[Skyrim:Lavender|Lavender]]<br>[[Skyrim:Tomato|Tomato]]<br>[[Skyrim:Garlic|Garlic]]<br>[[Skyrim:Horker Meat|Horker Meat]]
+|
+* Four already-cooked samples can be found in three different locations, most notably [[Skyrim:Brinewater Grotto|Brinewater Grotto]].
+* This stew cannot be sold to innkeepers or other food vendors, but only to general goods merchants, unless you have the ''Merchant'' Speech perk.
+|-{{HE|Horse Haunch}}
+|[[File:SR-icon-food-HorseHaunch.png|48px]]
+|Horse Haunch<br>{{ID|000722b0|par=1}}
+|2
+|4
+|Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 10 pts
+|5
+|2.5
+|0
+|0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Horse Meat|Horse Meat]]
+|
+* Twelve already-cooked samples can be found in eight different locations, most notably the [[Skyrim:Thalmor Embassy|Thalmor Embassy]].
+|-{{HE|Ironwood Soup}}{{CC|Bittercup}}
+|[[File:SR-icon-food-Ironwood Soup.png|48px]]
+|Ironwood Soup{{CC|Bittercup}}<br>{{ID|FExxxF93|par=1}}
+
+|0.5||5||Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 15 pts
+* [[Skyrim:Restore Stamina|Restore Stamina]], 15 pts
+* [[Skyrim:Cure Disease|Cure Disease]]
+|30
+|3
+|30
+|3
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Charred Skeever Hide|Charred Skeever Hide]]<br>[[Skyrim:Ironwood Fruit|Ironwood Fruit]]
+|
+*Quest item, see [[SR:A Dying Wish|A Dying Wish]]{{CC|Bittercup}}.
+
+|-{{HE|Ironwood Soup}}{{CC|Bittercup}}
+|[[File:SR-icon-food-Ironwood Soup.png|48px]]
+|Ironwood Soup{{CC|Bittercup}}<br>{{ID|FExxxF87|par=1}}
+
+|0.5||5||Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 15 pts
+* [[Skyrim:Restore Stamina|Restore Stamina]], 15 pts
+* [[Skyrim:Cure Disease|Cure Disease]]
+|30
+|3
+|30
+|3
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Charred Skeever Hide|Charred Skeever Hide]]<br>[[Skyrim:Ironwood Fruit|Ironwood Fruit]]
+|
+*Non-quest version, can be cooked only after completing [[SR:A Dying Wish|A Dying Wish]]{{CC|Bittercup}}.
+
+|-{{HE|Leg of Goat Roast}}
+|[[File:SR-icon-food-LegOfGoatRoast.png|48px]]
+|Leg of Goat Roast<br>{{ID|0007224c|par=1}}
+|1
+|4
+|Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 10 pts
+|10
+|2.5
+|0
+|0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Leg of Goat|Leg of Goat]]
+|
+* Nineteen already-cooked samples can be found in sixteen different locations, most notably [[Skyrim:Burguk's Longhouse|Burguk's Longhouse]], [[Skyrim:Druadach Redoubt Cave|Druadach Redoubt Cave]], and [[Skyrim:Treva's Watch|Treva's Watch]].
+* 34% chance of being sold by most innkeepers
+* May be carried by most common citizens
+|-{{HE|Long Taffy Treat}}
+|[[File:SR-icon-food-LongTaffyTreat.png|48px]]
+|Long Taffy Treat<br>{{ID|00064b39|par=1}}
+|0.1
+|3
+|Very Small
+|
+* [[Skyrim:Restore Health|Restore Health]], 10 pts
+* [[Skyrim:Restore Stamina|Restore Stamina]], 5 pts
+|100
+|3.3
+|50
+|1.67
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Butter|Butter]]<br>[[Skyrim:Honey|Honey]]<br>
+|
+* Seventeen guaranteed samples can be found in thirteen different locations, most notably [[Skyrim:Fort Dunstad|Fort Dunstad]].
+* Can be cooked in the Anniversary Edition. 
+|-{{HE|Mammoth Steak}}
+|[[File:SR-icon-food-MammothSteak.png|48px]]
+|Mammoth Steak<br>{{ID|000722bb|par=1}}
+|2
+|8
+|Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 10 pts
+|5
+|1.25
+|0
+|0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Mammoth Snout|Mammoth Snout]]
+|
+* Six already-cooked samples can be found in five different locations, most notably [[Skyrim:Traitor's Post|Traitor's Post]].
+* Actually classified by vendors as raw food, meaning it can be sold to apothecary merchants and innkeepers
+|-{{HE|Pheasant Roast}}
+|[[File:SR-icon-food-PheasantRoast.png|48px]]
+|Pheasant Roast<br>{{ID|000722c7|par=1}}
+|0.2
+|4
+|Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+|25
+|1.25
+|0
+|0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Pheasant Breast|Pheasant Breast]]
+|
+* Twelve already-cooked samples found in ten different locations, most notably around the [[Skyrim:Tower of Mzark|Tower of Mzark]] and the [[Skyrim:Thalmor Embassy|Thalmor Embassy]].
+* Actually classified by vendors as raw food, meaning it can be sold to apothecary merchants and innkeepers
+|-{{HE|Poisoned Green Apple}}
+|[[File:SR-icon-food-Poisoned Green Apple.png|48px]]
+|Poisoned Green Apple{{CC|Rare Curios}}<br>{{ID|FExxx849|par=1}}
+|0.1
+|3
+|
+|
+* [[Skyrim:Lingering Damage Health|Apple Poisoning]], 4 pts/sec for 60 secs
+|
+|
+|
+|
+|[[Skyrim:Chokeberry|Chokeberry]]<br>[[Skyrim:Green Apple|Green Apple]]
+|
+* Can be used on a weapon or to silently harm enemies by placing poisoned apples one at a time in their pockets, which they will eat after a short delay.
+* Does not require the [[Skyrim:Poisoned|Poisoned]] Pickpocketing perk. 
+* Once crafted, the poisoned apple will be in the Potions section of the Items menu.
+|-{{HE|Poisoned Red Apple}}
+|[[File:SR-icon-food-Poisoned Red Apple.png|48px]]
+|Poisoned Red Apple{{CC|Rare Curios}}<br>{{ID|FExxxD98|par=1}}
+|0.1
+|3
+|
+|
+* [[Skyrim:Lingering Damage Health|Apple Poisoning]], 4 pts/sec for 60 secs
+|
+|
+|
+|
+|[[Skyrim:Chokeberry|Chokeberry]]<br>[[Skyrim:Red Apple|Red Apple]]
+|
+* Can be used on a weapon or to silently harm enemies by placing poisoned apples one at a time in their pockets, which they will eat after a short delay.
+* Does not require the [[Skyrim:Poisoned|Poisoned]] Pickpocketing perk. 
+* Once crafted, the poisoned apple will be in the Potions section of the Items menu.
+|-{{HE|Potato Crab Chowder}}
+|[[File:SR-icon-food-Potato Crab Chowder.png|48px]]
+|Potato Crab Chowder{{CC|Fishing}}<br>{{ID|xx000F06|par=1}}
+|0.5||8||Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 15 pts
+* [[Skyrim:Restore Stamina|Restore Stamina]], 5 pts
+| 30 || 1.875 || 10 || 0.625
+|[[Skyrim:Potato|Potato]]<br>[[Skyrim:Jug of Milk|Jug of Milk]]<br>[[Skyrim:Butter|Butter]]<br>[[Skyrim:Crab Meat|Crab Meat]]
+|
+* No guaranteed locations.
+|-{{HE|Potato Soup}}
+|[[File:SR-icon-food-Potato Soup.png|48px]]
+|Potato Soup{{HF}}<br>{{ID|xx00353d|par=1}}
+|0.5
+|5
+|Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 10 pts
+* [[Skyrim:Restore Stamina|Restore Stamina]], 10 pts
+|20
+|2
+|20
+|2
+|[[Skyrim:Salt_Pile|Salt Pile]]<br>[[Skyrim:Potato|Potato]]
+|
+* No guaranteed locations.
+|-{{HE|Rabbit Haunch}}
+|[[File:SR-icon-food-RabbitHaunch.png|48px]]
+|Rabbit Haunch<br>{{ID|000722c2|par=1}}
+|0.1
+|3
+|Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+|50
+|1.67
+|0
+|0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Raw Rabbit Leg|Raw Rabbit Leg]]
+|
+* Seven already-cooked samples found in seven different locations
+* 34% chance of being sold by most innkeepers
+* May be carried by most common citizens
+* Actually classified by vendors as raw food, meaning it can be sold to apothecary merchants and innkeepers
+
+|-{{HE|Roasted Tomato Crab Bisque}}
+|[[File:SR-icon-food-Roasted Tomato Crab Bisque.png|48px]]
+|Roasted Tomato Crab Bisque{{CC|Fishing}}<br>{{ID|xx000F04|par=1}}
+|0.5||5||Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 15 pts
+* [[Skyrim:Restore Health|Restore Health]], 1 pt/sec for 720 secs
+| 32 || 3.2 || 0 || 0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Tomato|Tomato]]<br>[[Skyrim:Butter|Butter]]<br>[[Skyrim:Crab Meat|Crab Meat]]
+|
+* No guaranteed locations.
+|-{{HE|Salmon Steak}}
+|[[File:SR-icon-food-SalmonSteak.png|48px]]
+|Salmon Steak<br>{{ID|00064b3b|par=1}}<br/>{{ID|xx003541|par=1}}{{HF}}
+|0.1
+|4
+|Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+|50
+|1.25
+|0
+|0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Salmon Meat|Salmon Meat]] or [[Skyrim:Salmon (item)|Salmon]]{{CC|Fishing}}
+|
+* 284 already-cooked samples can be found in 136 different locations, most notably the [[Skyrim:Blue Palace|Blue Palace]].
+* Six salmon steaks are always sold by [[Skyrim:Addvar|Addvar]].
+* 34% chance of being sold by most innkeepers
+* May be carried by most common citizens
+|-{{HE|Seared Slaughterfish}}
+|[[File:SR-icon-food-SearedSlaughterfish.png|48px]]
+|Seared Slaughterfish<br>{{ID|00064b3c|par=1}}
+|0.1
+|5
+|Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+|50
+|1
+|0
+|0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Slaughterfish|Slaughterfish]]{{CC|Fishing}}
+|
+* 186 guaranteed samples can be found in 85 different locations, most notably the [[Skyrim:Thalmor Embassy|Thalmor Embassy]] and [[Skyrim:Mistveil Keep|Mistveil Keep]].
+* Twenty always sold by [[Skyrim:Addvar|Addvar]]
+* 34% chance of being sold by most innkeepers
+* May be carried by most common citizens
+* Note that raw slaughterfish meat is not found in-game (killing a [[Skyrim:Slaughterfish|slaughterfish]] yields [[Skyrim:Slaughterfish Scales|slaughterfish scales]] instead).
+*Can be cooked in a Cooking Pot using Slaughterfish caught using the Fishing creation in the Anniversary edition 
+|-{{HE|Steamed Mudcrab Legs}}
+|[[File:SR-icon-food-SteamedMudcrabLegs.png|48px]]
+|Steamed Mudcrab Legs{{HF}}<br>{{ID|xx00353f|par=1}}
+|0.1
+|4
+|Medium
+|
+* [[Skyrim:Restore Health|Restore Health]], 12 pts
+|120
+|3
+|0
+|0
+|[[Skyrim:Mudcrab_Legs|Mudcrab Legs]]{{HF}}<br>[[Skyrim:Butter|Butter]]{{HF}}
+|
+* Only one sample exists, found in [[Skyrim:Winking Skeever|Winking Skeever]].
+* If [[Skyrim:Hearthfire|Hearthfire]] is installed, can be found in [[Skyrim:Construction|player-built]] homes.
+* Needed for the quest [[SR:The Ultimate Feast|The Ultimate Feast]] {{CC|Fishing}}.
+|-{{HE|Tomato Soup}}
+|[[File:SR-icon-food-Soup.png|48px]]<br>[[File:SR-icon-food-Tomato Soup.png|48px]]{{HF}}
+|Tomato Soup<br>{{ID|000f431c|par=1}}
+|0.5
+|5
+|Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 10 pts
+* [[Skyrim:Restore Stamina|Restore Stamina]], 10 pts
+|20
+|2
+|20
+|2
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Tomato|Tomato]]<br>[[Skyrim:Garlic|Garlic]]<br>[[Skyrim:Leek|Leek]]
+|
+* Six already-cooked samples can be found in four different locations, most notably [[Skyrim:Broken Oar Grotto|Broken Oar Grotto]] and [[Skyrim:Broken Tower Redoubt|Broken Tower Redoubt]].
+* This soup cannot be sold to innkeepers or other food vendors, but only to general goods merchants, unless you have the ''Merchant'' Speech perk.
+|-{{HE|Vegetable Soup}}
+|[[File:SR-icon-food-Soup.png|48px]]<br>[[File:SR-icon-food-Vegetable Soup.png|48px]]{{HF}}
+|Vegetable Soup<br>{{ID|000f431e|par=1}}
+|0.5
+|5
+|Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 1 pt/sec for 720 secs
+* [[Skyrim:Restore Stamina|Restore Stamina]], 1 pt/sec for 720 secs
+|0
+|0
+|0
+|0
+|[[Skyrim:Cabbage|Cabbage]]<br>[[Skyrim:Potato|Potato]]<br>[[Skyrim:Leek|Leek]]<br>[[Skyrim:Tomato|Tomato]]
+|
+* Two already-cooked samples can be found in two different locations, namely [[Skyrim:Anise's Cabin|Anise's Cabin]] and [[Skyrim:Mzinchaleft|Mzinchaleft]].
+* This soup cannot be sold to innkeepers or other food vendors, but only to general goods merchants, unless you have the ''Merchant'' Speech perk.
+|-{{HE|Venison Chop}}
+|[[File:SR-icon-food-VenisonChop.png|48px]]
+|Venison Chop<br>{{ID|000722bd|par=1}}
+|2
+|5
+|Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 5 pts
+|2.5
+|1
+|0
+|0
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Venison|Venison]]
+|
+* Ten already-cooked samples can be found in eight different locations, most notably the [[Skyrim:Dark Brotherhood Sanctuary|Dark Brotherhood Sanctuary]] and the [[Skyrim:Hall of the Vigilant|Hall of the Vigilant]].
+* 34% chance of being sold by most innkeepers
+* May be carried by most common citizens
+|-{{HE|Venison Stew}}
+|[[File:SR-icon-food-Soup.png|48px]]<br>[[File:SR-icon-food-Venison Stew.png|48px]]{{HF}}
+|Venison Stew<br>{{ID|000f431d|par=1}}
+|0.5
+|8
+|Large
+|
+* [[Skyrim:Restore Stamina|Restore Stamina]], 15 pts
+* [[Skyrim:Restore Health|Restore Health]], 1 pt/sec for 720 secs
+* [[Skyrim:Restore Stamina|Restore Stamina]], 1 pt/sec for 720 secs
+|0
+|0
+|30
+|1.9
+|[[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Venison|Venison]]<br>[[Skyrim:Potato|Potato]]<br>[[Skyrim:Leek|Leek]]
+|
+* One already-cooked sample can be found at [[Skyrim:Pinefrost Tower|Pinefrost Tower]].
+* This stew cannot be sold to innkeepers or other food vendors, but only to general goods merchants, unless you have the ''Merchant'' Speech perk.
+|}
+{{Showhide/End}}
+{{Mod Note|Survival Mode}}
+
+==={{Anchor|Hot Soups|Hot SoupsCC}}{{CC|Survival Mode}}===
+{{Showhide/Start|expanded=1}}
+These 17 soup recipes are made at the standard cooking locations but are only available to be crafted if Survival Mode is enabled as part of the [[Skyrim:Survival Mode|Survival Mode]] [[Skyrim:Creation Club|Creation]]. Their primary use is to counteract the [[Skyrim:Cold|cold]], but they also act as [[Skyrim:Hunger|hunger]] reducers.
+
+There are no guaranteed locations for any of the hot soups.
+
+{| class="wikitable sortable"
+!class=unsortable|
+!Name ([[Skyrim:Form ID|ID]])
+!width=22|{{Weight Icon}}
+!width=22|{{Value Icon}}
+!width=22|[[Skyrim:Hunger|Hunger]]{{Creation Club|Survival Mode}}
+!Effect(s)
+!width=11|Heal /{{Weight Icon}}
+!width=11|Heal /{{Value Icon}}
+!width=11|Stam /{{Weight Icon}}
+!width=11|Stam /{{Value Icon}}
+!Ingredients
+|-{{HE|Hot Apple Cabbage Stew}}
+|[[File:SR-icon-food-Hot Apple Cabbage Stew.png|48px]]
+|Hot Apple Cabbage Stew{{CC|Survival Mode}}<br>{{ID|FExxx9e6|par=1}}
+|0.5
+|8
+|Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 10 pts
+* [[Skyrim:Fortify Warmth|Fortify Warmth]], 25 pts for 300 secs
+* [[Skyrim:Restore Cold|Restore Cold]], 200 pts
+|20
+|1.3
+|0
+|0
+| [[Skyrim:Fire Salts|Fire Salts]]<br>[[Skyrim:Red Apple|Red Apple]]<br>[[Skyrim:Cabbage|Cabbage]]
+|-{{HE|Hot Beef Stew}}
+|[[File:SR-icon-food-Hot Beef Stew.png|48px]]
+|Hot Beef Stew{{CC|Survival Mode}}<br>{{ID|FExxx9e7|par=1}}
+|0.5
+|8
+|Large
+|
+* [[Skyrim:Restore Stamina|Restore Stamina]], 25 pts for 720 secs
+* [[Skyrim:Fortify Warmth|Fortify Warmth]], 25 pts for 300 secs
+* [[Skyrim:Restore Cold|Restore Cold]], 200 pts
+|0
+|0
+|50
+|3.1
+| [[Skyrim:Fire Salts|Fire Salts]]<br>[[Skyrim:Raw Beef|Raw Beef]]<br>[[Skyrim:Carrot|Carrot]]<br>[[Skyrim:Garlic|Garlic]]
+|-{{HE|Hot Cabbage Potato Soup}}
+|[[File:SR-icon-food-Hot Cabbage Potato Soup.png|48px]]
+|Hot Cabbage Potato Soup{{CC|Survival Mode}}<br>{{ID|FExxx9e0|par=1}}
+|0.5
+|5
+|Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 10 pts
+* [[Skyrim:Fortify Warmth|Fortify Warmth]], 25 pts for 300 secs
+* [[Skyrim:Restore Cold|Restore Cold]], 200 pts
+|20
+|2
+|0
+|0
+| [[Skyrim:Fire Salts|Fire Salts]]<br>[[Skyrim:Cabbage|Cabbage]]<br>[[Skyrim:Leek|Leek]]<br>[[Skyrim:Potato|Potato]]
+|-{{HE|Hot Cabbage Soup}}
+|[[File:SR-icon-food-Hot Cabbage Soup.png|48px]]
+|Hot Cabbage Soup{{CC|Survival Mode}}<br>{{ID|FExxx9e1|par=1}}
+|0.5
+|5
+|Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 10 pts
+* [[Skyrim:Fortify Warmth|Fortify Warmth]], 25 pts for 300 secs
+* [[Skyrim:Restore Cold|Restore Cold]], 200 pts
+|20
+|2
+|0
+|0
+| [[Skyrim:Fire Salts|Fire Salts]]<br>[[Skyrim:Cabbage|Cabbage]]
+|-{{HE|Hot Clam Chowder}}
+|[[File:SR-icon-food-Hot Clam Chowder.png|48px]]
+|Hot Clam Chowder{{CC|Survival Mode}}<br>{{ID|FExxx9ea|par=1}}
+|0.5
+|5
+|Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 10 pts
+* [[Skyrim:Fortify Warmth|Fortify Warmth]], 25 pts for 300 secs
+* [[Skyrim:Restore Cold|Restore Cold]], 200 pts
+|20
+|2
+|0
+|0
+| [[Skyrim:Fire Salts|Fire Salts]]<br>[[Skyrim:Butter|Butter]]<br>[[Skyrim:Jug of Milk|Jug of Milk]]<br>[[Skyrim:Clam Meat|Clam Meat]]<br>[[Skyrim:Potato|Potato]]
+|-{{HE|Hot Crab Stew}}
+|[[File:SR-icon-food-Crab Stew.png|48px]]
+|Hot Crab Stew{{CC|Fishing}}<br>{{ID|xx000F77|par=1}}
+|0.5||5||Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 1 pt for 720 secs
+* [[Skyrim:Restore Stamina|Restore Stamina]], 2 pts for 720 secs
+* [[Skyrim:Fortify Warmth|Fortify Warmth]], 25 pts for 300 secs
+* [[Skyrim:Restore Cold|Restore Cold]], 200 pts
+| 2 || 0.2 || 4 || 0.4
+| [[Skyrim:Fire Salts|Fire Salts]]<br>[[Skyrim:Garlic|Garlic]]<br>[[Skyrim:Potato|Potato]]<br>[[Skyrim:Leek|Leek]]<br>[[Skyrim:Crab Meat|Crab Meat]]
+|-{{HE|Hot Creamy Crab Bisque}}
+|[[File:SR-icon-food-Creamy Crab Bisque.png|48px]]
+|Hot Creamy Crab Bisque{{CC|Fishing}}<br>{{ID|xx000F0A|par=1}}
+|0.5||8||Large
+|
+* [[Skyrim:Fortify Stamina|Fortify Stamina]], 25 pts for 720 secs
+* [[Skyrim:Restore Stamina|Restore Stamina]], 2 pts for 720 secs
+* [[Skyrim:Fortify Warmth|Fortify Warmth]], 25 pts for 300 secs
+* [[Skyrim:Restore Cold|Restore Cold]], 200 pts
+| 0 || 0 || 4 || 0.4
+|[[Skyrim:Fire Salts|Fire Salts]]<br>[[Skyrim:Sack of Flour|Sack of Flour]]<br>[[Skyrim:Butter|Butter]]<br>[[Skyrim:Crab Meat|Crab Meat]]
+|-{{HE|Hot Elsweyr Fondue}}
+|[[File:SR-icon-food-Hot Elsweyr Fondue.png|48px]]
+|Hot Elsweyr Fondue{{CC|Survival Mode}}<br>{{ID|FExxxa08|par=1}}
+|0.5
+|8
+|Large
+|
+* [[Skyrim:Regenerate Magicka|Regenerate Magicka]], 25 pts for 720 secs
+* [[Skyrim:Fortify Warmth|Fortify Warmth]], 25 pts for 300 secs
+* [[Skyrim:Restore Cold|Restore Cold]], 200 pts
+|0
+|0
+|0
+|0
+| [[Skyrim:Fire Salts|Fire Salts]]<br>[[Skyrim:Ale|Ale]]<br>[[Skyrim:Eidar Cheese Wheel|Eidar Cheese Wheel]]<br>[[Skyrim:Moon Sugar|Moon Sugar]]
+|-{{HE|Hot Horker and Ash Yam Stew}}
+|[[File:SR-icon-food-Hot Horker and Ash Yam Stew.png|48px]]
+|Hot Horker and Ash Yam Stew{{CC|Survival Mode}}<br>{{ID|FExxx9e5|par=1}}
+|0.5
+|9
+|Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 16 pts
+* [[Skyrim:Fortify Warmth|Fortify Warmth]], 25 pts for 300 secs
+* [[Skyrim:Restore Cold|Restore Cold]], 200 pts
+|32
+|1.8
+|0
+|0
+| [[Skyrim:Fire Salts|Fire Salts]]<br>[[Skyrim:Ash Yam|Ash Yam]]{{DB}}<br>[[Skyrim:Horker Meat|Horker Meat]]<br>[[Skyrim:Garlic|Garlic]]
+|-{{HE|Hot Horker Stew}}
+|[[File:SR-icon-food-Hot Horker Stew.png|48px]]
+|Hot Horker Stew{{CC|Survival Mode}}<br>{{ID|FExxx9e8|par=1}}
+|0.5
+|8
+|Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 15 pts
+* [[Skyrim:Fortify Warmth|Fortify Warmth]], 25 pts for 300 secs
+* [[Skyrim:Restore Cold|Restore Cold]], 200 pts
+|30
+|1.9
+|0
+|0
+| [[Skyrim:Fire Salts|Fire Salts]]<br>[[Skyrim:Horker Meat|Horker Meat]]<br>[[Skyrim:Tomato|Tomato]]<br>[[Skyrim:Garlic|Garlic]]<br>[[Skyrim:Lavender|Lavender]]
+|-{{HE|Hot Ironwood Soup}}
+|[[File:SR-icon-food-Ironwood Soup.png|48px]]
+|Hot Ironwood Soup{{CC|Bittercup}} {{intnote|Quest|‡}}<br>{{ID|FExxxCE5|par=1}}
+|0.5||5||Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 15 pts
+* [[Skyrim:Restore Stamina|Restore Stamina]], 15 pts
+* [[Skyrim:Cure Disease|Cure Disease]]
+* [[Skyrim:Fortify Warmth|Fortify Warmth]], 25 pts for 300 secs
+* [[Skyrim:Restore Cold|Restore Cold]], 200 pts
+| 30
+| 3
+| 30
+| 3
+| [[Skyrim:Salt Pile|Salt Pile]]<br>[[Skyrim:Fire Salts|Fire Salts]]<br>[[Skyrim:Charred Skeever Hide|Charred Skeever Hide]]<br>[[Skyrim:Ironwood Fruit|Ironwood Fruit]]
+|-{{HE|Hot Potato Crab Chowder}}
+|[[File:SR-icon-food-Potato Crab Chowder.png|48px]]
+|Hot Potato Crab Chowder{{CC|Fishing}}<br>{{ID|xx000F0B|par=1}}
+|0.5||8||Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 15 pts
+* [[Skyrim:Restore Stamina|Restore Stamina]], 5 pts
+* [[Skyrim:Fortify Warmth|Fortify Warmth]], 25 pts for 300 secs
+* [[Skyrim:Restore Cold|Restore Cold]], 200 pts
+| 30 || 1.875 || 10 || 0.625
+|[[Skyrim:Fire Salts|Fire Salts]]<br>[[Skyrim:Potato|Potato]]<br>[[Skyrim:Jug of Milk|Jug of Milk]]<br>[[Skyrim:Butter|Butter]]<br>[[Skyrim:Crab Meat|Crab Meat]]
+|-{{HE|Hot Potato Soup}}
+|[[File:SR-icon-food-Hot Potato Soup.png|48px]]
+|Hot Potato Soup{{CC|Survival Mode}}<br>{{ID|FExxx9e2|par=1}}
+|0.5
+|5
+|Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 10 pts
+* [[Skyrim:Fortify Warmth|Fortify Warmth]], 25 pts for 300 secs
+* [[Skyrim:Restore Cold|Restore Cold]], 200 pts
+|20
+|2
+|0
+|0
+| [[Skyrim:Fire Salts|Fire Salts]]<br>[[Skyrim:Potato|Potato]]
+|-{{HE|Hot Roasted Tomato Crab Bisque}}
+|[[File:SR-icon-food-Roasted Tomato Crab Bisque.png|48px]]
+|Hot Roasted Tomato Crab Bisque{{CC|Fishing}}<br>{{ID|xx000F0C|par=1}}
+|0.5||5||Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 15 pts
+* [[Skyrim:Restore Health|Restore Health]], 1 pt for 720 secds
+* [[Skyrim:Fortify Warmth|Fortify Warmth]], 25 pts for 300 secs
+* [[Skyrim:Restore Cold|Restore Cold]], 200 pts
+| 32 || 3.2 || 0 || 0
+|[[Skyrim:Fire Salts|Fire Salts]]<br>[[Skyrim:Tomato|Tomato]]<br>[[Skyrim:Butter|Butter]]<br>[[Skyrim:Crab Meat|Crab Meat]]
+|-{{HE|Hot Tomato Soup}}
+|[[File:SR-icon-food-Hot Tomato Soup.png|48px]]
+|Hot Tomato Soup{{CC|Survival Mode}}<br>{{ID|FExxx9e3|par=1}}
+|0.5
+|5
+|Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 10 pts
+* [[Skyrim:Fortify Warmth|Fortify Warmth]], 25 pts for 300 secs
+* [[Skyrim:Restore Cold|Restore Cold]], 200 pts
+|20
+|2
+|0
+|0
+| [[Skyrim:Fire Salts|Fire Salts]]<br>[[Skyrim:Leek|Leek]]<br>[[Skyrim:Tomato|Tomato]]<br>[[Skyrim:Garlic|Garlic]]
+|-{{HE|Hot Vegetable Soup}}
+|[[File:SR-icon-food-Hot Vegetable Soup.png|48px]]
+|Hot Vegetable Soup{{CC|Survival Mode}}<br>{{ID|FExxx9e4|par=1}}
+|0.5
+|5
+|Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 1 pt for 720 secs
+* [[Skyrim:Fortify Warmth|Fortify Warmth]], 25 pts for 300 secs
+* [[Skyrim:Restore Cold|Restore Cold]], 200 pts
+|0
+|0
+|0
+|0
+| [[Skyrim:Fire Salts|Fire Salts]]<br>[[Skyrim:Cabbage|Cabbage]]<br>[[Skyrim:Leek|Leek]]<br>[[Skyrim:Tomato|Tomato]]<br>[[Skyrim:Potato|Potato]]
+|-{{HE|Hot Venison Stew}}
+|[[File:SR-icon-food-Hot Venison Stew.png|48px]]
+|Hot Venison Stew{{CC|Survival Mode}}<br>{{ID|FExxx9e9|par=1}}
+|0.5
+|8
+|Large
+|
+* [[Skyrim:Restore Health|Restore Health]], 1 pt for 720 secs
+* [[Skyrim:Fortify Warmth|Fortify Warmth]], 25 pts for 300 secs
+* [[Skyrim:Restore Cold|Restore Cold]], 200 pts
+|0
+|0
+|0
+|0
+| [[Skyrim:Fire Salts|Fire Salts]]<br>[[Skyrim:Leek|Leek]]<br>[[Skyrim:Potato|Potato]]<br>[[Skyrim:Venison|Venison]]
+|}
+
+{{note|Quest|‡|This soup can only be cooked after completing [[Skyrim:A Dying Wish|A Dying Wish]]{{Creation Club|Bittercup}} quest.}}
+{{Showhide/End}}
+
+==Beverages==
+{{Showhide/Start|expanded=1}}
+Consuming alcoholic beverages like meads, wines, and brandies typically provide an immediate boost to stamina, along with reduced stamina regeneration, for a period of time.
+
+Several other alcoholic beverages are classified as [[Skyrim:Potions|potions]] instead of food, meaning they are displayed in your inventory under potions: 
+* [[Skyrim:Argonian Ale|Argonian Ale]]
+* [[Skyrim:Balmora Blue|Balmora Blue]] wine
+* [[Skyrim:Cliff Racer|Cliff Racer]] wine
+* [[Skyrim:Cyrodilic Brandy|Cyrodilic Brandy]]
+* [[Skyrim:Skooma|Skooma]], including [[Skyrim:Double-Distilled Skooma|Double-Distilled Skooma]] and [[Skyrim:Kordir's Skooma|Kordir's Skooma]]
+* [[Skyrim:Stros M'Kai Rum|Stros M'Kai Rum]]
+* [[Skyrim:Velvet LeChance|Velvet LeChance]] wine
+* [[Skyrim:White-Gold Tower|White-Gold Tower]] wine
+Many of these other beverages do not have the negative reduced stamina regeneration side effect. 
+
+{| class="wikitable sortable"
+!class=unsortable|
+!Name ([[Skyrim:Form ID|ID]])
+!width=22|{{Weight Icon}}
+!width=22|{{Value Icon}}
+!Effect(s)
+!class="unsortable"|Notes
+|-{{HE|Aged Flin}}
+|[[File:SR-icon-food-Flin.png|48px]]
+|Aged Flin{{CC|Fishing}}<br>{{ID|xx000C2D|par=1}}
+|0.5||180
+|
+* [[Skyrim:Restore Stamina|Restore Stamina]], 40 pts
+* [[Skyrim:Damage Stamina Regen|Damage Stamina Regen]], 40% for 120 secs
+|Sources:
+* Quest items for [[Skyrim:Spirits Away|Spirits Away]].
+|-{{HE|Ale}}
+|[[File:SR-icon-food-Ale.png|48px]]
+|Ale<br>{{ID|00034c5e|par=1}}
+|0.5
+|5
+|
+* [[Skyrim:Restore Stamina|Restore Stamina]], 15 pts
+* [[Skyrim:Damage Stamina Regeneration|Damage Stamina Regeneration]], 30% for 30 secs
+| Sources:
+* 159 bottles can be found in 49 different locations, most notably [[Skyrim:Jorrvaskr|Jorrvaskr]] and [[Skyrim:Jorrvaskr Living Quarters|Jorrvaskr Living Quarters]].
+* 98% chance of being sold by most innkeepers
+Uses:
+* One ale is one of three items needed to [[Skyrim:Cooking|cook]] [[Skyrim:Elsweyr Fondue|Elsweyr fondue]].
+|-{{HE|Alto Wine}}
+|[[File:SR-icon-food-AltoWine.png|48px]]<br>[[File:SR-icon-food-ColovianBrandy.png|48px]]
+|Alto Wine<br>{{ID|0003133b|par=1}}<br/>{{ID|000c5349|par=1}}
+|0.5
+|12
+|
+* [[Skyrim:Restore Stamina|Restore Stamina]], 15 pts
+* [[Skyrim:Damage Stamina Regeneration|Damage Stamina Regeneration]], 30% for 30 secs
+| Sources:
+* Quest item for the quest [[Skyrim:A Night To Remember|A Night To Remember]]
+* 1451 guaranteed bottles found in 289 different locations, most notably the [[Skyrim:Thalmor Embassy|Thalmor Embassy]].
+* 4-9 bottles always sold by [[Skyrim:Evette San|Evette San]]
+* 84% chance of being sold by most innkeepers
+|-{{HE|Argonian Bloodwine}}
+|[[File:SR-icon-food-ArgonianBloodwine.png|48px]]
+|Argonian Bloodwine{{HF}}<br>{{ID|xx003535|par=1}}
+|0.5
+|100
+|
+* [[Skyrim:Resist Poison|Resist Poison]], 40% for 50 secs
+* [[Skyrim:Waterbreathing (effect)|Waterbreathing]], for 50 secs
+* [[Skyrim:Damage Stamina Regeneration|Damage Stamina Regeneration]], 30% for 30 secs
+|
+* Can be sold by innkeepers and some food vendors
+* If [[Skyrim:Hearthfire|Hearthfire]] is installed, can be found in [[Skyrim:Construction|player-built]] homes
+|-{{HE|Ashfire Mead}}
+|[[File:SR-icon-food-Ale.png|48px]]
+|Ashfire Mead{{DB}}<br>{{ID|xx03572f|par=1}}
+|0.5||50
+|
+* [[Skyrim:Restore Stamina|Restore Stamina]], 40 pts
+* [[Skyrim:Damage Stamina Regeneration|Damage Stamina Regeneration]], 50% for 30 secs
+|
+* 1 bottle is needed for the quest [[Skyrim:Elmus Favor Quest (mead)|Elmus Favor Quest]]
+* 5 bottles can be found at [[Skyrim:Thirsk Mead Hall|Thirsk Mead Hall]] if it hasn't been reclaimed
+* 10 bottles will be given upon finishing [[Skyrim:Elmus Favor Quest (berries)|Elmus Favor Quest]]
+* [[Skyrim:Elmus|Elmus]] will sell some at [[Skyrim:Thirsk Mead Hall|Thirsk Mead Hall]] after it has been reclaimed
+* [[Skyrim:Geldis Sadri|Geldis Sadri]] at [[Skyrim:The Retching Netch|The Retching Netch]] will sometimes have some for sale
+|-{{HE|Black-Briar Mead}}
+|[[File:SR-icon-food-BlackBriarMead.png|48px]]
+|Black-Briar Mead<br>{{ID|0002c35a|par=1}}
+|0.2
+|25
+|
+* [[Skyrim:Restore Stamina|Restore Stamina]], 20 pts
+* [[Skyrim:Damage Stamina Regeneration|Damage Stamina Regeneration]], 40% for 30 secs
+| The most common variety of mead brewed by the [[Skyrim:Black-Briar Meadery|Black-Briar Meadery]]
+* 1 bottle is needed for Siddgeir's version of [[Skyrim:Rare Gifts|Rare Gifts]]
+
+Sources:
+* 282 guaranteed bottles can be found in 55 different locations, most notably [[Skyrim:Honningbrew Meadery|Honningbrew Meadery]] and [[Skyrim:Black-Briar Meadery|Black-Briar Meadery]].
+* Black-Briar Mead barrels always contain 1-10 bottles
+* 12 bottles always sold by [[Skyrim:Black-Briar Meadery|Black-Briar Meadery]]
+* 84% chance of being sold by most innkeepers
+* 1 bottle will be given to you from [[Skyrim:Dirge|Dirge]] if you pass a speech check asking him about his name
+|-{{HE|Black-Briar Reserve}}
+|[[File:SR-icon-food-BlackBriarReserve.png|48px]]
+|Black-Briar Reserve<br>{{ID|000f693f|par=1}}
+|0.5
+|100
+|
+* [[Skyrim:Restore Stamina|Restore Stamina]], 30 pts
+* [[Skyrim:Damage Stamina Regeneration|Damage Stamina Regeneration]], 40% for 30 secs
+| A higher quality mead brewed by [[Skyrim:Black-Briar Meadery|Black-Briar Meadery]] (although it [[Skyrim:To_Be_Read_Immedately!|has been known]] to simply be standard Black-Briar Mead in the wrong bottles)
+
+Sources:
+* Eight bottles found in six different locations, most notably three in [[Skyrim:Black-Briar Manor|Black-Briar Manor]].
+* Three bottles always sold by [[Skyrim:Black-Briar Meadery|Black-Briar Meadery]]
+* A large number of bottles can be found in [[Skyrim:Thirsk Mead Hall|Thirsk Mead Hall]]{{DB}} after it has been reclaimed.
+* May be sold by most innkeepers
+|-{{HE|Colovian Brandy}}
+|[[File:SR-icon-food-ColovianBrandy.png|48px]]
+|Colovian Brandy<br>{{ID|00036d53|par=1}}
+|0.5
+|100
+|
+* [[Skyrim:Restore Stamina|Restore Stamina]], 25 pts
+* [[Skyrim:Fortify Barter|Fortify Barter]], 20% for 30 secs
+* [[Skyrim:Damage Stamina Regeneration|Damage Stamina Regeneration]], 30% for 30 secs
+| Related to the quest [[Skyrim:Diplomatic Immunity|Diplomatic Immunity]]
+* This beverage cannot be sold to innkeepers or other food vendors, but only to general goods merchants.
+|-{{HE|Dragon's Breath Mead}}
+|[[File:SR-icon-food-Ale.png|48px]]
+|Dragon's Breath Mead<br>{{ID|000555e8|par=1}}
+|0.5
+|5
+|
+* [[Skyrim:Restore Stamina|Restore Stamina]], 20 pts
+* [[Skyrim:Damage Stamina Regeneration|Damage Stamina Regeneration]], 30% for 60 secs
+|
+Quest item for the quest [[Skyrim:Dragon's Breath Mead (quest)|Dragon's Breath Mead]]
+* One bottle can be found 530 feet north-northeast of [[Skyrim:Bruca's Leap Redoubt|Bruca's Leap Redoubt]]. {{Map Link|x=-120311|y=73829}}
+|-{{HE|Emberbrand Wine}}
+|[[File:SR-icon-food-Flin.png|48px]]
+|Emberbrand Wine{{DB}}<br>{{ID|xx0320df|par=1}}
+|0.5||15
+|
+* [[Skyrim:Restore Stamina|Restore Stamina]], 60 pts
+* [[Skyrim:Damage Stamina Regeneration|Damage Stamina Regeneration]], 60% for 120 secs
+| 
+* 8 bottles are recovered as part of the quest [[Skyrim:Recipe for Distraction|Recipe for Distraction]]
+|-{{HE|Firebrand Wine}}
+|[[File:SR-icon-food-FirebrandWine.png|48px]]
+|Firebrand Wine<br>{{ID|0001895f|par=1}}
+|0.5
+|137
+|
+* [[Skyrim:Restore Stamina|Restore Stamina]], 20 pts
+* [[Skyrim:Damage Stamina Regeneration|Damage Stamina Regeneration]], 30% for 45 secs
+* [[Skyrim:Resist Frost|Resist Frost]], 15% for 45 secs
+|
+* A [[Skyrim:Firebrand Wine Case|Firebrand Wine Case]] has to be stolen during the quest [[Skyrim:Scoundrel's Folly|Scoundrel's Folly]]; however, this is an individual wine bottle.
+* This beverage cannot be sold to innkeepers or other food vendors, but only to general goods merchants.
+|-{{HE|Flin}}
+|[[File:SR-icon-food-Flin.png|48px]]
+|Flin{{DB}}<br>{{ID|xx0207e5|par=1}}
+|0.5||15
+|
+* [[Skyrim:Restore Stamina|Restore Stamina]], 20 pts
+* [[Skyrim:Damage Stamina Regeneration|Damage Stamina Regeneration]], 20% for 120 secs
+|
+|-{{HE|Honningbrew Mead}}
+|[[File:SR-icon-food-HonningbrewMead.png|48px]]
+|Honningbrew Mead<br>{{ID|000508ca|par=1}}
+|0.5
+|20
+|
+* [[Skyrim:Restore Stamina|Restore Stamina]], 20 pts
+* [[Skyrim:Damage Stamina Regeneration|Damage Stamina Regeneration]], 25% for 20 secs
+|
+* 178 bottles can be found in 18 different locations, nearly all of them at [[Skyrim:Honningbrew Meadery|Honningbrew Meadery]].
+* Twenty bottles always sold by [[Skyrim:Honningbrew Meadery|Honningbrew Meadery]]
+* 4-18 bottles always sold by most taverns; remaining innkeepers have an 84% chance of selling 2-18 bottles
+* 1-10 bottles always found in certain Honningbrew Mead barrels (other barrels are always empty)
+* Can be given to you as a gift from [[Skyrim:Alvor|Alvor]] during [[Skyrim:Before the Storm|Before the Storm]] if you side with [[Skyrim:Hadvar|Hadvar]] during [[Skyrim:Unbound|Unbound]].
+* Can be given to you as part of the wilderness encounter [[Skyrim:Reveler|Drinking Companions]]. If you already have one on you, it can be used to get the [[Skyrim:Charmed Necklace|Charmed Necklace]].
+|-{{HE|Jessica's Wine}}
+|[[File:SR-icon-food-ColovianBrandy.png|48px]]
+|Jessica's Wine<br>{{ID|000f257e|par=1}}
+|0.5
+|12
+|
+* [[Skyrim:Restore Stamina|Restore Stamina]], 5 pts
+| Related to the quest [[Skyrim:Laid to Rest|Laid to Rest]]
+* One guaranteed bottle can be found in [[Skyrim:Jorgen and Lami's House|Jorgen and Lami's House]]. The bottle will respawn.
+|-{{HE|Matze}}
+|[[File:SR-icon-food-Matze.png|48px]]
+|{{sic|Matze|Mazte}}{{DB}}<br>{{ID|xx0248ce|par=1}}
+|0.5||5
+|
+* [[Skyrim:Restore Stamina|Restore Stamina]], 10 pts
+* [[Skyrim:Resist Frost|Resist Frost]], 20% for 60 secs
+* [[Skyrim:Damage Magicka Regeneration|Damage Magicka Regeneration]], 25% for 60 secs
+|
+{{Bug|The name is a misspelling; this beverage was called "[[Morrowind:Mazte|Mazte]]" in ''[[Morrowind:Morrowind|Morrowind]]''|UDBP|1.0.4}}
+|-{{HE|Mead with Juniper Berry}}
+|[[File:SR-icon-food-Ale.png|48px]]
+|Mead with Juniper Berry<br>{{ID|00107a8a|par=1}}
+|0.5
+|5
+|
+* [[Skyrim:Restore Stamina|Restore Stamina]], 20 pts
+* [[Skyrim:Damage Stamina Regeneration|Damage Stamina Regeneration]], 30% for 40 secs
+|
+* Five bottles can be found in [[Skyrim:The Lost Man's Reprieve|the destroyed inn]] that you jump into during the dragon attack on [[Skyrim:Helgen|Helgen]] during the quest [[Skyrim:Unbound|Unbound]]. The bottles respawn every 10 days. {{Map Link|x=16268|y=-83746}}
+|-{{HE|Nord Mead}}
+|[[File:SR-icon-food-Ale.png|48px]]
+|Nord Mead<br>{{ID|00034c5d|par=1}}
+|0.5
+|5
+|
+* [[Skyrim:Restore Stamina|Restore Stamina]], 15 pts
+* [[Skyrim:Damage Stamina Regeneration|Damage Stamina Regeneration]], 30% for 30 secs
+|
+* 1361 bottles can be found in 244 different locations, most notably [[Skyrim:Broken Tower Redoubt|Broken Tower Redoubt]] and [[Skyrim:Mauhulakh's Longhouse|Mauhulakh's Longhouse]].
+* 3-4 bottles carried by [[Skyrim:Roggi Knot-Beard|Roggi Knot-Beard]]
+* 98% chance of being sold by most innkeepers
+|-{{HE|Sadri's Sujamma}}
+|[[File:SR-icon-food-Sujamma.png|48px]]
+|Sadri's Sujamma{{DB}}<br>{{ID|xx024e0b|par=1}}
+|0.25||0
+|
+* [[Skyrim:Restore Stamina|Restore Stamina]], 18 pts
+* [[Skyrim:Damage Stamina Regeneration|Damage Stamina Regeneration]], 30% for 60 secs
+|
+* 10 bottles are needed in the quest [[Skyrim:It's All In The Taste|It's All In The Taste]]
+|-{{HE|Shein}}
+|[[File:SR-icon-food-Shein.png|48px]]
+|Shein{{DB}}<br>{{ID|xx0248cc|par=1}}
+|0.5||10
+|
+* [[Skyrim:Restore Stamina|Restore Stamina]], 25 pts
+* [[Skyrim:Damage Stamina Regeneration|Damage Stamina Regeneration]], 30% for 60 secs
+|
+|-{{HE|Spiced Wine}}
+|[[File:SR-icon-food-SpicedWine.png|48px]]
+|Spiced Wine<br>{{ID|00085368|par=1}}
+|0.5
+|7
+|
+* [[Skyrim:Restore Stamina|Restore Stamina]], 25 pts
+* [[Skyrim:Damage Stamina Regeneration|Damage Stamina Regeneration]], 30% for 50 secs
+|
+* 44 bottles can be found in six different locations, most notably fourteen in [[Skyrim:The Winking Skeever|The Winking Skeever]].
+* Five bottles always sold by [[Skyrim:Evette San|Evette San]]
+* If [[Skyrim:Dawnguard|Dawnguard]] is installed, 1 bottle can be found in [[Skyrim:Volkihar Keep|Volkihar Keep]].
+|-{{HE|Sujamma}}
+|[[File:SR-icon-food-Sujamma.png|48px]]
+|Sujamma{{DB}}<br>{{ID|xx0207e6|par=1}}
+|0.5||10
+|
+* [[Skyrim:Restore Stamina|Restore Stamina]], 15 pts
+* [[Skyrim:Damage Stamina Regeneration|Damage Stamina Regeneration]], 30% for 60 secs
+|
+|-{{HE|Surilie Brothers Wine}}
+|[[File:SR-icon-food-SurilieBrothersWine.png|48px]]
+|Surilie Brothers Wine{{HF}}<br>{{ID|xx003536|par=1}}
+|0.5
+|40
+|
+* [[Skyrim:Restore Stamina|Restore Stamina]], 15 pts
+* [[Skyrim:Damage Stamina Regeneration|Damage Stamina Regeneration]], 30% for 30 secs
+|
+* Can be sold by innkeepers and some food vendors
+* If [[Skyrim:Hearthfire|Hearthfire]] is installed, can be found in [[Skyrim:Construction|player-built]] homes
+|-{{HE|Wine}}
+|[[File:SR-icon-food-Wine2.png|48px]]<br>[[File:SR-icon-food-Wine1.png|48px]]
+|Wine<br>{{ID|0003133c|par=1}}<br/>{{ID|000c5348|par=1}}
+|0.5
+|7
+|
+* [[Skyrim:Restore Stamina|Restore Stamina]], 15 pts
+* [[Skyrim:Damage Stamina Regeneration|Damage Stamina Regeneration]], 30% for 30 secs
+|
+* 1546 bottles can be found in 283 different locations, most notably [[Skyrim:Broken Oar Grotto|Broken Oar Grotto]] and [[Skyrim:Goldenglow Estate|Goldenglow Estate]].
+* 84% chance of being sold by most innkeepers
+|}
+{{Showhide/End}}
+
+==Notes==
+*During [[Skyrim:A Night To Remember|A Night To Remember]], only the Alto Wine variant with the basket on the bottom counts as a quest item; the one that lacks it doesn't. Likewise, regular wine, Spiced Wine, and empty wine bottles also do not count.
+*Your inventory says that cabbages, eidar cheese wedges, goat cheese wedges, and Sadri's Sujamma weigh 0.3 instead of 0.25. It is unknown if this is normal or a bug.
+*Version 2.0.9 of the [[Skyrim Mod:Unofficial Skyrim Patch|Unofficial Skyrim Patch]] makes it possible to sell a good majority of the original player-cooked foods to food and drink vendors, as well as Firebrand Wine and Colovian Brandy.
+**Version 2.0.9 of the [[Skyrim Mod:Unofficial Dragonborn Patch|Unofficial Dragonborn Patch]] also makes it possible to sell Horker and Ash Yam Stew to food and drink vendors, as well as some of the food exclusively found on [[Skyrim:Solstheim|Solstheim]], such as Boar Meat.
+***Version 1.0.1 of the [[Skyrim Mod:Unofficial Hearthfire Patch|Unofficial Hearthfire Patch]] makes it possible to sell Potato Soup and Clam Chowder to food and drink vendors.
+
+==Bugs==
+{{Bug|Vegetable Soup and Venison Stew may not restore health properly.|OSSEP|1.5.73}}
+{{Bug|Seared Slaughterfish and Charred Skeever Meat may restore less Hunger than intended.|OSSEP|1.6}}
+{{Bug|Some food and drink items may not make the proper sounds when picked up, dropped, and/or consumed.|OSSEP|1.6}}
+{{Bug|Flin, Mazte, Shein, Sujamma, Sadri's Sujamma, and Emberbrand Wine all lack proper pickup and drop sounds.|USLEEP|3.0.8}}
+{{Bug|Boar Meat, Ash Hopper Meat, Ash Hopper Leg, and Cooked Boar Meat all display 0 value due to not having set the no-autocalc flag on them.|USLEEP|3.0.8}}
+{{Bug|Horker and Ash Yam Stew doesn't use the same eating sounds used by every other stew object in the game.|USSEP|4.2.5}}

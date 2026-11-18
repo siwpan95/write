@@ -1,0 +1,21 @@
+{{Trail}}
+[[File:Dragonborn AlduinsWall.jpg|300px|thumb|right|Dragonborn as depicted on Alduin's Wall]]
+A '''Dragonborn''' or '''Dovahkiin''' is a mortal man or woman born with the blood and soul of a [[Skyrim:Dragon|dragon]], or what the dragons would call "Dovah Sos" (dragonblood).{{Ref|name=Paarthurnax|The dragon [[sr:Paarthurnax (dragon)|Paarthurnax]].}} It enables them to use the dragon's ability to absorb a slain dragon's soul to receive knowledge of the [[sr:Dragon Shouts|Thu'um]], rather than having to learn through practice.{{Ref|[[Skyrim:Ulfric Stormcloak|Ulfric Stormcloak]]}} [[Skyrim:Prisoner|You]] are a Dragonborn in [[Skyrim:Skyrim|Skyrim]].
+
+[[Lore:Alessia|St. Alessia]] was the first person to be associated with the title Dragonborn.<noinclude>{{Ref|name=TOSA|{{Cite Book|The Book of the Dragonborn}}}}</noinclude> She is believed to have gained the blood of a dragon after making a covenant with [[Lore:Akatosh|Akatosh]] to seal the Gates of Oblivion. Since then, there have been many tales of heroes of the dragons' blood who would "kill dragons and steal their power". The ability to absorb dragon souls came first to the [[Lore:Dragon Priest|dragon priest]] [[Skyrim:Miraak (person)|Miraak]]. Afterwards, all known Dragonborn could learn powerful shouts much quicker than other mortals, who require years of meditation to master them. The monks known as the [[Lore:Greybeards|Greybeards]] of [[Lore:High Hrothgar|High Hrothgar]] become masters of the [[Lore:Way of the Voice|Way of the Voice]] under the leadership of [[Lore:Paarthurnax|Paarthurnax]], taking in those willing to learn and guiding Dragonborn to their full potential.
+
+[[Lore:Tiber Septim|Tiber Septim]], the first of the Septim Emperors, and [[Lore:Reman Cyrodiil|Reman Cyrodiil]] were Dragonborn, and it was believed, through the [[Lore:Amulet of Kings|Amulet of Kings]], that all of the heirs of the Septim and Reman Dynasties possessed "dragon blood". [[Lore:Wulfharth|Wulfharth]] has also been said to be Dragonborn{{Ref|[[Skyrim: Balgruuf the Greater|Balgruuf the Greater]]}} and shares the title of "Ysmir" with Tiber Septim and the Last Dragonborn, however this title seems to be applied more to great kings in Skyrim's history.{{Ref|name=BAM|{{Cite Book|Before the Ages of Man}}}}
+
+==Notes==
+*Although "Dovah Kiin" translates to "Dragonborn", "Dov Ah Kiin", as a three-word dragon name, translates to "Dragonkind Hunter Born", or "Born Hunter of Dragonkind", a possible reference to the fact that the Dovahkiin is supposed to be the ultimate dragon hunter.
+*In response to confusion in the Bethesda Softworks Forums about the announcement of the [[Skyrim:Miraak (person)|first Dragonborn]] in the ''[[Skyrim:Dragonborn|Dragonborn]]'' official add-on who wasn't St. Alessia, [[General:Michael Kirkbride|Michael Kirkbride]] said: ''"Alessia didn't have the power to absorb dragon souls. Hers was a much more nuanced power: to dream of liberty and give it a name and on her deathbed make Covenant with the Aka-Tusk."''{{Ref|group=UOL|[http://forums.bethsoft.com/topic/1421186-/page__st__30__p__21748685#entry21748685 Forum post by Michael Kirkbride]}}
+
+==See Also==
+* ''[[Lore:Dragon_Alphabet#Song_of_the_Dragonborn|Song of the Dragonborn]]''
+==References==
+<references/>
+{{UOL}}
+<references group=UOL/>
+<!--Interwiki links-->
+[[fr:Skyrim:Dovahkiin]]
+</noinclude>
