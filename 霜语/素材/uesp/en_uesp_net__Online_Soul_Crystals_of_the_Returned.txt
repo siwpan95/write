@@ -1,0 +1,58 @@
+{{Online Collectible Summary
+|collectibletype=Memento
+|type=
+|image=ON-memento-Soul Crystals of the Returned
+|imgdesc=
+|icon=ON-icon-memento-Soul Crystals of the Returned
+|id=10652
+|description=Scholars dispute the origin of these hovering soul crystals. Some believe the lich Vastarie first brought them back from Coldharbour. Others claim Mannimarco returned these souls to Tamriel. Regardless, you know the means to summon them. Dare you do so?
+|acquisition=
+|crate=Unfeathered Crate
+|tier=Legendary
+|price=
+|date=
+}}The '''Soul Crystals of the Returned''' are available as a {{ESO Quality Color|l|'''Legendary'''}}-level reward in [[Online:Unfeathered Crate|Unfeathered Crates]].
+{{NewLeft}}
+
+==Effect==
+The player gestures and three blue flame soul crystals appear and float around the player's head for three minutes.
+<!--
+
+Instructions: Don't use the occurrences section with collectibles that *only* appear in Crown Crates. The height parameter coincides with how many appearances the collectible has made in the store, and is increased by 25 for each appearance. A collectible that appears once has a height of 50, a collectible that appears twice has an Occurrences scrollbox 75 pixels high, 100px for three appearances, 125px for four, etc.
+
+In the Appearances portion of this section, document the dates this collectible has appeared using a bulleted list. The number after the word "Appearances" should be consistent with the amount of times a collectible has been made available. In the list: first, list the item's source, then list the range of dates it appeared from, separating the source and the date using a hyphen. 
+
+--><!--
+==Occurrences==
+{{scrollbox
+| width=70%
+| height=50px
+| content =
+'''Appearances: 1'''
+* <Item source> - 
+}}--><!--
+
+Instructions: This section can be used to describe the Collectible's appearance in excruciating detail. This is so that such descriptions don't clutter the main paragraph.--><!--
+==Physical Appearance==--><!--
+
+Instructions: Extra images go here. For mounts, this includes images of the mount with full riding upgrades, as well as summoning animations for special mounts that have them.-->
+
+==Gallery==
+<gallery>
+File:ON-crown store-Soul Crystals of the Returned.jpg|[[Online:Crown Store Renders/Mementos|Promotional render]]
+File:ON-card-Soul Crystals of the Returned.png|Card
+</gallery><!--
+
+Instructions: Add miscellaneous notes related to the mount here in a bulleted list. For mounts and pets, it is considered good practice to document related collectibles in the notes. For example, the Akaviri Potentate Guar is a mount with a pet counterpart in the Akaviri Potentate Guar Calf. The notes section for the pet contains a note about the mount it shares a resemblance with, and vice versa for the mount. When documenting body and head markings, list the body or head marking that corresponds with the one you're documenting in this section if it exists. The Balorgh's Trophy Head Marking would be listed in the notes for the Balorgh's Trophy Body Marking, etc.--><!--
+
+==Notes==
+*
+--><!--Instructions: Add any bugs related to the collectible here using the format below.--><!--
+==Bugs==
+{{Bug|Bug description}}
+** Workaround
+--><!--
+Instructions: If the {{ref}} template has been used to link to an article, the references will appear in this section. References are not required; documenting which article an item's release was formally announced in can be a good thing.--><!--
+==References==
+<references />
+-->

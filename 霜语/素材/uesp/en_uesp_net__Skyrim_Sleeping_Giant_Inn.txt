@@ -1,0 +1,117 @@
+<noinclude>{{Cleanup-shrp
+|writtenby=Biffa
+|checkedby=
+}}</noinclude>{{Place Summary
+|type=Inn
+|city=Riverwood
+|region=Whiterun Hold
+|locationcode=RiverwoodSleepingGiantInn
+|image=SR-place-Sleeping Giant Inn.jpg
+|imgdesc=The Sleeping Giant Inn
+|AddAbove=The
+|description=a small [[Skyrim:Inns|inn]] and tavern in the town of [[Skyrim:Riverwood|Riverwood]].
+|zones=1
+|alchemy=2
+|enchanting=1
+|job1=[[Skyrim:Delphine|Delphine]]
+|job2=[[Skyrim:Orgnar|Orgnar]]
+|jobtitle2=Innkeeper
+|job3=[[Skyrim:Sven|Sven]]
+|jobtitle3=Bard
+|roomcost=10
+|treasure=[[Skyrim:Blades Sword|Blades Sword]]<br>[[Skyrim:Map of Dragon Burials|Map of Dragon Burials]]
+}}It is the first building on the left-hand side coming from Whiterun.
+[[Skyrim:Orgnar|Orgnar]] is the innkeeper, selling food as well as several alchemy [[Skyrim:ingredients|ingredients]], which can be used at the [[Skyrim:Alchemy Lab|alchemy lab]] in the corner by the door. Rooms are normally rented from [[Skyrim:Delphine|Delphine]]. However, when Delphine is traveling elsewhere, Orgnar will rent you a room, even though his dialogue still tells you to talk to Delphine.
+{{NewLeft}}
+== Residents ==
+{| class="wikitable" width=330px
+!Residents
+|-
+|
+;[[Skyrim:Delphine|Delphine]] (Owner) {{Service Icon|Innkeeper}} *
+;[[Skyrim:Orgnar|Orgnar]] {{Service Icon|Food and Drink}}
+;[[Skyrim:Embry|Embry]]
+;[[Skyrim:Hadvar|Hadvar]] or [[Skyrim:Ralof|Ralof]] †
+|-
+|}
+<nowiki>*</nowiki> Leaves once [[Skyrim:Alduin's Wall|Alduin's Wall]] is begun. Orgnar becomes innkeeper and owner.<br>
+† They only appear if they were followed during [[Skyrim:Unbound|Unbound]].
+
+==Related Quests==
+===[[Skyrim:Main Quest|Main Quests]]===
+*{{Quest Link|The Horn of Jurgen Windcaller}}
+*{{Quest Link|A Blade in the Dark}}
+*{{Quest Link|A Cornered Rat}}
+*{{Quest Link|Alduin's Wall}}
+{{#define:radiantlinks|false}}
+===[[Skyrim:Radiant|Radiant Quests]]===
+*{{Quest Link|Alchemy Tutorial}}
+
+== Walkthrough ==
+=== Exterior ===
+Wooden steps lead up to a covered porch at the front of the inn with several [[Skyrim:Thistle|thistles]], with several barrels of food around the building. You will often be able to find [[Skyrim:Stump|Stump]] the [[Skyrim:Dog|dog]] on the deck and the children living in [[Skyrim:Riverwood|Riverwood]] playing around the inn. At the rear is a small vegetable patch consisting of six [[Skyrim:Potato|potato]] plants, six [[Skyrim:Leek|leeks]] and eight [[Skyrim:Cabbage|cabbages]] growing, with a further four cabbages in a cart beside it.
+
+{| class="wikitable"
+!Crops
+!Plants
+|-
+|
+; 8 [[Skyrim:Cabbage|Cabbage]]
+; 6 [[Skyrim:Leek|Leek]]
+; 6 [[Skyrim:Potato|Potato]]
+|
+; 3 [[Skyrim:Thistle|Thistles]]
+|}
+
+=== Sleeping Giant Inn ===
+[[File:SR-interior-Sleeping Giant Inn Common Room.jpg|right|thumb|Sven performs before an audience]]It is a typical Nord inn, with a fire pit down the middle of the common room. The L-shaped counter is at the northeast end, with five long wooden tables along the northwest and southeast walls. There are three doorways leading to bedrooms, two on the northwest side and a larger one on the southeast side. Against the northeast wall is a large vat, several food barrels, a pile of firewood and a set of shelves that hold three bottles of [[Skyrim:Alto Wine|alto wine]] and five bottles of [[Skyrim:Wine|wine]], with racks hanging from the ceiling in front of them. These hold ten [[Skyrim:Rabbit (dead)|rabbits]] and six [[Skyrim:Pheasant|pheasants]], also hanging from the ceiling are two [[Skyrim:Garlic|garlic]] braids, a bunch of dried [[Skyrim:Frost Mirriam|frost mirriam]] and a bunch of dried [[Skyrim:Elves Ear|elves ear]]. On the counter are several pieces of cheese, a [[Skyrim:Salmon Steak|salmon steak]], a bottle of alto wine and a bottle of wine. Under the counter and on the floor beside it is a copy of ''[[Skyrim:There Be Dragons|There Be Dragons]]'', a small [[Skyrim:Coin Purse|coin purse]], five loose [[Skyrim:Gold|septims]], an [[Skyrim:Iron War Axe|iron war axe]], five more bottles of alto wine and three more bottles of wine.
+
+To the left of the doorway into the larger bedroom is a set of shelves holding several loaves of [[Skyrim:Bread|bread]], two bottles of alto wine, six bottles of wine, while to the right is an [[Skyrim:Alchemy Lab|alchemy lab]] built into a table. The long wooden tables against the walls typically hold bread and a selection of wine and alto wine. However, the table in the western corner of the room also holds a selection of cheeses and two salmon steaks.
+
+The two smaller bedrooms are opposite the larger bedroom. The left-hand bedroom is the room you will be shown to if renting a room for the night and contains a single owned bed in the western corner with an unlocked [[Skyrim:Chest|chest]] and wardrobe at the foot of the bed and a small round wooden table and chair beside the bed. On top of the wardrobe is a copy of ''[[Skyrim:The Great War|The Great War]]''. On the table is a bottle of [[Skyrim:Black-Briar Mead|Black-Briar mead]]. The right-hand bedroom contains a single owned bed in the eastern corner, with an unlocked chest and dresser at the foot of the bed and a small round wooden table and chair beside it. Both of these chests contain only minor loot.
+
+The larger bedroom is [[Skyrim:Delphine|Delphine]]'s room. It contains a single owned bed coming out from the southeast wall, opposite the door with small bedside tables on either side and a narrow table farther to the right with a small coin purse, five bottles of alto wine, and a copy of ''[[Skyrim:Fall from Glory|Fall from Glory]]'' on top. Against the southwest wall is a wardrobe and a long wooden table and chair. On the table are four bottles of wine, an [[Skyrim:Iron Dagger|iron dagger]], several [[Skyrim:Red Apple|red]] and [[Skyrim:Green Apple|green apples]], a couple loaves of bread, a medium coin purse, and four loose septims.
+
+[[File:SR-interior-Sleeping Giant Inn Secret Room.jpg|right|thumb|Delphine's secret room]]The wardrobe has a false back panel that opens to reveal a flight of stairs leading down to a secret room containing a central table with a [[Skyrim:Map of Dragon Burials|map of dragon burials]] taken from the [[Skyrim:Dragonstone|dragonstone]] you recovered for [[Skyrim:Farengar Secret-Fire|Farengar Secret-Fire]] from [[Skyrim:Bleak Falls Barrow (place)|Bleak Falls Barrow]] and a copy of ''[[Skyrim:The Book of the Dragonborn|The Book of the Dragonborn]]'' on top. (The room is revealed to you during the quest [[Skyrim:A Blade in the Dark|A Blade in the Dark]]). In the western corner is an alchemy lab with a [[Skyrim:Potion of Stamina|potion of stamina]] and a [[Skyrim:Potion of the Defender|potion of the defender]] on top and a set of shelves to the left. These hold two [[Skyrim:Ice Wraith Teeth|ice wraith teeth]], a [[Skyrim:Salt Pile|salt pile]], a [[Skyrim:Nordic Barnacle|Nordic barnacle]], five [[Skyrim:Slaughterfish Egg|slaughterfish eggs]], a [[Skyrim:Taproot|taproot]], two bunches of [[Skyrim:Tundra Cotton|tundra cotton]], a [[Skyrim:Potion of Destruction|potion of destruction]], a [[Skyrim:Potion of the Warrior|potion of the warrior]], a potion of stamina, a [[Skyrim:Potion of Minor Magicka|potion of minor magicka]], a [[Skyrim:Potion of Resist Fire|potion of resist fire]], a [[Skyrim:Potion of Minor Healing|potion of minor healing]], a [[Skyrim:Draught of Health|draught of health]] and a [[Skyrim:Potion of Health|potion of health]]. To the left of the shelves is a barrel containing [[Skyrim:Ingredients|ingredients]], with a bunch of [[Skyrim:Lavender|lavender]], a bowl of [[Skyrim:Glow Dust|glow dust]], and a [[Skyrim:Giant's Toe|giant's toe]] on top.
+
+Against the northwest wall are six weapon racks holding a [[Skyrim:Blades Sword|Blades sword]] and several [[Skyrim:Iron Weapons|iron]] and [[Skyrim:Steel Weapons|steel weapons]]. Underneath is a quiver of [[Skyrim:Steel Arrow|steel arrows]] and an unlocked chest. There is an [[Skyrim:Arcane Enchanter|arcane enchanter]] against the northeast wall, while in the eastern corner is a low table and chair with a [[Skyrim:Steel Dagger|steel dagger]], a copy of ''[[Skyrim:The Rise and Fall of the Blades|The Rise and Fall of the Blades]]'', a large coin purse, and four loose septims on the table. There are food sacks to the right, and an unlocked chest farther to the right. Finally, in the southern corner is a practice dummy in front of a couple straw bales.
+
+Delphine uses the inn as a small safehouse and base of operations until the quest [[Skyrim:Alduin's Wall|Alduin's Wall]], at which point she gives the inn to [[Skyrim:Orgnar|Orgnar]].
+
+==Standard Merchandise==
+This is the merchandise found in the inn's [[Skyrim:Merchant Chest|merchant chest]]. These items are only available if purchased from the merchant; they cannot be [[Skyrim:Pickpocket|pickpocketed]] or stolen.  They are restocked every two days.
+{| class="wikitable"
+! Count !! Item !! Details
+|-
+| 3 || [[Skyrim:Blisterwort|Blisterwort]] || 
+|-
+| ~5 || Common [[Skyrim:Ingredients|Ingredients]] || Max 6 (6@75%)
+|-
+| 1 || Common [[Skyrim:Recipes|Recipes]] || 
+|-
+| 4 || [[Skyrim:Honningbrew Mead|Honningbrew Meads]] || 
+|-
+| 7 || Random [[Skyrim:Food#Beverages|drinks]] || 
+|-
+| 10 || Random inn [[Skyrim:Food|Food]] || 
+|-
+| ~1 || Poison [[Skyrim:Recipes|Recipes]] || Max 1 (1@50%)
+|-
+| ~2 || Rare Ingredients || Max 2 (2@75%)
+|-
+| 1 || [[Skyrim:Salt Pile|Salt Pile]] || 
+|-
+| ~3 || Uncommon Ingredients || Max 4 (4@75%)
+|-
+| 3 || [[Skyrim:Wheat|Wheat]] || 
+|}
+
+== Notes ==
+* [[Skyrim:Sven|Sven]], unlike most [[Skyrim:Bard|Bards]] in [[Lore:Skyrim|Skyrim]] does not live at the inn, preferring to live with his mother at the other end of town.
+* All barrels can be searched freely once either [[Skyrim:Alvor|Alvor]] or [[Skyrim:Gerdur|Gerdur]] are spoken to during [[Skyrim:Before the Storm|Before the Storm]].
+* All low-value and medium-value items in the Inn can be freely taken after stage 10 of the quest [[Skyrim:A Blade in the Dark|A Blade in the Dark]] has been completed. This includes the items in Delphine's secret basement room.
+* Several [[Skyrim:Containers|containers]] in Sleeping Giant Inn are [[Skyrim:Containers#Safe Containers|safe]] for long-term storage, in particular, several containers in Delphine's secret basement room that become available once A Blade in the Dark has been completed. All of the containers in the basement room ''except'' the barrel are safe for storage—namely two chests and three sacks. Therefore, the chest where your equipment is placed during [[Skyrim:Diplomatic Immunity|Diplomatic Immunity]] is safe.
+* The bed in the right guest room is no longer owned after completing stage 10 of A Blade in the Dark.
+* Even if Delphine gives up ownership to [[Skyrim:Orgnar|Orgnar]], her bed cannot be slept on.
+* Some items placed inside the barrel next to the door to Delphine's room will be marked as owned, but will not be considered stolen if removed from the barrel.
+*There is a failsafe built into the game, where, if your current character location cannot be loaded, your character will instead spawn in front of the bar in the Sleeping Giant Inn.

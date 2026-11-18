@@ -1,1 +1,558 @@
-ERR HTTP Error 404: Not Found
+{{Faction Header}}
+== Babette's Bed Ownership ==
+{{Factions
+|edid=DBSancBabetteBedFaction
+|formid=000FFD65
+|combat={{Factions/Combat
+  |[[Skyrim:DBSancBabetteBedFaction|Babette's Bed Ownership]]|Ally}}
+|members={{Factions/Members
+  |members={{List|sep=,&#32;
+    |[[Skyrim:Babette|Babette]]}}}}}}
+
+== Babette's Dark Brotherhood Services ==
+{{Factions
+|edid=ServicesDBBabette
+|formid=000ABD9C
+|members={{Factions/Members
+  |members={{List|sep=,&#32;
+    |[[Skyrim:Babette|Babette]]}}}}}}
+
+== Bandit Ally Faction ==
+{{Factions
+|edid=BanditAllyFaction
+|formid=000E0CD9
+|combat={{Factions/Combat
+  |[[Skyrim:BanditAllyFaction|Bandit Ally Faction]]|Ally
+  |[[Skyrim:BanditFaction|BanditFaction]]|Ally
+  |[[Skyrim:CaptiveFaction|NPCs Captured by Bandits]]|Friend
+  |[[Skyrim:dunLinweFaction|dunLinweFaction]]|Ally
+  |[[Skyrim:dunRobbersGorgeBanditFaction|Robber's Gorge Bandit Faction]]|Ally}}
+|members={{Factions/Members
+  |members={{List|sep=,&#32;
+    |[[Skyrim:Arvel the Swift|Arvel the Swift]]
+    |dunSummonedCreature
+    |[[Skyrim:Maluril|Maluril]]}}}}}}
+
+== {{Anchor|DLC2BanditDialogueFaction}}{{DB}} ==
+{{Factions
+|edid=DLC2BanditDialogueFaction
+|formid=xx024CAB
+|members={{Factions/Members
+  |members={{List|sep=,&#32;
+    |[[Skyrim:Reaver|Reaver]]
+    |[[Skyrim:Reaver Highwayman|Reaver Highwayman]]
+    |[[Skyrim:Reaver Lord|Reaver Lord]]
+    |[[Skyrim:Reaver Marauder|Reaver Marauder]]
+    |[[Skyrim:Reaver Outlaw|Reaver Outlaw]]
+    |[[Skyrim:Reaver Plunderer|Reaver Plunderer]]
+    |[[Skyrim:Reaver Thug|Reaver Thug]]
+    |[[Skyrim:Saden|Saden]]
+    |[[Skyrim:Treasure Hunter (dead)#Dragonborn|Treasure Hunter]]}}}}}}
+
+== BanditFaction ==
+{{Factions
+|edid=BanditFaction
+|formid=0001BCC0
+|combat={{Factions/Combat
+  |[[Skyrim:BanditAllyFaction|Bandit Ally Faction]]|Ally
+  |[[Skyrim:BanditFaction|BanditFaction]]|Ally
+  |[[Skyrim:BanditFriendFaction|BanditFriendFaction]]|Friend
+  |[[Skyrim:CaptiveFaction|NPCs Captured by Bandits]]|Friend
+  |[[Skyrim:dunFrostmereCryptEisaFaction|dunFrostmereCryptEisaFaction]]|Enemy
+  |[[Skyrim:dunIcerunnerBanditFaction|Markarth Wizards' Quarters Guards]]|Ally
+  |[[Skyrim:dunLinweFaction|dunLinweFaction]]|Ally
+  |[[Skyrim:dunLostKnifeCatFaction|dunLostKnifeCatFaction]]|Friend
+  |[[Skyrim:Prisoners Faction|Prisoners Faction]]|Friend
+  |[[Skyrim:dunValtheimKeepBanditFaction|dunValtheimKeepBanditFaction]]|Ally
+  |[[Skyrim:dunWhiteRiverWatchWolfFaction|White River Prisoner Faction]]|Enemy
+  |[[Skyrim:KhajiitCaravanFaction|KhajiitCaravanFaction]]|Friend
+  |[[Skyrim:MS07BanditSiblings|Broken Oar Bandits]]|Ally
+  |[[Skyrim:SkeeverFaction|Skeever Faction]]|Neutral
+  |[[Skyrim:TG04BrinewaterGrottoFaction|Brinewater Faction]]|Friend}}
+|members={{Factions/Members
+  |members={{List|sep=,&#32;
+    |[[Skyrim:Adventurer|Adventurer]]
+    |[[Skyrim:Agrius|Agrius]]
+    |[[Skyrim:Ari|Ari]]
+    |[[Skyrim:Bandit|Bandit]]
+    |[[Skyrim:Bandit Chief|Bandit Chief]]
+    |[[Skyrim:Bandit Highwayman|Bandit Highwayman]]
+    |[[Skyrim:Bandit Marauder|Bandit Marauder]]
+    |[[Skyrim:Bandit Outlaw|Bandit Outlaw]]
+    |[[Skyrim:Bandit Plunderer|Bandit Plunderer]]
+    |[[Skyrim:Bandit Thug|Bandit Thug]]
+    |[[Skyrim:Black-Briar Mercenary|Black-Briar Mercenary]]
+    |Castor the Puzzlemaker's Corpse
+    |[[Skyrim:Dark Brotherhood Assassin|Dark Brotherhood Assassin]]
+    |[[Skyrim:Dog|Dog]]
+    |dunRobbersGorge_LvlBanditGuard
+    |dunRobbersGorge_LvlBanditMeleeAny
+    |dunRobbersGorge_LvlBanditMeleeBerserker
+    |dunRobbersGorge_LvlBanditMeleeTank
+    |dunRobbersGorge_LvlBanditMissile
+    |dunRobbersGorge_LvlBanditSentry
+    |dunRobbersGorge_LvlBanditWizard
+    |[[Skyrim:Frofnir Trollsbane|Frofnir Trollsbane]]
+    |[[Skyrim:Ghost|Ghost]]
+    |[[Skyrim:Haknir Death-Brand|Haknir Death-Brand]]
+    |[[Skyrim:Haknir's Crew|Haknir's Crew]]
+    |[[Skyrim:Haldyn|Haldyn]]
+    |[[Skyrim:Horse|Horse]]
+    |[[Skyrim:Kyr|Kyr]]
+    |[[Skyrim:Marauder|Marauder]]
+    |[[Skyrim:Niels|Niels]]
+    |[[Skyrim:Orc Hunter|Orc Hunter]]
+    |[[Skyrim:Pit Wolf|Pit Wolf]]
+    |[[Skyrim:Prisoner|Prisoner]]
+    |[[Skyrim:Raen|Raen]]
+    |[[Skyrim:Rahd|Rahd]]
+    |[[Skyrim:Reaver|Reaver]]
+    |[[Skyrim:Reaver Highwayman|Reaver Highwayman]]
+    |[[Skyrim:Reaver Lord|Reaver Lord]]
+    |[[Skyrim:Reaver Marauder|Reaver Marauder]]
+    |[[Skyrim:Reaver Outlaw|Reaver Outlaw]]
+    |[[Skyrim:Reaver Plunderer|Reaver Plunderer]]
+    |[[Skyrim:Reaver Thug|Reaver Thug]]
+    |[[Skyrim:Saden|Saden]]
+    |[[Skyrim:Servos Rendas|Servos Rendas]]
+    |[[Skyrim:Sild's Assistant|Sild's Assistant]]
+    |[[Skyrim:Silver Hand Warrior|Silver Hand Warrior]]
+    |[[Skyrim:Smuggler|Smuggler]]
+    |[[Skyrim:Soldier|Soldier]]
+    |[[Skyrim:Spirit of the Ancient Traveler|Spirit of the Ancient Traveler]]
+    |[[Skyrim:Summerset Shadow|Summerset Shadow]]
+    |[[Skyrim:Talvur|Talvur]]
+    |[[Skyrim:Thief (class)|Thief]]
+    |[[Skyrim:Thomas|Thomas]]
+    |[[Skyrim:Treasure Hunter (bandit)|Treasure Hunter]]
+    |[[Skyrim:Ulag|Ulag]]
+    |[[Skyrim:Ulyn|Ulyn]]
+    |[[Skyrim:Vidgrod|Vidgrod]]
+    |[[Skyrim:Wood Cutter|Wood Cutter]]}}}}}}
+
+== BanditFriendFaction ==
+{{Factions
+|edid=BanditFriendFaction
+|formid=00044EF6
+|combat={{Factions/Combat
+  |[[Skyrim:BanditFaction|BanditFaction]]|Friend
+  |[[Skyrim:CaptiveFaction|NPCs Captured by Bandits]]|Friend
+  |[[Skyrim:dunRobbersGorgeBanditFaction|Robber's Gorge Bandit Faction]]|Friend}}
+|members={{Factions/Members
+  |members={{List|sep=,&#32;
+    |[[Skyrim:Agnis|Agnis]]
+    |[[Skyrim:Alain Dufont|Alain Dufont]]
+    |[[Skyrim:Alfarinn|Alfarinn]]
+    |[[Skyrim:Bjorlam|Bjorlam]]
+    |Cart Driver
+    |[[Skyrim:Dwarven_Armored_Mudcrab_(creature)|Dwarven Armored Mudcrab]] {{CC|Dwarven Armored Mudcrab}}
+    |[[Skyrim:Engar|Engar]]
+    |Ferryman
+    |[[Skyrim:Gort|Gort]]
+    |[[Skyrim:Gunjar|Gunjar]]
+    |[[Skyrim:Harlaug|Harlaug]]
+    |[[Skyrim:Horse|Horse]]
+    |[[Skyrim:Jolf|Jolf]]
+    |[[Skyrim:Kibell|Kibell]]
+    |[[Skyrim:Markus|Markus]]
+    |[[Skyrim:Sigaar|Sigaar]]
+    |[[Skyrim:Thaer|Thaer]]}}}}}}
+
+== Bannered Mare Services ==
+=== ServicesNightGateInn ===
+{{Factions
+|edid=ServicesNightGateInn
+|formid=000DA688
+|members={{Factions/Members
+  |members={{List|sep=,&#32;
+    |[[Skyrim:Hadring|Hadring]]}}}}}}
+
+=== ServicesWhiterunBanneredMare ===
+{{Factions
+|edid=ServicesWhiterunBanneredMare
+|formid=0009CAFC
+|members={{Factions/Members
+  |members={{List|sep=,&#32;
+    |[[Skyrim:Hulda|Hulda]]
+    |[[Skyrim:Saadia|Saadia]]}}}}}}
+
+== BarbasFaction ==
+{{Factions
+|edid=DA03BarbasFaction
+|formid=0001C4ED
+|ranklist={{Factions/RankList
+  |0|Barbas}}
+|combat={{Factions/Combat
+  |[[Skyrim:PlayerFaction|PlayerFaction]]|Ally}}
+|members={{Factions/Members
+  |members={{List|sep=,&#32;
+    |[[Skyrim:Barbas|Barbas]] (Barbas)}}}}}}
+
+== BardAudienceExcludedFaction ==
+This faction is to prevent people from dancing to a Bard's songs. This includes people who work at inns.
+
+{{Factions
+|edid=BardAudienceExcludedFaction
+|formid=0010FCB4
+|members={{Factions/Members
+  |members={{List|sep=,&#32;
+    |[[Skyrim:Gulum-Ei|Gulum-Ei]]
+    |[[Skyrim:Hreinn|Hreinn]]
+    |[[Skyrim:Hroki|Hroki]]}}}}}}
+
+== BardAudienceMarker ==
+{{Factions
+|edid=BardAudienceMarker
+|formid=00108E8D}}
+
+== BardNoRequestFaction ==
+{{Factions
+|edid=BardNoRequestFaction
+|formid=00103947}}
+
+== BardSingerFaction ==
+{{Factions
+|edid=BardSingerFaction
+|formid=000CF8F9
+|members={{Factions/Members
+  |members={{List|sep=,&#32;
+    |[[Skyrim:Ataf|Ataf]]
+    |[[Skyrim:Delacourt|Delacourt]]
+    |[[Skyrim:Jorn|Jorn]]
+    |[[Skyrim:Karita (bard)|Karita]]
+    |[[Skyrim:Lisette|Lisette]]
+    |[[Skyrim:Llewellyn the Nightingale|Llewellyn the Nightingale]]
+    |[[Skyrim:Luaffyn|Luaffyn]]
+    |[[Skyrim:Mikael|Mikael]]
+    |[[Skyrim:Ogmund|Ogmund]]
+    |[[Skyrim:Oriella|Oriella]]
+    |[[Skyrim:Pantea Ateia|Pantea Ateia]]
+    |[[Skyrim:Sonir|Sonir]]
+    |[[Skyrim:Talsgar the Wanderer|Talsgar the Wanderer]]}}
+  |potential={{List|sep=,&#32;
+    |[[Skyrim:Sven|Sven]]}}}}}}
+
+== BardSingerInstrumentalOnlyFaction ==
+{{Factions
+|edid=BardSingerInstrumentalOnlyFaction
+|formid=000F6F87
+|members={{Factions/Members
+  |members={{List|sep=,&#32;
+    |[[Skyrim:Lurbuk|Lurbuk]]}}}}}}
+
+== BardSingerNoAutostart ==
+{{Factions
+|edid=BardSingerNoAutostart
+|formid=000163FA
+|members={{Factions/Members
+  |members={{List|sep=,&#32;
+    |[[Skyrim:Jorn|Jorn]]
+    |[[Skyrim:Karita (bard)|Karita]]}}}}}}
+
+== Barleydark Farm Faction ==
+{{Factions
+|edid=TownBarleydarkFarmFaction
+|formid=0003874C
+|members={{Factions/Members
+  |members={{List|sep=,&#32;
+    |[[Skyrim:Mithorpa Nasyal|Mithorpa Nasyal]]}}}}}}
+
+== Bear Faction ==
+{{Factions
+|edid=BearFaction
+|formid=000FBBF3
+|combat={{Factions/Combat
+  |[[Skyrim:BearFaction|Bear Faction]]|Ally}}
+|members={{Factions/Members
+  |members={{List|sep=,&#32;
+    |[[Skyrim:Bear|Bear]]
+    |[[Skyrim:Cave Bear|Cave Bear]]
+    |[[Skyrim:Snow Bear|Snow Bear]]
+    |[[Skyrim:Ursine Guardian|Ursine Guardian]]}}}}}}
+
+== Belethor's Goods ==
+{{Factions
+|edid=ServicesWhiterunBelethorsGoods
+|formid=0009CAF5
+|members={{Factions/Members
+  |members={{List|sep=,&#32;
+    |[[Skyrim:Belethor|Belethor]]
+    |[[Skyrim:Ysolda|Ysolda]]}}}}}}
+
+== {{Anchor|Bend Will Follower Faction}}{{DB}} ==
+{{Factions
+|edid=DLC2BendWillFollowerFaction
+|formid=xx01FF1D
+|combat={{Factions/Combat
+  |Bend Will Follower Faction|Ally}}}}
+
+== {{Anchor|Benthic Lurker Faction}}{{DB}} ==
+{{Factions
+|edid=DLC2BenthicLurkerFaction
+|formid=xx02B0F2
+|combat={{Factions/Combat
+  |[[Skyrim:DLC2AshSpawnFaction|DLC2AshSpawnFaction]]|Friend
+  |[[Skyrim:Benthic Lurker Faction|Benthic Lurker Faction]]|Ally
+  |[[Skyrim:DLC2NetchFaction|DLC2NetchFaction]]|Friend}}
+|members={{Factions/Members
+  |members={{List|sep=,&#32;
+    |[[Skyrim:Lurker|Lurker]]
+    |[[Skyrim:Lurker Guardian|Lurker Guardian]]
+    |[[Skyrim:Lurker Sentinel|Lurker Sentinel]]
+    |[[Skyrim:Lurker Vindicator|Lurker Vindicator]]}}}}}}
+
+== DLC1_BF_BossFightFaction ==
+{{Factions
+|edid=DLC1_BF_BossFightFaction
+|formid=xx013814
+|combat={{Factions/Combat
+  |DLC1_BF_BossFightFaction|Ally}}
+|members={{Factions/Members
+  |members={{List|sep=,&#32;
+    |[[Skyrim:Ancient Frost Atronach|Ancient Frost Atronach]]
+    |[[Skyrim:Frozen Falmer Shaman|Frozen Falmer Shaman]]
+    |[[Skyrim:Frozen Vampire Falmer|Frozen Vampire Falmer]]}}}}}}
+
+== Birna Services ==
+{{Factions
+|edid=ServicesWinterholdBirna
+|formid=0009DA62
+|members={{Factions/Members
+  |members={{List|sep=,&#32;
+    |[[Skyrim:Birna|Birna]]}}}}}}
+
+== Bits and Pieces ==
+{{Factions
+|edid=ServicesSolitudeBitsAndPieces
+|formid=000A6C02
+|members={{Factions/Members
+  |members={{List|sep=,&#32;
+    |[[Skyrim:Sayma|Sayma]]}}}}}}
+
+== {{Anchor|Black Book Reward 3 Exclude}}{{DB}} ==
+{{Factions
+|edid=DLC2BBReward3Exclude
+|formid=xx0279EB}}
+
+== Black Briar Meadery Faction ==
+{{Factions
+|edid=RiftenBlackBriarMeaderyFaction
+|formid=00016C2F
+|members={{Factions/Members
+  |members={{List|sep=,&#32;
+    |[[Skyrim:Asgeir Snow-Shod|Asgeir Snow-Shod]]
+    |[[Skyrim:Hemming Black-Briar|Hemming Black-Briar]]
+    |[[Skyrim:Indaryn|Indaryn]]
+    |[[Skyrim:Niluva Hlaalu|Niluva Hlaalu]]
+    |[[Skyrim:Romlyn Dreth|Romlyn Dreth]]
+    |[[Skyrim:Ungrien|Ungrien]]
+    |[[Skyrim:Valindor|Valindor]]}}}}}}
+
+== Blades ==
+{{Factions
+|edid=BladesFaction
+|formid=00072834
+|combat={{Factions/Combat
+  |[[Skyrim:BladesFaction|Blades]]|Ally}}
+|members={{Factions/Members
+  |members={{List|sep=,&#32;
+    |[[Skyrim:Delphine|Delphine]]}}
+  |potential={{List|sep=,&#32;
+    |[[Skyrim:Esbern|Esbern]]}}}}}}
+
+== BladesRecruitsFaction ==
+{{Factions
+|edid=BladesRecruitsFaction
+|formid=000E652D
+|combat={{Factions/Combat
+  |[[Skyrim:DragonFaction|Dragon Faction]]|Enemy}}}}
+
+== Block Trainer ==
+{{Factions
+|edid=JobTrainerBlockFaction
+|formid=000E3A4F
+|members={{Factions/Members
+  |members={{List|sep=,&#32;
+    |[[Skyrim:Chief Larak|Chief Larak]]
+    |[[Skyrim:Njada Stonearm|Njada Stonearm]]}}}}}}
+
+== Blood-Kin of the Orcs ==
+{{Factions
+|edid=OrcFriendFaction
+|formid=00024029
+|ranklist={{Factions/RankList
+  |0|Blood-Brother / Blood-Sister}}
+|combat={{Factions/Combat
+  |[[Skyrim:Prisoners Faction|Prisoners Faction]]|Friend
+  |[[Skyrim:FarmAnimalsFaction|FarmAnimalsFaction]]|Friend
+  |[[Skyrim:OrcFriendFaction|Blood-Kin of the Orcs]]|Neutral}}
+|members={{Factions/Members
+  |members={{List|sep=,&#32;
+    |[[Skyrim:Alik'r Mercenary|Alik'r Mercenary]]{{CC|Lord's Mail}} (Blood-Brother)
+    |[[Skyrim:Alfarinn|Alfarinn]] (Blood-Brother)
+    |[[Skyrim:Arob|Arob]] (Blood-Sister)
+    |[[Skyrim:Atub|Atub]] (Blood-Sister)
+    |[[Skyrim:Bagrak|Bagrak]] (Blood-Sister)
+    |[[Skyrim:Bjorlam|Bjorlam]] (Blood-Brother)
+    |[[Skyrim:Bolar|Bolar]] (Blood-Sister)
+    |[[Skyrim:Bone Wolf (creature)|Bone Wolf]]{{CC|Bone Wolf}}
+    |[[Skyrim:Bor|Bor]] (Blood-Sister)
+    |[[Skyrim:Borgakh the Steel Heart|Borgakh the Steel Heart]] (Blood-Sister)
+    |Cart Driver (Blood-Brother)
+    |[[Skyrim:Chief Burguk|Chief Burguk]] (Blood-Brother)
+    |[[Skyrim:Chief Larak|Chief Larak]] (Blood-Brother)
+    |[[Skyrim:Chief Mauhulakh|Chief Mauhulakh]] (Blood-Brother)
+    |[[Skyrim:Chief Yamarz|Chief Yamarz]] (Blood-Brother)
+    |[[Skyrim:Dulug|Dulug]] (Blood-Sister)
+    |[[Skyrim:Dushnamub|Dushnamub]] (Blood-Brother)
+    |[[Skyrim:Dwarven Armored Mudcrab (creature)|Dwarven Armored Mudcrab]]{{CC|Dwarven Armored Mudcrab}}
+    |[[Skyrim:Dwarven Horse|Dwarven Horse]]{{CC|Forgotten Seasons}}
+    |[[Skyrim:Engar|Engar]] (Blood-Brother)
+    |Ferryman (Blood-Brother)
+    |[[Skyrim:Gadba gro-Largash|Gadba gro-Largash]] (Blood-Brother)
+    |[[Skyrim:Garakh|Garakh]] (Blood-Sister)
+    |[[Skyrim:Ghak|Ghak]] (Blood-Sister)
+    |[[Skyrim:Ghamorz|Ghamorz]] (Blood-Brother)
+    |[[Skyrim:Gharol|Gharol]] (Blood-Sister)
+    |[[Skyrim:Ghorbash the Iron Hand|Ghorbash the Iron Hand]] (Blood-Brother)
+    |[[Skyrim:Gort|Gort]] (Blood-Brother)
+    |[[Skyrim:Gul|Gul]] (Blood-Sister)
+    |[[Skyrim:Gularzob|Gularzob]] (Blood-Brother)
+    |[[Skyrim:Gunjar|Gunjar]]{{HF}} (Blood-Brother)
+    |[[Skyrim:Harlaug|Harlaug]] (Blood-Brother)
+    |[[Skyrim:Horse|Horse]] (Blood-Brother)
+    |[[Skyrim:Jolf|Jolf]] (Blood-Brother)
+    |[[Skyrim:Kibell|Kibell]] (Blood-Brother)
+    |[[Skyrim:Lob|Lob]] (Blood-Brother)
+    |[[Skyrim:Mahk|Mahk]] (Blood-Brother)
+    |[[Skyrim:Majid the Mad|Majid the Mad]]{{CC|Lord's Mail}} (Blood-Brother)
+    |[[Skyrim:Markus|Markus]] (Blood-Brother)
+    |[[Skyrim:Mogdurz|Mogdurz]] (Blood-Sister)
+    |[[Skyrim:Mul gro-Largash|Mul gro-Largash]] (Blood-Brother)
+    |[[Skyrim:Murbul|Murbul]] (Blood-Sister)
+    |[[Skyrim:Nagrub|Nagrub]] (Blood-Brother)
+    |[[Skyrim:Nix-Hound (creature)|Nix-Hound|Nix-Hound]]{{CC|Nix-Hound}}
+    |[[Skyrim:Oglub|Oglub]] (Blood-Brother)
+    |[[Skyrim:Ogol|Ogol]] (Blood-Brother)
+    |[[Skyrim:Olur|Olur]] (Blood-Brother)
+    |[[Skyrim:Orc|Orc]] (Blood-Brother)
+    |[[Skyrim:Orc Hunter|Orc Hunter]] (Blood-Brother)
+    |[[Skyrim:Sharamph|Sharamph]] (Blood-Sister)
+    |[[Skyrim:Shel|Shel]] (Blood-Sister)
+    |[[Skyrim:Shuftharz|Shuftharz]] (Blood-Sister)
+    |[[Skyrim:Sigaar|Sigaar]] (Blood-Brother)
+    |[[Skyrim:Sweet Roll (creature)|Sweet Roll]]{{CC|Pets of Skyrim}}
+    |[[Skyrim:Thaer|Thaer]] (Blood-Brother)
+    |[[Skyrim:Thistle (creature)|Thistle]]{{CC|Pets of Skyrim}}
+    |[[Skyrim:Uglarz|Uglarz]] (Blood-Sister)
+    |[[Skyrim:Ugor|Ugor]] (Blood-Sister)
+    |[[Skyrim:Umurn|Umurn]] (Blood-Brother)
+    |[[Skyrim:Urog|Urog]] (Blood-Sister)
+    |[[Skyrim:Yag gra-Gortwog|Yag gra-Gortwog]] (Blood-Sister)
+    |[[Skyrim:Yatul|Yatul]] (Blood-Sister)}}}}}}
+
+== Blue Palace Guard for DA02 ==
+{{Factions
+|edid=DA02GuardFaction
+|formid=000B18E2
+|combat={{Factions/Combat
+  |[[Skyrim:DA02EscortedFaction|Player is being escorted by a friend]]|Ally
+  |[[Skyrim:DA02GuardFaction|Blue Palace Guard for DA02]]|Ally}}
+|members={{Factions/Members
+  |members={{List|sep=,&#32;
+    |[[Skyrim:Solitude Guard|Solitude Guard]]
+    |[[Skyrim:Stormcloak Soldier|Stormcloak Soldier]]}}}}}}
+
+== Bolar Services ==
+{{Factions
+|edid=ServicesNarzulburBolar
+|formid=000B3FDF
+|members={{Factions/Members
+  |members={{List|sep=,&#32;
+    |[[Skyrim:Bolar|Bolar]]}}}}}}
+
+== {{Anchor|DLC2Book01Seeker1stFloorFaction}}{{DB}} ==
+{{Factions
+|edid=DLC2Book01Seeker1stFloorFaction
+|formid=xx0339CB
+|combat={{Factions/Combat
+  |DLC2Book01Seeker1stFloorFaction|Ally}}}}
+
+== {{Anchor|DLC2Book01Seeker2ndFloorFaction}}{{DB}} ==
+{{Factions
+|edid=DLC2Book01Seeker2ndFloorFaction
+|formid=xx0339CC
+|combat={{Factions/Combat
+  |DLC2Book01Seeker2ndFloorFaction|Ally}}}}
+
+== {{Anchor|DLC2Book01Seeker3rdFloorFaction}}{{DB}} ==
+{{Factions
+|edid=DLC2Book01Seeker3rdFloorFaction
+|formid=xx0339CD
+|combat={{Factions/Combat
+  |DLC2Book01Seeker3rdFloorFaction|Ally}}}}
+
+== {{Anchor|DLC2BookReadingCommentFaction}}{{DB}} ==
+{{Factions
+|edid=DLC2BookReadingCommentFaction
+|formid=xx0398E9}}
+
+== Bounty Collector ==
+{{Factions
+|edid=WEBountyCollectorFaction
+|formid=000F812B
+|combat={{Factions/Combat
+  |[[Skyrim:WEBountyCollectorFaction|Bounty Collector]]|Ally}}}}
+
+== Bounty Hunter ==
+{{Factions
+|edid=WEBountyHunter
+|formid=000BC09E
+|combat={{Factions/Combat
+  |[[Skyrim:WEBountyHunter|Bounty Hunter]]|Ally}}
+|members={{Factions/Members
+  |members={{List|sep=,&#32;
+    |[[Skyrim:Bounty Collector|Bounty Collector]]
+    |[[Skyrim:Bounty Hunter|Bounty Hunter]]}}}}}}
+
+== Braidwood Inn Services ==
+{{Factions
+|edid=ServicesKynesgroveBraidwoodInn
+|formid=000A3F27
+|members={{Factions/Members
+  |members={{List|sep=,&#32;
+    |[[Skyrim:Iddra|Iddra]]
+    |[[Skyrim:Kjeld|Kjeld]]}}}}}}
+
+== Brandy Mug Farm Faction ==
+{{Factions
+|edid=BrandyMugFarmFaction
+|formid=00105A5D
+|members={{Factions/Members
+  |members={{List|sep=,&#32;
+    |[[Skyrim:Bolfrida Brandy-Mug|Bolfrida Brandy-Mug]]
+    |[[Skyrim:Faryl Atheron|Faryl Atheron]]}}}}}}
+
+== Brinewater Faction ==
+{{Factions
+|edid=TG04BrinewaterGrottoFaction
+|formid=00018C14
+|combat={{Factions/Combat
+  |[[Skyrim:BanditFaction|BanditFaction]]|Friend}}
+|members={{Factions/Members
+  |members={{List|sep=,&#32;
+    |[[Skyrim:Gulum-Ei|Gulum-Ei]]}}}}}}
+
+== Broken Oar Bandits ==
+{{Factions
+|edid=MS07BanditSiblings
+|formid=00025F95
+|combat={{Factions/Combat
+  |[[Skyrim:BanditFaction|BanditFaction]]|Ally
+  |[[Skyrim:MS07BanditFaction|MS07BanditFaction]]|Ally
+  |[[Skyrim:PlayerFaction|PlayerFaction]]|Neutral}}
+|members={{Factions/Members
+  |members={{List|sep=,&#32;
+    |[[Skyrim:Deeja|Deeja]]
+    |[[Skyrim:Jaree-Ra|Jaree-Ra]]
+    |MS07Bandit01Melee1H}}}}}}

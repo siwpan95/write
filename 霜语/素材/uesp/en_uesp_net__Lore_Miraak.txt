@@ -1,0 +1,74 @@
+<noinclude>{{Lore People Summary
+|race=[[Lore:Nord|Proto-Nord]]{{Intnote|race}}
+|racecat=Nord
+|gender=Male
+|title=First Servant
+|birth=Merethic Era
+|death=4E 201
+|deathLoc=Apocrypha
+|loc=Solstheim
+|loc2=Apocrypha
+|reignStart=Merethic Era
+|reignEnd=
+|appears=[[Skyrim:Miraak (person)|Dragonborn]], {{Card|Miraak, Dragonborn|Legends}}
+|image=SR-concept-Dragonborn Miraak.jpg
+|imgdesc=
+}}[[Category:Lore-People-Atmoran]][[Category:Lore-People-Dragonborn]]
+{{Quote Box|style=float:none; max-width:none|''Here in his shrine, that they have forgotten. Here do we toil, that we might remember. By night we reclaim, what by day was stolen. Far from ourselves, he grows ever near to us. Our eyes once were blinded, now through him do we see. Our hands once were idle, now through them does he speak. And when the world shall listen, and when the world shall see, and when the world remembers, that world will cease to be.''|Miraak's Chant{{ref|name=Dragonborn|Events of [[Skyrim:Dragonborn|''Skyrim: Dragonborn'']]}}}}</noinclude>
+[[Lore:Miraak|Miraak]] (meaning ''Allegiance Guide'' in the [[Lore:Dragon Language|dragon language]]), also known as the '''First Servant''',{{ref|[[Online:Cipher Agrushna|Cipher Agrushna]]'s dialogue in [[Online:Online|ESO]]: ''[[Online:Necrom (Chapter)|Necrom]]''}} was originally a [[Lore:Dragon Priest|Dragon Priest]] in the [[Lore:Merethic Era|Merethic Era]]. He is the '''First [[Lore:Dragonborn|Dragonborn]]''';{{ref|name=Dragonborn}} although [[Lore:Alessia|St. Alessia]] is the first Dragonborn recognized by most historical records, Miraak predates her.{{ref|name=Dragonborn}}{{ref|name=TBOTD|{{Cite Book|The Book of the Dragonborn}}}} He ruled over the island of [[Lore:Solstheim|Solstheim]], where a large temple was dedicated to him.{{ref|name=Dragonborn}}<noinclude>
+
+==Biography==
+[[File:MER-art-Sahrotaar And Miraak.webp|Sahrotaar and Miraak|left|thumb|150px]][[File:LG-cardart-32.png|Cultist of Miraak|left|thumb]][[File:SR-place-Temple of Miraak.jpg|The Temple of Miraak under construction on Solstheim|right|thumb]]
+
+Miraak served as a leader of the [[Lore:Dragon Cult|Dragon Cult]]{{ref|name=Firstblade|[[ON:Firstblade Style|Firstblade Style]] bundle description in [[ESO:Online|ESO]]}} and possessed a [[Lore:Dragon Priest Masks|Dragon Priest Mask]], also called [[Lore:Dragon Priest Masks#Miraak|Miraak]], given to him by the [[Lore:Dragon|dragons]]. At some point, he sought out [[Lore:Black Books|the teachings]] of [[Lore:Hermaeus Mora|Hermaeus Mora]], the Demon of Knowledge, and became his champion. Hermaeus Mora taught him the power to bend the will of dragons.{{ref|name=Dragonborn}}{{ref|name=Mora|[[Skyrim:Hermaeus Mora|Hermaeus Mora]]'s dialogue in [[Skyrim:Dragonborn|''Skyrim: Dragonborn'']]}} Using this knowledge and his innate ability to devour the souls of dragonkind, he turned on his winged overlords and killed a great number of them.{{ref|name=Dragonborn}} Three Dragon Priests, [[Lore:Ahzidal|Ahzidal]], [[Lore:Dukaan (creature)|Dukaan]], and [[Lore:Zahkriisos (creature)|Zahkriisos]], joined him and became his three most powerful servants, called the "Acolyte Priests".{{ref|[[Books:The_Elder_Scrolls_V:_Skyrim:_Prima_Official_Game_Guide|The Elder Scrolls V: Skyrim: Prima Official Game Guide]]}}
+
+During the [[Lore:Dragon War|Dragon War]], [[Lore:Hakon One-Eye|Hakon One-Eye]] and others sought Miraak out, desperate for a strong ally in their fight against [[Lore:Alduin|Alduin]]. Though apparently confident that he could defeat Alduin if he so chose, he refused to help, leaving mankind to their own fate.{{ref|name=Miraak|[[Skyrim:Miraak (person)|Miraak]]'s dialogue in [[Skyrim:Dragonborn|''Skyrim: Dragonborn'']]}}
+
+[[Lore:Skaal|Skaal]] legend remembers Miraak as "the Traitor", and recounts how he plotted against the dragons with Hermaeus Mora. Another Dragon Priest, [[Lore:Vahlok the Jailor|Vahlok the Jailor]] (known as "the Guardian" to the native Skaal), uncovered this deception, and the two engaged in a duel so vicious and destructive that the modern island of Solstheim was allegedly ripped from the mainland of [[Lore:Skyrim|Skyrim]].{{ref|name=TGATT|{{Cite Book|The Guardian and the Traitor}}}}{{ref|name=Tharstan|[[Skyrim:Tharstan|Tharstan]]'s dialogue in [[Skyrim:Dragonborn|''Skyrim: Dragonborn'']]}} Vahlok defeated Miraak, but just as he prepared to deliver the killing blow, Hermaeus Mora snatched away and saved his champion.{{ref|name=TGATT}}  Following this, the dragons razed his temple to ashes,{{ref|name=Frea|[[Skyrim:Frea|Frea]]'s dialogue in [[Skyrim:Dragonborn|''Skyrim: Dragonborn'']]}} <includeonly>For more information, see the [[Lore:Miraak|lore article]].</includeonly><noinclude> and tasked Vahlok the duty of watching Solstheim for signs of Miraak's return. 
+
+Miraak was not seen or heard from again for many ages;{{ref|name=TGATT}} he evidently spent all this time in [[Lore:Apocrypha|Apocrypha]], Hermaeus Mora's realm. Though he essentially became imprisoned there, Miraak spent his time gathering knowledge and power with the goal of freeing himself from Hermaeus Mora's service.{{ref|name=Miraak}}
+
+Some time during the [[Lore:Second Era|Second Era]], Miraak tricked one of Hermaeus Mora's mortal servants, a [[Lore:Ciphers of the Eye|Cipher of the Eye]], to smuggle cursed scrolls into the scriptorium of Apocrypha, Quires Wind. The scrolls caused many of the Ciphers to turn into Hushed, and made the scriptorium's Daedric guardians go mad and feral.{{ref|name=CSA|{{Cite Book|Cipher Sabinius's Apology|ns_base=ESO}}}}
+
+It wasn't until {{Year|4E 201}} that Miraak was able to use arcane [[Lore:Magic|magical]] powers to overtly influence the people of Solstheim, making them unknowingly work for him around the island, such as by rebuilding his temple, while they slept. They also worked on building arches around the [[Lore:Standing Stones|Stones of Power]] on the island, which were apparently meant to assist in his return by harnessing the energy of the stones. Others came to worship Miraak more consciously, and formed a cult dedicated to him.{{ref|name=Dragonborn}}
+
+Miraak's plan became threatened by the advent of the [[Lore:Hero|Last Dragonborn]], and cultists were sent to track down and kill this "False Dragonborn".{{ref|name=CO|{{Cite Book|Cultists' Orders|ns_base=Skyrim}}}} The Last Dragonborn responded to this antagonism by journeying to Solstheim, where the hero sought out and used the hidden knowledge of Hermaeus Mora to thwart Miraak's efforts on [[Lore:Tamriel|Tamriel]], journey into Apocrypha, and confront him in battle. When it was clear that Miraak would lose, Mora dealt him a fatal blow, killing the First Dragonborn and allowing the Last Dragonborn to claim his soul.{{ref|name=Dragonborn}}
+{{NewLeft}}
+
+==Artifacts==
+===Mask===
+[[File:SR-item-Miraak.jpg|right|thumb|Miraak's mask|150px]]
+[[File:ON-hat-Tusked Dragon Priest Mask.jpg|left|thumb|Tusked Dragon Priest Mask|150px]]
+Prior to his betrayal of his Dragon overlords, they had granted Miraak a [[Lore:Dragon Priest Masks#Miraak|mask]] that had the ability to significantly fortify the wearer's magicka. The mask bears a striking resemblence to the so-called "Tusked Dragon Priest Mask", though with the addition of tentacle-like motifs.{{Ref|name=MM|[[Skyrim:Miraak (item)|Miraak]] item appearance in ''[[Skyrim:Skyrim|Skyrim]]: [[Skyrim:Dragonborn|Dragonborn]]''}}{{Ref|name=TDPM|[[ON:Tusked Dragon Priest Mask|Tusked Dragon Priest Mask]] item description in [[Online:Online|ESO]]}}
+{{NewLine}}
+
+===Firstblade===
+[[File:SR-item-Miraak's Sword.jpg|right|thumb|Firstblade|150px]]
+{{Lore:Firstblade}}
+===Miraak's Staff===
+[[File:SR-item-Miraak's Staff.jpg|right|thumb|Miraak's Staff|150px]]
+{{Lore:Miraak's Staff}}
+{{NewLine}}
+
+==Gallery==
+<gallery>
+SR-npc-Miraak 03.jpg|Miraak in Apocrypha
+File:SR-concept-Dragonborn Miraak 02.jpg|Concept art
+File:LG-cardart-Miraak, Dragonborn.png|Legends
+File:SR-quest-At the Summit of Apocrypha 02.jpg|The death of Miraak
+File:SR-npc-Miraak 05.jpg|Miraak's skeleton after his soul was absorbed by the Last Dragonborn
+</gallery>
+
+==Notes==
+*{{LNote|race|†|The inhabitants of Skyrim during the Dragon War were variously labeled Nords{{ref|name=Paarthurnax|[[SR:Paarthurnax (dragon)|Paarthrunax]]'s dialogue in ''[[SR:Skyrim|Skyrim]]''}} and Atmorans.{{ref|name=FSL2|{{Cite Book|First Servant's Letter, Page 2|ns_base=ESO}}}} The truth may lie somewhere in-between; while the two are considered distinct races,{{ref|name=TOoC|{{Cite Book|The Origin of Cyrus!|ns_base=Books}}}} the men living in the transition period between the terms' respective usage have been considered 'proto-Nords'.{{ref|name=FC|{{Cite Book|Frontier, Conquest}}}}{{ref|name=EGTS|{{Cite Book|EGT|Skyrim}}}}{{ref|name=HighKingSunstone|[[ESO:Bleakrock Isle Antiquities#High King Sunstone|High King Sunstone]] antiquity codex entry in [[ESO:Online|ESO]]}}}}
+*By some accounts Miraak wrote a stage-play version of ''[[General:Shor Son of Shor|Shor Son of Shor]]''.{{Ref|name=MKP|group=UOL|{{Cite Book|Michael Kirkbride's Posts|ns_base=General}}}}
+
+==See Also==
+*{{GSI|Skyrim:Miraak (person)|Legends:Miraak, Dragonborn}}
+
+==References==
+<references/>{{UOL}}
+<references group=UOL/>{{Lore Antagonists}}
+<!--Interwiki links-->
+[[fr:Lore:Miraak]]
+</noinclude>

@@ -1,0 +1,95 @@
+{{NPC Summary Multi
+|image=SR-npc-Dragon Cultist.jpg
+|imgdesc=Dragon Cultist
+|{{NPC Summary
+|width=100%
+|essential=
+|loc=[[SR:Forelhost|Forelhost]]
+|race=Nord
+|gender=Male
+|class=Draugr Melee
+|faction={{Faction|DraugrFaction}}; {{Faction|dunForelhostGhostFaction}}
+|refid=
+|baseid=0007A2B1, 000CD63F, 000CD643
+|image=none
+|aggress=Unaggressive
+|moral=No Crime
+|skills='''[[Skyrim:One-handed|One-handed]]''', '''[[Skyrim:Two-handed|Two-handed]]''', [[Skyrim:Block|Block]], [[Skyrim:Heavy Armor|Heavy Armor]]
+|health={{hover|Values: 50, 150, 320, 700, 1000|50-1000}}
+|magicka={{hover|Values: 0, 10|0-10}}
+|stamina={{hover|Values: 80, 205, 340, 480, 575|80-575}}
+|level={{hover|Values: 1, 6, 13, 21, 30|Radiant (1-30)}}
+|leveled=1
+|voicetype=CrDraugrVoice
+}}{{NPC Summary
+|width=100%
+|essential=
+|loc=[[SR:Forelhost|Forelhost]]
+|race=Nord
+|gender=Male
+|class=[[Skyrim:Spellsword (class)|Spellsword]]
+|class_details=[[Skyrim:CombatSpellsword|CombatSpellsword]]
+|faction={{Faction|DraugrFaction}}; {{Faction|dunForelhostGhostFaction}}
+|refid=
+|baseid=000CD640
+|image=none
+|aggress=Unaggressive
+|moral=No Crime
+|skills='''[[Skyrim:One-handed|One-handed]]''', '''[[Skyrim:Heavy Armor|Heavy Armor]]''', '''[[Skyrim:Destruction|Destruction]]''', [[Skyrim:Restoration|Restoration]]
+|health={{hover|31⅔+level×8⅓|81-323}}
+|magicka={{hover|96⅔+level×3⅓|117-213}}
+|stamina={{hover|21⅔+level×3⅓|42-139}}
+|level=PC&times;1 (range&#061;6-35)
+|voicetype=CrDraugrVoice
+}}{{NPC Summary
+|width=100%
+|essential=
+|loc=[[SR:Forelhost|Forelhost]]
+|race=Nord
+|gender=Female
+|class=[[Skyrim:Spellsword (class)|Spellsword]]
+|class_details=[[Skyrim:CombatSpellsword|CombatSpellsword]]
+|faction={{Faction|DraugrFaction}}; {{Faction|dunForelhostGhostFaction}}
+|refid=
+|baseid=000CD642
+|image=none
+|aggress=Unaggressive
+|moral=No Crime
+|skills='''[[Skyrim:One-handed|One-handed]]''', '''[[Skyrim:Heavy Armor|Heavy Armor]]''', '''[[Skyrim:Destruction|Destruction]]''', [[Skyrim:Restoration|Restoration]]
+|health={{hover|31⅔+level×8⅓|81-323}}
+|magicka={{hover|96⅔+level×3⅓|117-213}}
+|stamina={{hover|21⅔+level×3⅓|42-139}}
+|level=PC&times;1 (range&#061;6-35)
+|voicetype=CrDraugrVoice
+}}{{NPC Summary
+|width=100%
+|essential=
+|loc=[[SR:Forelhost|Forelhost]]
+|race=Nord
+|gender=Female
+|class=Draugr Melee
+|faction={{Faction|DraugrFaction}}; {{Faction|dunForelhostGhostFaction}}
+|refid=
+|baseid=000CD644
+|image=none
+|aggress=Unaggressive
+|moral=No Crime
+|skills='''[[Skyrim:One-handed|One-handed]]''', '''[[Skyrim:Two-handed|Two-handed]]''', [[Skyrim:Block|Block]], [[Skyrim:Heavy Armor|Heavy Armor]]
+|health={{hover|Values: 50, 150, 320, 700, 1000|50-1000}}
+|magicka={{hover|Values: 0, 10|0-10}}
+|stamina={{hover|Values: 80, 205, 340, 480, 575|80-575}}
+|level={{hover|Values: 1, 6, 13, 21, 30|Radiant (1-30)}}
+|leveled=1
+|voicetype=CrDraugrVoice
+}}
+}}
+'''Dragon Cultists''' are the restless spirits of members of the ancient [[Skyrim:Dragon_Cult|Dragon Cult]] who chose to take their own lives rather than fall to King Harald's army. They only appear to attack invaders in [[Skyrim:Forelhost|Forelhost]].
+
+Dragon Cultists make use of [[Skyrim:Ancient Nord|ancient Nord]] weapons and armor, and may also carry a [[Skyrim:Dragon Priest Dagger|dragon priest dagger]]. Some Cultists are capable of using [[Skyrim:Destruction|Destruction]] magic.
+{{NewLeft}}
+
+== Related Quests ==
+* {{Quest Link|Siege on the Dragon Cult}}
+
+== Notes ==
+*Dragon Cultists make the sounds of [[Skyrim:Draugr|Draugr]], even though normally ghosts don't show that behavior.

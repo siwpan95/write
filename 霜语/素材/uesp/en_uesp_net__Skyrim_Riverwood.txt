@@ -1,0 +1,71 @@
+{{Place Summary
+|type=Town
+|marker_id=Town
+|locationcode=Riverwood
+|region=Whiterun Hold
+|location=South of [[Skyrim:Whiterun|Whiterun]]<br>East of [[Skyrim:Bleak Falls Barrow (place)|Bleak Falls Barrow]]
+|tanning=2
+|forge=1
+|grindstone=2
+|workbench=1
+|alchemy=1
+|cooking=1
+|fishing=1
+|lumber=4
+|stone=3
+|image=SR-place-Riverwood.jpg
+|imgdesc=Riverwood
+|description=a lumber milling [[Skyrim:Towns|town]] in southern [[Skyrim:Whiterun Hold|Whiterun Hold]].
+}}
+Nestled between the western slopes of the [[Skyrim:Throat of the World|Throat of the World]], and the banks of the [[Skyrim:White River|White River]], Riverwood lies just beyond the northern border of [[Skyrim:Falkreath Hold|Falkreath Hold]]. Three roads lead into it from the east, north and south, making it an easy access point from other holds. It's the town closest to where you start the game and has some basic facilities available, including a sawmill where you can earn money, a blacksmith, a general goods store in the [[Skyrim:Riverwood Trader|Riverwood Trader]], and a tavern and inn named the [[Skyrim:Sleeping Giant Inn|Sleeping Giant]].
+
+Riverwood is a good town in which to start off your character. With the options and work available, you can quickly learn many of the game's crafting features, encounter quest-giving NPCs, and earn a decent amount of coin in a short amount of time.
+
+{{NewLeft}}
+==[[Skyrim:Riverwood People|Riverwood Residents]]==
+{{Skyrim:Riverwood People}}
+
+==Related Quests==
+===Quests Starting Here===
+====[[Skyrim:Side Quests|Side Quests]]====
+* {{Quest Link|The Golden Claw}}
+====[[Skyrim:Miscellaneous Quests|Miscellaneous Quests]]====
+{{Skyrim:Miscellaneous Quests/Riverwood}}
+
+===Other Quests===
+====[[Skyrim:Main Quest|Main Quest]]====
+*{{Quest Link|Alduin's Wall}}
+*{{Quest Link|Before the Storm}}
+*{{Quest Link|A Blade in the Dark}}
+*{{Quest Link|A Cornered Rat}}
+*{{Quest Link|Diplomatic Immunity}}
+*{{Quest Link|The Horn of Jurgen Windcaller}}
+*{{Quest Link|Paarthurnax (quest)}}
+
+==Notes==
+* The initial conversation scene between [[SR:Hilde|Hilde]] and [[SR:Sven|Sven]] beginning with "A dragon! I saw a dragon!" only takes place before 8pm, 17th of Last Seed, 4E 201.
+* Across the river, directly west of the mill, is the treasure chest for [[Skyrim:Treasure Map I|Treasure Map I]], assuming you have the map.
+* Near the main bridge north of town is a salmon rack. With the [[Skyrim:Fishing|Fishing]] [[Skyrim:Creation Club|Creation]] installed, there will also be a fishing rod and a copy of ''[[Skyrim:Line and Lure|Line and Lure]]'' leaning against some [[Skyrim:Fishing Supplies|Fishing Supplies]].
+* After [[Skyrim:Before the Storm|Before the Storm]] is finished, the pile of logs outside of Riverwood will be converted into a campfire with two bed rolls and a [[Skyrim:Cooking|cooking pot]].
+* After completing [[Skyrim:A Chance Arrangement|A Chance Arrangement]], there is a 20% chance of [[Skyrim:World Interactions|encountering]] a [[Skyrim:Thief (Thieves Guild)|thief]] trying to break into Riverwood Trader.
+* Across the main bridge to Riverwood, a duplicated bird sound effect appears to be placed in one spot near a tree. On closer inspection, you'll find four red-winged blackbird models stacked on top of each other stuck inside the tree.
+* This wiki's current Skyrim satellite map displays Riverwood in its original state; the previous one displayed the campsite outside of town.
+* According to ''[[Books:The Art of Skyrim|The Art of Skyrim]]'', Riverwood was the prototype for the towns in the game, and was the first area to be fully developed.
+* Riverwood also [[Arena:Riverwood|appears]] in ''[[Arena:Arena|Arena]]''.
+
+==Bugs==
+{{Bug|Upon arriving in Riverwood with [[Skyrim:Hadvar|Hadvar]] at the start of a new game, [[Skyrim:Faendal|Faendal]] may be dead somewhere in town for no apparent reason. If this is the case, the quest [[Skyrim:A Lovely Letter|A Lovely Letter]] cannot be started, and subsequently neither Faendal nor Sven can be recruited as followers.|confirmed=1}}
+{{Bug|Residents are sometimes seen walking through the river water instead of using a closer path.|USKP|2.0.4}}
+{{Bug|If the Stormcloaks take Whiterun Hold, the Whiterun Guards in Riverwood may not be replaced by Stormcloak Soldiers.|USKP|2.0.4}}
+{{Bug|Riverwood is extremely prone to [[Skyrim:Dragon|dragon]] attacks. The corpses of these dragons have trouble "cleaning up properly", and remain in the town for excessive amounts of time. This results in bones clipping through buildings and performance drops.|OSP|1.2}}
+{{Bug|If you commit a crime in Riverwood, leave the town for over 24 in-game hours, then return, the guards will not arrest you. All of the townspeople will be hostile toward you, although killing them will not yield a higher bounty, and the guards will not attack you. Fast traveling to [[Skyrim:Whiterun|Whiterun]] and paying off the bounty or going to jail will fix the glitch.|confirmed=1}}
+
+==Gallery==
+<gallery>
+File:SR-place-Riverwood 02.jpg|Protective wall
+File:SR-place-Riverwood Fishing.jpg|Fishing supplies in Riverwood
+</gallery>
+
+{{Skyrim Settlements}}
+
+[[fr:Skyrim:Rivebois]]

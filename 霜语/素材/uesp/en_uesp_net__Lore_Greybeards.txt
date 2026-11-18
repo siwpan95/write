@@ -1,0 +1,42 @@
+<noinclude>{{Lore Factions Trail}}{{Old Lore Transclusion}}[[Category:Lore-All Terms]]
+[[File:SR-quest-The Way of the Voice2.jpg|left|thumb|High Hrothgar]][[File:SR-npc-Greybeards.jpg|thumb|right|Greybeards in High Hrothgar]]
+__NOTOC__</noinclude>
+The [[Lore:Greybeards|Greybeards]], also known as the '''Men of the Throat''',{{ref|name=7F|group=UOL|{{Cite Book|The Seven Fights of The Aldudagga|ns_base=GEN}}}} are an ancient and honored order of monks, live in silence at the ancient monastery [[Lore:High Hrothgar|High Hrothgar]] near the summit of the [[Lore:Throat of the World|Throat of the World]].{{ref|name=PGE1S|{{Cite Book|PGE|1|Skyrim}}}} They are the most famous of the Tongues, or masters of the [[Lore:Thu'um|Voice]].{{ref|name=PGE1C|{{Cite Book|PGE|1|Cyrodiil}}}} [[Lore:Jurgen Windcaller|Jurgen Windcaller]] founded the order in response to the Nord army's defeat after battling at [[Lore:Red Mountain|Red Mountain]].{{ref|name=PGE3All|{{Cite Book|PGE|3|All the Eras of Man}}}}{{ref|name=FSOKW|{{Cite Book|Five Songs of King Wulfharth}}}}{{ref|name=PKO|A [[:File:SR-misc-Wulfharth Plaque.png|stone etching]] in [[Lore:Windhelm|Windhelm]] placing the date of [[Lore:Wulfharth|Ysmir Wulfharth]]'s death in {{Year|1E 533}}}} After the battle, he meditated for approximately seven years, and arrived at the conclusion that the power of the Voice should be used primarily as a means of attaining enlightenment, rather than a tool of war.{{ref|name=SRLoading|[[Skyrim:Loading Screens|Loading screens in Skyrim]]}}{{ref|name=Hrothgar|[[Skyrim:High Hrothgar#Etched Tablets|The Etched Tablets of High Hrothgar]]}} Jurgen called his new philosophy the [[Lore:Way of the Voice|Way of the Voice]], and preached a lifestyle of meditative study of the Voice which the Greybeards carry on to this day. 
+
+Some people believe that the Greybeards are not, strictly speaking, pacifists; that the Way of the Voice teaches only that violence is the least of the Voice's uses, and it should be used for that purpose only in times of "True Need".{{ref|name=Hrothgar}}{{ref|name=Arngeir|[[Skyrim:Arngeir|Arngeir]]'s dialogue in ''[[Skyrim:Skyrim|Skyrim]]''}} The [[Lore:Dragonborn|Dragonborn]], having gained the Thu'um from Akatosh directly, is held as an exception to the Way of the Voice, though the followers of the Way are expected to remain peaceful.{{ref|name=Arngeir}} There have been times when students of the Greybeards cannot handle the demands of their lifestyle; renowned figures such as [[Lore:Dragonguard|Dragonguard]] member [[Lore:Grundwulf|Grundwulf]] and eventual Jarl [[Lore:Ulfric Stormcloak|Ulfric Stormcloak]] have either failed to develop their skills or failed to live by the ascetic lifestyle of the Way.{{Ref|name=ONChevalier|[[Online:Chevalier Renald|Chevalier Renald]]'s dialogue in [[ON:The Sanguine Successor|ESO]]}} [[Lore:Paarthurnax|Paarthurnax]], the Grandmaster of the order, made his home alone above High Hrothgar, at the summit of the Throat of the World.{{ref|name=Skyrim|Events of Skyrim}}<includeonly>
+
+{{FMI}}</includeonly><noinclude>
+{{NewLeft}}
+[[File:SR-creature-Paarthurnax.jpg|Paarthurnax, grandmaster of the order|thumb|left]]
+As implied by their title, the Greybeards are usually quite elderly,{{ref|name=FSOKW}} as it takes them years of study to harness their power, and thanks to their lifestyles, they often live to ripe old ages. They have always been a small group, consisting of only a handful of members at any given time, and they have no real place in the political structure of Skyrim. Nevertheless, they are highly respected by all Nords, and on those rare occasions when they give blessings, advice, or counsel, they need no color of law to be heeded.{{ref|name=Skyrim}} They worship the old Nordic pantheon, primarily [[Lore:Kyne|Kyne]] and [[Lore:Shor|Shor]].{{ref|name=Arngeir}} They have even commanded respect from the most jaded and misanthropic of elves.{{ref|name=PGE1S}} Joining the order required significant strength of will.{{Ref|name=HHB|[[ON:High Hrothgar Braid|High Hrothgar Braid]] description in [[Online:Online|ESO]]}}
+
+The combined voice of the Greybeards is a thing of legend. One says that their shout once blasted [[Lore:Wulfharth|Ysmir Wulfharth]] into ash.{{ref|name=TAH|{{Cite Book|The Arcturian Heresy}}}} According to another legend, [[Lore:Tiber Septim|Tiber Septim]] led the invasion of [[Lore:Old Hrol'dan|Old Hrol'dan]] and used the power of his Voice for the first time while conquering the town from the [[Lore:Reachfolk|Reachfolk]]. Storms brewed as, far away, the Greybeards prepared to speak, summoning Tiber to the mountain. As the nearby citizens evacuated, Talos approached the Greybeards' home. When the Greybeards spoke Talos' name, it is said that the world shook. They called him Ysmir, Dragon of the North, and told him that he would rule [[Lore:Tamriel|Tamriel]], but he needed to go south, to [[Lore:Cyrodiil|Cyrodiil]], to do so.{{ref|name=PGE1C}} During the [[Lore:Oblivion Crisis|Oblivion Crisis]] in {{Year|3E 433}}, the Greybeards spoke of the end times.{{Ref|name=OBGate|[[Oblivion:Generic Dialogue#Tamriel Gate Responses|Tamriel Gate Response]] rumors in ''[[Oblivion:Oblivion|Oblivion]]''}}
+
+Over six centuries after Talos, in {{Year|4E 201}}, the [[Lore:Hero#Last Dragonborn|Last Dragonborn]] used the Voice for the first time after defeating a dragon which threatened [[Lore:Whiterun|Whiterun]]. Like they had done for Talos, the Greybeards called the hero to High Hrothgar. After much instruction, testing, and guidance, they spoke together to once again formally recognize Ysmir, Dragon of the North. They continued to guide and assist the Last Dragonborn in the quest to defeat [[Lore:Alduin|Alduin]].{{ref|name=Skyrim}}
+
+Despite this intervention, they were criticized by some for not becoming more involved in Skyrim's affairs.{{ref|name=Blades|[[Skyrim:Blades|The Blades]] in ''[[Skyrim:Skyrim|Skyrim]]''}} They have been bitter enemies of the [[Lore:Blades|Blades]] since the Blades first came to Tamriel as the [[Lore:Akavir|Akavir]]i Dragonguard. The Blades despise the Greybeards for their inaction and for protecting the Blades' enemy.{{ref|name=Skyrim}}{{ref|name=AOD|{{Cite Book|Atlas of Dragons}}}} The Greybeards, for their part, distrust and fear the Blades, viewing them as genocidal meddlers, a cabal of bloodthirsty Akaviri barbarians, who have always sought to turn the Dragonborn away from the path of wisdom.{{ref|name=Arngeir}}{{ref|name=Skyrim}} The two groups vied for influence over the Last Dragonborn, but who the champion favored is unclear.{{ref|name=Skyrim}}
+
+==Gallery==
+<gallery>
+File:SR-npc-Delphine 32.jpg|The Greybeards and their bitter foes, the Blades
+File:SR-quest-The Way of the Voice.jpg|The Greybeards pass on their knowledge
+File:SR-npc-Jurgen Windcaller.jpg|Jurgen Windcaller, founder of the Greybeards
+File:LG-cardart-Greybeard Mentor.jpg|Greybeard Mentor (Legends)
+File:LG-cardart-Voice of Balance.png|Voice of Balance (Legends)
+File:LG-cardart-Studious Greybeard.jpg|Studious Greybeard (Legends)
+File:SR-place-Throat of the World.jpg|The Throat of the World, atop which the Greybeards reside
+</gallery>
+
+==Notes==
+* The Greybeards viewed the [[Lore:Elder Scrolls|Elder Scrolls]] as "blasphemies" with which followers of the Way should not concern themselves.{{ref|name=Arngeir}}
+* During the late [[Lore:Third Era|Third Era]], the Greybeards spoke of the "end of all times", possibly referencing the future events that took place during the [[Lore:Oblivion Crisis|Oblivion Crisis]] and the return of Alduin.{{ref|name=OBdia|[[Oblivion:Generic Dialogue#Tamriel Gate Responses|Generic Dialogue]] in ''[[Oblivion:Oblivion|Oblivion]]''}}
+
+==See Also==
+*{{GSI|SR:Greybeards|LG:Greybeard Mentor}}
+
+==References==
+<references/>
+{{UOL}}
+<references group=UOL/>
+{{Lore Magic Footer}}{{Lore Nord Religion}}
+{{Stub|Faction}}</noinclude>

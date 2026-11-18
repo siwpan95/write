@@ -1,0 +1,112 @@
+{{Trail|Items|Artifacts}} {{TOCright|limit=2}}
+There are a number of artifact armor that can be found throughout the game of [[Skyrim:Skyrim|Skyrim]].
+
+The definition used for artifacts on this article is that the item must meet ''all three'' of the following requirements:
+* Be unique in appearance.
+* Only appear once in the game.
+* Have a unique and useful enchantment.
+None of these artifacts can be disenchanted to learn the enchantment. Some of them may be improved by [[Skyrim:Smithing|smithing]]. The material and perk relevant to each item is given below. Improving enchanted items requires the [[Skyrim:Arcane Blacksmith|Arcane Blacksmith]] perk. However, many artifacts do not have an applicable perk that allows improvement past ''flawless'' quality without a Smithing skill of greater than 100.
+
+Many of the artifacts are of [[Lore:Daedra|Daedric]] origin. These items are formed from the essence of a [[Lore:Daedric Princes|Daedric Prince]], providing the items with their power. Nineteen ''Daedric Artifacts'' are available in the game; most are rewards for the [[Skyrim:Daedric Quests|Daedric Quests]].
+{{NewLine}}
+==Armor (Cuirasses)==
+===[[Skyrim:Ebony Mail|Ebony Mail]]===
+{{Skyrim:Ebony Mail}}{{NewLine}}
+===[[Skyrim:Savior's Hide|Savior's Hide]]===
+{{Skyrim:Savior's Hide}}{{NewLine}}
+
+==Boots==
+===[[Skyrim:Miraak's Boots|Miraak's Boots]]{{DB}}===
+{{Skyrim:Miraak's Boots}}{{NewLine}}
+
+==Gauntlets==
+===[[Skyrim:Miraak's Gloves|Miraak's Gloves]]{{DB}}===
+{{Skyrim:Miraak's Gloves}}{{NewLine}}
+
+==Helmets==
+===[[Skyrim:Masque of Clavicus Vile|Masque of Clavicus Vile]]===
+{{Skyrim:Masque of Clavicus Vile}}{{NewLine}}
+
+==Shields==
+===[[Skyrim:Aetherial Shield|Aetherial Shield]]{{DG}}===
+{{Skyrim:Aetherial Shield}}{{NewLine}}
+===[[Skyrim:Auriel's Shield|Auriel's Shield]]{{DG}}===
+{{Skyrim:Auriel's Shield}}{{NewLine}}
+===[[Skyrim:Dawnguard Rune Shield|Dawnguard Rune Shield]]{{DG}}===
+{{Skyrim:Dawnguard Rune Shield}}{{NewLine}}
+===[[Skyrim:Shield of Ysgramor|Shield of Ysgramor]]===
+{{Skyrim:Shield of Ysgramor}}{{NewLine}}
+===[[Skyrim:Spellbreaker|Spellbreaker]]===
+{{Skyrim:Spellbreaker}}{{NewLine}}
+===[[Skyrim:Targe of the Blooded|Targe of the Blooded]]===
+{{Skyrim:Targe of the Blooded}}{{NewLine}}
+
+==Dragon Priest Masks==
+===[[Skyrim:Ahzidal (item)|Ahzidal]]{{DB}}===
+{{Skyrim:Ahzidal (item)}}{{NewLine}}
+===[[Skyrim:Dukaan (item)|Dukaan]]{{DB}}===
+{{Skyrim:Dukaan (item)}}{{NewLine}}
+===[[Skyrim:Hevnoraak (item)|Hevnoraak]]===
+{{Skyrim:Hevnoraak (item)}}{{NewLine}}
+===[[Skyrim:Konahrik|Konahrik]]===
+{{Skyrim:Konahrik}}{{NewLine}}
+===[[Skyrim:Krosis (item)|Krosis]]===
+{{Skyrim:Krosis (item)}}{{NewLine}}
+===[[Skyrim:Miraak (item)|Miraak]]{{DB}}===
+{{Skyrim:Miraak (item)}}{{NewLine}}
+===[[Skyrim:Morokei (item)|Morokei]]===
+{{Skyrim:Morokei (item)}}{{NewLine}}
+===[[Skyrim:Nahkriin (item)|Nahkriin]]===
+{{Skyrim:Nahkriin (item)}}{{NewLine}}
+===[[Skyrim:Otar|Otar]]===
+{{Skyrim:Otar}}{{NewLine}}
+===[[Skyrim:Rahgot (item)|Rahgot]]===
+{{Skyrim:Rahgot (item)}}{{NewLine}}
+===[[Skyrim:Vokun (item)|Vokun]]===
+{{Skyrim:Vokun (item)}}{{NewLine}}
+===[[Skyrim:Volsung (item)|Volsung]]===
+{{Skyrim:Volsung (item)}}{{NewLine}}
+===[[Skyrim:Wooden Mask|Wooden Mask]]===
+{{Skyrim:Wooden Mask}}{{NewLine}}
+===[[Skyrim:Zahkriisos (item)|Zahkriisos]]{{DB}}===
+{{Skyrim:Zahkriisos (item)}}{{NewLine}}
+
+==Creation Club Armor (Cuirasses)==
+===[[Skyrim:Cuirass of the Crusader|Cuirass of the Crusader]]{{CC|Divine Crusader}}===
+{{Skyrim:Cuirass of the Crusader}}{{NewLine}}
+===[[Skyrim:Dragonbone Mail|Dragonbone Mail]]{{CC|Alternative Armors - Dragon Plate}}===
+{{Skyrim:Dragonbone Mail}}{{NewLine}}
+===[[Skyrim:Lord's Mail (item)|Lord's Mail]]{{CC|Lord's Mail}}===
+{{Skyrim:Lord's Mail (item)}}{{NewLine}}
+===[[Skyrim:Reforged Cuirass of the Crusader|Reforged Cuirass of the Crusader]]{{CC|Divine Crusader}}===
+{{Skyrim:Reforged Cuirass of the Crusader}}{{NewLine}}
+
+==Creation Club Boots==
+===[[Skyrim:Boots of the Crusader|Boots of the Crusader]]{{CC|Divine Crusader}}===
+{{Skyrim:Boots of the Crusader}}{{NewLine}}
+===[[Skyrim:Reforged Boots of the Crusader|Reforged Boots of the Crusader]]{{CC|Divine Crusader}}===
+{{Skyrim:Reforged Boots of the Crusader}}{{NewLine}}
+
+==Creation Club Gauntlets==
+===[[Skyrim:Fists of Randagulf|Fists of Randagulf]]{{CC|The Contest}}===
+{{Skyrim:Fists of Randagulf}}{{NewLine}}
+===[[Skyrim:Gauntlets of the Crusader|Gauntlets of the Crusader]]{{CC|Divine Crusader}}===
+{{Skyrim:Gauntlets of the Crusader}}{{NewLine}}
+===[[Skyrim:Reforged Gauntlets of the Crusader|Reforged Gauntlets of the Crusader]]{{CC|Divine Crusader}}===
+{{Skyrim:Reforged Gauntlets of the Crusader}}{{NewLine}}
+===[[Skyrim:Wraithguard|Wraithguard]]{{CC|Sunder & Wraithguard}}===
+{{Skyrim:Wraithguard}}{{NewLine}}
+
+==Creation Club Helmets==
+===[[Skyrim:Gray Cowl of Nocturnal|Gray Cowl of Nocturnal]]{{CC|The Gray Cowl Returns!}}===
+{{Skyrim:Gray Cowl of Nocturnal}}{{NewLine}}
+===[[Skyrim:Helm of the Crusader|Helm of the Crusader]]{{CC|Divine Crusader}}===
+{{Skyrim:Helm of the Crusader}}{{NewLine}}
+===[[Skyrim:Reforged Helm of the Crusader|Reforged Helm of the Crusader]]{{CC|Divine Crusader}}===
+{{Skyrim:Reforged Helm of the Crusader}}{{NewLine}}
+
+==Creation Club Shields==
+===[[Skyrim:Shield of the Crusader|Shield of the Crusader]]{{CC|Divine Crusader}}===
+{{Skyrim:Shield of the Crusader}}{{NewLine}}
+===[[Skyrim:Fastened Shield of the Crusader|Fastened Shield of the Crusader]]{{CC|Divine Crusader}}===
+{{Skyrim:Fastened Shield of the Crusader}}

@@ -1,0 +1,66 @@
+{{Mod Header|Dragonborn}}{{Place Summary
+|ns_map=Dragonborn
+|type=Landmark
+|marker_id=Landmark
+|zones=1
+|clearable=Yes
+|dungeon=Yes
+|respawn=never
+|level=Min: 10
+|occupants=[[Skyrim:Hagraven|Hagravens]]
+|locationcode=DLC2AltarOfThrondExterior01, DLC2AltarOfThrond01
+|region=Solstheim
+|location=West of the [[Skyrim:Temple of Miraak|Temple of Miraak]]<br>East-northeast of [[Skyrim:Frostmoon Crag|Frostmoon Crag]]
+|alchemy=1
+|enchanting=1
+|cooking=1
+|oretype=Silver
+|orenum=1
+|oretype2=Quicksilver
+|orenum2=2
+|oretype3=Moonstone
+|orenum3=1
+|image=SR-place-Altar of Thrond.jpg
+|imgdesc=Altar of Thrond
+|description=A [[Skyrim:Landmarks|landmark]] west of the [[Skyrim:Temple of Miraak|Temple of Miraak]] next to a small cave containing [[Skyrim:Hagraven|hagravens]].
+|addbelow=It contains only one zone, ''[[#Altar of Thrond Cave|Altar of Thrond Cave]]''.
+|addabove=The
+}}[[Category:Skyrim-Dragonborn-Places-Hagraven Nests]] [[Category:Skyrim-Dragonborn-Places-Ice Caves]]
+
+{{NewLeft}}
+==Residents==
+{{People Table|
+{{People|title=Resident Hagravens|Ettiene||Fallaise||Isobel}}
+}}
+
+==Walkthrough==
+===Exterior===
+[[File:SR-place-Altar of Thrond 02.jpg|left|thumb|Altar of Thrond]]
+The normal approach to the altar is from the southwest. Two [[Skyrim:Snowberries|snowberry]] bushes and five [[Skyrim:Blue Mountain Flower|blue mountain flowers]] are near and around the altar. There is blood splattered on the ground as you approach the altar, with a [[Skyrim:Sacrifice|sacrifice]] lying dead upon the altar.
+
+{{NewLeft}}
+===Altar of Thrond Cave===
+[[File:SR-interior-Altar of Thrond 02.jpg|right|thumb|Dead alchemist]]
+Upon entering the cave, you are in an ice tunnel heading north, with a set of [[Skyrim:Bone Chimes|bone chimes]] hanging from the ceiling in front of you, and more patches of blood on the ground. There are five more bone chimes along the tunnel. The tunnel turns to the east near a lit brazier on the ground on your left, then opens into a large cavern with three tall rock pillars. There are various ledges around the cave, and an altar in front of you with a dead [[Skyrim:Alchemist|alchemist]] laid out on top. Beside the alchemist is an [[Skyrim:Apothecary's Satchel|apothecary's satchel]] and a piece of [[Skyrim:Human Flesh|human flesh]]. Behind the altar is a barrel of meat, and farther behind is a campfire with a [[Skyrim:Cooking Pot|cooking pot]] sitting on a pile of rocks with another piece of human flesh beside it.
+
+There is an earthen ramp to the left of the fire that rises to the east and then turns south to reach a tent. It belongs to [[Skyrim:Isobel|Isobel]], one of three hagravens living here. She is found standing in front of the tent, unless she has been alerted to your presence. Inside is a bedroll, an [[Skyrim:Alchemy Lab|alchemy lab]], and two apothecary's satchels on the ground to the right of the lab. To the right of the tent, along the southern wall of the cave is a [[Skyrim:Moonstone Ore Vein|moonstone ore vein]].
+
+[[File:SR-interior-Altar of Thrond 03.jpg|left|thumb|Fallaise]]
+Heading north from the first tent, you will pass a barrel with a small [[Skyrim:Coin Purse|coin purse]] and three loose [[Skyrim:Gold|coins]] on top and a [[Skyrim:Pickaxe|pickaxe]] beside it. A second tent, [[Skyrim:Fallaise|Fallaise's]], is next. Again, unless she has been alerted to your presence, she will be found just in front of her tent. Inside is an [[Skyrim:Arcane Enchanter|arcane enchanter]], a food barrel, and an adept-locked chest. To the right of this tent is a [[Skyrim:Silver Ore Vein|silver ore vein]], and behind the vein, in the northwest corner of the cave, is a [[Skyrim:Quicksilver Ore Vein|quicksilver ore vein]].
+
+Following the path from the second tent to the east and then south, you will reach a third tent. This belongs to [[Skyrim:Ettiene|Ettiene]], who is also standing in front of the tent unless she has been alerted. Inside is a bedroll and an unlocked chest. There is a quicksilver ore vein to the left of the tent when looking at the front of the tent. Heading due north from this tent to the northeast corner of the cave, you'll find a novice-locked chest in a small raised alcove.
+
+{{NewLeft}}
+==Notes==
+* The three hagravens inhabiting the cave are the three sisters [[Bloodmoon:Ettiene of Glenmoril Wyrd|Ettiene]], [[Bloodmoon:Fallaise of Glenmoril Wyrd|Fallaise]], and [[Bloodmoon:Isobel of Glenmoril Wyrd|Isobel]] from the ''[[Bloodmoon:Bloodmoon|Bloodmoon]]'' expansion for ''[[Morrowind:Morrowind|Morrowind]]''.
+* This cave is an excellent base of operations after the hagravens have been destroyed, or calmed with magic. It does not respawn, has numerous storage containers and chests, and also has cooking, enchanting, and alchemy stations. Also, before completing the quest [[Skyrim:Dragonborn Quests#Cleansing the Stones|Cleansing the Stones]], when sleeping in the bed here, you will not be randomly teleported to one of the [[Skyrim:All-Maker Stones|All-Maker Stones]].
+* In [[Skyrim:Survival Mode|Survival Mode]], this dungeon will not warm you up, unlike most interior locations. You need to stand near the cooking fire or either of the two braziers to warm up.
+* The Altar of Thrond also [[Bloodmoon:Altar of Thrond|appears]] in ''[[Bloodmoon:Bloodmoon|Bloodmoon]]''.
+
+==Bugs==
+{{Bug|It may not be possible to mine the quicksilver ore veins, even after mining the other ore veins. The ore shows as mineable and the camera view changes properly, but nothing happens if you attempt to mine the veins, and a few moments later you will regain control of your character.|UDBP|2.0.4}}
+** You can work around this bug by equipping a pickaxe and hitting the vein manually.
+{{Bug|You may fall through the map upon entering the cave.|confirmed=1}}
+{{Bug|It may be possible to mine the quicksilver ore veins to yield three ore samples, but not be released from the mining animation even after pressing the E-key.|confirmed=1}}
+** The console command <code> pushactoraway 14 100 </code> will break the animation loop.
+** Moving backwards may also break the loop. {{vn|plain}}

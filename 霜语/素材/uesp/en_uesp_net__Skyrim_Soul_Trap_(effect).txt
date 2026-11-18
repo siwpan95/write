@@ -1,0 +1,177 @@
+{{Effect Summary
+|image=SR-icon-spell-Banish.png
+|school=Conjuration
+|type=Offensive
+|cost=15
+|id=0004dba3
+|enchid=0005b452
+|enchcost=25
+|enchitem=Weapons
+|enchsyntax=If target dies within <dur> seconds, fills a soul gem.
+|avail=[[Skyrim:Scrolls#Soul Trap|Scrolls]]<br>[[Skyrim:Spells#Soul Trap|Spells]]<br>[[Skyrim:Staves#Soul Trap|Staves]]<br>[[Skyrim:Generic Magic Weapons#Soul Trap|Weapons]]
+}}
+'''Soul Trap''' locks the [[Skyrim:Souls|soul]] of a given creature or NPC in an empty [[Skyrim:Soul Gems|soul gem]] immediately after its death.  The trapped soul can subsequently be used to create or recharge [[Skyrim:Enchanting|enchanted items]].
+
+Note that the spell doesn't automatically cause the soul to be captured. You must ensure that your victim dies before the Soul Trap effect runs out. In addition, you must also have an appropriate soul gem in which to store it. As such, weapons with soul trap can be very effective in making sure souls are captured.
+
+If you enchant a physical weapon with the effect, it is better to use the 1 sec version of it, because attacking will renew the effect, and the killing blow will fill the gem. This will result in attacks requiring less charge.
+
+===Filling Soul Gems===
+In order to capture a soul, you need a [[Skyrim:Soul Gems|Soul Gem]]. The gem size that is filled depends on what creature's soul is trapped. NPC souls can only be trapped in Black Soul Gems. Souls will always fill the smallest empty Soul Gem that can accommodate it. If no gem stones of the soul's level are available, it will look for progressively higher level gem stones until it finds an empty one to fill.
+
+Now, all that is required is to find an enemy, cast Soul Trap (or use a weapon enchanted with it), and kill the enemy before the Soul Trap effect expires. If you succeed, you will get the message "Soul trapped!". If you fail, then two possible messages will appear on the screen explaining what went wrong. If you get the message, "No soul gem large enough," then you don't have an empty soul gem big enough to hold the enemy's soul. If you get the message "<Enemy> resisted Soul Trap", then the enemy cannot be soul trapped at all. There are no partial captures; it is all or nothing.
+
+Once you use a filled Soul Gem it is gone. One notable exception to this is [[Skyrim:Azura's Star|Azura's Star]], which is the equivalent of one Grand Soul Gem but is reusable. Another exception are [[Skyrim:Flawed Varla Stone|Flawed Varla Stones]]{{CC|Rare Curios}}, which are reusable equivalents of Common Soul Gems. A third exception is the [[Skyrim:Soul Tomato|Soul Tomato]]{{CC|Saints & Seducers}}, which is a reusable equivalent of Grand Soul Gems.
+
+Azura's Star can also be turned into [[Skyrim:The Black Star|The Black Star]], if you give the broken Azura's Star to [[Skyrim:Nelacar|Nelacar]] in the [[Skyrim:The Frozen Hearth|Frozen Hearth]] inn at [[Skyrim:Winterhold|Winterhold]] instead of [[Skyrim:Aranea Ienith|Arenea Ienith]]. The Black Star acts as a Black Soul Gem that can be reused, unlike normal Black Soul Gems. According to legend, once you use a filled Black Soul Gem, the soul it contained goes to the [[Skyrim:Soul Cairn|Soul Cairn]]{{DG}}.
+
+One of the easiest methods of soul trapping in large amounts is through the [[Skyrim:Soul Stealer|Soul Stealer]] perk with any [[Skyrim:Bound Weapon|bound weapon]], as this never requires recharging and has considerable power in the early game. Mammoths provide an easy target and yield grand souls.
+
+If an empty Soul Gem (listed on the top) is available in your inventory, then the soul will fit into the smallest Gem available in the following way:
+{| class="wikitable"
+!
+! width="8%"|[[Skyrim:Petty Soul Gem|Petty Soul Gem]]
+! width="8%"|[[Skyrim:Lesser Soul Gem|Lesser Soul Gem]]
+! width="8%"|[[Skyrim:Common Soul Gem|Common Soul Gem]]
+! width="8%"|[[Skyrim:Greater Soul Gem|Greater Soul Gem]]
+! width="8%"|[[Skyrim:Grand Soul Gem|Grand Soul Gem]]
+! width="8%"|[[Skyrim:Black Soul Gem|Black Soul Gem]]
+! style="border-left-width:medium; border-left-color:black;" width="8%"|[[Skyrim:Treated Soul Gem|Treated Soul Gem]]
+! width="8%"|[[Skyrim:Flawed Varla Stone|Flawed Varla Stone]]{{CC|Rare Curios}}
+! width="8%"|[[Skyrim:Soul Tomato|Soul Tomato]]{{CC|Saints & Seducers}}
+! width="8%"|[[Skyrim:Wylandriah's Soul Gem|Wylandriah's Soul Gem]]
+! width="8%"|[[Skyrim:Azura's Star|Azura's Star]]
+! width="8%"|[[Skyrim:The Black Star (item)|The Black Star]]
+|- style="text-align: center;"
+!scope="row" style="text-align: left;"|Petty
+|{{Tick}}
+|{{Tick}}
+|{{Tick}}
+|{{Tick}}
+|{{Tick}}
+|{{Tick}}
+| style="border-left-width:medium; border-left-color:black;"|{{Tick}}
+|{{Tick}}
+|{{Tick}}
+|{{Tick}}
+|{{Tick}}
+|{{Tick}}
+|- style="text-align: center;"
+!scope="row" style="text-align: left;"|Lesser
+|{{Cross}}
+|{{Tick}}
+|{{Tick}}
+|{{Tick}}
+|{{Tick}}
+|{{Tick}}
+| style="border-left-width:medium; border-left-color:black;"|{{Tick}}
+|{{Tick}}
+|{{Tick}}
+|{{Tick}}
+|{{Tick}}
+|{{Tick}}
+|- style="text-align: center;"
+!scope="row" style="text-align: left;"|Common
+|{{Cross}}
+|{{Cross}}
+|{{Tick}}
+|{{Tick}}
+|{{Tick}}
+|{{Tick}}
+| style="border-left-width:medium; border-left-color:black;"|{{Cross}}
+|{{Tick}}
+|{{Tick}}
+|{{Tick}}
+|{{Tick}}
+|{{Tick}}
+|- style="text-align: center;"
+!scope="row" style="text-align: left;"|Greater
+|{{Cross}}
+|{{Cross}}
+|{{Cross}}
+|{{Tick}}
+|{{Tick}}
+|{{Tick}}
+| style="border-left-width:medium; border-left-color:black;"|{{Cross}}
+|{{Cross}}
+|{{Tick}}
+|{{Tick}}
+|{{Tick}}
+|{{Tick}}
+|- style="text-align: center;"
+!scope="row" style="text-align: left;"|Grand
+|{{Cross}}
+|{{Cross}}
+|{{Cross}}
+|{{Cross}}
+|{{Tick}}
+|{{Tick}}
+| style="border-left-width:medium; border-left-color:black;"|{{Cross}}
+|{{Cross}}
+|{{Tick}}
+|{{Tick}}
+|{{Tick}}
+|{{Tick}}
+|- style="text-align: center;"
+!scope="row" style="text-align: left;"|Black
+|{{Cross}}
+|{{Cross}}
+|{{Cross}}
+|{{Cross}}
+|{{Cross}}
+|{{Tick}}
+| style="border-left-width:medium; border-left-color:black;"|{{Cross}}
+|{{Cross}}
+|{{Cross}}
+|{{Cross}}
+|{{Cross}}
+|{{Tick}}
+|}
+
+==Enchanting==
+The following items use this effect.  You can learn how to enchant custom items with Soul Trap if you find one of the following items and disenchant it:
+* All weapons ''[[Skyrim:Generic Magic Weapons#Soul Trap|of Animus]]''
+* All weapons ''of Binding''
+* All weapons ''of Damnation''
+* All weapons ''of Malediction''
+* All weapons ''of Soul Snares''
+* All weapons ''of Souls''
+Artifacts and unique items that use the effect but cannot be disenchanted include:
+* [[Skyrim:Bloodthorn|Bloodthorn]]
+* [[Skyrim:Halldir's Staff|Halldir's Staff]]
+* [[Skyrim:Mace of Molag Bal|Mace of Molag Bal]]
+* [[Skyrim:Staff of Hasedoki (item)|Staff of Hasedoki]]{{CC|Staff of Hasedoki}}
+* [[Skyrim:Umbra (item)|Umbra (item)]]{{CC|Umbra}}
+
+== Scrolls/Spells/Staves ==
+The ''Soul Trap'' (<code>0004dba3</code>; <code>SoulTrapFFActor</code>) effect used on scrolls, spells, and staves differs from the one used for weapons. It is used for the following:
+* [[Skyrim:Scrolls#Soul Trap|Soul Trap scrolls]]
+* [[Skyrim:Soul Trap (spell)|Soul Trap spell]]
+* [[Skyrim:Staff of Soul Trapping|Staff of Soul Trapping]]
+
+== Other ==
+* [[Skyrim:Soul Tear|Soul Tear]]{{DG}}
+{{NewRight}}
+
+== Similar Effects ==
+* [[Skyrim:Fiery Soul Trap|Fiery Soul Trap]]
+
+==Notes==
+* Unlike [[Oblivion:Soul Trap|previous versions]] of the Elder Scrolls games, it is impossible to soul trap [[Skyrim:Conjuration Spells|summoned]] creatures via spells, spell effects, or perks. Atronachs that appear because of [[Skyrim:World Events|random encounters]] or already summoned ones in warlock lairs (but not any that the warlocks summon in battle) ''can'' be soul trapped, however.
+* Whether a glitch or intentional, weapons with a soul trap effect will be resisted by corpses the player attacks.
+* Dragons cannot be soul trapped, since instead dragon souls are absorbed automatically in your character.
+* Dwarven automatons also cannot be soul trapped, since they don't have souls in the first place.
+* Enemies that are immune to magic (such as [[Skyrim:Orchendor|Orchendor]]) are also immune to all forms of Soul Trap. This includes [[Skyrim:Fiery Soul Trap|Fiery Soul Trap]].
+* Although shorter effect time increases enchantment charge strength (such as a 1-second duration on the entity attacked), you might consider a 2- or 3-second enchantment strength instead, considering most "cinematic kill cameras" are slower than actual combat and if the entity dies during the beginning of the animation (but after the 1-second effect has worn off), you lose that soul. This can also apply if you have [[Skyrim:Followers|followers]], who can kill the one attacked just as the 1-second effect has worn off, also losing that soul.
+*Followers using weapons enchanted with the Soul Trap effect may fill all of their soul gems of the type used by the trapped soul after only trapping one soul. (For instance, a follower killing a soul trapped Frost Troll while carrying 17 Common Soul Gems fills them all, instead of just one.)
+
+==Bugs==
+{{Bug|Bloodthorn and Halldir's Staff can soul trap Dwarven automatons despite the fact that they don't have souls in the first place.|USSEP|4.3.6|The keywords to keep them from working on Dwemer constructs were missing.}}
+
+==See Also==
+* [[Skyrim:Enchanting|Enchanting]]: Details on using filled Soul Gems to create and recharge enchanted items
+* [[Skyrim:Soul Gems|Soul Gems]]: Available soul gems
+* [[Skyrim:Souls|Souls]]: Soul strengths of various creatures
+* [[Skyrim:The Black Star|The Black Star]]: The quest in order to obtain Azura's Star
+
+{{Skyrim Conjuration Effects}}

@@ -1,0 +1,4 @@
+'''Battle for Whiterun''' may refer to two different quests: {{description|Defend or conquer [[Skyrim:Whiterun|Whiterun]].}}
+* [[Skyrim:Battle for Whiterun (Imperial)|Battle for Whiterun (Imperial)]], the Imperial Legion version of the quest, where you defend the city
+* [[Skyrim:Battle for Whiterun (Stormcloaks)|Battle for Whiterun (Stormcloaks)]], the Stormcloaks version of the quest, where you attack the city
+{{disambig}}

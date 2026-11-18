@@ -1,0 +1,278 @@
+{{Trail|Magic}}
+Every '''soul''' in Oblivion is one of [[#Soul Strengths|six possible strengths]]: [[:Category:Oblivion-Souls-Petty|Petty]], [[:Category:Oblivion-Souls-Lesser|Lesser]], [[:Category:Oblivion-Souls-Common|Common]], [[:Category:Oblivion-Souls-Greater|Greater]], [[:Category:Oblivion-Souls-Grand|Grand]], and [[:Category:Oblivion-Souls-Black|Black]]. More powerful creatures have more powerful souls.  Souls are trapped in [[Oblivion:Soul Gem|soul gems]] by using a [[Oblivion:Soul Trap|soul trap]] spell. Trapped souls are used to [[Oblivion:Enchanting|enchant]] and [[Oblivion:Enchanting#Recharging_Weapons|recharge]] items.
+
+==Souls Alphabetically==
+This table provides soul strengths for most of the '''standard''' creatures in Oblivion. Unique creatures (like the lich [[OB:Undead#Lorgren Benirus|Lorgren Benirus]]) generally have leveled souls that are not in this table.  See individual [[OB:Creatures|creature]] pages for full details on their souls.
+
+Souls with a superscript (e.g., <sup>L:-1</sup>) are leveled; see the [[#Soul Strengths|later section]] for details.  In a few cases (Ogres, Sanctified Spectre) there are several different versions of the creature sharing the same name but having different souls; see those creatures' pages for details.
+
+<div style="display:inline-table">
+{|class="sortable wikitable"
+!style=width:15em|Creature
+!style=width:6em|Soul Level
+|-
+|[[OB:Ancient Ghost|Ancient Ghost]]||{{Sort|3}}|Common
+|-
+|[[OB:Black Bear|Black Bear]]||{{Sort|3}}|Common
+|-
+|[[OB:Boar|Boar]]||{{Sort|2}}|Lesser
+|-
+|[[OB:Brown Bear|Brown Bear]]||{{Sort|4}}|Greater
+|-
+|[[OB:Clannfear|Clannfear]]||{{Sort|3}}|Common
+|-
+|[[OB:Clannfear Runt|Clannfear Runt]]||{{Sort|2}}|Lesser
+|-
+|[[OB:Daedroth|Daedroth]]||{{Sort|4}}|Greater
+|-
+|[[OB:Deer|Deer]]||{{Sort|1}}|Petty
+|-
+|[[OB:Dog|Dog]]||{{Sort|1}}|Petty
+|-
+|[[OB:Dread Zombie|Dread Zombie]]||{{Sort|4}}|Greater
+|-
+|[[OB:Dremora|Dremora]]||{{Sort|6}}|Black
+|-
+|[[OB:Faded Wraith|Faded Wraith]]||{{Sort|3}}|Common
+|-
+|[[OB:Flame Atronach|Flame Atronach]]||{{Sort|3}}|Common
+|-
+|[[OB:Frost Atronach|Frost Atronach]]||{{Sort|4}}|Greater
+|-
+|[[OB:Ghost|Ghost]]||{{Sort|1.5}}|Pty/Lsr<sup>L:-1</sup>
+|-
+|[[OB:Gloom Wraith|Gloom Wraith]]||{{Sort|4.7}}|Grand
+|-
+|[[OB:Goblin|Goblin]]||{{Sort|1}}|Petty
+|-
+|[[OB:Goblin Berserker|Goblin Berserker]]||{{Sort|3}}|Common
+|-
+|[[OB:Goblin Shaman|Goblin Shaman]]||{{Sort|8.5}}|leveled<sup>L:-5</sup>
+|-
+|[[OB:Goblin Skirmisher|Goblin Skirmisher]]||{{Sort|2}}|Lesser
+|-
+|[[OB:Goblin Warlord|Goblin Warlord]]||{{Sort|9.0}}|leveled<sup>L:+0</sup>
+|-
+|[[OB:Headless Zombie|Headless Zombie]]||{{Sort|3}}|Common
+|-
+|[[OB:Horse|Horse]]||{{Sort|2}}|Lesser
+|-
+|[[OB:Imp|Imp]]||{{Sort|1.5}}|Pty/Lsr<sup>L:-1</sup>
+|-
+|[[OB:Land Dreugh|Land Dreugh]]||{{Sort|4}}|Greater
+|-
+|[[OB:Lich|Lich]]||{{Sort|5}}|Grand
+|-
+|[[OB:Minotaur|Minotaur]]||{{Sort|3}}|Common
+|-
+|[[OB:Minotaur Lord|Minotaur Lord]]||{{Sort|5}}|Grand
+|-
+|[[OB:Mountain Lion|Mountain Lion]]||{{Sort|3}}|Common
+|-
+|[[OB:Mud Crab|Mud Crab]]||{{Sort|1}}|Petty
+|-
+|[[OB:Nether Lich|Nether Lich]]||{{Sort|4.5}}|Gtr/Gnd<sup>L:-7</sup>
+|}
+</div><div style="display:inline-table">
+{|class="sortable wikitable"
+!style=width:15em|Creature
+!style=width:6em|Soul Level
+|-
+|[[OB:NPCs|NPC]] (any race)||{{Sort|6}}|Black
+|-
+|[[OB:NPCs|NPC]] (essential)||{{Sort|0}}|none
+|-
+|[[OB:Ogre|Ogre]]||{{Sort|4.5}}|Gtr/Gnd<sup>L:-3</sup>
+|-
+|[[OB:Rat|Rat]]||{{Sort|1}}|Petty
+|-
+|[[OB:Sanctified Dead|Sanctified Dead/Spectre]]||{{Sort|8.5}}|leveled<sup>L:-5*</sup>
+|-
+|[[OB:Scamp|Scamp]]||{{Sort|2}}|Lesser
+|-
+|[[OB:Sheep|Sheep]]||{{Sort|1}}|Petty
+|-
+|[[OB:Skeleton|Skeleton]]||{{Sort|1}}|Petty
+|-
+|[[OB:Skeleton Champion|Skeleton Champion]]||{{Sort|4}}|Greater
+|-
+|[[OB:Skeleton Guardian|Skeleton Guardian]]||{{Sort|2}}|Lesser
+|-
+|[[OB:Skeleton Hero|Skeleton Hero]]||{{Sort|3}}|Common
+|-
+|[[OB:Slaughterfish|Slaughterfish]]||{{Sort|1}}|Petty
+|-
+|[[OB:Spider Daedra|Spider Daedra]]||{{Sort|4}}|Greater
+|-
+|[[OB:Spiderling|Spiderling]]||{{Sort|0}}|none
+|-
+|[[OB:Spriggan|Spriggan]]||{{Sort|3}}|Common
+|-
+|[[OB:Storm Atronach|Storm Atronach]]||{{Sort|4}}|Greater
+|-
+|[[OB:Stunted Scamp|Stunted Scamp]]||{{Sort|1}}|Petty
+|-
+|[[OB:Timber Wolf|Timber Wolf]]||{{Sort|2}}|Lesser
+|-
+|Tribe [[OB:Goblin Berserker|Goblin Berserker]]||{{Sort|9.1}}|leveled<sup>L:+1</sup>
+|-
+|Tribe Goblin Farmer||{{Sort|8.7}}|leveled<sup>L:-3</sup>
+|-
+|Tribe Goblin Guard||{{Sort|8.9}}|leveled<sup>L:-1</sup>
+|-
+|Tribe [[OB:Goblin Shaman|Goblin Shaman]]||{{Sort|9.02}}|leveled<sup>L:+0</sup>
+|-
+|Tribe [[OB:Goblin Skirmisher|Goblin Skirmisher]]||{{Sort|9.0}}|leveled<sup>L:+0</sup>
+|-
+|Tribe [[OB:Goblin War Chief|Goblin War Chief]]||{{Sort|9.2}}|leveled<sup>L:+2</sup>
+|-
+|[[OB:Troll|Troll]]||{{Sort|2}}|Lesser
+|-
+|[[OB:Vampire|Vampire]]||{{Sort|6}}|Black
+|-
+|[[OB:Will-o-the-Wisp|Will-o-the-Wisp]]||{{Sort|3}}|Common
+|-
+|[[OB:Wolf|Wolf]]||{{Sort|1}}|Petty
+|-
+|[[OB:Wraith|Wraith]]||{{Sort|4}}|Greater
+|-
+|[[OB:Xivilai|Xivilai]]||{{Sort|5}}|Grand
+|-
+|[[OB:Zombie|Zombie]]||{{Sort|2}}|Lesser
+|}
+</div>{{NewLine}}<div style="display:inline-table">
+{|class="sortable wikitable"
+!style=width:15em|Creature
+!style=width:6em|Soul Level
+|+ '''Location-specific creatures''' (respawning)
+|-
+|[[OB:Dark Guardian|Dark Guardian]]||{{Sort|9.0}}| leveled<sup>L:+0</sup>
+|-
+|[[OB:Everscamp|Everscamp]]||{{Sort|2}}|Lesser
+|-
+|[[OB:Minotaur of the Grove|Minotaur of the Grove]]||{{Sort|9.0}}|leveled<sup>L:+0</sup>
+|-
+|[[OB:Ogre|Ogre (Pale Pass, Redguard Val.)]]||{{Sort|3}}|Common
+|-
+|[[OB:Azhklan Troll|Troll (Azhklan,Kalperklan)]]||{{Sort|9.0}}|leveled<sup>L:+0</sup>
+|-
+|[[OB:Undead Akaviri Soldier|Undead Akaviri Soldier]]||{{Sort|8.9}}|leveled<sup>L:-1</sup>
+|}
+</div><div style="display:inline-table">
+{|class="sortable wikitable"
+!style=width:15em|Creature
+!style=width:6em|Soul Level
+|+ '''Quest creatures''' (non-respawning)
+|-
+|[[OB:Auroran|Auroran]]<sup>[[OB:Knights_of_the_Nine|KOTN]]</sup>||{{Sort|2.3}}|Lsr/Cmn<sup>L:-2</sup>
+|-
+|[[OB:Benirus Manor Ghost|Benirus Manor Ghost]]||{{Sort|8.9}}|leveled<sup>L:-1</sup>
+|-
+|[[OB:Deranged Zombie|Deranged Zombie]]||{{Sort|8.92}}|[[OB:Deranged Zombie|Lsr–Gtr]]<sup>L:-1</sup>
+|-
+|[[OB:Painted Troll|Painted Troll]]||{{Sort|9.0}}|leveled<sup>L:+0</sup>
+|-
+|[[OB:Savage Goblin|Savage Goblin]]||{{Sort|9.0}}|leveled<sup>L:+0</sup>
+|-
+|[[OB:Savage Minotaur|Savage Minotaur]]||{{Sort|9.0}}|leveled<sup>L:+0</sup>
+|-
+|[[OB:Savage Ogre|Savage Ogre]]||{{Sort|9.1}}|leveled<sup>L:+1</sup>
+|-
+|[[OB:Savage Troll|Savage Troll]]||{{Sort|9.0}}|leveled<sup>L:+0</sup>
+|-
+|[[OB:Swamp Troll|Swamp Troll]]||{{Sort|9.0}}|leveled<sup>L:+0</sup>
+|-
+|[[OB:Spectral Sailor|Spectral Sailor]]||{{Sort|9.1}}|leveled<sup>L:+1</sup>
+|-
+|[[OB:Uderfrykte Matron|Uderfrykte Matron]]||{{Sort|6}}|Grand
+|-
+|[[OB:Unicorn|Unicorn]]||{{Sort|5}}|Greater
+|}
+</div>
+
+==Souls by Strength==
+
+These lists only include creatures with fixed soul strengths.
+
+
+{| class="wikitable" style="text-align:center"
+|-
+!width=10%| Soul type
+!width=10%| Value
+!width=80%| Creatures
+|-
+| Petty || 150 || Deer, Dog, Goblin, Mudcrab, Rat, Sheep, Skeleton, Slaughterfish, Stunted Scamp, Wolf
+|-
+| Lesser || 300 || Boar, Clannfear Runt, Goblin Skirmisher, Horse, Scamp, Skeleton Guardian, Timber Wolf, Troll, Zombie
+|-
+| Common || 800 || Ancient Ghost, Black Bear, Clannfear, Faded Wraith, Flame Atronach, Goblin Berserker, Headless Zombie, Minotaur, Mountain Lion, Skeleton Hero, Spriggan, Will-o-the-Wisp
+|-
+| Greater || 1200 || Brown Bear, Daedroth, Dread Zombie, Frost Atronach, Land Dreugh, Skeleton Champion, Spider Daedra, Storm Atronach, Wraith
+|-
+| Grand || 1600 || Gloom Wraith, Lich, Minotaur Lord, Xivilai
+|-
+| Black || 1600 || Humanoids (the ten [[Oblivion:Races|races]] of Tamriel), [[Oblivion:Vampire|Vampires]] and [[Oblivion:Dremora|Dremora]] are all considered [[Oblivion:NPCs|NPCs]].
+|}
+
+NPC souls, as listed above, can only be trapped in [[Oblivion:Black Soul Gem|black soul gems]]. This practice is considered akin to [[Oblivion:Necromancy|necromancy]] in the [[Oblivion:Mages Guild|Mages Guild]] questline, and can also be ethically questionable in the roleplaying sense.
+
+Black-soul trapping, however, is one of the only ways to acquire Grand-soul values for enchanting before level 20.
+
+==Soul Strengths==
+There are six possible soul strengths:
+{| class="wikitable"
+! Soul Level !! Soul Strength
+|-
+| '''Petty''' || 150
+|-
+| '''Lesser''' || 300
+|-
+| '''Common''' || 800
+|-
+| '''Greater''' || 1200
+|-
+| '''Grand''' || 1600
+|-
+| '''Black''' || 1600
+|}
+
+A creature's soul strength is determined in one of two ways.
+
+#Most standard creatures have fixed souls. For example, every Flame Atronach will have a common soul, regardless of location or player character's level.
+#Most unique creatures and some other creatures have a soul strength based upon the player character's level--either the PC's level or an offset of the PC's level.
+
+Offsets as low as -10 and as high as +10 exist, but the table below illustrates some common offsets:
+
+{| class="wikitable" style="text-align:center"
+|-
+!width=10%| Soul level
+!width=10%| L:-3
+!width=10%| L:-2
+!width=10%| L:-1
+!width=10%| Baseline<br>L:+0
+!width=10%| L:+1
+!width=10%| L:+2
+|-
+| Petty || 1-4 || 1-3 || 1-2 || '''1''' || ||
+|-
+| Lesser || 5-9 || 4-8 || 3-7 || '''2-6''' || 1-5 || 1-4
+|-
+| Common || 10-15 || 9-14 || 8-13 || '''7-12''' || 6-11 || 5-10
+|-
+| Greater || 16-20 || 15-19 || 14-18 || '''13-17''' || 12-16 || 11-15
+|-
+| Grand || 21+ || 20+ || 19+ || '''18+''' || 17+ || 16+
+|}
+
+Examples:
+* When the PC is level 4, a Bloody Hand Rat Farmer (offset L:-3) will have a petty soul and all other Bloody Hand goblins (offsets L:-1 to L:+2) will have lesser souls.
+* When the PC is level 5, a Bloody Hand Goblin War Chief (offset L:+2) will have a common soul and all other Bloody Hand goblins (offsets L:-3 to L:+1) will have lesser souls.  
+
+
+An additional complication is that some creatures have a minimum or maximum level that also caps their soul.
+
+For Instance:
+* Ghosts have a '''maximum''' level of 4--their souls will be at most lesser strength. With an offset of L:-1, ghosts will have petty souls until PC level 3 and lesser souls at PC level 4 and above. This is summarized in the chart by "<=Lesser<sup>L:-1</sup>".
+* Ogres have a '''minimum''' level of 16--their souls will be at least greater strength. With an offset of L:-3, ogres will have a greater soul until PC level 21 when their souls will be grand.  This is summarized in the chart by ">=Greater<sup>L:-3</sup>"
+
+Creatures with no maximum or minimum soul level (any soul strength is possible) are stated with "leveled" followed by a superscript providing the offset.

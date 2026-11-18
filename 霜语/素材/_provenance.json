@@ -1,0 +1,1566 @@
+{
+ "generated": "2026-11-18",
+ "sources": {
+  "uesp": "https://en.uesp.net/w/api.php (MediaWiki API, action=raw)",
+  "biligame": "https://wiki.biligame.com/skyrim/api.php"
+ },
+ "verification": {
+  "uesp_titles_enumerated": 135716,
+  "namespaces": [
+   "Skyrim",
+   "Lore",
+   "Oblivion",
+   "Blades",
+   "Morrowind",
+   "Online",
+   "General",
+   "ESOM",
+   "Mod",
+   "Beyond Skyrim",
+   "Project Tamriel"
+  ]
+ },
+ "counts": {
+  "total": 219,
+  "repaired": 31,
+  "dead": 0,
+  "redirect": 0,
+  "nonexistent": 2,
+  "no_source": 0
+ },
+ "files": [
+  {
+   "file": "uesp/Skyrim_Bleak_Falls_Barrow.txt",
+   "title": "Skyrim:Bleak Falls Barrow",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Bleak_Falls_Barrow",
+   "bytes": 396,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/Skyrim_Caretaker.txt",
+   "title": "Skyrim:Caretaker Ineril",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Caretaker_Ineril",
+   "bytes": 1090,
+   "status": "repaired-2026-11-18"
+  },
+  {
+   "file": "uesp/Skyrim_Dragonsreach.txt",
+   "title": "Skyrim:Dragonsreach",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Dragonsreach",
+   "bytes": 19272,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/Skyrim_Dragonstone.txt",
+   "title": "Skyrim:Dragonstone",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Dragonstone",
+   "bytes": 1326,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/Skyrim_Horn_of_Jurgen_Windcaller.txt",
+   "title": "Skyrim:Quest Items",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Quest_Items",
+   "bytes": 53229,
+   "status": "repaired-2026-11-18"
+  },
+  {
+   "file": "uesp/Skyrim_Jors_Barrow.txt",
+   "title": "Skyrim:Jor's Barrow",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Jor's_Barrow",
+   "bytes": 29,
+   "status": "nonexistent-upstream"
+  },
+  {
+   "file": "uesp/Skyrim_Sky_Haven_Temple.txt",
+   "title": "Skyrim:Sky Haven Temple",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Sky_Haven_Temple",
+   "bytes": 15047,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/Skyrim_Soul_Split.txt",
+   "title": "Skyrim:Soul Split",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Soul_Split",
+   "bytes": 2101,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/Skyrim_Urfin.txt",
+   "title": "Skyrim:Urfin",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Urfin",
+   "bytes": 29,
+   "status": "nonexistent-upstream"
+  },
+  {
+   "file": "uesp/Skyrim_Whiterun.txt",
+   "title": "Skyrim:Whiterun",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Whiterun",
+   "bytes": 13420,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/Skyrim_Whiterun_Catacombs.txt",
+   "title": "Skyrim:Hall of the Dead (Whiterun)",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Hall_of_the_Dead_(Whiterun)",
+   "bytes": 5281,
+   "status": "repaired-2026-11-18"
+  },
+  {
+   "file": "uesp/en_uesp_net__Lore_Blood_of_the_Dead.txt",
+   "title": "Skyrim:Blood on the Ice",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Blood_on_the_Ice",
+   "bytes": 37535,
+   "status": "repaired-2026-11-18"
+  },
+  {
+   "file": "uesp/en_uesp_net__Lore_Dragon_Cult.txt",
+   "title": "Lore:Dragon Cult",
+   "upstream": "https://en.uesp.net/wiki/Lore:Dragon_Cult",
+   "bytes": 44008,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Lore_Dragon_Language.txt",
+   "title": "Lore:Dragon Language",
+   "upstream": "https://en.uesp.net/wiki/Lore:Dragon_Language",
+   "bytes": 44516,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Lore_Dragonborn.txt",
+   "title": "Lore:Dragonborn",
+   "upstream": "https://en.uesp.net/wiki/Lore:Dragonborn",
+   "bytes": 35283,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Lore_Greybeards.txt",
+   "title": "Lore:Greybeards",
+   "upstream": "https://en.uesp.net/wiki/Lore:Greybeards",
+   "bytes": 7885,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Lore_Helgen.txt",
+   "title": "Lore:Helgen",
+   "upstream": "https://en.uesp.net/wiki/Lore:Helgen",
+   "bytes": 4287,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Lore_Horn_of_Jurgen_Windcaller.txt",
+   "title": "Skyrim:Quest Items",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Quest_Items",
+   "bytes": 53229,
+   "status": "repaired-2026-11-18"
+  },
+  {
+   "file": "uesp/en_uesp_net__Lore_Miraak.txt",
+   "title": "Lore:Miraak",
+   "upstream": "https://en.uesp.net/wiki/Lore:Miraak",
+   "bytes": 9264,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Lore_Pale_Pass.txt",
+   "title": "Lore:Pale Pass",
+   "upstream": "https://en.uesp.net/wiki/Lore:Pale_Pass",
+   "bytes": 10461,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Lore_Return_of_the_Dragons.txt",
+   "title": "Lore:Return of the Dragons",
+   "upstream": "https://en.uesp.net/wiki/Lore:Return_of_the_Dragons",
+   "bytes": 12246,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Lore_Soul_Gem.txt",
+   "title": "Lore:Soul Gem",
+   "upstream": "https://en.uesp.net/wiki/Lore:Soul_Gem",
+   "bytes": 20405,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Lore_Souls.txt",
+   "title": "Lore:Souls",
+   "upstream": "https://en.uesp.net/wiki/Lore:Souls",
+   "bytes": 57597,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Lore_The_Book_of_the_Dragonborn.txt",
+   "title": "Lore:The Book of the Dragonborn",
+   "upstream": "https://en.uesp.net/wiki/Lore:The_Book_of_the_Dragonborn",
+   "bytes": 6950,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Lore_The_Pale.txt",
+   "title": "Lore:The Pale",
+   "upstream": "https://en.uesp.net/wiki/Lore:The_Pale",
+   "bytes": 37325,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Lore_Thu'um.txt",
+   "title": "Lore:Thu'um",
+   "upstream": "https://en.uesp.net/wiki/Lore:Thu'um",
+   "bytes": 25331,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Lore_Whiterun.txt",
+   "title": "Lore:Whiterun",
+   "upstream": "https://en.uesp.net/wiki/Lore:Whiterun",
+   "bytes": 31021,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Morrowind_Spell_Effects.txt",
+   "title": "Morrowind:Spell Effects",
+   "upstream": "https://en.uesp.net/wiki/Morrowind:Spell_Effects",
+   "bytes": 41563,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Oblivion_Blood_of_the_Daedra.txt",
+   "title": "Oblivion:Blood of the Daedra",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Blood_of_the_Daedra",
+   "bytes": 17960,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Oblivion_Items.txt",
+   "title": "Oblivion:Items",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Items",
+   "bytes": 6776,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Oblivion_Mephala.txt",
+   "title": "Oblivion:Mephala",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Mephala",
+   "bytes": 10361,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Oblivion_Mephala__quest_.txt",
+   "title": "Oblivion:Mephala",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Mephala",
+   "bytes": 10361,
+   "status": "repaired-2026-11-18"
+  },
+  {
+   "file": "uesp/en_uesp_net__Oblivion_Miscellaneous_Items.txt",
+   "title": "Oblivion:Miscellaneous Items",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Miscellaneous_Items",
+   "bytes": 38635,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Oblivion_Scrying_Bowl.txt",
+   "title": "Oblivion:Miscellaneous Items",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Miscellaneous_Items",
+   "bytes": 38635,
+   "status": "repaired-2026-11-18"
+  },
+  {
+   "file": "uesp/en_uesp_net__Oblivion_Soul_Crystal.txt",
+   "title": "Oblivion:Soul Gem",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Soul_Gem",
+   "bytes": 11474,
+   "status": "repaired-2026-11-18"
+  },
+  {
+   "file": "uesp/en_uesp_net__Oblivion_Soul_Gem.txt",
+   "title": "Oblivion:Soul Gem",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Soul_Gem",
+   "bytes": 11474,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Oblivion_Soul_Link.txt",
+   "title": "Oblivion:Souls",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Souls",
+   "bytes": 10607,
+   "status": "repaired-2026-11-18"
+  },
+  {
+   "file": "uesp/en_uesp_net__Oblivion_Soul_Trap.txt",
+   "title": "Oblivion:Soul Trap",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Soul_Trap",
+   "bytes": 9431,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Oblivion_Souls.txt",
+   "title": "Oblivion:Souls",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Souls",
+   "bytes": 10607,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Oblivion_Spell_Effects.txt",
+   "title": "Oblivion:Spell Effects",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Spell_Effects",
+   "bytes": 19301,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Oblivion_Spells.txt",
+   "title": "Oblivion:Spells",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Spells",
+   "bytes": 4687,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Online_Soul_Crystals_of_the_Returned.txt",
+   "title": "Online:Soul Crystals of the Returned",
+   "upstream": "https://en.uesp.net/wiki/Online:Soul_Crystals_of_the_Returned",
+   "bytes": 3480,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Online_Vitrified_Soul_Crystal.txt",
+   "title": "Online:Vitrified Soul Crystal",
+   "upstream": "https://en.uesp.net/wiki/Online:Vitrified_Soul_Crystal",
+   "bytes": 2775,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Alduin's_Wall.txt",
+   "title": "Skyrim:Alduin's Wall",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Alduin's_Wall",
+   "bytes": 15239,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Altar_of_Thrond.txt",
+   "title": "Skyrim:Altar of Thrond",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Altar_of_Thrond",
+   "bytes": 6052,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Andurs.txt",
+   "title": "Skyrim:Andurs",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Andurs",
+   "bytes": 5104,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Arngeir.txt",
+   "title": "Skyrim:Arngeir",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Arngeir",
+   "bytes": 54339,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Arvel_the_Swift.txt",
+   "title": "Skyrim:Arvel the Swift",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Arvel_the_Swift",
+   "bytes": 5969,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Balgruuf_the_Greater.txt",
+   "title": "Skyrim:Balgruuf the Greater",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Balgruuf_the_Greater",
+   "bytes": 54126,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Barrows.txt",
+   "title": "Skyrim:Nordic Ruins",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Nordic_Ruins",
+   "bytes": 2034,
+   "status": "repaired-2026-11-18"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Battle_for_Whiterun.txt",
+   "title": "Skyrim:Battle for Whiterun",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Battle_for_Whiterun",
+   "bytes": 427,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Battle_for_Whiterun_(Imperial).txt",
+   "title": "Skyrim:Battle for Whiterun (Imperial)",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Battle_for_Whiterun_(Imperial)",
+   "bytes": 17091,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Battle_for_Whiterun_(Stormcloaks).txt",
+   "title": "Skyrim:Battle for Whiterun (Stormcloaks)",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Battle_for_Whiterun_(Stormcloaks)",
+   "bytes": 14370,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Battle_for_Whiterun_Imperial.txt",
+   "title": "Skyrim:Battle for Whiterun (Imperial)",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Battle_for_Whiterun_(Imperial)",
+   "bytes": 17222,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Battle_for_Whiterun_Stormcloaks.txt",
+   "title": "Skyrim:Battle for Whiterun (Stormcloaks)",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Battle_for_Whiterun_(Stormcloaks)",
+   "bytes": 14494,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Black_Book-_The_Sallow_Regent_(book).txt",
+   "title": "Skyrim:Black Book: The Sallow Regent (book)",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Black_Book:_The_Sallow_Regent_(book)",
+   "bytes": 565,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Black_Book-_The_Sallow_Regent_(quest).txt",
+   "title": "Skyrim:Black Book: The Sallow Regent (quest)",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Black_Book:_The_Sallow_Regent_(quest)",
+   "bytes": 9596,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Black_Book_(book).txt",
+   "title": "Skyrim:Black Book (book)",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Black_Book_(book)",
+   "bytes": 562,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Black_Book_(quest).txt",
+   "title": "Skyrim:Black Book (quest)",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Black_Book_(quest)",
+   "bytes": 3256,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Blades.txt",
+   "title": "Skyrim:Blades",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Blades",
+   "bytes": 6298,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Blades__faction_.txt",
+   "title": "Skyrim:Factions B",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Factions_B",
+   "bytes": 18267,
+   "status": "repaired-2026-11-18"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Bleak_Falls_Barrow.txt",
+   "title": "Skyrim:Bleak Falls Barrow",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Bleak_Falls_Barrow",
+   "bytes": 392,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Bleak_Falls_Barrow_(place).txt",
+   "title": "Skyrim:Bleak Falls Barrow (place)",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Bleak_Falls_Barrow_(place)",
+   "bytes": 18428,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Bleak_Falls_Barrow_(quest).txt",
+   "title": "Skyrim:Bleak Falls Barrow (quest)",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Bleak_Falls_Barrow_(quest)",
+   "bytes": 17551,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Bleak_Falls_Barrow__place_.txt",
+   "title": "Skyrim:Bleak Falls Barrow (place)",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Bleak_Falls_Barrow_(place)",
+   "bytes": 18531,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Bleak_Falls_Barrow_quest.txt",
+   "title": "Skyrim:Bleak Falls Barrow (quest)",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Bleak_Falls_Barrow_(quest)",
+   "bytes": 17662,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Blood_of_the_Dead.txt",
+   "title": "Skyrim:Blood on the Ice",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Blood_on_the_Ice",
+   "bytes": 37535,
+   "status": "repaired-2026-11-18"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Border_Gates.txt",
+   "title": "Skyrim:Border Gates",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Border_Gates",
+   "bytes": 5822,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Call_Dragon.txt",
+   "title": "Skyrim:Call Dragon",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Call_Dragon",
+   "bytes": 1915,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Caretaker_Ineril.txt",
+   "title": "Skyrim:Caretaker Ineril",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Caretaker_Ineril",
+   "bytes": 1090,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Classes.txt",
+   "title": "Skyrim:Classes",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Classes",
+   "bytes": 43106,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Coldhearted_Gravedigger.txt",
+   "title": "Skyrim:Coldhearted Gravedigger",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Coldhearted_Gravedigger",
+   "bytes": 1318,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Creation_Club.txt",
+   "title": "Skyrim:Creation Club",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Creation_Club",
+   "bytes": 58296,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Dawnguard.txt",
+   "title": "Skyrim:Dawnguard",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Dawnguard",
+   "bytes": 6731,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Dawnstar.txt",
+   "title": "Skyrim:Dawnstar",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Dawnstar",
+   "bytes": 3896,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Delphine.txt",
+   "title": "Skyrim:Delphine",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Delphine",
+   "bytes": 90376,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Dovahkiin.txt",
+   "title": "Skyrim:Dovahkiin",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Dovahkiin",
+   "bytes": 3363,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Dragon_Altar.txt",
+   "title": "Skyrim:Altar of Thrond",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Altar_of_Thrond",
+   "bytes": 6052,
+   "status": "repaired-2026-11-18"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Dragon_Cult.txt",
+   "title": "Lore:Dragon Cult",
+   "upstream": "https://en.uesp.net/wiki/Lore:Dragon_Cult",
+   "bytes": 44008,
+   "status": "repaired-2026-11-18"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Dragon_Cult__quest_.txt",
+   "title": "Lore:Dragon Cult",
+   "upstream": "https://en.uesp.net/wiki/Lore:Dragon_Cult",
+   "bytes": 44008,
+   "status": "repaired-2026-11-18"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Dragon_Cultist.txt",
+   "title": "Skyrim:Dragon Cultist",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Dragon_Cultist",
+   "bytes": 3538,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Dragon_Priest_Mask.txt",
+   "title": "Skyrim:Dragon Priest Mask",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Dragon_Priest_Mask",
+   "bytes": 5480,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Dragon_Rising.txt",
+   "title": "Skyrim:Dragon Rising",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Dragon_Rising",
+   "bytes": 19684,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Dragon_Shouts.txt",
+   "title": "Skyrim:Dragon Shouts",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Dragon_Shouts",
+   "bytes": 17310,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Dragonstone.txt",
+   "title": "Skyrim:Dragonstone",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Dragonstone",
+   "bytes": 1295,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Esbern.txt",
+   "title": "Skyrim:Esbern",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Esbern",
+   "bytes": 34618,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Falmer.txt",
+   "title": "Skyrim:Falmer",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Falmer",
+   "bytes": 39656,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Farengar_Secret_Fire.txt",
+   "title": "Skyrim:Farengar Secret-Fire",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Farengar_Secret-Fire",
+   "bytes": 19990,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Fence.txt",
+   "title": "Skyrim:Fence",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Fence",
+   "bytes": 365,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Golden_Claw.txt",
+   "title": "Skyrim:Golden Claw",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Golden_Claw",
+   "bytes": 53229,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Haelga.txt",
+   "title": "Skyrim:Haelga",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Haelga",
+   "bytes": 10370,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Hall_of_the_Dead_(Whiterun).txt",
+   "title": "Skyrim:Hall of the Dead (Whiterun)",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Hall_of_the_Dead_(Whiterun)",
+   "bytes": 5281,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Hall_of_the_Dead_(Windhelm).txt",
+   "title": "Skyrim:Hall of the Dead (Windhelm)",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Hall_of_the_Dead_(Windhelm)",
+   "bytes": 2384,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Hall_of_the_Dead_Whiterun.txt",
+   "title": "Skyrim:Hall of the Dead (Whiterun)",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Hall_of_the_Dead_(Whiterun)",
+   "bytes": 5373,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Helgen.txt",
+   "title": "Skyrim:Helgen",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Helgen",
+   "bytes": 3706,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Honningbrew_Meadery.txt",
+   "title": "Skyrim:Honningbrew Meadery",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Honningbrew_Meadery",
+   "bytes": 18933,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Horn_of_Jurgen_Windcaller__item_.txt",
+   "title": "Skyrim:Quest Items",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Quest_Items",
+   "bytes": 53229,
+   "status": "repaired-2026-11-18"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Horn_of_Jurgen_Windcaller__quest_item_.txt",
+   "title": "Skyrim:Quest Items",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Quest_Items",
+   "bytes": 53229,
+   "status": "repaired-2026-11-18"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Horn_of_Jurgen_Windcaller_item.txt",
+   "title": "Skyrim:Quest Items",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Quest_Items",
+   "bytes": 53229,
+   "status": "repaired-2026-11-18"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Illusion.txt",
+   "title": "Skyrim:Illusion",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Illusion",
+   "bytes": 19085,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Irileth.txt",
+   "title": "Skyrim:Irileth",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Irileth",
+   "bytes": 22048,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Karthwasten.txt",
+   "title": "Skyrim:Karthwasten",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Karthwasten",
+   "bytes": 3344,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Miscellaneous_Items.txt",
+   "title": "Skyrim:Miscellaneous Items",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Miscellaneous_Items",
+   "bytes": 34000,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Nordic_Ruins.txt",
+   "title": "Skyrim:Nordic Ruins",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Nordic_Ruins",
+   "bytes": 2090,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Old_Hroldan_Inn.txt",
+   "title": "Skyrim:Old Hroldan Inn",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Old_Hroldan_Inn",
+   "bytes": 9358,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Paarthurnax_(dragon).txt",
+   "title": "Skyrim:Paarthurnax (dragon)",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Paarthurnax_(dragon)",
+   "bytes": 33649,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Places.txt",
+   "title": "Skyrim:Places",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Places",
+   "bytes": 6838,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Psijic_Order.txt",
+   "title": "Skyrim:Psijic Order",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Psijic_Order",
+   "bytes": 2500,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Quest_Items.txt",
+   "title": "Skyrim:Quest Items",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Quest_Items",
+   "bytes": 54290,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Rebuilding_the_Blades.txt",
+   "title": "Skyrim:Rebuilding the Blades",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Rebuilding_the_Blades",
+   "bytes": 8617,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Riverwood.txt",
+   "title": "Skyrim:Riverwood",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Riverwood",
+   "bytes": 5123,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Rorikstead.txt",
+   "title": "Skyrim:Rorikstead",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Rorikstead",
+   "bytes": 3733,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Scrying_Bowl.txt",
+   "title": "Skyrim:Miscellaneous Items",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Miscellaneous_Items",
+   "bytes": 34000,
+   "status": "repaired-2026-11-18"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Season_Unending.txt",
+   "title": "Skyrim:Season Unending",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Season_Unending",
+   "bytes": 52737,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Sky_Haven_Temple.txt",
+   "title": "Skyrim:Sky Haven Temple",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Sky_Haven_Temple",
+   "bytes": 14951,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Sleeping_Giant_Inn.txt",
+   "title": "Skyrim:Sleeping Giant Inn",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Sleeping_Giant_Inn",
+   "bytes": 11098,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Sorcerer_Eynjah.txt",
+   "title": "Skyrim:Classes",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Classes",
+   "bytes": 43106,
+   "status": "repaired-2026-11-18"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Soul_Cairn.txt",
+   "title": "Skyrim:Soul Cairn",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Soul_Cairn",
+   "bytes": 47146,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Soul_Gems.txt",
+   "title": "Skyrim:Soul Gems",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Soul_Gems",
+   "bytes": 12211,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Soul_Split.txt",
+   "title": "Skyrim:Soul Split",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Soul_Split",
+   "bytes": 2037,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Soul_Trap_(effect).txt",
+   "title": "Skyrim:Soul Trap (effect)",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Soul_Trap_(effect)",
+   "bytes": 9577,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Souls.txt",
+   "title": "Skyrim:Souls",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Souls",
+   "bytes": 7564,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Speak_to_the_Dragon.txt",
+   "title": "Skyrim:Soul Split",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Soul_Split",
+   "bytes": 2037,
+   "status": "repaired-2026-11-18"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Tel_Mithryn.txt",
+   "title": "Skyrim:Tel Mithryn",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Tel_Mithryn",
+   "bytes": 246,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Thane.txt",
+   "title": "Skyrim:Thane",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Thane",
+   "bytes": 12654,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_The_Blades.txt",
+   "title": "Skyrim:Blades",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Blades",
+   "bytes": 6298,
+   "status": "repaired-2026-11-18"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_The_Blades__faction_.txt",
+   "title": "Skyrim:Factions B",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Factions_B",
+   "bytes": 18267,
+   "status": "repaired-2026-11-18"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_The_Fallen.txt",
+   "title": "Skyrim:The Fallen",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:The_Fallen",
+   "bytes": 14228,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_The_Frozen_Hearth.txt",
+   "title": "Skyrim:The Frozen Hearth",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:The_Frozen_Hearth",
+   "bytes": 10026,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Ulfric_Stormcloak.txt",
+   "title": "Skyrim:Ulfric Stormcloak",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Ulfric_Stormcloak",
+   "bytes": 68576,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Unbound.txt",
+   "title": "Skyrim:Unbound",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Unbound",
+   "bytes": 33784,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Unearthed.txt",
+   "title": "Skyrim:Unearthed",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Unearthed",
+   "bytes": 24843,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Western_Watchtower.txt",
+   "title": "Skyrim:Western Watchtower",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Western_Watchtower",
+   "bytes": 2969,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_White_Ridge_Barrow.txt",
+   "title": "Skyrim:White Ridge Barrow",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:White_Ridge_Barrow",
+   "bytes": 21696,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/en_uesp_net__Skyrim_Word_Wall.txt",
+   "title": "Skyrim:Word Wall",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Word_Wall",
+   "bytes": 5254,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__Alessandra.txt",
+   "title": "Skyrim:Alessandra",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Alessandra",
+   "bytes": 6460,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__AmuletOfKings.txt",
+   "title": "Skyrim:Amulet of Kings",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Amulet_of_Kings",
+   "bytes": 438,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__Aura_Whisper.txt",
+   "title": "Skyrim:Aura Whisper",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Aura_Whisper",
+   "bytes": 4754,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__BeyondGrave.txt",
+   "title": "Skyrim:Beyond Grave",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Beyond_Grave",
+   "bytes": 4269,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__BloodOnIce.txt",
+   "title": "Skyrim:Blood on the Ice",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Blood_on_the_Ice",
+   "bytes": 37756,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__CallDragon.txt",
+   "title": "Skyrim:Call Dragon",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Call_Dragon",
+   "bytes": 1954,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__CaretakerIneril.txt",
+   "title": "Skyrim:Caretaker Ineril",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Caretaker_Ineril",
+   "bytes": 1123,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__Cemeteries.txt",
+   "title": "Skyrim:Cemeteries",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Cemeteries",
+   "bytes": 761,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__DidYouKnow.txt",
+   "title": "Main Page/Did You Know",
+   "upstream": "https://en.uesp.net/wiki/Main_Page/Did_You_Know",
+   "bytes": 36319,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__DragonShouts.txt",
+   "title": "Skyrim:Dragon Shouts",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Dragon_Shouts",
+   "bytes": 17428,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__ESO_Knives.txt",
+   "title": "Online:Knives",
+   "upstream": "https://en.uesp.net/wiki/Online:Knives",
+   "bytes": 22373,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__ESO_OrderEye.txt",
+   "title": "Online:Order of the Eye",
+   "upstream": "https://en.uesp.net/wiki/Online:Order_of_the_Eye",
+   "bytes": 991,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__ESO_Psijic.txt",
+   "title": "Online:Psijic Order",
+   "upstream": "https://en.uesp.net/wiki/Online:Psijic_Order",
+   "bytes": 5115,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__ESO_ScryingTalisman.txt",
+   "title": "Online:Psijic Scrying Talisman",
+   "upstream": "https://en.uesp.net/wiki/Online:Psijic_Scrying_Talisman",
+   "bytes": 3154,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__ESO_Vitrified.txt",
+   "title": "Online:Vitrified",
+   "upstream": "https://en.uesp.net/wiki/Online:Vitrified",
+   "bytes": 2824,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__HamvirsRest.txt",
+   "title": "Skyrim:Hamvir's Rest",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Hamvir's_Rest",
+   "bytes": 1404,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__Horn_of_Jurgen.txt",
+   "title": "Skyrim:Quest Items",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Quest_Items",
+   "bytes": 53229,
+   "status": "repaired-2026-11-18"
+  },
+  {
+   "file": "uesp/raw__Jurgen.txt",
+   "title": "Skyrim:Jurgen Windcaller",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Jurgen_Windcaller",
+   "bytes": 2408,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__LoreObscuros.txt",
+   "title": "Online:The Obscuros",
+   "upstream": "https://en.uesp.net/wiki/Online:The_Obscuros",
+   "bytes": 2280,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__LoreOrderEye.txt",
+   "title": "Lore:Order of the Eye",
+   "upstream": "https://en.uesp.net/wiki/Lore:Order_of_the_Eye",
+   "bytes": 3794,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__MW_Spells.txt",
+   "title": "Morrowind:Spells",
+   "upstream": "https://en.uesp.net/wiki/Morrowind:Spells",
+   "bytes": 29982,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__OB_BloodOfDaedra.txt",
+   "title": "Oblivion:Blood of the Daedra",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Blood_of_the_Daedra",
+   "bytes": 17960,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__OB_BloodOfDamned.txt",
+   "title": "Oblivion:Accidents Happen",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Accidents_Happen",
+   "bytes": 177,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__OB_BookDaedra.txt",
+   "title": "Oblivion:Books",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Books",
+   "bytes": 375,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__OB_CrystalBall.txt",
+   "title": "Oblivion:Miscellaneous Items",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Miscellaneous_Items",
+   "bytes": 38635,
+   "status": "repaired-2026-11-18"
+  },
+  {
+   "file": "uesp/raw__OB_GhostShip.txt",
+   "title": "Oblivion:The Ghost Ship",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:The_Ghost_Ship",
+   "bytes": 5756,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__OB_MiscItems.txt",
+   "title": "Oblivion:Miscellaneous Items",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Miscellaneous_Items",
+   "bytes": 39379,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__OB_OriginMages.txt",
+   "title": "Oblivion:Origin Mages",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Origin_Mages",
+   "bytes": 334,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__OB_PathOfDawn.txt",
+   "title": "Oblivion:The Path of Dawn",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:The_Path_of_Dawn",
+   "bytes": 28829,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__OB_QuestItems.txt",
+   "title": "Oblivion:Quest Items",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Quest_Items",
+   "bytes": 52139,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__OB_Quests.txt",
+   "title": "Oblivion:Quests",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Quests",
+   "bytes": 4680,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__OB_SideQuests.txt",
+   "title": "Oblivion:Side Quests",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Side_Quests",
+   "bytes": 3646,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__OB_SpellsByEffect.txt",
+   "title": "Oblivion:Spells By Effect",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Spells_By_Effect",
+   "bytes": 84120,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__OB_Varulae.txt",
+   "title": "Oblivion:Varulae",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Varulae",
+   "bytes": 6455,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__OB_WhispersOfDeath.txt",
+   "title": "Oblivion:Whispers of Death",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Whispers_of_Death",
+   "bytes": 5795,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__Oblivion_Alteration_Spells.txt",
+   "title": "Oblivion:Alteration Spells",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Alteration_Spells",
+   "bytes": 12835,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__Oblivion_Conjuration_Spells.txt",
+   "title": "Oblivion:Conjuration Spells",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Conjuration_Spells",
+   "bytes": 14680,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__Oblivion_Daedric_Quests.txt",
+   "title": "Oblivion:Daedric Quests",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Daedric_Quests",
+   "bytes": 10355,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__Oblivion_Destruction_Spells.txt",
+   "title": "Oblivion:Destruction Spells",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Destruction_Spells",
+   "bytes": 31462,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__Oblivion_Illusion_Spells.txt",
+   "title": "Oblivion:Illusion Spells",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Illusion_Spells",
+   "bytes": 16617,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__Oblivion_Mysticism_Spells.txt",
+   "title": "Oblivion:Mysticism Spells",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Mysticism_Spells",
+   "bytes": 9110,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__Oblivion_Restoration_Spells.txt",
+   "title": "Oblivion:Restoration Spells",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Restoration_Spells",
+   "bytes": 25245,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__Oblivion_Soul_Trap.txt",
+   "title": "Oblivion:Soul Trap",
+   "upstream": "https://en.uesp.net/wiki/Oblivion:Soul_Trap",
+   "bytes": 9527,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__Pale_Pass.txt",
+   "title": "Skyrim:Border Gates",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Border_Gates",
+   "bytes": 5822,
+   "status": "repaired-2026-11-18"
+  },
+  {
+   "file": "uesp/raw__Quest_Items.txt",
+   "title": "Skyrim:Quest Items",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Quest_Items",
+   "bytes": 54290,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__SEG.txt",
+   "title": "Skyrim:Quest Items",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Quest_Items",
+   "bytes": 53229,
+   "status": "repaired-2026-11-18"
+  },
+  {
+   "file": "uesp/raw__SK_CivilWar.txt",
+   "title": "Skyrim:Civil War",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Civil_War",
+   "bytes": 28345,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__SK_Dragonborn.txt",
+   "title": "Skyrim:Dragonborn",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Dragonborn",
+   "bytes": 4849,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__SK_ForbiddenLegend.txt",
+   "title": "Skyrim:The Forbidden Legend",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:The_Forbidden_Legend",
+   "bytes": 33781,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__SK_HornQ.txt",
+   "title": "Skyrim:Horn of Jurgen Windcaller",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Horn_of_Jurgen_Windcaller",
+   "bytes": 18527,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__SK_HornQuest2.txt",
+   "title": "Skyrim:Horn of Jurgen Windcaller",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Horn_of_Jurgen_Windcaller",
+   "bytes": 18527,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__SK_Illusion.txt",
+   "title": "Skyrim:Illusion",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Illusion",
+   "bytes": 11825,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__SK_MiscItems.txt",
+   "title": "Skyrim:Miscellaneous Items",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Miscellaneous_Items",
+   "bytes": 34785,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__SK_SoulTrap.txt",
+   "title": "Skyrim:Soul Trap",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Soul_Trap",
+   "bytes": 231,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__Siege_Dragon_Cult.txt",
+   "title": "Skyrim:Siege of the Dragon Cult",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Siege_of_the_Dragon_Cult",
+   "bytes": 8566,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__Skyrim_Soul_Trap.txt",
+   "title": "Skyrim:Soul Trap",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Soul_Trap",
+   "bytes": 231,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__SoulCairn.txt",
+   "title": "Skyrim:Soul Cairn",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Soul_Cairn",
+   "bytes": 47477,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__SoulEssence.txt",
+   "title": "Skyrim:Quest Items",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Quest_Items",
+   "bytes": 53229,
+   "status": "repaired-2026-11-18"
+  },
+  {
+   "file": "uesp/raw__SoulGems.txt",
+   "title": "Skyrim:Soul Gems",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Soul_Gems",
+   "bytes": 12424,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__SoulHusk.txt",
+   "title": "Skyrim:Food",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Food",
+   "bytes": 117211,
+   "status": "repaired-2026-11-18"
+  },
+  {
+   "file": "uesp/raw__SoulSplit2.txt",
+   "title": "Skyrim:Soul Split",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Soul_Split",
+   "bytes": 2101,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__The_Pale.txt",
+   "title": "Skyrim:The Pale",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:The_Pale",
+   "bytes": 7208,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__ToryggHorn.txt",
+   "title": "Skyrim:Quest Items",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Quest_Items",
+   "bytes": 53229,
+   "status": "repaired-2026-11-18"
+  },
+  {
+   "file": "uesp/raw__TwinSouls.txt",
+   "title": "Skyrim:Conjuration",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Conjuration",
+   "bytes": 22843,
+   "status": "repaired-2026-11-18"
+  },
+  {
+   "file": "uesp/raw__Ustengrav.txt",
+   "title": "Skyrim:Ustengrav",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Ustengrav",
+   "bytes": 18069,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__Voice_of_the_Emperor.txt",
+   "title": "Skyrim:Voice of the Emperor",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Voice_of_the_Emperor",
+   "bytes": 1020,
+   "status": "ok"
+  },
+  {
+   "file": "uesp/raw__Word_Wall.txt",
+   "title": "Skyrim:Word Wall",
+   "upstream": "https://en.uesp.net/wiki/Skyrim:Word_Wall",
+   "bytes": 5332,
+   "status": "ok"
+  },
+  {
+   "file": "tabs/书籍.txt",
+   "title": "上古卷轴5天际:词汇表/书籍",
+   "upstream": "https://wiki.biligame.com/skyrim/%E4%B8%8A%E5%8F%A4%E5%8D%B7%E8%BD%B55%E5%A4%A9%E9%99%85:%E8%AF%8D%E6%B1%87%E8%A1%A8/书籍.tx",
+   "bytes": 151519,
+   "status": "ok"
+  },
+  {
+   "file": "tabs/人物.txt",
+   "title": "上古卷轴5天际:词汇表/人物",
+   "upstream": "https://wiki.biligame.com/skyrim/%E4%B8%8A%E5%8F%A4%E5%8D%B7%E8%BD%B55%E5%A4%A9%E9%99%85:%E8%AF%8D%E6%B1%87%E8%A1%A8/人物.tx",
+   "bytes": 173534,
+   "status": "ok"
+  },
+  {
+   "file": "tabs/任务.txt",
+   "title": "上古卷轴5天际:词汇表/任务",
+   "upstream": "https://wiki.biligame.com/skyrim/%E4%B8%8A%E5%8F%A4%E5%8D%B7%E8%BD%B55%E5%A4%A9%E9%99%85:%E8%AF%8D%E6%B1%87%E8%A1%A8/任务.tx",
+   "bytes": 167502,
+   "status": "ok"
+  },
+  {
+   "file": "tabs/卷轴.txt",
+   "title": "上古卷轴5天际:词汇表/卷轴",
+   "upstream": "https://wiki.biligame.com/skyrim/%E4%B8%8A%E5%8F%A4%E5%8D%B7%E8%BD%B55%E5%A4%A9%E9%99%85:%E8%AF%8D%E6%B1%87%E8%A1%A8/卷轴.tx",
+   "bytes": 11304,
+   "status": "ok"
+  },
+  {
+   "file": "tabs/地点.txt",
+   "title": "上古卷轴5天际:词汇表/地点",
+   "upstream": "https://wiki.biligame.com/skyrim/%E4%B8%8A%E5%8F%A4%E5%8D%B7%E8%BD%B55%E5%A4%A9%E9%99%85:%E8%AF%8D%E6%B1%87%E8%A1%A8/地点.tx",
+   "bytes": 119899,
+   "status": "ok"
+  },
+  {
+   "file": "tabs/护甲.txt",
+   "title": "上古卷轴5天际:词汇表/护甲",
+   "upstream": "https://wiki.biligame.com/skyrim/%E4%B8%8A%E5%8F%A4%E5%8D%B7%E8%BD%B55%E5%A4%A9%E9%99%85:%E8%AF%8D%E6%B1%87%E8%A1%A8/护甲.tx",
+   "bytes": 447109,
+   "status": "ok"
+  },
+  {
+   "file": "tabs/无标地点.txt",
+   "title": "上古卷轴5天际:词汇表/无标地点",
+   "upstream": "https://wiki.biligame.com/skyrim/%E4%B8%8A%E5%8F%A4%E5%8D%B7%E8%BD%B55%E5%A4%A9%E9%99%85:%E8%AF%8D%E6%B1%87%E8%A1%A8/无标地点.tx",
+   "bytes": 13178,
+   "status": "ok"
+  },
+  {
+   "file": "tabs/植物和炼金.txt",
+   "title": "上古卷轴5天际:词汇表/植物和炼金",
+   "upstream": "https://wiki.biligame.com/skyrim/%E4%B8%8A%E5%8F%A4%E5%8D%B7%E8%BD%B55%E5%A4%A9%E9%99%85:%E8%AF%8D%E6%B1%87%E8%A1%A8/植物和炼金.tx",
+   "bytes": 19213,
+   "status": "ok"
+  },
+  {
+   "file": "tabs/武器.txt",
+   "title": "上古卷轴5天际:词汇表/武器",
+   "upstream": "https://wiki.biligame.com/skyrim/%E4%B8%8A%E5%8F%A4%E5%8D%B7%E8%BD%B55%E5%A4%A9%E9%99%85:%E8%AF%8D%E6%B1%87%E8%A1%A8/武器.tx",
+   "bytes": 413738,
+   "status": "ok"
+  },
+  {
+   "file": "tabs/法术.txt",
+   "title": "上古卷轴5天际:词汇表/法术",
+   "upstream": "https://wiki.biligame.com/skyrim/%E4%B8%8A%E5%8F%A4%E5%8D%B7%E8%BD%B55%E5%A4%A9%E9%99%85:%E8%AF%8D%E6%B1%87%E8%A1%A8/法术.tx",
+   "bytes": 183527,
+   "status": "ok"
+  },
+  {
+   "file": "tabs/灵魂石.txt",
+   "title": "上古卷轴5天际:词汇表/灵魂石",
+   "upstream": "https://wiki.biligame.com/skyrim/%E4%B8%8A%E5%8F%A4%E5%8D%B7%E8%BD%B55%E5%A4%A9%E9%99%85:%E8%AF%8D%E6%B1%87%E8%A1%A8/灵魂石.tx",
+   "bytes": 1538,
+   "status": "ok"
+  },
+  {
+   "file": "tabs/物品和杂物.txt",
+   "title": "上古卷轴5天际:词汇表/物品和杂物",
+   "upstream": "https://wiki.biligame.com/skyrim/%E4%B8%8A%E5%8F%A4%E5%8D%B7%E8%BD%B55%E5%A4%A9%E9%99%85:%E8%AF%8D%E6%B1%87%E8%A1%A8/物品和杂物.tx",
+   "bytes": 133730,
+   "status": "ok"
+  },
+  {
+   "file": "tabs/种族.txt",
+   "title": "上古卷轴5天际:词汇表/种族",
+   "upstream": "https://wiki.biligame.com/skyrim/%E4%B8%8A%E5%8F%A4%E5%8D%B7%E8%BD%B55%E5%A4%A9%E9%99%85:%E8%AF%8D%E6%B1%87%E8%A1%A8/种族.tx",
+   "bytes": 5142,
+   "status": "ok"
+  },
+  {
+   "file": "tabs/箭.txt",
+   "title": "上古卷轴5天际:词汇表/箭",
+   "upstream": "https://wiki.biligame.com/skyrim/%E4%B8%8A%E5%8F%A4%E5%8D%B7%E8%BD%B55%E5%A4%A9%E9%99%85:%E8%AF%8D%E6%B1%87%E8%A1%A8/箭.tx",
+   "bytes": 5983,
+   "status": "ok"
+  },
+  {
+   "file": "tabs/钥匙.txt",
+   "title": "上古卷轴5天际:词汇表/钥匙",
+   "upstream": "https://wiki.biligame.com/skyrim/%E4%B8%8A%E5%8F%A4%E5%8D%B7%E8%BD%B55%E5%A4%A9%E9%99%85:%E8%AF%8D%E6%B1%87%E8%A1%A8/钥匙.tx",
+   "bytes": 52056,
+   "status": "ok"
+  },
+  {
+   "file": "tabs/阵营.txt",
+   "title": "上古卷轴5天际:词汇表/阵营",
+   "upstream": "https://wiki.biligame.com/skyrim/%E4%B8%8A%E5%8F%A4%E5%8D%B7%E8%BD%B55%E5%A4%A9%E9%99%85:%E8%AF%8D%E6%B1%87%E8%A1%A8/阵营.tx",
+   "bytes": 5689,
+   "status": "ok"
+  },
+  {
+   "file": "tabs/食物和药水.txt",
+   "title": "上古卷轴5天际:词汇表/食物和药水",
+   "upstream": "https://wiki.biligame.com/skyrim/%E4%B8%8A%E5%8F%A4%E5%8D%B7%E8%BD%B55%E5%A4%A9%E9%99%85:%E8%AF%8D%E6%B1%87%E8%A1%A8/食物和药水.tx",
+   "bytes": 45768,
+   "status": "ok"
+  }
+ ]
+}

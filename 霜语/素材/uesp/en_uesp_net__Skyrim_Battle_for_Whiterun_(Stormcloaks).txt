@@ -1,0 +1,125 @@
+<noinclude>{{Cleanup-srqrp
+|writtenBy=Eddie the head
+|checkedBy=
+|reward=Multiple
+|rewardChecked=
+}}</noinclude>{{About|the Stormcloak version of this mission|the Imperial version|Battle for Whiterun (Imperial)}}
+{{Quest Header
+|type=Stormcloaks
+|Giver=[[Skyrim:Ulfric Stormcloak|Ulfric Stormcloak]]
+|Reward=[[SR:Stormcloaks#Titles|Ice-Veins]] title with a [[Skyrim:Leveled Lists#Enchanted Weapons|leveled enchanted weapon]]
+|Disp= = 1 ([[SR:Ulfric Stormcloak|Ulfric Stormcloak]])<br>0→2 ([[SR:Vignar Gray-Mane|Vignar Gray-Mane]])<br>0→2 ([[SR:Brill|Brill]])<br>0→2 ([[SR:Olfina Gray-Mane|Olfina Gray-Mane]])<br>= -1 ([[SR:Balgruuf the Greater|Balgruuf the Greater]])<br>= -1 ([[SR:Proventus Avenicci|Proventus Avenicci]])<br>= -1 ([[SR:Irileth|Irileth]])<br>= -1 ([[SR:Hrongar|Hrongar]])<br>= -1 ([[SR:Frothar|Frothar]])<br>= -1 ([[SR:Nelkir|Nelkir]])<br>= -1 ([[SR:Dagny|Dagny]])
+|Rep=
+|Prev=[[Skyrim:Message to Whiterun (Stormcloaks)|Message to Whiterun]]
+|Conc=
+|Next=[[Skyrim:Liberation of Skyrim|Liberation of Skyrim]]
+|Loc=[[Skyrim:Windhelm|Windhelm]], [[Skyrim:Whiterun|Whiterun]]
+|Image=SR-quest-Battle_for_Whiterun.jpg
+|ImgDesc=The Stormcloaks begin their advance on the city of Whiterun
+|description=Take [[Skyrim:Whiterun|Whiterun]] in the name of the [[Skyrim:Stormcloaks|Stormcloaks]].
+|ID=CWSiegeObj
+|Icon=SR-qico-Stormcloaks.png
+|radiant=yes
+}}
+
+==Quick Walkthrough==
+#Get your orders from [[Skyrim:Ulfric Stormcloak|Ulfric]].
+#Meet the [[Skyrim:Stormcloaks|Stormcloaks]] preparing for the attack.
+#Storm [[Skyrim:Whiterun|Whiterun]].
+#Defeat [[Skyrim:Balgruuf the Greater|Jarl Balgruuf the Greater]].
+
+==Detailed Walkthrough==
+===Making it to the Gates===
+[[File:SR-quest-Battle_for_Whiterun4.jpg|thumb|left|The Whiterun guard have stationed themselves atop the walls in order to defend the city...]]
+After finishing the previous quest, Jarl [[Skyrim:Ulfric Stormcloak|Ulfric Stormcloak]] will tell you that you are going to help take [[Skyrim:Whiterun|Whiterun]]. Report to [[Skyrim:Galmar Stone-Fist|Galmar Stone-Fist]] for orders, who will direct you to meet him outside the city.
+
+At this point, the Whiterun and Dragonsreach icons will disappear from the map and the city will not be reachable via fast travel for the duration of this quest, even if a house is owned or if you have a spouse in Whiterun. Only the surroundings of the city can be reached via fast travel, or you can use a [[Skyrim:Transport#Carriage|Carriage]] from [[Skyrim:Windhelm|Windhelm]] to get there by asking [[Skyrim:Alfarinn|Alfarinn]], it will cost you 20 gold, however if you choose this option.
+
+Head to the [[Skyrim:Whiterun Military Camp|Whiterun Military Camp]], southwest of Whiterun, and you will notice that the besieging of Whiterun has already begun. Head to where Galmar is briefing the men on the attack and listen in. He will say your destination is the drawbridge that has been raised to keep the attackers out.
+
+Once the rallying of the troops is done, charge in with Galmar and the troops. Don't worry too much about killing all the [[Skyrim:Imperial Legion|Imperials]], as more spawn. When you reach the first set of wooden barricades is also when you meet the first enemies. Breaking through the barricades is easy. Hit them a few times with a weapon and they break. Your journal will then tell you to lower the drawbridge. Move up the path to the small wooden bridge with the stone walls to your side, head up there, and go up the walkway. You will see two drawbridge levers over the drawbridge. Pull one. The bridge will fall, and the soldiers will run into the city.
+{{NewLine}}
+
+===Inside the City===
+[[File:SR-quest-Battle_for_Whiterun2.jpg|thumb|right|...which is quickly overwhelmed by the Stormcloaks.]]
+Head into the city. Your destination now is [[Skyrim:Dragonsreach|Dragonsreach]] (It may be safer to stay with Galmar and the soldiers). Several barriers block the entrance to the plains district, which are destroyed after 3 blows from any weapon (power attacks make no difference). Upon entering Dragonsreach, three soldiers will charge at you, but they will die easily. Continue up the stairs, where [[Skyrim:Balgruuf the Greater|Balgruuf]] will shout about not letting you take the city without fighting back. Then he, three guards, and his Housecarl, [[Skyrim:Irileth|Irileth]], will attack you. Kill the soldiers. After the jarl is reduced to 25% health, he will stop the fight and surrender.
+
+[[Skyrim:Vignar Gray-Mane|Vignar Gray-Mane]] will approach the jarl and they will have a short conversation. Galmar will stop the conversation after a while, Vignar will walk off after a few more words and Balgruuf will address you for a minute. With Balgruuf stepping down, Vignar takes the throne as the new Jarl of Whiterun. The quest will end there and the next quest, [[Skyrim:Liberation of Skyrim|Liberation of Skyrim]], will begin.
+
+When you return to Ulfric Stormcloak in Windhelm, he commends you for the victory and rewards you with an enchanted leveled weapon and gives you the title "Ice-Veins".
+
+==Notes==
+*The Whiterun Guards faced in this battle are significantly lower level than those normally patrolling the city.
+*Bodies will quite often disappear during this quest - this is intentional to reduce lag and is not a bug.
+*After the battle, if you have an outstanding bounty in the Whiterun Hold, it will be erased.
+*This quest, [[Skyrim:Battle for Whiterun (Imperial)|Battle for Whiterun (Imperial)]], [[Skyrim:Battle for Solitude|Battle for Solitude]], and [[Skyrim:Battle for Windhelm|Battle for Windhelm]] are all different radiant versions of the same quest.
+*From here on, Stormcloak Soldiers will take over as guards of the Whiterun Hold, though Whiterun Guards will continue to patrol [[Skyrim:Riverwood|Riverwood]]. Whether this is intentional or not is unknown.
+**There is another exception. After the battle, the [[Skyrim:Wounded Soldier|Wounded Soldier]] won't be replaced with a Stormcloak one, and will continue to wear his yellow Whiterun guard's armor. Again, whether this is intentional or not is unknown.
+*Taking the carriage directly to Whiterun automatically skips the objective to "Break through the Enemy Barricade".
+*After getting your orders at the Whiterun Military camp, you can head straight to Windhelm. The battle will be won in your absence, but Ulfric Stormcloak will be disappointed that you ran away.
+*[[Skyrim:Severio Pelagia|Severio Pelagia]] dies at the beginning of this quest.
+*Even before this quest has begun, Whiterun Guards and Stormcloak soldiers can be seen engaging each other in combat.
+*If you previously befriended [[Skyrim:Alfhild Battle-Born|Alfhild Battle-Born]], [[Skyrim:Idolaf Battle-Born|Idolaf Battle-Born]], or [[Skyrim:Lars Battle-Born|Lars Battle-Born]], they will remain friendly after the Stormcloaks gain control of Whiterun.
+*If you previously told [[Skyrim:Idolaf Battle-Born|Idolaf Battle-Born]] that you support the Battle-Borns, Idolaf will remain friendly after the Stormcloaks gain control of Whiterun.
+*If [[Skyrim:Lucia|Lucia]]{{HF}} has been adopted, she will be transferred to the Bannered Mare until after the battle is over. This happens because her editor location is there and CWCitizensFlee will pick her up in one of the aliases.
+* [[Skyrim:The Bannered Mare|The Bannered Mare]] will have a barricade across the main entrance and both doors will be expert-locked, however if you pick the lock, both [[Skyrim:Hulda|Hulda]] and [[Skyrim:Saadia|Saadia]] will have their normal speech options, welcoming you and are willing to trade.
+* [[Skyrim:Breezehome|Breezehome]] becomes locked again, key required.
+* [[Skyrim:Honningbrew Meadery|Honningbrew Meadery]] is apprentice-locked during this battle, however if you pick the lock [[Skyrim:Sabjorn|Sabjorn]] will be back in charge with both him and [[Skyrim:Mallus Maccius|Mallus Maccius]] telling you to get out and treating you as if they don't know you. You are unable to trade with either of them.
+* You will be unable to enter [[Skyrim:Jorrvaskr|Jorrvaskr]] during or after the battle as all the doors require a key.
+* Your horse can easily be killed if it's waiting by the stables, as it does if you fast-traveled here.
+* Unused files suggest Jarl Balgruuf the Greater was intended to flee the battle through a secret passage located behind the throne rather than stay and fight.
+* Stealing items causes a bounty to be applied to Eastmarch rather than Whiterun.
+* After this quest [[Skyrim:Fort Greymoor|Fort Greymoor]] will be garrisoned by Stormcloak rebels. Additionally, [[Skyrim:Whiterun Imperial Camp|Whiterun Imperial Camp]] will finally be set up, though the soldiers there will be hostile. [[Skyrim:Whiterun Stormcloak Camp|Whiterun Stormcloak Camp]] will now be abandoned, and a hunter's camp will be there instead. The default banners at [[Skyrim:Western Watchtower|Western Watchtower]] and [[Skyrim:Whitewatch Tower|Whitewatch Tower]] will be replaced with blue Stormcloak ones. The Imperial swords at Whitewatch Tower will be replaced as well.
+
+==Bugs==
+{{Bug|[[Skyrim:Vilkas|Vilkas]] may fail to greet you properly after the battle is finished.|OSP|1.9}}
+{{Bug|Random [[Skyrim:Dragon|dragon]] attacks may occur in and around the city of Whiterun during this quest.|OSP|1.9.26.0.8}}
+{{Bug|After defeating the Jarl and getting him to surrender, the quest pointer may continue to point to him, but no interaction is possible and the quest does not update.|confirmed=1}}
+**Striking the Jarl and then paying off the bounty may fix this.
+**Using Unrelenting Force to knock down both Vignar Gray-Mane and Balgruuf at the same time may also fix this.
+{{Bug|The doors to Jorrvaskr and the Underforge will become locked during this mission, and may not unlock after it's completed. Since the doors require an unavailable key, this renders the buildings (as well as the Companions inside) inaccessible to you.|confirmed=1}}
+**{{pc22}} You can unlock the doors using the <code>unlock</code> [[Skyrim:Console|console]] command.
+** Fast-traveling to any town then back to Whiterun may resolve the issue.
+{{Bug|[[Skyrim:Commander Caius|Commander Caius]] may not be exiled and will still be present for the mead tasting during [[Skyrim:Dampened Spirits|Dampened Spirits]] instead of [[Skyrim:Sinmir|Sinmir]].}}
+{{Bug|The Whiterun Guards in Riverwood may not be replaced with Stormcloak Soldiers after you finish the battle.|USKP|2.0.4}}
+{{Bug|Whiterun Stormcloak Camp may never be disabled after the battle is finished.|USSEP|4.0.8}}
+{{Bug|You may not be able to break barricades as a werewolf.|confirmed=1}}
+{{Bug|[[Skyrim:Aela the Huntress|Aela the Huntress]] may disappear if she is your wife at the time. She may come back eventually after you have moved on to the next quest, [[Skyrim:Liberation of Skyrim|Liberation of Skyrim]].|confirmed=1}}
+{{Bug|The Stormcloak soldiers might attack your follower(s). It is advised to order any followers to wait outside the gates before entering.|vn=1}} {{vn|Needs testing to determine if this is due to a bug or something else}}
+{{Bug|Receiving the quest update "force Jarl Balgruuf the Greater to surrender" may cause the game to crash upon entering Whiterun or, if the city is entered beforehand, the game may crash immediately upon receiving it.|confirmed=1}}
+{{Bug|Killing Whiterun guards instead of Imperial soldiers will incur a bounty, though it will be removed after the battle.|confirmed=1}}
+{{Bug|Entering Chillfurrow Farm or Pelagia Farm during this quest may end it prematurely.|confirmed=1}}
+{{Bug|Upon entering Whiterun, there may be no Imperial soldiers and you may be unable to get Balgruuf to surrender.|confirmed=1}}
+{{Bug|Ulfric may not give you any orders before the battle, which will prevent the quest from progressing.|confirmed=1}}
+{{Bug|{{Anchor||Incomplete Bug}}Upon completion of the quest when you are asked to return to Ulfric, it may not let you continue, and the normal dialogue will appear. In addition, the fast-travel markers will be disabled and the battle music may still be running.|confirmed=1}}
+** Striking the Jarl and then paying off the bounty may fix this.
+** If not in or near Whiterun, fast-travel to Pelagia Farm and walk into the city from there.
+** If the battle music is still running, go to Dragonsreach and wait until it completes. The completion of the battle music also completes the Battle for Whiterun quest properly and solves most issues with the Civil War questline.
+** If Whiterun's markers are still disabled, walk back out of the city gates, following the path towards the stables until the markers reappear.
+** Travelling to the Stormcloak camp outside of Whiterun may also resolve the issue.
+** Ralof may be running on the spot in the camp, downing him and reloading the save fixes this issue.
+** If you fast travel to Windhelm after the battle is finished Ulfric may not acknowledge it and you'll be stuck in the quest. Exit Whiterun through the main gates where you enter for the quest to work properly.
+{{Bug|Using a shout against the Whiterun guards who run at you upon entering Dragonsreach will turn Galmar hostile towards you. Do not engage the guards until they've spoken their lines.}}
+
+==Quest Stages==
+Only the quest stages and objectives that are possibly relevant to this radiant version of the quest are shown.
+{{Journal Entries
+|name=Battle for Whiterun
+|1||Ulfric Stormcloak has ordered me to join Galmar Stone-Fist in taking the city of Whiterun.
+|8999|fail|
+|9000|fin|We have taken the city of Whiterun. Proving the righteousness of our cause and the fierceness of our warriors.{{VN|Does this display? Looks like it shouldn't in the CK.}}
+|''Unknown''||{{Quest Objective|1000|Get your Orders from Galmar Stone-Fist}}
+{{Quest Objective|1005|Break through the Enemy Barricade}}
+{{Quest Objective|1015|Follow Galmar Stone-Fist}}
+{{Quest Objective|1020|Open the Exterior Gate}}
+{{Quest Objective|1030|Open the Drawbridge}}
+{{Quest Objective|1050|Enter Whiterun}}
+{{Quest Objective|1060|Break through the First Barricade}}
+{{Quest Objective|1070|Break through the Second Barricade}}
+{{Quest Objective|1080|Break through the Final Barricade}}
+{{Quest Objective|1200|Force Jarl Balgruuf the Greater to surrender}}
+{{Quest Objective|1210|Accept Jarl Balgruuf the Greater's surrender}}
+[[Category:Skyrim-SRQRP-Unknown Objectives]]
+|missing=9999
+}}
+{{Skyrim Quest Stages Notes}}

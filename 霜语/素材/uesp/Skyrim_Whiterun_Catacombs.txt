@@ -1,6 +1,93 @@
-#REDIRECT [[Skyrim:Hall of the Dead (Whiterun)#Whiterun Catacombs]]
+<noinclude>{{Cleanup-shrp
+|writtenby=The Silencer
+|checkedby=
+}}</noinclude>{{Place Summary
+|type=Cemetery
+|zones=2
+|image=SR-place-Hall of the Dead (Whiterun).jpg
+|imgdesc=Hall of the Dead
+|region=Whiterun Hold
+|occupants=[[Skyrim:Skeleton|Skeletons]]
+|location=Wind District of [[Skyrim:Whiterun|Whiterun]]
+|description=the final resting place for many of [[Skyrim:Whiterun|Whiterun]]'s late residents.</noinclude>
+|locationcode=WhiterunHalloftheDead, WhiterunHalloftheDeadCatacombs
+|city=Whiterun
+|mapname=Hall of the Dead (Whiterun)
+|shadowmark=danger
+|addabove=The
+|treasure=[[Skyrim:Unusual Gem|Unusual Gem]]<br>''[[Skyrim:Death Blow of Abernanit|Death Blow of Abernanit]]''
+}} [[Category:Skyrim-Places-Cemeteries]]
+The building is located in the Wind District of [[Skyrim:Whiterun|Whiterun]]. It is the second building on the right from the [[Lore:Gildergreen|Gildergreen]] tree, between the [[Skyrim:Temple of Kynareth|Temple of Kynareth]] and the [[Skyrim:House of Clan Battle-Born|House of Clan Battle-Born]]. There are two parts to the building, the ''[[#Hall of the Dead|Hall of the Dead]]'', and the ''[[#Whiterun Catacombs|Catacombs]]''.
 
-[[Category:Skyrim-Places]]
-[[Category:Skyrim-Places-Cemeteries]]
-[[Category:Skyrim-Places-Whiterun]]
-[[Category:Redirects to Broader Subjects]]
+The hall and catacombs are maintained by a single priest, [[Skyrim:Andurs|Andurs]]. If a resident of Whiterun should die, their remains will be interred in the catacombs, in a coffin or urn, along with all of the items they carried in life.
+{{NewLeft}}
+== NPCs Living Here ==
+{| class="wikitable" width=100px
+!Residents
+|-
+|
+;[[Skyrim:Andurs|Andurs]]
+|}
+
+== Related Quests ==
+* {{Quest Link|Andurs' Arkay Amulet}}
+* {{Quest Link|Legends Lost}}{{Creation Club}}
+* {{Quest Link|No Stone Unturned}}
+* {{Quest Link|Pilgrimage}}
+
+==Interior==
+===Hall of the Dead===
+This first area serves as Andurs' living quarters and chapel. The middle section of the room contains six [[Skyrim:Lavender|lavender]] plants and two benches, with the door to the catacombs at the far end. The section to the right is the chapel, and contains two benches and a [[Skyrim:Shrine of Arkay|shrine of Arkay]]. The section to the left contains two benches and three lavender plants, and the door to Andurs' bedroom. 
+
+Andurs' bedroom contains his owned bed, two wardrobes, a chest containing gold, and a chair by a table. On the table is a coin purse, a [[Skyrim:Weak Aversion to Fire|Weak Aversion to Fire potion]], and three books. On the shelf above the table is a [[Skyrim:Weak Poison|Weak Poison]]. To the left of the table is a bookshelf containing various books.
+
+===Whiterun Catacombs===
+The Catacombs are where the bodies of the dead are interred. It is guarded by three respawning skeletons: to the right is the first, at the bottom of the stairs is the second, and in the closed room to the left of the main door is the third. Also in this room is a copy of the [[Skyrim:Block|Block]] [[Skyrim:Skill Books|skill book]] ''[[Skyrim:Death Blow of Abernanit|Death Blow of Abernanit]]'' and two coin purses. Down the stairs on the left, in the first bottom alcove on the left, is an [[Skyrim:Unusual Gem|unusual gem]]. In the room behind the second skeleton is [[Skyrim:Andurs' Arkay Amulet|Andurs' Amulet of Arkay]], which only appears once the quest [[Skyrim:Andurs' Arkay Amulet|Andurs' Arkay Amulet]] has begun and can be found on the small table to the right of the brazier.
+
+NPCs that can be buried here are:
+*[[Skyrim:Adrianne Avenicci|Adrianne Avenicci]]
+*[[Skyrim:Ahlam|Ahlam]]
+*[[Skyrim:Alfhild Battle-Born| Alfhild Battle-Born]]
+*[[Skyrim:Amren|Amren]]
+*[[Skyrim:Andurs|Andurs]]
+*[[Skyrim:Anoriath|Anoriath]]
+*[[Skyrim:Avulstein Gray-Mane|Avulstein Gray-Mane]]
+*[[Skyrim:Belethor|Belethor]]
+*[[Skyrim:Brenuin|Brenuin]]
+*[[Skyrim:Brill|Brill]]
+*[[Skyrim:Carlotta Valentia|Carlotta Valentia]]
+*[[Skyrim:Commander Caius|Commander Caius]]
+*[[Skyrim:Danica Pure-Spring|Danica Pure-Spring]]
+*[[Skyrim:Elrindir|Elrindir]]
+*[[Skyrim:Eorlund Gray-Mane|Eorlund Gray-Mane]]
+*[[Skyrim:Farengar Secret-Fire|Farengar Secret-Fire]]
+*[[Skyrim:Fralia Gray-Mane|Fralia Gray-Mane]]
+*[[Skyrim:Heimskr|Heimskr]]
+*[[Skyrim:Hulda|Hulda]]
+*[[Skyrim:Idolaf Battle-Born|Idolaf Battle-Born]]
+*[[Skyrim:Irileth|Irileth]]
+*[[Skyrim:Jon Battle-Born|Jon Battle-Born]]
+*[[Skyrim:Mikael|Mikael]]
+*[[Skyrim:Nazeem|Nazeem]]
+*[[Skyrim:Olava the Feeble|Olava the Feeble]]
+*[[Skyrim:Olfina Gray-Mane|Olfina Gray-Mane]]
+*[[Skyrim:Olfrid Battle-Born|Olfrid Battle-Born]]
+*[[Skyrim:Saadia|Saadia]]
+*[[Skyrim:Thorald Gray-Mane|Thorald Gray-Mane]]
+*[[Skyrim:Ulfberth War-Bear|Ulfberth War-Bear]]
+*[[Skyrim:Uthgerd the Unbroken|Uthgerd the Unbroken]]
+*[[Skyrim:Ysolda|Ysolda]]
+
+==Notes==
+* There is a {{shadowmark|danger}} [[SR:Shadowmarks (Thieves Guild)|shadowmark]] to the left of the entrance door. This is because the Whiterun Catacombs are inhabited by skeletons.
+* There is an unused burial urn ref for the cut NPC [[Skyrim:Terek|Terek]].
+
+==Gallery==
+<gallery>
+File:SR-interior-Hall of the Dead (Whiterun).jpg|The chapel
+File:SR-interior-Hall of the Dead (Whiterun) 04.jpg|The shrine in the chapel
+File:SR-interior-Hall of the Dead (Whiterun) 02.jpg|Andurs' living quarters
+File:SR-interior-Hall of the Dead (Whiterun) 03.jpg|The catacombs
+File:SR-interior-Hall of the Dead (Whiterun) 05.jpg|A burial urn
+File:SR-interior-Hall of the Dead (Whiterun) 06.jpg|A coffin
+</gallery>

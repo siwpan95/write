@@ -1,0 +1,37 @@
+{{Lore Book
+|SR=1
+|author=Prior [[Lore:Books by Author#Emelene Madrine|Emelene Madrine]]
+|sumauthor=Prior [[Lore:Books by Author#Emelene Madrine|Emelene Madrine]]<br>[[Lore:Order of Talos|Order of Talos]]<br>[[Lore:Weynon Priory|Weynon Priory]]
+|description=A treatise on the Dragonborn
+}}
+===={{Year|3E 360|Year 360 of the Third Era}}, Twenty-First of the Reign of His Majesty {{Lore Link|Pelagius Septim IV|Pelagius IV}}====
+
+{{LetterPic|M}}any people have heard the term "{{Lore Link|Dragonborn|SRlink=SR:Dovahkiin}}" - we are of course ruled by the "Dragonborn Emperors" - but the true meaning of the term is not commonly understood. For those of us in the [[Lore:Order of Talos|Order of]] {{Lore Link|Tiber Septim|Talos}}, this is a subject near and dear to our hearts, and in this book I will attempt to illuminate the history and significance of those known as Dragonborn down through the ages.
+
+Most scholars agree that the term was first used in connection with the Covenant of {{Lore Link|Akatosh}}, when the blessed {{Lore Link|Alessia|St. Alessia}} was given the {{Lore Link|Amulet of Kings}} and the {{Lore Link|Dragonfires}} in the {{Lore Link|Temple of the One}} were first lit. "Akatosh, looking with pity upon the plight of men, drew precious blood from his own heart, and blessed St. Alessia with this blood of {{Lore Link|Dragon}}, and made a Covenant that so long as Alessia's generations were true to the dragon blood, Akatosh would endeavor to seal tight the Gates of Oblivion, and to deny the armies of {{Lore Link|daedra}} and undead to their enemies, the Daedra-loving {{Lore Link|Ayleids}}." Those blessed by Akatosh with "the dragon blood" became known more simply as Dragonborn.
+
+The connection with the rulers of the {{Lore Link|Empire}} was thus there from the beginning - only those of the dragon blood were able to wear the Amulet of Kings and light the Dragonfires. All the legitimate rulers of the Empire have been Dragonborn - the Emperors and Empresses of the first {{Lore Link|Cyrodilic}} Empire founded by Alessia; {{Lore Link|Reman Cyrodiil}} and his heirs; and of course Tiber Septim and his heirs, down to our current Emperor, His Majesty Pelagius Septim IV.
+
+Because of this connection with the Emperors, however, the other significance of the Dragonborn has been obscured and largely forgotten by all but scholars and those of us dedicated to the service of the blessed Talos, Who Was Tiber Septim. Very few realize that being Dragonborn is not a simple matter of heredity - being the blessing of Akatosh Himself, it is beyond our understanding exactly how and why it is bestowed. Those who become Emperor and light the Dragonfires are surely Dragonborn - the proof is in the wearing of the Amulet and the lighting of the Fires. But were they Dragonborn and thus able to do these things - or was the doing the sign of the blessing of Akatosh descending upon them? All that we can say is that it is both, and neither - a divine mystery.
+
+The line of Septims have all been Dragonborn, of course, which is one reason the simplistic notion of it being hereditary has become so commonplace. But we know for certain that the early Cyrodilic rulers were not all related. There is also no evidence that Reman Cyrodiil was descended from Alessia, although there are many legends that would make it so, most of them dating from the time of Reman and likely attempts to legitimize his rule. We know that the {{Lore Link|Blades}}, usually thought of as the Emperor's bodyguards, originated in {{Lore Link|Akavir}}i crusaders who invaded {{Lore Link|Tamriel}} for obscure reasons in the late {{Lore Link|First Era}}. They appear to have been searching for a Dragonborn - the events at {{Lore Link|Pale Pass}} bear this out - and the Akaviri were the first to proclaim Reman Cyrodiil as Dragonborn. In fact it was the Akaviri who did the most to promote his standing as Emperor (although Reman himself never took that title in his lifetime). And of course there is no known hereditary connection between Tiber Septim and any of the previous Dragonborn rulers of Tamriel.
+
+Whether there can be more than one Dragonborn at any time is another mystery. The Emperors have done their best to dismiss this notion, but of course the Imperial succession itself means that at the very least there are two or more potential Dragonborn at any time: the current ruler and his or her heirs. The history of the Blades also hints at this - although little is known of their activities during the Interregnum between [[Lore:Second Empire|Reman's Empire]] and the rise of Tiber Septim, many believe that the Blades continued to search out and guard those they believed were (or might be) Dragonborn during this time.
+
+Lastly, we come to the question of the true meaning of being Dragonborn. The connection with dragons is so obvious that it has almost been forgotten - in these days when dragons are a distant memory, we forget that in the early days being Dragonborn meant having "the dragon blood". Some scholars believe that was meant quite literally, although the exact significance is not known. The Nords tell tales of Dragonborn heroes who were great dragonslayers, able to steal the power of the dragons they killed. Indeed, it is well known that the Akaviri sought out and killed many dragons during their invasion, and there is some evidence that this continued after they became Reman Cyrodiil's Dragonguard (again, the connection to dragons) - the direct predecessor to the Blades of today.
+
+I leave you with what is known as "The [[Lore:Prophecy of the Dragonborn|Prophecy of the Dragonborn]]". It often said to originate in an {{Lore Link|Elder Scroll}}, although it is sometimes also attributed to the ancient Akaviri. Many have attempted to decipher it, and many have also believed that its omens had been fulfilled and that the advent of the "Last Dragonborn" was at hand. I make no claims as an interpreter of prophecy, but it does suggest that the true significance of Akatosh's gift to mortalkind has yet to be fully understood.
+<p align="left">
+When {{Lore Link|Imperial Simulacrum|misrule}} takes its place at the {{Lore Link|Staff of Chaos|eight corners}} of the world
+<p align="left">
+When the {{Lore Link|Anumidium|Brass Tower}} walks and {{Lore Link|Warp in the West|Time is reshaped}}
+<p align="left">
+When the {{Lore Link|Tribunal|thrice-blessed}} fail and the {{Lore Link|Red Mountain|Red Tower}} [[Lore:Red Year|trembles]]
+<p align="left">
+When the {{Lore Link|Septim Dynasty|Dragonborn Ruler}} {{Lore Link|Oblivion Crisis|loses his throne}}, and the [[Lore:White-Gold Tower|White Tower]] {{Lore Link|Great War|falls}}
+<p align="left">
+When the {{Lore Link|Throat of the World|Snow Tower}} lies [[Lore:Stormcloak Rebellion|sundered, kingless, bleeding]]
+<p align="left">
+The {{Lore Link|Alduin|World-Eater}} wakes, and the [[Lore:Aurbis|Wheel]] turns upon the {{Lore Link|Last Dragonborn}}.
+</p>
+{{Book End}}

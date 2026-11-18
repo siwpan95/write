@@ -1,0 +1,133 @@
+{{NPC Summary
+|city=[[Skyrim:Riften|Riften]]
+|loc=[[Skyrim:Haelga's Bunkhouse|Haelga's Bunkhouse]]
+|race=Nord
+|gender=Female
+|class=[[Skyrim:Citizen (class)|Citizen]]
+|faction={{Faction|CrimeFactionRift}}; {{Faction|Riften Haelga's Bunkhouse Faction}}; {{Faction|RiftenBunkhouseMarkerRestrictFaction}}; {{Faction|TownRiftenFaction}}
+|refid=00019DDA
+|baseid=0001335F
+|image=SR-npc-Haelga.jpg
+|imgdesc=Haelga
+|skills=[[Skyrim:Light Armor|Light Armor]], [[Skyrim:One-handed|One-handed]], [[Skyrim:Smithing|Smithing]], [[Skyrim:Speech|Speech]], [[Skyrim:Two-handed|Two-handed]]
+|aggress=Unaggressive
+|level=8
+|moral=Any Crime
+|health=108
+|magicka=73
+|stamina=74
+|voicetype=FemaleSultry
+|essential=Yes, until stage 20 of [[Skyrim:Taking Care of Business|Taking Care of Business]]
+}}
+'''Haelga''' is a [[Skyrim:Nord|Nord]] [[Skyrim:Citizen (class)|citizen]] and the promiscuous owner of [[Skyrim:Haelga's Bunkhouse|Haelga's Bunkhouse]] in [[Skyrim:Riften|Riften]]. She saved her niece [[Skyrim:Svana Far-Shield|Svana Far-Shield]] from the [[Skyrim:Honorhall_Orphanage|orphanage]] when her parents died, and now has her working as a maid in the Bunkhouse. Relations between the two are rather strained, as Svana believes she is being worked like a slave and that Haelga takes her worship of [[Lore:Dibella|Dibella]] too seriously. Haelga's room shows her dedication to her Dibellan Arts: she has a shrine to Dibella, [[Skyrim:Potion of Stamina|stamina potions]], [[Skyrim:Honey|honey]], [[Skyrim:Leather Strips|leather strips]], a [[Skyrim:Horker Tusk|horker tusk]] hidden under the bed, [[Skyrim:Falmer Blood Elixir|Falmer blood elixir]] ("make love like a sabre cat") and even a set of shackles on her bed. She is known to give a [[Skyrim:Mark of Dibella|mark of Dibella]] to every one she practices her Dibellan Arts with. The marks are made specially by [[Skyrim:Madesi|Madesi]], who does not know what they are used for. She's worried that Riften's people would kick her out of the city if her worship of Dibella became public knowledge.
+
+Haelga wakes up at 6am to have breakfast, before starting work at 7am in her bunkhouse, where she tends the front desk. At 2pm she goes out shopping in the Riften market before returning to work at 6pm. She finishes work at 7pm and enjoys dinner at the bunkhouse, and then goes out at 8pm to meet [[Skyrim:Bolli|Bolli]] for drinks at [[Skyrim:The Bee and Barb|the Bee and Barb]]. She returns home at 12am to sleep.
+
+She wears some [[Skyrim:Clothes#0006ff45|shopkeeper clothes]], a pair of [[Skyrim:Fine Boots|fine boots]], and an [[Skyrim:Amulet of Dibella|amulet of Dibella]]. She also carries the [[Skyrim:Haelga's Bunkhouse Key|key to the bunkhouse]], a [[Skyrim:Belted Tunic|belted tunic]], and a [[Skyrim:Leveled Lists#Rich|selection of upper-class items and gold]]. She is armed with a [[Skyrim:Dagger|dagger]] that can be up to [[Skyrim:Elven|elven]] in quality at level 20.
+
+{{NewLeft}}
+== Related Quests ==
+* {{Quest Link|Caught Red Handed}}
+* {{Quest Link|Taking Care of Business}}
+==Dialogue==
+If you approach her: 
+:''"New around Riften? Take my advice. Stay at the Bee and Barb... the Bunkhouse isn't for you."''
+:''"If you're looking for a bed, this is the wrong place."''
+:''"You looking for something or what?"'' 
+:''"Oh, it's you. Come to extort more from me?"'' '''(If [[Skyrim:Taking Care of Business|Taking Care of Business]] has been completed)'''
+
+Speaking to her:
+:'''What is this place?'''
+:''"This heap of matchsticks is what everyone calls Haelga's Bunkhouse. Can you stay here? No. The Bunkhouse is for the working man, not some sort of a luxury inn for tourists."''
+
+:'''Are you the only one that works at the Bunkhouse?'''
+:''"Of course not. You expect me to take care of it by myself? My niece Svana helps me with the chores. She'd be more help if she kept her head out of the clouds. She's been with me ever since her parents were killed by bandits and she was dropped in my lap."''
+
+:'''Where can I learn more about magic?'''
+:''"There's a [[Skyrim:College of Winterhold (place)|College]] in [[Skyrim:Winterhold|Winterhold]] that teaches magic. It's very secretive, though, and you know how people hate secrets. The Jarl's [[Skyrim:Wylandriah|court wizard]] was taught there. That one's full of secrets."''
+
+Upon ending conversation: 
+:''"I don't know why I bother."''
+
+==Quest-Related Dialogue==
+===Caught Red Handed===
+During the quest [[Skyrim:Caught Red Handed|Caught Red Handed]], Svana will ask you to collect three Marks of Dibella from Haelga's lovers: [[Skyrim:Bolli|Bolli]], [[Skyrim:Indaryn|Indaryn]], and [[Skyrim:Hofgrir Horse-Crusher|Hofgrir Horse-Crusher]].
+
+Once you've gathered the Marks, confront Haelga by saying: 
+:'''I believe these are yours?'''
+:''"What? How... where did you get these? No, don't tell me. I don't want to know. Look, we need to keep this quiet... between you and me, okay. No one else needs to know about it. If word got out that I'm practicing my Dibellan Arts in Riften, they'll run me out of town. Here, take this and don't mention a word of this to anyone, especially Svana!"''
+
+She'll give you a [[Skyrim:Scrolls|magic scroll]].
+===Taking Care of Business===
+
+:'''I have a message from Brynjolf.'''
+:''"What does he want now? I already explained to him that you can't get blood from a stone."''
+
+::'''This isn't about the money anymore.'''
+::''"Look, I can't make the coin appear out of thin air. Please, be reasonable. I'll... I'll pay next month."''
+:::'''We've run out of patience.'''
+:::''"And so have I. What's the point of paying anyway? Your outfit can't even fend for itself. I could do better tossing the gold into the sewer. You can't scare me with your tough talk. I'm not paying you people a single coin."''
+
+::'''Then you'll pay in more than just coin. (Brawl)''' 
+::''"Ha! We'll see about that!"''
+
+If you win the brawl:
+:''"Here... take your damn coin and get out of here!"''
+
+If you take her statue of Dibella:
+:''"Please! Don't take the statue! It's the only thing of value I have left!"''
+:'''I have a message from Brynjolf.''' 
+:''"You... you have my statue! What are you going to do with it?"''
+:'''So, should I drop this statue down a well?'''
+:''"Not Lady Dibella! No, please! I can't lose her! I get the message. Here, take your gold. I hope you choke on it!"''
+
+===Spread the Love===
+When you are [[Skyrim:Spread the Love|handing out]] [[Skyrim:The Warmth of Mara|religious pamphlets]] to the citizens of Riften, you may give Haelga one. She doesn't seem interested, though: 
+:''"Huh? Oh. Sure, whatever. I prefer Dibella's teachings myself."''
+
+== Conversations ==
+She may 'converse' with Svana while at the bunkhouse:
+[[File:SR-npc-Haelga 02.jpg|thumb|right|''"Aunt Haelga, why you... demean yourself with these people you barely know?"'']]
+'''Svana''': ''"Aunt Haelga, why you... demean yourself with these people you barely know? They show no real love for you."''<br>
+'''Haelga''': ''"It's only a bit of fun. You're a lovely young thing, you should try it sometime."''<br>
+'''Svana''': ''"No! I'm saving myself for someone special. Someone who loves me dearly."''<br>
+'''Haelga''': ''"You mean [[Skyrim:Sibbi Black-Briar|Sibbi]]? You must be joking! All he wants to do is bed you and be done with it. You may as well get it over with and let him."''<br>
+'''Svana''': ''"You're wrong! Sibbi and I are in love and you're just jealous!"''
+
+'''Haelga''': ''"Svana! Has that [[Skyrim:Skooma|skooma]]-addled idiot [[Skyrim:Niluva Hlaalu|Niluva]] paid us her rent yet? Or does she have more excuses?"''<br>
+'''Svana''': ''"She said she'll have it soon. She still has her job at the [[Skyrim:Black-Briar Meadery|meadery]] for now, so she'll be able to pay us."''<br>
+'''Haelga''': ''"Why do you insist on defending that woman? All she does with her money is spend it on that [[Skyrim:Dark Elf|Dark Elf]] garbage!"''<br>
+'''Svana''': ''"Just be patient, aunt. She'll have it, I promise."''
+
+While she is shopping, she can be found randomly conversing:
+
+'''Madesi''': ''"Lady Haelga, so pleased to see you. Your Marks of Dibella are ready."''<br>
+'''Haelga''': ''"Oh, splendid! I can't wait to use them."''<br>
+'''Madesi''': ''"Begging your pardon milady... I know these have something to do with Dibella, but whatever are they for?"''<br>
+'''Haelga''': ''"Maybe I'll show you one day, Madesi. Have them delivered to the Bunkhouse, won't you?"''
+
+'''Haelga''': ''"So, [[Skyrim:Tythis Ulen|Tythis]]... you coming by the Bunkhouse later?"''<br>
+'''Tythis''': ''"Of course. I rented a bed there. Where else would I sleep?"''<br>
+'''Haelga''': ''"I have plenty of room in my bed."''<br>
+'''Tythis''': ''"Good, that must be very comfortable for you. I think mine's a bit too small. Perhaps we could trade?"''<br>
+'''Haelga''': ''"Sigh."''
+
+'''[[Skyrim:Maven Black-Briar|Maven]]''': ''"Haelga, I like you, so I'm only going to say this one time. If you ever try and 'practice the Dibellan arts' with [[Skyrim:Hemming Black-Briar|Hemming]] again, I'll make sure that pretty little face loses its beauty."''<br>
+'''Haelga''': ''"He wasn't protesting, Maven."''<br>
+'''Maven''': ''"Of course he wasn't you stupid whore; he's a man. Now I'm not going to warn you again. Is that clear?"''<br>
+'''Haelga''': ''"Very well."''
+
+While at the Bee and Barb, she and Bolli may talk with each other about their affair:
+
+'''Bolli''': ''"Haelga, we need to stop seeing each other."''<br>
+'''Haelga''': ''"Oh, Bolli you silly man. You weren't saying that when you were licking that honey off my..."''<br>
+'''Bolli''': ''"Haelga! That's just it. I can't keep up with you. Your Dibellan techniques... they're exhausting."''<br>
+'''Haelga''': ''"Is it really me, or is it your wife? You need to make a choice Bolli. The honey or her."''<br>
+
+'''Haelga''': ''"When are you going to take me away from here Bolli?"''<br>
+'''Bolli''': ''"I told you, I can't just pick up and leave. I have my wife, my business... not to mention you have the Bunkhouse."''<br>
+'''Haelga''': ''"That old place? I could care less about it. {{sic|Its|It's|description=missing apostrophe}} you I want, Bolli."''<br>
+'''Bolli''': ''"I... I'm sorry Haelga, I can't. Not yet."''
+
+==Bugs==
+{{Bug|Even though Haelga claims that you can't sleep at the Bunkhouse, all beds are free to sleep in, regardless.|USKP|1.3.3|All beds in the bunkhouse are now marked as owned by the bunkhouse faction.}}

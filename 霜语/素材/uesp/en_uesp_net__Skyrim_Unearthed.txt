@@ -1,0 +1,157 @@
+<noinclude>{{Cleanup-srqrp
+|writtenBy=Multiple
+|checkedBy=
+|reward=Legoless
+|rewardChecked=
+}}</noinclude>{{Mod Header|Dragonborn}}{{Trail2|Dragonborn|Quests|link2=Dragonborn Quests|Side Quests}}[[Category:Skyrim-Quests]]{{Quest Header
+|notrail=1
+|type=Side Quests/Miscellaneous
+|Giver=[[Skyrim:Ralis Sedarys|Ralis Sedarys]]
+|Reward=Relics of [[Skyrim:Ahzidal (creature)|Ahzidal]],<br>[[Skyrim:Ralis Sedarys|Ralis Sedarys]] as a follower (if spared)<br>Word for the [[Skyrim:Cyclone|Cyclone]] shout
+|Disp= =1 ([[Skyrim:Ralis Sedarys|Ralis Sedarys]], if left alive)
+|Prev=
+|Loc=[[Skyrim:Kolbjorn Barrow|Kolbjorn Barrow]]
+|Image=SR-quest-Unearthed.jpg
+|ImgDesc=Ahzidal, the embittered destroyer
+|description=Assist [[Skyrim:Ralis Sedarys|Ralis Sedarys]] in his search for the relics of [[Skyrim:Ahzidal (creature)|Ahzidal]] in [[Skyrim:Kolbjorn Barrow|Kolbjorn Barrow]].
+|ID=DLC2dunKolbjornQST/DLC2dunKolbjornMiscQST
+|Icon=SR-qico-Miscellaneous.png
+|SuggLevel=30
+}}
+
+==Quick Walkthrough==
+# ''(Optional)'' Read ''[[Skyrim:Ahzidal's Descent|Ahzidal's Descent]]''.
+# Investigate [[Skyrim:Kolbjorn Barrow|Kolbjorn Barrow]] and speak to [[Skyrim:Ralis Sedarys|Ralis Sedarys]].
+# Agree to help Ralis fund his excavation by donating 1,000 gold and wait for a message from him.
+# Visit Kolbjorn Barrow and defeat the [[Skyrim:Draugr|draugr]].
+# Find a way deeper into the barrow, and then speak to Ralis again.
+# Donate 2,000 gold to fund the excavation of Kolbjorn Barrow and wait for another message from Ralis.
+# Return to Kolbjorn Barrow, clear the draugr, and search for missing [[Skyrim:Miner|miners]].
+# Speak to Ralis, fund 3,000 gold to his excavation, and await another message.
+# Return to Kolbjorn Barrow and clear the draugr.
+# Speak to Ralis, fund 5,000 gold to his excavation, and await another message.
+# Return to Kolbjorn Barrow and locate Ralis.
+# Defeat [[Skyrim:Ahzidal (creature)|Ahzidal]] and confront Ralis; decide what to do with him.
+
+==Detailed Walkthrough==
+===A Strange Partnership===
+Just northeast of the [[Skyrim:Old Attius Farm|Old Attius Farm]] is [[Skyrim:Kolbjorn Barrow|Kolbjorn Barrow]]. Outside Kolbjorn Barrow is a lone Dunmer named [[Skyrim:Ralis Sedarys|Ralis Sedarys]]. Go up and talk to him and he'll explain that he is a treasure hunter and has come with news that he has located a treasure in the barrow, but he cannot afford to excavate it alone and requests a donation of 1,000 gold, with a promise of a share of any treasure discovered.
+
+===First Visit===
+A few days after you give him the money, a [[Skyrim:Courier|courier]] will give you [[Skyrim:Letter from Ralis Sedarys|a note]] about the barrow. Head off over to the barrow, and Ralis will explain that the [[Skyrim:Draugr|draugr]] have been disturbed, and they have killed all the [[Skyrim:Miner|miners]]. He asks you to go in and kill the draugr and then find a way further into the barrow. After you have killed the draugr, take the [[Skyrim:Skull (Dragonborn)|Skull]] off the altar to open the next area, Go into the next room and pick up the [[Skyrim:Ahzidal's Boots of Waterwalking|Ahzidal's Boots of Waterwalking]]. (If the skull has been knocked off the pressure plate on the altar during the fight it must be lifted back onto the plinth and removed once more, or you can "walk" onto it and off by getting on the altar). Go back and talk to Ralis. He'll then ask for 2,000 gold to hire some more miners.
+
+===Second Visit===
+Several days afterward you'll get [[Skyrim:Letter from Ralis Sedarys 2|another note]] asking you to come back to the barrow. There are more draugr and two of the miners are missing. He asks that you locate the [[Skyrim:Bradyn|missing]] [[Skyrim:Mireli|miners]] and to kill the remaining draugr. Before you get to Mireli, there is a gate with 4 handles arranged vertically to the right of the gate. Do not pull the third (from the top), as it releases a dart trap. Pull the switches in the following order: first, second, fourth, first. In the last section of the mine near the corpse of Mireli is a handle (near the floor on the other side of the wall with candles, a soul gem and coins) that can be turned to reveal a secret room where [[Skyrim:Ahzidal's Ring of Necromancy|Ahzidal's Ring of Necromancy]] can be found. Note that although you will hear the sounds of a nearby [[SR:Word Wall|word wall]], it will not be accessible until a later visit.
+
+Ralis now wants 3,000 gold to hire some mercenaries.
+
+===Third Visit===
+You will receive a [[Skyrim:Letter from Ralis Sedarys 3|third letter]] a few days later, asking you to return to the barrow. When the courier delivers the letter, he will tell you ''"Another letter from Ralis. He's starting to scare me a little"'', a portent of things to come. Ralis will tell a similar story as last time: that there are yet more draugr, and that this time they have killed all the [[Skyrim:Kolbjorn Guard|mercenaries]] that he hired. Enter the barrow and kill the draugr. To access [[Skyrim:Ahzidal's Gauntlets of Warding|Ahzidal's Gauntlets of Warding]], pull the chain to the right of the iron doors that lead to the staircase into the newly excavated section, then backtrack around the corner where they will be sitting on a pedestal that was previously unavailable. Then, head down the stairs, avoiding the trap, and kill the new draugr. When you reach the open chamber, you must ensure all the pressure plates are lit for the gate to open and reach [[Skyrim:Ahzidal's Ring of Arcana|Ahzidal's Ring of Arcana]]. (The [[Skyrim:Sneak#Light Foot|Light Foot]] perk does not prevent you from lighting the pressure plates.) The timing is a bit tight; if you can't get it, using [[Skyrim:Slow Time|Slow Time]] seems to work, or you can run along the joint between two rows of tiles, depressing both rows at once, for a total of three runs across the grid. You can also circumvent the puzzle entirely with [[Skyrim:Telekinesis|Telekinesis]]. A pit filled with deep water surrounds the plinth that the ring is on. At the bottom you can find a coin purse, a burial urn and a leveled battleaxe. Once you're done here, head up the stairs and back out of the barrow to talk to Ralis who now wants 5,000 more gold. He will then send you [[Skyrim:Letter from Ralis Sedarys 4|one last note]], which simply reads "You're needed."
+
+===A Poor Investment===
+When you get the final note, return to the barrow and look for clues at the camp, then head into the barrow and clear it out. You are finally able to reach the word wall which teaches a word for the [[Skyrim:Cyclone|Cyclone]] [[Skyrim:Dragon Shouts|shout]]. On reaching the room with all the pressure plates on the floor, follow the passage to the left. A gate will close behind you will have to fight three draugr.  The gate blocking access to [[Skyrim:Ahzidal's Armor of Retribution|Ahzidal's Armor of Retribution]] can be opened by rotating the two animal totem pillars until the whale symbols are facing you, then pulling the lever on the floor.  Rotate the two animal totem pillars until the eagle symbols are facing you and pull the lever on the floor again to open the gate you came in, and the gate over the spiral staircase. At the bottom of the staircase, the gate blocking access to [[Skyrim:Ahzidal's Helm of Vision|Ahzidal's Helm of Vision]] can be opened by rotating the two animal totem pillars until the snake symbols are facing you, then pulling the chain next to the door. There is a giant pool of oil encompassing almost the entire room, so it is recommended that you intentionally ignite it safely from the staircase as pulling the chain with an incorrect pillar arrangement will cause several [[Skyrim:Flame Spout Trap|flame spout trap]]s to blast the area in front of the gate. Removing the helm from its pedestal will activate another flame spout trap that is aimed back towards the gate. You may use Telekinesis again, but the flame jet will still travel far enough to ignite the oil. There is a [[Skyrim:Stalhrim|Stalhrim]] source to the left of the helm chamber.
+
+After battling several leveled draugr, you will eventually find Ralis completing the ritual to awaken a [[Skyrim:Dragon Priest|dragon priest]] named [[Skyrim:Ahzidal (creature)|Ahzidal]]. Defeat Ahzidal, loot his eponymous [[Skyrim:Ahzidal (item)|mask]], then speak to Ralis, who will explain that he was under a spell. You can then choose to kill him or let him live, in which case he will become available as a [[Skyrim:Followers|follower]]. If you kill him, you may loot [[Skyrim:Hoarfrost|Hoarfrost]], a unique ancient Nordic pickaxe, from his corpse. You can also take it from him if you spare him.
+
+You can find the Black Book ''[[Skyrim:Black Book: Filament and Filigree (book)|Filament and Filigree]]'' at the end of the exit tunnel.
+
+==Notes== 
+* In total you will require 11,000 gold to complete the excavation.
+* The time between each investment and the next courier message is three full days (72 hours).
+* If you visit between messages, there will be miners and possibly guards working. They have generic dialogue reflecting the current state of the quest.
+* Throughout the quest, a series of [[Skyrim:The Journal of Ralis Sedarys|journals]] can be found, giving insight into Ralis' state of mind. Take care when reading them as the disappearance of the camp will not occur if you take his journals from the camp prior to the final condition. They may also be stuck in your inventory permanently if you do so. The disappearance condition is that ''Filament and Filigree'' is read and [[SR:Ahzidal (item)|Ahzidal]] is obtained, the two actions' order doesn't matter.
+*You can find Ahzidal's unique heavy armor set and rings:
+** [[Skyrim:Ahzidal's Boots of Waterwalking|Ahzidal's Boots of Waterwalking]] are available after the first phase of digging.
+** [[Skyrim:Ahzidal's Ring of Necromancy|Ahzidal's Ring of Necromancy]] may be found after the second phase.
+** [[Skyrim:Ahzidal's Gauntlets of Warding|Ahzidal's Gauntlets of Warding]] and [[Skyrim:Ahzidal's Ring of Arcana|Ahzidal's Ring of Arcana]] can be acquired after the third phase.
+** [[Skyrim:Ahzidal's Armor of Retribution|Ahzidal's Armor of Retribution]] and [[Skyrim:Ahzidal's Helm of Vision|Ahzidal's Helm of Vision]] become available after the fourth phase.
+* The Ring of Arcana may not be on its plinth when you get to it—[[Skyrim:Dragon Shouts|shouts]] from the draugr in the adjacent chamber can knock it into the pit of water. If this occurs, equipping the [[Skyrim:Telekinesis|Telekinesis]] spell can help you locate it (due to its longer range compared to the standard cursor).
+* You may hear the chanting of the nearby word wall after the second phase has occurred, but you won't be able to access it until the fourth phase. You might be able to access it during the third phase if you stand close enough to the wall.
+* The grate that opens to allow you to descend to meet Ahzidal on your final visit is controlled by the familiar pillars and is well-marked. The eagles on the opposite wall must be set on the corresponding pillars.
+* The iron gate blocking the pedestal that holds Ahzidal's Armor of Retribution is not so obvious, however. As you enter the room, on the walls to either side there will be pull chains just to the right of an arch-way. If you pull the chains, this will activate rotating doors which will reveal that behind the arch-ways are two more pillars, each with the sign of the fish. The pillars behind the chairs need to be matched to these to open the gate and obtain the armor. Setting both pillars to the Eagle (and activating the lever) will open the door downstairs. The pillars here perform an uncharacteristic double-duty by opening two separate portals.
+* The fastest way to complete this quest would be to commit a murder, and serve the jail time rather than pay a bounty. This will cause seven in game days to pass each time, allowing quick completion.
+
+==Bugs==
+{{Bug|Ralis may hire the miners, but never get anywhere with them - despite the passage of days (or even months), the courier never arrives, and when you check the dig site, they haven't reached the entrance.|confirmed=1}}
+** Check the site once, talk to Ralis, then sleep in a bed on Solstheim for 24 or 48 hours. Repeat for each stage.
+** If the courier never arrives with Ralis' letters, you can bring him to you by bringing up the console, and typing and entering <code>prid 00039FB7 </code>.
+**Then type and enter <code>moveto player</code>
+**Finally, you can talk to the courier to trigger his letter delivery dialogue.
+{{Bug|Upon entering [[Skyrim:Kolbjorn Barrow|Kolbjorn Barrow]] for the second time, the door by [[Skyrim:Mireli|Mireli]] might drop down prematurely and lock you out of the room instead of locking down your retreat. Manually reopening the door will not help as it will just become an invisible barrier blocking your entrance. To reach Mireli and complete the quest, go back to the big hollow room and jump onto the platform. Alternatively, reload to a save before having entered the barrow for a second time.|confirmed=1}}
+{{Bug|Upon entering [[Skyrim:Kolbjorn Barrow|Kolbjorn Barrow]] for the fourth and final time, you are instructed to find [[Skyrim:Ralis Sedarys|Ralis Sedarys]] (stage 410). At some point before reaching the chamber with Ralis and [[Skyrim:Ahzidal (creature)|Ahzidal]], the quest may immediately progress to confronting Ralis (stage 475). It is possible that Ralis will be flagged as hostile towards the draugr and Ahzidal (or vice versa), and a brawl will ensue before you reach the chamber. Since Ralis is considered an essential NPC until you choose the dialogue option to kill him, upon reaching the chamber you will find Ralis chanting, as if to summon Ahzidal, but Ahzidal and the draugr are already dead. Approaching Ralis will trigger the normal dialogue (choose to kill or spare him). If he is spared, he will continue chanting as he runs away. He will still be chanting when approached at [[Skyrim:The Retching Netch|The Retching Netch]].|confirmed=1}}
+{{Bug|Once you finish the quest, the excavation site is supposed to clear up once you're far enough away. However, the script controlling this incorrectly polls the alias on Ralis when it should have been polling a static object at the site. This can result in the possibility that the registered update would fail to be renewed, leaving the quest open forever.|UDBP|2.0.3}}
+{{Bug|Ralis' journals can be found on a table outside of the barrow excavation. Taking them after completion of the quest will permanently mark them as quest items, and it will be impossible to ever remove them from your inventory.|UDBP|2.0.3}}
+** You can remove the journals from your inventory by storing them in Ahzidal's ash pile, but they will still be marked as quest items.
+** {{pc22}} They may be removed via the [[Skyrim:console|console]] by typing <code>Player.removeitem xx018108 1</code> and repeating for the IDs xx01810F, xx018110, xx018111, and xx0181CB. The ''xx'' on each ID will vary; see [[Skyrim:Form ID|this page]] for details.
+{{Bug|Ralis' journals can also be permanently marked as quest items if you complete the quest and leave the barrow without collecting the [[Skyrim:Black Book: Filament and Filigree (book)|Black Book]]. This glitch actually seems to depend on the passage of time. Completing the [[Skyrim:Black Book: Filament and Filigree (book)|Black Book]] quickly may cause the glitch to not be fixed. Waiting a few extra hours before leaving the dungeon should fix it.}}
+{{Bug|Upon entering Kolbjorn Barrow for the third time, one of the draugr that you must kill may be outside of the map.|confirmed=1}}
+**Leaving and reentering Kolbjorn should fix this issue.
+{{Bug|If you haven't picked up Ahzidal's Ring of Necromancy yet during the 2nd investment, it will disappear during the 3rd investment if you try to go back and grab it. It can be retrieved if you return to barrow after the third investment but before receiving the next letter.|vn=1}}
+{{Bug|If Ahzidal is killed as he rises from the ground, his corpse and ash pile may be below the ground and not lootable.|vn=1}}
+{{Bug|Upon entering Kolbjorn Barrow for the fourth time, the doorway leading to the lower section of the tomb may be blocked by rubble. Though this rubble can be walked through, as it has no collision, it can make it difficult to find where to go.|confirmed=1}}
+{{Bug|At the second phase, you may find the third phase area accessible instead of being sealed off, allowing you to get Ahzidal's Gauntlets of Warding and the Ring of Arcana early.|confirmed=1}}
+{{Bug|All of the generic miners present, both male and female, have "opposite gender animations" marked.|confirmed=1}}
+
+==Quest Stages==
+{{Journal Entries
+|id=DLC2dunKolbjornQST
+|40||Outside Kolbjorn Barrow, I met Ralis Sedarys, an explorer who came to Solstheim in search of relics within the barrow. But when he arrived, he found it buried by the ash. He had all but given up on excavating it, but if I can supply the funds, he offered to make me a partner in his expedition.
+{{Quest Objective|40|Fund the excavation of Kolbjorn Barrow (1000 gold)}}
+|75||Ralis Sedarys came to Solstheim in search of the Relics of Ahzidal, powerful items said to have been sealed in Kolbjorn Barrow, but found it buried by ash. I agreed to fund his expedition to excavate the Barrow. He set to work, saying he'd send a courier when he had progress to report.
+{{Quest Objective|75|Wait for a message from Ralis}}
+|100||I agreed to fund Ralis Sedarys' expedition to excavate Kolbjorn Barrow. I should visit the site and see how the work is going.
+{{Quest Objective|100|Visit the Kolbjorn Barrow Excavation}}
+|110||I agreed to fund Ralis Sedarys' expedition to excavate Kolbjorn Barrow, but work on the dig has come to a halt. The excavation had reached a dead end when Draugr within the tomb awoke, killing several miners and causing the rest to flee.
+{{Quest Objective|130|Clear the Draugr from Kolbjorn Barrow}}
+{{Quest Objective|140|Find a way deeper into the Barrow}}
+|130||I agreed to fund Ralis Sedarys' expedition to excavate Kolbjorn Barrow, but work on the dig has come to a halt. The excavation had reached a dead end when Draugr within the tomb awoke, killing several miners and causing the rest to flee. I defeated the Draugr, but now need to find a way past the dead end.
+|140||I agreed to fund Ralis Sedarys' expedition to excavate Kolbjorn Barrow, but work on the dig has come to a halt. The excavation had reached a dead end when Draugr within the tomb awoke, killing several miners and causing the rest to flee. I found a way past the dead end, but must deal with the Draugr before work can continue.
+|150||I agreed to fund Ralis Sedarys' expedition to excavate Kolbjorn Barrow, but work on the dig has come to a halt. At his request, I defeated the Draugr and found a way past the dead end.
+{{Quest Objective|150|Speak to Ralis}}
+|160||I agreed to fund Ralis Sedarys' expedition to excavate Kolbjorn Barrow, but in order to continue, he needs more gold to hire replacements for the workers that have been killed.
+{{Quest Objective|160|Fund the next phase of the excavation (2000 gold)}}
+|175||I agreed to fund Ralis Sedarys' expedition to excavate Kolbjorn Barrow. He told me to return in a few days to see how work was progressing.
+{{Quest Objective|175|Wait for a message from Ralis}}
+|200||I agreed to fund Ralis Sedarys' expedition to excavate Kolbjorn Barrow. I should return and see how the work is going.
+{{Quest Objective|200|Return to Kolbjorn Barrow}}
+|210||I agreed to fund Ralis Sedarys' expedition to excavate Kolbjorn Barrow, but work on the site has stopped. Most of the miners were killed by another wave of Draugr attacks, and two more are unaccounted for.
+{{Quest Objective|230|Clear the Draugr from Kolbjorn Barrow}}
+{{Quest Objective|240|Search for the missing miners}}
+|230||I agreed to fund Ralis Sedarys' expedition to excavate Kolbjorn Barrow, but work on the site has stopped. Most of the miners were killed by another wave of Draugr attacks, and two more are unaccounted for. I dealt with the Draugr, but still need to locate the missing miners.
+|240||I agreed to fund Ralis Sedarys' expedition to excavate Kolbjorn Barrow, but work on the site has stopped. Most of the miners were killed by another wave of Draugr attacks, and two more were unaccounted for. I found the bodies of the missing miners, but still need to deal with the Draugr threat.
+|250||I agreed to fund Ralis Sedarys' expedition to excavate Kolbjorn Barrow, but work on the site has stopped. At his request, I dealt with the Draugr and found the bodies of the missing miners.
+{{Quest Objective|250|Speak to Ralis}}
+|260||I agreed to fund Ralis Sedarys' expedition to excavate Kolbjorn Barrow, but the ongoing Draugr attacks means he needs more gold in order to hire more miners and guards to protect them.
+{{Quest Objective|260|Fund the next phase of the excavation (3000 gold)}}
+|275||I agreed to continue funding Ralis Sedarys' excavation of Kolbjorn Barrow. He told me to return in a few days to see how work was progressing.
+{{Quest Objective|275|Wait for a message from Ralis}}
+|300||I agreed to continue funding Ralis Sedarys' excavation of Kolbjorn Barrow. I should return and see how the work is going.
+{{Quest Objective|300|Return to Kolbjorn Barrow}}
+|310||I agreed to continue funding Ralis Sedarys' excavation of Kolbjorn Barrow, but Draugr have attacked the miners again, and only a few managed to escape. Ralis asked if I could wipe them out so the excavation could continue.
+{{Quest Objective|330|Clear the Draugr from Kolbjorn Barrow}}
+|350||I agreed to continue funding Ralis Sedarys' excavation of Kolbjorn Barrow, but Draugr again attacked the miners. Once again, I slew the Draugr so work could proceed.
+{{Quest Objective|350|Speak to Ralis}}
+|360||I agreed to fund Ralis Sedarys' expedition to excavate Kolbjorn Barrow, but once again, he needs more gold to hire increasingly reluctant miners and guards to work on the site.
+{{Quest Objective|360|Fund the next phase of the excavation (5000 gold)}}
+|375||I agreed to continue funding Ralis Sedarys' excavation of Kolbjorn Barrow. He told me to return in a few days to see how work was progressing.
+{{Quest Objective|375|Wait for a message from Ralis}}
+|400||I agreed to continue funding Ralis Sedarys' excavation of Kolbjorn Barrow. I should return and see how the work is going.
+{{Quest Objective|400|Return to Kolbjorn Barrow}}
+|410||I agreed to continue funding Ralis Sedarys' ill-fated excavation of Kolbjorn Barrow, but when I returned to his mining camp, I found only blood and corpses. Ralis himself was nowhere to be seen.
+{{Quest Objective|410|Locate Ralis}}
+|449||I agreed to fund Ralis Sedarys' ill-fated excavation of Kolbjorn Barrow, but when I returned to his mining camp, I found only blood and corpses. Deep within the barrow, I found Ralis performing a ritual to release Ahzidal, the Dragon Priest that had been sealed there.
+|450||{{Quest Objective|450|Defeat Ahzidal}}
+|475||I agreed to fund Ralis Sedarys' ill-fated excavation of Kolbjorn Barrow, but when I returned to his mining camp, I found only blood and corpses. Deep within the barrow, I found Ralis performing a ritual that released Ahzidal, a powerful Dragon Priest I fought and defeated.
+{{Quest Objective|475|Confront Ralis}}
+|480||Ralis Sedarys came to Solstheim hoping to find the Relics of Ahzidal and release their maker from his imprisonment in Kolbjorn Barrow. When he found the barrow buried by the ash, he convinced me to fund its excavation, using the miners as blood sacrifices for his rituals. I saw through his lies and decided to kill him for his crimes.
+{{Quest Objective|480|Kill Ralis}}
+|485||Ralis Sedarys came to Solstheim hoping to find the Relics of Ahzidal and release their maker from his imprisonment in Kolbjorn Barrow. When he found the barrow buried by the ash, he convinced me to fund its excavation, using the miners as blood sacrifices for his rituals. I saw through his lies and killed him for his crimes.
+|490||Ralis Sedarys came to Solstheim hoping to find the Relics of Ahzidal, but fell under the spell of their maker, a powerful Dragon Priest entombed in the barrow. He convinced me to fund its excavation, but was compelled by Ahzidal to use the miners as ritual sacrifices. Ralis had no control over his actions, so I allowed him to live and depart the barrow in peace.
+|!|Kolbjorn Barrow Misc Objectives|DLC2dunKolbjornMiscQST
+|10||{{Quest Objective|10|Speak to Ralis Sedarys at Kolbjorn Barrow}}
+|20||{{Quest Objective|20|Investigate Kolbjorn Barrow}}
+|missing=
+** DLC2dunKolbjornQST: 0, 1, 2, 3, 4, 5, 9, 10, 11, 12, 13, 14, 15, 98, 99, 101, 120, 198, 199, 220, 241, 242, 298, 299, 320, 330, 358, 359, 398, 399, 440, 476, 477, 478, 479, 500, 550, 600.
+** DLC2dunKolbjornMiscQST: 30
+}}
+{{Skyrim Quest Stages Notes}}

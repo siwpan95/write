@@ -1,0 +1,1019 @@
+{{Trail|Linguistics}}
+[[File:SR-concept-6877546391.jpg|right|thumb|A wall with engravings in the Dragon Language]]{{TOCright}}
+The ancient '''Dragon Language''' (also called '''Dragon tongue''',{{ref|name=Arngeir|[[sr:Arngeir|Arngeir]]'s dialogue in ''[[Skyrim:Skyrim|Skyrim]]''}}{{ref|name=Jawanan|[[sr:Jawanan|Jawanan]]'s dialogue in ''[[Skyrim:Skyrim|Skyrim]]''}} '''dragon-tongue''',{{ref|name=Tharstan|[[sr:Tharstan|Tharstan]]'s dialogue in ''[[Skyrim:Skyrim|Skyrim]]: [[Skyrim:Dragonborn|Dragonborn]]''}} or '''Draconic language'''){{ref|{{Cite Book|Loremaster's Archive - Malacath and Maelstrom}}}} is the language used by [[Lore:Dragon|dragons]]. Text in the Dragon Language is found on [[Lore:Word Walls|Word Walls]] in ancient dungeons and on burial grounds.{{ref|name=DL|{{Cite Book|Dragon Language: Myth no More}}}} The runes used for writing the language are described in the [[Lore:Dragon Alphabet|Dragon Alphabet]] article.
+
+With sufficient understanding, certain words can be incanted to produce magical effects such as conjuring fire, frost, or wind, slowing time, or pushing an enemy away. This ability is known as the [[Lore:Thu'um|Thu'um]] and is an inborn talent of Dragons and [[Lore:Dragonborn|Dragonborn]].{{ref|name=Skyrim|Events of ''[[Skyrim:Skyrim|Skyrim]]''}}
+
+Scholars posit the [[Lore:Dragonling|Dragonlings]] found in northwestern [[Lore:Tamriel|Tamriel]] are unrelated to true Dragons,{{ref|name=TBD|{{Cite Book|There Be Dragons}}}} yet other sources claim they are kin.{{ref|name=HistpryDF|''[[Daggerfall:Background History|Player Background History]]'' in ''[[Daggerfall:Daggerfall|Daggerfall]]''}}{{Ref|[[Daggerfall:The Dragonslayer|The Dragonslayer]] quest in ''[[Daggerfall:Daggerfall|Daggerfall]]''}} The former have their own language, known as '''Dragonish'''.{{Ref|name=DFDragonish|Associated [[Daggerfall:Dragonish|Dragonish]] language in ''[[Daggerfall:Daggerfall|Daggerfall]]''}} Its relationship, if any, to the Dragon Language of true Dragons is unknown.
+
+==Grammar==
+The language is structurally similar to English, with three exceptions: it has no equivalent to English's apostrophes, it tends to place prepositional phrases earlier in sentences, and verb tense is often ignored.{{ref|name=GI|group=UOL|1=[https://web.archive.org/web/20110125165040/http://www.gameinformer.com/b/features/archive/2011/01/20/skyrim-s-dragon-shouts.aspx?PostPageIndex=2 Game Informer]}} To make a word plural, the last letter of the singular word is repeated and followed by an "e". For example, the plural form of "kel" (an Elder Scroll) is "kelle".
+
+The singular possessive ("my", "your", "his", or "her") is formed by adding the letter "i" to the end of the word, except when the word ends in "ii", in which case an "l" is appended. The first-person plural possessive ("our") is formed by adding the letter "u". To indicate a perfect verb form (as in ''"has '''silenced'''"''), the letters "aan" are added to the end of the word.
+
+The language makes heavy use of compound words, and tends to be head-initial (i.e. the focus, or what a phrase is ultimately about, comes first) in most cases. For example, "Zeymahzin" (Companion) consists of the words "Zeymah" (Brother) and "Zin" (Honor) and should be understood as "brothers with honor" rather than "the honor of/between brothers".
+
+According to at the time Senior Designer [[General:Emil Pagliarulo|Emil Pagliarulo]], "Every shout is made up of one to three single-syllable words. Each word also functions differently depending on how many total words are present. If you just have ‘Fus,’ it’s exhaled strongly, indicating the forceful nature of the command. But if you have two or more words, ‘Fus’ is actually inhaled, as it serves to modify the second and third words, which are forcefully exhaled. That was very important to the language when used as shouts – it had to feel forceful. The same kind of force a dragon would use when spitting fire"{{ref|name=BN|group=UOL}}
+{{NewLeft}}
+
+==Translation Key==
+<center>Words in parentheses <small>(like in the example shown here)</small> will reference connotations or synonyms.</center>
+
+{{LetterMenu|CX}}
+===A===
+{| width=80%
+|- valign=top
+|width=33%|
+;Aak:Guide{{ref|name=Paarthurnax}}
+;Aal:May{{ref|name=Prima|{{Cite Book|The Elder Scrolls V: Skyrim: Prima Official Game Guide|ns_base=BK}}}}
+;Aam:Serve{{ref|name=DBgamedata|[[Skyrim:Dragonborn|Dragonborn]] game data}}
+;Aan:A(n){{ref|name=SOS|{{Cite Book|Songs of Skyrim|ns_base=Skyrim}}}}, Idea{{ref|name=Paarthurnax}}, Slave{{ref|name=Alduin}} <small>(See also "Zaam")</small>
+;Aar:Servant, Slave{{ref|name=Odahviing}} <small>(See also "Zaam")</small>
+;Aav:Join{{ref|name=Alduin}}{{ref|name=Draugr}}{{ref|name=Shulkunaak}}
+;Aaz:Mercy{{ref|name=Draugr}}
+;Ag: Burn{{ref|name=DL}}
+;Ah:Hunter{{ref|name=Shout|[[Skyrim:Dragon Shouts|Dragon Shouts]] in ''[[Skyrim:Skyrim|Skyrim]]''}}
+|width=33%|
+;Ahkrin:Courage{{ref|name=Alduin}}/Bravery{{ref|name=Shulkunaak|[[Blades:Shulkunaak|Shulkunaak]]'s dialogue in [[Blades:Facing the Dragon|Facing the Dragon]] quest in ''[[Blades:Blades|Blades]]''}}
+;Ahmik:Service{{ref|name=Prima}}
+;Ahmul:Husband{{ref|name=Prima}} (Lit. "Hunter-Strong")
+;Ahraan:Wound{{ref|name=Paarthurnax}}{{ref|name=Odahviing}}
+;Ahrk:And{{ref|name=SOS}}{{ref|name=DL}}
+;Ahrol: Hill{{ref|name=HOJG|{{Cite Book|Holdings of Jarl Gjalund}}}}
+;Ahst: At{{ref|name=Paarthurnax}}{{ref|name=DL}}
+;Ahtiid: Wear (verb){{Ref|name=TIL|[https://www.imperial-library.info/content/lang-dragon Official Bethesda Dragon dictionary] from Imperial Library}}
+;Ahzid:Bitter{{ref|name=Prima}}
+|width=33%|
+;Al:Destroyer{{ref|name=Prima}}
+;Alok:Arise{{ref|name=SOS}}{{ref|name=Alduin}}
+;Alun:Ever{{ref|name=Prima}}
+;Am:Lion{{Ref|name=TIL}}
+;Amativ:Onward{{ref|name=Paarthurnax}}{{ref|name=Odahviing}}
+;Atmora:[[Lore:Atmora|Atmora]]{{ref|name=Greybeards|[[Skyrim:Greybeards|Greybeards]]' dialogue during ''[[Skyrim:The_Horn_of_Jurgen_Windcaller#Return_to_High_Hrothgar|The Horn of Jurgen Windcaller]]'' quest.}}
+;Au:On{{ref|name=DL}}
+;Aus:Suffer{{ref|name=Shout}}
+|}
+
+===B===
+{| width=80%
+|- valign=top
+|width=33%|
+;Bah:Wrath{{ref|name=Shout}}
+;Bahlaan, Balaan:Worthy{{ref|name=Paarthurnax}}{{ref|name=Odahviing}}
+;Bahlok:Hunger{{ref|name=SOS}}{{ref|name=Alduin}}
+;Bein:Foul (adj.){{ref|name=SOS}}
+;Bel:Foul (v.){{Ref|name=TIL}}
+;Bex:Open{{ref|name=Borri|[[sr:Borri|Borri]]'s dialogue in ''[[Skyrim:Skyrim|Skyrim]]''}}
+;Beyn:Scorn{{ref|name=Alduin}}
+;Bii:Blue{{Ref|name=TIL}}
+;Bo:Flow, Fly, Move{{ref|name=Paarthurnax}}{{ref|name=Odahviing}}
+;Bodiis:Borrow{{ref|name=Prima}} 
+|width=33%|
+;Bok:Age{{ref|name=SOS}}
+;Bolaav:Grant/Granted{{ref|name=Prima}}
+;Bolog:Beg{{ref|name=Draugr}}
+;Bonaar:Humble{{ref|name=Alduin}}
+;Bormah:Father{{ref|name=Draugr}}
+;Bovul:Flee{{ref|name=DL}}
+;Boziik:Bold(ly){{ref|name=SOS}}, Rash{{ref|name=Paarthurnax}}
+;Brendon:Specter{{ref|name=Prima}}
+;Brii:Beauty{{ref|name=Prima}}
+|width=33%|
+;Briinah:Sister{{ref|name=Prima}} (Lit. "Beauty-Fury")
+;Briinahii: <small>(for her)</small> sister's {{ref|name=DL}}
+;Briinahmaar:Sisterhood
+;Brit:Beautiful{{ref|name=Odahviing}}
+;Brod:Clan{{ref|name=Prima}}
+;Brom:North{{ref|name=Prima}}
+;Bron:Nord{{ref|name=Prima}}
+;Bronjun:Jarl (lit. "Nord King"){{ref|name=Paarthurnax}}
+;Bruniik(ke):Savage(s) <small>(also a reference to Akaviri)</small>{{ref|name=Paarthurnax}}
+|}
+
+===D===
+{| width=80%
+|- valign=top
+|width=33%|
+;Daal:Return{{ref|name=Alduin}}
+;Daan, Daanii:Doom{{ref|name=Paarthurnax}}{{ref|name=Alduin}}
+;Daanik:Doomed {{ref|name=Draugr}}{{ref|name=DL}}
+;Daar:This/These{{ref|name=Nahkriin|[[Skyrim:Nahkriin (creature)|Nahkriin]]'s dialogue from Skyrim}}
+;Dah:Push{{ref|name=Shout}}
+;Dahmaan:Remember{{ref|name=Paarthurnax}}
+;Dein:Keep (v.){{ref|name=Nahkriin}}, Guard{{ref|name=Nahkriin}}
+;Deinmaar:Keeper{{ref|name=TIL}}
+;Denek:Soil (n.){{ref|name=Prima}}
+;Denos:Decline (n.){{ref|name=TIL}}
+;Dey:False (Laughably False){{ref|name=WOTFG|{{Cite Book|Wisdom of the Flying Gods}}}}
+;Deyra:Daedra{{ref|name=DBWordWall}}
+;Deyto:Bury{{ref|name=TIL}}
+;Dez:Fate{{ref|name=Paarthurnax}}
+;Dezu:{{ref|name=ESONahfahlaar}} Our Fate
+|width=33%|
+;Dii:Mine{{ref|name=Alduin}}{{ref|name=Nahkriin}}
+;Diil:Undead <small>(See also "Dilon")</small> {{ref|name=Shout}}
+;Diin:Freeze{{ref|name=Shout}}
+;Diiv:Wyrm{{ref|name=DBShout|[[Skyrim:Dragon Shouts|Dragon Shouts]] in ''[[Skyrim:Skyrim|Skyrim]]: [[Skyrim:Dragonborn|Dragonborn]]''}}
+;Diivon: Swallow {{ref|name=SOS}}
+;Dilon:Dead{{ref|name=Paarthurnax}}{{ref|name=Draugr}}
+;Dilos:Deadly{{ref|name=TIL}}
+;Dinok:Death{{ref|name=Draugr}}{{ref|name=DL}}{{ref|name=Dragon|[[Skyrim:Dragon|Dragon]] dialogue from Skyrim}}
+;Dinokii{{ref|name=Korthor|[[Online:Korthor|Korthor]]'s dialogue in [[Online:Online|ESO]]}}
+;Dinoksetiid:End of time (lit. "Death of time"){{ref|name=Paarthurnax}}
+;Dir:Die{{ref|name=Alduin}}{{ref|name=Draugr}}
+;Do:Of <small>(See also "Se")</small> {{ref|name=DL}}/About{{ref|name=Prima}}
+;Dok:Hound{{ref|name=Prima}}
+;Dov:Dragonkind,{{ref|name=SOS}} Dragon (race){{ref|name=DBShout}}
+;Dovah:Dragon{{ref|name=SOS}}
+;Dovahgolz:Dragonstone{{ref|name=Prima}}
+;Dovahkiin:Dragonborn (lit. "Dragon-Born"){{ref|name=Prima}}
+|width=33%|
+;Dovahkriid:Dragonslayer{{ref|name=TIL}}
+;Dovahzin:A Dragon name (Dragon-Honor) {{ref|name=ESONahfahlaar}}
+;Draal:Pray{{ref|name=Prima}}
+;Dreh:Do (v.){{ref|name=Paarthurnax}}
+;Drem:Peace{{ref|name=Paarthurnax}}{{ref|name=Shout}}{{ref|name=Shulkunaak}}
+;Drey:Did{{ref|name=Alduin}}{{ref|name=DL}}
+;Drog:Lord{{ref|name=Prima}}
+;Drun:Bring{{ref|name=Odahviing}}
+;Du:Devour{{ref|name=Prima}}
+;Du'ul:Crown{{ref|name=Paarthurnax}}
+;Duaan:Devoured{{ref|name=Alduin}}
+;Dukaan:Dishonor{{ref|name=DL}}
+;Dun:Grace{{ref|name=Shout}}
+;Dur:Curse{{ref|name=Durnehviir}}
+;Dwiin:Steel{{ref|name=Prima}}
+;Dwiirok:Carve{{ref|name=Prima}}
+|}
+
+===E===
+{| width=80%
+|- valign=top
+|width=33%|
+;Ek:Her{{ref|name=Prima}}
+;Enook:Each{{ref|name=Prima}}
+;Ensosin:Bewitch{{ref|name=Prima}}
+|width=33%|
+;Erei:Until{{ref|name=Prima}}
+;Eruvos:Year{{ref|name=TIL}}
+|width=33%|
+;Evenaar:Extinguish{{ref|name=Prima}}
+;Evgir:Season{{ref|name=Prima}}
+|}
+
+===F===
+{| width=80%
+|- valign=top
+|width=33%|
+;Faad:Warmth{{ref|name=Prima}}
+;Faal: The{{ref|name=SOS}} <small>(see also "Fin"; "Faal" is less common than "Fin")</small>
+;Faas:Fear{{ref|name=Shout}}
+;Faasnu:Fearless{{ref|name=Prima}}
+;Faaz:Pain{{ref|name=Draugr|[[Skyrim:Draugr|Draugr]] dialogue in ''[[Skyrim:Skyrim|Skyrim]]''}}
+;Fah:For{{ref|name=Nahkriin}}
+;Fahdon:Friend{{ref|name=Paarthurnax}}
+;Fahlah:Flower{{ref|name=TIL}} (Lit. "For-Magicka")
+;Fahliil: Elf{{ref|name=DL}}
+;Fahluaan: Gardener{{ref|name=DBWordWall|[[Skyrim:Word Wall|Word Walls]] found in ''[[Skyrim:Skyrim|Skyrim]]: [[Skyrim:Dragonborn|Dragonborn]]''}}
+;Faraan:Fortune, wealth{{ref|name=TIL}}
+;Feim:Fade{{ref|name=Shout}}
+;Fel:Feral{{ref|name=Prima}}
+|width=33%|
+;Fen:Will{{ref|name=SOS}}{{ref|name=Alduin}}{{ref|name=Nahkriin}}{{ref|name=Dragon}}
+;Fenjuntiid:Will of Akatosh <small>(lit. "Will-King-Time")</small>{{ref|name=ESONahfahlaar}}
+;Fent:Shall{{ref|name=SOS}}
+;Fey:Grove{{ref|name=WOTFG}}
+;Feykro:Forest{{ref|name=Prima}}
+;Feyn:Bane{{ref|name=SOS}}
+;Fiik:Mirror{{ref|name=Prima}}
+;Filok:Escape{{ref|name=Nahkriin}}
+;Fin:The{{ref|name=SOS}} <small>(see also "Faal")</small>
+;Fo:Frost{{ref|name=Shout}}
+;Fod:When{{ref|name=SOS}}
+;Fodiiz:Hoar{{ref|name=Prima}}
+;Folaas:Wrong{{ref|name=Prima}}
+|width=33%|
+;Folook:Haunt{{ref|name=Prima}}
+;Fonaar:Charge{{ref|name=Prima}}
+;Frin:Hot{{ref|name=DL}}
+;Frini:Eagerness{{ref|name=Odahviing}}
+;Frod:<small>(Battle)</small>field{{ref|name=DL}}
+;Fron:Kin{{ref|name=SOS}}/Related{{ref|name=Prima}}
+;Frul:Ephemeral{{ref|name=Prima}}/Temporary{{ref|name=Shout}}
+;Ful:So{{ref|name=Paarthurnax}}
+;Fun:Told{{ref|name=SOS}}
+;Fundein:Unfurl(ed){{ref|name=Prima}}
+;Funt:Fail{{ref|name=Paarthurnax}}
+;Funta:Failed{{ref|name=TIL}}
+;Fus:Force{{ref|name=Shout}}
+|}
+
+===G===
+{| width=80%
+|- valign=top
+|width=33%|
+;Gaaf:Ghost{{ref|name=Alduin}}{{ref|name=DL}}
+;Gaan:Stamina{{ref|name=Shout}}
+;Gaar:Unleash/Release{{ref|name=DBShout}}
+;Gahrot:Steal{{ref|name=DL}}
+;Gahvon:Yield{{ref|name=Dragon}}
+;Galik:Pine(n.){{ref|name=TIL}}
+;Geh:Yes{{ref|name=Prima}}
+;Gein:One{{ref|name=SOS}}{{ref|name=Odahviing}}
+;Geinmaar:Oneself{{ref|name=Prima}}
+;Gogil:Goblin{{ref|name=Prima}}
+|width=33%|
+;Gol:Earth{{ref|name=Odahviing}}{{ref|name=DBShout}}
+;Golah:Stubborn{{ref|name=TIL}}
+;Golt:Ground{{ref|name=Prima}}
+;Golz:Stone
+;Goraan:Young{{ref|name=Paarthurnax}}{{ref|name=TIL}}
+;Govey:Remove{{ref|name=DL}}
+;Graag:Green{{ref|name=TIL}}
+;Graan:Rout{{ref|name=Prima}}
+;Grah:Battle{{ref|name=Paarthurnax}}{{ref|name=Shout}}{{ref|name=Shulkunaak}}
+;Grah-Zeymahzin:Ally (lit. "Battle-Brother Honor"){{ref|name=Durnehviir}}
+|width=33%|
+;Grahmindol:Stratagem{{ref|name=Odahviing}}
+;Gram:Cloud{{ref|name=TIL}}
+;Gravuun:Autumn{{ref|name=DL}}
+;Grik:Such{{ref|name=Paarthurnax}}
+;Grind:Meet{{ref|name=Odahviing}}{{ref|name=DL}}
+;Gro:Bound{{ref|name=Alduin}}
+;Grohiik:Wolf{{ref|name=Prima}}
+;Gron:Bind{{ref|name=Shout}}
+;Gronsezin:Honor-bound{{ref|name=Shulkunaak}}
+;Gruth:Betrayal{{ref|name=TIL}} <small>(see also "Nihnzey")</small>
+;Gut:Far{{ref|name=Shout}}
+|}
+
+===H===
+{| width=80%
+|- valign=top
+|width=33%|
+;Haal:Hand{{ref|name=Shout}}
+;Haalvut:Touch{{ref|name=DL}}
+;Haas:Health{{ref|name=Shout}}
+;Hadrim, Hahdrim:Mind{{ref|name=Paarthurnax}}
+;Hah:Mind{{ref|name=DBShout}}
+;Hahkun:Axe{{ref|name=DL}}
+;Hahnu:Dream{{ref|name=Prima}} (lit. "Mind-Now")
+;Hahvulon:Nightmare{{ref|name=TIL}} (lit. "Mind-Dead")
+;Han:{{ref|name=ESONahfahlaar}}
+|width=33%|
+;Heim:Forge{{ref|name=DL}}
+;Het:Here{{ref|name=Odahviing}}{{ref|name=DL}}
+;Hevno:Brutal{{ref|name=Prima}}
+;Hevnoraak:Brutality{{ref|name=TIL}}
+;Heyv:Duty{{ref|name=Paarthurnax}}
+;Hi:You{{ref|name=Alduin}}{{ref|name=Shulkunaak}}
+;Him, Hin:Your{{ref|name=Alduin}}{{ref|name=Nahkriin}}
+;Hind:Wish{{ref|name=Prima}}{{ref|name=Shulkunaak}}, Hope{{ref|name=Alduin}}
+;Hof{{ref|name=ESOD}} 
+;Hofkah: Steading{{ref|name=HOJG}}
+|width=33%|
+;Hofkahsejun:Palace <small>(lit. "Steading of King")</small>{{ref|name=Paarthurnax}}
+;Hofkiin:Home{{ref|name=TIL}}
+;Hokoron: Enemy{{ref|name=SOS}}{{ref|name=DL}}
+;Hon:Hear{{ref|name=Paarthurnax}}
+;Horvut:Lure{{ref|name=Paarthurnax}}
+;Horvutah:Trapped{{ref|name=Odahviing|[[Skyrim:Odahviing|Odahviing]]'s dialogue in ''[[Skyrim:Skyrim|Skyrim]]''}}
+;Hun:Hero{{ref|name=Paarthurnax}}{{ref|name=Shout}}
+;Hungaar:Heroic{{ref|name=TIL}}
+;Huzrah: Hearken{{ref|name=SOS}}
+|}
+
+===I===
+{| width=80%
+|- valign=top
+|width=33%|
+;Iiz:Ice{{ref|name=Shout}}
+|width=33%|
+;In:Master{{ref|name=Prima}}
+|width=33%|
+;Inhus:Mastery{{ref|name=DBgamedata}}
+|}
+
+===J===
+{| width=80%
+|- valign=top
+|width=33%|
+;Jaag{{ref|name=ESOD}} 
+;Jer:East{{ref|name=Prima}}
+;Jiid:Moon{{ref|name=WOTFG}}
+;Jol:Unsteady{{ref|name=WOTFG}}
+;Joor(re):Mortal(s){{ref|name=Alduin}}{{ref|name=Shout}}
+|width=33%|
+;Jot:Maw{{ref|name=SOS}}
+;Jud: Queen{{ref|name=Prima}}
+;Jul: Man{{ref|name=SOS}}/Mankind/Humans{{ref|name=Prima}} <small>(See also "Muz")</small>
+|width=33%|
+;Jun: King{{ref|name=SOS}}, Light{{ref|name=Paarthurnax}}
+;Junaar:Kingdom/Kingship{{ref|name=DBgamedata}}
+;Junnesejer:Kings of the East{{ref|name=Prima}}
+;Juntiid:Akatosh <small>(lit. "King Time")</small>{{ref|name=ESONahfahlaar}}
+|}
+
+===K===
+{| width=80%
+|- valign=top
+|width=33%|
+;Kaal:Champion{{ref|name=Shout}}
+;Kaan:Kyne{{ref|name=Shout}}
+;Kaaz:Cat/Khajiit{{ref|name=Prima}}{{ref|name=ESONahfahlaar}}
+;Kah:Pride{{ref|name=Alduin}}
+;Kein:War{{ref|name=SOS}}
+;Keizaal:Skyrim{{ref|name=SOS}}
+;Kel(le):Scroll(s) <small>(as in Elder Scroll)</small>{{ref|name=SOS}}{{ref|name=Shulkunaak}}
+;Kendov:Warrior{{ref|name=Draugr}}{{ref|name=Shulkunaak}}
+;Kest:Tempest{{ref|name=Shout}}
+;Key:Horse{{ref|name=Prima}}
+;Keyn:Anvil{{ref|name=Prima}}
+;Kiim:Wife{{ref|name=TIL}}
+;Kiin:Born{{ref|name=Prima}}
+;Kiir: Child{{ref|name=Alduin}}{{ref|name=DL}}
+;Kinbok:Leader{{ref|name=Prima}}
+;Kinzon: Sharp {{ref|name=DL}}
+;Kip:Food{{ref|name=TIL}}
+;Kipraan:Meal{{ref|name=TIL}}
+;Klo:Sand{{ref|name=Shout}}
+;Klov: Head{{ref|name=DL}}
+;Ko:In{{ref|name=DL}}
+|width=33%|
+;Kod:Wield{{ref|name=SOS}}
+;Kodaav:Bear{{ref|name=Odahviing}}{{ref|name=DL}}
+;Kogaan:Blessings <small>(thanks)</small>{{ref|name=Paarthurnax}}
+;Kohg{{ref|name=ESOD}}
+;Kol:Crag{{ref|name=Prima}}
+;Kolos:In which{{ref|name=TIL}}
+;Komeyt: Issue{{ref|name=SOS}}/Let loose{{ref|name=Prima}}
+;Konahrik:Warlord{{ref|name=Prima}}
+;Koor:Summer{{ref|name=Shout}}
+;Kopraan:Body{{ref|name=DL}}
+;Koraav:See{{ref|name=Paarthurnax}}
+;Kos:Be/Are{{ref|name=SOS}}{{ref|name=Alduin}}{{ref|name=Dragon}}
+;Kosil:Inner, within{{ref|name=TIL}}
+;Kotin:Into{{ref|name=Odahviing}}
+;Krah:Cold{{ref|name=Shout}}
+;Krasaar:Sickness{{ref|name=DL}}
+;Krasnovaar:Disease{{ref|name=TIL}}
+;Kreh:Bend{{ref|name=Prima}}
+;Krein: Sun{{ref|name=SOS}}
+;Kren:Break{{ref|name=Paarthurnax}}{{ref|name=Draugr}}
+;Krent:Broken{{ref|name=Prima}}
+;Kriaan:Killed{{ref|name=TIL}}
+|width=33%|
+;Krif:Fight{{ref|name=Alduin}}{{ref|name=Shulkunaak}}
+;Krii:Kill{{ref|name=Shout}}
+;Kriid:Slayer{{ref|name=Prima}}
+;Kriin:Slay{{ref|name=TIL}}
+;Kriist:Stand{{ref|name=Prima}}
+;Kriivaan:Murderer{{ref|name=TIL}}
+;Kriivah:Murder{{ref|name=TIL}}
+;Kril:Brave{{ref|name=Prima}}
+;Krilot:Valiant{{ref|name=Paarthurnax}}
+;Krin:Courageous{{ref|name=Prima}}
+;Kro:Sorcerer{{ref|name=Prima}}
+;Kron:Victory{{ref|name=Paarthurnax}}, win, conquer{{ref|name=TIL}}
+;Krongrah:(Great) Victory{{ref|name=Paarthurnax}}
+;Kroniid:Conqueror{{ref|name=Prima}}
+;Krosis: Sorrow <small>(Apologies, Regret, Pity)</small>{{ref|name=Paarthurnax}}{{ref|name=Draugr}}{{ref|name=DL}}{{ref|name=Shulkunaak}}
+;Kruziik: Ancient{{ref|name=SOS}}{{ref|name=DL}}
+;Kul: Son{{ref|name=SOS}}
+;Kulaan:Prince{{ref|name=Prima}}
+;Kulaas:Princess{{ref|name=Prima}}
+;Kun:Moonlight{{ref|name=WOTFG}}
+|}
+
+===L===
+{| width=80%
+|- valign=top
+|width=33%|
+;Laan:Want, Request{{ref|name=Odahviing}}
+;Laar:Water{{ref|name=TIL}}
+;Laas:Life{{ref|name=Shout}}{{ref|name=Nahkriin}}
+;Laat:Last{{ref|name=Prima}}
+;Lah:Magicka{{ref|name=Shout}}
+;Lahney:Live{{ref|name=Prima}}
+;Lahvraan:Mustered{{ref|name=Odahviing}}
+;Lahvu:Army{{ref|name=Prima}}
+;Leh:Lest{{ref|name=Prima}}
+|width=33%|
+;Lein:World{{ref|name=SOS}}{{ref|name=Alduin}}
+;Liik{{ref|name=ESOD}}
+;Liiv:Wither{{ref|name=DL}}
+;Liivrah:Diminish{{ref|name=Paarthurnax}}
+;Lingrah:Long{{ref|name=Paarthurnax}}{{ref|name=SOS}}
+;Lir:Worm{{ref|name=Draugr}}
+;Lo:Deceive{{ref|name=Prima}}
+;Lok:Rise (v.){{ref|name=WOTFG}}, Sky{{ref|name=Odahviing}}{{ref|name=Shout}}, sky{{ref|name=TIL}}
+;Lon:Fist{{ref|name=TIL}}
+;Loost:Hath{{ref|name=Prima}}
+|width=33%|
+;Los:Is <small>(Combine with other verbs for present tense: "is helping", "is sworn"){{ref|name=SOS}}{{ref|name=Nahkriin}}</small>
+;Losei: You are{{ref|name=TIL}}
+;Lost: Was{{ref|name=SOS}}, Have{{ref|name=Paarthurnax}}, Has, Had, Were
+;Lot: Great{{ref|name=Paarthurnax}}{{ref|name=SOS}}
+;Lovaas:Music/Song{{ref|name=Prima}}
+;Luft:Face{{ref|name=Prima}}
+;Lumnaar:Valley{{ref|name=Prima}}
+;Lun:Leech{{ref|name=DL}}{{ref|name=Shout}}
+;Luv:Tear{{ref|name=Prima}}
+|}
+
+===M===
+{| width=80%
+|- valign=top
+|width=33%|
+;Maar:Terror{{ref|name=DL}}{{ref|name=Shout}}, as suffix: -hood, -self
+;Mah:Fall/Fell{{ref|name=DL}}{{ref|name=Dragon}}
+;Mahfaeraak:Forever{{ref|name=SOS}}
+;Mahlaan:Fallen{{ref|name=TIL}}
+;Mal:Little{{ref|name=Draugr}}
+;Maltiid:Brief{{ref|name=TIL}} (lit. "Little-Time")
+;Med: Like{{ref|name=SOS}} <small>(similar)</small>
+;Mey:Fool{{ref|name=Shout}}{{ref|name=Shulkunaak}}
+;Meyz:Come{{ref|name=Prima}} <small>("to become"/"come to be")</small>
+;Mid:Loyal{{ref|name=Odahviing}}{{ref|name=DBShout}}
+;Middovah:Ally{{ref|name=TIL}} (lit. "Loyal-Dragon")
+;Midrot, midun:Loyalty{{ref|name=Dragon}}
+;Miin:Eye{{ref|name=Prima}}
+|width=33%|
+;Miir:Path{{ref|name=TIL}}
+;Miiraad, Miraad:Door, doorway{{ref|name=Odahviing}}{{ref|name=TIL}} (<small>"miraad" is a typo</small>)
+;Miiraak:Portal{{ref|name=Nahkriin}}
+;Mindin:After{{ref|name=TIL}}
+;Mindok:Know, Known, Knowable{{ref|name=Paarthurnax}}
+;Mindol:Trick{{ref|name=TIL}}
+;Mindoraan:Knowledgeable{{ref|name=TIL}}
+;Mir:Allegiance{{ref|name=Shout}}{{ref|name=Dragon}}
+;Moh{{ref|name=ESOD}}
+;Mon:Daughter{{ref|name=TIL}}
+;Monah:Mother{{ref|name=Paarthurnax}}
+;Monahven:Throat of the World (lit. "Mother Wind"){{ref|name=Paarthurnax}}
+;Morah:Focus, thought, concentration, attention{{ref|name=Paarthurnax|[[Skyrim:Paarthurnax (dragon)|Paarthurnax]]'s dialogue in ''[[Skyrim:Skyrim|Skyrim]]''}}{{ref|name=TIL}}
+;Moro: Glory{{ref|name=Paarthurnax}}{{ref|name=DL}}
+|width=33%|
+;Morokei: Glorious{{ref|name=SOS}}{{ref|name=DL}}
+;Motaad: Shudder{{ref|name=SOS}}
+;Motmah:Slip{{ref|name=Prima}}
+;Motmahus:Slippery, Elusive{{ref|name=Paarthurnax}}
+;Mu:We{{ref|name=Odahviing}}
+;Mul:Strong,{{ref|name=Paarthurnax}}{{ref|name=Dragon}} Strength{{ref|name=DBShout}}
+;Mulaag:Strength{{ref|name=Paarthurnax}}
+;Mulhaan:Unmoving, unchanging, still{{ref|name=TIL}}
+;Mun:Man{{ref|name=Prima}}
+;Munax:Cruel{{ref|name=DL}}
+;Muz:Men{{ref|name=SOS}} <small>(see also "Jul")</small>
+|}
+
+===N===
+{| width=80%
+|- valign=top
+|width=33%|
+;Naak:Eat{{ref|name=Prima}}
+;Naako:Eaten{{ref|name=Prima}}
+;Naaktiid:Begin{{ref|name=TIL}} (lit. "Eat-Time")
+;Naal:By{{ref|name=DL}}
+;Naan:Any{{ref|name=Alduin}}
+;Naar:Summit{{ref|name=TIL}}
+;Naas:Tooth{{ref|name=TIL}}
+;Nah:Fury{{ref|name=Shout}}
+;Nahgahdinok:Necromancer{{ref|name=Prima}} <small>("Dinok" meaning "death", "nahgah" may be extrapolated to mean "wizard")</small>
+;Nahkip:Feed{{ref|name=Paarthurnax}}{{ref|name=Alduin}}
+;Nahkriin:Vengeance{{ref|name=Prima}}
+;Nahl:Living{{ref|name=Prima}}
+;Nahlaas:Alive{{ref|name=Paarthurnax}}, Live
+;Nahlot:Silenced{{ref|name=SOS}}
+|width=33%|
+;Nall:By my{{ref|name=TIL}}
+;Nau:On{{ref|name=SOS}}{{ref|name=Odahviing}}
+;Nax:Cruelty{{ref|name=Prima}}
+;Neh:Never{{ref|name=Durnehviir}}
+;Nel{{ref|name=ESOD}} 
+;Ney:Both{{ref|name=SOS}}
+;Ni:Not{{ref|name=DL}}{{ref|name=Nahkriin}}{{ref|name=Shulkunaak}}
+;Nid, Niid:No{{ref|name=Prima}}
+;Nihnzey:Betrayal{{ref|name=TIL}} <small>(see also "Gruth")</small>
+;Nii:It{{ref|name=Paarthurnax}}
+;Niin:Them{{ref|name=TIL}}
+;Nikrent:Unbroken (lit. Not-broken){{ref|name=ESONahfahlaar}}
+;Nikriin(ne):Coward(s){{ref|name=Alduin}}
+;Nil:Void{{ref|name=TIL}}
+;Nimaar:Itself{{ref|name=Prima}}
+|width=33%|
+;Nin:Sting{{ref|name=Prima}}
+;Nir:Hunt{{ref|name=Shout}}
+;Nis:Cannot{{ref|name=Prima}}
+;Nivahriin:Cowardly (lit. "Not Sworn"){{ref|name=Prima}}
+;Nok:Lie{{ref|name=SOS}}{{ref|name=DL}} <small>(Meaning lie both as a verb and noun; "To lie down" and "To tell a lie")</small>
+;Nol:From{{ref|name=SOS}}{{ref|name=DL}}
+;Nonvul:Noble{{ref|name=Prima}}
+;Norok:Fiercest{{ref|name=Prima}}
+;Nos:Strike{{ref|name=DBShout}}
+;Nu:Now{{ref|name=SOS}}{{ref|name=Odahviing}}
+;Nunon:Only{{ref|name=Dragon}}
+;Nus:Statue{{ref|name=Shout}}
+;Nust:They{{ref|name=Prima}}
+;Nuz:But{{ref|name=SOS}}{{ref|name=DL}}
+|}
+
+===O===
+{| width=80%
+|- valign=top
+|width=33%|
+;Oblaan:End (noun){{ref|name=DL}}, Is over, Is ended{{ref|name=DBgamedata}}
+;Od:Snow{{ref|name=SOS}}{{ref|name=Shout}}
+;Odus:Snowy{{ref|name=Prima}}
+;Ofaal:Receive{{ref|name=TIL}}
+;Ofan:Give{{ref|name=Prima}}
+;Ogiim:Orc{{ref|name=Prima}}
+;Ok:His{{ref|name=SOS}}{{ref|name=DL}}
+|width=33%|
+;Okaaz:Sea{{ref|name=Prima}}
+;Ol:As{{ref|name=SOS}}{{ref|name=DL}}{{ref|name=Shulkunaak}}
+;Om:Hair{{ref|name=Prima}}
+;On:Spirit{{ref|name=WOTFG}} <small>(Described as similar to "soul," but empty; lifeless)</small>
+;Ond:Lo{{ref|name=Prima}}
+;Onik:Wise{{ref|name=Paarthurnax}}
+;Onikiv:Enlightenment{{ref|name=TIL}}
+|width=33%|
+;Onikaan:Wisdom{{ref|name=Paarthurnax}}
+;Ont:Once{{ref|name=Paarthurnax}}
+;Orin:Even{{ref|name=Odahviing}}
+;Osos:Some{{ref|name=Prima}}
+;Oth:Orphan{{ref|name=TIL}}
+;Ov:Trust{{ref|name=Shout}}
+;Ozinvey:Ivory{{ref|name=TIL}}
+|}
+
+===P===
+{| width=80%
+|- valign=top
+|width=33%|
+;Paak:Shame{{ref|name=Paarthurnax}}{{ref|name=Draugr}}
+;Paal:Foe{{ref|name=Prima}}
+;Paar:Ambition{{ref|name=Prima}}
+;Paaz:Fair{{ref|name=Paarthurnax}}{{ref|name=SOS}}
+;Pah:All{{ref|name=SOS}}{{ref|name=Odahviing}}
+;Pahklok, Pahlok:Arrogance{{ref|name=Paarthurnax}} <small>"Pahklok" is a typo{{ref|name=ESONahfahlaar}}</small>
+;Pel:Write{{ref|name=TIL}}
+|width=33%|
+;Pelaan:Wrote{{ref|name=TIL}}
+;Peyt:Rose{{ref|name=Prima}}
+;Pindaar:Plain(s){{ref|name=Prima}}
+;Piraak:Possess{{ref|name=TIL}}
+;Pogaan:Many{{ref|name=Paarthurnax}}
+;Pogaas:Much{{ref|name=Prima}}
+;Pook:Stink{{ref|name=Prima}}
+|width=33%|
+;Praal:Sit, sat{{ref|name=TIL}}
+;Praan:Rest{{ref|name=Prima}}
+;Prodah:Foretold{{ref|name=Prima}}
+;Pruzaan:Best{{ref|name=Prima}}
+;Pruzah:Good{{ref|name=Odahviing}}
+|}
+
+===Q===
+{| width=80%
+|- valign=top
+|width=33%|
+;Qah:Armor{{ref|name=DBShout}}
+;Qahnaar:Vanquish{{ref|name=Prima}}, Denial{{ref|name=Paarthurnax}}
+;Qahnaaran:Is vanquished{{ref|name=TIL}}
+;Qahnaarin:Vanquisher{{ref|name=Durnehviir|[[Skyrim:Durnehviir (dragon)|Durnehviir]]'s dialogue in ''[[Skyrim:Skyrim|Skyrim]]''}}
+;Qalos:Touch{{ref|name=Paarthurnax}}
+|width=33%|
+;Qeth:Bone{{ref|name=Prima}}
+;Qethsegol: <small>(Word Wall)</small> Stone (lit. "Bone of Earth"){{ref|name=DL}}
+;Quethsegol:Granite{{ref|name=HOJG}}
+;Qiilaan:Bow <small>(verb)</small>{{ref|name=Alduin}}{{ref|name=Draugr}}
+|width=33%|
+;Qo:Lightning{{ref|name=Shout}}
+;Qolaas:Herald{{ref|name=Prima}}
+;Qostiid:Prophecy{{ref|name=Paarthurnax}}
+;Qoth:Tomb{{ref|name=Shout}}
+|}
+
+===R===
+{| width=80%
+|- valign=top
+|width=33%|
+;Raal:Survive, last (v.){{ref|name=TIL}}
+;Raan:Animal{{ref|name=Shout}}
+;Rah:Gods{{ref|name=Paarthurnax}}
+;Rahgol:Rage{{ref|name=Prima}}
+;Rahgot:Anger{{ref|name=Prima}}
+;Rath:River{{ref|name=TIL}}
+;Rein:Roar{{ref|name=SOS}}
+;Rek:She{{ref|name=Prima}}
+;Rel:Domination{{ref|name=Paarthurnax}}
+;Revak:Sacred{{ref|name=Paarthurnax}}
+;Reyliik:Race(s){{ref|name=SOS}}
+|width=33%|
+;Reyth:Tree{{ref|name=TIL}}
+;Rii:Essence{{ref|name=Shout}}
+;Riik:Gale{{ref|name=Prima}}
+;Riis{{ref|name=ESOD|[[ON:Dragon|Dragon]]'s shouts in [[ON:Online|ESO]]}} 
+;Rinik:Very{{ref|name=Odahviing}}{{ref|name=DL}}
+;Ro(h):Balance{{ref|name=Shout}}
+;Rok:He{{ref|name=SOS}}
+;Ron:Rain{{ref|name=WOTFG}}
+;Ronaan:Archer{{ref|name=Prima}}
+;Ronaaz:Arrow{{ref|name=Prima}}
+;Ronax:Regiment{{ref|name=Prima}}
+;Ronit:Rival{{ref|name=SOS}}
+|width=33%|
+;Ros:Love{{ref|name=BN|group=UOL|1=[https://elderscrolls.bethesda.net/en/article/1rL4bCScN6RYXaXQb4ownj/how-bethesda-game-studios-made-skyrims-dragon-language How Bethesda Game Studios made Skyrim's Dragon language]}}
+;Rot:Word(s){{ref|name=Paarthurnax}}
+;Roth:Vine{{ref|name=WOTFG}}
+;Rotmulaag:Word of Power{{ref|name=Paarthurnax}}{{ref|name=DBgamedata}}
+;Rovaan:Wander{{ref|name=Prima}}
+;Ru:Run{{ref|name=Shout}}
+;Rul:When{{ref|name=SOS}}
+;Ruth:Rage{{ref|name=Alduin}}, Curses/Damn{{ref|name=Odahviing}} <small>(interjection)</small>
+;Ruvaak:Raven{{ref|name=Prima}}
+;Ruz:Then{{ref|name=SOS}}
+|}
+
+===S===
+{| width=80%
+|- valign=top
+|width=33%|
+;Sadon:Gray (adj.){{ref|name=Prima}}, lose (v.){{ref|name=TIL}}
+;Sah:Phantom{{ref|name=Prima}}
+;Sahlo:Weak{{ref|name=Prima}}
+;Sahqo:Red{{ref|name=DL}}
+;Sahqon:Crimson{{ref|name=Prima}}
+;Sahrot:Mighty{{ref|name=Paarthurnax}}{{ref|name=SOS}}
+;Sahsunaar:Villager(s){{ref|name=Prima}}
+;Sahvot:Faith{{ref|name=DBWordWall}}
+;Saraan:First{{ref|name=Paarthurnax}}, Awaits{{ref|name=Alduin}}{{ref|name=Draugr}}
+;Saviik:Savior{{ref|name=SOS}}
+;Se:Of{{ref|name=Prima}}
+;Shaan:Inspire{{ref|name=DBShout}}
+;Shor:[[Lore:Shor|Shor]]{{ref|name=Greybeards}}
+;Shul:Sun{{ref|name=Shout}}
+;Siigonis:Lizard, Argonian{{Ref|name=TIL}}
+;Siiv:Find/Found{{ref|name=DL}}
+;Sil:Soul{{ref|name=Prima}}
+|width=33%|
+;Sillesejoor:Mortal Souls{{ref|name=Alduin}}
+;Sinak:Finger(s){{ref|name=DL}}
+;Sindugahvon:Unyielding{{Ref|name=WWS|[[Skyrim:Word Wall|Word Walls]] found in ''[[Skyrim:Skyrim|Skyrim]]''}}
+;Sinon:Instead{{ref|name=DL}}
+;Sivaas:Beast{{ref|name=Paarthurnax}}
+;Sizaan:Lost{{ref|name=Dragon}}
+;Slen:Flesh{{ref|name=Shout}}
+;Smoliin:Passion{{ref|name=DL}}
+;So:Sorrow{{ref|name=Paarthurnax}}
+;Sod:Exploit, deed, feat{{ref|name=TIL}}
+;Sonaan:Bard{{ref|name=Prima}}
+;Sonaak:Dragon Priest(s){{ref|name=DBWordWall}}
+;Sos: Blood{{ref|name=Paarthurnax}}{{ref|name=DL}}
+;Sosmir: Blood Allegiance{{ref|name=ESONahfahlaar}}
+;Sosaal: Bleed{{ref|name=Draugr}}{{ref|name=Nahkriin}}
+;Sot:White{{ref|name=Prima}}
+|width=33%|
+;Sov:Shock{{ref|name=WOTFG}}
+;Sovrahzun:Mercenary (n.), purchase (n.){{ref|name=TIL}}
+;Spaan:Shield{{ref|name=Prima}}
+;Staadnau:Unbound{{ref|name=SOS}}
+;Stin:Free{{ref|name=SOS}}{{ref|name=Odahviing}}
+;Stinselok:Sky's freedom{{ref|name=TIL}}
+;Strun:Storm{{ref|name=Shout}}
+;Strundu'ul:Stormcrown{{ref|name=Einarth|[[Skyrim:Einarth|Einarth]]'s dialogue in ''[[Skyrim:Skyrim|Skyrim]]''}}
+;Strunmah:Mountain{{ref|name=Prima}}
+;Su:Air{{ref|name=Shout}}
+;Su'um:Breath{{ref|name=Paarthurnax}}
+;Sul:Day{{ref|name=SOS}}{{ref|name=Alduin}}{{ref|name=Shulkunaak}}
+;Suleyk:Power{{ref|name=SOS}}{{ref|name=ESOLaatvulon}}
+;Suleyksejun:Dominion(lit. Power of kings){{ref|name=DBgamedata}}
+;Sunvaar:Beast(s){{ref|name=Prima}}
+;Suvulaan:Twilight{{ref|name=TIL}}
+|}
+
+===T===
+{| width=80%
+|- valign=top
+|width=33%|
+;Taazokaan:Tamriel{{ref|name=SOS}}
+;Tafiir:Thief{{ref|name=DL}}
+;Tah:Pack{{ref|name=Shout}}
+;Tahrodiis:Treacherous{{ref|name=Paarthurnax}}{{ref|name=DL}}
+;Tahrovin:Treachery{{ref|name=DBgamedata}}
+;Tey:Tale{{ref|name=SOS}}
+;Thaan{{ref|name=ESOD}}
+;Thaarn:Obedience{{ref|name=TIL}}
+;Thu'um:<small>(Dragon)</small> Shout, Voice{{ref|name=Prima}}
+|width=33%|
+;Thur:Overlord{{ref|name=Nahkriin}}{{ref|name=Dragon}}
+;Thurri:Lord{{ref|name=TIL}}
+;Tiid:Time{{ref|name=Shout}}
+;Tiiraz:Sad{{ref|name=Paarthurnax}}
+;Tinvaak:Talk, Speech{{ref|name=Paarthurnax}}
+;Til:There{{ref|name=TIL}}
+;Togaat:Attempt{{ref|name=DL}}
+;Tol:That{{ref|name=SOS}}
+|width=33%|
+;Toor:Inferno{{ref|name=Shout}}
+;Tosh:{{ref|name=ESONahfahlaar}}
+;Tovinaan:Searcher{{ref|name=TIL}}
+;Tovit:Search{{ref|name=TIL}}
+;Tu:Hammer{{ref|name=Prima}}
+;Tum:Down{{ref|name=TIL}}
+;Tuz:Blade{{ref|name=SOS}}
+|}
+
+===U===
+{| width=80%
+|- valign=top
+|width=33%|
+;Ufiik:Troll{{ref|name=TIL}}
+;Ul:Eternity{{ref|name=Shout}}
+;Um:Twin{{ref|name=TIL}}
+;Un:Our{{ref|name=Prima}}<small>Used less often than the -u suffix.</small>
+|width=33%|
+;Unraak:Marriage, marry, married.{{ref|name=TIL}}
+;Unslaad, Unahzaal:Unending/Ceaseless/Eternal{{ref|name=Draugr}}{{ref|name=Prima}}{{ref|name=ESOLaatvulon|[[ON:Laatvulon|Laatvulon]]'s dialogue in [[Online:Online|ESO]]: ''[[Online:Dragonhold|Dragonhold]]''}}<small>Unslaad is the more common form.</small>
+;Unt:Try{{ref|name=Prima}}
+;Us:Before, in front of{{ref|name=Draugr}}<small>Not "before" chronologically. Qiilan us dilon: bow before the dead.</small>
+|width=33%|
+;Uth:Command{{ref|name=Odahviing}}, Order{{ref|name=Nahkriin}}
+;Uv:Or{{ref|name=Alduin}}
+;Uznahgaar:Unbridled{{ref|name=Prima}}, Unending{{ref|name=Paarthurnax}}
+|}
+
+===V===
+{| width=80%
+|- valign=top
+|width=33%|
+;Vaal:Bay{{ref|name=Prima}}<small>As in "hold at bay".</small>{{ref|name=TIL}}
+;Vaat:Swear/Swore{{ref|name=Prima}}
+;Vaaz:Tear, rip{{ref|name=Shout}}<small>Not lacrymal tears.</small>
+;Vah:Spring{{ref|name=Shout}}
+;Vahdin:Maiden{{ref|name=Prima}}
+;Vahlok:Guardian{{ref|name=Prima}}
+;Vahriin:Sworn{{ref|name=Prima}}
+;Vahrukiv:Commemorate{{ref|name=DL}}
+;Vahrukt:Memory{{ref|name=Paarthurnax}}{{ref|name=DL}}
+;Vahzah, Vazah:True{{ref|name=Odahviing}}
+;Vahzen:Truth{{ref|name=Paarthurnax}}
+;Ved:Black{{ref|name=Prima}}
+;Ven:Wind{{ref|name=DBShout}}
+;Vennesetiid:The currents of Time{{ref|name=Paarthurnax}}
+;Vey:Cut{{ref|name=SOS}}
+;Veydo:Grass{{ref|name=TIL}}
+;Veysun:Ship{{ref|name=Prima}}
+|width=33%|
+;Viik:Defeat{{ref|name=Shout}}
+;Viin:Shine{{ref|name=Alduin}}
+;Viing:Wing{{ref|name=Shout}}
+;Viint:Shine{{ref|name=TIL}}
+;Viintaas:Shining{{ref|name=Prima}}
+;Viir:Dying{{ref|name=Durnehviir}}
+;Vindahlheim:Forever{{ref|name=TIL}}
+;Vith:Serpent{{ref|name=Prima}}
+;Vo...:Opposite of...{{ref|name=Prima}}
+;Vobalaan:Unworthy{{ref|name=TIL}}
+;Vod:Ago{{ref|name=SOS}}
+;Vodahmin:Unremembered, forgotten{{ref|name=TIL}}
+;Vokiin:Unborn{{ref|name=Paarthurnax}}
+;Vokri, Vokrii:Restore{{ref|name=Paarthurnax}}{{ref|name=TIL}}
+;Vokul:Evil{{ref|name=Prima}}
+;Vokun:Shadow{{ref|name=SOS}}
+;Vol:Horror{{ref|name=Prima}}
+|width=33%|
+;Volaan:Intruder{{ref|name=Draugr}}
+;Vomindok:Unknown{{ref|name=Paarthurnax}}
+;Vonmindoraan:Incomprehensible idea{{ref|name=Paarthurnax}}
+;Vonun:Unseen{{ref|name=TIL}}
+;Vonuz:Invisible{{ref|name=TIL}}
+;Voqostiid:Surprised{{ref|name=TIL}}
+;Vos:Claw{{ref|name=TIL}}
+;Voth:With{{ref|name=SOS}}{{ref|name=Alduin}}{{ref|name=Shulkunaak}}<small>Should be avoided.</small>
+;Vothaarn:Disobedience{{ref|name=Nahkriin}}
+;Vukein:Combat{{ref|name=DL}}
+;Vul:Dark{{ref|name=SOS}}
+;Vulom:Darkness{{ref|name=Prima}}
+;Vulon:Night{{ref|name=Prima}}
+;Vum:Beard{{Ref|name=TIL}}
+;Vun:Tongue{{ref|name=Prima}}
+;Vur:Valor{{ref|name=DBShout}}
+;Vus:Nirn{{ref|name=Tsun|[[Skyrim:Tsun|Tsun]]'s dialogue in ''[[Skyrim:Skyrim|Skyrim]]''}}
+|}
+
+===W===
+{| width=80%
+|- valign=top
+|width=33%|
+;Wah:To{{ref|name=SOS}}{{ref|name=Shulkunaak}}<small>(both as preposition and verb infinitive form)</small>
+;Wahl:Build/Create{{ref|name=Prima}}
+;Wahlaan:Raise{{ref|name=DL}}, Built/Created{{ref|name=Prima}}
+;Wen:Whose{{ref|name=Prima}}
+;Werid:Praise{{ref|name=Prima}}
+|width=33%|
+;Wiix:Trap{{ref|name=WOTFG}}
+;Win:Wage{{ref|name=Prima}}
+;Wo: Who{{ref|name=Alduin}}{{ref|name=DL}}
+;Wol:Oak{{ref|name=TIL}}
+;Wuld:Whirlwind, Vortex{{ref|name=Paarthurnax}}{{ref|name=Shout}}
+|width=33%|
+;Wundun:Travel{{ref|name=Odahviing}}
+;Wunduniik:Traveler{{ref|name=Paarthurnax}}
+;Wuth:Old{{ref|name=Paarthurnax}}
+|}
+
+===Y===
+{| width=80%
+|- valign=top
+|width=33%|
+;Yah:Seek{{ref|name=DL}}{{ref|name=Shout}}
+;Yol:Fire{{ref|name=Shout}}
+|width=33%|
+;Yolos:Flame{{ref|name=TIL}}
+;Yoriik:March{{ref|name=Prima}}
+|width=33%|
+;Yuvon:Gold/Golden{{ref|name=Prima}}
+|}
+
+===Z===
+{| width=80%
+|- valign=top
+|width=33%|
+;Zaam:Slave{{ref|name=Shout}}
+;Zaamhus:Slavery{{ref|name=DBgamedata}}
+;Zaan:Shout{{ref|name=Prima}} <small>(as in "yell", not "Dragon Shout")</small>
+;Zah:Finite{{ref|name=Shout}}
+;Zahkrii: Sword{{ref|name=DL}}
+;Zahrahmiik:Sacrifice{{ref|name=Prima}}
+;Zeim:Through{{ref|name=Paarthurnax}}{{ref|name=SOS}}
+;Zein:Worship{{ref|name=Prima}}{{vn}}
+|width=33%|
+;Zeymah:Brother(s){{ref|name=Paarthurnax}}
+;Zeymahzin:Companion{{ref|name=TIL}} (lit. "Brother-Honor")
+;Zii:Spirit{{ref|name=Shout}}
+;Ziil:Soul{{ref|name=Alduin}}
+;Zin:Honor{{ref|name=Paarthurnax}}
+;Zind:Triumph{{ref|name=Prima}}
+;Zindro:Triumph's{{ref|name=Prima}}
+;Zofaas:Fearful{{ref|name=Paarthurnax}}
+|width=33%|
+;Zohungaar:Heroically{{ref|name=Prima}}
+;Zok:Most{{ref|name=Alduin}}{{ref|name=Odahviing}}
+;Zol:Most{{ref|name=Dragon}}, Zombie{{ref|name=Shout}}
+;Zoor:Legend{{ref|name=Shout}}
+;Zorox:Create{{ref|name=TIL}}
+;Zu'u:I{{ref|name=Alduin|[[Skyrim:Alduin|Alduin]]'s dialogue in ''[[Skyrim:Skyrim|Skyrim]]''}}{{ref|name=Dragon}}{{ref|name=Shulkunaak}}
+;Zul:<small>(mortal)</small> Voice{{ref|name=SOS}}{{ref|name=Shout}} 
+;Zun:Weapon{{ref|name=Shout}}
+|}
+
+==Phrases==
+Some phrases have a different meaning in the Dragon Language. The phrases below are examples of these phrases.
+
+'''Alok-dilon'''{{ref|name=Durnehviir}}
+:Necromancy (literally: arise-dead)
+'''Aav Grah!'''{{ref|name=Shulkunaak}}
+:(literally: Join_Battle), used in the same sense as "En guarde!" or "let's fight!"
+'''Bormahu han zu'u'''{{ref|name=ESONahfahlaar}}
+:(literally: Father _ I)
+'''Dey on folook fey ko ven ahrk ron'''{{ref|name=WOTFG}}
+:"Implausible spirits haunt a grove in the wind and rain"
+'''Dii Zeymah'''{{ref|name=ESONahfahlaar}}
+:"My Brother"
+'''Dov nifaas wiixseroth'''{{ref|name=WOTFG}}
+:"Dragons fear not a trap of vines"
+'''Drem Wah Hi'''{{ref|name=Shulkunaak}}
+:"Go in peace"
+'''Drem Yol Lok'''{{ref|name=Paarthurnax}}
+:"Greetings" (literally: peace fire sky)
+'''Kaaz Kaal Sul'''{{ref|name=ESONahfahlaar|[[Online:Nahfahlaar|Nahfahlaar]]'s dialogue in [[Online:Online|ESO]]: ''[[Online:Dragonhold|Dragonhold]]''}}
+:Pride of Alkosh (literally: Khajiit-Champion-Day)
+'''Krif voth ahkrin'''{{ref|name=Odahviing}}{{ref|name=Shulkunaak}}
+:"Fight Bravely" (literally: fight with courage)
+'''Lok, Thu'um'''{{ref|name=Paarthurnax}}
+:"Sky above, Voice within" (literally: Sky, Voice)
+'''Nid jiid, nid kun'''{{ref|name=WOTFG}}
+:"No moon, no moonlight"
+'''Nihnzey miir wah krongrah'''{{ref|name=WOTFG}}
+:"Betrayal is the path to great victory"
+'''Nihnzey miir wah viik'''{{ref|name=WOTFG}}
+:"Betrayal is the path to defeat"
+'''Nonvul mey'''{{ref|name=ESONahfahlaar}}
+:"Honorable Fool" (literally: Noble Fool)
+'''Nunon mey bo strun voqostiid naal sov'''{{ref|name=WOTFG}}
+:"Only a fool flies in a storm and is surprised by the shock."
+'''Orin brit ro'''{{ref|name=Odahviing}}
+:"(a) fully beautiful balance", dragon phrase for irony (literally: even beautiful balance)
+'''Pruzah wundunne!'''{{ref|name=ESONahfahlaar}}
+:(literally:Good Travels)
+'''Rah wahlaan'''{{ref|name=Paarthurnax}}
+:"gods (of) creation" / "creator gods" (literally: gods built/created)
+'''Rul jol, lok'''{{ref|name=WOTFG}}
+:"When unsteady, rise"
+'''Suleyki hin!'''{{ref|name=ESOLaatvulon}}
+:(literally: Power Your(s))
+'''Vomindok fez'''
+:"An Unexpected Outcome" (literally: Unknown _){{ref|name=ESONahfahlaar}}
+'''Wah vokrii krentiid'''{{ref|name=ESONahfahlaar}}
+:(literally:To Restore Break-Time)
+'''Wuldsetiid los tahrodiis'''{{ref|name=Paarthurnax}}
+:"the whirlwind/vortex of time is treacherous/turbulent"
+'''Ziil gro dovah ulse!'''{{ref|name=Alduin}}
+:Your soul is bound to me for eternity!
+'''Zol mul'''{{ref|name=Dragon}}
+:Stronger (literally: Most strong)
+'''Zoor drun qalos'''{{ref|name=ESONahfahlaar}}
+:"Myth made manifest" (Literally: Legend Bring Touch)
+'''Zu'u koraav'''{{ref|name=ESONahfahlaar}}
+:"I see"
+'''Zu'u ni mey'''{{ref|name=Shulkunaak}}
+:"I'm no fool"
+
+==Names==
+Dragon names are formed of three monosyllabic words that, as a whole, may be rendered as a Shout.{{Ref|name=Esbern|[[SR:Esbern|Esbern]]'s dialogue during [[SR:Season Unending|Season Unending]] in ''[[SR:Skyrim|Skyrim]]''}} Each dragon name is unique, and so dragons are able to use these Shouts to address each other across vast distances.
+
+While some dragon names can be definitively separated into three words, others can, interestingly enough, be translated as either three or two words. For instance, "Sahrotaar" can translate to either "Sah-Rot-Aar" (Phantom-Word-Servant/Slave) or "Sahrot-Aar" (Mighty-Servant/Slave). However, as mentioned above, dragon names are said to always be made up of three words, so one should always assume that the three-word translation is correct.
+
+Dragon names can be translated into phrases, such as the name ''Odahviing'' (literally: Snow-Hunter-Wing), which was converted into a coherent phrase; "''Winged Snow-Hunter''".{{Ref|name=Esbern}} If other names were translated in the same way, it can be extrapolated that ''Boziikkodstrun''  would be "''Bold Storm-Wielder''" or that ''Sahloknir'' would be "''Phantom Sky-Hunter''". 
+
+There is also the case where a mortal can be granted a ''Dovahzin'' (Dragon Name), by a dragon who believes they have earned it and it is considered a great honor. Two examples of these are [[Lore:The Vestige|Ahkahtuz]] (Hunter-Pride-Blade) and [[Lore:Ja'darri|Toshrakhat]].{{ref|name=ESONahfahlaar}} Dragon Priests also usually have names in the dragon language, although often only two syllables long instead of three.
+ 
+Dragon names that can be translated include:
+{|
+|-
+|
+:'''{{Lore Link|Ahbiilok}}:''' Hunter-Blue-Sky
+:'''[[Lore:Alduin|Alduin]]''': Destroyer-Devour-Master
+:'''{{Lore Link|Bahlokdaan}}''': Wrath-Sky-Doom (Bah-Lok-Daan) ''or'' Hunger-Doom (Bahlok-Daan)
+:'''[[Lore:Boziikkodstrun|Boziikkodstrun]]''': Boldly-Wield-Storm
+:'''{{Lore Link|Dukaanfinsot}}''': Dishonor-The-White
+:'''[[Lore:Durnehviir|Durnehviir]]''': Curse-Never-Dying
+:'''[[Lore:Grahkrindrog|Grahkrindrog]]''': Battle-Courageous-Lord
+:'''{{Lore Link|Joorahmaar}}''': Mortal-Hunter-Terror
+:'''[[Lore:Kaalgrontiid|Kaalgrontiid]]''': Champion-Bind-Time
+:'''[[Lore:Kahvozein|Kahvozein]]''': Pride-Opposite-Worship
+:'''[[Lore:Krahjotdaan|Krahjotdaan]]''': Cold-Maw-Doom
+:'''[[Lore:Krahnoviir|Krahnoviir]]''': Cold-???-Dying
+:'''{{Lore Link|Krosulhah}}''': Sorcerer-Day-Mind
+:'''{{Lore Link|Kruziikrel}}''': Ancient-Dominate
+:'''[[Lore:Laatvulon|Laatvulon]]''': Last-Night (Laat-Vulon) ''or'' Last-Dawn-Fist (Laat-Vu-Lon) ''or'' Last-Dark-Spirit (Laat-Vul-On)
+:'''{{Lore Link|Lodunost}}''': Deceive-Devour-??? (Lo-Du-Nost) ''or'' Deceive-Grace-??? (Lo-Dun-Ost)
+:'''{{Lore Link|Lokkestiiz}}''': Sky-Tempest-Ice
+:'''{{Lore Link|Maarselok}}''': Terror-Of-Sky 
+:'''[[Lore:Mirmulnir|Mirmulnir]]''': Allegiance-Strong-Hunt
+:'''[[Lore:Mulaamnir|Mulaamnir]]''': Strong-Serve-Hunt
+:'''{{Lore Link|Naaslaarum}}''': Tooth-Water-Twin
+:'''[[Lore:Nahagliiv|Nahagliiv]]''': Fury-Burn-Wither
+||
+:'''[[Lore:Nahfahlaar|Nahfahlaar]]''': Fury-For-Water 
+:'''{{Lore Link|Nahviintaas}}''': Fury-Shining
+:'''[[Lore:Nosmaarnax|Nosmaarnax]]''': Strike-Terror-Cruelty
+:'''[[Lore:Odahviing|Odahviing]]''': Snow-Hunter-Wing
+:'''[[Lore:Paarbahlot|Paarbahlot]]''': Ambition-Wrath-Great
+:'''[[Lore:Paarthurnax|Paarthurnax]]''': Ambition-Overlord-Cruelty
+:'''{{Lore Link|Relonikiv}}''': Dominate-Enlightenment
+:'''[[Lore:Sahloknir|Sahloknir]]''': Phantom-Sky-Hunt
+:'''{{Lore Link|Sahrotaar}}''': Mighty-Servant/Slave (Sahrot-Aar) ''or'' Phantom-Word-Servant/Slave (Sah-Rot-Aar)
+:'''{{Lore Link|Sahrotnax}}''': Mighty-Cruelty (Sahrot-Nax) ''or'' Phantom-Word-Cruelty (Sah-Rot-Nax)
+:'''{{Lore Link|Shulkunaak}}''': Sun-Moonlight-Guide
+:'''[[Lore:Thurvokun|Thurvokun]]''': Overlord-Shadow
+:'''{{Lore Link|Vahlokzin}}''': Spring-Rise/Sky-Honor (Vah-Lok-Zin) ''or'' Guardian-Honor (Vahlok-Zin)
+:'''{{Lore Link|Viinturuth}}''': Shine-Hammer-Rage
+:'''{{Lore Link|Vithrelnaak}}''': Serpent-Domination-Eat
+:'''{{Lore Link|Voslaarum}}''': Claw-Water-Twin
+:'''[[Lore:Vuljotnaak|Vuljotnaak]]''': Dark-Maw-Eat
+:'''[[Lore:Vulthuryol|Vulthuryol]]''': Dark-Overlord-Fire
+:'''{{Lore Link|Yahgrondu}}''': Seek-Bind-Devour
+:'''{{Lore Link|Yolnahkriin}}''': Fire-Vengeance (Yol-Nahkriin) ''or'' Fire-Fury-Slaughter (Yol-Nah-Kriin)
+|}
+
+Dragon names that are as yet untranslated include:
+:'''[[Lore:Debudjen|Debudjen]]'''
+:'''[[Lore:Ma-Tylda|Ma-Tylda]]'''
+:'''[[Lore:Numinex|Numinex]]'''
+:'''[[Lore:Dragonne Papré|Papré]]'''
+: '''[[Lore:Skakmat|Skakmat]]'''
+Note that these names are not necessarily real Dragon language names. In the same way that Nahfahlaar had imperialized his name as Nafaalilargus when he worked for the Empire, it is likely that dragons who act in the employ of humans (such as Papré for the battlemage Samar Starlover, or Skakmat for the mystic [[Lore:Nulfaga|Nulfaga]]) prefer not to use dragon names during their employment. Debudjen is mentioned only in [[Lore:King_Edward|a work considered historical fiction]], and Numinex in legends [[Lore:Olaf and the Dragon|considered distorted and inconsistent]].
+
+===Locations===
+The following are locations whose names are translated.
+:'''[[Lore:Old Hroldan|Ahroldan]]''': Old Hroldan{{ref|name=HOJG}}
+:'''[[Lore:Whiterun|Ahrolsedovah]]''': Hill-of-Dragons{{ref|name=HOJG}}
+:'''[[Lore:Bromjunaar|Bromjunaar]]''': North-King-Slave{{ref|name=HOJG}} (Direct Translation)
+:'''[[Lore:Ivarstead|Hillgrundhofkah]]''': Hillgrund's Steading{{ref|name=HOJG}}
+:'''[[Lore:Rorikstead|Rorikhofkah]]''': Rorik's Steading{{ref|name=HOJG}}
+:'''[[Lore:Granite Hill|Quethsegol Ahrol]]''': Granite Hill{{ref|name=HOJG}}
+
+==Notes==
+*Nordic ruins were inspired by the pyramids of [[wikipedia:Ancient Egypt|Ancient Egypt]] as magnificent stone structures that would stand the test of time. [[General:Adam Adamowicz|Adam Adamowicz]] came up with having them shaped like ribcages, giving the developers the sense that they were made out of dead dragon skeletons. They were filled with iconography similar to [[wikipedia:Egyptian hieroglyphs|Egyptian heiroglyphs]].{{Ref|name=RelivingSkyrim|[https://www.youtube.com/watch?v{{=}}WU9CcCscgRM Reliving the Opening of Skyrim with the Creators from BGS]}} The script resembles scratch marks, which was inspired by [[wikipedia:Cuneiform|Cuneiform]].{{ref|name=BN|group=UOL}}
+* Its lexicon and vocabulary was derived from languages like Swedish, Danish and German and especially Old English according to [[General:Emil Pagliarulo|Emil Pagliarulo]]. Inspiration for this came from an Old English recording of Beowulf as a creative reference for the Dragon language.
+* The idea for turning the Dragon’s words into powerful abilities came from David Lynch’s 1984 film adaptation of Dune. A fighting style called the "Weirding Way" essentially weaponizes sound, and the pattern of inhaling and exhaling directly influenced the way Dragon shouts function.{{ref|name=BN|group=UOL}}
+
+==References==
+<references/>
+{{UOL}}
+<references group=UOL/>
+
+{{Lore Linguistics}}

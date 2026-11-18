@@ -1,0 +1,79 @@
+<noinclude>{{Cleanup-shrp
+|writtenby=Krusty
+|checkedby=
+}}</noinclude>{{Place Summary
+|type=Inn
+|zones=2
+|image=SR-place-The Frozen Hearth.jpg
+|imgdesc=The Frozen Hearth
+|job1=[[Skyrim:Haran|Haran]]
+|job2=[[Skyrim:Dagur|Dagur]]
+|jobtitle2=Bartender
+|description=an [[Skyrim:Inns|inn]] located in the city of [[Skyrim:Winterhold|Winterhold]].
+|locationcode=WinterholdTheFrozenHearth, WinterholdTheFrozenHearthCellar
+|treasure=''[[Skyrim:The Exodus|The Exodus]]''
+|city=Winterhold
+|roomcost=10
+|region=Winterhold (region)
+}}It is one of the few inhabited buildings in town and is a gathering point for the remaining residents. It is located in the center of town, across the street from the [[Skyrim:Jarl's Longhouse_(Winterhold)|Jarl's Longhouse]]. 
+
+[[Skyrim:Dagur|Dagur]] tends the counter, buying and selling [[#Standard Merchandise|food and drinks]] and renting out rooms for 10 gold, while his wife [[Skyrim:Haran|Haran]] serves the customers. It consists of two areas, ''[[#The Frozen Hearth|The Frozen Hearth]]'' and ''[[#The Frozen Hearth Cellar|The Frozen Hearth Cellar]]''.
+{{NewLeft}}
+== Residents ==
+{| class="wikitable" width="140px"
+!Residents
+|-
+|
+;[[Skyrim:Dagur|Dagur]] {{Service Icon|Innkeeper}} {{Service Icon|Food and Drink}}
+;[[Skyrim:Eirid|Eirid]]
+;[[Skyrim:Haran|Haran]]
+;[[Skyrim:Nelacar|Nelacar]] {{Service Icon|Spells}}
+|-
+|}
+== Related Quests ==
+* {{Quest Link|Drowned Sorrows}}
+* {{Quest Link|A Few Words with You}}
+* {{Quest Link|Hunt and Gather}}
+* {{Quest Link|Hard Answers}}
+* {{Quest Link|The Black Star}}
+* {{Quest Link|New Allegiances}}
+* {{Quest Link|The Sanctuary and the Manufactory}}
+* {{Quest Link|Some Light Theft}}
+{{NewLine}}
+
+==The Frozen Hearth==
+[[File:SR-interior-The Frozen Hearth.jpg|thumb|right|Inside the Frozen Hearth]]
+Like many other taverns in smaller settlements, The Frozen Hearth consists of a huge taproom with a fireplace in the center and the counter at the opposite end of the room from the entrance. Several wooden tables are scattered around, all of them set with food and drink. In addition to the taproom, the inn also has three smaller rooms with single beds, one of them reserved for paying customers.
+
+To the right of the front door, in the southern corner, is the first table which is dressed with two [[Skyrim:Salmon Steak|salmon steaks]] on wooden plates, an [[Skyrim:Eidar Cheese Wedge|eidar cheese wedge]], some [[Skyrim:Sliced Eidar Cheese|sliced eidar cheese]], an [[Skyrim:Eidar Cheese Wheel|eidar cheese wheel]], a [[Skyrim:Goat Cheese Wedge|goat cheese wedge]], a [[Skyrim:Goat Cheese Wheel|goat cheese wheel]], some [[Skyrim:Bread|bread]], and one bottle each of [[Skyrim:Wine|wine]] and [[Skyrim:Alto Wine|alto wine]]. In the corner stands a single food barrel, while a similar barrel can be found in the adjacent corner to the east. Next to the barrels are another table with two loaves of bread, and more wine and alto wine, two bottles of each. The next table is where you can find local drunk [[Skyrim:Ranmir|Ranmir]] around the clock. The table in front of him is dressed with three loaves of bread, two bottles of alto wine, and one bottle of regular wine. Next up is a set of shelves with two [[Skyrim:Elves Ear|elves ear]], six bottles of [[Skyrim:Nord Mead|Nord mead]], and [[Skyrim:Wylandriah|Wylandriah]]'s Satchel, needed for the quest [[Skyrim:Hunt and Gather|Hunt and Gather]]. The last table for paying customers can be found between the entrance door and the room for rent. It is set with two [[Skyrim:Chicken's Egg|chicken's eggs]], a bottle of wine, and a loaf of [[Skyrim:Bread|bread]].
+[[File:SR-interior-The_Frozen_Hearth_02.jpg|thumb|right|[[Skyrim:Nelacar|Nelacar]]'s room]]
+The bar takes up most of the northwestern part of the taproom and Dagur can be found behind the counter 24 hours a day. On display is a wedge, a slice, and a wheel of eidar cheese, and the same of goat cheese, a bottle of [[Skyrim:Wine|wine]], and a bottle of [[Skyrim:Alto Wine|alto wine]], along with a [[Skyrim:Salmon Steak|salmon steak]]. Hidden on the shelves underneath the counter are five gold coins, an [[Skyrim:Iron War Axe|iron war axe]], a small [[Skyrim:Coin Purse|coin purse]], six bottles of [[Skyrim:Alto Wine|alto wine]], two bottles of [[Skyrim:Wine|wine]], and a copy of the book ''[[Skyrim:Herbane's_Bestiary:_Ice_Wraiths| Herbane's Bestiary: Ice Wraiths]]''. In the western corner is a set of shelves with two bottles of alto wine and six of regular wine, along with four loaves of [[Skyrim:Bread|bread]]. Next to the shelves are two food barrels. Hanging from the ceiling, above the stairs leading down into the basement, are seven dead [[Skyrim:Rabbit_(dead)|rabbits]] and two [[Skyrim:Pheasant|pheasants]]. Hanging next to the game are a few ingredients, including two [[Skyrim:Garlic Braid|garlic braids]], some [[Skyrim:Dried Elves Ear|dried elves ear]], and some [[Skyrim:Dried Frost Mirriam|dried frost mirriam]].
+
+The room you can rent is the second room along the western wall, closest to the bar,  and contains a single bed, a dresser with random [[Skyrim:Clothes|clothes]], a chest with minor loot, and a copy of ''[[Skyrim:Walking_the_World,_Vol_XI|Walking the World, vol XI]]''. The neighboring room can be used by [[Skyrim:Eirid|Eirid]], [[Skyrim:Haran|Haran]], and [[Skyrim:Dagur|Dagur]]. It contains a wardrobe with clothes, a copy of ''[[Skyrim:Nords of Skyrim|Nords of Skyrim]]'', a chest with some loot, and a bottle of [[Skyrim:Black-Briar Mead|Black-Briar Mead]]. With the [[SR:Nchuanthumz: Dwarven Home|Nchuanthumz: Dwarven Home]] [[SR:Creation Club|Creation]] installed, ''[[Skyrim:Seeks-Ancient-Artifacts' Journal, v1|Seeks-Ancient-Artifacts' Journal, v1]]'' can be found on the table in this room. Adjacent to these two rooms is another room, reserved for permanent resident and former [[Skyrim:College of Winterhold (place)|College of Winterhold]] member, the wizard [[Skyrim:Nelacar|Nelacar]]. It seems like he has been living there for quite some time and it resembles a small trading room, complete with a counter with a copy of the rare tome ''[[Skyrim:Words_of_Clan_Mother_Ahnissi|Words of Clan Mother Ahnissi]]'' and two bottles of alto wine on display. On the shelves underneath the counter is the [[Skyrim:Staff of Arcane Authority|staff of arcane authority]] used for the quest [[Skyrim:Some_Light_Theft|Some Light Theft]]. Behind the counter is a set of shelves with Nelecar's personal library, several books on [[Lore:Daedra|Daedra]], and a single bottle of alto wine. In the southeastern corner sits his owned bed with an empty chest at the foot. In the corner is a chair where Nelecar usually sits, and a table with an [[Skyrim:Iron Dagger|iron dagger]], a medium coin purse, and four gold coins.
+
+== The Frozen Hearth Cellar==
+[[File:SR-interior-The_Frozen_Hearth_03.jpg|thumb|right|The Frozen Hearth Cellar]]
+Down the stairs from the taproom is the cellar where [[Skyrim:Dagur|Dagur]]'s wife  [[Skyrim:Haran|Haran]] sleeps next to their child, [[Skyrim:Eirid|Eirid]]. The door opens to the sight of three food barrels and a huge amount of cobwebs, hinting at the decline of Winterhold. In the sleeping area are two owned beds, one single and one double, whereas Eirid sleeps in the single bed, next to a basket with five [[Skyrim:Green Apple|green apples]]. In the corner is an end table with clutter, with two bottles of alto wine on top. At the foot of the double bed is a chest. In the corner sits another end table with a medium [[Skyrim:Coin Purse|coin purse]] on top and, on the floor, four food sacks. There is also a wardrobe with some random [[Skyrim:Clothing|clothes]] and another food barrel. In the center of the sleeping area is a dinner table set with a healthy amount of food, including three [[Skyrim:Red Apple|red apples]], three green apples, an [[Skyrim:Apple Pie|apple pie]], two [[Skyrim:Sweet Roll|sweet rolls]], a [[Skyrim:Goat Cheese Wheel|goat cheese wheel]], an [[Skyrim:Eidar Cheese Wheel|eidar cheese wheel]], a wedge of [[Skyrim:Goat Cheese Wedge|goat cheese]], three loaves of [[Skyrim:Bread|bread]], two bottles of [[Skyrim:Alto Wine|alto wine]] and two bottles of regular [[Skyrim:Wine|wine]]. Adjacent to the dinner table is a storage area with several inactive crates and three food sacks and, wedged between a crate and a pillar, the [[Skyrim:Restoration|Restoration]] skill book ''[[Skyrim:The Exodus|The Exodus]]''. In the other end of the room, behind the empty table, are three more food sacks and a food barrel.
+
+== Standard Merchandise ==
+This is the merchandise found in the Frozen Hearth's [[Skyrim:Merchant Chest|merchant chest]]. These items are only available if purchased from the merchant; they cannot be pickpocketed or stolen. They are restocked every two days.
+{| class="wikitable"
+! Count !! Item
+|-
+| 4 || [[Skyrim:Honningbrew Mead|Honningbrew Meads]]
+|-
+| 7 || Random [[Skyrim:Food#Beverages|drinks]]
+|-
+| 10 || Random inn [[Skyrim:Food|food]]
+|-
+| 1 || [[Skyrim:Salt Pile|Salt Pile]]
+|}
+
+==Notes==
+*If you infect Haran with vampirism during the [[SR:New Allegiances|New Allegiances]]{{DG}} quest, a coffin will appear in the westernmost corner of the cellar and can be used to sleep and get the vampire rested bonus. Haran does not seem to use it however, and will still sleep in her old bed.
+*The ''[[Books:The Elder Scrolls V: Skyrim: Prima Official Game Guide|Prima Official Game Guide]]'' mentions a character by the name of '''Angwe''' living here, although no such person exists, and is never even mentioned. There isn't even a trace of them to be found in the game data.
+
+==Bugs==
+{{Bug|Eirid's bed in the Cellar is scaled down too far, causing her to float above it.|USKP|1.3.3}}
+{{Bug|If Haran becomes the publican here, she may not be seen standing behind the counter.|USKP|2.0.5|The two counter leaning markers used by the innkeeper faction were only owned by Dagur, so Haran could never use them.}}
+{{Bug|The staff may respawn an infinite number of times if you steal it, allowing you to fence it over and over again.}}

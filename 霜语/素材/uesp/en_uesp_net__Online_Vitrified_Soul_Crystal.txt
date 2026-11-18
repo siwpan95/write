@@ -1,0 +1,50 @@
+{{Mod Header|2025 Content Pass}}{{Online Furnishing Summary
+|cat=Lighting
+|subcat=Enchanted Lights
+|id=223151
+|furnLimitType=Traditional Furnishings
+|bindtype=Bind on Pickup
+|quality=Legendary
+|desc="Whispers from [[Online:Writhing Wall|the Wall]].<br>A Writhing Torrent of [[Lore:Soul|Soul]]s<br>Soulfire Trapped Within"
+|behavior=Visual FX, Animated, Light, Interactable
+|vendorgold=Wanam-Teemeetta
+|vendorcity=Sunport
+|pricegold=40,000
+|theme=Stone-Nest
+}}
+{{NewLeft}}
+==Available From==
+* After completing this entry in the Antiquity Codex, this furnishing may be purchased from [[Online:Wanam-Teemeetta|Wanam-Teemeetta]] in [[Online:Sunport|Sunport]] for {{ESO Price|40,000}}.
+* Codex Entries required: '''3'''
+==Antiquity==
+{{Online Furnishing Antiquity/Start|leads=1|multicodex=1}}
+{{Online Furnishing Antiquity/Row
+  |name=Vitrified Soul Crystal
+  |id=764
+  |quality=5
+  |difficulty=4
+  |zone=Solstice
+  |source=*Any enemy in [[ON:Solstice|Solstice]]
+*Any source in Solstice, including lootable containers and treasure chests
+  |antiquarian1=Amalien
+  |codex1=At first glance, I thought this might be a [[Lore:Soul Gem|soul gem]]. But holding it felt so strange! The [[Lore:crystals|crystal]] almost pulses like a beating heart on fire! And yet it feels so empty. Soul Gems have a different warmth.
+  |antiquarian2=Muzah-Tei
+  |codex2=Crystal has the essence of a [[Lore:soul|soul]], but not its cry. Glows like a [[Lore:torchbug|torchbug]] in a lantern. Fragile like a new egg. Develops cracks at the slightest handling.
+  |antiquarian3=Ugron-Gro-Thumog
+  |codex3=I have reports here of [[Online:Worm Cult|Worm Cult]]ists carrying these after the [[Online:Writhing Wall|Writhing Wall]] [[Online:Battle for the Writhing Wall|erupted]] on [[Online:Solstice|Solstice]]. They carry specks of souls only meant to be crushed for power. I suggest we hide away this vile tool.
+}}
+{{Online Furnishing Antiquity/End}}
+<!--Instructions: Add miscellaneous notes here in a bulleted list. For mounts and pets, it is considered good practice to document related collectibles in the notes. For example, the Akaviri Potentate Guar is a mount with a pet counterpart in the Akaviri Potentate Guar Calf. The notes section for the pet contains a note about the mount it shares a resemblance with, and vice versa for the mount. When documenting body and head markings, list the body or head marking that corresponds with the one you're documenting in this section if it exists. The Balorgh's Trophy Head Marking would be listed in the notes for the Balorgh's Trophy Body Marking, etc.--><!--
+==Notes==
+*
+-->
+{{NewLeft}}
+{{Online Release Notes
+|48|
+}}
+
+==Gallery==
+<gallery>
+File:ON-furnishing-Vitrified Soul Crystal 02.jpg|Vitrified Soul Crystal - Broken
+</gallery>
+{{Online Antiquities}}

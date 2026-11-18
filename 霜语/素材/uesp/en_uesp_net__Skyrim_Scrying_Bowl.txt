@@ -1,1 +1,786 @@
-ERR HTTP Error 404: Not Found
+{{Trail|Items}}{{TOCright}}
+'''Miscellaneous Items''' appear in your inventory under "Misc". It includes a wide variety of different types of items, many of which are detailed on other pages:
+* [[Skyrim:Animal Hides|Animal Hides]]: hides, pelts, and leather
+* [[Skyrim:Animal Parts|Animal Parts]]: bones, scales, tusks, skulls, etc.
+* [[Skyrim:Gems|Gems]]: gems and gem-containing miscellaneous items
+* [[Skyrim:Ores and Ingots|Ores and Ingots]]: ores, ingots, and scrap metal.
+* [[Skyrim:Soul Gems|Soul Gems]]: soul gems used for [[Skyrim:Soul Trap (effect)|soul trapping]]
+* [[Skyrim:Tools|Tools]]: lockpicks and other items categorized as tools by vendors
+
+For items involved in quests, see [[Skyrim:Quest Items|Quest Items]].
+
+All items added by the [[Skyrim:Add-ons|official add-ons]] have reference IDs that change, thus they are documented as "xx.....". More details on why this happens, and how to find them are found [[Skyrim:Form ID|here]].
+
+==Bugs in a Jar==
+These are unique live bugs captured in jars. Each jar also carries a unique inscription etched into the inside of the lid. These jars serve no apparent purpose (nor do their inscriptions have a known meaning), and there is no associated quest or reward for collecting them. However, [[Skyrim:Tundra Homestead (place)|Tundra Homestead]]'s cellar{{CC|Tundra Homestead}}, [[Skyrim:Myrwatch (place)|Myrwatch]]'s gallery{{CC|Myrwatch}}, and [[Skyrim:Shadowfoot Sanctum (place)|Shadowfoot Sanctum]]'s trophy room{{CC|Shadowfoot Sanctum}} contain a special holder for each one. If you tip the jars in any direction, the insects inside will always appear to remain in the same position. Additionally, the bee jar may emit a buzzing sound when you are nearby.
+
+The butterfly, moth, and torchbug jars [[Skyrim:Respawn|respawn]] along with the areas where they are found, allowing multiple copies of these three jars to be obtained. The bee and dragonfly jars are in areas that do not respawn. With unofficial patch installed, the butterfly doesn't respawn anymore.
+
+The [[Skyrim:Saints & Seducers|Saints & Seducers]] [[Skyrim:Creation Club|Creation]] adds three new bugs in a jar: a bliss bug, a green butterfly, and a purple butterfly.
+{| class="wikitable sortable"
+!class=unsortable|
+!Name ([[Skyrim:Form ID|ID]])
+!width=22|{{Weight Icon}}
+!width=22|{{Value Icon}}
+!class=unsortable|Location
+{{Item Data
+ |icon=SR-icon-misc-BeeInAJar.png
+ |name=Bee in a Jar
+ |id=000b08c7|weight=1|value=1
+ |notes=[[Skyrim:Goldenglow Estate|Goldenglow Estate]]}}
+{{Item Data
+ |icon=SR-icon-misc-Bliss Bug in a Jar.png
+ |name=Bliss Bug in a Jar
+ |displayname=Bliss Bug in a Jar {{CC|Saints & Seducers}}
+ |id=xx12dd3a|weight=1|value=1
+ |notes=[[Skyrim:Stony Creek Cave|Stony Creek Cave]]}}
+{{Item Data
+ |icon=SR-icon-misc-ButterflyInAJar.png
+ |name=Butterfly in a Jar
+ |id=000fbc3c|weight=1|value=1
+ |notes=[[Skyrim:Alchemist's Shack|Alchemist's Shack]]}}
+{{Item Data
+ |icon=SR-icon-misc-DragonflyInAJar.png
+ |name=Dragonfly in a Jar
+ |id=000fbc3b|weight=1|value=1
+ |notes=[[Skyrim:Dushnikh Yal|Dushnikh Yal]], in [[Skyrim:Burguk's Longhouse|Burguk's Longhouse (Cellar)]]}}
+{{Item Data
+ |icon=SR-icon-misc-Green Butterfly in a Jar.png
+ |name=Green Butterfly in a Jar
+ |displayname=Green Butterfly in a Jar {{CC|Saints & Seducers}}
+ |id=xx12dd3b|weight=1|value=1
+ |notes=[[Skyrim:Solitude Sewers|Solitude Sewers]]}}
+{{Item Data
+ |icon=SR-icon-misc-MothInAJar.png
+ |name=Moth in a Jar
+ |id=000fbc3d|weight=1|value=0
+ |notes=[[Skyrim:Duskglow Crevice|Duskglow Crevice]]}}
+{{Item Data
+ |icon=SR-icon-misc-Purple Butterfly in a Jar.png
+ |name=Purple Butterfly in a Jar
+ |displayname=Purple Butterfly in a Jar {{CC|Saints & Seducers}}
+ |id=xx12dd3c|weight=1|value=1
+ |notes=[[Skyrim:Blue Palace|Blue Palace]], in the [[Skyrim:Pelagius Wing|Pelagius Wing]]}}
+{{Item Data
+ |icon=SR-icon-misc-TorchbugInAJar.png
+ |name=Torchbug in a Jar
+ |id=000fbc3a|weight=1|value=1
+ |notes=[[Skyrim:Frostflow Lighthouse|Frostflow Lighthouse]]}}
+|}
+
+==Children's Items{{HF}}==
+After installing [[Skyrim:Hearthfire|Hearthfire]], you may be able to purchase certain [[Skyrim:Child|children's]] items from [[Skyrim:Radiant Raiment|Radiant Raiment]], general goods [[Skyrim:Merchants|merchants]], and [[Skyrim:Khajiit Traders|Khajiit traders]], such as apparel, a doll, or a [[Skyrim:Wooden Sword|wooden sword]].
+
+These items appear in the Miscellaneous section of your inventory; you cannot wear the children's apparel yourself. However, if you [[Skyrim:Adoption|adopt]] a child, you can give them these items as a gift.
+
+{| class="wikitable sortable"
+!class=unsortable|
+!Name ([[Skyrim:Form ID|ID]])
+!width=22|{{Weight Icon}}
+!width=22|{{Value Icon}}
+!class=unsortable|Notes
+|-
+|[[File:SR-icon-misc-Girl's Blue Dress.png|48px]]
+|{{Anchor|Boy's Blue Tunic}}<br>{{ID|xx00c744|par=1}}
+|2
+|6
+|rowspan=5|
+*Can only be given to male children.
+*Can be found in random loot.
+|-
+|[[File:SR-icon-misc-Girl's Green Dress.png|48px]]
+|{{Anchor|Boy's Green Tunic}}<br>{{ID|xx00c743|par=1}}
+|2
+|4
+|-
+|[[File:SR-icon-misc-Girl's Grey Dress.png|48px]]
+|{{Anchor|Boy's Grey Tunic}}<br>{{ID|xx00c745|par=1}}
+|2
+|8
+|-
+|[[File:SR-icon-misc-Girl's Red Dress.png|48px]]
+|{{Anchor|Boy's Red Tunic}}<br>{{ID|xx00c742|par=1}}
+|2
+|5
+|-
+|[[File:SR-icon-misc-Girl's Yellow Dress.png|48px]]
+|{{Anchor|Boy's Yellow Tunic}}<br>{{ID|xx00c746|par=1}}
+|2
+|10
+|-{{ThickLine}}
+|-
+|[[File:SR-icon-misc-Girl's Blue Dress.png|48px]]
+|{{Anchor|Girl's Blue Dress}}<br>{{ID|xx00d81e|par=1}}
+|2
+|6
+|rowspan=5|
+*Can only be given to female children.
+*Can be found in random loot.
+|-
+|[[File:SR-icon-misc-Girl's Green Dress.png|48px]]
+|{{Anchor|Girl's Green Dress}}<br>{{ID|xx00d81f|par=1}}
+|2
+|4
+|-
+|[[File:SR-icon-misc-Girl's Grey Dress.png|48px]]
+|{{Anchor|Girl's Grey Dress}}<br>{{ID|xx00d820|par=1}}
+|2
+|8
+|-
+|[[File:SR-icon-misc-Girl's Red Dress.png|48px]]
+|{{Anchor|Girl's Red Dress}}<br>{{ID|xx00d821|par=1}}
+|2
+|5
+|-
+|[[File:SR-icon-misc-Girl's Yellow Dress.png|48px]]
+|{{Anchor|Girl's Yellow Dress}}<br>{{ID|xx00d822|par=1}}
+|2
+|10
+|-{{ThickLine}}
+|[[File:SR-icon-misc-Child's Doll.png|48px]]
+|Antique Nordic Doll{{CC|The Gray Cowl Returns!}}<br>{{ID|FExxx822|par=1}}
+|2
+|0
+|rowspan=6|
+*Can only be given to female children.
+|-
+|[[File:SR-icon-misc-Child's Doll.png|48px]]
+|{{Anchor|Child's Doll}}<br>{{ID|xx00c1de|par=1}}
+|2
+|10
+|-
+|[[File:SR-icon-misc-Vampire Doll.png|48px]]
+|[[Skyrim:Vampire Doll|Vampire Doll]]{{CC|Bloodchill Manor}}<br>{{ID|xx033717|par=1}}
+|2
+|10
+|}
+
+== Dragonborn ==
+{| class="wikitable sortable"
+!
+!Name ([[Skyrim:Form ID|ID]])
+!width=22|{{Weight Icon}}
+!width=22|{{Value Icon}}
+!class=unsortable|Notes
+|-
+|{{Icon|m|Albino Spider Pod}}
+|{{Anchor|Albino Spider Pod}}<br>{{ID|xx017719|par=1}}
+|1||10
+|
+*Gathered from dead [[Skyrim:Albino Spider|albino spiders]] and albino spider egg containers
+*One of the ingredients needed to create certain [[Skyrim:Spider Scrolls|spider scrolls]] at [[Skyrim:White Ridge Barrow|White Ridge Barrow]]
+|-
+|{{Icon|m|Chitin Plate}}
+|{{Anchor|Chitin Plate}}<br>{{ID|xx02b04e|par=1}}
+|1||5
+|
+*Crafting material gathered from [[Skyrim:Ash Hopper|ash hoppers]]
+*One of the required materials for crafting [[Skyrim:Chitin|chitin]] style armors
+*Can be bought from [[Skyrim:Merchants#Solstheim|blacksmiths]] and [[Skyrim:Merchants#Solstheim|general goods traders]] in Solstheim
+|-
+|{{Icon|m|Damaged Albino Spider Pod}}
+|{{Anchor|Damaged Albino Spider Pod}}<br>{{ID|xx01771f|par=1}}
+|1||10
+|
+*Gathered from dead [[Skyrim:Albino Spider|albino spiders]] and from albino spider egg containers
+*One of the ingredients needed to create certain [[Skyrim:Spider Scrolls|spider scrolls]] at [[Skyrim:White Ridge Barrow|White Ridge Barrow]]
+|-
+|{{Icon|m|Heart Stone}}
+|{{Anchor|Heart Stone}}<br>{{ID|xx017749|par=1}}
+|1||100
+|
+*Mined from [[Skyrim:Heart Stone Deposit|heart stone deposits]]
+*Needed for [[Skyrim:Conjure Ash Guardian|conjuring]] an [[Skyrim:Ash Guardian|ash guardian]]; if you have no heart stones, the guardian will turn hostile
+*Used for enchanting [[Skyrim:Staves#Craftable Staves|Staves]]
+*There exists another [[Skyrim:Quest Items#Heart Stone|quest specific version]] 
+|-
+|{{Icon|m|Netch Leather}}
+|{{Anchor|[[SR:Netch Leather|Netch Leather]]}}<br>{{ID|xx01cd7c|par=1}}
+|2||10
+|
+*Gathered from dead [[Skyrim:Betty Netch|betty netch]] and [[Skyrim:Bull Netch|bull netch]]
+*One of the required materials for crafting [[Skyrim:Bonemold|bonemold]] and [[Skyrim:Chitin|chitin]] style armors
+*The main material used for [[Skyrim:Netch Leather|netch leather]] armor{{CC|Netch Leather Armor}}
+*Can be bought from [[Skyrim:Merchants#Solstheim|blacksmiths]] and [[Skyrim:Merchants#Solstheim|general goods traders]] in Solstheim
+|-
+|{{Icon|m|Stalhrim}}
+|[[Skyrim:Stalhrim|Stalhrim]]<br>{{ID|xx02b06b|par=1}}
+|1||200
+|
+*Mined from [[Skyrim:Stalhrim Deposit|stalhrim deposits]]
+*Used to craft [[Skyrim:Stalhrim|stalhrim]] weapons and armor after completing [[Skyrim:A New Source of Stalhrim|A New Source of Stalhrim]]
+*Can be bought from [[Skyrim:Baldor Iron-Shaper|Baldor Iron-Shaper]] in [[Skyrim:Skaal Village|Skaal Village]]
+|}
+
+==Firewood==
+{| class="wikitable sortable"
+!class=unsortable|
+!Name ([[Skyrim:Form ID|ID]])
+!width=22|{{Weight Icon}}
+!width=22|{{Value Icon}}
+!class=unsortable|Notes
+{{Item Data
+ |icon=SR-icon-misc-Firewood.png
+ |name=Firewood
+ |id=0006f993|weight=5|value=5
+ |notes=*Firewood is created by activating a [[Skyrim:Chop Wood|woodcutting block]] while you have a [[Skyrim:Woodcutter's Axe|woodcutter's axe]] in your inventory. It can be sold to several townspeople as part of the quest [[Skyrim:Chop Wood|Chop Wood]].
+* One firewood is needed at a [[Skyrim:Grindstone|grindstone]] to improve a [[Skyrim:Long Bow|long bow]].
+* One firewood is needed at a grindstone to improve a [[Skyrim:Wooden Sword|wooden sword]]{{HF}}.
+* If the [[Skyrim:Dawnguard|Dawnguard]] add-on has been installed, 1 firewood can also be combined with a metal [[Skyrim:Ingots|ingot]] or [[Skyrim:Dragon Bone|dragon bone]] to [[Skyrim:Forge|create]] 24 [[Skyrim:arrow|arrows]] or 10 [[Skyrim:bolt|bolts]] of any craftable variety. 3 firewood can also be combined with 3 steel ingot to create a [[Skyrim:Crossbow|crossbow]] if you finish [[Skyrim:A New Order|A New Order]].}}
+* If the [[SR:Farming|Farming]] [[SR:Creation Club|Creation]] is installed, you will require firewood for [[Skyrim:Farming Construction|construction]] at the [[SR:Goldenhills Plantation|Goldenhills Plantation]]{{CC|Farming}}.
+* If the [[Skyrim:Fishing_(activity)|Fishing]] Creation is installed, all 4 types of fishing rods can be created with 1 firewood and 1 iron ingot for the standard rod, or applicable ingot and quest for the 3 specialty rods Alik'ri, Argonian, and Dwarven.
+* If the [[Skyrim:Camping|Camping]] Creation is installed, [[Skyrim:Camping_Items|Camping Supplies]] can be crafted at an anvil or forge with 3 firewood and 1 leather.
+|}
+
+==Housebuilding Items{{HF}}==
+After installing [[Skyrim:Hearthfire|Hearthfire]], there will be a number of new items sold by merchants or crafted by the player for use in [[Skyrim:Construction|building a home]]. For information on "sawn logs", see [[Skyrim:Cutting Lumber|this page]].
+
+===Found/Purchased===
+{| class="wikitable sortable"
+!class=unsortable|
+!Name ([[Skyrim:Form ID|ID]])
+!width=22|{{Weight Icon}}
+!width=22|{{Value Icon}}
+!style="border-left-width:medium; border-left-color:black;" class=unsortable|Notes
+|-
+|[[File:SR-icon-misc-Clay.png|48px]]
+|{{Anchor|Clay}}<br>{{ID|xx003043|par=1}}
+|{{AL|C}}|1
+|{{AL|C}}|1
+|style="border-left-width:medium; border-left-color:black;"| Mined from Clay Deposits. Can also be bought from the [[Skyrim:Personal Steward|steward]] of your home.
+|-
+|[[File:SR-icon-misc-Glass.png|48px]]
+|{{Anchor|Glass}}<br>{{ID|xx005A69|par=1}}
+|{{AL|C}}|1
+|{{AL|C}}|5
+|style="border-left-width:medium; border-left-color:black;"| Available from general goods [[Skyrim:Merchants|merchants]] or [[Skyrim:Khajiit Traders|Khajiit traders]].
+|-
+|[[File:SR-icon-misc-Goat Horns.png|48px]]
+|{{Anchor|Goat Horns}}<br>{{ID|xx00303f|par=1}}
+|{{AL|C}}|1
+|{{AL|C}}|5
+|style="border-left-width:medium; border-left-color:black;"| Available from general goods merchants and dropped by [[Skyrim:Goat|goats]].
+|-
+|[[File:SR-icon-misc-Quarried Stone.png|48px]]
+|{{Anchor|Quarried Stone}}<br>{{ID|xx00306c|par=1}}
+|{{AL|C}}|1
+|{{AL|C}}|2
+|style="border-left-width:medium; border-left-color:black;"| Mined from Stone Quarries. Can also be bought from the steward of your home.
+|-
+|{{icon|a|ElvenBoots}}{{intnote|SawnLog|†}}
+|{{Anchor|Sawn Log}}<br>{{ID|xx00300e|par=1}}
+|{{AL|C}}|0
+|{{AL|C}}|0
+|style="border-left-width:medium; border-left-color:black;"| Available from wood mills; can be purchased, or cut for free under certain conditions. See the [[Skyrim:Cutting Lumber#Sawn Logs|item page]] for more information. Can also be bought from the steward of your home.
+|-
+|[[File:SR-icon-misc-Straw.png|48px]]
+|{{Anchor|Straw}}<br>{{ID|xx005A68|par=1}}
+|{{AL|C}}|1
+|{{AL|C}}|1
+|style="border-left-width:medium; border-left-color:black;"| Available from general goods merchants or Khajiit traders.
+|}
+{{Note|SawnLog|†|Sawn Logs don't show up in the inventory; the icon used here shows the one found in the game data that would be used if they would.}}
+*General goods merchants and Khajiit traders may take up to 30 days to restock housebuilding items – it is unknown whether this is intentional or not.
+
+<gallery>
+File:SR-item-Clay Deposit.jpg|A clay deposit
+File:SR-item-Stone Quarry.jpg|A stone quarry
+File:SR-activity-Log Pile.jpg|A lumber pile
+</gallery>
+
+===Crafted===
+{| class="wikitable sortable"
+!rowspan=2 class=unsortable|
+!rowspan=2|Name ([[Skyrim:Form ID|ID]])
+!width=22 rowspan=2|{{Weight Icon}}
+!width=22 rowspan=2|{{Value Icon}}
+!style="border-left-width:medium; border-left-color:black;" colspan=2 class=unsortable|Raw Materials
+!style="border-left-width:medium; border-left-color:black;" colspan=2 class=unsortable|Delta
+!style="border-left-width:medium; border-left-color:black;" rowspan=2 class=unsortable|Notes
+|-
+!style="border-left-width:medium; border-left-color:black;"|{{icon|ingot|Iron Ingot|24}}[[Skyrim:Iron Ingot|Iron]]
+!{{icon|ingot|Corundum Ingot|24}}[[Skyrim:Corundum Ingot|Corundum]]
+!style="border-left-width:medium; border-left-color:black;"|{{Weight Icon}}
+!{{Value Icon}}
+|-
+|[[File:SR-icon-misc-Hinge.png|48px]]
+|{{Anchor|Hinge}}<br>{{ID|xx003011|par=1}}
+|{{AL|C}}|0.5
+|{{AL|C}}|4
+|style="border-left-width:medium; border-left-color:black; text-align:center"| 1 ||{{AL|C}}| -
+|style="border-left-width:medium; border-left-color:black; text-align:center"| 0 || style="text-align:center; color:green" | 1
+|style="border-left-width:medium; border-left-color:black;"| Produces two at one time.
+|-
+|[[File:SR-icon-misc-Iron Fittings.png|48px]]
+|{{Anchor|Iron Fittings}}<br>{{ID|xx003035|par=1}}
+|{{AL|C}}|1
+|{{AL|C}}|4
+|style="border-left-width:medium; border-left-color:black; text-align:center"| 1 ||{{AL|C}}| -
+|style="border-left-width:medium; border-left-color:black; text-align:center"| 0 || style="text-align:center; color:red" | -3
+|style="border-left-width:medium; border-left-color:black;"|
+|-
+|[[File:SR-icon-misc-Lock.png|48px]]
+|{{Anchor|Lock}}<br>{{ID|xx003012|par=1}}
+|{{AL|C}}|0.5
+|{{AL|C}}|10
+|style="border-left-width:medium; border-left-color:black; text-align:center"| 1 ||{{AL|C}}| 1
+|style="border-left-width:medium; border-left-color:black; text-align:center; color:green" | -1.5 || style="text-align:center; color:red" | -37
+|style="border-left-width:medium; border-left-color:black;"|
+|-
+|[[File:SR-icon-misc-Nails.png|48px]]
+|{{Anchor|Nails}}<br>{{ID|xx00300f|par=1}}
+|{{AL|C}}|0.1
+|{{AL|C}}|1
+|style="border-left-width:medium; border-left-color:black; text-align:center"| 1 ||{{AL|C}}| -
+|style="border-left-width:medium; border-left-color:black; text-align:center"| 0 || style="text-align:center; color:green" | 3
+|style="border-left-width:medium; border-left-color:black;"| Produces 10 at one time.
+|}
+*These items will appear under the "Building Materials" section of a blacksmith forge.
+
+==Torches==
+The duration of a torch is 240 seconds, and the radius of its light is 512. Other items, such as lanterns and candlesticks, cannot be used as sources of light. Torches, despite having a value, cannot be bought from or sold to any merchants, even with the Merchant perk. Torches given to followers will never burn out. Holding a torch improves [[Skyrim:Fortify Warmth|Warmth]] by 50 points when [[Skyrim:Survival Mode|Survival Mode]] is active.
+{| class="wikitable sortable"
+!class=unsortable|
+!Name ([[Skyrim:Form ID|ID]])
+!width=22|{{Weight Icon}}
+!width=22|{{Value Icon}}
+!class="unsortable"|Color
+!class="unsortable"|Notes
+|-
+|rowspan=2|[[File:SR-icon-misc-Torch.png|48px]]
+|{{Anchor|Torch}}<br/>{{ID|0001d4ec|par=1}}
+|0.5 || 2
+|align="center"|<span style="background-color:#fabe83;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+| The standard version.
+|-
+|{{Anchor|2=00036343}}Torch<br/>{{ID|00036343|par=1}}
+| 0 || 0
+|align="center"|<span style="background-color:#f8aa5c;">&nbsp;&nbsp;&nbsp;&nbsp;</span>
+| With [[Skyrim:Dragonborn|Dragonborn]] installed one can be found in the cellar of [[Skyrim:Hrodulf's House|Hrodulf's House]]. This torch casts shadows.<br>In the Special Edition, [[Skyrim:J'datharr|J'datharr]] will also carry one (he carries an unusable torch in the original version).
+|}
+
+==Unique Items==
+Items noted for their mystery and uniqueness.
+{| class="wikitable sortable"
+!class=unsortable|
+!Name ([[Skyrim:Form ID|ID]])
+!width=22|{{Weight Icon}}
+!width=22|{{Value Icon}}
+!class=unsortable|Notes
+|-
+{{Item Data
+ |icon=SR-icon-misc-Skull.png
+ |name=Ancient Traveler's Skull
+ |id=000f6767|weight=5|value=0
+ |notes=* Found in [[sr:Wayward Pass|Wayward Pass]]}}
+{{Item Data
+ |icon=SR-icon-misc-Plate1.png
+ |name=Aretino Family Heirloom
+ |id=0001f6d4|weight=0.5|value=100
+ |notes=* Reward from [[Skyrim:Innocence Lost|Innocence Lost]]}}
+{{Item Data
+ |icon=SR-icon-weapon-Fork.png
+ |name=Balbus's Fork
+ |id=001058aa|weight=0|value=0
+ |notes=* Carried by [[Skyrim:Balbus|Balbus]]}}
+{{Item Data
+ |icon=SR-icon-misc-Flute.png
+ |name=The Dancer's Flute
+ |id=00105109|weight=2|value=3
+ |notes=* Found in [[Skyrim:Calixto's House of Curiosities|Calixto's House of Curiosities]]}}
+{{Item Data
+ |icon=SR-icon-misc-Flagon.png
+ |name=Michaela's Flagon
+ |id=000f257d|weight=0.5|value=1
+ |notes=* Found in [[Skyrim:Thonnir's House|Thonnir's House]] on the floor to the right of the fireplace
+}}
+{{Item Data
+ |icon=SR-icon-misc-Space Core.png
+ |name=Space Core
+ |displayname=[[Skyrim:Space Core|Space Core]]{{SC}}
+ |id=xx0012ca|weight=3.1|value=256
+ |notes=* Added by [[Skyrim:Fall of the Space Core, Vol 1|Fall of the Space Core, Vol 1]]
+* Used with [[Skyrim:Atronach Forge|the Atronach Forge]]}}
+{{Item Data
+ |icon=SR-icon-misc-Fork.png
+ |name=Ysgramor's Soup Spoon
+ |id=00105a4e|weight=0.5|value=3
+ |notes=* Found in [[Skyrim:Calixto's House of Curiosities|Calixto's House of Curiosities]]
+* Despite the name, this item is clearly a fork, as is pointed out in Calixto's tour}}
+|}
+
+==Clutter==
+===Atronach Forge===
+These items are typically considered to be junk, but they can also be used at the [[Skyrim:Atronach Forge|Atronach Forge]].
+{| class="wikitable sortable"
+!class=unsortable|
+!Name ([[Skyrim:Form ID|ID]])
+!width=22|{{Weight Icon}}
+!width=22|{{Value Icon}}
+!class="unsortable"|Notes
+|-
+{{Item Data
+ |icon=SR-icon-misc-Broom.png
+ |name=Broom
+ |id=0006717f|weight=1|value=1
+ |notes=Sources:
+* 348 brooms can be found in 181 different locations, most notably [[Skyrim:Haelga's Bunkhouse|Haelga's Bunkhouse]] ([[Skyrim:Riften|Riften]])
+* 34% chance of being sold by most general goods merchants
+* May be randomly found in certain cupboards and other containers
+Uses:
+* Is one of 4 items needed at the [[Skyrim:Atronach Forge|Atronach Forge]] to create a [[Skyrim:Staff of the Flame Atronach|Staff of the Flame Atronach]], [[Skyrim:Staff of the Frost Atronach|Staff of the Frost Atronach]], or [[Skyrim:Staff of the Storm Atronach|Staff of the Storm Atronach]]}}
+{{Item Data
+ |icon=SR-icon-misc-CenturionDynamoCore.png
+ |name=Centurion Dynamo Core
+ |id=000f4983|weight=4|value=131
+ |notes=Sources:
+* 5 guaranteed cores can be found in 4 different locations:
+** [[Skyrim:Kagrenzel|Kagrenzel]] ([[Skyrim:Eastmarch|Eastmarch]])
+** [[Skyrim:Mzinchaleft Depths|Mzinchaleft Depths]] ([[Skyrim:Hjaalmarch|Hjaalmarch]])
+** [[Skyrim:Shalidor's Maze|Shalidor's Maze]]
+** 2 in [[Skyrim:Arkngthamz|Arkngthamz]]{{DG}}
+* 1-4 cores are always dropped by all varieties of [[Skyrim:Dwarven Centurion|Dwarven Centurion]]
+* May be randomly found in chests in [[Skyrim:Dwarven Ruins|Dwarven Ruins]]
+Uses:
+* Is one of 4 items needed at the [[Skyrim:Atronach Forge|Atronach Forge]] to create any type of Daedric weapon or Daedric armor (requires the [[Skyrim:Sigil Stone|Sigil Stone]])}}
+* Used in [[Skyrim:Fahlbtharz|Fahlbtharz]]{{DB}} to activate Dynamo Actuators
+{{Item Data
+ |icon=SR-icon-food-Wine1.png
+ |name=Empty Wine Bottle
+ |id=000f2012,000f2013,000f2014,000f2015,000fed17|idsep=<br>|weight=0.5|value=1
+ |notes=Sources:
+* 1022 bottles can be found in 43+ different locations, most notably [[Skyrim:Morvunskar|Morvunskar]] ([[Skyrim:Eastmarch|Eastmarch]]) and [[Skyrim:Faldar's Tooth|Faldar's Tooth]] ([[Skyrim:The Rift|The Rift]])
+* 58% chance of 1-7 bottles being found in chests in wounded soldier tents
+* 14% chance of 1-4 bottles being carried by any child
+Uses:
+* 1 Empty Wine Bottle is one of 3 items needed at the [[Skyrim:Atronach Forge|Atronach Forge]] to create a [[Skyrim:Conjurer's Elixir|Conjurer's Elixir]]; any of the five varieties of bottle can be used}}
+{{Item Data
+ |icon=SR-icon-misc-RollOfPaper.png
+ |name=Roll of Paper
+ |id=00033761|weight=1|value=4
+ |notes=Sources:
+* 126 samples can be found in 31 different locations, most notably [[Skyrim:Thalmor Embassy, Elenwen's Solar|Thalmor Embassy, Elenwen's Solar]] ([[Skyrim:Haafingar|Haafingar]]) and [[Skyrim:Calcelmo's Tower|Calcelmo's Tower]] ([[Skyrim:Markarth|Markarth]])
+* 5 samples can be found in [[Skyrim:Farengar Secret-Fire|Farengar's]] study.
+* 34% chance of being sold by most general goods merchants
+* May be randomly found in various cupboards and other containers
+Uses:
+* Is one of 3 items needed at the [[Skyrim:Atronach Forge|Atronach Forge]] to create a [[Skyrim:Scroll of Conjure Flame Atronach|Scroll of Conjure Flame Atronach]], [[Skyrim:Scroll of Conjure Frost Atronach|Scroll of Conjure Frost Atronach]], or [[Skyrim:Scroll of Conjure Storm Atronach|Scroll of Conjure Storm Atronach]]
+* 1 Roll of Paper is needed for the quest [[Skyrim:Hard Answers|Hard Answers]] (but rolls of paper are available during the quest)}}
+{{Item Data
+ |customicon=[[File:SR-icon-misc-RuinedBook.png|48px]]<br>[[File:SR-icon-misc-RuinedBook2.png|48px]]
+ |name=Ruined Book
+ |id=000ce70b,000e4897|idsep=<br>|weight=2|value=5
+ |notes=Sources:
+* 1992 books can be found in 90+ different locations, most notably [[Skyrim:Fellglow Keep|Fellglow Keep]] ([[Skyrim:Whiterun Hold|Whiterun Hold]]) and [[Skyrim:Driftshade Refuge|Driftshade Refuge]] ([[Skyrim:Winterhold (region)|Winterhold]])
+Uses:
+* 1 Ruined Book is one of 4 items needed at the [[Skyrim:Atronach Forge|Atronach Forge]] to create a ''[[Skyrim:Spell Tome: Soul Trap|Spell Tome: Soul Trap]]'', ''[[Skyrim: Spell Tome: Conjure Flame Atronach| Spell Tome: Conjure Flame Atronach]]'', ''[[Skyrim: Spell Tome: Conjure Frost Atronach| Spell Tome: Conjure Frost Atronach]]'', or ''[[Skyrim: Spell Tome: Conjure Storm Atronach| Spell Tome: Conjure Storm Atronach]]''; either variety of ruined book can be used}}
+|}
+
+===Dishes and Tableware===
+{| class="wikitable sortable"
+!class=unsortable|
+!Name ([[Skyrim:Form ID|ID]])
+!width=22|{{Weight Icon}}
+!width=22|{{Value Icon}}
+!class="unsortable"|Notes
+{{Item Data
+ |icon=SR-icon-misc-Bloody Tankard.png
+ |name=Bloody Tankard
+ |displayname={{Anchor|Bloody Tankard}}{{DG}}
+ |id=xx008e4a|weight=0.5|value=1
+ |notes=Bloodied version can be found at [[Skyrim:Moldering Ruins|Moldering Ruins]]{{DG}}.}}
+{{Item Data
+ |customicon=[[File:SR-icon-misc-Bowl1.png|24px]] [[File:SR-icon-misc-Bowl2.png|24px]]<br>[[File:SR-icon-misc-Bowl3.png|24px]] [[File:SR-icon-misc-Bowl4.png|24px]]<br>[[File:SR-icon-misc-Bowl5.png|24px]] [[File:SR-icon-misc-Bowl6.png|24px]]
+ |name=Bowl
+ |id=00098626,00098627,000b9bcc,000b9bd8,000f08fa,000f08fb|idsep=<br>|weight=0.5|value=5<br>5<br>5<br>15<br>20<br>10}}
+ |
+{{Item Data
+ |customicon=[[File:SR-icon-misc-Candlestick1.png|24px]] [[File:SR-icon-misc-Candlestick2.png|24px]]<br>[[File:SR-icon-misc-Candlestick3.png|24px]]
+ |name=Candlestick
+ |id=000e42df,000e42e0,000e42e1|idsep=<br>|weight=1|value=25}}
+ |
+{{Item Data
+ |customicon=[[File:SR-icon-misc-CastIronPot2.png|48px]]<br>[[File:SR-icon-misc-CastIronPot1.png|48px]]
+ |name=Cast Iron Pot
+ |id=000318fa,000318fb|idsep=<br>|weight=3<br>6|value=2<br>8}}
+ |
+{{Item Data
+ |customicon=[[File:SR-icon-misc-Cup1.png|24px]] [[File:SR-icon-misc-Cup2.png|24px]]
+ |name=Cup
+ |id=000b9bdc,000f08f8|idsep=<br>|weight=0.5|value=5<br>4}}
+ |
+{{Item Data
+ |icon=SR-icon-misc-Flagon.png
+ |name=Flagon
+ |id=00044e70|weight=0.5|value=1}}
+ |
+{{Item Data
+ |icon=SR-icon-misc-Fork.png
+ |name=Fork
+ |id=000aebf3|weight=0.5|value=3}}
+ |
+{{Item Data
+ |icon=
+ |name={{Anchor|Glazed Candles}}
+ |id=000B9BE0|weight=1|value=5
+ |notes=Provides a <b>permanent light source</b> when placed in the world.<br>Can be looted from the random thief chased and killed by the guards in [[Skyrim:Riften|Riften]].}}
+{{Item Data
+ |icon=
+ |name=Glazed Urn
+ |id=0008632A|weight=4|value=5}}
+ |
+{{Item Data
+ |customicon=[[File:SR-icon-misc-Goblet1.png|24px]] [[File:SR-icon-misc-Goblet2.png|24px]]<br><br>[[File:SR-icon-misc-Goblet3.png|24px]] [[File:SR-icon-misc-Goblet4.png|24px]]
+ |name=Goblet
+ |id=00098620,00098621,000b9bda,000f08f9|idsep=<br>|weight=0.5|value=5<br>5<br>5<br>4}}
+ |
+{{Item Data
+ |customicon=[[File:SR-icon-misc-Jug1.png|24px]] [[File:SR-icon-misc-Jug2.png|24px]]<br><br>[[File:SR-icon-misc-Jug3.png|24px]] [[File:SR-icon-misc-Jug4.png|24px]]<br><br>[[File:SR-icon-misc-Jug5.png|24px]] [[File:SR-icon-misc-Jug6.png|24px]]
+ |name=Jug
+ |id=0008632c,00098623,000b9bd6,000b9bde,000f08f1,000f08f3|idsep=<br>|weight=5<br>2<br>0.5<br>0.5<br>0.5<br>0.5|value=5<br>10<br>0<br>0<br>0<br>0}}
+ |
+{{Item Data
+ |icon=SR-icon-misc-Kettle.png
+ |name=Kettle
+ |id=00012fe6|weight=2|value=4}}
+ |
+{{Item Data
+ |icon=SR-icon-misc-Knife.png
+ |name=Knife
+ |id=000aebf7|weight=0.5|value=6}}
+ |
+{{Item Data
+ |customicon=[[File:SR-icon-misc-Plate1.png|24px]] [[File:SR-icon-misc-Plate2.png|24px]]<br>[[File:SR-icon-misc-Plate3.png|24px]] [[File:SR-icon-misc-Plate4.png|24px]]<br>[[File:SR-icon-misc-Plate5.png|24px]]
+ |name=Plate
+ |id=00098624,000b9bd0,000e2617,000e2618,000f08f5|idsep=<br>|weight=0.5|value=5<br>3<br>1<br>1<br>3}}
+ |
+{{Item Data
+ |icon=SR-icon-misc-Platter.png
+ |name=Platter
+ |id=00098625|weight=0.5|value=5
+ |notes=Can be used to clip through walls.}}
+{{Item Data
+ |icon=SR-icon-misc-SilverCandlestick.png
+ |name=Silver Candlestick
+ |id=000aa03e|weight=1|value=75
+ |notes=Found in [[Skyrim:Pinewatch|Pinewatch]].}}
+{{Item Data
+ |name=Silver Goblet
+ |customicon=[[File:SR-icon-misc-Silver Goblet xx011db2.png|24px]] [[File:SR-icon-misc-Silver Goblet xx011db3.png|24px]]
+ |displayname={{Anchor|Silver Goblet}}{{DG}}
+ |id=xx011db2,xx011db3|idsep=<br>|weight=1|value=15
+ |notes=Bloodied versions can be found at [[Skyrim:Castle_Volkihar|Castle Volkihar]]{{DG}}.}}
+{{Item Data
+ |name=Silver Jug
+ |icon=SR-icon-misc-Silver Jug.png
+ |displayname={{Anchor|Silver Jug}}{{DG}}
+ |id=xx011db4|weight=2|value=30
+ |notes=Bloodied versions can be found at Castle Volkihar{{DG}}.}}
+{{Item Data
+ |icon=SR-icon-misc-Spoon.png
+ |name=Spoon
+ |id=000aebf4|weight=0.5|value=6}}
+ |
+{{Item Data
+ |icon=SR-icon-misc-Tankard.png
+ |name=Tankard
+ |id=000319e3|weight=0.5|value=1}}
+ |
+{{Item Data
+ |icon=SR-icon-misc-WoodenBowl.png
+ |name=Wooden Bowl
+ |id=0003199a|weight=0.5|value=1}}
+ |
+{{Item Data
+ |icon=SR-icon-misc-WoodenLadle.png
+ |name=Wooden Ladle
+ |id=000319e5|weight=0.5|value=1}}
+ |
+{{Item Data
+ |icon=SR-icon-misc-WoodenPlate.png
+ |name=Wooden Plate
+ |id=00031941|weight=0.5|value=1
+ |notes=Can be used to clip through walls.}}
+|}
+
+====Bugs====
+{{Bug|The Glazed Urn may not appear in the game.|vn=0}}
+
+===Dwemer Dishes===
+{| class="wikitable sortable"
+!class=unsortable|
+!Name ([[Skyrim:Form ID|ID]])
+!width=22|{{Weight Icon}}
+!width=22|{{Value Icon}}
+{{Item Data
+ |customicon=[[File:SR-icon-misc-DwemerBowl1.png|48px]]<br>[[File:SR-icon-misc-DwemerBowl2.png|48px]]<br>[[File:SR-icon-misc-DwemerPan1.png|48px]]
+ |name=Dwemer Bowl
+ |id=00025c13,00025c68,000e1fc3|idsep=<br>|weight=2|value=20<br>15<br>20}}
+{{Item Data
+ |customicon=[[File:SR-icon-misc-DwemerCup1.png|48px]]<br>[[File:SR-icon-misc-DwemerCup2.png|48px]]<br>[[File:SR-icon-misc-DwemerCup3.png|48px]]
+ |name=Dwemer Cup
+ |id=00027f07,00027f08,00027f09|idsep=<br>|weight=0.5|value=6}}
+{{Item Data
+ |icon=SR-icon-misc-DwemerDish.png
+ |name=Dwemer Dish
+ |id=00027f06|weight=0.5|value=8}}
+{{Item Data
+ |customicon=[[File:SR-icon-misc-DwemerPan1.png|48px]]<br>[[File:SR-icon-misc-DwemerPan2.png|48px]]
+ |name=Dwemer Pan
+ |id=00027f03,00027f12|weight=0.5<br>3|value=8<br>10}}
+{{Item Data
+ |icon=SR-icon-misc-DwemerPlate.png
+ |name=Dwemer Plate
+ |id=00027f15|weight=1|value=8}}
+|}
+====Notes====
+*Dwemer dishes cannot be smelted into [[Skyrim:Dwarven Metal Ingot|Dwarven Metal Ingots]].
+
+===Musical Instruments===
+{| class="wikitable sortable"
+!class=unsortable|
+!Name ([[Skyrim:Form ID|ID]])
+!width=22|{{Weight Icon}}
+!width=22|{{Value Icon}}
+{{Item Data
+ |icon=SR-icon-misc-Drum.png
+ |name=Drum
+ |id=000daba9|weight=4|value=10}}
+{{Item Data
+ |icon=SR-icon-misc-Flute.png
+ |name=Flute
+ |id=000daba7,00105177|idsep=<br>|weight=2|value=25}}
+{{Item Data
+ |icon=SR-icon-misc-Lute.png
+ |name=Lute
+ |id=000dabab|weight=4|value=25}}
+|}
+
+===Other Clutter===
+{| class="wikitable sortable"
+!class=unsortable|
+!Name ([[Skyrim:Form ID|ID]])
+!width=22|{{Weight Icon}}
+!width=22|{{Value Icon}}
+!Notes
+{{Item Data
+ |customicon={{icon|m|Basket 00012fe7|24}}{{icon|m|Basket 00012fe8|24}}<br>{{icon|m|Basket 00012fe9|24}}{{icon|m|Basket 00012fea|24}}<br>{{icon|m|Basket 00012feb|24}}{{icon|m|Basket 0009baf8|24}}<br>{{icon|m|Basket 000abd30|24}}{{icon|m|Basket 00012fec|24}}
+ |name=Basket
+ |id=00012fe7,00012fe8,00012fe9,00012fea,00012feb,0009baf8,000abd30,00012fec|idsep=<br>|weight=0.5|value=1&nbsp;&nbsp;&nbsp;1<br>1&nbsp;&nbsp;&nbsp;1<br>1&nbsp;&nbsp;&nbsp;1<br>2&nbsp;&nbsp;&nbsp;1}}
+ |
+{{Item Data
+ |icon=SR-icon-misc-Bellows.png
+ |name=Bellows
+ |id=0005cadf|weight=1|value=1}}
+ |
+{{Item Data
+ |icon=SR-icon-misc-BloodyRags.png
+ |name=Bloody Rags
+ |id=000cc84d|weight=1|value=1}}
+ |Found in military camps, coffins, & [[Skyrim:Castle_Volkihar|Castle Volkihar]]{{DG}}.
+{{Item Data
+ |customicon={{icon|m|Bucket1|24}}{{icon|m|Bucket2|24}}<br>{{icon|m|Bucket3|24}}
+ |name=Bucket
+ |id=00012fdf,000747fb,000747fe|idsep=<br>|weight=0.5|value=1}}
+ |
+{{Item Data
+ |icon=SR-icon-misc-BurnedBook.png
+ |name=Burned Book
+ |id=000e3cb7|weight=2|value=0}}
+ |
+{{Item Data
+ |icon=SR-icon-misc-Clothes Iron.png
+ |name=Clothes Iron
+ |id=00067180|weight=3|value=7}}
+ |
+{{Item Data
+ |icon=SR-icon-misc-StatueOfDibella.png
+ |name=Dibella Statue
+ |id=0008f997|weight=2|value=100}}
+ |
+{{Item Data
+ |icon=SR-icon-potion-Skooma.png
+ |name=Empty Skooma Bottle
+ |id=000f03f8|weight=0.5|value=0}}
+ |7 of these can be found in J'zhar's Pack, next to [[Skyrim:J'zhar|J'zhar's]] corpse in [[Skyrim:Alftand|Alftand]]. 1 can be found along with a full bottle in a rock formation cavity directly west of the [[Skyrim:nirnroot|Nirnroot]] near the [[Skyrim:Solitude Lighthouse|Solitude Lighthouse]] (not to be confused with the nearby Nirnroot by the broken dock).
+{{Item Data
+ |icon=SR-icon-misc-Basket 0009baf8.png
+ |name=Flower Basket
+ |id=000d955a|weight=1|value=5}}
+ |May be purchased from [[Skyrim:Sofie|Sofie]]{{HF}}, provided the player has not yet adopted her.
+{{Item Data
+ |icon=SR-icon-misc-Flag1.png
+ |name=Flag
+ |id=00070bc4|weight=4|value=0}}
+ |With [[Skyrim:Hearthfire|Hearthfire]] installed, you can obtain one in the children's room of [[Skyrim:Proudspire Manor|Proudspire Manor]], stuck in the map of Skyrim. They have no Havok physics and will float in midair if dropped.
+{{Item Data
+ |icon=SR-icon-misc-Hammer.png
+ |name=Hammer
+ |id=0005cae1|weight=3|value=1}}
+ |
+{{Item Data
+ |icon=SR-icon-misc-Inkwell.png
+ |name=Inkwell
+ |id=0004c3c6|weight=0.3|value=1}}
+ |
+{{Item Data
+ |icon=SR-icon-misc-Lantern.png
+ |name=Lantern
+ |id=000318ec|weight=2|value=1}}
+ |
+{{Item Data
+ |customicon={{icon|m|Pitchfork 000f5d07}}<br>{{icon|m|Pitchfork 000f5d08}}
+ |name=Pitchfork
+ |id=000f5d07,000f5d08|idsep=<br>|weight=4|value=1}}
+ |
+{{Item Data
+ |customicon={{icon|m|Pot1|24}}{{icon|m|Pot3|24}}<br>{{icon|m|Pot2|24}}{{icon|m|Pot4|24}}
+ |name=Pot
+ |id=000b9bd2,000f08f6,000b9bd4,000f08f7|idsep=<br>|weight=3|value=5}}
+ |
+{{Item Data
+ |icon=SR-icon-misc-Quill.png
+ |name=Quill
+ |id=0004c3c8|weight=0.5|value=1}}
+ |
+{{Item Data
+ |icon=SR-icon-misc-Roasted Ox Head.png
+ |name=Roasted Ox Head
+ |id=0005e8ad|weight=1|value=3}}
+ |rowspan=2|Found in the [[Skyrim:Hall of Valor|Hall of Valor]] in [[Skyrim:Sovngarde (place)|Sovngarde]]. Despite its appearance, it cannot be used as [[Skyrim:food|food]].
+{{Item Data
+ |icon=SR-icon-misc-Roasted Ox Leg.png
+ |name=Roasted Ox Leg
+ |id=0005e52a|weight=1|value=1}}
+{{Item Data
+ |icon=SR-icon-misc-Saw.png
+ |name=Saw
+ |id=000f5d0a|weight=2|value=3}}
+ |
+{{Item Data
+ |customicon={{icon|m|Shovel}}<br><br>{{icon|m|Shovel2}}
+ |name=Shovel
+ |id=000f5d05,000f5d06|idsep=<br>|weight=4|value=3}}
+ |
+{{Item Data
+ |icon=SR-icon-misc-Spigot.png
+ |name=Spigot
+ |id=0003807b|weight=2|value=1}}
+ |
+{{Item Data
+ |icon=SR-icon-misc-Tongs.png
+ |name=Tongs
+ |id=0005cae0|weight=1|value=1}}
+ |
+{{Item Data
+ |icon=SR-icon-misc-Torture Tool.png
+ |name=Torture Tool
+ |displayname={{Anchor|Torture Tool}}{{DG}}
+ |id=xx008e4e|weight=1|value=2}}
+ |
+{{Item Data
+ |icon=SR-icon-misc-Torture Tools.png
+ |name=Torture Tools
+ |id=00020949|weight=2|value=15}}
+ |
+|}

@@ -1,0 +1,65 @@
+{{Marker Icon|SR-mapicon-Dawnstar.png}}{{City Summary
+|description=A city on the northern coast of Skyrim, and the capital of [[Skyrim:The Pale|the Pale]].
+|image=SR-place-Dawnstar.jpg
+|width=220px
+|sumimg=SR-symbol-Dawnstar.png
+|imgdesc=Dawnstar
+|marker_id=Dawnstar
+|color=#ACA595
+|locationcode={{small|DawnstarExterior01, Dawnstar02Exterior, Dawnstar03Exterior, DawnstarExterior04, DawnstarExterior05, DawnstarExterior06, DawnstarExterior07, DawnstarExterior08}}
+|location=Dawnstar, in [[Skyrim:The Pale|The Pale]]
+|government=
+*[[Skyrim:Dawnstar Barracks|Dawnstar Barracks]]
+*[[Skyrim:The White Hall|The White Hall]]
+|inns=
+*[[Skyrim:Windpeak Inn|Windpeak Inn]]
+|shops=
+*[[Skyrim:The Mortar and Pestle|The Mortar and Pestle]]
+|guilds=
+*[[Skyrim:Dawnstar Sanctuary|Dawnstar Sanctuary]]
+|houses=
+*[[Skyrim:Beitild's House|Beitild's House]]
+*[[Skyrim:Brina's House|Brina's House]]
+*[[Skyrim:Fruki's House|Fruki's House]]
+*[[Skyrim:Irgnir's House|Irgnir's House]]
+*[[Skyrim:Leigelf's House|Leigelf's House]]
+*[[Skyrim:Rustleif's House|Rustleif's House]]
+*[[Skyrim:Silus Vesuius's House|Silus Vesuius's House]]
+|other=
+*[[Skyrim:Iron-Breaker Mine|Iron-Breaker Mine]]
+*[[Skyrim:Quicksilver Mine|Quicksilver Mine]]
+}}__NOTOC__
+'''Dawnstar''' is a city on the northern coast of Skyrim, and the capital of [[Skyrim:The Pale|the Pale]]. It is initially aligned with the [[Skyrim:Stormcloaks|Stormcloaks]] under [[Skyrim:Jarl|Jarl]] [[Skyrim:Skald|Skald]]. The city is a relatively small fishing and mining settlement with few services. The residents will report having [[Skyrim:Waking Nightmare|horrible nightmares]], which some initially blame on a witch's curse.
+
+For more information on Dawnstar, see the [[Lore:Dawnstar|lore article]].
+
+{{NewLeft}}
+==[[Skyrim:Dawnstar People|Dawnstar People]]==
+{{Skyrim:Dawnstar People}}
+
+==Related Quests==
+===Quests Starting Here===
+====[[Skyrim:Daedric Quests|Daedric]]====
+* {{Quest Link|Pieces of the Past}}
+* {{Quest Link|Waking Nightmare}}
+
+====[[Skyrim:Miscellaneous Quests|Miscellaneous Quests]]====
+{{Skyrim:Miscellaneous Quests/Dawnstar}}
+
+==Notes==
+*The scene with [[SR:Erandur|Erandur]] in the [[SR:Windpeak Inn|Windpeak Inn]] may be missed if you've talked to either [[SR:Brina Merilis|Brina Merilis]], [[SR:Skald|Skald]], [[SR:Madena|Madena]], [[SR:Rustleif|Rustleif]], [[SR:Frida|Frida]], [[SR:Beitild|Beitild]] or [[SR:Leigelf|Leigelf]] first in relation to the nightmares plaguing the town, and vice versa.
+*With ''[[Skyrim:Hearthfire|Hearthfire]]'' installed, you can purchase [[Skyrim:Heljarchen Hall|a plot of land]] in the Pale to build a house on. Also, two [[Skyrim:Quarried Stone|stone quarries]] will be present.
+*[[Skyrim:Dawnstar Sanctuary|Dawnstar Sanctuary]] is a [[Skyrim:Houses|house]] granted upon completion of the [[Skyrim:Dark Brotherhood|Dark Brotherhood]] quest [[Skyrim:Hail Sithis!|Hail Sithis!]]
+*[[Skyrim:Dawnguard|Dawnguard]] adds a permanently disabled map marker for Dawnstar Docks.
+*[[Skyrim:Quicksilver Mine|Quicksilver Mine]] is just south of Fruki's House, in the northwest corner of town.
+*[[Skyrim:Iron-Breaker Mine|Iron-Breaker Mine]] is just east of [[Skyrim:The White Hall|The White Hall]], at the east end of town. 
+*A blacksmith's forge and hide tanner are outside Rustleif's house, near the water.
+*A tent is northeast of town, past the hill on which the lighthouse is situated. Inside, someone has set up a lovers' retreat, complete with two unowned bedrolls, a few articles of clothing, wine, [[Skyrim:Red Mountain Flower|flowers]], and an [[Skyrim:Amulet of Mara|amulet of Mara]].
+*Dawnstar also appears in ''[[Arena:Dawnstar|Arena]]'' and ''[[Dawnstar:Places|Dawnstar]]''.
+
+==Bugs==
+{{Bug|Ahkari's hidden [[Skyrim:Merchant Chest|merchant chest]] in Dawnstar is accessible due to a bug. See [[Skyrim:Ahkari#Bugs|Ahkari]]'s page for details.|confirmed=1}}
+
+{{Skyrim Settlements}}
+
+[[fr:Skyrim:Aubétoile]]

@@ -1,0 +1,200 @@
+<noinclude>{{Trail|Items}}[[File:OB-item-Soul Gems.jpg|thumb|right|Grand, Greater, Common, Lesser, and Petty soul gems: all except Petty share the same model.]]
+'''Soul Gems''' are [[Oblivion:Miscellaneous Items|miscellaneous items]] which can be used to [[Oblivion:Soul Trap|trap]] the [[Oblivion:Souls|soul]] of a dying creature or NPC. The resulting filled soul gems can be used as power sources for enchanted items, either when initially creating [[Oblivion:Enchanting|custom enchanted items]] or when recharging depleted enchanted weapons, either of which will consume the soul gem. In addition to the soul gems listed here, the [[Shivering:Shivering Isles|Shivering Isles]] expansion adds a [[Shivering:Soul Tomato|Soul Tomato]] that can be used as the equivalent of a grand soul gem.
+
+They can be bought at most magical and alchemical shops.__TOC__
+
+{{NewLine}}
+
+== Types of Soul Gem==
+</noinclude>
+{|  class=wikitable
+! class=unsortable |
+! Name !! Soul !! ID
+! {{Weight Icon}}
+! {{Value Icon}}
+! Capacity !! Notes
+|-
+| {{icon|m|SoulGem2}}
+| {{Nowrap|{{Anchor|Petty Soul Gem}}}} || Empty<br>Petty || {{ID|00023D67}}<br> {{ID|000382D1}} || 0.1 || 10<br>40 || 150 || Smallest size of soul gems.
+|-
+| {{icon|m|SoulGem1}}
+| {{Nowrap|{{Anchor|Lesser Soul Gem}}}} || Empty<br>Petty<br>Lesser || {{ID|00023D69}}<br> {{ID|000382D2}}<br> {{ID|000382D3}} || 0.2 || 25<br>40<br>80|| 300 || Second smallest size of soul gems.<br>One Lesser Soul Gem is required for [[Oblivion:Sheogorath|Sheogorath]]'s [[Oblivion:Daedric Quests|Daedric quest]]. 
+|-
+| {{icon|m|SoulGem1}}
+| {{Nowrap|{{Anchor|Common Soul Gem}}}} || Empty<br>Petty <br>Lesser<br>Common || {{ID|00015B8B}}<br> {{ID|000382D4}}<br> {{ID|000382D5}}<br> {{ID|000382D6}} || 0.3 || 50<br>40<br>80<br>150|| 800 || Middle size of soul gems.
+|-
+| {{icon|m|SoulGem1}}
+| {{Nowrap|{{Anchor|Greater Soul Gem}}}} || Empty<br>Petty<br>Lesser<br>Common<br>Greater || {{ID|00015B8C}}<br> {{ID|000382D7}}<br> {{ID|000382D8}}<br> {{ID|000382D9}}<br> {{ID|000382DA}} || 0.4 || 100<br>40<br>80<br>150<br>350|| 1200 || Second largest size of soul gems.
+|-
+| {{icon|m|SoulGem1}}
+| {{Nowrap|{{Anchor|Grand Soul Gem}}}} || Empty<br>Petty<br>Lesser<br>Common<br>Greater<br>Grand || {{ID|00015B8E}}<br> {{ID|000382DB}}<br> {{ID|000382DC}}<br> {{ID|000382DD}}<br> {{ID|000382DE}}<br> {{ID|000382DF}} || 0.5 || 200<br>40<br>80<br>150<br>350<br>500 || 1600 || Largest size of soul gems.<br>Five empty Grand Soul Gems are required for the [[Oblivion:Vampire Cure|Vampire Cure]] quest.
+|-
+| {{icon|m|BlackSoulGem}}
+| [[Oblivion:Black Soul Gem|{{Anchor|Black Soul Gem}}]] || Empty<br>Grand<br>Empty<br>Empty || {{ID|00000192}}<br> {{ID|000382E0}}<br> {{ID|0003C7FC}}<br> {{ID|0001EC14}} || 0.5<br>0.5<br>0<br>0.5 || 500<br>1200<br>0<br>500 || 1600 || Special soul gems that can capture [[Oblivion:NPCs|NPC]] souls as well as creatures; see [[Oblivion:Black_Soul_Gem|Black Soul Gems]] for details.
+* The third variety listed (ID <code>0003C7FC</code>) is a quest-specific variety used during the [[Oblivion:Cheydinhal Recommendation|Cheydinhal Recommendation]], and is actually a standard Grand Soul Gem (it cannot be used to trap NPC souls). Using these quest-specific soul gems is not recommended (see [[Oblivion:Cheydinhal Recommendation#Bugs|the quest bugs]]).
+* The fourth variety listed (ID <code>0001EC14</code>) is never found in-game, and cannot be used if added through the console.
+|}
+
+'''Note:''' These IDs and values are set at the time you acquire a soul gem, and do not get changed when you fill the soul gem with a soul. In other words, if you pick up an empty grand soul gem, its value will be 200 gold.  That value does not change when you fill it. Therefore, you can end up with grand soul gems containing grand souls with two different values, both 200 gold and 500 gold.<noinclude>
+
+=== Black Soul Gems ===
+Regular Soul Gems can only trap [[Oblivion:Creatures|creatures]], not [[Oblivion:NPCs|NPCs]] (note that some creatures, like [[Oblivion:Dremora|Dremora]], are actually classed as NPCs). [[Oblivion:Necromancy|Necromancy]] has researched the rituals necessary to create Black Soul Gems that are capable of trapping the souls of NPCs. The details of those rituals are described on the page describing [[Oblivion:Black Soul Gem|Black Soul Gems]].
+
+Once you have a filled Black Soul Gem, it is used exactly like a regular Soul Gem. A Black Soul Gem can hold as much as a Grand Soul Gem (1600), but it is much easier to fill since any humanoid is 1600 units.
+
+===Azura's Star===
+Azura's Star is essentially the most powerful Soul Gem in the game, and can be obtained by completing [[Oblivion:Azura|Azura's Daedric Quest]]. Its quality is the same as a Grand Soul Gem; however, it has infinite uses and it is not used up after enchanting or recharging. It cannot be turned into a Black Soul Gem, and thus cannot hold NPC souls. See the page on [[Oblivion:Azura's Star|Azura's Star]] for more details.
+
+==Locations==
+These are the only '''guaranteed''' locations of empty soul gems. Any others come from random lists.
+===Petty===
+{| class="hiddentable" width="100%"
+|- valign="top"
+| width="50%" |
+* [[Shivering:Things Found|Things Found]] (&times; 6) {{SI}}
+* [[Oblivion:Arcane University|Arcane University]] Chironasium (&times; 5)
+* [[Oblivion:Leyawiin Mages Guild|Leyawiin Mages Guild]] 2nd Floor West (&times; 4)
+* [[Oblivion:Barren Mine|Barren Mine]] (&times; 3)
+* [[Oblivion:Mystic Emporium|Mystic Emporium]] (&times; 3)
+* [[Oblivion:Beldaburo|Beldaburo]] Anga (&times; 2)
+* [[Oblivion:Belda|Belda]] Lor (&times; 2)
+* [[Oblivion:Bravil Mages Guild|Bravil Mages Guild]] (&times; 2)
+* [[Oblivion:Cheydinhal Mages Guild|Cheydinhal Mages Guild]] (&times; 2)
+* [[Oblivion:Chorrol Mages Guild|Chorrol Mages Guild]] Living Quarters (&times; 2)
+* [[Oblivion:Lazare Milvan's House|Lazare Milvan's House]] (&times; 2)
+* [[Oblivion:Lost Boy Cavern|Lost Boy Cavern]], Hidden Bastion (&times; 3)
+* [[Oblivion:Skingrad Mages Guild|Skingrad Mages Guild]] (&times; 2)
+* [[Oblivion:Anvil Mages Guild|Anvil Mages Guild]]
+* Anvil Mages Guild Library
+* [[Oblivion:Beldaburo|Beldaburo]]
+* [[Oblivion:Beneath the Bloodworks|Beneath the Bloodworks]]
+* [[Oblivion:Bruma Mages Guild|Bruma Mages Guild]]
+* Bruma Mages Guild (Destroyed)
+| width="50%" |
+* [[Oblivion:Ceyatatar|Ceyatatar]] Gorihame
+* [[Oblivion:Chorrol Mages Guild|Chorrol Mages Guild]]
+* Chorrol Mages Guild Library
+* [[Oblivion:Edgar's Discount Spells|Edgar's Discount Spells]]
+* [[Oblivion:Elenglynn|Elenglynn]]
+* [[Oblivion:Fort Cuptor|Fort Cuptor]] Battlemains
+* [[Oblivion:Frostcrag Spire (place)|Frostcrag Spire]], Living Area
+* Frostcrag Spire, Main Level
+* [[Oblivion:Garlas Agea|Garlas Agea]]
+* [[Oblivion:Hame|Hame]] Wendesel
+* [[Oblivion:Henantier's House|Henantier's House]]
+* [[Oblivion:Lake Arrius Caverns|Lake Arrius Caverns]], Shrine Living Quarters
+* [[Oblivion:Skingrad Mages Guild|Skingrad Mages Guild]], Living Quarters
+* [[Oblivion:Southern Books|Southern Books]], 2nd floor
+* [[Oblivion:A Warlock's Luck|A Warlock's Luck]]
+* [[Oblivion:Wendelbek|Wendelbek]]
+* Wendelbek Aldmerisel
+* Wendelbek Sel Aran Mathmedli
+* Wendelbek Silaseli
+|}
+
+===Lesser===
+{| class="hiddentable" width="100%"
+|- valign="top"
+| width="50%" |
+* [[Oblivion:Chorrol Mages Guild|Chorrol Mages Guild]] (&times; 3)
+* [[Oblivion:Leyawiin Mages Guild|Leyawiin Mages Guild]] 2nd Floor West (&times; 3)
+* [[Oblivion:Lost Boy Cavern|Lost Boy Cavern]], Hidden Bastion (&times; 3)
+* [[Oblivion:Anvil Mages Guild|Anvil Mages Guild]] (&times; 2)
+* [[Oblivion:Beldaburo|Beldaburo]] (&times; 2)
+* [[Oblivion:Beldaburo|Beldaburo]] Anga (&times; 2)
+* [[Oblivion:Belda|Belda]] Lor (&times; 2)
+* [[Oblivion:Castle Bruma|Castle Bruma]] Great Hall (&times; 2)
+* [[Oblivion:Cheydinhal Mages Guild|Cheydinhal Mages Guild]] (&times; 2)
+* [[Oblivion:Fort Carmala|Fort Carmala]] (&times; 2)
+* [[Oblivion:Fort Cuptor|Fort Cuptor]] Battlemains (&times; 2)
+* [[Oblivion:Skingrad Mages Guild|Skingrad Mages Guild]] Living Quarters (&times; 2)
+* [[Oblivion:Arcane University|Arcane University]], Council Chambers
+* Arcane University, Lustratorium
+* [[Oblivion:Anvil Mages Guild|Anvil Mages Guild]] Library
+* [[Oblivion:Barren Mine|Barren Mine]]
+* [[Oblivion:Bravil Mages Guild|Bravil Mages Guild]]
+* [[Oblivion:Bruma Mages Guild|Bruma Mages Guild]]
+| width="50%" |
+* Bruma Mages Guild (Destroyed)
+* [[Oblivion:Ceyatatar|Ceyatatar]] Gorihame
+* [[Oblivion:Chorrol Mages Guild|Chorrol Mages Guild]]
+* Chorrol Mages Guild Library
+* [[Oblivion:Colovian Traders|Colovian Traders]]
+* [[Oblivion:Elenglynn|Elenglynn]]
+* [[Oblivion:Eugal Belette|Eugal Belette]]'s Basement
+* [[Oblivion:Frostcrag Spire (place)|Frostcrag Spire]], Main Level
+* Frostcrag Spire, Living Area
+* [[Oblivion:Garlas Agea|Garlas Agea]]
+* [[Oblivion:Lake Arrius Caverns|Lake Arrius Caverns]], Shrine Living Quarters
+* [[Oblivion:Skingrad Mages Guild|Skingrad Mages Guild]]
+* [[Oblivion:A Warlock's Luck|A Warlock's Luck]]
+* [[Oblivion:Wendelbek|Wendelbek]]
+* Wendelbek Aldmerisel
+* Wendelbek Sel Aran Mathmedli
+* Wendelbek Silaseli
+* [[Oblivion:Worm Anchorite|Worm Anchorite]] §
+|}
+
+===Common===
+{| class="hiddentable" width="100%"
+|- valign="top"
+| width="50%" |
+* [[Oblivion:Arcane University|Arcane University]] Chironasium (&times; 6)
+* Arcane University Mystic Archives Upstairs (&times; 4)
+* Arcane University Chironasium Upstairs (&times; 3)
+* [[Oblivion:Beneath the Bloodworks|Beneath the Bloodworks]]
+* [[Shivering:Cann|Cann]], Halls of Tranquility {{SI}}
+* [[Oblivion:Chorrol Mages Guild|Chorrol Mages Guild]] (&times; 2)
+* [[Oblivion:Edgar's Discount Spells|Edgar's Discount Spells]]
+| width="50%" |
+* [[Oblivion:Fort Chalman|Fort Chalman]] Exterior
+* [[Oblivion:Fort Cuptor|Fort Cuptor]]
+* [[Oblivion:J'Bari's House|J'Bari's House]], 2nd Floor West
+* [[Shivering:Jastira Nanus' House (Mania)|Jastira Nanus' House (Mania)]] {{SI}}
+* [[Oblivion:Leyawiin Mages Guild|Leyawiin Mages Guild]]
+* [[Oblivion:Mahei's House|Mahei's House]], 2nd Floor West
+* [[Oblivion:Mystic Emporium|Mystic Emporium]]
+|}
+
+===Greater===
+{| class="hiddentable" width="100%"
+|- valign="top"
+| width="50%" |
+* [[Shivering:Urul gro-Agamph's House (Dementia)|Urul gro-Agamph's House]] (&times; 2) {{SI}}
+* [[Oblivion:Chorrol Mages Guild|Chorrol Mages Guild]]
+| width="50%" |
+* [[Oblivion:Leyawiin Mages Guild|Leyawiin Mages Guild]]
+|}
+
+===Grand===
+{| class="hiddentable" width="100%"
+|- valign="top"
+| width="50%" |
+* [[Oblivion:Chorrol Mages Guild|Chorrol Mages Guild]] (&times; 3)
+* [[Oblivion:Arcane University|Arcane University]], Arch-Mage's Lobby (&times; 3)
+* Arcane University, Mage's Quarters ‡
+* [[Oblivion:Crayfish Cave|Crayfish Cave]], Steep †
+* [[Oblivion:Drakelowe|Drakelowe]], Basement
+* [[Oblivion:Nornal|Nornal]] Ageasel †
+* [[Oblivion:Squandered Mine|Squandered Mine]] Wind Holes †
+| width="50%" |
+* [[Oblivion:Angalmo|Angalmo]] §
+* [[Oblivion:Felen Relas|Felen Relas]] §
+* [[Oblivion:Ardaline|Ardaline]] §
+* [[Oblivion:Selena Orania|Selena Orania]] §
+* [[Oblivion:Eilonwy|Eilonwy]] §
+* [[Oblivion:Alves Uvenim|Alves Uvenim]] §
+* [[Oblivion:Calindil|Calindil]] §
+|}
+
+===Black===
+{| class="hiddentable" width="100%"
+|- valign="top"
+| width="50%" |
+* [[Oblivion:Worm Anchorite|Worm Anchorite]] (Will create a Black Soul Gem on a Shade of the Revenant day) § 
+|}
+
+† These soul gems only become accessible as part of the [[Oblivion:Vampire Cure|Vampire Cure]] quest.<br/>
+‡ Requires a criminal act.<br/>
+§ Carried by an NPC.
+</noinclude>

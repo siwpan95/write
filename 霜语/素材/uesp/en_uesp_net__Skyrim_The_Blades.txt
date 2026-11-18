@@ -1,1 +1,59 @@
-ERR HTTP Error 404: Not Found
+{{Trail|Factions}}{{About|the faction|the class|Blade}}
+[[File:SR-place-Sky Haven Temple Exterior.jpg|right|thumb|Sky Haven Temple, the last stronghold of the Blades]]
+The '''Blades''' are a small group of [[Skyrim:Dragon|dragon]] hunters, [[Lore:Talos|Talos]] worshippers, and sworn protectors of [[Skyrim:Dovahkiin|those of the Dragon blood]] in [[Skyrim:Skyrim|Skyrim]]. No longer are they the secret eyes and ears of the [[Lore:Septim_Dynasty|Septim Emperors]]; hunted and decimated by the [[Skyrim:Thalmor|Thalmor]], they are but a shadow of their former glory. The Blades reformed with the return of the dragons. They are led by acting Grandmaster [[Skyrim:Delphine|Delphine]], one of the last surviving members, and are based in [[Skyrim:Sky Haven Temple|Sky Haven Temple]]. The Blades stand in opposition of the [[Skyrim:Greybeards|Greybeards]], and are strongly opposed to the existence of [[Skyrim:Paarthurnax (dragon)|Paarthurnax]], whom they perceive as a menace.
+
+For historical information on the Blades, see the [[Lore:Blades|lore article]].
+
+==Blades in Skyrim==
+{{People Table
+|{{People
+|title=Blades
+|[[Skyrim:Delphine|Delphine]] (Grandmaster)
+|
+|[[Skyrim:Esbern|Esbern]] (Loremaster)
+|
+|[[Skyrim:Zaharia|Zaharia]]{{CC|Alternative Armors - Leather}}
+}}
+}}
+[[File:SR-npc-Delphine 03.jpg|thumb|right|Grandmaster Delphine]]
+Once [[Skyrim:Sky Haven Temple|Sky Haven Temple]] is entered during [[Skyrim:Alduin's Wall|Alduin's Wall]], it will become the headquarters of all Blades operations in Skyrim and you may live here if you choose to, so long as you get along with the Blades. You may recruit up to three [[Skyrim:Followers|followers]] to join the Blades. The first recruit will take the oath right away, while the other two will begin training. The new recruits will train, patrol the area, and live in Sky Haven Temple, their former lives over. The Blade recruits will train with either Delphine, or one of the targets and training dummies; they will always use their preferred skill when training. The [[Skyrim:Dragonslayer's Blessing|Dragonslayer's Blessing]] may be received from Esbern upon request as well. The Blades will always show an opposition to the pacifist Greybeards, taking a stance that all dragons must be destroyed. The Blades recruits may also accompany you on trips to [[Skyrim:Dragon Hunting|slay dragons]] living near dragon lairs. All Blade recruits are given a set of the standard [[Skyrim:Specialty Gear#Blades Armor|Blades armor]], to which they will default in future: this is governed by the [[Skyrim:Heavy Armor|Heavy Armor]] skill, so keep this in mind when choosing recruits. If you choose the person in question as a follower in future, their Blades gear does not appear in their inventory to give back to you (although it does appear if they are killed).  They can equip better gear, but apparently only do so while they are your follower, it appears they revert back to using the Blades gear if they leave your service.  Also, before the follower joins be certain to retrieve any armor, helmet or shield that you might wish to keep since they are removed from the game and replaced by Blades equipment. They are also given a standard one-handed Blades Sword, although in this case it appears to be in addition to any other weapons they have, and their old weapons are not lost: thus if they prefer two-handed weapons or spells, and they have them, they will wield and use these in battle rather than the Blades sword.
+{{NewLine}}
+
+==Related Quests==
+Quests involving the Blades include:
+#{{Quest Link|Bleak Falls Barrow (quest)}}
+#{{Quest Link|The Horn of Jurgen Windcaller}}
+#{{Quest Link|A Blade in the Dark}}
+#{{Quest Link|Diplomatic Immunity}}
+#{{Quest Link|A Cornered Rat}}
+#{{Quest Link|Alduin's Wall}}
+#*{{Quest Link|Rebuilding the Blades}}
+#*{{Quest Link|Dragon Hunting}}
+#*{{Quest Link|Dragon Research}}
+#{{Quest Link|Season Unending}}
+#*{{Quest Link|Paarthurnax (quest)}}
+
+== Dialogue == 
+[[File:SR-npc-Delphine 29.jpg|thumb|left|Delphine training a recruit]]
+{| class="hiddentable"
+|
+After a follower is recruited into the Blades, they will greet you with one of these three phrases:
+*''"I'm a Blade now, I can hardly believe it."''
+*''"By my honor, I pledge to rid [[Lore:Tamriel|Tamriel]] of dragons."''
+*''"Dragonborn. What do you need?"''
+|-
+|}
+{{NewLine}}
+
+==Notes==
+[[File:SR-item-Blades Armor Male.jpg|thumb|right|A male Nord wearing [[Skyrim:Blades_Armor#Blades_Armor|Blades armor]]]] 
+*Any of the followers brought to Sky Haven Temple still function as followers, but will return to Sky Haven Temple after parting ways.
+*If a follower is [[Skyrim:Marriage|a spouse]], they can still join the Blades. Their home becomes Sky Haven Temple; however, they will only stay there if you decide to live at their house, otherwise they will stay in the home you choose.
+*If a follower is [[Skyrim:Personal_Steward|a personal steward]]{{HF}}, they can still join the Blades. They will participate in Blades' quests, but will return to the [[Skyrim:Construction|property they are in charge of]]{{HF}}, not Sky Haven Temple.
+*Once a follower has become a Blade, he or she will be free to hire. This is particularly handy if your favorite followers are [[Skyrim:Hireling|hirelings]].
+*Any Blades members that are slain cannot be replaced.
+*The last of the Blades to survive the attack on Cloud Ruler Temple, Acilius Bolar, took refuge in [[Skyrim:Bloated Man's Grotto|Bloated Man's Grotto]]. According to [[Skyrim:Bolar's Writ|his writ]], he later died at the hands of the Thalmor. His unique Blades sword, [[Skyrim:Bolar's Oathblade|Bolar's Oathblade]], can be found in the grotto under a statue of Talos before beginning the quest [[Skyrim:Ill Met By Moonlight|Ill Met By Moonlight]].
+*[[Skyrim:Fultheim|Fultheim]] of the [[Skyrim:Nightgate Inn|Nightgate Inn]] possesses a Blades sword, and coupled with his comments on drinking away bad memories suggest that he was a Blade during the Great War.
+*Version 2.0.3 of the [[Skyrim Mod:Unofficial Skyrim Patch|Unofficial Skyrim Patch]] moves the Blades into a new crime faction created just for them when they arrive at Sky Haven Temple. This avoids some complications from becoming [[Skyrim:Crime|wanted]] in The Reach, which logically they wouldn't really care about.
+
+{{Skyrim Factions}}

@@ -1,0 +1,498 @@
+{{NPC Summary
+|loc=[[Skyrim:High Hrothgar|High Hrothgar]]
+|race=Elder
+|gender=Male
+|level=150
+|image=SR-npc-Arngeir.jpg
+|imgdesc=Arngeir
+|faction={{Faction|CrimeFactionGreybeard}}; {{Faction|Faction for not using casual idles}}; {{Faction|FavorExcludedFaction}}; {{Faction|Greybeards}}; {{Faction|WIAdditem03ExclusionFaction}}
+|baseid=0002C6C7
+|class=Priest
+|refid=000886B3
+|skills='''[[Skyrim:Enchanting|Enchanting]]''', '''[[Skyrim:Restoration|Restoration]]''', '''[[Skyrim:Speech|Speech]]''', [[Skyrim:Alchemy|Alchemy]], [[Skyrim:Conjuration|Conjuration]], [[Skyrim:Smithing|Smithing]]
+|aggress=Unaggressive
+|moral=No Crime
+|essential=yes
+|health=1292
+|magicka=50
+|stamina=1043
+|voicetype=Unique
+}}[[File:SR-npc-Arngeir 03.jpg|thumb|right|Arngeir awaiting the Dragonborn]]
+'''Arngeir''' is a powerful [[Skyrim:Greybeards|Greybeard]] [[Skyrim:Elder|elder]] who resides in [[Skyrim:High Hrothgar|High Hrothgar]]. He tutors you in the art of using the [[SR:Dragon Shouts|Voice]] and acts as the Greybeards' representative since he is the only one of the four who can speak safely. He is the right hand of [[SR:Paarthurnax (dragon)|Paarthurnax]] and has taken it upon himself to zealously guard the [[SR:Throat of the World|Throat of the World]].
+
+Arngeir is a devoted meditator; he doesn't eat meals and sleeps only for a few hours. He wakes up at 2:30am and meditates at every window in the western hall before moving out to the courtyard at 4am. Outside, he either meditates by the fire or in the center of the grounds, or he practices shouts in various locations. From 8am to 4pm, he meditates in the main hall, and then switches to meditating at the windows in the east and west halls. Arngeir goes to bed at 10pm in any of the available beds.
+
+He wears a set of [[Skyrim:Greybeard's Robes|Greybeard's robes]] with the matching [[Skyrim:Greybeard's Hood|hood]] and [[Skyrim:Greybeard's Boots|boots]]. He carries a copy of the book ''[[Skyrim:Spirit of Nirn|Spirit of Nirn]]'', one [[Skyrim:Honeycomb|honeycomb]], and one [[Skyrim:Food#Fruit/Vegetables|fruit or vegetable]].
+
+Arngeir knows the following shouts: [[Skyrim:Disarm|Disarm]], [[Skyrim:Fire Breath|Fire Breath]], [[Skyrim:Frost Breath|Frost Breath]], [[Skyrim:Ice Form|Ice Form]], [[Skyrim:Unrelenting Force|Unrelenting Force]], and [[Skyrim:Whirlwind Sprint|Whirlwind Sprint]].
+{{NewLeft}}
+
+==Related Quests==
+*{{Quest Link|The Way of the Voice}}
+*{{Quest Link|The Horn of Jurgen Windcaller}}
+*{{Quest Link|The Throat of the World}}
+*{{Quest Link|Elder Knowledge}}
+*{{Quest Link|The Fallen}}
+*{{Quest Link|Season Unending}}
+*{{Quest Link|Paarthurnax (quest)}}
+*{{Quest Link|The Words of Power}}
+
+==Quest-Related Events==
+===The Way of the Voice===
+[[File:SR-achievement-The Way of the Voice.png|70px|right|link=SR:The Way of the Voice]]
+After you have walked the path of 7,000 steps and completed your pilgrimage to [[SR:High Hrothgar|High Hrothgar]], Arngeir will stride into the entrance hall of the monastery. He will then address you as Dragonborn, saying, ''"So... a Dragonborn appears, at this moment in the turning of an age."'' You may then choose whether to adopt a reverent tone or immediately begin asking questions of your soon-to-be instructor:
+{| class=wikitable
+! You
+! Arngeir
+|-
+|'''''I'm answering your summons.'''''
+|''"We will see if you truly have the gift. Show us, Dragonborn. Let us taste of your Voice."''
+|-
+|'''''You call me Dragonborn. What does that mean?'''''
+|''"First, let us see if you truly are Dragonborn. Let us taste of your Voice."''
+|}
+[[File:SR-npc-Greybeards.jpg|thumb|right|''"Let us taste of your Voice."'']]
+
+Thus, regardless of your response, you will be urged to demonstrate your abilities to the Greybeards. If you choose to ignore his command, he will rebuke you gently: ''"Shout for us, Dragonborn. Then we may have time for questions."'' If you hesitate to demonstrate your power on the Greybeards, Arngeir will encourage you, saying, ''"Do not be afraid. Your Shout will not harm us."'' or ''"Shout at us, and let us taste of your Voice."'' or ''"Strike us with the power of your Voice."''
+
+After you have successfully struck the Greybeards with [[SR:Unrelenting Force|Unrelenting Force]], Arngeir will hail you as the true Dovahkiin, declaring, ''"Dragonborn. It is you. Welcome to High Hrothgar.''" He will then approach you once more and introduce himself properly: ''"I am Master Arngeir. I speak for the Greybeards. Now tell me, Dragonborn, why have you come here?"'' You may then choose to answer this question with another question, express your desire to learn more about your purpose as Dragonborn, or respond reverently:
+{| class=wikitable
+! You
+! Arngeir
+|-
+|'''''Who are you? What is this place?'''''
+|''"We are the Greybeards, followers of the Way of the Voice. You stand in High Hrothgar, on the slopes of [[Lore:Kynareth|Kynareth's]] sacred mountain. Here we commune with the voice of the sky, and strive to achieve balance between our inner and outer selves."''
+|-
+|'''''I want to find out what it means to be Dragonborn.'''''
+|''"We are here to guide you in that pursuit, just as the Greybeards have sought to guide those of the Dragon Blood that came before you."''
+|-
+|'''''I'm answering your summons, Master.'''''
+|''"We are honored to welcome a Dragonborn to High Hrothgar. We will do our best to teach you how to use your gift in fulfillment of your destiny."''
+|}
+
+If you select the second or the third response, you may then ask a follow-up question:
+{| class="wikitable"
+!You
+!Arngeir
+|-
+!colspan=2 |Second Choice: Purpose
+|-
+|'''''You mean I'm not the only Dragonborn?'''''
+|''"You are not the first. There have been many of the Dragon Blood since [[Lore:Akatosh|Akatosh]] first bestowed that gift upon mortalkind. Whether you are the only Dragonborn of this age... that is not ours to know. You are the only one that has been revealed thus far. That is all I can say."''
+|-
+!colspan=2 |Third Choice: Reverence
+|-
+|'''''What is my destiny?'''''
+|''"That is for you to discover. We can show you the Way, but not your destination."''
+|}
+
+At this point, you may choose to discuss the other topics or begin your training immediately by stating, '''''I'm ready to learn.'''''
+
+Once you have stated your desire to begin your instruction, Arngeir will begin to lecture you.
+:''"You have shown that you are Dragonborn. You have the inborn gift. But do you have the discipline and temperament to follow the path laid out for you? That remains to be seen."''
+
+After this rebuke, he and his fellow Greybeards will form a circle around you before he continues his lecture:
+:''"Without training, you have already taken the first steps towards projecting your Voice into a Thu'um, a [[SR:Shouts|Shout]]. Now let us see if you are willing and able to learn. When you Shout, you speak in the language of [[SR:Dragon|dragons]]. Thus, your Dragon Blood gives you an inborn ability to learn Words of Power. All Shouts are made up of three Words of Power. As you master each Word, your Shout will become progressively stronger."''
+
+After completing this long-winded explanation, Arngeir will finally begin your training in earnest, directing your attention to [[SR:Einarth|Einarth]].
+:''"Master Einarth will now teach you "Ro," the second word in Unrelenting Force. Ro means "Balance" in the dragon tongue. Combine it with Fus - "Force" - to focus your Thu'um more sharply."''
+Einarth will then proceed to project this Word of Power on the floor, which you must read in order to progress in your studies and upgrade Unrelenting Force.
+
+After you have read the Word of Power, Arngeir will praise your aptitude:
+:''"You learn a new word like a master... you truly do have the gift. But learning a Word of Power is only the first step... you must unlock its meaning through constant practice in order to use it in a Shout. Well, that is how the rest of us learn Shouts. As Dragonborn, you can absorb a slain dragon's life force and knowledge directly."''
+
+Following this clarification, Arngeir will once again direct your attention to Einarth.
+:''"As part of your initiation, Master Einarth will allow you to tap into his understanding of "Ro.""''
+Once you have absorbed this knowledge, Arngeir will exhort you to demonstrate your newly increased power:
+:''"Now let us see how quickly you can master your new Thu'um."''
+[[SR:Borri|Borri]], Einarth, and [[SR:Wulfgar|Wulfgar]] will then begin to summon specters of themselves through the power of the Voice. Arngeir then directs you.
+:''"Use your Unrelenting Force shout to strike the targets as they appear."''
+If you delay or only use one word of Unrelenting Force, Arngeir will instruct you further.
+:''"Use both words, if you can."''
+:''"Use both Fus and Ro. Together, they will make the Shout more powerful."''
+To use both words in a particular shout, hold down the key you've bound to use Powers and Shouts for a longer period of time. Tapping the key only uses one word.
+
+After you have dispelled one of the specters with the two Words of Unrelenting Force, Arngeir simply states, ''"Well done. Again."'' Once you have dispelled the second specter, he will command you to continue: ''"You learn quickly. Once more."'' However, once you have dispelled the third and final specter, Arngeir will be more forthcoming with his praise, saying, ''"Impressive. Your Thu'um is precise. You show great promise, Dragonborn."''
+
+After the completion of this exercise, Arngeir will then usher you towards your next task: ''"We will perform your next trial in the courtyard. Follow Master Borri."'' If you delay at any time during the buildup to this second trial, Arngeir will say, ''"Come, Dragonborn. Attend to Master Borri."''
+[[File:SR-quest-The Way of the Voice.jpg|thumb|right|''"Come, Dragonborn. Attend to Master Borri."'']]
+
+Once you have arrived in the courtyard of High Hrothgar, Arngeir will explain the nature of your next trial. However, depending on your current knowledge of the [[SR:Whirlwind Sprint|Whirlwind Sprint]] shout, his dialogue will change:
+{| class=wikitable
+! Words Known
+! Arngeir's Response
+|-
+|Zero
+|''"We will now see how you learn a completely new Shout. Master Borri will teach you "Wuld," which means "Whirlwind.""''
+|-
+|One (''"Wuld"'')
+|''"I see that you have already begun to learn the Whirlwind Sprint Shout. Master Borri will teach you "Nah" - "Fury" - the second word of Whirlwind Sprint."''
+|-
+|Two (''"Nah"'')
+|''"I see that you have already begun to learn the Whirlwind Sprint Shout. Master Borri will teach you "Kest" - "Tempest"- the third word of Whirlwind Sprint."''
+|}
+
+Borri will then speak whatever Word of Power you lack, burning it into the ground for you to read. If you do not immediately read it, Arngeir will say, ''"You must hear the Word within yourself before you can project it into a Thu'um."'' Once you have read this Word of Power, Arngeir will direct you to absorb Borri's knowledge in the same manner in which you absorbed Einarth's: ''"Approach Master Borri and he will gift you his knowledge of "Wuld."/"Nah"/"Kest.""'' Once you have gained this knowledge, the trial will continue as Arngeir declares, ''"Now we will see how quickly you can master a new shout."'' However, if you have already learned at least one of the words of Whirlwind Sprint prior to meeting the Greybeards, he will instead say, ''"Now we will see how quickly you can master a new Word."''
+
+Arngeir will then walk towards the gate, explaining, ''"Master Wulfgar will demonstrate Whirlwind Sprint. Then it will be your turn."'' As Borri commands the gate to open with his Voice, Wulfgar will shout the first Word of Whirlwind Sprint and leap through the opening with inhuman speed. Arngeir will then state, ''"Now it is your turn. Stand next to me. Master Borri will open the gate. Use your Whirlwind Sprint to pass through before it closes."'' If you delay, Arngeir will repeat his intructions, saying, ''"Stand next to me, and prepare your Whirlwind Sprint. Master Borri will give the signal."'' And if you fail, he will exhort you to continue trying, saying either ''"Try it again. Breath and focus."'' or ''"Is this your best effort? Again."''	
+
+Once you have successfully burst past the columns of the open gate, Arngeir will be shocked by your progress, saying, ''"Your quick mastery of a new Thu'um is... astonishing. I'd heard the stories of the abilities of Dragonborn, but to see it for myself..."'' You may then choose to respond in a somewhat arrogant manner, display apparent humility, or simply thank him for his praise:
+
+{| class=wikitable
+! You
+! Arngeir
+|-
+|'''''I thought it was this easy for everyone.'''''
+|''"No. Indeed not. But beware that your skill does not outstrip your wisdom."''
+|-
+|'''''I don't know how I do it. It just happens.'''''
+|''"You were given this gift by the gods for a reason. It is up to you to figure out how best to use it."''{{Intnote|figure out}}
+|-
+|'''''Thank you. What's next?'''''
+|Skips to explaining the last trial with no further instruction.
+|}
+{{Note|figure out||The subtitles say "figure out" here, but the dialogue says "determine". It is unclear which is correct.}}
+
+Regardless of your choice, Arngeir will declare, ''"You are now ready for your last trial. Retrieve the [[Skyrim:Horn of Jurgen Windcaller|Horn]] of [[SR:Jurgen Windcaller|Jurgen Windcaller]], our founder, from his tomb in the ancient fane of [[SR:Ustengrav|Ustengrav]]. Remain true to the Way of the Voice, and you will return."''
+{{NewLine}}
+
+===The Horn of Jurgen Windcaller===
+[[File:SR-icon-misc-HornOfJurgenWindcaller.png|90px|right|link=SR:The Horn of Jurgen Windcaller]]
+[[File:SR-place-Throat of the World2.jpg|right|thumb|''"Our leader, Paarthurnax, lives alone on the peak of the Throat of the World."'']]
+After you have begun the quest, a number of topics may be discussed with Arngeir before you set off on your journey to the tomb of Jurgen Windcaller:
+{| class=wikitable
+! You
+! Arngeir
+|-
+|'''''Why are the dragons returning? Does it have something to do with me?'''''
+|''"No doubt. The appearance of a Dragonborn at this time is not an accident. Your destiny is surely bound up with the return of the dragons. You should focus on honing your Voice, and soon your path will be made clear."''
+|-
+|'''''What does it mean to be "Dragonborn"?'''''
+|''"Dragons have the inborn ability to learn and project their Voice. Dragons also are able to absorb the power of their slain brethren. A few mortals are born with similar abilities -- whether a gift or a curse has been a matter of debate down through the centuries. What you have already learned in a few days took even the most gifted of us years to achieve. Some believe that Dragonborn are sent into the world by the gods, at times of great need. We will speak more of that later, when you are ready."''
+|-
+|'''''Why are Shouts in the dragon language?'''''
+|''"Dragons have always been able to Shout. Language is intrinsic to their very being. There is no difference in the dragon tongue between debating and fighting. Shouting comes as naturally to a dragon as breathing, or speaking. In mythic times, when mortalkind was in great need, the goddess Kynareth granted us the ability to speak as dragons do. For most people, long years of training are required to learn even the simplest Shout. But for you, the dragon speech is in your blood, and you learn it almost without effort."''
+|-
+|'''''There are only four of you?'''''
+|''"Five. Our leader, [[SR:Paarthurnax (dragon)|Paarthurnax]], lives alone on the peak of the Throat of the World. When your Voice can [[SR:Clear Skies|open]] the path, you will know you are ready to speak to him."''
+|-
+|'''''Tell me about the Greybeards.'''''
+|''"We study the Way of the Voice, according to the teachings of our founder, Jurgen Windcaller. Very few are permitted to study with us here at High Hrothgar. But in your case, Dragonborn, it is a privilege to guide you towards mastery of your Voice."''
+|-
+|'''''Who was Jurgen Windcaller?'''''
+|''"He was a great war leader of the ancient Nords, a master of the Voice, or Tongue. After the disaster at [[Lore:Red Mountain|Red Mountain]], where the Nord army was annihilated, he spent many years pondering the meaning of that terrible defeat. He finally came to realize that the gods had punished the Nords for their arrogant and blasphemous misuse of the Voice. He was the first to understand that the Voice should be used solely for the glory and worship of the gods, not the glory of men. Jurgen Windcaller's mastery of the Voice eventually overcame all opposition, and the Way of the Voice was born."''
+|}
+If you choose to inquire about the relation between your discovery of your abilities and the appearance of the dragons (the first question), you may then either thank Arngeir or demand answers:
+{| class=wikitable
+! You
+! Arngeir
+|-
+|'''''Thank you, Master. I will continue my training.'''''
+|''"Good. Then you will be ready for whatever lies ahead."''
+|-
+|'''''Surely there's more you can tell me.'''''
+|''"There is indeed much that we know that you do not. That does not mean that you are ready to understand it. Do not let your easy mastery of the Voice tempt you into the arrogance of power that has been the downfall of many Dragonborn before you."''
+|}
+
+If you chose to inquire about their number (the fourth question), you may then ask, '''''When can I meet your leader, Paarthurnax?''''' Arngeir will then patiently explain, ''"As I said, you will know you are ready when your Voice can open the path to him."''
+
+[[File:SR-npc-Arngeir 02.jpg|thumb|right|''"True mastery of the Voice can only be achieved when your inner spirit is in harmony with your outward actions."'']]
+
+If you chose to ask about the Greybeards (the fifth question), you may then ask, '''''Why don't the others talk?''''' Arngeir will then enlighten you as to the nearly uncontrollable power of the Greybeards: ''"Their Voices are too powerful for anyone not trained in the Way to withstand. Even a whisper could kill you."''
+
+If you chose to either ask about the Greybeards or learn more about Jurgen Windcaller (which is the last question in the main dialogue tree but also appears as a slightly different question in the dialogue tree concerning the Greybeards), you may then ask, '''''What is the Way of the Voice?''''' Arngeir will then explain, ''"The Voice was a gift of the goddess Kynareth, at the dawn of time. She gave mortals the ability to speak as dragons do. Although this gift has often been misused, the only true use of the Voice is for the worship and glory of the gods. True mastery of the Voice can only be achieved when your inner spirit is in harmony with your outward actions. In the contemplation of the sky, Kynareth's domain, and the practice of the Voice, we strive to achieve this balance."'' After this explanation, you may then express your feelings concerning the Way of the Voice:
+{| class=wikitable
+! You
+! Arngeir
+|-
+|'''''But I don't follow your philosophy. Why help me learn the Voice?'''''
+|''"The Dragonborn is an exception to all the rules - the Dragon Blood itself is a gift of the gods. If we accept one gift, how can we deny the other? As Dragonborn, you have received the ability to Shout directly from Akatosh. We therefore seek to guide you on the proper use of your gift, which transcends the restrictions which bind other mortals."''
+|-
+|'''''I will try to follow the Way of the Voice.'''''
+|''"That is commendable. But remember, the Dragon Blood is itself a gift of Akatosh. Do not try to deny that gift. Your destiny requires you to use your Voice - why else would Akatosh have bestowed this power upon you? If you remember to use your Voice in service to the purpose of Akatosh, you will remain true to the Way."''
+|}
+
+Once you have asked as many or as few questions as you desire, you may depart High Hrothgar and seek out the Horn of Jurgen Windcaller in Ustengrav. However, you will soon discover that the Horn has been stolen by [[SR:Delphine|Delphine]], one of the last surviving members of the [[SR:Blades|Blades]]. After you have journeyed to [[SR:Riverwood|Riverwood]], you will both receive the Horn from Delphine and begin [[Skyrim:A Blade in the Dark|A Blade in the Dark]]. However, you may choose to put off Delphine's quest in favor of returning to the Greybeards with the Horn.
+
+Once you have returned to High Hrothgar and presented the Horn to Arngeir, he will exclaim, ''"Ah! You've retrieved the Horn of Jurgen Windcaller. Well done. You have now passed all the trials. Come with me. It is time for us to recognize you formally as Dragonborn."'' He will then stride towards the entrance hall and will explain the procedure of the ritual, saying either ''"You are ready to learn the final word of Unrelenting Force, "Dah," which means "Push.""'' or ''"First, Master Wulfgar will teach you the final word of Unrelenting Force. You are ready."'' Once you and Arngeir have arrived in the entrance hall, Wulfgar will project ''"Dah"'' on the floor, prompting Arngeir to say, ''"With all three words together, this Shout is much more powerful. Use it wisely. Master Wulfgar will now gift you with his knowledge of "Dah.""
+
+After you have absorbed Wulfgar's knowledge and mastered Unrelenting Force, Arngeir solemnly declares, ''"You have completed your training, Dragonborn. We would Speak to you. Stand between us and prepare yourself. Few can withstand the unbridled Voice of the Greybeards. But you are ready."'' He will then lead the Greybeards in the following chant:
+
+{|class="wikitable"
+|-
+!The Greybeards' Chant!!Direct translation
+|-
+|''Lingrah krosis saraan Strundu'ul, voth nid balaan klov praan nau.''||Long (in) sorrow (has) waited (the) Stormcrown, with no worthy head to rest on.
+|-
+|''Naal Thu'umu, mu ofan nii nu, Dovahkiin, naal suleyk do Kaan, naal suleyk do Shor, ahrk naal suleyk do Atmorasewuth.''||By our Voice we give it now (to you), Dragonborn, by (the) power of [[Lore:Kyne|Kyne]], by (the) power of [[Lore:Shor|Shor]], and by (the) power of [[Lore:Atmora|Atmora]]-of-old.
+|-
+|''Meyz nu Ysmir, Dovahsebrom. Dahmaan daar rok.''||(You have) become now [[Lore:Ysmir|Ysmir]], Dragon of the North. Remember these words.
+|}
+
+Once the ceremony has been completed, Arngeir will announce, ''"Dovahkiin. You have tasted the Voice of the Greybeards, and passed through unscathed. High Hrothgar is open to you."'' The quest will then be completed, but you may then ask Arngeir, '''''What was that ceremony all about? Were you Shouting at me?''''' He will then reveal the true significance of the ceremony, stating, ''"We spoke the traditional words of greeting to a Dragonborn who has accepted our guidance. The same words were used to greet the young [[Lore:Talos|Talos]], when he came to High Hrothgar, before he became the Emperor [[Lore:Tiber Septim|Tiber Septim]]."'' If you are not satisfied with this answer, you may ask, '''''What did you actually say?''''' Arngeir will then recognize his mistake, saying, ''"Ah. I sometimes forget you are not versed in the dragon tongue as we are. This is a rough translation: "Long has the Stormcrown languished, with no worthy brow to sit upon." "By our breath we bestow it now to you in the name of Kyne, in the name of Shor, and in the name of Atmora of Old." "You are Ysmir now, the Dragon of the North, hearken to it.""''
+{{NewLine}}
+
+===The Words of Power===
+[[File:SR-achievement-Words of Power.png|right|link=SR:The Words of Power]]
+[[File:SR-quest-The Words of Power.jpg|thumb|left|''"Even from here, we can feel the Thu'um resonate from them."'']]
+Following your official recognition as Dragonborn, Arngeir and the other Greybeards will have little to teach you until you have pursued other [[SR:Esbern|sources]] of information. However, Arngeir will be able to divine the locations of more Words of Power so that you may grow your abilities through your own initiative.
+
+If you approach Arngeir, you may say, '''''I'd like to learn more about the Voice.''''' Seeking to temper your expectations, he will only say, ''"You have learned so much already, Dragonborn. Growing your gift too quickly would be dangerous. But there are many Words of Power in Skyrim, carved in the Dragon tongue. Even from here, we can feel the Thu'um resonate from them. Finding these lost Words would be a sufficient test, to temper your abilities with experience. Ask when you are ready to search."''
+
+From this point onward, you are able to ask, '''''Have you located any Words of Power?''''' If the Greybeards have divined the location of a Word Wall, Arngeir will affirm, ''"We have felt the whisper of a Word. Give me your map, and I will show you where its echo can be found.''" He will then mark the location on your map, and the objective will be recorded as a miscellaneous quest. However, if they have not discovered anything, Arngeir will say, ''""There is only silence right now. Perhaps later we will hear one of the lost Words."''
+{{NewLine}}
+
+===The Throat of the World===
+[[File:SR-qico-Main.png|right|link=SR:The Throat of the World|class=imageInvert]]
+If you are returning to High Hrothgar after previously completing [[Skyrim:The Horn of Jurgen Windcaller|The Horn of Jurgen Windcaller]], Arngeir will be sitting in one of the chairs in the northern wing. After picking the response, '''''I need to learn the Shout used to defeat Alduin.''''' He will sound shocked and ask, ''"Where did you learn of that? Who have you been talking to?"'' You can then choose whether or not to tell him:
+
+{| class=wikitable
+! You
+! Arngeir
+|-
+|'''''Does it matter?'''''
+|''"Yes. For matters of such gravity, we need to know where you stand. Or who you stand with."''
+|-
+|'''''It was recorded on Alduin's Wall.'''''||rowspan=2|''"The Blades! Of course. They specialize in meddling in matters they barely understand. Their reckless arrogance knows no bounds."''
+|-
+|'''''The [[Skyrim:Blades|Blades]] helped me find out about it.'''''
+|}
+
+If, '''''Does it Matter?''''' is chosen, there will be two more options. Telling Arngeir, '''''Who I stand with is my business.''''' He will respond with, ''"If you wish to stand alone, so be it. If you wish for our help, you will answer my question."'' and end the conversation. If you respond with '''''I have nothing to hide. The Blades helped me find out about it.''''' his response will be, ''"The Blades! Of course. They specialize in meddling in matters they barely understand. Their reckless arrogance knows no bounds."'' Talking to him again after refusing to tell him where you learned about the shout, or breaking conversation before telling him about Alduin's Wall or the Blades and he will immediately ask you, ''"Where did you learn of a shout used to defeat Alduin?"'' with the original three dialogue options.
+
+Once he's been told the Blades are involved, he will continue his admonishment of them, ''"They have always sought to turn the Dragonborn from the path of wisdom."'' he will then ask you, ''"Have you learned nothing from us? Would you simply be a tool in the hands of the Blades, to be used for their own purposes?"'' You then have three options to respond, each with a lengthy response:
+
+{| class=wikitable
+! You
+! Arngeir
+|-
+|'''''The Blades are helping me. I am not their puppet.'''''
+|''"No, no, of course not. Forgive me Dragonborn, I have been intemperate with you. But heed my warning - the Blades may say they serve the Dragonborn, but they do not. They never have."''
+|-
+|'''''The Blades just want to defeat Alduin. Don't you?'''''
+|''"What I want is irrelevant. This Shout was used once before, was it not? And here we are again. Have you considered that Alduin was not meant to be defeated? Those who overthrew him in ancient times only postponed the day of reckoning, they did not stop it. If the world is meant to end, so be it. Let it end and be reborn."''
+|-
+|'''''At least the Blades aren't keeping secrets from me.'''''
+|''"Do not be so sure about that. Beware - the Blades may claim to serve the Dragonborn, but they do not. They never have. As for me, I kept from you only what you were not ready to know. Are still not ready to know, as your question reveals."''
+|}
+
+After picking either the second or third option, you respond with, '''''So you won't help me?''''' To which he replies, ''"No. Not now. Not until you return to the path of wisdom."'' and ends the conversation. Trying to talk to him again afterwards will only have him say, ''"I have given my answer. Go and reconsider your course."'' At this point however, [[Skyrim:Einarth|Einarth]] will speak up, shaking High Hrothgar with, ''{{hover|Arngeir. She/He is Dovahkiin, Stormcrown. She/He will speak (with) Paarthurnax|"Arngeir. Rek/Rok los Dovahkiin, Strundu'ul. Rek/Rok fen tinvaak Paarthurnax."}}'' Arngeir will then say, ''"Dragonborn... Wait."'' and begin to walk over to you and start a new conversation with, ''"Forgive me. I was... intemperate. I allowed my emotions to cloud my judgement. Master Einarth reminded me of my duty. The decision whether or not to help you is not mine to make."''
+
+Whether you picked the first option or Einarth had to intervene, you will now be able to say, '''''So, can you teach me the Shout?''''' and Arngeir's response will be ''"No. I cannot teach it to you, because I do not know it. It is called "[[Skyrim:Dragonrend|Dragonrend]]", but its Words of Power are unknown to us. We do not regret this loss. Dragonrend holds no place within the Way of the Voice."'' You'll then have three options:
+
+{| class=wikitable
+! You
+! Arngeir
+|-
+|'''''I thought you knew all the Words of Power.'''''
+|''"But not Dragonrend. The knowledge of that Shout was lost in the time before history began. Perhaps only its creators ever knew it. But I am not the one to speak of it to you."''
+|-
+|'''''What's so bad about Dragonrend?'''''
+|''"It was created by those who had lived under the unimaginable cruelty of Alduin's Dragon Cult. Their whole lives were consumed with hatred for dragons, and they poured all their anger and hatred into this Shout. When you learn a Shout, you take it into your very being. In a sense, you become the Shout. In order to learn and use this Shout, you will be taking this evil into yourself."''
+|-
+|'''''If the Shout is lost, how can I defeat Alduin?'''''
+|''"Only [[Skyrim:Paarthurnax (dragon)|Paarthurnax]], the master of our order, can answer that question, if he so chooses."''
+|}
+[[File:SR-npc-Arngeir 05.jpg|thumb|right|Learning the Clear Skies shout]]
+The first and second option brings you back to the dialogue tree. After choosing the third option, another set of three dialogue choices are available:
+
+{| class=wikitable
+! You
+! Arngeir
+|-
+|'''''Who is Paarthurnax?'''''
+|''"He is our leader. He surpasses us all in his mastery of the Way of the Voice."''
+|-
+|'''''Why haven't I met Paarthurnax yet?'''''
+|''"He lives in seclusion on the very peak of the mountain. He speaks to us only rarely and never to outsiders. Being allowed to see him is a great privilege."''
+|-
+|'''''I need to speak to Paarthurnax, then.'''''
+|''"You weren't ready. You still aren't ready. But thanks to the Blades, you now have questions that only Paarthurnax can answer."''
+|}
+The second dialogue option will unlock this dialogue: '''''How do I get to the top of the mountain to see him?''''' Arngeir will respond, ''"Only those whose Voice is strong can find the path. Come. We will teach you a Shout to open the way to Paarthurnax."'' The conversation will end, and Arngeir with the rest of the [[Skyrim:Greybeards|Greybeards]] will walk to the courtyard.
+
+Once in the courtyard, Arngeir will walk up to the bonfire near the gate to the summit of Throat of the World. Once he's there, he will say, ''"The path to Paarthurnax lies through this gate. I will show you how to open the way."'' and place the words for the [[skyrim:Clear Skies|Clear Skies]] Shout, whispering each word in turn: ''"Lok..." "Vah..." "Koor..."'' After learning all the words, he will then say, ''"I will grant you my understanding of Clear Skies. This is your final gift from us, Dragonborn. Use it well."''
+
+Afterwards, Arngeir will tell you how Clear Skies will work for reaching Paarthurnax ''"Clear Skies will blow away the mist, but only for a time. The path to Paarthurnax is perilous, not to be embarked upon lightly. Keep moving, stay focused on your goal, and you will reach the summit."'' At this point, he will not engage in any conversation with you, only saying, ''"Use Clear Skies to open the way to Paarthurnax."'' Once you've used Clear Skies to clear the first part of the mist, he and the other Greybeards will return to their schedule.
+
+It is notable that, after he has taught you this shout, it is entirely possible to complete your [[SR:Main Quest|mission]] to slay Alduin without ever speaking to Arngeir again, assuming that the correct conditions are met for the subsequent quests.
+{{NewLine}}
+
+===Elder Knowledge===
+[[File:SR-achievement-Elder Knowledge.png|70px|right]]
+[[File:SR-faction-College of Winterhold.jpg|thumb|left|''"...such blasphemies have always been the stock in trade of the mages of Winterhold."'']]
+After you have spoken with Paarthurnax, you may choose to request Arngeir's aid in your quest to obtain an Elder Scroll. Upon seeing you, Arngeir will slowly say, ''"So... you spoke to Paarthurnax. The dragonblood burns bright within you. Did he tell you what you wanted to know? Did he teach you the Dragonrend Shout?"'' You may then tell him, '''''No, but he told me how to find out.''''' After learning of Paarthurnax's decision, Arngeir will regretfully cease his opposition: ''"So be it. If he believes it is necessary for you to learn this... we will bow to his wisdom."''
+
+You may then make your request: '''''I need the Elder Scroll the ancients used. Do you know where to find it?''''' Although he clearly views the Elder Scrolls as evil, he will be forced to admit his lack of knowledge on the subject: ''"We have never concerned ourselves with the Scrolls. The gods themselves would rightly fear to tamper with such things. As for where to find it... such blasphemies have always been the stock in trade of the mages of Winterhold. They may be able to tell you something about the Elder Scroll you seek."''
+{{NewLine}}
+
+===The Fallen===
+[[File:SR-achievement-The Fallen.png|70px|right|link=SR:The Fallen]]
+Afer you have learned Dragonrend from the Elder Scroll and survived your [[SR:Alduin's Bane|battle]] with Alduin at the Throat of the World, you may return to Arngeir for guidance. When you approach, Arngeir will clearly be in shock and hesitantly ask, ''"Alduin... we heard the Dragonrend Shout from here... you defeated him?"''
+
+You can talk to him:
+:'''Yes, but he escaped. I need to find out where he went.'''
+:''"The old tales say that he is able to travel into Sovngarde to devour the souls of the dead. But they don't say how he does this."''
+::'''One of his dragon allies could tell us...'''  
+::''"Yes, of course! But how to force a dragon to talk to you... There is one possibility. But... no, the Jarl would never agree."''
+:::'''The Jarl? What are you talking about?'''  
+:::''"Do you know Dragonsreach? The Jarl of Whiterun's palace? Its name is no accident. The palace was originally built to hold a captive dragon."''
+::::'''But I thought there weren't any dragons until Alduin came back.'''  
+::::''"Oh, this was back in the days of Olaf One-Eye, thousands of years ago. In those days, dragons could still be found among the remote mountain peaks. Before the Blades wiped them all out."''
+::::'''So if I could lure a dragon into Dragonsreach...'''  
+::::''"You might be able to trap him there, exactly. You'd require the Jarl's cooperation, of course. That might not be easy to come by. You must trust in the rightness of your cause, and the strength of your Voice."''
+
+He can say this after the conversation ends:
+''"Breath and focus."''
+
+You can talk to him again:
+:'''Where has Alduin gone?'''
+:''"The old tales say that he is able to travel into Sovngarde to devour the souls of the dead. You must find out how he does this, before he regains his strength and returns."''
+{{NewLine}}
+
+===Season Unending===
+[[File:SR-qico-Stormcloaks-right.png|left|link=SR:Stormcloaks|class=imageInvert]][[File:SR-qico-Imperial Legion.png|right|link=SR:Imperial Legion|class=imageInvert]]
+If your request to trap a dragon in Dragonsreach is denied by the reigning Jarl of Whiterun, you may choose to seek Arngeir's help in brokering a truce between the [[SR:Imperial Legion|Imperial Legion]] and the [[SR:Stormcloaks|Stormcloaks]]. When you arrive in High Hrothgar, you may bluntly state, '''''I need your help to stop the war.''''' This hefty demand will cause Arngeir to protest, ''"You misunderstand our authority. The Greybeards have never involved themselves in political affairs."''
+
+Despite his flat rejection, you may continue to push: '''''Jarl Balgruuf / Jarl Vignar won't help me while the war rages.''''' After this explanation, Arngeir will hesitate, saying, ''"I see. The dragon will lead you to Alduin, but without the Jarl's help..."'' You may then make your final entreaty: '''''Both sides respect the Greybeards. They will listen.''''' Eventually, Arngeir will be convinced to oversee the negotiations and even seems to express a hint of amusement at the prospect of taking on this foreign role: ''"Paarthurnax has made the decision to help you. This is the road we have to walk. Even the Greybeards must bend to the winds of change, it seems. So be it. Tell [[SR:Ulfric Stormcloak|Ulfric]] and [[SR:General Tullius|General Tullius]] that the Greybeards wish to speak to them. We will see if they still remember us."''
+
+You must then set out to ensure that both leaders will attend the conference. If you speak to Arngeir again, you may ask, '''''Are you ready to host the peace council?''''' However, he will merely respond, ''"Deliver the message to the warring parties. If they will listen, I will do what I can to bring them to terms."''
+
+After you have convinced both Jarl Ulfric and General Tullius to seek a truce, you must	return to High Hrothgar and speak with Arngeir. Despite his earlier resolve, Arngeir's doubts have returned: ''"So, you've done it. The men of violence are gathered here, in these halls whose very stones are dedicated to peace. I should not have agreed to host this council. The Greybeards have no business involving ourselves in such matters."'' You may then choose to either reassure him or remind him of the necessity of the council:
+{| class=wikitable
+! You
+! Arngeir
+|-
+|'''''Don't worry. I'll get them to agree to peace.'''''
+|''"Peace? I doubt it. They may put their weapons down for a moment, but only to gather strength for the next bloodletting. They are not yet tired of war. Far from it. Do you know the ancient Nord word for war? "Season unending"... so it has proved. But regrets are pointless. Here we are. Take your seat at the council table and let us see what wisdom we can find among these warriors of Skyrim."''
+|-
+|'''''This was the only way to get Balgruuf's / Vignar's help.'''''
+|''"Yes, yes. Which is why I allowed this... violation of all our traditions. But regrets are pointless. Here we are. Take your seat at the council table and let us see what wisdom we can find among these warriors of Skyrim."''
+|}
+However, as you and the Greybeards begin to make your way to the council chamber, you will be confronted by Delphine and Esbern. This tense standoff between the Blades and the Greybeards, who are two groups with incredibly polarized ideologies, can proceed in several ways depending on your previous decisions.
+[[File:SR-npc-Delphine 32.jpg|thumb|right|''"You are not welcome here."'']]
+If you have not spoken to Esbern and been [[SR:Paarthurnax (quest)|tasked]] with killing Paarthurnax, the following conversation will occur:
+
+'''Delphine''': ''"So, Arngeir, is it? You know why we're here. Are you going to let us in or not?"''<br>
+'''Arngeir''': ''"You were not invited here. You are not welcome here."''<br>
+'''Delphine''': ''"We have as much right to be at this council as all of you. More, actually, since we were the ones that put the Dragonborn on this path."''<br>
+'''Arngeir''': ''"Were you? The hubris of the Blades truly knows no bounds."''<br>
+'''Delphine''': ''"If it were up to you, the Dragonborn would sit dreaming on this mountain doing nothing!"''<br>
+'''Esbern''': ''"Delphine, we're not here to rehearse old grudges. The matter at hand is urgent. Alduin must be stopped. You wouldn't have called this council if you didn't agree. We know a great deal about the situation and the threat that Alduin poses to us all. You need us here if you want this council to succeed."''<br>
+'''Arngeir''': ''""Sighs" Very well. You may enter."''
+
+If you '''have''' been directed to kill Paarthurnax but informed Arngeir that you will not carry out the deed, Arngeir will have a more triumphant tone during the standoff:
+
+'''Delphine''': ''"So, Arngeir, is it? You know why we're here. Are you going to let us in or not?"''<br>
+'''Arngeir''': ''"You were not invited here. You are not welcome here."''<br>
+'''Delphine''': ''"We have as much right to be at this council as all of you. More, actually, since we were the ones that put the Dragonborn on this path."''<br>
+'''Arngeir''': ''"We know what path you've set [him/her] on. But he/she has made a different choice. Paarthurnax is still safe from your malice."''<br>
+'''Delphine''': ''"For now. The Blades' memory is long, as you know."''<br>
+'''Esbern''': ''"Delphine, we're not here to rehearse old grudges. The matter at hand is urgent. Alduin must be stopped. You wouldn't have called this council if you didn't agree. We know a great deal about the situation and the threat that Alduin poses to us all. You need us here if you want this council to succeed."''<br>
+'''Arngeir''': ''""Sighs" Very well. You may enter."''
+
+Finally, if you have slain Paarthurnax on behalf of the Blades, the debate will become far more hostile:
+
+'''Delphine''': ''"So, Arngeir, is it? You know why we're here. Are you going to let us in or not?"''<br>
+'''Arngeir''': ''"You were not invited here. You are not welcome here."''<br>
+'''Delphine''': ''"We have as much right to be at this council as all of you. More, actually, since we were the ones that put the Dragonborn on this path."''<br>
+'''Arngeir''': ''"I know what path you set [him/her] on. And now Paarthurnax's wisdom is lost to us, just when we need it most."''<br>
+'''Delphine''': ''"[He/She] did what had to be done. It was long overdue. My only regret is that I wasn't able to kill him myself."''<br>
+'''Esbern''': ''"Delphine, we're not here to rehearse old grudges. The matter at hand is urgent. Alduin must be stopped. You wouldn't have called this council if you didn't agree. We know a great deal about the situation and the threat that Alduin poses to us all. You need us here if you want this council to succeed."''<br>
+'''Arngeir''': ''""Sighs" Very well. You may enter."''
+
+[[File:SR-quest-Season Unending.jpg|thumb|left|''"The men of violence are gathered here, in these halls whose very stones are dedicated to peace."'']]
+[[File:SR-npc-Arngeir 04.jpg|thumb|left|Arngeir at the negotiating table]]
+After the Blades have been allowed to enter High Hrothgar, you may all finally enter the council chamber. Arngeir will either say ''"Take your seat and we can begin."'' or rebuke you with ''"Why delay? Please, take your seat so we can begin."'' Eventually, if you continue to dally, Arngeir will say amusedly, ''"We all wait upon you, Dragonborn."''
+
+After you have sat down at the head of the table, across from him, Arngeir will attempt to begin the meeting, although an argument over the presence of [[SR:Elenwen|Elenwen]], the First Emissary of the [[SR:Thalmor|Thalmor]], will cause a delay:
+
+'''Arngeir''': ''"Now that everyone is here, please take your seats so we can begin. I hope that we have all come here in the spirit of..."''<br>
+'''Ulfric''': ''"No. You insult us by bringing her to this negotiation? Your chief Talos-hunter?"''<br>
+'''Rikke''' (muttered): ''"That didn't take long."''<br>
+'''Galmar''' (muttered): ''"Hear, hear!"''<br>
+'''Balgruuf''' (muttered): ''"Diplomatic as usual."''<br>
+'''Elenwen''': ''"I have every right to be at this negotiation. I need to ensure that nothing is agreed to here that violates the terms of the [[Lore:White-Gold Concordat|White-Gold Concordat]]."''<br>
+'''Tullius''': ''"She's part of the Imperial delegation. You can't dictate who I bring to this council."''<br>
+'''Arngeir''': ''"Please. If we have to negotiate the terms of the negotiation, we will never get anywhere. Perhaps this would be a good time to get the Dragonborn's input on this matter."''
+
+Regardless of whether or not you decide to exclude Elenwen from the council, Arngeir will remain unfazed by the resulting argument between the Imperial and Stormcloak delegations, simply suggesting, ''"Now that that's settled, may we proceed?"''
+
+Following a brief exchange between General Tullius and Jarl Ulfric, Arngeir will first lecture them on the nature of the council before officially beginning the negotiations: ''"Are we ready to proceed? General Tullius. Jarl Ulfric. This council is unprecedented. We are gathered here at the Dragonborn's request. I ask that you all respect the spirit of High Hrothgar, and do your best to begin the process of achieving a lasting peace in Skyrim. Who would like to open the negotiations?"''
+
+{{huh|The dialogue in the bulk of the negotiations is ludicrously varied. Obtaining and documenting the dialogue for every possible combination would be painfully annoying, especially since Arngeir's part is relatively minor for a good bit of it. Might need discussion.}}
+
+Following the completion of the negotiations and the departure of either the Imperials or the Stormcloaks, the current Jarl of Whiterun will turn to you and make a remark about the outcome of the truce. Arngeir will then open the discussion about capturing a dragon, which will vary slightly depending on which delegation remained:
+
+'''Arngeir''': ''"Jarl Balgruuf / Jarl Vignar, I assume you are familiar with the Dragonborn's plan?"''<br>
+'''Balgruuf / Vignar''': ''"Yes, I'm ready to do my part. Just say the word, and my men will help you spring this trap."''<br>
+'''Arngeir''': ''"But the difficulty remains - how to lure a dragon to Dragonsreach at all?"''<br>
+'''Tullius''': ''"Well that's an excellent question. You haven't overlooked that little detail, have you?"'' OR '''Ulfric''': ''"By Talos, that's an excellent question. I hope you haven't forgotten that little detail."''<br>
+'''Esbern''': ''"Ah. I believe I can be of help here."''
+
+After Esbern explains how to ensnare [[SR:Odahviing|Odahviing]], Arngeir and the others will stand and begin to mill out of the chamber. If you approach Arngeir after the meeting, he will comment on the results. If you favored the Imperials in the negotiations, he will ominously say, ''"I fear this truce will not last. You gave the Empire too much. Ulfric will not let that stand for long."'' Alternatively, if you favored the Stormcloaks, he will warn you, ''"I fear this truce will not last. General Tullius will be looking for any opportunity to regain the advantage."'' However, if you declined to favor either faction, he will praise your diplomacy: ''"You did well here today. I don't think the truce will last long, but that will not be on your account."'' Ultimately, regardless of your choices, he will also say, ''"You had best take advantage of this truce while it lasts."''
+<center>[[File:SR-achievement-War Hero.png|70px]]</center>
+{{NewLine}}
+
+===Paarthurnax===
+[[File:SR-achievement-Alduin's Wall.png|70px|right|link=SR:Paarthurnax (quest)]]
+[[File:SR-creature-Paarthurnax 02.jpg|thumb|left|''"Are you so guiltless as to stand in judgment upon Paarthurnax?"'']]
+[[File:SR-quest-Dragon Hunting.jpg|thumb|right|''"Bloodthirsty barbarians!"'']]
+Following the completion of either The Fallen or Season Unending, the Blades will task you with killing Paarthurnax, both in order to punish him for his past crimes against mortals and to eliminate the possibility of his future betrayal. Until you carry out this deed, the Blades will refuse to aid you further, forcing you to choose between your alliance with the Blades or the guidance of the Greybeards.
+
+After receiving this mission, you may approach Arngeir and tell him, '''''The Blades want me to kill Paarthurnax.''''' This revelation will result in an outburst of anger from him: ''"Now you see why I've warned you against them! Bloodthirsty barbarians!"'' You may then ask, '''''Is it true what they said? Was he Alduin's ally?''''' Arngeir will then explain, ''"Yes. But understand - during the days of Alduin's rule, all dragons were his allies. There was nothing else they could be. If not for Paarthurnax, Alduin could not have been overthrown. It was he that first taught men to use the Thu'um."''
+
+You may then choose one of three responses, although none of them will determine your final decision:
+{| class=wikitable
+! You
+! Arngeir
+|-
+|'''''He still needs to pay for his crimes.'''''
+|''"The same could be said for any of us, could it not? Are you so guiltless as to stand in judgment upon Paarthurnax? Listen to your inner Voice before acting. Do not allow the Blades to bully you into doing something you will later regret. After all, repentance is something you deny to Paarthurnax by meting out your so-called justice."''
+|-
+|'''''I haven't decided what to do yet.'''''
+|''"You're learning, Dragonborn. Doing nothing can be the wisest choice, although strangely often the most difficult. I trust that you will make the right choice, in the end. Listen to the Voice that Kynareth has placed within you, and your path will be clear."''
+|-
+|'''''Don't worry, I'm not going to kill Paarthurnax.'''''
+|''"Kynareth has placed the Voice of wisdom within you, Dragonborn. All you need do is learn to listen to it, and your path will be clear."''
+|}		
+
+If you ultimately choose to slay Paarthurnax, Arngeir will become furious with you for murdering his leader. If approached after the deed is done, Arngeir will storm at you: ''"This is how you repay our trust? Paarthurnax's trust? His noble spirit... the wisdom of ages... his deep understanding of our existence... all gone, and for what? A mindless vendetta urged on you by a cabal of [[Lore:Akavir|Akaviri]] barbarians! Begone, before even my philosophy is tested beyond the breaking point. We are men of peace, and you are not."''
+
+From this point onward, he will refuse to speak with you. If you attempt to converse with him, he will merely shout, ''"We have nothing to say to each other. Paarthurnax's murder is beyond my powers of forgiveness."''
+{{NewLine}}
+
+===Dragonslayer===
+[[File:SR-achievement-Dragonslayer.png|70px|right|link=SR:Dragonslayer]]
+[[File:SR-quest-Dragonslayer 02.jpg|thumb|left|''"Perhaps it was all worth it, in the end."'']]
+After you have slain Alduin and returned to [[Lore:Nirn|Nirn]], thus fulfilling your destiny as the Dragonborn, you may descend [[SR:The Throat of the World|The Throat of the World]] for an optional conversation with your mentor. When you arrive in High Hrothgar, you will find the Greybeards gathered together in their meeting chamber. When you enter the room, Arngeir will rise from his seat and greet you, saying, ''"I can see it in your eyes - you've seen the land of the gods and returned. Does this mean... is it done? Is Alduin truly defeated?''"
+
+You may then choose one of three responses:
+
+{| class=wikitable
+! You
+! Arngeir
+|-
+|'''''Yes. I went to Sovngarde and killed Alduin there.'''''
+|''"At last. It is over. Perhaps it was all worth it, in the end."''
+|-
+|'''''As dead as I can make him.'''''
+|''"Then it is done at last. Perhaps it was all worth it, in the end."''
+|-
+|'''''I hope so. But I don't know if Alduin can ever be completely destroyed.'''''
+|''"Perhaps, perhaps not. Dragons are not like normal mortal creatures, and Alduin is unique even among dragonkind. He may be permitted to return at the end of time to fulfill his destiny as the World-Eater. But that is for the gods to decide. You have done your part."''
+|}
+If you select one of the first two answers, you may later ask Arngeir, '''Is Alduin really dead? I didn't absorb his soul when he died."''' This will result in him giving the same explanation as if you had initially selected the third response; the only difference is the wording of your question. Regardless of your choice, however, Arngeir will launch into one of his customary lectures:
+
+<center>''"You've shown yourself mighty, both in Voice and deed. In order to defeat Alduin, you've gained mastery of dreadful weapons. Now it is up to you to decide what to do with your power and skill. Will you be a hero whose name is remembered in song throughout the ages? Or will your name be a curse to future generations? Or will you merely fade from history, unremembered? Let the Way of the Voice be your guide, and the path of wisdom will be clear to you. Breath and focus, Dragonborn. Your future lies before you."''</center>
+
+With these final words of wisdom, Arngeir will leave you free to continue your journey through a world that is, at least for a time, safe from the threat of the World-Eater.
+{{NewLeft}}
+
+==Notes==
+*Through the quest [[Skyrim:The Words of Power|The Words of Power]], Arngeir can provide you with [[SR:Word Wall|word wall]] locations.
+*Although he teaches you the Clear Skies shout, Arngeir was not actually given the shout himself.
+*Arngeir is the only Greybeard who can freely speak, whereas the [[Skyrim:Borri|other]] [[Skyrim:Einarth|three]] [[Skyrim:Wulfgar|Greybeards]] cannot even whisper without causing an earthquake. This is because he is the strongest of his fellow Greybeards (excluding Paarthurnax) and has learned how to control his voice and speak normally.
+*He is [[Skyrim:Voice Actors|voiced]] by the late [[wikipedia:Christopher Plummer|Christopher Plummer]].
+*He is the highest level NPC in the base game at level 150. With [[Skyrim:Dragonborn|Dragonborn]] installed, [[Skyrim:Miraak (person)|Miraak]] can reach the same level.
+*For no apparent reason, most of his schedule changes occur at five minutes past the hour rather than on the hour like most other schedules in the game.

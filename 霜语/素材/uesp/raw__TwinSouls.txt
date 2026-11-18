@@ -1,1 +1,268 @@
-#REDIRECT [[Skyrim:Conjuration#Twin_Souls]] [[Category:Redirects to Broader Subjects]] [[Category:Skyrim-Skills-Perks]]
+{{Skills Summary
+|Image=SR-skill-Conjuration.png
+|Special=Magic
+|ExTrail=[[Skyrim:Magic Overview|Magic]]
+}}
+'''Conjuration''', one of the five schools of [[Skyrim:Magic|magic]] in Skyrim, is the school dedicated to summoning creatures or objects the caster desires. Increasing this skill reduces the [[Skyrim:magicka|magicka]] cost when casting Conjuration spells. Historical information about the School of Conjuration is provided in the [[Lore:Conjuration|lore article]]. The Conjuration skill tree has a total of 15 perks, requiring a total of 16 perk points to fill.
+
+In-game Description: ''The School of Conjuration governs raising the dead or summoning creations from Oblivion. This skill makes it easier to cast these spells as well as Soul Trap and bindings.''
+
+==Summary==
+Conjuration is strongly focused on combat, but in a rather different way than other schools. It has six main areas:
+*'''[[Skyrim:Summon|Summon]]''' spells conjure a creature such as a [[Skyrim:Daedra|Daedra]] to fight for the caster. Characters can only have one summoned creature or reanimated zombie at a time, two with the [[#Twin Souls|Twin Souls]] perk.
+*'''[[Skyrim:Reanimate|Reanimation]]''' spells animate the corpse of dead NPCs to fight for the caster. Characters can only have one summoned creature or reanimated zombie at a time, two with the ''Twin Souls'' perk.
+*'''[[Skyrim:Banish|Banish]]''' spells return summoned Daedra to Oblivion.
+*'''[[Skyrim:Command|Command]]''' spells place summoned Daedra under the caster's control.
+*'''[[Skyrim:Bound Weapon|Bound Weapon]]''' spells conjure an ethereal weapon to your hand. With a few perks that are available at even a low level, bound weapons become very powerful.
+*The '''[[Skyrim:Soul Trap (spell)|Soul Trap]]''' spell, important to anyone who wishes to [[Skyrim:Enchanting|enchant]] items or recharge magic weapons. While filled [[Skyrim:Soul Gems|soul gem]]s can be bought, and weapons enchanted with Soul Trap can be found, this is a low-level spell and it is often easier to capture your own souls even if you do not otherwise use Conjuration magic much.
+
+==Skill Perks==
+{{Perk Tree Setup|width=400}}{{Perk Tree
+|perks=
+{{Image Mark|540|739|Novice Conjuration|mark_alt=Novice Conjuration: 0 Conjuration. Cast Novice level Conjuration spells for half magicka.|position=right}}
+{{Image Mark|714|467|Apprentice Conjuration|mark_alt=Apprentice Conjuration: 25 Conjuration. Cast Apprentice level Conjuration spells for half magicka.|position=bottomright}}
+{{Image Mark|740|317|Adept Conjuration|mark_alt=Adept Conjuration: 50 Conjuration. Cast Adept level Conjuration spells for half magicka.|position=bottom}}
+{{Image Mark|713|200|Expert Conjuration|mark_alt=Expert Conjuration: 75 Conjuration. Cast Expert level Conjuration spells for half magicka.|position=bottomright}}
+{{Image Mark|608|81|Master Conjuration|mark_alt=Master Conjuration: 100 Conjuration. Cast Master level Conjuration spells for half magicka.|position=right}}
+{{Image Mark|418|540|Conjuration Dual Casting|mark_alt=Conjuration: Dual Casting: 20 Conjuration. Dual casting a Conjuration spell overcharges the spell, allowing it to last longer.|position=bottom}}
+{{Image Mark|576|533|Mystic Binding|mark_alt=Mystic Binding: 20 Conjuration. Bound weapons do more damage.|position=top}}
+{{Image Mark|593|276|Soul Stealer|mark_alt=Soul Stealer: 30 Conjuration. Bound weapons cast Soul Trap on targets.|position=bottom}}
+{{Image Mark|586|203|Oblivion Binding|mark_alt=Oblivion Binding: 50 Conjuration. Bound weapons will banish summoned creatures and turn raised ones.|position=top}}
+{{Image Mark|361|254|Necromancy|mark_alt=Necromancy: 40 Conjuration. Greater duration for reanimated undead.|position=bottom}}
+{{Image Mark|361|154|Dark Souls|mark_alt=Dark Souls: 70 Conjuration. Reanimated undead have 100 points more health.|position=bottom}}
+{{Image Mark|254|489|Summoner|mark_alt=Summoner (2 ranks): 30/70 Conjuration. Can summon atronachs or raise undead twice/three times as far away.|position=left}}
+{{Image Mark|229|263|Atromancy|mark_alt=Atromancy: 40 Conjuration. Double duration for conjured Atronachs.|position=bottomleft}}
+{{Image Mark|240|164|Elemental Potency|mark_alt=Elemental Potency: 80 Conjuration. Conjured Atronachs are 50% more powerful.|position=topleft}}
+{{Image Mark|374|101|Twin Souls|mark_alt=Twin Souls: 100 Conjuration. You can have two atronachs or reanimated zombies.|position=top}}
+}}
+{{NewLeft}}
+{|class="wikitable sortable"
+!Perk
+!Rank
+!class=unsortable|Description
+!class=unsortable|[[Skyrim:Form ID|ID]]
+!data-sort-type="number"|Skill Req.
+!Perk Req.
+|-
+|''{{Anchor|Novice Conjuration}}''
+|
+| Cast Novice level Conjuration spells for half magicka.
+| {{ID|000f2ca7}}
+|
+|
+|-
+|''{{Anchor|Apprentice Conjuration}}''
+|
+| Cast Apprentice level Conjuration spells for half magicka.
+| {{ID|000c44bb}}
+| 25 Conjuration
+| Novice Conjuration
+|-
+|''{{Anchor|Adept Conjuration}}''
+|
+| Cast Adept level Conjuration spells for half magicka.
+| {{ID|000c44bc}}
+| 50 Conjuration
+| Apprentice Conjuration
+|-
+|''{{Anchor|Expert Conjuration}}''
+|
+| Cast Expert level Conjuration spells for half magicka.
+| {{ID|000c44bd}}
+| 75 Conjuration
+| Adept Conjuration
+|-
+|''{{Anchor|Master Conjuration}}''
+|
+| Cast Master level Conjuration spells for half magicka.
+| {{ID|000c44be}}
+| 100 Conjuration
+| Expert Conjuration
+|-
+|''{{Anchor|Conjuration Dual Casting}}''
+|
+| [[Skyrim:Magic_Overview#Dual-Casting|Dual casting]] a Conjuration spell overcharges the spell, allowing it to last longer.
+| {{ID|000153ce}}
+| 20 Conjuration
+| Novice Conjuration
+|-
+|''{{Anchor|Mystic Binding}}''
+|
+| Bound weapons do more damage.
+| {{ID|000640b3}}
+| 20 Conjuration
+| Novice Conjuration
+|-
+|''{{Anchor|Soul Stealer}}''
+|
+| Bound weapons cast Soul Trap on targets.
+| {{ID|000d799e}}
+| 30 Conjuration
+| Mystic Binding
+|-
+|''{{Anchor|Oblivion Binding}}''
+|
+| Bound weapons will banish summoned creatures and turn raised ones.
+| {{ID|000d799c}}
+| 50 Conjuration
+| Soul Stealer
+|-
+|''{{Anchor|Necromancy}}''
+|
+| Greater duration for reanimated undead.
+| {{ID|000581dd}}
+| 40 Conjuration
+| Novice Conjuration
+|-
+|''{{Anchor|Dark Souls}}''
+|
+| Reanimated undead have 100 points more health.{{Ref|name=Zombie|Perk affects non-reanimated summoned [[Skyrim:Zombie#Plague of the Dead|Zombie]]s{{CC|Plague of the Dead}} too.}}
+| {{ID|000581de}}
+| 70 Conjuration
+| Necromancy
+|-
+|rowspan=2|''{{Anchor|Summoner}}''
+| 1
+| Can summon atronachs or raise undead twice as far away.{{Ref|name=Dremora|Perks affect [[Skyrim:Dremora Lord|Dremora Lords]] too.}}
+| {{ID|00105f30}}
+| 30 Conjuration
+| Novice Conjuration
+|-
+| 2
+| Can summon atronachs or raise undead three times as far away.{{Ref|name=Dremora}}
+| {{ID|00105f31}}
+| 70 Conjuration
+|
+|-
+|''{{Anchor|Atromancy}}''
+|
+| Double duration for conjured Atronachs.{{Ref|name=Dremora}}
+| {{ID|000cb419}}
+| 40 Conjuration
+| Summoner
+|-
+|''{{Anchor|Elemental Potency}}''
+|
+| Conjured Atronachs are 50% more powerful.
+| {{ID|000cb41a}}
+| 80 Conjuration
+| Atromancy
+|-
+|''{{Anchor|Twin Souls}}''
+|
+| You can have two atronachs or reanimated zombies.{{Ref|name=Dremora}}
+| {{ID|000d5f1c}}
+| 100 Conjuration
+| Dark Souls ''or'' Elemental Potency
+|}
+
+<references/>
+
+==Spells==
+{{Skyrim:Conjuration Spells}}
+===Spell List Notes===
+{{Skyrim:Spell List Notes|noheader=1}}
+
+===Magical Effects===
+A list of standard Conjuration spells can be found on the [[Skyrim:Conjuration_Spells|Spells]] page. The following individual effects are all considered to be part of the school of Conjuration (see the individual effect pages for full details on availability; the [[Skyrim:Magical Effects#Conjuration|Magical Effects]] article also provides a summary):
+*{{icon|sp|Banish|24}} [[Skyrim:Banish|Banish]]
+*{{icon|sp|Bound|24}} [[Skyrim:Bound Weapon|Bound Weapon]]
+*{{icon|sp|Banish|24}} [[Skyrim:Command|Command]]
+*{{icon|sp|Summon|24}} [[Skyrim:Conjure|Conjure]]
+*{{icon|sp|Reanimate|24}} [[Skyrim:Reanimate|Reanimate]]
+*{{icon|sp|Banish|24}} [[Skyrim:Soul Trap (effect)|Soul Trap]]
+
+==Skill Increases==
+=== Character Creation ===
+The following [[Skyrim:Races|races]] have an initial skill bonus to Conjuration:
+* +10 bonus: [[Skyrim:Breton|Breton]]
+* +5 bonus: [[Skyrim:High Elf|Altmer]]
+
+===[[Skyrim:Trainers|Trainers]]===
+* [[Skyrim:Runil|Runil]] in [[Skyrim:Falkreath|Falkreath]] (Common)
+* [[Skyrim:Phinis Gestor|Phinis Gestor]] in the [[Skyrim:College of Winterhold (place)|College of Winterhold]] (Expert)
+* [[Skyrim:Falion|Falion]] of [[Skyrim:Morthal|Morthal]] (Master)
+* [[Skyrim:Talvas Fathryon|Talvas Fathryon]]{{DB}} in [[Skyrim:Tel Mithryn (tower)|Tel Mithryn]] (Master)
+
+===[[Skyrim:Skill Books|Skill Books]]===
+* ''[[Skyrim:2920, Frostfall, v10|2920, Frostfall, v10]]''
+* ''[[Skyrim:2920, Hearth Fire, v9|2920, Hearth Fire, v9]]''
+* ''[[Skyrim:The Doors of Oblivion|The Doors of Oblivion]]''
+* ''[[Skyrim:Liminal Bridges|Liminal Bridges]]''
+* ''[[Skyrim:The Warrior's Charge|The Warrior's Charge]]''
+
+===[[Skyrim:Free_Skill_Boosts|Free Skill Boosts]]===
+* +1 Conjuration reward (and other magic skills) from [[Skyrim:Pantea_Ateia|Pantea Ateia]] ([[Skyrim:Bards_College|Bards College]]) for completing the quest [[Skyrim:Pantea's_Flute|Pantea's Flute]].
+* +5 Conjuration (+5 every magic skill)  by selecting "The Path of Magic" when reading the [[Skyrim:Oghma Infinium|Oghma Infinium]] after completing the quest [[Skyrim:Discerning_the_Transmundane|Discerning the Transmundane]].
+
+===Gaining Skill XP===
+* Summoning or reanimating anything and fighting it grants experience. Be sure not to kill it before it turns hostile, as this will not grant experience.
+* Casting higher level spells gives generally faster skill increases (Novice<Apprentice<Adept<Expert<Master).
+* [[Skyrim:Regenerate Magicka|Regenerate Magicka]] effects help reduce downtimes while training. 
+* It is possible to reduce or even completely eliminate the magicka cost of spells by stacking [[Skyrim:Fortify Conjuration|Fortify Conjuration]] enchanting effects, which is very helpful when leveling Conjuration. The [[Skyrim:Secret of Arcana|Secret of Arcana]]{{DB}} power does the same thing, but only for 30 seconds.
+* When summoning creatures or weapons, you don't have to be engaged in combat at the time of casting to gain experience in Conjuration, as long as you encounter a hostile enemy before the summons vanish.
+* The quickest way to level up your conjuration is by getting the spell [[Skyrim:Bound_Weapon|Bound Weapon]], starting a fight ([[Skyrim:Mudcrab|Mudcrabs]] are the best opponents for this), casting the spell (one or two hands), when hearing the sound which comes right after you've launched the spell, cancel (so you don't have to wait for the weapons to appear), repeat.
+* Banishing your own summoned creatures grants experience. Banishing conjured familiars grant experience.
+
+====Casting with Enemies Nearby====
+Repeatedly casting high-duration, low-magicka Conjuration spells (Bound Sword for example) while in a combat situation will also quickly increase your Conjuration skill (some spells such as Bound Sword can be equipped in both hands for quicker leveling). Also note that the Bound Sword and Bound Dagger provide more than four times the Skill XP of the Bound Bow (see [[#Bugs|bugs]]). So while the Bound Bow is a powerful weapon (particularly in the beginning and mid-game), grinding for XP is better done with the Bound Sword or Bound Dagger.
+An effective method for doing so very quickly:
+# Find a place with enemies that also has a place where you can retreat to that is out of reach of melee attacks (places with caged enemies are a useful alternative, as does encountering a [[Skyrim:Slaughterfish|slaughterfish]] but staying on shore). Kill all but one melee fighter and proceed to cast your spells. Often the enemy will run away in an attempt to find a position to get closer to you. They may retreat far enough to allow you to use the wait function to instantly replenish the magicka bar.
+
+If your level is high enough and you've decided to make the Conjuration skill legendary, one of the good locations for practicing this method is the Tumble Arch Pass giant camp (It's about halfway between Whiterun and Winterhold). Since in most cases Giants will be provoked before that the accompanying Mammoths, kill the giant first, then provoke the mammoth and climb the slope southwest of three mammoth cheeses, the mammoth can't follow you uphill and it'll just stay down there. Now wear all the enchanted apparel, robes, etc for restoring magicka or reducing cost for conjuration spells, and then start casting any thrall spell that you have learned. Since mammoths have considerably high health, it won't die easily if your thrall gets the chance to attack it between the casts (You can use Heal Other restoration spell on the Mammoth as well). This way you can get from 15 to 100 in matter of minutes (Assuming that you can feed the magicka-hungry thrall spell continuously.) The first cast gets you from level 15 to 18, and the last one still increases your conjuration skill almost a whole level.
+
+# Have a follower, conjured atronach, or thrall engage in combat, or cast a Fury or Frenzy spell and then repeatedly cast Bound Sword. This allows you to accomplish objectives while leveling, without the need for grinding.
+# After clearing out a dungeon or a fort, resurrect each dead NPC, and then hit them four times to turn them hostile. Do not kill them, simply reanimate the next NPC and the first will drop dead, and then repeat the process.
+You can also cast summon spells repeatedly in areas where the summon and the enemies can't reach each other (e.g., caged animals, areas with high drop-offs).
+
+
+To grind character levels after already maxing Conjuration at least once, reset it to 15 and summon any [[Skyrim:Thrall|Thrall]] mid-combat to earn a huge amount of experience, especially at low Conjuration levels. This requires a good set of enchanted gear to counter the high magicka cost but can be used to gain character levels extremely quickly.
+
+====Soul Trapping a Corpse====
+{{Bug|An even faster way to level, although one that exploits a bug, would be to find any sort of dead body and repeatedly cast Soul Trap on it with dual-cast; you can go from level 40 to 91 in less than 10 minutes. If you stand near the big magic well in the [[Skyrim:College of Winterhold (place)|College of Winterhold]], you will gain additional magicka regeneration. If this is combined with the Altmer's ''Highborn'' racial power, your magicka will regenerate extremely quickly.|USKP|nobullet=1}}
+
+== Notes ==
+*If you have the ''Soul Stealer'' perk and plan to use Bound Weapons much, souls can be removed from soul gems by dropping them, which can help avoid "wasting" the capacity of the bigger soul gems with smaller souls. This only works on soul gems that you filled yourself, not pre-filled gems purchased from vendors.
+*Unlike in previous games, there are no Bound Armor spells. They have been substituted with the Alteration line of flesh spells.
+*Guards will comment on your abilities if you're proficient in the school of Conjuration: ''"Hail, Summoner!  Conjure me up a warm bed, would you?"''
+*Decapitated NPCs cannot be reanimated. Same goes for enemies turned to ash piles.
+*Creatures and NPCs brought back from the dead with Novice, Apprentice, Adept, and Expert-level spells will disintegrate into a pile of ash upon death, banishment, or once the effect wears off. NPCs reanimated with the Master-level spell, [[Skyrim:Dead_Thrall|Dead Thrall]], will not disintegrate and can be reanimated indefinitely. The level cap of reanimated undead targets can be raised by 25% with the [[Skyrim:Restoration|Restoration]] perk [[Skyrim:Restoration#Necromage|Necromage]].
+*NPCs reanimated with Dead Thrall can be used as a pack mule. Store whatever you want them to carry on their corpse and then reanimate them. If you wish to access your items afterwards or add more for the thrall to carry, kill it or summon/reanimate something else (this will cause the thrall to die) then take your things from the corpse or add more. The NPC can be reanimated again afterwards. You can also use this method to re-equip your thrall with any extra equipment you may have, although some may not equip heavy armor, and they usually wait until entering a new area to update their equipment.
+**There is the potential, though, that certain circumstances will cause the thrall to stop following you, and if left in a cell that resets, your items may be lost.
+*{{Pc22}}{{Ps22}}Thralls will refuse to come out of [[Skyrim:Broken Oar Grotto|Broken Oar Grotto]] for some reason, and dead thralls will resurrect after a certain amount of time.
+*Conjured Ash Guardians do not count as active summoned creatures, meaning that they will not conflict with other summoned creatures.
+*Once the enemies in the [[Skyrim:Soul Cairn|Soul Cairn]]{{DG}} are defeated, they cannot be resurrected in any way.
+*The Necromancy, Atromancy, Dark Souls and Elemental Potency perks have no effect on conjured Ash Spawn, Ash Guardians or Seekers.
+*The Soul Trap effect from ''Soul Stealer'' lasts 5 seconds.
+*Casting Soul Trap on a corpse you fed on while in [[Skyrim:Lycanthropy|Beast Form]] will grant extra progress towards werewolf perks. You can do this once per body.
+*The XP gain from the reanimate spells are not at all proportional with their magicka cost. Aside from the master spell, Raise Zombie gives the highest amount of XP, with Reanimate Corpse in third place, Dread Zombie in fourth and Revenant in fifth with the least amount of XP gain.
+
+==Bugs==
+{{Bug|When affected by a [[Skyrim:Spell Absorption|Spell Absorption]] effect you can absorb your own summoning spells. You will pay the modified magicka cost of the spell but gain the base magicka cost. This can be used to quickly refill your magicka, but those who rely on summoning should be careful, as random failure of a spell may lead to death, if it happens in a sticky situation.|USKP|1.0}}
+{{Bug|If you cast any of the damaging Cloak spells while you have a conjured creature active, the creature will be dismissed. The reverse is not true; if you conjure a creature while a Cloak is active, both spells remain in effect. If you have the [[Skyrim:Twin Souls|Twin Souls]] perk and two thralls or summoned creatures, then both summons will be dismissed. With the [[Skyrim:Elemental Potency|Elemental Potency]] perk all Elemental summons (Fire, Frost, Shock) are not affected by this issue (Dremora Lord is affected even with the perk).|USKP|1.0}}
+{{Bug|When in third-person view, summoning a bound weapon in caves or dungeons may cause you to become frozen with an invisible weapon in your hands.|confirmed=1}}
+**This can sometimes be fixed by going in and out of third-person and first-person views several times.
+{{Bug|Summon Thrall spells can occasionally become "stuck" on your character, causing NPCs to constantly remark, ''"That spell looks dangerous!"''|confirmed=1}}
+**{{Pc22}} Use the console command <code>player.dispelallspells</code> to remove all temporary effects.
+** If you can turn into a werewolf, it will remove the effect and thus stop the comments.
+**Alternately, going to jail can get rid of this effect, as it dispels any active effects on you that are time-based. Because the Thrall effect is on your character for a certain amount of hours (that never count down), it is dispelled when sent to jail.
+{{Bug|Summoning staves (e.g. Staff of Fire Atronach or [[Skyrim:Sanguine Rose|Sanguine Rose]]) won't work if you have the ''Elemental Potency'' perk.|OSP|1.5}}
+{{Bug|Certain ash piles left from resurrected NPCs may not clean up properly.|OSP|1.9}}
+{{Bug|As a [[Skyrim:Lycanthropy|werewolf]], corpses that you have already devoured can be essentially 'tapped' again with a low level raise dead spell and will grant extra werewolf experience even if you are unable to resurrect them. This effect also applies to animals if you have the werewolf perk ''[[Skyrim:Savage Feeding|Savage Feeding]]''.|confirmed=1}}
+{{Bug|The ''Elemental Potency'' perk causes the Storm Thrall spell to stop raising your Conjuration skill.|USKP}}
+{{Bug|You can cast Soul Trap on dead NPCs to level up your Conjuration skill indefinitely.|USKP|2.0.1}}
+** If you have Unofficial Skyrim Patch 2.0.2 or later, the Soul Trap exploit can be restored [https://www.nexusmods.com/skyrimspecialedition/mods/27700 here].
+{{Bug|As a trainer and a follower, it is possible to receive 'free' Conjuration training from Talvas Fathryon by taking the gold you paid from his inventory.|UDBP|1.0.2}}
+{{Bug|The bodies of the [[Skyrim:Cultist|Cultists]] that initially attack you during [[Skyrim:Dragonborn (quest)|Dragonborn]] may never disappear, even if they are raised and subsequently become ash piles.|UDBP|2.0.1}}
+{{Bug|Ash piles generated after reanimating NPCs who are added to the world already dead do not clean up from the game world the way ash piles generated from living NPCs do.|USKP|2.0.6|The ash pile removal script has been revived and added to the DefaultAshPile1 object. To avoid problems with stack dumps that were caused by the old script, the new version of it will be running an OnReset event so that the ash piles are only deleted when a cell respawns as normal.}}
+{{Bug|Staves and scrolls that reanimate a corpse will allow for the body to remain intact after the spell wears off, allowing the corpse to be reanimated an unlimited number of times. This is unlike reanimation spells, where the body will disintegrate after the spell wears off.|USKP|2.0.9|Reanimated corpses will disintegrate after the spell wears off.}}
+{{Bug|Both the Bound Sword and Bound Dagger magic effect have their skill use multiplier set at 10, as opposed to the other bound weapons that have it set at 1, causing much greater xp gain.|USKP|2.0.9 and 2.1.2 (respectively)}}
+{{Bug|Raise Zombie, Revenant, Dread Zombie, and Dead Thrall don't properly benefit from the Dark Souls perk as they're supposed to.|USLEEP|3.0.2b|The effects that were created never got added to the spells.}}
+{{Bug|The Elemental Fury perk doesn't function correctly on NPCs who have it due to the condition checks being on the magic effects rather than the basic spell entries.|USLEEP|3.0.6}}
+{{Bug|Reanimated Dremora may equip invisible items in their hands if they were placed on the corpse before reanimation took place.|USSEP|4.1.1}}
+{{Bug|Graphical effects for the Bound Bow don't match up with the effects when Mystic Binding is in effect. All other bound weapons have effects that match each other.|USSEP|4.2.5}}
+{{Bug|Conjure Dragon Priest is mistakenly given the MagicSummonShock keyword instead of MagicSummonUndead.|USSEP|4.3.7}}
+{{Bug|If you are a [[Skyrim:Vampirism|vampire]], the Twins Souls perk may fail to take that into account.|OSSEP|1.6.629}}
+
+{{Skyrim Conjuration Effects}}
+{{Skyrim Skills}}

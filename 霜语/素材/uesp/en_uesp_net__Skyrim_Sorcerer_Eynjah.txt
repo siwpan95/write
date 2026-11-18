@@ -1,1 +1,876 @@
-ERR HTTP Error 404: Not Found
+{{Trail|NPCs}}
+In Skyrim, a '''class''' cannot be chosen by the player character, but is instead used by [[Skyrim:NPCs|NPCs]]. There may be some classes that appear identical to each other. The difference between such classes are the [[Skyrim:Services|services]] offered, which are not listed here.
+
+==Skill and Attribute Weights==
+The numbers in the table are the weights assigned by the classes to each [[SR:Skills|skill]] and each [[SR:Attributes|attribute]] (empty cells have a weight of zero).  These weights determine how many of 8 skill points and 10 attribute points per level are added to each value.  Note that 5 points per gained level are always added to [[Skyrim:Health|Health]], ''in addition to'' any health points from the shared set of 10 attribute points; this means NPCs gain 15 attributes per level, in addition to ''approximately'' 8 skill points per level (see below).
+
+Unlike the PC, there is no intrinsic mechanism for an NPC to gain ''perks'' as they level; a stock leveled NPC has the same perks at any level.  This is one of the reasons [[Skyrim:Leveled Lists|leveled lists]] exist.  For example, a [[Skyrim:Bandit|Bandit]] Thug and a Bandit Highwayman are fundamentally the same NPC at levels 9 and 14, respectively (they are both members of the Bandit Archer class, below), but the former has the [[Skyrim:Extra Damage 1.5|Extra Damage 1.5]] perk, while the latter has [[Skyrim:Extra Damage 2|Extra Damage 2]].  Because perks are manually assigned to an NPC independently of its level or class (and hence independently of its skill expertise and attributes), mismatches exist; this is particularly noticeable among [[Skyrim:Followers|followers]].
+
+Class and perks are also not automatically tied to equipment or spells in any way, leading to the same mismatches; while the aforementioned Thug and Highwayman share the same leveled lists for equipment, and their level is used to determine what they have, these lists were assigned manually, not by the class (or [[Skyrim:Races|race]]).  Typically, these mismatches are less obviously unintentional, particularly when an NPC lacks ''any'' equipment, but still sometimes leads to followers carrying weapons they do not know how to use.
+
+===Attribute Weights===
+
+The game ensures attribute points are not lost or gained due to rounding, but it is easy for an NPC's number of attribute points to not be an integer multiple of a weight (for example, Imperial Soldiers have a Stamina weight of 7, but can be level 37).  Attribute points are actually assigned as follows:
+
+#Calculate the total number of points available (10 * (level - 1))
+#Calculate the result for the attribute with the highest weight, rounded down, and subtract that from the total.
+#*In the event of a tie, choose Health over Magicka or Stamina, and Magicka over Stamina.
+#Repeat for the next-highest result, remembering to use the ratio of only the two remaining attributes.
+#Any remaining points go to the last attribute.
+
+This means there is a weighting bias in favor of Stamina over Magicka and Magicka over Health, because Stamina is intrinsically chosen last and gets anything the others lost due to rounding, but Health gets 1/3 of each level's attribute points before assignment.  For example:
+
+*A beggar has weights 1, 1, 1 - all equal.  A beggar at level 8 (70 attribute points, plus 35 mandatory health points) calculates as follows:
+*#Health is assigned 23 points (70/3, rounded down), then adds 35:  Health +58.
+*#Magicka is assigned 23 points ((70-23)/2, rounded down):  Magicka +23.
+*#Stamina is assigned 24 points (70-23-23):  Stamina +24.
+
+===Skill Weights===
+In the "Primary Skills" summary on individual NPC pages, skills with values of 3 or greater are normally emphasized in '''bold''' face, skills with a value of 2 are shown in normal font, and skills with a value of 1 or 0 are not listed.  However, on NPCs with a fixed low level, the displayed skills are adjusted taking into account racial skill bonuses, with only skills greater than 25 being shown.
+
+Unlike with Attributes, an NPC is capable of "losing" or "gaining" skill points due to rounding; a skill gains skill points in accordance with:
+ <code>This Skill Points = round(Total Skill Points * (This Skill Weight / Sum of Skill Weights))</code>
+
+Where Total Skill Points = (Level-1)*8; an NPC's skill points at level 1 are 15 (a game-wide constant) base, then modified by its race.
+
+Note the ''drastic'' difference between NPCs and the PC: for the PC, each [[Skyrim:leveling|level]] takes more skill ranks than the level before did, while NPCs gain a linear (aside from rounding errors) number of skill points per level.  On the other hand, the PC needs less than 8 skill points to level initially (only 4 are needed in the skill the PC's race is best at to level) and that number depends on which skill is being leveled (since the 100th rank in a skill counts for more than the 16th); assuming the PC is leveling as quickly as possible, their skill ranks per level will only ''exceed'' 8 (meaning the NPCs have begun "winning") at level 33.
+
+Because NPCs face the same skill maximum of 100 ranks as the PC, however, and unlike the PC, will ''not'' resort to putting skill points into non-preferential (0 weight, below) skills - the formula above ''always'' holds true - past a certain point, which depends on the NPC's class, they will cease to gain ''any'' skill points per level, and will only gain attributes.  An excellent example of this is [[Skyrim:Arngeir|Arngeir]], who is level 150, but stopped gaining skill points at level 139 (which is when he reached 100 ranks in Enchanting).  In addition, none of his leveled skills ''do'' anything - he has no weapons or armor to smith or enchant (nor would he, if he did have them - NPCs with crafting skills do not automatically craft anything), no potions indicative of his alchemy, no spells to cast with conjuration or restoration (he only has shouts), and no way to use the speech skill.  This is indicative of how the game usually works - there is simply no framework in place allowing NPCs to "automatically" employ their skills, so it has to be assigned manually.  This is why you routinely see NPCs like Arngeir, with magic skills but no spells to cast with them, crafting skills but nothing crafted to show for it (which is why the PC is the only source of smithed gear in the game - NPCs ''never'' carry Fine or better gear), speech without relatively increased money or gear quality (as is found on the PC), etc.
+
+====Mismatch Examples====
+As the table below shows, many physical-combat-oriented classes such as [[Skyrim:Stormcloaks|Stormcloak]] ("Sons of Skyrim") Guards and Soldiers (Class IDs <samp>GuardSonsSkyrim</samp> and <samp>SoldierSonsSkyrimNotGuard</samp> respectively) and [[Skyrim:Orc|Orc]] Warriors (<samp>GuardOrc1H</samp> and <samp>GuardOrc2H</samp>) have no magic skills, yet are weighted toward [[Skyrim:Magicka|Magicka]] as well as [[Skyrim:Health|Health]] as their levels increase, leaving them with stunted [[Skyrim:Stamina|Stamina]].  Consequently, if you keep them in melee range but avoid or [[Skyrim:Block|Block]] (or simply withstand) their swings, they rapidly become less dangerous than they should be, from exhaustion. They are also an unexpectedly good source of unused Magicka to [[Skyrim:Absorb Magicka|Absorb]] from them during the fight.
+
+Numerous NPCs likewise come with gear that is not suited at all to their specializations (e.g. [[Skyrim:Light Armor|Light Armor]] when they should have [[Skyrim:Heavy Armor|Heavy]], or [[Skyrim:One-handed|One-handed]] weapons when they should have [[Skyrim:Two-handed|Two-handed]]). If gear they should prefer is dropped near them, they will not pick it up and switch.  Even using the [[Skyrim:Console|Console]] to give them armor they should like will not make them auto-equip any of it in most cases, due to the game's pre-set Outfits system; they typically must be forced to equip it with <code>[[Skyrim:Console#equipitem|EquipItem]] <var>&lt;BaseID&gt;</var></code>. (This does not apply to long-term followers, who provide inventory access, though you sometimes have to take things away from them to get them to use what you want.)
+
+A more specific example of how the lack of automatic perks and gear can lead to apparent absurdity is provided by the three [[Skyrim:Dawnguard|Dawnguard]] followers that have no maximum level: [[Skyrim:Celann|Celann]], [[Skyrim:Durak|Durak]], and [[Skyrim:Ingjard|Ingjard]], particularly without the [[Skyrim Mod:Unofficial Skyrim Patch|Unofficial Skyrim Patch]].
+
+Ingjard has no perks at all, but is a [[Skyrim:Nord|Nord]] <samp>CombatWarrior2H</samp>, meaning she reaches 100 skill in Two-handed very quickly (at level 36), then stops getting any better at it.  [[Skyrim:Celann|Celann]] is a [[Skyrim:Breton|Breton]] <samp>CombatWarrior1H</samp>, meaning he reaches 100 in the same skill ''much'' slower (level 118), but he has the [[Skyrim:Extra Damage 1.5|Extra Damage 1.5]] perk, meaning he will do the same damage as Ingjard once he reaches skill 80 at level 90, and then continue on to surpass her; in addition, he inexplicably has [[Skyrim:Champion's Stance|Champion's Stance]], letting him power attack more often than she does right from the start, with the same Two-handed weapons he does not have any skill with yet.
+
+Meanwhile, both Celann and Durak have [[Skyrim:Custom Fit|Custom Fit]], even though Celann has ''zero'' skill weight on Light Armor (Durak does have skill weight on Light Armor); ''both'' wear Light Armor stock, so Durak will be drastically more durable if you do not issue Celann new gear, and even if you do give him some heavy armor, he will be at a constant disadvantage.
+
+None of the three has access to any sort of leveled lists for gear, so they will carry the same gear at any level unless you give them something better to carry.
+
+==List of Classes==
+
+{| class="wikitable"
+!rowspan=2|Name
+!rowspan=2|EditorID
+!rowspan=2|[[Skyrim:Form ID|FormID]]
+!colspan=6|[[Skyrim:Combat|Combat]] !!
+!colspan=6|[[Skyrim:Magic|Magic]] !!
+!colspan=6|[[Skyrim:Stealth|Stealth]] !!
+!colspan=3|[[Skyrim:Attributes|Attributes]]
+|-
+! [[Skyrim:Archery|ARC]] !! [[Skyrim:Block|BLO]] !! [[Skyrim:Heavy Armor|HVA]] !! [[Skyrim:One-handed|1HD]] !! [[Skyrim:Smithing|SMI]] !! [[Skyrim:Two-handed|2HD]] !!  !! [[Skyrim:Alteration|ALT]] !! [[Skyrim:Conjuration|CON]] !! [[Skyrim:Destruction|DES]] !! [[Skyrim:Enchanting|ENC]] !! [[Skyrim:Illusion|ILU]] !! [[Skyrim:Restoration|RES]] !!  !! [[Skyrim:Alchemy|ALC]] !! [[Skyrim:Light Armor|LTA]] !! [[Skyrim:Lockpicking|LOC]] !! [[Skyrim:Pickpocket|PIC]] !! [[Skyrim:Sneak|SNK]] !! [[Skyrim:Speech|SPE]] !!  !! [[Skyrim:Health|Hea]] !! [[Skyrim:Magicka|Mag]] !! [[Skyrim:Stamina|Sta]]
+|-
+|{{Anchor|Alik'r Archer}}
+|{{Anchor|EncClassAlikrMissile}}
+|{{ID|0006766c}}
+| 3 || 1 || 1 || 2 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 2 ||  ||  || 2 ||  ||  || 3 ||  || 2
+|-
+|{{Anchor|Alik'r Warrior}}
+|{{Anchor|EncClassAlikrMelee}}
+|{{ID|0006766b}}
+|  || 2 || 1 || 3 ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  || 2 ||  ||  ||  ||  ||  || 3 ||  || 2
+|-
+|{{Anchor|Alik'r Wizard}}
+|{{Anchor|EncClassAlikrWizard}}
+|{{ID|0006766d}}
+|  ||  ||  ||  ||  ||  ||  ||  || 2 || 3 ||  || 2 || 2 ||  ||  || 1 ||  ||  || 1 ||  ||  || 2 || 3 || 
+|-
+|{{Anchor|Apothecary}}
+|{{Anchor|TrainerAlchemyExpert}}
+|{{ID|000e3a6e}}
+|  ||  ||  ||  ||  ||  ||  || 1 ||  ||  ||  ||  ||  ||  || 4 ||  ||  || 2 || 2 || 3 ||  || 1 || 1 || 1
+|-
+|Apothecary
+|{{Anchor|TrainerAlchemyJourneyman}}
+|{{ID|000e3a5d}}
+|  ||  ||  ||  ||  ||  ||  || 1 ||  ||  ||  ||  ||  ||  || 3 ||  ||  || 2 || 2 || 3 ||  || 1 || 1 || 1
+|-
+|Apothecary
+|{{Anchor|VendorApothecary}}
+|{{ID|00013258}}
+|  ||  ||  ||  ||  ||  ||  || 1 ||  ||  ||  ||  ||  ||  || 3 ||  ||  || 2 || 2 || 3 ||  || 1 || 1 || 1
+|-
+|{{Anchor|Ash Guardian}}{{DB}}
+|{{Anchor|DLC2EncClassAshGuardian}}
+|{{ID|xx03cf6a}}
+| || 1 || || 2 || || 1 || || || || 3 || || || || || || || || || 2 || || || 2 || 2 || 2 
+|-
+|{{Anchor|Ash Hopper}}{{DB}}
+| {{Anchor|DLC2EncClassAshHopper}}
+| {{ID|xx020e8a}}
+| 3 || 1 || || 3 || || || || || || || || || || || || || || || 3 || || || 4 || || 2 
+|-
+|{{Anchor|Assassin}}
+|{{Anchor|CombatAssassin}}
+|{{ID|0001317f}}
+| 2 ||  ||  || 3 ||  ||  ||  || 1 ||  ||  ||  ||  ||  ||  ||  || 2 ||  ||  || 3 ||  ||  || 2 || 1 || 3
+|-
+|Assassin
+|{{Anchor|TrainerAlchemyMaster}}
+|{{ID|000e3a67}}
+| 4 ||  ||  || 3 ||  ||  ||  || 1 ||  ||  ||  ||  ||  ||  ||  || 2 ||  ||  || 3 ||  ||  || 2 || 1 || 3
+|-
+|Assassin
+|{{Anchor|TrainerLightArmorMaster}}
+|{{ID|000e3a68}}
+| 2 ||  ||  || 3 ||  ||  ||  || 1 ||  ||  ||  ||  ||  ||  ||  || 4 ||  ||  || 3 ||  ||  || 2 || 1 || 3
+|-
+|{{Anchor|Atronach}}
+|{{Anchor|EncClassAtronachFlame}}
+|{{ID|000ad235}}
+| 2 || 1 ||  || 3 ||  ||  ||  ||  ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  || 2 ||  ||  || 2 || 3 || 1
+|-
+|Atronach
+|{{Anchor|EncClassAtronachFrost}}
+|{{ID|000ad236}}
+| 1 || 3 ||  || 2 ||  ||  ||  ||  ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  || 2 ||  ||  || 3 || 1 || 2
+|-
+|Atronach
+|{{Anchor|EncClassAtronachStorm}}
+|{{ID|000ad237}}
+|  || 1 ||  || 2 ||  || 1 ||  ||  ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  || 2 ||  ||  || 2 || 2 || 2
+|-
+|{{Anchor|Bandit}}
+|{{Anchor|EncClassBanditMelee}}
+|{{ID|0001ce17}}
+|  || 2 || 1 || 3 ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  || 2 ||  ||  ||  ||  ||  || 3 ||  || 2
+|-
+|Bandit{{DB}}
+|{{Anchor|DLC2EncClassBanditBoss}} 
+|{{ID|xx01e8ac}}
+| || || 2 || 3 || || || || 2 || || 3 || || || 1 || || || || || || 1 || || || 3 || 2 || 
+|-
+|{{Anchor|Bandit Archer}}
+|{{Anchor|EncClassBanditMissile}}
+|{{ID|00015be7}}
+| 3 || 1 || 1 || 2 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 2 ||  ||  || 2 ||  ||  || 3 ||  || 2
+|-
+|Bandit Archer{{DB}}
+|{{Anchor|DLC2EncClassRiekling}} 
+|{{ID|xx03bd08}}
+| 3 || 1 || || 1 || || 2 || || || || || || || || || || 2 || || || 2 || || || 3 || || 2 
+|-
+|{{Anchor|Bandit Wizard}}
+|{{Anchor|EncClassBanditWizard}}
+|{{ID|00039d30}}
+|  ||  ||  || 1 ||  ||  ||  || 2 ||  || 3 ||  ||  || 2 ||  ||  || 1 ||  ||  || 2 ||  ||  || 2 || 3 || 
+|-
+|{{Anchor|Barbarian}}
+|{{Anchor|CombatBarbarian}}
+|{{ID|0001ce16}}
+| 2 || 2 ||  || 1 ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  || 3 ||  ||  ||  ||  ||  || 4 ||  || 2
+|-
+! Name !! EditorID !! [[Skyrim:Form ID|FormID]] !! [[Skyrim:Archery|ARC]] !! [[Skyrim:Block|BLO]] !! [[Skyrim:Heavy Armor|HVA]] !! [[Skyrim:One-handed|1HD]] !! [[Skyrim:Smithing|SMI]] !! [[Skyrim:Two-handed|2HD]] !!  !! [[Skyrim:Alteration|ALT]] !! [[Skyrim:Conjuration|CON]] !! [[Skyrim:Destruction|DES]] !! [[Skyrim:Enchanting|ENC]] !! [[Skyrim:Illusion|ILU]] !! [[Skyrim:Restoration|RES]] !!  !! [[Skyrim:Alchemy|ALC]] !! [[Skyrim:Light Armor|LTA]] !! [[Skyrim:Lockpicking|LOC]] !! [[Skyrim:Pickpocket|PIC]] !! [[Skyrim:Sneak|SNK]] !! [[Skyrim:Speech|SPE]] !!  !! [[Skyrim:Health|Hea]] !! [[Skyrim:Magicka|Mag]] !! [[Skyrim:Stamina|Sta]]
+|-
+|{{Anchor|Bard}}
+|Bard
+|{{ID|0001325d}}
+| 1 ||  ||  || 1 ||  ||  ||  || 2 ||  ||  ||  || 2 ||  ||  ||  ||  ||  || 2 ||  || 4 ||  || 2 || 3 || 2
+|-
+|Bard
+|{{Anchor|TrainerSpeechcraftExpert}}
+|{{ID|000e3a70}}
+| 1 ||  ||  || 1 ||  ||  ||  || 2 ||  ||  ||  || 2 ||  ||  ||  ||  ||  || 2 ||  || 4 ||  || 2 || 3 || 2
+|-
+|{{Anchor|Beggar}}
+|Beggar
+|{{ID|0001327b}}
+| 1 || 1 ||  || 1 || 1 ||  ||  || 1 ||  ||  || 1 ||  ||  ||  || 1 ||  || 1 || 3 || 2 || 4 ||  || 1 || 1 || 1
+|-
+|{{Anchor|Blacksmith}}
+|{{Anchor|TrainerHeavyArmorExpert}}
+|{{ID|000e3a60}}
+| 2 || 3 ||  || 3 ||  || 2 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 1 ||  ||  || 2 || 2 || 1
+|-
+|Blacksmith
+|{{Anchor|TrainerHeavyArmorMaster}}
+|{{ID|000e7f45}}
+|  ||  ||  || 2 || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 2 || 1 || 3 ||  || 3 ||  || 3
+|-
+|Blacksmith
+|{{Anchor|TrainerLightArmorExpert}}
+|{{ID|000e3a61}}
+| 2 ||  ||  || 2 || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 3 ||  || 2 || 1 || 3 ||  || 2 || 2 || 1
+|-
+|Blacksmith
+|{{Anchor|TrainerLightArmorJourneyman}}
+|{{ID|000b8340}}
+| 2 ||  ||  || 2 || 2 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 3 ||  || 2 || 1 || 3 ||  || 2 || 2 || 1
+|-
+|Blacksmith
+|{{Anchor|TrainerSmithingExpert}}
+|{{ID|000e3a5f}}
+|  ||  ||  || 2 || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 2 || 1 || 3 ||  || 2 || 2 || 1
+|-
+|Blacksmith
+|{{Anchor|TrainerSmithingJourneyman}}
+|{{ID|000aedd2}}
+|  ||  ||  || 2 || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 2 || 1 || 3 ||  || 2 || 2 || 1
+|-
+|Blacksmith
+|{{Anchor|TrainerSmithingMaster}}
+|{{ID|00042dc1}}
+|  ||  ||  || 2 || 4 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 2 || 1 || 3 ||  || 2 || 2 || 1
+|-
+|Blacksmith
+|{{Anchor|VendorBlacksmith}}
+|{{ID|00013257}}
+|  || 2 ||  || 2 || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 1 || 3 ||  || 2 || 1 || 2
+|-
+|{{Anchor|Blade}}
+|Blade
+|{{ID|00021a74}}
+| 3 || 2 ||  || 2 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 1 ||  ||  || 3 ||  ||  || 3 || 3 || 
+|-
+|{{Anchor|Chaurus}}
+|{{Anchor|EncClassChaurus}}
+|{{ID|00044cca}}
+| 3 || 1 ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 3 ||  ||  || 4 ||  || 2
+|-
+|{{Anchor|ChaurusFlyer}}{{DG}}
+|{{Anchor|DLC1_EncClassChaurusFlyer}}
+|{{ID|xx005206}}
+| 3 || 1 ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 3 ||  ||  || 4 ||  || 2
+|-
+|{{Anchor|Child}}
+|Child
+|{{ID|00013279}}
+|  ||  ||  ||  || 4 ||  ||  ||  ||  ||  || 4 ||  ||  ||  || 4 ||  ||  || 1 || 2 || 1 ||  ||  ||  || 1
+|-
+|{{Anchor|Citizen}}
+|Citizen
+|{{ID|0001326b}}
+| 2 ||  ||  || 2 || 3 ||  ||  ||  ||  ||  || 3 ||  ||  ||  || 3 || 2 ||  ||  || 2 || 2 ||  || 1 || 1 || 1
+|-
+|{{Anchor|Conjurer}}
+|{{Anchor|CombatMageConjurer}}
+|{{ID|0001ce14}}
+|  ||  ||  ||  ||  ||  ||  || 2 || 3 || 2 ||  ||  || 3 ||  ||  ||  ||  ||  || 1 ||  ||  || 2 || 4 || 
+|-
+|Conjurer
+|{{Anchor|CombatMageNecro}}
+|{{ID|000c969f}}
+|  ||  ||  || 2 ||  ||  ||  || 2 || 3 ||  ||  ||  || 3 ||  ||  ||  ||  ||  || 1 ||  ||  || 2 || 4 || 
+|-
+|Conjurer
+|{{Anchor|TrainerConjurationExpert}}
+|{{ID|000e3a78}}
+|  ||  ||  ||  ||  ||  ||  || 2 || 3 || 2 ||  ||  || 3 ||  ||  ||  ||  ||  || 1 ||  ||  || 2 || 4 || 
+|-
+|Conjurer
+|{{Anchor|TrainerConjurationMaster}}
+|{{ID|000e3a6a}}
+|  ||  ||  ||  ||  ||  ||  || 2 || 4 || 2 ||  ||  || 3 ||  ||  ||  ||  ||  || 1 ||  ||  || 2 || 4 || 
+|-
+! Name !! EditorID !! [[Skyrim:Form ID|FormID]] !! [[Skyrim:Archery|ARC]] !! [[Skyrim:Block|BLO]] !! [[Skyrim:Heavy Armor|HVA]] !! [[Skyrim:One-handed|1HD]] !! [[Skyrim:Smithing|SMI]] !! [[Skyrim:Two-handed|2HD]] !!  !! [[Skyrim:Alteration|ALT]] !! [[Skyrim:Conjuration|CON]] !! [[Skyrim:Destruction|DES]] !! [[Skyrim:Enchanting|ENC]] !! [[Skyrim:Illusion|ILU]] !! [[Skyrim:Restoration|RES]] !!  !! [[Skyrim:Alchemy|ALC]] !! [[Skyrim:Light Armor|LTA]] !! [[Skyrim:Lockpicking|LOC]] !! [[Skyrim:Pickpocket|PIC]] !! [[Skyrim:Sneak|SNK]] !! [[Skyrim:Speech|SPE]] !!  !! [[Skyrim:Health|Hea]] !! [[Skyrim:Magicka|Mag]] !! [[Skyrim:Stamina|Sta]]
+|-
+|{{Anchor|Death Hound}}{{DG}}
+|{{Anchor|DLC1EncClassDeathhound}}
+|{{ID|xx0145dc}}
+| 2 || 2 ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 1 ||  ||  || 3 ||  ||  || 4 ||  || 2
+|-
+|{{Anchor|Destruction Mage}}
+|{{Anchor|CombatMageDestruction}}
+|{{ID|0001e7d0}}
+|  ||  ||  ||  ||  ||  ||  || 2 || 1 || 3 ||  ||  || 3 ||  ||  ||  ||  ||  || 2 ||  ||  || 2 || 4 || 
+|-
+|Destruction Mage
+|{{Anchor|TrainerDestructionExpert}}
+|{{ID|000e3a5c}}
+|  ||  ||  ||  ||  ||  ||  || 2 || 1 || 3 ||  ||  || 3 ||  ||  ||  ||  ||  || 2 ||  ||  || 2 || 4 || 
+|-
+|{{Anchor|DLC2Ralis}}
+|{{Anchor|DLC2dunKolbjornRalisClass}} 
+|{{ID|xx0179c6}}
+| || 2 || || 3 || || || || || || || || || || || || 3 || || || 2 || || || 2 || 2 || 1 
+|-
+|{{Anchor|Dragon}}
+|{{Anchor|EncClassDragon}}
+|{{ID|0002f201}}
+| 3 || 3 ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 5 ||  ||  || 4 ||  || 2
+|-
+|{{Anchor|Dragon Priest}}
+|{{Anchor|EncClassDragonPriest}}
+|{{ID|0001ce1c}}
+|  ||  ||  ||  ||  ||  ||  || 3 || 5 || 6 ||  ||  || 5 ||  ||  ||  ||  ||  ||  ||  ||  || 3 || 3 || 
+|-
+|{{Anchor|Draugr Melee}}
+|{{Anchor|EncClassDraugrMelee}}
+|{{ID|00023c0c}}
+|  || 2 || 2 || 3 ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 1 ||  ||  || 3 ||  || 3
+|-
+|{{Anchor|Draugr Missile}}
+|{{Anchor|EncClassDraugrMissile}}
+|{{ID|00023c0d}}
+| 3 ||  || 2 || 3 ||  || 2 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 2 ||  ||  || 3 ||  || 3
+|-
+|{{Anchor|Draugr Warlock}}
+|{{Anchor|EncClassDraugrMagic}}
+|{{ID|00023c0e}}
+|  ||  ||  || 2 ||  ||  ||  ||  || 3 || 3 ||  ||  || 2 ||  ||  ||  ||  ||  || 2 ||  ||  || 3 || 3 || 
+|-
+|{{Anchor|Dremora}}
+|{{Anchor|EncClassDremoraMelee}}
+|{{ID|00017008}}
+|  || 2 || 2 || 3 ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 1 ||  ||  || 3 ||  || 2
+|-
+|{{Anchor|Dwarven Centurion}}
+|{{Anchor|EncClassDwarvenCenturion}}
+|{{ID|00090356}}
+|  || 2 ||  || 3 ||  || 3 ||  ||  ||  || 1 ||  ||  ||  ||  ||  ||  ||  ||  || 2 ||  ||  || 3 ||  || 2
+|-
+|{{Anchor|Dwarven Sphere}}
+|{{Anchor|EncClassDwarvenSphere}}
+|{{ID|00090358}}
+| 3 || 2 ||  || 3 ||  ||  ||  ||  ||  || 1 ||  ||  ||  ||  ||  ||  ||  ||  || 2 ||  ||  || 3 ||  || 2
+|-
+|{{sic|Dwarven Sphere|Dwarven Spider|description=incorrect name}}
+|{{Anchor|EncClassDwarvenSpider}}
+|{{ID|00090359}}
+| 1 || 2 ||  || 3 ||  ||  ||  ||  ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  || 2 ||  ||  || 3 ||  || 2
+|-
+|{{Anchor|EbonyWarrior Class}}{{DB}}
+|{{Anchor|DLC2EbonyWarriorClass}} 
+|{{ID|xx0285c2}}
+| 9 || 9 || 9 || 9 || || || || 6 || 7 || 3 || || || 3 || || || || || || 8 || || || 4 || || 2 
+|-
+|{{Anchor|Enchanter}}{{DB}}
+|{{Anchor|DLC2NelothClassTrainer}} 
+|{{ID|xx017774}}
+| || || || || || || || 2 || 2 || 3 || || || 3 || || || || || || 1 || || || 2 || 4 || 
+|-
+|{{Anchor|Falmer}}
+|{{Anchor|EncClassFalmer}}
+|{{ID|0001ce1e}}
+| 3 || 2 ||  || 3 ||  ||  ||  ||  ||  || 2 ||  ||  ||  ||  ||  ||  ||  ||  || 2 ||  ||  || 3 || 2 || 1
+|-
+|{{Anchor|Falmer Shaman}}
+|{{Anchor|EncClassFalmerShaman}}
+|{{ID|0001ce1f}}
+|  ||  ||  || 1 ||  ||  ||  || 2 || 1 || 3 ||  ||  || 3 ||  ||  ||  ||  ||  || 1 ||  ||  || 2 || 3 || 1
+|-
+|{{Anchor|Farmer}}
+|Farmer
+|{{ID|0001326c}}
+| 2 ||  ||  || 2 || 3 || 2 ||  ||  ||  ||  || 3 ||  ||  ||  || 3 || 1 ||  ||  || 1 || 1 ||  || 1 || 1 || 1
+|-
+|{{Anchor|Fire/Frost/Shock Mage}}
+|{{Anchor|CombatMageElemental}}
+|{{ID|0001317a}}
+|  ||  ||  ||  ||  ||  ||  || 2 || 2 || 3 ||  ||  || 3 ||  ||  ||  ||  ||  || 1 ||  ||  || 2 || 4 || 
+|-
+|Fire/Frost/Shock Mage
+|{{Anchor|TrainerAlterationExpert}}
+|{{ID|000e3a71}}
+|  ||  ||  ||  ||  ||  ||  || 4 || 3 || 3 ||  ||  || 2 ||  ||  ||  ||  ||  || 1 ||  ||  || 2 || 4 || 
+|-
+! Name !! EditorID !! [[Skyrim:Form ID|FormID]] !! [[Skyrim:Archery|ARC]] !! [[Skyrim:Block|BLO]] !! [[Skyrim:Heavy Armor|HVA]] !! [[Skyrim:One-handed|1HD]] !! [[Skyrim:Smithing|SMI]] !! [[Skyrim:Two-handed|2HD]] !!  !! [[Skyrim:Alteration|ALT]] !! [[Skyrim:Conjuration|CON]] !! [[Skyrim:Destruction|DES]] !! [[Skyrim:Enchanting|ENC]] !! [[Skyrim:Illusion|ILU]] !! [[Skyrim:Restoration|RES]] !!  !! [[Skyrim:Alchemy|ALC]] !! [[Skyrim:Light Armor|LTA]] !! [[Skyrim:Lockpicking|LOC]] !! [[Skyrim:Pickpocket|PIC]] !! [[Skyrim:Sneak|SNK]] !! [[Skyrim:Speech|SPE]] !!  !! [[Skyrim:Health|Hea]] !! [[Skyrim:Magicka|Mag]] !! [[Skyrim:Stamina|Sta]]
+|-
+|{{Anchor|Fletcher}}
+|{{Anchor|VendorFletcher}}
+|{{ID|00013259}}
+| 3 ||  ||  ||  || 2 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 1 || 2 || 3 ||  || 1 || 2 || 1
+|-
+|{{Anchor|Food Vendor}}
+|{{Anchor|VendorFood}}
+|{{ID|00013256}}
+|  || 1 ||  || 2 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 3 || 2 || 3 ||  || 1 || 1 || 1
+|-
+|{{Anchor|Forsworn}}
+|{{Anchor|EncClassForsworn}}
+|{{ID|00043bcb}}
+|  ||  ||  || 3 ||  ||  ||  || 1 ||  || 2 ||  ||  || 1 ||  ||  || 2 ||  ||  || 2 ||  ||  || 2 || 2 || 1
+|-
+|{{Anchor|Forsworn Missile}}
+|{{Anchor|EncClassForswornMissile}}
+|{{ID|00043bcd}}
+| 3 ||  ||  || 1 ||  ||  ||  || 2 ||  ||  ||  ||  || 1 ||  ||  || 2 ||  ||  || 2 ||  ||  || 2 || 1 || 2
+|-
+|{{Anchor|Forsworn Shaman}}
+|{{Anchor|EncClassForswornShaman}}
+|{{ID|00043bcc}}
+|  ||  ||  ||  ||  ||  ||  || 1 || 2 || 3 ||  ||  || 2 ||  ||  || 1 ||  ||  || 2 ||  ||  || 2 || 3 || 
+|-
+|{{Anchor|Frea Combat Style}}{{DB}}
+|{{Anchor|DLC2csFrea}}
+|{{ID|xx030cca}}
+| 1 || || || 3 || || || || 3 || || || || || 2 || || || 2 || || || || || || 3 || 1 || 2 
+|-
+|{{Anchor|Frostbite Spider}}
+|{{Anchor|EncClassFrostbiteSpider}}
+|{{ID|00044ccb}}
+| 3 || 2 ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 3 ||  ||  || 3 ||  || 3
+|-
+|{{Anchor|Gargoyle}}{{DG}}
+|{{Anchor|DLC1EncClassGargoyle}}
+|{{ID|xx00d6f6}}
+| 2 || 2 ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 1 ||  ||  || 3 ||  ||  || 4 ||  || 2
+|-
+|{{Anchor|Giant}}
+|{{Anchor|EncClassGiant}}
+|{{ID|000abb44}}
+|  || 2 || 1 || 3 ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  || 2 ||  ||  ||  ||  ||  || 3 ||  || 2
+|-
+|{{Anchor|Guard}}
+|{{Anchor|GuardImperial}}
+|{{ID|000253f2}}
+| 1 || 2 || 2 || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 2 ||  ||  || 2 ||  ||  || 4 ||  || 2
+|-
+|Guard
+|{{Anchor|GuardSonsSkyrim}}
+|{{ID|000253f3}}
+| 1 || 2 || 2 ||  ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  || 2 ||  ||  || 2 ||  ||  || 4 || 2 || 
+|-
+|{{Anchor|Hagraven}}
+|{{Anchor|EncClassHagraven}}
+|{{ID|000a93b3}}
+|  ||  ||  ||  ||  ||  ||  || 2 ||  || 3 ||  ||  || 3 ||  ||  ||  ||  ||  || 3 ||  ||  || 2 || 3 || 
+|-
+|{{Anchor|Haknir Death-Brand}}{{DB}}
+|{{Anchor|DLC2dunHaknirClass}}
+|{{ID|xx037feb}}
+| || || 4 || 5 || || || || || || || || || || || || || || || || || || 3 || || 2 
+|-
+|{{Anchor|Horker}}
+|{{Anchor|EncClassHorker}}
+|{{ID|000edd36}}
+| 3 || 2 ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 3 ||  ||  || 5 ||  || 3
+|-
+|{{Anchor|Horse}}
+|{{Anchor|EncClassHorse}}
+|{{ID|0010f71e}}
+| 3 || 2 ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 3 ||  ||  || 4 ||  || 1
+|-
+|{{Anchor|Ice Wraith}}
+|{{Anchor|EncClassIceWraith}}
+|{{ID|00073f1f}}
+| 2 || 1 ||  || 2 ||  ||  ||  ||  ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  || 2 ||  ||  || 4 ||  || 2
+|-
+|{{Anchor|Imperial Soldier}}
+|{{Anchor|SoldierImperialNotGuard}}
+|{{ID|0001327f}}
+| 3 || 3 || 3 || 3 ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  || 3 ||  ||  ||  ||  ||  || 3 ||  || 7
+|-
+|{{Anchor|Jailor}}
+|Jailor
+|{{ID|0001325e}}
+|  || 2 ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 3 || 2 || 2 || 2 ||  ||  || 3 ||  || 2
+|-
+|{{Anchor|Karstaag}}{{DB}} 
+|{{Anchor|DLC2dunKarstaagClass}} 
+|{{ID|xx028213}}
+| 1 || 5 || 3 || 1 || 1 || 7 || || 1 || 1 || 3 || 1 || 1 || 1 || || 1 || 3 || 1 || 1 || 5 || 1 || || 3 || || 1 
+|-
+|{{Anchor|Katria}}{{DG}}
+|{{Anchor|DLC1EncClassKatria}}
+|{{ID|xx004d0e}}
+| 3 || 1 || 1 || 2 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 2 ||  ||  || 2 ||  ||  || 2 || 1 || 3
+|-
+! Name !! EditorID !! [[Skyrim:Form ID|FormID]] !! [[Skyrim:Archery|ARC]] !! [[Skyrim:Block|BLO]] !! [[Skyrim:Heavy Armor|HVA]] !! [[Skyrim:One-handed|1HD]] !! [[Skyrim:Smithing|SMI]] !! [[Skyrim:Two-handed|2HD]] !!  !! [[Skyrim:Alteration|ALT]] !! [[Skyrim:Conjuration|CON]] !! [[Skyrim:Destruction|DES]] !! [[Skyrim:Enchanting|ENC]] !! [[Skyrim:Illusion|ILU]] !! [[Skyrim:Restoration|RES]] !!  !! [[Skyrim:Alchemy|ALC]] !! [[Skyrim:Light Armor|LTA]] !! [[Skyrim:Lockpicking|LOC]] !! [[Skyrim:Pickpocket|PIC]] !! [[Skyrim:Sneak|SNK]] !! [[Skyrim:Speech|SPE]] !!  !! [[Skyrim:Health|Hea]] !! [[Skyrim:Magicka|Mag]] !! [[Skyrim:Stamina|Sta]]
+|-
+|{{Anchor|Lumberjack}}
+|Lumberjack
+|{{ID|0001326e}}
+| 2 ||  ||  || 2 || 3 || 2 ||  ||  ||  ||  || 3 ||  ||  ||  || 3 || 1 ||  ||  || 1 || 1 ||  || 1 || 1 || 1
+|-
+|{{Anchor|Lurker}}{{DB}} 
+|{{Anchor|DLC2EncClassLurker}}
+|{{ID|xx03183a}}
+| || 2 || 9 || || || || || 1 || || 3 || || || 2 || || || || || || 3 || || || 4 || || 2 
+|-
+|{{Anchor|Mammoth}}
+|{{Anchor|EncClassMammoth}}
+|{{ID|000f2594}}
+| 2 || 3 ||  || 2 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 3 ||  ||  || 4 ||  || 2
+|-
+|{{Anchor|Miner}}
+|Miner
+|{{ID|0001326d}}
+| 2 ||  ||  || 2 || 3 || 2 ||  ||  ||  ||  || 3 ||  ||  ||  || 3 || 1 ||  ||  || 1 || 1 ||  || 1 || 1 || 1
+|-
+|{{Anchor|Miraak}}{{DB}}
+|{{Anchor|DLC2EncClassMiraak}}
+|{{ID|xx023f78}}
+| || 1 || 2 || 2 || || || || 2 || || 2 || || || 2 || || || || || || || 8 || || 3 || 3 || 2 
+|-
+|{{Anchor|Monk}}
+|{{Anchor|CombatMonk}}
+|{{ID|00013182}}
+| 2 ||  ||  || 2 ||  ||  ||  || 2 ||  ||  ||  ||  || 2 ||  ||  || 1 ||  ||  || 2 ||  ||  || 2 || 2 || 2
+|-
+|Monk
+|{{Anchor|TrainerRestorationExpert}}
+|{{ID|000e3a74}}
+|  ||  ||  ||  ||  ||  ||  || 3 || 1 ||  ||  ||  || 3 ||  ||  ||  ||  ||  || 2 ||  ||  || 2 || 3 || 1
+|-
+|{{Anchor|MudCrab}}
+|{{Anchor|EncClassMudCrab}}
+|{{ID|000bb4b0}}
+| 3 || 2 ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 3 ||  ||  || 3 ||  || 3
+|-
+|{{Anchor|Mystic}}
+|{{Anchor|CombatMystic}}
+|{{ID|0001317b}}
+|  ||  ||  ||  ||  ||  ||  || 3 || 2 ||  ||  || 3 || 1 ||  ||  ||  ||  ||  || 2 ||  ||  || 2 || 3 || 1
+|-
+|{{Anchor|Nightblade}}
+|{{Anchor|CombatNightblade}}
+|{{ID|0001317c}}
+|  ||  ||  || 2 ||  ||  ||  || 2 ||  || 3 ||  ||  ||  ||  ||  || 1 ||  ||  || 3 ||  ||  || 2 || 2 || 2
+|-
+|{{Anchor|Nord Hero}}
+|{{Anchor|MQAncientNord}}
+|{{ID|0004fa49}}
+| 2 || 2 ||  || 1 ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  || 3 ||  ||  ||  ||  ||  || 4 ||  || 2
+|-
+|{{Anchor|Orc Warrior}}
+|{{Anchor|GuardOrc1H}}
+|{{ID|0002a477}}
+| 2 || 1 || 3 || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 2 ||  ||  || 4 || 2 || 
+|-
+|Orc Warrior
+|{{Anchor|GuardOrc2H}}
+|{{ID|0010e714}}
+| 2 || 1 || 3 ||  ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 2 ||  ||  || 4 || 2 || 
+|-
+|{{Anchor|Pawnbroker}}
+|{{Anchor|VendorPawnbroker}}
+|{{ID|0001325b}}
+|  ||  ||  || 1 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 2 || 2 || 3 || 3 ||  || 1 || 1 || 1
+|-
+|{{Anchor|Penitus Oculatus}}
+|{{Anchor|EncClassPenitusOculatus}}
+|{{ID|0007d98d}}
+|  || 1 || 2 || 3 ||  ||  ||  ||  ||  || 2 ||  ||  ||  ||  ||  ||  ||  ||  || 1 ||  ||  || 2 || 2 || 2
+|-
+|{{Anchor|Player Spellsword Class}}
+|{{Anchor|AAAPlayerSpellswordClass}}
+|{{ID|0002f202}}
+| 3 || 1 ||  || 2 ||  ||  ||  ||  ||  || 3 ||  ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  || 2 || 2 || 2
+|-
+|{{Anchor|Predator}}
+|{{Anchor|EncClassAnimalPredator}}
+|{{ID|000131e6}}
+| 2 || 3 ||  || 2 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 3 ||  ||  || 3 ||  || 3
+|-
+|Predator
+|{{Anchor|EncClassBear}}
+|{{ID|00106aed}}
+| 2 || 3 ||  || 2 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 3 ||  ||  || 3 ||  || 3
+|-
+|{{Anchor|Prey}}
+|{{Anchor|EncClassAnimalPrey}}
+|{{ID|0001ce1d}}
+| 3 || 2 ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 3 ||  ||  || 3 ||  || 3
+|-
+|{{Anchor|Priest}}
+|Priest
+|{{ID|00013276}}
+|  ||  ||  ||  || 2 ||  ||  ||  || 2 ||  || 1 ||  || 3 ||  || 2 ||  ||  ||  ||  || 3 ||  || 1 ||  || 2
+|-
+! Name !! EditorID !! [[Skyrim:Form ID|FormID]] !! [[Skyrim:Archery|ARC]] !! [[Skyrim:Block|BLO]] !! [[Skyrim:Heavy Armor|HVA]] !! [[Skyrim:One-handed|1HD]] !! [[Skyrim:Smithing|SMI]] !! [[Skyrim:Two-handed|2HD]] !!  !! [[Skyrim:Alteration|ALT]] !! [[Skyrim:Conjuration|CON]] !! [[Skyrim:Destruction|DES]] !! [[Skyrim:Enchanting|ENC]] !! [[Skyrim:Illusion|ILU]] !! [[Skyrim:Restoration|RES]] !!  !! [[Skyrim:Alchemy|ALC]] !! [[Skyrim:Light Armor|LTA]] !! [[Skyrim:Lockpicking|LOC]] !! [[Skyrim:Pickpocket|PIC]] !! [[Skyrim:Sneak|SNK]] !! [[Skyrim:Speech|SPE]] !!  !! [[Skyrim:Health|Hea]] !! [[Skyrim:Magicka|Mag]] !! [[Skyrim:Stamina|Sta]]
+|-
+|Priest
+|{{Anchor|TrainerConjurationJourneyman}}
+|{{ID|000e3a72}}
+|  ||  ||  ||  || 2 ||  ||  ||  || 4 ||  || 2 || 2 || 3 ||  || 2 ||  ||  ||  ||  || 3 ||  || 1 ||  || 2
+|-
+|Priest
+|{{Anchor|TrainerEnchantingMaster}}
+|{{ID|000e3a77}}
+|  ||  ||  ||  || 2 ||  ||  ||  ||  || 2 || 1 ||  || 3 ||  || 2 ||  ||  ||  ||  || 3 ||  || 1 ||  || 2
+|-
+|Priest
+|{{Anchor|TrainerRestorationJourneyman}}
+|{{ID|000c2914}}
+|  ||  ||  ||  || 2 ||  ||  ||  ||  ||  || 2 || 2 || 3 ||  || 2 ||  ||  ||  ||  || 3 ||  || 1 ||  || 2
+|-
+|Priest
+|{{Anchor|TrainerRestorationMaster}}
+|{{ID|000e3a75}}
+|  ||  ||  ||  || 2 ||  ||  ||  ||  ||  || 2 || 2 || 4 ||  || 2 ||  ||  ||  ||  || 3 ||  || 1 ||  || 2
+|-
+|{{Anchor|Prisoner}}
+|Prisoner
+|{{ID|00013263}}
+|  ||  ||  || 1 || 3 ||  ||  ||  ||  ||  || 3 ||  ||  ||  || 3 ||  || 1 || 1 || 1 || 1 ||  || 1 || 1 || 1
+|-
+|{{Anchor|Ranger}}
+|{{Anchor|CombatRanger}}
+|{{ID|00013181}}
+| 3 || 2 ||  || 2 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 3 ||  ||  || 1 ||  ||  || 3 ||  || 3
+|-
+|{{Anchor|Rogue}}
+|{{Anchor|CombatRogue}}
+|{{ID|00013180}}
+| 1 || 2 ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 2 ||  ||  || 3 ||  ||  || 3 ||  || 3
+|-
+|{{Anchor|Scout}}
+|{{Anchor|CombatScout}}
+|{{ID|0001317d}}
+| 3 ||  ||  ||  ||  ||  ||  || 1 ||  ||  ||  ||  || 2 ||  ||  || 2 ||  ||  || 3 ||  ||  || 2 || 2 || 2
+|-
+|Scout
+|{{Anchor|TrainerSneakExpert}}
+|{{ID|000e3a6c}}
+| 3 ||  ||  ||  ||  ||  ||  || 1 ||  ||  ||  ||  || 2 ||  ||  || 2 ||  ||  || 4 ||  ||  || 2 || 2 || 2
+|-
+|{{Anchor|Soldier}}
+|{{Anchor|CWSoldierClass}}
+|{{ID|0010b1d8}}
+| 2 || 2 || 1 || 2 ||  || 2 ||  ||  ||  ||  ||  ||  ||  ||  ||  || 1 ||  ||  ||  ||  ||  || 3 ||  || 7
+|-
+|{{Anchor|Sons of Skyrim Soldier}}
+|{{Anchor|SoldierSonsSkyrimNotGuard}}
+|{{ID|00013280}}
+| 3 || 3 || 3 || 3 ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  || 3 ||  ||  ||  ||  ||  || 1 || 1 || 
+|-
+|{{Anchor|Sorcerer}}
+|{{Anchor|CombatSorcerer}}
+|{{ID|00013179}}
+|  ||  || 2 || 2 ||  ||  ||  ||  ||  || 3 ||  || 3 || 1 ||  ||  ||  ||  ||  ||  ||  ||  || 2 || 3 || 1
+|-
+|Sorcerer
+|{{Anchor|TrainerDestructionJourneyman}}
+|{{ID|000e2fcd}}
+|  ||  ||  ||  ||  ||  ||  || 1 || 1 || 3 ||  || 3 || 1 ||  ||  ||  ||  ||  || 1 ||  ||  || 2 || 4 || 1
+|-
+|Sorcerer
+|{{Anchor|TrainerDestructionMaster}}
+|{{ID|000e3a73}}
+|  ||  || 2 || 2 ||  ||  ||  || 1 ||  || 3 ||  ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  || 3 || 3 || 
+|-
+|Sorcerer
+|{{Anchor|TrainerIllusionExpert}}
+|{{ID|000b812c}}
+|  ||  ||  || 1 ||  ||  ||  || 2 ||  || 3 ||  || 3 ||  ||  ||  ||  ||  ||  || 2 ||  ||  || 2 || 3 || 1
+|-
+|Sorcerer
+|{{Anchor|TrainerIllusionMaster}}
+|{{ID|00042dc6}}
+|  ||  || 2 || 2 ||  ||  ||  ||  ||  || 3 ||  || 4 || 1 ||  ||  ||  ||  ||  ||  ||  ||  || 2 || 3 || 1
+|-
+|Sorcerer{{HF}}
+|{{Anchor|BYOHHousecarlHjaalmarchClass}}
+|{{ID|xx019636}}
+| ||  || 2 || 2 ||  ||  ||  || 2 ||  || 2 || ||  || 2 ||  || ||  ||  ||  ||  ||  ||  || 2 || 2 || 2
+|-
+|{{Anchor|Spell Vendor}}
+|{{Anchor|TrainerAlterationMaster}}
+|{{ID|000e3a69}}
+|  ||  ||  ||  ||  ||  ||  || 4 ||  || 1 ||  || 2 || 1 ||  ||  ||  ||  ||  || 2 || 2 ||  || 1 || 1 || 1
+|-
+|Spell Vendor
+|{{Anchor|TrainerEnchantingExpert}}
+|{{ID|000e3a76}}
+|  ||  ||  ||  ||  ||  ||  || 3 ||  || 1 || 4 || 2 || 1 ||  ||  ||  ||  ||  || 2 || 2 ||  || 1 || 1 || 1
+|-
+|Spell Vendor
+|{{Anchor|VendorSpells}}
+|{{ID|0001325a}}
+|  ||  ||  ||  ||  ||  ||  || 3 ||  || 1 ||  || 2 || 1 ||  ||  ||  ||  ||  || 2 || 2 ||  || 1 || 1 || 1
+|-
+! Name !! EditorID !! [[Skyrim:Form ID|FormID]] !! [[Skyrim:Archery|ARC]] !! [[Skyrim:Block|BLO]] !! [[Skyrim:Heavy Armor|HVA]] !! [[Skyrim:One-handed|1HD]] !! [[Skyrim:Smithing|SMI]] !! [[Skyrim:Two-handed|2HD]] !!  !! [[Skyrim:Alteration|ALT]] !! [[Skyrim:Conjuration|CON]] !! [[Skyrim:Destruction|DES]] !! [[Skyrim:Enchanting|ENC]] !! [[Skyrim:Illusion|ILU]] !! [[Skyrim:Restoration|RES]] !!  !! [[Skyrim:Alchemy|ALC]] !! [[Skyrim:Light Armor|LTA]] !! [[Skyrim:Lockpicking|LOC]] !! [[Skyrim:Pickpocket|PIC]] !! [[Skyrim:Sneak|SNK]] !! [[Skyrim:Speech|SPE]] !!  !! [[Skyrim:Health|Hea]] !! [[Skyrim:Magicka|Mag]] !! [[Skyrim:Stamina|Sta]]
+|-
+|{{Anchor|Spellsword}}
+|{{Anchor|CombatSpellsword}}
+|{{ID|00013177}}
+|  ||  || 3 || 3 ||  ||  ||  ||  ||  || 3 ||  ||  || 2 ||  ||  ||  ||  ||  ||  ||  ||  || 2 || 2 || 2
+|-
+|Spellsword
+|{{Anchor|NPCclassBelrand}}
+|{{ID|0010f7f9}}
+|  ||  ||  || 3 ||  ||  ||  ||  ||  || 3 ||  ||  || 2 ||  ||  || 3 ||  ||  ||  ||  ||  || 2 || 2 || 2
+|-
+|{{Anchor|Spellsword}}{{DB}}
+|{{Anchor|DLC2NPCClassTeldryn}}
+|{{ID|xx038561}}
+| || || || 3 || || || || || 2 || 3 || || || 1 || || || 3 || || || || || || 2 || 2 || 2 
+|-
+|{{Anchor|Tailor}}
+|{{Anchor|VendorTailor}}
+|{{ID|00013270}}
+|  ||  ||  ||  || 2 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 1 ||  || 2 || 3 || 3 ||  || 1 || 1 || 1
+|-
+|{{Anchor|Thalmor Archer}}
+|{{Anchor|EncClassThalmorMissile}}
+|{{ID|00072891}}
+| 3 ||  ||  || 1 ||  ||  ||  ||  ||  ||  ||  ||  || 1 ||  ||  || 2 ||  ||  || 2 ||  ||  || 2 || 1 || 2
+|-
+|{{Anchor|Thalmor Warrior}}
+|{{Anchor|EncClassThalmorMelee}}
+|{{ID|0007289d}}
+|  || 2 ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  || 1 ||  ||  || 2 ||  ||  || 1 ||  ||  || 2 || 1 || 2
+|-
+|{{Anchor|Thalmor Wizard}}
+|{{Anchor|EncClassThalmorWizard}}
+|{{ID|00072887}}
+|  ||  ||  ||  ||  ||  ||  || 1 || 3 || 3 ||  ||  || 1 ||  ||  ||  ||  ||  || 1 ||  ||  || 2 || 3 || 
+|-
+|{{Anchor|Thief}}
+|{{Anchor|CombatThief}}
+|{{ID|0001317e}}
+| 2 || 1 ||  || 2 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 3 ||  ||  || 3 ||  ||  || 2 ||  || 4
+|-
+|Thief
+|{{Anchor|TrainerLockpickMaster}}
+|{{ID|000e3a65}}
+| 2 || 1 ||  || 2 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 3 || 4 ||  || 3 ||  ||  || 2 ||  || 4
+|-
+|Thief
+|{{Anchor|TrainerMarksmanExpert}}
+|{{ID|00042dc2}}
+| 4 || 1 ||  || 2 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 3 ||  ||  || 3 || 2 ||  || 2 ||  || 4
+|-
+|Thief
+|{{Anchor|TrainerMarksmanJourneyman}}
+|{{ID|0010fc39}}
+| 4 || 1 ||  || 2 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 3 ||  ||  || 3 || 2 ||  || 2 ||  || 4
+|-
+|Thief
+|{{Anchor|TrainerMarksmanMaster}}
+|{{ID|000e3a66}}
+| 4 || 1 ||  || 2 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 3 ||  ||  || 3 || 2 ||  || 2 ||  || 4
+|-
+|Thief
+|{{Anchor|TrainerPickpocketExpert}}
+|{{ID|000c6fb6}}
+| 2 || 1 ||  || 2 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 3 ||  || 3 || 3 ||  ||  || 2 ||  || 4
+|-
+|Thief
+|{{Anchor|TrainerPickpocketMaster}}
+|{{ID|000e3a62}}
+| 2 || 1 ||  || 2 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 3 ||  ||  || 3 ||  ||  || 2 ||  || 4
+|-
+|Thief
+|{{Anchor|TrainerSneakMaster}}
+|{{ID|000e3a63}}
+| 2 || 1 ||  || 2 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 3 ||  ||  || 3 ||  ||  || 2 ||  || 4
+|-
+|Thief
+|{{Anchor|TrainerSpeechcraftMaster}}
+|{{ID|000e3a64}}
+| 2 || 1 ||  || 2 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 3 ||  ||  || 3 || 4 ||  || 2 ||  || 4
+|-
+|{{Anchor|Vampire}}
+|{{Anchor|EncClassVampire}}
+|{{ID|0002e00f}}
+|  ||  ||  || 2 ||  ||  ||  || 1 || 2 || 1 ||  ||  ||  ||  ||  || 2 ||  ||  || 3 ||  ||  || 2 || 2 || 1
+|-
+|{{Anchor|Vigilant}}
+|{{Anchor|Vigilant1hMeleeClass}}
+|{{ID|0010bfef}}
+|  || 2 || 2 || 2 ||  ||  ||  || 2 ||  ||  ||  ||  || 2 ||  ||  || 2 ||  ||  || 1 ||  ||  || 3 || 1 || 2
+|-
+|Vigilant
+|{{Anchor|Vigilant2hMeleeClass}}
+|{{ID|0010bff0}}
+|  || 3 || 3 ||  ||  || 3 ||  || 1 ||  ||  ||  ||  ||  ||  ||  || 2 ||  ||  || 1 ||  ||  || 3 || 1 || 2
+|-
+|{{Anchor|Vyrthur}}{{DG}}
+|{{Anchor|DLC1CClassVyrthur}}
+|{{ID|xx0126b3}}
+|  ||  ||  || 1 ||  ||  ||  ||  || 2 || 3 ||  ||  ||  ||  ||  || 2 ||  ||  || 3 ||  ||  || 3 || 3 || 
+|-
+! Name !! EditorID !! [[Skyrim:Form ID|FormID]] !! [[Skyrim:Archery|ARC]] !! [[Skyrim:Block|BLO]] !! [[Skyrim:Heavy Armor|HVA]] !! [[Skyrim:One-handed|1HD]] !! [[Skyrim:Smithing|SMI]] !! [[Skyrim:Two-handed|2HD]] !!  !! [[Skyrim:Alteration|ALT]] !! [[Skyrim:Conjuration|CON]] !! [[Skyrim:Destruction|DES]] !! [[Skyrim:Enchanting|ENC]] !! [[Skyrim:Illusion|ILU]] !! [[Skyrim:Restoration|RES]] !!  !! [[Skyrim:Alchemy|ALC]] !! [[Skyrim:Light Armor|LTA]] !! [[Skyrim:Lockpicking|LOC]] !! [[Skyrim:Pickpocket|PIC]] !! [[Skyrim:Sneak|SNK]] !! [[Skyrim:Speech|SPE]] !!  !! [[Skyrim:Health|Hea]] !! [[Skyrim:Magicka|Mag]] !! [[Skyrim:Stamina|Sta]]
+|-
+|{{Anchor|Warrior}}
+|{{Anchor|CombatNightingale}}
+|{{ID|000fb0da}}
+| 3 ||  ||  || 3 ||  ||  ||  ||  ||  || 2 ||  ||  ||  ||  ||  || 1 ||  ||  || 2 ||  ||  || 4 ||  || 2
+|-
+|Warrior
+|{{Anchor|CombatWarrior1H}}
+|{{ID|00013176}}
+| 2 || 2 || 3 || 3 ||  || 1 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 4 ||  || 2
+|-
+|Warrior
+|{{Anchor|CombatWarrior2H}}
+|{{ID|0001ce15}}
+| 2 || 2 || 3 || 1 ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 4 ||  || 2
+|-
+|Warrior
+|{{Anchor|TrainerBlockExpert}}
+|{{ID|00042dc7}}
+|  || 3 ||  || 3 || 1 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 2 || 1 || 3 ||  || 2 || 2 || 1
+|-
+|Warrior
+|{{Anchor|TrainerBlockMaster}}
+|{{ID|000b5fb4}}
+| 1 || 3 || 2 || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 2 ||  ||  || 4 || 2 || 1
+|-
+|Warrior
+|{{Anchor|TrainerLockpickExpert}}
+|{{ID|000e3a6b}}
+| 2 || 2 || 3 || 3 ||  || 1 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 4 ||  ||  ||  ||  || 4 ||  || 2
+|-
+|Warrior
+|{{Anchor|TrainerOneHandedExpert}}
+|{{ID|00042dc3}}
+| 2 || 2 || 3 || 3 ||  || 1 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 4 ||  || 2
+|-
+|Warrior
+|{{Anchor|TrainerOneHandedJourneyman}}
+|{{ID|000e3a5e}}
+| 2 || 2 || 3 || 3 ||  || 1 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 4 ||  || 2
+|-
+|Warrior
+|{{Anchor|TrainerOneHandedMaster}}
+|{{ID|000b5fb5}}
+|  || 2 || 3 || 3 ||  || 1 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 2 ||  ||  || 4 ||  || 2
+|-
+|Warrior
+|{{Anchor|TrainerSneakJourneyman}}
+|{{ID|000e3a6d}}
+| 2 || 2 || 3 || 3 ||  || 1 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 3 ||  ||  || 4 ||  || 2
+|-
+|Warrior
+|{{Anchor|TrainerSpeechcraftJourneyman}}
+|{{ID|000e3a6f}}
+| 2 || 2 || 3 || 3 ||  || 1 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 3 ||  || 4 ||  || 2
+|-
+|Warrior
+|{{Anchor|TrainerTwoHandedExpert}}
+|{{ID|00042dc5}}
+| 2 || 2 || 3 || 1 ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 4 ||  || 2
+|-
+|Warrior
+|{{Anchor|TrainerTwoHandedMaster}}
+|{{ID|00042dc4}}
+| 2 || 2 || 3 || 1 ||  || 4 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 4 ||  || 2
+|-
+|Warrior{{DB}}
+|{{Anchor|dlc2DBAncientDragonbornClass}}
+|{{ID|xx0265af}}
+| || 2 || 3 || 3 || || 3 || || || 9 || || || || || || || || || || 1 || || || 4 || 2 || 3
+|-
+|Warrior{{CC|Ghosts of the Tribunal}}
+|{{Anchor|ccASVSSE001_BladeBinder}}
+|{{ID|xx052276}}
+| || || || 3 || || || || || 3 || 2 || || || || || || 1 || || || 2 || || || 2 || 2 || 2
+|-
+|{{Anchor|Werewolf}}
+|{{Anchor|EncClassWerewolf}}
+|{{ID|000a1993}}
+| 2 || 2 ||  || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 1 ||  ||  || 3 ||  ||  || 3 ||  || 3
+|-
+|Werewolf
+|{{Anchor|EncClassWerewolfBoss}}
+|{{ID|000a1995}}
+| 1 || 2 || 2 || 3 ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  ||  || 3 ||  ||  || 3 ||  || 3
+|-
+|Werewolf
+|{{Anchor|EncClassWerewolfMage}}
+|{{ID|000a1994}}
+|  || 2 ||  || 3 ||  ||  ||  ||  ||  || 2 ||  ||  ||  ||  ||  ||  ||  ||  || 3 ||  ||  || 3 || 3 || 
+|-
+|{{Anchor|Witchblade}}
+|{{Anchor|CombatWitchblade}}
+|{{ID|00013178}}
+|  || 2 ||  || 3 ||  ||  ||  ||  ||  || 3 ||  || 2 || 1 ||  ||  ||  ||  ||  ||  ||  ||  || 3 || 3 || 
+|-
+! Name !! EditorID !! [[Skyrim:Form ID|FormID]] !! [[Skyrim:Archery|ARC]] !! [[Skyrim:Block|BLO]] !! [[Skyrim:Heavy Armor|HVA]] !! [[Skyrim:One-handed|1HD]] !! [[Skyrim:Smithing|SMI]] !! [[Skyrim:Two-handed|2HD]] !!  !! [[Skyrim:Alteration|ALT]] !! [[Skyrim:Conjuration|CON]] !! [[Skyrim:Destruction|DES]] !! [[Skyrim:Enchanting|ENC]] !! [[Skyrim:Illusion|ILU]] !! [[Skyrim:Restoration|RES]] !!  !! [[Skyrim:Alchemy|ALC]] !! [[Skyrim:Light Armor|LTA]] !! [[Skyrim:Lockpicking|LOC]] !! [[Skyrim:Pickpocket|PIC]] !! [[Skyrim:Sneak|SNK]] !! [[Skyrim:Speech|SPE]] !!  !! [[Skyrim:Health|Hea]] !! [[Skyrim:Magicka|Mag]] !! [[Skyrim:Stamina|Sta]]
+|}

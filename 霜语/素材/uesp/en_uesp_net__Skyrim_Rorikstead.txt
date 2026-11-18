@@ -1,0 +1,43 @@
+{{Place Summary
+|type=Town
+|marker_id=Town
+|locationcode=RoriksteadExterior01
+|region=Whiterun Hold
+|location=West of [[Skyrim:Whiterun|Whiterun]]<br>Northeast of [[Skyrim:Serpent's Bluff Redoubt|Serpent's Bluff Redoubt]]
+|tanning=1
+|stone=2
+|image=SR-place-Rorikstead.jpg
+|imgdesc=Rorikstead
+|description=a farming [[Skyrim:Towns|town]] in western [[Skyrim:Whiterun Hold|Whiterun Hold]].
+}}
+The town is named after the noble [[Skyrim:Rorik|Rorik]], who owns a local "[[Skyrim:Rorik's Manor|manor]]". Despite its living namesake, Rorikstead is mentioned in two much older accounts: The [[Lore:Merethic Era|Merethic]] or [[Lore:First Era|First Era]] text ''[[Skyrim:Holdings of Jarl Gjalund|Holdings of Jarl Gjalund]]'' (as "Rorik's Steading") and the [[Lore:Second Era|Second Era]] text ''[[Skyrim:Atlas of Dragons|Atlas of Dragons]]''. It is also mentioned in the bard's song ''[[Skyrim:Songs of Skyrim|Ragnar the Red]]'' as "ole Rorikstead", which may indicate the current town is named after an ancient predecessor. The town contains several crop fields, and the residents claim not to have had a bad harvest in years.
+
+{{NewLeft}}
+==[[Skyrim:Rorikstead People|Rorikstead Residents]]==
+{{Skyrim:Rorikstead People}}
+
+==Related Quests==
+===Quests Starting Here===
+====[[Skyrim:Miscellaneous Quests|Miscellaneous Quests]]====
+{{Skyrim:Miscellaneous Quests/Rorikstead}}
+
+===Other Quests===
+====[[Skyrim:Daedric Quests|Daedric]]====
+* {{Quest Link|A Night To Remember}}
+
+====[[Skyrim:Side Quests|Side Quests]]====
+* {{Quest Link|In My Time Of Need}}
+* {{Quest Link|Pets of Skyrim (quest)}}
+
+==Notes==
+* With ''[[Skyrim:Hearthfire|Hearthfire]]'' installed, you can use the grain mills here to make [[Skyrim:Sack of Flour|flour]].
+* With the [[Skyrim:Farming|Farming]] Creation, [[Skyrim:Goldenhills Plantation|Goldenhills Plantation]] is southeast of here.
+* Atop the hill north of the town is a [[Skyrim:Shrine of Akatosh|shrine of Akatosh]] featuring a [[Skyrim:Dragon Scales|dragon scale]] and a copy of the book ''[[Skyrim:Kolb & the Dragon|Kolb & the Dragon]]''. This is the only place where you can obtain a dragon scale prior to completing the quest [[Skyrim:Dragon Rising|Dragon Rising]].
+* After the quest Dragon Rising, you are likely to encounter a [[Skyrim:Dragon|dragon]] attacking Rorikstead. Fittingly, [[Skyrim:Guards|guards]] in [[Skyrim:Whiterun|Whiterun]] will [[Skyrim:Guard Dialogue#Town-Specific|mention]] how Rorikstead is usually a calm place but is vulnerable to a dragon attack. Throughout most of the game, this encounter is likely to be with a random unnamed dragon; however, the named dragon [[Skyrim:Nahagliiv|Nahagliiv]] is buried in a [[Skyrim:Dragon Mounds#Rorikstead Resurrection|dragon mound]] not far west of the town and will be resurrected by [[Skyrim:Alduin|Alduin]] during the quest [[Skyrim:Alduin's Wall|Alduin's Wall]].{{vn|Do the game mechanics have a special heightened ratio of dragon attacks for Rorikstead?}}
+* During [[Skyrim:Diplomatic Immunity|Diplomatic Immunity]], one of the guests in the [[Skyrim:Thalmor Embassy|Thalmor Embassy]] may say ''"Have you visited Rorikstead lately? No matter how harsh the winter, the crops that grow there never falter. Even when every other farm in the hold is barely scraping by, the harvest at Rorikstead is always bountiful. Is it good fortune? The blessings of the Divines? Who knows?"''
+* [[Skyrim:Lokir|Lokir]], one of the NPCs in the carriage during the quest [[Skyrim:Unbound|Unbound]], states he is from Rorikstead, but he has no residence and is not mentioned by anyone in town.
+
+==Bugs==
+{{Bug|None of the livestock animals here are owned, allowing you to kill them without any crime penalties at all.|USSEP|4.2.9}}
+
+{{Skyrim Settlements}}

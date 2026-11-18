@@ -1,0 +1,79 @@
+{{Trail|Places|nocat=Y}} [[File:SR-word wall-Ancient's Ascent.jpg|thumb|right|The word wall at Ancient's Ascent]] __NOTOC__
+A '''word wall''' is a wall etched with a set of words in the [[Lore:Dragon Language|Dragon Language]].  Multiple word walls can be found in various locations throughout Skyrim.
+
+On each word wall one of these words may be highlighted.  A highlighted word is a [[Skyrim:Word of Power|word of power]], that allows you to unlock one word in one of the [[SR:Dragon Shouts|Dragon Shouts]]. Once you have found a word of power you must absorb a [[Skyrim:Dragon|Dragon]] soul to use the associated Dragon Shout.
+
+{{FMI|Word Walls}}
+{| id="toc" class="toc vtop noprint" style="margin:0 auto"
+! colspan=4 style="text-align:center;" | Contents
+|-
+| style="padding:0.5em 1em;" | [[#Animal Allegiance|Animal Allegiance]]<br>[[#Aura Whisper|Aura Whisper]]<br>[[#Battle Fury| Battle Fury]]{{DB}}<br>[[#Become Ethereal|Become Ethereal]]<br>[[#Bend Will| Bend Will]]{{DB}}<br>[[#Call Dragon|Call Dragon]]<br>[[#Call of Valor|Call of Valor]]
+| style="padding:0.5em 1em;" | [[#Clear Skies|Clear Skies]]<br>[[#Cyclone| Cyclone]]{{DB}}<br>[[#Disarm|Disarm]]<br>[[#Dismay|Dismay]]<br>[[#Dragonrend|Dragonrend]]<br>[[#Dragon Aspect| Dragon Aspect]]{{DB}}<br>[[#Drain Vitality|Drain Vitality]]{{DG}}
+| style="padding:0.5em 1em;" | [[#Elemental Fury|Elemental Fury]]<br>[[#Fire Breath|Fire Breath]]<br>[[#Frost Breath|Frost Breath]]<br>[[#Ice Form|Ice Form]]<br>[[#Kyne's Peace|Kyne's Peace]]<br>[[#Marked for Death|Marked for Death]]<br>[[#Slow Time|Slow Time]]
+| style="padding:0.5em 1em;" | [[#Soul Tear|Soul Tear]]{{DG}}<br>[[#Storm Call|Storm Call]]<br>[[#Summon Durnehviir|Summon Durnehviir]]{{DG}}<br>[[#Throw Voice|Throw Voice]]<br>[[#Unrelenting Force|Unrelenting Force]]<br>[[#Whirlwind Sprint|Whirlwind Sprint]]
+|}
+{{NewLeft}}
+
+==Locations==
+
+Most of the word walls are located in [[Skyrim:Dragon Lairs|Dragon Lairs]] and [[Skyrim:Nordic Ruins|Nordic Ruins]]. There are two quests that help you discover new word walls:
+{{#define:radiantlinks|false}}
+*{{Quest Link|The Words of Power}}
+*{{Quest Link|Shout - learn about word wall}}
+You can only obtain one location at a time from each method, but you can use both methods at once. Neither source will ever direct you to a location that is potentially quest-locked (even if the quest is active), or to locations that are missing from their list ([[Skyrim:Frostmere Crypt|Frostmere Crypt]] and [[Skyrim:Shalidor's Maze|Shalidor's Maze]]).
+
+==Word Wall Translations==
+The text shown on the word wall depends on how many words you've learned for that shout. For example, if you have already learned the first word in the shout [[Skyrim:Aura Whisper|Aura Whisper]] in [[Skyrim:Volunruud|Volunruud]], then if you visit either [[Skyrim:Northwind Summit|Northwind Summit]] or [[Skyrim:Valthume|Valthume]], the word wall will be for the second word. This means that the word wall's text changes, depending on which Word(s) you've already learned; the two exceptions are [[Skyrim:Throw Voice|Throw Voice]] ([[Skyrim:Shearpoint|Shearpoint]]) and [[Skyrim:Unrelenting Force|Unrelenting Force]] ([[Skyrim:Bleak Falls Barrow (place)|Bleak Falls Barrow]]).
+
+{|class=wikitable style="text-align:center"
+!rowspan=2|Thu'um !! Word Wall !!rowspan=2|Translation
+|-
+! Transliteration
+{{WordWallExt|Animal Allegiance}}
+{{WordWallExt|Aura Whisper}}
+{{WordWallExt|Battle Fury}}
+{{WordWallExt|Become Ethereal}}
+{{WordWallExt|Bend Will}}
+{{WordWallExt|Call Dragon}}
+{{WordWallExt|Call of Valor}}
+{{WordWallExt|Clear Skies}}
+{{WordWallExt|Cyclone}}
+{{WordWallExt|Disarm}}
+{{WordWallExt|Dismay}}
+{{WordWallExt|Dragonrend}}
+{{WordWallExt|Dragon Aspect}}
+{{WordWallExt|Drain Vitality}}
+{{WordWallExt|Elemental Fury}}
+{{WordWallExt|Fire Breath}}
+{{WordWallExt|Frost Breath}}
+{{WordWallExt|Ice Form}}
+{{WordWallExt|Kyne's Peace}}
+{{WordWallExt|Marked for Death}}
+{{WordWallExt|Slow Time}}
+{{WordWallExt|Soul Tear}}
+{{WordWallExt|Storm Call}}
+{{WordWallExt|Summon Durnehviir}}
+{{WordWallExt|Throw Voice}}
+{{WordWallExt|Unrelenting Force}}
+{{WordWallExt|Whirlwind Sprint}}
+|}
+
+== Gallery ==
+<gallery>
+File:SR-place-Eldersblood Peak.jpg|A word wall in Skyrim
+File:SR-place-Broken Word Wall.jpg|The broken word wall at the Throat of the World
+File:SR-word_wall-Apocrypha.jpg|A word wall in Apocrypha
+File:SR-place-Forgotten Vale Word Wall.jpg|The word wall in the Forgotten Vale
+File:SR-word wall-Soul Cairn.jpg|The word wall in the Soul Cairn
+</gallery>
+
+==Notes==
+* The choral part of the "Word Learned" sound effect is considered to be music and will not be heard if your music volume is set to zero.
+* There are two ruined word walls that you are unable to learn from; one in [[Skyrim:Sovngarde (place)|Sovngarde]] and one in the [[Skyrim:Soul Cairn|Soul Cairn]].{{DG}}
+* The "word wall" for Drain Vitality located in the Forgotten Vale is not a traditional ancient Nordic structure, but rather a large boulder with a single word carved into it.{{DG}}
+
+== Bugs ==
+{{Bug|Occasionally, when you approach a word wall from which you had previously learned a word, you will hear the chanting and sizzling sound that you normally hear from a word wall you've never visited.|confirmed=1}}
+[[Category:Skyrim-Places]]
+
+{{Stub|Place}}

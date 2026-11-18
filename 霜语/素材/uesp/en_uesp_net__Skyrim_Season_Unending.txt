@@ -1,0 +1,411 @@
+<noinclude>{{Cleanup-srqrp
+|writtenBy=Nephele
+|checkedBy=
+|reward=Secunda
+|rewardChecked=
+}}</noinclude>{{Quest Header
+|type=Main Quest
+|Giver=[[Skyrim:Balgruuf the Greater|Jarl Balgruuf the Greater]] or [[Skyrim:Vignar Gray-Mane|Vignar Gray-Mane]]
+|Reward=[[Skyrim:Call Dragon|Call Dragon Shout]]
+|Prev=[[Skyrim:Alduin's Bane|Alduin's Bane]]
+|Disp=
+|Rep=
+|Conc=[[Skyrim:The Fallen|The Fallen]], [[Skyrim:Paarthurnax (quest)|Paarthurnax]]
+|Loc=[[Skyrim:Solitude|Solitude]], [[Skyrim:Windhelm|Windhelm]], [[Skyrim:High Hrothgar|High Hrothgar]]
+|Image=SR-quest-Season Unending.jpg
+|ImgDesc=The participants arrive at the truce negotiations
+|description=Enforce a ceasefire to secure [[Skyrim:Dragonsreach|Dragonsreach]].
+|ID=MQ302
+|Icon=SR-qico-Main.png
+}}
+
+==Quick Walkthrough==
+#Convince all parties to attend a truce negotiation
+#*Talk to [[Skyrim:Arngeir|Arngeir]] to get the [[Skyrim:Greybeards|Greybeards]] to host the negotiations at [[Skyrim:High Hrothgar|High Hrothgar]].
+#*Talk to both [[Skyrim:General Tullius|General Tullius]] in [[Skyrim:Solitude|Solitude]] and [[Skyrim:Ulfric Stormcloak|Ulfric Stormcloak]] in [[Skyrim:Windhelm|Windhelm]] to get them to attend.
+#Return to High Hrothgar for the negotiations.
+#Take your seat at the negotiating table.
+#Negotiate the treaty.
+#*Make a series of decisions about the terms of the truce.
+
+==Detailed Walkthrough==
+===Triggering the Quest===
+This quest starts early in the concurrent quest, [[Skyrim:The Fallen|The Fallen]], but only if the [[Skyrim:Jarl|Jarl]] of [[Skyrim:Whiterun|Whiterun]] ([[Skyrim:Balgruuf the Greater|Balgruuf]] or [[Skyrim:Vignar Gray-Mane|Vignar]]) insists that a truce must be negotiated before allowing [[Skyrim:Dragonsreach|Dragonsreach]] to be used to capture a dragon. If either side of the [[Skyrim:Civil War|Civil War]] controls at least eight of the nine holds of Skyrim, a truce can no longer be negotiated, and this quest will automatically be bypassed.
+
+If you wish to receive a reward for completing this quest, you must have joined either the [[Skyrim:Imperial Legion|Imperial Legion]] or the [[Skyrim:Stormcloaks|Stormcloaks]].  Furthermore, it is best to do this quest soon after choosing a side in the civil war.  As you complete more of the [[Skyrim:Reunification of Skyrim|Reunification of Skyrim]] or [[Skyrim:Liberation of Skyrim|Liberation of Skyrim]] quests, it becomes more and more difficult to negotiate a treaty that favors your faction and thus elicit a reward.
+
+===Organizing a Peace Council===
+{| cellpadding="5" cellspacing="5" style="width:40%; float:right; border: dotted 1px black; margin-left:5px; clear:right;"
+|{{Showhide|'''Dialogue Excerpts: Organizing the Council'''
+|Arngeir, on his reluctance to host a peace council:
+:''You misunderstand our authority. The Greybeards have never involved themselves in political affairs.''
+Arngeir, explaining his change of mind:
+:''Paarthurnax has made the decision to help you. This is the road we have to walk. Even the Greybeards must bend to the winds of change, it seems. So be it. Tell Ulfric and General Tullius that the Greybeards wish to speak to them. We will see if they still remember us.''
+Ulfric Stormcloak's initial response to the Greybeards' message:
+:''I have the greatest respect for the Greybeards, of course. And the dragon attacks are a growing plague. But the political situation is still delicate. Not all the Jarls are fully committed to supporting me as High King.  I can't afford to appear weak. I can't agree to this unless Tullius himself will be there.''
+Tullius' initial response, specifically when warned about the dragon menace:
+:''They are getting to be a problem. But I wasn't sent to Skyrim to fight dragons. My job is to quell this rebellion, and I intend to do just that, dragons or no dragons.''
+Tullius' explanation for why he does not have enough reinforcements (only heard if you go to Tullius first, are not allied with the Stormcloaks, and do not try to persuade him):
+:''Most of the Legion is tied down on the border with the Aldmeri Dominion. The Emperor can't afford to risk weakening Cyrodiil's defenses. From the Imperial City, our war here is just a sideshow. An interlude before the main event against the Thalmor resumes.''
+}}
+|}
+This is good time to make a hard save to shuffle the randomized holds to trade later on, if they were not the ones you wanted. The [[Skyrim:Greybeards|Greybeards]] are the only group who command enough respect to broker a truce in the civil war.  Therefore your first task is to travel to [[Skyrim:High Hrothgar|High Hrothgar]] and convince [[Skyrim:Arngeir|Arngeir]] that you need his help to stop the war.  He is initially reluctant, but the fact that a peace council is necessary to defeat Alduin changes his mind.
+
+You then need to convince both [[Skyrim:Ulfric Stormcloak|Ulfric]] (at the [[Skyrim:Palace of the Kings|Palace of the Kings]] in [[Skyrim:Windhelm|Windhelm]]) and [[Skyrim:General Tullius|Tullius]] (at [[Skyrim:Castle Dour|Castle Dour]] in [[Skyrim:Solitude|Solitude]]) to attend the truce negotiations.  You can talk to the two leaders in either order, using the dialogue option ''"I have a message from the Greybeards"'' (if this dialogue option is missing, see the [[#Notes|notes]]).  They will each provide a variety of dialogue options, depending upon the progress of the civil war and whether or not the other leader has already agreed to attend the council.  Each has one [[Skyrim:Persuade|persuasion]] option, which is fastest way to convince them; however, any selection will eventually lead to an option confirming that they will ''"come to the peace council"''. Starting by talking to Ulfric is somewhat easier, because he can be successfully persuaded as long as your [[Skyrim:Speech|Speech]] skill is at least 25; Tullius requires a Speech skill of 50 to be persuaded.
+
+When you return to High Hrothgar, Arngeir and the other Greybeards will be waiting in the main hall of High Hrothgar, where they have been welcoming everyone to the negotiations.  Beside the Greybeards, the attendees consist of:
+* The Imperial delegation: 
+** General Tullius: head of the delegation
+** [[Skyrim:Legate Rikke|Legate Rikke]]: his advisor; provides more colorful reactions to the negotiations
+** Jarl [[Skyrim:Elisif the Fair|Elisif the Fair]] of Solitude: also provides more colorful reactions 
+** [[Skyrim:Elenwen|Elenwen]]: the Thalmor ambassador to Skyrim, and not a welcome addition to the council
+* The Stormcloak delegation:
+** Ulfric: head of the delegation
+** [[Skyrim:Galmar Stone-Fist|Galmar Stone-Fist]]: his advisor; provides more colorful reactions to the negotiations
+* The Jarl of Whiterun, either [[Skyrim:Balgruuf the Greater|Balgruuf the Greater]] or [[Skyrim:Vignar Gray-Mane|Vignar Gray-Mane]]: plays only a small role; however, he is the primary beneficiary of the truce
+* The Blades:
+** [[Skyrim:Delphine|Delphine]]
+** [[Skyrim:Esbern|Esbern]]
+
+{| cellpadding="5" cellspacing="5" style="width:40%; float:right; border: dotted 1px black; margin-left:5px; clear:right;"
+|{{Showhide|'''Dialogue Excerpts: The Blades vs the Greybeards'''
+|The argument between the Blades and the Greybeards, generic version:
+* Delphine: ''So, Arngeir, is it? You know why we're here. Are you going to let us in or not?''
+* Arngeir: ''You were not invited here. You are not welcome here.''
+* Delphine: ''We have as much right to be at this council as all of you. More, actually, since we were the ones that put the Dragonborn on this path.''
+* Arngeir: ''Were you? The hubris of the Blades truly knows no bounds''
+* Delphine: ''If it were up to you, the Dragonborn would sit dreaming on this mountain doing nothing!''
+* Esbern: ''Delphine, we're not here to rehearse old grudges. The matter at hand is urgent. Alduin must be stopped. You wouldn't have called this council if you didn't agree. We know a great deal about the situation and the threat that Alduin poses to us all. You need us here if you want this council to succeed.''
+* Arngeir: '' "Sighs" Very well. You may enter.''
+If Paarthurnax has been killed, lines four and five become:
+* Arngeir: ''I know what path you set [him/her] on. And now Paarthurnax's wisdom is lost to us, just when we need it most.''
+* Delphine: ''[He/She] did what had to be done. It was long overdue. My only regret is that I wasn't able to kill him myself.''
+If you have instead agreed to not kill Paarthurnax, lines four and five become:
+* Arngeir: ''We know what path you've set [him/her] on. But [he/she] has made a different choice. Paarthurnax is still safe from your malice.''
+* Delphine: ''For now. The Blades' memory is long, as you know.''
+}}
+|-
+|{{Showhide|'''Dialogue Excerpts: Arngeir Starting the Meeting'''
+|:''So, you've done it. The men of violence are gathered here, in these halls whose very stones are dedicated to peace.''
+:''They may put their weapons down for a moment, but only to gather strength for the next bloodletting. They are not yet tired of war. Far from it. Do you know the ancient Nord word for war? "Season unending"... so it has proved.''
+}}
+|}
+The arrival of Delphine and Esbern provokes a small scene because of the mutual dislike between them and the Greybeards, but in the end they put aside their differences for the duration of the council.
+
+You can talk to any of the attendees to get their various reactions to being at High Hrothgar or their expectations for the negotiations.  Once you are ready to start the council meeting, you will need to talk to Arngeir — although he will forcibly start the discussion if you avoid him for too long.  His dialogue reveals the meaning behind the quest's name: "Season unending" is the ancient Nord term for war, and thus reflects Arngeir's ongoing pessimism about the usefulness of the truce.
+
+Once you take your seat at the table you will be unable to get up for the duration of the meeting and the negotiations will start.
+
+===The Negotiations: Overview===
+The end result of the negotiations is always that the two sides (the [[Skyrim:Imperial Legion|Imperial Legion]] and the [[Skyrim:Stormcloaks|Stormcloaks]]) exchange control over one or more [[Skyrim:holds|holds]] — the government (most notably the governing Jarl) in any exchanged hold is replaced. Your role in the negotiations is to make a series of decisions about which holds are exchanged, and other terms of the truce. Regardless of your choices, a truce is always signed at the end of the quest, but the terms of the truce affect subsequent gameplay, and control whether or not you get a quest reward.
+
+The holds initially controlled by each side are dependent upon your progress in the [[Skyrim:Civil War|Civil War]], meaning that the available options during the negotiations can vary substantially. The primary factor influencing the quest is which side you have joined (if any) in the Civil War; this alters the overall options, as well causing more subtle changes to various dialogues. Therefore, the exact dialogue you hear may differ slightly from any provided quotations.
+
+Despite the variations in the quest details, the negotiations always follow a fixed overall pattern:
+* '''Pre-negotiation''': [[#Elenwen|Decide]] whether or not [[Skyrim:Elenwen|Elenwen]] can attend the negotiations.
+** Ulfric objects to having a Thalmor representative at the table.  You get to decide whether she stays or leaves.
+* '''Phase One''': Two holds are exchanged
+** One side demands that they be given a major hold ([[Skyrim:The Reach|The Reach]] or [[Skyrim:The Rift|The Rift]]).  The requested hold is predetermined, and cannot be negotiated.
+** The other side requests a hold in exchange.  In most cases, you are given the choice between two possible holds (a major hold or a minor hold).
+* '''Break in negotiations''': [[Skyrim:Esbern|Esbern]]'s [[#Esbern's Speech|Speech]]
+** Following phase one, one of the two sides usually balks at the terms, threatening to walk out of the negotiations.  Esbern needs to intercede with a speech reminding everyone about the threat posed by Alduin before negotiations can resume.
+* '''Phase Two''': Even out the terms of the truce
+** A series of offers is made to appease the side that warned the congregation that they would leave.  You are given the choice of whether to accept or refuse each of the offers.  These offers continue either until the truce is balanced (neither side is favored by the overall truce) or until all options have been exhausted.
+* '''Conclusion'''
+** Arngeir reviews all the terms of the treaty, and the two sides agree to them.
+
+Throughout these negotiations, the game maintains an internal score reflecting the currently agreed-upon terms.  A net score of zero means that the truce is balanced and does not favor either side.  A positive score means the treaty currently favors the Imperials, whereas a negative one favors the Stormcloaks.  The scores associated with each choice in the negotiation are summarized in the tables in the following sections, for the [[#Allied with the Imperials|Imperial]] and [[#Allied with the Stormcloaks|Stormcloak]] variants of the quest.  [[#Scoring System Details|Scoring System Details]] further explains the scoring system and the negotiation options, for those interested in a more thorough understanding of the quest.
+
+If the final score is not zero, the side favored by the treaty is pleased by the results. If you have joined that side's faction you will receive as reward one leveled enchanted weapon. If instead your side is left at a disadvantage, you are accused of betraying your side, but there are no permanent repercussions. (This was not always meant to be the case—see the Notes section for details.) If you do this quest late in the Civil War it may be impossible to negotiate a treaty that favors your faction and therefore impossible to receive the reward.
+
+====Allied with the Imperials or Neutral====
+The following table summarizes the options available during negotiation if you have joined the [[Skyrim:Imperial Legion|Imperial Legion]] or if you have never joined either side.
+
+In this scenario, [[Skyrim:Whiterun|Whiterun]] is considered to be controlled by the Imperials.  Therefore the aim of negotiations is for Ulfric to agree to not attack Whiterun, causing him to start negotiations by demanding that [[Skyrim:Markarth|Markarth]] (and its hold, [[Skyrim:the Reach|the Reach]]) be given to the Stormcloaks.
+{| class=wikitable
+|- 
+! Stage !! Option !! Score 
+|-
+|rowspan=2| Pre-Negotiation
+| Elenwen stays || +1 [[File:SR-mapicon-Imperial Camp.png|x20px|Pro-Imperial choice]]
+|-
+| Elenwen leaves || -1 [[File:SR-mapicon-Stormcloak Camp.png|x20px|Pro-Stormcloak choice]]
+|-
+| Phase One: Stormcloak Demand || [[Skyrim:Markarth|Markarth]] and [[Skyrim:The Reach|The Reach]] are given to the Stormcloaks (no choice) || -2 [[File:SR-mapicon-Stormcloak Camp.png|x20px|Pro-Stormcloak choice]]
+|- 
+|rowspan=2|Phase One: Imperial Concession || [[Skyrim:Riften|Riften]] and [[Skyrim:The Rift|The Rift]] are given to the Imperials (only if The Rift has not been taken) || +2 [[File:SR-mapicon-Imperial Camp.png|x20px|Strong pro-Imperial choice]]
+|-
+| [[Skyrim:Winterhold|Winterhold]] and [[Skyrim:Winterhold (region)|its hold]], or [[Skyrim:Dawnstar|Dawnstar]] and [[Skyrim:The Pale|The Pale]], are given to the Imperials (chosen at random) || +1 [[File:SR-mapicon-Imperial Camp.png|x20px|Weak pro-Imperial choice]]
+|- 
+!colspan=3|Phase Two — if score is negative or zero
+|-
+|colspan=3|Each of the following options is offered (if available), and can be accepted or declined until the score reaches zero or there are no more options.
+|-
+| || Stormcloaks pay compensation for the massacre at Karthwasten || +1 [[File:SR-mapicon-Imperial Camp.png|x20px|Pro-Imperial choice]]
+|-
+| || [[Skyrim:Dawnstar|Dawnstar]] and [[Skyrim:The Pale|The Pale]], or [[Skyrim:Winterhold|Winterhold]] and [[Skyrim:Winterhold (region)|its hold]], are given to the Imperials (whichever was not an option in Phase One, if that hold is not already controlled by the Imperials)|| +1 [[File:SR-mapicon-Imperial Camp.png|x20px|Pro-Imperial choice]]
+|- 
+!colspan=3|Phase Two — if score is positive
+|-
+|colspan=3|Each of the following options is offered (if available), and can be accepted or declined until the score reaches zero or there are no more options.
+|-
+| || The Empire pays compensation for the massacre at Darkwater Crossing (see [[#Bugs|Bugs]]) || -1 [[File:SR-mapicon-Stormcloak Camp.png|x20px|Pro-Stormcloak choice]]
+|- 
+| || [[Skyrim:Falkreath|Falkreath]] and [[Skyrim:Falkreath Hold|its hold]], or [[Skyrim:Morthal|Morthal]] and [[Skyrim:Hjaalmarch|Hjaalmarch]], are given to the Stormcloaks (chosen at random) || -1 [[File:SR-mapicon-Stormcloak Camp.png|x20px|Pro-Stormcloak choice]]
+|}
+
+====Allied with the Stormcloaks====
+The following table summarizes the options available during negotiation if you have completed [[Skyrim:Joining the Stormcloaks|Joining the Stormcloaks]].
+
+Tullius begins negotiations by demanding that [[Skyrim:Riften|Riften]] (and its hold, [[Skyrim:the Rift|the Rift]]) be given to the Imperials.
+
+{| class=wikitable
+|- 
+! Stage !! Option !! Score 
+|-
+|rowspan=2| Pre-Negotiation
+| Elenwen leaves || -1 [[File:SR-mapicon-Stormcloak Camp.png|x20px|Pro-Stormcloak choice]]
+|-
+| Elenwen stays || +1 [[File:SR-mapicon-Imperial Camp.png|x20px|Pro-Imperial choice]]
+|-
+| Phase One: Imperial Demand || [[Skyrim:Riften|Riften]] and [[Skyrim:The Rift|The Rift]] are given to the Imperials (no choice) || +2 [[File:SR-mapicon-Imperial Camp.png|x20px|Pro-Imperial choice]]
+|- 
+|rowspan=2|Phase One: Stormcloak Concession || [[Skyrim:Markarth|Markarth]] and [[Skyrim:The Reach|The Reach]] are given to the Stormcloaks (only if The Reach has not been taken) || -2 [[File:SR-mapicon-Stormcloak Camp.png|x20px|Strong pro-Stormcloak choice]]
+|-
+| [[Skyrim:Morthal|Morthal]] and [[Skyrim:Hjaalmarch|Hjaalmarch]], or [[Skyrim:Falkreath|Falkreath]] and [[Skyrim:Falkreath Hold|its hold]], are given to the Stormcloaks (chosen at random) || -1 [[File:SR-mapicon-Stormcloak Camp.png|x20px|Weak pro-Stormcloak choice]]
+|- 
+!colspan=3|Phase Two — if score is positive or zero
+|-
+|colspan=3|Each of the following options is offered (if available), and can be accepted or declined until the score reaches zero or there are no more options.
+|-
+| || The Empire pays compensation for the massacre at Darkwater Crossing (see [[#Bugs|Bugs]]) || -1 [[File:SR-mapicon-Stormcloak Camp.png|x20px|Pro-Stormcloak choice]]
+|- 
+| || [[Skyrim:Falkreath|Falkreath]] and [[Skyrim:Falkreath Hold|its hold]], or [[Skyrim:Morthal|Morthal]] and [[Skyrim:Hjaalmarch|Hjaalmarch]], are given to the Stormcloaks (whichever was not an option in Phase One, if that hold is not already controlled by the Stormcloaks) || -1 [[File:SR-mapicon-Stormcloak Camp.png|x20px|Pro-Stormcloak choice]]
+|-
+!colspan=3|Phase Two — if score is negative
+|-
+|colspan=3|Each of the following options is offered (if available), and can be accepted or declined until the score reaches zero or there are no more options.
+|-
+| || Stormcloaks pay compensation for the massacre at Karthwasten || +1 [[File:SR-mapicon-Imperial Camp.png|x20px|Pro-Imperial choice]]
+|-
+| || [[Skyrim:Dawnstar|Dawnstar]] and [[Skyrim:The Pale|The Pale]], or [[Skyrim:Winterhold|Winterhold]] and [[Skyrim:Winterhold (region)|its hold]], are given to the Imperials (chosen at random) || +1 [[File:SR-mapicon-Imperial Camp.png|x20px|Pro-Imperial choice]]
+|}
+
+====Scoring System Details====
+This section explains the source of the numbers and options listed in the tables in the previous two sections.  If you are simply interested in completing this quest as quickly as possible, this section probably is not of interest.
+
+The status of the negotiations is tracked internally by a score, which ideally totals zero at the end of the discussion.  If the score is greater than zero, the treaty favors the Imperials, and the Stormcloaks will ask for more concessions (if possible).  The reverse holds if the score is negative.  Factors that contribute to the score are:
+* Each major hold that changes sides counts for two points.
+** Major holds are holds that contain a walled capital city — [[Skyrim:The Reach|The Reach]] and [[Skyrim:The Rift|The Rift]] are the only two that can be traded during the truce
+* Each minor hold that changes sides counts for one point.
+** Minor holds are holds whose capital city is not walled — [[Skyrim:Falkreath Hold|Falkreath Hold]], [[Skyrim:Hjaalmarch|Hjaalmarch]], [[Skyrim:The Pale|The Pale]], and [[Skyrim:Winterhold (region)|Winterhold]]
+* Whether or not [[Skyrim:Elenwen|Elenwen]] is allowed to attend the council meeting counts for one point.
+* Only the Stormcloaks will be asked to pay compensation for a massacre in one of Skyrim's towns, which counts for one point.
+** There is recorded dialogue present in the game files which indicates there were originally plans to make it possible for both sides to be asked to pay compensation for a massacre which could have happened at variety of possible locations.
+** Only the alleged Stormcloak massacre at [[Skyrim:Karthwasten|Karthwasten]] was actually implemented into the game upon release. An Imperial massacre at [[Skyrim:Darkwater Crossing|Darkwater Crossing]] was coded for the Stormcloak concessions, but no dialogue exists for this option (see [[#Bugs|Bugs]]).
+
+The options presented during the truce are controlled by who owns which holds in Skyrim. The initial sides for each hold are as follows:
+{| class="wikitable"
+!  !! Imperial !! Stormcloaks
+|-
+| Home Hold (never traded) ||bgcolor="#FA8072"| [[Skyrim:Haafingar|Haafingar]] ([[Skyrim:Solitude|Solitude]])||bgcolor="#87CEEB"| [[Skyrim:Eastmarch|Eastmarch]] ([[Skyrim:Windhelm|Windhelm]])
+|-
+| Major Hold ||bgcolor="#FA8072"| [[Skyrim:The Reach|The Reach]] ([[Skyrim:Markarth|Markarth]]) ||bgcolor="#87CEEB"| [[Skyrim:The Rift|The Rift]] ([[Skyrim:Riften|Riften]])
+|-
+| Minor Hold #1 ||bgcolor="#FA8072"| [[Skyrim:Falkreath Hold|Falkreath Hold]] ([[Skyrim:Falkreath|Falkreath]]) ||bgcolor="#87CEEB"| [[Skyrim:The Pale|The Pale]] ([[Skyrim:Dawnstar|Dawnstar]])
+|-
+| Minor Hold #2 ||bgcolor="#FA8072"| [[Skyrim:Hjaalmarch|Hjaalmarch]] ([[Skyrim:Morthal|Morthal]]) ||bgcolor="#87CEEB"| [[Skyrim:Winterhold (region)|Winterhold]] ([[Skyrim:Winterhold|Winterhold]])
+|}
+The ninth hold is [[Skyrim:Whiterun Hold|Whiterun Hold]], which is originally neutral.  It is not part of any trades in Season Unending because it is implicitly at the heart of the negotiations: the primary goal of the truce is to get the side that does not currently control Whiterun to agree to cease attacks on the hold.
+
+The opening demand is always made by the side that is opposed to the Dragonborn's allegiance. The demand is that they be given a major hold. This means that the opening demand is always for The Reach (if being made by the Stormcloaks) or for The Rift (if being made by the Imperials). Even if the civil war has started, these holds are guaranteed to have their original affiliation: the winning side is being asked to give up a hold, and the winning side has also never lost any of its original holds.
+
+The options get more complicated with the counter-demand. Now the side that is winning the civil war is asking the losing side to give up a hold — but the losing side may have already lost one or two of its original holds. Normally, you get to choose between the losing side's major hold and one of its minor holds. However, the major hold may have already been lost in the civil war, in which case it cannot be traded. A minor hold is always available (once both minor holds have been conquered, the winning side controls eight holds and Season Unending will not start).
+
+After phase one of the negotiations, two holds have been exchanged, and the score can range from -2 to +2. In phase two, the game effectively tries to change the score closer to zero. In negotiation terms, the side that is unhappy with the existing terms is demanding concessions, and is not willing to give away any more land. Only minor holds can be traded in phase two. Furthermore, only minor holds that have not previously been traded in the negotiations are available — the minor hold (if traded) at phase one is never offered.
+
+===The Negotiations: Details and Dialogue===
+
+====Elenwen====
+{| cellpadding="5" cellspacing="5" style="width:40%; float:right; border: dotted 1px black; margin-left:5px; clear:right;"
+|{{Showhide|'''Dialogue Excerpts: Elenwen's Attendance'''
+|The initial scene:
+* Arngeir: ''Now that everyone is here, please take your seats so we can begin. I hope that we have all come here in the spirit of...''
+* Ulfric: ''No. You insult us by bringing her to this negotiation? Your chief Talos-hunter?''
+* Rikke (muttered): ''That didn't take long.''
+* Galmar (muttered): ''Hear, hear!''
+* Balgruuf (muttered): ''Diplomatic as usual.''
+* Elenwen: ''I have every right to be at this negotiation. I need to ensure that nothing is agreed to here that violates the terms of the White-Gold Concordat.''
+* Tullius: ''She's part of the Imperial delegation. You can't dictate who I bring to this council.''
+* Arngeir: ''Please. If we have to negotiate the terms of the negotiation, we will never get anywhere. Perhaps this would be a good time to get the Dragonborn's input on this matter.''
+Tullius' reasons for why Elenwen should stay:
+:''What do you think? Are we going to let Ulfric dictate terms to us before the negotiations even start?''
+:''...I can't be making concessions before negotiations even start. It makes the Empire look weak.''
+Ulfric's reasons for why Elenwen should leave:
+:''By Ysmir's beard, the nerve of those Imperial bastards, eh? To think that we would sit down with that... Thalmor bitch. Either she walks or I do.''
+:''...bringing her here is a deliberate provocation. Tullius needs to know I won't be pushed around.''
+
+If Elenwen leaves, her parting comments are:
+:''Very well, Ulfric. Enjoy your petty victory. The Thalmor will treat with whatever government rules Skyrim. We would not think of interfering in your civil war.''
+If Elenwen stays, the dialogue is instead:
+* Ulfric: ''But she is to observe, nothing more. We are not negotiating with her, is that clear? 
+* Elenwen: ''Ulfric, why so hostile? After all, it's not the Thalmor that's burning your farms and killing your sons.''
+* Rikke: ''She's supposed to be on our side?''
+* Ulfric: ''You know exactly... no. Not this time. 
+
+Either way, Arngeir will conclude with:
+:''Now that that's settled, may we proceed?''
+}}
+|}
+Before Ulfric sits down at the council table, he insists that the Thalmor representative, [[Skyrim:Elenwen|Elenwen]], be removed.  Either Tullius or Ulfric (depending upon your affiliation) will ask you to decide what should be done.  Although you may have to go through an extra round of dialogue if your decision is unpopular, your decision is always obeyed.  Having her stay makes the Imperials happier with the overall truce, but causes Galmar to nearly storm out.  Conversely, her departure makes the Stormcloaks happier, but angers Rikke.  Other than this incident, she has no real role in the negotiations.
+
+====Phase One====
+{| cellpadding="5" cellspacing="5" style="width:40%; float:right; border: dotted 1px black; margin-left:5px; clear:right;"
+|{{Showhide|'''Dialogue Excerpts: Phase One'''
+|If Ulfric makes the initial demand:
+* Ulfric: ''We want control of Markarth. That's our price for agreeing to a truce.''
+* Elisif: ''So that's why you're here, Ulfric? You dare to insult the Greybeards by using this council to advance your own position?''
+* Tullius: ''Jarl Elisif, I'll handle this.''
+* Elisif: ''General, this is outrageous! You can't be taking this demand seriously! I thought we were here to discuss a truce!''
+* Tullius: ''Elisif! I said I'd handle it.  Ulfric, you can't seriously expect us to give up Markarth at the negotiating table. You hope to gain in council what you've been unable to take in battle, is that it?''
+* Arngeir: ''I'm sure Jarl Ulfric does not expect something for nothing.''
+* Rikke (muttered aside): ''Yes, that'd be entirely out of character.''
+If Tullius makes the initial demand:
+* Tullius: ''Our terms are simple. Riften must be returned to Imperial control. That's our price for agreeing to a truce.''
+* Vignar (if he is present): ''Elisif, are you really going to be a party to this foolishness? Do you really think Ulfric will just turn Riften over because some Imperial general barked an order?''
+* Galmar (if Vignar is not present): ''By Talos, the stones on this one! You're in no position to dictate terms to us, Tullius!''
+* Ulfric: ''That's quite an opening demand, Tullius.''
+* Vignar or Galmar: ''Ulfric, you can't be taking this demand seriously? We can hold Riften against anything the Empire can throw at it. Besides, Jarl Laila will never agree to...''
+* Ulfric: ''[Vignar/Galmar]. We will do whatever I decide is in the best interests of Skyrim. Are we clear?''
+* Vignar or Galmar: ''Yes, my lord.''
+* Ulfric: ''Come on, Tullius, you can't seriously expect us to just hand over Riften at the negotiating table. You haven't been able to take it back yet. Why should we give it up now?''
+}}
+|}
+Even after everyone sits down, there are more delays, with a short speech from the side that is not in control of Whiterun emphasizing their reluctance to be participating in these truce negotiations.  Nevertheless, Arngeir is able to convince everyone to get down to business, at which point the opening demand is made: that a major hold ([[Skyrim:the Reach|the Reach]] or [[Skyrim:the Rift|the Rift]]) be given up.  The other side thinks the demand is outrageous, but eventually gives in to the request.  You have no say in this part of the negotiations — and in fact you can't do anything other than listen to everyone else.
+
+However, when it comes time to make a counter-demand, everyone turns to you: you are asked to suggest which hold should be exchanged for the Reach/Rift.  As detailed above, there are multiple options for the counter-demand, but normally you are able to suggest either a minor hold or a major hold.  The major hold (the other of the Reach or the Rift) is always the choice that is favored by your side, and is immediately accepted. If you instead suggest the minor hold, your side will question the decision, and give you another chance to opt for the major hold.  You can change your mind, or else persuade your side to go with the minor hold.  Should your Speech skill be at least 75, you are able to convince your side that the minor hold has some small advantage.  If you fail the persuasion check you instead have to fall back on ''"You asked my opinion. I gave it to you,"'' which forces a reluctant acceptance of your decision. 
+
+The large range of possible holds under discussion means that there are many possible dialogues during this discussion.  In particular, each hold has a different set of dialogues detailing the advantages to controlling that hold.
+
+====Esbern's Speech====
+{| cellpadding="5" cellspacing="5" style="width:40%; float:right; border: dotted 1px black; margin-left:5px; clear:right;"
+|{{Showhide|'''Dialogue Excerpts: Esbern's Speech'''
+|
+* Esbern: ''Stop! Are you so blind to our danger that you can't see past your petty disagreements? Here you sit arguing about... nothing! While the fate of the land hangs in the balance!''
+* Ulfric: ''Is he with you, Delphine? If so, I advise you to tell him to watch his tongue.''
+* Delphine: ''He is with me. And I advise you both to listen to what he has to say, before you do anything rash.''
+* Esbern: ''Don't you understand the danger? Don't you understand what the return of the dragons means? Alduin has returned! The World-Eater! Even now, he devours the souls of your fallen comrades! He grows more powerful with every soldier slain in your pointless war! Can you not put aside your hatred for even one moment in the face of this mortal danger?''
+If Elenwen is present:
+* Elenwen: ''A very pretty speech, but what does it have to do with—''
+* Ulfric (if the score is positive): ''Shut up.!''
+* Tullius (if the score is negative): ''That's enough out of you!''
+Continuation:
+* Ulfric (if the score is positive): ''If he's right about Alduin... we both have just as much to lose here, Tullius, remember that.''
+* Tullius (if the score is negative): ''I don't know about the end of the world, but this dragon situation has gotten out of hand. If this truce will help the Dragonborn here put an end to that menace, we both gain. Remember that, Ulfric.
+
+}}
+|}
+With an exchange of holds now on the table, the two sides of the negotiation take stock.  The side that is currently getting the worse end of the deal announces the terms are completely unacceptable and threatens to walk out.  (If the deal is even, neither side will stand up and issue this warning that they will leave, with Esbern's speech being preceded by other arguments.)
+
+Before the entire truce is abandoned, Esbern intervenes with an impassioned plea reminding everyone about the importance of these negotiations.  In particular, he emphasizes that any soldiers killed in the war end up strengthening Alduin, because the dragon feeds on their souls. Fortunately, his speech is enough to persuade everyone to sit back down and resume the talks.
+
+Additionally, if you allowed Elenwen to stay, she will begin to respond to the speech, but either Tullius or Ulfric will interrupt. The person who responds is determined by whoever has gotten the shorter end of the negotiations so far.
+
+====Phase Two====
+{| cellpadding="5" cellspacing="5" style="width:40%; float:right; border: dotted 1px black; margin-left:5px; clear:right;"
+|{{Showhide|'''Dialogue Excerpts: Phase Two'''
+|Most colorful complaint from Tullius:
+:''Don't hand me a mug of sheep's piss and call it Colovian brandy. These terms are still not acceptable.''
+Most colorful complaint from Ulfric:
+:''Don't hand me a mug of sheep's piss and call it mead. These terms are still not acceptable.''
+Accusing the Stormcloaks of a massacre:
+* Rikke: ''You slaughtered the very people you claim to be fighting for! True sons of Skyrim would never do such things.''
+* Galmar: ''Damned Imperial lies! My men would never stoop to such methods, even in retaliation for your butchery at...''
+* Ulfric: ''This is our homeland, Tullius. All the blood spilled in this war is on your head.''
+* Tullius (if compensation given): ''For once you'll actually pay for your crimes.''
+* Tullius (if compensation denied): ''Once again, the Empire takes the blame for the crimes of others.''
+Accusing the Imperials of a massacre:
+* Galmar: ''You slaughtered them - the women, the children! You butchers!''
+* Rikke: ''That's a lie! My legionnaires are disciplined, unlike your...''
+* Tullius: ''You don't really expect compensation every time a farm gets burned in a war that you started, do you Ulfric?''
+* Ulfric (if compensation given): ''Do you hear that, Tullius? The blood of the innocent cries out for weregild.''
+* Ulfric (if compensation denied): ''And so the Empire runs roughshod over Skyrim, as usual.''
+}}
+|}
+The side that was about to walk out is now given the chance to suggest additional truce terms to appease them and even out the overall agreement.  These options can include asking to be paid reparations (e.g., an undisclosed sum of gold) for a massacre that took place or asking to be given one or more minor holds.  In each case, you get to decide whether to agree to the additional term.
+
+If additional terms are accepted and it evens out the treaty, then negotiations end.  Otherwise, the disgruntled side continues to complain about the unfairness of the treaty, and then come up with another suggestion.  If there are no remaining options, this unhappy faction will abruptly switch from refusing to accept the truce to instead conceding that it's the fairest deal they are likely to get.
+
+===The Completed Treaty===
+Once the negotiations have reached their conclusion, Arngeir will summarize all of the terms that have been agreed upon so far, and confirm those terms with each of the parties.  Tullius and Ulfric will both agree (albeit with some grumbling), and the meeting will adjourn.
+
+The side with which you are affiliated will talk to you and tell you their opinion of the treaty.  If the treaty favors them, they will be happy and give you a reward.  If the treaty is neutral, they will be ''"disappointed,"'' believing that ''"You gave too much away. More than was necessary to secure this truce."''  If the treaty goes against them, they will say that your actions ''"were a disgrace"'' and will accuse you of betraying them at every turn. If you are an Imperial soldier, and the treaty is against them, Tullius will claim you are not loyal, saying ''"You swore an oath of loyalty to the Emperor, do you remember that?"''  You have a choice of possible responses, but there are no repercussions, even if you respond with ''"I thought you needed to be taken down a notch."''
+
+Most of the parties will head back to their respective cities, but the Greybeards, the Blades, and the faction currently controlling Whiterun, the Empire if neutral will remain to talk with you about how to proceed with trapping a dragon, thus automatically leading back to the quest [[Skyrim:The Fallen|The Fallen]]. Esbern will teach you that the names of dragons are always three words of power, and inform you that while you were preparing the negotiations, he retrieved a scroll listing the names of many of the dragons slain by the Blades. Cross-checking it with Delphine's map of Dragon Burials, he discovered that the next dragon's name is [[Skyrim:Odahviing|Odahviing]]. While he won't be compelled to come when called, dragons are, naturally, arrogant creatures, and he will not ignore this challenge. More notably, your recent victory in the previous battle against Alduin will make him even more likely to respond to your Voice. Esbern will then teach you the [[Skyrim:Call Dragon|shout to call Odahviing]]. In addition, Delphine will walk up and demand that you kill [[Skyrim:Paarthurnax (dragon)|Paarthurnax]], if [[Skyrim:Paarthurnax (quest)|the quest]] hasn't already been given. 
+
+Once Season Unending is complete, the Civil War will be on hold until the Main Quest is complete.
+
+*With the addition of the patch, on speaking to Esbern he will confront you about Paarthurnax, before giving you the word Odahviing starting the Paarthurnax quest.
+
+==Notes==
+* When organizing the peace council, the dialogue option ''"I have a message from the Greybeards"'' may be missing from Ulfric and/or Tullius.  This was done intentionally by the developers to prevent various quest conflicts, and generally means that you need to progress further in the Civil War.  Some specific circumstances where it happens are:
+** If you have not yet joined either the Imperial Legion or the Stormcloaks, and you have not talked to Ulfric and/or Tullius since Helgen, you will be forced to first talk to them about Helgen, at which point they will suggest that you join their side of the conflict. To proceed, simply finish and exit the first dialogue, then start a new discussion, at which point the option will appear.
+** If you joined the Stormcloaks, you cannot continue with Season Unending until [[Skyrim:The Jagged Crown (Stormcloaks)|The Jagged Crown]] is complete.  This is necessary to prevent the possibility of changing allegiance from Stormcloaks to Imperials after completing Season Unending.  If this is the case, complete The Jagged Crown. As of the latest Unofficial Skyrim Patch (Legendary or Special Edition), the same appears to be the case if you have started the Jagged Crown quest for the Imperials: the quest needs to have either been completed, or not started, no matter which side you start it for, or complete it for.
+** If you have been given the quest [[Skyrim:Joining the Legion|Joining the Legion]] by [[Skyrim:Legate Rikke|Legate Rikke]], Tullius will refuse to speak to you until you complete her assignment. Similarly, Ulfric will refuse to speak to you if you have been given the quest [[Skyrim:Joining the Stormcloaks|Joining the Stormcloaks]] by [[Skyrim:Galmar Stone-Fist|Galmar Stone-Fist]], until you complete his assignment.
+** During Message to Whiterun ([[Skyrim:Message to Whiterun (Imperial)|Imperial]] or [[Skyrim:Message to Whiterun (Stormcloaks)|Stormcloaks]]) and Battle for Whiterun ([[Skyrim:Battle for Whiterun (Imperial)|Imperial]] or [[Skyrim:Battle for Whiterun (Stormcloaks)|Stormcloaks]]), progress in Season Unending is intentionally disabled because a truce is impossible while Whiterun is actively under attack.  If this is the case, complete the Battle for Whiterun before trying to proceed with Season Unending.
+* If completing the Battle for Whiterun after starting Season Unending causes Vignar Gray-Mane to replace Balgruuf as Jarl, Vignar will simply appear in Season Unending in place of Balgruuf — the quest proceeds identically, even though Vignar was not part of the original agreement.
+* If you have a talkative follower, they may continue to talk to you during the negotiations, making it hard to follow what is going on. Take them outside the conference chamber and ask them to wait before you take your seat.
+* You will skip this quest altogether if you've already completed [[Skyrim:Battle for Windhelm|The Battle for Windhelm]] or [[Skyrim:Battle for Solitude|The Battle for Solitude]]. You will also skip it if either aforementioned city is the only one left to be taken.
+* The [[Skyrim:Disposition|dispositions]] of the original affected Jarls, Stewards, and Housecarls will drop to below 0, while the dispositions for the new Jarls, Stewards, and Housecarls will rise to above 0.
+* After the truce is complete, any [[Skyrim:Crime#Bounties|bounty]] you originally had in either affected Hold will be cleared immediately. (Bounties in Whiterun, Haafingar, and Eastmarch cannot be auto-cleared this way.)
+* The developers considered several other options for this quest that were not kept in the final version of the quest. Most notably, there would have been options to have you kicked out of your chosen army if the negotiated truce favors the other side. You would then be able to switch to the other side.
+* After the truce has been negotiated, Delphine will attempt to talk to you and tell you to [[Skyrim:Paarthurnax (quest)|kill Paarthurnax]].
+:* It is possible to bypass this entirely, however, if you leave High Hrothgar quickly enough.
+* This quest may make it impossible to get the [[Skyrim:War Hero|War Hero]] [[Skyrim:Achievements|achievement]]. You may want to wait until you've completed [[Skyrim:The Battle for Fort Greenwall (Imperial)|The Battle for Fort Greenwall]] (Imperial) or [[Skyrim:The Battle for Fort Sungard (Stormcloaks)|The Battle for Fort Sungard]] (Stormcloaks) in order to be sure you get this achievement.
+** On the other hand, depending on the results of this quest, you may still be able to get the achievement, but you'll need to complete [[Skyrim:The Battle for Fort Sungard (Imperial)|The Battle for Fort Sungard]] on the Imperial side, or [[Skyrim:The Battle for Fort Greenwall (Stormcloaks)|The Battle for Fort Greenwall]] on the Stormcloak side.
+:* If you complete this quest before completing the Civil War quest line, it is safest to have the Rift (Riften) and the Reach (Markarth) controlled by opposing factions. Ensuring the Imperials take Riften and the Stormcloaks take Markarth will mean that one of the holds is always available to take by your chosen faction and the trophy will unlock without an issue from either side. 
+:* There is an alternative method to obtaining this achievement as well as this quest, but you have to join the Stormcloaks in order for this to work.  First, finish the quest [[Skyrim:Joining the Stormcloaks|Joining the Stormcloaks]], but ''do not start'' the quest [[Skyrim:The Jagged Crown (Stormcloaks)|The Jagged Crown]]. Without that quest being active, you can then schedule the peace conference.  Because you are technically allied with the Stormcloaks, Tullius will make the opening demand for Riften.  When Ulfric demands something in return, give him Morthal rather than Markarth.  This will allow the Reach to remain open for Stormcloak invasion when you resume the Civil War quest.
+* This quest allows you to skip the normal prerequisite quests for becoming [[Skyrim:Thane|Thane]] for any holds that change hands during this quest, regardless of what side you're on, with the exception of The Rift. You will be allowed by the new jarl to buy property in holds that change hands if the hold is one that has property available, including Hearthfire properties if you have Hearthfire installed. You will still have to initiate the Thane quest with the new jarl, and help either 3 or 5 citizens of that hold as well as buying property in holds where that is a requirement in order to become Thane, as per the normal requirements. You will only be allowed to buy Honeyside if Maven Black-Briar is installed in The Rift; you will not be able to skip the normal requirements in that hold to be made Thane.
+** If you already became Thane in either of the two affected Holds, you'll gain another chance to become Thane. You can use it to clear bounties in the affected Holds one more time. (You cannot reset your Thaneship in Whiterun, Haafingar, Eastmarch, or the Rift this way.)
+* If you have started the quest [[Skyrim:The Forsworn Conspiracy|The Forsworn Conspiracy]], but not completed it, handing over [[Skyrim:The Reach|the Reach]] to the Stormcloaks in the negotiations (which always happens if you are Imperial or unaligned) will end the quest. If you have completed that quest but have not started [[Skyrim:No One Escapes Cidhna Mine|No One Escapes Cidhna Mine]], then handing over the Reach will remove your bounty in the Reach and prevent you from starting the Cidhna Mine quest.
+* If the Reach is given to the Stormcloaks, [[Skyrim:Ondolemar|Ondolemar]] will perish. His remains will be buried in the [[Skyrim:Hall of the Dead (Markarth)|Hall of the Dead]] in Markarth.
+* If you started Ondolemar's favor quest [[Skyrim:Search and Seizure|Search and Seizure]], but haven't yet completed it, handing over the Reach to the Stormcloaks will immediately cause you to fail. If you never started Search and Seizure, handing over the Reach to the Stormcloaks will render the favor quest permanently unavailable due to Ondolemar's death.
+* When Arngeir announces the terms of the treaty, he will say "step down", acting as if the affected Jarls willfully accepted the terms, when in reality, they will be banished to either [[Skyrim:Windhelm|Windhelm]] or [[Skyrim:Solitude|Solitude]], depending on their respective sides.
+* {{Pc22}} To see the score during the negotiations, open the [[Skyrim:Console|console]] and type <code>sqv MQ302</code>. A number of variables will appear in the console window. Use the Page Up button to scroll up until you find the entry for <code>::NegotiationDelta_var</code>. That's your current score.
+*If you didn't like the randomized holds that came up during negotiation make a hard save before Stage 10: ''Talk to Arngeir'' and reload it to try again.
+
+==Bugs==
+{{Bug|It is possible that during the course of the negotiations Esbern will not talk, much like the glitch in [[Skyrim:A_Cornered_Rat#Bugs|A Cornered Rat]].|confirmed=1}}
+**{{Pc22}}Since it is not possible to stand up during the course of the negotiations, one solution is to try <code>setstage MQ302 170</code> and wait for responses from the others at the table (nodding, etc) then <code>setstage MQ302 180</code>. This skips Esbern's speech, and allows you to continue with the negotiations. If this does not work, moving the quest stage forward to 300 appears to be the only viable solution. This bug should not occur if you have unpacked his voice files in the way outlined on the page for A Cornered Rat.
+{{Bug|If the Reach is given to the Stormcloaks, the Thalmor Soldiers who followed Ondolemar before this quest will continue to respawn in [[Skyrim:Understone Keep|Understone Keep]] after the Stormcloaks take Markarth.|USKP|1.2.7}}
+{{Bug|The dialogue for the Stormcloaks' demand of compensation for the massacre at Darkwater Crossing was never recorded, so this option does not appear.|USSEP|4.2.6|trackerid=31617|The request is changed to Anga's Mill.}}
+{{Bug|Sometimes the meeting will never start, even when you are seated.|USLEEP|3.0.4|trackerid=20429}}
+**{{Pc22}} Using <code>disable</code> and <code>enable</code> on [[Skyrim:Galmar Stone-Fist|Galmar Stone-Fist]] may fix this issue. Standing further into the room than Ulfric and using <code>moveto player</code> on Galmar may also work.
+**Speaking to the participants in the Peace Council, 'moving' them into the Council Room (either via the console or by using Unrelenting Force), or waiting for 24 hours may fix this. If not, just reload a previous save.
+{{Bug|It is possible that after this quest, certain NPCs involved (such as Elisif the Fair and General Tullius) will be stuck outside High Hrothgar, not returning to their appropriate schedules. They will have no dialogue options, and only talk about the truce if spoken to (thus rendering quests such as [[Skyrim:Tending the Flames|Tending the Flames]] and [[Skyrim:Fit for a Jarl|Fit for a Jarl]] unable to be completed).|confirmed=1}}
+**Completing [[Skyrim:Dragonslayer|Dragonslayer]] seems to cause everyone affected to return to their normal schedule.
+{{Bug|You may not be able to trade any holds.|confirmed=1}}
+**Liberating at least one hold in [[Skyrim:Liberation of Skyrim|Liberation of Skyrim]] or [[Skyrim:Reunification of Skyrim|Reunification of Skyrim]] seems to resolve the issue.
+{{Bug|If you are unable to complete [[Skyrim:Reunification of Skyrim|The Battle For Fort Greenwall]] due to a glitch where your troops never spawn, the negotiations will end shortly after you either allow or send away Elenwen. This leaves the negotiation unable to reach an internal balance of zero and one side will be favored no matter your intent. Additionally, no holds change hands at all. However, the Battle For quest will disappear from your quest log after this occurs.|vn=1}}
+* Before version 1.4 of the [[Skyrim:Patch#Version_1.4|Official Skyrim Patch]], there were some serious bugs that would affect your ability to complete the peace treaty.
+** Without the patch, it is best to complete Season Unending before starting any of the Civil War quests. This means you must refrain from talking to either party about joining their army. As soon as you do and confirm you want to join, you have started that quest line.
+** Most other bugs can be resolved by completing one or more Civil War quests — either through to the end of The Jagged Crown ([[Skyrim:The Jagged Crown (Imperial)|Imperial]] or [[Skyrim:The Jagged Crown (Stormcloaks)|Stormcloaks)]], or to the end of Battle for Whiterun ([[Skyrim:Battle for Whiterun (Imperial)|Imperial]] or [[Skyrim:Battle for Whiterun (Stormcloaks)|Stormcloaks]]).
+
+==Quest Stages==
+{{Journal Entries
+|10||The Jarl of Whiterun won't help me capture a dragon as long as the civil war is raging. If I can get the Greybeards to host a peace council, I can try to convince the Imperials and the Stormcloaks to agree to a truce in order to defeat Alduin, who is a threat to both sides in the civil war.
+{{Quest Objective|10|Talk to Arngeir}}
+|15||The Jarl of Whiterun won't help me capture a dragon as long as the civil war is raging. Arngeir has agreed to host a peace council at High Hrothgar. I need to convince the Imperials and the Stormcloaks to agree to a truce in order to defeat Alduin, who is a threat to both sides in the civil war.
+{{Quest Objective|20|Talk to General Tullius}}
+{{Quest Objective|30|Talk to Ulfric Stormcloak}}
+|40||{{Quest Objective|40|Talk to Arngeir}}
+|55||{{Quest Objective|50|Take your seat}}
+|60||{{Quest Objective|60|Negotiate a truce}}
+|300|fin|The Jarl of Whiterun wouldn't help me capture a dragon as long as the civil war was raging. Arngeir agreed to host a peace council at High Hrothgar. With Esbern's help, I persuaded General Tullius and Ulfric Stormcloak to agree to a truce in order to defeat Alduin, who is a threat to both sides in the civil war.
+|310|fin|
+|350|fin|
+|missing=0, 1, 5, 6, 7, 8, 20, 30, 50, 52, 70, 80, 81, 82, 85, 90, 100, 105, 110, 120, 130, 140, 141, 142, 143, 150, 151, 152, 160, 170, 180, 181, 182, 190, 191, 192, 195, 196, 199, 200, 201, 202, 205, 206, 209, 210, 260, 265, 280, 281, 282, 285, 290, 320, 340
+}}
+{{Skyrim Quest Stages Notes}}
+
+{{Quest Footer|Prev=[[Skyrim:The Fallen|The Fallen]]|Up=[[Skyrim:Main Quest|Main Quest]]}}

@@ -1,0 +1,39 @@
+<noinclude>{{Cleanup-shrp
+|writtenby=Beezer1029
+|checkedby=
+}}</noinclude>{{Place Summary
+|type=Cemetery
+|zones=1
+|locationcode=WindhelmHalloftheDead
+|image=SR-place-Windhelm_Hall_of_the_Dead.jpg
+|imgdesc=Hall of the Dead
+|region=Eastmarch
+|city=Windhelm
+|description=A small gravesite located in the north end of the graveyard in [[skyrim:Windhelm|Windhelm]].
+|mapname=Hall of the Dead (Windhelm)
+|addabove=The
+}}
+{{NewLeft}}
+==Residents==
+{| class=wikitable width=120px
+!Residents
+|-
+|
+;[[Skyrim:Helgird|Helgird]]
+|}
+
+== Related Quests ==
+* {{Quest Link|Blood on the Ice}}
+{{NewLeft}}
+
+==Hall of the Dead (Windhelm)==
+[[File:SR-interior-Hall of the Dead Windhelm.jpg|right|thumb|Shrine of Arkay]]
+The entrance to the Hall of the Dead is located on the north wall of the graveyard, which is north of Windhelm's small market area. 
+The entrance is a little dreary, as befitting a crypt, with only a couple of food barrels. Down the stairs, is  a T-junction. Turning left you enter Helgird's chambers.  The room is elongated, and candles provide some ambient lighting. Straight ahead is a small table, which is rather bare. Looking to the left, find a set of shelves with only a bottle of [[Skyrim:Wine|wine]] and [[Skyrim:Alto Wine|Alto wine]]. Leaning against the shelves is a knapsack holding a random book, a leveled [[Skyrim:Potion of Health|potion of health]], and some jewelry. To the right of the doorway, a low table holds [[Skyrim:Nord Mead|Nord mead]], and an [[Skyrim:Iron Dagger|iron dagger]]. Next is a wardrobe holding only clothes. Further into the room is the owned bed, but little else.
+Exit the room, and head south to enter the crypts. At the bottom of the stairs the doorway to the right opens to the [[Skyrim:Shrine of Arkay|shrine of Arkay]], which bestows the [[Skyrim:Blessing of Arkay|Blessing of Arkay]] for eight hours when activated. The crypts are honeycombed into multiple sections, but hold nothing of interest.
+
+Once Blood on the Ice has progressed sufficiently, the body of [[Skyrim:Susanna the Wicked|Susanna the Wicked]] will be laid out on a table for autopsy by Helgird.  The body will remain here for the rest of the game.
+
+==Bugs==
+
+{{Bug|When a resident of Windhelm dies, that person's belongings should be transferred to a named coffin or urn within the Hall of the Dead, but the NPC's name will not be attached to the container.|confirmed=1}}
