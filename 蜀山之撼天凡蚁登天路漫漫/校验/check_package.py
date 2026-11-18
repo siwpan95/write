@@ -32,6 +32,9 @@ def add(kind, msg):
 def md_files():
     out = []
     for base, dirs, files in os.walk(ROOT):
+        # 排除 校验/（脚本产物与本轮报告）与 模板原件（2026-11-18 起模板改为指向
+        # 兄弟目录 通用模板包/，本包不再收录副本；此处保留排除项以防误放入后
+        # 模板的占位符与"模板 · v3"标记刷出大量误报）
         dirs[:] = [d for d in dirs if d not in ("模板原件", "校验")]
         for f in files:
             if f.endswith(".md"):
@@ -132,6 +135,38 @@ def main():
         if os.path.exists(p2) and "杨成志" not in open(p2, encoding="utf-8").read():
             add("E", f"{name} 未出现主角名（应为杨成志）")
 
+    # 8 目录声明一致性（2026-11-18 追加）
+    # 起因：README 与总档共 6 处声明"模板原件/（20 份）随包附上"，而该目录
+    # 实际不存在（后改为指向兄弟目录 通用模板包/）。文档声明的目录若不存在，
+    # 读者按图索骥必然落空——此类错误须由脚本兜住，不能靠人眼。
+    # 检查法：扫出所有 md 里形如 `目录名/` 的反引号路径，逐一核对是否存在。
+    path_pat = re.compile(r"`([A-Za-z0-9_一-鿿-]+/[^`\s]*)`")
+    declared = {}
+    for p in md_files():
+        rel = os.path.relpath(p, ROOT)
+        t = open(p, encoding="utf-8").read()
+        for m in path_pat.finditer(t):
+            raw = m.group(1).rstrip("/")
+            head = raw.split("/")[0]
+            if head in ("正文", "校验", "证据与裁决", "回检", "通用模板包"):
+                continue
+            declared.setdefault(head, set()).add(rel)
+    # 仅当文档用"已存在"语气断言该目录时才算缺陷；
+    # 规范里约定的将来目录（如 卷一_凝碧崖/…）与可选中间层（叙述稿/）不报。
+    ASSERTED = ("已移入", "已放入", "在该目录", "已归档", "在 `", "已随包")
+    for d, where in sorted(declared.items()):
+        if os.path.exists(os.path.join(ROOT, d)):
+            continue
+        hits = []
+        for rel in where:
+            t = open(os.path.join(ROOT, rel), encoding="utf-8").read()
+            for line in t.splitlines():
+                if f"`{d}" in line and any(k in line for k in ASSERTED):
+                    hits.append(rel)
+                    break
+        if hits:
+            add("E", f"文档断言目录 `{d}/` 已存在但实际不存在（见 {', '.join(sorted(hits))[:120]}）")
+
     # 7 MANIFEST 覆盖率与哈希（2026-11-18 追加）
     # 起因：MANIFEST 曾在正文加"蜀山 "前缀后未同步，导致 15 条路径失效、
     # 2 条哈希过期、28 个文件未收录——整体形同虚设，而 README §四 教的
@@ -155,7 +190,7 @@ def main():
                 rel = os.path.relpath(os.path.join(r, f), ROOT).replace("\\", "/")
                 if rel.startswith("校验/"):
                     continue
-                if ".bak-" in rel:
+                if ".bak-" in rel or rel.startswith(".workbuddy-backup"):
                     continue
                 actual[rel] = os.path.join(r, f)
         missing = sorted(set(actual) - set(man))
