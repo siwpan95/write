@@ -160,6 +160,30 @@ def load_pkg_rules(pkg_root: Path) -> dict:
     return rules
 
 
+def is_literal_usage(text: str, start: int, word: str) -> bool:
+    """判断命中是否为「词本义」而非 AI 腔用法，避免误报。
+
+    目前只对「不禁」做严格判定。05 §1.2.1 禁的是心理标签用法
+    （「他不禁感到一阵心悸」），而有的正文把它当「不 + 禁」的否定结构用，
+    例如蜀山正文的「石头不禁」，与前后反复出现的「禁」字构成"不受禁令约束"
+    的语义呼应。只有同时满足下面两条才豁免：
+      1) 命中所在句被中文括号包住（Silent thought／旁白，不是叙述层的心理标签）；
+      2) 该句前后 160 字内另有 ≥2 个「禁」字，构成呼应。
+    条件不满足时照常报错，不放宽通用阈值。
+    """
+    if word != "不禁":
+        return False
+    line_start = text.rfind("\n", 0, start) + 1
+    line_end = text.find("\n", start)
+    if line_end < 0:
+        line_end = len(text)
+    line = text[line_start:line_end]
+    if not (line.lstrip().startswith("（") and line.rstrip().endswith("）")):
+        return False
+    window = text[max(0, start - 160):min(len(text), start + 160)]
+    return window.count("禁") >= 3  # 命中本身 1 次，需另有 ≥2 次呼应
+
+
 def mask_quotes(text: str) -> str:
     """把引号内的内容替换为等长空格。
 
@@ -234,7 +258,15 @@ def check_file(rel: str, full: Path, pkg_rules: dict) -> dict:
     RIGHT_BOUNDARY_WORDS = {"然而", "猛地", "正好", "暗自", "冷不丁"}
     for w, limit in pkg_rules["zero"].items():
         pat = re.escape(w) + (r"(?![一-鿿])" if w in RIGHT_BOUNDARY_WORDS else "")
+        # 词本义豁免：语境在 raw 上判断（prose_words 已屏蔽引号，语境会丢）。
+        # 先用全文定位真实命中，再排除本义用法，最后与 prose_words 的命中数取小，
+        # 避免把引号内已豁免的处数重新算进来。
+        raw_hits = [m for m in re.finditer(re.escape(w), raw)
+                    if not is_literal_usage(raw, m.start(), w)]
+        allowed = len(raw_hits)
         hits = list(re.finditer(pat, prose_words))
+        if allowed < len(hits):
+            hits = hits[:allowed]
         if hits:
             add("ERROR", "模板包·禁用词(上限0)", skill.line_number(raw, hits[0].start()),
                 f"「{w}」{len(hits)} 处")
