@@ -17,6 +17,7 @@ import glob
 import os
 import re
 import sys
+from collections import Counter
 
 ROOT = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
@@ -33,6 +34,43 @@ BAD_WORDS = ["系统", "数据", "状态", "信息", "用户", "配置", "版本
 QUOTES = ["“", "”", "「", "」"]
 
 LO, HI = 2200, 3000
+
+
+def find_dup_segments(body):
+    """找出章内实质重复的**叙述段**（括号内的场景/内心/清单）。
+
+    判定口径（三条都须满足才算重复）：
+      ① 该行以「（」开头——即叙述段。**对白行（不以括号开头）不算**：
+         本书的对话回环是刻意手法（如「老弟子说，往南是海。」反复出现以加重语气），
+         判错会误报。
+      ② 去标点后实质字数 ≥ 12——再短的（「（嗯。）」）重复是正常写法。
+      ③ 同一章内出现 ≥2 次。
+      ④ **两次出现之间间隔 ≥ 8 个段落**才算机械复制。间隔大＝作者刻意让同一句
+         在两个场景分别落下（回环强化，本书常用手法，如 236 章
+         「绕出来的字是他的字；不绕的字是他自己的。」在主角自述与于建追问后
+         各落一次）；间隔小＝编辑复制粘贴的残留。
+
+    2026-11-18 补：C21 执行单元实测教训——用整文件行号删重复段时误伤了同文件
+    另一章的八段，而「字数达标 / 引号为 0」等既有检查**全部绿灯**，纯靠人工
+    通读才发现。说明内容层的破坏（误删、重复）需要脚本单独兜一道。
+    """
+    lines = [x.strip() for x in body.split("\n") if x.strip()]
+    pos = {}
+    for idx, s in enumerate(lines):
+        if not s.startswith("（"):
+            continue
+        core = re.sub(r"[（）()。，、？！：；“”\"'…—\s]", "", s)
+        if len(core) >= 12:
+            pos.setdefault(s, []).append(idx)
+    out = []
+    for s, idxs in pos.items():
+        if len(idxs) < 2:
+            continue
+        gaps = [idxs[i + 1] - idxs[i] for i in range(len(idxs) - 1)]
+        if min(gaps) < 8:
+            out.append(s)
+    return out
+
 
 
 def check():
@@ -61,7 +99,12 @@ def check():
             print(f"  [E] 章数应为 5，实为 {len(got)}")
             total_err += 1
         for i, (num, title, body) in enumerate(got):
-            n = len(re.sub(r"\s", "", re.sub(r"^#.*$", "", body, flags=re.M)))
+            # 字数口径：**纯正文**，不含章标题行与末尾「（本章完）」标记。
+            # 2026-11-18 修正：原先按整段算，把每章固定的格式开销（约 18–35 字）
+            # 算进了内容篇幅，等于对每章多收一遍"过路费"，口径不公平。
+            pure = re.sub(r"^#.*$", "", body, flags=re.M)
+            pure = pure.replace("（本章完）", "")
+            n = len(re.sub(r"\s", "", pure))
             q = sum(body.count(x) for x in QUOTES)
             y = body.count("杨成志")
             hits = [w for w in BAD_WORDS if w in body]
@@ -82,6 +125,12 @@ def check():
                 errs.append(f"禁用词 {hits}")
             if not endmark:
                 errs.append("结尾缺（本章完）")
+            # 章内段落去重（2026-11-18 补：C21 代理实测教训——重复块纯脚本不报，
+            # 靠人工通读才发现；且"字数达标"完全抓不到"内容被误删/误伤"）
+            segs = [s_.strip() for s_ in body.split("\n") if s_.strip()]
+            dup = find_dup_segments(body)
+            if dup:
+                errs.append(f"章内重复段 ×{len(dup)}：{dup[0][:22]}")
             total_ch += 1
             if errs:
                 total_err += 1
