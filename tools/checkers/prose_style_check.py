@@ -35,7 +35,40 @@ import re
 import sys
 from pathlib import Path
 
-SKILL_SCRIPTS = Path.home() / ".workbuddy/skills/human-writing/scripts"
+# ── 技能规则加载（跨机适配）───────────────────────────────────────────────
+# 历史问题：这里曾写死 Path.home() / ".workbuddy/skills/human-writing/scripts"，
+# 换一台没装用户级技能的机器就 import 失败，prose-style 检查器整体不可用。
+# 现在改为「仓内优先，用户级兜底」，并支持环境变量覆盖。
+#
+# 解析顺序
+#   1) HUMAN_WRITING_SKILL 环境变量指向的技能根（可选，用于外部新版本）
+#   2) 仓内 tools/skills/human-writing  ← 默认，跨机自带，随 git 分发
+#   3) 用户级 ~/.workbuddy/skills/human-writing ← 兜底，仅开发机有
+def resolve_skill_root() -> Path | None:
+    here = Path(__file__).resolve().parent
+    repo_root = here.parent.parent
+    candidates = []
+    env_root = os.environ.get("HUMAN_WRITING_SKILL")
+    if env_root:
+        candidates.append(Path(env_root).expanduser())
+    candidates.append(repo_root / "tools" / "skills" / "human-writing")
+    candidates.append(Path.home() / ".workbuddy" / "skills" / "human-writing")
+    for cand in candidates:
+        if (cand / "scripts" / "check_prose.py").is_file():
+            return cand
+    return None
+
+
+SKILL_ROOT = resolve_skill_root()
+if SKILL_ROOT is None:
+    sys.stderr.write(
+        "prose-style 检查器缺少 human-writing 技能规则。\n"
+        "请确认仓内 tools/skills/human-writing/scripts/check_prose.py 存在，\n"
+        "或设置 HUMAN_WRITING_SKILL 指向有效技能根目录。\n"
+    )
+    raise SystemExit(2)
+
+SKILL_SCRIPTS = SKILL_ROOT / "scripts"
 if str(SKILL_SCRIPTS) not in sys.path:
     sys.path.insert(0, str(SKILL_SCRIPTS))
 import check_prose as skill  # noqa: E402
@@ -300,9 +333,12 @@ def emit_protocol(results, err_count, warn_count, root) -> int:
 
 
 def main() -> int:
+    # 仓根由脚本位置推导。默认 "." 在从别处调用时会扫到 0 篇正文，
+    # 静默给出「0 error」的假 PASS，比直接报错更危险。
+    default_root = Path(__file__).resolve().parent.parent.parent
     ap = argparse.ArgumentParser()
     ap.add_argument("--protocol", action="store_true", help="输出检查器协议 JSON")
-    ap.add_argument("--root", default=".", help="write 仓根目录")
+    ap.add_argument("--root", default=str(default_root), help="write 仓根目录（默认由脚本位置推导）")
     ap.add_argument("--pkg", default=None, help="通用模板包目录（默认 root/通用模板包）")
     ap.add_argument("--project", default=None, help="只查某个项目")
     ap.add_argument("--out", default="findings.json")
@@ -315,6 +351,15 @@ def main() -> int:
     files = find_prose_files(root)
     if args.project:
         files = [f for f in files if f.split("/")[0] == args.project]
+
+    # 护栏：扫不到正文通常是 root 指错、目录结构变动或过滤规则过严。
+    # 此时报「0 error」会给出假 PASS，必须显性报错。
+    if not files:
+        sys.stderr.write(
+            f"prose-style 检查器未在 {root} 下找到正文文件。\n"
+            "检查 --root 是否正确，或 EXCLUDE_DIRS / POSITION_HINT 过滤规则是否失效。\n"
+        )
+        raise SystemExit(2)
 
     results, err_count, warn_count = [], 0, 0
     for rel in files:
