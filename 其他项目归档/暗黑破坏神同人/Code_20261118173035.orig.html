@@ -1,0 +1,1056 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>支线任务 · 崩城之影 ｜ 魔影克鲁斯</title>
+<style>
+  :root{
+    --bg0:#0a0605;
+    --bg1:#160b08;
+    --panel:#1a0d0a;
+    --panel2:#23110c;
+    --gold:#d9a441;
+    --gold-dim:#8a6528;
+    --gold-bright:#f4cf7a;
+    --red:#a52318;
+    --red-bright:#d63a29;
+    --red-glow:#ff5a3c;
+    --ink:#e8d9c0;
+    --ink-dim:#9c8974;
+    --green:#7fae5a;
+    --blue:#5a8fb0;
+    --line:#3a1d13;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    background:
+      radial-gradient(circle at 50% 0%, rgba(214,58,41,.18), transparent 55%),
+      radial-gradient(circle at 50% 120%, rgba(217,164,65,.10), transparent 60%),
+      linear-gradient(180deg,var(--bg1),var(--bg0));
+    background-attachment:fixed;
+    color:var(--ink);
+    font-family:"Palatino Linotype","Songti SC","STSong","Noto Serif CJK SC","Source Han Serif SC","Noto Serif SC",Georgia,serif;
+    line-height:1.75;
+    padding:22px 14px 60px;
+    min-height:100vh;
+  }
+  .wrap{max-width:780px;margin:0 auto;}
+
+  /* ===== 标题 ===== */
+  .titlebar{
+    text-align:center;
+    border-top:1px solid var(--gold-dim);
+    border-bottom:1px solid var(--gold-dim);
+    padding:16px 8px 18px;
+    margin-bottom:22px;
+    position:relative;
+  }
+  .titlebar::before,.titlebar::after{
+    content:"✦";color:var(--red-bright);position:absolute;top:50%;
+    transform:translateY(-50%);font-size:13px;
+  }
+  .titlebar::before{left:14px;}
+  .titlebar::after{right:14px;}
+  .titlebar .kicker{
+    color:var(--gold);letter-spacing:.42em;font-size:11px;
+    text-transform:uppercase;margin-bottom:8px;
+  }
+  .titlebar h1{
+    font-size:27px;font-weight:700;color:var(--gold-bright);
+    letter-spacing:.12em;text-shadow:0 0 18px rgba(217,164,65,.35);
+  }
+  .titlebar .sub{color:var(--ink-dim);font-size:12px;margin-top:8px;letter-spacing:.2em;}
+
+  /* ===== 通用面板 ===== */
+  .panel{
+    background:linear-gradient(180deg,var(--panel2),var(--panel));
+    border:1px solid var(--line);
+    border-radius:3px;
+    padding:16px 18px;
+    margin-bottom:20px;
+    position:relative;
+    box-shadow:inset 0 0 40px rgba(0,0,0,.55), 0 2px 10px rgba(0,0,0,.5);
+  }
+  .panel-h{
+    display:flex;align-items:center;gap:10px;
+    border-bottom:1px solid var(--line);
+    padding-bottom:9px;margin-bottom:12px;
+  }
+  .panel-h .sigil{
+    width:9px;height:9px;background:var(--red-bright);
+    transform:rotate(45deg);box-shadow:0 0 8px var(--red-glow);flex:none;
+  }
+  .panel-h .htxt{
+    color:var(--gold);font-size:13px;letter-spacing:.28em;text-transform:uppercase;font-weight:400;
+  }
+  .panel-h .htag{
+    margin-left:auto;font-size:10px;color:var(--ink-dim);
+    border:1px solid var(--line);padding:1px 7px;letter-spacing:.15em;
+  }
+
+  /* ===== 任务日志 ===== */
+  .q-head{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:8px;margin-bottom:12px;}
+  .q-title{color:var(--gold-bright);font-size:20px;letter-spacing:.06em;}
+  .q-time{
+    font-family:"Courier New",monospace;font-size:15px;font-weight:700;
+    color:var(--red-bright);letter-spacing:.08em;
+    border:1px solid var(--red);padding:2px 9px;border-radius:2px;
+    background:rgba(165,35,24,.14);
+  }
+  .q-meta{display:grid;grid-template-columns:88px 1fr;gap:4px 12px;font-size:13px;margin-bottom:12px;}
+  .q-meta dt{color:var(--gold-dim);letter-spacing:.08em;}
+  .q-meta dd{color:var(--ink);}
+  .q-reward dd{color:var(--gold-bright);}
+  .q-fail dd{color:var(--red-bright);}
+  .obj-list{list-style:none;border-top:1px dashed var(--line);padding-top:10px;}
+  .obj-list li{
+    display:flex;gap:9px;align-items:flex-start;
+    font-size:13px;padding:3px 0;color:var(--ink-dim);
+  }
+  .obj-list li .box{
+    width:12px;height:12px;flex:none;margin-top:5px;
+    border:1px solid var(--gold-dim);border-radius:1px;position:relative;
+  }
+  .obj-list li.done{text-decoration:line-through;color:#6a5a48;}
+  .obj-list li.done .box::after{
+    content:"✓";position:absolute;inset:-4px -2px;color:var(--gold);
+    font-size:12px;text-decoration:none;
+  }
+  .obj-list li.cur{color:var(--gold-bright);}
+  .obj-list li.cur .box{border-color:var(--red-bright);box-shadow:0 0 6px var(--red-glow);}
+  .obj-list li.cur .box::after{content:"";position:absolute;inset:2px;background:var(--red-bright);}
+  .obj-list li.cur .curnow{color:var(--red-bright);font-size:11px;letter-spacing:.1em;margin-left:4px;}
+
+  /* ===== 对白框 ===== */
+  .dlg{display:flex;gap:12px;margin-bottom:14px;align-items:flex-start;}
+  .dlg .ava{
+    width:50px;height:50px;flex:none;border:1px solid var(--gold-dim);
+    background:linear-gradient(135deg,var(--panel2),#0d0705);
+    display:flex;align-items:center;justify-content:center;
+    font-size:20px;color:var(--gold);border-radius:2px;position:relative;
+  }
+  .dlg .ava::after{
+    content:"";position:absolute;inset:2px;border:1px solid rgba(217,164,65,.2);
+  }
+  .dlg .body{flex:1;min-width:0;}
+  .dlg .name{
+    font-size:12px;letter-spacing:.18em;margin-bottom:4px;
+    display:flex;align-items:center;gap:8px;
+  }
+  .dlg .name .rol{
+    font-size:10px;color:var(--ink-dim);letter-spacing:.1em;
+    border:1px solid var(--line);padding:0 5px;
+  }
+  .dlg .bub{
+    background:linear-gradient(180deg,rgba(35,17,12,.9),rgba(20,10,7,.9));
+    border:1px solid var(--line);border-left:3px solid var(--gold-dim);
+    border-radius:2px;padding:9px 12px;font-size:14px;color:var(--ink);
+  }
+  .dlg.npc-akkad .ava{color:var(--gold-bright);}
+  .dlg.npc-akkad .name{color:var(--gold-bright);}
+  .dlg.npc-akkad .bub{border-left-color:var(--gold);}
+  .dlg.npc-kruss .ava{color:var(--green);border-color:#4a6b38;}
+  .dlg.npc-kruss .name{color:var(--green);}
+  .dlg.npc-kruss .bub{border-left-color:var(--green);}
+  .dlg.npc-master .ava{color:var(--red-glow);border-color:var(--red);}
+  .dlg.npc-master .name{color:var(--red-glow);}
+  .dlg.npc-master .bub{border-left-color:var(--red-bright);background:linear-gradient(180deg,rgba(60,18,10,.5),rgba(25,10,7,.9));}
+  .dlg.player .ava{color:var(--blue);border-color:#3a5a70;}
+  .dlg.player .name{color:var(--blue);}
+  .dlg.player .bub{border-left-color:var(--blue);font-style:italic;color:#cfe0ea;}
+
+  /* ===== 场景叙述 ===== */
+  .narr{
+    border-left:3px solid var(--red);
+    background:linear-gradient(90deg,rgba(165,35,24,.12),transparent 70%);
+    padding:8px 14px;margin:16px 0;font-style:italic;color:#c9bba3;
+    font-size:14px;
+  }
+  .narr .timer{
+    font-family:"Courier New",monospace;font-style:normal;
+    color:var(--red-bright);font-weight:700;letter-spacing:.06em;
+  }
+  .narr .boom{color:var(--red-glow);font-weight:700;font-style:normal;letter-spacing:.1em;}
+
+  /* ===== 分隔 ===== */
+  .sep{display:flex;align-items:center;gap:12px;margin:24px 0 18px;}
+  .sep::before,.sep::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--gold-dim),transparent);}
+  .sep h2{color:var(--gold-dim);font-size:11px;letter-spacing:.34em;font-weight:400;line-height:1.75;}
+
+  /* ===== 属性卡 ===== */
+  .card{display:flex;gap:16px;flex-wrap:wrap;}
+  .card .portrait{
+    width:120px;flex:none;border:1px solid var(--gold-dim);border-radius:2px;
+    background:
+      radial-gradient(circle at 50% 30%, rgba(214,58,41,.35), transparent 60%),
+      linear-gradient(160deg,var(--panel2),#0b0604);
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    gap:6px;padding:12px 6px;
+  }
+  .card .portrait .glyph{font-size:40px;color:var(--gold-bright);text-shadow:0 0 16px var(--red-glow);}
+  .card .portrait .cap{font-size:10px;color:var(--gold-dim);letter-spacing:.18em;text-align:center;}
+  .card .stats{flex:1;min-width:220px;font-size:13px;}
+  .stat-row{display:grid;grid-template-columns:74px 1fr;gap:2px 10px;padding:2px 0;border-bottom:1px dashed rgba(58,29,19,.6);}
+  .stat-row .sk{color:var(--gold-dim);}
+  .stat-row .sv{color:var(--ink);}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px;}
+  .tag{
+    font-size:11px;letter-spacing:.06em;color:var(--gold-bright);
+    border:1px solid var(--gold-dim);border-radius:10px;padding:1px 9px;
+    background:rgba(217,164,65,.08);
+  }
+  .tag.skill{border-color:var(--red);color:var(--red-glow);background:rgba(165,35,24,.14);}
+  .tag.ww{border-color:var(--red-bright);color:#ffe3b0;background:rgba(214,58,41,.22);box-shadow:0 0 8px rgba(255,90,60,.25);}
+
+  .callout{
+    border:1px solid var(--gold-dim);border-left:3px solid var(--gold);
+    background:rgba(217,164,65,.07);padding:10px 13px;margin-top:14px;font-size:13px;
+  }
+  .callout .ct{color:var(--gold-bright);letter-spacing:.14em;font-size:11px;display:block;margin-bottom:4px;font-weight:400;}
+  .warn{
+    border:1px solid var(--red);border-left:3px solid var(--red-bright);
+    background:rgba(165,35,24,.12);padding:10px 13px;margin-top:12px;font-size:12.5px;color:#d9c3b0;
+  }
+  .warn .wt{color:var(--red-glow);letter-spacing:.14em;font-size:11px;display:block;margin-bottom:4px;}
+  .warn b{color:var(--gold-bright);font-weight:600;}
+
+  .reward-banner{
+    text-align:center;border:1px solid var(--gold);
+    background:linear-gradient(180deg,rgba(217,164,65,.16),rgba(165,35,24,.10));
+    padding:14px;margin-top:6px;
+    box-shadow:0 0 24px rgba(217,164,65,.14);
+  }
+  .reward-banner .rt{color:var(--gold-bright);font-size:16px;letter-spacing:.2em;}
+  .reward-banner .rs{color:var(--ink-dim);font-size:11px;letter-spacing:.16em;margin-top:5px;}
+  .reward-banner .rg{color:var(--green);font-size:12px;margin-top:7px;}
+
+  /* ===== 技能图标网格 ===== */
+  .skillgrid{
+    display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:14px;
+  }
+  .sic{
+    border:1px solid var(--line);border-radius:2px;
+    background:linear-gradient(160deg,var(--panel2),#0b0604);
+    padding:8px 6px 7px;text-align:center;position:relative;overflow:hidden;
+    transition:transform .12s ease, box-shadow .12s ease;
+  }
+  .sic:hover{transform:translateY(-2px);box-shadow:0 4px 14px rgba(214,58,41,.28);}
+  .sic .ic{
+    width:44px;height:44px;margin:0 auto 6px;display:block;
+    border:1px solid var(--gold-dim);border-radius:3px;
+    background:radial-gradient(circle at 50% 35%,rgba(214,58,41,.28),#0b0604 70%);
+  }
+  .sic.core{border-color:var(--red-bright);box-shadow:0 0 10px rgba(255,90,60,.22);}
+  .sic.core .ic{border-color:var(--red-bright);}
+  .sic.passive .ic{border-color:#4a6b38;}
+  .sic .sn{font-size:11px;color:var(--gold-bright);letter-spacing:.04em;line-height:1.35;}
+  .sic .sk2{font-size:9px;color:var(--ink-dim);margin-top:2px;letter-spacing:.06em;}
+  .sic .badge{
+    position:absolute;top:0;right:0;font-size:8px;letter-spacing:.08em;
+    color:#0b0604;background:var(--red-bright);padding:0 4px;border-bottom-left-radius:3px;
+  }
+  .sic.passive .badge{background:var(--green);}
+  @media (max-width:520px){ .skillgrid{grid-template-columns:repeat(2,1fr);} }
+
+  .foot{text-align:center;color:var(--gold-dim);font-size:10px;letter-spacing:.24em;margin-top:26px;}
+  .foot span{color:var(--red-bright);}
+  @media (max-width:520px){
+    .card .portrait{width:100%;flex-direction:row;}
+    .titlebar h1{font-size:21px;}
+  }
+
+  /* ===== 修订版新增：语义标题 / 状态机 / 计时控制 / 无障碍 ===== */
+  .skillgrid{list-style:none;}
+  .panel-h h2.htxt,.panel-h h3.htxt,.callout h3.ct,.warn h3.ct{font-weight:400;}
+  .sr-only{
+    position:absolute;width:1px;height:1px;padding:0;margin:-1px;
+    overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;
+  }
+  .timer-ctl{
+    display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;
+    gap:8px;margin-top:12px;padding-top:10px;border-top:1px dashed var(--line);
+  }
+  .ctl-note{font-size:11px;color:var(--ink-dim);letter-spacing:.08em;}
+  .ctl-btns{display:flex;flex-wrap:wrap;gap:6px;}
+  .ctl-btns button{
+    font:inherit;font-size:11px;letter-spacing:.06em;color:var(--gold-bright);
+    background:rgba(217,164,65,.08);border:1px solid var(--gold-dim);
+    border-radius:2px;padding:3px 9px;cursor:pointer;
+  }
+  .ctl-btns button:hover:not(:disabled){background:rgba(217,164,65,.18);}
+  .ctl-btns button:disabled{opacity:.4;cursor:not-allowed;}
+  .ctl-btns button:focus-visible,
+  .build-detail summary:focus-visible{outline:2px solid var(--gold-bright);outline-offset:2px;}
+  .wrap[data-state="completed"] .q-time{color:var(--green);border-color:#4a6b38;background:rgba(127,174,90,.12);}
+  .wrap[data-state="failed"] .q-time{color:#ff2d12;border-color:var(--red-bright);background:rgba(165,35,24,.22);}
+  .wrap[data-phase="collapse"] .q-time{color:#ff2d12;}
+  .wrap[data-state="paused"] .q-time{color:var(--gold);}
+  .wrap[data-state="completed"] .htag{color:var(--green);border-color:#4a6b38;}
+  .wrap[data-state="failed"] .htag{color:var(--red-glow);border-color:var(--red);}
+  .wrap[data-state="completed"] .reward-banner{box-shadow:0 0 28px rgba(127,174,90,.28);border-color:var(--green);}
+  .obj-list[data-failed="true"] li.cur .curnow{color:var(--red-glow);}
+  .meta-note{font-size:10.5px;color:var(--ink-dim);letter-spacing:.04em;line-height:1.6;margin-top:8px;}
+  .build-detail{margin-top:12px;border-top:1px dashed var(--line);padding-top:8px;font-size:12px;}
+  .build-detail summary{cursor:pointer;color:var(--gold);letter-spacing:.1em;font-size:11px;}
+  .build-detail dl{margin-top:8px;display:grid;grid-template-columns:92px 1fr;gap:3px 10px;}
+  .build-detail dt{color:var(--gold-dim);}
+  .build-detail dd{color:var(--ink);}
+  @media (max-width:520px){
+    .build-detail dl{grid-template-columns:1fr;gap:1px;}
+    .build-detail dd{margin-bottom:6px;}
+    .timer-ctl{flex-direction:column;align-items:flex-start;}
+  }
+  /* 尊重系统「减少动态效果」：取消抬升与过渡，保留全部叙事信息 */
+  @media (prefers-reduced-motion: reduce){
+    *,*::before,*::after{transition:none!important;animation:none!important;scroll-behavior:auto!important;}
+    .sic:hover{transform:none;box-shadow:none;}
+  }
+</style>
+</head>
+<body>
+<div class="wrap" id="quest" data-state="running" data-phase="p240">
+
+  <div class="titlebar">
+    <div class="kicker">Side Quest · 支线任务</div>
+    <h1>崩 城 之 影</h1>
+    <div class="sub">魔影克鲁斯 · 铁狼 · 旋风武僧</div>
+  </div>
+
+  <!-- ===== 任务日志 ===== -->
+  <div class="panel">
+    <div class="panel-h"><span class="sigil" aria-hidden="true"></span><h2 class="htxt">任务日志 · Quest Log</h2><span class="htag" id="questState">进行中</span></div>
+    <div class="q-head">
+      <div class="q-title">崩城之影</div>
+      <div class="q-time" id="timer" role="timer" aria-live="off" aria-atomic="true" aria-label="墓穴计时：04:00">04:00</div>
+    </div>
+    <dl class="q-meta">
+      <dt>任务给予者</dt><dd>库拉斯特海港 · 铁狼首领 艾席拉</dd>
+      <dt>任务地点</dt><dd>嚎叫高原 · 崩塌墓穴（时限地下城）</dd>
+      <dt>任务目标</dt><dd>四分钟之内于崩塌墓穴中寻得失散的铁狼精英"魔影克鲁斯"，并肩杀出重围</dd>
+      <dt class="q-reward">任务奖励</dt><dd class="q-reward">可招募雇佣兵 —— 魔影克鲁斯（旋风武僧 · 自带"石肤"光环）</dd>
+      <dt class="q-fail">失败条件</dt><dd class="q-fail">墓穴完全崩塌仍未寻获，或克鲁斯阵亡且未被救起</dd>
+    </dl>
+    <ul class="obj-list" id="objList" aria-label="任务目标">
+      <li class="done"><span class="box" aria-hidden="true"></span>前往库拉斯特海港，与艾席拉对话接取任务</li>
+      <li class="done"><span class="box" aria-hidden="true"></span>通过嚎叫高原传送门，进入崩塌墓穴</li>
+      <li class="cur" aria-current="step"><span class="box" aria-hidden="true"></span>在墓穴崩塌前找到魔影克鲁斯<span class="curnow">◂ 进行中</span></li>
+      <li><span class="box" aria-hidden="true"></span>护送克鲁斯与幸存斥候撤离墓穴</li>
+      <li><span class="box" aria-hidden="true"></span>返回海港，招募魔影克鲁斯入队</li>
+    </ul>
+
+    <div class="timer-ctl" role="group" aria-label="计时器控制">
+      <span class="ctl-note">现场读秒 · 默认随剧情节点推进</span>
+      <div class="ctl-btns">
+        <button type="button" id="btnLive" aria-pressed="false">开启实时挑战</button>
+        <button type="button" id="btnPause" disabled>暂停</button>
+        <button type="button" id="btnReset">重置</button>
+      </div>
+    </div>
+    <p class="sr-only" id="questAnnounce" role="status" aria-live="polite" aria-atomic="true"></p>
+    <p class="sr-only" id="questAlert" role="alert" aria-atomic="true"></p>
+  </div>
+
+  <!-- ===== 第一幕 委托 ===== -->
+  <div class="sep"><h2>第 一 幕 · 委 托</h2></div>
+
+  <div class="dlg npc-akkad">
+    <div class="ava" aria-hidden="true">艾</div>
+    <div class="body">
+      <div class="name">艾席拉 <span class="rol">铁狼首领 · 任务给予者</span></div>
+      <div class="bub">你一定是顶着风险来到这里的伟大冒险者。我本可以让雇用我手下这件事变得简单些——但有一笔旧账，得先算清。</div>
+    </div>
+  </div>
+
+  <div class="dlg npc-akkad">
+    <div class="ava" aria-hidden="true">艾</div>
+    <div class="body">
+      <div class="name">艾席拉</div>
+      <div class="bub">铁狼里头有个异类，叫克鲁斯。别人靠火、靠电、靠冰，只有他——以拳破阵、以气御风，一双铁拳卷起的风，能替一整队人挡下箭雨。没人知道他从哪儿来，他自己也只说过一句："我曾是一座地下城的守卫。"龙级的，给冒险者当垫脚石的高级杂兵，只不过活得太久，久到连坟墓都记不住他的名字。</div>
+    </div>
+  </div>
+
+  <div class="dlg npc-akkad">
+    <div class="ava" aria-hidden="true">艾</div>
+    <div class="body">
+      <div class="name">艾席拉</div>
+      <div class="bub">三天前，嚎叫高原一座古墓无故崩塌，那是我们的一处前哨，克鲁斯带人驻守。等尘烟散尽，一个活口都没回来——只有一个爬回来的斥候，带了半句遗言："城没了……克鲁斯还在下面……他没跑，他在给活人挡。"</div>
+    </div>
+  </div>
+
+  <div class="narr" data-clock="240" data-phase="p240">她把一枚湿透的铁狼徽记拍进你手里。<span class="timer">墓穴正在持续塌陷，进去的人最多四分钟。</span>过了四分钟，除非你变成鬼魂，否则别想再出来。</div>
+
+  <div class="dlg npc-akkad">
+    <div class="ava" aria-hidden="true">艾</div>
+    <div class="body">
+      <div class="name">艾席拉</div>
+      <div class="bub">找到他，把他带回来。铁狼不抛弃任何一个还能站着的人——哪怕他从来不合群，哪怕他比那些丛林里的怪物还难缠。</div>
+    </div>
+  </div>
+
+  <div class="callout">
+    <span class="ct">▍任务已更新</span>
+    进入嚎叫高原的传送门，四分钟之内找到魔影克鲁斯。
+  </div>
+
+  <!-- ===== 第二幕 崩城 ===== -->
+  <div class="sep"><h2>第 二 幕 · 崩 城</h2></div>
+
+  <div class="narr" data-clock="240" data-phase="p240">传送门把你吐在一片正在解体的墓穴大厅里。雨声消失了，取而代之的是整座建筑垂死般的呻吟——嘎吱、崩裂、<span class="boom">轰然</span>。屏幕角落，倒计时已经开始跳动。<span class="timer">04:00</span></div>
+
+  <div class="narr">这里本该是秩序井然的亡灵巢穴，此刻却乱作一团。骷髅丢下长矛盲目乱撞，食腐蝙蝠凄厉四散，连最凶悍的缝合尸都停下了脚步——维系这座地下城的某种更高意志，已经崩塌了。你砍开一条血路冲向最深处那道幽光拱门，倒计时跳到最后一分钟，你听见了打斗声。</div>
+
+  <div class="narr">一个人，独自挡在数倍于己的亡灵之前。他不持法杖——他双拳灌满气劲，旋身一挣，卷起一股灰黑色的旋风，成片的骷髅在风里被绞成碎骨。他周身荡着一层淡淡的气，笼罩身后几个瑟瑟发抖的斥候，只要那层气在，伤口就愈合得更快，脚步也不再打颤。</div>
+
+  <div class="narr"><span class="timer">石肤光环。</span>你在心里认出了它——铁狼里只有极少数人能带出这种护身之气，它不伤人，只护人。</div>
+
+  <div class="dlg player">
+    <div class="ava" aria-hidden="true">你</div>
+    <div class="body">
+      <div class="name">冒险者 <span class="rol">玩家</span></div>
+      <div class="bub">"克鲁斯！艾席拉派我来的！"</div>
+    </div>
+  </div>
+
+  <div class="dlg npc-kruss" data-clock="180" data-phase="p180">
+    <div class="ava" aria-hidden="true">克</div>
+    <div class="body">
+      <div class="name">魔影克鲁斯 <span class="rol">铁狼 · 旋风武僧</span></div>
+      <div class="bub">（回头，看了一眼你手里的徽记）……还有三分钟。先带他们走。我殿后。</div>
+    </div>
+  </div>
+
+  <!-- ===== 第三幕 大风车 ===== -->
+  <div class="sep"><h2>第 三 幕 · 旋 风</h2></div>
+
+  <div class="narr">"殿后"这个词，从他嘴里说出来带着古怪的分量。你忽然明白了艾席拉那句话——一个当了太久守卫的人，早就习惯了站在队伍最后、站在石廊尽头、站在所有活人身后。崩塌的规律对他毫无意义：哪块砖先塌、哪道门撑不过十息、哪一群亡灵会在气劲散去后最先补上，他闭着眼都清楚。他不是在逃，他是在<span class="timer">带路</span>。</div>
+
+  <div class="dlg npc-kruss">
+    <div class="ava" aria-hidden="true">克</div>
+    <div class="body">
+      <div class="name">魔影克鲁斯</div>
+      <div class="bub">这座城，我守了很久。日复一日，与闯进来的冒险者"并肩作战"——听起来很荒谬，对吧？我们杀他们，他们杀我们，我们又被腐化之力拉起来，再站在老地方。永无止境。</div>
+    </div>
+  </div>
+
+  <div class="narr" data-clock="90" data-phase="p90"><span class="timer">倒计时：01:30。</span>巨石砸落封死来路。他旋身而起，双拳带出的气劲炸成一片灰旋风，替你绞碎了从背后扑来的整队骷髅——那一转之间，风过之处无一站立，活像一台不知疲倦的<span class="boom">大风车</span>。</div>
+
+  <div class="dlg npc-kruss">
+    <div class="ava" aria-hidden="true">克</div>
+    <div class="body">
+      <div class="name">魔影克鲁斯</div>
+      <div class="bub">我数不清杀过多少冒险者，也数不清被多少冒险者杀过。直到有一天规律断了——地面开始震，头顶开始掉石头，怪物们乱作一团。我第一次发现，这条我站了千百年的石廊，第一次不属于任何人的剧本。</div>
+    </div>
+  </div>
+
+  <div class="dlg npc-kruss">
+    <div class="ava" aria-hidden="true">克</div>
+    <div class="body">
+      <div class="name">魔影克鲁斯</div>
+      <div class="bub">后来我学了一样本事，是我这辈子唯一自己选的东西——把气劲卷成风，一路转着走。风不停，脚就不停；脚不停，就能把身后的人一直往前带。走。剩下的路，我来转。</div>
+    </div>
+  </div>
+
+  <!-- ===== 第三幕·补：武僧导师支线 ===== -->
+  <div class="sep"><h2>第 三 幕 · 支 线</h2></div>
+
+  <div class="callout">
+    <h3 class="ct">▍隐藏支线触发 · 师承之风</h3>
+    撤离途中，一段未被塌方吞没的回廊深处传来沉稳的呼吸声。一名独坐石台上的老者缓缓睁眼。
+  </div>
+
+  <div class="dlg npc-master">
+    <div class="ava" aria-hidden="true">师</div>
+    <div class="body">
+      <div class="name">盲眼武僧 · 昙 <span class="rol">旋风武学 · 导师 / 训练师</span></div>
+      <div class="bub">（未睁眼，指尖轻叩石台）风声不对。走进这条廊的人，脚步都带着逃。只有你——脚步在逃，拳风还在往前卷。孩子，你转得不差，可你在用命转。</div>
+    </div>
+  </div>
+
+  <div class="dlg npc-kruss">
+    <div class="ava" aria-hidden="true">克</div>
+    <div class="body">
+      <div class="name">魔影克鲁斯</div>
+      <div class="bub">（骤然收拳）……师父？你还活着。</div>
+    </div>
+  </div>
+
+  <div class="dlg npc-master">
+    <div class="ava" aria-hidden="true">师</div>
+    <div class="body">
+      <div class="name">盲眼武僧 · 昙</div>
+      <div class="bub">活着，等着。等你哪天不再拿"守卫"当借口。当年我教你怎么把气卷成风，你却只学会用它替别人挡刀——挡得好，可那不是风，那是墙。墙会塌，风不会。你听，这座城塌了，墙全塌了，只有风还活着。</div>
+    </div>
+  </div>
+
+  <div class="dlg npc-kruss">
+    <div class="ava" aria-hidden="true">克</div>
+    <div class="body">
+      <div class="name">魔影克鲁斯</div>
+      <div class="bub">我守了一辈子。除了站在原地等人来杀，我不知道还会什么。</div>
+    </div>
+  </div>
+
+  <div class="dlg npc-master">
+    <div class="ava" aria-hidden="true">师</div>
+    <div class="body">
+      <div class="name">盲眼武僧 · 昙</div>
+      <div class="bub">错。你会转。转起来，你就不再是一堵墙——你是一条路。记住三句话：<b>气要长，脚要快，风要不停。</b>杀怪回气，气满不空；跑起来就要一直跑，转起来就不要轻易停。身上那口气护着旁人是善，可你若把自己耗干，护个什么？</div>
+    </div>
+  </div>
+
+  <div class="dlg npc-master">
+    <div class="ava" aria-hidden="true">师</div>
+    <div class="body">
+      <div class="name">盲眼武僧 · 昙</div>
+      <div class="bub">（把一枚磨亮的拳环抛过来）拿去。别回头谢我——回头的人转不起风。等你把这条廊外头的人全带出去了，再来找我，我还有后半句没教。</div>
+    </div>
+  </div>
+
+  <div class="callout">
+    <span class="ct">▍支线进度 · 师承之风</span>
+    已获授【旋风武学·要诀】。目标更新：撤离后于库拉斯特海港西南回廊复访盲眼武僧·昙，学习"无尽气旋"（解锁克鲁斯"风不停转"续航精通）。
+  </div>
+
+  <!-- ===== 第四幕 抉择 ===== -->
+  <div class="sep"><h2>第 四 幕 · 抉 择</h2></div>
+
+  <div class="narr" data-clock="40" data-phase="p40"><span class="timer">倒计时：00:40。</span>出口幽光近在眼前。可拱门之前，最后一段石廊轰然塌陷，两拨被惊醒的亡灵从两侧涌出，把队伍截成两段——斥候在你这侧，克鲁斯独自卡在另一侧，用身躯堵住最凶的那一群。</div>
+
+  <div class="dlg npc-kruss">
+    <div class="ava" aria-hidden="true">克</div>
+    <div class="body">
+      <div class="name">魔影克鲁斯</div>
+      <div class="bub">过不去了。你带他们出去，还来得及。</div>
+    </div>
+  </div>
+
+  <div class="dlg player">
+    <div class="ava" aria-hidden="true">你</div>
+    <div class="body">
+      <div class="name">冒险者 <span class="rol">玩家</span></div>
+      <div class="bub">"跟我们一起走！师父说了——你不是墙，你是路。路要往前走。"</div>
+    </div>
+  </div>
+
+  <div class="narr">他一怔。头顶巨石成片坠落，尘土呛得人睁不开眼。</div>
+
+  <div class="dlg npc-kruss">
+    <div class="ava" aria-hidden="true">克</div>
+    <div class="body">
+      <div class="name">魔影克鲁斯</div>
+      <div class="bub">我活了太久，久到快忘了自己算不算"人"。你说……一个当了一辈子杂兵的守卫，一个连坟墓都不记得名字的东西，也有资格被人雇去、被人并肩、被人……复活吗？</div>
+    </div>
+  </div>
+
+  <div class="narr">你想起了雇佣兵的规矩：等级越高，复活越贵，五万封顶；中毒会像凡人一样把人耗死；一个佣兵只能带一个，换了旧的就永远退休；可只要付得起价，他们就<b>忠诚至死，绝不回头</b>。</div>
+
+  <div class="dlg player">
+    <div class="ava" aria-hidden="true">你</div>
+    <div class="body">
+      <div class="name">冒险者 <span class="rol">玩家</span></div>
+      <div class="bub">"你有资格。不为金币，为这一路你替他们挡下的每一击——也为风还没停。"</div>
+    </div>
+  </div>
+
+  <div class="narr">你把手伸了过去。千百年来，伸向这只手、又举起刀剑劈开它的，是无数冒险者。此刻它摊开着，掌心里是一条他从没踏上的路。他抬起缠着幽光的手，重重地按了上来——钢铁与血肉，第一次真正并肩。</div>
+
+  <div class="callout">
+    <span class="ct">▍任务已更新</span>
+    护送魔影克鲁斯撤离 —— 拳刃 · 护符 · 武袍，三件装备槽已解锁。
+  </div>
+
+  <!-- ===== 第五幕 招募 ===== -->
+  <div class="sep"><h2>第 五 幕 · 招 募</h2></div>
+
+  <div class="narr" data-clock="10" data-phase="p10"><span class="timer">倒计时：00:10。</span>你拽着他冲出拱门，传送门幽光在身后合拢。就在门彻底闭合的一瞬，整座墓穴<span class="boom">轰然塌成平地</span>——屏幕角落的倒计时跳成刺眼的红字"墓穴崩塌"，随即消失。你和克鲁斯跌坐在嚎叫高原的雨里，身前是惊魂未定的斥候们。</div>
+
+  <div class="narr" data-clock="0" data-phase="collapse">他左肩的伤还渗着幽绿的光。你把手边最后一瓶生命药剂递到他的头像上——他会感激地说一声"谢谢你"，然后伤口缓缓愈合。</div>
+
+  <div class="dlg npc-kruss">
+    <div class="ava" aria-hidden="true">克</div>
+    <div class="body">
+      <div class="name">魔影克鲁斯</div>
+      <div class="bub">……谢谢你。</div>
+    </div>
+  </div>
+
+  <div class="dlg npc-akkad">
+    <div class="ava" aria-hidden="true">艾</div>
+    <div class="body">
+      <div class="name">艾席拉 <span class="rol">铁狼首领</span></div>
+      <div class="bub">（看着你身后这个沉默的、甲缝里流转着幽光的男人）他回来了。铁狼……又多了一个不该存在、却偏偏站在我们这边的人。</div>
+    </div>
+  </div>
+
+  <div class="narr">她翻开雇佣名录，在最新一行落下笔：</div>
+
+  <div class="panel">
+    <div class="panel-h"><span class="sigil" aria-hidden="true"></span><h3 class="htxt">雇佣名录 · 可招募雇佣兵</h3><span class="htag">新入队</span></div>
+    <div class="card">
+      <div class="portrait">
+        <div class="glyph" aria-hidden="true">卍</div>
+        <div class="cap">魔影克鲁斯<br>IRON WALKER</div>
+      </div>
+      <div class="stats">
+        <div class="stat-row"><span class="sk">姓名</span><span class="sv">魔影克鲁斯</span></div>
+        <div class="stat-row"><span class="sk">阵营</span><span class="sv">铁狼（库拉斯特）</span></div>
+        <div class="stat-row"><span class="sk">流派</span><span class="sv">旋风武僧 · 大风车跑图流（PVE 割草／速刷）</span></div>
+        <div class="stat-row"><span class="sk">出身</span><span class="sv">不明地下城 · 龙级守卫（已崩塌）</span></div>
+        <div class="stat-row"><span class="sk">武器</span><span class="sv">双手长柄／符文拳刃（旋风绑定武器）</span></div>
+        <div class="stat-row"><span class="sk">护具</span><span class="sv">无尽风盔 · 铁狼战袍 · 逐风步履</span></div>
+        <div class="stat-row"><span class="sk">属性倾向</span><span class="sv">力量／敏捷 · 暴击爆发 · 击杀回气 · 移动速度</span></div>
+        <div class="stat-row"><span class="sk">自带光环</span><span class="sv">石肤（Stone Skin）—— 提升全队护甲与伤害减免</span></div>
+        <div class="tags">
+          <span class="tag ww">旋风斩·疾风旋（核心·转进）</span>
+          <span class="tag skill">突刺打击·赶路</span>
+          <span class="tag skill">回天气诀·回气</span>
+          <span class="tag skill">挑战怒吼·聚怪</span>
+          <span class="tag skill">战斗怒吼·增伤</span>
+          <span class="tag skill">大地践踏·破甲</span>
+          <span class="tag skill">无尽气旋（被动·永动）</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout">
+      <span class="ct">▍光环 · 石肤（Stone Skin）</span>
+      克鲁斯身披的护身之气会笼罩全队，提升护甲与伤害减免。旋风武僧身板偏脆，正是靠这层气站住脚才转得起来——他护人，也护自己。
+    </div>
+
+    <div class="callout">
+      <span class="ct">▍武学思路 · 大风车跑图流</span>
+      先开战斗怒吼、挑战怒吼叠满增伤与减伤，再以突刺打击位移起手、攒满气劲，随后开启<b>旋风斩·疾风旋</b>持续转进；击杀回气保证气劲不空、风不中断，鞋子词条优先移动速度，一路转、一路清，图未刷完风先到。
+    </div>
+
+    <div class="callout" style="border-left-color:var(--red-bright);">
+      <h3 class="ct" style="color:var(--red-glow);">▍技能栏 · 大风车跑图流配置</h3>
+      图中高亮红框为核心转进技，绿框为永动被动，其余为衔接与增益技。
+    </div>
+    <div class="skillgrid" role="list" aria-label="大风车跑图流技能栏">
+      <div class="sic core" role="listitem" data-kind="core">
+        <span class="badge" aria-hidden="true">核心</span>
+        <svg class="ic" viewBox="0 0 48 48" role="img" aria-label="旋风斩·疾风旋，核心技能，转进清群" focusable="false"><title>旋风斩·疾风旋，核心技能，转进清群</title>
+          <g fill="none" stroke="#ff5a3c" stroke-width="2.4" stroke-linecap="round">
+            <path d="M24 8v32M12 14l24 20M36 14L12 34"/>
+          </g>
+          <circle cx="24" cy="24" r="4" fill="#f4cf7a"/>
+          <g fill="none" stroke="#f4cf7a" stroke-width="1.6" opacity=".8">
+            <path d="M24 6a18 18 0 0 1 18 18M24 42A18 18 0 0 1 6 24"/>
+          </g>
+        </svg>
+        <div class="sn">旋风斩·疾风旋</div>
+        <div class="sk2">转进清群 · 核心</div>
+      </div>
+      <div class="sic" role="listitem" data-kind="normal">
+        <svg class="ic" viewBox="0 0 48 48" role="img" aria-label="突刺打击，位移起手与赶路" focusable="false"><title>突刺打击，位移起手与赶路</title>
+          <path d="M30 10L14 30l6 2 4 8 4-2-2-8 10-16z" fill="none" stroke="#d9a441" stroke-width="2.2" stroke-linejoin="round"/>
+          <path d="M14 30l8 4" stroke="#ff5a3c" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <div class="sn">突刺打击</div>
+        <div class="sk2">位移起手 · 赶路</div>
+      </div>
+      <div class="sic" role="listitem" data-kind="normal">
+        <svg class="ic" viewBox="0 0 48 48" role="img" aria-label="回天气诀，击杀回气与续航" focusable="false"><title>回天气诀，击杀回气与续航</title>
+          <g fill="none" stroke="#7fae5a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M24 38V20M24 20l-7-7M24 20l7-7M24 20V10"/>
+          </g>
+          <circle cx="24" cy="40" r="2.5" fill="#f4cf7a"/>
+        </svg>
+        <div class="sn">回天气诀</div>
+        <div class="sk2">击杀回气 · 续航</div>
+      </div>
+      <div class="sic" role="listitem" data-kind="normal">
+        <svg class="ic" viewBox="0 0 48 48" role="img" aria-label="挑战怒吼，聚怪并施加易伤" focusable="false"><title>挑战怒吼，聚怪并施加易伤</title>
+          <g fill="none" stroke="#d9a441" stroke-width="2.2" stroke-linecap="round">
+            <path d="M16 12v24M16 14c8 0 12 4 12 10s-4 10-12 10"/>
+            <path d="M32 16c4 2 6 6 6 8s-2 6-6 8" stroke="#ff5a3c"/>
+          </g>
+        </svg>
+        <div class="sn">挑战怒吼</div>
+        <div class="sk2">聚怪 · 施加易伤</div>
+      </div>
+      <div class="sic" role="listitem" data-kind="normal">
+        <svg class="ic" viewBox="0 0 48 48" role="img" aria-label="战斗怒吼，团队增伤与爆发" focusable="false"><title>战斗怒吼，团队增伤与爆发</title>
+          <g fill="none" stroke="#d9a441" stroke-width="2.2" stroke-linecap="round">
+            <path d="M12 30c4-8 8-8 12 0M24 30c4-8 8-8 12 0"/>
+            <path d="M18 34v6M30 34v6M24 32v8" stroke="#f4cf7a"/>
+          </g>
+        </svg>
+        <div class="sn">战斗怒吼</div>
+        <div class="sk2">团队增伤 · 爆发</div>
+      </div>
+      <div class="sic" role="listitem" data-kind="normal">
+        <svg class="ic" viewBox="0 0 48 48" role="img" aria-label="大地践踏，破甲与眩晕" focusable="false"><title>大地践踏，破甲与眩晕</title>
+          <g fill="none" stroke="#ff5a3c" stroke-width="2.2" stroke-linecap="round">
+            <path d="M24 10v10M10 24h28M24 24l-8 10M24 24l8 10"/>
+          </g>
+          <circle cx="24" cy="24" r="3" fill="#f4cf7a"/>
+        </svg>
+        <div class="sn">大地践踏</div>
+        <div class="sk2">破甲 · 眩晕</div>
+      </div>
+      <div class="sic" role="listitem" data-kind="normal">
+        <svg class="ic" viewBox="0 0 48 48" role="img" aria-label="石肤光环，全队护甲与伤害减免" focusable="false"><title>石肤光环，全队护甲与伤害减免</title>
+          <g fill="none" stroke="#d9a441" stroke-width="2" stroke-linecap="round">
+            <path d="M24 6v36M24 12l10 6-10 6-10-6z"/>
+            <path d="M14 24l10 6 10-6" stroke="#ff5a3c"/>
+          </g>
+        </svg>
+        <div class="sn">石肤光环</div>
+        <div class="sk2">全队护甲 · 减伤</div>
+      </div>
+      <div class="sic passive" role="listitem" data-kind="passive">
+        <span class="badge" aria-hidden="true">被动</span>
+        <svg class="ic" viewBox="0 0 48 48" role="img" aria-label="无尽气旋，被动技能，永动续航、风不中断" focusable="false"><title>无尽气旋，被动技能，永动续航、风不中断</title>
+          <g fill="none" stroke="#7fae5a" stroke-width="2.2" stroke-linecap="round">
+            <path d="M24 40a16 16 0 1 1 14-8"/>
+            <path d="M24 24l8-6M24 24l-6 6"/>
+          </g>
+          <circle cx="24" cy="24" r="3" fill="#f4cf7a"/>
+          <path d="M38 30l4-2-1 5" fill="none" stroke="#7fae5a" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <div class="sn">无尽气旋</div>
+        <div class="sk2">永动 · 风不中断</div>
+      </div>
+    </div>
+
+    <details class="build-detail">
+      <summary>技能循环与作用（文本版 · 供读屏与检索）</summary>
+      <dl>
+        <dt>起手增益</dt><dd>战斗怒吼（团队增伤）→ 挑战怒吼（聚怪、施加易伤）</dd>
+        <dt>位移攒气</dt><dd>突刺打击起手赶路，配合回天气诀以击杀回气维持续航</dd>
+        <dt>核心转进</dt><dd>旋风斩·疾风旋持续转进清群，是整套配置的核心技能</dd>
+        <dt>控场补充</dt><dd>大地践踏破甲、眩晕，衔接转进节奏</dd>
+        <dt>护身光环</dt><dd>石肤光环提升全队护甲与伤害减免</dd>
+        <dt>永动被动</dt><dd>无尽气旋保证击杀回气、旋风不中断，由支线「师承之风」习得</dd>
+      </dl>
+    </details>
+
+    <div class="warn">
+      <h3 class="ct">▍雇佣须知</h3>
+      <p class="meta-note">库拉斯特佣兵规约 · 本世界记录：以下数值为该世界通行规约，非跨版本通用公式。</p>
+      <b>招募费照收。忠诚至死，不回头。</b>克鲁斯中毒后和你们一样会掉血，哪怕在城镇里也不例外——记得备解毒剂。他若阵亡，来海港找艾席拉复活，费用随等级水涨船高，<b>五万封顶</b>。他可陪你升至<b>九十八级</b>，一步不落。装备槽三件：拳刃／护符／武袍。
+    </div>
+    <p class="meta-note">跨代同人配置：融合铁狼身份、野蛮人旋风与武僧风劲；拳刃／护符／武袍为本页原创装备槽，并非 D2 标准配置。</p>
+  </div>
+
+  <div class="narr">克鲁斯站在雨里没有进屋。他抬头望向嚎叫高原的方向，望向那片已经塌平的墓穴。</div>
+
+  <div class="dlg npc-kruss">
+    <div class="ava" aria-hidden="true">克</div>
+    <div class="body">
+      <div class="name">魔影克鲁斯</div>
+      <div class="bub">我守了一辈子的地方，没了。可我第一次觉得，脚下这块地，是我自己选的。风也第一次，是往前吹的。</div>
+    </div>
+  </div>
+
+  <div class="narr">他转过身，长矛拄地，对你微微颔首——那是雇佣兵入伙时唯一的礼节。从今往后，他不会再站在任何一条石廊的尽头等着被人来杀、再被人拉起来。他会站在你队伍的最前面，替你挡下最先落下的那一击，卷着那股不肯停的风，护住身后所有还站着的人。</div>
+
+  <!-- ===== 支线收尾 师承之风 ===== -->
+  <div class="sep"><h2>支 线 完 成 · 师 承 之 风</h2></div>
+
+  <div class="callout">
+    <span class="ct">▍支线复访 · 库拉斯特海港西南回廊</span>
+    招募克鲁斯之后，你按约回到那座未被塌方吞没的回廊。盲眼武僧·昙仍坐在原处，指尖轻叩石台，像是早算准了你会来。
+  </div>
+
+  <div class="dlg npc-master">
+    <div class="ava" aria-hidden="true">师</div>
+    <div class="body">
+      <div class="name">盲眼武僧 · 昙 <span class="rol">旋风武学 · 导师</span></div>
+      <div class="bub">风声变了。上回进这条廊，他的脚步在逃、拳风在抖；这回——脚步往前，风也往前。好。后半句，我准你听：气要长，就要<b>杀一个、补一口</b>；脚要快，就要<b>转起来别轻易停</b>。风一旦断，人就又变回那堵会塌的墙了。</div>
+    </div>
+  </div>
+
+  <div class="dlg npc-kruss">
+    <div class="ava" aria-hidden="true">克</div>
+    <div class="body">
+      <div class="name">魔影克鲁斯</div>
+      <div class="bub">（单膝点地，把那枚磨亮的拳环双手奉还）当年你教我挡刀，我没学会停；如今我学会了不停。这一转，是替身后的人转的。</div>
+    </div>
+  </div>
+
+  <div class="dlg npc-master">
+    <div class="ava" aria-hidden="true">师</div>
+    <div class="body">
+      <div class="name">盲眼武僧 · 昙</div>
+      <div class="bub">（把拳环又推了回去，掌心压住他的手）环你戴着。风你转着。老朽在这廊里坐到头了，往后没有我，只有你自己的气。去吧——把这条廊外头的路，一直转到天亮。</div>
+    </div>
+  </div>
+
+  <div class="narr">老者合上眼，指间最后一次轻叩石台，回廊归于沉寂。克鲁斯起身，把拳环套上，指节收紧时，一股熟悉的灰黑旋风在他周身无声旋开——比在崩塌墓穴里，稳了太多。</div>
+
+  <div class="panel">
+    <div class="panel-h"><span class="sigil" aria-hidden="true"></span><h3 class="htxt">支线奖励 · 师承之风</h3><span class="htag">已完成</span></div>
+    <ul class="obj-list" aria-label="支线完成项">
+      <li class="done"><span class="box" aria-hidden="true"></span>复访库拉斯特海港西南回廊，聆听导师后半句教诲</li>
+      <li class="done"><span class="box" aria-hidden="true"></span>克鲁斯习得被动【无尽气旋】——击杀回气、旋风不中断（永动精通）</li>
+      <li class="done"><span class="box" aria-hidden="true"></span>获得传承装备【逐风者拳环】——旋风斩期间移速与伤害提升</li>
+      <li class="done"><span class="box" aria-hidden="true"></span>石肤光环强化：全队护甲与伤害减免额外提升一档</li>
+    </ul>
+    <div class="callout">
+      <span class="ct">▍克鲁斯 · 流派进阶</span>
+      习得【无尽气旋】后，大风车跑图流正式成型：先双吼叠增益，突刺起手攒气，旋风斩·疾风旋转进，靠击杀回气维持永动，逐风者拳环进一步放大转进期间的移速与伤害——<b>一路转、一路清，风不落、人不停。</b>
+    </div>
+  </div>
+
+  <div class="reward-banner" id="rewardBanner" data-phase="completed">
+    <div class="rt">任 务 完 成 · 崩 城 之 影</div>
+    <div class="rs">获得奖励：雇佣兵 · 魔影克鲁斯 已加入队伍</div>
+    <div class="rg">解锁光环：石肤（Stone Skin）—— 提升全队护甲与伤害减免</div>
+  </div>
+
+  <div class="foot">SIDE QUEST · <span>崩城之影</span> · THE FALLEN KEEP · 魔影克鲁斯</div>
+
+</div>
+
+<script>
+/* 修订版：叙事节点驱动读秒 + 可选实时挑战 + 统一任务状态机 */
+(function(){
+  'use strict';
+  var root      = document.getElementById('quest');
+  var timerEl   = document.getElementById('timer');
+  var stateEl   = document.getElementById('questState');
+  var objList   = document.getElementById('objList');
+  var banner    = document.getElementById('rewardBanner');
+  var announce  = document.getElementById('questAnnounce');
+  var alertEl   = document.getElementById('questAlert');
+  var btnLive   = document.getElementById('btnLive');
+  var btnPause  = document.getElementById('btnPause');
+  var btnReset  = document.getElementById('btnReset');
+
+  var quest = {
+    total: 240,
+    key: 'bcyz_quest_v1',
+    phases: {
+      p240:      {label:'04:00',       say:'任务开始，墓穴剩余四分钟。'},
+      p180:      {label:'03:00',       say:'剩余三分钟，克鲁斯决定殿后。'},
+      p90:       {label:'01:30',       say:'剩余一分三十秒，第三幕：旋风。'},
+      p40:       {label:'00:40',       say:'剩余四十秒，第四幕：抉择。'},
+      p10:       {label:'00:10',       say:'剩余十秒，第五幕：撤离。'},
+      collapse:  {label:'墓穴崩塌',    say:'墓穴崩塌，队伍已冲出拱门。'},
+      completed: {label:'✓ 任务完成',  say:'任务完成，魔影克鲁斯已加入队伍。'},
+      failed:    {label:'墓穴崩塌',    say:'墓穴崩塌，任务失败。点击重置可重试。'}
+    },
+    nodes: Array.prototype.slice.call(document.querySelectorAll('[data-clock]')),
+    doneNode: document.querySelector('[data-phase="completed"]')
+  };
+
+  var mode = 'story';        /* story | live */
+  var state = 'running';     /* running | paused | completed | failed */
+  var phase = 'p240';
+  var remaining = quest.total;
+  var endAt = null;
+  var tickId = null;
+  var lastSaid = null;
+  var lastObjState = null;
+  var objInit = objList.innerHTML;
+
+  function pad2(n){ n = String(n); return n.length < 2 ? '0' + n : n; }
+  function fmt(s){ return pad2(Math.floor(s/60)) + ':' + pad2(s%60); }
+
+  function phaseFor(sec){
+    if(sec > 180) return 'p240';
+    if(sec > 90)  return 'p180';
+    if(sec > 40)  return 'p90';
+    if(sec > 10)  return 'p40';
+    return 'p10';
+  }
+
+  function persist(){
+    try{
+      if(mode === 'live' && state === 'running' && endAt){
+        sessionStorage.setItem(quest.key, JSON.stringify({mode:'live',state:'running',endAt:endAt}));
+      } else if(mode === 'live' && state === 'paused'){
+        sessionStorage.setItem(quest.key, JSON.stringify({mode:'live',state:'paused',remaining:remaining}));
+      } else {
+        sessionStorage.removeItem(quest.key);
+      }
+    }catch(e){}
+  }
+
+  /* 只在阶段变化时播报；数字逐秒变化由 role="timer" 的 aria-live="off" 静默 */
+  function say(key){
+    if(lastSaid === key) return;
+    lastSaid = key;
+    var msg = quest.phases[key] ? quest.phases[key].say : '';
+    if(key === 'failed'){ alertEl.textContent = msg; }
+    else { announce.textContent = msg; }
+  }
+
+  function syncObjectives(s){
+    if(s === lastObjState) return;
+    lastObjState = s;
+    if(s === 'completed'){
+      objList.innerHTML = objInit
+        .replace(/class="cur"/g, 'class="done"')
+        .replace(/aria-current="step"/g, '')
+        .replace(/◂ 进行中/g, '✓ 已完成')
+        .replace(/<li>/g, '<li class="done">');
+      objList.removeAttribute('data-failed');
+    } else if(s === 'failed'){
+      objList.innerHTML = objInit.replace(/◂ 进行中/g, '✕ 已中断');
+      objList.setAttribute('data-failed','true');
+    } else {
+      objList.innerHTML = objInit;
+      objList.removeAttribute('data-failed');
+    }
+  }
+
+  function render(){
+    var p = quest.phases[phase] || quest.phases.p240;
+    root.setAttribute('data-state', state);
+    root.setAttribute('data-phase', phase);
+
+    var text;
+    if(state === 'completed')     text = quest.phases.completed.label;
+    else if(state === 'failed')   text = quest.phases.failed.label;
+    else if(phase === 'collapse') text = p.label;
+    else if(mode === 'live')      text = fmt(remaining);
+    else                          text = p.label;
+    if(timerEl.textContent !== text){
+      timerEl.textContent = text;
+      timerEl.setAttribute('aria-label', '墓穴计时：' + text);
+    }
+
+    var labels = {running:'进行中', paused:'已暂停', completed:'已完成', failed:'任务失败'};
+    stateEl.textContent = labels[state] || '进行中';
+
+    if(state === 'completed') banner.classList.add('is-complete');
+    else banner.classList.remove('is-complete');
+
+    syncObjectives(state);
+
+    var liveTxt = mode === 'live' ? '返回随剧情读秒' : '开启实时挑战';
+    if(btnLive.textContent !== liveTxt){
+      btnLive.textContent = liveTxt;
+      btnLive.setAttribute('aria-pressed', mode === 'live' ? 'true' : 'false');
+    }
+    btnPause.disabled = !(mode === 'live' && (state === 'running' || state === 'paused'));
+    btnPause.textContent = state === 'paused' ? '继续' : '暂停';
+  }
+
+  function stopTick(){ if(tickId){ clearInterval(tickId); tickId = null; } }
+  function startTick(){ stopTick(); tickId = setInterval(tick, 250); }
+
+  function tick(){
+    if(mode !== 'live' || state !== 'running') return;
+    var left = Math.max(0, Math.ceil((endAt - Date.now())/1000));
+    remaining = left;
+    if(left <= 0){
+      stopTick();
+      state = 'failed'; phase = 'failed'; endAt = null;
+      persist(); render(); say('failed');
+      return;
+    }
+    var k = phaseFor(left);
+    if(k !== phase){ phase = k; say(k); }
+    render();
+  }
+
+  /* 随阅读位置取「最后越过判定线」的叙事节点，向上回滚也能回退读秒 */
+  function storySync(){
+    var line = window.innerHeight * 0.45;
+    if(quest.doneNode && quest.doneNode.getBoundingClientRect().top <= line){
+      if(state !== 'completed'){
+        state = 'completed'; phase = 'completed';
+        render(); say('completed');
+      }
+      return;
+    }
+    var cur = quest.nodes[0], i, r;
+    for(i = 0; i < quest.nodes.length; i++){
+      r = quest.nodes[i].getBoundingClientRect();
+      if(r.top <= line) cur = quest.nodes[i];
+      else break;
+    }
+    var k = cur ? cur.getAttribute('data-phase') : 'p240';
+    var sec = cur ? Number(cur.getAttribute('data-clock')) : quest.total;
+    if(k !== phase || remaining !== sec){
+      phase = k; remaining = sec;
+      render(); say(k);
+    }
+  }
+
+  var scrollQueued = false;
+  function onScroll(){
+    if(mode !== 'story' || state === 'completed' || state === 'failed') return;
+    if(scrollQueued) return;
+    scrollQueued = true;
+    requestAnimationFrame(function(){ scrollQueued = false; storySync(); });
+  }
+
+  function toStory(){
+    stopTick();
+    mode = 'story'; state = 'running'; endAt = null;
+    persist(); storySync(); render();
+  }
+
+  function toLive(){
+    mode = 'live'; state = 'running'; phase = 'p240';
+    remaining = quest.total;
+    endAt = Date.now() + quest.total * 1000;
+    lastSaid = null;
+    persist(); startTick(); render(); say('p240');
+  }
+
+  btnLive.addEventListener('click', function(){
+    if(mode === 'live') toStory(); else toLive();
+  });
+
+  btnPause.addEventListener('click', function(){
+    if(mode !== 'live') return;
+    if(state === 'running'){
+      stopTick();
+      remaining = Math.max(0, Math.ceil((endAt - Date.now())/1000));
+      endAt = null; state = 'paused';
+      persist(); render();
+    } else if(state === 'paused'){
+      state = 'running';
+      endAt = Date.now() + remaining * 1000;
+      persist(); startTick(); render();
+    }
+  });
+
+  btnReset.addEventListener('click', function(){
+    stopTick();
+    mode = 'story'; state = 'running'; phase = 'p240';
+    remaining = quest.total; endAt = null; lastSaid = null;
+    try{ sessionStorage.removeItem(quest.key); }catch(e){}
+    alertEl.textContent = '';
+    window.scrollTo(0, 0);
+    render(); say('p240');
+  });
+
+  window.addEventListener('scroll', onScroll, {passive:true});
+  window.addEventListener('resize', onScroll, {passive:true});
+
+  /* 刷新后恢复实时挑战，不强制从 04:00 重来 */
+  try{
+    var saved = JSON.parse(sessionStorage.getItem(quest.key) || 'null');
+    if(saved && saved.mode === 'live'){
+      mode = 'live';
+      if(saved.state === 'paused'){
+        state = 'paused';
+        remaining = Math.max(0, Number(saved.remaining) || 0);
+        phase = phaseFor(remaining);
+      } else if(saved.endAt){
+        var left = Math.max(0, Math.ceil((saved.endAt - Date.now())/1000));
+        if(left <= 0){
+          state = 'failed'; phase = 'failed'; remaining = 0;
+        } else {
+          state = 'running'; endAt = saved.endAt; remaining = left;
+          phase = phaseFor(remaining);
+        }
+      }
+    }
+  }catch(e){}
+
+  if(mode === 'story') storySync();
+  render();
+  if(mode === 'live' && state === 'running') startTick();
+})();
+</script>
+</body>
+</html>
