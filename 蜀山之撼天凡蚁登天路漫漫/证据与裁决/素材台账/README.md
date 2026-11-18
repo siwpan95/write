@@ -46,12 +46,14 @@
 
 ## 四、查法
 
+两条命令**都从仓库根 `write/` 执行**（路径为跨目录相对路径）：
+
 ```bash
 # 形式校验（列数／重复键／加粗配对／空值分类／编码）
-cd 通用模板包 && python3 tools/tab_lint.py "../蜀山之撼天凡蚁登天路漫漫/证据与裁决/素材台账/"*.md
+cd write && python3 通用模板包/tools/tab_lint.py 蜀山之撼天凡蚁登天路漫漫/证据与裁决/素材台账/*.md
 
 # 包级校验（MANIFEST 哈希 + 门禁）
-cd 蜀山之撼天凡蚁登天路漫漫 && python3 校验/check_package.py
+cd write/蜀山之撼天凡蚁登天路漫漫 && python3 校验/check_package.py
 ```
 
 ---
