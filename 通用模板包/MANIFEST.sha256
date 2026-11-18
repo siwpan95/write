@@ -1,7 +1,9 @@
-﻿# 创作室通用模板包 v3.14 · SHA256 校验清单（2026-11-15）
+# 创作室通用模板包 v3.15 · SHA256 校验清单（2026-11-18）
 # 校验：在本目录执行  sha256sum -c MANIFEST.sha256
 # Windows: certutil -hashfile <文件> SHA256 逐项比对
-# v3.14 更新：19 号内容修订、14 号登记扩充；哈希仍按 git blob（LF）字节计算，文件集仍为 34 条。
+# v3.15 更新：新增 20-素材与设定整理模板.md 与 tools/tab_lint.py；文件集 34 → 36 条。
+# v3.15 更新：新增 20-素材与设定整理模板.md 与 tools/tab_lint.py；文件集 34 → 36 条。
+# v3.14 更新：19 号内容修订、14 号登记扩充；哈希仍按 git blob（LF）字节计算，文件集为 34 条。
 #
 # —— 2026-11-13 增补（本次深度审计后）——
 # 1) 覆盖范围补齐：纳入此前未受哈希保护的 6 个受控文件（tools/regression_checks.txt 是 C8 防回归断言的数据源，
@@ -12,7 +14,8 @@
 #    Linux/macOS 的 sha256sum -c 会因路径分隔符失配而全盘失败；现改为正斜杠。
 # 3) 哈希口径：一律取 git blob 字节（LF），不得按工作区字节计算（工作区可能是 CRLF 旧副本）。
 #    重算工具：python tools/manifest.py --write    校验：python tools/manifest.py --check
-962ff92e8588ca5752c204469b98402056ac53da69af7258d5e136206138631e  00-总档与SOP.md
+# —— 追加条目（新增模板与补入受控文件）——
+e5eb199ade62e86addf1aa1b4ac0076dc724dd0203916dfe793ec23eeeeecace  00-总档与SOP.md
 38e51e81975afa7428b8949ab3990c4efdf748c2725da2afab50533e5cb4f66d  01-立项定位模板.md
 6e0583eace5fc4c397610bbc7e860cc3ebac6c105befece94127dcc363cd37fc  02-大纲四层模板.md
 998414dd48127108a904fe53905e83e296a382c4a20fe949316887ed02fcbf5c  03-世界观圣经模板.md
@@ -26,22 +29,23 @@ b6faa7b47eea5af4e117ec38362174d4dba33eeccf8b3804fde33daea7007dfd  07-附录-本�
 049950f1e27a37b7da9bd91b5b884c603637fda5325ccf990f652c6113efc45c  11-合规与一致性检查模板.md
 03638c2b37d7480c388342aa7fdb4da2fa58fc23fe9e6ec351631554da31fd13  12-品类流派与IP合规前置模板.md
 25aed68cdff6dee7a6af231dde1a0fc54d8be8934904add6fd57642e38218038  13-世界先行与地图叙事模板.md
-1d87e59711cf8efdfb025080ead208f761510ef7faeb1088786708077725c3aa  14-外部依赖与来源登记表.md
+e8b89eca366c135a7b197040b34c460ce9da57dc17f43de5682d527d7854e463  14-外部依赖与来源登记表.md
 1c35ee35d2dcb73db30e3cbcd27cea212955b1ed0f2b340186c3e932337bf8dd  15-附录-填法样例集.md
 e18cfdf01b414901ef9625b6d71bd65ee929f8d502568ef5c2195d7bf9306021  16-喜剧节奏与无厘头手法模板.md
 f433f8228603bf6649393f527da47005a2fa8cb64466f7c38b063c653827b459  17-字数增密与紫罗兰散文防控模板.md
 7d49d1fbd9a60eb77eecacf030aa6cd919e964327c6a1426ddbab66f5446168b  18-程序化创作与算法脚本模板.md
-93fddacbe31b0e1fa958f063e114d06bd47e314d1607c2054676f8d0c690e96d  README.md
+6d949d6c3cd3777a781c899fd9fd01171675a8c93094721056c200adcf243961  README.md
 55bdf4a558314c5acccdd2bb31bb253b582142855ed15804dea8135fe28a5b57  审计与修复报告.md
-4b69c28033b10137864f18a059a24be20877a48dd385f5f0ea8e0b10735c5503  校验报告.txt
+42e46d5875fedefcef07969594fc80b002ec44a58d05b9263928dcfd94a4cf52  校验报告.txt
 df750674bad408d1de792e9b0b301d4e58e43b985b725093d7aada71529bf51f  tools/build_sample_pages.py
 9aa4bf76cd8e407666b57c209baab714b8654265b0001c704c484094dd0072a1  tools/check_package.py
+c72fb93fdff8e94b9f6717baf87cb6a06100d2ff200bad35bf177baf135bd2a7  tools/tab_lint.py
 8c337e63cbea2bbfab1ab62ae1770fceba1729192708ca3d16ab7212171f8625  tools/procedural/goal_sim.py
 966c8f71ecb197cbf64df630a29971973003e97aff62eb581bd73aec517c0e00  tools/procedural/grammar_expand.py
 14470f71f05a6407e33d0985f6ac1759c6d7c9865573339d7e82654a10e0bdbf  tools/procedural/name_generator.py
 063a1463cbce580e40d3ccfd3aa449d57348b67edf02ad6342c61d5286f16bf9  19-供给过剩与资产经营模板.md
-# —— 追加条目（新增模板与补入受控文件）——
-35bb04d458fdc005e2da206a6e42e1785670acd11cb318a5e4b56baa48be223c  tools/regression_checks.txt
+d75a3c5f72cf6fe3571301667a421b011de59512565167d8e5e6dd0c52d6089f  20-素材与设定整理模板.md
+faff66652bd895320fd3c22446d355b70b0fd1b76e6a0757a411595f3086bd19  tools/regression_checks.txt
 a7a8ba176011932924e51ac4f268e29b37de4d07c5529325ca0c17c1cf6448ee  writing-style-transfer/scripts/style_metrics.py
 ed511a87d94a8639d390449484e5824e1d570979108282d7f68961a26b16a481  可视化_结构映射/graph.dot
 17af3604d2cd82107e8a9d0ce0b98691fd31f437dbae5d8e893f78ace5b79393  可视化_结构映射/graph.svg
