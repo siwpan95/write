@@ -1,0 +1,3557 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>支线任务 · 崩城之影 ｜ 魔影克鲁斯</title>
+<style>
+  :root{
+    --bg0:#0a0605;
+    --bg1:#160b08;
+    --panel:#1a0d0a;
+    --panel2:#23110c;
+    --gold:#d9a441;
+    --gold-dim:#8a6528;
+    --gold-bright:#f4cf7a;
+    --red:#a52318;
+    --red-bright:#d63a29;
+    --red-glow:#ff5a3c;
+    --ink:#e8d9c0;
+    --ink-dim:#9c8974;
+    --green:#7fae5a;
+    --blue:#5a8fb0;
+    --line:#3a1d13;
+  }
+  *{box-sizing:border-box;margin:0;padding:0;}
+  body{
+    background:
+      radial-gradient(circle at 50% 0%, rgba(214,58,41,.18), transparent 55%),
+      radial-gradient(circle at 50% 120%, rgba(217,164,65,.10), transparent 60%),
+      linear-gradient(180deg,var(--bg1),var(--bg0));
+    background-attachment:fixed;
+    color:var(--ink);
+    font-family:"Palatino Linotype","Songti SC","STSong","Noto Serif CJK SC","Source Han Serif SC","Noto Serif SC",Georgia,serif;
+    line-height:1.75;
+    padding:22px 14px 60px;
+    min-height:100vh;
+  }
+  .wrap{max-width:780px;margin:0 auto;}
+
+  /* ===== 标题 ===== */
+  .titlebar{
+    text-align:center;
+    border-top:1px solid var(--gold-dim);
+    border-bottom:1px solid var(--gold-dim);
+    padding:16px 8px 18px;
+    margin-bottom:22px;
+    position:relative;
+  }
+  .titlebar::before,.titlebar::after{
+    content:"✦";color:var(--red-bright);position:absolute;top:50%;
+    transform:translateY(-50%);font-size:13px;
+  }
+  .titlebar::before{left:14px;}
+  .titlebar::after{right:14px;}
+  .titlebar .kicker{
+    color:var(--gold);letter-spacing:.42em;font-size:11px;
+    text-transform:uppercase;margin-bottom:8px;
+  }
+  .titlebar h1{
+    font-size:27px;font-weight:700;color:var(--gold-bright);
+    letter-spacing:.12em;text-shadow:0 0 18px rgba(217,164,65,.35);
+  }
+  .titlebar .sub{color:var(--ink-dim);font-size:12px;margin-top:8px;letter-spacing:.2em;}
+
+  /* ===== 通用面板 ===== */
+  .panel{
+    background:linear-gradient(180deg,var(--panel2),var(--panel));
+    border:1px solid var(--line);
+    border-radius:3px;
+    padding:16px 18px;
+    margin-bottom:20px;
+    position:relative;
+    box-shadow:inset 0 0 40px rgba(0,0,0,.55), 0 2px 10px rgba(0,0,0,.5);
+  }
+  .panel-h{
+    display:flex;align-items:center;gap:10px;
+    border-bottom:1px solid var(--line);
+    padding-bottom:9px;margin-bottom:12px;
+  }
+  .panel-h .sigil{
+    width:9px;height:9px;background:var(--red-bright);
+    transform:rotate(45deg);box-shadow:0 0 8px var(--red-glow);flex:none;
+  }
+  .panel-h .htxt{
+    color:var(--gold);font-size:13px;letter-spacing:.28em;text-transform:uppercase;font-weight:400;
+  }
+  .panel-h .htag{
+    margin-left:auto;font-size:10px;color:var(--ink-dim);
+    border:1px solid var(--line);padding:1px 7px;letter-spacing:.15em;
+  }
+
+  /* ===== 任务日志 ===== */
+  .q-head{display:flex;justify-content:space-between;align-items:flex-end;flex-wrap:wrap;gap:8px;margin-bottom:12px;}
+  .q-title{color:var(--gold-bright);font-size:20px;letter-spacing:.06em;}
+  .q-time{
+    font-family:"Courier New",monospace;font-size:15px;font-weight:700;
+    color:var(--red-bright);letter-spacing:.08em;
+    border:1px solid var(--red);padding:2px 9px;border-radius:2px;
+    background:rgba(165,35,24,.14);
+    display:flex;align-items:center;gap:8px;
+  }
+  .q-time .ring{width:18px;height:18px;flex:none;}
+  .q-time .ring circle{fill:none;stroke-width:3;}
+  .q-time .ring .rbg{stroke:rgba(165,35,24,.35);}
+  .q-time .ring .rfg{stroke:var(--red-bright);stroke-linecap:round;transform:rotate(-90deg);transform-origin:50% 50%;transition:stroke-dashoffset .3s linear;}
+  .wrap[data-state="completed"] .q-time .ring .rfg{stroke:var(--green);}
+  .wrap[data-state="failed"] .q-time .ring .rfg{stroke:#ff2d12;}
+  .q-meta{display:grid;grid-template-columns:88px 1fr;gap:4px 12px;font-size:13px;margin-bottom:12px;}
+  .q-meta dt{color:var(--gold-dim);letter-spacing:.08em;}
+  .q-meta dd{color:var(--ink);}
+  .q-reward dd{color:var(--gold-bright);}
+  .q-fail dd{color:var(--red-bright);}
+  .obj-list{list-style:none;border-top:1px dashed var(--line);padding-top:10px;}
+  .obj-list li{
+    display:flex;gap:9px;align-items:flex-start;
+    font-size:13px;padding:3px 0;color:var(--ink-dim);
+  }
+  .obj-list li .box{
+    width:12px;height:12px;flex:none;margin-top:5px;
+    border:1px solid var(--gold-dim);border-radius:1px;position:relative;
+  }
+  .obj-list li.done{text-decoration:line-through;color:#6a5a48;}
+  .obj-list li.done .box::after{
+    content:"✓";position:absolute;inset:-4px -2px;color:var(--gold);
+    font-size:12px;text-decoration:none;
+  }
+  .obj-list li.cur{color:var(--gold-bright);}
+  .obj-list li.cur .box{border-color:var(--red-bright);box-shadow:0 0 6px var(--red-glow);}
+  .obj-list li.cur .box::after{content:"";position:absolute;inset:2px;background:var(--red-bright);}
+  .obj-list li.cur .curnow{color:var(--red-bright);font-size:11px;letter-spacing:.1em;margin-left:4px;}
+  .obj-list li .onum{color:var(--gold-dim);font-size:10px;margin-left:auto;white-space:nowrap;}
+
+  /* ===== 对白框 ===== */
+  .dlg{display:flex;gap:12px;margin-bottom:14px;align-items:flex-start;}
+  .dlg .ava{
+    width:50px;height:50px;flex:none;border:1px solid var(--gold-dim);
+    background:linear-gradient(135deg,var(--panel2),#0d0705);
+    display:flex;align-items:center;justify-content:center;
+    font-size:20px;color:var(--gold);border-radius:2px;position:relative;
+  }
+  .dlg .ava::after{
+    content:"";position:absolute;inset:2px;border:1px solid rgba(217,164,65,.2);
+  }
+  .dlg .body{flex:1;min-width:0;}
+  .dlg .name{
+    font-size:12px;letter-spacing:.18em;margin-bottom:4px;
+    display:flex;align-items:center;gap:8px;
+  }
+  .dlg .name .rol{
+    font-size:10px;color:var(--ink-dim);letter-spacing:.1em;
+    border:1px solid var(--line);padding:0 5px;
+  }
+  .dlg .bub{
+    background:linear-gradient(180deg,rgba(35,17,12,.9),rgba(20,10,7,.9));
+    border:1px solid var(--line);border-left:3px solid var(--gold-dim);
+    border-radius:2px;padding:9px 12px;font-size:14px;color:var(--ink);
+  }
+  .dlg.npc-akkad .ava{color:var(--gold-bright);}
+  .dlg.npc-akkad .name{color:var(--gold-bright);}
+  .dlg.npc-akkad .bub{border-left-color:var(--gold);}
+  .dlg.npc-kruss .ava{color:var(--green);border-color:#4a6b38;}
+  .dlg.npc-kruss .name{color:var(--green);}
+  .dlg.npc-kruss .bub{border-left-color:var(--green);}
+  .dlg.npc-master .ava{color:var(--red-glow);border-color:var(--red);}
+  .dlg.npc-master .name{color:var(--red-glow);}
+  .dlg.npc-master .bub{border-left-color:var(--red-bright);background:linear-gradient(180deg,rgba(60,18,10,.5),rgba(25,10,7,.9));}
+  .dlg.player .ava{color:var(--blue);border-color:#3a5a70;}
+  .dlg.player .name{color:var(--blue);}
+  .dlg.player .bub{border-left-color:var(--blue);font-style:italic;color:#cfe0ea;}
+
+  /* ===== 场景叙述 ===== */
+  .narr{
+    border-left:3px solid var(--red);
+    background:linear-gradient(90deg,rgba(165,35,24,.12),transparent 70%);
+    padding:8px 14px;margin:16px 0;font-style:italic;color:#c9bba3;
+    font-size:14px;
+  }
+  .narr .timer{
+    font-family:"Courier New",monospace;font-style:normal;
+    color:var(--red-bright);font-weight:700;letter-spacing:.06em;
+  }
+  .narr .boom{color:var(--red-glow);font-weight:700;font-style:normal;letter-spacing:.1em;}
+
+  /* ===== 分隔 ===== */
+  .sep{display:flex;align-items:center;gap:12px;margin:24px 0 18px;}
+  .sep::before,.sep::after{content:"";flex:1;height:1px;background:linear-gradient(90deg,transparent,var(--gold-dim),transparent);}
+  .sep h2{color:var(--gold-dim);font-size:11px;letter-spacing:.34em;font-weight:400;line-height:1.75;}
+
+  /* ===== 属性卡 ===== */
+  .card{display:flex;gap:16px;flex-wrap:wrap;}
+  .card .portrait{
+    width:120px;flex:none;border:1px solid var(--gold-dim);border-radius:2px;
+    background:
+      radial-gradient(circle at 50% 30%, rgba(214,58,41,.35), transparent 60%),
+      linear-gradient(160deg,var(--panel2),#0b0604);
+    display:flex;flex-direction:column;align-items:center;justify-content:center;
+    gap:6px;padding:12px 6px;
+  }
+  .card .portrait .glyph{font-size:40px;color:var(--gold-bright);text-shadow:0 0 16px var(--red-glow);}
+  .card .portrait .cap{font-size:10px;color:var(--gold-dim);letter-spacing:.18em;text-align:center;}
+  .card .stats{flex:1;min-width:220px;font-size:13px;}
+  .stat-row{display:grid;grid-template-columns:74px 1fr;gap:2px 10px;padding:2px 0;border-bottom:1px dashed rgba(58,29,19,.6);}
+  .stat-row .sk{color:var(--gold-dim);}
+  .stat-row .sv{color:var(--ink);}
+  .tags{display:flex;flex-wrap:wrap;gap:6px;margin-top:10px;}
+  .tag{
+    font-size:11px;letter-spacing:.06em;color:var(--gold-bright);
+    border:1px solid var(--gold-dim);border-radius:10px;padding:1px 9px;
+    background:rgba(217,164,65,.08);
+  }
+  .tag.skill{border-color:var(--red);color:var(--red-glow);background:rgba(165,35,24,.14);}
+  .tag.ww{border-color:var(--red-bright);color:#ffe3b0;background:rgba(214,58,41,.22);box-shadow:0 0 8px rgba(255,90,60,.25);}
+
+  .callout{
+    border:1px solid var(--gold-dim);border-left:3px solid var(--gold);
+    background:rgba(217,164,65,.07);padding:10px 13px;margin-top:14px;font-size:13px;
+  }
+  .callout .ct{color:var(--gold-bright);letter-spacing:.14em;font-size:11px;display:block;margin-bottom:4px;font-weight:400;}
+  .warn{
+    border:1px solid var(--red);border-left:3px solid var(--red-bright);
+    background:rgba(165,35,24,.12);padding:10px 13px;margin-top:12px;font-size:12.5px;color:#d9c3b0;
+  }
+  .warn .wt{color:var(--red-glow);letter-spacing:.14em;font-size:11px;display:block;margin-bottom:4px;}
+  .warn b{color:var(--gold-bright);font-weight:600;}
+
+  .reward-banner{
+    text-align:center;border:1px solid var(--gold);
+    background:linear-gradient(180deg,rgba(217,164,65,.16),rgba(165,35,24,.10));
+    padding:14px;margin-top:6px;
+    box-shadow:0 0 24px rgba(217,164,65,.14);
+  }
+  .reward-banner .rt{color:var(--gold-bright);font-size:16px;letter-spacing:.2em;}
+  .reward-banner .rs{color:var(--ink-dim);font-size:11px;letter-spacing:.16em;margin-top:5px;}
+  .reward-banner .rg{color:var(--green);font-size:12px;margin-top:7px;}
+  .wrap[data-state="completed"] .reward-banner{box-shadow:0 0 28px rgba(127,174,90,.28);border-color:var(--green);}
+
+  /* ===== 技能图标网格 ===== */
+  .skillgrid{
+    display:grid;grid-template-columns:repeat(4,1fr);gap:10px;margin-top:14px;
+  }
+  .sic{
+    border:1px solid var(--line);border-radius:2px;
+    background:linear-gradient(160deg,var(--panel2),#0b0604);
+    padding:8px 6px 7px;text-align:center;position:relative;overflow:hidden;
+    transition:transform .12s ease, box-shadow .12s ease;
+  }
+  .sic:hover{transform:translateY(-2px);box-shadow:0 4px 14px rgba(214,58,41,.28);}
+  .sic .ic{
+    width:44px;height:44px;margin:0 auto 6px;display:block;
+    border:1px solid var(--gold-dim);border-radius:3px;
+    background:radial-gradient(circle at 50% 35%,rgba(214,58,41,.28),#0b0604 70%);
+  }
+  .sic.core{border-color:var(--red-bright);box-shadow:0 0 10px rgba(255,90,60,.22);}
+  .sic.core .ic{border-color:var(--red-bright);}
+  .sic.passive .ic{border-color:#4a6b38;}
+  .sic .sn{font-size:11px;color:var(--gold-bright);letter-spacing:.04em;line-height:1.35;}
+  .sic .sk2{font-size:9px;color:var(--ink-dim);margin-top:2px;letter-spacing:.06em;}
+  .sic .badge{
+    position:absolute;top:0;right:0;font-size:8px;letter-spacing:.08em;
+    color:#0b0604;background:var(--red-bright);padding:0 4px;border-bottom-left-radius:3px;
+  }
+  .sic.passive .badge{background:var(--green);}
+  @media (max-width:520px){ .skillgrid{grid-template-columns:repeat(2,1fr);} }
+
+  .foot{text-align:center;color:var(--gold-dim);font-size:10px;letter-spacing:.24em;margin-top:26px;}
+  .foot span{color:var(--red-bright);}
+  @media (max-width:520px){
+    .card .portrait{width:100%;flex-direction:row;}
+    .titlebar h1{font-size:21px;}
+  }
+
+  /* ===== 修订版新增：语义标题 / 状态机 / 计时控制 / 无障碍 ===== */
+  .skillgrid{list-style:none;}
+  .panel-h h2.htxt,.panel-h h3.htxt,.callout h3.ct,.warn h3.ct{font-weight:400;}
+  .sr-only{
+    position:absolute;width:1px;height:1px;padding:0;margin:-1px;
+    overflow:hidden;clip:rect(0 0 0 0);white-space:nowrap;border:0;
+  }
+  .timer-ctl{
+    display:flex;flex-wrap:wrap;align-items:center;justify-content:space-between;
+    gap:8px;margin-top:12px;padding-top:10px;border-top:1px dashed var(--line);
+  }
+  .ctl-note{font-size:11px;color:var(--ink-dim);letter-spacing:.08em;}
+  .ctl-btns{display:flex;flex-wrap:wrap;gap:6px;}
+  .ctl-btns button{
+    font:inherit;font-size:11px;letter-spacing:.06em;color:var(--gold-bright);
+    background:rgba(217,164,65,.08);border:1px solid var(--gold-dim);
+    border-radius:2px;padding:3px 9px;cursor:pointer;
+  }
+  .ctl-btns button:hover:not(:disabled){background:rgba(217,164,65,.18);}
+  .ctl-btns button:disabled{opacity:.4;cursor:not-allowed;}
+  .ctl-btns button:focus-visible,
+  .build-detail summary:focus-visible{outline:2px solid var(--gold-bright);outline-offset:2px;}
+  .wrap[data-state="completed"] .q-time{color:var(--green);border-color:#4a6b38;background:rgba(127,174,90,.12);}
+  .wrap[data-state="failed"] .q-time{color:#ff2d12;border-color:var(--red-bright);background:rgba(165,35,24,.22);}
+  .wrap[data-phase="collapse"] .q-time{color:#ff2d12;}
+  .wrap[data-state="paused"] .q-time{color:var(--gold);}
+  .wrap[data-state="completed"] .htag{color:var(--green);border-color:#4a6b38;}
+  .wrap[data-state="failed"] .htag{color:var(--red-glow);border-color:var(--red);}
+  .obj-list[data-failed="true"] li.cur .curnow{color:var(--red-glow);}
+  .meta-note{font-size:10.5px;color:var(--ink-dim);letter-spacing:.04em;line-height:1.6;margin-top:8px;}
+  .build-detail{margin-top:12px;border-top:1px dashed var(--line);padding-top:8px;font-size:12px;}
+  .build-detail summary{cursor:pointer;color:var(--gold);letter-spacing:.1em;font-size:11px;}
+  .build-detail dl{margin-top:8px;display:grid;grid-template-columns:92px 1fr;gap:3px 10px;}
+  .build-detail dt{color:var(--gold-dim);}
+  .build-detail dd{color:var(--ink);}
+  @media (max-width:520px){
+    .build-detail dl{grid-template-columns:1fr;gap:1px;}
+    .build-detail dd{margin-bottom:6px;}
+    .timer-ctl{flex-direction:column;align-items:flex-start;}
+  }
+  /* 尊重系统「减少动态效果」：取消抬升与过渡，保留全部叙事信息 */
+  @media (prefers-reduced-motion: reduce){
+    *,*::before,*::after{transition:none!important;animation:none!important;scroll-behavior:auto!important;}
+    .sic:hover{transform:none;box-shadow:none;}
+  }
+
+  /* ============================================================
+     互动增强版 · INTERACTIVE LAYER
+     ============================================================ */
+  /* 氛围粒子层 */
+  #fx{position:fixed;inset:0;width:100%;height:100%;pointer-events:none;z-index:0;}
+  .wrap,.hud-fixed{position:relative;z-index:1;}
+  body.shake #quest{animation:shk .5s ease-out;}
+  @keyframes shk{
+    0%{transform:translate(0,0)}20%{transform:translate(-5px,3px)}
+    40%{transform:translate(5px,-3px)}60%{transform:translate(-4px,-2px)}
+    80%{transform:translate(3px,2px)}100%{transform:translate(0,0)}
+  }
+  @media (prefers-reduced-motion: reduce){ body.shake #quest{animation:none;} }
+
+  /* 词条注解 */
+  .lore{
+    border-bottom:1px dotted var(--gold-dim);color:var(--gold-bright);
+    cursor:help;background:none;border-left:0;border-right:0;border-top:0;
+    font:inherit;padding:0;
+  }
+  .lore:hover,.lore:focus-visible{background:rgba(217,164,65,.10);outline:none;}
+  .lore:focus-visible{box-shadow:0 0 0 2px var(--gold-bright);}
+  #loreCard{
+    position:absolute;z-index:70;max-width:330px;border:1px solid var(--gold-dim);
+    background:linear-gradient(180deg,#241109,#140907);
+    box-shadow:0 10px 30px rgba(0,0,0,.75);
+    padding:11px 13px;font-size:12.5px;line-height:1.75;color:var(--ink);
+    border-radius:3px;opacity:0;transform:translateY(5px);
+    transition:opacity .14s ease,transform .14s ease;pointer-events:none;
+  }
+  #loreCard.on{opacity:1;transform:translateY(0);}
+  #loreCard .lk{color:var(--gold-bright);letter-spacing:.14em;font-size:10.5px;display:block;margin-bottom:5px;}
+  #loreCard .lk .src{
+    font-size:9px;letter-spacing:.1em;margin-left:7px;padding:0 5px;
+    border:1px solid #4a6b38;color:var(--green);border-radius:8px;vertical-align:middle;
+  }
+  #loreCard .lk .src.orig{color:var(--gold);border-color:var(--gold-dim);}
+  #loreCard .lk .src.page{color:var(--blue);border-color:#3a5a70;}
+  #loreCard .lk-b{color:var(--ink-dim);font-size:11px;margin-top:6px;border-top:1px dashed var(--line);padding-top:5px;}
+
+  /* 分支抉择 */
+  .choice{
+    border:1px solid var(--gold-dim);border-left:3px solid var(--red-bright);
+    background:linear-gradient(180deg,rgba(45,20,12,.72),rgba(20,10,7,.85));
+    padding:13px 15px;margin:16px 0;border-radius:2px;
+    box-shadow:0 3px 14px rgba(0,0,0,.45);
+  }
+  .choice.hidden{display:none;}
+  .choice-h{display:flex;align-items:center;gap:9px;flex-wrap:wrap;margin-bottom:4px;}
+  .choice-h .ch-t{color:var(--red-glow);font-size:11.5px;letter-spacing:.2em;}
+  .choice-h .ch-timer{
+    margin-left:auto;font-family:"Courier New",monospace;font-size:12px;font-weight:700;
+    color:var(--gold-bright);border:1px solid var(--gold-dim);padding:0 7px;border-radius:2px;
+  }
+  .choice-h .ch-timer.urgent{color:#ff2d12;border-color:var(--red-bright);animation:pulseT .7s infinite;}
+  @keyframes pulseT{50%{opacity:.45;}}
+  .choice .ch-q{color:var(--gold-bright);font-size:13.5px;margin-bottom:9px;}
+  .choice-opts{display:grid;gap:7px;}
+  .copt{
+    display:block;width:100%;text-align:left;font:inherit;font-size:13.5px;color:var(--ink);
+    cursor:pointer;border:1px solid var(--line);border-left:3px solid var(--gold-dim);
+    background:linear-gradient(180deg,rgba(35,17,12,.8),rgba(18,9,6,.8));
+    padding:8px 12px;line-height:1.6;transition:border-color .12s,transform .12s,background .12s;
+  }
+  .copt:hover:not(:disabled){border-left-color:var(--gold);background:linear-gradient(180deg,rgba(52,26,16,.9),rgba(24,12,8,.9));transform:translateX(3px);}
+  .copt:focus-visible{outline:2px solid var(--gold-bright);outline-offset:2px;}
+  .copt .ct1{color:var(--gold-bright);font-weight:600;}
+  .copt .cdesc{display:block;color:var(--ink-dim);font-size:11.5px;margin-top:2px;}
+  .copt .ctag{display:inline-block;font-size:9px;letter-spacing:.1em;border:1px solid var(--line);color:var(--ink-dim);padding:0 5px;margin-left:6px;border-radius:8px;vertical-align:middle;}
+  .copt .ctag.good{color:var(--green);border-color:#4a6b38;}
+  .copt .ctag.warn{color:var(--red-glow);border-color:var(--red);}
+  .copt[disabled]{opacity:.55;cursor:not-allowed;}
+  .copt.picked{border-left-color:var(--gold);box-shadow:inset 0 0 0 1px rgba(217,164,65,.28);}
+  .copt.picked .ct1::after{content:" ✓";color:var(--green);}
+  .choice-out{
+    margin-top:10px;border-top:1px dashed var(--line);padding-top:9px;
+    font-size:13px;color:#c9bba3;font-style:italic;
+  }
+  .choice-out .delta{font-style:normal;font-size:11px;letter-spacing:.08em;margin-top:5px;display:block;}
+  .delta.up{color:var(--green);}
+  .delta.down{color:var(--red-glow);}
+  .choice-out .tl{color:var(--red-glow);font-style:normal;font-weight:700;}
+  /* 未作答就试图翻页：警示 */
+  .choice.flash{animation:chFlash .55s ease;}
+  @keyframes chFlash{
+    0%,100%{box-shadow:0 3px 14px rgba(0,0,0,.45);}
+    30%{box-shadow:0 0 0 2px var(--red-bright),0 0 24px rgba(255,90,60,.45);}
+  }
+  @media (prefers-reduced-motion: reduce){ .choice.flash{animation:none;outline:2px solid var(--red-bright);} }
+
+  /* 状态栏配色随任务状态变化 */
+  .wrap[data-state="completed"] .sb-state{color:var(--green);border-color:#4a6b38;}
+  .wrap[data-state="failed"] .sb-state{color:var(--red-glow);border-color:var(--red);}
+  .wrap[data-state="paused"] .sb-state{color:var(--gold);border-color:var(--gold-dim);}
+  .wrap[data-state="completed"] .statusbar .q-time{color:var(--green);border-color:#4a6b38;background:rgba(127,174,90,.12);}
+  .wrap[data-state="failed"] .statusbar .q-time{color:#ff2d12;border-color:var(--red-bright);background:rgba(165,35,24,.22);}
+  .wrap[data-state="paused"] .statusbar .q-time{color:var(--gold);border-color:var(--gold-dim);}
+
+  /* 信任条 */
+  .trustbar{
+    display:flex;align-items:center;gap:10px;margin-top:10px;
+    border-top:1px dashed var(--line);padding-top:9px;font-size:11px;color:var(--ink-dim);
+  }
+  .trustbar .tk{letter-spacing:.16em;white-space:nowrap;}
+  .trustbar .ttrack{flex:1;height:8px;border:1px solid var(--line);background:rgba(0,0,0,.5);position:relative;overflow:hidden;}
+  .trustbar .tfill{position:absolute;inset:0;width:0;background:linear-gradient(90deg,#7fae5a,#f4cf7a);transition:width .5s ease;}
+  .trustbar .tv{font-family:"Courier New",monospace;color:var(--gold-bright);min-width:34px;text-align:right;}
+
+  /* 战斗入口 */
+  .battle-entry{
+    display:flex;align-items:center;gap:12px;flex-wrap:wrap;
+    border:1px solid var(--red);border-left:3px solid var(--red-bright);
+    background:rgba(165,35,24,.12);padding:11px 13px;margin-top:14px;
+  }
+  .battle-entry .be-t{color:var(--red-glow);font-size:12px;letter-spacing:.18em;}
+  .battle-entry .be-d{color:var(--ink-dim);font-size:11.5px;flex:1;min-width:180px;}
+  .btn{
+    font:inherit;font-size:12px;letter-spacing:.1em;color:var(--gold-bright);
+    background:rgba(217,164,65,.08);border:1px solid var(--gold-dim);border-radius:2px;
+    padding:5px 13px;cursor:pointer;transition:background .12s,box-shadow .12s;
+  }
+  .btn:hover{background:rgba(217,164,65,.2);box-shadow:0 0 10px rgba(217,164,65,.18);}
+  .btn:focus-visible{outline:2px solid var(--gold-bright);outline-offset:2px;}
+  .btn.danger{border-color:var(--red);color:var(--red-glow);background:rgba(165,35,24,.16);}
+  .btn.danger:hover{background:rgba(165,35,24,.3);}
+  .btn:disabled{opacity:.4;cursor:not-allowed;}
+  .btn.on{border-color:var(--red-bright);color:#ffe3b0;background:rgba(214,58,41,.26);}
+
+  /* 覆盖层通用 */
+  .overlay{
+    position:fixed;inset:0;z-index:80;display:none;
+    background:rgba(5,3,2,.9);padding:16px;overflow:auto;
+  }
+  .overlay.on{display:block;}
+  .ov-head{
+    display:flex;align-items:center;gap:12px;flex-wrap:wrap;
+    max-width:860px;margin:0 auto 12px;
+  }
+  .ov-head .ov-t{color:var(--gold-bright);font-size:16px;letter-spacing:.2em;}
+  .ov-head .ov-s{color:var(--ink-dim);font-size:11px;letter-spacing:.12em;}
+  .ov-head .ov-r{margin-left:auto;display:flex;gap:6px;}
+  .ov-panel{
+    max-width:860px;margin:0 auto;border:1px solid var(--line);
+    background:linear-gradient(180deg,var(--panel2),var(--panel));
+    padding:16px 18px;border-radius:3px;
+    box-shadow:inset 0 0 40px rgba(0,0,0,.5);
+  }
+
+  /* 战斗台 */
+  #stage{width:100%;aspect-ratio:16/9;display:block;border:1px solid var(--gold-dim);background:#0a0503;border-radius:2px;touch-action:none;}
+  .bars{display:grid;grid-template-columns:repeat(3,1fr);gap:8px;margin-top:11px;}
+  .bar .bt{font-size:10px;letter-spacing:.16em;color:var(--gold-dim);display:flex;justify-content:space-between;}
+  .bar .bt b{color:var(--gold-bright);font-family:"Courier New",monospace;font-weight:700;}
+  .bar .btrack{height:10px;border:1px solid var(--line);background:rgba(0,0,0,.55);position:relative;overflow:hidden;margin-top:3px;}
+  .bar .bfill{position:absolute;left:0;top:0;bottom:0;width:0;transition:width .15s linear;}
+  .bfill.qi{background:linear-gradient(90deg,#4d7a36,#7fae5a);}
+  .bfill.hp{background:linear-gradient(90deg,#7a1a12,#d63a29);}
+  .bfill.sh{background:linear-gradient(90deg,#2f4a5c,#5a8fb0);}
+  .bstat{display:flex;gap:14px;flex-wrap:wrap;font-size:11px;color:var(--ink-dim);letter-spacing:.08em;margin-top:9px;}
+  .bstat b{color:var(--gold-bright);font-family:"Courier New",monospace;}
+  .skills{display:grid;grid-template-columns:repeat(6,1fr);gap:6px;margin-top:11px;}
+  .sk-btn{
+    position:relative;border:1px solid var(--line);border-radius:2px;
+    background:linear-gradient(160deg,var(--panel2),#0b0604);
+    color:var(--ink);font:inherit;font-size:10.5px;letter-spacing:.04em;
+    padding:8px 3px 6px;cursor:pointer;line-height:1.35;min-height:52px;
+  }
+  .sk-btn:hover:not(:disabled){border-color:var(--gold-dim);}
+  .sk-btn:focus-visible{outline:2px solid var(--gold-bright);outline-offset:2px;}
+  .sk-btn .kb{position:absolute;left:4px;top:2px;font-size:9px;color:var(--gold-dim);font-family:"Courier New",monospace;}
+  .sk-btn .sn{display:block;color:var(--gold-bright);}
+  .sk-btn .sd{display:block;font-size:8.5px;color:var(--ink-dim);}
+  .sk-btn .cdnum{
+    position:absolute;inset:0;background:rgba(4,2,1,.72);
+    display:flex;align-items:center;justify-content:center;
+    color:var(--gold-bright);font-family:"Courier New",monospace;font-weight:700;font-size:14px;
+    border-radius:2px;
+  }
+  .sk-btn.on{border-color:var(--red-bright);box-shadow:0 0 12px rgba(255,90,60,.35);background:linear-gradient(160deg,#3a140c,#120604);}
+  .sk-btn.on .sn{color:#ffe3b0;}
+  .sk-btn.passive{opacity:.6;cursor:default;}
+  .sk-btn:disabled{opacity:.5;cursor:not-allowed;}
+  @media (max-width:640px){
+    .skills{grid-template-columns:repeat(3,1fr);}
+    .bars{grid-template-columns:1fr;}
+  }
+
+  /* 结算 */
+  .result-grade{font-size:52px;font-weight:700;text-align:center;line-height:1;font-family:"Courier New",monospace;}
+  .grade-S{color:#f4cf7a;text-shadow:0 0 26px rgba(244,207,122,.55);}
+  .grade-A{color:var(--green);text-shadow:0 0 20px rgba(127,174,90,.45);}
+  .grade-B{color:var(--blue);}
+  .grade-C,.grade-F{color:var(--red-glow);}
+  .result-list{list-style:none;font-size:13px;margin:12px 0;}
+  .result-list li{display:flex;gap:10px;padding:3px 0;border-bottom:1px dashed rgba(58,29,19,.6);}
+  .result-list li span:first-child{color:var(--gold-dim);min-width:104px;}
+  .result-list li span:last-child{color:var(--ink);}
+  .unlock-note{
+    border:1px solid #4a6b38;border-left:3px solid var(--green);
+    background:rgba(127,174,90,.10);padding:9px 12px;font-size:12.5px;color:#cfe0b8;margin-top:10px;
+  }
+
+  /* 装备槽 */
+  .equip{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:14px;}
+  @media (max-width:640px){ .equip{grid-template-columns:1fr;} }
+  .eslot{border:1px solid var(--line);border-radius:2px;background:linear-gradient(160deg,var(--panel2),#0b0604);padding:9px;}
+  .eslot .es-h{font-size:10px;letter-spacing:.2em;color:var(--gold-dim);border-bottom:1px dashed var(--line);padding-bottom:5px;margin-bottom:7px;}
+  .eitem{
+    display:block;width:100%;text-align:left;font:inherit;cursor:pointer;
+    border:1px solid var(--line);background:rgba(0,0,0,.3);color:var(--ink);
+    padding:6px 9px;font-size:12px;margin-bottom:5px;line-height:1.5;
+  }
+  .eitem:hover:not(:disabled){border-color:var(--gold-dim);background:rgba(217,164,65,.08);}
+  .eitem:focus-visible{outline:2px solid var(--gold-bright);outline-offset:2px;}
+  .eitem .en{color:var(--gold-bright);display:block;}
+  .eitem .es{font-size:10.5px;color:var(--ink-dim);display:block;}
+  .eitem.worn{border-color:var(--green);box-shadow:inset 0 0 0 1px rgba(127,174,90,.25);}
+  .eitem.worn .en::after{content:" · 已装备";color:var(--green);font-size:9.5px;letter-spacing:.1em;}
+  .eitem.locked{opacity:.45;cursor:not-allowed;}
+  .eitem.locked .en::after{content:" 🔒";}
+
+  /* 成就 */
+  .ach-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(168px,1fr));gap:9px;margin-top:12px;}
+  .ach{
+    border:1px solid var(--line);border-radius:2px;padding:8px 10px;
+    background:linear-gradient(160deg,rgba(35,17,12,.7),rgba(11,6,4,.7));
+    display:flex;gap:8px;align-items:flex-start;
+  }
+  .ach .ai{font-size:16px;filter:grayscale(1) opacity(.45);line-height:1.2;}
+  .ach .at{font-size:11.5px;color:var(--ink-dim);}
+  .ach .ad{font-size:10px;color:#6a5a48;margin-top:2px;line-height:1.45;}
+  .ach.got{border-color:var(--gold-dim);}
+  .ach.got .ai{filter:none;}
+  .ach.got .at{color:var(--gold-bright);}
+
+  /* 提示条 */
+  #toasts{position:fixed;right:14px;bottom:14px;z-index:95;display:flex;flex-direction:column;gap:8px;align-items:flex-end;pointer-events:none;}
+  .toast{
+    border:1px solid var(--gold-dim);border-left:3px solid var(--gold);
+    background:linear-gradient(180deg,#241109,#140907);
+    padding:8px 13px;font-size:12px;color:var(--ink);border-radius:2px;
+    box-shadow:0 6px 20px rgba(0,0,0,.6);
+    animation:tin .3s ease-out;max-width:300px;
+  }
+  .toast .tt{color:var(--gold-bright);letter-spacing:.12em;font-size:10.5px;display:block;}
+  .toast.ach{border-left-color:var(--green);}
+  .toast.bad{border-left-color:var(--red-bright);}
+  @keyframes tin{from{opacity:0;transform:translateX(18px);}to{opacity:1;transform:none;}}
+  @media (prefers-reduced-motion: reduce){ .toast{animation:none;} }
+
+  /* 结局画廊 */
+  .end-grid{display:grid;gap:10px;margin-top:12px;}
+  .end-card{border:1px solid var(--line);border-left:3px solid var(--gold-dim);padding:10px 13px;background:rgba(0,0,0,.25);}
+  .end-card.got{border-left-color:var(--gold);}
+  .end-card .en{color:var(--gold-bright);font-size:14px;letter-spacing:.14em;}
+  .end-card.locked .en{color:#6a5a48;}
+  .end-card .ed{font-size:11.5px;color:var(--ink-dim);margin-top:4px;}
+  .end-card.locked .ed{color:#4a4038;}
+
+  /* 设置 */
+  .set-row{display:flex;align-items:center;gap:12px;padding:7px 0;border-bottom:1px dashed rgba(58,29,19,.6);font-size:13px;}
+  .set-row .sl{min-width:120px;color:var(--gold-dim);letter-spacing:.1em;font-size:11.5px;}
+  .set-row input[type=range]{flex:1;accent-color:var(--gold);max-width:220px;}
+  .set-row .sv{font-family:"Courier New",monospace;color:var(--gold-bright);min-width:46px;text-align:right;font-size:12px;}
+  .set-row select{font:inherit;font-size:12px;background:#160b08;color:var(--ink);border:1px solid var(--line);padding:3px 7px;}
+  .switch{font:inherit;font-size:11px;letter-spacing:.08em;color:var(--gold-bright);background:rgba(217,164,65,.08);border:1px solid var(--gold-dim);border-radius:2px;padding:3px 10px;cursor:pointer;}
+  .switch.on{border-color:var(--green);color:var(--green);background:rgba(127,174,90,.12);}
+
+  /* 存档条 */
+  .savebar{
+    display:flex;align-items:center;gap:10px;flex-wrap:wrap;
+    border:1px dashed var(--line);border-radius:2px;padding:9px 12px;margin-bottom:16px;
+    font-size:11.5px;color:var(--ink-dim);letter-spacing:.06em;
+  }
+  .savebar .sv-ok{color:var(--green);}
+  .savebar .sb-btns{margin-left:auto;display:flex;gap:6px;}
+
+  /* 隐藏原状态机不需要的冗余（保留原元素，仅隐藏视觉重复） */
+  .sr-only:focus{position:static;width:auto;height:auto;clip:auto;white-space:normal;}
+
+  /* ============================================================
+     点击推进版 · STAGE / PAGER / TYPEWRITER
+     ============================================================ */
+  /* 常驻状态栏 */
+  .statusbar{
+    display:flex;align-items:center;gap:16px;flex-wrap:wrap;
+    border:1px solid var(--line);border-radius:3px;
+    background:linear-gradient(180deg,rgba(35,17,12,.92),rgba(20,10,7,.92));
+    padding:9px 14px;margin-bottom:16px;
+    box-shadow:inset 0 0 26px rgba(0,0,0,.5);
+    position:sticky;top:0;z-index:20;
+  }
+  .statusbar .q-time{
+    font-family:"Courier New",monospace;font-size:16px;font-weight:700;
+    color:var(--red-bright);letter-spacing:.08em;
+    border:1px solid var(--red);padding:2px 10px;border-radius:2px;
+    background:rgba(165,35,24,.14);
+    display:flex;align-items:center;gap:9px;
+  }
+  .statusbar .q-time .ring{width:20px;height:20px;flex:none;}
+  .sb-mid{flex:1;min-width:190px;display:flex;align-items:center;gap:14px;flex-wrap:wrap;}
+  .sb-act{
+    font-size:11px;letter-spacing:.22em;color:var(--gold);
+    border:1px solid var(--gold-dim);padding:2px 9px;border-radius:2px;white-space:nowrap;
+  }
+  .sb-trust{display:flex;align-items:center;gap:9px;flex:1;min-width:150px;font-size:11px;color:var(--ink-dim);}
+  .sb-trust .tk{letter-spacing:.14em;white-space:nowrap;}
+  .sb-trust .ttrack{flex:1;height:7px;border:1px solid var(--line);background:rgba(0,0,0,.5);position:relative;overflow:hidden;}
+  .sb-trust .tfill{position:absolute;inset:0;width:0;background:linear-gradient(90deg,#7fae5a,#f4cf7a);transition:width .5s ease;}
+  .sb-trust .tv{font-family:"Courier New",monospace;color:var(--gold-bright);min-width:30px;text-align:right;}
+  .sb-state{
+    font-size:11px;letter-spacing:.2em;color:var(--ink-dim);
+    border:1px solid var(--line);padding:2px 10px;border-radius:2px;white-space:nowrap;
+  }
+  .q-time-static{font-size:11px;letter-spacing:.14em;color:var(--gold-dim);}
+  .q-time-static::before{content:"◈ ";color:var(--red-bright);}
+
+  /* 游玩态：整页不滚动，舞台内部滚动，翻页器常驻底部 */
+  html{background:var(--bg0);}
+  body.play{height:100vh;overflow:hidden;padding-bottom:12px;}
+  body.play .wrap{
+    height:100%;display:flex;flex-direction:column;
+    max-width:780px;padding-bottom:0;
+  }
+  body.play .savebar{padding:5px 10px;margin-bottom:7px;flex:none;}
+  body.play .savebar > span:nth-child(2){display:none;}
+  body.play .titlebar{padding:9px 8px 10px;margin-bottom:9px;flex:none;}
+  body.play .titlebar h1{font-size:21px;}
+  body.play .titlebar .sub{display:none;}
+  body.play .statusbar{flex:none;margin-bottom:12px;}
+  body.play .stage{flex:1;min-height:0;display:flex;flex-direction:column;overflow:hidden;}
+  body.play .scenes{flex:1;min-height:0;display:flex;flex-direction:column;}
+  body.play .pager{flex:none;position:static;background:none;padding:10px 4px 2px;margin-top:0;}
+  body.play .foot{display:none;}
+
+  /* 舞台 */
+  .stage{position:relative;}
+  .stage.paged{
+    height:calc(100vh - 330px);min-height:360px;max-height:760px;
+    display:flex;flex-direction:column;overflow:hidden;
+  }
+  .scenes{flex:1;min-height:0;display:flex;flex-direction:column;}
+  .scene{display:none;}
+  .scene.active{
+    display:flex;flex-direction:column;
+    flex:1;min-height:0;overflow-y:auto;
+    padding:6px 6px 14px;
+    animation:sceneIn .3s cubic-bezier(.2,.7,.3,1);
+  }
+  .scene.active::before,.scene.active::after{content:"";flex:1 0 auto;}
+  .scene.active > *{flex:none;}
+  @keyframes sceneIn{from{opacity:0;transform:translateY(12px);}to{opacity:1;transform:none;}}
+  @media (prefers-reduced-motion: reduce){ .scene.active{animation:none;} }
+  /* 档案模式：恢复平铺 */
+  .scenes.archive{display:block;}
+  .scenes.archive .scene{display:block;animation:none;margin-bottom:18px;}
+  .scenes.archive .scene.active::before,.scenes.archive .scene.active::after{display:none;}
+
+  /* 幕标题卡 */
+  .scene.chapter .sep{
+    margin:0;padding:34px 8px;border-top:1px solid var(--gold-dim);border-bottom:1px solid var(--gold-dim);
+  }
+  .scene.chapter .sep h2{font-size:14px;letter-spacing:.4em;}
+
+  /* 打字机 */
+  .tw{opacity:0;transition:opacity .1s linear;}
+  .tw.on{opacity:1;}
+  .tw-cursor{
+    display:inline-block;width:8px;height:1.05em;vertical-align:-2px;
+    background:var(--gold);margin-left:2px;animation:blink .8s steps(2) infinite;
+  }
+  @keyframes blink{50%{opacity:0;}}
+  @media (prefers-reduced-motion: reduce){ .tw{opacity:1;transition:none;} .tw-cursor{animation:none;} }
+
+  /* 翻页器 */
+  .pager{
+    position:sticky;bottom:0;z-index:20;
+    display:flex;align-items:center;gap:14px;
+    padding:12px 4px 10px;margin-top:10px;
+    background:linear-gradient(180deg,rgba(10,6,5,0),rgba(10,6,5,.94) 42%);
+  }
+  .pg-btn{
+    font:inherit;font-size:11.5px;letter-spacing:.12em;color:var(--ink-dim);
+    background:rgba(255,255,255,.03);border:1px solid var(--line);border-radius:2px;
+    padding:6px 12px;cursor:pointer;white-space:nowrap;
+  }
+  .pg-btn:hover:not(:disabled){color:var(--gold-bright);border-color:var(--gold-dim);}
+  .pg-btn:focus-visible{outline:2px solid var(--gold-bright);outline-offset:2px;}
+  .pg-btn:disabled{opacity:.32;cursor:not-allowed;}
+  .pg-mid{flex:1;min-width:120px;}
+  .pg-track{height:4px;background:rgba(0,0,0,.55);border:1px solid var(--line);position:relative;overflow:hidden;border-radius:2px;}
+  .pg-fill{position:absolute;inset:0;width:0;background:linear-gradient(90deg,var(--red),var(--gold));transition:width .35s ease;}
+  .pg-info{display:flex;align-items:center;gap:8px;font-size:10.5px;letter-spacing:.14em;color:var(--ink-dim);margin-top:5px;}
+  .pg-info #pgAct{color:var(--gold);}
+  .pg-sep{color:var(--gold-dim);}
+  .pg-next{
+    font:inherit;font-size:13px;letter-spacing:.24em;color:var(--gold-bright);
+    background:rgba(217,164,65,.10);border:1px solid var(--gold-dim);border-radius:2px;
+    padding:8px 22px;cursor:pointer;white-space:nowrap;
+  }
+  .pg-next:hover:not(:disabled){background:rgba(217,164,65,.22);box-shadow:0 0 14px rgba(217,164,65,.2);}
+  .pg-next:focus-visible{outline:2px solid var(--gold-bright);outline-offset:2px;}
+  .pg-next:disabled{opacity:.4;cursor:not-allowed;border-style:dashed;}
+  .pager .hint{font-size:10.5px;color:var(--ink-dim);letter-spacing:.1em;}
+
+  /* 目录 */
+  .toc-list{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:9px;}
+  .toc-act{
+    text-align:left;font:inherit;cursor:pointer;
+    border:1px solid var(--line);border-left:3px solid var(--gold-dim);
+    background:rgba(0,0,0,.28);color:var(--ink);padding:9px 12px;
+  }
+  .toc-act:hover{border-left-color:var(--gold);background:rgba(217,164,65,.08);}
+  .toc-act:focus-visible{outline:2px solid var(--gold-bright);outline-offset:2px;}
+  .toc-act .ta-n{color:var(--gold-bright);font-size:12.5px;letter-spacing:.1em;display:block;}
+  .toc-act .ta-d{color:var(--ink-dim);font-size:10.5px;margin-top:3px;display:block;}
+  .toc-act.cur{border-left-color:var(--red-bright);background:rgba(165,35,24,.16);}
+  .toc-act .ta-d b{color:var(--gold);font-weight:400;}
+
+  @media (max-width:640px){
+    .statusbar{gap:10px;padding:8px 10px;}
+    .statusbar .q-time{font-size:14px;}
+    .sb-mid{min-width:100%;order:3;}
+    .pager{gap:8px;flex-wrap:wrap;}
+    .pg-next{padding:7px 14px;letter-spacing:.14em;}
+    .stage.paged{height:calc(100vh - 400px);min-height:300px;}
+  }
+</style>
+</head>
+<body>
+<canvas id="fx" aria-hidden="true"></canvas>
+
+<div class="wrap" id="quest" data-state="running" data-phase="p240">
+
+  <div class="savebar" id="saveBar">
+    <span id="saveState">存档：<span class="sv-ok" id="saveTxt">未开始</span></span>
+    <span>进度自动保存于本机浏览器</span>
+    <div class="sb-btns">
+      <button type="button" class="btn" id="btnAch">成就</button>
+      <button type="button" class="btn" id="btnGallery">结局画廊</button>
+      <button type="button" class="btn" id="btnSettings">设置</button>
+    </div>
+  </div>
+
+  <div class="titlebar">
+    <div class="kicker">Side Quest · 支线任务</div>
+    <h1>崩 城 之 影</h1>
+    <div class="sub">魔影克鲁斯 · 铁狼 · 旋风武僧</div>
+  </div>
+
+  <!-- ===== 常驻状态栏（翻页时始终可见） ===== -->
+  <div class="statusbar" id="statusBar">
+    <div class="q-time" id="timer" role="timer" aria-live="off" aria-atomic="true" aria-label="墓穴计时：04:00">
+      <svg class="ring" viewBox="0 0 36 36" aria-hidden="true"><circle class="rbg" cx="18" cy="18" r="15"></circle><circle class="rfg" id="ringFg" cx="18" cy="18" r="15" stroke-dasharray="94.25" stroke-dashoffset="0"></circle></svg>
+      <span id="timerTxt">04:00</span>
+    </div>
+    <div class="sb-mid">
+      <div class="sb-act" id="sbAct">序</div>
+      <div class="sb-trust">
+        <span class="tk">风之羁绊</span>
+        <span class="ttrack"><span class="tfill" id="trustFill"></span></span>
+        <span class="tv" id="trustVal">0</span>
+      </div>
+    </div>
+    <div class="sb-state" id="questState">进行中</div>
+  </div>
+
+  <!-- ===== 舞台：逐段推进 ===== -->
+  <div class="stage" id="stageWrap">
+  <div class="scenes" id="scenes">
+
+  <!-- ===== 任务日志 ===== -->
+  <div class="panel">
+    <div class="panel-h"><span class="sigil" aria-hidden="true"></span><h2 class="htxt">任务日志 · Quest Log</h2><span class="htag" id="questStateTag">进行中</span></div>
+    <div class="q-head">
+      <div class="q-title">崩城之影</div>
+      <div class="q-time-static">四分钟 · 限时地下城</div>
+    </div>
+    <dl class="q-meta">
+      <dt>任务给予者</dt><dd>库拉斯特海港 · 铁狼首领 <button type="button" class="lore" data-k="ashara">艾席拉</button></dd>
+      <dt>任务地点</dt><dd><button type="button" class="lore" data-k="howling">嚎叫高原</button> · <button type="button" class="lore" data-k="tomb">崩塌墓穴</button>（时限地下城）</dd>
+      <dt>任务目标</dt><dd>四分钟之内于崩塌墓穴中寻得失散的<button type="button" class="lore" data-k="fenris">铁狼</button>精英"魔影克鲁斯"，并肩杀出重围</dd>
+      <dt class="q-reward">任务奖励</dt><dd class="q-reward">可招募雇佣兵 —— 魔影克鲁斯（<button type="button" class="lore" data-k="monk">旋风武僧</button> · 自带"<button type="button" class="lore" data-k="stoneskin">石肤</button>"光环）</dd>
+      <dt class="q-fail">失败条件</dt><dd class="q-fail">墓穴完全崩塌仍未寻获，或克鲁斯阵亡且未被救起</dd>
+    </dl>
+    <ul class="obj-list" id="objList" aria-label="任务目标">
+      <li class="done"><span class="box" aria-hidden="true"></span>前往库拉斯特海港，与艾席拉对话接取任务</li>
+      <li class="done"><span class="box" aria-hidden="true"></span>通过嚎叫高原传送门，进入崩塌墓穴</li>
+      <li class="cur" aria-current="step"><span class="box" aria-hidden="true"></span>在墓穴崩塌前找到魔影克鲁斯<span class="curnow">◂ 进行中</span></li>
+      <li><span class="box" aria-hidden="true"></span>护送克鲁斯与幸存斥候撤离墓穴</li>
+      <li><span class="box" aria-hidden="true"></span>返回海港，招募魔影克鲁斯入队</li>
+    </ul>
+
+    <div class="timer-ctl" role="group" aria-label="计时器控制">
+      <span class="ctl-note">现场读秒 · 默认随剧情节点推进；也可开启实时挑战自行计时</span>
+      <div class="ctl-btns">
+        <button type="button" id="btnLive" aria-pressed="false">开启实时挑战</button>
+        <button type="button" id="btnPause" disabled>暂停</button>
+        <button type="button" id="btnReset">重置</button>
+      </div>
+    </div>
+    <p class="sr-only" id="questAnnounce" role="status" aria-live="polite" aria-atomic="true"></p>
+    <p class="sr-only" id="questAlert" role="alert" aria-atomic="true"></p>
+  </div>
+
+  <!-- ===== 第一幕 委托 ===== -->
+  <div class="sep"><h2>第 一 幕 · 委 托</h2></div>
+
+  <div class="dlg npc-akkad">
+    <div class="ava" aria-hidden="true">艾</div>
+    <div class="body">
+      <div class="name">艾席拉 <span class="rol">铁狼首领 · 任务给予者</span></div>
+      <div class="bub">你一定是顶着风险来到这里的伟大冒险者。我本可以让雇用我手下这件事变得简单些——但有一笔旧账，得先算清。</div>
+    </div>
+  </div>
+
+  <div class="dlg npc-akkad">
+    <div class="ava" aria-hidden="true">艾</div>
+    <div class="body">
+      <div class="name">艾席拉</div>
+      <div class="bub"><button type="button" class="lore" data-k="fenris">铁狼</button>里头有个异类，叫克鲁斯。别人靠火、靠电、靠冰，只有他——以拳破阵、以气御风，一双铁拳卷起的风，能替一整队人挡下箭雨。没人知道他从哪儿来，他自己也只说过一句："我曾是一座地下城的守卫。"龙级的，给冒险者当垫脚石的高级杂兵，只不过活得太久，久到连坟墓都记不住他的名字。</div>
+    </div>
+  </div>
+
+  <div class="dlg npc-akkad">
+    <div class="ava" aria-hidden="true">艾</div>
+    <div class="body">
+      <div class="name">艾席拉</div>
+      <div class="bub">三天前，<button type="button" class="lore" data-k="howling">嚎叫高原</button>一座古墓无故崩塌，那是我们的一处前哨，克鲁斯带人驻守。等尘烟散尽，一个活口都没回来——只有一个爬回来的斥候，带了半句遗言："城没了……克鲁斯还在下面……他没跑，他在给活人挡。"</div>
+    </div>
+  </div>
+
+  <div class="narr" data-clock="240" data-phase="p240">她把一枚湿透的铁狼徽记拍进你手里。<span class="timer">墓穴正在持续塌陷，进去的人最多四分钟。</span>过了四分钟，除非你变成鬼魂，否则别想再出来。</div>
+
+  <div class="dlg npc-akkad">
+    <div class="ava" aria-hidden="true">艾</div>
+    <div class="body">
+      <div class="name">艾席拉</div>
+      <div class="bub">找到他，把他带回来。铁狼不抛弃任何一个还能站着的人——哪怕他从来不合群，哪怕他比那些丛林里的怪物还难缠。</div>
+    </div>
+  </div>
+
+  <div class="callout">
+    <span class="ct">▍任务已更新</span>
+    进入嚎叫高原的传送门，四分钟之内找到魔影克鲁斯。
+  </div>
+
+  <!-- ===== 第二幕 崩城 ===== -->
+  <div class="sep"><h2>第 二 幕 · 崩 城</h2></div>
+
+  <div class="narr" data-clock="240" data-phase="p240">传送门把你吐在一片正在解体的墓穴大厅里。雨声消失了，取而代之的是整座建筑垂死般的呻吟——嘎吱、崩裂、<span class="boom">轰然</span>。屏幕角落，倒计时已经开始跳动。<span class="timer">04:00</span></div>
+
+  <div class="narr">这里本该是秩序井然的亡灵巢穴，此刻却乱作一团。骷髅丢下长矛盲目乱撞，食腐蝙蝠凄厉四散，连最凶悍的缝合尸都停下了脚步——维系这座地下城的某种更高意志，已经崩塌了。你砍开一条血路冲向最深处那道幽光拱门，倒计时跳到最后一分钟，你听见了打斗声。</div>
+
+  <div class="narr">一个人，独自挡在数倍于己的亡灵之前。他不持法杖——他双拳灌满气劲，旋身一挣，卷起一股灰黑色的旋风，成片的骷髅在风里被绞成碎骨。他周身荡着一层淡淡的气，笼罩身后几个瑟瑟发抖的斥候，只要那层气在，伤口就愈合得更快，脚步也不再打颤。</div>
+
+  <div class="narr"><span class="timer">石肤光环。</span>你在心里认出了它——铁狼里只有极少数人能带出这种护身之气，它不伤人，只护人。</div>
+
+  <div class="dlg player">
+    <div class="ava" aria-hidden="true">你</div>
+    <div class="body">
+      <div class="name">冒险者 <span class="rol">玩家</span></div>
+      <div class="bub">"克鲁斯！艾席拉派我来的！"</div>
+    </div>
+  </div>
+
+  <div class="dlg npc-kruss" data-clock="180" data-phase="p180">
+    <div class="ava" aria-hidden="true">克</div>
+    <div class="body">
+      <div class="name">魔影克鲁斯 <span class="rol">铁狼 · 旋风武僧</span></div>
+      <div class="bub">（回头，看了一眼你手里的徽记）……还有三分钟。先带他们走。我殿后。</div>
+    </div>
+  </div>
+
+  <!-- ===== 第三幕 大风车 ===== -->
+  <div class="sep"><h2>第 三 幕 · 旋 风</h2></div>
+
+  <div class="narr">"殿后"这个词，从他嘴里说出来带着古怪的分量。你忽然明白了艾席拉那句话——一个当了太久守卫的人，早就习惯了站在队伍最后、站在石廊尽头、站在所有活人身后。崩塌的规律对他毫无意义：哪块砖先塌、哪道门撑不过十息、哪一群亡灵会在气劲散去后最先补上，他闭着眼都清楚。他不是在逃，他是在<span class="timer">带路</span>。</div>
+
+  <div class="dlg npc-kruss">
+    <div class="ava" aria-hidden="true">克</div>
+    <div class="body">
+      <div class="name">魔影克鲁斯</div>
+      <div class="bub">这座城，我守了很久。日复一日，与闯进来的冒险者"并肩作战"——听起来很荒谬，对吧？我们杀他们，他们杀我们，我们又被腐化之力拉起来，再站在老地方。永无止境。</div>
+    </div>
+  </div>
+
+  <div class="narr" data-clock="90" data-phase="p90"><span class="timer">倒计时：01:30。</span>巨石砸落封死来路。他旋身而起，双拳带出的气劲炸成一片灰旋风，替你绞碎了从背后扑来的整队骷髅——那一转之间，风过之处无一站立，活像一台不知疲倦的<span class="boom">大风车</span>。</div>
+
+  <div class="dlg npc-kruss">
+    <div class="ava" aria-hidden="true">克</div>
+    <div class="body">
+      <div class="name">魔影克鲁斯</div>
+      <div class="bub">我数不清杀过多少冒险者，也数不清被多少冒险者杀过。直到有一天规律断了——地面开始震，头顶开始掉石头，怪物们乱作一团。我第一次发现，这条我站了千百年的石廊，第一次不属于任何人的剧本。</div>
+    </div>
+  </div>
+
+  <div class="dlg npc-kruss">
+    <div class="ava" aria-hidden="true">克</div>
+    <div class="body">
+      <div class="name">魔影克鲁斯</div>
+      <div class="bub">后来我学了一样本事，是我这辈子唯一自己选的东西——把气劲卷成风，一路转着走。风不停，脚就不停；脚不停，就能把身后的人一直往前带。走。剩下的路，我来转。</div>
+    </div>
+  </div>
+
+  <div class="battle-entry" id="battleEntry">
+    <span class="be-t">▍实战演练 · 大风车</span>
+    <span class="be-d">在这里试转一次：气劲靠击杀回补，风不能停。评分会写进你的档案，也影响最后的结局。</span>
+    <button type="button" class="btn danger" id="btnBattle">进入训练场</button>
+    <button type="button" class="btn" id="btnSkipBattle">先不练 ▸</button>
+  </div>
+
+  <!-- ===== 第三幕·补：武僧导师支线 ===== -->
+  <div class="sep"><h2>第 三 幕 · 支 线</h2></div>
+
+  <div class="callout">
+    <h3 class="ct">▍隐藏支线触发 · 师承之风</h3>
+    撤离途中，一段未被塌方吞没的回廊深处传来沉稳的呼吸声。一名独坐石台上的老者缓缓睁眼。
+  </div>
+
+  <div class="dlg npc-master">
+    <div class="ava" aria-hidden="true">师</div>
+    <div class="body">
+      <div class="name">盲眼武僧 · 昙 <span class="rol">旋风武学 · 导师 / 训练师</span></div>
+      <div class="bub">（未睁眼，指尖轻叩石台）风声不对。走进这条廊的人，脚步都带着逃。只有你——脚步在逃，拳风还在往前卷。孩子，你转得不差，可你在用命转。</div>
+    </div>
+  </div>
+
+  <div class="dlg npc-kruss">
+    <div class="ava" aria-hidden="true">克</div>
+    <div class="body">
+      <div class="name">魔影克鲁斯</div>
+      <div class="bub">（骤然收拳）……师父？你还活着。</div>
+    </div>
+  </div>
+
+  <div class="dlg npc-master">
+    <div class="ava" aria-hidden="true">师</div>
+    <div class="body">
+      <div class="name">盲眼武僧 · 昙</div>
+      <div class="bub">活着，等着。等你哪天不再拿"守卫"当借口。当年我教你怎么把气卷成风，你却只学会用它替别人挡刀——挡得好，可那不是风，那是墙。墙会塌，风不会。你听，这座城塌了，墙全塌了，只有风还活着。</div>
+    </div>
+  </div>
+
+  <div class="dlg npc-kruss">
+    <div class="ava" aria-hidden="true">克</div>
+    <div class="body">
+      <div class="name">魔影克鲁斯</div>
+      <div class="bub">我守了一辈子。除了站在原地等人来杀，我不知道还会什么。</div>
+    </div>
+  </div>
+
+  <div class="dlg npc-master">
+    <div class="ava" aria-hidden="true">师</div>
+    <div class="body">
+      <div class="name">盲眼武僧 · 昙</div>
+      <div class="bub">错。你会转。转起来，你就不再是一堵墙——你是一条路。记住三句话：<b>气要长，脚要快，风要不停。</b>杀怪回气，气满不空；跑起来就要一直跑，转起来就不要轻易停。身上那口气护着旁人是善，可你若把自己耗干，护个什么？</div>
+    </div>
+  </div>
+
+  <div class="choice hidden" data-choice="mantra" id="chMantra">
+    <div class="choice-h">
+      <span class="ch-t">抉择 · 复述口诀</span>
+      <span class="ch-timer" data-timer-for="mantra" hidden>—</span>
+    </div>
+    <div class="ch-q">你只有一次机会记住这三句。回去时，你打算怎么喊？</div>
+    <div class="choice-opts" data-opts="mantra"></div>
+    <div class="choice-out" data-out="mantra" hidden></div>
+  </div>
+
+  <div class="dlg npc-master">
+    <div class="ava" aria-hidden="true">师</div>
+    <div class="body">
+      <div class="name">盲眼武僧 · 昙</div>
+      <div class="bub">（把一枚磨亮的拳环抛过来）拿去。别回头谢我——回头的人转不起风。等你把这条廊外头的人全带出去了，再来找我，我还有后半句没教。</div>
+    </div>
+  </div>
+
+  <div class="callout">
+    <span class="ct">▍支线进度 · 师承之风</span>
+    已获授【旋风武学·要诀】。目标更新：撤离后于库拉斯特海港西南回廊复访盲眼武僧·昙，学习"<button type="button" class="lore" data-k="vortex">无尽气旋</button>"（解锁克鲁斯"风不停转"续航精通）。
+  </div>
+
+  <!-- ===== 第四幕 抉择 ===== -->
+  <div class="sep"><h2>第 四 幕 · 抉 择</h2></div>
+
+  <div class="narr" data-clock="40" data-phase="p40"><span class="timer">倒计时：00:40。</span>出口幽光近在眼前。可拱门之前，最后一段石廊轰然塌陷，两拨被惊醒的亡灵从两侧涌出，把队伍截成两段——斥候在你这侧，克鲁斯独自卡在另一侧，用身躯堵住最凶的那一群。</div>
+
+  <div class="dlg npc-kruss">
+    <div class="ava" aria-hidden="true">克</div>
+    <div class="body">
+      <div class="name">魔影克鲁斯</div>
+      <div class="bub">过不去了。你带他们出去，还来得及。</div>
+    </div>
+  </div>
+
+  <div class="dlg player">
+    <div class="ava" aria-hidden="true">你</div>
+    <div class="body">
+      <div class="name">冒险者 <span class="rol">玩家</span></div>
+      <div class="bub">"跟我们一起走！师父说了——你不是墙，你是路。路要往前走。"</div>
+    </div>
+  </div>
+
+  <div class="narr">他一怔。头顶巨石成片坠落，尘土呛得人睁不开眼。</div>
+
+  <div class="dlg npc-kruss">
+    <div class="ava" aria-hidden="true">克</div>
+    <div class="body">
+      <div class="name">魔影克鲁斯</div>
+      <div class="bub">我活了太久，久到快忘了自己算不算"人"。你说……一个当了一辈子杂兵的守卫，一个连坟墓都不记得名字的东西，也有资格被人雇去、被人并肩、被人……复活吗？</div>
+    </div>
+  </div>
+
+  <div class="narr">你想起了雇佣兵的规矩：等级越高，复活越贵，<button type="button" class="lore" data-k="revive50k">五万封顶</button>；<button type="button" class="lore" data-k="poison">中毒</button>会像凡人一样把人耗死；一个佣兵只能带一个，换了旧的就永远退休；可只要付得起价，他们就<b>忠诚至死，绝不回头</b>。</div>
+
+  <div class="choice hidden" data-choice="gate" id="chGate">
+    <div class="choice-h">
+      <span class="ch-t">抉择 · 四十秒</span>
+      <span class="ch-timer" data-timer-for="gate" hidden>—</span>
+    </div>
+    <div class="ch-q">石廊在垮。斥候在你身后，克鲁斯在你对面。你怎么做？</div>
+    <div class="choice-opts" data-opts="gate"></div>
+    <div class="choice-out" data-out="gate" hidden></div>
+  </div>
+
+  <div class="dlg player">
+    <div class="ava" aria-hidden="true">你</div>
+    <div class="body">
+      <div class="name">冒险者 <span class="rol">玩家</span></div>
+      <div class="bub">"你有资格。不为金币，为这一路你替他们挡下的每一击——也为风还没停。"</div>
+    </div>
+  </div>
+
+  <div class="narr">你把手伸了过去。千百年来，伸向这只手、又举起刀剑劈开它的，是无数冒险者。此刻它摊开着，掌心里是一条他从没踏上的路。他抬起缠着幽光的手，重重地按了上来——钢铁与血肉，第一次真正并肩。</div>
+
+  <div class="callout">
+    <span class="ct">▍任务已更新</span>
+    护送魔影克鲁斯撤离 —— 拳刃 · 护符 · 武袍，三件装备槽已解锁。
+  </div>
+
+  <!-- ===== 第五幕 招募 ===== -->
+  <div class="sep"><h2>第 五 幕 · 招 募</h2></div>
+
+  <div class="narr" data-clock="10" data-phase="p10"><span class="timer">倒计时：00:10。</span>你拽着他冲出拱门，传送门幽光在身后合拢。就在门彻底闭合的一瞬，整座墓穴<span class="boom">轰然塌成平地</span>——屏幕角落的倒计时跳成刺眼的红字"墓穴崩塌"，随即消失。你和克鲁斯跌坐在嚎叫高原的雨里，身前是惊魂未定的斥候们。</div>
+
+  <div class="narr" data-clock="0" data-phase="collapse">他左肩的伤还渗着幽绿的光。你把手边最后一瓶生命药剂递到他的头像上——他会感激地说一声"谢谢你"，然后伤口缓缓愈合。</div>
+
+  <div class="dlg npc-kruss">
+    <div class="ava" aria-hidden="true">克</div>
+    <div class="body">
+      <div class="name">魔影克鲁斯</div>
+      <div class="bub">……谢谢你。</div>
+    </div>
+  </div>
+
+  <div class="choice hidden" data-choice="potion" id="chPotion">
+    <div class="choice-h">
+      <span class="ch-t">抉择 · 最后一瓶药</span>
+      <span class="ch-timer" data-timer-for="potion" hidden>—</span>
+    </div>
+    <div class="ch-q">药只有一瓶。克鲁斯的肩在渗光，斥候的腿在发抖。</div>
+    <div class="choice-opts" data-opts="potion"></div>
+    <div class="choice-out" data-out="potion" hidden></div>
+  </div>
+
+  <div class="dlg npc-akkad">
+    <div class="ava" aria-hidden="true">艾</div>
+    <div class="body">
+      <div class="name">艾席拉 <span class="rol">铁狼首领</span></div>
+      <div class="bub">（看着你身后这个沉默的、甲缝里流转着幽光的男人）他回来了。铁狼……又多了一个不该存在、却偏偏站在我们这边的人。</div>
+    </div>
+  </div>
+
+  <div class="narr">她翻开雇佣名录，在最新一行落下笔：</div>
+
+  <div class="panel">
+    <div class="panel-h"><span class="sigil" aria-hidden="true"></span><h3 class="htxt">雇佣名录 · 可招募雇佣兵</h3><span class="htag">新入队</span></div>
+    <div class="card">
+      <div class="portrait">
+        <div class="glyph" aria-hidden="true">卍</div>
+        <div class="cap">魔影克鲁斯<br>IRON WALKER</div>
+      </div>
+      <div class="stats">
+        <div class="stat-row"><span class="sk">姓名</span><span class="sv">魔影克鲁斯</span></div>
+        <div class="stat-row"><span class="sk">阵营</span><span class="sv">铁狼（库拉斯特）</span></div>
+        <div class="stat-row"><span class="sk">流派</span><span class="sv">旋风武僧 · 大风车跑图流（PVE 割草／速刷）</span></div>
+        <div class="stat-row"><span class="sk">出身</span><span class="sv">不明地下城 · 龙级守卫（已崩塌）</span></div>
+        <div class="stat-row"><span class="sk">武器</span><span class="sv">双手长柄／符文拳刃（旋风绑定武器）</span></div>
+        <div class="stat-row"><span class="sk">护具</span><span class="sv">无尽风盔 · 铁狼战袍 · 逐风步履</span></div>
+        <div class="stat-row"><span class="sk">属性倾向</span><span class="sv">力量／敏捷 · 暴击爆发 · 击杀回气 · 移动速度</span></div>
+        <div class="stat-row"><span class="sk">自带光环</span><span class="sv">石肤（Stone Skin）—— 提升全队护甲与伤害减免</span></div>
+        <div class="tags">
+          <span class="tag ww">旋风斩·疾风旋（核心·转进）</span>
+          <span class="tag skill">突刺打击·赶路</span>
+          <span class="tag skill">回天气诀·回气</span>
+          <span class="tag skill">挑战怒吼·聚怪</span>
+          <span class="tag skill">战斗怒吼·增伤</span>
+          <span class="tag skill">大地践踏·破甲</span>
+          <span class="tag skill">无尽气旋（被动·永动）</span>
+        </div>
+      </div>
+    </div>
+
+    <div class="callout">
+      <span class="ct">▍光环 · 石肤（Stone Skin）</span>
+      克鲁斯身披的护身之气会笼罩全队，提升护甲与伤害减免。旋风武僧身板偏脆，正是靠这层气站住脚才转得起来——他护人，也护自己。
+    </div>
+
+    <div class="callout">
+      <span class="ct">▍武学思路 · 大风车跑图流</span>
+      先开战斗怒吼、挑战怒吼叠满增伤与减伤，再以突刺打击位移起手、攒满气劲，随后开启<b>旋风斩·疾风旋</b>持续转进；击杀回气保证气劲不空、风不中断，鞋子词条优先移动速度，一路转、一路清，图未刷完风先到。
+    </div>
+
+    <div class="callout" style="border-left-color:var(--red-bright);">
+      <h3 class="ct" style="color:var(--red-glow);">▍技能栏 · 大风车跑图流配置</h3>
+      图中高亮红框为核心转进技，绿框为永动被动，其余为衔接与增益技。
+    </div>
+    <div class="skillgrid" role="list" aria-label="大风车跑图流技能栏">
+      <div class="sic core" role="listitem" data-kind="core">
+        <span class="badge" aria-hidden="true">核心</span>
+        <svg class="ic" viewBox="0 0 48 48" role="img" aria-label="旋风斩·疾风旋，核心技能，转进清群" focusable="false"><title>旋风斩·疾风旋，核心技能，转进清群</title>
+          <g fill="none" stroke="#ff5a3c" stroke-width="2.4" stroke-linecap="round">
+            <path d="M24 8v32M12 14l24 20M36 14L12 34"/>
+          </g>
+          <circle cx="24" cy="24" r="4" fill="#f4cf7a"/>
+          <g fill="none" stroke="#f4cf7a" stroke-width="1.6" opacity=".8">
+            <path d="M24 6a18 18 0 0 1 18 18M24 42A18 18 0 0 1 6 24"/>
+          </g>
+        </svg>
+        <div class="sn">旋风斩·疾风旋</div>
+        <div class="sk2">转进清群 · 核心</div>
+      </div>
+      <div class="sic" role="listitem" data-kind="normal">
+        <svg class="ic" viewBox="0 0 48 48" role="img" aria-label="突刺打击，位移起手与赶路" focusable="false"><title>突刺打击，位移起手与赶路</title>
+          <path d="M30 10L14 30l6 2 4 8 4-2-2-8 10-16z" fill="none" stroke="#d9a441" stroke-width="2.2" stroke-linejoin="round"/>
+          <path d="M14 30l8 4" stroke="#ff5a3c" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <div class="sn">突刺打击</div>
+        <div class="sk2">位移起手 · 赶路</div>
+      </div>
+      <div class="sic" role="listitem" data-kind="normal">
+        <svg class="ic" viewBox="0 0 48 48" role="img" aria-label="回天气诀，击杀回气与续航" focusable="false"><title>回天气诀，击杀回气与续航</title>
+          <g fill="none" stroke="#7fae5a" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M24 38V20M24 20l-7-7M24 20l7-7M24 20V10"/>
+          </g>
+          <circle cx="24" cy="40" r="2.5" fill="#f4cf7a"/>
+        </svg>
+        <div class="sn">回天气诀</div>
+        <div class="sk2">击杀回气 · 续航</div>
+      </div>
+      <div class="sic" role="listitem" data-kind="normal">
+        <svg class="ic" viewBox="0 0 48 48" role="img" aria-label="挑战怒吼，聚怪并施加易伤" focusable="false"><title>挑战怒吼，聚怪并施加易伤</title>
+          <g fill="none" stroke="#d9a441" stroke-width="2.2" stroke-linecap="round">
+            <path d="M16 12v24M16 14c8 0 12 4 12 10s-4 10-12 10"/>
+            <path d="M32 16c4 2 6 6 6 8s-2 6-6 8" stroke="#ff5a3c"/>
+          </g>
+        </svg>
+        <div class="sn">挑战怒吼</div>
+        <div class="sk2">聚怪 · 施加易伤</div>
+      </div>
+      <div class="sic" role="listitem" data-kind="normal">
+        <svg class="ic" viewBox="0 0 48 48" role="img" aria-label="战斗怒吼，团队增伤与爆发" focusable="false"><title>战斗怒吼，团队增伤与爆发</title>
+          <g fill="none" stroke="#d9a441" stroke-width="2.2" stroke-linecap="round">
+            <path d="M12 30c4-8 8-8 12 0M24 30c4-8 8-8 12 0"/>
+            <path d="M18 34v6M30 34v6M24 32v8" stroke="#f4cf7a"/>
+          </g>
+        </svg>
+        <div class="sn">战斗怒吼</div>
+        <div class="sk2">团队增伤 · 爆发</div>
+      </div>
+      <div class="sic" role="listitem" data-kind="normal">
+        <svg class="ic" viewBox="0 0 48 48" role="img" aria-label="大地践踏，破甲与眩晕" focusable="false"><title>大地践踏，破甲与眩晕</title>
+          <g fill="none" stroke="#ff5a3c" stroke-width="2.2" stroke-linecap="round">
+            <path d="M24 10v10M10 24h28M24 24l-8 10M24 24l8 10"/>
+          </g>
+          <circle cx="24" cy="24" r="3" fill="#f4cf7a"/>
+        </svg>
+        <div class="sn">大地践踏</div>
+        <div class="sk2">破甲 · 眩晕</div>
+      </div>
+      <div class="sic" role="listitem" data-kind="normal">
+        <svg class="ic" viewBox="0 0 48 48" role="img" aria-label="石肤光环，全队护甲与伤害减免" focusable="false"><title>石肤光环，全队护甲与伤害减免</title>
+          <g fill="none" stroke="#d9a441" stroke-width="2" stroke-linecap="round">
+            <path d="M24 6v36M24 12l10 6-10 6-10-6z"/>
+            <path d="M14 24l10 6 10-6" stroke="#ff5a3c"/>
+          </g>
+        </svg>
+        <div class="sn">石肤光环</div>
+        <div class="sk2">全队护甲 · 减伤</div>
+      </div>
+      <div class="sic passive" role="listitem" data-kind="passive">
+        <span class="badge" aria-hidden="true">被动</span>
+        <svg class="ic" viewBox="0 0 48 48" role="img" aria-label="无尽气旋，被动技能，永动续航、风不中断" focusable="false"><title>无尽气旋，被动技能，永动续航、风不中断</title>
+          <g fill="none" stroke="#7fae5a" stroke-width="2.2" stroke-linecap="round">
+            <path d="M24 40a16 16 0 1 1 14-8"/>
+            <path d="M24 24l8-6M24 24l-6 6"/>
+          </g>
+          <circle cx="24" cy="24" r="3" fill="#f4cf7a"/>
+          <path d="M38 30l4-2-1 5" fill="none" stroke="#7fae5a" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <div class="sn">无尽气旋</div>
+        <div class="sk2">永动 · 风不中断</div>
+      </div>
+    </div>
+
+    <details class="build-detail">
+      <summary>技能循环与作用（文本版 · 供读屏与检索）</summary>
+      <dl>
+        <dt>起手增益</dt><dd>战斗怒吼（团队增伤）→ 挑战怒吼（聚怪、施加易伤）</dd>
+        <dt>位移攒气</dt><dd>突刺打击起手赶路，配合回天气诀以击杀回气维持续航</dd>
+        <dt>核心转进</dt><dd>旋风斩·疾风旋持续转进清群，是整套配置的核心技能</dd>
+        <dt>控场补充</dt><dd>大地践踏破甲、眩晕，衔接转进节奏</dd>
+        <dt>护身光环</dt><dd>石肤光环提升全队护甲与伤害减免</dd>
+        <dt>永动被动</dt><dd>无尽气旋保证击杀回气、旋风不中断，由支线「师承之风」习得</dd>
+      </dl>
+    </details>
+
+    <div class="panel-h" style="margin-top:16px;"><span class="sigil" aria-hidden="true"></span><h3 class="htxt">装备槽 · 拳刃 / 护符 / 武袍</h3><span class="htag" id="equipTag">0 / 3</span></div>
+    <div class="equip" id="equipPanel" role="group" aria-label="克鲁斯装备槽"></div>
+    <p class="meta-note">装备会影响实战演练中的气劲上限、回气效率、暴击与护甲 —— 不是摆设，是数值。</p>
+
+    <div class="warn">
+      <h3 class="ct">▍雇佣须知</h3>
+      <p class="meta-note">库拉斯特佣兵规约 · 本世界记录：以下数值为该世界通行规约，非跨版本通用公式。</p>
+      <b>招募费照收。忠诚至死，不回头。</b>克鲁斯中毒后和你们一样会掉血，哪怕在城镇里也不例外——记得备解毒剂。他若阵亡，来海港找艾席拉复活，费用随等级水涨船高，<b><button type="button" class="lore" data-k="revive50k">五万封顶</button></b>。他可陪你升至<b><button type="button" class="lore" data-k="lvl98">九十八级</button></b>，一步不落。装备槽三件：拳刃／护符／武袍。
+    </div>
+    <p class="meta-note">跨代同人配置：融合铁狼身份、野蛮人旋风与武僧风劲；拳刃／护符／武袍为本页原创装备槽，并非 D2 标准配置。</p>
+  </div>
+
+  <div class="narr">克鲁斯站在雨里没有进屋。他抬头望向嚎叫高原的方向，望向那片已经塌平的墓穴。</div>
+
+  <div class="dlg npc-kruss">
+    <div class="ava" aria-hidden="true">克</div>
+    <div class="body">
+      <div class="name">魔影克鲁斯</div>
+      <div class="bub">我守了一辈子的地方，没了。可我第一次觉得，脚下这块地，是我自己选的。风也第一次，是往前吹的。</div>
+    </div>
+  </div>
+
+  <div class="narr">他转过身，长矛拄地，对你微微颔首——那是雇佣兵入伙时唯一的礼节。从今往后，他不会再站在任何一条石廊的尽头等着被人来杀、再被人拉起来。他会站在你队伍的最前面，替你挡下最先落下的那一击，卷着那股不肯停的风，护住身后所有还站着的人。</div>
+
+  <!-- ===== 支线收尾 师承之风 ===== -->
+  <div class="sep"><h2>支 线 完 成 · 师 承 之 风</h2></div>
+
+  <div class="callout">
+    <span class="ct">▍支线复访 · 库拉斯特海港西南回廊</span>
+    招募克鲁斯之后，你按约回到那座未被塌方吞没的回廊。盲眼武僧·昙仍坐在原处，指尖轻叩石台，像是早算准了你会来。
+  </div>
+
+  <div class="dlg npc-master">
+    <div class="ava" aria-hidden="true">师</div>
+    <div class="body">
+      <div class="name">盲眼武僧 · 昙 <span class="rol">旋风武学 · 导师</span></div>
+      <div class="bub">风声变了。上回进这条廊，他的脚步在逃、拳风在抖；这回——脚步往前，风也往前。好。后半句，我准你听：气要长，就要<b>杀一个、补一口</b>；脚要快，就要<b>转起来别轻易停</b>。风一旦断，人就又变回那堵会塌的墙了。</div>
+    </div>
+  </div>
+
+  <div class="dlg npc-kruss">
+    <div class="ava" aria-hidden="true">克</div>
+    <div class="body">
+      <div class="name">魔影克鲁斯</div>
+      <div class="bub">（单膝点地，把那枚磨亮的拳环双手奉还）当年你教我挡刀，我没学会停；如今我学会了不停。这一转，是替身后的人转的。</div>
+    </div>
+  </div>
+
+  <div class="dlg npc-master">
+    <div class="ava" aria-hidden="true">师</div>
+    <div class="body">
+      <div class="name">盲眼武僧 · 昙</div>
+      <div class="bub">（把拳环又推了回去，掌心压住他的手）环你戴着。风你转着。老朽在这廊里坐到头了，往后没有我，只有你自己的气。去吧——把这条廊外头的路，一直转到天亮。</div>
+    </div>
+  </div>
+
+  <div class="narr">老者合上眼，指间最后一次轻叩石台，回廊归于沉寂。克鲁斯起身，把拳环套上，指节收紧时，一股熟悉的灰黑旋风在他周身无声旋开——比在崩塌墓穴里，稳了太多。</div>
+
+  <div class="panel">
+    <div class="panel-h"><span class="sigil" aria-hidden="true"></span><h3 class="htxt">支线奖励 · 师承之风</h3><span class="htag">已完成</span></div>
+    <ul class="obj-list" aria-label="支线完成项">
+      <li class="done"><span class="box" aria-hidden="true"></span>复访库拉斯特海港西南回廊，聆听导师后半句教诲</li>
+      <li class="done"><span class="box" aria-hidden="true"></span>克鲁斯习得被动【无尽气旋】——击杀回气、旋风不中断（永动精通）</li>
+      <li class="done"><span class="box" aria-hidden="true"></span>获得传承装备【逐风者拳环】——旋风斩期间移速与伤害提升</li>
+      <li class="done"><span class="box" aria-hidden="true"></span>石肤光环强化：全队护甲与伤害减免额外提升一档</li>
+    </ul>
+    <div class="callout">
+      <span class="ct">▍克鲁斯 · 流派进阶</span>
+      习得【无尽气旋】后，大风车跑图流正式成型：先双吼叠增益，突刺起手攒气，旋风斩·疾风旋转进，靠击杀回气维持永动，逐风者拳环进一步放大转进期间的移速与伤害——<b>一路转、一路清，风不落、人不停。</b>
+    </div>
+  </div>
+
+  <!-- ===== 成就 ===== -->
+  <div class="panel">
+    <div class="panel-h"><span class="sigil" aria-hidden="true"></span><h3 class="htxt">成就 · Trophy</h3><span class="htag" id="achTag">0 / 10</span></div>
+    <div class="ach-grid" id="achGrid"></div>
+  </div>
+
+  <!-- ===== 结局 ===== -->
+  <div class="panel">
+    <div class="panel-h"><span class="sigil" aria-hidden="true"></span><h3 class="htxt">结局 · Endings</h3><span class="htag" id="endTag">0 / 3</span></div>
+    <div class="end-grid" id="endGrid"></div>
+  </div>
+
+  <div class="reward-banner" id="rewardBanner" data-phase="completed">
+    <div class="rt" id="bannerTitle">任 务 完 成 · 崩 城 之 影</div>
+    <div class="rs">获得奖励：雇佣兵 · 魔影克鲁斯 已加入队伍</div>
+    <div class="rg" id="bannerSub">解锁光环：石肤（Stone Skin）—— 提升全队护甲与伤害减免</div>
+  </div>
+
+  </div><!-- /.scenes -->
+  </div><!-- /.stage -->
+
+  <!-- ===== 翻页器 ===== -->
+  <div class="pager" id="pager" role="group" aria-label="剧情推进">
+    <button type="button" class="pg-btn" id="pgPrev" aria-label="上一段">◂ 回退</button>
+    <div class="pg-mid">
+      <div class="pg-track" id="pgTrack" aria-hidden="true"><span class="pg-fill" id="pgFill"></span></div>
+      <div class="pg-info"><span id="pgAct">序</span><span class="pg-sep">·</span><span id="pgNum">1 / 1</span></div>
+    </div>
+    <button type="button" class="pg-next" id="pgNext">继 续 ▸</button>
+    <button type="button" class="pg-btn" id="btnTOC" aria-label="目录">目录</button>
+  </div>
+
+  <div class="foot">SIDE QUEST · <span>崩城之影</span> · THE FALLEN KEEP · 魔影克鲁斯</div>
+
+</div>
+
+<!-- ===== 目录覆盖层 ===== -->
+<div class="overlay" id="tocOverlay" role="dialog" aria-modal="true" aria-label="目录">
+  <div class="ov-head">
+    <span class="ov-t">目 录</span>
+    <span class="ov-s">点击任意一幕直接跳转</span>
+    <div class="ov-r">
+      <button type="button" class="btn" id="btnArchive" aria-pressed="false">切换档案模式</button>
+      <button type="button" class="btn" id="btnTocClose">关闭</button>
+    </div>
+  </div>
+  <div class="ov-panel">
+    <div class="toc-list" id="tocList"></div>
+  </div>
+</div>
+
+<!-- ===== 词条注解卡 ===== -->
+<div id="loreCard" role="tooltip" aria-hidden="true"></div>
+
+<!-- ===== 提示条 ===== -->
+<div id="toasts" aria-live="polite" aria-atomic="false"></div>
+
+<!-- ===== 战斗覆盖层 ===== -->
+<div class="overlay" id="battleOverlay" role="dialog" aria-modal="true" aria-label="实战演练 · 大风车">
+  <div class="ov-head">
+    <span class="ov-t">实 战 演 练</span>
+    <span class="ov-s">大风车跑图流 · 石廊试炼</span>
+    <div class="ov-r">
+      <button type="button" class="btn" id="btnBattleClose">离开训练场</button>
+    </div>
+  </div>
+  <div class="ov-panel">
+    <canvas id="stage" width="960" height="540" aria-label="战斗画面"></canvas>
+    <div class="bars">
+      <div class="bar">
+        <div class="bt"><span>气 劲 QI</span><b id="qiTxt">0 / 100</b></div>
+        <div class="btrack"><span class="bfill qi" id="qiFill"></span></div>
+      </div>
+      <div class="bar">
+        <div class="bt"><span>生 命 HP</span><b id="hpTxt">100 / 100</b></div>
+        <div class="btrack"><span class="bfill hp" id="hpFill"></span></div>
+      </div>
+      <div class="bar">
+        <div class="bt"><span>石肤护盾</span><b id="shTxt">未开启</b></div>
+        <div class="btrack"><span class="bfill sh" id="shFill"></span></div>
+      </div>
+    </div>
+    <div class="bstat">
+      <span>波次 <b id="waveTxt">1 / 3</b></span>
+      <span>击杀 <b id="killTxt">0</b></span>
+      <span>剩余 <b id="leftTxt">0</b></span>
+      <span>用时 <b id="timeTxt">0.0s</b></span>
+      <span>评级 <b id="gradeTxt">—</b></span>
+    </div>
+    <div class="skills" id="skillBar"></div>
+    <p class="meta-note">操作：点击技能卡或按数字键 1–6（空格＝转进）。核心技「旋风斩」按住不放即可持续转进——气劲靠击杀回补，风不能停。<b>转进时风压会把贴脸的亡灵推开，也会卷飞靠近的骨刺</b>；气劲见底则「风断」，必须停手等气回。WASD／方向键移动。</p>
+  </div>
+</div>
+
+<!-- ===== 设置覆盖层 ===== -->
+<div class="overlay" id="settingsOverlay" role="dialog" aria-modal="true" aria-label="设置">
+  <div class="ov-head">
+    <span class="ov-t">设 置</span>
+    <span class="ov-s">Settings · 本机即时生效</span>
+    <div class="ov-r"><button type="button" class="btn" id="btnSettingsClose">关闭</button></div>
+  </div>
+  <div class="ov-panel">
+    <div class="set-row">
+      <span class="sl">音效</span>
+      <button type="button" class="switch" id="swSound" aria-pressed="false">关</button>
+      <span class="sl" style="min-width:auto;">音量</span>
+      <input type="range" id="rgVol" min="0" max="100" value="45" aria-label="音量">
+      <span class="sv" id="volTxt">45</span>
+    </div>
+    <div class="set-row">
+      <span class="sl">动效强度</span>
+      <select id="selMotion" aria-label="动效强度">
+        <option value="full">全开</option>
+        <option value="lite">轻量</option>
+        <option value="off">关闭</option>
+      </select>
+      <span class="sv" id="motionTxt">全开</span>
+    </div>
+    <div class="set-row">
+      <span class="sl">正文字号</span>
+      <select id="selFont" aria-label="正文字号">
+        <option value="15">小</option>
+        <option value="16">标准</option>
+        <option value="17.5">大</option>
+        <option value="19">特大</option>
+      </select>
+      <span class="sv" id="fontTxt">标准</span>
+    </div>
+    <div class="set-row">
+      <span class="sl">高压抉择</span>
+      <button type="button" class="switch" id="swPressure" aria-pressed="true">开</button>
+      <span style="font-size:11px;color:var(--ink-dim);">开启后，抉择在实时模式下带限时读秒，犹豫不决会被吞掉时间。</span>
+    </div>
+    <div class="set-row">
+      <span class="sl">数据</span>
+      <button type="button" class="btn danger" id="btnWipe">清除本机存档 / 成就 / 结局</button>
+    </div>
+    <p class="meta-note">存档、成就与结局只存在本机浏览器的 localStorage 里，不上传任何服务器。</p>
+  </div>
+</div>
+
+<!-- ===== 结局画廊覆盖层 ===== -->
+<div class="overlay" id="galleryOverlay" role="dialog" aria-modal="true" aria-label="结局画廊">
+  <div class="ov-head">
+    <span class="ov-t">结 局 画 廊</span>
+    <span class="ov-s">Endings Unlocked</span>
+    <div class="ov-r"><button type="button" class="btn" id="btnGalleryClose">关闭</button></div>
+  </div>
+  <div class="ov-panel">
+    <div class="end-grid" id="galleryGrid"></div>
+  </div>
+</div>
+
+<!-- ===== 成就覆盖层 ===== -->
+<div class="overlay" id="achOverlay" role="dialog" aria-modal="true" aria-label="成就">
+  <div class="ov-head">
+    <span class="ov-t">成 就</span>
+    <span class="ov-s">Trophy</span>
+    <div class="ov-r"><button type="button" class="btn" id="btnAchClose">关闭</button></div>
+  </div>
+  <div class="ov-panel">
+    <div class="ach-grid" id="achGridModal"></div>
+  </div>
+</div>
+
+<script>
+/* =========================================================================
+   崩城之影 · 互动增强层
+   保留原档案叙事与美术，增加：分支抉择 / 多结局 / 实战演练 / 装备 / 成就 /
+   词条注解 / 程序化音效与粒子 / 本机存档。零外部依赖。
+   ========================================================================= */
+(function(){
+'use strict';
+
+/* ========================= 0. 工具 ========================= */
+function $(s, r){ return (r||document).querySelector(s); }
+function $$(s, r){ return Array.prototype.slice.call((r||document).querySelectorAll(s)); }
+function clamp(v,a,b){ return v<a?a:(v>b?b:v); }
+function pad2(n){ n=String(n); return n.length<2?'0'+n:n; }
+function fmt(s){ return pad2(Math.floor(s/60))+':'+pad2(s%60); }
+function mk(tag, cls, html){
+  var e=document.createElement(tag);
+  if(cls) e.className=cls;
+  if(html!=null) e.innerHTML=html;
+  return e;
+}
+function esc(s){ return String(s).replace(/[&<>"]/g,function(c){
+  return {'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]; }); }
+
+/* ========================= 1. 词条资料 =========================
+   src: orig = 原作机制（已联网核对）｜ page = 本页/同人设定
+   ============================================================ */
+var LORE = {
+  fenris:{ n:'铁狼（Iron Wolves）', src:'orig', srcText:'原作机制',
+    b:'库拉斯特海港的雇佣兵组织，统领为艾席拉。正统铁狼是唯一可装备盾牌与单手剑的雇佣兵单位，远程打击，并分冰、火、电三系元素施法（冰系含冰箭与内视，火系火球与地狱火，电系闪电与充能弹）。',
+    n2:'本页改编：把铁狼的「元素远程」换成了「旋风近战」，身份保留。' },
+  ashara:{ n:'艾席拉（Asheara）', src:'orig', srcText:'原作机制',
+    b:'《暗黑破坏神》系列角色，初登场于第二部第三幕库拉斯特海港，统领法师雇佣兵组织「铁狼卫队」。玩家完成第三幕主线任务「古代宗教之刃」后可招募其麾下铁狼佣兵；她本人也提供武器、防具与远程弹药交易。',
+    n2:'本页由她派发「崩城之影」支线并主持招募。' },
+  lvl98:{ n:'佣兵等级上限 · 98', src:'orig', srcText:'原作机制',
+    b:'雇佣兵等级不会超过玩家角色等级，最高等级为 98 级；佣兵不会从队友杀死的怪物处获得经验值，只能靠自己或你分到的那部分。',
+    n2:'页面「他可陪你升至九十八级，一步不落」与该机制一致。' },
+  revive50k:{ n:'复活费 · 五万封顶', src:'page', srcText:'本页设定',
+    b:'原作只有「复活费用随佣兵等级提高」这一条规则，没有给出任何具体数字上限。「五万封顶」是本页世界的通行规约设定，不适用于其他版本。',
+    n2:'原作对应的正解：等级越高越贵，且玩家角色死亡意味着佣兵一同阵亡。' },
+  poison:{ n:'佣兵中毒', src:'orig', srcText:'原作机制',
+    b:'佣兵中毒后即使身处城镇也会持续掉血直至死亡——与凡人无异。带他进城前记得备好解毒剂。',
+    n2:'本页沿用该规则，未作修改。' },
+  stoneskin:{ n:'石肤（Stone Skin）', src:'page', srcText:'本页设定',
+    b:'克鲁斯自带的护身之气，笼罩全队，提升护甲与伤害减免。旋风武僧身板偏脆，靠这层气站住脚才转得起来。',
+    n2:'对照：正统铁狼走的是冰霜护甲一类的元素防御光环，并非同名同效。' },
+  monk:{ n:'旋风武僧', src:'page', srcText:'同人配置',
+    b:'跨代同人配置：融合铁狼身份、野蛮人的旋风与武僧的风劲。原作系列中并无「旋风武僧」这一职业。',
+    n2:'技能组命名沿用本页设定：旋风斩·疾风旋 / 突刺打击 / 回天气诀 / 挑战怒吼 / 战斗怒吼 / 大地践踏。' },
+  vortex:{ n:'无尽气旋', src:'page', srcText:'本页设定',
+    b:'本页原创被动：击杀回气、旋风不中断。由支线「师承之风」习得，是大风车跑图流的永动核心。',
+    n2:'实战演练中：解锁后击杀回气翻倍，旋风斩耗气下降 25%。' },
+  howling:{ n:'嚎叫高原', src:'page', srcText:'同人地名',
+    b:'泛指墓穴所在的荒野地带，页内作为「崩塌墓穴」的所在区域出现。',
+    n2:'与原作地名无直接对应关系。' },
+  tomb:{ n:'崩塌墓穴（时限地下城）', src:'page', srcText:'本页设定',
+    b:'限时地下城原型：设有硬性时限（此处为四分钟），超时即判定任务失败，必须在时限内找到目标并撤离。',
+    n2:'「开启实时挑战」按钮即进入真实倒计时模式，超时会直接判负。' },
+  blade:{ n:'古代宗教之刃（Blade of the Old Religion）', src:'orig', srcText:'原作机制',
+    b:'第三幕主线任务，完成后可招募铁狼佣兵（本作「雇佣名录」的来历）。该任务路线与本作地点重叠，顺手即可完成。',
+    n2:'本页设定：艾席拉手里那本「雇佣名录」，就是这条规矩的载体。' }
+};
+
+/* ========================= 2. 抉择数据 ========================= */
+var CHOICES = {
+  mantra:{
+    limit:12,
+    opts:[
+      { id:'m_ok', tag:'风', tagCls:'good', title:'气要长，脚要快，风要不停。',
+        desc:'一字不差地复述。师父说过：这话以后你会用得上。',
+        trust:5, flag:'mantraRight',
+        out:'你把这三句在舌尖滚了一遍。气在胸口，风在指节，脚已经准备好了。' },
+      { id:'m_wall', tag:'墙', title:'心要静，步要稳，拳要重。',
+        desc:'听着也像那么回事——但这不是师父教的东西。',
+        trust:-6,
+        out:'你背出了三句像是武学要诀的话。老者没睁眼,只敲了敲石台：「不是这句。」' },
+      { id:'m_greed', tag:'贪', title:'气要足，势要沉，敌要近。',
+        desc:'这是上一场战斗的要点，不是师父的口诀。',
+        trust:-9,
+        out:'你想起了别处的战斗口诀。昙的手指停在石台上,像是在等你自己听出哪里不对。' }
+    ]
+  },
+  gate:{
+    limit:12,
+    opts:[
+      { id:'g_carry', tag:'铁狼', tagCls:'good', title:'背他，一起冲出去。',
+        desc:'铁狼不抛弃任何一个还能站着的人——包括挡在最后那个。',
+        trust:25,
+        out:'你把肩膀塞进他腋下，硬架着他往拱门拖。他整个人僵住了——不是因为疼，是因为多少年没有人朝他这边伸手。' },
+      { id:'g_scouts', tag:'斥候', title:'先带斥候走，我回来接你。',
+        desc:'活着的人先出去，这也是一种完成。',
+        trust:-6,
+        out:'克鲁斯点头：「去吧。」他在掩护时替多挡了两轮，肩上多挨了几下不轻的。' },
+      { id:'g_words', tag:'口诀', tagCls:'good', title:'喊那三句话——"气要长，脚要快，风要不停！"',
+        desc:'把师父的话还给他。你得先在上一幕背对过。',
+        need:'mantraRight', tagNote:'需先背对口诀',
+        trust:35, flag:'windNeverStops',
+        out:'你的声音压过塌方的轰鸣。他愣住的那一瞬，风反而转得更稳了——像一个守了太久的人，第一次被允许往回走。' }
+    ]
+  },
+  potion:{
+    limit:10,
+    opts:[
+      { id:'p_kruss', tag:'克鲁斯', tagCls:'good', title:'把药递给克鲁斯。',
+        desc:'他左肩还在渗幽绿的光。',
+        trust:20,
+        out:'药递到手边时他还想说不用。你按住了他的手腕。他看了你很久,最后只说了两个字：「……谢谢。」' },
+      { id:'p_scout', tag:'斥候', title:'先看看斥候的腿。',
+        desc:'他流得比看起来多，克鲁斯能自己撑住。',
+        trust:9,
+        out:'斥候的靴子被血泡透了。克鲁斯自己按着伤口站住了——他习惯自己处理。' },
+      { id:'p_throw', tag:'丢弃', tagCls:'warn', title:'把药丢给斥候，克鲁斯用不着。',
+        desc:'他撑得住。他总是撑得住。',
+        trust:-22,
+        out:'药滚到斥候脚边。克鲁斯没吭声,只是把按着伤口的手换了个姿势——像这样,他就还能站得像个守卫。' }
+    ]
+  }
+};
+
+/* ========================= 3. 装备数据 ========================= */
+var ITEMS = {
+  weapon:[
+    { id:'blade_basic', n:'符文拳刃 · 裂风', d:'旋风绑定武器 · 基础',
+      mods:{ dmg:0, crit:0 }, wear:1 },
+    { id:'ring_wind', n:'逐风者拳环', d:'转进期间移速与伤害提升 · 支线「师承之风」获得',
+      mods:{ dmg:12, crit:6 }, unlock:'side', wear:1 }
+  ],
+  charm:[
+    { id:'charm_stone', n:'石肤护符', d:'全队护甲提升 · 第二幕见识石肤后解锁',
+      mods:{ armor:8, shield:15 }, unlock:'act2' },
+    { id:'charm_breath', n:'呼风坠', d:'气劲上限提升 · 实战演练评级 B 以上解锁',
+      mods:{ qiMax:30 }, unlock:'gradeB' }
+  ],
+  robe:[
+    { id:'robe_wolf', n:'铁狼战袍', d:'护甲与护盾上限提升 · 招募完成后解锁',
+      mods:{ armor:7, shield:20 }, unlock:'recruit' },
+    { id:'robe_qi', n:'回气道袍', d:'击杀回气效率提升 · 实战演练评级 A 以上解锁',
+      mods:{ regen:5 }, unlock:'gradeA' }
+  ]
+};
+var SLOT_NAME = { weapon:'拳刃', charm:'护符', robe:'武袍' };
+
+/* ========================= 4. 成就数据 ========================= */
+var ACHS = [
+  { id:'a_quest',  i:'✦', n:'铁狼之誓',   d:'接下「崩城之影」',        how:'quest' },
+  { id:'a_mantra', i:'☰', n:'三句口诀',   d:'一字不差地背出口诀',    how:'mantra' },
+  { id:'a_words',  i:'⟳', n:'风不停转',   d:'把那三句话喊回给克鲁斯', how:'words' },
+  { id:'a_carry',  i:'⇱', n:'背水一战',   d:'选择背着他一起冲出去',  how:'carry' },
+  { id:'a_battle', i:'⚔', n:'铁人三项',   d:'完成一次实战演练',      how:'battle' },
+  { id:'a_srank',  i:'★', n:'风神',       d:'实战演练评级 S',        how:'s' },
+  { id:'a_stone',  i:'◈', n:'石肤',       d:'装备石肤护符',          how:'stone' },
+  { id:'a_lvl98',  i:'Ⅸ', n:'九十八级',   d:'展开雇佣须知',          how:'lvl98' },
+  { id:'a_true',   i:'❖', n:'一路同行',   d:'达成真结局「风不停」',  how:'true' },
+  { id:'a_all',    i:'❖', n:'全部读完',   d:'解锁全部四种结局',      how:'all' }
+];
+
+/* ========================= 5. 结局数据 ========================= */
+var ENDINGS = {
+  true:{ n:'风 不 停', tag:'TRUE ENDING',
+    d:'他第一次走在队伍最前面。不是被推上去的，不是被谁替下来的——是他自己把脚转到了那个方向。' },
+  good:{ n:'路', tag:'GOOD ENDING',
+    d:'他活着出了墓穴，也第一次承认自己不是一堵墙。但他还在等下一条石廊——墙不会塌，人会。' },
+  wall:{ n:'墙', tag:'NORMAL ENDING',
+    d:'任务完成，忠诚至死，绝不回头。只是从今往后，他仍然习惯站在队伍的最后面。' },
+  fail:{ n:'墓穴崩塌', tag:'FAIL ENDING',
+    d:'四分钟到了。整座城塌成平地。传送门那头的光，从此只出现在没做完的梦里。' }
+};
+
+/* ========================= 6. 存储 ========================= */
+var LS = { save:'bcyz_save_v2', set:'bcyz_settings_v1', end:'bcyz_endings_v1', ach:'bcyz_ach_v1' };
+var Store = {
+  get:function(k,d){ try{ var v=localStorage.getItem(k); return v?JSON.parse(v):d; }catch(e){ return d; } },
+  set:function(k,v){ try{ localStorage.setItem(k, JSON.stringify(v)); }catch(e){} },
+  del:function(k){ try{ localStorage.removeItem(k); }catch(e){} }
+};
+
+/* ========================= 7. 全局状态 ========================= */
+var G = Store.get(LS.save, null) || {
+  trust:0, choices:{}, flags:{}, battle:null, equipped:{weapon:null,charm:null,robe:null},
+  unlocked:{}, started:false, ended:null, seen:{act2:false,side:false,recruit:false}
+};
+var SET = Store.get(LS.set, null) || { sound:false, vol:0.45, motion:'full', font:'16', pressure:true };
+var ENDS = Store.get(LS.end, []) || [];
+var ACHV = Store.get(LS.ach, []) || [];
+
+function saveAll(){
+  G.started = true;
+  Store.set(LS.save, G);
+  var el2 = $('#saveTxt');
+  if(el2){
+    el2.textContent = G.ended ? ('已完成 · ' + (ENDINGS[G.ended]?ENDINGS[G.ended].n:'—')) :
+      (G.trust > 0 ? ('进行中 · 羁绊 ' + G.trust) : '已接取');
+  }
+}
+
+/* ========================= 8. 程序化音效 ========================= */
+var Sfx = {
+  ctx:null, master:null, wind:null, windGain:null, on:false, vol:0.45,
+  boot:function(){
+    if(this.ctx) return true;
+    try{
+      var AC = window.AudioContext || window.webkitAudioContext;
+      if(!AC) return false;
+      this.ctx = new AC();
+      this.master = this.ctx.createGain();
+      this.master.gain.value = this.vol;
+      this.master.connect(this.ctx.destination);
+      this.startWind();
+      return true;
+    }catch(e){ return false; }
+  },
+  resume:function(){ if(this.ctx && this.ctx.state === 'suspended'){ try{ this.ctx.resume(); }catch(e){} } },
+  noiseBuf:function(){
+    if(this._nb) return this._nb;
+    var len = Math.floor(this.ctx.sampleRate * 2);
+    var buf = this.ctx.createBuffer(1, len, this.ctx.sampleRate);
+    var d = buf.getChannelData(0);
+    for(var i=0;i<len;i++) d[i] = Math.random()*2-1;
+    this._nb = buf; return buf;
+  },
+  startWind:function(){
+    if(!this.ctx || this.wind) return;
+    var src = this.ctx.createBufferSource();
+    src.buffer = this.noiseBuf(); src.loop = true;
+    var f = this.ctx.createBiquadFilter();
+    f.type='bandpass'; f.frequency.value=520; f.Q.value=0.7;
+    var g = this.ctx.createGain(); g.gain.value = 0;
+    src.connect(f); f.connect(g); g.connect(this.master);
+    src.start();
+    this.wind = src; this.windGain = g; this.windFilter = f;
+  },
+  setWind:function(v){
+    if(!this.ctx || !this.windGain) return;
+    var target = this.on ? clamp(v,0,1) * 0.12 : 0;
+    try{ this.windGain.gain.setTargetAtTime(target, this.ctx.currentTime, 0.4); }catch(e){}
+  },
+  tone:function(freq,dur,type,gain,slideTo){
+    if(!this.on || !this.ctx) return;
+    try{
+      var t=this.ctx.currentTime;
+      var o=this.ctx.createOscillator(), g=this.ctx.createGain();
+      o.type = type||'sine'; o.frequency.setValueAtTime(freq,t);
+      if(slideTo) o.frequency.exponentialRampToValueAtTime(slideTo, t+dur);
+      g.gain.setValueAtTime(0,t);
+      g.gain.linearRampToValueAtTime(gain||0.12, t+0.008);
+      g.gain.exponentialRampToValueAtTime(0.0001, t+dur);
+      o.connect(g); g.connect(this.master); o.start(t); o.stop(t+dur+0.02);
+    }catch(e){}
+  },
+  hit:function(){ this.tone(190,0.14,'square',0.07,70); },
+  kill:function(){ this.tone(320,0.1,'triangle',0.06,180); },
+  spin:function(){ this.tone(520,0.09,'sawtooth',0.045,760); },
+  rumble:function(){
+    if(!this.on || !this.ctx) return;
+    try{
+      var t=this.ctx.currentTime;
+      var src=this.ctx.createBufferSource(); src.buffer=this.noiseBuf();
+      var f=this.ctx.createBiquadFilter(); f.type='lowpass'; f.frequency.value=160;
+      var g=this.ctx.createGain();
+      g.gain.setValueAtTime(0.0001,t);
+      g.gain.linearRampToValueAtTime(0.22,t+0.15);
+      g.gain.exponentialRampToValueAtTime(0.0001,t+1.6);
+      src.connect(f); f.connect(g); g.connect(this.master); src.start(t); src.stop(t+1.7);
+    }catch(e){}
+  },
+  heart:function(){
+    if(!this.on || !this.ctx) return;
+    try{
+      var t=this.ctx.currentTime;
+      var o=this.ctx.createOscillator(), g=this.ctx.createGain();
+      o.type='sine'; o.frequency.setValueAtTime(58,t);
+      o.frequency.exponentialRampToValueAtTime(34,t+0.16);
+      g.gain.setValueAtTime(0.0001,t);
+      g.gain.linearRampToValueAtTime(0.14,t+0.01);
+      g.gain.exponentialRampToValueAtTime(0.0001,t+0.17);
+      o.connect(g); g.connect(this.master); o.start(t); o.stop(t+0.2);
+    }catch(e){}
+  },
+  chime:function(){
+    if(!this.on || !this.ctx) return;
+    var self=this, i=0;
+    [523.25,659.25,783.99].forEach(function(f){
+      setTimeout(function(){ self.tone(f,0.34,'triangle',0.075); }, i*90); i++;
+    });
+  }
+};
+
+/* ========================= 9. 氛围粒子 ========================= */
+var Fx = {
+  cv:null, cx:null, parts:[], mode:'dust', last:0, raf:null,
+  boot:function(){
+    this.cv = $('#fx'); if(!this.cv) return;
+    this.cx = this.cv.getContext('2d');
+    this.resize();
+    window.addEventListener('resize', function(){ Fx.resize(); });
+    this.seed();
+    this.loop();
+  },
+  resize:function(){
+    if(!this.cv) return;
+    var dpr = Math.min(window.devicePixelRatio||1, 2);
+    this.cv.width = Math.floor(window.innerWidth*dpr);
+    this.cv.height = Math.floor(window.innerHeight*dpr);
+    this.cx.setTransform(dpr,0,0,dpr,0,0);
+    this.w = window.innerWidth; this.h = window.innerHeight;
+  },
+  seed:function(){
+    this.parts = [];
+    var n = (SET.motion === 'off') ? 0 : (SET.motion === 'lite' ? 26 : 64);
+    for(var i=0;i<n;i++) this.parts.push(this.mk());
+  },
+  mk:function(){
+    var rain = this.mode === 'rain';
+    return {
+      x: Math.random()*this.w,
+      y: Math.random()*this.h,
+      z: 0.3 + Math.random()*0.7,
+      vx: (Math.random()-0.5)*0.25,
+      vy: rain ? (1.6+Math.random()*1.4) : (-0.08-Math.random()*0.22),
+      r: 0.6 + Math.random()*1.7
+    };
+  },
+  setMode:function(m){
+    if(this.mode === m) return;
+    this.mode = m;
+    if(SET.motion === 'off'){ this.parts = []; return; }
+    this.seed();
+  },
+  loop:function(){
+    var self=this;
+    function step(ts){
+      self.raf = requestAnimationFrame(step);
+      var dt = Math.min(40, ts - (self.last||ts)); self.last = ts;
+      self.draw(dt/16.67);
+    }
+    this.raf = requestAnimationFrame(step);
+  },
+  draw:function(dt){
+    if(!this.cx) return;
+    var c=this.cx, w=this.w||0, h=this.h||0;
+    c.clearRect(0,0,w,h);
+    if(SET.motion === 'off') return;
+    var rain = this.mode === 'rain';
+    var cnt = this.parts.length;
+    for(var i=0;i<cnt;i++){
+      var p=this.parts[i];
+      p.x += p.vx*dt*p.z;
+      p.y += p.vy*dt*p.z;
+      if(p.y > h+8 || p.y < -8 || p.x < -8 || p.x > w+8){ this.parts[i]=this.mk(); continue; }
+      var a = 0.16*p.z;
+      c.fillStyle = rain ? 'rgba(174,205,224,'+a+')' : 'rgba(217,164,65,'+(a*0.75)+')';
+      if(rain){
+        c.fillRect(p.x, p.y, 0.9, 7*p.z);
+      }else{
+        c.beginPath(); c.arc(p.x,p.y,p.r*p.z,0,6.283); c.fill();
+      }
+    }
+  }
+};
+
+/* ========================= 10. 词条注解 ========================= */
+var Lore = {
+  card:null, cur:null,
+  boot:function(){
+    this.card = $('#loreCard');
+    var self=this;
+    document.addEventListener('click', function(e){
+      var t = e.target.closest ? e.target.closest('.lore') : null;
+      if(t){ self.show(t); e.preventDefault(); e.stopPropagation(); return; }
+      if(self.cur && !self.card.contains(e.target)) self.hide();
+    });
+    document.addEventListener('keydown', function(e){
+      if(e.key === 'Escape') self.hide();
+    });
+    $$('.lore').forEach(function(t){
+      t.addEventListener('focus', function(){ self.show(t); });
+      t.addEventListener('blur', function(){ self.hide(); });
+      t.addEventListener('mouseenter', function(){ self.show(t); });
+      t.addEventListener('mouseleave', function(){ self.hide(); });
+    });
+  },
+  show:function(t){
+    var d = LORE[t.getAttribute('data-k')]; if(!d || !this.card) return;
+    var srcCls = d.src === 'orig' ? 'orig' : 'page';
+    var srcTxt = d.src === 'orig' ? '原作机制' : (d.src === 'page' ? '本页设定' : '同人配置');
+    this.card.innerHTML =
+      '<span class="lk">'+esc(d.n)+'<span class="src '+(d.src==='orig'?'orig':'page')+'">'+srcTxt+'</span></span>'+
+      esc(d.b)+'<div class="lk-b">'+esc(d.n2||'')+'</div>';
+    this.card.classList.add('on');
+    this.card.setAttribute('aria-hidden','false');
+    var r = t.getBoundingClientRect();
+    var cw = this.card.offsetWidth || 300, ch = this.card.offsetHeight || 100;
+    var left = clamp(r.left + window.scrollX + r.width/2 - cw/2, 8, document.documentElement.scrollWidth - cw - 8);
+    var top = r.bottom + window.scrollY + 8;
+    if(top + ch > document.documentElement.scrollHeight) top = r.top + window.scrollY - ch - 8;
+    this.card.style.left = left+'px';
+    this.card.style.top = top+'px';
+    this.cur = t;
+  },
+  hide:function(){
+    if(!this.card) return;
+    this.card.classList.remove('on');
+    this.card.setAttribute('aria-hidden','true');
+    this.cur = null;
+  }
+};
+
+/* ========================= 11. 抉择系统 ========================= */
+var Choice = {
+  timers:{}, reveal:null,
+  boot:function(){
+    var self=this;
+    $$('.choice').forEach(function(box){
+      var key = box.getAttribute('data-choice');
+      self.render(key);
+      if(G.choices[key]){ box.classList.remove('hidden'); return; }
+      if(window.IntersectionObserver){
+        var io = new IntersectionObserver(function(ents){
+          ents.forEach(function(e){
+            if(e.isIntersecting){
+              /* 推进模式由 Scene.go 负责揭示；档案模式交回滚动 */
+              if(typeof Scene !== 'undefined' && Scene.mode === 'paged') return;
+              box.classList.remove('hidden'); self.startTimer(key);
+            }
+          });
+        },{threshold:0.25});
+        io.observe(box);
+      }else{
+        box.classList.remove('hidden');
+      }
+    });
+  },
+  render:function(key){
+    var cfg = CHOICES[key]; if(!cfg) return;
+    var box = $('.choice[data-choice="'+key+'"]');
+    var wrap = $('[data-opts="'+key+'"]', box);
+    var out  = $('[data-out="'+key+'"]', box);
+    if(!wrap) return;
+    var picked = G.choices[key];
+    wrap.innerHTML = '';
+    cfg.opts.forEach(function(o){
+      var b = mk('button','copt');
+      b.type='button';
+      var needOk = !o.need || G.flags[o.need];
+      var tagHtml = o.tag ? ('<span class="ctag '+(o.tagCls||'')+'">'+esc(o.tag)+'</span>') : '';
+      var noteHtml = (o.need && !needOk) ? ('<span class="ctag warn">'+esc(o.tagNote||'条件未满足')+'</span>') : '';
+      b.innerHTML = '<span class="ct1">'+esc(o.title)+'</span>'+tagHtml+noteHtml+
+        '<span class="cdesc">'+esc(o.desc)+'</span>';
+      if(picked){
+        b.disabled = true;
+        if(picked === o.id) b.classList.add('picked');
+      }else if(o.need && !needOk){
+        b.disabled = true;
+      }else{
+        b.addEventListener('click', function(){ Choice.pick(key, o.id); });
+      }
+      wrap.appendChild(b);
+    });
+    if(picked){
+      var sel = null;
+      cfg.opts.forEach(function(o){ if(o.id===picked) sel=o; });
+      out.hidden = false;
+      var d = 0;
+      cfg.opts.forEach(function(o){ if(o.id===picked) d = o.trust||0; });
+      out.innerHTML = esc(sel?sel.out:'') +
+        '<span class="delta '+(d>0?'up':(d<0?'down':''))+'">风之羁绊 '+(d>0?'+':'')+d+'　·　信任 '+(G.trust)+'/100</span>';
+    }
+  },
+  pick:function(key,id){
+    if(G.choices[key]) return;
+    var cfg = CHOICES[key];
+    var o = null;
+    cfg.opts.forEach(function(x){ if(x.id===id) o=x; });
+    if(!o) return;
+    if(o.need && !G.flags[o.need]) return;
+    G.choices[key] = id;
+    if(o.flag) G.flags[o.flag] = true;
+    G.trust = clamp(G.trust + (o.trust||0), 0, 100);
+    if(key==='mantra' && o.flag==='mantraRight') unlock('a_mantra');
+    if(key==='gate'){
+      if(o.flag==='windNeverStops') unlock('a_words');
+      if(o.id==='g_carry') unlock('a_carry');
+    }
+    Sfx.chime();
+    this.stopTimer(key);
+    this.render(key);
+    /* 联动：口诀等前置条件变化后，重渲所有依赖该条件的抉择 */
+    var self=this;
+    Object.keys(CHOICES).forEach(function(k){ if(k !== key) self.render(k); });
+    this.renderTrust();
+    if(typeof Scene !== 'undefined' && Scene.mode === 'paged') Scene.updatePager();
+    saveAll();
+  },
+  startTimer:function(key){
+    if(!SET.pressure) return;
+    if(mode !== 'live' || state !== 'running') return;
+    if(G.choices[key]) return;
+    var cfg = CHOICES[key];
+    var box = $('.choice[data-choice="'+key+'"]');
+    var el2 = $('[data-timer-for="'+key+'"]', box);
+    if(!el2) return;
+    var left = cfg.limit;
+    el2.hidden = false;
+    el2.textContent = left + 's';
+    this.stopTimer(key);
+    var self=this;
+    this.timers[key] = setInterval(function(){
+      left--;
+      el2.textContent = Math.max(0,left) + 's';
+      if(left <= 5) el2.classList.add('urgent');
+      if(left <= 0){
+        self.stopTimer(key);
+        var worst = null;
+        cfg.opts.forEach(function(x){
+          if(x.need && !G.flags[x.need]) return;
+          if(!worst || (x.trust||0) < (worst.trust||0)) worst = x;
+        });
+        if(worst) self.pick(key, worst.id);
+      }
+    },1000);
+  },
+  stopTimer:function(key){
+    if(this.timers[key]){ clearInterval(this.timers[key]); this.timers[key]=null; }
+    var box = $('.choice[data-choice="'+key+'"]');
+    var el2 = box ? $('[data-timer-for="'+key+'"]', box) : null;
+    if(el2){ el2.classList.remove('urgent'); }
+  },
+  renderTrust:function(){
+    var f = $('#trustFill'), v = $('#trustVal');
+    if(f) f.style.width = clamp(G.trust,0,100) + '%';
+    if(v) v.textContent = G.trust;
+  }
+};
+
+/* ========================= 12. 装备系统 ========================= */
+var Equip = {
+  boot:function(){
+    if(G.equipped.weapon === null) G.equipped.weapon = 'blade_basic';
+    this.render();
+  },
+  unlocked:function(it){
+    if(!it.unlock) return true;
+    switch(it.unlock){
+      case 'act2':   return !!G.seen.act2;
+      case 'side':   return !!G.seen.side;
+      case 'recruit':return !!G.seen.recruit;
+      case 'gradeB': return !!G.battle && G.battle.grade !== 'F' && 'BABC'.indexOf(G.battle.grade) >= 0;
+      case 'gradeA': return !!G.battle && 'AS'.indexOf(G.battle.grade) >= 0;
+      default: return false;
+    }
+  },
+  render:function(){
+    var panel = $('#equipPanel'); if(!panel) return;
+    panel.innerHTML = '';
+    var worn = 0;
+    ['weapon','charm','robe'].forEach(function(slot){
+      var box = mk('div','eslot');
+      box.innerHTML = '<div class="es-h">'+SLOT_NAME[slot]+' · '+slot.toUpperCase()+'</div>';
+      ITEMS[slot].forEach(function(it){
+        var ok = Equip.unlocked(it);
+        var b = mk('button','eitem'+(G.equipped[slot]===it.id?' worn':'')+(ok?'':' locked'));
+        b.type='button';
+        b.disabled = !ok;
+        b.innerHTML = '<span class="en">'+esc(it.n)+'</span><span class="es">'+esc(ok?it.d:('未解锁 · '+it.d))+'</span>';
+        b.addEventListener('click', function(){
+          if(!Equip.unlocked(it)) return;
+          G.equipped[slot] = it.id;
+          if(it.id==='charm_stone') unlock('a_stone');
+          Sfx.tone(660,0.12,'triangle',0.07);
+          Equip.render(); saveAll();
+        });
+        box.appendChild(b);
+        if(G.equipped[slot]===it.id) worn++;
+      });
+      panel.appendChild(box);
+    });
+    var tag = $('#equipTag');
+    if(tag) tag.textContent = worn+' / 3';
+  },
+  mods:function(){
+    var m = { dmg:100, crit:5, armor:0, qiMax:100, regen:6, shield:40, killQi:10, spinCost:16 };
+    ['weapon','charm','robe'].forEach(function(slot){
+      var id = G.equipped[slot]; if(!id) return;
+      ITEMS[slot].forEach(function(it){
+        if(it.id !== id) return;
+        var mm = it.mods||{};
+        m.dmg += (mm.dmg||0);
+        m.crit += (mm.crit||0);
+        m.armor += (mm.armor||0);
+        m.qiMax += (mm.qiMax||0);
+        m.regen += (mm.regen||0);
+        m.shield += (mm.shield||0);
+      });
+    });
+    if(G.flags.mantraRight) { /* 无尽气旋：支线完成后解锁 */ }
+    if(G.flags.sideDone){ m.killQi += 8; m.spinCost -= 4; m.regen += 6; }
+    return m;
+  }
+};
+
+/* ========================= 13. 成就系统 ========================= */
+function unlock(id){
+  if(ACHS.filter(function(a){return a.id===id;}).length===0) return;
+  if(ACHV.indexOf(id) >= 0) return;
+  ACHV.push(id);
+  Store.set(LS.ach, ACHV);
+  var a = null;
+  for(var i=0;i<ACHS.length;i++){ if(ACHS[i].id===id) a=ACHS[i]; }
+  if(a){
+    toast('成就解锁 · '+a.n, a.d, 'ach');
+    Sfx.chime();
+  }
+  renderAch();
+  if(id==='a_all' && ENDS.length>=4) unlock('a_all');
+}
+function renderAch(){
+  var got = ACHV.length;
+  var tag = $('#achTag'); if(tag) tag.textContent = got+' / '+ACHS.length;
+  [$('#achGrid'), $('#achGridModal')].forEach(function(g){
+    if(!g) return;
+    g.innerHTML = '';
+    ACHS.forEach(function(a){
+      var on = ACHV.indexOf(a.id) >= 0;
+      var d = mk('div','ach'+(on?' got':''));
+      d.innerHTML = '<span class="ai" aria-hidden="true">'+(on?a.i:'◆')+'</span>'+
+        '<span><span class="at">'+esc(a.n)+'</span><span class="ad">'+esc(on?a.d:('未解锁 · '+a.d))+'</span></span>';
+      g.appendChild(d);
+    });
+  });
+}
+function toast(title, desc, cls){
+  var box = $('#toasts'); if(!box) return;
+  var t = mk('div','toast'+(cls?(' '+cls):''));
+  t.innerHTML = '<span class="tt">'+esc(title)+'</span>'+esc(desc||'');
+  box.appendChild(t);
+  setTimeout(function(){
+    t.style.opacity='0'; t.style.transition='opacity .4s';
+    setTimeout(function(){ if(t.parentNode) t.parentNode.removeChild(t); },420);
+  },4200);
+}
+
+/* ========================= 14. 结局系统 ========================= */
+function computeEnding(){
+  if(state === 'failed') return 'fail';
+  var good = G.flags.windNeverStops && G.trust >= 70 && G.battle && 'SA'.indexOf(G.battle.grade)>=0;
+  if(good) return 'true';
+  if(G.trust >= 45) return 'good';
+  return 'wall';
+}
+function settleEnding(){
+  if(G.ended) return;
+  var e = computeEnding();
+  G.ended = e;
+  if(ENDS.indexOf(e) < 0){ ENDS.push(e); Store.set(LS.end, ENDS); }
+  var d = ENDINGS[e];
+  var banner = $('#rewardBanner');
+  if(banner && e !== 'fail'){
+    var bt = $('#bannerTitle'), bs = $('#bannerSub');
+    if(bt) bt.textContent = (e==='true'?'真 结 局 · ':(e==='good'?'结 局 · ':'任 务 完 成 · ')) + (e==='wall'?'崩 城 之 影':'风 不 停');
+    if(bs) bs.textContent = d.tag + ' · ' + d.d;
+    banner.setAttribute('data-phase', e);
+  }
+  if(e==='true') unlock('a_true');
+  if(ENDS.length>=4) unlock('a_all');
+  renderEnds();
+  saveAll();
+}
+function renderEnds(){
+  var tag = $('#endTag'); if(tag) tag.textContent = ENDS.length+' / 4';
+  var grid = $('#endGrid'); if(grid){ grid.innerHTML=''; grid.appendChild(buildEndGrid()); }
+  var gg = $('#galleryGrid');
+  if(gg){ gg.innerHTML=''; gg.appendChild(buildEndGrid()); }
+}
+function buildEndGrid(){
+  var frag = document.createDocumentFragment();
+  ['true','good','wall','fail'].forEach(function(k){
+    var d = ENDINGS[k];
+    var got = ENDS.indexOf(k) >= 0;
+    var c = mk('div','end-card'+(got?' got':' locked'));
+    c.innerHTML = '<div class="en">'+esc(got?d.n:'？？？')+'</div>'+
+      '<div class="ed">'+esc(got?(d.tag+' · '+d.d):'尚未解锁 · '+d.tag)+'</div>';
+    frag.appendChild(c);
+  });
+  return frag;
+}
+
+/* ========================= 15. 计时器状态机（原有逻辑 + 增强） ========================= */
+var root      = $('#quest');
+var timerTxt  = $('#timerTxt');
+var ringFg    = $('#ringFg');
+var stateEl   = $('#questState');
+var objList   = $('#objList');
+var banner    = $('#rewardBanner');
+var announce  = $('#questAnnounce');
+var alertEl   = $('#questAlert');
+var btnLive   = $('#btnLive');
+var btnPause  = $('#btnPause');
+var btnReset  = $('#btnReset');
+
+var quest = {
+  total: 240,
+  key: 'bcyz_quest_v1',
+  phases: {
+    p240:      {label:'04:00',       say:'任务开始，墓穴剩余四分钟。'},
+    p180:      {label:'03:00',       say:'剩余三分钟，克鲁斯决定殿后。'},
+    p90:       {label:'01:30',       say:'剩余一分三十秒，第三幕：旋风。'},
+    p40:       {label:'00:40',       say:'剩余四十秒，第四幕：抉择。'},
+    p10:       {label:'00:10',       say:'剩余十秒，第五幕：撤离。'},
+    collapse:  {label:'墓穴崩塌',    say:'墓穴崩塌，队伍已冲出拱门。'},
+    completed: {label:'✓ 任务完成',  say:'任务完成，魔影克鲁斯已加入队伍。'},
+    failed:    {label:'墓穴崩塌',    say:'墓穴崩塌，任务失败。点击重置可重试。'}
+  },
+  nodes: $$('[data-clock]'),
+  doneNode: $('[data-phase="completed"]')
+};
+
+var mode = 'story';
+var state = 'running';
+var phase = 'p240';
+var remaining = quest.total;
+var endAt = null;
+var tickId = null;
+var lastSaid = null;
+var lastObjState = null;
+var objInit = objList ? objList.innerHTML : '';
+var heartTimer = null;
+
+function updateRing(){
+  if(!ringFg) return;
+  var C = 2 * Math.PI * 15;
+  var p = (state==='completed') ? 1 : clamp(remaining/quest.total, 0, 1);
+  ringFg.setAttribute('stroke-dasharray', C.toFixed(2));
+  ringFg.setAttribute('stroke-dashoffset', (C*(1-p)).toFixed(2));
+}
+function persist(){
+  try{
+    if(mode === 'live' && state === 'running' && endAt){
+      sessionStorage.setItem(quest.key, JSON.stringify({mode:'live',state:'running',endAt:endAt}));
+    } else if(mode === 'live' && state === 'paused'){
+      sessionStorage.setItem(quest.key, JSON.stringify({mode:'live',state:'paused',remaining:remaining}));
+    } else {
+      sessionStorage.removeItem(quest.key);
+    }
+  }catch(e){}
+}
+function say(key){
+  if(lastSaid === key) return;
+  lastSaid = key;
+  var msg = quest.phases[key] ? quest.phases[key].say : '';
+  if(key === 'failed'){ if(alertEl) alertEl.textContent = msg; }
+  else { if(announce) announce.textContent = msg; }
+}
+function syncObjectives(s){
+  if(s === lastObjState) return;
+  lastObjState = s;
+  if(!objList) return;
+  if(s === 'completed'){
+    objList.innerHTML = objInit
+      .replace(/class="cur"/g, 'class="done"')
+      .replace(/aria-current="step"/g, '')
+      .replace(/◂ 进行中/g, '✓ 已完成')
+      .replace(/<li>/g, '<li class="done">');
+    objList.removeAttribute('data-failed');
+  } else if(s === 'failed'){
+    objList.innerHTML = objInit.replace(/◂ 进行中/g, '✕ 已中断');
+    objList.setAttribute('data-failed','true');
+  } else {
+    objList.innerHTML = objInit;
+    objList.removeAttribute('data-failed');
+  }
+}
+function render(){
+  var p = quest.phases[phase] || quest.phases.p240;
+  root.setAttribute('data-state', state);
+  root.setAttribute('data-phase', phase);
+
+  var text;
+  if(state === 'completed')     text = quest.phases.completed.label;
+  else if(state === 'failed')   text = quest.phases.failed.label;
+  else if(phase === 'collapse') text = p.label;
+  else if(mode === 'live')      text = fmt(remaining);
+  else                          text = p.label;
+  if(timerTxt && timerTxt.textContent !== text){
+    timerTxt.textContent = text;
+    var t2 = $('#timer'); if(t2) t2.setAttribute('aria-label', '墓穴计时：'+text);
+  }
+  updateRing();
+
+  var labels = {running:'进行中', paused:'已暂停', completed:'已完成', failed:'任务失败'};
+  if(stateEl) stateEl.textContent = labels[state] || '进行中';
+
+  if(banner) banner.classList.toggle('is-complete', state==='completed');
+  syncObjectives(state);
+
+  var liveTxt = mode === 'live' ? '返回随剧情读秒' : '开启实时挑战';
+  if(btnLive && btnLive.textContent !== liveTxt){
+    btnLive.textContent = liveTxt;
+    btnLive.setAttribute('aria-pressed', mode === 'live' ? 'true' : 'false');
+  }
+  if(btnPause){
+    btnPause.disabled = !(mode === 'live' && (state === 'running' || state === 'paused'));
+    btnPause.textContent = state === 'paused' ? '继续' : '暂停';
+  }
+  Choice.renderTrust();
+}
+function stopTick(){ if(tickId){ clearInterval(tickId); tickId = null; } }
+function startTick(){ stopTick(); tickId = setInterval(tick, 250); }
+function stopHeart(){ if(heartTimer){ clearInterval(heartTimer); heartTimer = null; } }
+function startHeart(){
+  stopHeart();
+  heartTimer = setInterval(function(){
+    if(mode==='live' && state==='running' && remaining<=120 && remaining>0){
+      Sfx.heart();
+      if(remaining<60) Sfx.heart();
+    }
+  }, 1000);
+}
+function tick(){
+  if(mode !== 'live' || state !== 'running') return;
+  var left = Math.max(0, Math.ceil((endAt - Date.now())/1000));
+  remaining = left;
+  if(left <= 0){
+    stopTick(); stopHeart();
+    state = 'failed'; phase = 'failed'; endAt = null;
+    persist(); render(); say('failed');
+    settleEnding();
+    toast('墓穴崩塌', '四分钟到了。点击「重置」可以重来一次。', 'bad');
+    Sfx.rumble();
+    shake();
+    return;
+  }
+  var k = phaseFor(left);
+  if(k !== phase){ phase = k; say(k); }
+  render();
+}
+function phaseFor(sec){
+  if(sec > 180) return 'p240';
+  if(sec > 90)  return 'p180';
+  if(sec > 40)  return 'p90';
+  if(sec > 10)  return 'p40';
+  return 'p10';
+}
+function storySync(){
+  if(typeof Scene !== 'undefined' && Scene.mode === 'paged') return;
+  var line = window.innerHeight * 0.45;
+  /* 文档底部 = 任务抵达终点。奖励横幅位于文档最末，
+     永远够不到 45% 判定线，故另设「触底」判定。 */
+  var atBottom = (window.innerHeight + window.scrollY) >= (document.documentElement.scrollHeight - 60);
+  if(atBottom || (quest.doneNode && quest.doneNode.getBoundingClientRect().top <= line)){
+    if(state !== 'completed'){
+      state = 'completed'; phase = 'completed';
+      render(); say('completed');
+      settleEnding();
+    }
+    return;
+  }
+  var cur = quest.nodes[0], i, r;
+  for(i = 0; i < quest.nodes.length; i++){
+    r = quest.nodes[i].getBoundingClientRect();
+    if(r.top <= line) cur = quest.nodes[i];
+    else break;
+  }
+  var k = cur ? cur.getAttribute('data-phase') : 'p240';
+  var sec = cur ? Number(cur.getAttribute('data-clock')) : quest.total;
+  if(k !== phase || remaining !== sec){
+    phase = k; remaining = sec;
+    render(); say(k);
+  }
+}
+var scrollQueued = false;
+function onScroll(){
+  if(mode !== 'story' || state === 'completed' || state === 'failed') return;
+  if(typeof Scene !== 'undefined' && Scene.mode !== 'archive') return;
+  if(scrollQueued) return;
+  scrollQueued = true;
+  requestAnimationFrame(function(){ scrollQueued = false; storySync(); });
+}
+/* 抉择揭示：不只依赖 IntersectionObserver —— 滚动/打印/锚点跳转都能兜住 */
+function revealChoices(){
+  $$('.choice').forEach(function(box){
+    if(!box.classList.contains('hidden')) return;
+    var key = box.getAttribute('data-choice');
+    if(G.choices[key]){ box.classList.remove('hidden'); return; }
+    var r = box.getBoundingClientRect();
+    if(r.top < window.innerHeight*0.82 && r.bottom > 0) box.classList.remove('hidden');
+  });
+}
+function toStory(){
+  stopTick(); stopHeart();
+  mode = 'story'; state = 'running'; endAt = null;
+  persist(); storySync(); render();
+  Sfx.setWind(0.15);
+}
+function toLive(){
+  mode = 'live'; state = 'running'; phase = 'p240';
+  remaining = quest.total;
+  endAt = Date.now() + quest.total * 1000;
+  lastSaid = null;
+  persist(); startTick(); startHeart(); render(); say('p240');
+  toast('实时挑战开启', '四分钟真读秒。倒计时归零即判定任务失败。', 'bad');
+  Sfx.setWind(0.4);
+}
+if(btnLive) btnLive.addEventListener('click', function(){
+  if(mode === 'live') toStory(); else toLive();
+});
+if(btnPause) btnPause.addEventListener('click', function(){
+  if(mode !== 'live') return;
+  if(state === 'running'){
+    stopTick(); stopHeart();
+    remaining = Math.max(0, Math.ceil((endAt - Date.now())/1000));
+    endAt = null; state = 'paused';
+    persist(); render();
+  } else if(state === 'paused'){
+    state = 'running';
+    endAt = Date.now() + remaining * 1000;
+    persist(); startTick(); startHeart(); render();
+  }
+});
+if(btnReset) btnReset.addEventListener('click', function(){
+  stopTick(); stopHeart();
+  mode = 'story'; state = 'running'; phase = 'p240';
+  remaining = quest.total; endAt = null; lastSaid = null;
+  G.ended = null; G.trust = 0; G.choices = {}; G.flags = {};
+  try{ sessionStorage.removeItem(quest.key); }catch(e){}
+  if(alertEl) alertEl.textContent = '';
+  window.scrollTo(0,0);
+  render(); say('p240');
+  Choice.renderTrust();
+  saveAll();
+  toast('已重置', '任务从头开始，羁绊与抉择记录已清空。');
+});
+
+window.addEventListener('scroll', onScroll, {passive:true});
+window.addEventListener('resize', onScroll, {passive:true});
+
+/* 自愈节拍：读秒与抉择揭示不依赖 scroll 事件是否被派发，
+   浏览器还原滚动位置、锚点跳转、后台标签页恢复时都能自校正。 */
+setInterval(function(){
+  if(typeof Scene !== 'undefined' && Scene.mode === 'archive'){
+    if(mode === 'story' && state !== 'completed' && state !== 'failed') storySync();
+  }
+  revealChoices();
+}, 500);
+
+/* ========================= 16. 界面辅助 ========================= */
+function shake(){
+  if(SET.motion==='off') return;
+  document.body.classList.add('shake');
+  setTimeout(function(){ document.body.classList.remove('shake'); },520);
+}
+function openOv(id){
+  var o = $(id); if(!o) return;
+  o.classList.add('on');
+  var f = o.querySelector('button'); if(f) setTimeout(function(){ f.focus(); },30);
+}
+function closeOv(id){ var o = $(id); if(o) o.classList.remove('on'); }
+function anyOvOpen(){ return $$('.overlay.on').length>0; }
+
+/* 设置 */
+function applySettings(){
+  document.documentElement.style.setProperty('--fs', SET.font+'px');
+  document.body.style.fontSize = SET.font+'px';
+  document.body.style.lineHeight = '1.78';
+  if(Sfx.ctx){ Sfx.master.gain.value = SET.vol; }
+  Sfx.on = !!SET.sound;
+  var sw = $('#swSound'); if(sw){ sw.textContent = SET.sound?'开':'关'; sw.classList.toggle('on', SET.sound); sw.setAttribute('aria-pressed', SET.sound?'true':'false'); }
+  var rv = $('#rgVol'); if(rv) rv.value = Math.round(SET.vol*100);
+  var vt = $('#volTxt'); if(vt) vt.textContent = Math.round(SET.vol*100);
+  var sm = $('#selMotion'); if(sm) sm.value = SET.motion;
+  var mt = $('#motionTxt'); if(mt) mt.textContent = ({full:'全开',lite:'轻量',off:'关闭'})[SET.motion];
+  var sf = $('#selFont'); if(sf) sf.value = SET.font;
+  var ft = $('#fontTxt'); if(ft) ft.textContent = ({'15':'小','16':'标准','17.5':'大','19':'特大'})[SET.font];
+  var sp = $('#swPressure'); if(sp){ sp.textContent = SET.pressure?'开':'关'; sp.classList.toggle('on', SET.pressure); sp.setAttribute('aria-pressed', SET.pressure?'true':'false'); }
+  if(SET.motion==='off'){ Fx.parts = []; }
+  else { Fx.seed(); }
+}
+function saveSettings(){ Store.set(LS.set, SET); }
+if($('#btnSettings')) $('#btnSettings').addEventListener('click', function(){ openOv('#settingsOverlay'); });
+if($('#btnSettingsClose')) $('#btnSettingsClose').addEventListener('click', function(){ closeOv('#settingsOverlay'); });
+if($('#swSound')) $('#swSound').addEventListener('click', function(){
+  SET.sound = !SET.sound;
+  if(SET.sound){ if(Sfx.boot()){ Sfx.resume(); Sfx.tone(440,0.12,'triangle',0.08); } }
+  else { Sfx.setWind(0); }
+  applySettings(); saveSettings();
+});
+if($('#rgVol')) $('#rgVol').addEventListener('input', function(){
+  SET.vol = Number(this.value)/100; applySettings(); saveSettings();
+});
+if($('#selMotion')) $('#selMotion').addEventListener('change', function(){
+  SET.motion = this.value; applySettings(); saveSettings();
+});
+if($('#selFont')) $('#selFont').addEventListener('change', function(){
+  SET.font = this.value; applySettings(); saveSettings();
+});
+if($('#swPressure')) $('#swPressure').addEventListener('click', function(){
+  SET.pressure = !SET.pressure; applySettings(); saveSettings();
+});
+if($('#btnWipe')) $('#btnWipe').addEventListener('click', function(){
+  if(!confirm('将清除本机存档、成就与结局记录。确定？')) return;
+  Store.del(LS.save); Store.del(LS.end); Store.del(LS.ach);
+  location.reload();
+});
+if($('#btnGallery')) $('#btnGallery').addEventListener('click', function(){ renderEnds(); openOv('#galleryOverlay'); });
+if($('#btnGalleryClose')) $('#btnGalleryClose').addEventListener('click', function(){ closeOv('#galleryOverlay'); });
+if($('#btnAch')) $('#btnAch').addEventListener('click', function(){ renderAch(); openOv('#achOverlay'); });
+if($('#btnAchClose')) $('#btnAchClose').addEventListener('click', function(){ closeOv('#achOverlay'); });
+
+document.addEventListener('keydown', function(e){
+  if(e.key === 'Escape'){
+    if(anyOvOpen()){ $$('.overlay.on').forEach(function(o){ o.classList.remove('on'); }); return; }
+    Lore.hide(); return;
+  }
+  if(e.target && /INPUT|SELECT|TEXTAREA/.test(e.target.tagName)) return;
+  if(e.key === 'b' || e.key === 'B'){ if($('#btnBattle')) $('#btnBattle').click(); }
+  if(e.key === 't' || e.key === 'T'){ if(btnLive) btnLive.click(); }
+});
+
+/* 段落到达标记 */
+function panelByTag(tag){
+  var found=null;
+  $$('.panel').forEach(function(p){
+    var t = p.querySelector('.htag');
+    if(t && t.textContent.trim()===tag) found = p;
+  });
+  return found;
+}
+function markSeen(key, node){
+  if(!node || G.seen[key]) return;
+  G.seen[key] = true;
+  if(key==='act2') unlock('a_quest');
+  if(key==='side'){ G.flags.sideDone = true; Equip.render(); }
+  if(key==='recruit') Equip.render();
+  saveAll();
+}
+if(window.IntersectionObserver){
+  var io2 = new IntersectionObserver(function(ents){
+    ents.forEach(function(e){ if(e.isIntersecting) markSeen(e.target.getAttribute('data-seen'), e.target); });
+  },{threshold:0.15});
+  var act2Node = $('[data-phase="p180"]'); if(act2Node){ act2Node.setAttribute('data-seen','act2'); io2.observe(act2Node); }
+  var sidePanel = panelByTag('已完成'); if(sidePanel){ sidePanel.setAttribute('data-seen','side'); io2.observe(sidePanel); }
+  var recPanel = panelByTag('新入队'); if(recPanel){ recPanel.setAttribute('data-seen','recruit'); io2.observe(recPanel); }
+}
+
+/* 雇佣须知展开 = 成就 */
+$$('.build-detail').forEach(function(d){
+  d.addEventListener('toggle', function(){ if(d.open) unlock('a_lvl98'); });
+});
+var warnDetail = $('.warn');
+if(warnDetail) warnDetail.addEventListener('click', function(){ unlock('a_lvl98'); });
+
+/* ========================= 17. 实战演练 · 大风车 ========================= */
+var ETYPES = {
+  skel:  { hp:34,  spd:85, dmg:4,  r:13, color:'#cfc3a6', edge:'#8c7f63', score:1 },
+  ghoul: { hp:96,  spd:48, dmg:9,  r:19, color:'#6f8f56', edge:'#3f5630', score:3 },
+  caster:{ hp:28,  spd:70, dmg:6,  r:12, color:'#8f6fae', edge:'#553f70', score:2, ranged:true }
+};
+var BATTLE = {
+  active:false, raf:null, lastT:0, elapsed:0, cv:null, cx:null,
+  W:960, H:540,
+  p:{x:480,y:430,r:15,hp:120,maxhp:120,qi:100,spin:false,ang:0,inv:0,atkCd:0,bump:0},
+  enemies:[], shots:[], parts:[], nums:[],
+  waveIdx:-1, spawnT:0, waveList:[], waveLeft:0, waveName:'',
+  kills:0, total:0, limit:120, finished:false, started:false,
+  cds:{dash:0,taunt:0,rage:0,stomp:0,shield:0},
+  buff:{rage:0,vuln:0,shieldT:0,shieldHp:0},
+  m:null, keys:{}, shakeT:0, uiT:0, resultEl:null,
+
+  waves:[
+    { n:'第一波 · 试探', list:{skel:8} },
+    { n:'第二波 · 缝合尸', list:{skel:8, ghoul:3} },
+    { n:'第三波 · 骨刺法师', list:{skel:6, ghoul:3, caster:3} }
+  ],
+
+  skills:[
+    { k:'spin',  hot:'1', n:'旋风斩·疾风旋', d:'转进清群', cd:0 },
+    { k:'dash',  hot:'2', n:'突刺打击',    d:'位移攒气', cd:3.2 },
+    { k:'taunt', hot:'3', n:'挑战怒吼',    d:'聚怪·易伤', cd:12 },
+    { k:'rage',  hot:'4', n:'战斗怒吼',    d:'团队增伤', cd:18 },
+    { k:'stomp', hot:'5', n:'大地践踏',    d:'破甲·眩晕', cd:9 },
+    { k:'shield',hot:'6', n:'石肤光环',    d:'护盾·减伤', cd:16 }
+  ],
+
+  boot:function(){
+    this.cv = $('#stage'); if(!this.cv) return;
+    this.cx = this.cv.getContext('2d');
+    this.buildSkillBar();
+    var self=this;
+    if($('#btnBattle')) $('#btnBattle').addEventListener('click', function(){ self.start(); });
+    if($('#btnSkipBattle')) $('#btnSkipBattle').addEventListener('click', function(){
+      if(typeof Scene !== 'undefined') Scene.go(Scene.idx+1);
+    });
+    if($('#btnBattleClose')) $('#btnBattleClose').addEventListener('click', function(){ self.stop(); });
+
+    this.cv.addEventListener('pointerdown', function(e){
+      if(!self.active) return;
+      var r = self.cv.getBoundingClientRect();
+      var x = (e.clientX - r.left) * (self.W / r.width);
+      var y = (e.clientY - r.top) * (self.H / r.height);
+      self.moveTo(x,y);
+    });
+    this.cv.addEventListener('pointermove', function(e){
+      if(!self.active) return;
+      var r = self.cv.getBoundingClientRect();
+      self.mx = (e.clientX - r.left) * (self.W / r.width);
+      self.my = (e.clientY - r.top) * (self.H / r.height);
+    });
+
+    window.addEventListener('keydown', function(e){
+      if(!self.active) return;
+      var k = e.key.toLowerCase();
+      self.keys[k] = true;
+      if(k==='escape'){ self.stop(); return; }
+      var sk = self.skills.filter(function(s){return s.hot===e.key;})[0];
+      if(sk){ e.preventDefault(); self.cast(sk.k); }
+      if(k===' '){ e.preventDefault(); self.toggleSpin(); }
+      if('wasd'.indexOf(k)>=0 || e.key.indexOf('Arrow')===0) e.preventDefault();
+    });
+    window.addEventListener('keyup', function(e){ self.keys[e.key.toLowerCase()] = false; });
+    document.addEventListener('visibilitychange', function(){
+      if(!self.active) return;
+      self.paused = !!document.hidden;
+    });
+  },
+
+  buildSkillBar:function(){
+    var bar = $('#skillBar'); if(!bar) return;
+    bar.innerHTML='';
+    var self=this;
+    this.skills.forEach(function(s){
+      var b = mk('button','sk-btn');
+      b.type='button';
+      b.innerHTML = '<span class="kb">'+s.hot+'</span><span class="sn">'+s.n+'</span><span class="sd">'+s.d+'</span>';
+      b.addEventListener('click', function(){ self.cast(s.k); });
+      bar.appendChild(b);
+      s.el = b;
+    });
+  },
+
+  start:function(){
+    var ov = $('#battleOverlay'); if(!ov) return;
+    this.reset();
+    this.active = true; this.started = true; this.finished = false;
+    ov.classList.add('on');
+    this.cv.focus && this.cv.focus();
+    this.lastT = 0;
+    var self=this;
+    this.raf = requestAnimationFrame(function(ts){ self.loop(ts); });
+    toast('训练场', '气劲靠击杀回补。旋风斩按住不放，风不能停。');
+  },
+  stop:function(){
+    this.active = false;
+    if(this.raf) cancelAnimationFrame(this.raf), this.raf=null;
+    var ov = $('#battleOverlay'); if(ov) ov.classList.remove('on');
+    Sfx.setWind(0.15);
+  },
+
+  reset:function(){
+    this.m = Equip.mods();
+    this.p = {x:480,y:430,r:15,hp:120,maxhp:120,qi:this.m.qiMax,spin:false,ang:0,inv:0,atkCd:0,bump:0};
+    this.enemies=[]; this.shots=[]; this.parts=[]; this.nums=[];
+    this.waveIdx=-1; this.spawnT=0; this.waveList=[]; this.waveLeft=0;
+    this.kills=0; this.total=0; this.elapsed=0; this.finished=false;
+    this.cds={dash:0,taunt:0,rage:0,stomp:0,shield:0};
+    this.buff={rage:0,vuln:0,shieldT:0,shieldHp:0};
+    this.keys={}; this.shakeT=0;
+    this.total = this.waves.reduce(function(a,w){ var t=0; for(var k in w.list) t+=w.list[k]; return a+t; },0);
+    this.nextWave();
+    if(this.resultEl){ this.resultEl.innerHTML=''; this.resultEl.style.display='none'; }
+  },
+
+  nextWave:function(){
+    this.waveIdx++;
+    if(this.waveIdx >= this.waves.length) return;
+    var w = this.waves[this.waveIdx];
+    this.waveName = w.n;
+    this.waveList = [];
+    for(var k in w.list){ for(var i=0;i<w.list[k];i++) this.waveList.push(k); }
+    this.waveLeft = this.waveList.length;
+    this.spawnT = 0;
+    this.spawned = 0;
+    this.waveTotal = this.waveList.length;
+    this.waveBannerT = this.elapsed;
+    this.gapT = 1.1;
+  },
+
+  spawn:function(type){
+    var t = ETYPES[type];
+    var e = {
+      type:type, hp:t.hp, maxhp:t.hp, spd:t.spd, dmg:t.dmg, r:t.r,
+      x: 150 + Math.random()*(this.W-300), y: -30 - Math.random()*60,
+      vx:0, vy:0, stun:0, atkCd:0, hit:0, wob:Math.random()*6.28, alive:true
+    };
+    this.enemies.push(e);
+  },
+
+  nearest:function(x,y){
+    var best=null, bd=1e9;
+    for(var i=0;i<this.enemies.length;i++){
+      var e=this.enemies[i]; if(!e.alive) continue;
+      var d=(e.x-x)*(e.x-x)+(e.y-y)*(e.y-y);
+      if(d<bd){ bd=d; best=e; }
+    }
+    return best;
+  },
+
+  moveTo:function(x,y){ this.mx=x; this.my=y; this.aiming=true; },
+
+  toggleSpin:function(){
+    if(this.finished) return;
+    if(this.lockT>0){
+      this.floatText(this.p.x,this.p.y-30,'气未回 · 不可再转','#ff5a3c');
+      return;
+    }
+    this.p.spin = !this.p.spin;
+    if(this.p.spin) Sfx.spin();
+  },
+
+  cast:function(k){
+    if(this.finished || !this.active) return;
+    var m=this.m, p=this.p;
+    if(k==='spin'){ this.toggleSpin(); return; }
+    if(this.cds[k]>0) return;
+    if(k==='dash'){
+      var e=this.nearest(p.x,p.y);
+      if(e){
+        var a=Math.atan2(e.y-p.y,e.x-p.x);
+        p.face = (Math.abs(e.x-p.x) > Math.abs(e.y-p.y)) ? (e.x>p.x?1:-1) : 0;
+        p.dx=Math.cos(a); p.dy=Math.sin(a);
+        p.dashT=0.18; p.dashHit=false;
+        this.cds.dash=3.2; Sfx.tone(420,0.12,'sawtooth',0.05,260);
+      }
+    }
+    if(k==='taunt'){
+      this.cds.taunt=12; this.buff.vuln=6;
+      for(var i=0;i<this.enemies.length;i++){
+        var e2=this.enemies[i]; if(!e2.alive) continue;
+        var a2=Math.atan2(p.y-e2.y,p.x-e2.x);
+        e2.x += Math.cos(a2)*44; e2.y += Math.sin(a2)*44;
+      }
+      this.shakeT=0.25; Sfx.tone(160,0.35,'square',0.08,110);
+      this.floatText(p.x,p.y-34,'聚怪','#f4cf7a');
+    }
+    if(k==='rage'){
+      this.cds.rage=18; this.buff.rage=8;
+      this.shakeT=0.2; Sfx.tone(220,0.3,'sawtooth',0.07,150);
+      this.floatText(p.x,p.y-34,'战斗怒吼 +30%','#ff9a6a');
+    }
+    if(k==='stomp'){
+      this.cds.stomp=9;
+      var hits=0;
+      for(var j=0;j<this.enemies.length;j++){
+        var e3=this.enemies[j]; if(!e3.alive) continue;
+        if(Math.hypot(e3.x-p.x,e3.y-p.y) < 138){
+          this.hurtEnemy(e3, 24*m.dmg/100);
+          e3.stun = 1.3; hits++;
+        }
+      }
+      this.shakeT=0.4; Sfx.tone(90,0.4,'sine',0.13,45);
+      for(var q=0;q<26;q++) this.parts.push(this.mkPart(p.x,p.y,Math.random()*6.28,2+Math.random()*4,'rgba(217,164,65,',0.8));
+      this.floatText(p.x,p.y-34,'大地践踏','#d9a441');
+    }
+    if(k==='shield'){
+      this.cds.shield=16; this.buff.shieldT=8;
+      this.buff.shieldHp = p.maxhp * m.shield/100;
+      Sfx.tone(330,0.4,'sine',0.08,520);
+      this.floatText(p.x,p.y-34,'石肤护盾','#5a8fb0');
+    }
+    this.uiT=0;
+  },
+
+  hurtEnemy:function(e, amount){
+    if(!e.alive) return;
+    var m=this.m;
+    var crit = Math.random()*100 < m.crit;
+    var dmg = amount * (crit?1.9:1) * (1 + (this.buff.rage>0?0.30:0)) * (1 + (this.buff.vuln>0?0.18:0));
+    e.hp -= dmg; e.hit=0.12;
+    this.floatText(e.x + (Math.random()*14-7), e.y - e.r - 4, (crit?'暴击 ':'')+Math.round(dmg), crit?'#ffe3b0':'#e8d9c0');
+    for(var i=0;i<(crit?5:2);i++) this.parts.push(this.mkPart(e.x,e.y,Math.random()*6.28,1.4+Math.random()*2.4,'rgba(214,58,41,',0.7));
+    if(e.hp<=0){
+      e.alive=false; this.kills++;
+      var qi = this.m.killQi;
+      this.p.qi = clamp(this.p.qi + qi, 0, this.m.qiMax);
+      this.p.hp = clamp(this.p.hp + 3.5, 0, this.p.maxhp);
+      Sfx.kill();
+      for(var j=0;j<9;j++) this.parts.push(this.mkPart(e.x,e.y,Math.random()*6.28,1.6+Math.random()*3,'rgba(207,195,166,',0.75));
+      this.floatText(e.x,e.y-14,'+'+qi+' 气','#7fae5a');
+    }
+  },
+
+  hurtPlayer:function(amount){
+    var p=this.p, m=this.m;
+    if(p.inv>0 || this.finished) return;
+    var red = this.buff.shieldT>0 ? 0.25 : 0;
+    var dmg = amount * (1 - clamp(m.armor,0,60)/100) * (1-red);
+    if(this.buff.shieldT>0 && this.buff.shieldHp>0){
+      var ab = Math.min(this.buff.shieldHp, dmg);
+      this.buff.shieldHp -= ab; dmg -= ab;
+      if(this.buff.shieldHp<=0) this.buff.shieldT=0;
+    }
+    p.hp -= dmg; p.inv=0.45; this.shakeT=Math.max(this.shakeT,0.2);
+    this.floatText(p.x, p.y-26, '-'+Math.round(dmg), '#ff5a3c');
+    Sfx.hit();
+    if(p.hp<=0){ p.hp=0; this.finish('F'); }
+  },
+
+  mkPart:function(x,y,a,v,col,life){
+    return { x:x, y:y, vx:Math.cos(a)*v, vy:Math.sin(a)*v, life:(life||1), col:col };
+  },
+  floatText:function(x,y,txt,col){
+    this.nums.push({x:x,y:y,t:txt,c:col||'#e8d9c0',life:1});
+  },
+
+  loop:function(ts){
+    if(!this.active) return;
+    this.raf = requestAnimationFrame(function(t2){ BATTLE.loop(t2); });
+    if(!this.lastT) this.lastT = ts;
+    var dt = Math.min(0.05, (ts - this.lastT)/1000);
+    this.lastT = ts;
+    if(!this.paused){
+      if(!this.finished) this.elapsed += dt;
+      this.update(dt);
+    }
+    this.draw();
+    this.uiT += dt;
+    if(this.uiT > 0.08){ this.uiT = 0; this.syncHud(); }
+  },
+
+  update:function(dt){
+    var p=this.p, m=this.m;
+    /* 冷却与增益 */
+    for(var c in this.cds) if(this.cds[c]>0) this.cds[c]-=dt;
+    if(this.buff.rage>0) this.buff.rage-=dt;
+    if(this.buff.vuln>0) this.buff.vuln-=dt;
+    if(this.buff.shieldT>0){ this.buff.shieldT-=dt; if(this.buff.shieldT<=0) this.buff.shieldHp=0; }
+    if(p.inv>0) p.inv-=dt;
+
+    /* 移动 */
+    var vx=0, vy=0;
+    if(this.keys['a']||this.keys['arrowleft']) vx-=1;
+    if(this.keys['d']||this.keys['arrowright']) vx+=1;
+    if(this.keys['w']||this.keys['arrowup']) vy-=1;
+    if(this.keys['s']||this.keys['arrowdown']) vy+=1;
+    if(vx||vy){
+      var len=Math.hypot(vx,vy)||1;
+      var spd=185*(p.spin?0.55:1);
+      p.x+=vx/len*spd*dt; p.y+=vy/len*spd*dt;
+    }
+    if(this.aiming && this.mx!==undefined){
+      var dx=this.mx-p.x, dy=this.my-p.y, dl=Math.hypot(dx,dy);
+      if(dl>26 && !p.spin){
+        var spd2=170;
+        p.x+=dx/dl*spd2*dt; p.y+=dy/dl*spd2*dt;
+      }
+    }
+    p.x=clamp(p.x,26,this.W-26); p.y=clamp(p.y,50,this.H-26);
+
+    /* 突刺位移 */
+    if(p.dashT>0){
+      p.dashT-=dt;
+      p.x+=p.dx*760*dt; p.y+=p.dy*760*dt;
+      p.x=clamp(p.x,26,this.W-26); p.y=clamp(p.y,50,this.H-26);
+      if(!p.dashHit){
+        for(var i=0;i<this.enemies.length;i++){
+          var ed=this.enemies[i]; if(!ed.alive) continue;
+          if(Math.hypot(ed.x-p.x,ed.y-p.y) < ed.r+p.r+6){
+            this.hurtEnemy(ed, 30*m.dmg/100);
+            p.qi=clamp(p.qi+18,0,m.qiMax);
+            p.dashHit=true; p.inv=Math.max(p.inv,0.35);
+            break;
+          }
+        }
+      }
+    }
+
+    /* 气劲：转进消耗 / 自然回气 */
+    if(p.spin){
+      var cost = m.spinCost;
+      var vortex = !!G.flags.sideDone;      /* 无尽气旋：永动，耗气降档不断风 */
+      if(vortex && p.qi<=0) cost = m.spinCost*0.4;
+      p.qi = clamp(p.qi - cost*dt, 0, m.qiMax);
+      if(p.qi<=0 && !vortex){
+        /* 风断：气劲见底，转进必须停 —— 靠回气补不齐，硬转只会空转 */
+        p.spin=false;
+        this.lockT = 2.2;
+        this.floatText(p.x,p.y-30,'气尽 · 风断','#ff5a3c');
+        Sfx.tone(150,0.4,'sawtooth',0.06,70);
+      } else {
+        p.ang += dt*9;
+        this.spinHitT = (this.spinHitT||0) + dt;
+        if(this.spinHitT>0.22){
+          this.spinHitT=0;
+          for(var j=0;j<this.enemies.length;j++){
+            var e=this.enemies[j]; if(!e.alive) continue;
+            var kd = Math.hypot(e.x-p.x,e.y-p.y);
+            if(kd < 112){
+              this.hurtEnemy(e, 46*m.dmg/100*0.22);
+              /* 风压：只把贴脸的敌人推开到圈缘，不把远处的推走。
+                 这样转起来既守得住人，又不会把怪永远挡在伤害范围外。 */
+              if(kd < 76){
+                var ka=Math.atan2(e.y-p.y,e.x-p.x);
+                e.x += Math.cos(ka)*26; e.y += Math.sin(ka)*26;
+              }
+            }
+          }
+          if(Math.random()<0.6) Sfx.spin();
+        }
+      }
+    }
+    if(this.lockT>0) this.lockT-=dt;
+    p.qi = clamp(p.qi + m.regen*dt, 0, m.qiMax);
+    p.hp = clamp(p.hp + 1.1*dt, 0, p.maxhp);
+
+    /* 普通攻击（不转进时的保底输出） */
+    p.atkCd -= dt;
+    if(p.atkCd<=0 && !p.spin){
+      p.atkCd=0.8;
+      var ne=this.nearest(p.x,p.y);
+      if(ne && Math.hypot(ne.x-p.x,ne.y-p.y) < 72){
+        this.hurtEnemy(ne, 9*m.dmg/100);
+        this.mkPart(p.x,p.y,Math.atan2(ne.y-p.y,ne.x-p.x),2,'rgba(244,207,122,',0.6);
+      }
+    }
+
+    /* 波次刷怪 */
+    if(this.gapT>0){ this.gapT -= dt; }
+    else if(this.waveList.length){
+      this.spawnT -= dt;
+      if(this.spawnT<=0 && this.waveList.length){
+        this.spawnT = Math.max(0.35, 0.85 - this.waveIdx*0.18);
+        var t = this.waveList.shift();
+        this.spawn(t);
+      }
+    } else if(this.enemies.every(function(e){return !e.alive;})){
+      if(this.waveIdx >= this.waves.length-1){ this.finish(this.grade()); }
+      else { this.nextWave(); }
+    }
+
+    /* 敌人行为 */
+    for(var k=0;k<this.enemies.length;k++){
+      var en=this.enemies[k]; if(!en.alive) continue;
+      if(en.hit>0) en.hit-=dt;
+      if(en.stun>0){ en.stun-=dt; continue; }
+      var dx2=p.x-en.x, dy2=p.y-en.y, d=Math.hypot(dx2,dy2)||1;
+      en.atkCd-=dt;
+      if(ETYPES[en.type].ranged){
+        if(d>105){ en.x+=dx2/d*en.spd*dt; en.y+=dy2/d*en.spd*dt; }
+        else if(d<68){ en.x-=dx2/d*en.spd*0.6*dt; en.y-=dy2/d*en.spd*0.6*dt; }
+        if(en.atkCd<=0 && d<300){
+          en.atkCd=1.8;
+          this.shots.push({x:en.x,y:en.y, vx:dx2/d*230, vy:dy2/d*230, dmg:en.dmg, life:3});
+        }
+      }else{
+        if(d>en.r+p.r-2){ en.x+=dx2/d*en.spd*dt; en.y+=dy2/d*en.spd*dt; }
+        if(d<en.r+p.r+4 && en.atkCd<=0){
+          en.atkCd=1.0;
+          this.hurtPlayer(en.dmg);
+        }
+      }
+    }
+    this.enemies = this.enemies.filter(function(e){ return e.alive || e.hit>0; });
+
+    /* 远程弹 */
+    for(var s=this.shots.length-1;s>=0;s--){
+      var sh=this.shots[s];
+      sh.x+=sh.vx*dt; sh.y+=sh.vy*dt; sh.life-=dt;
+      /* 风障：转进时，靠近的骨刺被旋风卷飞 —— 核心技同时是防御技 */
+      if(p.spin && Math.hypot(sh.x-p.x,sh.y-p.y) < 82){
+        this.shots.splice(s,1);
+        for(var w=0;w<5;w++) this.parts.push(this.mkPart(sh.x,sh.y,Math.random()*6.28,1.4+Math.random()*2.2,'rgba(190,185,175,',0.6));
+        Sfx.tone(920,0.07,'triangle',0.045);
+        continue;
+      }
+      if(Math.hypot(sh.x-p.x,sh.y-p.y) < p.r+5){ this.hurtPlayer(sh.dmg); this.shots.splice(s,1); continue; }
+      if(sh.life<=0 || sh.y>this.H+30 || sh.x<-30 || sh.x>this.W+30) this.shots.splice(s,1);
+    }
+
+    /* 粒子 */
+    for(var q2=this.parts.length-1;q2>=0;q2--){
+      var pp=this.parts[q2];
+      pp.x+=pp.vx; pp.y+=pp.vy; pp.vy+=0.12; pp.vx*=0.96; pp.vy*=0.96; pp.life-=0.022;
+      if(pp.life<=0) this.parts.splice(q2,1);
+    }
+    for(var n=this.nums.length-1;n>=0;n--){
+      var nn=this.nums[n]; nn.y-=0.55; nn.life-=0.022; if(nn.life<=0) this.nums.splice(n,1);
+    }
+    if(this.shakeT>0) this.shakeT-=dt;
+
+    /* 风声随风劲强度 */
+    var wv = p.spin?0.75:0.22;
+    if(this._wv !== wv){ this._wv = wv; Sfx.setWind(wv); }
+
+    /* 超时 */
+    if(!this.finished && this.elapsed > this.limit){
+      var pct = this.kills/this.total;
+      this.finish(pct>=0.7?'C':'F');
+    }
+  },
+
+  grade:function(){
+    var hpPct = this.p.hp/this.p.maxhp;
+    if(this.elapsed<=55 && hpPct>=0.75) return 'S';
+    if(this.elapsed<=80) return 'A';
+    return 'B';
+  },
+
+  finish:function(grade){
+    if(this.finished) return;
+    this.finished=true; this.p.spin=false;
+    this.showResult(grade);
+    var best = G.battle;
+    var better = !best || ('FBCAS'.indexOf(best.grade) < 'FBCAS'.indexOf(grade)) ||
+                 (best.grade===grade && this.elapsed < (best.time||1e9));
+    if(better){
+      G.battle = { grade:grade, time:Math.round(this.elapsed*10)/10, kills:this.kills };
+      saveAll();
+    }
+    if(grade==='S'){ unlock('a_srank'); }
+    if('SAB'.indexOf(grade)>=0){
+      unlock('a_battle');
+      if(!G.flags.battleRewarded){
+        G.flags.battleRewarded=true;
+        var add = grade==='S'?8:(grade==='A'?5:3);
+        G.trust = clamp(G.trust+add,0,100);
+        Choice.renderTrust();
+        toast('演武评语', '评级 '+grade+'　风之羁绊 +'+add, 'ach');
+      }
+    }
+    Equip.render();
+    if(grade==='S') Sfx.chime();
+  },
+
+  showResult:function(grade){
+    var panel = $('#battleOverlay .ov-panel');
+    if(!panel) return;
+    if(!this.resultEl){
+      this.resultEl = mk('div');
+      this.resultEl.style.marginTop = '14px';
+      panel.appendChild(this.resultEl);
+    }
+    var names={S:'风 神',A:'炉 火',B:'成 型',C:'勉 强',F:'风 断'};
+    var hpPct = Math.round(this.p.hp/this.p.maxhp*100);
+    var note = {
+      S:'风从不停。一路转，一路清，敌还没近身就已经碎了。',
+      A:'转得稳，只是起手晚了半拍——气还够用。',
+      B:'风是转起来了，可气劲断过几次。脚要再快一点。',
+      C:'没被完全绞碎，但石廊不会等你。',
+      F:'风断在正中。气要长，脚要快，风要不停——记住这三句。'
+    }[grade];
+    var unlockedTxt = '';
+    if(grade==='S') unlockedTxt='解锁：呼风坠 · 回气道袍 · 成就【风神】';
+    else if(grade==='A') unlockedTxt='解锁：回气道袍';
+    else if(grade==='B') unlockedTxt='解锁：呼风坠';
+    this.resultEl.style.display='block';
+    this.resultEl.innerHTML =
+      '<div class="result-grade grade-'+grade+'">'+grade+'</div>'+
+      '<div style="text-align:center;color:var(--gold-dim);font-size:12px;letter-spacing:.2em;">'+names[grade]+' · '+this.waveName+'</div>'+
+      '<ul class="result-list">'+
+        '<li><span>清理进度</span><span>'+this.kills+' / '+this.total+'</span></li>'+
+        '<li><span>用时</span><span>'+this.elapsed.toFixed(1)+' 秒</span></li>'+
+        '<li><span>残余生命</span><span>'+hpPct+'%</span></li>'+
+        '<li><span>剩余气劲</span><span>'+Math.round(this.p.qi)+' / '+this.m.qiMax+'</span></li>'+
+      '</ul>'+
+      '<div style="font-size:13px;color:#c9bba3;font-style:italic;border-left:3px solid var(--red);padding-left:11px;">'+note+'</div>'+
+      (unlockedTxt?('<div class="unlock-note">'+unlockedTxt+'</div>'):'')+
+      '<div style="margin-top:12px;display:flex;gap:8px;flex-wrap:wrap;">'+
+        '<button type="button" class="btn" id="btnReplay">再来一次</button>'+
+        '<button type="button" class="btn danger" id="btnLeave">离开训练场</button>'+
+      '</div>';
+    var self=this;
+    var rb=$('#btnReplay'); if(rb) rb.addEventListener('click',function(){ self.start(); });
+    var lb=$('#btnLeave'); if(lb) lb.addEventListener('click',function(){ self.stop(); });
+    var gt=$('#gradeTxt'); if(gt) gt.textContent=grade;
+  },
+
+  syncHud:function(){
+    var m=this.m, p=this.p;
+    var qt=$('#qiTxt'); if(qt) qt.textContent = Math.round(p.qi)+' / '+m.qiMax;
+    var qf=$('#qiFill'); if(qf) qf.style.width = clamp(p.qi/m.qiMax*100,0,100)+'%';
+    var ht=$('#hpTxt'); if(ht) ht.textContent = Math.max(0,Math.round(p.hp))+' / '+p.maxhp;
+    var hf=$('#hpFill'); if(hf) hf.style.width = clamp(p.hp/p.maxhp*100,0,100)+'%';
+    var st=$('#shTxt'); if(st) st.textContent = this.buff.shieldT>0 ? (Math.round(this.buff.shieldHp)+'（'+(this.buff.shieldT).toFixed(1)+'s）') : '未开启';
+    var sf=$('#shFill'); if(sf) sf.style.width = this.buff.shieldT>0 ? clamp(this.buff.shieldHp/ (p.maxhp*m.shield/100) *100,0,100)+'%' : '0%';
+    var wt=$('#waveTxt'); if(wt) wt.textContent = Math.max(1,this.waveIdx+1)+' / '+this.waves.length;
+    var kt=$('#killTxt'); if(kt) kt.textContent=this.kills;
+    var lt=$('#leftTxt'); if(lt) lt.textContent = Math.max(0,this.total-this.kills);
+    var tt=$('#timeTxt'); if(tt) tt.textContent = this.elapsed.toFixed(1)+'s';
+    for(var i=0;i<this.skills.length;i++){
+      var s=this.skills[i]; if(!s.el) continue;
+      if(s.k==='spin'){
+        s.el.classList.toggle('on', this.p.spin);
+        s.el.disabled = this.lockT>0 || this.finished;
+        var lk=s.el.querySelector('.cdnum');
+        if(this.lockT>0){
+          if(!lk){ lk=mk('span','cdnum'); s.el.appendChild(lk); }
+          lk.textContent=this.lockT.toFixed(1);
+        }else if(lk){ lk.parentNode.removeChild(lk); }
+        continue;
+      }
+      var cd=this.cds[s.k]||0;
+      s.el.disabled = cd>0 || this.finished;
+      var old=s.el.querySelector('.cdnum');
+      if(cd>0){
+        if(!old){ old=mk('span','cdnum'); s.el.appendChild(old); }
+        old.textContent=cd.toFixed(1);
+      }else if(old){ old.parentNode.removeChild(old); }
+    }
+  },
+
+  draw:function(){
+    var c=this.cx; if(!c) return;
+    var W=this.W, H=this.H;
+    c.save();
+    if(this.shakeT>0){
+      var amp=this.shakeT*22;
+      c.translate((Math.random()-0.5)*amp,(Math.random()-0.5)*amp);
+    }
+    /* 地面 */
+    var g=c.createLinearGradient(0,0,0,H);
+    g.addColorStop(0,'#150c08'); g.addColorStop(0.55,'#0d0705'); g.addColorStop(1,'#1a0f09');
+    c.fillStyle=g; c.fillRect(0,0,W,H);
+    /* 石板线 */
+    c.strokeStyle='rgba(58,29,19,.55)'; c.lineWidth=1;
+    var off=(this.elapsed*70)%48;
+    for(var y=-48+off;y<H;y+=48){ c.beginPath(); c.moveTo(0,y); c.lineTo(W,y); c.stroke(); }
+    for(var x=0;x<W;x+=96){ c.beginPath(); c.moveTo(x,0); c.lineTo(x,H); c.stroke(); }
+    /* 侧墙火光 */
+    var lg=c.createRadialGradient(W/2,H*0.18,10,W/2,H*0.18,420);
+    lg.addColorStop(0,'rgba(214,58,41,.16)'); lg.addColorStop(1,'rgba(214,58,41,0)');
+    c.fillStyle=lg; c.fillRect(0,0,W,H);
+
+    /* 敌人 */
+    for(var i=0;i<this.enemies.length;i++){
+      var e=this.enemies[i];
+      var t=ETYPES[e.type];
+      var a = e.alive?1:Math.max(0,e.hit/0.12);
+      c.globalAlpha=a;
+      c.save(); c.translate(e.x,e.y);
+      if(e.type==='skel'){
+        c.fillStyle = e.hit>0? '#fff' : t.color;
+        c.beginPath(); c.arc(0,-4,e.r*0.62,0,6.283); c.fill();
+        c.fillStyle=t.edge;
+        c.fillRect(-e.r*0.4,0,e.r*0.8,e.r*0.9);
+        c.fillRect(-e.r*0.62,6,e.r*1.24,2.5);
+      }else if(e.type==='ghoul'){
+        c.fillStyle = e.hit>0? '#fff' : t.color;
+        c.beginPath(); c.ellipse(0,0,e.r,e.r*1.15,0,0,6.283); c.fill();
+        c.fillStyle='#2e3d24';
+        c.beginPath(); c.arc(-e.r*0.35,-e.r*0.25,3.2,0,6.283); c.fill();
+        c.beginPath(); c.arc(e.r*0.35,-e.r*0.25,3.2,0,6.283); c.fill();
+      }else{
+        c.fillStyle = e.hit>0? '#fff' : t.color;
+        c.beginPath(); c.moveTo(0,-e.r); c.lineTo(e.r*0.9,e.r); c.lineTo(-e.r*0.9,e.r); c.closePath(); c.fill();
+        c.fillStyle='#f0e6d2'; c.beginPath(); c.arc(0,-e.r*0.2,e.r*0.4,0,6.283); c.fill();
+      }
+      if(e.stun>0){ c.strokeStyle='#f4cf7a'; c.lineWidth=2; c.beginPath(); c.arc(0,-6,e.r+6,0,6.283); c.stroke(); }
+      c.restore();
+      /* 血条 */
+      if(e.alive){
+        c.fillStyle='rgba(0,0,0,.6)'; c.fillRect(e.x-e.r,e.y-e.r-10,e.r*2,3);
+        c.fillStyle= e.type==='ghoul'? '#6f8f56':'#a52318';
+        c.fillRect(e.x-e.r,e.y-e.r-10,e.r*2*clamp(e.hp/e.maxhp,0,1),3);
+      }
+    }
+    c.globalAlpha=1;
+
+    /* 远程弹 */
+    c.fillStyle='#b79ae0';
+    for(var s2=0;s2<this.shots.length;s2++){
+      var sh=this.shots[s2];
+      c.beginPath(); c.arc(sh.x,sh.y,5,0,6.283); c.fill();
+    }
+
+    /* 玩家 */
+    var p=this.p;
+    c.save(); c.translate(p.x,p.y);
+    /* 石肤护盾 */
+    if(this.buff.shieldT>0){
+      c.strokeStyle='rgba(90,143,176,.85)'; c.lineWidth=2.5;
+      c.beginPath(); c.arc(0,0,p.r+9,0,6.283); c.stroke();
+      c.fillStyle='rgba(90,143,176,.12)'; c.fill();
+    }
+    /* 旋风 */
+    if(p.spin){
+      for(var r2=0;r2<3;r2++){
+        c.save(); c.rotate(p.ang + r2*2.09);
+        c.strokeStyle='rgba(190,185,175,'+(0.5-r2*0.12)+')';
+        c.lineWidth=3;
+        c.beginPath(); c.arc(0,0,34+r2*14,0.5,4.2); c.stroke();
+        c.restore();
+      }
+    }
+    c.fillStyle = p.inv>0 && Math.floor(p.inv*20)%2 ? 'rgba(244,207,122,.45)' : '#f4cf7a';
+    c.beginPath(); c.arc(0,0,p.r,0,6.283); c.fill();
+    c.strokeStyle='#ff5a3c'; c.lineWidth=2.2; c.stroke();
+    /* 双拳 */
+    c.fillStyle='#d9a441';
+    var ao=p.ang*2;
+    c.beginPath(); c.arc(Math.cos(ao)*15,Math.sin(ao)*15,5,0,6.283); c.fill();
+    c.beginPath(); c.arc(Math.cos(ao+3.14)*15,Math.sin(ao+3.14)*15,5,0,6.283); c.fill();
+    c.restore();
+
+    /* 粒子 */
+    for(var q3=0;q3<this.parts.length;q3++){
+      var pp=this.parts[q3];
+      c.fillStyle = pp.col + (pp.life*0.9) + ')';
+      c.fillRect(pp.x,pp.y,2.4,2.4);
+    }
+    /* 浮动数字 */
+    c.textAlign='center';
+    for(var n2=0;n2<this.nums.length;n2++){
+      var nn=this.nums[n2];
+      c.globalAlpha=clamp(nn.life,0,1);
+      c.fillStyle=nn.c; c.font='bold 13px "Courier New",monospace';
+      c.fillText(nn.t,nn.x,nn.y);
+    }
+    c.globalAlpha=1;
+
+    /* 波次横幅 */
+    if(this.waveIdx>=0 && this.elapsed - (this.waveBannerT||0) < 2.2){
+      c.fillStyle='rgba(244,207,122,.9)';
+      c.font='bold 20px Georgia,serif'; c.textAlign='center';
+      c.fillText(this.waveName, W/2, 66);
+      c.font='12px Georgia,serif'; c.fillStyle='rgba(156,137,116,.95)';
+      c.fillText('第 '+(this.waveIdx+1)+' / '+this.waves.length+' 波', W/2, 88);
+    }
+    if(!this.waveBannerT) this.waveBannerT=0;
+    /* 倒计时 */
+    c.textAlign='right';
+    c.fillStyle= (this.limit-this.elapsed)<15 ? 'rgba(255,90,60,.95)':'rgba(156,137,116,.85)';
+    c.font='bold 15px "Courier New",monospace';
+    c.fillText(Math.max(0,this.limit-this.elapsed).toFixed(1)+'s', W-16, 28);
+    /* 切出页面时暂停提示 */
+    if(this.paused){
+      c.fillStyle='rgba(5,3,2,.62)'; c.fillRect(0,0,W,H);
+      c.fillStyle='#f4cf7a'; c.font='bold 22px Georgia,serif'; c.textAlign='center';
+      c.fillText('已 暂 停', W/2, H/2-6);
+      c.font='12px Georgia,serif'; c.fillStyle='rgba(156,137,116,.95)';
+      c.fillText('页面处于后台，回到本页继续', W/2, H/2+22);
+    }
+    c.restore();
+  }
+};
+
+/* ========================= 17.5 点击推进 · Scene / Typewriter ========================= */
+var Scene = {
+  list: [], idx: 0, mode: 'paged',
+  twChars: null, twI: 0, twDone: true, twTimer: null, twCursor: null,
+
+  boot:function(){
+    var host = $('#scenes');
+    if(!host) return;
+    var kids = Array.prototype.slice.call(host.children);
+    var act = '序';
+    var frag = document.createDocumentFragment();
+    kids.forEach(function(el){
+      var sec = document.createElement('section');
+      sec.className = 'scene';
+      if(el.classList.contains('sep')){
+        sec.classList.add('chapter');
+        var h = el.querySelector('h2');
+        act = (h ? h.textContent : el.textContent).replace(/\s+/g,'');
+      }
+      sec.appendChild(el);
+      sec.setAttribute('data-act', act);
+      sec.setAttribute('data-clock0', el.getAttribute('data-clock') || '');
+      sec.setAttribute('data-phase0', el.getAttribute('data-phase') || '');
+      frag.appendChild(sec);
+    });
+    host.innerHTML = '';
+    host.appendChild(frag);
+    this.list = Array.prototype.slice.call(host.children);
+    /* 继承 clock / phase：没有标注的段落沿用上一段 */
+    var lc = quest.total, lp = 'p240';
+    this.list.forEach(function(s){
+      var c = s.getAttribute('data-clock0');
+      var ph = s.getAttribute('data-phase0');
+      if(c !== '' && !isNaN(Number(c))) lc = Number(c);
+      if(ph !== '') lp = ph;
+      s._clock = lc; s._phase = lp;
+    });
+    this.buildTOC();
+    this.bind();
+    this.setPaged(true);
+    var start = clamp(Number(G.sceneIdx)||0, 0, this.list.length-1);
+    this.go(start, true);
+  },
+
+  /* ---------- 打字机 ---------- */
+  splitChars:function(root){
+    var chars = [];
+    var self = this;
+    (function walk(node){
+      var kids = Array.prototype.slice.call(node.childNodes);
+      kids.forEach(function(c){
+        if(c.nodeType === 3){
+          var t = c.nodeValue;
+          if(!t) return;
+          if(!t.trim()){ return; }
+          var frag = document.createDocumentFragment();
+          for(var i=0;i<t.length;i++){
+            var sp = document.createElement('span');
+            sp.className = 'tw';
+            sp.textContent = t.charAt(i);
+            frag.appendChild(sp);
+            chars.push(sp);
+          }
+          node.replaceChild(frag, c);
+        }else if(c.nodeType === 1){
+          if(c.tagName === 'BR' || c.classList.contains('tw')) return;
+          walk(c);
+        }
+      });
+    })(root);
+    return chars;
+  },
+
+  type:function(scene){
+    this.stopType();
+    var targets = scene.querySelectorAll('.dlg .bub, .narr');
+    if(!targets.length || SET.motion === 'off'){ this.twDone = true; return; }
+    var chars = [];
+    var self = this;
+    Array.prototype.forEach.call(targets, function(t){
+      if(scene._chars && scene._chars.length && t.dataset.tw === '1'){ chars = chars.concat(scene._chars); return; }
+      t.dataset.tw = '1';
+      var got = self.splitChars(t);
+      t.dataset.tw = '0';
+      chars = chars.concat(got);
+    });
+    if(!chars.length){ this.twDone = true; return; }
+    scene._chars = chars;
+    chars.forEach(function(c){ c.classList.remove('on'); });
+    this.twChars = chars; this.twI = 0; this.twDone = false;
+    var cur = document.createElement('span');
+    cur.className = 'tw-cursor';
+    cur.setAttribute('aria-hidden','true');
+    var last = chars[chars.length-1];
+    if(last && last.parentNode) last.parentNode.insertBefore(cur, last.nextSibling);
+    this.twCursor = cur;
+    var self2 = this;
+    this.twTimer = setInterval(function(){
+      if(self2.twI < self2.twChars.length){
+        self2.twChars[self2.twI].classList.add('on');
+        self2.twI++;
+      }else{
+        self2.stopType();
+      }
+    }, 16);
+  },
+
+  stopType:function(){
+    if(this.twTimer){ clearInterval(this.twTimer); this.twTimer = null; }
+    if(this.twChars) this.twChars.forEach(function(c){ c.classList.add('on'); });
+    if(this.twCursor && this.twCursor.parentNode) this.twCursor.parentNode.removeChild(this.twCursor);
+    this.twCursor = null; this.twChars = null; this.twDone = true;
+  },
+
+  /* ---------- 推进 ---------- */
+  pendingChoice:function(){
+    if(this.mode !== 'paged') return false;
+    var s = this.list[this.idx]; if(!s) return false;
+    var ch = s.querySelector('.choice');
+    if(!ch) return false;
+    var key = ch.getAttribute('data-choice');
+    return !G.choices[key];
+  },
+
+  advance:function(){
+    if(this.mode !== 'paged') return;
+    if(!this.twDone){ this.stopType(); return; }
+    if(this.pendingChoice()){
+      this.flashChoice();
+      return;
+    }
+    if(this.idx >= this.list.length - 1){ this.toast('已到终点', '可用「目录」跳转，或「回退」重看。'); return; }
+    this.go(this.idx + 1);
+  },
+
+  flashChoice:function(){
+    var s = this.list[this.idx];
+    var ch = s.querySelector('.choice');
+    if(!ch) return;
+    ch.classList.remove('flash');
+    void ch.offsetWidth;
+    ch.classList.add('flash');
+    var o = $('[data-out]', ch);
+    if(o && !o.innerHTML.trim()){
+      o.hidden = false;
+      o.innerHTML = '<span class="tl">抉择未作出。</span>时间仍在流逝——选一个。';
+    }
+  },
+
+  go:function(i, silent){
+    if(!this.list.length) return;
+    i = clamp(i, 0, this.list.length - 1);
+    /* 离开上一段：停掉压力计时 */
+    var prev = this.list[this.idx];
+    if(prev){
+      var pch = prev.querySelector('.choice');
+      if(pch) Choice.stopTimer(pch.getAttribute('data-choice'));
+    }
+    this.idx = i;
+    var s = this.list[i];
+    this.list.forEach(function(x){ x.classList.remove('active'); });
+    s.classList.add('active');
+    s.scrollTop = 0;
+    this.stopType();
+
+    /* 读秒随剧情推进 */
+    if(mode === 'story' && state !== 'completed' && state !== 'failed'){
+      phase = s._phase;
+      remaining = s._clock;
+      render(); say(phase);
+    }
+    /* 终局 */
+    if(s._phase === 'completed' && state !== 'completed'){
+      state = 'completed'; phase = 'completed';
+      render(); say('completed');
+      settleEnding();
+    }
+    /* 抉择揭示 */
+    var ch = s.querySelector('.choice');
+    if(ch){
+      ch.classList.remove('hidden');
+      Choice.startTimer(ch.getAttribute('data-choice'));
+    }
+    this.type(s);
+    this.updatePager();
+    G.sceneIdx = i;
+    saveAll();
+    if(!silent){
+      var st = $('#stageWrap');
+      if(st){
+        var y = st.getBoundingClientRect().top + window.scrollY - 64;
+        window.scrollTo(0, Math.max(0, y));
+      }
+    }
+  },
+
+  updatePager:function(){
+    var n = this.list.length, i = this.idx;
+    var fill = $('#pgFill'); if(fill) fill.style.width = ((i+1)/n*100)+'%';
+    var num = $('#pgNum'); if(num) num.textContent = (i+1)+' / '+n;
+    var act = this.list[i] ? this.list[i].getAttribute('data-act') : '';
+    var pa = $('#pgAct'); if(pa) pa.textContent = act;
+    var sa = $('#sbAct'); if(sa) sa.textContent = act;
+    var prev = $('#pgPrev'); if(prev) prev.disabled = (i <= 0);
+    var next = $('#pgNext');
+    if(next){
+      var blocked = this.pendingChoice();
+      var last = (i >= n-1);
+      next.disabled = blocked || last;
+      next.textContent = blocked ? '需 先 抉 择' : (last ? '已 到 终 点' : '继 续 ▸');
+    }
+    var toc = $('#tocList');
+    if(toc){
+      $$('.toc-act', toc).forEach(function(b, k){
+        b.classList.toggle('cur', k === i);
+      });
+    }
+  },
+
+  buildTOC:function(){
+    var box = $('#tocList'); if(!box) return;
+    box.innerHTML = '';
+    var acts = [], seen = {};
+    this.list.forEach(function(s, i){
+      var a = s.getAttribute('data-act');
+      if(!seen[a]){ seen[a] = acts.length; acts.push({name:a, idx:i, n:0}); }
+      acts[seen[a]].n++;
+    });
+    acts.forEach(function(a){
+      var b = mk('button','toc-act');
+      b.type = 'button';
+      b.innerHTML = '<span class="ta-n">'+esc(a.name)+'</span><span class="ta-d">共 <b>'+a.n+'</b> 段 · 由此开始</span>';
+      b.addEventListener('click', function(){
+        Scene.go(a.idx);
+        closeOv('#tocOverlay');
+      });
+      box.appendChild(b);
+    });
+  },
+
+  setPaged:function(on){
+    this.mode = on ? 'paged' : 'archive';
+    var host = $('#scenes'), stage = $('#stageWrap'), pager = $('#pager');
+    if(host) host.classList.toggle('archive', !on);
+    if(stage) stage.classList.toggle('paged', on);
+    if(pager) pager.style.display = on ? 'flex' : 'none';
+    if(on){ document.body.classList.add('play'); }
+    else { document.body.classList.remove('play'); }
+    var ba = $('#btnArchive');
+    if(ba){
+      ba.textContent = on ? '切换档案模式' : '返回推进模式';
+      ba.setAttribute('aria-pressed', on ? 'false' : 'true');
+    }
+    if(!on){ this.stopType(); }
+    else { this.go(this.idx, true); }
+    window.scrollTo(0,0);
+  },
+
+  bind:function(){
+    var self = this;
+    var stage = $('#stageWrap');
+    if(stage){
+      stage.addEventListener('click', function(e){
+        if(self.mode !== 'paged') return;
+        if(e.target.closest('button, a, input, select, textarea, .choice, .eitem, .build-detail, .timer-ctl, .savebar, .statusbar')) return;
+        self.advance();
+      });
+    }
+    var next = $('#pgNext'); if(next) next.addEventListener('click', function(){ self.advance(); });
+    var prev = $('#pgPrev'); if(prev) prev.addEventListener('click', function(){ self.go(self.idx-1); });
+    var toc = $('#btnTOC'); if(toc) toc.addEventListener('click', function(){ self.buildTOC(); openOv('#tocOverlay'); });
+    var tc = $('#btnTocClose'); if(tc) tc.addEventListener('click', function(){ closeOv('#tocOverlay'); });
+    var ba = $('#btnArchive'); if(ba) ba.addEventListener('click', function(){ self.setPaged(self.mode === 'paged' ? false : true); });
+    document.addEventListener('keydown', function(e){
+      if(self.mode !== 'paged') return;
+      if(e.target && /INPUT|SELECT|TEXTAREA/.test(e.target.tagName)) return;
+      if(anyOvOpen()) return;
+      if(e.key === ' ' || e.key === 'Enter' || e.key === 'ArrowRight'){
+        e.preventDefault(); self.advance();
+      }else if(e.key === 'ArrowLeft'){
+        e.preventDefault(); self.go(self.idx-1);
+      }
+    });
+  }
+};
+
+/* ========================= 18. 启动 ========================= */
+function boot(){
+  applySettings();
+  Fx.boot();
+  Lore.boot();
+  Scene.boot();
+  Choice.boot();
+  Equip.boot();
+  BATTLE.boot();
+  renderAch();
+  renderEnds();
+  Choice.renderTrust();
+
+  /* 恢复实时挑战 */
+  try{
+    var saved = JSON.parse(sessionStorage.getItem(quest.key) || 'null');
+    if(saved && saved.mode === 'live'){
+      mode = 'live';
+      if(saved.state === 'paused'){
+        state = 'paused';
+        remaining = Math.max(0, Number(saved.remaining) || 0);
+        phase = phaseFor(remaining);
+      } else if(saved.endAt){
+        var left = Math.max(0, Math.ceil((saved.endAt - Date.now())/1000));
+        if(left <= 0){ state='failed'; phase='failed'; remaining=0; }
+        else { state='running'; endAt=saved.endAt; remaining=left; phase=phaseFor(remaining); }
+      }
+    }
+  }catch(e){}
+
+  if(mode === 'story') storySync();
+  render();
+  if(mode === 'live' && state === 'running'){ startTick(); startHeart(); }
+
+  if(G.started && !G.ended){
+    toast('已恢复存档', '你的选择与羁绊都还在（信任 '+G.trust+'）。');
+  }
+  if(G.ended){ settleEnding(); }
+
+  /* 音效解锁：首次交互后启动 AudioContext */
+  var once = function(){
+    unlock('a_quest');
+    if(SET.sound && Sfx.boot()){ Sfx.resume(); Sfx.setWind(0.2); }
+    document.removeEventListener('pointerdown', once);
+    document.removeEventListener('keydown', once);
+  };
+  document.addEventListener('pointerdown', once);
+  document.addEventListener('keydown', once);
+}
+if(document.readyState === 'loading') document.addEventListener('DOMContentLoaded', boot);
+else boot();
+
+})();
+</script>
+</body>
+</html>
