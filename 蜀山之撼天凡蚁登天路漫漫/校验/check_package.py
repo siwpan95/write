@@ -96,12 +96,28 @@ def main():
         if "PL-01" not in t:
             add("W", "19 号文件未见 PL-01，平台事实编号可能未统一")
 
-    # 4 章号口径
+    # 4 章号口径（v2.1 修正）
+    # 历史：v1→v2 迁移期曾用「全文字符串匹配『第 178 章』即报错」的临时规则，
+    # 该规则生成于 2026-11-15，早于卷二正文落稿（11-17），把卷二合法的
+    # 第 178 章（对应原著第 211 回）误判为失效章号。改为按章号域精确校验。
+    #
+    # 合法章号域：
+    #   主体连载区  1–225   （卷一 1–125 / 卷二 126–225）
+    #   卷六结局场  726–750（10A-卷六结局场节拍.md）
+    VALID_RANGES = [(1, 225), (726, 750)]
+    # 文件名直接标注章号的，视为“章节实体文件”，跳过正文内引用校验
+    chap_re = re.compile(r"^# 第 (\d+) 章")
     for p in md_files():
         rel = os.path.relpath(p, ROOT)
         t = open(p, encoding="utf-8").read()
-        if "第 178 章" in t or "第178章" in t:
-            add("E", f"{rel} 残留失效章号 178（应为 726）")
+        # 只校验正文文件的章节标题行；文档中的章节引用（如“第 178 章”）合法
+        for line in t.splitlines():
+            m = chap_re.match(line)
+            if not m:
+                continue
+            n = int(m.group(1))
+            if not any(lo <= n <= hi for lo, hi in VALID_RANGES):
+                add("E", f"{rel} 章节标题章号 {n} 越界（合法域 1–225 / 726–750）")
 
 
     # 6 v2 主角改判专项：旧主角/旧书名/旧卷问题句必须清零
@@ -115,6 +131,46 @@ def main():
         p2 = os.path.join(ROOT, name)
         if os.path.exists(p2) and "杨成志" not in open(p2, encoding="utf-8").read():
             add("E", f"{name} 未出现主角名（应为杨成志）")
+
+    # 7 MANIFEST 覆盖率与哈希（2026-11-18 追加）
+    # 起因：MANIFEST 曾在正文加"蜀山 "前缀后未同步，导致 15 条路径失效、
+    # 2 条哈希过期、28 个文件未收录——整体形同虚设，而 README §四 教的
+    # `sha256sum -c` 自验一直在骗人。此项专门兜住该缺口。
+    man_path = os.path.join(ROOT, "校验", "MANIFEST.sha256")
+    if os.path.exists(man_path):
+        man = {}
+        for raw in open(man_path, encoding="utf-8"):
+            raw = raw.rstrip("\n")
+            if not raw.strip() or raw.startswith("#"):
+                continue
+            m = re.match(r"^([0-9a-f]{64})\s+(.*?)\s*$", raw)
+            if m:
+                man[m.group(2).lstrip("./")] = m.group(1)
+            else:
+                add("E", f"MANIFEST.sha256 有 1 行格式不合规：{raw[:60]}")
+        # 实际文件（排除校验/ 自身与备份）
+        actual = {}
+        for r, _d, fs in os.walk(ROOT):
+            for f in fs:
+                rel = os.path.relpath(os.path.join(r, f), ROOT).replace("\\", "/")
+                if rel.startswith("校验/"):
+                    continue
+                if ".bak-" in rel:
+                    continue
+                actual[rel] = os.path.join(r, f)
+        missing = sorted(set(actual) - set(man))
+        ghost = sorted(set(man) - set(actual))
+        for p in missing:
+            add("E", f"MANIFEST 未收录：{p}")
+        for p in ghost:
+            add("E", f"MANIFEST 条目无对应文件：{p}")
+        for p, h in man.items():
+            if p in actual:
+                d = hashlib.sha256(open(actual[p], "rb").read()).hexdigest()
+                if d != h:
+                    add("E", f"MANIFEST 哈希不符：{p}")
+    else:
+        add("E", "缺少 校验/MANIFEST.sha256")
 
     # 5 统计
     total_bytes = sum(os.path.getsize(p) for p in md_files())
