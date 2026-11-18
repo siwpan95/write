@@ -70,6 +70,36 @@ def main():
 """
 
     out = header + a_body + mid + b_body + tail
+
+    # 节号重编：施工单来源的「零/一/二/三/四/五」→ 合并件的「六/七/八/九/十/十一」
+    # （来源 A 已占 §一～§五，故施工单侧顺延为 §六～§十一）
+    renum = [
+        ("## 零、", "## 六、"),
+        ("## 一、本批逐章施工单", "## 七、本批逐章施工单"),
+        ("## 二、伏笔密度缺口", "## 八、伏笔密度缺口"),
+        ("## 三、25 个循环清单", "## 九、25 个循环清单"),
+        ("## 四、「合即起」接法轮换表", "## 十、「合即起」接法轮换表"),
+        ("## 五、发现的问题", "## 十一、发现的问题"),
+    ]
+    for old_h, new_h in renum:
+        out = out.replace(old_h, new_h, 1)
+    # 同步来源内部的交叉引用
+    out = out.replace("见第二节", "见第八节")
+    out = out.replace("见第五节第 2 条", "见第十一节第 2 条")
+    out = out.replace("六幕（第三节）", "六幕（第九节）")
+    # 去掉重复的 §六 引导标题（合并时插入的 mid 与来源B的标题撞了）
+    dup_title = "## 六、逐章施工单（照 `03D`，勿改标题）"
+    while dup_title in out:
+        i = out.find(dup_title)
+        j = out.find("\n## ", i + 1)
+        if j < 0:
+            break
+        # 连同其后的分隔线一起去掉，但保留下一个真实标题
+        seg = out[i:j]
+        seg = seg.replace(dup_title, "", 1)
+        seg = seg.replace("\n---\n", "", 1)
+        seg = seg.strip("\n")
+        out = out[:i] + seg + out[j:]
     open(OUT, "w", encoding="utf-8", newline="\n").write(out)
 
     n = len(re.sub(r"\s", "", out))
