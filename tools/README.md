@@ -27,6 +27,9 @@ npm run pkm:search 战锤四神       # 全仓检索（中文二元组切分）
 npm run pkm:links <文档路径>      # 查某文档的出链 / 入链
 npm run pkm:graph                # 图谱统计
 npm run pkm:doctor               # PKM 环境自检
+
+# 语料重复副本盘点（只读，回答「同一段内容被存了几份」）
+python tools/repeat_probe.py ./小说 --top 10
 ```
 
 **退出码**：`0` 无 ERROR ／ `1` 有 ERROR ／ `2` 参数或环境故障 —— 可直接进 CI。
@@ -52,6 +55,7 @@ tools/
 ├── capabilities.mjs       能力清单唯一读取口（解析 cordis.yml，供 host --list / cli list 共用）
 ├── metrics.py             全仓治理指标单一事实源（--write / --check drift gate）
 ├── metrics.json           ⬆ 生成物：治理指标现值（入库）
+├── repeat_probe.py        语料重复副本探针（只读；「派生整档」盘点的证据生成器）
 ├── pkm/                    PKM 知识连接层内核（Python，零三方依赖）
 │   ├── scanner.py          仓扫描 · 元数据抽取 · 双链解析
 │   ├── indexer.py          中文二元组分词 · 倒排索引 · 检索打分（per-document + IDF）
