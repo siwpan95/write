@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>《六笔账》线索流转图 · 天际世界观手册 索引</title>
+<style>
+  :root{
+    --ink:#1d2530;
+    --ink-soft:#4a5563;
+    --paper:#f7f2e7;
+    --paper-2:#efe7d6;
+    --line:#c9bfa8;
+    --money:#2f5d7c;
+    --name:#7a3b52;
+    --debt:#5b6b3a;
+    --grain:#8a6a2f;
+    --accent:#9b2c2c;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0;
+    background:var(--paper);
+    color:var(--ink);
+    font-family:"Songti SC","Noto Serif CJK SC","Source Han Serif SC",serif;
+    line-height:1.75;
+  }
+  .wrap{max-width:1180px;margin:0 auto;padding:32px 22px 80px}
+  header{border-bottom:1px solid var(--line);padding-bottom:18px;margin-bottom:26px}
+  h1{font-size:26px;letter-spacing:.04em;margin:0 0 6px}
+  .sub{color:var(--ink-soft);font-size:14px;letter-spacing:.02em}
+  .meta{margin-top:12px;font-size:12.5px;color:var(--ink-soft)}
+  .meta span{margin-right:16px}
+  .meta b{color:var(--accent);font-weight:600}
+
+  .panel{
+    background:var(--paper-2);
+    border:1px solid var(--line);
+    border-radius:4px;
+    padding:10px 14px 4px;
+    margin-bottom:18px;
+  }
+  .panel h2{
+    font-size:14px;margin:0 0 8px;letter-spacing:.12em;color:var(--ink-soft);font-weight:600;
+  }
+  svg{width:100%;height:auto;display:block}
+  .axis-label{font-size:13px;fill:var(--ink-soft);letter-spacing:.1em}
+  .tick{font-size:11px;fill:#9a8f79;text-anchor:middle}
+  .node{cursor:pointer}
+  .node rect{
+    fill:#fffdf7;stroke:var(--line);stroke-width:1.2;rx:5;
+    transition:all .18s ease;
+  }
+  .node text{font-size:12.5px;fill:var(--ink);text-anchor:middle;pointer-events:none}
+  .node .ch{font-size:10.5px;fill:#9a8f79}
+  .node:hover rect{stroke:var(--accent);stroke-width:2;fill:#fff6f2}
+  .node.active rect{fill:var(--accent);stroke:var(--accent)}
+  .node.active text{fill:#fff}
+  .node.dim{opacity:.28}
+  .weld{cursor:pointer}
+  .weld circle{fill:#b0793a;transition:all .15s}
+  .weld:hover circle{r:7;fill:#9b2c2c}
+  .weld .x{display:none;stroke:#fff;stroke-width:2;stroke-linecap:round}
+  .weld.cut circle{fill:#9b2c2c;stroke:#9b2c2c}
+  .weld.cut .x{display:block}
+  .link.cut{stroke:#9b2c2c !important;stroke-dasharray:7 6;opacity:.85;animation:dashmove 1.1s linear infinite}
+  @keyframes dashmove{to{stroke-dashoffset:-26}}
+  .node.dead rect{fill:#efe8db;stroke:#c3b79f;stroke-dasharray:5 4}
+  .node.dead text{fill:#a89d89}
+  .node.dead{cursor:pointer}
+  .preview{display:none;border:1px solid #d8c9b6;border-left:4px solid var(--accent);
+    background:#fffaf2;padding:14px 18px;border-radius:3px;margin:0 0 22px}
+  .preview.show{display:block;animation:fadein .25s ease}
+  @keyframes fadein{from{opacity:0;transform:translateY(-4px)}to{opacity:1;transform:none}}
+  .pv-head{font-size:13px;letter-spacing:.1em;color:var(--accent);margin-bottom:8px;font-weight:600}
+  .pv-head em{font-style:normal;color:var(--ink-soft);letter-spacing:0;font-weight:400}
+  .pv-row{margin:8px 0;font-size:14px}
+  .pv-row b{display:inline-block;min-width:52px;color:var(--ink-soft);font-weight:400;font-size:12.5px;letter-spacing:.06em}
+  .pv-foot{margin-top:10px;padding-top:8px;border-top:1px dashed #ddd0bb;font-size:12.5px;color:#8b8271}
+  .node.lit rect{stroke:var(--accent);stroke-width:2.2}
+  .link{fill:none;stroke-width:2}
+  .link.money{stroke:var(--money)}
+  .link.name{stroke:var(--name)}
+  .link.debt{stroke:var(--debt)}
+  .link.grain{stroke:var(--grain)}
+  .link.cross{stroke:#b0793a;stroke-dasharray:5 4;stroke-width:1.4;opacity:.75}
+  .link.dim{opacity:.15}
+
+  .chips{display:flex;flex-wrap:wrap;gap:8px;margin:4px 0 22px}
+  .chip{
+    font-size:13px;padding:5px 12px;border:1px solid var(--line);border-radius:99px;
+    background:#fffdf7;cursor:pointer;transition:all .15s;
+  }
+  .chip:hover{border-color:var(--accent);color:var(--accent)}
+  .chip.on{background:var(--accent);border-color:var(--accent);color:#fff}
+  .hint{font-size:12.5px;color:var(--ink-soft);margin:0 0 10px}
+
+  .cards{display:grid;grid-template-columns:1fr;gap:14px;margin-top:8px}
+  .card{
+    border:1px solid var(--line);border-left:3px solid var(--line);
+    background:#fffdf7;padding:16px 20px;border-radius:3px;
+    scroll-margin-top:18px;transition:box-shadow .3s,border-color .3s;
+  }
+  .card .no{font-size:12px;letter-spacing:.14em;color:#9a8f79}
+  .card h3{margin:2px 0 8px;font-size:17px}
+  .card .loc{font-size:12.5px;color:var(--ink-soft);margin-left:8px;font-weight:400}
+  .card p{margin:6px 0;font-size:14.5px}
+  .card .k{color:var(--ink-soft);font-size:12.5px;letter-spacing:.06em}
+  .card .eye{color:var(--accent)}
+  .card.flash{border-color:var(--accent);box-shadow:0 0 0 3px rgba(155,44,44,.12)}
+  .card.dim{opacity:.35}
+  footer{margin-top:36px;border-top:1px solid var(--line);padding-top:14px;font-size:12px;color:#8b8271}
+  .top{position:fixed;right:18px;bottom:18px;background:var(--accent);color:#fff;border:none;
+    border-radius:99px;padding:9px 16px;font-size:13px;cursor:pointer;font-family:inherit;
+    box-shadow:0 4px 14px rgba(0,0,0,.18);opacity:0;pointer-events:none;transition:opacity .2s}
+  .top.show{opacity:1;pointer-events:auto}
+  @media (max-width:640px){
+    h1{font-size:20px}
+    .wrap{padding:20px 14px 70px}
+  }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+<header>
+  <h1>《六笔账》线索流转图</h1>
+  <div class="sub">天际世界观手册 · 附录 I／J 索引页 —— 物件与人物，在同一张网上的位置</div>
+  <div class="meta">
+    <span>十章</span><span><b>10</b> 个物件</span><span><b>6</b> 位枢纽人物</span><span>三轴：钱 / 名 / 债，加一层粮与路</span>
+  </div>
+</header>
+
+<div class="panel">
+  <h2>点击节点 → 跳到该章 · 点击橙色焊点 → 断开这根线，预览“世界变坏”</h2>
+  <svg viewBox="0 0 1400 760" role="img" aria-label="十章线索流转图">
+    <!-- 三条横轴 -->
+    <line x1="86" y1="210" x2="1370" y2="210" stroke="#d8cfba" stroke-width="1"/>
+    <line x1="86" y1="380" x2="1370" y2="380" stroke="#d8cfba" stroke-width="1"/>
+    <line x1="86" y1="510" x2="1370" y2="510" stroke="#d8cfba" stroke-width="1"/>
+    <line x1="86" y1="640" x2="1370" y2="640" stroke="#d8cfba" stroke-width="1"/>
+
+    <text class="axis-label" x="20" y="214" fill="#2f5d7c">钱</text>
+    <text class="axis-label" x="20" y="384" fill="#7a3b52">名</text>
+    <text class="axis-label" x="20" y="514" fill="#8a6a2f">粮</text>
+    <text class="axis-label" x="20" y="644" fill="#5b6b3a">债</text>
+
+    <!-- 章节刻度 -->
+    <g class="ticks">
+      <text class="tick" x="110" y="700">1</text><text class="tick" x="238" y="700">2</text>
+      <text class="tick" x="366" y="700">3</text><text class="tick" x="494" y="700">4</text>
+      <text class="tick" x="622" y="700">5</text><text class="tick" x="750" y="700">6</text>
+      <text class="tick" x="878" y="700">7</text><text class="tick" x="1006" y="700">8</text>
+      <text class="tick" x="1134" y="700">9</text><text class="tick" x="1262" y="700">10</text>
+    </g>
+
+    <!-- 跨轴虚线（次要关系） -->
+    <path class="link cross" data-w="1" d="M494,232 C760,290 1080,330 1262,358" />
+    <path class="link cross" data-w="2" d="M238,232 C420,330 600,420 750,488" />
+
+    <!-- 主链（之字形） -->
+    <path class="link debt"  d="M110,616 C150,520 200,300 238,232"/>
+    <path class="link money" d="M238,214 L366,214"/>
+    <path class="link money" d="M366,214 L494,214"/>
+    <path class="link money" data-w="1" d="M494,214 C540,270 580,320 622,356"/>
+    <path class="link name"  data-w="2" d="M622,384 C680,430 710,470 750,486"/>
+    <path class="link grain" data-w="2" d="M750,510 L878,510"/>
+    <path class="link grain" d="M878,510 C920,560 960,600 1006,616"/>
+    <path class="link debt"  d="M1006,640 L1134,640"/>
+    <path class="link debt"  data-w="3" d="M1134,640 C1180,560 1220,450 1262,404"/>
+
+    <!-- 节点 -->
+    <g class="node" data-ch="1">
+      <rect x="58" y="616" width="104" height="46"/>
+      <text x="110" y="636">黑石碎片</text><text class="ch" x="110" y="652">第 1 章</text>
+    </g>
+    <g class="node" data-ch="2">
+      <rect x="186" y="188" width="104" height="46"/>
+      <text x="238" y="208">走私账本</text><text class="ch" x="238" y="224">第 2 章</text>
+    </g>
+    <g class="node" data-ch="3">
+      <rect x="314" y="188" width="104" height="46"/>
+      <text x="366" y="208">刻号酒桶箍</text><text class="ch" x="366" y="224">第 3 章</text>
+    </g>
+    <g class="node" data-ch="4">
+      <rect x="442" y="188" width="104" height="46"/>
+      <text x="494" y="208">矿场提货单</text><text class="ch" x="494" y="224">第 4 章</text>
+    </g>
+    <g class="node" data-ch="5">
+      <rect x="570" y="357" width="104" height="46"/>
+      <text x="622" y="377">龙鳞</text><text class="ch" x="622" y="393">第 5 章</text>
+    </g>
+    <g class="node" data-ch="6">
+      <rect x="698" y="487" width="104" height="46"/>
+      <text x="750" y="507">军需信</text><text class="ch" x="750" y="523">第 6 章</text>
+    </g>
+    <g class="node" data-ch="7">
+      <rect x="826" y="487" width="104" height="46"/>
+      <text x="878" y="507">城门铜牌</text><text class="ch" x="878" y="523">第 7 章</text>
+    </g>
+    <g class="node" data-ch="8">
+      <rect x="954" y="617" width="104" height="46"/>
+      <text x="1006" y="637">借来的话</text><text class="ch" x="1006" y="653">第 8 章</text>
+    </g>
+    <g class="node" data-ch="9">
+      <rect x="1082" y="617" width="104" height="46"/>
+      <text x="1134" y="637">封石拓片</text><text class="ch" x="1134" y="653">第 9 章</text>
+    </g>
+    <g class="node" data-ch="10">
+      <rect x="1210" y="357" width="104" height="46"/>
+      <text x="1262" y="377">名单石板</text><text class="ch" x="1262" y="393">第 10 章</text>
+    </g>
+
+    <!-- 交叉点标记 -->
+    <g class="weld" data-w="1" tabindex="0">
+      <circle cx="494" cy="214" r="6"/>
+      <path class="x" d="M491 211 L497 217 M497 211 L491 217"/>
+      <title>焊点一：钱 × 名（点一下断开）</title>
+    </g>
+    <g class="weld" data-w="2" tabindex="0">
+      <circle cx="750" cy="510" r="6"/>
+      <path class="x" d="M747 507 L753 513 M753 507 L747 513"/>
+      <title>焊点二：内战 × 钱（点一下断开）</title>
+    </g>
+    <g class="weld" data-w="3" tabindex="0">
+      <circle cx="1262" cy="380" r="6"/>
+      <path class="x" d="M1259 377 L1265 383 M1265 377 L1259 383"/>
+      <title>焊点三：名 × 债（点一下断开）</title>
+    </g>
+    <text x="500" y="266" font-size="11" fill="#b0793a">焊点一 · 钱×名</text>
+    <text x="756" y="470" font-size="11" fill="#b0793a">焊点二 · 内战×钱</text>
+    <text x="1160" y="336" font-size="11" fill="#b0793a">焊点三 · 名×债</text>
+  </svg>
+</div>
+
+<div class="preview" id="preview">
+  <div class="pv-head">世界变坏 · 预览 <em id="pvWhich"></em></div>
+  <div id="pvBody"></div>
+  <div class="pv-foot" id="pvFoot"></div>
+</div>
+
+<p class="hint">下方人物：点击后高亮其涉足的章节（再点一次取消）。</p>
+<div class="chips" id="chips">
+  <div class="chip" data-ch="1,8,9">伊士冉 · 贯穿者</div>
+  <div class="chip" data-ch="2,3">玛雯·黑棘 · 抽成的人</div>
+  <div class="chip" data-ch="2">威克斯／戴尔文 · 洗白渠道</div>
+  <div class="chip" data-ch="5,7">艾迪斯队长 · 通行与军令</div>
+  <div class="chip" data-ch="5,10">梭默代理人 · 名单</div>
+  <div class="chip" data-ch="1,10">阿尔凯迪雅 · 不问用途</div>
+</div>
+
+<div class="cards" id="cards">
+
+  <article class="card" id="c1" data-ch="1">
+    <div class="no">第一章</div>
+    <h3>霜盐之前<span class="loc">紫杉镇</span></h3>
+    <p class="k">一句话</p>
+    <p>你只是替人送了一趟盐，结果送进了一场葬礼。</p>
+    <p class="k">对手戏 · 戏眼</p>
+    <p class="eye">伊士冉：「她叫你吃饭的时候，用的是谁的声音？」</p>
+    <p class="k">代价结算</p>
+    <p>紫杉镇不再有“神迹”。少年失去母亲第二次，或失去镇子的信任；你失去“随时可以走”的资格。</p>
+    <p class="k">递交 → 第二章</p>
+    <p>护符碎裂，底座里一片<strong>黑色灵魂石碎片</strong>，边缘有刀刻的记号。</p>
+  </article>
+
+  <article class="card" id="c2" data-ch="2">
+    <div class="no">第二章</div>
+    <h3>夹墙里的名字<span class="loc">裂谷城</span></h3>
+    <p class="k">一句话</p>
+    <p>账本不值钱，值钱的是“谁的名字不在上面”。</p>
+    <p class="k">对手戏 · 戏眼</p>
+    <p class="eye">玛雯：「你开锁的声音很好听。可惜你听见了不该听的。」威克斯：「她不是在威胁你。她是在报价。」</p>
+    <p class="k">代价结算</p>
+    <p>账本只有一份，三方都要。交出去的那一刻，你失去另外两方——此后每条巷子都要先看后面。</p>
+    <p class="k">递交 → 第三章</p>
+    <p>账本第三页反复出现：<strong>“蜜酒三桶，白漫，收货人印达林”</strong>，旁注“石料另计”。</p>
+  </article>
+
+  <article class="card" id="c3" data-ch="3">
+    <div class="no">第三章</div>
+    <h3>地窖里的甜味<span class="loc">白漫城 · 蜜之酿酒庄</span></h3>
+    <p class="k">一句话</p>
+    <p>毒不写在酒里，写在“谁赔得起”上。</p>
+    <p class="k">对手戏 · 戏眼</p>
+    <p class="eye">酒庄主人：「我的女儿在楼上，她今天早上还在数酒桶。」印达林：「码头工每天都有人掉下去。」</p>
+    <p class="k">代价结算</p>
+    <p>你指认谁，谁就消失——酒庄倒闭三十人失业，或黑棘撤手但毒继续流。</p>
+    <p class="k">递交 → 第四章</p>
+    <p>桶底刮出一枚<strong>刻号酒桶箍</strong>：不是白漫的编号，是鸦石镇矿场的编号。</p>
+  </article>
+
+  <article class="card" id="c4" data-ch="4">
+    <div class="no">第四章</div>
+    <h3>浅滩上的空囊<span class="loc">鸦石镇</span></h3>
+    <p class="k">一句话</p>
+    <p>矿主的账上，水也是货。</p>
+    <p class="k">对手戏 · 戏眼</p>
+    <p class="eye">矿主：「这条河从我祖父那辈就流。你告诉我，是哪一天开始有毒的？」蜜洛儿答不出，她只有孩子的咳嗽声。</p>
+    <p class="k">代价结算</p>
+    <p>公开则矿场停工、全镇断粮；私了则部民迁走、孩子继续咳。你必须选择“让谁先饿”。</p>
+    <p class="k">递交 → 第五章</p>
+    <p>提货单的收货方是一栏空白，只盖了一枚印：<strong>梭默的纹章</strong>。</p>
+  </article>
+
+  <article class="card" id="c5" data-ch="5">
+    <div class="no">第五章</div>
+    <h3>隘口三方<span class="loc">龙桥镇 · 寒石关方向</span></h3>
+    <p class="k">一句话</p>
+    <p>他们要的不是龙鳞，是龙鳞上的“词”。</p>
+    <p class="k">对手戏 · 戏眼</p>
+    <p class="eye">梭默代理人把手指按在鳞上又很快收回：「它不是战利品。它是地址。」</p>
+    <p class="k">代价结算</p>
+    <p>卖谁，谁记你；烧掉，三方都记你。从这一章起，你在天际没有安全城。</p>
+    <p class="k">递交 → 第六章</p>
+    <p>灰里剩一段卷边，是<strong>军需信</strong>的副本，落款处写着两个家族的名字。</p>
+  </article>
+
+  <article class="card" id="c6" data-ch="6">
+    <div class="no">第六章</div>
+    <h3>渠口<span class="loc">白漫城 · 战狂农场与灰鬃氏族</span></h3>
+    <p class="k">一句话</p>
+    <p>内战的粮，是从这笔账里出的。</p>
+    <p class="k">对手戏 · 戏眼</p>
+    <p class="eye">总管普罗万图斯：「你们两家争的不是水，是有人想让你们争。」说完就走，把火留给别人收。</p>
+    <p class="k">代价结算</p>
+    <p>水权一解决，白漫守军被抽走一半——你换来的和平，是从城墙上拆下来的。</p>
+    <p class="k">递交 → 第七章</p>
+    <p>白漫城门开始限流：没有<strong>通行铜牌</strong>的人，一律在北门外等三天。</p>
+  </article>
+
+  <article class="card" id="c7" data-ch="7">
+    <div class="no">第七章</div>
+    <h3>城门与铜牌<span class="loc">晨星</span></h3>
+    <p class="k">一句话</p>
+    <p>第一条先例，是你写的。</p>
+    <p class="k">对手戏 · 戏眼</p>
+    <p class="eye">矿工的妻子：「我男人给你们修过城墙。」卫兵顿了一下：「修墙的名单上没有他。」</p>
+    <p class="k">代价结算</p>
+    <p>走私进城、或让伤者出城、或当众质问领主——三条路都写下同一条先例：“谁有资格被救”。</p>
+    <p class="k">递交 → 第八章</p>
+    <p>药瓶底下的赊账本上有一行字：<strong>“风舵，第七夜，有人敲门，别开。”</strong></p>
+  </article>
+
+  <article class="card" id="c8" data-ch="8">
+    <div class="no">第八章</div>
+    <h3>借声的人<span class="loc">风舵城</span></h3>
+    <p class="k">一句话</p>
+    <p>他在说话，但说话的不是他。</p>
+    <p class="k">对手戏 · 戏眼</p>
+    <p class="eye">他抓住你的袖子，用回自己的声音：「别让我再说话了。我每说一句，它就多学一句。」</p>
+    <p class="k">代价结算</p>
+    <p>烧掉则村民暴动、你被赶出城；交出去则他成为标本；带去高吼峰则十天路程、每夜一次“借声”。</p>
+    <p class="k">递交 → 第九章</p>
+    <p>伊士冉给你一片<strong>封石拓片</strong>——他最后说的话，是佛克瑞斯某座墓门上的刻文。</p>
+  </article>
+
+  <article class="card" id="c9" data-ch="9">
+    <div class="no">第九章</div>
+    <h3>第三道门<span class="loc">佛克瑞斯</span></h3>
+    <p class="k">一句话</p>
+    <p>你们家拜了三十年，拜的是一座门。</p>
+    <p class="k">对手戏 · 戏眼</p>
+    <p class="eye">族长：「那我们拜了三十年，拜的是谁？」伊士冉：「拜的是一座门。门后面有东西在等有人叫它。」</p>
+    <p class="k">代价结算</p>
+    <p>炸塌墓道，族史与线索一起埋；让长子独入，他抱出不属于他家的东西；上报，封条写别人的名字。</p>
+    <p class="k">递交 → 第十章</p>
+    <p>拓片与祭坛石的刻痕完全一致——那份“约”的签约地，是白漫城外的<strong>塔洛斯祭坛</strong>。</p>
+  </article>
+
+  <article class="card" id="c10" data-ch="10">
+    <div class="no">第十章</div>
+    <h3>名单上的第七笔<span class="loc">白漫城 · 祭坛</span></h3>
+    <p class="k">一句话</p>
+    <p>账合上了，你的名字出现了。</p>
+    <p class="k">对手戏 · 戏眼</p>
+    <p class="eye">梭默线人把石板转向你：「这上面有三个名字，和三个空位。你只要说一句‘这里没有人’，我就走。」你低头看见第四个空位——刻痕是新的。</p>
+    <p class="k">代价结算 · 三选</p>
+    <p><strong>交名单</strong>：祭坛被拆，信仰转入地下，你得到一块可自由通行的铜牌。<br>
+       <strong>烧名单</strong>：人四散、祭坛保住，你成为第七笔。<br>
+       <strong>划掉名字</strong>：用黑石碎片刮平第四个空位——你成了记账的人。</p>
+    <p class="k">收尾</p>
+    <p>风把盐吹散。石头是凉的。老神不会发怒，他们只是不再回应——而账，永远有人接着记。</p>
+  </article>
+
+</div>
+
+<footer>
+  出自《天际世界观手册》附录 I／J（60 页 · 3.26 万字）。全部专名均来自用户提供的 17 份词表；标注为推断处系依据命名规则的合理外推。
+</footer>
+
+<button class="top" id="top">↑ 回到图</button>
+</div>
+
+<script>
+(function(){
+  const nodes  = Array.from(document.querySelectorAll('.node'));
+  const cards  = Array.from(document.querySelectorAll('.card'));
+  const chips  = Array.from(document.querySelectorAll('.chip'));
+  const topBtn = document.getElementById('top');
+
+  function go(n){
+    const card = document.getElementById('c' + n);
+    if(!card) return;
+    nodes.forEach(x => x.classList.toggle('active', x.dataset.ch === String(n)));
+    cards.forEach(x => x.classList.remove('flash','dim'));
+    card.classList.remove('dim');
+    card.scrollIntoView({behavior:'smooth', block:'start'});
+    card.classList.add('flash');
+    setTimeout(()=>card.classList.remove('flash'), 2200);
+    topBtn.classList.add('show');
+  }
+
+  nodes.forEach(n => {
+    n.addEventListener('click', ()=> go(n.dataset.ch));
+    n.setAttribute('tabindex','0');
+    n.addEventListener('keydown', e=>{ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); go(n.dataset.ch);} });
+  });
+
+  chips.forEach(ch => {
+    ch.addEventListener('click', ()=>{
+      const on = ch.classList.contains('on');
+      chips.forEach(c=>c.classList.remove('on'));
+      nodes.forEach(n=>n.classList.remove('dim','lit'));
+      cards.forEach(c=>c.classList.remove('dim'));
+      if(on) return;
+      ch.classList.add('on');
+      const set = ch.dataset.ch.split(',');
+      nodes.forEach(n=>{
+        const hit = set.includes(n.dataset.ch);
+        n.classList.add(hit ? 'lit' : 'dim');
+      });
+      cards.forEach(c=>{ if(!set.includes(c.dataset.ch)) c.classList.add('dim'); });
+      const first = document.getElementById('c' + set[0]);
+      if(first){ first.scrollIntoView({behavior:'smooth', block:'start'}); }
+      topBtn.classList.add('show');
+    });
+  });
+
+
+  /* ===== 焊点开关：断开某根线 → 预览"世界变坏" ===== */
+  const welds  = Array.from(document.querySelectorAll('.weld'));
+  const links  = Array.from(document.querySelectorAll('path.link'));
+  const preview= document.getElementById('preview');
+  const pvBody = document.getElementById('pvBody');
+  const pvWhich= document.getElementById('pvWhich');
+  const pvFoot = document.getElementById('pvFoot');
+  const cut = {1:false, 2:false, 3:false};
+
+  const WELD_NODES = {1:['4','5','10'], 2:['2','6','7'], 3:['9','10']};
+
+  const TEXT = {
+    '1':{name:'焊点一 · 钱 × 名（第 4 章　提货单）', rows:[
+      ['立即','梭默失去矿场现金流，第五、六章的出价能力消失——龙鳞只能卖给帝国或风暴斗篷。'],
+      ['三章内','矿主失去靠山，改向东帝国贸易公司总部求救；账本原件成为唯一证据，而它在第 2 章已经被你交出去了。'],
+      ['终局','鸦石镇先垮，灰烬之地的部民被迁走；龙鳞落到一方手里，内战提前进入决战。']]},
+    '2':{name:'焊点二 · 内战 × 钱（第 6 章　军需信）', rows:[
+      ['立即','两大家族没有把柄，白漫不限流——第七章的铜牌不存在，你在北门外等的那三天也没有了。'],
+      ['三章内','水权靠私斗解决，一边的人死；内战在城内爆发，而不是在边境。'],
+      ['终局','白漫城墙无人守，龙袭与难民直接进城；第七至九章全部改道，佛克瑞斯的封石再没人来问。']]},
+    '3':{name:'焊点三 · 名 × 债（第 10 章　名单石板）', rows:[
+      ['立即','名单石板不再指认任何人——前九章死的人白死，故事降级为跑腿。'],
+      ['三章内','伊士冉判定"谁还活着"的权力失效，借声的人无人处理；龙祭司的线索断在第三道门前。'],
+      ['终局','祭坛保住了，但没人再信；账继续记，只是没人看得懂——你成了唯一记得的人。']]},
+    '1,2':{name:'两处同断 · 钱 × 粮', rows:[
+      ['结果','天际变成两方火并，没有人查账：梭默撤资、军团抽兵，第九章的门与第十章的祭坛都成了荒地上的石头。'],
+      ['余波','鸦石镇与白漫同时失去靠山，难民向北走，晨星的城门不再需要理由。'],
+      ['终局','第一章那趟盐，成了这个故事里唯一一次"送货成功"。']]},
+    '1,3':{name:'两处同断 · 只剩"名"', rows:[
+      ['结果','名单继续点名，但没有人能查它是谁写的；梭默的账由别处补上，你的追查却断了根。'],
+      ['余波','伊士冉会来问你：那枚黑石呢。你答不上来。'],
+      ['终局','第十章的第四个空位前，你连一句"这里没有人"都没资格说。']]},
+    '2,3':{name:'两处同断 · 只剩"钱"', rows:[
+      ['结果','故事变成逐城逃亡：每座城都在限流，每瓶药都要审批，每一座坟都封着。'],
+      ['余波','内战的粮照旧从矿场出，钱照旧流——只是没有人记得那些被算进去的人。'],
+      ['终局','你活着，且无话可说。']]},
+    '1,2,3':{name:'三处同断 · 无人记账', rows:[
+      ['结果','账不会消失，只会换一个记账人——就是你。'],
+      ['余波','你保住了祭坛、保住了镇子、保住了少年的一条命，代价是从此听得见所有人的"没说完的话"。'],
+      ['终局','这正好是第十章的第三条路：用黑石碎片划掉名字。']]}
+  };
+
+  function renderWeld(){
+    const key = [1,2,3].filter(n=>cut[n]).join(',');
+    // 连线
+    links.forEach(l=>{
+      const ws = (l.dataset.w||'').split(',').filter(Boolean);
+      l.classList.toggle('cut', ws.some(n=>cut[n]));
+    });
+    // 焊点
+    const WNAME = {1:'焊点一：钱 × 名', 2:'焊点二：内战 × 钱', 3:'焊点三：名 × 债'};
+    welds.forEach(g=>{
+      const on = cut[g.dataset.w];
+      g.classList.toggle('cut', on);
+      const ti = g.querySelector('title');
+      if(ti) ti.textContent = WNAME[g.dataset.w] + (on ? '（点一下接回）' : '（点一下断开）');
+    });
+    // 节点
+    const dead = new Set();
+    Object.keys(WELD_NODES).forEach(k=>{ if(cut[k]) WELD_NODES[k].forEach(n=>dead.add(n)); });
+    nodes.forEach(n=> n.classList.toggle('dead', dead.has(n.dataset.ch)));
+    // 预览
+    if(!key){ preview.classList.remove('show'); return; }
+    const d = TEXT[key] || TEXT['1,2,3'];
+    pvWhich.textContent = '｜' + d.name;
+    pvBody.innerHTML = d.rows.map(r=>'<div class="pv-row"><b>'+r[0]+'</b>'+r[1]+'</div>').join('');
+    const cnt = [1,2,3].filter(n=>cut[n]).length;
+    pvFoot.textContent = cnt===1
+      ? '再点一次焊点可接回。也可以同时断开两处，看连锁如何叠加。'
+      : '已断开 ' + cnt + ' 处。全部接回，世界回到"勉强能运转"的版本。';
+    preview.classList.add('show');
+  }
+
+  welds.forEach(g=>{
+    const toggle = ()=>{ cut[g.dataset.w] = !cut[g.dataset.w]; renderWeld(); };
+    g.addEventListener('click', toggle);
+    g.addEventListener('keydown', e=>{ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); toggle(); } });
+  });
+
+  topBtn.addEventListener('click', ()=>{
+    window.scrollTo({top:0, behavior:'smooth'});
+  });
+  window.addEventListener('scroll', ()=>{
+    if(window.scrollY > 420) topBtn.classList.add('show');
+    else topBtn.classList.remove('show');
+  });
+})();
+</script>
+</body>
+</html>
