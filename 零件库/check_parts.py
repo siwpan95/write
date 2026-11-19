@@ -59,7 +59,10 @@ FIELDS = [
     "rule", "行程激活差异", "不可申诉之物", "施压时序", "适配基线",
     "装配角色", "互斥零件",
 ]
-OPTIONAL = ["调用记录"]
+# v2.5 试点字段：只对试点卡校验，不强制全库
+PILOT_FIELDS = ["接口签名", "可换参数清单"]
+IFACE_NAMES = {"记录", "资格", "凭证", "资源", "解释权", "传达", "痕迹", "躯体"}
+OPTIONAL = ["调用记录"] + PILOT_FIELDS
 CARD_VERSION_RE = re.compile(r"^v\d+\.\d+$")
 
 
@@ -269,6 +272,38 @@ def check(cid, f):
             errs.append(f"装配角色={role} 的件不得以 ID 列表形式登记咬合对象（它不产生咬合边）")
     elif role == "参与" and not re.search(r"WB-[A-Z]+-\d{4}", f.get("可咬合零件", "")):
         warns.append("装配角色=参与 但「可咬合零件」未列具体 ID（须确认确无邻接）")
+
+    # ---- v2.5 试点字段：接口签名 / 可换参数清单（存在才校验）----
+    sig = f.get("接口签名", "")
+    if sig:
+        if "无——" in sig:
+            # 判定件与元件：签名为无，合法
+            if role not in ("判定", "元"):
+                errs.append("接口签名写「无」但装配角色非判定/元")
+        else:
+            prov = re.search(r"提供:\s*\[([^\]]*)\]", sig)
+            cons = re.search(r"消耗:\s*\[([^\]]*)\]", sig)
+            if not prov or not cons:
+                errs.append("接口签名 缺 `提供: [...]` 或 `消耗: [...]` 两栏")
+            else:
+                for side, m in (("提供", prov), ("消耗", cons)):
+                    for name in [x.strip() for x in m.group(1).split(",") if x.strip()]:
+                        if name not in IFACE_NAMES:
+                            errs.append(f"接口名超出受控词表: {name}（{side}）")
+            if role in ("判定", "元"):
+                errs.append(f"装配角色={role} 不应有具体接口签名（应写「无」）")
+
+    tune = f.get("可换参数清单", "")
+    if tune and "无——" not in tune:
+        ch = re.search(r"可换:\s*\[([^\]]*)\]", tune)
+        kx = re.search(r"不可换内核:\s*\[([^\]]*)\]", tune)
+        if not ch or not kx:
+            errs.append("可换参数清单 缺 `可换: [...]` 或 `不可换内核: [...]` 两栏")
+        else:
+            if not [x.strip() for x in ch.group(1).split(",") if x.strip()]:
+                errs.append("可换清单为空（等于没写）")
+            if not [x.strip() for x in kx.group(1).split(",") if x.strip()]:
+                errs.append("不可换内核为空（等于没写）")
 
     return errs, warns, infos, req_mode, role, mutex_ids
 
