@@ -1,11 +1,11 @@
 {
  "schema": 1,
  "summary": {
-  "docs": 1593,
+  "docs": 1594,
   "by_type": {
    "正文": 627,
    "设定": 543,
-   "模板": 392,
+   "模板": 393,
    "总览": 31
   },
   "by_project": {
@@ -86,12 +86,12 @@
    },
    "PKM": {
     "docs": 70,
-    "net_chars": 77071,
+    "net_chars": 77393,
     "types": {
      "设定": 69,
      "总览": 1
     },
-    "links": 2478,
+    "links": 2480,
     "knowledge": 70,
     "knowledge_orphan": 0
    },
@@ -202,14 +202,14 @@
     "knowledge_orphan": 0
    },
    "零件库": {
-    "docs": 13,
-    "net_chars": 66643,
+    "docs": 14,
+    "net_chars": 76126,
     "types": {
-     "模板": 12,
+     "模板": 13,
      "总览": 1
     },
     "links": 0,
-    "knowledge": 13,
+    "knowledge": 14,
     "knowledge_orphan": 0
    },
    "格物录": {
@@ -283,11 +283,11 @@
     "knowledge_orphan": 0
    }
   },
-  "total_links": 2522,
+  "total_links": 2524,
   "total_broken": 0,
   "frontmatter_docs": 37,
   "tag_count": 151,
-  "knowledge_docs": 966,
+  "knowledge_docs": 967,
   "knowledge_orphans": 1,
   "knowledge_orphan_rate": 0.1,
   "narrative_docs": 627,
@@ -296,7 +296,7 @@
   "orphan_sample": [
    "CHANGELOG.md"
   ],
-  "net_chars_total": 8972214
+  "net_chars_total": 8982019
  },
  "overrides_count": 31,
  "nodes": [
@@ -1541,7 +1541,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 1953,
+   "net_chars": 2275,
    "tags": [],
    "aliases": [],
    "out": [
@@ -1553,6 +1553,7 @@
     "零件库/08-调用记录-M01-卷四.md",
     "零件库/09-调用记录-M02-卷五.md",
     "零件库/10-调研-三类压力结构范式.md",
+    "零件库/11-迁移测试-M03-三题材.md",
     "零件库/07-调研-跨作品可复用零件构建方法.md",
     "零件库/99-来源与许可登记.md",
     "通用模板包/13-世界先行与地图叙事模板.md",
@@ -4584,7 +4585,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 816,
+   "net_chars": 867,
    "tags": [],
    "aliases": [],
    "out": [
@@ -4600,6 +4601,7 @@
     "零件库/08-调用记录-M01-卷四.md",
     "零件库/09-调用记录-M02-卷五.md",
     "零件库/10-调研-三类压力结构范式.md",
+    "零件库/11-迁移测试-M03-三题材.md",
     "零件库/99-来源与许可登记.md"
    ],
    "in": [
@@ -33438,7 +33440,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 7592,
+   "net_chars": 7842,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33459,7 +33461,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 3715,
+   "net_chars": 4151,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33520,7 +33522,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 6281,
+   "net_chars": 9014,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33539,7 +33541,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 4812,
+   "net_chars": 6167,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33558,7 +33560,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 2804,
+   "net_chars": 3105,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33655,13 +33657,33 @@
    "overridden": false
   },
   {
+   "path": "零件库/11-迁移测试-M03-三题材.md",
+   "title": "11 · 迁移测试 M-03：三题材 × 四件",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "零件库",
+   "role": "",
+   "net_chars": 3678,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/00-原子笔记/atom-0026-跨项目世界零件库.md",
+    "PKM/01-MOC/MOC-零件库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
    "path": "零件库/99-来源与许可登记.md",
    "title": "99 · 来源与许可登记",
    "type": "模板",
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 3575,
+   "net_chars": 4193,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33682,7 +33704,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "入口总览",
-   "net_chars": 2224,
+   "net_chars": 2336,
    "tags": [],
    "aliases": [],
    "out": [],
