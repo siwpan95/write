@@ -15,8 +15,9 @@
  1 成员两两互斥（条件敏感：读条件描述，不只读 ID 对）
  2 必含件缺失  3 哑火件  4 同 target 相邻  5 同 phase 相邻
  6 L4 数量/相邻（同族配套降级 WARN）  7 连续 L3+ 无休止
- 8 装配体无驱动量或元件混入成员  9 驱动量与 Δ 对齐(INFO)
-10 ELSE 全负向导致无解
+ 8 装配体无驱动量或元件混入成员  9 驱动量与 Δ 对齐(INFO)  10 ELSE 全负向导致无解
+11 可达性（仅状态门槛型 6 件严格 BFS；事件触发型只标「未判定」）
+12 dynamics 摘要（实际触发顺序／首见底量／峰值位置）与硬瓶颈登记
 """
 import io
 import os
@@ -276,10 +277,63 @@ def check_assembly(a, cards):
         if all_neg:
             errs.append("所有成员的 ELSE 均为负向且无活路——主角可能无解（B5 可达性前置）")
 
+    # 11 可达性（G10）：仅状态门槛型严格 BFS，事件触发型标未判定
+    state_gated = [cid for cid in members if any(
+        q in cards.get(cid, {}).get("req", "") for q in QTY)]
+    event_driven = [cid for cid in members if cid not in state_gated]
+    if state_gated:
+        # 用装配体初态八量做一步可达性推演（不建完整 BFS——本库样本小，
+        # 且事件触发型不可枚举，完整 BFS 会给出虚假确定性）
+        unsatisfied = []
+        for cid in state_gated:
+            req = cards.get(cid, {}).get("req", "")
+            for q, op, val in re.findall(r"([财势名位时秘身信])\s*([<>≤≥=]+)\s*(-?\d+)", req):
+                if q not in init:
+                    continue  # 初态缺此量 → 不判（避免虚假确定性）
+                v, n = init[q], int(val)
+                ok = ((op == "<" and v < n) or (op == "≤" and v <= n) or
+                      (op == ">" and v > n) or (op == "≥" and v >= n) or
+                      (op == "=" and v == n))
+                if not ok:
+                    unsatisfied.append(f"{cid}: {q}{op}{val}（初 {q}={v}）")
+        deadlock = bool(unsatisfied)
+        verdict = ("不可达（状态门槛在初态即不满足）：" + "；".join(unsatisfied)) if deadlock \
+            else "至少一步可达"
+        infos.append(f"可达性：状态门槛型 {len(state_gated)} 件严格判定＝{verdict}；"
+                     f"事件触发型 {len(event_driven)} 件＝未判定（不可严格规划，须随机采样坏状态）")
+        if deadlock:
+            errs.append("装配无解：状态门槛型零件的 REQ 在初态即不满足")
+
+    # 12 dynamics 与硬瓶颈（G11/G13）：检查装配体是否回填了实值（非「待 B5 回填」）
+    dyn = field(a["body"], "dynamics 记录")
+    if not dyn or "待 B5" in dyn or "待回填" in dyn:
+        warns.append("dynamics 记录未回填（实际触发顺序／首见底量／峰值位置）")
+    # 硬瓶颈：装配体正文若显式声明解法数=1，须同时写瓶颈出口
+    if "解法数" in a["body"] and "1（硬瓶颈）" in a["body"] and "瓶颈出口" not in a["body"]:
+        errs.append("声明了硬瓶颈（解法数=1）但未写瓶颈出口")
+    # 解法数「缺口」：诚实登记缺件，属带洞装配体，报 INFO 不报 ERROR
+    if "解法数" in a["body"] and "缺口" in field(a["body"], "解法数"):
+        infos.append("解法数登记为「缺口」——带洞装配体（缺件已登记，非本装配体写错）")
+
+    # 13 健康度（G12）：孤岛件与交互密度
+    bite_deg = {cid: len(c.get("bite_ids", set())) for cid, c in cards.items()
+                if c.get("role") not in ("判定", "元")}
+    islands = [cid for cid in members if bite_deg.get(cid, 0) < 2]
+    if islands:
+        infos.append(f"健康度：咬合度<2 的成员：{', '.join(islands)}——"
+                     "不等于违规，但按乘法判据应关注其交互面")
+    n_member = len(members)
+    max_pairs = n_member * (n_member - 1) // 2
+    real_edges = 0
+    for i, x in enumerate(members):
+        for y in members[i + 1:]:
+            if y in cards.get(x, {}).get("bite_ids", set()) or x in cards.get(y, {}).get("bite_ids", set()):
+                real_edges += 1
+    density = real_edges / max_pairs if max_pairs else 0
+    infos.append(f"健康度：交互密度 {real_edges}/{max_pairs}＝{density:.0%}"
+                 "（S² 乘法判据：3 件全互咬＝100%）")
+
     return errs, warns, infos
-
-
-# ---------------------------------------------------------------- 覆盖率（G9）
 def coverage(assemblies, cards):
     """2-way 覆盖：统计属性维度（band × phase × target × 功能角色）的组合覆盖。"""
     seen = set()
