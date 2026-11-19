@@ -1,8 +1,7 @@
-# 创作室通用模板包 v3.15 · SHA256 校验清单（2026-11-18）
+# 创作室通用模板包 v3.16 · SHA256 校验清单（2026-11-19）
 # 校验：在本目录执行  sha256sum -c MANIFEST.sha256
+# v3.16 更新：参考资料5 反哺 + 卷三回检经验固化；13/05/06/11/18/00/14/README/校验报告修订，文件集 36 条不变。
 # Windows: certutil -hashfile <文件> SHA256 逐项比对
-# v3.15 更新：新增 20-素材与设定整理模板.md 与 tools/tab_lint.py；文件集 34 → 36 条。
-# v3.15 更新：新增 20-素材与设定整理模板.md 与 tools/tab_lint.py；文件集 34 → 36 条。
 # v3.14 更新：19 号内容修订、14 号登记扩充；哈希仍按 git blob（LF）字节计算，文件集为 34 条。
 #
 # —— 2026-11-13 增补（本次深度审计后）——
@@ -15,39 +14,40 @@
 # 3) 哈希口径：一律取 git blob 字节（LF），不得按工作区字节计算（工作区可能是 CRLF 旧副本）。
 #    重算工具：python tools/manifest.py --write    校验：python tools/manifest.py --check
 # —— 追加条目（新增模板与补入受控文件）——
-e5eb199ade62e86addf1aa1b4ac0076dc724dd0203916dfe793ec23eeeeecace  00-总档与SOP.md
-38e51e81975afa7428b8949ab3990c4efdf748c2725da2afab50533e5cb4f66d  01-立项定位模板.md
-6e0583eace5fc4c397610bbc7e860cc3ebac6c105befece94127dcc363cd37fc  02-大纲四层模板.md
-998414dd48127108a904fe53905e83e296a382c4a20fe949316887ed02fcbf5c  03-世界观圣经模板.md
-63e54c07f98db19152fe2319794b2cb7d6bd84b1d11f824af8901063d29fa599  04-人物卡模板.md
-a4a3cdf7d365b28707e1fc26a513519cef58c530aa48ebc4b30a62e38951e142  05-文风卡与章节规范模板.md
-a6287f9eb19ab90127d0dc75d6f075795288931a373a75d307579e15f82f4a9f  06-连载护航模板.md
-b6faa7b47eea5af4e117ec38362174d4dba33eeccf8b3804fde33daea7007dfd  07-附录-本书第一卷实例索引.md
-6db15e48bee17de1c3ad4e73269dba16b252b19d71f8d8e45b666568f73503bc  08-章节创作模板.md
-816fe38beabf6c0c678a99dc3cae2a76a0ad79291a6a89938053e95c004a67a4  09-立项书模板.md
-6f5c94e36877fd3e2202467061f91aaa6bdcaa01f6f540d1bd0b4aff0ced8236  10-节拍表与黄金三章施工模板.md
-049950f1e27a37b7da9bd91b5b884c603637fda5325ccf990f652c6113efc45c  11-合规与一致性检查模板.md
-03638c2b37d7480c388342aa7fdb4da2fa58fc23fe9e6ec351631554da31fd13  12-品类流派与IP合规前置模板.md
-25aed68cdff6dee7a6af231dde1a0fc54d8be8934904add6fd57642e38218038  13-世界先行与地图叙事模板.md
-e8b89eca366c135a7b197040b34c460ce9da57dc17f43de5682d527d7854e463  14-外部依赖与来源登记表.md
-1c35ee35d2dcb73db30e3cbcd27cea212955b1ed0f2b340186c3e932337bf8dd  15-附录-填法样例集.md
-e18cfdf01b414901ef9625b6d71bd65ee929f8d502568ef5c2195d7bf9306021  16-喜剧节奏与无厘头手法模板.md
-f433f8228603bf6649393f527da47005a2fa8cb64466f7c38b063c653827b459  17-字数增密与紫罗兰散文防控模板.md
-7d49d1fbd9a60eb77eecacf030aa6cd919e964327c6a1426ddbab66f5446168b  18-程序化创作与算法脚本模板.md
-6d949d6c3cd3777a781c899fd9fd01171675a8c93094721056c200adcf243961  README.md
-55bdf4a558314c5acccdd2bb31bb253b582142855ed15804dea8135fe28a5b57  审计与修复报告.md
-42e46d5875fedefcef07969594fc80b002ec44a58d05b9263928dcfd94a4cf52  校验报告.txt
-df750674bad408d1de792e9b0b301d4e58e43b985b725093d7aada71529bf51f  tools/build_sample_pages.py
-9aa4bf76cd8e407666b57c209baab714b8654265b0001c704c484094dd0072a1  tools/check_package.py
-c72fb93fdff8e94b9f6717baf87cb6a06100d2ff200bad35bf177baf135bd2a7  tools/tab_lint.py
-8c337e63cbea2bbfab1ab62ae1770fceba1729192708ca3d16ab7212171f8625  tools/procedural/goal_sim.py
-966c8f71ecb197cbf64df630a29971973003e97aff62eb581bd73aec517c0e00  tools/procedural/grammar_expand.py
-14470f71f05a6407e33d0985f6ac1759c6d7c9865573339d7e82654a10e0bdbf  tools/procedural/name_generator.py
-063a1463cbce580e40d3ccfd3aa449d57348b67edf02ad6342c61d5286f16bf9  19-供给过剩与资产经营模板.md
-d75a3c5f72cf6fe3571301667a421b011de59512565167d8e5e6dd0c52d6089f  20-素材与设定整理模板.md
-faff66652bd895320fd3c22446d355b70b0fd1b76e6a0757a411595f3086bd19  tools/regression_checks.txt
-a7a8ba176011932924e51ac4f268e29b37de4d07c5529325ca0c17c1cf6448ee  writing-style-transfer/scripts/style_metrics.py
-ed511a87d94a8639d390449484e5824e1d570979108282d7f68961a26b16a481  可视化_结构映射/graph.dot
-17af3604d2cd82107e8a9d0ce0b98691fd31f437dbae5d8e893f78ace5b79393  可视化_结构映射/graph.svg
-6d7bdb33a63b7976d91d6528249fd1e6db8d10ebe436c5461531c3e6183781d6  可视化_结构映射/index.html
-0b2d1cb68fb11d8dabf083561d02d334b68552ff466fe044675b408789ebc2a2  可视化_结构映射/render.js
+
+508652b4a3ec878ed379dd8fcd039795a6791562  00-总档与SOP.md
+0560d8f9f3d4ced4bee30dec255edef7a792d766  01-立项定位模板.md
+c4fdeaf9e6b352601a4f5cdfe6e0c43892b76d07  02-大纲四层模板.md
+d3fa175c99370ee79d1481f8356fb41a54d83907  03-世界观圣经模板.md
+a77482b20d84175a62ad2a807d484e3887ca3d5e  04-人物卡模板.md
+6e0aaba340f6756b3b3268b5fac01df359185717  05-文风卡与章节规范模板.md
+b0d5db83c090a6fcc72390247de3cdb4faa06d06  06-连载护航模板.md
+325fa3f9c8fa783581bbaa1aec44deb495b6c36c  07-附录-本书第一卷实例索引.md
+391fbfa3866a87a0d18fceedafa9b6ebf8b2ca6b  08-章节创作模板.md
+e928d029d3f89d46f7c3428acb53a8950c743ca7  09-立项书模板.md
+836d3da659ae9a7d72966f72703757b3009f4464  10-节拍表与黄金三章施工模板.md
+81123db0d546238ed6bec04dc58114365ffa9488  11-合规与一致性检查模板.md
+29799efe521f768ab412e7a7b6bab59fdfe076e8  12-品类流派与IP合规前置模板.md
+dcd853dec5db40e440c4fe6cf4eaf3769a1fdc28  13-世界先行与地图叙事模板.md
+ab5a9fb654c0ead3388f3eaa0d9d19814e833f15  14-外部依赖与来源登记表.md
+c659a55f7380f9b2f4078220c00ba2323c95c8e6  15-附录-填法样例集.md
+5c346fe90336df3748cf9a1be849471025e90167  16-喜剧节奏与无厘头手法模板.md
+17fab555a45bb0cb5f9aa1d229373f7e36bfa98b  17-字数增密与紫罗兰散文防控模板.md
+629faab77db8768d9ae7e712e095edb59c046611  18-程序化创作与算法脚本模板.md
+7ba4e256b9da4b73f768527073a129086fd4f545  README.md
+cb0e9d8821e29ece10b9d816dfd0da41b31ac765  审计与修复报告.md
+0d367201ce7584069a43a6dc4ba1ab65fee52e04  校验报告.txt
+a9ab91241ca3e81725bac6305cec9eea35d03b01  tools/build_sample_pages.py
+2ceacc8bd9d8f93b12e4c59c010dbc63a78461c6  tools/check_package.py
+99d35599bc1f1132ed9328082f52394507192fd0  tools/tab_lint.py
+4a9e520ffc1a3918a6b4f6278fe9a3f119844617  tools/procedural/goal_sim.py
+eeb52a662a811b2796d6d825571552f7d36b5a70  tools/procedural/grammar_expand.py
+dc9de85cc654b5c3f002f3794eac6a3fedf4d8f2  tools/procedural/name_generator.py
+371c43005662cd669ecb535872f49b2fae93665f  19-供给过剩与资产经营模板.md
+efe7dbe4af303ab05c8d83f4f54eb0931c92b6f7  20-素材与设定整理模板.md
+49ae16e7441714d394058217e316c19f01ddda0c  tools/regression_checks.txt
+3a3bc6668a6a90d96102f8d5a69e575aed8ddbc5  writing-style-transfer/scripts/style_metrics.py
+84d64e8bd5163c753522f43d081c2718084c58d6  可视化_结构映射/graph.dot
+35760a0c25516101d39eaa4214d410c79d19a6bb  可视化_结构映射/graph.svg
+c9f6d362b73624532272ba210052178f9b272034  可视化_结构映射/index.html
+ad5d5e262958d7822f5e91968492cd04c4179580  可视化_结构映射/render.js
