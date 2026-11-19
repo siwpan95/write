@@ -65,6 +65,43 @@ CHAPTER_DIR = re.compile(r"^(第[一二三四五六七八九十百]+卷|正文|�
 ARCHIVE_HINT = re.compile(r"(_archive|历史归档|杂项/历史|^杂项$|^原稿$|^剧本旧稿$|^\.workbuddy)")
 
 # --------------------------------------------------------------------------
+# 派生整档（导出件 / 合订本）
+# --------------------------------------------------------------------------
+# **为什么要有这个概念**（2026-11-19 实测）：
+#   全仓 11 个作品目录里约 42% 的汉字被重复存放，成因统一 —— 「派生整档」与「分档」
+#   并存（`正文五卷-整合版.md` ↔ 各章、`05-实体书/正文/卷一.md` ↔ `02-正文/`、
+#   `第001-030章.md` ↔ 逐章细纲）。
+#   这些整档的内容**由分档拼接而来**，在检索里与源文件竞争同一段文字：
+#   同一段正文有两份命中，返回的粒度不可预期（可能给合订本切片而非单章）。
+#
+# 处置：`derived=True` 的文档**不进倒排索引/标题表**（检索不可见），
+#   但**保留在 docs 与图谱里** —— 否则指向它的链接会变成假断链。
+# 口径须与 `tools/doc_review.py` 的 `Corpus.AGGREGATE_HINT` 保持**从属**关系
+#   （索引判定更严：索引藏得起的前提，是审校也认为它是派生件）。
+#   `tools/tests/run_tests.py` 的 T6 断言 `is_derived ⇒ is_aggregate`。
+#
+# ⚠️ 命名族刻意**不含**「全书」「全文」「第NNN-NNN章」：
+#   实测误判两例 —— `01-全书总纲L1-L3.md`（总纲，不是合订本）、
+#   `蜀山 卷一-第001-005章（C01-崖前）.md`（**该书正文的主存形态**，五章一档）。
+#   把后者判成派生，等于把整部蜀山从检索里摘掉。宁可漏判，不可误藏。
+DERIVED_NAME = re.compile(
+    r"(全集版|合集|整合版|合订|汇编|选集|合并版|总集|合并稿|施工单部分)",
+    re.IGNORECASE)
+
+# 导出目录：点子库的实体书排版稿，正文另有 `02-正文/` 源（仅 `正文` 子目录是重复体；
+# 同级的排版总则/勘误表/校订说明是**独有内容**，不能一并摘掉）
+DERIVED_PATH = re.compile(r"(^|/)05-实体书/正文/")
+
+
+def is_derived(rel: str) -> bool:
+    """判定仓相对路径是否为「派生整档」（导出件/合订本）。只按路径判，不读内容。"""
+    norm = rel.replace("\\", "/")
+    if DERIVED_PATH.search(norm):
+        return True
+    stem = norm.rsplit("/", 1)[-1].rsplit(".", 1)[0]
+    return bool(DERIVED_NAME.search(stem))
+
+# --------------------------------------------------------------------------
 # 知识节点 vs 叙事节点
 # --------------------------------------------------------------------------
 # 「孤立文档 96.3%」这个数字把两类完全不同的东西混在了一起：
@@ -130,6 +167,7 @@ class Doc:
     backlinks: list[str] = field(default_factory=list)  # 入链来源
     broken: list[str] = field(default_factory=list)     # 断链（解析不到）
     archived: bool = False
+    derived: bool = False            # 派生整档（导出件/合订本）：不进检索，留在图谱
     has_frontmatter: bool = False
     kind: str = "knowledge"          # knowledge（知识节点） / narrative（叙事节点）
     fm: dict[str, Any] = field(default_factory=dict)
@@ -415,6 +453,7 @@ def scan(root: str, include_archived: bool = True) -> list[Doc]:
             aliases=[str(a) for a in aliases],
             links=links,
             archived=archived,
+            derived=is_derived(rel),
             has_frontmatter=bool(fm),
             kind=("narrative" if doc_type in NARRATIVE_TYPES else "knowledge"),
             fm={k: v for k, v in fm.items() if k not in ("aliases",)},
@@ -668,6 +707,7 @@ def summarize(docs: list[Doc], exclude: set[str] | None = None) -> dict[str, Any
 
     return {
         "docs": len(docs),
+        "derived_docs": sum(1 for d in docs if d.derived),
         "by_type": dict(sorted(by_type.items(), key=lambda kv: -kv[1])),
         "by_project": dict(sorted(by_project.items(), key=lambda kv: -kv[1]["docs"])),
         "total_links": total_links,

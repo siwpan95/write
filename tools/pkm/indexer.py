@@ -111,6 +111,11 @@ def build_index(root: str, include_archived: bool = True,
     project_terms: dict[str, Counter] = defaultdict(Counter)
 
     for i, d in enumerate(docs):
+        # 派生整档（整合版/合并稿/实体书导出/合订区间）不进倒排：
+        # 它们的内容由分档拼接而来，入索引只会与源文件竞争同一段文字的命中。
+        # 仍保留在 docs / id_to_path 中 —— 图谱与出链解析需要它们存在。
+        if d.derived:
+            continue
         full = os.path.join(root, d.path)
         try:
             body = decode(open(full, "rb").read())
@@ -131,6 +136,8 @@ def build_index(root: str, include_archived: bool = True,
 
     titles: dict[str, str] = {}
     for d in docs:
+        if d.derived:
+            continue          # 标题兜底也不许落到派生整档上，否则检索又回到合订本
         titles.setdefault(d.title, d.path)
 
     return {

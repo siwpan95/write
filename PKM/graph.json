@@ -2,6 +2,7 @@
  "schema": 1,
  "summary": {
   "docs": 1613,
+  "derived_docs": 15,
   "by_type": {
    "正文": 627,
    "设定": 545,
@@ -308,7 +309,7 @@
   "orphan_sample": [
    "CHANGELOG.md"
   ],
-  "net_chars_total": 9130506
+  "net_chars_total": 9130519
  },
  "overrides_count": 31,
  "nodes": [
@@ -5179,7 +5180,7 @@
    "kind": "knowledge",
    "project": "",
    "role": "入口总览",
-   "net_chars": 14044,
+   "net_chars": 14057,
    "tags": [],
    "aliases": [],
    "out": [

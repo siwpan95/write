@@ -345,9 +345,16 @@ class Corpus:
                  "dist", "build", ".workbuddy"}
 
     # 合集/导出件：内容天然是各章的拼接，不参与「跨文件重复」判定
+    # 口径须与 `tools/pkm/scanner.py` 的 DERIVED_NAME / DERIVED_DIRS 同族（T6 断言）
     AGGREGATE_HINT = re.compile(
         r"(全集版|合集|整合版|合订|汇编|选集|全文|合并版|总集|"
-        r"全书|txt$|complete|collected|anthology)", re.IGNORECASE)
+        r"全书|合并稿|施工单部分|txt$|complete|collected|anthology)", re.IGNORECASE)
+
+    # 导出/历史目录族：整个目录都是派生件，与源目录必然大段重复
+    AGGREGATE_DIRS = {"05-实体书", "原稿"}
+
+    # 合订章节区间命名（`第001-030章.md` = 30 章合并稿）
+    AGGREGATE_RANGE = re.compile(r"第\d{2,4}\s*[-－]\s*\d{2,4}\s*章")
 
     def __init__(self, paths, config):
         self.config = config or {}
@@ -393,10 +400,24 @@ class Corpus:
         return any(part in cls.SKIP_DIRS for part in p.parts)
 
     def is_aggregate(self, doc) -> bool:
-        """合集/导出件判定：内容天然是各章拼接，不参与跨文件重复判定。"""
+        """合集/导出件判定：内容天然是各章拼接，不参与跨文件重复判定。
+
+        2026-11-19 扩口径：原实现只看**文件名**，漏了三类派生件 ——
+          · `合并稿` / `施工单部分` 命名族（同义于「整合版」）
+          · 合订区间命名（`第001-030章.md`，30 章拼接但不含「整合」字样）
+          · 导出/历史**目录**族（`05-实体书/`、`原稿/`）
+        漏判的代价是：整档与分档的大段重复被当成真问题报出来，
+        真正需要看的跨文件回扣被淹没（实测 81% 重复率的项目只报出一串整档对整档）。
+        目录族判定放在 `is_chapter` 之前 —— `原稿/第一章-原稿.md` 也是派生件。
+        """
         if self.config.get("include_aggregates"):
             return False
+        parts = doc.path.parts
+        if any(p in self.AGGREGATE_DIRS for p in parts[:-1]):
+            return True
         name = doc.path.name
+        if self.AGGREGATE_RANGE.search(name):
+            return True
         if doc.is_chapter:
             return False
         return bool(self.AGGREGATE_HINT.search(name))

@@ -20,6 +20,7 @@ from __future__ import annotations
 
 import json
 import os
+import re
 import subprocess
 import sys
 
@@ -46,7 +47,13 @@ def t1_metrics_drift() -> None:
     raw = open(path, 'rb').read()
     bom = raw.startswith(b'\xef\xbb\xbf')
     text = raw.decode('utf-8-sig')
-    tampered = text.replace('| 索引文档数 | **1224** |', '| 索引文档数 | **9999** |', 1)
+    # 不再硬编码文档数：2026-11-19 该值从 1224 长到 1613，硬编码导致本测试静默失效
+    # （「未找到指标区块」被当成 FAIL 挂在 T1 上，实际是夹具过期）。
+    # 改为就地自增该行的数字，任何现值都能注入违规。
+    tampered = re.sub(
+        r'(\|\s*索引文档数\s*\|\s*\*\*)(\d+)(\*\*\s*\|)',
+        lambda m: f'{m.group(1)}{int(m.group(2)) + 1}{m.group(3)}',
+        text, count=1)
     if tampered == text:
         record('T1 治理指标负向控制', False, '未找到指标区块，无法注入违规')
         return
@@ -119,6 +126,55 @@ def t5_retrieval() -> None:
            f"MRR={s['MRR@10']:.3f} NDCG={s['NDCG@10']:.3f} Hit@5={s['HitRate@5']:.3f}")
 
 
+def t6_derived_consistency() -> None:
+    """派生整档口径：索引判定必须**从属**于审校判定（is_derived ⇒ is_aggregate）。
+
+    两个模块刻意各自持有规则副本（doc_review.py 会被复制成仓外 Skill，必须自足）。
+    二者的**严格度不同，且必须如此**：
+      · 审校侧宽松（含「全书/全文/区间章」）—— 判错只影响重复告警的噪音；
+      · 索引侧严格 —— 判错会把内容从检索里摘掉。
+    所以断言的是方向而非相等：**索引藏得起的，审校必须也认为是派生件**；
+    反向不要求（审校可以多认，索引不能多藏）。
+
+    2026-11-19 立此闸的直接原因：首版规则把「全书总纲」和蜀山
+    `第001-005章（C01-崖前）.md`（该书正文主存形态）判成派生，
+    会把整部蜀山摘出检索 —— 这类误判必须由测试挡住，不能靠人眼复核。
+    """
+    sys.path.insert(0, os.path.join(ROOT, 'tools'))
+    sys.path.insert(0, os.path.join(ROOT, 'tools', 'pkm'))
+    try:
+        from pathlib import Path
+        from scanner import is_derived
+        import doc_review
+    except ImportError as e:
+        record('T6 派生整档口径', False, f'导入失败：{e}')
+        return
+
+    # (路径, 索引侧期望) —— 索引侧是硬断言；审校侧只要求不弱于索引
+    cases = [
+        ('小说/正文五卷-整合版.md', True),
+        ('点子库/05-实体书/正文/卷一.md', True),
+        ('蜀山之撼天凡蚁登天路漫漫/正文/_正文施工规格-V3-卷三-施工单部分.md', True),
+        ('蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二-第151-175章-合订.md', True),
+        # ↓ 三个负例：判成派生就会误藏内容
+        ('蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷一-第001-005章（C01-崖前）.md', False),
+        ('华夏克苏鲁/05_模板对齐/05-立项与大纲/01-全书总纲L1-L3.md', False),
+        ('小说/第五卷/第216章_下舰.md', False),
+        ('PKM/01-MOC/MOC-全库.md', False),
+    ]
+    corpus = doc_review.Corpus([], {})
+    problems = []
+    for rel, expect_scan in cases:
+        got_scan = is_derived(rel)
+        got_review = corpus.is_aggregate(doc_review.Doc(Path(rel), ''))
+        if got_scan != expect_scan:
+            problems.append(f'{rel}: 索引={got_scan} 期望={expect_scan}')
+        elif got_scan and not got_review:
+            problems.append(f'{rel}: 索引判派生但审校不认（藏内容无依据）')
+    record('T6 派生整档口径（索引 ⊆ 审校）', not problems,
+           '；'.join(problems) if problems else f'{len(cases)} 例通过')
+
+
 def main() -> int:
     print(f'npm test — 负向控制与自测（root={ROOT}）')
     print('-' * 64)
@@ -127,6 +183,7 @@ def main() -> int:
     t3_rules_clean()
     t4_gate()
     t5_retrieval()
+    t6_derived_consistency()
     failed = [r for r in RESULTS if not r[1]]
     print('-' * 64)
     print(f'{len(RESULTS) - len(failed)}/{len(RESULTS)} passed')

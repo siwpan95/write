@@ -105,6 +105,11 @@ def apply_overrides(docs: list[Doc], root: str) -> int:
         d.doc_type = ov.get("type") or d.doc_type
         d.tags = list(dict.fromkeys(list(d.tags) + list(ov.get("tags") or [])))
         d.aliases = list(dict.fromkeys(list(d.aliases) + list(ov.get("aliases") or [])))
+        # `derived` 是**可覆盖**的：自动判定按路径命名族走，误判时在
+        # `PKM/02-索引/文档元数据清单.md` 登记一行 {"path": "...", "derived": false}
+        # 即可把它拉回检索（源文件仍不动一个字节）。
+        if "derived" in ov:
+            d.derived = bool(ov["derived"])
         projs = ov.get("projects") or []
         if projs and not d.project:
             d.project = projs[0]
