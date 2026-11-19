@@ -54,12 +54,13 @@ LEVER = ["权限", "代价", "矛盾"]
 ID_RE = re.compile(r"^## `(WB-[A-Z]+-\d{4})`")
 
 FIELDS = [
-    "零件名", "抽象层", "来源登记", "借用方式", "借用范围", "双标签", "一句话定义",
+    "零件名", "卡面版本", "抽象层", "来源登记", "借用方式", "借用范围", "双标签", "一句话定义",
     "内核层", "参数可换度", "可咬合零件", "落地接口", "压力机制", "band", "phase",
     "rule", "行程激活差异", "不可申诉之物", "施压时序", "适配基线",
     "装配角色", "互斥零件",
 ]
 OPTIONAL = ["调用记录"]
+CARD_VERSION_RE = re.compile(r"^v\d+\.\d+$")
 
 
 def clean(s):
@@ -219,6 +220,12 @@ def check(cid, f):
     must = ("基础层" in layer) or ("施压" in tag)
     if must and not f.get("不可申诉之物"):
         errs.append("内核层=基础层 或 含施压，但 不可申诉之物 为空")
+
+    # ---- A 组（v2.3）：卡面版本 ----
+    cv_raw = clean(f.get("卡面版本", ""))
+    cv = re.match(r"v\d+\.\d+", cv_raw)
+    if not cv:
+        errs.append("卡面版本 缺 `vX.Y` 格式（如 v2.3）")
 
     # ---- F 组（v2.2）：装配角色 / 互斥零件 ----
     role_raw = clean(f.get("装配角色", ""))
