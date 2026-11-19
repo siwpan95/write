@@ -48,6 +48,8 @@ FUNC_ENUM = {"施压", "阻碍", "揭示", "交易", "催化", "诱惑", "供给
 QTY = ["财", "势", "名", "位", "时", "秘", "身", "信"]
 PROBES = ["逃亡者", "执法者", "投机者", "学习者", "本地人", "外来者", "记录者", "被记录者"]
 IFACE_ENUM = ["地理邻接", "制度隶属", "历史旧账", "资源依赖"]
+ROLE_ENUM = {"参与", "判定", "元"}
+MUTEX_COND = ["前提取消", "效果抵消", "处置互斥", "载体争用"]
 LEVER = ["权限", "代价", "矛盾"]
 ID_RE = re.compile(r"^## `(WB-[A-Z]+-\d{4})`")
 
@@ -55,6 +57,7 @@ FIELDS = [
     "零件名", "抽象层", "来源登记", "借用方式", "借用范围", "双标签", "一句话定义",
     "内核层", "参数可换度", "可咬合零件", "落地接口", "压力机制", "band", "phase",
     "rule", "行程激活差异", "不可申诉之物", "施压时序", "适配基线",
+    "装配角色", "互斥零件",
 ]
 OPTIONAL = ["调用记录"]
 
@@ -189,7 +192,8 @@ def check(cid, f):
 
     probe = f.get("行程激活差异", "")
     bite = f.get("可咬合零件", "")
-    is_meta = "元零件" in bite
+    # 元件／判定件：判定工具或元零件，二者都不产生咬合边
+    is_meta = ("元零件" in bite) or ("判定工具" in bite)
     if probe and not is_meta:
         hit = {p for p in PROBES if p in probe}
         n_read = probe.count("读到")
@@ -216,7 +220,50 @@ def check(cid, f):
     if must and not f.get("不可申诉之物"):
         errs.append("内核层=基础层 或 含施压，但 不可申诉之物 为空")
 
-    return errs, warns, infos, req_mode
+    # ---- F 组（v2.2）：装配角色 / 互斥零件 ----
+    role_raw = clean(f.get("装配角色", ""))
+    role = ""
+    if role_raw:
+        m = re.search(r"(参与|判定|元)", role_raw)
+        if not m:
+            errs.append("装配角色 取值非法（应为 参与／判定／元）")
+        else:
+            role = m.group(1)
+
+    mutex_raw = f.get("互斥零件", "")
+    mutex_ids = []
+    if mutex_raw and clean(mutex_raw) != "无":
+        for mm in re.finditer(r"(WB-[A-Z]+-\d{4})`?（`([^`]+)`）", mutex_raw):
+            other, cond = mm.group(1), mm.group(2)
+            mutex_ids.append(other)
+            if cond not in MUTEX_COND:
+                errs.append(f"互斥条件类型非法: {cond}（应 {'／'.join(MUTEX_COND)}）")
+        if not mutex_ids:
+            errs.append("互斥零件 未按 `ID`（`条件类型`）格式书写，且未写「无」")
+        if cid in mutex_ids:
+            errs.append("互斥零件 指向自己")
+        # 判定／元件不进装配体，无从与谁拆台
+        if role in ("判定", "元") and mutex_ids:
+            errs.append(f"装配角色={role} 的件不进入装配体，不应有互斥零件")
+
+    # 判定／元件不得列具体 ID 作为咬合对象
+    # 判据：文本须明确声明「不产生咬合边」或注明「元零件／判定工具」，
+    # 而非「文本里是否出现 ID」——正文明写"服务于 X"是使用关系，不是装配关系。
+    if role in ("判定", "元"):
+        bite_txt = f.get("可咬合零件", "")
+        declared_meta = ("元零件" in bite_txt) or ("判定工具" in bite_txt)
+        declared_noedge = ("不产生咬合边" in bite_txt) or ("不列入任何装配体成员清单" in bite_txt) \
+            or ("不是咬合边" in bite_txt)
+        if not (declared_meta or declared_noedge):
+            errs.append(f"装配角色={role} 的件，「可咬合零件」须注明「元零件」或「判定工具」"
+                        "并声明不产生咬合边")
+        # 若已声明不产生咬合边，则不应在行首以「ID 名称（条件类型）」形式列出咬合对象
+        if declared_noedge and re.match(r"^\s*`WB-[A-Z]+-\d{4}`", bite_txt):
+            errs.append(f"装配角色={role} 的件不得以 ID 列表形式登记咬合对象（它不产生咬合边）")
+    elif role == "参与" and not re.search(r"WB-[A-Z]+-\d{4}", f.get("可咬合零件", "")):
+        warns.append("装配角色=参与 但「可咬合零件」未列具体 ID（须确认确无邻接）")
+
+    return errs, warns, infos, req_mode, role, mutex_ids
 
 
 def main():
@@ -226,6 +273,10 @@ def main():
     modes = {"状态门槛": 0, "事件触发": 0, "未判": 0}
     n_info = 0
     seen = {}
+    # 跨卡数据：咬合边（单侧登记）与互斥边（单侧登记）
+    bite_edges = {}   # cid -> set(other)
+    mutex_edges = {}  # cid -> set(other)
+    roles = {}        # cid -> role
     for name in CARD_FILES:
         p = BASE / name
         if not p.exists():
@@ -235,17 +286,44 @@ def main():
         for cid, body in split_cards(p.read_text(encoding="utf-8")):
             total += 1
             seen[cid] = seen.get(cid, 0) + 1
-            errs, warns, info, mode = check(cid, parse_fields(body))
+            f = parse_fields(body)
+            errs, warns, info, mode, role, mutex_ids = check(cid, f)
             modes[mode] = modes.get(mode, 0) + 1
             n_info += len(info)
+            roles[cid] = role
+            bite_edges[cid] = set(re.findall(r"WB-[A-Z]+-\d{4}", f.get("可咬合零件", "")))
+            mutex_edges[cid] = set(mutex_ids)
             if errs or warns or (verbose and info):
                 all_issues.append((cid, errs, warns, info))
             if errs:
                 bad += 1
 
+    # ---- 跨卡校验（v2.2 F 组）----
+    all_ids = set(seen)
+    cross_info = []
+    for cid, ms in mutex_edges.items():
+        for other in ms:
+            if other not in all_ids:
+                all_issues.append((cid, [f"互斥零件指向不存在的件: {other}"], [], []))
+                bad += 1
+            # 接口相容 ≠ 装配相容：两表可交叠，但值得点名
+            if other in bite_edges.get(cid, set()) or cid in bite_edges.get(other, set()):
+                cross_info.append(f"{cid} ⊗ {other}：接口相容但装配互斥（同场会拆台）")
+
     nwarn = sum(1 for _, e, w, _ in all_issues if not e and w)
     print(f"零件卡校验：共 {total} 件｜ERROR {bad}｜WARN {nwarn}｜INFO {n_info}")
     print(f"REQ 口径：状态门槛 {modes['状态门槛']}（筛人）／事件触发 {modes['事件触发']}（不筛人）")
+    n_role = {}
+    for r in roles.values():
+        n_role[r] = n_role.get(r, 0) + 1
+    print(f"装配角色：参与 {n_role.get('参与', 0)}／判定 {n_role.get('判定', 0)}／元 {n_role.get('元', 0)}")
+    n_mutex = sum(len(v) for v in mutex_edges.values())
+    print(f"互斥边：单侧登记 {n_mutex} 条｜对称后 {sum(len(v) for v in mutex_edges.values()) // 2} 对"
+          if n_mutex else "互斥边：0 条")
+    if cross_info:
+        print(f"接口相容但装配互斥（装配时重点检查）{len(cross_info)} 对：")
+        for x in cross_info:
+            print("  " + x)
     dup = [k for k, v in seen.items() if v > 1]
     if dup:
         print("  重复 ID：" + "、".join(dup))
