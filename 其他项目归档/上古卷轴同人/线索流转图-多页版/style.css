@@ -1,0 +1,54 @@
+:root{--ink:#1d2530;--soft:#4a5563;--paper:#f7f2e7;--paper2:#efe7d6;--line:#c9bfa8;
+--money:#2f5d7c;--name:#7a3b52;--debt:#5b6b3a;--grain:#8a6a2f;--accent:#9b2c2c}
+*{box-sizing:border-box}
+body{margin:0;background:var(--paper);color:var(--ink);
+font-family:"Songti SC","Noto Serif CJK SC","Source Han Serif SC",serif;line-height:1.8}
+.wrap{max-width:1080px;margin:0 auto;padding:30px 22px 70px}
+.crumb{font-size:12.5px;color:#8b8271;margin-bottom:14px}
+.crumb a{color:var(--accent);text-decoration:none;border-bottom:1px dotted var(--accent)}
+h1{font-size:25px;margin:0 0 4px;letter-spacing:.03em}
+h1 .loc{font-size:14px;color:var(--soft);font-weight:400;margin-left:10px}
+.sub{color:var(--soft);font-size:13.5px;margin-bottom:22px}
+.rule{height:1px;background:var(--line);margin:18px 0 22px}
+.field{margin:0 0 18px}
+.k{font-size:12px;letter-spacing:.14em;color:#9a8f79;margin-bottom:4px}
+.eye{color:var(--accent);font-size:15.5px}
+p{font-size:15px;margin:0}
+.nav{display:flex;justify-content:space-between;gap:12px;margin-top:34px;
+border-top:1px solid var(--line);padding-top:16px;font-size:14px}
+.nav a{color:var(--accent);text-decoration:none;border-bottom:1px dotted var(--accent)}
+.hash{display:inline-block;font-size:12px;color:#8b8271;border:1px solid var(--line);
+border-radius:99px;padding:2px 10px;margin-bottom:14px}
+table{width:100%;border-collapse:collapse;margin:10px 0 6px;font-size:14.5px}
+th,td{border-bottom:1px solid #ddd2bd;padding:9px 10px;text-align:left;vertical-align:top}
+th{color:var(--soft);font-weight:600;font-size:12.5px;letter-spacing:.1em;border-bottom:1px solid var(--line)}
+td:first-child{white-space:nowrap;color:#8b8271;font-size:13px;width:70px}
+.card{background:#fffdf7;border:1px solid var(--line);border-left:4px solid var(--accent);
+padding:18px 22px;border-radius:3px;margin:16px 0}
+.card h2{font-size:16px;margin:0 0 10px}
+.others{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0 4px}
+.others a{font-size:12.5px;color:var(--ink-soft);text-decoration:none;border:1px solid var(--line);
+background:#fffdf7;border-radius:99px;padding:4px 11px}
+.others a:hover{border-color:var(--accent);color:var(--accent)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(230px,1fr));gap:10px;margin:12px 0}
+.grid a{display:block;text-decoration:none;color:var(--ink);background:#fffdf7;
+border:1px solid var(--line);border-radius:3px;padding:11px 14px;font-size:14px}
+.grid a:hover{border-color:var(--accent)}
+.grid a span{display:block;font-size:11.5px;color:#9a8f79;margin-top:2px}
+svg{width:100%;height:auto;display:block}
+.axis-label{font-size:13px;fill:var(--soft);letter-spacing:.1em}
+.tick{font-size:11px;fill:#9a8f79;text-anchor:middle}
+.node{cursor:pointer}
+.node rect{fill:#fffdf7;stroke:var(--line);stroke-width:1.2;transition:all .16s}
+.node text{font-size:12.5px;fill:var(--ink);text-anchor:middle;pointer-events:none}
+.node .ch{font-size:10.5px;fill:#9a8f79}
+.node:hover rect{stroke:var(--accent);stroke-width:2;fill:#fff6f2}
+.link{fill:none;stroke-width:2}
+.money{stroke:var(--money)}.name{stroke:var(--name)}.debt{stroke:var(--debt)}.grain{stroke:var(--grain)}
+.cross{stroke:#b0793a;stroke-dasharray:5 4;stroke-width:1.4;opacity:.8}
+.weld{cursor:pointer}
+.weld circle{fill:#b0793a;transition:all .15s}
+.weld:hover circle{fill:var(--accent);r:8}
+footer{margin-top:40px;border-top:1px solid var(--line);padding-top:14px;font-size:12px;color:#8b8271}
+.hint{font-size:12.5px;color:var(--soft);margin:6px 0 18px}
+@media(max-width:640px){h1{font-size:20px}.wrap{padding:20px 14px 60px}}
