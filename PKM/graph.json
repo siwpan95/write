@@ -1,11 +1,11 @@
 {
  "schema": 1,
  "summary": {
-  "docs": 1608,
+  "docs": 1613,
   "by_type": {
    "正文": 627,
-   "设定": 544,
-   "模板": 405,
+   "设定": 545,
+   "模板": 409,
    "总览": 32
   },
   "by_project": {
@@ -72,6 +72,18 @@
     "knowledge": 97,
     "knowledge_orphan": 0
    },
+   "PKM": {
+    "docs": 74,
+    "net_chars": 87768,
+    "types": {
+     "设定": 70,
+     "模板": 3,
+     "总览": 1
+    },
+    "links": 2528,
+    "knowledge": 74,
+    "knowledge_orphan": 0
+   },
    "综网废柴逆命": {
     "docs": 73,
     "net_chars": 268244,
@@ -82,17 +94,6 @@
     },
     "links": 0,
     "knowledge": 44,
-    "knowledge_orphan": 0
-   },
-   "PKM": {
-    "docs": 71,
-    "net_chars": 77612,
-    "types": {
-     "设定": 70,
-     "总览": 1
-    },
-    "links": 2493,
-    "knowledge": 71,
     "knowledge_orphan": 0
    },
    "霜语": {
@@ -144,6 +145,17 @@
     "knowledge": 12,
     "knowledge_orphan": 0
    },
+   "通用模板包": {
+    "docs": 24,
+    "net_chars": 284375,
+    "types": {
+     "总览": 2,
+     "模板": 22
+    },
+    "links": 0,
+    "knowledge": 24,
+    "knowledge_orphan": 0
+   },
    "无敌不是他人路": {
     "docs": 23,
     "net_chars": 94409,
@@ -155,17 +167,6 @@
     },
     "links": 0,
     "knowledge": 12,
-    "knowledge_orphan": 0
-   },
-   "通用模板包": {
-    "docs": 23,
-    "net_chars": 269573,
-    "types": {
-     "总览": 2,
-     "模板": 21
-    },
-    "links": 0,
-    "knowledge": 23,
     "knowledge_orphan": 0
    },
    "Tserena": {
@@ -214,7 +215,7 @@
    },
    "创造主们的战争": {
     "docs": 9,
-    "net_chars": 55100,
+    "net_chars": 63476,
     "types": {
      "模板": 8,
      "总览": 1
@@ -294,11 +295,11 @@
     "knowledge_orphan": 0
    }
   },
-  "total_links": 2538,
+  "total_links": 2574,
   "total_broken": 0,
-  "frontmatter_docs": 37,
+  "frontmatter_docs": 40,
   "tag_count": 151,
-  "knowledge_docs": 981,
+  "knowledge_docs": 986,
   "knowledge_orphans": 1,
   "knowledge_orphan_rate": 0.1,
   "narrative_docs": 627,
@@ -307,7 +308,7 @@
   "orphan_sample": [
    "CHANGELOG.md"
   ],
-  "net_chars_total": 9086981
+  "net_chars_total": 9130506
  },
  "overrides_count": 31,
  "nodes": [
@@ -318,7 +319,7 @@
    "kind": "knowledge",
    "project": "",
    "role": "",
-   "net_chars": 13699,
+   "net_chars": 19377,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -408,6 +409,7 @@
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-原子笔记索引.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md",
+    "PKM/03-使用指南/01-方法卡-收集检索复用.md",
     "PKM/README.md"
    ],
    "broken": [],
@@ -570,6 +572,7 @@
     "PKM/01-MOC/MOC-台账进度.md",
     "PKM/01-MOC/MOC-文风维度.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md",
+    "PKM/03-使用指南/02-笔记模板.md",
     "PKM/README.md"
    ],
    "broken": [],
@@ -667,6 +670,8 @@
     "PKM/01-MOC/MOC-原子笔记索引.md",
     "PKM/01-MOC/MOC-大纲节拍.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md",
+    "PKM/03-使用指南/01-方法卡-收集检索复用.md",
+    "PKM/03-使用指南/03-常见问题处理.md",
     "PKM/README.md"
    ],
    "broken": [],
@@ -1053,7 +1058,8 @@
     "PKM/01-MOC/MOC-原子笔记索引.md",
     "PKM/01-MOC/MOC-台账进度.md",
     "PKM/01-MOC/MOC-合规审校.md",
-    "PKM/01-MOC/MOC-跨项目知识网络.md"
+    "PKM/01-MOC/MOC-跨项目知识网络.md",
+    "PKM/03-使用指南/03-常见问题处理.md"
    ],
    "broken": [],
    "archived": false,
@@ -1377,7 +1383,8 @@
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-人物角色.md",
     "PKM/01-MOC/MOC-原子笔记索引.md",
-    "PKM/01-MOC/MOC-大纲节拍.md"
+    "PKM/01-MOC/MOC-大纲节拍.md",
+    "PKM/03-使用指南/01-方法卡-收集检索复用.md"
    ],
    "broken": [],
    "archived": false,
@@ -1429,7 +1436,8 @@
     "PKM/01-MOC/MOC-原子笔记索引.md",
     "PKM/01-MOC/MOC-台账进度.md",
     "PKM/01-MOC/MOC-大纲节拍.md",
-    "PKM/01-MOC/MOC-对标调研.md"
+    "PKM/01-MOC/MOC-对标调研.md",
+    "PKM/03-使用指南/01-方法卡-收集检索复用.md"
    ],
    "broken": [],
    "archived": false,
@@ -1575,7 +1583,8 @@
     "PKM/00-原子笔记/atom-0002-通用模板包.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-原子笔记索引.md",
-    "PKM/01-MOC/MOC-跨项目知识网络.md"
+    "PKM/01-MOC/MOC-跨项目知识网络.md",
+    "PKM/03-使用指南/02-笔记模板.md"
    ],
    "broken": [],
    "archived": false,
@@ -1625,6 +1634,9 @@
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-原子笔记索引.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md",
+    "PKM/03-使用指南/01-方法卡-收集检索复用.md",
+    "PKM/03-使用指南/02-笔记模板.md",
+    "PKM/03-使用指南/03-常见问题处理.md",
     "PKM/README.md",
     "PKM/换机部署.md"
    ],
@@ -1650,7 +1662,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 4077,
+   "net_chars": 4300,
    "tags": [],
    "aliases": [],
    "out": [
@@ -1689,6 +1701,7 @@
     "PKM/01-MOC/MOC-二十一世纪奇门遁甲.md",
     "PKM/01-MOC/MOC-人物角色.md",
     "PKM/01-MOC/MOC-其他项目归档.md",
+    "PKM/01-MOC/MOC-创造主们的战争.md",
     "PKM/01-MOC/MOC-十三叩_U-1990.md",
     "PKM/01-MOC/MOC-华夏克苏鲁.md",
     "PKM/01-MOC/MOC-原子笔记索引.md",
@@ -1723,7 +1736,10 @@
     "PKM/孤立文档清单.md",
     "PKM/换机部署.md",
     "PKM/断链清单.md",
-    "PKM/诊断与选型报告-20261113.md"
+    "PKM/诊断与选型报告-20261113.md",
+    "PKM/03-使用指南/01-方法卡-收集检索复用.md",
+    "PKM/03-使用指南/02-笔记模板.md",
+    "PKM/03-使用指南/03-常见问题处理.md"
    ],
    "in": [
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
@@ -1815,7 +1831,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 12849,
+   "net_chars": 12912,
    "tags": [],
    "aliases": [],
    "out": [
@@ -1829,6 +1845,7 @@
     "通用模板包/03-世界观圣经模板.md",
     "Tserena/bible/world-bible.md",
     "二十一世纪奇门遁甲/bible/world-bible.md",
+    "创造主们的战争/03-世界观圣经-创造主们的战争.md",
     "华夏克苏鲁/01_bible/world-bible.md",
     "小说/bible/world-bible.md",
     "廓者未名夜/03-世界观圣经-廓者未名夜.md",
@@ -2099,7 +2116,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 5873,
+   "net_chars": 5932,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2114,6 +2131,7 @@
     "综网废柴逆命/设定/03_人物/06_人物设定_完整档案.md",
     "Tserena/bible/人物卡-主角GeediMaalin.md",
     "二十一世纪奇门遁甲/bible/characters/赵海.md",
+    "创造主们的战争/04-人物卡-创造主们的战争.md",
     "十三叩_U-1990/07_人物与势力/07-00_人物卡规范.md",
     "十三叩_U-1990/07_人物与势力/07-22_空白人物卡模板.md",
     "华夏克苏鲁/01_bible/人物卡.md",
@@ -2250,7 +2268,9 @@
     "创造主们的战争/12-品类IP合规前置-创造主们的战争.md",
     "创造主们的战争/13-世界先行与地图叙事-创造主们的战争.md"
    ],
-   "in": [],
+   "in": [
+    "PKM/01-MOC/MOC-PKM-知识连接层.md"
+   ],
    "broken": [],
    "archived": false,
    "fm": {},
@@ -2496,6 +2516,9 @@
     "PKM/01-MOC/MOC-对标调研.md",
     "PKM/01-MOC/MOC-文风维度.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md",
+    "PKM/03-使用指南/01-方法卡-收集检索复用.md",
+    "PKM/03-使用指南/02-笔记模板.md",
+    "PKM/03-使用指南/03-常见问题处理.md",
     "PKM/README.md"
    ],
    "broken": [],
@@ -2641,7 +2664,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 3562,
+   "net_chars": 3688,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2651,6 +2674,7 @@
     "点子库/01-设定集/23-落点结算-双读规程与工作区修订记录.md",
     "通用模板包/11-合规与一致性检查模板.md",
     "通用模板包/12-品类流派与IP合规前置模板.md",
+    "通用模板包/21-版权风险结构与合规边界模板.md",
     "Tserena/设定与参考/一致性检查-11-20261109.md",
     "二十一世纪奇门遁甲/07_一致性校验报告.md",
     "二十一世纪奇门遁甲/12_落地正文合规与一致性检查.md",
@@ -2670,6 +2694,7 @@
     "点子库/05-实体书/03-勘误表.md",
     "蜀山之撼天凡蚁登天路漫漫/11-合规与一致性检查.md",
     "Tserena/设定与参考/IP合规前置-12-20261109.md",
+    "创造主们的战争/12-品类IP合规前置-创造主们的战争.md",
     "廓者未名夜/12-品类IP合规前置-廓者未名夜.md",
     "战锤42拔智齿/01-原始材料/12-品类IP合规前置-战锤42拔智齿.md",
     "无敌不是他人路/12-品类IP合规前置-无敌不是他人路.md",
@@ -2719,7 +2744,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 4260,
+   "net_chars": 4441,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2732,6 +2757,7 @@
     "PKM/00-原子笔记/atom-0013-借结构不取材与三层互不代偿.md",
     "Tserena/设定与参考/卷纲-第一卷.md",
     "Tserena/设定与参考/大纲四层-02-实填.md",
+    "创造主们的战争/02-大纲四层-创造主们的战争.md",
     "小说/设定与参考/第一卷卷纲.md",
     "小说/设定与参考/第三卷卷纲.md",
     "小说/设定与参考/第二卷卷纲.md",
@@ -2759,6 +2785,8 @@
     "Tserena/设定与参考/立项书-09-实填.md",
     "Tserena/设定与参考/立项定位-01-实填.md",
     "二十一世纪奇门遁甲/00_新书立项书.md",
+    "创造主们的战争/01-立项定位-创造主们的战争.md",
+    "创造主们的战争/09-立项书-创造主们的战争.md",
     "华夏克苏鲁/05_模板对齐/05_立项与大纲/00-立项书.md",
     "华夏克苏鲁/05_模板对齐/05_立项与大纲/01-全书总纲L1-L3.md",
     "廓者未名夜/01-立项定位-廓者未名夜.md",
@@ -2814,7 +2842,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 5388,
+   "net_chars": 5458,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2824,6 +2852,7 @@
     "PKM/00-原子笔记/atom-0004-基准系统加白名单.md",
     "PKM/00-原子笔记/atom-0017-四步审计与五权矩阵.md",
     "PKM/00-原子笔记/atom-0014-欲扬先抑是机制本身.md",
+    "创造主们的战争/12-品类IP合规前置-创造主们的战争.md",
     "参考资料/Steam调研_2026/游戏题材网文品类谱系研究_第二册.md",
     "小说/设定与参考/品类调研与外传完善方案.md",
     "廓者未名夜/12-品类IP合规前置-廓者未名夜.md",
@@ -4567,7 +4596,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 1510,
+   "net_chars": 1562,
    "tags": [],
    "aliases": [],
    "out": [
@@ -4593,6 +4622,7 @@
     "通用模板包/18-程序化创作与算法脚本模板.md",
     "通用模板包/19-供给过剩与资产经营模板.md",
     "通用模板包/20-素材与设定整理模板.md",
+    "通用模板包/21-版权风险结构与合规边界模板.md",
     "通用模板包/审计与修复报告.md"
    ],
    "in": [
@@ -4839,13 +4869,132 @@
    "overridden": false
   },
   {
+   "path": "PKM/03-使用指南/01-方法卡-收集检索复用.md",
+   "title": "知识库使用方法（收集 → 检索 → 复用）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "PKM",
+   "role": "",
+   "net_chars": 3925,
+   "tags": [],
+   "aliases": [],
+   "out": [
+    "PKM/00-原子笔记/guide-0001-PKM连接层使用指南.md",
+    "PKM/00-原子笔记/atom-0007-模板不适用是阶段属性.md",
+    "PKM/00-原子笔记/atom-0022-方法论四件套.md",
+    "PKM/00-原子笔记/atom-0023-六步流水线与先卡后搜.md",
+    "PKM/01-MOC/MOC-原子笔记索引.md",
+    "PKM/03-使用指南/02-笔记模板.md",
+    "PKM/03-使用指南/03-常见问题处理.md",
+    "PKM/00-原子笔记/atom-0002-通用模板包.md",
+    "零件库/08-调用记录-M01-卷四.md"
+   ],
+   "in": [
+    "PKM/01-MOC/MOC-PKM-知识连接层.md",
+    "PKM/03-使用指南/02-笔记模板.md",
+    "PKM/03-使用指南/03-常见问题处理.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {
+    "id": "guide-0002",
+    "title": "知识库使用方法（收集 → 检索 → 复用）",
+    "type": "指南",
+    "status": "稳定",
+    "created": "2026-11-19",
+    "projects": [],
+    "tags": [
+     "指南/PKM",
+     "方法论/流程"
+    ]
+   },
+   "overridden": false
+  },
+  {
+   "path": "PKM/03-使用指南/02-笔记模板.md",
+   "title": "可直接抄的原子笔记模板（骨架与填法）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "PKM",
+   "role": "",
+   "net_chars": 2326,
+   "tags": [],
+   "aliases": [],
+   "out": [
+    "PKM/00-原子笔记/guide-0001-PKM连接层使用指南.md",
+    "PKM/03-使用指南/01-方法卡-收集检索复用.md",
+    "PKM/01-MOC/MOC-原子笔记索引.md",
+    "PKM/00-原子笔记/atom-0005-六栏结算制.md",
+    "PKM/00-原子笔记/atom-0026-跨项目世界零件库.md"
+   ],
+   "in": [
+    "PKM/01-MOC/MOC-PKM-知识连接层.md",
+    "PKM/03-使用指南/01-方法卡-收集检索复用.md",
+    "PKM/03-使用指南/03-常见问题处理.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {
+    "id": "guide-0003",
+    "title": "可直接抄的原子笔记模板（骨架与填法）",
+    "type": "指南",
+    "status": "稳定",
+    "created": "2026-11-19",
+    "projects": [],
+    "tags": [
+     "指南/PKM",
+     "方法论/流程"
+    ]
+   },
+   "overridden": false
+  },
+  {
+   "path": "PKM/03-使用指南/03-常见问题处理.md",
+   "title": "常见问题处理（找不到旧笔记 / 笔记太多不整理）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "PKM",
+   "role": "",
+   "net_chars": 3905,
+   "tags": [],
+   "aliases": [],
+   "out": [
+    "PKM/00-原子笔记/atom-0007-模板不适用是阶段属性.md",
+    "PKM/03-使用指南/01-方法卡-收集检索复用.md",
+    "PKM/03-使用指南/02-笔记模板.md",
+    "PKM/00-原子笔记/guide-0001-PKM连接层使用指南.md",
+    "PKM/01-MOC/MOC-原子笔记索引.md",
+    "工作区规范.md",
+    "PKM/00-原子笔记/atom-0015-以正文为准.md"
+   ],
+   "in": [
+    "PKM/01-MOC/MOC-PKM-知识连接层.md",
+    "PKM/03-使用指南/01-方法卡-收集检索复用.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {
+    "id": "guide-0004",
+    "title": "常见问题处理（找不到旧笔记 / 笔记太多不整理）",
+    "type": "指南",
+    "status": "稳定",
+    "created": "2026-11-19",
+    "projects": [],
+    "tags": [
+     "指南/PKM",
+     "方法论/流程"
+    ]
+   },
+   "overridden": false
+  },
+  {
    "path": "PKM/MOC-全库.md",
    "title": "MOC · 全库内容地图",
    "type": "设定",
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 16053,
+   "net_chars": 16504,
    "tags": [],
    "aliases": [],
    "out": [
@@ -4859,18 +5008,19 @@
     "蜀山之撼天凡蚁登天路漫漫/README.md",
     "蜀山之撼天凡蚁登天路漫漫/证据与裁决/素材台账/README.md",
     "十三叩_U-1990/README.md",
-    "综网废柴逆命/作品总览.md",
     "PKM/README.md",
+    "综网废柴逆命/作品总览.md",
     "华夏克苏鲁/README-总览.md",
     "华夏克苏鲁/作品总览.md",
     "战锤42拔智齿/01-原始材料/作品总览.md",
     "战锤42拔智齿/README.md",
     "廓者未名夜/作品总览.md",
-    "无敌不是他人路/作品总览.md",
     "通用模板包/README.md",
+    "无敌不是他人路/作品总览.md",
     "Tserena/作品总览.md",
     "二十一世纪奇门遁甲/作品总览.md",
     "零件库/README.md",
+    "创造主们的战争/作品总览.md",
     "格物录/作品总览.md",
     "tools/README.md",
     "tools/skills/human-writing/README.md",
@@ -5029,7 +5179,7 @@
    "kind": "knowledge",
    "project": "",
    "role": "入口总览",
-   "net_chars": 13791,
+   "net_chars": 14044,
    "tags": [],
    "aliases": [],
    "out": [
@@ -5059,6 +5209,7 @@
     "Tserena/设定与参考/裁定结论-20261110.md",
     "通宵杀敌/作品总览.md",
     "零件库/README.md",
+    "全仓作品分类表-20261119.md",
     "tools/README.md",
     "PKM/README.md",
     "PKM/诊断与选型报告-20261113.md",
@@ -6164,6 +6315,25 @@
    "overridden": false
   },
   {
+   "path": "全仓作品分类表-20261119.md",
+   "title": "全仓作品分类表（17 部）· 起点男频 14 类口径",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "",
+   "role": "",
+   "net_chars": 4260,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "README.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
    "path": "其他项目归档/华夏克苏鲁.md",
    "title": "华夏克苏鲁",
    "type": "设定",
@@ -6227,12 +6397,13 @@
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "",
-   "net_chars": 4086,
+   "net_chars": 4262,
    "tags": [],
    "aliases": [],
    "out": [],
    "in": [
-    "PKM/01-MOC/MOC-创造主们的战争.md"
+    "PKM/01-MOC/MOC-创造主们的战争.md",
+    "PKM/01-MOC/MOC-大纲节拍.md"
    ],
    "broken": [],
    "archived": false,
@@ -6246,12 +6417,13 @@
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "",
-   "net_chars": 5876,
+   "net_chars": 6185,
    "tags": [],
    "aliases": [],
    "out": [],
    "in": [
-    "PKM/01-MOC/MOC-创造主们的战争.md"
+    "PKM/01-MOC/MOC-创造主们的战争.md",
+    "PKM/01-MOC/MOC-大纲节拍.md"
    ],
    "broken": [],
    "archived": false,
@@ -6265,11 +6437,12 @@
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "",
-   "net_chars": 10984,
+   "net_chars": 12263,
    "tags": [],
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-世界观设定.md",
     "PKM/01-MOC/MOC-创造主们的战争.md"
    ],
    "broken": [],
@@ -6289,6 +6462,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
     "PKM/01-MOC/MOC-创造主们的战争.md"
    ],
    "broken": [],
@@ -6303,12 +6477,13 @@
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "",
-   "net_chars": 2932,
+   "net_chars": 5829,
    "tags": [],
    "aliases": [],
    "out": [],
    "in": [
-    "PKM/01-MOC/MOC-创造主们的战争.md"
+    "PKM/01-MOC/MOC-创造主们的战争.md",
+    "PKM/01-MOC/MOC-大纲节拍.md"
    ],
    "broken": [],
    "archived": false,
@@ -6322,12 +6497,14 @@
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "",
-   "net_chars": 4577,
+   "net_chars": 8147,
    "tags": [],
    "aliases": [],
    "out": [],
    "in": [
-    "PKM/01-MOC/MOC-创造主们的战争.md"
+    "PKM/01-MOC/MOC-创造主们的战争.md",
+    "PKM/01-MOC/MOC-合规审校.md",
+    "PKM/01-MOC/MOC-对标调研.md"
    ],
    "broken": [],
    "archived": false,
@@ -6341,7 +6518,7 @@
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "",
-   "net_chars": 7925,
+   "net_chars": 7958,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -6360,12 +6537,13 @@
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "入口总览",
-   "net_chars": 1743,
+   "net_chars": 1855,
    "tags": [],
    "aliases": [],
    "out": [],
    "in": [
     "PKM/01-MOC/MOC-创造主们的战争.md",
+    "PKM/MOC-全库.md",
     "README.md"
    ],
    "broken": [],
@@ -15477,6 +15655,7 @@
     "PKM/诊断与选型报告-20261113.md"
    ],
    "in": [
+    "PKM/03-使用指南/03-常见问题处理.md",
     "README.md"
    ],
    "broken": [],
@@ -33178,7 +33357,7 @@
    "kind": "knowledge",
    "project": "通用模板包",
    "role": "",
-   "net_chars": 19287,
+   "net_chars": 19879,
    "tags": [
     "方法论/模板",
     "资产/跨项目"
@@ -33438,7 +33617,7 @@
    "kind": "knowledge",
    "project": "通用模板包",
    "role": "",
-   "net_chars": 5106,
+   "net_chars": 5263,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33479,7 +33658,7 @@
    "kind": "knowledge",
    "project": "通用模板包",
    "role": "",
-   "net_chars": 20980,
+   "net_chars": 25750,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33609,13 +33788,33 @@
    "overridden": false
   },
   {
+   "path": "通用模板包/21-版权风险结构与合规边界模板.md",
+   "title": "21 · 版权风险结构与合规边界模板",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "通用模板包",
+   "role": "",
+   "net_chars": 9140,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-合规审校.md",
+    "PKM/01-MOC/MOC-通用模板包.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
    "path": "通用模板包/README.md",
-   "title": "创作室通用模板包 · v3.16",
+   "title": "创作室通用模板包 · v3.17",
    "type": "总览",
    "kind": "knowledge",
    "project": "通用模板包",
    "role": "入口总览",
-   "net_chars": 3603,
+   "net_chars": 3746,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33823,7 +34022,8 @@
    "out": [],
    "in": [
     "PKM/00-原子笔记/atom-0026-跨项目世界零件库.md",
-    "PKM/01-MOC/MOC-零件库.md"
+    "PKM/01-MOC/MOC-零件库.md",
+    "PKM/03-使用指南/01-方法卡-收集检索复用.md"
    ],
    "broken": [],
    "archived": false,
