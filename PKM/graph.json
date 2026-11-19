@@ -1,11 +1,11 @@
 {
  "schema": 1,
  "summary": {
-  "docs": 1594,
+  "docs": 1595,
   "by_type": {
    "正文": 627,
    "设定": 543,
-   "模板": 393,
+   "模板": 394,
    "总览": 31
   },
   "by_project": {
@@ -91,7 +91,7 @@
      "设定": 69,
      "总览": 1
     },
-    "links": 2480,
+    "links": 2481,
     "knowledge": 70,
     "knowledge_orphan": 0
    },
@@ -202,14 +202,14 @@
     "knowledge_orphan": 0
    },
    "零件库": {
-    "docs": 14,
-    "net_chars": 76126,
+    "docs": 15,
+    "net_chars": 88490,
     "types": {
-     "模板": 13,
+     "模板": 14,
      "总览": 1
     },
     "links": 0,
-    "knowledge": 14,
+    "knowledge": 15,
     "knowledge_orphan": 0
    },
    "格物录": {
@@ -283,11 +283,11 @@
     "knowledge_orphan": 0
    }
   },
-  "total_links": 2524,
+  "total_links": 2525,
   "total_broken": 0,
   "frontmatter_docs": 37,
   "tag_count": 151,
-  "knowledge_docs": 967,
+  "knowledge_docs": 968,
   "knowledge_orphans": 1,
   "knowledge_orphan_rate": 0.1,
   "narrative_docs": 627,
@@ -296,7 +296,7 @@
   "orphan_sample": [
    "CHANGELOG.md"
   ],
-  "net_chars_total": 8982019
+  "net_chars_total": 8994383
  },
  "overrides_count": 31,
  "nodes": [
@@ -4585,7 +4585,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 867,
+   "net_chars": 914,
    "tags": [],
    "aliases": [],
    "out": [
@@ -4602,6 +4602,7 @@
     "零件库/09-调用记录-M02-卷五.md",
     "零件库/10-调研-三类压力结构范式.md",
     "零件库/11-迁移测试-M03-三题材.md",
+    "零件库/12-分析-零件库实现与不足.md",
     "零件库/99-来源与许可登记.md"
    ],
    "in": [
@@ -4803,7 +4804,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 16046,
+   "net_chars": 16052,
    "tags": [],
    "aliases": [],
    "out": [
@@ -33677,6 +33678,25 @@
    "overridden": false
   },
   {
+   "path": "零件库/12-分析-零件库实现与不足.md",
+   "title": "12 · 零件库实现分析与不足之处",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "零件库",
+   "role": "",
+   "net_chars": 12271,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-零件库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
    "path": "零件库/99-来源与许可登记.md",
    "title": "99 · 来源与许可登记",
    "type": "模板",
@@ -33704,7 +33724,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "入口总览",
-   "net_chars": 2336,
+   "net_chars": 2429,
    "tags": [],
    "aliases": [],
    "out": [],
