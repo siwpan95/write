@@ -1,17 +1,17 @@
 {
  "schema": 1,
  "summary": {
-  "docs": 1359,
+  "docs": 1589,
   "by_type": {
-   "正文": 566,
-   "设定": 427,
-   "模板": 340,
-   "总览": 26
+   "正文": 626,
+   "设定": 543,
+   "模板": 389,
+   "总览": 31
   },
   "by_project": {
    "小说": {
     "docs": 307,
-    "net_chars": 2323364,
+    "net_chars": 2323356,
     "types": {
      "总览": 3,
      "设定": 72,
@@ -36,7 +36,7 @@
    },
    "提交确实未创建": {
     "docs": 294,
-    "net_chars": 858927,
+    "net_chars": 858925,
     "types": {
      "模板": 14,
      "设定": 9,
@@ -45,6 +45,19 @@
     },
     "links": 0,
     "knowledge": 24,
+    "knowledge_orphan": 0
+   },
+   "蜀山之撼天凡蚁登天路漫漫": {
+    "docs": 132,
+    "net_chars": 1573574,
+    "types": {
+     "模板": 23,
+     "设定": 91,
+     "总览": 2,
+     "正文": 16
+    },
+    "links": 0,
+    "knowledge": 116,
     "knowledge_orphan": 0
    },
    "十三叩_U-1990": {
@@ -72,14 +85,26 @@
     "knowledge_orphan": 0
    },
    "PKM": {
-    "docs": 65,
-    "net_chars": 75693,
+    "docs": 70,
+    "net_chars": 77229,
     "types": {
-     "设定": 64,
+     "设定": 69,
      "总览": 1
     },
-    "links": 2170,
-    "knowledge": 65,
+    "links": 2412,
+    "knowledge": 70,
+    "knowledge_orphan": 0
+   },
+   "霜语": {
+    "docs": 61,
+    "net_chars": 211493,
+    "types": {
+     "模板": 11,
+     "设定": 12,
+     "正文": 38
+    },
+    "links": 0,
+    "knowledge": 23,
     "knowledge_orphan": 0
    },
    "华夏克苏鲁": {
@@ -96,7 +121,7 @@
    },
    "战锤42拔智齿": {
     "docs": 28,
-    "net_chars": 91821,
+    "net_chars": 91761,
     "types": {
      "模板": 14,
      "总览": 2,
@@ -104,6 +129,19 @@
     },
     "links": 4,
     "knowledge": 16,
+    "knowledge_orphan": 0
+   },
+   "廓者未名夜": {
+    "docs": 24,
+    "net_chars": 151910,
+    "types": {
+     "模板": 10,
+     "设定": 1,
+     "总览": 1,
+     "正文": 12
+    },
+    "links": 4,
+    "knowledge": 12,
     "knowledge_orphan": 0
    },
    "无敌不是他人路": {
@@ -119,9 +157,20 @@
     "knowledge": 12,
     "knowledge_orphan": 0
    },
+   "通用模板包": {
+    "docs": 23,
+    "net_chars": 269571,
+    "types": {
+     "总览": 2,
+     "模板": 21
+    },
+    "links": 0,
+    "knowledge": 23,
+    "knowledge_orphan": 0
+   },
    "Tserena": {
     "docs": 22,
-    "net_chars": 227136,
+    "net_chars": 227129,
     "types": {
      "设定": 21,
      "总览": 1
@@ -142,30 +191,6 @@
     "knowledge": 19,
     "knowledge_orphan": 0
    },
-   "通用模板包": {
-    "docs": 22,
-    "net_chars": 247960,
-    "types": {
-     "总览": 2,
-     "模板": 20
-    },
-    "links": 0,
-    "knowledge": 22,
-    "knowledge_orphan": 0
-   },
-   "廓者未名夜": {
-    "docs": 19,
-    "net_chars": 90654,
-    "types": {
-     "模板": 10,
-     "设定": 1,
-     "总览": 1,
-     "正文": 7
-    },
-    "links": 4,
-    "knowledge": 12,
-    "knowledge_orphan": 0
-   },
    "参考资料": {
     "docs": 17,
     "net_chars": 132500,
@@ -174,6 +199,41 @@
     },
     "links": 0,
     "knowledge": 17,
+    "knowledge_orphan": 0
+   },
+   "零件库": {
+    "docs": 10,
+    "net_chars": 36768,
+    "types": {
+     "模板": 9,
+     "总览": 1
+    },
+    "links": 0,
+    "knowledge": 10,
+    "knowledge_orphan": 0
+   },
+   "格物录": {
+    "docs": 9,
+    "net_chars": 62200,
+    "types": {
+     "模板": 5,
+     "总览": 1,
+     "设定": 2,
+     "正文": 1
+    },
+    "links": 0,
+    "knowledge": 8,
+    "knowledge_orphan": 0
+   },
+   "tools": {
+    "docs": 8,
+    "net_chars": 28549,
+    "types": {
+     "总览": 2,
+     "设定": 6
+    },
+    "links": 1,
+    "knowledge": 8,
     "knowledge_orphan": 0
    },
    "逆鳞": {
@@ -191,7 +251,7 @@
    },
    "未名骨": {
     "docs": 5,
-    "net_chars": 9670,
+    "net_chars": 9635,
     "types": {
      "模板": 2,
      "总览": 1,
@@ -221,32 +281,22 @@
     "links": 0,
     "knowledge": 2,
     "knowledge_orphan": 0
-   },
-   "tools": {
-    "docs": 1,
-    "net_chars": 6161,
-    "types": {
-     "总览": 1
-    },
-    "links": 1,
-    "knowledge": 1,
-    "knowledge_orphan": 0
    }
   },
-  "total_links": 2212,
+  "total_links": 2456,
   "total_broken": 0,
-  "frontmatter_docs": 35,
-  "tag_count": 120,
-  "knowledge_docs": 793,
+  "frontmatter_docs": 37,
+  "tag_count": 146,
+  "knowledge_docs": 963,
   "knowledge_orphans": 1,
   "knowledge_orphan_rate": 0.1,
-  "narrative_docs": 566,
+  "narrative_docs": 626,
   "narrative_orphans": 0,
   "orphan_count": 1,
   "orphan_sample": [
    "CHANGELOG.md"
   ],
-  "net_chars_total": 6930342
+  "net_chars_total": 8929727
  },
  "overrides_count": 31,
  "nodes": [
@@ -257,7 +307,7 @@
    "kind": "knowledge",
    "project": "",
    "role": "",
-   "net_chars": 3806,
+   "net_chars": 11521,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -321,7 +371,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 1201,
+   "net_chars": 1413,
    "tags": [],
    "aliases": [],
    "out": [
@@ -332,7 +382,8 @@
     "华夏克苏鲁/05_模板对齐/00-对齐说明.md",
     "廓者未名夜/作品总览.md",
     "战锤42拔智齿/01-原始材料/作品总览.md",
-    "PKM/00-原子笔记/atom-0001-战锤四神体系.md"
+    "PKM/00-原子笔记/atom-0001-战锤四神体系.md",
+    "PKM/00-原子笔记/atom-0026-跨项目世界零件库.md"
    ],
    "in": [
     "PKM/00-原子笔记/atom-0001-战锤四神体系.md",
@@ -341,6 +392,7 @@
     "PKM/00-原子笔记/atom-0005-六栏结算制.md",
     "PKM/00-原子笔记/atom-0007-模板不适用是阶段属性.md",
     "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md",
+    "PKM/00-原子笔记/atom-0026-跨项目世界零件库.md",
     "PKM/00-原子笔记/guide-0001-PKM连接层使用指南.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-原子笔记索引.md",
@@ -704,6 +756,7 @@
     "PKM/00-原子笔记/atom-0014-欲扬先抑是机制本身.md",
     "PKM/00-原子笔记/atom-0019-冷热二段式.md",
     "PKM/00-原子笔记/atom-0024-情感需求的替代分配.md",
+    "PKM/00-原子笔记/atom-0026-跨项目世界零件库.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-原子笔记索引.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md"
@@ -847,6 +900,7 @@
    "in": [
     "PKM/00-原子笔记/atom-0013-借结构不取材与三层互不代偿.md",
     "PKM/00-原子笔记/atom-0019-冷热二段式.md",
+    "PKM/00-原子笔记/atom-0026-跨项目世界零件库.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-原子笔记索引.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md"
@@ -1481,6 +1535,61 @@
    "overridden": false
   },
   {
+   "path": "PKM/00-原子笔记/atom-0026-跨项目世界零件库.md",
+   "title": "跨项目世界零件库（14 部小说提炼的 L1/L2 抽象资产）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "PKM",
+   "role": "",
+   "net_chars": 1324,
+   "tags": [],
+   "aliases": [],
+   "out": [
+    "PKM/00-原子笔记/atom-0002-通用模板包.md",
+    "零件库/00-形式规范与字段表.md",
+    "零件库/01-零件总台账.md",
+    "零件库/02-制度型零件.md",
+    "零件库/06-提炼与复用SOP.md",
+    "零件库/07-调研-跨作品可复用零件构建方法.md",
+    "零件库/99-来源与许可登记.md",
+    "通用模板包/13-世界先行与地图叙事模板.md",
+    "PKM/00-原子笔记/atom-0009-代价四档.md",
+    "PKM/00-原子笔记/atom-0012-文书与实操的错位.md"
+   ],
+   "in": [
+    "PKM/00-原子笔记/atom-0002-通用模板包.md",
+    "PKM/01-MOC/MOC-PKM-知识连接层.md",
+    "PKM/01-MOC/MOC-原子笔记索引.md",
+    "PKM/01-MOC/MOC-跨项目知识网络.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {
+    "id": "atom-0026",
+    "title": "跨项目世界零件库（14 部小说提炼的 L1/L2 抽象资产）",
+    "type": "永久笔记",
+    "status": "稳定",
+    "created": "2026-11-19",
+    "projects": [
+     "零件库",
+     "通用模板包",
+     "蜀山之撼天凡蚁登天路漫漫",
+     "点子库",
+     "华夏克苏鲁",
+     "十三叩_U-1990",
+     "Tserena",
+     "廓者未名夜",
+     "小说"
+    ],
+    "tags": [
+     "方法论/零件库",
+     "资产/跨项目",
+     "世界先行"
+    ]
+   },
+   "overridden": false
+  },
+  {
    "path": "PKM/00-原子笔记/guide-0001-PKM连接层使用指南.md",
    "title": "PKM 连接层使用指南",
    "type": "设定",
@@ -1526,7 +1635,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 3816,
+   "net_chars": 3891,
    "tags": [],
    "aliases": [],
    "out": [
@@ -1556,6 +1665,7 @@
     "PKM/00-原子笔记/atom-0023-六步流水线与先卡后搜.md",
     "PKM/00-原子笔记/atom-0024-情感需求的替代分配.md",
     "PKM/00-原子笔记/atom-0025-角色卡字段规程.md",
+    "PKM/00-原子笔记/atom-0026-跨项目世界零件库.md",
     "PKM/00-原子笔记/guide-0001-PKM连接层使用指南.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-Tserena.md",
@@ -1657,11 +1767,18 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 273,
+   "net_chars": 798,
    "tags": [],
    "aliases": [],
    "out": [
-    "tools/README.md"
+    "tools/README.md",
+    "tools/skills/human-writing/README.md",
+    "tools/skills/human-writing/SKILL.md",
+    "tools/skills/human-writing/references/fiction.md",
+    "tools/skills/human-writing/references/formats.md",
+    "tools/skills/human-writing/references/forum-prose.md",
+    "tools/skills/human-writing/references/reality.md",
+    "tools/skills/human-writing/references/revision.md"
    ],
    "in": [
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
@@ -2268,7 +2385,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 3412,
+   "net_chars": 3485,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2305,6 +2422,7 @@
     "PKM/00-原子笔记/atom-0003-同题材共享语汇口径.md",
     "PKM/00-原子笔记/guide-0001-PKM连接层使用指南.md",
     "PKM/00-原子笔记/atom-0002-通用模板包.md",
+    "PKM/00-原子笔记/atom-0026-跨项目世界零件库.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md",
     "PKM/MOC-全库.md"
    ],
@@ -3039,7 +3157,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 1537,
+   "net_chars": 1743,
    "tags": [],
    "aliases": [],
    "out": [
@@ -3064,7 +3182,12 @@
     "廓者未名夜/正文/第04章-城西.md",
     "廓者未名夜/正文/第05章-一格.md",
     "廓者未名夜/正文/第06章-一栏.md",
-    "廓者未名夜/正文/第07章-回拨.md"
+    "廓者未名夜/正文/第07章-回拨.md",
+    "廓者未名夜/正文/第08章-两只手.md",
+    "廓者未名夜/正文/第09章-一联.md",
+    "廓者未名夜/正文/第10章-复核.md",
+    "廓者未名夜/正文/第11章-默认.md",
+    "廓者未名夜/正文/第12章-红线.md"
    ],
    "in": [
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
@@ -3576,6 +3699,33 @@
    "overridden": false
   },
   {
+   "path": "PKM/01-MOC/MOC-格物录.md",
+   "title": "MOC · 格物录",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "PKM",
+   "role": "",
+   "net_chars": 741,
+   "tags": [],
+   "aliases": [],
+   "out": [
+    "格物录/作品总览.md",
+    "格物录/原稿/格物录-样章第一章-原稿.md",
+    "格物录/原稿/格物录-设定集-原稿.md",
+    "格物录/01-立项定位-格物录.md",
+    "格物录/02-世界观圣经-格物录.md",
+    "格物录/03-文体规格-格物录.md",
+    "格物录/04-第一卷卷纲-施工作业版.md",
+    "格物录/设定与参考/04-借鉴记账与来源标注.md",
+    "格物录/正文/第01章_废丹.md"
+   ],
+   "in": [],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
    "path": "PKM/01-MOC/MOC-点子库.md",
    "title": "MOC · 点子库",
    "type": "设定",
@@ -4001,13 +4151,163 @@
    "overridden": false
   },
   {
+   "path": "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md",
+   "title": "MOC · 蜀山之撼天凡蚁登天路漫漫",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "PKM",
+   "role": "",
+   "net_chars": 9217,
+   "tags": [],
+   "aliases": [],
+   "out": [
+    "蜀山之撼天凡蚁登天路漫漫/README.md",
+    "蜀山之撼天凡蚁登天路漫漫/证据与裁决/素材台账/README.md",
+    "蜀山之撼天凡蚁登天路漫漫/02A-大纲细纲章纲总表.md",
+    "蜀山之撼天凡蚁登天路漫漫/02B-卷二至卷五细纲.md",
+    "蜀山之撼天凡蚁登天路漫漫/02C-全书一设一无对照表.md",
+    "蜀山之撼天凡蚁登天路漫漫/02D-卷一前20章回测.md",
+    "蜀山之撼天凡蚁登天路漫漫/02E-卷二至卷五章纲.md",
+    "蜀山之撼天凡蚁登天路漫漫/02F-五章循环施工表.md",
+    "蜀山之撼天凡蚁登天路漫漫/03A-卷一日更循环表.md",
+    "蜀山之撼天凡蚁登天路漫漫/03B-卷一剩余19循环章纲.md",
+    "蜀山之撼天凡蚁登天路漫漫/03C-卷二至卷五章纲-施工级.md",
+    "蜀山之撼天凡蚁登天路漫漫/03D-卷三章纲-逐章.md",
+    "蜀山之撼天凡蚁登天路漫漫/03E-卷四章纲-逐章.md",
+    "蜀山之撼天凡蚁登天路漫漫/03F-卷五章纲-逐章.md",
+    "蜀山之撼天凡蚁登天路漫漫/10A-卷六结局场节拍.md",
+    "蜀山之撼天凡蚁登天路漫漫/回检/卷一设定回检报告.md",
+    "蜀山之撼天凡蚁登天路漫漫/回检/卷三设定回检报告.md",
+    "蜀山之撼天凡蚁登天路漫漫/回检/卷二设定回检报告.md",
+    "蜀山之撼天凡蚁登天路漫漫/校验/上游口径冲突登记.md",
+    "蜀山之撼天凡蚁登天路漫漫/校验/卷六补写执行规范.md",
+    "蜀山之撼天凡蚁登天路漫漫/校验/模板句母题句根治方案.md",
+    "蜀山之撼天凡蚁登天路漫漫/校验/联网调研校验报告-20261118.md",
+    "蜀山之撼天凡蚁登天路漫漫/校验/设定复盘报告-20261118.md",
+    "蜀山之撼天凡蚁登天路漫漫/校验/项目内创作方法复盘-20261118.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/_正文施工规格-V2-C21至C25.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/_正文施工规格-V3-卷三-取值与边界.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/_正文施工规格-V3-卷三-施工单部分.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/_正文施工规格-V3-卷三.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/_正文施工规格-模板.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/回填台账-卷一.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/回填台账-卷二.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/机制台账.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷一-第001-005章（C01-崖前）.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷一-第006-010章（C02-虚字）.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷一-第011-015章（C03-分灵宴）.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷一-第016-020章（C04-第一笔）.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷一-第021-025章（C05-慈云寺战报）.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷一-第026-030章（C06-石缝）.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷一-第031-045章（C07-C09-芝仙之祸）.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷一-第046-060章（C10-C12-罚与砚裂）.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷一-第061-080章（C13-C16-路上与青螺峪）.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷一-第081-125章（C17-C25-卷一末）.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 251–255｜C1 押册下海.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 256–260｜C2 沉海.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 261–265｜C3 饭是热的.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 266–270｜C4 旧主名录.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 271–275｜C5 排队.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 276–280｜C6 先来后到.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 281–285｜C7 押名.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 286–290｜C8 押于建.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 291–295｜C9 改规矩.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 296–300｜C10 灯灭.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 301–305｜C11 无格.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 306–310｜C12 险胜.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 311–315｜C13 格是给的.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 316–320｜C14 十九世孙.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 321–325｜C15 无格者名册.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 326–330｜C16 不救.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 331–335｜C17 我本来能救.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 336–340｜C18 回芯失败.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 341–345｜C19 灰里一个字.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 346–350｜C20 吞拓片.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 351–355｜C21 门不认.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 356–360｜C22 你叫什么.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 361–365｜C23 半个也算.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 366–370｜C24 她来了.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 371–375｜C25 还是少一行.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二 176–180｜C11 人各有心.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二 181–185｜C12 没鞘的刀.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二 186–190｜C13 站到外面去.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二 191–195｜C14 这山没有名字.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二 196–200｜C15 不必多言.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二 201–205｜C16 没有名字的名帖.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二 206–210｜C17 分胙四等.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二 211–215｜C18 少一页.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二 216–220｜C19 失记.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二 221–225｜C20 半块饼的味道.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二 226–230｜C21 用一次.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二 231–235｜C22 往南.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二 236–240｜C23 第二次门缝.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二 241–245｜C24 别查.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二 246–250｜C25 湿封皮.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二-第126-130章（C1-记名）.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二-第131-135章（C2-雪地与那一眼）.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二-第136-140章（C3-这册子谁定的）.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二-第141-145章（C4-一锭墨）.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二-第146-150章（C5-草稿背面）.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二-第151-175章-合订.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/进度表.md",
+    "蜀山之撼天凡蚁登天路漫漫/蜀山 原著事实复核｜176–200.md",
+    "蜀山之撼天凡蚁登天路漫漫/证据与裁决/素材台账/M-01-人物与称谓别名.md",
+    "蜀山之撼天凡蚁登天路漫漫/证据与裁决/素材台账/M-02-章纲与机制口径并列.md",
+    "蜀山之撼天凡蚁登天路漫漫/证据与裁决/素材台账/M-03-机构与地名口径.md",
+    "蜀山之撼天凡蚁登天路漫漫/00-总档与SOP.md",
+    "蜀山之撼天凡蚁登天路漫漫/01-立项定位.md",
+    "蜀山之撼天凡蚁登天路漫漫/02-大纲四层.md",
+    "蜀山之撼天凡蚁登天路漫漫/03-世界观圣经.md",
+    "蜀山之撼天凡蚁登天路漫漫/04-人物卡.md",
+    "蜀山之撼天凡蚁登天路漫漫/05-文风卡与章节规范.md",
+    "蜀山之撼天凡蚁登天路漫漫/06-连载护航.md",
+    "蜀山之撼天凡蚁登天路漫漫/07-附录-实例索引.md",
+    "蜀山之撼天凡蚁登天路漫漫/08-章节创作.md",
+    "蜀山之撼天凡蚁登天路漫漫/09-立项书.md",
+    "蜀山之撼天凡蚁登天路漫漫/10-节拍表与黄金三章.md",
+    "蜀山之撼天凡蚁登天路漫漫/11-合规与一致性检查.md",
+    "蜀山之撼天凡蚁登天路漫漫/12-品类流派与IP合规前置.md",
+    "蜀山之撼天凡蚁登天路漫漫/13-世界先行与地图叙事.md",
+    "蜀山之撼天凡蚁登天路漫漫/14-外部依赖与来源登记表.md",
+    "蜀山之撼天凡蚁登天路漫漫/16-喜剧节奏与无厘头手法.md",
+    "蜀山之撼天凡蚁登天路漫漫/17-字数增密与紫罗兰散文防控.md",
+    "蜀山之撼天凡蚁登天路漫漫/18-程序化创作与算法脚本.md",
+    "蜀山之撼天凡蚁登天路漫漫/19-供给过剩与资产经营.md",
+    "蜀山之撼天凡蚁登天路漫漫/证据与裁决/00-蜀山证据包.md",
+    "蜀山之撼天凡蚁登天路漫漫/证据与裁决/01-核心设定裁决表.md",
+    "蜀山之撼天凡蚁登天路漫漫/证据与裁决/02-实填规范.md",
+    "蜀山之撼天凡蚁登天路漫漫/证据与裁决/素材台账/00-台账主文件.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/第726章_我写下了所有没被写下的名字.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/第727章-一行写完纸比刚才重了一点.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/第728章-我的名字变成了一个空格.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/第729章-原来空格也会疼.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/第730章-他们在册子外面打起来了.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/第731章-我看见了我不能写.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/第732章-齐灵云翻到最后一页停住了.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/第733章-凌浑说我没教你你自己学的.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/第734章-许飞娘问正史会收吗.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/第735章-我说不会我是写给记得的人看的.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/第736章-老周死前想起一个抄书的.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/第737章-于建的名字被人念了一遍.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/第738章-三英二云各归其位没我什么事.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/第739章-斗剑第七天天上没有异象.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/第740章-有人在我的空格上描了一笔.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/第750章_天地同寿.md"
+   ],
+   "in": [],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
    "path": "PKM/01-MOC/MOC-跨项目知识网络.md",
    "title": "MOC · 跨项目知识网络",
    "type": "设定",
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 6635,
+   "net_chars": 7001,
    "tags": [],
    "aliases": [],
    "out": [
@@ -4017,6 +4317,10 @@
     "战锤42拔智齿/01-原始材料/作品总览.md",
     "战锤42拔智齿/01-原始材料/12-品类IP合规前置-战锤42拔智齿.md",
     "PKM/00-原子笔记/atom-0002-通用模板包.md",
+    "PKM/00-原子笔记/atom-0026-跨项目世界零件库.md",
+    "零件库/00-形式规范与字段表.md",
+    "零件库/01-零件总台账.md",
+    "零件库/06-提炼与复用SOP.md",
     "通用模板包/00-总档与SOP.md",
     "Tserena/设定与参考/模板反哺报告-20261110.md",
     "Tserena/设定与参考/本轮路线图与优先级-20261110.md",
@@ -4162,7 +4466,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 1457,
+   "net_chars": 1510,
    "tags": [],
    "aliases": [],
    "out": [
@@ -4187,6 +4491,7 @@
     "通用模板包/17-字数增密与紫罗兰散文防控模板.md",
     "通用模板包/18-程序化创作与算法脚本模板.md",
     "通用模板包/19-供给过剩与资产经营模板.md",
+    "通用模板包/20-素材与设定整理模板.md",
     "通用模板包/审计与修复报告.md"
    ],
    "in": [
@@ -4205,6 +4510,113 @@
     "PKM/01-MOC/MOC-跨项目知识网络.md",
     "PKM/01-MOC/MOC-逆鳞.md"
    ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "PKM/01-MOC/MOC-零件库.md",
+   "title": "MOC · 零件库",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "PKM",
+   "role": "",
+   "net_chars": 635,
+   "tags": [],
+   "aliases": [],
+   "out": [
+    "零件库/README.md",
+    "零件库/00-形式规范与字段表.md",
+    "零件库/01-零件总台账.md",
+    "零件库/02-制度型零件.md",
+    "零件库/03-机制型零件.md",
+    "零件库/04-地理与资源型零件.md",
+    "零件库/05-历史与接口型零件.md",
+    "零件库/06-提炼与复用SOP.md",
+    "零件库/07-调研-跨作品可复用零件构建方法.md",
+    "零件库/99-来源与许可登记.md"
+   ],
+   "in": [],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "PKM/01-MOC/MOC-霜语.md",
+   "title": "MOC · 霜语",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "PKM",
+   "role": "",
+   "net_chars": 3054,
+   "tags": [],
+   "aliases": [],
+   "out": [
+    "霜语/00b-留存工程与爽点密度自检.md",
+    "霜语/A3-对标六层基因拆解.md",
+    "霜语/C1-书名候选表.md",
+    "霜语/C2-简介三件套.md",
+    "霜语/bible/九结局映射与伏笔台账.md",
+    "霜语/bible/机器校验原始输出/_density_draft.md",
+    "霜语/bible/机器校验原始输出/_ledger_draft.md",
+    "霜语/bible/机器校验原始输出/_self_draft.md",
+    "霜语/bible/机器校验原始输出/_title_draft.md",
+    "霜语/bible/状态机体感化.md",
+    "霜语/quality-trend.md",
+    "霜语/番外/九结局原文对照.md",
+    "霜语/00-交付说明.md",
+    "霜语/00-作品总览.md",
+    "霜语/01-立项定位.md",
+    "霜语/02-大纲四层.md",
+    "霜语/03-世界观圣经.md",
+    "霜语/04-人物卡.md",
+    "霜语/05-文风卡.md",
+    "霜语/06-连载护航.md",
+    "霜语/12-品类IP合规前置.md",
+    "霜语/素材/00-素材库索引.md",
+    "霜语/素材/01-考据卡-K锚点联网复核.md",
+    "霜语/正文/第01章-雪下的声音.md",
+    "霜语/正文/第02章-风隘.md",
+    "霜语/正文/第03章-绿烟.md",
+    "霜语/正文/第04章-索恩的摊子.md",
+    "霜语/正文/第05章-白漫之下.md",
+    "霜语/正文/第06章-根.md",
+    "霜语/正文/第07章-城里在烧.md",
+    "霜语/正文/第08章-阿尔卡.md",
+    "霜语/正文/第09章-拔根.md",
+    "霜语/正文/第10章-吞下.md",
+    "霜语/正文/第11章-大殿空了.md",
+    "霜语/正文/第12章-承诺.md",
+    "霜语/正文/第13章-没有回答的路.md",
+    "霜语/正文/第14章-拿石头的人.md",
+    "霜语/正文/第15章-第八条龙.md",
+    "霜语/正文/第16章-我自己选.md",
+    "霜语/正文/第17章-河里的名字.md",
+    "霜语/正文/第18章-第一个名字.md",
+    "霜语/正文/第19章-往回走的路.md",
+    "霜语/正文/第20章-石片上的路.md",
+    "霜语/正文/第21章-第八条.md",
+    "霜语/正文/第22章-认.md",
+    "霜语/正文/第23章-六个小时.md",
+    "霜语/正文/第24章-第九条.md",
+    "霜语/正文/第25章-不是我的事.md",
+    "霜语/正文/第26章-八个人.md",
+    "霜语/正文/第27章-那个位置.md",
+    "霜语/正文/第28章-往回走的人.md",
+    "霜语/正文/第29章-排序.md",
+    "霜语/正文/第30章-第九章.md",
+    "霜语/正文/第31章-最后一次.md",
+    "霜语/正文/第32章-三个选择.md",
+    "霜语/正文/第33章-第三个.md",
+    "霜语/正文/第34章-尽量.md",
+    "霜语/正文/第35章-墙.md",
+    "霜语/正文/第36章-你也是.md",
+    "霜语/番外/番外一-第八条龙.md",
+    "霜语/番外/番外二-拿石头的人.md"
+   ],
+   "in": [],
    "broken": [],
    "archived": false,
    "fm": {},
@@ -4499,7 +4911,7 @@
    "kind": "knowledge",
    "project": "",
    "role": "入口总览",
-   "net_chars": 12575,
+   "net_chars": 13531,
    "tags": [],
    "aliases": [],
    "out": [
@@ -4516,6 +4928,7 @@
     "逆鳞/作品总览.md",
     "十三叩_U-1990/README.md",
     "华夏克苏鲁/README-总览.md",
+    "格物录/作品总览.md",
     "通用模板包/00-总档与SOP.md",
     "工作区规范.md",
     "提交确实未创建/设定与参考/模板实填验证-13世界先行-20261109.md",
@@ -4526,6 +4939,7 @@
     "Tserena/设定与参考/模板实填验证-Tserena-20261109.md",
     "Tserena/设定与参考/裁定结论-20261110.md",
     "通宵杀敌/作品总览.md",
+    "零件库/README.md",
     "tools/README.md",
     "PKM/README.md",
     "PKM/诊断与选型报告-20261113.md",
@@ -4634,7 +5048,7 @@
    "kind": "knowledge",
    "project": "Tserena",
    "role": "正文",
-   "net_chars": 6359,
+   "net_chars": 6352,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -5017,6 +5431,175 @@
     "README.md",
     "审计报告-深度审计与架构重构-20261113.md",
     "工作区规范.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "tools/skills/human-writing/README.md",
+   "title": "human-writing 技能 · 仓内运行包（v1.0.0）",
+   "type": "总览",
+   "kind": "knowledge",
+   "project": "tools",
+   "role": "入口总览",
+   "net_chars": 1465,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-tools.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "tools/skills/human-writing/SKILL.md",
+   "title": "活人感写作 1.0.0",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "tools",
+   "role": "",
+   "net_chars": 5168,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-tools.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {
+    "name": "human-writing",
+    "version": "1.0.0",
+    "display_name": "活人感写作",
+    "display_name_en": "Human Writing",
+    "description": "通用中文创作与改稿 Skill。用于知乎回答、论坛长帖、公众号文章、博客、评论、人物故事、历史叙事、新闻与行业解读、科普、教程、评测、个人叙事、小说、故事、对白、口播和演讲稿。默认写成一个见过事、查过材料、愿意把来龙去脉讲清楚的人在说话，重点保留中文互联网长回答与长帖的活人感和自然中文韵律，避免空泛的机构腔、喊口号式演说腔、营销腔和模型腔。非虚构长文先检查材料够不够，材料不足时研究、追问或缩短，绝不用重复解释灌字数。现实内容额外核验事实、引语、数据与用户亲历，虚构内容可以创造人物、场景、对白、心理与情节。成稿正文严禁冒号、破折号、“不是……而是……”及同类翻案句，并清除商业黑话和模型惯用黑话。不创建作者画像、个人规则库或个人写作 Skill。",
+    "description_zh": "通用中文创作与改稿 Skill。用于知乎回答、论坛长帖、公众号文章、博客、评论、人物故事、历史叙事、新闻与行业解读、科普、教程、评测、个人叙事、小说、故事、对白、口播和演讲稿。默认写成一个见过事、查过材料、愿意把来龙去脉讲清楚的人在说话，重点保留中文互联网长回答与长帖的活人感和自然中文韵律，避免空泛的机构腔、喊口号式演说腔、营销腔和模型腔。非虚构长文先检查材料够不够，材料不足时研究、追问或缩短，绝不用重复解释灌字数。现实内容额外核验事实、引语、数据与用户亲历，虚构内容可以创造人物、场景、对白、心理与情节。成稿正文严禁冒号、破折号、“不是……而是……”及同类翻案句，并清除商业黑话和模型惯用黑话。不创建作者画像、个人规则库或个人写作 Skill。",
+    "description_en": "General Chinese writing and revision skill for long-form answers, articles, fiction, dialogue, and speech scripts; keeps a natural human voice and Chinese rhythm while removing corporate tone and model cliches."
+   },
+   "overridden": false
+  },
+  {
+   "path": "tools/skills/human-writing/references/fiction.md",
+   "title": "虚构写作让人物自己把事做出来",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "tools",
+   "role": "",
+   "net_chars": 1598,
+   "tags": [
+    "先给人物一件眼下要办的事",
+    "对白在做事",
+    "第一人称可以完整虚构",
+    "结尾留下后果",
+    "设定等人物碰到再讲"
+   ],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-tools.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "tools/skills/human-writing/references/formats.md",
+   "title": "不同形式怎样换衣服",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "tools",
+   "role": "",
+   "net_chars": 1505,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-tools.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "tools/skills/human-writing/references/forum-prose.md",
+   "title": "像一个人在网上认真说话",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "tools",
+   "role": "",
+   "net_chars": 6945,
+   "tags": [
+    "三种默认走法",
+    "先有说话位置",
+    "句子先把主干交出来",
+    "文章按局部问题往前走",
+    "知识等问题走到那里再出现",
+    "让句子有松有紧"
+   ],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-tools.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "tools/skills/human-writing/references/reality.md",
+   "title": "现实题材多一层事实核验",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "tools",
+   "role": "",
+   "net_chars": 1971,
+   "tags": [
+    "人物故事先找真实压力",
+    "先分清材料身份",
+    "数据写完继续走一步",
+    "新闻与产品先确认进行到哪一步",
+    "来源怎样交付",
+    "用户经历不能代写"
+   ],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-tools.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "tools/skills/human-writing/references/revision.md",
+   "title": "改稿时先救人，再清句子",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "tools",
+   "role": "",
+   "net_chars": 3736,
+   "tags": [
+    "第一遍看谁在说",
+    "第七遍查结尾",
+    "第三遍拆掉表演性中文",
+    "第二遍看文章怎样往前走",
+    "第五遍清掉绝对不能出现的东西",
+    "第六遍核现实或设定",
+    "第四遍听一遍中文顺不顺"
+   ],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-tools.md"
    ],
    "broken": [],
    "archived": false,
@@ -9618,7 +10201,7 @@
    "kind": "narrative",
    "project": "小说",
    "role": "正文",
-   "net_chars": 3705,
+   "net_chars": 3704,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -9656,7 +10239,7 @@
    "kind": "narrative",
    "project": "小说",
    "role": "正文",
-   "net_chars": 3856,
+   "net_chars": 3854,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -9751,7 +10334,7 @@
    "kind": "narrative",
    "project": "小说",
    "role": "正文",
-   "net_chars": 4628,
+   "net_chars": 4623,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -14638,7 +15221,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 4988,
+   "net_chars": 10917,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -14658,7 +15241,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 17530,
+   "net_chars": 30024,
    "tags": [
     "设定/世界观",
     "方法论/设定"
@@ -14690,7 +15273,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 6776,
+   "net_chars": 12307,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -14711,7 +15294,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 6242,
+   "net_chars": 10167,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -14732,7 +15315,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 11858,
+   "net_chars": 26166,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -14751,7 +15334,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 3604,
+   "net_chars": 3605,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -14771,7 +15354,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 4813,
+   "net_chars": 6395,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -14791,7 +15374,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 6543,
+   "net_chars": 10926,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -14854,7 +15437,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "入口总览",
-   "net_chars": 2702,
+   "net_chars": 3431,
    "tags": [
     "入口总览"
    ],
@@ -14887,7 +15470,7 @@
    "kind": "narrative",
    "project": "廓者未名夜",
    "role": "正文",
-   "net_chars": 2283,
+   "net_chars": 2281,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -15002,6 +15585,101 @@
    "project": "廓者未名夜",
    "role": "正文",
    "net_chars": 3049,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-廓者未名夜.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "廓者未名夜/正文/第08章-两只手.md",
+   "title": "第08章-两只手",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "廓者未名夜",
+   "role": "正文",
+   "net_chars": 3005,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-廓者未名夜.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "廓者未名夜/正文/第09章-一联.md",
+   "title": "第09章-一联",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "廓者未名夜",
+   "role": "正文",
+   "net_chars": 2995,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-廓者未名夜.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "廓者未名夜/正文/第10章-复核.md",
+   "title": "第10章-复核",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "廓者未名夜",
+   "role": "正文",
+   "net_chars": 2354,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-廓者未名夜.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "廓者未名夜/正文/第11章-默认.md",
+   "title": "第11章-默认",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "廓者未名夜",
+   "role": "正文",
+   "net_chars": 1881,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-廓者未名夜.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "廓者未名夜/正文/第12章-红线.md",
+   "title": "第12章-红线",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "廓者未名夜",
+   "role": "正文",
+   "net_chars": 2141,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -15365,7 +16043,7 @@
    "kind": "narrative",
    "project": "战锤42拔智齿",
    "role": "正文",
-   "net_chars": 2374,
+   "net_chars": 2373,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -15403,7 +16081,7 @@
    "kind": "narrative",
    "project": "战锤42拔智齿",
    "role": "正文",
-   "net_chars": 2413,
+   "net_chars": 2410,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -15422,7 +16100,7 @@
    "kind": "narrative",
    "project": "战锤42拔智齿",
    "role": "正文",
-   "net_chars": 2188,
+   "net_chars": 2183,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -15441,7 +16119,7 @@
    "kind": "narrative",
    "project": "战锤42拔智齿",
    "role": "正文",
-   "net_chars": 2576,
+   "net_chars": 2575,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -15460,7 +16138,7 @@
    "kind": "narrative",
    "project": "战锤42拔智齿",
    "role": "正文",
-   "net_chars": 2219,
+   "net_chars": 2215,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -15479,7 +16157,7 @@
    "kind": "narrative",
    "project": "战锤42拔智齿",
    "role": "正文",
-   "net_chars": 2242,
+   "net_chars": 2240,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -15498,7 +16176,7 @@
    "kind": "narrative",
    "project": "战锤42拔智齿",
    "role": "正文",
-   "net_chars": 2704,
+   "net_chars": 2695,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -15517,7 +16195,7 @@
    "kind": "narrative",
    "project": "战锤42拔智齿",
    "role": "正文",
-   "net_chars": 2264,
+   "net_chars": 2261,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -15555,7 +16233,7 @@
    "kind": "narrative",
    "project": "战锤42拔智齿",
    "role": "正文",
-   "net_chars": 2138,
+   "net_chars": 2109,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -15574,7 +16252,7 @@
    "kind": "narrative",
    "project": "战锤42拔智齿",
    "role": "正文",
-   "net_chars": 2367,
+   "net_chars": 2364,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -18675,7 +19353,7 @@
    "kind": "narrative",
    "project": "提交确实未创建",
    "role": "正文",
-   "net_chars": 4060,
+   "net_chars": 4058,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -21754,7 +22432,7 @@
    "kind": "knowledge",
    "project": "未名骨",
    "role": "正文",
-   "net_chars": 2607,
+   "net_chars": 2587,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -21773,12 +22451,184 @@
    "kind": "knowledge",
    "project": "未名骨",
    "role": "正文",
-   "net_chars": 2572,
+   "net_chars": 2557,
    "tags": [],
    "aliases": [],
    "out": [],
    "in": [
     "PKM/01-MOC/MOC-未名骨.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "格物录/01-立项定位-格物录.md",
+   "title": "《格物录》· 立项定位",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "格物录",
+   "role": "",
+   "net_chars": 4972,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-格物录.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "格物录/02-世界观圣经-格物录.md",
+   "title": "《格物录》· 世界观圣经（SSOT）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "格物录",
+   "role": "",
+   "net_chars": 15135,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-格物录.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "格物录/03-文体规格-格物录.md",
+   "title": "《格物录》· 文体规格（实验报告体）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "格物录",
+   "role": "",
+   "net_chars": 3411,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-格物录.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "格物录/04-第一卷卷纲-施工作业版.md",
+   "title": "《格物录》第一卷卷纲 · 施工作业版",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "格物录",
+   "role": "",
+   "net_chars": 5811,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-格物录.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "格物录/作品总览.md",
+   "title": "《格物录》· 作品总览",
+   "type": "总览",
+   "kind": "knowledge",
+   "project": "格物录",
+   "role": "入口总览",
+   "net_chars": 2710,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-格物录.md",
+    "README.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "格物录/原稿/格物录-样章第一章-原稿.md",
+   "title": "样章 · 第一卷 第一章《废丹》",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "格物录",
+   "role": "",
+   "net_chars": 3921,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-格物录.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "格物录/原稿/格物录-设定集-原稿.md",
+   "title": "《格物录》——凡人修仙传同人 · 理工男修仙逆袭",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "格物录",
+   "role": "",
+   "net_chars": 20716,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-格物录.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "格物录/正文/第01章_废丹.md",
+   "title": "第01章 废丹",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "格物录",
+   "role": "正文",
+   "net_chars": 2850,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-格物录.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "格物录/设定与参考/04-借鉴记账与来源标注.md",
+   "title": "《格物录》· 借鉴记账与来源标注",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "格物录",
+   "role": "参考/工具",
+   "net_chars": 2674,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-格物录.md"
    ],
    "broken": [],
    "archived": false,
@@ -29266,6 +30116,2516 @@
    "overridden": false
   },
   {
+   "path": "蜀山之撼天凡蚁登天路漫漫/00-总档与SOP.md",
+   "title": "00 · 创作室总档与作业流程（实填版 · 《蜀山之撼天凡蚁登天路漫漫》）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 12384,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/01-立项定位.md",
+   "title": "01 · 立项定位（实填件 · 《蜀山之撼天凡蚁登天路漫漫》· v2 主角改判版）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 4554,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/02-大纲四层.md",
+   "title": "02 · 大纲四层（实填件 · 《蜀山之撼天凡蚁登天路漫漫》）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 30407,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/02A-大纲细纲章纲总表.md",
+   "title": "02A · 大纲 / 细纲 / 章纲三层总表（莲花地图 × 千层饼）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 6225,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/02B-卷二至卷五细纲.md",
+   "title": "02B · 卷二至卷五细纲（起承转合 × 一无二随）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 7735,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/02C-全书一设一无对照表.md",
+   "title": "02C · 全书「一设／一无」对照表（全局底座）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 7761,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/02D-卷一前20章回测.md",
+   "title": "02D · 卷一前 20 章回测（对 S/N 表）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 4220,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/02E-卷二至卷五章纲.md",
+   "title": "02E · 卷二至卷五章纲（骨架版）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 12915,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/02F-五章循环施工表.md",
+   "title": "02F · 五章循环施工表（六幕 × 剧本化）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 12222,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/03-世界观圣经.md",
+   "title": "03 · 世界观圣经（实填件 · 《蜀山之撼天凡蚁登天路漫漫》）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 27626,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/03A-卷一日更循环表.md",
+   "title": "03A · 卷一日更循环表（第 1–125 章）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 3765,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/03B-卷一剩余19循环章纲.md",
+   "title": "03B · 卷一剩余 19 循环章纲（C07–C25，第 31–125 章）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 8015,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/03C-卷二至卷五章纲-施工级.md",
+   "title": "卷二至卷五 · 施工级章纲",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 15492,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/03D-卷三章纲-逐章.md",
+   "title": "卷三 · 紫云宫（251–375）逐章章纲",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 6701,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/03E-卷四章纲-逐章.md",
+   "title": "卷四 · 幻波池（376–500）逐章章纲",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 6158,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/03F-卷五章纲-逐章.md",
+   "title": "卷五 · 光明境（501–625）逐章章纲",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 6193,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/04-人物卡.md",
+   "title": "04 · 人物卡（实填件 · 《蜀山之撼天凡蚁登天路漫漫》）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 39192,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/05-文风卡与章节规范.md",
+   "title": "05 · 文风卡与章节规范（实填件 v4 · 电波系轻小说版）《蜀山之撼天凡蚁登天路漫漫》",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 39609,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/06-连载护航.md",
+   "title": "06 · 连载护航（实填件 · 《蜀山之撼天凡蚁登天路漫漫》）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 21861,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/07-附录-实例索引.md",
+   "title": "07 · 附录 · 实例索引（《蜀山之撼天凡蚁登天路漫漫》）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 4842,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/08-章节创作.md",
+   "title": "08 · 章节创作（实填件 · 《蜀山之撼天凡蚁登天路漫漫》）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 9352,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/09-立项书.md",
+   "title": "09 · 立项书（《蜀山之撼天凡蚁登天路漫漫》· 可交付成册版）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 4841,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/10-节拍表与黄金三章.md",
+   "title": "10 · 节拍表与黄金三章施工（实填件 · 《蜀山之撼天凡蚁登天路漫漫》）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 17908,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/10A-卷六结局场节拍.md",
+   "title": "10A · 卷六结局场节拍（第 726–750 章）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 6184,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/11-合规与一致性检查.md",
+   "title": "11 · 合规与一致性检查（实填件 · 《蜀山之撼天凡蚁登天路漫漫》）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 12754,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/12-品类流派与IP合规前置.md",
+   "title": "12 · 品类流派与 IP 合规前置（实填件 · 《蜀山之撼天凡蚁登天路漫漫》）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 17745,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/13-世界先行与地图叙事.md",
+   "title": "13 · 世界先行与地图叙事（实填件 · 《蜀山之撼天凡蚁登天路漫漫》）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 27407,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/14-外部依赖与来源登记表.md",
+   "title": "14 · 外部依赖与来源登记表（实填件 · 《蜀山之撼天凡蚁登天路漫漫》）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 14504,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/16-喜剧节奏与无厘头手法.md",
+   "title": "16 · 喜剧节奏与无厘头手法（实填件 · v3 电波系版 · 《蜀山之撼天凡蚁登天路漫漫》）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 7875,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/17-字数增密与紫罗兰散文防控.md",
+   "title": "17 · 字数增密与紫罗兰散文防控（实填件 · 《蜀山之撼天凡蚁登天路漫漫》）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 9777,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/18-程序化创作与算法脚本.md",
+   "title": "18 · 程序化创作与算法脚本（实填件 · 《蜀山之撼天凡蚁登天路漫漫》）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 7342,
+   "tags": [
+    "符号"
+   ],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/19-供给过剩与资产经营.md",
+   "title": "19 · 供给过剩与资产经营（实填件 · 《蜀山之撼天凡蚁登天路漫漫》）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 11071,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/README.md",
+   "title": "《蜀山之撼天凡蚁登天路漫漫》创作室实填包",
+   "type": "总览",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "入口总览",
+   "net_chars": 1711,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/回检/卷一设定回检报告.md",
+   "title": "卷一设定回检报告",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 4939,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/回检/卷三设定回检报告.md",
+   "title": "卷三设定回检报告",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 21172,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/回检/卷二设定回检报告.md",
+   "title": "卷二设定回检报告",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 6956,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/校验/上游口径冲突登记.md",
+   "title": "上游口径冲突登记",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 3484,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/校验/卷六补写执行规范.md",
+   "title": "卷六结局场补写执行规范（给写作子代理用）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 4481,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/校验/模板句母题句根治方案.md",
+   "title": "「模板句 / 母题句」根治方案",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 28084,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/校验/联网调研校验报告-20261118.md",
+   "title": "联网调研校验报告 · 2026-11-18",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 8163,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/校验/设定复盘报告-20261118.md",
+   "title": "设定复盘报告（联网调研）· 2026-11-18",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 7027,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/校验/项目内创作方法复盘-20261118.md",
+   "title": "项目内创作方法复盘 · 2026-11-18",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 5819,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/_正文施工规格-V2-C21至C25.md",
+   "title": "施工规格 · 卷二 C21–C25（226–250）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 5138,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/_正文施工规格-V3-卷三-取值与边界.md",
+   "title": "施工规格 · 卷三 紫云宫（251–375）· 取值表与边界约束",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 3811,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/_正文施工规格-V3-卷三-施工单部分.md",
+   "title": "零、与卷二的接口（开卷承接）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 25159,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/_正文施工规格-V3-卷三.md",
+   "title": "施工规格 · 卷三 紫云宫（251–375）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 29788,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/_正文施工规格-模板.md",
+   "title": "施工规格 · 并行批次通用模板（可复用）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 5625,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/回填台账-卷一.md",
+   "title": "回填台账 · 卷一",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 12660,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/回填台账-卷二.md",
+   "title": "回填台账 · 卷二",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 3192,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/机制台账.md",
+   "title": "机制台账 · 跨批交接用",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 2336,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/第726章_我写下了所有没被写下的名字.md",
+   "title": "第 726 章 我写下了所有没被写下的名字，然后发现我一个也记不全",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 2072,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/第727章-一行写完纸比刚才重了一点.md",
+   "title": "第 727 章 一行写完，纸比刚才重了一点",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 2405,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/第728章-我的名字变成了一个空格.md",
+   "title": "第 728 章 我的名字变成了一个空格",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 1318,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/第729章-原来空格也会疼.md",
+   "title": "第 729 章 原来空格也会疼",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 1412,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/第730章-他们在册子外面打起来了.md",
+   "title": "第 730 章 他们在册子外面打起来了",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 1199,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/第731章-我看见了我不能写.md",
+   "title": "第 731 章 我看见了，但我不能写",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 1359,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/第732章-齐灵云翻到最后一页停住了.md",
+   "title": "第 732 章 齐灵云翻到最后一页，停住了",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 1242,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/第733章-凌浑说我没教你你自己学的.md",
+   "title": "第 733 章 凌浑说：我没教你，你自己学的",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 1176,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/第734章-许飞娘问正史会收吗.md",
+   "title": "第 734 章 许飞娘问：正史会收吗",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 1086,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/第735章-我说不会我是写给记得的人看的.md",
+   "title": "第 735 章 我说：不会。我是写给记得的人看的",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 1313,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/第736章-老周死前想起一个抄书的.md",
+   "title": "第 736 章 老周死前想起一个抄书的",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 2079,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/第737章-于建的名字被人念了一遍.md",
+   "title": "第 737 章 于建的名字被人念了一遍",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 2101,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/第738章-三英二云各归其位没我什么事.md",
+   "title": "第 738 章 三英二云各归其位，没我什么事",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 2255,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/第739章-斗剑第七天天上没有异象.md",
+   "title": "第 739 章 斗剑第七天，天上没有异象",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 2165,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/第740章-有人在我的空格上描了一笔.md",
+   "title": "第 740 章 有人在我的空格上描了一笔",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 2033,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/第750章_天地同寿.md",
+   "title": "第 750 章 天地同寿",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 2080,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷一-第001-005章（C01-崖前）.md",
+   "title": "第 1 章 他们说册子上没有我，可我叫杨成志",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 9957,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷一-第006-010章（C02-虚字）.md",
+   "title": "第 6 章 字会散",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 8844,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷一-第011-015章（C03-分灵宴）.md",
+   "title": "第 11 章 端菜",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 10326,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷一-第016-020章（C04-第一笔）.md",
+   "title": "第 16 章 偷墨",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 9500,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷一-第021-025章（C05-慈云寺战报）.md",
+   "title": "第 21 章 战报到了",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 9676,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷一-第026-030章（C06-石缝）.md",
+   "title": "第 26 章 石缝里的人",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 9351,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷一-第031-045章（C07-C09-芝仙之祸）.md",
+   "title": "第 31 章 三个趾的脚印",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 42103,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷一-第046-060章（C10-C12-罚与砚裂）.md",
+   "title": "第 46 章 罚抄",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 34619,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷一-第061-080章（C13-C16-路上与青螺峪）.md",
+   "title": "第 61 章 押送",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 47325,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷一-第081-125章（C17-C25-卷一末）.md",
+   "title": "第 81 章 派活",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 102061,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 251–255｜C1 押册下海.md",
+   "title": "蜀山 卷三 251–255｜C1 押册下海",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11987,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 256–260｜C2 沉海.md",
+   "title": "蜀山 卷三 256–260｜C2 沉海",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11820,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 261–265｜C3 饭是热的.md",
+   "title": "蜀山 卷三 261–265｜C3 饭是热的",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11526,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 266–270｜C4 旧主名录.md",
+   "title": "蜀山 卷三 266–270｜C4 旧主名录",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 12827,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 271–275｜C5 排队.md",
+   "title": "蜀山 卷三 271–275｜C5 排队",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 12212,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 276–280｜C6 先来后到.md",
+   "title": "蜀山 卷三 276–280｜C6 先来后到",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11190,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 281–285｜C7 押名.md",
+   "title": "蜀山 卷三 281–285｜C7 押名",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11362,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 286–290｜C8 押于建.md",
+   "title": "蜀山 卷三 286–290｜C8 押于建",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11440,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 291–295｜C9 改规矩.md",
+   "title": "蜀山 卷三 291–295｜C9 改规矩",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11235,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 296–300｜C10 灯灭.md",
+   "title": "蜀山 卷三 296–300｜C10 灯灭",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11248,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 301–305｜C11 无格.md",
+   "title": "蜀山 卷三 301–305｜C11 无格",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11705,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 306–310｜C12 险胜.md",
+   "title": "蜀山 卷三 306–310｜C12 险胜",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 12277,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 311–315｜C13 格是给的.md",
+   "title": "蜀山 卷三 311–315｜C13 格是给的",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11866,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 316–320｜C14 十九世孙.md",
+   "title": "蜀山 卷三 316–320｜C14 十九世孙",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11532,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 321–325｜C15 无格者名册.md",
+   "title": "蜀山 卷三 321–325｜C15 无格者名册",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11640,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 326–330｜C16 不救.md",
+   "title": "蜀山 卷三 326–330｜C16 不救",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11790,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 331–335｜C17 我本来能救.md",
+   "title": "蜀山 卷三 331–335｜C17 我本来能救",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11287,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 336–340｜C18 回芯失败.md",
+   "title": "蜀山 卷三 336–340｜C18 回芯失败",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 12125,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 341–345｜C19 灰里一个字.md",
+   "title": "蜀山 卷三 341–345｜C19 灰里一个字",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11583,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 346–350｜C20 吞拓片.md",
+   "title": "蜀山 卷三 346–350｜C20 吞拓片",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11536,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 351–355｜C21 门不认.md",
+   "title": "蜀山 卷三 351–355｜C21 门不认",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11608,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 356–360｜C22 你叫什么.md",
+   "title": "蜀山 卷三 356–360｜C22 你叫什么",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11636,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 361–365｜C23 半个也算.md",
+   "title": "蜀山 卷三 361–365｜C23 半个也算",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11659,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 366–370｜C24 她来了.md",
+   "title": "蜀山 卷三 366–370｜C24 她来了",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 13782,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷三 371–375｜C25 还是少一行.md",
+   "title": "蜀山 卷三 371–375｜C25 还是少一行",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11822,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二 176–180｜C11 人各有心.md",
+   "title": "蜀山 卷二 176–180｜C11 人各有心",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 12287,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二 181–185｜C12 没鞘的刀.md",
+   "title": "蜀山 卷二 181–185｜C12 没鞘的刀",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 13101,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二 186–190｜C13 站到外面去.md",
+   "title": "蜀山 卷二 186–190｜C13 站到外面去",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 14218,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二 191–195｜C14 这山没有名字.md",
+   "title": "蜀山 卷二 191–195｜C14 这山没有名字",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 12401,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二 196–200｜C15 不必多言.md",
+   "title": "蜀山 卷二 196–200｜C15 不必多言",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 12730,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二 201–205｜C16 没有名字的名帖.md",
+   "title": "蜀山 卷二 201–205｜C16 没有名字的名帖",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11963,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二 206–210｜C17 分胙四等.md",
+   "title": "蜀山 卷二 206–210｜C17 分胙四等",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 12456,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二 211–215｜C18 少一页.md",
+   "title": "蜀山 卷二 211–215｜C18 少一页",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 14238,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二 216–220｜C19 失记.md",
+   "title": "蜀山 卷二 216–220｜C19 失记",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 15860,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二 221–225｜C20 半块饼的味道.md",
+   "title": "蜀山 卷二 221–225｜C20 半块饼的味道",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 12808,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二 226–230｜C21 用一次.md",
+   "title": "蜀山 卷二 226–230｜C21 用一次",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 12986,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二 231–235｜C22 往南.md",
+   "title": "蜀山 卷二 231–235｜C22 往南",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 13530,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二 236–240｜C23 第二次门缝.md",
+   "title": "蜀山 卷二 236–240｜C23 第二次门缝",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 12704,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二 241–245｜C24 别查.md",
+   "title": "蜀山 卷二 241–245｜C24 别查",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 12091,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二 246–250｜C25 湿封皮.md",
+   "title": "蜀山 卷二 246–250｜C25 湿封皮",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 14390,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二-第126-130章（C1-记名）.md",
+   "title": "第 126 章 记人名",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11113,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二-第131-135章（C2-雪地与那一眼）.md",
+   "title": "第 131 章 雪地里写的第一本册子",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11086,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二-第136-140章（C3-这册子谁定的）.md",
+   "title": "第 136 章 白朴来了",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11111,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二-第141-145章（C4-一锭墨）.md",
+   "title": "第 141 章 有人送墨",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11447,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二-第146-150章（C5-草稿背面）.md",
+   "title": "第 146 章 草稿要交了",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11103,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二-第151-175章-合订.md",
+   "title": "卷二 第151–175章 合订（C6–C10）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 65846,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/进度表.md",
+   "title": "创作进度表",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 4615,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/蜀山 原著事实复核｜176–200.md",
+   "title": "蜀山 原著事实复核｜176–200",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 3624,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/证据与裁决/00-蜀山证据包.md",
+   "title": "00 · 蜀山证据包（外部事实底座）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 8903,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/证据与裁决/01-核心设定裁决表.md",
+   "title": "01 · 核心设定裁决表（单一定义源 · v2 主角改判版）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 9720,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/证据与裁决/02-实填规范.md",
+   "title": "02 · 实填规范（所有分册共用，填表前必读）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 2085,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/证据与裁决/素材台账/00-台账主文件.md",
+   "title": "00 · 素材与设定台账 · 主文件",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 5209,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/证据与裁决/素材台账/M-01-人物与称谓别名.md",
+   "title": "M-01 · 人物与称谓别名白名单",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 1824,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/证据与裁决/素材台账/M-02-章纲与机制口径并列.md",
+   "title": "M-02 · 章纲与机制口径并列",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 4268,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/证据与裁决/素材台账/M-03-机构与地名口径.md",
+   "title": "M-03 · 机构与地名口径",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 2217,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/证据与裁决/素材台账/README.md",
+   "title": "素材台账 · 索引",
+   "type": "总览",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "入口总览",
+   "net_chars": 1706,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
    "path": "逆鳞/01-立项定位-逆鳞.md",
    "title": "《逆鳞》· 01 立项定位",
    "type": "模板",
@@ -29466,7 +32826,7 @@
    "kind": "knowledge",
    "project": "通用模板包",
    "role": "",
-   "net_chars": 18226,
+   "net_chars": 19287,
    "tags": [
     "方法论/模板",
     "资产/跨项目"
@@ -29555,7 +32915,7 @@
    "kind": "knowledge",
    "project": "通用模板包",
    "role": "",
-   "net_chars": 12442,
+   "net_chars": 12457,
    "tags": [
     "方法论/人物",
     "资产/跨项目"
@@ -29581,7 +32941,7 @@
    "kind": "knowledge",
    "project": "通用模板包",
    "role": "",
-   "net_chars": 22562,
+   "net_chars": 24755,
    "tags": [
     "方法论/文风",
     "资产/跨项目"
@@ -29609,7 +32969,7 @@
    "kind": "knowledge",
    "project": "通用模板包",
    "role": "",
-   "net_chars": 19254,
+   "net_chars": 20036,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -29706,7 +33066,7 @@
    "kind": "knowledge",
    "project": "通用模板包",
    "role": "",
-   "net_chars": 6077,
+   "net_chars": 6801,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -29742,16 +33102,17 @@
   },
   {
    "path": "通用模板包/13-世界先行与地图叙事模板.md",
-   "title": "13 · 世界先行与地图叙事模板（世界层施工 · 通用可复用 · v3.7）",
+   "title": "13 · 世界先行与地图叙事模板（世界层施工 · 通用可复用 · v3.8）",
    "type": "模板",
    "kind": "knowledge",
    "project": "通用模板包",
    "role": "",
-   "net_chars": 19817,
+   "net_chars": 23388,
    "tags": [],
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/00-原子笔记/atom-0026-跨项目世界零件库.md",
     "PKM/01-MOC/MOC-通用模板包.md"
    ],
    "broken": [],
@@ -29766,7 +33127,7 @@
    "kind": "knowledge",
    "project": "通用模板包",
    "role": "",
-   "net_chars": 14696,
+   "net_chars": 20978,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -29843,7 +33204,7 @@
    "kind": "knowledge",
    "project": "通用模板包",
    "role": "",
-   "net_chars": 6736,
+   "net_chars": 7623,
    "tags": [
     "符号"
    ],
@@ -29877,13 +33238,32 @@
    "overridden": false
   },
   {
+   "path": "通用模板包/20-素材与设定整理模板.md",
+   "title": "20 · 素材与设定整理模板（v3.15 新增）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "通用模板包",
+   "role": "",
+   "net_chars": 5608,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-通用模板包.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
    "path": "通用模板包/README.md",
-   "title": "创作室通用模板包 · v3.14",
+   "title": "创作室通用模板包 · v3.16",
    "type": "总览",
    "kind": "knowledge",
    "project": "通用模板包",
    "role": "入口总览",
-   "net_chars": 3115,
+   "net_chars": 3603,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -29910,6 +33290,1367 @@
    "in": [
     "PKM/01-MOC/MOC-合规审校.md",
     "PKM/01-MOC/MOC-通用模板包.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "零件库/00-形式规范与字段表.md",
+   "title": "00 · 零件库形式规范与字段表",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "零件库",
+   "role": "",
+   "net_chars": 3879,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/00-原子笔记/atom-0026-跨项目世界零件库.md",
+    "PKM/01-MOC/MOC-跨项目知识网络.md",
+    "PKM/01-MOC/MOC-零件库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "零件库/01-零件总台账.md",
+   "title": "01 · 零件总台账",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "零件库",
+   "role": "",
+   "net_chars": 2422,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/00-原子笔记/atom-0026-跨项目世界零件库.md",
+    "PKM/01-MOC/MOC-跨项目知识网络.md",
+    "PKM/01-MOC/MOC-零件库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "零件库/02-制度型零件.md",
+   "title": "02 · 制度族零件卡（主干）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "零件库",
+   "role": "",
+   "net_chars": 2871,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/00-原子笔记/atom-0026-跨项目世界零件库.md",
+    "PKM/01-MOC/MOC-零件库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "零件库/03-机制型零件.md",
+   "title": "03 · 机制族零件卡",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "零件库",
+   "role": "",
+   "net_chars": 3362,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-零件库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "零件库/04-地理与资源型零件.md",
+   "title": "04 · 地理与资源族零件卡",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "零件库",
+   "role": "",
+   "net_chars": 3540,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-零件库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "零件库/05-历史与接口型零件.md",
+   "title": "05 · 接口与文本族零件卡",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "零件库",
+   "role": "",
+   "net_chars": 2888,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-零件库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "零件库/06-提炼与复用SOP.md",
+   "title": "06 · 提炼与复用 SOP",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "零件库",
+   "role": "",
+   "net_chars": 1829,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/00-原子笔记/atom-0026-跨项目世界零件库.md",
+    "PKM/01-MOC/MOC-跨项目知识网络.md",
+    "PKM/01-MOC/MOC-零件库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "零件库/07-调研-跨作品可复用零件构建方法.md",
+   "title": "跨作品可复用世界零件库 · 构建方法调研",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "零件库",
+   "role": "",
+   "net_chars": 11689,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/00-原子笔记/atom-0026-跨项目世界零件库.md",
+    "PKM/01-MOC/MOC-零件库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "零件库/99-来源与许可登记.md",
+   "title": "99 · 来源与许可登记",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "零件库",
+   "role": "",
+   "net_chars": 2880,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/00-原子笔记/atom-0026-跨项目世界零件库.md",
+    "PKM/01-MOC/MOC-零件库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "零件库/README.md",
+   "title": "跨项目世界零件库 · README",
+   "type": "总览",
+   "kind": "knowledge",
+   "project": "零件库",
+   "role": "入口总览",
+   "net_chars": 1408,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-零件库.md",
+    "README.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/00-交付说明.md",
+   "title": "00 · 交付说明 —《上古卷轴：龙临堡的第九种死法》",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "霜语",
+   "role": "",
+   "net_chars": 4182,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/00-作品总览.md",
+   "title": "《上古卷轴：龙临堡的第九种死法》· 作品总览",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "霜语",
+   "role": "",
+   "net_chars": 3367,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/00b-留存工程与爽点密度自检.md",
+   "title": "E · 留存工程与爽点密度自检 —《上古卷轴：龙临堡的第九种死法》",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "霜语",
+   "role": "",
+   "net_chars": 5279,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/01-立项定位.md",
+   "title": "01 · 立项定位 —《上古卷轴：龙临堡的第九种死法》",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "霜语",
+   "role": "",
+   "net_chars": 3751,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/02-大纲四层.md",
+   "title": "02 · 大纲四层 —《上古卷轴：龙临堡的第九种死法》",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "霜语",
+   "role": "",
+   "net_chars": 3526,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/03-世界观圣经.md",
+   "title": "03 · 世界观圣经 —《上古卷轴：龙临堡的第九种死法》",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "霜语",
+   "role": "",
+   "net_chars": 7138,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/04-人物卡.md",
+   "title": "04 · 人物卡 —《上古卷轴：龙临堡的第九种死法》",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "霜语",
+   "role": "",
+   "net_chars": 2826,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/05-文风卡.md",
+   "title": "05 · 文风卡 —《上古卷轴：龙临堡的第九种死法》",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "霜语",
+   "role": "",
+   "net_chars": 2656,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/06-连载护航.md",
+   "title": "06 · 连载护航 —《上古卷轴：龙临堡的第九种死法》",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "霜语",
+   "role": "",
+   "net_chars": 2449,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/12-品类IP合规前置.md",
+   "title": "12 · 品类与 IP 合规前置 —《上古卷轴：龙临堡的第九种死法》",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "霜语",
+   "role": "",
+   "net_chars": 4591,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/A3-对标六层基因拆解.md",
+   "title": "A3 · 对标六层基因拆解 —《上古卷轴：龙临堡的第九种死法》",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "霜语",
+   "role": "",
+   "net_chars": 3144,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/C1-书名候选表.md",
+   "title": "C1 · 书名候选表 —《上古卷轴：龙临堡的第九种死法》",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "霜语",
+   "role": "",
+   "net_chars": 1388,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/C2-简介三件套.md",
+   "title": "C2 · 简介三件套 —《上古卷轴：龙临堡的第九种死法》",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "霜语",
+   "role": "",
+   "net_chars": 1474,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/bible/九结局映射与伏笔台账.md",
+   "title": "bible · 九结局映射与伏笔台账",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "霜语",
+   "role": "设定",
+   "net_chars": 3008,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/bible/机器校验原始输出/_density_draft.md",
+   "title": "章节密度自检报告",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "霜语",
+   "role": "设定",
+   "net_chars": 510,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/bible/机器校验原始输出/_ledger_draft.md",
+   "title": "伏笔与人物台账校验报告",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "霜语",
+   "role": "设定",
+   "net_chars": 621,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/bible/机器校验原始输出/_self_draft.md",
+   "title": "质量自评报告（100 分制）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "霜语",
+   "role": "设定",
+   "net_chars": 1021,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/bible/机器校验原始输出/_title_draft.md",
+   "title": "起点书名候选与评分",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "霜语",
+   "role": "设定",
+   "net_chars": 981,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/bible/状态机体感化.md",
+   "title": "bible · 状态机体感化对照",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "霜语",
+   "role": "设定",
+   "net_chars": 1308,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/quality-trend.md",
+   "title": "quality-trend.md · 霜语项目质量趋势台账",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "霜语",
+   "role": "",
+   "net_chars": 3231,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第01章-雪下的声音.md",
+   "title": "第01章 · 雪下的声音",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 2573,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第02章-风隘.md",
+   "title": "第02章 · 风隘",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 2558,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第03章-绿烟.md",
+   "title": "第03章 · 绿烟",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 2665,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第04章-索恩的摊子.md",
+   "title": "第04章 · 索恩的摊子",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 2704,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第05章-白漫之下.md",
+   "title": "第05章 · 白漫之下",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 3281,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第06章-根.md",
+   "title": "第06章 · 根",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 2705,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第07章-城里在烧.md",
+   "title": "第07章 · 城里在烧",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 3174,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第08章-阿尔卡.md",
+   "title": "第08章 · 阿尔卡",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 4148,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第09章-拔根.md",
+   "title": "第09章 · 拔根",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 5171,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第10章-吞下.md",
+   "title": "第10章 · 吞下",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 3422,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第11章-大殿空了.md",
+   "title": "第11章 · 大殿空了",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 5443,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第12章-承诺.md",
+   "title": "第12章 · 承诺",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 4789,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第13章-没有回答的路.md",
+   "title": "第13章 · 没有回答的路",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 2711,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第14章-拿石头的人.md",
+   "title": "第14章 · 拿石头的人",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 2862,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第15章-第八条龙.md",
+   "title": "第15章 · 第八条龙",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 4271,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第16章-我自己选.md",
+   "title": "第16章 · 我自己选",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 3615,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第17章-河里的名字.md",
+   "title": "第17章 · 河里的名字",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 3256,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第18章-第一个名字.md",
+   "title": "第18章 · 第一个名字",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 3776,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第19章-往回走的路.md",
+   "title": "第19章 · 往回走的路",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 3586,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第20章-石片上的路.md",
+   "title": "第20章 · 石片上的路",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 4665,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第21章-第八条.md",
+   "title": "第21章 · 第八条",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 3228,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第22章-认.md",
+   "title": "第22章 · 认",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 3484,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第23章-六个小时.md",
+   "title": "第23章 · 六个小时",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 3572,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第24章-第九条.md",
+   "title": "第24章 · 第九条",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 3696,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第25章-不是我的事.md",
+   "title": "第25章 · 不是我的事",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 4321,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第26章-八个人.md",
+   "title": "第26章 · 八个人",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 3990,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第27章-那个位置.md",
+   "title": "第27章 · 那个位置",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 3913,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第28章-往回走的人.md",
+   "title": "第28章 · 往回走的人",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 3169,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第29章-排序.md",
+   "title": "第29章 · 排序",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 2664,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第30章-第九章.md",
+   "title": "第30章 · 第九章",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 3138,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第31章-最后一次.md",
+   "title": "第31章 · 最后一次",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 3222,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第32章-三个选择.md",
+   "title": "第32章 · 三个选择",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 3745,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第33章-第三个.md",
+   "title": "第33章 · 第三个",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 2682,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第34章-尽量.md",
+   "title": "第34章 · 尽量",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 3928,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第35章-墙.md",
+   "title": "第35章 · 墙",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 3037,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/正文/第36章-你也是.md",
+   "title": "第36章 · 你也是",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "正文",
+   "net_chars": 2610,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/番外/九结局原文对照.md",
+   "title": "九结局原文对照 · 长尾物料",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "霜语",
+   "role": "",
+   "net_chars": 3124,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/番外/番外一-第八条龙.md",
+   "title": "番外一 · 第八条龙",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "",
+   "net_chars": 1991,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/番外/番外二-拿石头的人.md",
+   "title": "番外二 · 拿石头的人",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "霜语",
+   "role": "",
+   "net_chars": 2205,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/素材/00-素材库索引.md",
+   "title": "00 · 霜语素材库索引",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "霜语",
+   "role": "参考/工具",
+   "net_chars": 15823,
+   "tags": [
+    "REDIRECT"
+   ],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "霜语/素材/01-考据卡-K锚点联网复核.md",
+   "title": "01 · 考据卡 K 锚点联网复核",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "霜语",
+   "role": "参考/工具",
+   "net_chars": 6125,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-霜语.md"
    ],
    "broken": [],
    "archived": false,

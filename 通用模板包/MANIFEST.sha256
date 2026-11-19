@@ -1,6 +1,6 @@
 # 创作室通用模板包 v3.16 · SHA256 校验清单（2026-11-19）
 # 校验：在本目录执行  sha256sum -c MANIFEST.sha256
-# v3.16 更新：参考资料5 反哺 + 卷三回检经验固化；13/05/06/11/18/00/14/README/校验报告修订，文件集 36 条不变。
+# v3.16.1 更新：13/14 加零件库指针（D-18），文件集 36 条不变。
 # Windows: certutil -hashfile <文件> SHA256 逐项比对
 # v3.14 更新：19 号内容修订、14 号登记扩充；哈希仍按 git blob（LF）字节计算，文件集为 34 条。
 #
@@ -14,7 +14,6 @@
 # 3) 哈希口径：一律取 git blob 字节（LF），不得按工作区字节计算（工作区可能是 CRLF 旧副本）。
 #    重算工具：python tools/manifest.py --write    校验：python tools/manifest.py --check
 # —— 追加条目（新增模板与补入受控文件）——
-
 508652b4a3ec878ed379dd8fcd039795a6791562  00-总档与SOP.md
 0560d8f9f3d4ced4bee30dec255edef7a792d766  01-立项定位模板.md
 c4fdeaf9e6b352601a4f5cdfe6e0c43892b76d07  02-大纲四层模板.md
@@ -28,15 +27,15 @@ e928d029d3f89d46f7c3428acb53a8950c743ca7  09-立项书模板.md
 836d3da659ae9a7d72966f72703757b3009f4464  10-节拍表与黄金三章施工模板.md
 81123db0d546238ed6bec04dc58114365ffa9488  11-合规与一致性检查模板.md
 29799efe521f768ab412e7a7b6bab59fdfe076e8  12-品类流派与IP合规前置模板.md
-dcd853dec5db40e440c4fe6cf4eaf3769a1fdc28  13-世界先行与地图叙事模板.md
-ab5a9fb654c0ead3388f3eaa0d9d19814e833f15  14-外部依赖与来源登记表.md
+b1900c1bd493a2edcc799c13c151d746e7830f14  13-世界先行与地图叙事模板.md
+b2e1feaf486dd6b66484342fa7e6c28a67b21884  14-外部依赖与来源登记表.md
 c659a55f7380f9b2f4078220c00ba2323c95c8e6  15-附录-填法样例集.md
 5c346fe90336df3748cf9a1be849471025e90167  16-喜剧节奏与无厘头手法模板.md
 17fab555a45bb0cb5f9aa1d229373f7e36bfa98b  17-字数增密与紫罗兰散文防控模板.md
 629faab77db8768d9ae7e712e095edb59c046611  18-程序化创作与算法脚本模板.md
 7ba4e256b9da4b73f768527073a129086fd4f545  README.md
 cb0e9d8821e29ece10b9d816dfd0da41b31ac765  审计与修复报告.md
-0d367201ce7584069a43a6dc4ba1ab65fee52e04  校验报告.txt
+f493392d0af7c3c2a610ca0f9421ddbd16ea8776  校验报告.txt
 a9ab91241ca3e81725bac6305cec9eea35d03b01  tools/build_sample_pages.py
 2ceacc8bd9d8f93b12e4c59c010dbc63a78461c6  tools/check_package.py
 99d35599bc1f1132ed9328082f52394507192fd0  tools/tab_lint.py

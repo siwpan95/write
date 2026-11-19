@@ -8,14 +8,24 @@
 
 | 项 | 值 |
 |---|---|
-| 文档总数 | 1 |
-| 知识节点（设定/模板/总览） | 1 |
+| 文档总数 | 8 |
+| 知识节点（设定/模板/总览） | 8 |
 | 叙事节点（正文） | 0 |
-| 净字数 | 6,161 |
+| 净字数 | 28,549 |
 
 ## 入口
 
 - [[tools/README.md]] —— tools/ · 仓根工具编排层（Cordis 润滑层）
+- [[tools/skills/human-writing/README.md]] —— human-writing 技能 · 仓内运行包（v1.0.0）
+
+## 设定（SSOT · 单一事实源）
+
+- [[tools/skills/human-writing/SKILL.md]] —— 活人感写作 1.0.0（5,168 字）
+- [[tools/skills/human-writing/references/fiction.md]] —— 虚构写作让人物自己把事做出来（1,598 字）
+- [[tools/skills/human-writing/references/formats.md]] —— 不同形式怎样换衣服（1,505 字）
+- [[tools/skills/human-writing/references/forum-prose.md]] —— 像一个人在网上认真说话（6,945 字）
+- [[tools/skills/human-writing/references/reality.md]] —— 现实题材多一层事实核验（1,971 字）
+- [[tools/skills/human-writing/references/revision.md]] —— 改稿时先救人，再清句子（3,736 字）
 
 ## 人工补充
 
