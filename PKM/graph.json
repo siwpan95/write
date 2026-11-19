@@ -1,12 +1,12 @@
 {
  "schema": 1,
  "summary": {
-  "docs": 1597,
+  "docs": 1608,
   "by_type": {
    "正文": 627,
-   "设定": 543,
-   "模板": 396,
-   "总览": 31
+   "设定": 544,
+   "模板": 405,
+   "总览": 32
   },
   "by_project": {
    "小说": {
@@ -85,14 +85,14 @@
     "knowledge_orphan": 0
    },
    "PKM": {
-    "docs": 70,
+    "docs": 71,
     "net_chars": 77612,
     "types": {
-     "设定": 69,
+     "设定": 70,
      "总览": 1
     },
-    "links": 2483,
-    "knowledge": 70,
+    "links": 2493,
+    "knowledge": 71,
     "knowledge_orphan": 0
    },
    "霜语": {
@@ -191,6 +191,17 @@
     "knowledge": 19,
     "knowledge_orphan": 0
    },
+   "零件库": {
+    "docs": 18,
+    "net_chars": 123094,
+    "types": {
+     "模板": 17,
+     "总览": 1
+    },
+    "links": 0,
+    "knowledge": 18,
+    "knowledge_orphan": 0
+   },
    "参考资料": {
     "docs": 17,
     "net_chars": 132500,
@@ -201,15 +212,15 @@
     "knowledge": 17,
     "knowledge_orphan": 0
    },
-   "零件库": {
-    "docs": 17,
-    "net_chars": 113895,
+   "创造主们的战争": {
+    "docs": 9,
+    "net_chars": 55100,
     "types": {
-     "模板": 16,
+     "模板": 8,
      "总览": 1
     },
     "links": 0,
-    "knowledge": 17,
+    "knowledge": 9,
     "knowledge_orphan": 0
    },
    "格物录": {
@@ -283,11 +294,11 @@
     "knowledge_orphan": 0
    }
   },
-  "total_links": 2527,
+  "total_links": 2538,
   "total_broken": 0,
   "frontmatter_docs": 37,
   "tag_count": 151,
-  "knowledge_docs": 970,
+  "knowledge_docs": 981,
   "knowledge_orphans": 1,
   "knowledge_orphan_rate": 0.1,
   "narrative_docs": 627,
@@ -296,7 +307,7 @@
   "orphan_sample": [
    "CHANGELOG.md"
   ],
-  "net_chars_total": 9020007
+  "net_chars_total": 9086981
  },
  "overrides_count": 31,
  "nodes": [
@@ -307,7 +318,7 @@
    "kind": "knowledge",
    "project": "",
    "role": "",
-   "net_chars": 11521,
+   "net_chars": 13699,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -1639,7 +1650,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 4075,
+   "net_chars": 4077,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2213,6 +2224,33 @@
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md"
    ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "PKM/01-MOC/MOC-创造主们的战争.md",
+   "title": "MOC · 创造主们的战争",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "PKM",
+   "role": "",
+   "net_chars": 734,
+   "tags": [],
+   "aliases": [],
+   "out": [
+    "创造主们的战争/作品总览.md",
+    "创造主们的战争/00-创造主接入册.md",
+    "创造主们的战争/01-立项定位-创造主们的战争.md",
+    "创造主们的战争/02-大纲四层-创造主们的战争.md",
+    "创造主们的战争/03-世界观圣经-创造主们的战争.md",
+    "创造主们的战争/04-人物卡-创造主们的战争.md",
+    "创造主们的战争/09-立项书-创造主们的战争.md",
+    "创造主们的战争/12-品类IP合规前置-创造主们的战争.md",
+    "创造主们的战争/13-世界先行与地图叙事-创造主们的战争.md"
+   ],
+   "in": [],
    "broken": [],
    "archived": false,
    "fm": {},
@@ -4585,7 +4623,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 1028,
+   "net_chars": 1092,
    "tags": [],
    "aliases": [],
    "out": [
@@ -4605,6 +4643,7 @@
     "零件库/12-分析-零件库实现与不足.md",
     "零件库/13-P0字段规格-band-phase-rule.md",
     "零件库/14-咬合索引.md",
+    "零件库/15-调用记录-M04-创造主们的战争.md",
     "零件库/99-来源与许可登记.md"
    ],
    "in": [
@@ -4806,7 +4845,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 16052,
+   "net_chars": 16053,
    "tags": [],
    "aliases": [],
    "out": [
@@ -4990,7 +5029,7 @@
    "kind": "knowledge",
    "project": "",
    "role": "入口总览",
-   "net_chars": 13531,
+   "net_chars": 13791,
    "tags": [],
    "aliases": [],
    "out": [
@@ -5008,6 +5047,7 @@
     "十三叩_U-1990/README.md",
     "华夏克苏鲁/README-总览.md",
     "格物录/作品总览.md",
+    "创造主们的战争/作品总览.md",
     "通用模板包/00-总档与SOP.md",
     "工作区规范.md",
     "提交确实未创建/设定与参考/模板实填验证-13世界先行-20261109.md",
@@ -6155,6 +6195,178 @@
    "out": [],
    "in": [
     "PKM/01-MOC/MOC-其他项目归档.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "创造主们的战争/00-创造主接入册.md",
+   "title": "00 · 创造主接入册（13 位 · 本书唯一的设定入口）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "创造主们的战争",
+   "role": "",
+   "net_chars": 11413,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-创造主们的战争.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "创造主们的战争/01-立项定位-创造主们的战争.md",
+   "title": "01 · 立项定位 ——《创造主们的战争》",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "创造主们的战争",
+   "role": "",
+   "net_chars": 4086,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-创造主们的战争.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "创造主们的战争/02-大纲四层-创造主们的战争.md",
+   "title": "02 · 大纲四层 ——《创造主们的战争》",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "创造主们的战争",
+   "role": "",
+   "net_chars": 5876,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-创造主们的战争.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "创造主们的战争/03-世界观圣经-创造主们的战争.md",
+   "title": "03 · 世界观圣经 ——《创造主们的战争》",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "创造主们的战争",
+   "role": "",
+   "net_chars": 10984,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-创造主们的战争.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "创造主们的战争/04-人物卡-创造主们的战争.md",
+   "title": "04 · 人物卡 ——《创造主们的战争》",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "创造主们的战争",
+   "role": "",
+   "net_chars": 5564,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-创造主们的战争.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "创造主们的战争/09-立项书-创造主们的战争.md",
+   "title": "09 · 立项书 ——《创造主们的战争》",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "创造主们的战争",
+   "role": "",
+   "net_chars": 2932,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-创造主们的战争.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "创造主们的战争/12-品类IP合规前置-创造主们的战争.md",
+   "title": "12 · 品类与 IP 合规前置 ——《创造主们的战争》",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "创造主们的战争",
+   "role": "",
+   "net_chars": 4577,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-创造主们的战争.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "创造主们的战争/13-世界先行与地图叙事-创造主们的战争.md",
+   "title": "13 · 世界先行与地图叙事 ——《创造主们的战争》",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "创造主们的战争",
+   "role": "",
+   "net_chars": 7925,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-创造主们的战争.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "创造主们的战争/作品总览.md",
+   "title": "《创造主们的战争》· 作品总览",
+   "type": "总览",
+   "kind": "knowledge",
+   "project": "创造主们的战争",
+   "role": "入口总览",
+   "net_chars": 1743,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-创造主们的战争.md",
+    "README.md"
    ],
    "broken": [],
    "archived": false,
@@ -15257,7 +15469,7 @@
    "kind": "knowledge",
    "project": "",
    "role": "",
-   "net_chars": 9044,
+   "net_chars": 9281,
    "tags": [],
    "aliases": [],
    "out": [
@@ -33443,7 +33655,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 9341,
+   "net_chars": 9841,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33464,7 +33676,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 5195,
+   "net_chars": 5830,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33486,7 +33698,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 5572,
+   "net_chars": 5733,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33506,7 +33718,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 7412,
+   "net_chars": 7464,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33525,7 +33737,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 11404,
+   "net_chars": 11674,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33544,7 +33756,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 7830,
+   "net_chars": 8164,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33705,7 +33917,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 6937,
+   "net_chars": 9360,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33725,6 +33937,25 @@
    "project": "零件库",
    "role": "",
    "net_chars": 7420,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-零件库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "零件库/15-调用记录-M04-创造主们的战争.md",
+   "title": "15 · 调用记录 M-04 ——《创造主们的战争》立项级调用",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "零件库",
+   "role": "",
+   "net_chars": 4472,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33764,7 +33995,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "入口总览",
-   "net_chars": 2817,
+   "net_chars": 3169,
    "tags": [],
    "aliases": [],
    "out": [],
