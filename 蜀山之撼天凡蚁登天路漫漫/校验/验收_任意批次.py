@@ -10,6 +10,8 @@
   篇幅   纯正文 2200–3000（非空白全字符，不含章标题行与末尾「（本章完）」）
          白名单章（校验/篇幅白名单.md 登记、经重复检测确认无无效重复）放宽上限
   格式   零引号（“ ” 「 」 与 ASCII " 均为 0）
+         例外：126–135、232–239 章为「重点词引号」体例（主控 2026-11-19 决定保留），
+         该批只查 ASCII " 与 「」，不查 “ ”
   人名   「杨成志」每章 ≥2 次
   禁用   现代词（05 §1.2.1 A/B/C 三类）
   结构   章号连续、章数正确、每章末行「（本章完）」
@@ -38,6 +40,28 @@ def load_whitelist():
 
 
 WHITELIST = load_whitelist()
+
+
+def load_name_exempt():
+    """读 校验/体例豁免.md §二 登记的章号（人名下限豁免，有意的"没人叫他名字"）。"""
+    p = os.path.join(ROOT, "校验", "体例豁免.md")
+    if not os.path.exists(p):
+        return set()
+    out = set()
+    started = False
+    for ln in open(p, encoding="utf-8"):
+        if ln.startswith("## 二、人名下限"):
+            started = True
+            continue
+        if started and ln.startswith("## "):
+            break
+        if started:
+            for a, b in re.findall(r"(\d{3})\s*[–\-]\s*(\d{3})", ln):
+                out.update(range(int(a), int(b) + 1))
+    return out
+
+
+NAME_EXEMPT = load_name_exempt()
 BAD_WORDS = [
     # A 类：康熙二年无此物／境界链（F-35）
     "系统", "面板", "图标", "属性", "等级", "面板", "等级",
@@ -104,9 +128,14 @@ def check_one(path, exp_start, exp_count):
             e.append(f"篇幅 {n} 越界(2200-{cap})")
         elif n > 3000:
             pass  # 白名单内的合法超限，不报错
-        if q:
+        # 「重点词引号」旧体例：126–135 章（主控 2026-11-19 决定保留）
+        if (126 <= num <= 135) or (232 <= num <= 239):
+            hard = (body.count('"') + body.count("「") + body.count("」"))
+            if hard:
+                e.append(f"引号(ASCII/「」) {hard} 处")
+        elif q:
             e.append(f"引号 {q} 处")
-        if y < 2:
+        if y < 2 and num not in NAME_EXEMPT:
             e.append(f"杨成志 {y} 次")
         if hits:
             e.append(f"禁用词 {hits}")
@@ -117,7 +146,8 @@ def check_one(path, exp_start, exp_count):
             e.append(f"章内重复段 ×{len(dup)}：{dup[0][:20]}")
         if e:
             errs += 1
-            print(f"  {num} {title[:16]:18} {n:6}字 引号{q:3} 杨{y:3}  [E] {'; '.join(e)}")
+            tag = " (重点词引号体例)" if ((126 <= num <= 135) or (232 <= num <= 239)) and q else ""
+            print(f"  {num} {title[:16]:18} {n:6}字 引号{q:3} 杨{y:3}{tag}  [E] {'; '.join(e)}")
         else:
             print(f"  {num} {title[:16]:18} {n:6}字 引号{q:3} 杨{y:3}  OK")
     return errs
