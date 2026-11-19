@@ -1,11 +1,11 @@
 {
  "schema": 1,
  "summary": {
-  "docs": 1591,
+  "docs": 1593,
   "by_type": {
    "正文": 627,
    "设定": 543,
-   "模板": 390,
+   "模板": 392,
    "总览": 31
   },
   "by_project": {
@@ -86,12 +86,12 @@
    },
    "PKM": {
     "docs": 70,
-    "net_chars": 76729,
+    "net_chars": 77071,
     "types": {
      "设定": 69,
      "总览": 1
     },
-    "links": 2473,
+    "links": 2478,
     "knowledge": 70,
     "knowledge_orphan": 0
    },
@@ -202,14 +202,14 @@
     "knowledge_orphan": 0
    },
    "零件库": {
-    "docs": 11,
-    "net_chars": 50278,
+    "docs": 13,
+    "net_chars": 66643,
     "types": {
-     "模板": 10,
+     "模板": 12,
      "总览": 1
     },
     "links": 0,
-    "knowledge": 11,
+    "knowledge": 13,
     "knowledge_orphan": 0
    },
    "格物录": {
@@ -283,11 +283,11 @@
     "knowledge_orphan": 0
    }
   },
-  "total_links": 2517,
+  "total_links": 2522,
   "total_broken": 0,
   "frontmatter_docs": 37,
   "tag_count": 151,
-  "knowledge_docs": 964,
+  "knowledge_docs": 966,
   "knowledge_orphans": 1,
   "knowledge_orphan_rate": 0.1,
   "narrative_docs": 627,
@@ -296,7 +296,7 @@
   "orphan_sample": [
    "CHANGELOG.md"
   ],
-  "net_chars_total": 8955507
+  "net_chars_total": 8972214
  },
  "overrides_count": 31,
  "nodes": [
@@ -1541,7 +1541,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 1611,
+   "net_chars": 1953,
    "tags": [],
    "aliases": [],
    "out": [
@@ -1551,6 +1551,8 @@
     "零件库/02-制度型零件.md",
     "零件库/06-提炼与复用SOP.md",
     "零件库/08-调用记录-M01-卷四.md",
+    "零件库/09-调用记录-M02-卷五.md",
+    "零件库/10-调研-三类压力结构范式.md",
     "零件库/07-调研-跨作品可复用零件构建方法.md",
     "零件库/99-来源与许可登记.md",
     "通用模板包/13-世界先行与地图叙事模板.md",
@@ -2773,7 +2775,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 5332,
+   "net_chars": 5388,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2833,6 +2835,7 @@
     "综网废柴逆命/设定/05_方法与市场/04_方法论调研与应用.md",
     "蜀山之撼天凡蚁登天路漫漫/校验/联网调研校验报告-20261118.md",
     "零件库/07-调研-跨作品可复用零件构建方法.md",
+    "零件库/10-调研-三类压力结构范式.md",
     "Tserena/设定与参考/模板反哺报告-20261110.md",
     "霜语/A3-对标六层基因拆解.md",
     "二十一世纪奇门遁甲/01_选题定位与市场匹配.md",
@@ -4581,7 +4584,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 697,
+   "net_chars": 816,
    "tags": [],
    "aliases": [],
    "out": [
@@ -4595,6 +4598,8 @@
     "零件库/06-提炼与复用SOP.md",
     "零件库/07-调研-跨作品可复用零件构建方法.md",
     "零件库/08-调用记录-M01-卷四.md",
+    "零件库/09-调用记录-M02-卷五.md",
+    "零件库/10-调研-三类压力结构范式.md",
     "零件库/99-来源与许可登记.md"
    ],
    "in": [
@@ -4796,7 +4801,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 15971,
+   "net_chars": 16046,
    "tags": [],
    "aliases": [],
    "out": [
@@ -33433,7 +33438,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 7088,
+   "net_chars": 7592,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33454,7 +33459,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 3166,
+   "net_chars": 3715,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33476,7 +33481,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 3229,
+   "net_chars": 4485,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33515,7 +33520,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 3925,
+   "net_chars": 6281,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33534,7 +33539,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 3468,
+   "net_chars": 4812,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33553,7 +33558,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 2455,
+   "net_chars": 2804,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33574,7 +33579,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 11689,
+   "net_chars": 11879,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33609,13 +33614,54 @@
    "overridden": false
   },
   {
+   "path": "零件库/09-调用记录-M02-卷五.md",
+   "title": "09 · 调用记录 M-02：蜀山卷五《光明境》（501–625）押名线",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "零件库",
+   "role": "",
+   "net_chars": 4740,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/00-原子笔记/atom-0026-跨项目世界零件库.md",
+    "PKM/01-MOC/MOC-零件库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "零件库/10-调研-三类压力结构范式.md",
+   "title": "10 · 调研：三类压力的结构范式与完备性检查表",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "零件库",
+   "role": "",
+   "net_chars": 4727,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/00-原子笔记/atom-0026-跨项目世界零件库.md",
+    "PKM/01-MOC/MOC-对标调研.md",
+    "PKM/01-MOC/MOC-零件库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
    "path": "零件库/99-来源与许可登记.md",
    "title": "99 · 来源与许可登记",
    "type": "模板",
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 3412,
+   "net_chars": 3575,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33636,7 +33682,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "入口总览",
-   "net_chars": 2037,
+   "net_chars": 2224,
    "tags": [],
    "aliases": [],
    "out": [],
