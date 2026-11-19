@@ -86,7 +86,7 @@ def main():
     if bad:
         print(f"结论：FAIL（{bad} 章不一致）—— 修正白名单，或把该章压回 2200–3000 后移出。")
         return 1
-    print("结论：PASS —— 白名单 13 章全部无无效重复，数据与表一致。")
+    print(f"结论：PASS —— 白名单 {len(wl)} 章全部无无效重复，数据与表一致。")
     return 0
 
 
