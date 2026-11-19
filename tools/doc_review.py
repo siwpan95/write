@@ -281,6 +281,27 @@ class Doc:
                     re.match(r"^\d{1,3}[-_].*第[零一二三四五六七八九十两\d]{1,4}章",
                              path.name))
         self._extract_time_anchors()
+        self.body_text = self._strip_code_fences(text)
+
+    @staticmethod
+    def _strip_code_fences(text: str) -> str:
+        """屏蔽 ``` 代码围栏内的内容，用于体例类检查（引号/省略号）。
+
+        2026-11-19：设定集里的代码围栏常有 JSON 示例、URL、ASCII 树状图，
+        其中的直引号/三点省略号是数据或语法，不是行文体例问题。
+        体例检查应只看正文散文；其它检查（错别字/数字/引用）仍用全文 text。
+        """
+        out, in_fence = [], False
+        for line in text.split("\n"):
+            if line.lstrip().startswith("```"):
+                in_fence = not in_fence
+                continue
+            if in_fence:
+                out.append("")
+                continue
+            # 行内代码 `...` 内的直引号是语法/数据，不是行文体例问题
+            out.append(re.sub(r"`[^`]*`", "``", line))
+        return "\n".join(out)
 
     def rel(self, path=None) -> str:
         """相对路径显示（相对当前工作目录）。"""
@@ -912,9 +933,9 @@ def check_style(corpus, out):
       STYLE-TIME  时刻用半角冒号
     """
     for doc in corpus.docs:
-        curly = doc.text.count("“")
-        curly_end = doc.text.count("”")
-        straight = doc.text.count('"')
+        curly = doc.body_text.count("“")
+        curly_end = doc.body_text.count("”")
+        straight = doc.body_text.count('"')
         if curly and straight:
             out.append(Finding(
                 "warn", "体例", "STYLE-QUOTE", doc.rel(doc.path), 1, "",
@@ -933,20 +954,20 @@ def check_style(corpus, out):
                 f"弯引号不配对：开 {curly} / 闭 {curly_end}",
                 "检查是否有引号遗漏或多打",
             ))
-        if "..." in doc.text:
+        if "..." in doc.body_text:
             out.append(Finding(
                 "warn", "体例", "STYLE-ELL", doc.rel(doc.path), 1, "",
                 "使用三点省略号「...」",
                 "中文正文统一用六点「……」",
             ))
-        if re.search(r"(?<!—)—(?!—)", doc.text):
-            n = len(re.findall(r"(?<!—)—(?!—)", doc.text))
+        if re.search(r"(?<!—)—(?!—)", doc.body_text):
+            n = len(re.findall(r"(?<!—)—(?!—)", doc.body_text))
             out.append(Finding(
                 "info", "体例", "STYLE-DASH", doc.rel(doc.path), 1, "",
                 f"单破折号「—」出现 {n} 处（双破折号「——」为中文规范用法）",
                 "如为插入语请用「——」",
             ))
-        if "(" in doc.text and "（" in doc.text:
+        if "(" in doc.body_text and "（" in doc.text:
             out.append(Finding(
                 "info", "体例", "STYLE-PAREN", doc.rel(doc.path), 1, "",
                 "半角括号「( )」与全角括号「（ ）」混用",
@@ -1062,6 +1083,11 @@ def check_duplicate(corpus, out, min_cross=36, min_intra=44, top_n=40):
     """
     重复内容：跨文件重复段 + 单文件内重复段。
 
+    有意重复豁免（2026-11-19 WARN 清零轮）：
+      某些作品的设定本身要求同一段文字跨章/跨文件复现（例：文书体例的固定格式、
+      考据引文在 SSOT 与勘误表间同步）。这类重复是设计，不是冗余。
+      由 corpus.config["dup_exempt"] 提供前缀白名单：命中即降为 INFO，附理由。
+
     全仓规模下配对数是 O(n²)，直接全报会淹没真问题，因此加三道闸：
       · 重复段长度 ≥ min_cross（默认 36 字连续相同才算重复）
       · 重复覆盖率 ≥ 2%（两文件共享的重复段需占较小文件的一定比例）
@@ -1096,12 +1122,17 @@ def check_duplicate(corpus, out, min_cross=36, min_intra=44, top_n=40):
             pairs.append((len(inter), ratio, ids[i], ids[j], sample))
     pairs.sort(key=lambda x: (-x[0], -x[1]))
     total_pairs = len(pairs)
+    dup_exempt = [str(x).replace("\\", "/") for x in (corpus.config.get("dup_exempt") or [])]
     for n, (cnt, ratio, ai, bi, sample) in enumerate(pairs[:top_n], 1):
+        fa, fb = by_id[ai].rel(by_id[ai].path), by_id[bi].rel(by_id[bi].path)
+        na, nb = fa.replace("\\", "/"), fb.replace("\\", "/")
+        exempt = next((p for p in dup_exempt if na.startswith(p) and nb.startswith(p)), None)
         out.append(Finding(
-            "warn", "重复", "DUP-CROSS", by_id[bi].rel(by_id[bi].path), 1,
+            "info" if exempt else "warn", "重复", "DUP-CROSS", fb, 1,
             sample[:80],
-            f"与「{by_id[ai].rel(by_id[ai].path)}」有 {cnt} 段 ≥{min_cross} 字"
-            f"的完全重复（占较小文件 {ratio * 100:.1f}%）",
+            f"与「{fa}」有 {cnt} 段 ≥{min_cross} 字"
+            f"的完全重复（占较小文件 {ratio * 100:.1f}%）"
+            + (f"〔有意重复豁免：{exempt}〕" if exempt else ""),
             "确认是否为有意回扣；非刻意请删改其一",
         ))
     if total_pairs > top_n:
@@ -1166,10 +1197,16 @@ def check_duplicate(corpus, out, min_cross=36, min_intra=44, top_n=40):
             c = len(repeated.get(w, ()))
             if c > best_cnt:
                 best_cnt, best_seg = c, s
+        # 单文件内有意重复豁免：考据资料包里同一引文/URL 被多处引用是留档需要
+        intra_exempt = [str(x).replace("\\", "/")
+                        for x in (corpus.config.get("dup_intra_exempt") or [])]
+        rel_norm = doc.rel(doc.path).replace("\\", "/")
+        exempt = next((p for p in intra_exempt if rel_norm.startswith(p)), None)
         out.append(Finding(
-            "warn", "重复", "DUP-INTRA", doc.rel(doc.path), 1,
+            "info" if exempt else "warn", "重复", "DUP-INTRA", doc.rel(doc.path), 1,
             (t[best_seg:best_seg + 80] if best_seg is not None else ""),
-            f"文件内有 {len(merged)} 处 ≥{min_intra} 字的完全重复段（例出现 {best_cnt} 次）",
+            f"文件内有 {len(merged)} 处 ≥{min_intra} 字的完全重复段（例出现 {best_cnt} 次）"
+            + (f"〔有意重复豁免：{exempt}〕" if exempt else ""),
             "确认是否为刻意的排比或回扣",
         ))
 

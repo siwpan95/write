@@ -73,6 +73,23 @@ def check(root: str) -> list[dict]:
 
     for remote, label in REMOTES.items():
         rc, out, err = git(["ls-remote", remote, f"refs/heads/{BRANCH}"], root)
+        # 2026-11-19 WARN 清零轮：SSH 端口被重置但 HTTPS 可达是常见网络栈差异
+        # （同一仓库、同一 sha），不是同步问题。回退到 HTTPS 探测，避免假 WARN。
+        if rc != 0:
+            rc_url, url, _ = git(["remote", "get-url", remote], root)
+            if rc_url == 0 and url.startswith("git@"):
+                host, _, path = url.partition("@")[2].partition(":")
+                https_url = f"https://{host}/{path}"
+                rc2, out2, err2 = git(
+                    ["ls-remote", https_url, f"refs/heads/{BRANCH}"], root)
+                if rc2 == 0:
+                    rc, out, err = 0, out2, ""
+                    findings.append({
+                        "severity": "info", "category": "同步", "code": "SYNC-HTTPS-FALLBACK",
+                        "file": f"remote:{remote}", "line": 0, "snippet": "",
+                        "message": f"{remote} SSH 不可达，已回退 HTTPS 探测成功（同一仓库）",
+                        "suggestion": "SSH 网络恢复后可切回；不影响同步判定",
+                    })
         if rc != 0:
             findings.append({
                 "severity": "warn", "category": "同步", "code": "SYNC-REMOTE-UNREACHABLE",

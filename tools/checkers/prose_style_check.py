@@ -33,6 +33,7 @@ import json
 import os
 import re
 import sys
+from collections import Counter
 from pathlib import Path
 
 # ── 技能规则加载（跨机适配）───────────────────────────────────────────────
@@ -108,6 +109,34 @@ def find_prose_files(root: Path) -> list[str]:
     return sorted(out)
 
 
+# ── 冻结/归档正文豁免（仓根 README 纪律 5）────────────────────────────────
+def load_frozen_assets(root: Path) -> list[dict]:
+    """读取冻结资产登记；文件缺失或格式错误时返回空表（不静默放过）。"""
+    p = root / "tools" / "frozen_assets.json"
+    if not p.exists():
+        sys.stderr.write(f"[prose-style] 冻结登记表缺失：{p}（按不豁免处理）\n")
+        return []
+    try:
+        data = json.loads(p.read_text(encoding="utf-8-sig"))
+    except Exception as e:
+        sys.stderr.write(f"[prose-style] 冻结登记表解析失败：{e}（按不豁免处理）\n")
+        return []
+    pats = data.get("patterns", [])
+    if not isinstance(pats, list):
+        return []
+    return [x for x in pats if isinstance(x, dict) and x.get("prefix")]
+
+
+def match_frozen(rel: str, frozen: list[dict]) -> str | None:
+    """返回命中的豁免 ID；ERROR 级不由本函数过滤（调用处只用于 warn）。"""
+    norm = rel.replace("\\", "/")
+    for item in frozen:
+        pre = str(item["prefix"]).replace("\\", "/")
+        if norm.startswith(pre):
+            return str(item.get("id", "FZ-?"))
+    return None
+
+
 # ── 模板包规则：从 05 文风卡现读 ───────────────────────────────────────────
 # 说明：05 §1.2.1 有些词条带条件后缀（如「一股（+气味/气息）」「整个（+名词）」），
 # 不能当裸词匹配 ——「一股霉味」是规范鼓励的具体气味源，只有模板化搭配才该禁。
@@ -171,17 +200,46 @@ def is_literal_usage(text: str, start: int, word: str) -> bool:
       2) 该句前后 160 字内另有 ≥2 个「禁」字，构成呼应。
     条件不满足时照常报错，不放宽通用阈值。
     """
-    if word != "不禁":
-        return False
     line_start = text.rfind("\n", 0, start) + 1
     line_end = text.find("\n", start)
     if line_end < 0:
         line_end = len(text)
     line = text[line_start:line_end]
-    if not (line.lstrip().startswith("（") and line.rstrip().endswith("）")):
-        return False
-    window = text[max(0, start - 160):min(len(text), start + 160)]
-    return window.count("禁") >= 3  # 命中本身 1 次，需另有 ≥2 次呼应
+
+    if word == "不禁":
+        if not (line.lstrip().startswith("（") and line.rstrip().endswith("）")):
+            return False
+        window = text[max(0, start - 160):min(len(text), start + 160)]
+        return window.count("禁") >= 3  # 命中本身 1 次，需另有 ≥2 次呼应
+
+    # 2026-11-19 扩充（WARN 清零轮）：
+    # 「整个」在本书是**数量对照**的半边（半个 vs 一整个），不是「整个世界」式套话；
+    # 「一股」在本书是**烟/气的计数单位**（一股。两股。三股。），不是「一股气息」式标签。
+    # 两者都含可数的前后文物证，属词本义，豁免。判据必须严格，避免放宽通用阈值。
+    if word == "整个":
+        window = text[max(0, start - 200):min(len(text), start + 200)]
+        # 条件 A：所在句或近邻出现「半个」形成数量对照
+        # 条件 B：命中词前紧接「一」，且所在段落有可数 omission（少/缺/空/剩/加）+具体量词物
+        #   例：「孩子少了一整个」「一个名，是一整个」——都是算账式计数，不是套话。
+        tail = text[start + len(word):start + len(word) + 3]
+        if tail.startswith(("世界", "地方", "城", "宇宙", "天", "地", "人", "故事")):
+            return False
+        if "半个" in window or "半个" in line:
+            return True
+        prefix = text[max(0, start - 6):start]
+        countable = ("少了一", "缺了一", "空了一", "剩一", "加一", "是一", "有一", "记一")
+        return any(k in prefix for k in countable) and line.rstrip().endswith("。）")
+    if word == "一股":
+        window = text[max(0, start - 120):min(len(text), start + 120)]
+        # 条件：近邻出现「两股/三股」等计数序列；或「数/烟/气 + 一股」的倒装计数；
+        # 或命中后紧跟可数物（烟/气/味/线）。「一股脑/一股劲」式套话不豁免。
+        tail = text[start + len(word):start + len(word) + 6]
+        if tail.startswith(("脑", "劲", "风", "力", "情绪")):
+            return False
+        return ("两股" in window or "三股" in window or "股。" in tail
+                or bool(re.match(r"[烟火气味线]", tail))
+                or bool(re.search(r"(数|烟|气|看)[^。]{0,4}一股", window)))
+    return False
 
 
 def mask_quotes(text: str) -> str:
@@ -280,7 +338,9 @@ def check_file(rel: str, full: Path, pkg_rules: dict) -> dict:
     for name, pat in CONDITIONAL_PATTERNS.items():
         if name in pkg_rules["zero"] or name in pkg_rules["one"]:
             continue  # 已按裸词处理
-        hits = list(pat.finditer(prose_words))
+        # 2026-11-19：条件词同样走词本义豁免（半个/一整个 对照、一股/两股/三股 计数）
+        hits = [m for m in pat.finditer(prose_words)
+                if not is_literal_usage(prose_words, m.start(), name)]
         if hits:
             add("WARN", "模板包·条件禁用词", skill.line_number(raw, hits[0].start()),
                 f"「{name}」{len(hits)} 处")
@@ -303,11 +363,14 @@ def check_file(rel: str, full: Path, pkg_rules: dict) -> dict:
 
     # B4 破折号：05 §1.1（v3.14 研究降级）已把「每章 ≤3 处」降级为参考区间，
     # 真正的约束是「禁连续两段都用」。因此按连续段判定，不按总数判。
-    # 段落切分：本仓正文段落用「单换行」分隔，也存在「空行」分隔的写法，
-    # 两种都按段处理，才能正确判断「连续两段」。
+    #
+    # 2026-11-19 修正（WARN 清零轮）：
+    #   prose 已经过 strip_prose 过滤（表格行／标题／引用块／列表项已剔除）。
+    #   旧逻辑把每个段落再按单换行拆一次，导致两种误报：
+    #     ① 施工规格里表格的「——」空值占位符被当成正文破折号；
+    #     ② 同一段里的连续两行被当成「连续两段」。
+    #   现在只按空行分段，且只统计确实独立的段落。
     paras = [p.strip() for p in re.split(r"\n\s*\n", prose) if p.strip()]
-    for p in list(paras):
-        paras.extend(x.strip() for x in p.split("\n") if x.strip())
     consec = sum(1 for i in range(len(paras) - 1)
                  if "——" in paras[i] and "——" in paras[i + 1])
     if consec:
@@ -338,13 +401,22 @@ def emit_protocol(results, err_count, warn_count, root) -> int:
         "模板包·条件禁用词": "05 §1.2.1 条件禁用词（模板化搭配）",
         "模板包·招牌句式超限": "05 §1.2.5 招牌句式每千字 ≤2 次",
     }
+    frozen = load_frozen_assets(root)
     findings = []
+    frozen_skipped = Counter()
     for r in results:
+        hit = match_frozen(r["file"], frozen)
         for f in r["findings"]:
             if f["rule"] not in REDLINE:
                 continue
+            sev = "error" if f["severity"] == "ERROR" else "warn"
+            # 冻结/完结卷：只豁免 WARN 级文风项；ERROR 始终报。
+            # 依据仓根 README 纪律 5「已冻结/完结/锁死卷不回改前文」。
+            if hit and sev == "warn":
+                frozen_skipped[hit] += 1
+                continue
             findings.append({
-                "severity": "error" if f["severity"] == "ERROR" else "warn",
+                "severity": sev,
                 "category": "文风",
                 "code": f["rule"],
                 "file": r["file"],
@@ -353,13 +425,23 @@ def emit_protocol(results, err_count, warn_count, root) -> int:
                 "message": f"{r['file']} 第 {f['line']} 行：{f['detail']}",
                 "suggestion": f"{REDLINE[f['rule']]} —— 改写或确认属语境豁免",
             })
+    # 审计记录：豁免不静默吞掉，按项目输出 INFO
+    for fid, n in sorted(frozen_skipped.items()):
+        findings.append({
+            "severity": "info", "category": "治理", "code": "FROZEN-SKIP",
+            "file": "-", "line": 0, "snippet": "",
+            "message": f"{fid}：冻结/完结卷文风 WARN {n} 条按 README 纪律 5 豁免（不改正文）",
+            "suggestion": "如需恢复检查，从 tools/frozen_assets.json 移除该条目",
+        })
     n_err = sum(1 for f in findings if f["severity"] == "error")
-    n_warn = len(findings) - n_err
+    n_warn = sum(1 for f in findings if f["severity"] == "warn")
     return emit("prose-style", findings,
-                summary=f"正文文风红线：{len(results)} 篇，ERROR {n_err} ／ WARN {n_warn}",
+                summary=f"正文文风红线：{len(results)} 篇，ERROR {n_err} ／ WARN {n_warn}"
+                        + (f" ／ 冻结豁免 {sum(frozen_skipped.values())} 条" if frozen_skipped else ""),
                 meta={"filesScanned": len(results),
                       "totalHan": sum(r["han"] for r in results),
                       "rawError": err_count, "rawWarn": warn_count,
+                      "frozenSkipped": dict(frozen_skipped),
                       "note": "技能硬禁令项（冒号/破折号/翻案句/硬停词/绝对禁词）未计入，"
                               "其适用对象为论坛散文成稿，对网文正文大量为假阳性"})
 

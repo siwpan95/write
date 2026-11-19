@@ -1,0 +1,63 @@
+{
+  "_说明": "冻结/归档正文豁免登记（2026-11-19）。消费方：tools/checkers/prose_style_check.py。只豁免 prose-style 的 WARN 级文风发现，不豁免 ERROR，也不豁免 doc-review 的真问题（错别字/时间/数字/引用）。依据：仓根 README.md 纪律 5『已冻结/完结/锁死卷不回改前文』。",
+  "_审计口径": "每次命中豁免须输出 INFO FROZEN-SKIP 并记项目与条数，不静默吞掉。",
+  "schema": 1,
+  "patterns": [
+    {
+      "id": "FZ-01",
+      "prefix": "小说/",
+      "scope": "all",
+      "reason": "废土旅法师五卷完结（README #1/#3 约100%）",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "FZ-02",
+      "prefix": "提交确实未创建/",
+      "scope": "all",
+      "reason": "全本完稿 120 章（README #1 100%）",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "FZ-03",
+      "prefix": "二十一世纪奇门遁甲/",
+      "scope": "all",
+      "reason": "落地五章锁死，B版基准不回改（README #6）",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "FZ-04",
+      "prefix": "逆鳞/",
+      "scope": "all",
+      "reason": "首轮交付，未进入连载（README #11）",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "FZ-05",
+      "prefix": "十三叩_U-1990/",
+      "scope": "all",
+      "reason": "设定百科型项目，正文为试写（README #12）",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "FZ-06",
+      "prefix": "Tserena/",
+      "scope": "all",
+      "reason": "设定集型四章草稿（README #8）",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "FZ-07",
+      "prefix": "综网废柴逆命/正文/第一卷_不可培养",
+      "scope": "all",
+      "reason": "卷一定稿冻结；卷二在写仍检查（README #4）",
+      "since": "2026-11-19"
+    },
+    {
+      "id": "FZ-08",
+      "prefix": "战锤42拔智齿/",
+      "scope": "all",
+      "reason": "第一卷12章为开篇，同人IP前置约束（README #5）",
+      "since": "2026-11-19"
+    }
+  ]
+}
