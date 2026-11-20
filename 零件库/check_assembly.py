@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""check_assembly.py —— 装配级校验（v2.4，G2+G9）。
+"""check_assembly.py —— 装配级校验（v2.8，G2+G9+G10-13+17号P3）。
 
 定位：**只判「这一套装配合不合法」，不判「这套装配好不好」。**
 质量（压力是否成立）仍需人工六门＋白盒，见 `00` §六。
@@ -18,6 +18,8 @@
  8 装配体无驱动量或元件混入成员  9 驱动量与 Δ 对齐(INFO)  10 ELSE 全负向导致无解
 11 可达性（仅状态门槛型 6 件严格 BFS；事件触发型只标「未判定」）
 12 dynamics 摘要（实际触发顺序／首见底量／峰值位置）与硬瓶颈登记
+13 健康度（交互密度／低度件，只报 INFO）
+14 差异性预算（刻意的反常，只报 INFO，**不改 1–13 的判定**——00 §十一 12.7）
 """
 import io
 import os
@@ -315,7 +317,14 @@ def check_assembly(a, cards):
     if "解法数" in a["body"] and "缺口" in field(a["body"], "解法数"):
         infos.append("解法数登记为「缺口」——带洞装配体（缺件已登记，非本装配体写错）")
 
-    # 13 健康度（G12）：孤岛件与交互密度
+    # 14 差异性预算（v2.8 / 17号 P3）：刻意的反常是声明，不是豁免。
+    # 只报 INFO，**不改任何 ERROR/WARN 判定**——否则 linter 从「判合法」滑向「判好坏」。
+    anomaly = field(a["body"], "本卷刻意的反常")
+    if anomaly and "无" not in anomaly[:4]:
+        infos.append(f"差异性预算：本卷登记刻意的反常——{anomaly[:80]}"
+                     "（声明不豁免，合法性检查照常执行）")
+
+    # 15 健康度（G12）：孤岛件与交互密度
     bite_deg = {cid: len(c.get("bite_ids", set())) for cid, c in cards.items()
                 if c.get("role") not in ("判定", "元")}
     islands = [cid for cid in members if bite_deg.get(cid, 0) < 2]
