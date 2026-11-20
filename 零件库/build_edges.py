@@ -149,7 +149,15 @@ def main():
                 "这两件能接上接口，但不能同时站进一个装配体。"]
 
     p = os.path.join(HERE, "14-咬合索引.md")
-    io.open(p, "w", encoding="utf-8", newline="\n").write("\n".join(out) + "\n")
+    # 沿用目标文件既有行尾符：本机 core.autocrlf=true 检出为 CRLF，
+    # 硬写 LF 会让每次重跑都产生全文件 diff（内容其实不变）。
+    # 首次生成（文件不存在）时按平台默认换行。
+    newline = None
+    if os.path.exists(p):
+        with io.open(p, "rb") as f:
+            sample = f.read(4096)
+        newline = "\r\n" if b"\r\n" in sample else "\n"
+    io.open(p, "w", encoding="utf-8", newline=newline).write("\n".join(out) + "\n")
     print(f"OK 已生成 {p}：{len(nodes)} 件、{len(only_one)} 条单向边、"
           f"互斥 {n_mutex_pairs} 对（判定件/元件 {n_meta} 件不计入度数）")
 

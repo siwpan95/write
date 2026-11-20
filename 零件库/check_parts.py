@@ -342,7 +342,10 @@ def main():
 
     # ---- 跨卡校验（v2.2 F 组）----
     all_ids = set(seen)
-    cross_info = []
+    # 无序对去重：卡内互斥是单侧登记，但同一对可能被双方各写一次；
+    # 用 frozenset 收口，避免把 5 对唯一互斥报成 8 条或 8//2=4 对。
+    mutex_pairs = {frozenset((cid, other)) for cid, ms in mutex_edges.items() for other in ms}
+    cross_info = {}  # frozenset -> 展示文本
     for cid, ms in mutex_edges.items():
         for other in ms:
             if other not in all_ids:
@@ -350,7 +353,10 @@ def main():
                 bad += 1
             # 接口相容 ≠ 装配相容：两表可交叠，但值得点名
             if other in bite_edges.get(cid, set()) or cid in bite_edges.get(other, set()):
-                cross_info.append(f"{cid} ⊗ {other}：接口相容但装配互斥（同场会拆台）")
+                cross_info.setdefault(
+                    frozenset((cid, other)),
+                    f"{cid} ⊗ {other}：接口相容但装配互斥（同场会拆台）",
+                )
 
     nwarn = sum(1 for _, e, w, _ in all_issues if not e and w)
     print(f"零件卡校验：共 {total} 件｜ERROR {bad}｜WARN {nwarn}｜INFO {n_info}")
@@ -360,11 +366,11 @@ def main():
         n_role[r] = n_role.get(r, 0) + 1
     print(f"装配角色：参与 {n_role.get('参与', 0)}／判定 {n_role.get('判定', 0)}／元 {n_role.get('元', 0)}")
     n_mutex = sum(len(v) for v in mutex_edges.values())
-    print(f"互斥边：单侧登记 {n_mutex} 条｜对称后 {sum(len(v) for v in mutex_edges.values()) // 2} 对"
-          if n_mutex else "互斥边：0 条")
+    print(f"互斥边：单侧登记 {n_mutex} 条｜唯一互斥对 {len(mutex_pairs)} 对"
+          if n_mutex else "互斥边：0 对")
     if cross_info:
         print(f"接口相容但装配互斥（装配时重点检查）{len(cross_info)} 对：")
-        for x in cross_info:
+        for x in cross_info.values():
             print("  " + x)
     dup = [k for k, v in seen.items() if v > 1]
     if dup:
