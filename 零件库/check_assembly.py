@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
-"""check_assembly.py —— 装配级校验（v2.8，G2+G9+G10-13+17号P3）。
+"""check_assembly.py —— 装配级校验（v2.9，16 项检查）。
 
 定位：**只判「这一套装配合不合法」，不判「这套装配好不好」。**
 质量（压力是否成立）仍需人工六门＋白盒，见 `00` §六。
@@ -20,6 +20,11 @@
 12 dynamics 摘要（实际触发顺序／首见底量／峰值位置）与硬瓶颈登记
 13 健康度（交互密度／低度件，只报 INFO）
 14 差异性预算（刻意的反常，只报 INFO，**不改 1–13 的判定**——00 §十一 12.7）
+15 粒度与站点声明（卷级／站区级；站区级须写站点——00 §十一 12.8）
+16 初态八量完整性与格式（00 §十一 12.3.1）
+
+v2.9 变更：修初态解析正则（原正则从未匹配过任何装配体，使检查 3／11 实际从未执行）；
+新增检查 15／16；检查表由 13 项扩为 16 项。
 """
 import io
 import os
@@ -34,6 +39,18 @@ CARD_FILES = ["02-制度型零件.md", "03-机制型零件.md",
 
 QTY = ["财", "势", "名", "位", "时", "秘", "身", "信"]
 PHASES = ["设", "压", "翻", "竭"]
+GRANULARITIES = ("卷级", "站区级")
+
+# 初态八量解析（v2.9）——容忍加粗、容忍 U+2212 减号、只认 8 个量名。
+# v2.8 前的正则要求「量名加粗 + 数值裸写」，对库内既有格式一律不匹配：
+# 结果是检查 3（哑火件）与检查 11（可达性）一次都没有真正执行过，
+# 报出来的「至少一步可达」是假绿灯。教训记在 00 §十一 12.3.1。
+INIT_RE = re.compile(
+    r"^\|\s*\**\s*([财势名位时秘身信])\s*\**\s*\|"      # 第一格：量名（可加粗）
+    r"\s*\**\s*([−\-]?\d+)\s*\**\s*\|",                  # 第二格：整数（可加粗，可 U+2212）
+    flags=re.M)
+# 聚合行（如「其余五量」「其余四量」）——初态必须逐量列全，见 00 §十一 12.3.1
+AGG_INIT_RE = re.compile(r"\|\s*其余[一二三四五六七八九十\d]+\s*量\s*\|")
 
 # 同族配套：这些对即使同为 L4 且相邻，也只报 WARN（不报 ERROR）
 # 依据：00 §五 G.2「同族配套不算互斥」；B2 卷一实测
@@ -54,6 +71,29 @@ CONDITIONAL_MUTEX = {
 
 def clean(s):
     return s.replace("`", "").replace("**", "").strip()
+
+
+def parse_init(body):
+    """解析 §2.4 初态八量快照。
+
+    返回 (init, missing, probs)：
+      init    —— 量名 -> int（同名取首次出现）
+      missing —— 八个量里没写全的
+      probs   —— 格式问题（如「其余五量」聚合行）
+    书写格式见 00 §十一 12.3.1。
+    """
+    init = {}
+    for m in INIT_RE.finditer(body):
+        q = m.group(1)
+        if q in init:
+            continue
+        init[q] = int(m.group(2).replace("−", "-"))
+    missing = [q for q in QTY if q not in init]
+    probs = []
+    if AGG_INIT_RE.search(body):
+        probs.append("初态表出现「其余 N 量」聚合行——八量必须逐量列全"
+                     "（配方可复现的前提，见 00 §十一 12.3.1）")
+    return init, missing, probs
 
 
 # ---------------------------------------------------------------- 卡片解析
@@ -161,6 +201,8 @@ def load_assemblies():
             "member_phases": phases_by_member,
             "driver": drv,
             "phase_order": [p for p in PHASES if p in field(body, "序位")],
+            "granularity": clean(field(body, "粒度")),
+            "site": clean(field(body, "站点")),
             "body": body,
         })
     return out
@@ -209,12 +251,16 @@ def check_assembly(a, cards):
             if "在册" in cards.get(cid, {}).get("req", "") and dep == "WB-INST-0001" and dep not in members:
                 errs.append(f"{cid} 的 REQ 依赖「在册」，但必含件 WB-INST-0001 不在装配体")
 
-    # 3 哑火件：REQ 里的量条件与初态八量对照（初态从 §2.4 表读，简化：只看是否有明确不满足）
-    init = {}
-    for ln in body.splitlines():
-        m = re.match(r"^\|\s*\*\*?([财势名位时秘身信])\*\*?\s*\|\s*(-?\d+)", ln)
-        if m:
-            init[m.group(1)] = int(m.group(2))
+    # 16 初态八量完整性与格式（00 §十一 12.3.1）
+    # 先算初态：检查 3（哑火件）与检查 11（可达性）都要用它。
+    init, init_missing, init_probs = parse_init(body)
+    for p in init_probs:
+        errs.append(p)
+    if init_missing:
+        errs.append("初态八量不完整：缺 " + "、".join(init_missing) +
+                     "——配方不可复现，检查 3／11 的结论不可信（见 00 §十一 12.3.1）")
+
+    # 3 哑火件：REQ 里的量条件与初态八量对照
     for cid in members:
         req = cards.get(cid, {}).get("req", "")
         for q, op, val in re.findall(r"([财势名位时秘身信])\s*([<>≤≥=]+)\s*(-?\d+)", req):
@@ -298,12 +344,18 @@ def check_assembly(a, cards):
                       (op == "=" and v == n))
                 if not ok:
                     unsatisfied.append(f"{cid}: {q}{op}{val}（初 {q}={v}）")
-        deadlock = bool(unsatisfied)
-        verdict = ("不可达（状态门槛在初态即不满足）：" + "；".join(unsatisfied)) if deadlock \
-            else "至少一步可达"
+        if init_missing:
+            # 初态不全 ⇒ 「可达」结论不可信，必须报未判定而不是假绿灯（v2.9 修）
+            verdict = ("未判定（初态八量不完整，见检查 16）：" + "；".join(unsatisfied)
+                       if unsatisfied else "未判定（初态八量不完整，见检查 16）")
+            deadlock = False
+        else:
+            deadlock = bool(unsatisfied)
+            verdict = ("不可达（状态门槛在初态即不满足）：" + "；".join(unsatisfied)) if deadlock \
+                else "至少一步可达"
         infos.append(f"可达性：状态门槛型 {len(state_gated)} 件严格判定＝{verdict}；"
                      f"事件触发型 {len(event_driven)} 件＝未判定（不可严格规划，须随机采样坏状态）")
-        if deadlock:
+        if deadlock and not init_missing:
             errs.append("装配无解：状态门槛型零件的 REQ 在初态即不满足")
 
     # 12 dynamics 与硬瓶颈（G11/G13）：检查装配体是否回填了实值（非「待 B5 回填」）
@@ -319,12 +371,13 @@ def check_assembly(a, cards):
 
     # 14 差异性预算（v2.8 / 17号 P3）：刻意的反常是声明，不是豁免。
     # 只报 INFO，**不改任何 ERROR/WARN 判定**——否则 linter 从「判合法」滑向「判好坏」。
-    anomaly = field(a["body"], "本卷刻意的反常")
+    # 栏名：卷级写「本卷刻意的反常」，站区级写「本站刻意的反常」（00 §十一 12.7／12.8）。
+    anomaly = field(a["body"], "本卷刻意的反常") or field(a["body"], "本站刻意的反常")
     if anomaly and "无" not in anomaly[:4]:
-        infos.append(f"差异性预算：本卷登记刻意的反常——{anomaly[:80]}"
+        infos.append(f"差异性预算：本装配体登记刻意的反常——{anomaly[:80]}"
                      "（声明不豁免，合法性检查照常执行）")
 
-    # 15 健康度（G12）：孤岛件与交互密度
+    # 13 健康度（G12）：孤岛件与交互密度
     bite_deg = {cid: len(c.get("bite_ids", set())) for cid, c in cards.items()
                 if c.get("role") not in ("判定", "元")}
     islands = [cid for cid in members if bite_deg.get(cid, 0) < 2]
@@ -341,6 +394,22 @@ def check_assembly(a, cards):
     density = real_edges / max_pairs if max_pairs else 0
     infos.append(f"健康度：交互密度 {real_edges}/{max_pairs}＝{density:.0%}"
                  "（S² 乘法判据：3 件全互咬＝100%）")
+
+    # 15 粒度与站点声明（00 §十一 12.8）
+    gran = a.get("granularity", "")
+    site = a.get("site", "")
+    if not gran:
+        errs.append("缺 `粒度` 声明——须写「卷级」或「站区级」"
+                    "（见 00 §十一 12.8；缺声明这份装配体无法归档）")
+    elif gran not in GRANULARITIES:
+        errs.append(f"`粒度` 取值非法：{gran}（只允许「{'」或「'.join(GRANULARITIES)}」）")
+    if gran == "站区级":
+        if not site or site.startswith("—") or site.startswith("-"):
+            errs.append("站区级装配体缺 `站点` 声明——须写站区名（如「甲·册城」）")
+    elif gran == "卷级":
+        if site and not (site.startswith("—") or site.startswith("-")):
+            infos.append(f"卷级装配体写了站点「{site}」——若本站另有站区级装配体，"
+                         "两者不得共用同一批成员件（否则「逐站加载」失去意义）")
 
     return errs, warns, infos
 def coverage(assemblies, cards):
