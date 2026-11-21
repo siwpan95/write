@@ -50,7 +50,7 @@
    },
    "蜀山之撼天凡蚁登天路漫漫": {
     "docs": 141,
-    "net_chars": 1643367,
+    "net_chars": 1644329,
     "types": {
      "模板": 23,
      "设定": 100,
@@ -173,7 +173,7 @@
    },
    "通用模板包": {
     "docs": 24,
-    "net_chars": 301832,
+    "net_chars": 304648,
     "types": {
      "总览": 2,
      "模板": 22
@@ -322,7 +322,7 @@
   "orphan_sample": [
    "CHANGELOG.md"
   ],
-  "net_chars_total": 9553236
+  "net_chars_total": 9557014
  },
  "overrides_count": 31,
  "nodes": [
@@ -31571,7 +31571,7 @@
    "kind": "knowledge",
    "project": "蜀山之撼天凡蚁登天路漫漫",
    "role": "",
-   "net_chars": 3424,
+   "net_chars": 4386,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -34200,7 +34200,7 @@
    "kind": "knowledge",
    "project": "通用模板包",
    "role": "",
-   "net_chars": 22128,
+   "net_chars": 22419,
    "tags": [
     "方法论/模板",
     "资产/跨项目"
@@ -34501,7 +34501,7 @@
    "kind": "knowledge",
    "project": "通用模板包",
    "role": "",
-   "net_chars": 34507,
+   "net_chars": 35729,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -34578,7 +34578,7 @@
    "kind": "knowledge",
    "project": "通用模板包",
    "role": "",
-   "net_chars": 14074,
+   "net_chars": 15377,
    "tags": [
     "符号"
    ],

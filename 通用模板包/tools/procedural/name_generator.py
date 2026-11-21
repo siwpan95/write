@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-命名工厂 · name_generator.py（v3.18.5，随包脚本）
+命名工厂 · name_generator.py（v3.18.6，随包脚本）
 --------------------------------------------------------------------------
 对应模板：18-程序化创作与算法脚本模板.md §三.1（第 2 代：音节文法 + 去重）
 用途：批量生成玄幻/废土风格的备选专名（人名/势力/地名/怪物/功法），供
@@ -17,6 +17,10 @@
   --n     生成数量（默认 10）
   --seed  随机种子；同种子同结果（可复现性要求，见 18 §五 第 3 步）
   --surname-mix natural|compound|single|uniform  姓长策略（见 18 §三.1）
+  --name-structure mixed|plain|clan|hyphenated|legacy
+                    X族名+Y姓+Z名 三层结构（见 18 §三.1）：
+                    mixed=混合（默认）/ plain=无族名 / clan=必有族名 /
+                    hyphenated=双姓并列 / legacy=v3.18.5 旧行为
 退出码：0 成功。
 """
 import argparse
@@ -201,6 +205,123 @@ def surname_buckets(lex):
     return out
 
 
+# ── X+Y+Z 三层复合取名（v3.18.6）─────────────────────────────────
+#
+# 结构（全哥 2026-11-21 定）：X 族名（可有可无）＋ Y 姓 ＋ Z 名
+#
+# 依据：
+#   · sohu《原来你是这样的复姓丨三字姓、四字姓》明写
+#     「诸觉罗的前两（三）个字是地名或身份，后两个字是姓」——
+#     即 X（地名/身份/族名）＋ Y（姓）；「爱新」＝满语金，「觉罗」＝姓。
+#   · GB/T 28039-2011《中国人名汉语拼音字母拼写规则》§3.1/3.2/3.3：
+#     单姓 mono / 复姓 multi / 双姓 hyphenated（两姓并列，如郑李、欧阳陈、周东方）。
+#   · 国务院《通用规范汉字表》（2013）8105 字，三级字表专为姓氏人名；
+#     姓名不宜用英文字母/生僻字/自造字（见 14 §12.5 S-16~S-17）。
+#
+# 硬约束：**X 与 Y 必须按考据配对**——「爱新」配「觉罗」，不能配「欧阳」。
+# 配对表每个条目都要能在 S-15/S-16 里找到出处；不臆造组合。
+CLAN_SURNAME_PAIRS = {
+    # 觉罗系（sohu：诸觉罗的前两三字是地名或身份，后两字是姓）
+    "爱新": "觉罗", "伊尔根": "觉罗", "阿颜": "觉罗", "舒舒": "觉罗",
+    "西林": "觉罗", "通颜": "觉罗", "呼伦": "觉罗", "嘉木瑚": "觉罗",
+    "阿哈": "觉罗", "伊拉拉": "觉罗", "察拉": "觉罗",
+    # 那拉系（sohu：那拉氏有叶赫那拉、乌拉那拉、辉发那拉等分支）
+    "叶赫": "那拉", "乌拉": "那拉", "辉发": "那拉",
+    # 瓜尔佳系（S-15：苏完瓜尔佳氏、安图瓜尔佳氏）
+    "苏完": "瓜尔佳", "安图": "瓜尔佳",
+    # 富察系（S-16：讷殷富察氏谱传）
+    "讷殷": "富察",
+}
+
+# 姓名结构策略：控制 X 是否出现、Y 用哪种 GB/T 28039 分类
+NAME_STRUCTURES = {
+    # 权重：(无 X, X族名, 单姓, 复姓, 双姓) —— X 与 Y 的配对逻辑见 pick_name_parts
+    "mixed": {"x_rate": 15, "mono": 60, "multi": 25, "hyphenated": 15},
+    "plain": {"x_rate": 0,  "mono": 70, "multi": 30, "hyphenated": 0},
+    "clan":  {"x_rate": 100, "mono": 0,  "multi": 0,  "hyphenated": 0},  # 必有族名
+    "hyphenated": {"x_rate": 0, "mono": 0, "multi": 0, "hyphenated": 100},
+    "legacy": None,   # 旧行为：不分 Y 类型、无 X，直接从扁平姓池抽
+}
+
+# Z 层规范字校验：拒绝拉丁字母/数字/符号/自造字（非 CJK 基本区字符）。
+# ⚠️ 这是**保守的可用性校验**，不是《通用规范汉字表》8105 字的完整内嵌——
+# 本工具的 Z 层词池只取常用意象字，刻意避开生僻字；完整字表属户籍系统职责。
+import re as _re
+_NONSTANDARD_RE = _re.compile(r"[^\u4e00-\u9fff]")
+
+
+def validate_name_chars(name: str) -> tuple[bool, str]:
+    """返回 (是否合规, 说明)。只校验字形范围，不替代公安人口字库。"""
+    bad = _NONSTANDARD_RE.findall(name)
+    return (not bad, ("含非规范字形：%r" % "".join(sorted(set(bad)))) if bad else "OK")
+
+
+def surname_by_type(lex):
+    """按 GB/T 28039 把姓池分成 single（单姓）/ multi（复姓）两桶。
+    双姓不单独建池——运行时由两桶各抽一个并列组合（郑李/欧阳陈/周东方）。"""
+    return {
+        "single": [s for s in lex["surname"] if len(s) == 1],
+        "multi": [s for s in lex["surname"] if len(s) >= 2],
+    }
+
+
+def pick_name_parts(rng, lex, structure="mixed", mix="natural"):
+    """返回 (X族名 或 None, Y姓, y_type, z_head, z_tail, 单名标记)。
+
+    X 与 Y 按 CLAN_SURNAME_PAIRS 配对；无 X 时 Y 按 GB/T 28039 分类抽取。
+    """
+    cfg = NAME_STRUCTURES.get(structure, NAME_STRUCTURES["mixed"])
+    if cfg is None:                      # legacy：完全旧行为
+        return (None, pick_surname(rng, lex, mix), "legacy",
+                rng.choice(lex["name_head"]), rng.choice(lex["name_tail"]), False)
+
+    # X 层：仅 xuanhuan 有族名考据（reality 现实向无穆昆概念）
+    x = None
+    if lex is LEXICON_XUANHUAN and rng.random() * 100 < cfg["x_rate"]:
+        x = rng.choice(list(CLAN_SURNAME_PAIRS))
+
+    # Y 层
+    buckets = surname_by_type(lex)
+    if x is not None:
+        y = CLAN_SURNAME_PAIRS[x]
+        # 保留 GB/T 28039 分类（复姓），另在 breakdown 标出来源
+        y_type = "multi·族名配姓" if len(y) >= 2 else "single·族名配姓"
+    else:
+        keys = ["single", "multi", "hyphenated"]
+        wts = [cfg["mono"], cfg["multi"], cfg["hyphenated"]]
+        # ⚠️ 空桶检查**只针对 single/multi**：hyphenated 不是桶，
+        #    是运行时由两桶组合出来的，按桶判空会被永远归零
+        #    （实测踩坑：hyphenated 模式实测 0 个双姓，全是单姓）。
+        wts[0] = wts[0] if buckets.get("single") else 0
+        wts[1] = wts[1] if buckets.get("multi") else 0
+        wts[2] = wts[2] if (buckets.get("single") or buckets.get("multi")) else 0
+        if sum(wts) == 0:                # 全空则退回单姓
+            y_type = "single"
+        else:
+            y_type = rng.choices(keys, weights=wts, k=1)[0]
+        if y_type == "hyphenated":
+            # 双姓：单+单 / 复+单 / 单+复（GB/T 28039 §3.3 两姓并列）
+            pool_keys = [k for k in ("single", "multi") if buckets.get(k)]
+            first_pool = buckets[rng.choice(pool_keys)]
+            second_pool = buckets[rng.choice(pool_keys)]
+            a, b = rng.choice(first_pool), rng.choice(second_pool)
+            # 避免同姓并列（郑郑式无意义）；两姓相同则重抽第二个
+            guard = 0
+            while b == a and guard < 20 and (len(pool_keys) > 1 or len(first_pool) > 1):
+                second_pool = buckets[rng.choice(pool_keys)]
+                b = rng.choice(second_pool)
+                guard += 1
+            y = a + b
+        else:
+            y = rng.choice(buckets.get(y_type) or buckets["single"])
+
+    # Z 层：名头/名尾仍是单字（拆解按字切片，结构不变）
+    single = rng.random() < 0.25
+    z_head = rng.choice(lex["name_head"])
+    z_tail = rng.choice(lex["name_tail"]) if not single else ""
+    return (x, y, y_type, z_head, z_tail, single)
+
+
 def pick_surname(rng, lex, mix="natural"):
     """按 mix 策略抽姓。uniform 保持 v3.18.4 及以前的等概率行为。"""
     pool = lex["surname"]
@@ -217,21 +338,25 @@ def pick_surname(rng, lex, mix="natural"):
     return rng.choice(buckets[bucket])
 
 
-def _make(kind, rng, lex, surname_mix="natural"):
+def _make(kind, rng, lex, surname_mix="natural", name_structure="mixed"):
     """返回 (名字, 槽位拆解)——拆解供人工过审时定向改字（v3.12.2 实践反哺）。
 
-    v3.18.5：person 分支的姓由 `pick_surname` 按 mix 抽取，
-    **不对姓长做任何切片假设**（叶赫那拉/爱新觉罗等长姓整串参与拼接）。
+    v3.18.6：person 分支走 X+Y+Z 三层（族名+姓+名），其余类型不变。
     """
     if kind == "person":
-        surname = pick_surname(rng, lex, surname_mix)
-        # 姓长显式标注（人工过审时可直接看出是单姓/复姓/长姓）
-        snote = "姓=%s(%d字)" % (surname, len(surname))
-        given = rng.choice(lex["name_head"]) + rng.choice(lex["name_tail"])
-        if rng.random() < 0.25:                     # 少数单名
-            given = rng.choice(lex["name_head"])
-            return surname + given, "%s 单名=%s" % (snote, given)
-        return surname + given, "%s 名头=%s 名尾=%s" % (snote, given[0], given[1:])
+        # v3.18.6：X+Y+Z 三层，**显式传参**（不用隐式全局状态）
+        x, y, y_type, zh, zt, single = pick_name_parts(
+            rng, lex, name_structure, surname_mix)
+        full = (x or "") + y + zh + zt
+        ok, why = validate_name_chars(full)
+        if not ok:                                  # 规范字校验失败 ⇒ 重抽（不产出）
+            raise ValueError("姓名含非规范字形：%s（%s）" % (full, why))
+        # breakdown 显式标注 X/Y/Z 三层与 GB/T 28039 姓类型
+        parts = []
+        parts.append(("X族名=%s" % x) if x else "X族名=∅")
+        parts.append("Y姓=%s(%s,%d字)" % (y, y_type, len(y)))
+        parts.append("Z单名=%s" % zh if single else "Z名头=%s Z名尾=%s" % (zh, zt))
+        return full, " ".join(parts)
     if kind == "sect":
         head, tail = rng.choice(lex["sect_prefix"]), rng.choice(lex["sect_suffix"])
         return head + tail, "机构头=%s 机构尾=%s" % (head, tail)
@@ -253,11 +378,13 @@ def _make(kind, rng, lex, surname_mix="natural"):
     raise ValueError("未知类型：%s" % kind)
 
 
-def generate(kind, n, seed, profile="xuanhuan", surname_mix="natural"):
+def generate(kind, n, seed, profile="xuanhuan", surname_mix="natural",
+             name_structure="mixed"):
     """生成 n 个不重样的名字；返回 [(名字, 构造说明)]。固定种子可复现。
 
-    `surname_mix` 见 SURNAME_MIXES；新增参数放末尾且有默认值，
-    v3.18.4 及以前的调用（如 npc_card.py）无需改动即可继续工作。
+    `surname_mix` 见 SURNAME_MIXES（v3.18.5）；
+    `name_structure` 见 NAME_STRUCTURES（v3.18.6 的 X+Y+Z 三层）。
+    新参数均放末尾且有默认值，旧调用（如 npc_card.py）无需改动。
     """
     lex = PROFILES[profile]
     rng = random.Random(seed)
@@ -265,7 +392,7 @@ def generate(kind, n, seed, profile="xuanhuan", surname_mix="natural"):
     guard = 0
     while len(out) < n and guard < n * 200:
         guard += 1
-        name, breakdown = _make(kind, rng, lex, surname_mix)
+        name, breakdown = _make(kind, rng, lex, surname_mix, name_structure)
         if name in seen:
             continue
         if any(b in name for b in BLACKLIST):
@@ -288,19 +415,25 @@ def main():
     ap.add_argument("--surname-mix", default="natural", choices=sorted(SURNAME_MIXES),
                     help="姓长策略：natural=单姓70%%/复姓22%%/三字6%%/四字及以上2%%（默认）；"
                          "compound=只要复姓与长姓；single=只要单姓；uniform=全部等概率（v3.18.4 旧行为）")
+    ap.add_argument("--name-structure", default="mixed", choices=sorted(NAME_STRUCTURES),
+                    help="姓名三层结构（X族名+Y姓+Z名）：mixed=混合（默认）；plain=无族名；"
+                         "clan=必有族名（爱新+觉罗式）；hyphenated=双姓并列（郑李式）；"
+                         "legacy=v3.18.5 旧行为")
     ap.add_argument("--demo", action="store_true", help="各类型各出 3 个演示")
     args = ap.parse_args()
 
     if args.demo:
         for k in ("person", "sect", "place", "beast", "artifact"):
-            names = generate(k, 3, args.seed, args.profile, args.surname_mix)
+            names = generate(k, 3, args.seed, args.profile, args.surname_mix,
+                             args.name_structure)
             print("[%s] %s" % (k, "、".join(n for n, _ in names)))
         print("\n提示：加 --kind/--n/--seed/--profile/--surname-mix 定向生成；产出须人工过审并查重（18 §三.1）。")
         return 0
 
-    names = generate(args.kind, args.n, args.seed, args.profile, args.surname_mix)
-    print("命名工厂 · kind=%s n=%d seed=%d profile=%s surname-mix=%s（可复现）"
-          % (args.kind, args.n, args.seed, args.profile, args.surname_mix))
+    names = generate(args.kind, args.n, args.seed, args.profile, args.surname_mix,
+                     args.name_structure)
+    print("命名工厂 · kind=%s n=%d seed=%d profile=%s surname-mix=%s structure=%s（可复现）"
+          % (args.kind, args.n, args.seed, args.profile, args.surname_mix, args.name_structure))
     for name, note in names:
         print("  %-10s %s" % (name, note))
     print("\n验收门（18 §三.1）：重名率 0 / 抽 10 个人工判读违和≤1 / 与 03·04 专名查重 / 歧义黑名单过滤。")
