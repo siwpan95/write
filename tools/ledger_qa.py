@@ -61,7 +61,16 @@ import sys
 
 # ── peasy-ai AICore 定位（零三方依赖，核心内核环境下可用） ──────────────────
 def load_aicore():
-    """载入 easy_ai.AICore；若环境无 peasy-ai 则给出明确指引。"""
+    """载入 easy_ai.AICore；若环境无 peasy-ai 则给出明确指引。
+
+    ⚠️ **静音 peasy-ai 的 INFO 日志**（实测踩坑）：它初始化时打
+    「日志系统初始化完成」等 INFO，与本工具的答案一起写到 stdout —
+    `ledger_qa.py ask "..." | jq` 之类的管道会被日志污染。
+    数据通道必须纯净：答案走 stdout，诊断走 stderr（同 checker_protocol）。
+    """
+    import logging
+    logging.disable(logging.INFO)
+
     try:
         from easy_ai import AICore
         return AICore
@@ -111,6 +120,22 @@ QUESTION_TEMPLATES = {
         "{id}是什么设定", "{id} 是什么设定",
         "{id}的口径", "{id} 的口径",
         "{id}的设定是什么", "{id} 的设定是什么",
+    ],
+    # v3.18.3 增补（对接《廓者》06-连载护航的真实台账）
+    "timeline": [
+        "{id}是什么时候", "{id} 是什么时候",
+        "{id}发生了什么", "{id} 发生了什么",
+        "{id}锚点", "{id} 锚点",
+    ],
+    "thread": [
+        "{id}这条线", "{id} 这条线",
+        "{id}什么时候收束", "{id} 什么时候收束",
+        "{id}是什么线", "{id} 是什么线",
+    ],
+    "chapter": [
+        "第{id}章写了什么", "第 {id} 章写了什么",
+        "{id}章的台账", "{id} 章的台账",
+        "{id}章埋了什么", "{id} 章埋了什么",
     ],
 }
 
