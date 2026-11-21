@@ -12,7 +12,7 @@
 #    Linux/macOS 的 sha256sum -c 会因路径分隔符失配而全盘失败；现改为正斜杠。
 # 3) 哈希口径：一律取 git blob 字节（LF），不得按工作区字节计算（工作区可能是 CRLF 旧副本）。
 #    重算工具：python tools/manifest.py --write    校验：python tools/manifest.py --check
-b56957481b5658b76899aa57b5949958eabc4840913273cd9b369d06caf17201  00-总档与SOP.md
+a4c6b175c91bde9a8d8522ac8c64b97446c03277915324da3123a17d12ed83cc  00-总档与SOP.md
 38e51e81975afa7428b8949ab3990c4efdf748c2725da2afab50533e5cb4f66d  01-立项定位模板.md
 6e0583eace5fc4c397610bbc7e860cc3ebac6c105befece94127dcc363cd37fc  02-大纲四层模板.md
 998414dd48127108a904fe53905e83e296a382c4a20fe949316887ed02fcbf5c  03-世界观圣经模板.md
@@ -30,10 +30,10 @@ d90b69ddbf6b3cfc4a0a9552b0782237da4541e5f3cd7025d4e67b8677cbf653  13-世界先�
 1c35ee35d2dcb73db30e3cbcd27cea212955b1ed0f2b340186c3e932337bf8dd  15-附录-填法样例集.md
 e18cfdf01b414901ef9625b6d71bd65ee929f8d502568ef5c2195d7bf9306021  16-喜剧节奏与无厘头手法模板.md
 f433f8228603bf6649393f527da47005a2fa8cb64466f7c38b063c653827b459  17-字数增密与紫罗兰散文防控模板.md
-1c5acda66fe710d3d3f60dc51b51dad09fc29660ff3b32eb9901aa2b905197d4  18-程序化创作与算法脚本模板.md
+9595f2f36f1624834612f8042ff2766f6d819eb903a046cb3048f7c2ea5dc433  18-程序化创作与算法脚本模板.md
 bed42610ba52facc1fe753c6ad3e76b2787f398e3283e745e89bb8e92290ce57  README.md
 55bdf4a558314c5acccdd2bb31bb253b582142855ed15804dea8135fe28a5b57  审计与修复报告.md
-7e0533e6764cc859996a7aee624eaf03ec6e48e1404b91739a4aa5fa33fe29f7  校验报告.txt
+f2944ae558c239472fff4461c21978c9f90b5283b585eed765903b70a944dd8a  校验报告.txt
 df750674bad408d1de792e9b0b301d4e58e43b985b725093d7aada71529bf51f  tools/build_sample_pages.py
 9aa4bf76cd8e407666b57c209baab714b8654265b0001c704c484094dd0072a1  tools/check_package.py
 c72fb93fdff8e94b9f6717baf87cb6a06100d2ff200bad35bf177baf135bd2a7  tools/tab_lint.py
