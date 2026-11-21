@@ -28,6 +28,7 @@
       - ./content/parts-assembly.yml
       - ./content/kz-outline.yml
       - ./content/kz-beats.yml
+      - ./content/ccz-beats.yml
 
 - id: state
   config:

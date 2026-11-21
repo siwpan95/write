@@ -1,12 +1,12 @@
 {
  "schema": 1,
  "summary": {
-  "docs": 1668,
+  "docs": 1674,
   "derived_docs": 16,
   "by_type": {
-   "正文": 645,
-   "设定": 575,
-   "模板": 416,
+   "正文": 648,
+   "设定": 576,
+   "模板": 418,
    "总览": 32
   },
   "by_project": {
@@ -81,7 +81,7 @@
      "模板": 3,
      "总览": 1
     },
-    "links": 2589,
+    "links": 2595,
     "knowledge": 75,
     "knowledge_orphan": 0
    },
@@ -218,6 +218,19 @@
     "knowledge": 19,
     "knowledge_orphan": 0
    },
+   "创造主们的战争": {
+    "docs": 20,
+    "net_chars": 135573,
+    "types": {
+     "模板": 10,
+     "总览": 1,
+     "设定": 4,
+     "正文": 5
+    },
+    "links": 5,
+    "knowledge": 15,
+    "knowledge_orphan": 0
+   },
    "参考资料": {
     "docs": 17,
     "net_chars": 132500,
@@ -226,19 +239,6 @@
     },
     "links": 0,
     "knowledge": 17,
-    "knowledge_orphan": 0
-   },
-   "创造主们的战争": {
-    "docs": 14,
-    "net_chars": 107951,
-    "types": {
-     "模板": 8,
-     "总览": 1,
-     "设定": 3,
-     "正文": 2
-    },
-    "links": 0,
-    "knowledge": 12,
     "knowledge_orphan": 0
    },
    "格物录": {
@@ -309,20 +309,20 @@
     "knowledge_orphan": 0
    }
   },
-  "total_links": 2637,
+  "total_links": 2648,
   "total_broken": 0,
   "frontmatter_docs": 40,
   "tag_count": 156,
-  "knowledge_docs": 1023,
+  "knowledge_docs": 1026,
   "knowledge_orphans": 1,
   "knowledge_orphan_rate": 0.1,
-  "narrative_docs": 645,
+  "narrative_docs": 648,
   "narrative_orphans": 0,
   "orphan_count": 1,
   "orphan_sample": [
    "CHANGELOG.md"
   ],
-  "net_chars_total": 9557014
+  "net_chars_total": 9584636
  },
  "overrides_count": 31,
  "nodes": [
@@ -2292,13 +2292,14 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 1093,
+   "net_chars": 1408,
    "tags": [],
    "aliases": [],
    "out": [
     "创造主们的战争/作品总览.md",
     "创造主们的战争/分析/5章微循环梗概.md",
     "创造主们的战争/分析/卷一三章校验报告.md",
+    "创造主们的战争/分析/换站测试-候选3降级旧角色.md",
     "创造主们的战争/分析/换站测试.md",
     "创造主们的战争/00-创造主接入册.md",
     "创造主们的战争/01-立项定位-创造主们的战争.md",
@@ -2306,8 +2307,13 @@
     "创造主们的战争/03-世界观圣经-创造主们的战争.md",
     "创造主们的战争/04-人物卡-创造主们的战争.md",
     "创造主们的战争/09-立项书-创造主们的战争.md",
+    "创造主们的战争/10-节拍表与黄金三章施工-创造主们的战争.md",
     "创造主们的战争/12-品类IP合规前置-创造主们的战争.md",
     "创造主们的战争/13-世界先行与地图叙事-创造主们的战争.md",
+    "创造主们的战争/正文/00-正文索引.md",
+    "创造主们的战争/正文/第01章-两版都对.md",
+    "创造主们的战争/正文/第02章-缝合线两侧.md",
+    "创造主们的战争/正文/第03章-查无此人.md",
     "创造主们的战争/正文/第04章-字迹与垫章.md",
     "创造主们的战争/正文/第05章-半枚旧印.md"
    ],
@@ -6564,7 +6570,7 @@
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "",
-   "net_chars": 6350,
+   "net_chars": 6740,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -6584,7 +6590,7 @@
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "",
-   "net_chars": 15871,
+   "net_chars": 16179,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -6624,13 +6630,32 @@
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "",
-   "net_chars": 9619,
+   "net_chars": 10175,
    "tags": [],
    "aliases": [],
    "out": [],
    "in": [
     "PKM/01-MOC/MOC-创造主们的战争.md",
     "PKM/01-MOC/MOC-大纲节拍.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "创造主们的战争/10-节拍表与黄金三章施工-创造主们的战争.md",
+   "title": "节拍表与黄金三章施工 · 创造主们的战争",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "创造主们的战争",
+   "role": "",
+   "net_chars": 2664,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-创造主们的战争.md"
    ],
    "broken": [],
    "archived": false,
@@ -6684,7 +6709,7 @@
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "入口总览",
-   "net_chars": 3136,
+   "net_chars": 3291,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -6705,7 +6730,7 @@
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "",
-   "net_chars": 3043,
+   "net_chars": 3097,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -6737,18 +6762,122 @@
    "overridden": false
   },
   {
+   "path": "创造主们的战争/分析/换站测试-候选3降级旧角色.md",
+   "title": "换站测试 · 卷一区域卡（第二候选：被\"降级为支线\"的旧角色）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "创造主们的战争",
+   "role": "",
+   "net_chars": 2767,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-创造主们的战争.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
    "path": "创造主们的战争/分析/换站测试.md",
    "title": "换站测试 · 卷一区域卡（甲区「册城」）",
    "type": "设定",
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "",
-   "net_chars": 2550,
+   "net_chars": 2813,
    "tags": [],
    "aliases": [],
    "out": [],
    "in": [
     "PKM/01-MOC/MOC-创造主们的战争.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "创造主们的战争/正文/00-正文索引.md",
+   "title": "正文索引 · 卷一（5 章）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "创造主们的战争",
+   "role": "正文",
+   "net_chars": 1078,
+   "tags": [],
+   "aliases": [],
+   "out": [
+    "创造主们的战争/正文/第01章-两版都对.md",
+    "创造主们的战争/正文/第02章-缝合线两侧.md",
+    "创造主们的战争/正文/第03章-查无此人.md",
+    "创造主们的战争/正文/第04章-字迹与垫章.md",
+    "创造主们的战争/正文/第05章-半枚旧印.md"
+   ],
+   "in": [
+    "PKM/01-MOC/MOC-创造主们的战争.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "创造主们的战争/正文/第01章-两版都对.md",
+   "title": "第01章-两版都对",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "创造主们的战争",
+   "role": "正文",
+   "net_chars": 7132,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-创造主们的战争.md",
+    "创造主们的战争/正文/00-正文索引.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "创造主们的战争/正文/第02章-缝合线两侧.md",
+   "title": "第02章-缝合线两侧",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "创造主们的战争",
+   "role": "正文",
+   "net_chars": 5440,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-创造主们的战争.md",
+    "创造主们的战争/正文/00-正文索引.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "创造主们的战争/正文/第03章-查无此人.md",
+   "title": "第03章-查无此人",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "创造主们的战争",
+   "role": "正文",
+   "net_chars": 6794,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-创造主们的战争.md",
+    "创造主们的战争/正文/00-正文索引.md"
    ],
    "broken": [],
    "archived": false,
@@ -6767,7 +6896,8 @@
    "aliases": [],
    "out": [],
    "in": [
-    "PKM/01-MOC/MOC-创造主们的战争.md"
+    "PKM/01-MOC/MOC-创造主们的战争.md",
+    "创造主们的战争/正文/00-正文索引.md"
    ],
    "broken": [],
    "archived": false,
@@ -6781,12 +6911,13 @@
    "kind": "narrative",
    "project": "创造主们的战争",
    "role": "正文",
-   "net_chars": 10474,
+   "net_chars": 10495,
    "tags": [],
    "aliases": [],
    "out": [],
    "in": [
-    "PKM/01-MOC/MOC-创造主们的战争.md"
+    "PKM/01-MOC/MOC-创造主们的战争.md",
+    "创造主们的战争/正文/00-正文索引.md"
    ],
    "broken": [],
    "archived": false,

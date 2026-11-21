@@ -2,7 +2,7 @@
 # 生成器：tools/procedural/md2dse.py beats
 pack:
   id: kz-beats
-  name: 廓者未名夜 · 节拍表投影
+  name: "廓者未名夜 · 节拍表投影"
   version: 0.1.0
   entry: beat-index
 scenes:

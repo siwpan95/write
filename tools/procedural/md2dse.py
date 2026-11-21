@@ -236,7 +236,7 @@ def convert_outline(src: Path, out: Path) -> int:
 # 转换器 · beats（节拍表）
 # ==============================================================================
 
-def convert_beats(src: Path, out: Path) -> int:
+def convert_beats(src: Path, out: Path, pack_id: str = "kz-beats") -> int:
     """节拍表 → 场景序列。
 
     映射规则（按真实四列表：拍 / 名称 / 本书落点 / 卷）：
@@ -244,7 +244,10 @@ def convert_beats(src: Path, out: Path) -> int:
       · 本书落点 → 场景 text（**信息主体**，不能丢）
       · 卷      → `onEnter` 的标记（人读，不进条件）
       · 相邻拍  → goto 链
-      · 自带 `kz-beat-index` 场景 → 可由顶层 index 汇总
+      · 自带 `<prefix>-beat-index` 场景 → 可由顶层 index 汇总
+
+    `pack_id` 可配（v3.18.7）：多作品并存时需唯一 ID，否则后者覆盖前者。
+    默认值 `kz-beats` 及其 index 场景 ID `beat-index` 保持不变（向后兼容）。
     """
     text = read_text(src)
     # 定位「15 拍 → 卷框架」那张表（1.1 全书级节拍表）
@@ -270,13 +273,16 @@ def convert_beats(src: Path, out: Path) -> int:
         print("[FAIL] 节拍表解析为空", file=sys.stderr)
         return 1
 
-    idx_sid = "beat-index"
+    # index 场景 ID 随 pack_id 派生：默认 kz-beats → beat-index（兼容旧包）；
+    # 其它包（如 ccz-beats）→ ccz-beat-index，避免跨包同 ID 互相覆盖。
+    idx_sid = "beat-index" if pack_id == "kz-beats" else pack_id.replace("-beats", "") + "-beat-index"
+    pack_name = "廓者未名夜 · 节拍表投影" if pack_id == "kz-beats" else (pack_id.replace("-", " ") + " · 节拍表投影")
     lines: list[str] = [
         "# 自动生成 —— 勿手改（派生源：%s）" % src.as_posix(),
         "# 生成器：tools/procedural/md2dse.py beats",
         "pack:",
-        "  id: kz-beats",
-        "  name: 廓者未名夜 · 节拍表投影",
+        f"  id: {pack_id}",
+        f"  name: {yaml_quote(pack_name)}",
         "  version: 0.1.0",
         f"  entry: {idx_sid}",
         "scenes:",
@@ -944,6 +950,8 @@ def main(argv: list[str] | None = None) -> int:
     p_beats = sub.add_parser("beats", help="节拍表 → 场景序列")
     p_beats.add_argument("source")
     p_beats.add_argument("-o", "--output")
+    p_beats.add_argument("--pack-id", default="kz-beats",
+                         help="内容包 ID（多作品并存须唯一；默认 kz-beats 兼容旧包）")
 
     p_parts = sub.add_parser("parts", help="零件库装配体 → 装配路径场景链")
     p_parts.add_argument("source", help="零件库目录（含 装配体/ 与 0X-*.md）")
@@ -987,6 +995,8 @@ def main(argv: list[str] | None = None) -> int:
 
     fn = {"outline": convert_outline, "beats": convert_beats,
           "parts": convert_parts, "assembly": convert_assembly}[args.cmd]
+    if args.cmd == "beats":
+        return fn(src, out, args.pack_id)
     return fn(src, out)
 
 

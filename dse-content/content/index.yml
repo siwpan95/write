@@ -19,7 +19,7 @@ pack:
 scenes:
   index:
     title: write 仓 · 可执行结构总览
-    text: '把规划层文档变成可校验的结构。当前挂载：零件库咬合图、零件库装配路径、廓者四层大纲、廓者 15 拍节拍表。'
+    text: '把规划层文档变成可校验的结构。当前挂载：零件库咬合图、零件库装配路径、廓者四层大纲、廓者 15 拍、创造主们战争 15 拍。'
     onEnter:
       visits:
         index: +1
@@ -32,3 +32,5 @@ scenes:
         goto: kz-index
       - text: 《廓者：未名夜》· 全书 15 拍节拍表
         goto: beat-index
+      - text: 《创造主们的战争》· 第一卷 15 拍节拍表
+        goto: ccz-beat-index
