@@ -185,6 +185,25 @@
     # 对网文正文大量假阳性，不进汇总。要看全量用：
     #   python tools/checkers/prose_style_check.py --root .
 
+- id: checker-dse
+  name: ./plugins/18-checker-dse.mjs
+  inject:
+    - config
+    - runner
+    - checkers
+  config:
+    # 适配器（把 dse-core 三道门的结果包成协议 JSON）
+    adapter: ./tools/checkers/dse_check.py
+    # 内容包工程目录（相对仓根）
+    # 内容包 = 规划层文档的机器可读投影（YAML），由 tools/procedural/md2dse.py
+    # 从 SSOT 派生。**不是正文**，也不进正文层。
+    project: ./dse-content
+    # 闸门口径：check 失败（Schema/悬空跳转）＝ ERROR；
+    #           coverage 缺来源结局 ＝ ERROR；
+    #           traverse 截断（撞 max-revisit/max-steps）＝ WARN（如实上报）；
+    #           dse-core 未安装 ＝ ERROR（**不静默跳过** —— 廓者未名夜的教训：
+    #           不在扫描视角内的「通过」等于闸门失效）
+
 - id: report
   name: ./plugins/20-report.mjs
   inject:

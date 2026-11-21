@@ -1,0 +1,48 @@
+# dse.yml —— write 工作区 · 叙事内容包引擎配置
+#
+# 用途：把 write 仓的**规划层文档**（四层大纲 / 节拍表 / 零件库）
+#       变成 dse-core 可执行、可校验的场景图。
+#
+# 纪律：
+#   · 内容包是**数据**（YAML），不是代码 —— 表达式走 AST 白名单求值。
+#   · 内容包**单向由规划文档派生**（tools/procedural/md2dse.py），不手改。
+#   · 引擎零改动 —— 只改本文件与 content/ 下的 YAML。
+#   · **本文件不装任何插件能力**（combat/trade/diary/dialogue 暂不启用）：
+#     write 仓的规划层不需要战斗与经营模式；启用会让「用了能力却没装插件」
+#     的场景直接响亮报错，徒增噪音。
+#
+# 配套文档：dse-content/docs/内容包规范.md（五条实测铁律在此）
+
+# ── 内核层 ──────────────────────────────────────────────────────
+- id: scenes
+  config:
+    # 内容包列表（后者覆盖前者同 ID 场景）
+    packs:
+      - ./content/kz-outline.yml
+
+- id: state
+  config:
+    # 状态初始值 —— **内容包里用到的每个顶层字段都必须在此预声明**，
+    # 否则条件表达式求值抛 NameError（dse check 也会拦）。
+    # 声明由 md2dse.py 从内容包自动推导后回填，勿手改。
+    initial:
+      # 场景计数与索引（由转换器生成）
+      visits: {}
+      seg_index: 0
+      # 规划层状态（廓者：未名夜 · 通用骨架值）
+      trust: 40
+      soul: 10
+      hp: 20
+      maxHp: 20
+      gold: 20
+      order: 0
+      # 标志位树（布尔与计数混合，点路径写入）
+      flags: {}
+      items: {}
+
+- id: io
+
+- id: engine
+  config:
+    entry: seg-01
+    prompt: '>> '

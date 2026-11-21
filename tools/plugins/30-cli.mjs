@@ -53,13 +53,28 @@ export const Cli = {
         return doctor()
       }
 
+      // ---- python：输出工具链实际使用的解释器路径 ----
+      // bootstrap 需要用**同一个**解释器装 Python 依赖。
+      // 各自探测解释器会装错地方（本机实测：bootstrap 探测到 PATH 上的
+      // E 盘 Python，Cordis 实际用 WorkBuddy 托管的 envs/default —— 依赖装错
+      // ⇒ 闸门侧 dse_core 不可导入 ⇒ 增强层检查器降级）。
+      // 故此处由 Cordis 单一真理源输出路径，bootstrap 直接取用。
+      //
+      // 路径写 **stderr** 而非 stdout：cordis logger 写 stdout，混在一起
+      // 会让调用方拿到多行垃圾。约定「stdout 是数据通道，诊断走 stderr」
+      // （与 tools/checker_protocol.py 同源）。
+      if (cmd === 'python') {
+        process.stderr.write(ctx.config.python + '\n')
+        return 0
+      }
+
       // ---- PKM 子命令族：pkm build / search / links / graph / doctor ----
       if (cmd === 'pkm') {
         return await pkmCommand(rest)
       }
 
       if (cmd !== 'check') {
-        ctx.logger.error('未知命令：%s（可用：check / list / doctor / pkm）', cmd)
+        ctx.logger.error('未知命令：%s（可用：check / list / doctor / pkm / python）', cmd)
         return 2
       }
 

@@ -6,18 +6,28 @@
 #
 #   git clone <repo> && cd write && bash tools/bootstrap.sh
 #
-# 做五件事：
+# 做七件事：
 #   1. 环境自检（Node / Python / git）
 #   2. 装 Node 依赖（cordis 等；node_modules 不入库）
-#   3. 重建 PKM 索引 + 图谱 + MOC（派生产物，10 秒）
-#   4. 跑一遍闸门（npm run check），确认放行
-#   5. 尽力而为地同步远端（Gitee + GitHub，重试 3 次）
+#   3. 装 Python 依赖（requirements.txt；闸门增强层用）
+#   4. 重建 PKM 索引 + 图谱 + MOC（派生产物，10 秒）
+#   5. 跑一遍闸门（npm run check），确认放行
+#   6. 尽力而为地同步远端（Gitee + GitHub，重试 3 次）
+#   7. 产物失配检测（入库产物 vs 实际状态）
 #
 # 纪律：
 #   · **幂等** —— 重复跑安全，不会破坏已有内容。
 #   · **只读源文件** —— 不修改任何 Markdown（PKM 内核只读）。
 #   · **零硬编码路径** —— 不写死盘符/用户名，一切相对仓根。
 #   · **失败可见** —— 任一步失败即中止并报出原因，不静默跳过。
+#
+# 关于 Python 依赖（2026-11-21 增补）
+# ----------------------------------
+# `requirements.txt` 声明**闸门增强层**的依赖（当前只有 dse-core）。
+# 核心内核（doc_review / pkm / metrics / rules / prose-style）仍是
+# 纯标准库 —— 缺依赖只影响增强层检查器，不影响核心闸门。
+# 依赖缺失时 dse 检查器**报 ERROR 并给出安装指引**，不静默跳过
+# （廓者未名夜的教训：不在扫描视角内的「通过」等于闸门失效）。
 #
 # 退出码：0 部署成功 ／ 1 环境不满足 ／ 2 某一步失败
 #
@@ -52,7 +62,7 @@ printf "  仓根：%s\n" "$REPO_ROOT"
 # ==============================================================================
 # 1. 环境自检
 # ==============================================================================
-step "1/6 环境自检"
+step "1/7 环境自检"
 
 # --- Node ---
 NODE_OK=0
@@ -71,34 +81,48 @@ else
 fi
 
 # --- Python ---
+# 关键：**必须与工具链实际使用的解释器一致**。
+# 各自探测会装错地方 —— 本机实测：PATH 上的 python 指向 E 盘 Python314，
+# 而 Cordis 的 findPython 选的是 WorkBuddy 托管的 envs/default。
+# 依赖装到 A、闸门用 B ⇒ 增强层检查器（dse）在闸门侧静默降级。
+# 故先问 Cordis（单一真理源），问不到再退回本地探测。
 PYTHON=""
-for cand in \
-  "${PYTHON:-}" "${WRITE_PYTHON:-}" \
-  "$(command -v python3 2>/dev/null || true)" \
-  "$(command -v python 2>/dev/null || true)" \
-  "$(command -v py 2>/dev/null || true)"
-do
-  [ -n "$cand" ] || continue
-  if command -v "$cand" >/dev/null 2>&1; then
-    if "$cand" -c "import sys; sys.exit(0 if sys.version_info>=(3,9) else 1)" 2>/dev/null; then
-      PYTHON="$cand"
-      break
-    fi
-  fi
-done
-# Windows 常见安装位置（不写死具体用户名/版本）
-if [ -z "$PYTHON" ]; then
-  for cand in "$LOCALAPPDATA/Programs/Python/Python3"*/python.exe \
-              "$LOCALAPPDATA/Programs/Python/Python3"*/python3.exe \
-              "/c/Program Files/Python3"*/python.exe; do
-    if [ -x "$cand" ]; then PYTHON="$cand"; break; fi
-  done
-fi
-if [ -n "$PYTHON" ]; then
-  ok "Python $("$PYTHON" -V 2>&1) （$PYTHON）"
+# 路径走 stderr（cordis logger 写 stdout，混在一起会拿到多行垃圾）
+CORDIS_PY="$(node tools/host.mjs python 2>&1 >/dev/null | tail -1 || true)"
+if [ -n "$CORDIS_PY" ] && [ -x "$CORDIS_PY" ]; then
+  PYTHON="$CORDIS_PY"
+  ok "Python $("$PYTHON" -V 2>&1) （工具链实际使用：$PYTHON）"
 else
-  warn "未找到 Python 3.9+ —— PKM 内核与检查器无法运行"
-  hint "装 Python：https://www.python.org/downloads/  （勾选 Add to PATH）"
+  for cand in \
+    "${PYTHON:-}" "${WRITE_PYTHON:-}" \
+    "$(command -v python3 2>/dev/null || true)" \
+    "$(command -v python 2>/dev/null || true)" \
+    "$(command -v py 2>/dev/null || true)"
+  do
+    [ -n "$cand" ] || continue
+    if command -v "$cand" >/dev/null 2>&1; then
+      if "$cand" -c "import sys; sys.exit(0 if sys.version_info>=(3,9) else 1)" 2>/dev/null; then
+        PYTHON="$cand"
+        break
+      fi
+    fi
+  done
+  # Windows 常见安装位置（不写死具体用户名/版本）
+  if [ -z "$PYTHON" ]; then
+    for cand in "$LOCALAPPDATA/Programs/Python/Python3"*/python.exe \
+                "$LOCALAPPDATA/Programs/Python/Python3"*/python3.exe \
+                "/c/Program Files/Python3"*/python.exe; do
+      if [ -x "$cand" ]; then PYTHON="$cand"; break; fi
+    done
+  fi
+  if [ -n "$PYTHON" ]; then
+    ok "Python $("$PYTHON" -V 2>&1) （$PYTHON）"
+    warn "未取到工具链实际使用的解释器（node tools/host.mjs python 失败）"
+    hint "依赖可能装到与闸门不同的解释器 —— 装完请用 `npm run doctor` 复核"
+  else
+    warn "未找到 Python 3.9+ —— PKM 内核与检查器无法运行"
+    hint "装 Python：https://www.python.org/downloads/  （勾选 Add to PATH）"
+  fi
 fi
 
 # --- git ---
@@ -117,7 +141,7 @@ export WRITE_PYTHON="$PYTHON"
 # ==============================================================================
 # 2. 装 Node 依赖
 # ==============================================================================
-step "2/6 安装 Node 依赖（cordis 等；node_modules 不入库）"
+step "2/7 安装 Node 依赖（cordis 等；node_modules 不入库）"
 if [ -d node_modules ] && [ -d node_modules/cordis ]; then
   ok "node_modules 已存在且含 cordis —— 跳过安装（幂等）"
 else
@@ -130,16 +154,48 @@ else
 fi
 
 # ==============================================================================
-# 3. 重建 PKM 索引 + 图谱 + MOC
+# 3. 装 Python 依赖
 # ==============================================================================
-step "3/6 重建 PKM 索引 / 图谱 / MOC（派生产物，10 秒）"
+step "3/7 安装 Python 依赖（requirements.txt · 闸门增强层）"
+if [ ! -f requirements.txt ]; then
+  warn "无 requirements.txt —— 跳过（核心内核不依赖三方包，仍可运行）"
+else
+  # 幂等：已装的跳过。--disable-pip-version-check 避免刷屏。
+  PIP_ARGS="--disable-pip-version-check --no-input"
+  if "$PYTHON" -m pip --version >/dev/null 2>&1; then
+    # 先探测是否已满足（避免每次都联网）
+    NEED_PIP=0
+    if ! "$PYTHON" -c "import dse_core" >/dev/null 2>&1; then
+      NEED_PIP=1
+    fi
+    if [ "$NEED_PIP" -eq 0 ]; then
+      ok "Python 依赖已就绪（dse_core 可导入）—— 跳过安装（幂等）"
+    else
+      if "$PYTHON" -m pip install $PIP_ARGS -r requirements.txt 2>&1 | sed 's/^/    /'; then
+        ok "Python 依赖安装完成"
+      else
+        warn "Python 依赖安装失败 —— 增强层检查器（dse）将报 ERROR"
+        hint "手动重试：$PYTHON -m pip install -r requirements.txt"
+        hint "不影响核心闸门（doc_review / pkm / metrics 等仍可运行）"
+      fi
+    fi
+  else
+    warn "pip 不可用 —— 跳过 Python 依赖安装"
+    hint "装 pip：$PYTHON -m ensurepip --upgrade"
+  fi
+fi
+
+# ==============================================================================
+# 4. 重建 PKM 索引 + 图谱 + MOC
+# ==============================================================================
+step "4/7 重建 PKM 索引 / 图谱 / MOC（派生产物，10 秒）"
 "$PYTHON" tools/pkm/pkm_cli.py build --root "$REPO_ROOT" 2>&1 | sed 's/^/    /'
 ok "PKM 产物已生成"
 
 # ==============================================================================
-# 4. 跑闸门
+# 5. 跑闸门
 # ==============================================================================
-step "4/6 跑闸门（npm run check）"
+step "5/7 跑闸门（npm run check）"
 if node tools/host.mjs check >/tmp/write-check.log 2>&1; then
   ok "闸门通过 —— ERROR 0，可放行"
 else
@@ -157,7 +213,7 @@ fi
 # ==============================================================================
 # 5. 双端同步（可选 · 尽力而为）
 # ==============================================================================
-step "5/6 同步远端（Gitee + GitHub · 尽力而为）"
+step "6/7 同步远端（Gitee + GitHub · 尽力而为）"
 CUR_BRANCH="$(git -C "$REPO_ROOT" rev-parse --abbrev-ref HEAD 2>/dev/null || echo master)"
 for remote in origin github; do
   if ! git -C "$REPO_ROOT" remote get-url "$remote" >/dev/null 2>&1; then
@@ -210,7 +266,7 @@ done
 # ==============================================================================
 # 6. 产物失配检测（入库产物是否与实际状态同步）
 # ==============================================================================
-step "6/6 产物失配检测（入库产物 vs 实际状态）"
+step "7/7 产物失配检测（入库产物 vs 实际状态）"
 # 新增笔记/改设定后，连接图谱会变，而入库产物（graph.json / MOC）不会自动跟着变。
 # 若不失配检测，指标（如「孤立率 0.0%」）会悄悄失真 —— 且没人会发现。
 if git -C "$REPO_ROOT" diff --quiet -- PKM/ 2>/dev/null; then

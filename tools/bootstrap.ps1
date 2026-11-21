@@ -10,6 +10,14 @@
 #
 # 纪律：幂等 / 只读源文件 / 零硬编码路径 / 失败可见
 #
+# 关于 Python 依赖（2026-11-21 增补）
+# ----------------------------------
+# `requirements.txt` 声明**闸门增强层**的依赖（当前只有 dse-core）。
+# 核心内核（doc_review / pkm / metrics / rules / prose-style）仍是
+# 纯标准库 —— 缺依赖只影响增强层检查器，不影响核心闸门。
+# 依赖缺失时 dse 检查器**报 ERROR 并给出安装指引**，不静默跳过
+# （廓者未名夜的教训：不在扫描视角内的「通过」等于闸门失效）。
+#
 # 退出码：0 部署成功 ／ 1 环境不满足 ／ 2 某一步失败
 #
 # 作者：WorkBuddy ｜ 2026-11-13
@@ -43,7 +51,7 @@ Write-Host "  仓根：$RepoRoot"
 # ==============================================================================
 # 1. 环境自检
 # ==============================================================================
-Write-Step "1/6 环境自检"
+Write-Step "1/7 环境自检"
 
 # --- Node ---
 $nodeOk = $false
@@ -62,31 +70,52 @@ if (Get-Command node -ErrorAction SilentlyContinue) {
 }
 
 # --- Python ---
+# 关键：**必须与工具链实际使用的解释器一致**。
+# 各自探测会装错地方 —— 本机实测：PATH 上的 python 指向 E 盘 Python314，
+# 而 Cordis 的 findPython 选的是 WorkBuddy 托管的 envs/default。
+# 依赖装到 A、闸门用 B ⇒ 增强层检查器（dse）在闸门侧静默降级。
+# 故先问 Cordis（单一真理源），问不到再退回本地探测。
 $pythonExe = $null
-$pyCandidates = @()
-if ($env:PYTHON)    { $pyCandidates += $env:PYTHON }
-if ($env:WRITE_PYTHON) { $pyCandidates += $env:WRITE_PYTHON }
-foreach ($cmd in @('python', 'python3', 'py')) {
-    $c = Get-Command $cmd -ErrorAction SilentlyContinue
-    if ($c) { $pyCandidates += $c.Source }
-}
-# Windows 常见安装位置（用通配而非写死版本）
-$pyCandidates += Get-ChildItem -Path "$env:LOCALAPPDATA\Programs\Python\Python3*\python.exe" -ErrorAction SilentlyContinue | ForEach-Object { $_.FullName }
-$pyCandidates += Get-ChildItem -Path "C:\Program Files\Python3*\python.exe" -ErrorAction SilentlyContinue | ForEach-Object { $_.FullName }
-
-foreach ($cand in $pyCandidates) {
-    if (-not $cand) { continue }
-    try {
-        & $cand -c "import sys; sys.exit(0 if sys.version_info>=(3,9) else 1)" 2>$null
-        if ($LASTEXITCODE -eq 0) { $pythonExe = $cand; break }
-    } catch { }
-}
-if ($pythonExe) {
-    $pyVer = (& $pythonExe -V 2>&1) -join ' '
-    Write-Ok "Python $pyVer （$pythonExe）"
+$cordisPy = $null
+try {
+    # 路径走 stderr（cordis logger 写 stdout，混在一起会拿到多行垃圾）。
+    # 注意：2>&1 会把 stderr 行变成 ErrorRecord 对象 —— 不能用 `-is [string]` 过滤，
+    # 必须转成字符串再匹配。本机实测踩过：类型过滤导致一条都没匹配上。
+    $raw = & node tools/host.mjs python 2>&1 | ForEach-Object { [string]$_ }
+    $hit = $raw | Where-Object { $_ -match '\.exe$' -or $_ -match '/python[0-9.]*$' }
+    if ($hit) { $cordisPy = @($hit)[-1].Trim() }
+} catch { }
+if ($cordisPy -and (Test-Path $cordisPy)) {
+    $pythonExe = $cordisPy.Trim()
+    Write-Ok "Python $((& $pythonExe -V 2>&1) -join ' ') （工具链实际使用：$pythonExe）"
 } else {
-    Write-Warn "未找到 Python 3.9+ —— PKM 内核与检查器无法运行"
-    Write-Hint "装 Python：https://www.python.org/downloads/  （勾选 Add to PATH）"
+    $pyCandidates = @()
+    if ($env:PYTHON)    { $pyCandidates += $env:PYTHON }
+    if ($env:WRITE_PYTHON) { $pyCandidates += $env:WRITE_PYTHON }
+    foreach ($cmd in @('python', 'python3', 'py')) {
+        $c = Get-Command $cmd -ErrorAction SilentlyContinue
+        if ($c) { $pyCandidates += $c.Source }
+    }
+    # Windows 常见安装位置（用通配而非写死版本）
+    $pyCandidates += Get-ChildItem -Path "$env:LOCALAPPDATA\Programs\Python\Python3*\python.exe" -ErrorAction SilentlyContinue | ForEach-Object { $_.FullName }
+    $pyCandidates += Get-ChildItem -Path "C:\Program Files\Python3*\python.exe" -ErrorAction SilentlyContinue | ForEach-Object { $_.FullName }
+
+    foreach ($cand in $pyCandidates) {
+        if (-not $cand) { continue }
+        try {
+            & $cand -c "import sys; sys.exit(0 if sys.version_info>=(3,9) else 1)" 2>$null
+            if ($LASTEXITCODE -eq 0) { $pythonExe = $cand; break }
+        } catch { }
+    }
+    if ($pythonExe) {
+        $pyVer = (& $pythonExe -V 2>&1) -join ' '
+        Write-Ok "Python $pyVer （$pythonExe）"
+        Write-Warn "未取到工具链实际使用的解释器（node tools/host.mjs python 失败）"
+        Write-Hint "依赖可能装到与闸门不同的解释器 —— 装完请用 `npm run doctor` 复核"
+    } else {
+        Write-Warn "未找到 Python 3.9+ —— PKM 内核与检查器无法运行"
+        Write-Hint "装 Python：https://www.python.org/downloads/  （勾选 Add to PATH）"
+    }
 }
 
 # --- git ---
@@ -154,7 +183,7 @@ $env:WRITE_PYTHON = $pythonExe
 # ==============================================================================
 # 2. 装 Node 依赖
 # ==============================================================================
-Write-Step "2/6 安装 Node 依赖（cordis 等；node_modules 不入库）"
+Write-Step "2/7 安装 Node 依赖（cordis 等；node_modules 不入库）"
 if ($SkipInstall) {
     Write-Ok "已指定 -SkipInstall —— 跳过"
 } elseif ((Test-Path 'node_modules\cordis')) {
@@ -167,17 +196,49 @@ if ($SkipInstall) {
 }
 
 # ==============================================================================
-# 3. 重建 PKM 索引 + 图谱 + MOC
+# 3. 装 Python 依赖
 # ==============================================================================
-Write-Step "3/6 重建 PKM 索引 / 图谱 / MOC（派生产物，10 秒）"
+Write-Step "3/7 安装 Python 依赖（requirements.txt · 闸门增强层）"
+if ($SkipInstall) {
+    Write-Ok "已指定 -SkipInstall —— 跳过"
+} elseif (-not (Test-Path 'requirements.txt')) {
+    Write-Warn "无 requirements.txt —— 跳过（核心内核不依赖三方包，仍可运行）"
+} else {
+    # 幂等：已装则跳过（避免每次都联网）
+    & $pythonExe -c "import dse_core" 2>$null
+    if ($LASTEXITCODE -eq 0) {
+        Write-Ok "Python 依赖已就绪（dse_core 可导入）—— 跳过安装（幂等）"
+    } else {
+        & $pythonExe -m pip --version *> $null
+        if ($LASTEXITCODE -ne 0) {
+            Write-Warn "pip 不可用 —— 跳过 Python 依赖安装"
+            Write-Hint "装 pip：$pythonExe -m ensurepip --upgrade"
+        } else {
+            & $pythonExe -m pip install --disable-pip-version-check --no-input -r requirements.txt 2>&1 |
+                ForEach-Object { Write-Host "    $_" -ForegroundColor DarkGray }
+            if ($LASTEXITCODE -eq 0) {
+                Write-Ok "Python 依赖安装完成"
+            } else {
+                Write-Warn "Python 依赖安装失败 —— 增强层检查器（dse）将报 ERROR"
+                Write-Hint "手动重试：$pythonExe -m pip install -r requirements.txt"
+                Write-Hint "不影响核心闸门（doc_review / pkm / metrics 等仍可运行）"
+            }
+        }
+    }
+}
+
+# ==============================================================================
+# 4. 重建 PKM 索引 + 图谱 + MOC
+# ==============================================================================
+Write-Step "4/7 重建 PKM 索引 / 图谱 / MOC（派生产物，10 秒）"
 & $pythonExe tools/pkm/pkm_cli.py build --root $RepoRoot 2>&1 | ForEach-Object { Write-Host "    $_" -ForegroundColor DarkGray }
 if ($LASTEXITCODE -ne 0) { Write-Die "PKM 构建失败（退出码 $LASTEXITCODE）" 2 }
 Write-Ok "PKM 产物已生成"
 
 # ==============================================================================
-# 4. 跑闸门
+# 5. 跑闸门
 # ==============================================================================
-Write-Step "4/6 跑闸门（npm run check）"
+Write-Step "5/7 跑闸门（npm run check）"
 if ($SkipCheck) {
     Write-Ok "已指定 -SkipCheck —— 跳过"
 } else {
@@ -200,7 +261,7 @@ if ($SkipCheck) {
 # ==============================================================================
 # 5. 双端同步（可选 · 尽力而为）
 # ==============================================================================
-Write-Step "5/6 同步远端（Gitee + GitHub · 尽力而为）"
+Write-Step "6/7 同步远端（Gitee + GitHub · 尽力而为）"
 $branch = (git -C $RepoRoot rev-parse --abbrev-ref HEAD 2>$null)
 if (-not $branch) { $branch = 'master' }
 foreach ($remote in @('origin', 'github')) {
@@ -259,7 +320,7 @@ foreach ($remote in @('origin', 'github')) {
 # ==============================================================================
 # 6. 产物失配检测（入库产物是否与实际状态同步）
 # ==============================================================================
-Write-Step "6/6 产物失配检测（入库产物 vs 实际状态）"
+Write-Step "7/7 产物失配检测（入库产物 vs 实际状态）"
 # 新增笔记/改设定后，连接图谱会变，而入库产物（graph.json / MOC）不会自动跟着变。
 # 若不失配检测，指标（如「孤立率 0.0%」）会悄悄失真 —— 且没人会发现。
 & $gitExe -C $RepoRoot diff --quiet -- PKM/ 2>$null

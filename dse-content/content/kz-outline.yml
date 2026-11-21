@@ -1,0 +1,114 @@
+# 自动生成 —— 勿手改（派生源：廓者未名夜/02-大纲四层-廓者未名夜.md）
+# 生成器：tools/procedural/md2dse.py outline
+# 改内容请改派生源后重跑；手改会被下次生成覆盖。
+pack:
+  id: kz-outline
+  name: 廓者未名夜 · 四层大纲投影
+  version: 0.1.0
+  entry: seg-01
+scenes:
+  seg-01:
+    title: "一 · 接单"
+    text: "成为廓者；学会按 Alt 72 下；接第一张工单（残余聚合体「丁上」，信仰：永久灼热之心）"
+    onEnter:
+      visits:
+        seg-01: +1
+      seg_index: +1
+    choices:
+      - text: "推进到 二 · 归档"
+        goto: seg-02
+      - text: "分支：已写线"
+        goto: seg-01-written
+  seg-01-written:
+    title: "一 · 接单 · 已写线"
+    text: "该段已落笔，结局待续写。"
+  seg-02:
+    title: "二 · 归档"
+    text: "熟悉流程：分类 → 矫正 → 归档（社区综合服务·非固定资产维护窗口）；代价累积（胸口异变、记忆模糊）"
+    onEnter:
+      visits:
+        seg-02: +1
+      seg_index: +1
+    choices:
+      - text: "推进到 三 · 编号的旧记录"
+        goto: seg-03
+      - text: "分支：已写线"
+        goto: seg-02-written
+  seg-02-written:
+    title: "二 · 归档 · 已写线"
+    text: "该段已落笔，结局待续写。"
+  seg-03:
+    title: "三 · 编号的旧记录"
+    text: "发现自己的编号 114514·9527·Bleem 在系统里有旧记录——「戴罪立功」的罪是他自己的"
+    onEnter:
+      visits:
+        seg-03: +1
+      seg_index: +1
+    choices:
+      - text: "推进到 四 · 猎魔人"
+        goto: seg-04
+      - text: "分支：待写线"
+        goto: seg-03-pending
+  seg-03-pending:
+    title: "三 · 编号的旧记录 · 待写线"
+    text: "该段尚未开笔，是主线留白。"
+  seg-04:
+    title: "四 · 猎魔人"
+    text: "与另一条路相遇：猎魔人（自由、肮脏、以失去情感与生育为代价）；体制与猎魔人的供需关系浮出"
+    onEnter:
+      visits:
+        seg-04: +1
+      seg_index: +1
+    choices:
+      - text: "推进到 五 · 换辖区"
+        goto: seg-05
+      - text: "分支：待写线"
+        goto: seg-04-pending
+  seg-04-pending:
+    title: "四 · 猎魔人 · 待写线"
+    text: "该段尚未开笔，是主线留白。"
+  seg-05:
+    title: "五 · 换辖区"
+    text: "系统崩溃加剧 → 廓者变强 → 他被升阶／被派往更大的故障域；同时看到别的廓者的档案（每个档案柜都锁着一份前任的死）"
+    onEnter:
+      visits:
+        seg-05: +1
+      seg_index: +1
+    choices:
+      - text: "推进到 六 · 廓清"
+        goto: seg-06
+      - text: "分支：待写线"
+        goto: seg-05-pending
+  seg-05-pending:
+    title: "五 · 换辖区 · 待写线"
+    text: "该段尚未开笔，是主线留白。"
+  seg-06:
+    title: "六 · 廓清"
+    text: "发现「廓清」不是针对黑暗生物的，而是针对廓者这一类的；四神是维持该分类的叙事装置"
+    onEnter:
+      visits:
+        seg-06: +1
+      seg_index: +1
+    choices:
+      - text: "推进到 七 · 大／清"
+        goto: seg-07
+      - text: "分支：待写线"
+        goto: seg-06-pending
+  seg-06-pending:
+    title: "六 · 廓清 · 待写线"
+    text: "该段尚未开笔，是主线留白。"
+  seg-07:
+    title: "七 · 大／清"
+    text: "面对「一曰大，二曰清」的真正含义：清除与扩张是同一件事的两面；主角必须决定自己是被矫正的对象，还是执行矫正的手"
+    onEnter:
+      visits:
+        seg-07: +1
+      seg_index: +1
+    choices:
+      - text: "本线终结"
+        goto: seg-07
+      - text: "分支：待写线"
+        goto: seg-07-pending
+  seg-07-pending:
+    title: "七 · 大／清 · 待写线"
+    text: "该段尚未开笔，是主线留白。"

@@ -1,12 +1,12 @@
 {
  "schema": 1,
  "summary": {
-  "docs": 1613,
-  "derived_docs": 15,
+  "docs": 1667,
+  "derived_docs": 16,
   "by_type": {
-   "正文": 627,
-   "设定": 545,
-   "模板": 409,
+   "正文": 644,
+   "设定": 575,
+   "模板": 416,
    "总览": 32
   },
   "by_project": {
@@ -49,16 +49,16 @@
     "knowledge_orphan": 0
    },
    "蜀山之撼天凡蚁登天路漫漫": {
-    "docs": 132,
-    "net_chars": 1573571,
+    "docs": 141,
+    "net_chars": 1643367,
     "types": {
      "模板": 23,
-     "设定": 91,
+     "设定": 100,
      "总览": 2,
      "正文": 16
     },
     "links": 0,
-    "knowledge": 116,
+    "knowledge": 125,
     "knowledge_orphan": 0
    },
    "十三叩_U-1990": {
@@ -74,15 +74,15 @@
     "knowledge_orphan": 0
    },
    "PKM": {
-    "docs": 74,
-    "net_chars": 87768,
+    "docs": 75,
+    "net_chars": 88062,
     "types": {
-     "设定": 70,
+     "设定": 71,
      "模板": 3,
      "总览": 1
     },
-    "links": 2528,
-    "knowledge": 74,
+    "links": 2587,
+    "knowledge": 75,
     "knowledge_orphan": 0
    },
    "综网废柴逆命": {
@@ -121,6 +121,18 @@
     "knowledge": 41,
     "knowledge_orphan": 0
    },
+   "零件库": {
+    "docs": 33,
+    "net_chars": 247124,
+    "types": {
+     "模板": 22,
+     "总览": 1,
+     "设定": 10
+    },
+    "links": 0,
+    "knowledge": 33,
+    "knowledge_orphan": 0
+   },
    "战锤42拔智齿": {
     "docs": 28,
     "net_chars": 91761,
@@ -134,21 +146,34 @@
     "knowledge_orphan": 0
    },
    "廓者未名夜": {
-    "docs": 25,
-    "net_chars": 164684,
+    "docs": 26,
+    "net_chars": 179643,
     "types": {
      "模板": 10,
      "设定": 1,
      "总览": 1,
-     "正文": 13
+     "正文": 14
     },
     "links": 4,
     "knowledge": 12,
     "knowledge_orphan": 0
    },
+   "逆鳞": {
+    "docs": 26,
+    "net_chars": 84018,
+    "types": {
+     "模板": 4,
+     "总览": 1,
+     "设定": 6,
+     "正文": 15
+    },
+    "links": 0,
+    "knowledge": 11,
+    "knowledge_orphan": 0
+   },
    "通用模板包": {
     "docs": 24,
-    "net_chars": 284375,
+    "net_chars": 289340,
     "types": {
      "总览": 2,
      "模板": 22
@@ -193,17 +218,6 @@
     "knowledge": 19,
     "knowledge_orphan": 0
    },
-   "零件库": {
-    "docs": 18,
-    "net_chars": 123094,
-    "types": {
-     "模板": 17,
-     "总览": 1
-    },
-    "links": 0,
-    "knowledge": 18,
-    "knowledge_orphan": 0
-   },
    "参考资料": {
     "docs": 17,
     "net_chars": 132500,
@@ -215,14 +229,16 @@
     "knowledge_orphan": 0
    },
    "创造主们的战争": {
-    "docs": 9,
-    "net_chars": 63476,
+    "docs": 14,
+    "net_chars": 107951,
     "types": {
      "模板": 8,
-     "总览": 1
+     "总览": 1,
+     "设定": 3,
+     "正文": 2
     },
     "links": 0,
-    "knowledge": 9,
+    "knowledge": 12,
     "knowledge_orphan": 0
    },
    "格物录": {
@@ -240,26 +256,13 @@
    },
    "tools": {
     "docs": 8,
-    "net_chars": 28549,
+    "net_chars": 29417,
     "types": {
      "总览": 2,
      "设定": 6
     },
     "links": 1,
     "knowledge": 8,
-    "knowledge_orphan": 0
-   },
-   "逆鳞": {
-    "docs": 6,
-    "net_chars": 10116,
-    "types": {
-     "模板": 2,
-     "设定": 2,
-     "总览": 1,
-     "正文": 1
-    },
-    "links": 0,
-    "knowledge": 5,
     "knowledge_orphan": 0
    },
    "未名骨": {
@@ -274,6 +277,16 @@
     "knowledge": 5,
     "knowledge_orphan": 0
    },
+   "其他项目归档": {
+    "docs": 3,
+    "net_chars": 71200,
+    "types": {
+     "设定": 3
+    },
+    "links": 0,
+    "knowledge": 3,
+    "knowledge_orphan": 0
+   },
    "通宵杀敌": {
     "docs": 3,
     "net_chars": 14090,
@@ -285,31 +298,31 @@
     "knowledge": 3,
     "knowledge_orphan": 0
    },
-   "其他项目归档": {
-    "docs": 2,
-    "net_chars": 34996,
+   "dse-content": {
+    "docs": 1,
+    "net_chars": 4694,
     "types": {
-     "设定": 2
+     "设定": 1
     },
     "links": 0,
-    "knowledge": 2,
+    "knowledge": 1,
     "knowledge_orphan": 0
    }
   },
-  "total_links": 2574,
+  "total_links": 2635,
   "total_broken": 0,
   "frontmatter_docs": 40,
-  "tag_count": 151,
-  "knowledge_docs": 986,
+  "tag_count": 156,
+  "knowledge_docs": 1023,
   "knowledge_orphans": 1,
   "knowledge_orphan_rate": 0.1,
-  "narrative_docs": 627,
+  "narrative_docs": 644,
   "narrative_orphans": 0,
   "orphan_count": 1,
   "orphan_sample": [
    "CHANGELOG.md"
   ],
-  "net_chars_total": 9130519
+  "net_chars_total": 9525478
  },
  "overrides_count": 31,
  "nodes": [
@@ -320,7 +333,7 @@
    "kind": "knowledge",
    "project": "",
    "role": "",
-   "net_chars": 19377,
+   "net_chars": 20950,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -997,15 +1010,15 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 2027,
+   "net_chars": 2018,
    "tags": [],
    "aliases": [],
    "out": [
     "PKM/00-原子笔记/atom-0008-冻结与不回改前文.md",
     "PKM/00-原子笔记/atom-0007-模板不适用是阶段属性.md",
     "PKM/00-原子笔记/atom-0009-代价四档.md",
-    "逆鳞/01-立项定位-逆鳞.md",
-    "逆鳞/03-世界观圣经-逆鳞.md",
+    "逆鳞/01-立项定位.md",
+    "逆鳞/03-世界观圣经.md",
     "逆鳞/作品总览.md"
    ],
    "in": [
@@ -1663,7 +1676,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 4300,
+   "net_chars": 4304,
    "tags": [],
    "aliases": [],
    "out": [
@@ -1797,6 +1810,25 @@
    "overridden": false
   },
   {
+   "path": "PKM/01-MOC/MOC-dse-content.md",
+   "title": "MOC · dse-content",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "PKM",
+   "role": "",
+   "net_chars": 310,
+   "tags": [],
+   "aliases": [],
+   "out": [
+    "dse-content/docs/内容包规范.md"
+   ],
+   "in": [],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
    "path": "PKM/01-MOC/MOC-tools.md",
    "title": "MOC · tools",
    "type": "设定",
@@ -1832,7 +1864,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 12912,
+   "net_chars": 12976,
    "tags": [],
    "aliases": [],
    "out": [
@@ -1855,7 +1887,7 @@
     "无敌不是他人路/03-世界观圣经-无敌不是他人路.md",
     "格物录/02-世界观圣经-格物录.md",
     "蜀山之撼天凡蚁登天路漫漫/03-世界观圣经.md",
-    "逆鳞/03-世界观圣经-逆鳞.md",
+    "逆鳞/03-世界观圣经.md",
     "霜语/03-世界观圣经.md",
     "华夏克苏鲁/01_bible/00_铁律表.md",
     "点子库/01-设定集/01-核心设定-法则权能.md",
@@ -1880,6 +1912,7 @@
     "二十一世纪奇门遁甲/bible/timeline.md",
     "二十一世纪奇门遁甲/bible/长弧规划.md",
     "二十一世纪奇门遁甲/留档_旧方案A_规则怪谈_世界观设定集.md",
+    "其他项目归档/上古卷轴同人/天际（Skyrim）世界观手册.md",
     "十三叩_U-1990/09_附录·旧稿/旧稿_七部分世界观（第一版）.md",
     "华夏克苏鲁/01_bible/人物卡.md",
     "华夏克苏鲁/01_bible/地理与势力.md",
@@ -2232,10 +2265,11 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 485,
+   "net_chars": 548,
    "tags": [],
    "aliases": [],
    "out": [
+    "其他项目归档/上古卷轴同人/天际（Skyrim）世界观手册.md",
     "其他项目归档/华夏克苏鲁.md",
     "其他项目归档/（這是一個純粹的虛構的世界觀設定，與現實世界無關！） 請用英文（行政區名字，格言，國歌用德語）仿照維護百科介紹一個位於非洲之角東南部的一個國家（整體意識形態屬於民主憲政社會偏社會主義）.md"
    ],
@@ -2255,11 +2289,14 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 734,
+   "net_chars": 1093,
    "tags": [],
    "aliases": [],
    "out": [
     "创造主们的战争/作品总览.md",
+    "创造主们的战争/分析/5章微循环梗概.md",
+    "创造主们的战争/分析/卷一三章校验报告.md",
+    "创造主们的战争/分析/换站测试.md",
     "创造主们的战争/00-创造主接入册.md",
     "创造主们的战争/01-立项定位-创造主们的战争.md",
     "创造主们的战争/02-大纲四层-创造主们的战争.md",
@@ -2267,7 +2304,9 @@
     "创造主们的战争/04-人物卡-创造主们的战争.md",
     "创造主们的战争/09-立项书-创造主们的战争.md",
     "创造主们的战争/12-品类IP合规前置-创造主们的战争.md",
-    "创造主们的战争/13-世界先行与地图叙事-创造主们的战争.md"
+    "创造主们的战争/13-世界先行与地图叙事-创造主们的战争.md",
+    "创造主们的战争/正文/第04章-字迹与垫章.md",
+    "创造主们的战争/正文/第05章-半枚旧印.md"
    ],
    "in": [
     "PKM/01-MOC/MOC-PKM-知识连接层.md"
@@ -2581,7 +2620,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 3528,
+   "net_chars": 3579,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2620,6 +2659,7 @@
     "蜀山之撼天凡蚁登天路漫漫/证据与裁决/素材台账/M-03-机构与地名口径.md",
     "蜀山之撼天凡蚁登天路漫漫/证据与裁决/素材台账/README.md",
     "零件库/01-零件总台账.md",
+    "零件库/装配体/01-组合覆盖台账.md",
     "霜语/bible/九结局映射与伏笔台账.md",
     "华夏克苏鲁/01_bible/考据勘误与设定变更登记.md",
     "华夏克苏鲁/05_模板对齐/07_护航与质检/02-外部依赖与来源登记.md",
@@ -2665,7 +2705,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 3688,
+   "net_chars": 3775,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2704,6 +2744,7 @@
     "蜀山之撼天凡蚁登天路漫漫/12-品类流派与IP合规前置.md",
     "霜语/00b-留存工程与爽点密度自检.md",
     "霜语/12-品类IP合规前置.md",
+    "审计报告-peasy-ai与dse-core引入可行性评估-20261121.md",
     "审计报告-深度审计与架构重构-20261113.md",
     "审计报告-知识库运行与规则-20261114.md",
     "审计报告-联网深度审计-20261114.md",
@@ -2745,7 +2786,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 4441,
+   "net_chars": 4443,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2770,7 +2811,7 @@
     "未名骨/02-大纲四层-未名骨.md",
     "格物录/04-第一卷卷纲-施工作业版.md",
     "蜀山之撼天凡蚁登天路漫漫/02-大纲四层.md",
-    "逆鳞/02-大纲四层-逆鳞.md",
+    "逆鳞/02-大纲四层.md",
     "霜语/02-大纲四层.md",
     "Tserena/设定与参考/节拍表与黄金三章-10-实填.md",
     "二十一世纪奇门遁甲/06_黄金三章施工方案.md",
@@ -2801,7 +2842,7 @@
     "格物录/01-立项定位-格物录.md",
     "蜀山之撼天凡蚁登天路漫漫/01-立项定位.md",
     "蜀山之撼天凡蚁登天路漫漫/09-立项书.md",
-    "逆鳞/01-立项定位-逆鳞.md",
+    "逆鳞/01-立项定位.md",
     "通用模板包/09-立项书模板.md",
     "霜语/01-立项定位.md",
     "综网废柴逆命/设定/04_剧情与执行/02_全局大纲.md",
@@ -2843,7 +2884,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 5458,
+   "net_chars": 5716,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2902,9 +2943,13 @@
     "无敌不是他人路/立项调研-外部事实核对表-20261113.md",
     "点子库/01-设定集/21-参考资料反哺-四份资料的吸收与入典.md",
     "综网废柴逆命/设定/05_方法与市场/04_方法论调研与应用.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/写作技法-调研资料汇编（描写手法与词藻）.md",
     "蜀山之撼天凡蚁登天路漫漫/校验/联网调研校验报告-20261118.md",
+    "逆鳞/调研/逆鳞-联网调研与诊断-20261120.md",
     "零件库/07-调研-跨作品可复用零件构建方法.md",
     "零件库/10-调研-三类压力结构范式.md",
+    "零件库/16-调研-积木式拼装的形式与机制缺失项.md",
+    "零件库/17-调研-生产流程视角的游戏工业化对照.md",
     "Tserena/设定与参考/模板反哺报告-20261110.md",
     "霜语/A3-对标六层基因拆解.md",
     "二十一世纪奇门遁甲/01_选题定位与市场匹配.md",
@@ -3281,7 +3326,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 1783,
+   "net_chars": 1823,
    "tags": [],
    "aliases": [],
    "out": [
@@ -3312,7 +3357,8 @@
     "廓者未名夜/正文/第10章-复核.md",
     "廓者未名夜/正文/第11章-默认.md",
     "廓者未名夜/正文/第12章-红线.md",
-    "廓者未名夜/正文/第13章-其他.md"
+    "廓者未名夜/正文/第13章-其他.md",
+    "廓者未名夜/正文/第14章-口径.md"
    ],
    "in": [
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
@@ -4286,7 +4332,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 9217,
+   "net_chars": 9793,
    "tags": [],
    "aliases": [],
    "out": [
@@ -4305,12 +4351,16 @@
     "蜀山之撼天凡蚁登天路漫漫/03E-卷四章纲-逐章.md",
     "蜀山之撼天凡蚁登天路漫漫/03F-卷五章纲-逐章.md",
     "蜀山之撼天凡蚁登天路漫漫/10A-卷六结局场节拍.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/写作技法-调研资料汇编（描写手法与词藻）.md",
     "蜀山之撼天凡蚁登天路漫漫/回检/卷一设定回检报告.md",
     "蜀山之撼天凡蚁登天路漫漫/回检/卷三设定回检报告.md",
     "蜀山之撼天凡蚁登天路漫漫/回检/卷二设定回检报告.md",
     "蜀山之撼天凡蚁登天路漫漫/校验/上游口径冲突登记.md",
+    "蜀山之撼天凡蚁登天路漫漫/校验/体例豁免.md",
     "蜀山之撼天凡蚁登天路漫漫/校验/卷六补写执行规范.md",
+    "蜀山之撼天凡蚁登天路漫漫/校验/核验报告-润色稿前20章.md",
     "蜀山之撼天凡蚁登天路漫漫/校验/模板句母题句根治方案.md",
+    "蜀山之撼天凡蚁登天路漫漫/校验/篇幅白名单.md",
     "蜀山之撼天凡蚁登天路漫漫/校验/联网调研校验报告-20261118.md",
     "蜀山之撼天凡蚁登天路漫漫/校验/设定复盘报告-20261118.md",
     "蜀山之撼天凡蚁登天路漫漫/校验/项目内创作方法复盘-20261118.md",
@@ -4378,6 +4428,11 @@
     "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二-第141-145章（C4-一锭墨）.md",
     "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二-第146-150章（C5-草稿背面）.md",
     "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷二-第151-175章-合订.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷四 376–380｜C1 池在山里.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷四 381–385｜C2 圣姑的名字.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷四 386–390｜C3 来找他的人.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷四 391–395｜C4 试.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷四 396–400｜C5 半刻.md",
     "蜀山之撼天凡蚁登天路漫漫/正文/进度表.md",
     "蜀山之撼天凡蚁登天路漫漫/蜀山 原著事实复核｜176–200.md",
     "蜀山之撼天凡蚁登天路漫漫/证据与裁决/素材台账/M-01-人物与称谓别名.md",
@@ -4544,18 +4599,38 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 746,
+   "net_chars": 1572,
    "tags": [],
    "aliases": [],
    "out": [
     "PKM/01-MOC/MOC-跨项目知识网络.md",
     "PKM/01-MOC/MOC-通用模板包.md",
     "逆鳞/作品总览.md",
-    "逆鳞/03-世界观圣经-逆鳞.md",
     "逆鳞/原稿/逆鳞-首稿.md",
-    "逆鳞/01-立项定位-逆鳞.md",
-    "逆鳞/02-大纲四层-逆鳞.md",
-    "逆鳞/正文/第01章-那一掌我记下了.md"
+    "逆鳞/提交作战计划.md",
+    "逆鳞/签约材料包.md",
+    "逆鳞/简介-3版.md",
+    "逆鳞/规划/卷一30章骨架.md",
+    "逆鳞/调研/逆鳞-联网调研与诊断-20261120.md",
+    "逆鳞/00-决策单.md",
+    "逆鳞/01-立项定位.md",
+    "逆鳞/02-大纲四层.md",
+    "逆鳞/03-世界观圣经.md",
+    "逆鳞/正文/第01章-那一掌我记下了.md",
+    "逆鳞/正文/第02章-辱名榜.md",
+    "逆鳞/正文/第03章-我叫你骂我.md",
+    "逆鳞/正文/第04章-上台子.md",
+    "逆鳞/正文/第05章-炼气七层.md",
+    "逆鳞/正文/第06章-我认输.md",
+    "逆鳞/正文/第07章-两个馍.md",
+    "逆鳞/正文/第08章-换门.md",
+    "逆鳞/正文/第09章-引气入体.md",
+    "逆鳞/正文/第10章-谁让她捎进来的.md",
+    "逆鳞/正文/第11章-黄纸.md",
+    "逆鳞/正文/第12章-旧族.md",
+    "逆鳞/正文/第13章-柳照.md",
+    "逆鳞/正文/第14章-一句错话.md",
+    "逆鳞/正文/第15章-你敢吗.md"
    ],
    "in": [
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
@@ -4654,11 +4729,21 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 1092,
+   "net_chars": 1942,
    "tags": [],
    "aliases": [],
    "out": [
     "零件库/README.md",
+    "零件库/装配体/ASM-CCZ-0001.md",
+    "零件库/装配体/ASM-CCZ-0002.md",
+    "零件库/装配体/ASM-CCZ-0003.md",
+    "零件库/装配体/ASM-CCZ-0004.md",
+    "零件库/装配体/ASM-CCZ-0005.md",
+    "零件库/装配体/ASM-CCZ-0006.md",
+    "零件库/装配体/ASM-CCZ-0007.md",
+    "零件库/装配体/ASM-CCZ-0008.md",
+    "零件库/装配体/ASM-CCZ-0009.md",
+    "零件库/装配体/ASM-CCZ-0010.md",
     "零件库/00-形式规范与字段表.md",
     "零件库/01-零件总台账.md",
     "零件库/02-制度型零件.md",
@@ -4675,7 +4760,12 @@
     "零件库/13-P0字段规格-band-phase-rule.md",
     "零件库/14-咬合索引.md",
     "零件库/15-调用记录-M04-创造主们的战争.md",
-    "零件库/99-来源与许可登记.md"
+    "零件库/16-调研-积木式拼装的形式与机制缺失项.md",
+    "零件库/17-调研-生产流程视角的游戏工业化对照.md",
+    "零件库/18-调用记录-M05-站区级拼装.md",
+    "零件库/99-来源与许可登记.md",
+    "零件库/装配体/00-索引.md",
+    "零件库/装配体/01-组合覆盖台账.md"
    ],
    "in": [
     "PKM/01-MOC/MOC-PKM-知识连接层.md"
@@ -4817,7 +4907,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 5551,
+   "net_chars": 5854,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -4995,7 +5085,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 16504,
+   "net_chars": 17362,
    "tags": [],
    "aliases": [],
    "out": [
@@ -5013,20 +5103,20 @@
     "综网废柴逆命/作品总览.md",
     "华夏克苏鲁/README-总览.md",
     "华夏克苏鲁/作品总览.md",
+    "零件库/README.md",
     "战锤42拔智齿/01-原始材料/作品总览.md",
     "战锤42拔智齿/README.md",
     "廓者未名夜/作品总览.md",
+    "逆鳞/作品总览.md",
     "通用模板包/README.md",
     "无敌不是他人路/作品总览.md",
     "Tserena/作品总览.md",
     "二十一世纪奇门遁甲/作品总览.md",
-    "零件库/README.md",
     "创造主们的战争/作品总览.md",
     "格物录/作品总览.md",
+    "README.md",
     "tools/README.md",
     "tools/skills/human-writing/README.md",
-    "README.md",
-    "逆鳞/作品总览.md",
     "未名骨/作品总览.md",
     "通宵杀敌/作品总览.md"
    ],
@@ -5095,7 +5185,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 290,
+   "net_chars": 292,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -5180,7 +5270,7 @@
    "kind": "knowledge",
    "project": "",
    "role": "入口总览",
-   "net_chars": 14057,
+   "net_chars": 14431,
    "tags": [],
    "aliases": [],
    "out": [
@@ -5212,6 +5302,7 @@
     "零件库/README.md",
     "全仓作品分类表-20261119.md",
     "tools/README.md",
+    "dse-content/docs/内容包规范.md",
     "PKM/README.md",
     "PKM/诊断与选型报告-20261113.md",
     "README.md",
@@ -5684,13 +5775,36 @@
    "overridden": false
   },
   {
+   "path": "dse-content/docs/内容包规范.md",
+   "title": "内容包规范 · `dse-content/`",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "dse-content",
+   "role": "",
+   "net_chars": 4694,
+   "tags": [
+    "archive"
+   ],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-dse-content.md",
+    "README.md",
+    "工作区规范.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
    "path": "tools/README.md",
    "title": "tools/ · 仓根工具编排层（Cordis 润滑层）",
    "type": "总览",
    "kind": "knowledge",
    "project": "tools",
    "role": "入口总览",
-   "net_chars": 6161,
+   "net_chars": 7029,
    "tags": [],
    "aliases": [],
    "out": [
@@ -6335,6 +6449,34 @@
    "overridden": false
   },
   {
+   "path": "其他项目归档/上古卷轴同人/天际（Skyrim）世界观手册.md",
+   "title": "天际（Skyrim）世界观手册",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "其他项目归档",
+   "role": "正文",
+   "net_chars": 36204,
+   "tags": [
+    "x4E0E",
+    "x4EBA",
+    "x5E1D",
+    "x6E6E",
+    "x7684",
+    "x7ED3",
+    "x9F99"
+   ],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-世界观设定.md",
+    "PKM/01-MOC/MOC-其他项目归档.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
    "path": "其他项目归档/华夏克苏鲁.md",
    "title": "华夏克苏鲁",
    "type": "设定",
@@ -6398,7 +6540,7 @@
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "",
-   "net_chars": 4262,
+   "net_chars": 4363,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -6418,7 +6560,7 @@
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "",
-   "net_chars": 6185,
+   "net_chars": 6350,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -6438,7 +6580,7 @@
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "",
-   "net_chars": 12263,
+   "net_chars": 15871,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -6478,7 +6620,7 @@
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "",
-   "net_chars": 5829,
+   "net_chars": 9619,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -6498,7 +6640,7 @@
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "",
-   "net_chars": 8147,
+   "net_chars": 8720,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -6519,7 +6661,7 @@
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "",
-   "net_chars": 7958,
+   "net_chars": 9198,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -6538,7 +6680,7 @@
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "入口总览",
-   "net_chars": 1855,
+   "net_chars": 3136,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -6546,6 +6688,101 @@
     "PKM/01-MOC/MOC-创造主们的战争.md",
     "PKM/MOC-全库.md",
     "README.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "创造主们的战争/分析/5章微循环梗概.md",
+   "title": "5 章微循环梗概 · 卷一（甲区「册城」）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "创造主们的战争",
+   "role": "",
+   "net_chars": 3043,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-创造主们的战争.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "创造主们的战争/分析/卷一三章校验报告.md",
+   "title": "卷一三章 · 二次实战校验报告",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "创造主们的战争",
+   "role": "",
+   "net_chars": 7737,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-创造主们的战争.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "创造主们的战争/分析/换站测试.md",
+   "title": "换站测试 · 卷一区域卡（甲区「册城」）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "创造主们的战争",
+   "role": "",
+   "net_chars": 2550,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-创造主们的战争.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "创造主们的战争/正文/第04章-字迹与垫章.md",
+   "title": "第04章-字迹与垫章",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "创造主们的战争",
+   "role": "正文",
+   "net_chars": 9913,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-创造主们的战争.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "创造主们的战争/正文/第05章-半枚旧印.md",
+   "title": "第05章-半枚旧印",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "创造主们的战争",
+   "role": "正文",
+   "net_chars": 10474,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-创造主们的战争.md"
    ],
    "broken": [],
    "archived": false,
@@ -9614,6 +9851,28 @@
    "in": [
     "PKM/01-MOC/MOC-参考资料.md",
     "PKM/01-MOC/MOC-对标调研.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "审计报告-peasy-ai与dse-core引入可行性评估-20261121.md",
+   "title": "审计报告 · `peasy-ai` / `dse-core` 引入 `write` 仓的可行性评估",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "",
+   "role": "",
+   "net_chars": 17898,
+   "tags": [
+    "archive",
+    "wolf-fight"
+   ],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-合规审校.md"
    ],
    "broken": [],
    "archived": false,
@@ -15648,11 +15907,12 @@
    "kind": "knowledge",
    "project": "",
    "role": "",
-   "net_chars": 9281,
+   "net_chars": 10208,
    "tags": [],
    "aliases": [],
    "out": [
     "tools/README.md",
+    "dse-content/docs/内容包规范.md",
     "PKM/诊断与选型报告-20261113.md"
    ],
    "in": [
@@ -15693,7 +15953,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 12076,
+   "net_chars": 13454,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -15713,7 +15973,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 32768,
+   "net_chars": 36080,
    "tags": [
     "设定/世界观",
     "体系/四神",
@@ -15746,7 +16006,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 13236,
+   "net_chars": 14513,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -15767,7 +16027,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 11044,
+   "net_chars": 11871,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -15788,7 +16048,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 29282,
+   "net_chars": 33099,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -15827,7 +16087,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 6776,
+   "net_chars": 7344,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -15847,7 +16107,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 12238,
+   "net_chars": 13826,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -15910,7 +16170,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "入口总览",
-   "net_chars": 3604,
+   "net_chars": 3799,
    "tags": [
     "入口总览"
    ],
@@ -16172,6 +16432,25 @@
    "project": "廓者未名夜",
    "role": "正文",
    "net_chars": 2087,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-廓者未名夜.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "廓者未名夜/正文/第14章-口径.md",
+   "title": "第14章-口径",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "廓者未名夜",
+   "role": "正文",
+   "net_chars": 1997,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -30705,7 +30984,7 @@
    "kind": "knowledge",
    "project": "蜀山之撼天凡蚁登天路漫漫",
    "role": "",
-   "net_chars": 7735,
+   "net_chars": 7909,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -30762,7 +31041,7 @@
    "kind": "knowledge",
    "project": "蜀山之撼天凡蚁登天路漫漫",
    "role": "",
-   "net_chars": 12915,
+   "net_chars": 12970,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -30896,7 +31175,7 @@
    "kind": "knowledge",
    "project": "蜀山之撼天凡蚁登天路漫漫",
    "role": "",
-   "net_chars": 6158,
+   "net_chars": 7737,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -30915,7 +31194,7 @@
    "kind": "knowledge",
    "project": "蜀山之撼天凡蚁登天路漫漫",
    "role": "",
-   "net_chars": 6193,
+   "net_chars": 7454,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -31263,6 +31542,26 @@
    "overridden": false
   },
   {
+   "path": "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/写作技法-调研资料汇编（描写手法与词藻）.md",
+   "title": "调研资料汇编",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 3424,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-对标调研.md",
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
    "path": "蜀山之撼天凡蚁登天路漫漫/回检/卷一设定回检报告.md",
    "title": "卷一设定回检报告",
    "type": "设定",
@@ -31326,12 +31625,31 @@
    "kind": "knowledge",
    "project": "蜀山之撼天凡蚁登天路漫漫",
    "role": "",
-   "net_chars": 3484,
+   "net_chars": 3797,
    "tags": [],
    "aliases": [],
    "out": [],
    "in": [
     "PKM/01-MOC/MOC-台账进度.md",
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/校验/体例豁免.md",
+   "title": "体例豁免（有意的例外）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 1296,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
     "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
    ],
    "broken": [],
@@ -31359,6 +31677,25 @@
    "overridden": false
   },
   {
+   "path": "蜀山之撼天凡蚁登天路漫漫/校验/核验报告-润色稿前20章.md",
+   "title": "前 20 章润色稿核验报告",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 1715,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
    "path": "蜀山之撼天凡蚁登天路漫漫/校验/模板句母题句根治方案.md",
    "title": "「模板句 / 母题句」根治方案",
    "type": "设定",
@@ -31366,6 +31703,25 @@
    "project": "蜀山之撼天凡蚁登天路漫漫",
    "role": "",
    "net_chars": 28084,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/校验/篇幅白名单.md",
+   "title": "篇幅白名单（合法超限）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 1295,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -32566,7 +32922,7 @@
    "kind": "knowledge",
    "project": "蜀山之撼天凡蚁登天路漫漫",
    "role": "正文",
-   "net_chars": 12287,
+   "net_chars": 12312,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -32585,7 +32941,7 @@
    "kind": "knowledge",
    "project": "蜀山之撼天凡蚁登天路漫漫",
    "role": "正文",
-   "net_chars": 13101,
+   "net_chars": 13126,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -32604,7 +32960,7 @@
    "kind": "knowledge",
    "project": "蜀山之撼天凡蚁登天路漫漫",
    "role": "正文",
-   "net_chars": 14218,
+   "net_chars": 14243,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -32623,7 +32979,7 @@
    "kind": "knowledge",
    "project": "蜀山之撼天凡蚁登天路漫漫",
    "role": "正文",
-   "net_chars": 12401,
+   "net_chars": 12426,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -32642,7 +32998,7 @@
    "kind": "knowledge",
    "project": "蜀山之撼天凡蚁登天路漫漫",
    "role": "正文",
-   "net_chars": 12730,
+   "net_chars": 12755,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -32661,7 +33017,7 @@
    "kind": "knowledge",
    "project": "蜀山之撼天凡蚁登天路漫漫",
    "role": "正文",
-   "net_chars": 11963,
+   "net_chars": 11988,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -32680,7 +33036,7 @@
    "kind": "knowledge",
    "project": "蜀山之撼天凡蚁登天路漫漫",
    "role": "正文",
-   "net_chars": 12456,
+   "net_chars": 12481,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -32699,7 +33055,7 @@
    "kind": "knowledge",
    "project": "蜀山之撼天凡蚁登天路漫漫",
    "role": "正文",
-   "net_chars": 14238,
+   "net_chars": 14263,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -32718,7 +33074,7 @@
    "kind": "knowledge",
    "project": "蜀山之撼天凡蚁登天路漫漫",
    "role": "正文",
-   "net_chars": 15860,
+   "net_chars": 15885,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -32737,7 +33093,7 @@
    "kind": "knowledge",
    "project": "蜀山之撼天凡蚁登天路漫漫",
    "role": "正文",
-   "net_chars": 12808,
+   "net_chars": 12833,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -32832,7 +33188,7 @@
    "kind": "knowledge",
    "project": "蜀山之撼天凡蚁登天路漫漫",
    "role": "正文",
-   "net_chars": 14390,
+   "net_chars": 14097,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -32851,7 +33207,7 @@
    "kind": "knowledge",
    "project": "蜀山之撼天凡蚁登天路漫漫",
    "role": "正文",
-   "net_chars": 11113,
+   "net_chars": 11138,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -32870,7 +33226,7 @@
    "kind": "knowledge",
    "project": "蜀山之撼天凡蚁登天路漫漫",
    "role": "正文",
-   "net_chars": 11086,
+   "net_chars": 11111,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -32889,7 +33245,7 @@
    "kind": "knowledge",
    "project": "蜀山之撼天凡蚁登天路漫漫",
    "role": "正文",
-   "net_chars": 11111,
+   "net_chars": 11136,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -32908,7 +33264,7 @@
    "kind": "knowledge",
    "project": "蜀山之撼天凡蚁登天路漫漫",
    "role": "正文",
-   "net_chars": 11447,
+   "net_chars": 11719,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -32927,7 +33283,7 @@
    "kind": "knowledge",
    "project": "蜀山之撼天凡蚁登天路漫漫",
    "role": "正文",
-   "net_chars": 11103,
+   "net_chars": 11128,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -32946,7 +33302,102 @@
    "kind": "knowledge",
    "project": "蜀山之撼天凡蚁登天路漫漫",
    "role": "正文",
-   "net_chars": 65846,
+   "net_chars": 65971,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷四 376–380｜C1 池在山里.md",
+   "title": "蜀山 卷四 376–380｜C1 池在山里",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11301,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷四 381–385｜C2 圣姑的名字.md",
+   "title": "蜀山 卷四 381–385｜C2 圣姑的名字",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11155,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷四 386–390｜C3 来找他的人.md",
+   "title": "蜀山 卷四 386–390｜C3 来找他的人",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11942,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷四 391–395｜C4 试.md",
+   "title": "蜀山 卷四 391–395｜C4 试",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11750,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷四 396–400｜C5 半刻.md",
+   "title": "蜀山 卷四 396–400｜C5 半刻",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11638,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -32965,7 +33416,7 @@
    "kind": "knowledge",
    "project": "蜀山之撼天凡蚁登天路漫漫",
    "role": "正文",
-   "net_chars": 4615,
+   "net_chars": 5059,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33158,22 +33609,34 @@
    "overridden": false
   },
   {
-   "path": "逆鳞/01-立项定位-逆鳞.md",
-   "title": "《逆鳞》· 01 立项定位",
+   "path": "逆鳞/00-决策单.md",
+   "title": "《逆鳞》修订 · 00 决策单",
    "type": "模板",
    "kind": "knowledge",
    "project": "逆鳞",
    "role": "",
-   "net_chars": 3479,
-   "tags": [
-    "方法论/节奏",
-    "口径/创作",
-    "体系/证据"
+   "net_chars": 5521,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-逆鳞.md"
    ],
-   "aliases": [
-    "逆鳞立项定位",
-    "欲扬先抑论证"
-   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "逆鳞/01-立项定位.md",
+   "title": "《逆鳞》· 01 立项定位（v2）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "逆鳞",
+   "role": "",
+   "net_chars": 4003,
+   "tags": [],
+   "aliases": [],
    "out": [],
    "in": [
     "PKM/00-原子笔记/atom-0014-欲扬先抑是机制本身.md",
@@ -33183,16 +33646,16 @@
    "broken": [],
    "archived": false,
    "fm": {},
-   "overridden": true
+   "overridden": false
   },
   {
-   "path": "逆鳞/02-大纲四层-逆鳞.md",
-   "title": "《逆鳞》· 02 大纲四层",
+   "path": "逆鳞/02-大纲四层.md",
+   "title": "《逆鳞》· 02 大纲四层（v2）",
    "type": "模板",
    "kind": "knowledge",
    "project": "逆鳞",
    "role": "",
-   "net_chars": 1867,
+   "net_chars": 3156,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33206,21 +33669,15 @@
    "overridden": false
   },
   {
-   "path": "逆鳞/03-世界观圣经-逆鳞.md",
-   "title": "《逆鳞》· 03 世界观圣经",
-   "type": "设定",
+   "path": "逆鳞/03-世界观圣经.md",
+   "title": "《逆鳞》· 03 世界观圣经（v2）",
+   "type": "模板",
    "kind": "knowledge",
    "project": "逆鳞",
    "role": "",
-   "net_chars": 1609,
-   "tags": [
-    "设定/世界观",
-    "体系/力量"
-   ],
-   "aliases": [
-    "逆鳞世界观圣经",
-    "逆鳞SSOT"
-   ],
+   "net_chars": 7635,
+   "tags": [],
+   "aliases": [],
    "out": [],
    "in": [
     "PKM/00-原子笔记/atom-0014-欲扬先抑是机制本身.md",
@@ -33230,16 +33687,16 @@
    "broken": [],
    "archived": false,
    "fm": {},
-   "overridden": true
+   "overridden": false
   },
   {
    "path": "逆鳞/作品总览.md",
-   "title": "《逆鳞》· 作品总览",
+   "title": "《逆鳞》· 作品总览（v3）",
    "type": "总览",
    "kind": "knowledge",
    "project": "逆鳞",
    "role": "入口总览",
-   "net_chars": 1157,
+   "net_chars": 3443,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33274,17 +33731,379 @@
    "overridden": false
   },
   {
-   "path": "逆鳞/正文/第01章-那一掌我记下了.md",
-   "title": "第01章 · 那一掌，我记下了",
-   "type": "正文",
-   "kind": "narrative",
+   "path": "逆鳞/提交作战计划.md",
+   "title": "《逆鳞》· 提交作战计划（A 方案：先提交，再写谷底）",
+   "type": "设定",
+   "kind": "knowledge",
    "project": "逆鳞",
-   "role": "正文",
-   "net_chars": 679,
+   "role": "",
+   "net_chars": 2067,
    "tags": [],
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-逆鳞.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "逆鳞/正文/第01章-那一掌我记下了.md",
+   "title": "第01章 那一掌，我记下了",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "逆鳞",
+   "role": "正文",
+   "net_chars": 2314,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-逆鳞.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "逆鳞/正文/第02章-辱名榜.md",
+   "title": "第02章 辱名榜",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "逆鳞",
+   "role": "正文",
+   "net_chars": 2478,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-逆鳞.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "逆鳞/正文/第03章-我叫你骂我.md",
+   "title": "第03章 我叫你骂我",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "逆鳞",
+   "role": "正文",
+   "net_chars": 2429,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-逆鳞.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "逆鳞/正文/第04章-上台子.md",
+   "title": "第04章 上台子",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "逆鳞",
+   "role": "正文",
+   "net_chars": 2303,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-逆鳞.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "逆鳞/正文/第05章-炼气七层.md",
+   "title": "第05章 炼气七层",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "逆鳞",
+   "role": "正文",
+   "net_chars": 2294,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-逆鳞.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "逆鳞/正文/第06章-我认输.md",
+   "title": "第06章 我认输",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "逆鳞",
+   "role": "正文",
+   "net_chars": 2414,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-逆鳞.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "逆鳞/正文/第07章-两个馍.md",
+   "title": "第07章 两个馍",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "逆鳞",
+   "role": "正文",
+   "net_chars": 2374,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-逆鳞.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "逆鳞/正文/第08章-换门.md",
+   "title": "第08章 换门",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "逆鳞",
+   "role": "正文",
+   "net_chars": 2352,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-逆鳞.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "逆鳞/正文/第09章-引气入体.md",
+   "title": "第09章 引气入体",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "逆鳞",
+   "role": "正文",
+   "net_chars": 2376,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-逆鳞.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "逆鳞/正文/第10章-谁让她捎进来的.md",
+   "title": "第10章 谁让她捎进来的",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "逆鳞",
+   "role": "正文",
+   "net_chars": 2331,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-逆鳞.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "逆鳞/正文/第11章-黄纸.md",
+   "title": "第11章 黄纸",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "逆鳞",
+   "role": "正文",
+   "net_chars": 2533,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-逆鳞.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "逆鳞/正文/第12章-旧族.md",
+   "title": "第12章 旧族",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "逆鳞",
+   "role": "正文",
+   "net_chars": 2395,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-逆鳞.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "逆鳞/正文/第13章-柳照.md",
+   "title": "第13章 柳照",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "逆鳞",
+   "role": "正文",
+   "net_chars": 2423,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-逆鳞.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "逆鳞/正文/第14章-一句错话.md",
+   "title": "第14章 一句错话",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "逆鳞",
+   "role": "正文",
+   "net_chars": 2326,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-逆鳞.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "逆鳞/正文/第15章-你敢吗.md",
+   "title": "第15章 你敢吗",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "逆鳞",
+   "role": "正文",
+   "net_chars": 2452,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-逆鳞.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "逆鳞/签约材料包.md",
+   "title": "《逆鳞》· 签约材料包",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "逆鳞",
+   "role": "",
+   "net_chars": 3118,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-逆鳞.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "逆鳞/简介-3版.md",
+   "title": "《逆鳞》· 简介 3 版",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "逆鳞",
+   "role": "",
+   "net_chars": 2494,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-逆鳞.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "逆鳞/规划/卷一30章骨架.md",
+   "title": "《逆鳞》修订版 · 卷一 30 章骨架",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "逆鳞",
+   "role": "",
+   "net_chars": 5267,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-逆鳞.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "逆鳞/调研/逆鳞-联网调研与诊断-20261120.md",
+   "title": "《逆鳞》· 联网调研与作品诊断",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "逆鳞",
+   "role": "",
+   "net_chars": 10195,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-对标调研.md",
     "PKM/01-MOC/MOC-逆鳞.md"
    ],
    "broken": [],
@@ -33358,7 +34177,7 @@
    "kind": "knowledge",
    "project": "通用模板包",
    "role": "",
-   "net_chars": 19879,
+   "net_chars": 20249,
    "tags": [
     "方法论/模板",
     "资产/跨项目"
@@ -33659,7 +34478,7 @@
    "kind": "knowledge",
    "project": "通用模板包",
    "role": "",
-   "net_chars": 25750,
+   "net_chars": 28819,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33736,7 +34555,7 @@
    "kind": "knowledge",
    "project": "通用模板包",
    "role": "",
-   "net_chars": 7623,
+   "net_chars": 9149,
    "tags": [
     "符号"
    ],
@@ -33855,7 +34674,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 9841,
+   "net_chars": 25471,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33876,7 +34695,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 5830,
+   "net_chars": 7625,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33898,7 +34717,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 5733,
+   "net_chars": 6637,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33918,7 +34737,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 7464,
+   "net_chars": 8719,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33937,7 +34756,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 11674,
+   "net_chars": 13657,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33956,7 +34775,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 8164,
+   "net_chars": 9568,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -34137,7 +34956,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 7420,
+   "net_chars": 8001,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -34169,13 +34988,72 @@
    "overridden": false
   },
   {
+   "path": "零件库/16-调研-积木式拼装的形式与机制缺失项.md",
+   "title": "16 · 调研：积木式拼装的形式与机制缺失项",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "零件库",
+   "role": "",
+   "net_chars": 27308,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-对标调研.md",
+    "PKM/01-MOC/MOC-零件库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "零件库/17-调研-生产流程视角的游戏工业化对照.md",
+   "title": "17 · 调研：生产流程视角下的零件库（游戏工业化对照）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "零件库",
+   "role": "",
+   "net_chars": 14967,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-对标调研.md",
+    "PKM/01-MOC/MOC-零件库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "零件库/18-调用记录-M05-站区级拼装.md",
+   "title": "18 · 调用记录 M-05 ——《创造主们的战争》站区级拼装",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "零件库",
+   "role": "",
+   "net_chars": 6139,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-零件库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
    "path": "零件库/99-来源与许可登记.md",
    "title": "99 · 来源与许可登记",
    "type": "模板",
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 4193,
+   "net_chars": 8795,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -34196,7 +35074,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "入口总览",
-   "net_chars": 3169,
+   "net_chars": 6346,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -34204,6 +35082,235 @@
     "PKM/01-MOC/MOC-零件库.md",
     "PKM/MOC-全库.md",
     "README.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "零件库/装配体/00-索引.md",
+   "title": "装配体索引（v2.9 · 脚本外维护）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "零件库",
+   "role": "",
+   "net_chars": 2990,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-零件库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "零件库/装配体/01-组合覆盖台账.md",
+   "title": "01 · 组合覆盖台账（v2.9 · G9）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "零件库",
+   "role": "",
+   "net_chars": 3023,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-台账进度.md",
+    "PKM/01-MOC/MOC-零件库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "零件库/装配体/ASM-CCZ-0001.md",
+   "title": "ASM-CCZ-0001 · 谁在改册子",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "零件库",
+   "role": "",
+   "net_chars": 3589,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-零件库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "零件库/装配体/ASM-CCZ-0002.md",
+   "title": "ASM-CCZ-0002 · 听谁的",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "零件库",
+   "role": "",
+   "net_chars": 3133,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-零件库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "零件库/装配体/ASM-CCZ-0003.md",
+   "title": "ASM-CCZ-0003 · 代价由谁承担",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "零件库",
+   "role": "",
+   "net_chars": 3645,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-零件库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "零件库/装配体/ASM-CCZ-0004.md",
+   "title": "ASM-CCZ-0004 · 谁有资格结卷",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "零件库",
+   "role": "",
+   "net_chars": 2989,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-零件库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "零件库/装配体/ASM-CCZ-0005.md",
+   "title": "ASM-CCZ-0005 · 甲·册城",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "零件库",
+   "role": "",
+   "net_chars": 4035,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-零件库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "零件库/装配体/ASM-CCZ-0006.md",
+   "title": "ASM-CCZ-0006 · 乙·窗口",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "零件库",
+   "role": "",
+   "net_chars": 4032,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-零件库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "零件库/装配体/ASM-CCZ-0007.md",
+   "title": "ASM-CCZ-0007 · 丙·涡带",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "零件库",
+   "role": "",
+   "net_chars": 3924,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-零件库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "零件库/装配体/ASM-CCZ-0008.md",
+   "title": "ASM-CCZ-0008 · 戊·寒线",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "零件库",
+   "role": "",
+   "net_chars": 4270,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-零件库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "零件库/装配体/ASM-CCZ-0009.md",
+   "title": "ASM-CCZ-0009 · 丑·旧神埠",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "零件库",
+   "role": "",
+   "net_chars": 4104,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-零件库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "零件库/装配体/ASM-CCZ-0010.md",
+   "title": "ASM-CCZ-0010 · 编辑部代理处",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "零件库",
+   "role": "",
+   "net_chars": 4551,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-零件库.md"
    ],
    "broken": [],
    "archived": false,
