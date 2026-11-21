@@ -26,6 +26,7 @@ def build():
     slim = {
         "formula": data["formula"],
         "temperatures": data["temperatures"],
+        "modes": data.get("modes", {}),
         "motifs": data["motifs"],
     }
     payload = json.dumps(slim, ensure_ascii=False, separators=(",", ":"))
@@ -36,7 +37,8 @@ def build():
     html = tpl.replace("/*__DATA__*/", payload)
     OUT.write_text(html, encoding="utf-8")
     kb = len(html.encode("utf-8")) / 1024
-    print(f"✅ {OUT.name}  {kb:.1f} KB  ({len(slim['motifs'])} 母题 / {len(slim['temperatures'])} 温度)")
+    print(f"✅ {OUT.name}  {kb:.1f} KB  "
+          f"({len(slim['motifs'])} 母题 / {len(slim['temperatures'])} 温度 / {len(slim['modes'])} 模式)")
     return 0
 
 
@@ -46,7 +48,7 @@ def verify():
         print("⚠ 未找到 node，跳过逻辑验证")
         return 0
     print("\n运行逻辑验证（最小 DOM stub）…")
-    r = subprocess.run([node, str(ROOT / "verify_lab.js")], cwd=ROOT)
+    r = subprocess.run([node, str(ROOT / "verify_lab.cjs")], cwd=ROOT)
     return r.returncode
 
 

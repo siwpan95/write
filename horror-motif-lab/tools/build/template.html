@@ -192,7 +192,7 @@
 <div class="wrap">
   <header>
     <h1>恐怖美学母题工作台
-      <small>HORROR MOTIF LAB · 八母题 × 五温度 × 一错律</small>
+      <small>HORROR MOTIF LAB · 十六母题 × 五温度 × 六模式 · 压力工程</small>
     </h1>
     <div class="formula">T = (R − e₁) × Δ − I − E　｜　恐怖 =（本来该怎样 − 恰好一处没照做）− 看清的程度 − 能了结的程度</div>
   </header>
@@ -215,7 +215,12 @@
       </div>
 
       <div class="sect">
-        <h2>04 · 随机种子</h2>
+        <h2>04 · 呈现模式（跨类型）</h2>
+        <div class="chips" id="modes"></div>
+      </div>
+
+      <div class="sect">
+        <h2>05 · 随机种子</h2>
         <div class="row">
           <input type="number" id="seed" value="42">
           <button id="reroll">换一个</button>
@@ -233,7 +238,7 @@
   </div>
 
   <section class="matrix">
-    <h2>母题 × 温度 兼容矩阵</h2>
+    <h2>母题 × 呈现模式 兼容矩阵</h2>
     <table id="matrix"></table>
   </section>
 
@@ -345,10 +350,22 @@ function audit(data, card){
     detail: hit.length ? `命中标签：${hit.join('、')}` : '⚠ 规程与异常不在同一频道'
   });
 
+  if(card.modeRequested){
+    res.push({ok: card.modeOk, label:'呈现模式与母题兼容', detail: card.modeNote || '合法'});
+    if(card.modeOk){
+      let d = '一致';
+      if(card.eConflict){
+        d = card.suggestTemp ? `⚠ 不一致——建议改用温度「${card.suggestTemp}」`
+                             : '⚠ 不一致——该母题无「有活路」的温度，须按模式自撰出口';
+      }
+      res.push({ok: true, label:'模式 E 取向与温度出口', detail: d});
+    }
+  }
+
   return res;
 }
 
-function buildCard(motifId, temp, seed, strength){
+function buildCard(motifId, temp, seed, strength, mode){
   const motif = DATA.motifs.find(m => m.id === motifId);
   const rng = mulberry32(seed >>> 0);
 
@@ -358,12 +375,47 @@ function buildCard(motifId, temp, seed, strength){
     note = `温度「${temp}」与该母题不兼容（${motif.name} 支持：${motif.temps.join('、')}），已退回「${effective}」。`;
   }
 
+  // 呈现模式（与温度正交）
+  let appliedMode = null, modeNote = null, modeOk = true;
+  if(mode){
+    if(!(motif.modes || []).includes(mode)){
+      modeOk = false;
+      modeNote = `模式「${mode}」与该母题不兼容（支持：${(motif.modes||[]).join('、')}）`;
+    }else{
+      appliedMode = mode;
+      modeNote = (motif.mode_note || {})[mode] || null;
+    }
+  }
+  const mconf = appliedMode ? DATA.modes[appliedMode] : null;
+
   const err = pickError(rng, motif, strength);
   const nRules = 3;
   const syms = pickSymbols(rng, motif, err, rng() < 0.5 ? 2 : 3);
   const rules = pickRulesForError(rng, motif, err, nRules);
   const checks = shuffle(rng, motif.checks).slice(0, 2);
   const tconf = DATA.temperatures[effective];
+  const exitText = motif.exits[effective] || '';
+
+  // E 取向冲突（按模式真正需要的出口类型判）
+  const NEED = {horror:'none', tragedy:'none', epic:'scale',
+                thriller:'reconcile', drama:'reconcile', satire:'reconcile'};
+  let eConflict = false, suggestTemp = null;
+  const hasWay = t => ['可和解','可补录','可改','可办','可驱除','出路','可补'].some(w => t.includes(w));
+  const isScale = t => ['尺度','幸存'].some(w => t.includes(w));
+  if(mconf){
+    const need = NEED[appliedMode] || 'none';
+    if(need === 'reconcile' && !hasWay(exitText)) eConflict = true;
+    else if(need === 'scale' && !(hasWay(exitText) || isScale(exitText))) eConflict = true;
+    if(eConflict){
+      for(const alt of motif.temps){
+        if(alt === effective) continue;
+        const altE = motif.exits[alt] || '';
+        if((need === 'reconcile' && hasWay(altE)) || (need === 'scale' && (hasWay(altE) || isScale(altE)))){
+          suggestTemp = alt; break;
+        }
+      }
+    }
+  }
 
   const card = {
     motif: motif.name,
@@ -373,13 +425,20 @@ function buildCard(motifId, temp, seed, strength){
     temp: effective,
     tempRequested: temp,
     tempNote: note,
+    mode: appliedMode,
+    modeRequested: mode,
+    modeOk: modeOk,
+    modeNote: modeNote,
+    modeFeel: mconf ? mconf.feel : null,
+    eConflict: eConflict,
+    suggestTemp: suggestTemp,
     R: rules,
     checks: checks,
     e1: err,
     I_ladder: motif.info_ladder,
-    I_rule: tconf.i,
-    E: motif.exits[effective] || '',
-    E_rule: tconf.e,
+    I_rule: mconf ? mconf.i : tconf.i,
+    E: exitText,
+    E_rule: mconf ? mconf.e : tconf.e,
     S: syms,
     anti: motif.anti,
     seed: seed
@@ -413,6 +472,17 @@ function render(card){
     h += `<div class="blk"><div class="warn-line">⚠ ${esc(card.tempNote)}</div></div>`;
   }
 
+  if(card.mode){
+    h += `<div class="blk"><h3>Mode · 呈现模式<em>与温度正交</em></h3>
+        <div class="skeleton" style="line-height:1.95">
+          <b>${card.mode}</b>（${esc(card.modeFeel || '')}）　${esc(card.modeNote || '')}<br>
+          <span style="color:var(--ink-faint)">I</span>　${esc(card.I_rule)}<br>
+          <span style="color:var(--ink-faint)">E</span>　${esc(card.E_rule)}
+        </div></div>`;
+  }else if(card.modeNote){
+    h += `<div class="blk"><div class="warn-line">⚠ ${esc(card.modeNote)}</div></div>`;
+  }
+
   h += `<div class="blk"><h3>R · 场景规程<em>本来应该怎样</em></h3><ol class="rules">`;
   card.R.forEach((r, i) => {
     h += `<li data-i="${String(i+1).padStart(2,'0')}">
@@ -441,7 +511,17 @@ function render(card){
 
   h += `<div class="blk"><h3>E · 出口<em>越能了结越不恐怖</em></h3>
       <div class="skeleton" style="line-height:1.9">${esc(card.E)}</div>
-      <div class="note-line">原则：${esc(card.E_rule)}</div></div>`;
+      <div class="note-line">原则：${esc(card.E_rule)}</div>`;
+  if(card.eConflict){
+    h += `<div class="warn-line" style="margin-top:10px">⚠ 模式要求的 E 取向与温度给出的出口不一致</div>
+      <div class="note-line">按模式改写——${esc(card.modeNote || '（按模式自定出口）')}</div>`;
+    if(card.suggestTemp){
+      h += `<div class="note-line">或改用温度「${esc(card.suggestTemp)}」（该温度下出口有活路）</div>`;
+    }else{
+      h += `<div class="note-line">该母题没有「有活路」的温度——此模式不适合本母题</div>`;
+    }
+  }
+  h += `</div>`;
 
   h += `<div class="blk"><h3>S · 符号组<em>跨通道，★ 承载 e₁</em></h3><ul class="sym">`;
   card.S.forEach(s => {
@@ -483,7 +563,7 @@ function render(card){
 }
 
 /* ============ 状态与交互 ============ */
-const state = { motif: DATA.motifs[3].id, temp: DATA.motifs[3].temps[0], strength: 'any', card: null };
+const state = { motif: DATA.motifs[3].id, temp: DATA.motifs[3].temps[0], strength: 'any', mode: null, card: null };
 
 function currentMotif(){ return DATA.motifs.find(m => m.id === state.motif); }
 
@@ -498,7 +578,31 @@ function renderMotifs(){
       state.motif = el.dataset.id;
       const m = currentMotif();
       if(!m.temps.includes(state.temp)) state.temp = m.temps[0];
-      renderMotifs(); renderTemps();
+      if(state.mode && !(m.modes || []).includes(state.mode)) state.mode = null;
+      renderMotifs(); renderTemps(); renderModes();
+    };
+  });
+}
+
+function renderModes(){
+  const m = currentMotif();
+  const box = document.getElementById('modes');
+  if(!box) return;
+  const all = Object.keys(DATA.modes || {});
+  const supported = m.modes || [];
+  let html = `<div class="chip ${state.mode===null?'on':''} ${supported.length?'':'dis'}" data-m="">不限</div>`;
+  html += all.map(k => {
+    const ok = supported.includes(k);
+    const on = state.mode === k;
+    return `<div class="chip ${on?'on':''} ${ok?'':'dis'}" data-m="${k}"
+              title="${ok ? (DATA.modes[k].feel + '：' + DATA.modes[k].tag) : '该母题不支持此模式'}">${DATA.modes[k].name}</div>`;
+  }).join('');
+  box.innerHTML = html;
+  box.querySelectorAll('.chip').forEach(el => {
+    el.onclick = () => {
+      if(el.classList.contains('dis')) return;
+      state.mode = el.dataset.m || null;
+      renderModes();
     };
   });
 }
@@ -532,12 +636,12 @@ function renderStrength(){
 }
 
 function renderMatrix(){
-  const temps = Object.keys(DATA.temperatures);
-  let h = `<tr><th>母题 \\ 温度</th>${temps.map(t=>`<th>${t.replace('型','')}</th>`).join('')}</tr>`;
+  const modes = Object.keys(DATA.modes || {});
+  let h = `<tr><th>母题 \\ 模式</th>${modes.map(m=>`<th>${DATA.modes[m].name}</th>`).join('')}</tr>`;
   DATA.motifs.forEach(m => {
     h += `<tr><td>${m.name}</td>`;
-    temps.forEach(t => {
-      h += m.temps.includes(t) ? `<td class="yes">◎</td>` : `<td class="no">·</td>`;
+    modes.forEach(k => {
+      h += (m.modes||[]).includes(k) ? `<td class="yes">◎</td>` : `<td class="no">·</td>`;
     });
     h += `</tr>`;
   });
@@ -546,7 +650,7 @@ function renderMatrix(){
 
 function generate(){
   const seed = parseInt(document.getElementById('seed').value, 10) || 0;
-  const card = buildCard(state.motif, state.temp, seed, state.strength);
+  const card = buildCard(state.motif, state.temp, seed, state.strength, state.mode);
   state.card = card;
   document.getElementById('stage').innerHTML = render(card);
 }
@@ -554,10 +658,15 @@ function generate(){
 /* 复制为 markdown */
 function toMarkdown(card){
   const L = [];
-  L.push(`## ${card.motif} × ${card.temp}（seed ${card.seed}）`);
+  L.push(`## ${card.motif} × ${card.temp}${card.mode ? ' × ' + card.mode : ''}（seed ${card.seed}）`);
   L.push('');
   L.push(`**Δ** ${card.delta}（${card.layer}层）　**核心命题**：${card.core}`);
   L.push('');
+  if(card.mode){
+    L.push(`**Mode** ${card.mode}（${card.modeFeel}）：${card.modeNote || ''}`);
+    L.push(`　I：${card.I_rule}　E：${card.E_rule}`);
+    L.push('');
+  }
   L.push('**R · 场景规程**');
   card.R.forEach((r,i) => L.push(`${i+1}. [${r.tier}] ${r.t}`));
   L.push('');
@@ -608,7 +717,7 @@ document.getElementById('copy').onclick = async () => {
   }
 };
 
-renderMotifs(); renderTemps(); renderStrength(); renderMatrix(); generate();
+renderMotifs(); renderTemps(); renderStrength(); renderModes(); renderMatrix(); generate();
 </script>
 </body>
 </html>

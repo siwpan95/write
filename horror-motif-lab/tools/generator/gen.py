@@ -180,7 +180,28 @@ def pick_symbols(rng, motif, err, k=3):
     return picked
 
 
-def build_card(data, motif, temp, rng, strength="any", n_rules=3):
+MODE_ALIASES = {
+    "恐怖": "horror", "horror": "horror",
+    "惊悚": "thriller", "thriller": "thriller",
+    "正剧": "drama", "drama": "drama",
+    "悲剧": "tragedy", "tragedy": "tragedy",
+    "讽刺": "satire", "satire": "satire",
+    "史诗": "epic", "epic": "epic",
+}
+
+
+def resolve_mode(data, key):
+    """解析呈现模式（6 种）。"""
+    key = key.strip().lower()
+    modes = data.get("modes", {})
+    if key in modes:
+        return key
+    if key in MODE_ALIASES and MODE_ALIASES[key] in modes:
+        return MODE_ALIASES[key]
+    raise DataError(f"未知模式「{key}」。可选：{'、'.join(modes)}")
+
+
+def build_card(data, motif, temp, rng, strength="any", n_rules=3, mode=None):
     """组装一张卡（纯数据，不含排版）。"""
     err = pick_error(rng, motif, strength)
     exit_text = motif["exits"].get(temp, "")
@@ -195,11 +216,64 @@ def build_card(data, motif, temp, rng, strength="any", n_rules=3):
                 f"{'、'.join(motif['temps'])}），已退回「{effective_temp}」。")
         exit_text = motif["exits"].get(effective_temp, "")
 
+    # 呈现模式（跨类型）：与温度正交
+    mode_note = None
+    mode_ok = True
+    if mode:
+        supported = motif.get("modes", [])
+        if mode not in supported:
+            mode_ok = False
+            mode_note = (f"模式「{mode}」与该母题不兼容（支持：{'、'.join(supported)}），"
+                         f"未套用模式参数。")
+        else:
+            mode_note = motif.get("mode_note", {}).get(mode)
+
+
     syms = pick_symbols(rng, motif, err, k=rng.choice([2, 3]))
     rules = pick_rules_for_error(rng, motif, err, n=n_rules)
     checks = rng.sample(motif["checks"], min(2, len(motif["checks"])))
     ladder = motif["info_ladder"]
     tconf = data["temperatures"][effective_temp]
+
+    # 模式参数优先于温度参数（模式是跨类型的 I/E 原则）
+    applied_mode = mode if (mode and mode_ok) else None
+    mconf = data["modes"][applied_mode] if applied_mode else None
+    i_rule = mconf["i"] if mconf else tconf["i"]
+    e_rule = mconf["e"] if mconf else tconf["e"]
+
+    # E 取向冲突检测：按「模式真正需要的出口类型」判，而非简单看高低
+    # none      = 出口有无皆可（horror 要"被放弃/延缓"，tragedy 要"不可逆"，两者都算 none）
+    # reconcile = 必须有活路（drama 可和解、satire 出路明明有）
+    # scale     = 尺度改写可替代出口（epic）
+    MODE_E_NEED = {
+        "horror": "none", "tragedy": "none", "epic": "scale",
+        "thriller": "reconcile", "drama": "reconcile", "satire": "reconcile",
+    }
+    e_conflict = False
+    suggest_temp = None
+    if mconf:
+        need = MODE_E_NEED.get(applied_mode, "none")
+        has_way = any(w in exit_text for w in
+                      ("可和解", "可补录", "可改", "可办", "可驱除", "出路", "可补"))
+        is_scale = any(w in exit_text for w in ("尺度", "幸存"))
+        if need == "reconcile" and not has_way:
+            e_conflict = True
+        elif need == "scale" and not (has_way or is_scale):
+            e_conflict = True
+        # need == "none" 时永不冲突
+
+        # 冲突时：在该母题的其他温度里找"有活路"的那个，给出可行替换
+        if e_conflict:
+            for alt_t in motif["temps"]:
+                if alt_t == effective_temp:
+                    continue
+                alt_e = motif["exits"].get(alt_t, "")
+                alt_way = any(w in alt_e for w in
+                              ("可和解", "可补录", "可改", "可办", "可驱除", "出路", "可补"))
+                alt_scale = any(w in alt_e for w in ("尺度", "幸存"))
+                if (need == "reconcile" and alt_way) or (need == "scale" and (alt_way or alt_scale)):
+                    suggest_temp = alt_t
+                    break
 
     card = {
         "motif_id": motif["id"],
@@ -210,13 +284,20 @@ def build_card(data, motif, temp, rng, strength="any", n_rules=3):
         "temp": effective_temp,
         "temp_requested": temp,
         "temp_note": note,
+        "mode": applied_mode,
+        "mode_requested": mode,
+        "mode_ok": mode_ok,
+        "mode_note": mode_note,
+        "mode_feel": mconf["feel"] if mconf else None,
+        "E_conflict": e_conflict,
+        "E_suggest_temp": suggest_temp,
         "R": rules,
         "checks": checks,
         "e1": err,
         "I_ladder": ladder,
-        "I_rule": tconf["i"],
+        "I_rule": i_rule,
         "E": exit_text,
-        "E_rule": tconf["e"],
+        "E_rule": e_rule,
         "S": syms,
         "anti": motif["anti"],
         "sample": motif["scenes"][0],
@@ -286,6 +367,22 @@ def audit(data, card):
         f"命中标签：{'、'.join(sorted(hit))}" if hit else "⚠ 规程与异常不在同一频道",
     ))
 
+    # 9. 呈现模式兼容（仅在指定 --mode 时校验）
+    if card.get("mode_requested"):
+        res.append((
+            card["mode_ok"],
+            "呈现模式与母题兼容",
+            card["mode_note"] or "合法",
+        ))
+        # 10. 模式 E 取向与温度出口：冲突只作警告（可换温度或按模式自撰出口），不阻塞
+        if card["mode_ok"]:
+            if card.get("E_conflict"):
+                fix = (f"建议改用温度「{card['E_suggest_temp']}」" if card.get("E_suggest_temp")
+                       else "该母题无「有活路」的温度，须按模式自撰出口")
+                res.append((True, "模式 E 取向与温度出口", f"⚠ 不一致——{fix}"))
+            else:
+                res.append((True, "模式 E 取向与温度出口", "一致"))
+
     return res
 
 
@@ -309,6 +406,16 @@ def render_markdown(card, index=None, seed=None):
 
     if card["temp_note"]:
         L.append(f"⚠  {card['temp_note']}")
+        L.append("")
+
+    if card.get("mode"):
+        L.append(f"Mode · {card['mode']}（{card['mode_feel']}）")
+        L.append(f"   写法：{card['mode_note'] or '—'}")
+        L.append(f"   I：{card['I_rule']}")
+        L.append(f"   E：{card['E_rule']}")
+        L.append("")
+    elif card.get("mode_note"):
+        L.append(f"⚠  {card['mode_note']}")
         L.append("")
 
     L.append("R · 场景规程（本来应该怎样）")
@@ -336,6 +443,13 @@ def render_markdown(card, index=None, seed=None):
     L.append("E · 出口")
     L.append(f"   {card['E']}")
     L.append(f"   原则：{card['E_rule']}")
+    if card.get("E_conflict"):
+        L.append("   ⚠ 冲突：模式要求的 E 取向与温度给出的出口不一致")
+        L.append(f"      按模式改写——{card['mode_note'] or '（按模式自定出口）'}")
+        if card.get("E_suggest_temp"):
+            L.append(f"      或改用温度「{card['E_suggest_temp']}」（该温度下出口有活路）")
+        else:
+            L.append("      该母题没有「有活路」的温度——此模式不适合本母题，建议换母题")
     L.append("")
 
     L.append("S · 符号组（跨通道，★ 承载 e₁）")
@@ -381,19 +495,26 @@ def cmd_list(data, args):
     for m in data["motifs"]:
         print(f"{m['id']:<10}{m['name']:<14}{m['delta']:<14}{m['layer']:<6}"
               f"{'、'.join(m['temps'])}")
-    print("\n温度档：")
+    print("\n温度档（horror 内部子档）：")
     for k, v in data["temperatures"].items():
         print(f"  {k}｜I：{v['i']}")
         print(f"        E：{v['e']}")
         print(f"        注：{v['note']}")
+    if data.get("modes"):
+        print("\n呈现模式（跨类型，与温度正交）：")
+        for k, v in data["modes"].items():
+            print(f"  {k:<9} {v['name']}｜I：{v['i']}")
+            print(f"            E：{v['e']}　→ {v['feel']}（{v['tag']}）")
+        print("\n提示：--temp 决定恐怖子档，--mode 决定跨类型呈现；可单独用，也可同时用。")
 
 
 def cmd_gen(data, args):
     motif = resolve_motif(data, args.motif)
     temp = resolve_temp(data, args.temp) if args.temp else motif["temps"][0]
+    mode = resolve_mode(data, args.mode) if args.mode else None
     rng = random.Random(args.seed)
     card = build_card(data, motif, temp, rng,
-                      strength=args.strength, n_rules=args.rules)
+                      strength=args.strength, n_rules=args.rules, mode=mode)
     if args.json:
         print(json.dumps(card, ensure_ascii=False, indent=2))
     else:
@@ -407,12 +528,13 @@ def cmd_batch(data, args):
     else:
         motifs = data["motifs"]
     temps = [resolve_temp(data, args.temp)] if args.temp else None
+    mode = resolve_mode(data, args.mode) if args.mode else None
 
     out = [f"# 批量场景卡（{args.n} 张，seed={args.seed}）", ""]
     for i in range(1, args.n + 1):
         m = rng.choice(motifs)
         t = rng.choice(temps) if temps else rng.choice(m["temps"])
-        card = build_card(data, m, t, rng, strength=args.strength)
+        card = build_card(data, m, t, rng, strength=args.strength, mode=mode)
         out.append(render_markdown(card, index=i, seed=args.seed))
 
     text = "\n\n".join(out)
@@ -431,8 +553,9 @@ def cmd_batch(data, args):
 def cmd_check(data, args):
     motif = resolve_motif(data, args.motif)
     temp = resolve_temp(data, args.temp) if args.temp else motif["temps"][0]
+    mode = resolve_mode(data, args.mode) if args.mode else None
     rng = random.Random(args.seed or 0)
-    card = build_card(data, motif, temp, rng, strength=args.strength)
+    card = build_card(data, motif, temp, rng, strength=args.strength, mode=mode)
     ok = sum(1 for a in card["audit"] if a[0])
     total = len(card["audit"])
     print(f"母题：{card['motif']}　温度：{card['temp']}　seed={args.seed or 0}")
@@ -488,6 +611,8 @@ def main(argv=None):
     p.add_argument("--strength", "-s", default="any",
                    choices=["any", "low", "mid", "high"], help="e₁ 强度偏好")
     p.add_argument("--rules", "-r", type=int, default=3, help="展示几条规程（默认 3）")
+    p.add_argument("--mode", default=None,
+                   help="呈现模式：horror/thriller/drama/tragedy/satire/epic（或中文）")
     p.add_argument("--seed", type=int, default=None, help="随机种子（同种子必出同卡）")
     p.add_argument("--json", action="store_true", help="输出 JSON 而非 markdown")
     p.set_defaults(func=cmd_gen)
@@ -498,6 +623,7 @@ def main(argv=None):
     p.add_argument("--temp", "-t", default=None, help="限定温度")
     p.add_argument("--strength", "-s", default="any",
                    choices=["any", "low", "mid", "high"], help="e₁ 强度偏好")
+    p.add_argument("--mode", default=None, help="呈现模式（跨类型）")
     p.add_argument("--seed", type=int, default=0, help="随机种子")
     p.add_argument("--out", "-o", default=None, help="输出到文件（.md）")
     p.set_defaults(func=cmd_batch)
@@ -505,6 +631,7 @@ def main(argv=None):
     p = sub.add_parser("check", help="只跑结构自检")
     p.add_argument("--motif", "-m", required=True)
     p.add_argument("--temp", "-t", default=None)
+    p.add_argument("--mode", default=None, help="呈现模式（跨类型）")
     p.add_argument("--strength", "-s", default="any",
                    choices=["any", "low", "mid", "high"])
     p.add_argument("--seed", type=int, default=0)
