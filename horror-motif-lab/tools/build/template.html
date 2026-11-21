@@ -1,0 +1,614 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>恐怖美学母题工作台</title>
+<style>
+  :root{
+    --bg:#0a0a0c;
+    --panel:#121216;
+    --panel-2:#17171c;
+    --line:#26262e;
+    --ink:#e8e2d6;
+    --ink-dim:#9a9488;
+    --ink-faint:#5d5850;
+    --blood:#a83232;
+    --blood-dim:#6e2222;
+    --cold:#6b8a8d;
+    --gold:#b39257;
+  }
+  *{box-sizing:border-box;margin:0;padding:0}
+  body{
+    background:var(--bg);
+    color:var(--ink);
+    font-family:"Songti SC","Noto Serif CJK SC","Source Han Serif SC",Georgia,"SimSun",serif;
+    line-height:1.75;
+    font-size:15px;
+    -webkit-font-smoothing:antialiased;
+  }
+  .wrap{max-width:1280px;margin:0 auto;padding:32px 24px 64px}
+  header{border-bottom:1px solid var(--line);padding-bottom:20px;margin-bottom:28px}
+  h1{font-size:22px;font-weight:500;letter-spacing:.12em}
+  h1 small{display:block;font-size:12px;color:var(--ink-faint);letter-spacing:.2em;margin-top:8px;font-weight:400;font-family:ui-monospace,Consolas,monospace}
+  .formula{
+    margin-top:16px;font-family:ui-monospace,Consolas,monospace;font-size:13px;
+    color:var(--cold);letter-spacing:.04em;padding:10px 14px;
+    border-left:2px solid var(--blood);background:var(--panel);
+  }
+  .layout{display:grid;grid-template-columns:300px 1fr;gap:28px;align-items:start}
+  @media(max-width:900px){.layout{grid-template-columns:1fr}}
+
+  /* 控制栏 */
+  .ctrl{position:sticky;top:24px}
+  .sect{margin-bottom:26px}
+  .sect>h2{
+    font-size:11px;letter-spacing:.22em;color:var(--ink-faint);
+    font-weight:400;margin-bottom:10px;font-family:ui-monospace,Consolas,monospace;
+  }
+  .motifs{display:flex;flex-direction:column;gap:1px}
+  .motif{
+    display:flex;align-items:baseline;gap:10px;
+    padding:9px 12px;cursor:pointer;border:1px solid transparent;
+    background:var(--panel);transition:all .16s;font-size:14px;
+  }
+  .motif:hover{background:var(--panel-2);border-color:var(--line)}
+  .motif.on{background:var(--panel-2);border-color:var(--blood-dim);padding-left:16px}
+  .motif.on .nm{color:var(--ink)}
+  .motif.on::before{content:"";position:absolute;left:0;top:50%;transform:translateY(-50%);width:2px;height:22px;background:var(--blood)}
+  .motif{position:relative}
+  .motif .nm{color:var(--ink-dim);flex:1}
+  .motif.on .nm{color:var(--ink)}
+  .motif .d{font-size:11px;color:var(--ink-faint);font-family:ui-monospace,monospace}
+
+  .chips{display:flex;flex-wrap:wrap;gap:6px}
+  .chip{
+    padding:5px 11px;font-size:12px;border:1px solid var(--line);
+    background:var(--panel);color:var(--ink-dim);cursor:pointer;
+    font-family:ui-monospace,Consolas,monospace;letter-spacing:.04em;transition:all .16s;
+  }
+  .chip:hover:not(.dis){border-color:var(--ink-faint);color:var(--ink)}
+  .chip.on{background:var(--blood);border-color:var(--blood);color:#fff}
+  .chip.dis{opacity:.28;cursor:not-allowed;text-decoration:line-through}
+
+  .row{display:flex;gap:8px;align-items:center}
+  input[type=number]{
+    width:88px;background:var(--panel);border:1px solid var(--line);
+    color:var(--ink);padding:7px 10px;font-family:ui-monospace,monospace;font-size:13px;
+  }
+  input[type=number]:focus{outline:none;border-color:var(--cold)}
+  button{
+    font-family:inherit;font-size:13px;padding:7px 14px;cursor:pointer;
+    background:var(--panel-2);border:1px solid var(--line);color:var(--ink-dim);transition:all .16s;
+  }
+  button:hover{border-color:var(--ink-faint);color:var(--ink)}
+  .go{
+    width:100%;padding:12px;margin-top:6px;background:var(--blood);border:1px solid var(--blood);
+    color:#fff;letter-spacing:.18em;font-size:13px;
+  }
+  .go:hover{background:#c03a3a;border-color:#c03a3a}
+  .ghost-btn{width:100%;margin-top:8px;background:none}
+
+  /* 卡片 */
+  .card{background:var(--panel);border:1px solid var(--line);padding:0;overflow:hidden}
+  .card-head{padding:20px 24px;border-bottom:1px solid var(--line);background:var(--panel-2)}
+  .card-head .t{font-size:19px;letter-spacing:.06em}
+  .card-head .m{font-family:ui-monospace,monospace;font-size:11px;color:var(--ink-faint);margin-top:6px;letter-spacing:.08em}
+  .delta{
+    display:inline-block;margin-top:12px;padding:3px 10px;font-size:11px;
+    border:1px solid var(--blood-dim);color:var(--blood);letter-spacing:.16em;
+    font-family:ui-monospace,monospace;
+  }
+  .core{padding:16px 24px;border-bottom:1px solid var(--line);color:var(--ink-dim);font-size:14px}
+  .core b{color:var(--ink);font-weight:400}
+
+  .blk{padding:18px 24px;border-bottom:1px solid var(--line)}
+  .blk:last-child{border-bottom:none}
+  .blk h3{
+    font-size:11px;letter-spacing:.22em;color:var(--ink-faint);font-weight:400;
+    margin-bottom:10px;font-family:ui-monospace,Consolas,monospace;
+  }
+  .blk h3 em{color:var(--cold);font-style:normal;margin-left:8px;letter-spacing:.04em}
+  ol,ul{list-style:none}
+  .rules li{padding:5px 0 5px 22px;position:relative;color:var(--ink-dim);font-size:14px}
+  .rules li::before{
+    content:attr(data-i);position:absolute;left:0;color:var(--ink-faint);
+    font-family:ui-monospace,monospace;font-size:11px;
+  }
+  .rules .tier{
+    display:inline-block;font-family:ui-monospace,monospace;font-size:10px;
+    padding:0 5px;border:1px solid var(--line);color:var(--ink-faint);margin-right:8px;
+  }
+  .tier.A{color:var(--cold);border-color:#2c3d3f}
+  .tier.C{color:var(--gold);border-color:#3d331f}
+
+  .e1{
+    background:#150e0e;border-left:2px solid var(--blood);padding:14px 16px;margin-bottom:10px;
+  }
+  .e1 .txt{font-size:15px;color:#f0dcd4;line-height:1.8}
+  .e1 .meta{font-family:ui-monospace,monospace;font-size:10px;color:var(--ink-faint);margin-bottom:6px;letter-spacing:.1em}
+  .e1 .note{font-size:12px;color:var(--ink-faint);margin-top:8px;padding-top:8px;border-top:1px dashed #2a1e1e}
+
+  .ladder li{
+    padding:4px 0 4px 26px;position:relative;color:var(--ink-dim);font-size:13.5px;
+  }
+  .ladder li::before{
+    content:attr(data-i);position:absolute;left:2px;top:4px;width:18px;height:18px;
+    border:1px solid var(--line);color:var(--ink-faint);font-size:10px;
+    font-family:ui-monospace,monospace;text-align:center;line-height:17px;
+  }
+  .note-line{font-size:12px;color:var(--ink-faint);margin-top:10px;padding-left:26px}
+  .warn-line{font-size:11.5px;color:var(--gold);margin-bottom:8px;letter-spacing:.02em}
+
+  .sym li{padding:4px 0;display:flex;gap:10px;font-size:13.5px;color:var(--ink-dim)}
+  .sym .star{color:var(--blood);width:12px;flex:none}
+  .sym .ch{font-family:ui-monospace,monospace;font-size:10px;color:var(--ink-faint);width:64px;flex:none;padding-top:3px}
+  .sym li.carrier{color:var(--ink)}
+  .sym li.carrier .ch{color:var(--blood)}
+
+  .skeleton{
+    background:var(--panel-2);padding:16px;font-size:14px;line-height:2.1;
+    color:var(--ink-dim);border:1px dashed var(--line);
+  }
+  .skeleton i{color:var(--cold);font-style:normal}
+  .skeleton b{color:#f0dcd4;font-weight:400}
+
+  .audit li{font-size:12.5px;padding:3px 0;display:flex;gap:8px;color:var(--ink-dim)}
+  .audit .ok{color:var(--cold);flex:none}
+  .audit .no{color:var(--blood);flex:none}
+  .audit .dt{color:var(--ink-faint)}
+
+  .manual li{font-size:12.5px;color:var(--ink-faint);padding:3px 0 3px 20px;position:relative}
+  .manual li::before{content:"□";position:absolute;left:0;color:var(--ink-faint)}
+
+  .anti li{font-size:12.5px;color:var(--ink-faint);padding:3px 0 3px 18px;position:relative}
+  .anti li::before{content:"✗";position:absolute;left:0;color:var(--blood-dim)}
+
+  .empty{
+    padding:80px 24px;text-align:center;color:var(--ink-faint);font-size:14px;
+    border:1px dashed var(--line);
+  }
+
+  /* 矩阵 */
+  .matrix{margin-top:36px}
+  .matrix h2{font-size:12px;letter-spacing:.22em;color:var(--ink-faint);font-weight:400;margin-bottom:14px;font-family:ui-monospace,monospace}
+  table{width:100%;border-collapse:collapse;font-size:12px}
+  th,td{padding:7px 8px;text-align:center;border-bottom:1px solid var(--line)}
+  th{color:var(--ink-faint);font-weight:400;font-family:ui-monospace,monospace;font-size:10.5px;letter-spacing:.06em}
+  td:first-child,th:first-child{text-align:left;color:var(--ink-dim)}
+  td.yes{color:var(--blood)}
+  td.no{color:#3d3d47}
+  tr:hover td{background:var(--panel)}
+  .foot{margin-top:28px;padding-top:16px;border-top:1px solid var(--line);font-size:11.5px;color:var(--ink-faint);line-height:1.9}
+  .toast{
+    position:fixed;bottom:24px;left:50%;transform:translateX(-50%) translateY(80px);
+    background:var(--blood);color:#fff;padding:9px 20px;font-size:12.5px;
+    letter-spacing:.1em;opacity:0;transition:all .3s;pointer-events:none;
+  }
+  .toast.on{opacity:1;transform:translateX(-50%) translateY(0)}
+</style>
+</head>
+<body>
+<div class="wrap">
+  <header>
+    <h1>恐怖美学母题工作台
+      <small>HORROR MOTIF LAB · 八母题 × 五温度 × 一错律</small>
+    </h1>
+    <div class="formula">T = (R − e₁) × Δ − I − E　｜　恐怖 =（本来该怎样 − 恰好一处没照做）− 看清的程度 − 能了结的程度</div>
+  </header>
+
+  <div class="layout">
+    <aside class="ctrl">
+      <div class="sect">
+        <h2>01 · 选母题（撬哪条边界）</h2>
+        <div class="motifs" id="motifs"></div>
+      </div>
+
+      <div class="sect">
+        <h2>02 · 选温度（决定 I 与 E）</h2>
+        <div class="chips" id="temps"></div>
+      </div>
+
+      <div class="sect">
+        <h2>03 · e₁ 强度</h2>
+        <div class="chips" id="strength"></div>
+      </div>
+
+      <div class="sect">
+        <h2>04 · 随机种子</h2>
+        <div class="row">
+          <input type="number" id="seed" value="42">
+          <button id="reroll">换一个</button>
+        </div>
+      </div>
+
+      <button class="go" id="gen">生 成 场 景 卡</button>
+      <button class="ghost-btn" id="copy">复制为 Markdown</button>
+    </aside>
+
+    <main id="stage">
+      <div class="empty">左侧选母题与温度，然后按下生成。<br><br>
+        生成器不会替你判断三件事：I 是否与 e₁ 同源、是否还有第二处异常、出口是否被写死。</div>
+    </main>
+  </div>
+
+  <section class="matrix">
+    <h2>母题 × 温度 兼容矩阵</h2>
+    <table id="matrix"></table>
+  </section>
+
+  <div class="foot">
+    数据源：<code>docs/01_八母题R规程库.md</code> · <code>docs/02_母题×媒介矩阵.md</code> · <code>tools/generator/motifs.json</code>　｜　
+    全部评级与公式为创作化引申（C 档），非学界定论。<br>
+    硬约束：R 与 e₁ 必须同频道；★ 必须是 e₁ 自己的载体；温度不兼容必须拒绝。
+  </div>
+</div>
+<div class="toast" id="toast"></div>
+
+<script>
+/* ============ 数据（由构建脚本注入 motifs.json） ============ */
+const DATA = /*__DATA__*/;
+
+/* ============ 确定性随机 ============ */
+function mulberry32(a){
+  return function(){
+    a |= 0; a = a + 0x6D2B79F5 | 0;
+    let t = Math.imul(a ^ a >>> 15, 1 | a);
+    t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t;
+    return ((t ^ t >>> 14) >>> 0) / 4294967296;
+  };
+}
+const pick = (rng, arr) => arr[Math.floor(rng() * arr.length)];
+function shuffle(rng, arr){
+  const a = arr.slice();
+  for(let i = a.length - 1; i > 0; i--){
+    const j = Math.floor(rng() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+
+/* ============ 生成逻辑（与 gen.py 对齐） ============ */
+function pickError(rng, motif, strength){
+  let pool = motif.errors;
+  if(strength !== 'any'){
+    const sub = pool.filter(e => e.strength === strength);
+    if(sub.length) pool = sub;
+  }
+  return pick(rng, pool);
+}
+
+function pickRulesForError(rng, motif, err, n){
+  const want = err.pair || [];
+  const matched = shuffle(rng, motif.rules.filter(r => want.includes(r.cat)));
+  const rest = shuffle(rng, motif.rules.filter(r => !want.includes(r.cat)));
+  return matched.slice(0, n).concat(rest).slice(0, n);
+}
+
+function pickSymbols(rng, motif, err, k){
+  const carrier = Object.assign({}, err.sym, {carries:true});
+  const picked = [carrier];
+  const used = new Set([carrier.c]);
+  const pool = shuffle(rng, motif.symbols.filter(s => s.c !== carrier.c));
+  for(const s of pool){
+    if(picked.length >= k) break;
+    if(used.has(s.c)) continue;
+    picked.push(Object.assign({}, s, {carries:false}));
+    used.add(s.c);
+  }
+  return picked;
+}
+
+function audit(data, card){
+  const res = [];
+  res.push({ok:true, label:'e₁ 唯一', detail:'本卡只选一条一错；加第二个异常请换场、换 R'});
+
+  const chs = new Set(card.S.map(s => s.c));
+  const star = card.S[0];
+  const carrierOk = star.carries && star.t === card.e1.sym.t;
+  res.push({
+    ok: chs.size === card.S.length && carrierOk,
+    label:'符号组跨通道，且 ★ 就是 e₁ 的载体',
+    detail:`${card.S.length} 件 / ${chs.size} 个通道 / ★ ${star.c}`
+  });
+
+  res.push({
+    ok: card.R.length >= 2 && card.R.every(r => ['A','B','C'].includes(r.tier)),
+    label:'R 规程可复述（≥2 条，带证据档位）',
+    detail:`${card.R.length} 条`
+  });
+
+  res.push({ok: !!card.E, label:'E 出口已指定', detail: card.E ? card.E.slice(0,24)+'…' : '空'});
+  res.push({
+    ok: card.tempRequested === card.temp,
+    label:'温度与母题兼容',
+    detail: card.tempNote || '合法'
+  });
+  res.push({
+    ok: card.I_ladder.length === 3,
+    label:'信息阶梯 3 段（永不全景）',
+    detail:`${card.I_ladder.length} 段`
+  });
+
+  const hint = {
+    high:'高强度：适合放中后段，前面必须先有一次低强度铺垫',
+    mid:'中强度：适合做确认段，前后各配一次低/高强度',
+    low:'低强度：负责「不确定」，不要拿它做高潮'
+  }[card.e1.strength];
+  res.push({ok:true, label:`e₁ 强度分级 = ${card.e1.strength}`, detail:hint});
+
+  const pair = new Set(card.e1.pair || []);
+  const hit = [...new Set(card.R.map(r => r.cat))].filter(c => pair.has(c));
+  res.push({
+    ok: hit.length > 0,
+    label:'R 与 e₁ 配对（被破的那条规矩确实在场）',
+    detail: hit.length ? `命中标签：${hit.join('、')}` : '⚠ 规程与异常不在同一频道'
+  });
+
+  return res;
+}
+
+function buildCard(motifId, temp, seed, strength){
+  const motif = DATA.motifs.find(m => m.id === motifId);
+  const rng = mulberry32(seed >>> 0);
+
+  let effective = temp, note = null;
+  if(!motif.temps.includes(temp)){
+    effective = motif.temps[0];
+    note = `温度「${temp}」与该母题不兼容（${motif.name} 支持：${motif.temps.join('、')}），已退回「${effective}」。`;
+  }
+
+  const err = pickError(rng, motif, strength);
+  const nRules = 3;
+  const syms = pickSymbols(rng, motif, err, rng() < 0.5 ? 2 : 3);
+  const rules = pickRulesForError(rng, motif, err, nRules);
+  const checks = shuffle(rng, motif.checks).slice(0, 2);
+  const tconf = DATA.temperatures[effective];
+
+  const card = {
+    motif: motif.name,
+    delta: motif.delta,
+    layer: motif.layer,
+    core: motif.core,
+    temp: effective,
+    tempRequested: temp,
+    tempNote: note,
+    R: rules,
+    checks: checks,
+    e1: err,
+    I_ladder: motif.info_ladder,
+    I_rule: tconf.i,
+    E: motif.exits[effective] || '',
+    E_rule: tconf.e,
+    S: syms,
+    anti: motif.anti,
+    seed: seed
+  };
+  card.audit = audit(DATA, card);
+  return card;
+}
+
+/* ============ 渲染 ============ */
+const esc = s => String(s).replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+const short = (t, n=30) => {
+  const s = String(t).split('——')[0].split('—')[0].trim();
+  return s.length <= n ? s : s.slice(0, n) + '…';
+};
+
+function render(card){
+  const tierName = {A:'A 事实/常识', B:'B 学界解读', C:'C 创作引申'};
+  const star = card.S[0];
+  let h = '';
+
+  h += `<div class="card">`;
+  h += `<div class="card-head">
+      <div class="t">${esc(card.motif)} × ${esc(card.temp)}</div>
+      <div class="m">seed ${card.seed} · ${card.layer}层 · ${card.R.length} 条规程 / ${card.S.length} 个符号</div>
+      <div class="delta">Δ ${esc(card.delta)}</div>
+    </div>`;
+
+  h += `<div class="core"><b>核心命题</b>　${esc(card.core)}</div>`;
+
+  if(card.tempNote){
+    h += `<div class="blk"><div class="warn-line">⚠ ${esc(card.tempNote)}</div></div>`;
+  }
+
+  h += `<div class="blk"><h3>R · 场景规程<em>本来应该怎样</em></h3><ol class="rules">`;
+  card.R.forEach((r, i) => {
+    h += `<li data-i="${String(i+1).padStart(2,'0')}">
+        <span class="tier ${r.tier}" title="${tierName[r.tier]}">${r.tier}</span>${esc(r.t)}</li>`;
+  });
+  h += `</ol></div>`;
+
+  h += `<div class="blk"><h3>检验动作<em>角色日常，不是侦探行为</em></h3><ul class="ladder">`;
+  card.checks.forEach((c, i) => {
+    h += `<li data-i="${i+1}">${esc(c)}</li>`;
+  });
+  h += `</ul><div class="note-line">e₁ 只有在「正常」刚被确认过之后才有效。检验动作越私密越好——无法被第三人复现时，角色只剩两条路：相信自己疯了，或相信世界坏了。</div></div>`;
+
+  h += `<div class="blk"><h3>e₁ · 一错<em>全篇唯一</em></h3>
+      <div class="e1">
+        <div class="meta">${esc(card.e1.layer)}层 / ${card.e1.strength} 强度</div>
+        <div class="txt">${esc(card.e1.t)}</div>
+        <div class="note">↳ ${esc(card.e1.note)}</div>
+      </div></div>`;
+
+  h += `<div class="blk"><h3>I · 信息阶梯<em>三次为上限，每次推翻上一次</em></h3>
+      <div class="warn-line">⚠ 以下是母题级示例；若所选 e₁ 与阶梯不同源，按同样的「三推」结构重写</div>
+      <ol class="ladder">`;
+  card.I_ladder.forEach((s, i) => { h += `<li data-i="${i+1}">${esc(s)}</li>`; });
+  h += `</ol><div class="note-line">减法：${esc(card.I_rule)}</div></div>`;
+
+  h += `<div class="blk"><h3>E · 出口<em>越能了结越不恐怖</em></h3>
+      <div class="skeleton" style="line-height:1.9">${esc(card.E)}</div>
+      <div class="note-line">原则：${esc(card.E_rule)}</div></div>`;
+
+  h += `<div class="blk"><h3>S · 符号组<em>跨通道，★ 承载 e₁</em></h3><ul class="sym">`;
+  card.S.forEach(s => {
+    h += `<li class="${s.carries?'carrier':''}">
+        <span class="star">${s.carries?'★':''}</span>
+        <span class="ch">${esc(s.c)}</span>
+        <span>${esc(s.t)}</span></li>`;
+  });
+  h += `</ul></div>`;
+
+  h += `<div class="blk"><h3>骨架<em>公式的填空版</em></h3>
+      <div class="skeleton">
+        在本来 <i>【${esc(short(card.R[0].t, 24))}】</i> 的地方，<br>
+        只有 <b>【${esc(short(card.e1.t, 34))}】</b> 不对；<br>
+        <i>【${esc(card.delta)}】</i> 这条边界被撬开；<br>
+        观众始终 <i>【${esc(card.I_rule.split('；')[0])}】</i>；<br>
+        最后 <b>【${esc(short(card.E, 36))}】</b>。
+      </div></div>`;
+
+  h += `<div class="blk"><h3>结构自检<em>生成器强制跑的八项</em></h3><ul class="audit">`;
+  card.audit.forEach(a => {
+    h += `<li><span class="${a.ok?'ok':'no'}">${a.ok?'✓':'✗'}</span>
+        <span>${esc(a.label)}</span><span class="dt">— ${esc(a.detail)}</span></li>`;
+  });
+  h += `</ul></div>`;
+
+  h += `<div class="blk"><h3>人工复核<em>生成器不替你判断</em></h3><ul class="manual">
+      <li>I 阶梯是否与所选 e₁ 同源（不同源就按「三次推翻」重写，别硬套）</li>
+      <li>e₁ 之外是否还有第二处异常（有就换场、换 R，不在同一场加码）</li>
+      <li>出口 E 是否真的没被写死（给「彻底解决」= 降格为怪物）</li>
+    </ul></div>`;
+
+  h += `<div class="blk"><h3>专属反模式<em>该母题最容易踩的坑</em></h3><ul class="anti">`;
+  card.anti.forEach(a => { h += `<li>${esc(a)}</li>`; });
+  h += `</ul></div>`;
+
+  h += `</div>`;
+  return h;
+}
+
+/* ============ 状态与交互 ============ */
+const state = { motif: DATA.motifs[3].id, temp: DATA.motifs[3].temps[0], strength: 'any', card: null };
+
+function currentMotif(){ return DATA.motifs.find(m => m.id === state.motif); }
+
+function renderMotifs(){
+  const box = document.getElementById('motifs');
+  box.innerHTML = DATA.motifs.map(m =>
+    `<div class="motif ${m.id===state.motif?'on':''}" data-id="${m.id}">
+       <span class="nm">${m.name}</span><span class="d">${m.delta}</span>
+     </div>`).join('');
+  box.querySelectorAll('.motif').forEach(el => {
+    el.onclick = () => {
+      state.motif = el.dataset.id;
+      const m = currentMotif();
+      if(!m.temps.includes(state.temp)) state.temp = m.temps[0];
+      renderMotifs(); renderTemps();
+    };
+  });
+}
+
+function renderTemps(){
+  const m = currentMotif();
+  const box = document.getElementById('temps');
+  box.innerHTML = Object.keys(DATA.temperatures).map(t => {
+    const ok = m.temps.includes(t);
+    const on = state.temp === t;
+    return `<div class="chip ${on?'on':''} ${ok?'':'dis'}" data-t="${t}"
+              title="${ok?'支持':'该母题不支持此温度（会让母题放弃核心优势）'}">${t.replace('型','')}</div>`;
+  }).join('');
+  box.querySelectorAll('.chip').forEach(el => {
+    el.onclick = () => {
+      if(el.classList.contains('dis')) return;
+      state.temp = el.dataset.t;
+      renderTemps();
+    };
+  });
+}
+
+function renderStrength(){
+  const box = document.getElementById('strength');
+  const opts = [['any','不限'],['low','低'],['mid','中'],['high','高']];
+  box.innerHTML = opts.map(([v,l]) =>
+    `<div class="chip ${state.strength===v?'on':''}" data-s="${v}">${l}</div>`).join('');
+  box.querySelectorAll('.chip').forEach(el => {
+    el.onclick = () => { state.strength = el.dataset.s; renderStrength(); };
+  });
+}
+
+function renderMatrix(){
+  const temps = Object.keys(DATA.temperatures);
+  let h = `<tr><th>母题 \\ 温度</th>${temps.map(t=>`<th>${t.replace('型','')}</th>`).join('')}</tr>`;
+  DATA.motifs.forEach(m => {
+    h += `<tr><td>${m.name}</td>`;
+    temps.forEach(t => {
+      h += m.temps.includes(t) ? `<td class="yes">◎</td>` : `<td class="no">·</td>`;
+    });
+    h += `</tr>`;
+  });
+  document.getElementById('matrix').innerHTML = h;
+}
+
+function generate(){
+  const seed = parseInt(document.getElementById('seed').value, 10) || 0;
+  const card = buildCard(state.motif, state.temp, seed, state.strength);
+  state.card = card;
+  document.getElementById('stage').innerHTML = render(card);
+}
+
+/* 复制为 markdown */
+function toMarkdown(card){
+  const L = [];
+  L.push(`## ${card.motif} × ${card.temp}（seed ${card.seed}）`);
+  L.push('');
+  L.push(`**Δ** ${card.delta}（${card.layer}层）　**核心命题**：${card.core}`);
+  L.push('');
+  L.push('**R · 场景规程**');
+  card.R.forEach((r,i) => L.push(`${i+1}. [${r.tier}] ${r.t}`));
+  L.push('');
+  L.push('**检验动作**');
+  card.checks.forEach(c => L.push(`- ${c}`));
+  L.push('');
+  L.push(`**e₁ · 一错**（${card.e1.layer}层 / ${card.e1.strength}）：${card.e1.t}`);
+  L.push('');
+  L.push('**I · 信息阶梯**');
+  card.I_ladder.forEach((s,i) => L.push(`${i+1}. ${s}`));
+  L.push('');
+  L.push(`**E · 出口**：${card.E}`);
+  L.push('');
+  L.push('**S · 符号组**');
+  card.S.forEach(s => L.push(`- ${s.carries?'★ ':''}${s.c}　${s.t}`));
+  L.push('');
+  L.push('**骨架**');
+  L.push(`> 在本来【${card.R[0].t}】的地方，只有【${card.e1.t}】不对；【${card.delta}】这条边界被撬开；观众始终【${card.I_rule.split('；')[0]}】；最后【${card.E}】。`);
+  L.push('');
+  L.push('**专属反模式**');
+  card.anti.forEach(a => L.push(`- ✗ ${a}`));
+  return L.join('\n');
+}
+
+function toast(msg){
+  const el = document.getElementById('toast');
+  el.textContent = msg;
+  el.classList.add('on');
+  setTimeout(() => el.classList.remove('on'), 1600);
+}
+
+document.getElementById('gen').onclick = generate;
+document.getElementById('reroll').onclick = () => {
+  document.getElementById('seed').value = Math.floor(Math.random() * 99999);
+  generate();
+};
+document.getElementById('copy').onclick = async () => {
+  if(!state.card){ toast('先生成一张卡'); return; }
+  const md = toMarkdown(state.card);
+  try{
+    await navigator.clipboard.writeText(md);
+    toast('已复制到剪贴板');
+  }catch(e){
+    const ta = document.createElement('textarea');
+    ta.value = md; document.body.appendChild(ta); ta.select();
+    document.execCommand('copy'); ta.remove();
+    toast('已复制到剪贴板');
+  }
+};
+
+renderMotifs(); renderTemps(); renderStrength(); renderMatrix(); generate();
+</script>
+</body>
+</html>
