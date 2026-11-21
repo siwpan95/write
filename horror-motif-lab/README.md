@@ -61,9 +61,9 @@ python gen.py matrix                                  # 母题 × 温度兼容�
 ```
 horror-motif-lab/
 ├─ docs/
-│  ├─ 00_项目总纲与路线图.md      唯一索引 + 状态台账 M0–M12 + 实测记录
+│  ├─ 00_项目总纲与路线图.md      唯一索引 + 状态台账 M0–M15 + 实测记录
 │  ├─ 01_八母题R规程库.md         R 四条件 / 三层规程 / 可检验性 / 80 条 e₁
-│  ├─ 02_母题×媒介矩阵.md         8 母题 × 10 媒介 + 五个控制维度（仅 A 组本体八条）
+│  ├─ 02_母题×媒介矩阵.md         16 母题 × 10 媒介 + 五个控制维度（B 组为 v1.5 首版）
 │  ├─ 03_M6引用核对表.md          联网回原典（✅16／⚠3／❓6）
 │  ├─ 04_M7文化圈矩阵.md          七种「账怎么算」
 │  ├─ 05_M8反向判据.md            什么时候「不吓人」才是对的
@@ -72,13 +72,15 @@ horror-motif-lab/
 │  ├─ 08_十六母题库.md            B 组 8 条从零件库反推，含轴/零件映射
 │  ├─ 09_M9长文本验证-归因.md     **8,008 字**（B 组母题 × drama）+ 七项判据
 │  ├─ 10_M9余量验证-真实作品三例.md 多POV/跨卷/跨Mode —— 用仓内真实作品反验框架
+│  ├─ 11_外部评审.md              **外部评审（第一轮）**：三硬伤 + 修复顺序 + 8 项 lint 清单
 │  └─ （证伪实验另立）../证伪实验-钢铁之梦/  ← 制造反例的尝试：**实验失效**，框架未改，H2 待验
 │  └─ 样例_批量场景卡.md          生成器实测产出（seed=2026）
 ├─ materials/                     五份原始研究材料（**只读**，不再改）
 └─ tools/
    ├─ generator/                  gen.py + motifs.json + README
    ├─ horror_lab.html             交互式工作台（产物）
-   └─ build/                      template.html + build.py + verify_lab.js
+   ├─ lint/                       check_docs.py（8 项静态检查）+ blind_rank.py（Kendall's W）
+   └─ build/                      template.html + build.py + verify_lab.cjs
 ```
 
 ---
@@ -138,6 +140,7 @@ horror-motif-lab/
 
 ```bash
 python tools/build/build.py --check          # 工作台构建 + 11 项基础断言 + 6 项 mode 断言
+python tools/lint/check_docs.py --root docs  # 文档自检 8 项（应在 FAIL 0）
 python 零件库/check_parts.py --strict         # 零件库校验（应在 29 件 0 ERROR）
 ```
 
