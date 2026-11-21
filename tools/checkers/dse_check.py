@@ -219,18 +219,27 @@ def gate_traverse(dse_path: str, project: str, root: str) -> list[dict]:
                 "suggestion": "动态遍历失败 —— 悬空跳转或表达式求值出错；跑 `dse check` 交叉定位",
             })
 
-    # 截断是「如实报告」而非失败 —— 但必须显性上报（WARN）
-    for line in out.splitlines():
-        if "截断" in line:
-            findings.append({
-                "severity": "warn", "category": "内容包", "code": "DSE-TRAVERSE-TRUNCATED",
-                "file": project, "line": 0, "snippet": line.strip()[:200],
-                "message": f"dse traverse 截断：{line.strip()}",
-                "suggestion": (
-                    "分支撞 max-revisit（缺省 3）/ max-steps（缺省 500）上限 —— "
-                    "若非预期，检查是否有自循环分支；若是，可调 dse.yml 的 engine.config"
-                ),
-            })
+    # 截断是 dse 的**安全收敛机制**（撞 max-revisit/max-steps 即如实报告），
+    # 不是内容错误。本仓的枢纽图（index ↔ 各包 index / 零件 ↔ hub）天然有回边，
+    # 必然触发少量截断 —— 实测稳定为 3 条，属**预期行为**，故报 INFO。
+    # 但若截断数超阈值（说明出现了非预期的大环/组合爆炸，实测曾把 traverse
+    # 拖到 180s 超时）⇒ 升 WARN，要求人工确认。
+    # ⚠️ 截断信息走 **stderr**（实测：直接跑时 2>&1 才看得到）——
+    #    只扫 out 会漏报，故必须扫 combined（out+err）。
+    trunc_lines = [l for l in combined.splitlines() if "截断" in l]
+    for line in trunc_lines:
+        findings.append({
+            "severity": "warn" if len(trunc_lines) > 5 else "info",
+            "category": "内容包", "code": "DSE-TRAVERSE-TRUNCATED",
+            "file": project, "line": 0, "snippet": line.strip()[:200],
+            "message": f"dse traverse 截断（{len(trunc_lines)} 条）：{line.strip()[:160]}",
+            "suggestion": (
+                "截断数 >5，可能存在非预期的大环或路径组合爆炸（实测曾致超时），"
+                "请检查是否引入了跨包回边；少量截断是本仓枢纽图的预期收敛"
+                if len(trunc_lines) > 5 else
+                "本仓枢纽图的预期收敛（max-revisit 缺省 3）；不阻断放行"
+            ),
+        })
     return findings
 
 

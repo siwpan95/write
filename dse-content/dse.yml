@@ -6,6 +6,7 @@
 # 纪律：
 #   · 内容包是**数据**（YAML），不是代码 —— 表达式走 AST 白名单求值。
 #   · 内容包**单向由规划文档派生**（tools/procedural/md2dse.py），不手改。
+#     唯一例外：content/index.yml 是手写的结构总览（无派生源）。
 #   · 引擎零改动 —— 只改本文件与 content/ 下的 YAML。
 #   · **本文件不装任何插件能力**（combat/trade/diary/dialogue 暂不启用）：
 #     write 仓的规划层不需要战斗与经营模式；启用会让「用了能力却没装插件」
@@ -17,26 +18,43 @@
 - id: scenes
   config:
     # 内容包列表（后者覆盖前者同 ID 场景）
+    # 顺序：index（手写总览）→ 各生成包。
+    # ⚠️ entry 由下方 engine.config.entry 控制（**单值**），
+    #    不是包自己的 pack.entry —— 实测踩坑：包里写了 entry 但
+    #    dse.yml 的 engine.entry 优先，未指向的包会被判不可达。
     packs:
+      - ./content/index.yml
+      - ./content/parts-graph.yml
+      - ./content/parts-assembly.yml
       - ./content/kz-outline.yml
+      - ./content/kz-beats.yml
 
 - id: state
   config:
     # 状态初始值 —— **内容包里用到的每个顶层字段都必须在此预声明**，
     # 否则条件表达式求值抛 NameError（dse check 也会拦）。
-    # 声明由 md2dse.py 从内容包自动推导后回填，勿手改。
     initial:
-      # 场景计数与索引（由转换器生成）
+      # 装配体八量（财势名位时秘身信）→ ASCII 字段名。
+      # ⚠️ 中文键名会被 Effects schema 拒绝（`^[A-Za-z_$][\w$]*$`，
+      #    防原型污染）—— 实测踩坑，见 md2dse.py 的 QTY_ASCII。
+      cai: 0
+      shi_p: 0
+      ming: 0
+      wei: 0
+      shi_t: 0
+      mi: 0
+      shen: 0
+      xin: 0
+      # 场景计数（各生成器写入）
       visits: {}
       seg_index: 0
+      order: 0
       # 规划层状态（廓者：未名夜 · 通用骨架值）
       trust: 40
       soul: 10
       hp: 20
       maxHp: 20
       gold: 20
-      order: 0
-      # 标志位树（布尔与计数混合，点路径写入）
       flags: {}
       items: {}
 
@@ -44,5 +62,5 @@
 
 - id: engine
   config:
-    entry: seg-01
+    entry: index
     prompt: '>> '

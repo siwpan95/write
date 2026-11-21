@@ -1,0 +1,34 @@
+# dse-content 顶层索引 —— 仓级统一入口
+#
+# 用途：write 仓的可执行结构总览。所有内容包都挂在这里，
+#       由本场景跳转到各包自己的 index。
+#
+# 为什么需要：dse-core 的 `entry` 是**单值**（来自 dse.yml 的 engine 段），
+#   一个工程只能有一个默认入口。多个内容包并存时，若没有统一入口，
+#   未被指向的包会被 check 判为「不可达」——明明内容是对的，却报 WARN。
+#   本文件就是那个统一入口：**index → 各包 index → 各包内容**。
+#
+# 维护：新增内容包时，在这里加一条 goto；改内容包时不用动本文件。
+# 本文件是**手写的结构文件**（没有派生源），不进 md2dse.py 的生成范围。
+pack:
+  id: index
+  name: write 仓 · 可执行结构总览
+  version: 0.1.0
+  entry: index
+
+scenes:
+  index:
+    title: write 仓 · 可执行结构总览
+    text: '把规划层文档变成可校验的结构。当前挂载：零件库咬合图、零件库装配路径、廓者四层大纲、廓者 15 拍节拍表。'
+    onEnter:
+      visits:
+        index: +1
+    choices:
+      - text: 零件库 · 咬合邻接图（28 件 / 61 对咬合边）
+        goto: hub
+      - text: 零件库 · 装配路径（10 个装配体 / 31 步）
+        goto: asm-index
+      - text: 《廓者：未名夜》· 四层大纲主线（7 段）
+        goto: kz-index
+      - text: 《廓者：未名夜》· 全书 15 拍节拍表
+        goto: beat-index

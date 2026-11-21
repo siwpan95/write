@@ -162,6 +162,9 @@ def convert_outline(src: Path, out: Path) -> int:
         print("[FAIL] 主线表格解析为空", file=sys.stderr)
         return 1
 
+    # 自带 index 场景：让本包**自成一个入口**（可与其它包并存于同一工程，
+    # 由顶层 index.yml 汇总）。否则包内场景会因不可达而触发 check 的 WARN。
+    idx_sid = "kz-index"
     lines: list[str] = [
         "# 自动生成 —— 勿手改（派生源：%s）" % src.as_posix(),
         "# 生成器：tools/procedural/md2dse.py outline",
@@ -170,9 +173,21 @@ def convert_outline(src: Path, out: Path) -> int:
         "  id: kz-outline",
         "  name: 廓者未名夜 · 四层大纲投影",
         "  version: 0.1.0",
-        f"  entry: {slugify(segments[0][0], 'seg', 1)}",
+        f"  entry: {idx_sid}",
         "scenes:",
+        f"  {idx_sid}:",
+        f"    title: {yaml_quote('《廓者：未名夜》· 四层大纲主线')}",
+        f"    text: {yaml_quote('主线 %d 段。已写段与待写段各有一条分支结局。' % len(segments))}",
+        f"    onEnter:",
+        f"      visits:",
+        f"        {idx_sid}: +1",
+        f"    choices:",
     ]
+    for i, (name, _desc, status) in enumerate(segments, start=1):
+        sid = slugify(name, "seg", i)
+        mark = "已写" if status.startswith("已写") else "待写"
+        lines.append(f"      - text: {yaml_quote(f'{i}. {name}（{mark}）')}")
+        lines.append(f"        goto: {sid}")
 
     for i, (name, desc, status) in enumerate(segments, start=1):
         sid = slugify(name, "seg", i)
@@ -190,7 +205,9 @@ def convert_outline(src: Path, out: Path) -> int:
             lines.append(f"      - text: {yaml_quote('推进到 ' + segments[i][0])}")
             lines.append(f"        goto: {nxt}")
         else:
-            # 末段没有后继 —— 指向自身（不指向未定义 ID）
+            # 末段没有后继 —— 指向自身（**不能指 index**：
+            #   实测指 index 会让路径组合爆炸，traverse 撞 180s 超时；
+            #   自环虽报一条「重访截断」WARN，但收敛快、路径可控 —— 正确权衡）
             lines.append(f'      - text: "本线终结"')
             lines.append(f"        goto: {sid}")
         # ⚠️ 只生成**状态实际对应**的那一个分支结局。
@@ -222,31 +239,38 @@ def convert_outline(src: Path, out: Path) -> int:
 def convert_beats(src: Path, out: Path) -> int:
     """节拍表 → 场景序列。
 
-    映射规则：
-      · 节拍行（含序号与拍名）→ 一个场景
-      · 相邻节拍 → goto 链
-      · 行内以「｜」或「/」分隔的备选文本 → extraText 变体
+    映射规则（按真实四列表：拍 / 名称 / 本书落点 / 卷）：
+      · 名称    → 场景 title
+      · 本书落点 → 场景 text（**信息主体**，不能丢）
+      · 卷      → `onEnter` 的标记（人读，不进条件）
+      · 相邻拍  → goto 链
+      · 自带 `kz-beat-index` 场景 → 可由顶层 index 汇总
     """
     text = read_text(src)
-    block = section_block(text, r"##\s*[^\n]*节拍(.*?)(?=\n##\s)")
+    # 定位「15 拍 → 卷框架」那张表（1.1 全书级节拍表）
+    block = section_block(text, r"###\s*1\.1\s*全书级节拍表(.*?)(?=\n###\s|\n##\s)")
     if block is None:
-        print("[FAIL] 未找到节拍小节 —— 源文档结构可能已变", file=sys.stderr)
+        print("[FAIL] 未找到「1.1 全书级节拍表」小节 —— 源文档结构可能已变", file=sys.stderr)
         return 1
 
-    beats: list[tuple[str, str]] = []
+    beats: list[tuple[str, str, str]] = []   # (拍号, 名称, 落点)
     for cells in parse_markdown_table(block):
-        if len(cells) < 2:
+        if len(cells) < 3:
             continue
-        name = cells[0].replace("**", "").strip()
-        body = cells[1].replace("**", "").strip()
-        if not name or name.startswith("---"):
+        seq = cells[0].replace("**", "").strip()
+        if not seq.isdigit():
             continue
-        beats.append((name, body))
+        name = cells[1].replace("**", "").strip()
+        body = cells[2].replace("**", "").strip()
+        if not name or not body:
+            continue
+        beats.append((seq, name, body))
 
     if not beats:
         print("[FAIL] 节拍表解析为空", file=sys.stderr)
         return 1
 
+    idx_sid = "beat-index"
     lines: list[str] = [
         "# 自动生成 —— 勿手改（派生源：%s）" % src.as_posix(),
         "# 生成器：tools/procedural/md2dse.py beats",
@@ -254,12 +278,23 @@ def convert_beats(src: Path, out: Path) -> int:
         "  id: kz-beats",
         "  name: 廓者未名夜 · 节拍表投影",
         "  version: 0.1.0",
-        f"  entry: {slugify(beats[0][0], 'beat', 1)}",
+        f"  entry: {idx_sid}",
         "scenes:",
+        f"  {idx_sid}:",
+        f"    title: {yaml_quote('《廓者：未名夜》· 全书 15 拍')}",
+        f"    text: {yaml_quote('节拍表投影：%d 拍。节拍定位由人判，本图只校验结构。' % len(beats))}",
+        f"    onEnter:",
+        f"      visits:",
+        f"        {idx_sid}: +1",
+        f"    choices:",
     ]
+    for seq, name, _body in beats:
+        sid = slugify(name, "beat", int(seq))
+        lines.append(f"      - text: {yaml_quote(f'{seq}. {name}')}")
+        lines.append(f"        goto: {sid}")
 
-    for i, (name, body) in enumerate(beats, start=1):
-        sid = slugify(name, "beat", i)
+    for i, (seq, name, body) in enumerate(beats, start=1):
+        sid = slugify(name, "beat", int(seq))
         lines.append(f"  {sid}:")
         lines.append(f"    title: {yaml_quote(name)}")
         lines.append(f"    text: {yaml_quote(one_line(body))}")
@@ -268,16 +303,19 @@ def convert_beats(src: Path, out: Path) -> int:
         lines.append(f"        {sid}: +1")
         lines.append("    choices:")
         if i < len(beats):
-            nxt = slugify(beats[i][0], "beat", i + 1)
-            lines.append(f"      - text: {yaml_quote('下一拍：' + beats[i][0])}")
+            nseq, nname, _nb = beats[i]
+            nxt = slugify(nname, "beat", int(nseq))
+            lines.append(f"      - text: {yaml_quote('下一拍：' + nname)}")
             lines.append(f"        goto: {nxt}")
         else:
-            lines.append('      - text: "节拍表终点"')
+            lines.append(f'      - text: "节拍表终点"')
             lines.append(f"        goto: {sid}")
 
     out.parent.mkdir(parents=True, exist_ok=True)
     io.open(out, "w", encoding="utf-8", newline="\n").write("\n".join(lines) + "\n")
     print(f"[OK] beats：解析 {len(beats)} 拍 → {out}")
+    for seq, name, _body in beats:
+        print(f"     {seq:>2s}. {name}")
     return 0
 
 
@@ -286,67 +324,471 @@ def convert_beats(src: Path, out: Path) -> int:
 # ==============================================================================
 
 def convert_parts(src: Path, out: Path) -> int:
-    """零件库装配体 → 场景图。
+    """零件库零件卡 → 咬合邻接图。
 
-    映射规则：
+    映射规则（**语义正确性优先**）：
       · 每个零件 → 一个场景
-      · 咬合边（源 → 目标）→ goto 分支
-      · 零件的 phase / band 字段 → flags 记录
+      · 咬合边（A 可与 B 咬合）→ A 场景提供「引入 B」的 goto 选项
+      · 互斥零件 → **不生成**跳转（互斥意味着不能同时装，不是路径）
+      · 判定件／元件（装配角色 = 判定／元）→ **不产生咬合边**
+        （与 零件库/build_edges.py 同口径，否则会出现「度数 0 却称可咬任何件」的矛盾）
+
+    ⚠️ **咬合图不是剧情图**：它表达「哪些件能拼在一起」，
+    不是「主角从 A 走到 B」。故 goto 的语义是「引入同场邻接件」。
+    dse traverse 在此图上验证的是**咬合连通性**（有没有孤立件），
+    剧情路径的可达性由 `assembly` 模式验证。
+
+    解析口径与 零件库/build_edges.py **保持一致**（同一套正则）——
+    两处口径分叉会让「索引说能咬、图里咬不上」。
     """
-    text = read_text(src)
+    card_files = ["02-制度型零件.md", "03-机制型零件.md",
+                  "04-地理与资源型零件.md", "05-历史与接口型零件.md"]
+    cards: dict[str, str] = {}          # pid -> 名称
+    bodies: dict[str, str] = {}        # pid -> 卡正文
+    roles: dict[str, str] = {}         # pid -> 装配角色
+    raw_edges: dict[str, set[str]] = {}   # pid -> 单侧登记的咬合件
+    mutex: dict[str, set[str]] = {}
 
-    # 零件标题：## <名称> 或 ### <名称>
-    parts: list[tuple[str, str]] = []
-    cur_name = None
-    cur_body: list[str] = []
-    for line in text.splitlines():
-        m = re.match(r"^#{2,3}\s+(?!#\s)(.+?)\s*$", line)
-        if m:
-            if cur_name:
-                parts.append((cur_name, "\n".join(cur_body)))
-            cur_name = m.group(1).strip()
-            cur_body = []
-        elif cur_name is not None:
-            cur_body.append(line)
-    if cur_name:
-        parts.append((cur_name, "\n".join(cur_body)))
+    for cf in card_files:
+        cp = src / cf
+        if not cp.exists():
+            continue
+        text = read_text(cp)
+        parts = re.split(r"^## `(WB-[A-Z]+-\d{4})`[^\n]*$", text, flags=re.M)
+        for i in range(1, len(parts) - 1, 2):
+            pid, body = parts[i], parts[i + 1]
+            m = re.search(r"\| 零件名 \| (.+?) \|", body)
+            cards[pid] = m.group(1).strip() if m else pid
+            bodies[pid] = body
+            r = re.search(r"\| 装配角色 \| \*\*(\S+?)\*\*", body)
+            roles[pid] = r.group(1) if r else "参与"
+            e = re.search(r"\| 可咬合零件 \| (.+?) \|", body)
+            if e and roles[pid] not in META_ROLES:
+                for x in re.findall(r"WB-[A-Z]+-\d{4}", e.group(1)):
+                    if x != pid:
+                        raw_edges.setdefault(pid, set()).add(x)
+            mx = re.search(r"\| 互斥零件 \| (.+?) \|", body)
+            if mx:
+                for x in re.findall(r"WB-[A-Z]+-\d{4}", mx.group(1)):
+                    if x != pid:
+                        mutex.setdefault(pid, set()).add(x)
 
-    if not parts:
-        print(f"[FAIL] 未从 {src.name} 解析出零件标题", file=sys.stderr)
+    if not cards:
+        print(f"[FAIL] {src} 下未解析出零件卡（{', '.join(card_files)}）", file=sys.stderr)
         return 1
 
+    # 对称闭包（与 build_edges.py 同法：单侧登记补全）
+    sym: dict[str, set[str]] = {n: set(raw_edges.get(n, set())) for n in cards}
+    for a, bs in raw_edges.items():
+        for b in bs:
+            if a not in sym.get(b, set()):
+                sym[b].add(a)
+
+    # 场景 ID：零件 ID 本身即合法 ASCII（WB-XXX-NNNN）
+    def pid_sid(pid: str) -> str:
+        return pid.lower().replace("-", "-")
+
+    # 一个零件的邻接件太多（记录即存在 度数 18）⇒ goto 全列会让场景爆炸。
+    # 折中：**按度数封顶**，超出部分记为 INFO（在 text 里注明），
+    # 保证图仍可遍历，同时不丢「它咬合很多」这个事实。
+    MAX_DEG = 8
+
     lines: list[str] = [
-        "# 自动生成 —— 勿手改（派生源：%s）" % src.as_posix(),
+        "# 自动生成 —— 勿手改（派生源：零件库/02~05-*.md）",
         "# 生成器：tools/procedural/md2dse.py parts",
+        "# 改内容请改零件卡后重跑；手改会被下次生成覆盖。",
+        "# 语义：咬合邻接图（goto = 引入同场邻接件），**不是剧情路径**。",
         "pack:",
-        "  id: parts",
-        "  name: 零件库装配体投影",
+        "  id: parts-graph",
+        "  name: 零件库咬合邻接图",
         "  version: 0.1.0",
-        f"  entry: {slugify(parts[0][0], 'part', 1)}",
-        "scenes:",
     ]
 
-    for i, (name, body) in enumerate(parts, start=1):
-        sid = slugify(name, "part", i)
-        desc = one_line(re.sub(r"^#.*$", "", body, flags=re.M))
+    # 装配体入口映射：成员件 → 所属装配体
+    # 语义：**咬合图是入口，装配链挂在咬合边上** ——
+    #   选了某零件 → 可以进入包含它的装配体 → 走装配路径。
+    # 两个内容包（parts-graph / parts-assembly）由此连通，
+    # entry 只需落在零件图上。
+    asm_of_part: dict[str, list[str]] = {}
+    asm_dir = src / "装配体"
+    if asm_dir.is_dir():
+        for af in sorted(asm_dir.glob("ASM-*.md")):
+            atext = read_text(af)
+            aid_m = ASM_ID_RE.search(atext)
+            aid = aid_m.group(1) if aid_m else af.stem
+            short = asm_short_id(aid)
+            mblock = section_block(atext, r"###\s*2\.2\s*成员件与角色(.*?)(?=\n###\s|\n##\s)")
+            for row in _asm_member_rows(mblock or ""):
+                asm_of_part.setdefault(row["pid"], []).append(short)
+
+    ordered = sorted(cards)
+    # entry ＝ **枢纽场景**（零件总览）。
+    # ⚠️ 为什么需要枢纽：咬合边不是 goto（见下方说明），零件之间没有互达边；
+    #   若 entry 直接指向某个零件，则只有「该零件所属装配体」可达，
+    #   其余 27 件零件与另外 5 个装配体全部不可达（实测：可达结局只有 5/10）。
+    #   枢纽场景列出全部零件 → 遍历可达全部，且用法也更自然
+    #   （先看有什么零件，再选一个深入）。
+    hub_sid = "hub"
+    lines.append(f"  entry: {hub_sid}")
+    lines.append("scenes:")
+    lines.append(f"  {hub_sid}:")
+    lines.append(f"    title: {yaml_quote('零件库 · 总览（%d 件）' % len(cards))}")
+    lines.append(f"    text: {yaml_quote('跨项目可复用世界零件。每件可进入其所属装配体走装配路径；咬合关系见各件说明与 14-咬合索引。')}")
+    lines.append("    onEnter:")
+    lines.append("      visits:")
+    lines.append(f"        {hub_sid}: +1")
+    lines.append("    choices:")
+    for pid in ordered:
+        lines.append(f"      - text: {yaml_quote(cards[pid])}")
+        lines.append(f"        goto: {pid_sid(pid)}")
+
+    for pid in ordered:
+        sid = pid_sid(pid)
+        nb = sym.get(pid, set())
+        deg = len(nb)
+        meta = bodies.get(pid, "")
+        band = ""
+        bm = re.search(r"\| band \| (.+?) \|", meta)
+        if bm:
+            band = one_line(bm.group(1), 60)
+        phase = ""
+        pm = re.search(r"\| phase \| (.+?) \|", meta)
+        if pm:
+            phase = one_line(pm.group(1), 60)
+        desc = f"{cards[pid]}（{pid}）"
+        if band:
+            desc += f"｜band: {band}"
+        if phase:
+            desc += f"｜phase: {phase}"
+        if roles.get(pid) in META_ROLES:
+            desc += f"｜**{roles[pid]}件**（不产生咬合边）"
+
+        # ⚠️ 先把 desc 组装完整，再写 text —— **text 必须在 choices 之前**
+        #    （YAML 里 choices 是序列，text 插在序列中间会解析失败；
+        #     实测踩坑：ParserError "expected <block end>, but found '<block sequence start>'"）
+        if nb:
+            # ⚠️ **咬合边不生成 goto**（实测踩坑，代价 5 分钟超时）：
+            #   咬合是**对称闭包**（无向图），若每个邻接件都成一个 goto 选项，
+            #   dse traverse 的 DFS 会在 79 节点的图上组合爆炸 —— 实测跑 5 分钟
+            #   未结束，被迫中断。
+            #   语义上也对：**咬合是静态结构，不是剧情路径**（goto = 可走的边）。
+            #   故邻接件写进 `text`（人读 + 机器可查），goto 只留给**装配体入口**。
+            #   咬合连通性由 零件库/check_parts.py 与 build_edges.py 判定，
+            #   那才是纯图论该待的地方。
+            nb_desc = "、".join(
+                f"{cards.get(p, p)}（{p}）" for p in sorted(nb)[:MAX_DEG])
+            if deg > MAX_DEG:
+                nb_desc += f" ……另有 {deg - MAX_DEG} 件（见 14-咬合索引）"
+            desc += f"｜可咬合 {deg} 件：{nb_desc}"
+        else:
+            desc += f"｜可咬合 0 件（{roles.get(pid, '参与')}件）"
+
         lines.append(f"  {sid}:")
-        lines.append(f"    title: {yaml_quote(name)}")
-        lines.append(f"    text: {yaml_quote(desc or '（无描述）')}")
+        lines.append(f"    title: {yaml_quote(cards[pid])}")
+        lines.append(f"    text: {yaml_quote(desc)}")
         lines.append("    onEnter:")
         lines.append("      visits:")
         lines.append(f"        {sid}: +1")
         lines.append("    choices:")
-        if i < len(parts):
-            nxt = slugify(parts[i][0], "part", i + 1)
-            lines.append(f"      - text: {yaml_quote('装配 → ' + parts[i][0])}")
-            lines.append(f"        goto: {nxt}")
+
+        # 装配体入口（若有）
+        for short in asm_of_part.get(pid, []):
+            lines.append(f"      - text: {yaml_quote('进入装配体 ' + short.upper())}")
+            lines.append(f"        goto: {short}-step0")
+
+        if not nb:
+            lines.append(f'      - text: "（无咬合件 —— {roles.get(pid, "参与")}）"')
+            lines.append(f"        goto: {hub_sid}")
         else:
-            lines.append('      - text: "装配终点"')
-            lines.append(f"        goto: {sid}")
+            # 唯一可走的边：**回枢纽**（不指自身 —— 自环会让 traverse 撞
+            # max-revisit 上限，每个零件都刷一条「重访超限」截断 WARN，29 条噪音
+            # 掩盖真信号；实测改为回枢纽后截断归零）
+            lines.append(f'      - text: "（本件可咬合 {deg} 件 —— 见上）"')
+            lines.append(f"        goto: {hub_sid}")
 
     out.parent.mkdir(parents=True, exist_ok=True)
     io.open(out, "w", encoding="utf-8", newline="\n").write("\n".join(lines) + "\n")
-    print(f"[OK] parts：解析 {len(parts)} 件零件 → {out}")
+
+    total_edges = sum(len(v) for v in sym.values()) // 2
+    isolated = [p for p in ordered if not sym.get(p)]
+    print(f"[OK] parts：解析 {len(cards)} 件零件 / {total_edges} 对咬合边 → {out}")
+    print(f"     咬合连通分量外节点（无咬合件）：{len(isolated)}"
+          + (f" —— {[cards[p] for p in isolated]}" if isolated else ""))
+    return 0
+
+
+# ==============================================================================
+# 转换器 · assembly（零件库装配体）
+# ==============================================================================
+
+# 装配体的八量（财势名位时秘身信）—— dse 状态字段名直接用中文单字
+QTY_CHARS = "财势名位时秘身信"
+
+# 八量 → ASCII 状态字段名。
+# ⚠️ **必须映射成 ASCII**：dse-core 的 Effects schema 限定键名为
+#    `^[A-Za-z_$][\w$]*$`（且禁 __proto__/constructor/prototype —— 防原型污染），
+#    中文键名会被 check 直接拒。实测踩坑：写 `名` / `位` 即报
+#    "'名' does not match ..."。
+# 命名规则：拼音首字母 + 量序号，避免 `势`/`时` 同音撞名。
+QTY_ASCII = {
+    "财": "cai",
+    "势": "shi_p",
+    "名": "ming",
+    "位": "wei",
+    "时": "shi_t",
+    "秘": "mi",
+    "身": "shen",
+    "信": "xin",
+}
+
+# 装配角色：判定件与元件**不产生咬合边**（与 零件库/build_edges.py 同口径）
+META_ROLES = ("判定", "元")
+
+
+def asm_short_id(asm_id: str) -> str:
+    """装配体 ID → 场景 ID 前缀。**parts 与 assembly 两个模式必须一致**，
+    否则咬合图的「进入装配体」选项会指向不存在的场景。"""
+    return asm_id.replace("ASM-", "").lower()
+
+
+def pid_sid(pid: str) -> str:
+    """零件 ID → 场景 ID（零件 ID 本身即合法 ASCII）。"""
+    return pid.lower()
+
+# 装配体文件头字段
+ASM_ID_RE = re.compile(r"\| 1 \| `装配ID` \| `([^`]+)` \|")
+ASM_TOPIC_RE = re.compile(r"\| 2 \| `课题` \| \*\*(.+?)\*\*（")
+ASM_GRAN_RE = re.compile(r"\| 粒度 \| (.+?) \|")
+ASM_DRIVER_RE = re.compile(r"###\s*2\.3\s*驱动量\s*\n+\s*\*\*`([^`]+)`\*\*")
+
+
+def _asm_member_rows(block: str) -> list[dict]:
+    """解析「成员件与角色」表 → [{seq, pid, band, phase, role}]。"""
+    rows = []
+    for cells in parse_markdown_table(block):
+        if len(cells) < 5:
+            continue
+        seq = cells[0].strip()
+        m = re.search(r"WB-[A-Z]+-\d{4}", cells[1])
+        if not m:
+            continue
+        rows.append({
+            "seq": seq,
+            "pid": m.group(0),
+            "band": cells[2].strip().replace("*", ""),
+            "phase": cells[3].strip().replace("*", ""),
+            "role": cells[4].strip().replace("*", ""),
+        })
+    return rows
+
+
+def _asm_delta_rows(block: str) -> list[dict]:
+    """解析「Δ 序列」表 → [{step, pid, phase, delta, qty: {名: 值}}]。
+
+    表头列是**该装配体实际推进的量**（子集，非固定八量）——
+    故列名从表头动态取，不能写死。
+    """
+    lines = [l for l in block.splitlines() if l.strip().startswith("|")]
+    if len(lines) < 3:
+        return []
+    # 表头
+    header = [c.strip() for c in lines[0].strip().strip("|").split("|")]
+    try:
+        qty_start = header.index("Δ") + 1
+    except ValueError:
+        return []
+    qty_cols = header[qty_start:]
+    rows = []
+    for line in lines[2:]:
+        cells = [c.strip() for c in line.strip().strip("|").split("|")]
+        if len(cells) < qty_start:
+            continue
+        step = cells[0].strip()
+        if not step.isdigit():
+            continue
+        pid = ""
+        pm = re.search(r"WB-[A-Z]+-\d{4}", cells[1])
+        if pm:
+            pid = pm.group(0)
+        vals = {}
+        for j, q in enumerate(qty_cols):
+            if qty_start + j >= len(cells):
+                break
+            raw = cells[qty_start + j].strip().replace("*", "").replace("−", "-")
+            try:
+                vals[q] = int(raw)
+            except ValueError:
+                pass
+        rows.append({
+            "step": int(step),
+            "pid": pid,
+            "phase": cells[2].strip().replace("*", ""),
+            "delta": cells[3].strip(),
+            "qty": vals,
+        })
+    return rows
+
+
+def convert_assembly(src_dir: Path, out: Path) -> int:
+    """零件库装配体 → dse 场景链（装配路径）。
+
+    映射规则（**语义正确性优先**）：
+      · 一个装配体 = 一条**装配链**（不是零件全景图）
+      · Δ 序列的每一**步** = 一个场景
+      · 该步的量变化 = `do`（数值加减，dse 语义与 Δ 一致）
+      · 步序 = `goto` 链
+      · 装配后状态 = 结局场景
+      · 粒度（卷级／站区级）= 分支条件（互斥装配体不得同时装）
+
+    ⚠️ **不把咬合边当 goto**：咬合边是「哪些件能拼在一起」，
+    不是剧情路径。当 goto 会产出**伪剧情**。咬合关系由
+    `零件库/check_assembly.py` 判定，dse 这边只管装配路径的可达性。
+    """
+    asm_dir = src_dir / "装配体"
+    if not asm_dir.is_dir():
+        print(f"[FAIL] 装配体目录不存在：{asm_dir}", file=sys.stderr)
+        return 1
+
+    files = sorted(asm_dir.glob("ASM-*.md"))
+    if not files:
+        print(f"[FAIL] {asm_dir} 下没有 ASM-*.md", file=sys.stderr)
+        return 1
+
+    # 零件 ID → 名称（用于场景标题）
+    names: dict[str, str] = {}
+    for card in ["02-制度型零件.md", "03-机制型零件.md",
+                 "04-地理与资源型零件.md", "05-历史与接口型零件.md"]:
+        cp = src_dir / card
+        if not cp.exists():
+            continue
+        text = read_text(cp)
+        for m in re.finditer(r"^## `(WB-[A-Z]+-\d{4})`\s*(.+?)\s*$", text, re.M):
+            names[m.group(1)] = m.group(2).strip()
+
+    head: list[str] = [
+        "# 自动生成 —— 勿手改（派生源：零件库/装配体/ASM-*.md）",
+        "# 生成器：tools/procedural/md2dse.py assembly",
+        "# 改内容请改装配体后重跑；手改会被下次生成覆盖。",
+        "pack:",
+        "  id: parts-assembly",
+        "  name: 零件库装配体投影",
+        "  version: 0.1.0",
+    ]
+    body: list[str] = []
+
+    entries: list[str] = []
+    total_steps = 0
+    for fp in files:
+        text = read_text(fp)
+        mid = ASM_ID_RE.search(text)
+        asm_id = mid.group(1) if mid else fp.stem
+        short = asm_id.replace("ASM-", "").lower()
+
+        topic_m = ASM_TOPIC_RE.search(text)
+        topic = one_line(topic_m.group(1)) if topic_m else asm_id
+        gran_m = ASM_GRAN_RE.search(text)
+        gran = gran_m.group(1).strip() if gran_m else "未知"
+        drv_m = ASM_DRIVER_RE.search(text)
+        driver = drv_m.group(1) if drv_m else ""
+
+        # 成员表
+        mem_block = section_block(text, r"###\s*2\.2\s*成员件与角色(.*?)(?=\n###\s|\n##\s)")
+        members = _asm_member_rows(mem_block or "")
+        # Δ 序列
+        delta_block = section_block(text, r"##\s*四、Δ\s*序列(.*?)(?=\n##\s)")
+        deltas = _asm_delta_rows(delta_block or "")
+        steps = [d for d in deltas if d["step"] > 0]
+
+        if not steps:
+            print(f"[WARN] {fp.name}：未解析到 Δ 序列步骤，跳过", file=sys.stderr)
+            continue
+
+        entries.append(short)
+        total_steps += len(steps)
+
+        # ⚠️ `scenes:` **只能出现一次**（写在循环外）。
+        #    YAML 重复键会被**静默吞值**（前一个被后一个覆盖）——
+        #    实测踩坑：写在循环里导致 10 个 `scenes:`，只剩最后一个装配体的
+        #    场景，dse check 却「通过」（6 场景 / 可达 0），错得很隐蔽。
+        body.append(f"  {short}-step0:")
+        body.append(f"    title: {yaml_quote(asm_id + ' · 装配起点')}")
+        body.append(f"    text: {yaml_quote(topic)}")
+        body.append("    onEnter:")
+        body.append("      visits:")
+        body.append(f"        {short}: +1")
+        body.append("    choices:")
+        body.append(f"      - text: {yaml_quote('开始装配（粒度：' + gran + '）')}")
+        body.append(f"        goto: {short}-step1")
+
+        for idx, d in enumerate(steps, start=1):
+            sid = f"{short}-step{idx}"
+            pid = d["pid"]
+            pname = names.get(pid, pid)
+            step_no = d["step"]
+            scene_title = f"{asm_id} 步{step_no}：{pname}"
+            body.append(f"  {sid}:")
+            body.append(f"    title: {yaml_quote(scene_title)}")
+            body.append(f"    text: {yaml_quote(one_line(d['delta']))}")
+            body.append("    onEnter:")
+            body.append("      visits:")
+            body.append(f"        {sid}: +1")
+            # Δ → onEnter（**场景级效果**；`do` 是选项级字段，schema 不认 ——
+            # 实测踩坑：写成 do 被 dse check 以 additionalProperties 拒绝）
+            deltas_map = {}
+            for q, v in d["qty"].items():
+                if q in QTY_CHARS:
+                    deltas_map[q] = v
+            if deltas_map:
+                for q, v in deltas_map.items():
+                    body.append(f"      {QTY_ASCII.get(q, q)}: {v:+d}")
+            body.append("    choices:")
+            if idx < len(steps):
+                nxt = f"{short}-step{idx + 1}"
+                next_step = steps[idx]["step"]
+                next_pid = steps[idx]["pid"]
+                label = f"推进到步 {next_step}（{next_pid}）"
+                body.append(f"      - text: {yaml_quote(label)}")
+                body.append(f"        goto: {nxt}")
+            else:
+                body.append('      - text: "装配完成"')
+                body.append(f"        goto: {short}-done")
+
+        # 结局：装配后状态
+        body.append(f"  {short}-done:")
+        body.append(f"    title: {yaml_quote(asm_id + ' · 装配完成')}")
+        final = ", ".join(f"{q} = {v}" for q, v in (steps[-1]["qty"].items() if steps else []))
+        body.append(f"    text: {yaml_quote((('装配后状态：' + final + '。') if final else '装配完成。') + ('驱动量 ' + driver + '。' if driver else ''))}")
+
+    if not entries:
+        print("[FAIL] 没有解析出任何装配体", file=sys.stderr)
+        return 1
+
+    # 自带 index 场景：列出全部装配体，让本包自成一个入口
+    # （由顶层 index.yml 汇总；否则装配体 2~10 不可达）。
+    aidx = "asm-index"
+    index_block = [
+        f"  {aidx}:",
+        f"    title: {yaml_quote('零件库 · 装配体总览')}",
+        f"    text: {yaml_quote('%d 个装配体 / %d 个装配步。每个装配体是一条装配路径。' % (len(entries), total_steps))}",
+        f"    onEnter:",
+        f"      visits:",
+        f"        {aidx}: +1",
+        f"    choices:",
+    ]
+    for e in entries:
+        index_block.append(f"      - text: {yaml_quote('装配体 ' + e.upper())}")
+        index_block.append(f"        goto: {e}-step0")
+
+    # pack 段（head）与 scenes 段（body）分开构造。
+    # ⚠️ `scenes:` 只能出现一次 —— YAML 重复键会被静默吞值。
+    out_lines = head + [f"  entry: {aidx}", "scenes:"] + index_block + body
+
+    out.parent.mkdir(parents=True, exist_ok=True)
+    io.open(out, "w", encoding="utf-8", newline="\n").write("\n".join(out_lines) + "\n")
+
+    print(f"[OK] assembly：解析 {len(entries)} 个装配体 / {total_steps} 个装配步 → {out}")
+    for e in entries:
+        print(f"     {e}")
     return 0
 
 
@@ -503,9 +945,13 @@ def main(argv: list[str] | None = None) -> int:
     p_beats.add_argument("source")
     p_beats.add_argument("-o", "--output")
 
-    p_parts = sub.add_parser("parts", help="零件库装配体 → 场景图")
-    p_parts.add_argument("source")
+    p_parts = sub.add_parser("parts", help="零件库装配体 → 装配路径场景链")
+    p_parts.add_argument("source", help="零件库目录（含 装配体/ 与 0X-*.md）")
     p_parts.add_argument("-o", "--output")
+
+    p_asm = sub.add_parser("assembly", help="零件库装配体 → 装配路径场景链")
+    p_asm.add_argument("source", help="零件库目录（含 装配体/ 与 0X-*.md）")
+    p_asm.add_argument("-o", "--output")
 
     p_check = sub.add_parser("check", help="自检：重复键 + schema 体检")
     p_check.add_argument("source", help="YAML 路径（多个用逗号分隔）")
@@ -539,7 +985,8 @@ def main(argv: list[str] | None = None) -> int:
     src = Path(args.source)
     out = Path(args.output) if args.output else src.with_suffix(".yml")
 
-    fn = {"outline": convert_outline, "beats": convert_beats, "parts": convert_parts}[args.cmd]
+    fn = {"outline": convert_outline, "beats": convert_beats,
+          "parts": convert_parts, "assembly": convert_assembly}[args.cmd]
     return fn(src, out)
 
 

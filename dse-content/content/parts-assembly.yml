@@ -1,0 +1,547 @@
+# 自动生成 —— 勿手改（派生源：零件库/装配体/ASM-*.md）
+# 生成器：tools/procedural/md2dse.py assembly
+# 改内容请改装配体后重跑；手改会被下次生成覆盖。
+pack:
+  id: parts-assembly
+  name: 零件库装配体投影
+  version: 0.1.0
+  entry: asm-index
+scenes:
+  asm-index:
+    title: "零件库 · 装配体总览"
+    text: "10 个装配体 / 31 个装配步。每个装配体是一条装配路径。"
+    onEnter:
+      visits:
+        asm-index: +1
+    choices:
+      - text: "装配体 CCZ-0001"
+        goto: ccz-0001-step0
+      - text: "装配体 CCZ-0002"
+        goto: ccz-0002-step0
+      - text: "装配体 CCZ-0003"
+        goto: ccz-0003-step0
+      - text: "装配体 CCZ-0004"
+        goto: ccz-0004-step0
+      - text: "装配体 CCZ-0005"
+        goto: ccz-0005-step0
+      - text: "装配体 CCZ-0006"
+        goto: ccz-0006-step0
+      - text: "装配体 CCZ-0007"
+        goto: ccz-0007-step0
+      - text: "装配体 CCZ-0008"
+        goto: ccz-0008-step0
+      - text: "装配体 CCZ-0009"
+        goto: ccz-0009-step0
+      - text: "装配体 CCZ-0010"
+        goto: ccz-0010-step0
+  ccz-0001-step0:
+    title: "ASM-CCZ-0001 · 装配起点"
+    text: "谁在改册子？"
+    onEnter:
+      visits:
+        ccz-0001: +1
+    choices:
+      - text: "开始装配（粒度：卷级）"
+        goto: ccz-0001-step1
+  ccz-0001-step1:
+    title: "ASM-CCZ-0001 步1："
+    text: "位 −1；名 −1"
+    onEnter:
+      visits:
+        ccz-0001-step1: +1
+      wei: -1
+      ming: -1
+      mi: +0
+    choices:
+      - text: "推进到步 2（）"
+        goto: ccz-0001-step2
+  ccz-0001-step2:
+    title: "ASM-CCZ-0001 步2："
+    text: "位 −4（被划者）；ELSE 名 ≥4 时位 −2"
+    onEnter:
+      visits:
+        ccz-0001-step2: +1
+      wei: -5
+      ming: -1
+      mi: +0
+    choices:
+      - text: "推进到步 3（）"
+        goto: ccz-0001-step3
+  ccz-0001-step3:
+    title: "ASM-CCZ-0001 步3："
+    text: "时 −1；ELSE 秘 ≥2 时秘 +1"
+    onEnter:
+      visits:
+        ccz-0001-step3: +1
+      wei: -5
+      ming: -1
+    choices:
+      - text: "装配完成"
+        goto: ccz-0001-done
+  ccz-0001-done:
+    title: "ASM-CCZ-0001 · 装配完成"
+    text: "装配后状态：位 = -5, 名 = -1。驱动量 位。"
+  ccz-0002-step0:
+    title: "ASM-CCZ-0002 · 装配起点"
+    text: "听谁的？"
+    onEnter:
+      visits:
+        ccz-0002: +1
+    choices:
+      - text: "开始装配（粒度：卷级）"
+        goto: ccz-0002-step1
+  ccz-0002-step1:
+    title: "ASM-CCZ-0002 步1："
+    text: "时 −2；位 −1"
+    onEnter:
+      visits:
+        ccz-0002-step1: +1
+      shi_t: -2
+      shen: +0
+      wei: -6
+    choices:
+      - text: "推进到步 2（）"
+        goto: ccz-0002-step2
+  ccz-0002-step2:
+    title: "ASM-CCZ-0002 步2："
+    text: "财 −2（或 身 −1）；ELSE 位 ≥3 时位 −1"
+    onEnter:
+      visits:
+        ccz-0002-step2: +1
+      shi_t: -2
+      shen: -1
+      wei: -6
+    choices:
+      - text: "推进到步 3（）"
+        goto: ccz-0002-step3
+  ccz-0002-step3:
+    title: "ASM-CCZ-0002 步3："
+    text: "位 −2；名 −1（专长归零）"
+    onEnter:
+      visits:
+        ccz-0002-step3: +1
+      shi_t: -2
+      shen: -1
+      wei: -8
+    choices:
+      - text: "装配完成"
+        goto: ccz-0002-done
+  ccz-0002-done:
+    title: "ASM-CCZ-0002 · 装配完成"
+    text: "装配后状态：时 = -2, 身 = -1, 位 = -8。驱动量 时。"
+  ccz-0003-step0:
+    title: "ASM-CCZ-0003 · 装配起点"
+    text: "代价由谁承担？"
+    onEnter:
+      visits:
+        ccz-0003: +1
+    choices:
+      - text: "开始装配（粒度：卷级）"
+        goto: ccz-0003-step1
+  ccz-0003-step1:
+    title: "ASM-CCZ-0003 步1："
+    text: "债 +2（＝财 −2，时 −2）；位（被押者）−1"
+    onEnter:
+      visits:
+        ccz-0003-step1: +1
+      cai: -1
+      shi_t: -4
+      wei: -8
+    choices:
+      - text: "推进到步 2（）"
+        goto: ccz-0003-step2
+  ccz-0003-step2:
+    title: "ASM-CCZ-0003 步2："
+    text: "位 −1；财 +1"
+    onEnter:
+      visits:
+        ccz-0003-step2: +1
+      cai: +0
+      shi_t: -4
+      wei: -9
+    choices:
+      - text: "推进到步 3（）"
+        goto: ccz-0003-step3
+  ccz-0003-step3:
+    title: "ASM-CCZ-0003 步3："
+    text: "时 −3；位 −1；偿债即续债"
+    onEnter:
+      visits:
+        ccz-0003-step3: +1
+      cai: +0
+      shi_t: -7
+      wei: -10
+    choices:
+      - text: "装配完成"
+        goto: ccz-0003-done
+  ccz-0003-done:
+    title: "ASM-CCZ-0003 · 装配完成"
+    text: "装配后状态：财 = 0, 时 = -7, 位 = -10。驱动量 债。"
+  ccz-0004-step0:
+    title: "ASM-CCZ-0004 · 装配起点"
+    text: "谁有资格结卷？"
+    onEnter:
+      visits:
+        ccz-0004: +1
+    choices:
+      - text: "开始装配（粒度：卷级）"
+        goto: ccz-0004-step1
+  ccz-0004-step1:
+    title: "ASM-CCZ-0004 步1："
+    text: "名 −1；位 +1（权力确认）；旧空子堵上新空子生"
+    onEnter:
+      visits:
+        ccz-0004-step1: +1
+      ming: -3
+      wei: -9
+      mi: +0
+    choices:
+      - text: "推进到步 2（）"
+        goto: ccz-0004-step2
+  ccz-0004-step2:
+    title: "ASM-CCZ-0004 步2："
+    text: "时 −1；名 −1；ELSE 势 ≥3 时势 −2"
+    onEnter:
+      visits:
+        ccz-0004-step2: +1
+      ming: -4
+      wei: -9
+      mi: +0
+    choices:
+      - text: "推进到步 3（）"
+        goto: ccz-0004-step3
+  ccz-0004-step3:
+    title: "ASM-CCZ-0004 步3："
+    text: "秘 +1；身 −1；写错一处即反噬"
+    onEnter:
+      visits:
+        ccz-0004-step3: +1
+      ming: -4
+      wei: -9
+      mi: +1
+    choices:
+      - text: "装配完成"
+        goto: ccz-0004-done
+  ccz-0004-done:
+    title: "ASM-CCZ-0004 · 装配完成"
+    text: "装配后状态：名 = -4, 位 = -9, 秘 = 1。驱动量 名。"
+  ccz-0005-step0:
+    title: "ASM-CCZ-0005 · 装配起点"
+    text: "在册城，他为什么连\"人\"都当不上？"
+    onEnter:
+      visits:
+        ccz-0005: +1
+    choices:
+      - text: "开始装配（粒度：站区级）"
+        goto: ccz-0005-step1
+  ccz-0005-step1:
+    title: "ASM-CCZ-0005 步1："
+    text: "位 −1；名 −1"
+    onEnter:
+      visits:
+        ccz-0005-step1: +1
+      wei: -1
+      ming: -1
+      shi_t: +0
+      xin: +0
+    choices:
+      - text: "推进到步 2（）"
+        goto: ccz-0005-step2
+  ccz-0005-step2:
+    title: "ASM-CCZ-0005 步2："
+    text: "时 −1；ELSE 财 ≥3 → 买代诵，财 −2（本次未触发）"
+    onEnter:
+      visits:
+        ccz-0005-step2: +1
+      wei: -1
+      ming: -1
+      shi_t: -1
+      xin: +0
+    choices:
+      - text: "推进到步 3（）"
+        goto: ccz-0005-step3
+  ccz-0005-step3:
+    title: "ASM-CCZ-0005 步3："
+    text: "位 −1；信 −1；ELSE 名 ≥4 → 有人代作保，改 Δ 名 −2（本次名 = −1，未触发）"
+    onEnter:
+      visits:
+        ccz-0005-step3: +1
+      wei: -2
+      ming: -1
+      shi_t: -1
+      xin: -1
+    choices:
+      - text: "装配完成"
+        goto: ccz-0005-done
+  ccz-0005-done:
+    title: "ASM-CCZ-0005 · 装配完成"
+    text: "装配后状态：位 = -2, 名 = -1, 时 = -1, 信 = -1。驱动量 位。"
+  ccz-0006-step0:
+    title: "ASM-CCZ-0006 · 装配起点"
+    text: "手续齐了，为什么人还是假的？"
+    onEnter:
+      visits:
+        ccz-0006: +1
+    choices:
+      - text: "开始装配（粒度：站区级）"
+        goto: ccz-0006-step1
+  ccz-0006-step1:
+    title: "ASM-CCZ-0006 步1："
+    text: "位 −1；名 −1"
+    onEnter:
+      visits:
+        ccz-0006-step1: +1
+      wei: -3
+      cai: +0
+      ming: -2
+      xin: -1
+    choices:
+      - text: "推进到步 2（）"
+        goto: ccz-0006-step2
+  ccz-0006-step2:
+    title: "ASM-CCZ-0006 步2："
+    text: "位 −1；财 +1；ELSE 名 ≥3 → 借名折算，名 −1（本次名 = −2，未触发）"
+    onEnter:
+      visits:
+        ccz-0006-step2: +1
+      wei: -4
+      cai: +1
+      ming: -2
+      xin: -1
+    choices:
+      - text: "推进到步 3（）"
+        goto: ccz-0006-step3
+  ccz-0006-step3:
+    title: "ASM-CCZ-0006 步3："
+    text: "债 +2（派生量）；位（被押者）−1；ELSE 势 ≥2 → 联名共债（本次势 = 0，未触发）"
+    onEnter:
+      visits:
+        ccz-0006-step3: +1
+      wei: -5
+      cai: +1
+      ming: -2
+      xin: -1
+    choices:
+      - text: "装配完成"
+        goto: ccz-0006-done
+  ccz-0006-done:
+    title: "ASM-CCZ-0006 · 装配完成"
+    text: "装配后状态：位 = -5, 财 = 1, 名 = -2, 信 = -1。驱动量 位。"
+  ccz-0007-step0:
+    title: "ASM-CCZ-0007 · 装配起点"
+    text: "说清楚一件事，它怎么就不再是那件事了？"
+    onEnter:
+      visits:
+        ccz-0007: +1
+    choices:
+      - text: "开始装配（粒度：站区级）"
+        goto: ccz-0007-step1
+  ccz-0007-step1:
+    title: "ASM-CCZ-0007 步1："
+    text: "秘 +1（被注意）；身 −1"
+    onEnter:
+      visits:
+        ccz-0007-step1: +1
+      mi: +1
+      wei: -5
+      shi_t: -1
+      shen: -1
+    choices:
+      - text: "推进到步 2（）"
+        goto: ccz-0007-step2
+  ccz-0007-step2:
+    title: "ASM-CCZ-0007 步2："
+    text: "时 −1；ELSE 秘 ≥2 → 误读，秘 +1（本次秘 = 1，未触发）"
+    onEnter:
+      visits:
+        ccz-0007-step2: +1
+      mi: +1
+      wei: -5
+      shi_t: -2
+      shen: -1
+    choices:
+      - text: "推进到步 3（）"
+        goto: ccz-0007-step3
+  ccz-0007-step3:
+    title: "ASM-CCZ-0007 步3："
+    text: "秘 +1；位 −1；ELSE 秘 ≥4 → 已被盯上，时 −1（本次秘 = 2，未触发）"
+    onEnter:
+      visits:
+        ccz-0007-step3: +1
+      mi: +2
+      wei: -6
+      shi_t: -2
+      shen: -1
+    choices:
+      - text: "装配完成"
+        goto: ccz-0007-done
+  ccz-0007-done:
+    title: "ASM-CCZ-0007 · 装配完成"
+    text: "装配后状态：秘 = 2, 位 = -6, 时 = -2, 身 = -1。驱动量 秘。"
+  ccz-0008-step0:
+    title: "ASM-CCZ-0008 · 装配起点"
+    text: "听石头，为什么每听一次就少一样？"
+    onEnter:
+      visits:
+        ccz-0008: +1
+    choices:
+      - text: "开始装配（粒度：站区级）"
+        goto: ccz-0008-step1
+  ccz-0008-step1:
+    title: "ASM-CCZ-0008 步1："
+    text: "身 −1；信 −1（**不给解释**——本装配体不写为什么，这是硬约束）"
+    onEnter:
+      visits:
+        ccz-0008-step1: +1
+      wei: -6
+      shen: -2
+      xin: -2
+      cai: +1
+    choices:
+      - text: "推进到步 2（）"
+        goto: ccz-0008-step2
+  ccz-0008-step2:
+    title: "ASM-CCZ-0008 步2："
+    text: "位 −1；财 +1；ELSE 名 ≥3 → 借名折算，名 −1（本次名 = −2，未触发）"
+    onEnter:
+      visits:
+        ccz-0008-step2: +1
+      wei: -7
+      shen: -2
+      xin: -2
+      cai: +2
+    choices:
+      - text: "推进到步 3（）"
+        goto: ccz-0008-step3
+  ccz-0008-step3:
+    title: "ASM-CCZ-0008 步3："
+    text: "财 −1（凭证用掉一次）；若记满 → 位 −3（本次未记满，不触发）"
+    onEnter:
+      visits:
+        ccz-0008-step3: +1
+      wei: -7
+      shen: -2
+      xin: -2
+      cai: +1
+    choices:
+      - text: "装配完成"
+        goto: ccz-0008-done
+  ccz-0008-done:
+    title: "ASM-CCZ-0008 · 装配完成"
+    text: "装配后状态：位 = -7, 身 = -2, 信 = -2, 财 = 1。驱动量 位。"
+  ccz-0009-step0:
+    title: "ASM-CCZ-0009 · 装配起点"
+    text: "系统提示全在错，为什么错得那么有规律？"
+    onEnter:
+      visits:
+        ccz-0009: +1
+    choices:
+      - text: "开始装配（粒度：站区级）"
+        goto: ccz-0009-step1
+  ccz-0009-step1:
+    title: "ASM-CCZ-0009 步1："
+    text: "位 −1；名 −1"
+    onEnter:
+      visits:
+        ccz-0009-step1: +1
+      wei: -8
+      ming: -3
+      shi_t: -2
+    choices:
+      - text: "推进到步 2（）"
+        goto: ccz-0009-step2
+  ccz-0009-step2:
+    title: "ASM-CCZ-0009 步2："
+    text: "名 −1；位 +1；**ELSE 名 ≤ 1 → 改不动，Δ 时 −1**（本次名 = −3 ≤ 1，**触发**）"
+    onEnter:
+      visits:
+        ccz-0009-step2: +1
+      wei: -7
+      ming: -4
+      shi_t: -3
+    choices:
+      - text: "推进到步 3（）"
+        goto: ccz-0009-step3
+  ccz-0009-step3:
+    title: "ASM-CCZ-0009 步3："
+    text: "位 −4（被划者）；ELSE 名 ≥4 → 位 −2（本次名 = −4，未触发）"
+    onEnter:
+      visits:
+        ccz-0009-step3: +1
+      wei: -11
+      ming: -4
+      shi_t: -3
+    choices:
+      - text: "装配完成"
+        goto: ccz-0009-done
+  ccz-0009-done:
+    title: "ASM-CCZ-0009 · 装配完成"
+    text: "装配后状态：位 = -11, 名 = -4, 时 = -3。驱动量 位。"
+  ccz-0010-step0:
+    title: "ASM-CCZ-0010 · 装配起点"
+    text: "在只有校对机的地方，他怎么才能不被任何一册代表？"
+    onEnter:
+      visits:
+        ccz-0010: +1
+    choices:
+      - text: "开始装配（粒度：站区级）"
+        goto: ccz-0010-step1
+  ccz-0010-step1:
+    title: "ASM-CCZ-0010 步1："
+    text: "秘 +1；身 −1"
+    onEnter:
+      visits:
+        ccz-0010-step1: +1
+      ming: -4
+      wei: -11
+      shi_t: -3
+      mi: +3
+      shen: -3
+    choices:
+      - text: "推进到步 2（）"
+        goto: ccz-0010-step2
+  ccz-0010-step2:
+    title: "ASM-CCZ-0010 步2："
+    text: "名 −1；位 +1；**ELSE 名 ≤ 1 → 改不动，Δ 时 −1**（名 = −4，**触发**）"
+    onEnter:
+      visits:
+        ccz-0010-step2: +1
+      ming: -5
+      wei: -10
+      shi_t: -4
+      mi: +3
+      shen: -3
+    choices:
+      - text: "推进到步 3（）"
+        goto: ccz-0010-step3
+  ccz-0010-step3:
+    title: "ASM-CCZ-0010 步3："
+    text: "位 −1；名 −1；ELSE 名 ≥3 → 口传作保（名 = −5，未触发）"
+    onEnter:
+      visits:
+        ccz-0010-step3: +1
+      ming: -6
+      wei: -11
+      shi_t: -4
+      mi: +3
+      shen: -3
+    choices:
+      - text: "推进到步 4（）"
+        goto: ccz-0010-step4
+  ccz-0010-step4:
+    title: "ASM-CCZ-0010 步4："
+    text: "时 −1；名 −1；ELSE 势 ≥3 → 押两边，势 −2（势 = 0，未触发）"
+    onEnter:
+      visits:
+        ccz-0010-step4: +1
+      ming: -7
+      wei: -11
+      shi_t: -5
+      mi: +3
+      shen: -3
+    choices:
+      - text: "装配完成"
+        goto: ccz-0010-done
+  ccz-0010-done:
+    title: "ASM-CCZ-0010 · 装配完成"
+    text: "装配后状态：名 = -7, 位 = -11, 时 = -5, 秘 = 3, 身 = -3。驱动量 名。"

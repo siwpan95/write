@@ -1,0 +1,180 @@
+# 自动生成 —— 勿手改（派生源：廓者未名夜/10-节拍表与黄金三章施工-廓者未名夜.md）
+# 生成器：tools/procedural/md2dse.py beats
+pack:
+  id: kz-beats
+  name: 廓者未名夜 · 节拍表投影
+  version: 0.1.0
+  entry: beat-index
+scenes:
+  beat-index:
+    title: "《廓者：未名夜》· 全书 15 拍"
+    text: "节拍表投影：15 拍。节拍定位由人判，本图只校验结构。"
+    onEnter:
+      visits:
+        beat-index: +1
+    choices:
+      - text: "1. 开场画面"
+        goto: beat-01
+      - text: "2. 主题陈述"
+        goto: beat-02
+      - text: "3. 铺垫"
+        goto: beat-03
+      - text: "4. 催化剂"
+        goto: beat-04
+      - text: "5. 辩论"
+        goto: beat-05
+      - text: "6. 进入第二幕"
+        goto: beat-06
+      - text: "7. B 故事"
+        goto: beat-07-b
+      - text: "8. 趣味与游戏"
+        goto: beat-08
+      - text: "9. 中点（虚假胜利）"
+        goto: beat-09
+      - text: "10. 坏人逼近"
+        goto: beat-10
+      - text: "11. 一切尽失"
+        goto: beat-11
+      - text: "12. 灵魂的暗夜"
+        goto: beat-12
+      - text: "13. 进入第三幕"
+        goto: beat-13
+      - text: "14. 结局"
+        goto: beat-14
+      - text: "15. 终场画面"
+        goto: beat-15
+  beat-01:
+    title: "开场画面"
+    text: "一个无聊的下午，连按 Alt 72 下，窗外无故起风"
+    onEnter:
+      visits:
+        beat-01: +1
+    choices:
+      - text: "下一拍：主题陈述"
+        goto: beat-02
+  beat-02:
+    title: "主题陈述"
+    text: "「廓者，一曰大，二曰清。」＋「精密界定的真理都会变成谎言」"
+    onEnter:
+      visits:
+        beat-02: +1
+    choices:
+      - text: "下一拍：铺垫"
+        goto: beat-03
+  beat-03:
+    title: "铺垫"
+    text: "体制：短信派单、十四条规范、社区综合服务窗口"
+    onEnter:
+      visits:
+        beat-03: +1
+    choices:
+      - text: "下一拍：催化剂"
+        goto: beat-04
+  beat-04:
+    title: "催化剂"
+    text: "第一单：矫正丁上；庇护涌入胸口"
+    onEnter:
+      visits:
+        beat-04: +1
+    choices:
+      - text: "下一拍：辩论"
+        goto: beat-05
+  beat-05:
+    title: "辩论"
+    text: "「清除是慈悲吗」——主角与自己的争辩（读者看到的辩论对象是他自己）"
+    onEnter:
+      visits:
+        beat-05: +1
+    choices:
+      - text: "下一拍：进入第二幕"
+        goto: beat-06
+  beat-06:
+    title: "进入第二幕"
+    text: "归档流程跑顺；他开始像一份工单那样活着"
+    onEnter:
+      visits:
+        beat-06: +1
+    choices:
+      - text: "下一拍：B 故事"
+        goto: beat-07-b
+  beat-07-b:
+    title: "B 故事"
+    text: "猎魔人：另一条路的样本（自由 ＋ 失去情感与生育）"
+    onEnter:
+      visits:
+        beat-07-b: +1
+    choices:
+      - text: "下一拍：趣味与游戏"
+        goto: beat-08
+  beat-08:
+    title: "趣味与游戏"
+    text: "故障案件四段式：报障→分类→揭伤→归档"
+    onEnter:
+      visits:
+        beat-08: +1
+    choices:
+      - text: "下一拍：中点（虚假胜利）"
+        goto: beat-09
+  beat-09:
+    title: "中点（虚假胜利）"
+    text: "他成了最好的廓者 —— 直到看见自己编号的旧记录"
+    onEnter:
+      visits:
+        beat-09: +1
+    choices:
+      - text: "下一拍：坏人逼近"
+        goto: beat-10
+  beat-10:
+    title: "坏人逼近"
+    text: "系统崩溃加剧：廓者变强，同时失去得越多"
+    onEnter:
+      visits:
+        beat-10: +1
+    choices:
+      - text: "下一拍：一切尽失"
+        goto: beat-11
+  beat-11:
+    title: "一切尽失"
+    text: "代价条见底：记忆开始整段缺；庇护在他体内互相吞咬"
+    onEnter:
+      visits:
+        beat-11: +1
+    choices:
+      - text: "下一拍：灵魂的暗夜"
+        goto: beat-12
+  beat-12:
+    title: "灵魂的暗夜"
+    text: "信念崩：清除＝转移；他开始觉得被清除者活该"
+    onEnter:
+      visits:
+        beat-12: +1
+    choices:
+      - text: "下一拍：进入第三幕"
+        goto: beat-13
+  beat-13:
+    title: "进入第三幕"
+    text: "换辖区：更大的故障域 ＋ 别的廓者的档案"
+    onEnter:
+      visits:
+        beat-13: +1
+    choices:
+      - text: "下一拍：结局"
+        goto: beat-14
+  beat-14:
+    title: "结局"
+    text: "「大」与「清」同构：他是被矫正的那一类"
+    onEnter:
+      visits:
+        beat-14: +1
+    choices:
+      - text: "下一拍：终场画面"
+        goto: beat-15
+  beat-15:
+    title: "终场画面"
+    text: "下一个廓者按下了第 72 下；风起"
+    onEnter:
+      visits:
+        beat-15: +1
+    choices:
+      - text: "节拍表终点"
+        goto: beat-15

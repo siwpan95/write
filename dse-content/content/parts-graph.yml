@@ -1,0 +1,387 @@
+# 自动生成 —— 勿手改（派生源：零件库/02~05-*.md）
+# 生成器：tools/procedural/md2dse.py parts
+# 改内容请改零件卡后重跑；手改会被下次生成覆盖。
+# 语义：咬合邻接图（goto = 引入同场邻接件），**不是剧情路径**。
+pack:
+  id: parts-graph
+  name: 零件库咬合邻接图
+  version: 0.1.0
+  entry: hub
+scenes:
+  hub:
+    title: "零件库 · 总览（28 件）"
+    text: "跨项目可复用世界零件。每件可进入其所属装配体走装配路径；咬合关系见各件说明与 14-咬合索引。"
+    onEnter:
+      visits:
+        hub: +1
+    choices:
+      - text: "认纹不认人"
+        goto: wb-art-0014
+      - text: "篡改痕迹符号系统"
+        goto: wb-art-0019
+      - text: "资源成环"
+        goto: wb-art-0027
+      - text: "配给资格制"
+        goto: wb-econ-0010
+      - text: "重复次数即货币"
+        goto: wb-econ-0011
+      - text: "名分兑换率"
+        goto: wb-econ-0012
+      - text: "押名担保"
+        goto: wb-econ-0022
+      - text: "无补给地带"
+        goto: wb-geo-0009
+      - text: "专长归零"
+        goto: wb-geo-0023
+      - text: "双印互斥"
+        goto: wb-geo-0028
+      - text: "焚卷旧账"
+        goto: wb-hist-0013
+      - text: "名与事不同寿"
+        goto: wb-hist-0024
+      - text: "债由上定"
+        goto: wb-hist-0026
+      - text: "两层宪章争正统"
+        goto: wb-iface-0015
+      - text: "通电接口"
+        goto: wb-iface-0018
+      - text: "名分阶梯"
+        goto: wb-info-0016
+      - text: "划名机制"
+        goto: wb-info-0017
+      - text: "记录即存在"
+        goto: wb-inst-0001
+      - text: "不可逆代价"
+        goto: wb-inst-0002
+      - text: "职格互斥（制度性悲剧发生器）"
+        goto: wb-inst-0003
+      - text: "改一次生一漏"
+        goto: wb-inst-0025
+      - text: "代价记账法（可数、可累加、归因唯一）"
+        goto: wb-mech-0004
+      - text: "归因链三层"
+        goto: wb-mech-0005
+      - text: "认知不可通约"
+        goto: wb-mech-0006
+      - text: "描述即约束"
+        goto: wb-mech-0007
+      - text: "代价不可解"
+        goto: wb-mech-0008
+      - text: "越用越像它（能力同化）"
+        goto: wb-mech-0020
+      - text: "以屈辱为燃料"
+        goto: wb-mech-0021
+  wb-art-0014:
+    title: "认纹不认人"
+    text: "认纹不认人（WB-ART-0014）｜band: **L3**（recover 判定）｜target: 财／位 ｜ recover: 不可逆（记满即判死） ｜ 用完即把持…｜phase: **压 → 竭**——每用一次少一次是「压」；记满作废是「竭」｜可咬合 3 件：配给资格制（WB-ECON-0010）、记录即存在（WB-INST-0001）、代价记账法（可数、可累加、归因唯一）（WB-MECH-0004）"
+    onEnter:
+      visits:
+        wb-art-0014: +1
+    choices:
+      - text: "进入装配体 CCZ-0008"
+        goto: ccz-0008-step0
+      - text: "（本件可咬合 3 件 —— 见上）"
+        goto: hub
+  wb-art-0019:
+    title: "篡改痕迹符号系统"
+    text: "篡改痕迹符号系统（WB-ART-0019）｜band: **L1**（recover 判定）｜target: 时 ｜ recover: 自动（再读一次） ｜ 拿走判断力与时间，…｜phase: **设**——建立「痕迹可读」；「翻」的表现是误读｜可咬合 3 件：焚卷旧账（WB-HIST-0013）、划名机制（WB-INFO-0017）、描述即约束（WB-MECH-0007）"
+    onEnter:
+      visits:
+        wb-art-0019: +1
+    choices:
+      - text: "进入装配体 CCZ-0001"
+        goto: ccz-0001-step0
+      - text: "进入装配体 CCZ-0007"
+        goto: ccz-0007-step0
+      - text: "（本件可咬合 3 件 —— 见上）"
+        goto: hub
+  wb-art-0027:
+    title: "资源成环"
+    text: "资源成环（WB-ART-0027）｜band: **L2**（recover 判定）｜target: 财 ｜ recover: 条件（重新积累） ｜ 拿走资源，可补但要…｜phase: **压 → 竭**——每期都要续；本卷最后一次断供即「竭」｜可咬合 3 件：名分兑换率（WB-ECON-0012）、代价记账法（可数、可累加、归因唯一）（WB-MECH-0004）、越用越像它（能力同化）（WB-MECH-0020）"
+    onEnter:
+      visits:
+        wb-art-0027: +1
+    choices:
+      - text: "（本件可咬合 3 件 —— 见上）"
+        goto: hub
+  wb-econ-0010:
+    title: "配给资格制"
+    text: "配给资格制（WB-ECON-0010）｜band: **L3**（recover 判定）｜target: 位／财 ｜ recover: 不可逆（退出即断供） ｜ 拿走生存资…｜phase: **设 → 压**——先立「验档领配给」；后每次断供都是加压｜可咬合 3 件：认纹不认人（WB-ART-0014）、无补给地带（WB-GEO-0009）、记录即存在（WB-INST-0001）"
+    onEnter:
+      visits:
+        wb-econ-0010: +1
+    choices:
+      - text: "（本件可咬合 3 件 —— 见上）"
+        goto: hub
+  wb-econ-0011:
+    title: "重复次数即货币"
+    text: "重复次数即货币（WB-ECON-0011）｜band: **L2**（recover 判定）｜target: 时 ｜ recover: 自动（下次再诵） ｜ 拿走时间，可补但每…｜phase: **设**——建立「少一遍即无效」；「压」的表现是遍数上涨｜可咬合 2 件：记录即存在（WB-INST-0001）、认知不可通约（WB-MECH-0006）"
+    onEnter:
+      visits:
+        wb-econ-0011: +1
+    choices:
+      - text: "进入装配体 CCZ-0005"
+        goto: ccz-0005-step0
+      - text: "（本件可咬合 2 件 —— 见上）"
+        goto: hub
+  wb-econ-0012:
+    title: "名分兑换率"
+    text: "名分兑换率（WB-ECON-0012）｜band: **L2**（recover 判定）｜target: 位／财 ｜ recover: 条件（升级可换回） ｜ 拿走配额与待…｜phase: **设 → 压**——先立兑换率；后在「换不起」时加压｜可咬合 6 件：资源成环（WB-ART-0027）、押名担保（WB-ECON-0022）、名分阶梯（WB-INFO-0016）、记录即存在（WB-INST-0001）、不可逆代价（WB-INST-0002）、以屈辱为燃料（WB-MECH-0021）"
+    onEnter:
+      visits:
+        wb-econ-0012: +1
+    choices:
+      - text: "进入装配体 CCZ-0003"
+        goto: ccz-0003-step0
+      - text: "进入装配体 CCZ-0006"
+        goto: ccz-0006-step0
+      - text: "进入装配体 CCZ-0008"
+        goto: ccz-0008-step0
+      - text: "（本件可咬合 6 件 —— 见上）"
+        goto: hub
+  wb-econ-0022:
+    title: "押名担保"
+    text: "押名担保（WB-ECON-0022）｜band: **L3**（recover 判定）｜target: 位（他人） ｜ recover: 不可完全补（只能换人押） ｜ 拿…｜phase: **设 → 压**——先立「借力须押名」的规则；后在「押不出来」时加压｜可咬合 4 件：名分兑换率（WB-ECON-0012）、债由上定（WB-HIST-0026）、划名机制（WB-INFO-0017）、记录即存在（WB-INST-0001）"
+    onEnter:
+      visits:
+        wb-econ-0022: +1
+    choices:
+      - text: "进入装配体 CCZ-0003"
+        goto: ccz-0003-step0
+      - text: "进入装配体 CCZ-0006"
+        goto: ccz-0006-step0
+      - text: "（本件可咬合 4 件 —— 见上）"
+        goto: hub
+  wb-geo-0009:
+    title: "无补给地带"
+    text: "无补给地带（WB-GEO-0009）｜band: **L4**（recover 判定）｜target: 身 ｜ recover: 不可逆 ｜ 离开分配点即慢性死亡，不可补｜phase: **设**——建立「路不重合」；不作「压」（环境不会加压，只会一直在）｜可咬合 2 件：配给资格制（WB-ECON-0010）、记录即存在（WB-INST-0001）"
+    onEnter:
+      visits:
+        wb-geo-0009: +1
+    choices:
+      - text: "（本件可咬合 2 件 —— 见上）"
+        goto: hub
+  wb-geo-0023:
+    title: "专长归零"
+    text: "专长归零（WB-GEO-0023）｜band: **L2**（recover 判定）｜target: 位／名 ｜ recover: 条件（换一套本事） ｜ 拿走地位与专…｜phase: **设**——建立「这里另有一套规则」；不适合「压」（越压越钝）｜可咬合 3 件：名分阶梯（WB-INFO-0016）、记录即存在（WB-INST-0001）、越用越像它（能力同化）（WB-MECH-0020）"
+    onEnter:
+      visits:
+        wb-geo-0023: +1
+    choices:
+      - text: "进入装配体 CCZ-0002"
+        goto: ccz-0002-step0
+      - text: "（本件可咬合 3 件 —— 见上）"
+        goto: hub
+  wb-geo-0028:
+    title: "双印互斥"
+    text: "双印互斥（WB-GEO-0028）｜band: **L2**（recover 判定）｜target: 时／位 ｜ recover: 条件（补齐另一套手续） ｜ 拿走办事…｜phase: **设 → 压**——先立「要两套印」；后每次卡住都是加压｜可咬合 3 件：两层宪章争正统（WB-IFACE-0015）、记录即存在（WB-INST-0001）、改一次生一漏（WB-INST-0025）"
+    onEnter:
+      visits:
+        wb-geo-0028: +1
+    choices:
+      - text: "进入装配体 CCZ-0002"
+        goto: ccz-0002-step0
+      - text: "（本件可咬合 3 件 —— 见上）"
+        goto: hub
+  wb-hist-0013:
+    title: "焚卷旧账"
+    text: "焚卷旧账（WB-HIST-0013）｜band: **L3**（recover 判定）｜target: 秘／位 ｜ recover: 不可逆（不可复原） ｜ 拿走「另一种…｜phase: **翻**——揭示「历史被人改过」；不宜作「设」（一开场就查旧账会泄底）｜可咬合 5 件：篡改痕迹符号系统（WB-ART-0019）、名与事不同寿（WB-HIST-0024）、两层宪章争正统（WB-IFACE-0015）、不可逆代价（WB-INST-0002）、描述即约束（WB-MECH-0007）"
+    onEnter:
+      visits:
+        wb-hist-0013: +1
+    choices:
+      - text: "进入装配体 CCZ-0007"
+        goto: ccz-0007-step0
+      - text: "（本件可咬合 5 件 —— 见上）"
+        goto: hub
+  wb-hist-0024:
+    title: "名与事不同寿"
+    text: "名与事不同寿（WB-HIST-0024）｜band: **L3**（recover 判定）｜target: 名 ｜ recover: 不可逆（名划掉就没了） ｜ 拿走署名与名…｜phase: **翻**——揭示「事比名久」这件事本身就是翻转；不宜作「设」｜可咬合 3 件：焚卷旧账（WB-HIST-0013）、划名机制（WB-INFO-0017）、记录即存在（WB-INST-0001）"
+    onEnter:
+      visits:
+        wb-hist-0024: +1
+    choices:
+      - text: "（本件可咬合 3 件 —— 见上）"
+        goto: hub
+  wb-hist-0026:
+    title: "债由上定"
+    text: "债由上定（WB-HIST-0026）｜band: **L3**（recover 判定）｜target: 时／位 ｜ recover: 不可逆（偿债即续债，除有人代偿） ｜…｜phase: **设 → 压**——先立「债由上定」；后每期劳役都是加压｜可咬合 3 件：押名担保（WB-ECON-0022）、记录即存在（WB-INST-0001）、不可逆代价（WB-INST-0002）"
+    onEnter:
+      visits:
+        wb-hist-0026: +1
+    choices:
+      - text: "进入装配体 CCZ-0003"
+        goto: ccz-0003-step0
+      - text: "（本件可咬合 3 件 —— 见上）"
+        goto: hub
+  wb-iface-0015:
+    title: "两层宪章争正统"
+    text: "两层宪章争正统（WB-IFACE-0015）｜band: **L2**（recover 判定）｜target: 时／名 ｜ recover: 自动（选一套即可） ｜ 拿走确定性，…｜phase: **设 → 翻**——先立「两套都算数」；后在他发现「选哪套都被另一套推翻」时翻转｜可咬合 5 件：双印互斥（WB-GEO-0028）、焚卷旧账（WB-HIST-0013）、划名机制（WB-INFO-0017）、记录即存在（WB-INST-0001）、改一次生一漏（WB-INST-0025）"
+    onEnter:
+      visits:
+        wb-iface-0015: +1
+    choices:
+      - text: "进入装配体 CCZ-0004"
+        goto: ccz-0004-step0
+      - text: "进入装配体 CCZ-0010"
+        goto: ccz-0010-step0
+      - text: "（本件可咬合 5 件 —— 见上）"
+        goto: hub
+  wb-iface-0018:
+    title: "通电接口"
+    text: "通电接口（WB-IFACE-0018）｜band: **L1**（recover 判定）｜target: 无 ｜ recover: ——（元零件，不取走东西） ｜ 判定工具…｜phase: **设**——验收纪律；不作叙事相位｜**判定件**（不产生咬合边）｜可咬合 0 件（判定件）"
+    onEnter:
+      visits:
+        wb-iface-0018: +1
+    choices:
+      - text: "（无咬合件 —— 判定）"
+        goto: hub
+  wb-info-0016:
+    title: "名分阶梯"
+    text: "名分阶梯（WB-INFO-0016）｜band: **L2**（recover 判定）｜target: 名 ｜ recover: 自动（能升） ｜ 拿走待遇，可补（能升）｜phase: **设 → 压**——先立「办事看级」；后每差一级都是加压｜可咬合 7 件：名分兑换率（WB-ECON-0012）、专长归零（WB-GEO-0023）、记录即存在（WB-INST-0001）、职格互斥（制度性悲剧发生器）（WB-INST-0003）、认知不可通约（WB-MECH-0006）、越用越像它（能力同化）（WB-MECH-0020）、以屈辱为燃料（WB-MECH-0021）"
+    onEnter:
+      visits:
+        wb-info-0016: +1
+    choices:
+      - text: "（本件可咬合 7 件 —— 见上）"
+        goto: hub
+  wb-info-0017:
+    title: "划名机制"
+    text: "划名机制（WB-INFO-0017）｜band: **L4**（recover 判定）｜target: 位 ｜ recover: 不可逆（旧行只作证据） ｜ 从社会层面彻…｜phase: **翻 → 竭**——揭示「他被划了」是「翻」；划完即「竭」｜可咬合 8 件：篡改痕迹符号系统（WB-ART-0019）、押名担保（WB-ECON-0022）、名与事不同寿（WB-HIST-0024）、两层宪章争正统（WB-IFACE-0015）、记录即存在（WB-INST-0001）、不可逆代价（WB-INST-0002）、改一次生一漏（WB-INST-0025）、代价记账法（可数、可累加、归因唯一）（WB-MECH-0004）"
+    onEnter:
+      visits:
+        wb-info-0017: +1
+    choices:
+      - text: "进入装配体 CCZ-0001"
+        goto: ccz-0001-step0
+      - text: "进入装配体 CCZ-0009"
+        goto: ccz-0009-step0
+      - text: "（本件可咬合 8 件 —— 见上）"
+        goto: hub
+  wb-inst-0001:
+    title: "记录即存在"
+    text: "记录即存在（WB-INST-0001）｜band: **L4**（recover 判定）｜target: 位／存在 ｜ recover: 不可逆 ｜ 除名＝社会意义上的存在…｜phase: **设 → 翻**——先立「什么算数」的规则；后可在「册子骗人」处翻转（虚字线）｜可咬合 18 件：认纹不认人（WB-ART-0014）、配给资格制（WB-ECON-0010）、重复次数即货币（WB-ECON-0011）、名分兑换率（WB-ECON-0012）、押名担保（WB-ECON-0022）、无补给地带（WB-GEO-0009）、专长归零（WB-GEO-0023）、双印互斥（WB-GEO-0028） ……另有 10 件（见 14-咬合索引）"
+    onEnter:
+      visits:
+        wb-inst-0001: +1
+    choices:
+      - text: "进入装配体 CCZ-0001"
+        goto: ccz-0001-step0
+      - text: "进入装配体 CCZ-0005"
+        goto: ccz-0005-step0
+      - text: "进入装配体 CCZ-0006"
+        goto: ccz-0006-step0
+      - text: "进入装配体 CCZ-0009"
+        goto: ccz-0009-step0
+      - text: "进入装配体 CCZ-0010"
+        goto: ccz-0010-step0
+      - text: "（本件可咬合 18 件 —— 见上）"
+        goto: hub
+  wb-inst-0002:
+    title: "不可逆代价"
+    text: "不可逆代价（WB-INST-0002）｜band: **L3**（recover 判定）｜target: 财／身 ｜ recover: 不可逆 ｜ 交出的是「真实所有物」，…｜phase: **设 → 压**——先立「改必付账」的规则，后每次调用都在加压｜可咬合 9 件：名分兑换率（WB-ECON-0012）、焚卷旧账（WB-HIST-0013）、债由上定（WB-HIST-0026）、划名机制（WB-INFO-0017）、记录即存在（WB-INST-0001）、职格互斥（制度性悲剧发生器）（WB-INST-0003）、代价记账法（可数、可累加、归因唯一）（WB-MECH-0004）、描述即约束（WB-MECH-0007） ……另有 1 件（见 14-咬合索引）"
+    onEnter:
+      visits:
+        wb-inst-0002: +1
+    choices:
+      - text: "进入装配体 CCZ-0002"
+        goto: ccz-0002-step0
+      - text: "（本件可咬合 9 件 —— 见上）"
+        goto: hub
+  wb-inst-0003:
+    title: "职格互斥（制度性悲剧发生器）"
+    text: "职格互斥（制度性悲剧发生器）（WB-INST-0003）｜band: **L3**（recover 判定）｜target: 位 ｜ recover: 不可完全补（只能换一条路） ｜ 拿走「完…｜phase: **设 → 翻**——先立「有职无格」的规则；后在他发现自己永远进不去时翻转｜可咬合 4 件：名分阶梯（WB-INFO-0016）、记录即存在（WB-INST-0001）、不可逆代价（WB-INST-0002）、以屈辱为燃料（WB-MECH-0021）"
+    onEnter:
+      visits:
+        wb-inst-0003: +1
+    choices:
+      - text: "进入装配体 CCZ-0005"
+        goto: ccz-0005-step0
+      - text: "（本件可咬合 4 件 —— 见上）"
+        goto: hub
+  wb-inst-0025:
+    title: "改一次生一漏"
+    text: "改一次生一漏（WB-INST-0025）｜band: **L2**（recover 判定）｜target: 名／位 ｜ recover: 条件（再改一次，但生新漏） ｜ 拿走…｜phase: **压 → 翻**——空子出现是「压」；改完更乱是「翻」｜可咬合 4 件：双印互斥（WB-GEO-0028）、两层宪章争正统（WB-IFACE-0015）、划名机制（WB-INFO-0017）、记录即存在（WB-INST-0001）"
+    onEnter:
+      visits:
+        wb-inst-0025: +1
+    choices:
+      - text: "进入装配体 CCZ-0004"
+        goto: ccz-0004-step0
+      - text: "进入装配体 CCZ-0009"
+        goto: ccz-0009-step0
+      - text: "进入装配体 CCZ-0010"
+        goto: ccz-0010-step0
+      - text: "（本件可咬合 4 件 —— 见上）"
+        goto: hub
+  wb-mech-0004:
+    title: "代价记账法（可数、可累加、归因唯一）"
+    text: "代价记账法（可数、可累加、归因唯一）（WB-MECH-0004）｜band: **L2**（recover 判定）｜target: 财／身 ｜ recover: 条件（还账） ｜ 记在账上可还，但账…｜phase: **设 → 压**——先立「用必上账」，后按账额递增｜可咬合 7 件：认纹不认人（WB-ART-0014）、资源成环（WB-ART-0027）、划名机制（WB-INFO-0017）、记录即存在（WB-INST-0001）、不可逆代价（WB-INST-0002）、代价不可解（WB-MECH-0008）、越用越像它（能力同化）（WB-MECH-0020）"
+    onEnter:
+      visits:
+        wb-mech-0004: +1
+    choices:
+      - text: "（本件可咬合 7 件 —— 见上）"
+        goto: hub
+  wb-mech-0005:
+    title: "归因链三层"
+    text: "归因链三层（WB-MECH-0005）｜band: **L1**（recover 判定）｜target: 无 ｜ recover: ——（诊断工具，本身不取走东西） ｜ 诊…｜phase: **设**——建立「缺陷有三层」的认知；不作「压」「翻」｜**元件**（不产生咬合边）｜可咬合 0 件（元件）"
+    onEnter:
+      visits:
+        wb-mech-0005: +1
+    choices:
+      - text: "（无咬合件 —— 元）"
+        goto: hub
+  wb-mech-0006:
+    title: "认知不可通约"
+    text: "认知不可通约（WB-MECH-0006）｜band: **L2**（recover 判定）｜target: 时／势 ｜ recover: 条件（付重复成本） ｜ 拿走理解效率…｜phase: **设**——建立「传达有硬上限」；不宜「压」（重复本身即代价，已含在规则里）｜可咬合 3 件：重复次数即货币（WB-ECON-0011）、名分阶梯（WB-INFO-0016）、记录即存在（WB-INST-0001）"
+    onEnter:
+      visits:
+        wb-mech-0006: +1
+    choices:
+      - text: "（本件可咬合 3 件 —— 见上）"
+        goto: hub
+  wb-mech-0007:
+    title: "描述即约束"
+    text: "描述即约束（WB-MECH-0007）｜band: **L3**（recover 判定）｜target: 秘／身 ｜ recover: 不可完全补（反噬已发生） ｜ 写错一…｜phase: **设 → 翻**——先立「描述即约束」；后在「说清它还是不惊动它」处翻转｜可咬合 3 件：篡改痕迹符号系统（WB-ART-0019）、焚卷旧账（WB-HIST-0013）、不可逆代价（WB-INST-0002）"
+    onEnter:
+      visits:
+        wb-mech-0007: +1
+    choices:
+      - text: "进入装配体 CCZ-0004"
+        goto: ccz-0004-step0
+      - text: "进入装配体 CCZ-0007"
+        goto: ccz-0007-step0
+      - text: "进入装配体 CCZ-0010"
+        goto: ccz-0010-step0
+      - text: "（本件可咬合 3 件 —— 见上）"
+        goto: hub
+  wb-mech-0008:
+    title: "代价不可解"
+    text: "代价不可解（WB-MECH-0008）｜band: **L3**（recover 判定）｜target: 身／信 ｜ recover: 不可逆 ｜ 拿走一部分自己，且不许问…｜phase: **设 → 压**——先立「代价不可解释」；后每次调用都再少一样｜可咬合 3 件：不可逆代价（WB-INST-0002）、代价记账法（可数、可累加、归因唯一）（WB-MECH-0004）、越用越像它（能力同化）（WB-MECH-0020）"
+    onEnter:
+      visits:
+        wb-mech-0008: +1
+    choices:
+      - text: "进入装配体 CCZ-0008"
+        goto: ccz-0008-step0
+      - text: "（本件可咬合 3 件 —— 见上）"
+        goto: hub
+  wb-mech-0020:
+    title: "越用越像它（能力同化）"
+    text: "越用越像它（能力同化）（WB-MECH-0020）｜band: **L3**（recover 判定）｜target: 信／名 ｜ recover: 不可逆（降阶不退还） ｜ 拿走「作为…｜phase: **压 → 翻**——每次升级是「压」；旁人先看出来而自己最后察觉，是「翻」｜可咬合 5 件：资源成环（WB-ART-0027）、专长归零（WB-GEO-0023）、名分阶梯（WB-INFO-0016）、代价记账法（可数、可累加、归因唯一）（WB-MECH-0004）、代价不可解（WB-MECH-0008）"
+    onEnter:
+      visits:
+        wb-mech-0020: +1
+    choices:
+      - text: "（本件可咬合 5 件 —— 见上）"
+        goto: hub
+  wb-mech-0021:
+    title: "以屈辱为燃料"
+    text: "以屈辱为燃料（WB-MECH-0021）｜band: **L2**（recover 判定）｜target: 名／财 ｜ recover: 条件（再受辱可再入账） ｜ 拿走时间…｜phase: **设 → 压**——先立「受辱且不折腰才入账」；后每次受辱都是加压｜可咬合 3 件：名分兑换率（WB-ECON-0012）、名分阶梯（WB-INFO-0016）、职格互斥（制度性悲剧发生器）（WB-INST-0003）"
+    onEnter:
+      visits:
+        wb-mech-0021: +1
+    choices:
+      - text: "（本件可咬合 3 件 —— 见上）"
+        goto: hub

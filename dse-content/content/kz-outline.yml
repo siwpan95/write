@@ -5,8 +5,29 @@ pack:
   id: kz-outline
   name: 廓者未名夜 · 四层大纲投影
   version: 0.1.0
-  entry: seg-01
+  entry: kz-index
 scenes:
+  kz-index:
+    title: "《廓者：未名夜》· 四层大纲主线"
+    text: "主线 7 段。已写段与待写段各有一条分支结局。"
+    onEnter:
+      visits:
+        kz-index: +1
+    choices:
+      - text: "1. 一 · 接单（已写）"
+        goto: seg-01
+      - text: "2. 二 · 归档（已写）"
+        goto: seg-02
+      - text: "3. 三 · 编号的旧记录（待写）"
+        goto: seg-03
+      - text: "4. 四 · 猎魔人（待写）"
+        goto: seg-04
+      - text: "5. 五 · 换辖区（待写）"
+        goto: seg-05
+      - text: "6. 六 · 廓清（待写）"
+        goto: seg-06
+      - text: "7. 七 · 大／清（待写）"
+        goto: seg-07
   seg-01:
     title: "一 · 接单"
     text: "成为廓者；学会按 Alt 72 下；接第一张工单（残余聚合体「丁上」，信仰：永久灼热之心）"
