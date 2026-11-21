@@ -1,10 +1,10 @@
 {
  "schema": 1,
  "summary": {
-  "docs": 1667,
+  "docs": 1668,
   "derived_docs": 16,
   "by_type": {
-   "正文": 644,
+   "正文": 645,
    "设定": 575,
    "模板": 416,
    "总览": 32
@@ -81,7 +81,7 @@
      "模板": 3,
      "总览": 1
     },
-    "links": 2588,
+    "links": 2589,
     "knowledge": 75,
     "knowledge_orphan": 0
    },
@@ -146,13 +146,13 @@
     "knowledge_orphan": 0
    },
    "廓者未名夜": {
-    "docs": 26,
-    "net_chars": 179643,
+    "docs": 27,
+    "net_chars": 192355,
     "types": {
      "模板": 10,
      "设定": 1,
      "总览": 1,
-     "正文": 14
+     "正文": 15
     },
     "links": 4,
     "knowledge": 12,
@@ -309,20 +309,20 @@
     "knowledge_orphan": 0
    }
   },
-  "total_links": 2636,
+  "total_links": 2637,
   "total_broken": 0,
   "frontmatter_docs": 40,
   "tag_count": 156,
   "knowledge_docs": 1023,
   "knowledge_orphans": 1,
   "knowledge_orphan_rate": 0.1,
-  "narrative_docs": 644,
+  "narrative_docs": 645,
   "narrative_orphans": 0,
   "orphan_count": 1,
   "orphan_sample": [
    "CHANGELOG.md"
   ],
-  "net_chars_total": 9535706
+  "net_chars_total": 9548418
  },
  "overrides_count": 31,
  "nodes": [
@@ -3329,7 +3329,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 1823,
+   "net_chars": 1863,
    "tags": [],
    "aliases": [],
    "out": [
@@ -3361,7 +3361,8 @@
     "廓者未名夜/正文/第11章-默认.md",
     "廓者未名夜/正文/第12章-红线.md",
     "廓者未名夜/正文/第13章-其他.md",
-    "廓者未名夜/正文/第14章-口径.md"
+    "廓者未名夜/正文/第14章-口径.md",
+    "廓者未名夜/正文/第15章-差额.md"
    ],
    "in": [
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
@@ -15956,7 +15957,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 13454,
+   "net_chars": 14294,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -15976,7 +15977,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 36080,
+   "net_chars": 39455,
    "tags": [
     "设定/世界观",
     "体系/四神",
@@ -16009,7 +16010,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 14513,
+   "net_chars": 15551,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -16030,7 +16031,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 11871,
+   "net_chars": 12606,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -16051,7 +16052,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 33099,
+   "net_chars": 35943,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -16090,7 +16091,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 7344,
+   "net_chars": 7799,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -16110,7 +16111,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 13826,
+   "net_chars": 14874,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -16173,7 +16174,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "入口总览",
-   "net_chars": 3799,
+   "net_chars": 3903,
    "tags": [
     "入口总览"
    ],
@@ -16454,6 +16455,25 @@
    "project": "廓者未名夜",
    "role": "正文",
    "net_chars": 1997,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-廓者未名夜.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "廓者未名夜/正文/第15章-差额.md",
+   "title": "第15章-差额",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "廓者未名夜",
+   "role": "正文",
+   "net_chars": 2273,
    "tags": [],
    "aliases": [],
    "out": [],

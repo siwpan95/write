@@ -12,7 +12,7 @@
 #    Linux/macOS 的 sha256sum -c 会因路径分隔符失配而全盘失败；现改为正斜杠。
 # 3) 哈希口径：一律取 git blob 字节（LF），不得按工作区字节计算（工作区可能是 CRLF 旧副本）。
 #    重算工具：python tools/manifest.py --write    校验：python tools/manifest.py --check
-1feffcec91c18508d82df960828f501e9ca754a8c778bc2d8e7a709479f317de  00-总档与SOP.md
+b56957481b5658b76899aa57b5949958eabc4840913273cd9b369d06caf17201  00-总档与SOP.md
 38e51e81975afa7428b8949ab3990c4efdf748c2725da2afab50533e5cb4f66d  01-立项定位模板.md
 6e0583eace5fc4c397610bbc7e860cc3ebac6c105befece94127dcc363cd37fc  02-大纲四层模板.md
 998414dd48127108a904fe53905e83e296a382c4a20fe949316887ed02fcbf5c  03-世界观圣经模板.md
@@ -26,14 +26,14 @@ b6faa7b47eea5af4e117ec38362174d4dba33eeccf8b3804fde33daea7007dfd  07-附录-本�
 6d8c6f2347fbd5b7b0945a8c4ae8f2cd140d975f44a54aee125333418b44d4e4  11-合规与一致性检查模板.md
 c20b77e61ce0ec7cfa66ff096c38d28a126e2a58c9c2f647a5d35c6deff0f305  12-品类流派与IP合规前置模板.md
 d90b69ddbf6b3cfc4a0a9552b0782237da4541e5f3cd7025d4e67b8677cbf653  13-世界先行与地图叙事模板.md
-8a868e0d1f698595fa28e7d7c8bbe4b2df07077e0c89c94d8d52dedaea6ba057  14-外部依赖与来源登记表.md
+25d988cab469c1561cb889f58c613308f754bdf1b235e19eab98eda5e5af73f6  14-外部依赖与来源登记表.md
 1c35ee35d2dcb73db30e3cbcd27cea212955b1ed0f2b340186c3e932337bf8dd  15-附录-填法样例集.md
 e18cfdf01b414901ef9625b6d71bd65ee929f8d502568ef5c2195d7bf9306021  16-喜剧节奏与无厘头手法模板.md
 f433f8228603bf6649393f527da47005a2fa8cb64466f7c38b063c653827b459  17-字数增密与紫罗兰散文防控模板.md
-8d558166023c29534cd63cb6da1cda85e5c6e11c3e6c8bbc8b6dbbc61233c3ae  18-程序化创作与算法脚本模板.md
+1c5acda66fe710d3d3f60dc51b51dad09fc29660ff3b32eb9901aa2b905197d4  18-程序化创作与算法脚本模板.md
 bed42610ba52facc1fe753c6ad3e76b2787f398e3283e745e89bb8e92290ce57  README.md
 55bdf4a558314c5acccdd2bb31bb253b582142855ed15804dea8135fe28a5b57  审计与修复报告.md
-b1cf65ef97235f8c856be1f8d42759ad34b59e55666312305a545561f9bb8ad0  校验报告.txt
+7e0533e6764cc859996a7aee624eaf03ec6e48e1404b91739a4aa5fa33fe29f7  校验报告.txt
 df750674bad408d1de792e9b0b301d4e58e43b985b725093d7aada71529bf51f  tools/build_sample_pages.py
 9aa4bf76cd8e407666b57c209baab714b8654265b0001c704c484094dd0072a1  tools/check_package.py
 c72fb93fdff8e94b9f6717baf87cb6a06100d2ff200bad35bf177baf135bd2a7  tools/tab_lint.py
