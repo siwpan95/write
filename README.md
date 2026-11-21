@@ -107,7 +107,7 @@
 
 | 位置 | 内容 |
 | --- | --- |
-| [`tools/`](tools/README.md) | **全仓工具编排层**：Cordis 插件树（`cordis.yml`，插件数见下方「治理指标」区块）＋ 薄壳 `host.mjs` ＋ Python 检查内核 ＋ 项目级审校口径。**统一入口**：`npm run check`（跑全部检查器）/ `doctor`（环境自检）/ `list`（列能力）/ `manifest`（模板包哈希校验）/ `metrics:check`（治理指标 drift gate）/ `test`（负向控制）/ `eval`（检索评测）/ `pkm`（知识连接层）。架构＝**Cordis 做壳（编排/配置/汇总），Python 做里（检查内核）**。**分层**（2026-11-21 修订）：核心内核（doc-review / pkm / metrics / rules / prose-style / sync）**只用标准库，换机即跑**；增强层（dse）需 `requirements.txt` 依赖，缺失时**报 ERROR 而非静默跳过** |
+| [`tools/`](tools/README.md) | **全仓工具编排层**：Cordis 插件树（`cordis.yml`，插件数见下方「治理指标」区块）＋ 薄壳 `host.mjs` ＋ Python 检查内核 ＋ 项目级审校口径。**统一入口**：`npm run check`（跑全部检查器）/ `doctor`（环境自检）/ `list`（列能力）/ `manifest`（模板包哈希校验）/ `metrics:check`（治理指标 drift gate）/ `test`（负向控制）/ `eval`（检索评测）/ `pkm`（知识连接层）。架构＝**Cordis 做壳（编排/配置/汇总），Python 做里（检查内核）**。**分层**（2026-11-21 修订）：核心内核（doc-review / pkm / metrics / rules / prose-style / sync）**只用标准库，换机即跑**；增强层（dse）需 `requirements.txt` 依赖，缺失时**报 ERROR 而非静默跳过**。另有 [`tools/ledger_qa.py`](tools/ledger_qa.py) —— **连载台账问答**（把 `06` 台账条目灌进可学习记忆，得到条目级精确回放；补 PKM「只检索不答问」的缺口） |
 | [`dse-content/`](dse-content/docs/内容包规范.md) | **叙事内容包层**（2026-11-21 建立）：把规划层文档（四层大纲 / 节拍表 / 零件库）投影成 dse-core 可执行、可校验的场景图。内容包是**数据**（YAML），**单向由 SSOT 派生**（`tools/procedural/md2dse.py`），**不入正文层**。三道门（`check` 静态 / `traverse` 动态 / `coverage` 结局覆盖）已接进 `npm run check` |
 | [`PKM/`](PKM/README.md) | **知识连接层**（2026-11-13 建立）：把全库 Markdown 变成可检索、可导航、可校验的知识网络（当前文档数见下方「治理指标」区块）。**三轴并行** —— 归档轴（目录，不动）＋ 检索轴（`npm run pkm:search`，中文二元组切分）＋ 知识轴（原子笔记 + MOC + 图谱，入库）。**仓库即 vault**：不迁数据、不装软件，Obsidian 仅为可选图形外壳。诊断与选型见 [`PKM/诊断与选型报告-20261113.md`](PKM/诊断与选型报告-20261113.md) |
 | [`审校报告/`](审校报告/README.md) | 检查产物目录（**默认不入库**，`.gitignore` 已挡）；只出风险与位置，不代改正文 |
@@ -145,7 +145,7 @@ powershell -ExecutionPolicy Bypass -File tools\bootstrap.ps1   # Windows
 > | 指标 | 值 | 事实源 |
 > |---|---:|---|
 > | 索引文档数 | **1667** | `PKM/graph.json` |
-> | 出链总数 | **2635** | `PKM/graph.json` |
+> | 出链总数 | **2636** | `PKM/graph.json` |
 > | 断链 | **0** | `PKM/graph.json` |
 > | 知识节点孤立率 | **0.1%** | `PKM/graph.json` |
 > | frontmatter 文档数 | **40** | `PKM/graph.json` |

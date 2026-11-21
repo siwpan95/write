@@ -81,7 +81,7 @@
      "模板": 3,
      "总览": 1
     },
-    "links": 2587,
+    "links": 2588,
     "knowledge": 75,
     "knowledge_orphan": 0
    },
@@ -173,7 +173,7 @@
    },
    "通用模板包": {
     "docs": 24,
-    "net_chars": 289340,
+    "net_chars": 292887,
     "types": {
      "总览": 2,
      "模板": 22
@@ -309,7 +309,7 @@
     "knowledge_orphan": 0
    }
   },
-  "total_links": 2635,
+  "total_links": 2636,
   "total_broken": 0,
   "frontmatter_docs": 40,
   "tag_count": 156,
@@ -322,7 +322,7 @@
   "orphan_sample": [
    "CHANGELOG.md"
   ],
-  "net_chars_total": 9525478
+  "net_chars_total": 9529126
  },
  "overrides_count": 31,
  "nodes": [
@@ -1676,7 +1676,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 4304,
+   "net_chars": 4361,
    "tags": [],
    "aliases": [],
    "out": [
@@ -1710,6 +1710,7 @@
     "PKM/00-原子笔记/guide-0001-PKM连接层使用指南.md",
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-Tserena.md",
+    "PKM/01-MOC/MOC-dse-content.md",
     "PKM/01-MOC/MOC-tools.md",
     "PKM/01-MOC/MOC-世界观设定.md",
     "PKM/01-MOC/MOC-二十一世纪奇门遁甲.md",
@@ -1822,7 +1823,9 @@
    "out": [
     "dse-content/docs/内容包规范.md"
    ],
-   "in": [],
+   "in": [
+    "PKM/01-MOC/MOC-PKM-知识连接层.md"
+   ],
    "broken": [],
    "archived": false,
    "fm": {},
@@ -5085,7 +5088,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 17362,
+   "net_chars": 17448,
    "tags": [],
    "aliases": [],
    "out": [
@@ -5270,7 +5273,7 @@
    "kind": "knowledge",
    "project": "",
    "role": "入口总览",
-   "net_chars": 14431,
+   "net_chars": 14532,
    "tags": [],
    "aliases": [],
    "out": [
@@ -34177,7 +34180,7 @@
    "kind": "knowledge",
    "project": "通用模板包",
    "role": "",
-   "net_chars": 20249,
+   "net_chars": 20747,
    "tags": [
     "方法论/模板",
     "资产/跨项目"
@@ -34478,7 +34481,7 @@
    "kind": "knowledge",
    "project": "通用模板包",
    "role": "",
-   "net_chars": 28819,
+   "net_chars": 30095,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -34555,7 +34558,7 @@
    "kind": "knowledge",
    "project": "通用模板包",
    "role": "",
-   "net_chars": 9149,
+   "net_chars": 10922,
    "tags": [
     "符号"
    ],
