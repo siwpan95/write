@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 """
-命名工厂 · name_generator.py（v3.18.4，随包脚本）
+命名工厂 · name_generator.py（v3.18.5，随包脚本）
 --------------------------------------------------------------------------
 对应模板：18-程序化创作与算法脚本模板.md §三.1（第 2 代：音节文法 + 去重）
 用途：批量生成玄幻/废土风格的备选专名（人名/势力/地名/怪物/功法），供
@@ -16,6 +16,7 @@
   --kind  person|sect|place|beast|artifact（默认 person）
   --n     生成数量（默认 10）
   --seed  随机种子；同种子同结果（可复现性要求，见 18 §五 第 3 步）
+  --surname-mix natural|compound|single|uniform  姓长策略（见 18 §三.1）
 退出码：0 成功。
 """
 import argparse
@@ -51,7 +52,12 @@ LEXICON_XUANHUAN = {
         "杜 程 魏 吕 丁 任 沈 姚 卢 钟 姜 崔 谭 廖 范 汪 陆 金 石 戴 贾 韦 夏 邱 侯 "
         "邹 熊 孟 白 江 闫 薛 尹 雷 黎 史 陶 贺 毛 郝 顾 龚 邵 万 段 严 武 康 孔 汤 牧 施 "
         "上官 欧阳 司马 慕容 诸葛 夏侯 皇甫 尉迟 长孙 宇文 轩辕 令狐 澹台 公孙 "
-        "南宫 西门 司徒 司空 独孤 东郭 南门 呼延 羊舌 微生 梁丘 左丘 东门 北堂"
+        "南宫 西门 司徒 司空 独孤 东郭 南门 呼延 羊舌 微生 梁丘 左丘 东门 北堂 "
+        "闻人 赫连 万俟 第五 拓跋 夹谷 宰父 端木 巫马 公西 公冶 壤驷 公良 颛孙 "
+        "宗政 濮阳 淳于 单于 太叔 申屠 仲孙 鲜于 闾丘 亓官 司寇 子车 漆雕 乐正 "
+        "南荣 "
+        "叶赫那拉 爱新觉罗 钮祜禄 瓜尔佳 佟佳 富察 赫舍里 那木都鲁 乌雅 舒穆禄 "
+        "完颜 耶律 术虎 徒单 女奚烈"
     ),
     # 名头/名尾保持**单字**（见文件头说明）；取自仙侠意象字与网文高频收尾字池。
     "name_head": words(
@@ -170,16 +176,62 @@ PROFILES = {"xuanhuan": LEXICON_XUANHUAN, "reality": LEXICON_REALITY}
 # 语义冲突黑名单：字素组合可能产生歧义或平台风险词，命中即重抽。
 BLACKLIST = (" administrative", "涩", "政")
 
+# ── 多字姓支持（v3.18.5）────────────────────────────────────────
+# 背景：v3.18.4 实测发现，原算法**碰巧**能正确处理任意长度姓
+# （`姓=%s` 直接打印，未切片），但姓池只有 1/2 字姓，三/四字姓
+# （叶赫那拉、爱新觉罗、拓跋…）根本进不了候选池。
+# 本版把「碰巧正确」变成「显式正确」：
+#   1) 按姓长分桶 + 权重抽样（长姓稀有，符合创作分布）；
+#   2) breakdown 显式标注姓长，人工过审一眼看清；
+#   3) `--surname-mix` 可回退到旧行为（uniform）或只看长姓。
+SURNAME_MIXES = {
+    # 权重键是姓长；>=4 统一归到 4 桶。空桶自动跳过并按剩余权重归一。
+    "natural": {1: 70, 2: 22, 3: 6, 4: 2},   # 默认：单姓为主，长姓点缀
+    "compound": {2: 60, 3: 25, 4: 15},        # 只要复姓/长姓
+    "single": {1: 100},                       # 只要单姓（兼容性场景）
+    "uniform": None,                          # 旧行为：所有姓等概率
+}
 
-def _make(kind, rng, lex):
-    """返回 (名字, 槽位拆解)——拆解供人工过审时定向改字（v3.12.2 实践反哺）。"""
+
+def surname_buckets(lex):
+    """按姓长分桶；>=4 字的长姓合并到 4 桶。"""
+    out = {}
+    for s in lex["surname"]:
+        out.setdefault(min(len(s), 4), []).append(s)
+    return out
+
+
+def pick_surname(rng, lex, mix="natural"):
+    """按 mix 策略抽姓。uniform 保持 v3.18.4 及以前的等概率行为。"""
+    pool = lex["surname"]
+    weights = SURNAME_MIXES.get(mix)
+    if weights is None:                       # uniform：旧行为
+        return rng.choice(pool)
+    buckets = surname_buckets(lex)
+    available = [(k, w) for k, w in weights.items() if buckets.get(k)]
+    if not available:
+        return rng.choice(pool)
+    keys = [k for k, _ in available]
+    wts = [w for _, w in available]
+    bucket = rng.choices(keys, weights=wts, k=1)[0]
+    return rng.choice(buckets[bucket])
+
+
+def _make(kind, rng, lex, surname_mix="natural"):
+    """返回 (名字, 槽位拆解)——拆解供人工过审时定向改字（v3.12.2 实践反哺）。
+
+    v3.18.5：person 分支的姓由 `pick_surname` 按 mix 抽取，
+    **不对姓长做任何切片假设**（叶赫那拉/爱新觉罗等长姓整串参与拼接）。
+    """
     if kind == "person":
-        surname = rng.choice(lex["surname"])
+        surname = pick_surname(rng, lex, surname_mix)
+        # 姓长显式标注（人工过审时可直接看出是单姓/复姓/长姓）
+        snote = "姓=%s(%d字)" % (surname, len(surname))
         given = rng.choice(lex["name_head"]) + rng.choice(lex["name_tail"])
         if rng.random() < 0.25:                     # 少数单名
             given = rng.choice(lex["name_head"])
-            return surname + given, "姓=%s 单名=%s" % (surname, given)
-        return surname + given, "姓=%s 名头=%s 名尾=%s" % (surname, given[0], given[1:])
+            return surname + given, "%s 单名=%s" % (snote, given)
+        return surname + given, "%s 名头=%s 名尾=%s" % (snote, given[0], given[1:])
     if kind == "sect":
         head, tail = rng.choice(lex["sect_prefix"]), rng.choice(lex["sect_suffix"])
         return head + tail, "机构头=%s 机构尾=%s" % (head, tail)
@@ -201,15 +253,19 @@ def _make(kind, rng, lex):
     raise ValueError("未知类型：%s" % kind)
 
 
-def generate(kind, n, seed, profile="xuanhuan"):
-    """生成 n 个不重样的名字；返回 [(名字, 构造说明)]。固定种子可复现。"""
+def generate(kind, n, seed, profile="xuanhuan", surname_mix="natural"):
+    """生成 n 个不重样的名字；返回 [(名字, 构造说明)]。固定种子可复现。
+
+    `surname_mix` 见 SURNAME_MIXES；新增参数放末尾且有默认值，
+    v3.18.4 及以前的调用（如 npc_card.py）无需改动即可继续工作。
+    """
     lex = PROFILES[profile]
     rng = random.Random(seed)
     seen, out = set(), []
     guard = 0
     while len(out) < n and guard < n * 200:
         guard += 1
-        name, breakdown = _make(kind, rng, lex)
+        name, breakdown = _make(kind, rng, lex, surname_mix)
         if name in seen:
             continue
         if any(b in name for b in BLACKLIST):
@@ -229,18 +285,22 @@ def main():
     ap.add_argument("--seed", type=int, default=42)
     ap.add_argument("--profile", default="xuanhuan", choices=sorted(PROFILES),
                     help="字素库风格：xuanhuan=玄幻向，reality=现实向（市井/机构/旧物）")
+    ap.add_argument("--surname-mix", default="natural", choices=sorted(SURNAME_MIXES),
+                    help="姓长策略：natural=单姓70%%/复姓22%%/三字6%%/四字及以上2%%（默认）；"
+                         "compound=只要复姓与长姓；single=只要单姓；uniform=全部等概率（v3.18.4 旧行为）")
     ap.add_argument("--demo", action="store_true", help="各类型各出 3 个演示")
     args = ap.parse_args()
 
     if args.demo:
         for k in ("person", "sect", "place", "beast", "artifact"):
-            names = generate(k, 3, args.seed, args.profile)
+            names = generate(k, 3, args.seed, args.profile, args.surname_mix)
             print("[%s] %s" % (k, "、".join(n for n, _ in names)))
-        print("\n提示：加 --kind/--n/--seed/--profile 定向生成；产出须人工过审并查重（18 §三.1）。")
+        print("\n提示：加 --kind/--n/--seed/--profile/--surname-mix 定向生成；产出须人工过审并查重（18 §三.1）。")
         return 0
 
-    names = generate(args.kind, args.n, args.seed, args.profile)
-    print("命名工厂 · kind=%s n=%d seed=%d profile=%s（可复现）" % (args.kind, args.n, args.seed, args.profile))
+    names = generate(args.kind, args.n, args.seed, args.profile, args.surname_mix)
+    print("命名工厂 · kind=%s n=%d seed=%d profile=%s surname-mix=%s（可复现）"
+          % (args.kind, args.n, args.seed, args.profile, args.surname_mix))
     for name, note in names:
         print("  %-10s %s" % (name, note))
     print("\n验收门（18 §三.1）：重名率 0 / 抽 10 个人工判读违和≤1 / 与 03·04 专名查重 / 歧义黑名单过滤。")

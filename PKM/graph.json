@@ -173,7 +173,7 @@
    },
    "通用模板包": {
     "docs": 24,
-    "net_chars": 299896,
+    "net_chars": 301832,
     "types": {
      "总览": 2,
      "模板": 22
@@ -322,7 +322,7 @@
   "orphan_sample": [
    "CHANGELOG.md"
   ],
-  "net_chars_total": 9551300
+  "net_chars_total": 9553236
  },
  "overrides_count": 31,
  "nodes": [
@@ -34200,7 +34200,7 @@
    "kind": "knowledge",
    "project": "通用模板包",
    "role": "",
-   "net_chars": 21850,
+   "net_chars": 22128,
    "tags": [
     "方法论/模板",
     "资产/跨项目"
@@ -34501,7 +34501,7 @@
    "kind": "knowledge",
    "project": "通用模板包",
    "role": "",
-   "net_chars": 33894,
+   "net_chars": 34507,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -34578,7 +34578,7 @@
    "kind": "knowledge",
    "project": "通用模板包",
    "role": "",
-   "net_chars": 13029,
+   "net_chars": 14074,
    "tags": [
     "符号"
    ],
