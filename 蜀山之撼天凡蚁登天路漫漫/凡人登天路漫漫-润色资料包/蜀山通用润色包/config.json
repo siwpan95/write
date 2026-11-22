@@ -1,0 +1,21 @@
+{
+  "_说明": "改这里就能换书、换库、换目录；脚本全部读这个文件，不需要改代码。",
+  "series": "蜀山",
+  "book": "凡人登天路漫漫",
+  "kb_id": "ima_kb_UDyaN3jL",
+  "src_dir": "/sandbox/workspace/uploads",
+  "draft_dir": "/sandbox/workspace/draft",
+  "out_dir": "/sandbox/workspace",
+  "min_han": 3000,
+  "target_han": [3000, 3300],
+  "forbid_fullwidth_paren": true,
+  "chapter_prefix": "ch",
+  "out_suffix": "-润色稿",
+  "docx": {
+    "font": "宋体",
+    "font_size": 12,
+    "line_spacing": 1.6,
+    "title_size": 14,
+    "indent_first_line": true
+  }
+}

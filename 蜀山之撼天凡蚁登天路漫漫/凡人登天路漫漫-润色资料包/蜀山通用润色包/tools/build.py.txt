@@ -1,0 +1,143 @@
+#!/usr/bin/env python3
+# -*- coding: utf-8 -*-
+"""build.py —— 草稿合成交付件（md / txt / docx），校验通过后上传知识库
+
+用法：
+    python3 tools/build.py --start 131 --end 132
+    python3 tools/build.py --start 131 --end 132 --upload
+    python3 tools/build.py --start 130 --end 130 --upload --single   # 单章，文件名不带“至”
+    python3 tools/build.py --start 131 --end 132 --force             # 明知不合格也出（最后手段）
+
+草稿命名：<draft_dir>/ch131.md（一章一文件，UTF-8）
+输出：<out_dir>/<book>-第X至Y章-润色稿.md / .txt / .docx
+上传：读 config.json 的 kb_id
+"""
+import os
+import re
+import sys
+import json
+import argparse
+import subprocess
+
+import docx
+from docx.shared import Pt, Cm
+from docx.enum.text import WD_ALIGN_PARAGRAPH
+from docx.oxml.ns import qn
+from docx.oxml import OxmlElement
+
+HERE = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.dirname(HERE)
+
+
+def cfg():
+    with open(os.path.join(ROOT, "config.json"), encoding="utf-8") as f:
+        return json.load(f)
+
+
+def han(s):
+    return len(re.findall(r"[\u4e00-\u9fa5]", s))
+
+
+def set_font(run, name, size, bold=False):
+    run.font.name = name
+    run.font.size = Pt(size)
+    run.bold = bold
+    run._element.rPr.rFonts.set(qn("w:eastAsia"), name)
+
+
+def make_docx(text, path, c):
+    d = docx.Document()
+    st = d.styles["Normal"]
+    st.font.name = c["docx"]["font"]
+    st.font.size = Pt(c["docx"]["font_size"])
+    st.element.rPr.rFonts.set(qn("w:eastAsia"), c["docx"]["font"])
+    pf = st.paragraph_format
+    pf.line_spacing = c["docx"]["line_spacing"]
+    pf.space_after = Pt(6)
+
+    for line in text.split("\n"):
+        s = line.strip()
+        if not s:
+            continue
+        if s.startswith("《" + c["book"] + "》"):
+            p = d.add_paragraph()
+            p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            p.paragraph_format.space_after = Pt(18)
+            set_font(p.add_run(s), c["docx"]["font"], c["docx"]["title_size"], True)
+        elif re.match(r"^第\s*\d+\s*章", s):
+            p = d.add_paragraph()
+            p.alignment = WD_ALIGN_PARAGRAPH.CENTER
+            p.paragraph_format.space_before = Pt(12)
+            p.paragraph_format.space_after = Pt(12)
+            set_font(p.add_run(s), c["docx"]["font"], c["docx"]["title_size"], True)
+        else:
+            p = d.add_paragraph()
+            if c["docx"].get("indent_first_line"):
+                p.paragraph_format.first_line_indent = Cm(0.74)
+            set_font(p.add_run(s), c["docx"]["font"], c["docx"]["font_size"])
+    d.save(path)
+
+
+def main():
+    ap = argparse.ArgumentParser()
+    ap.add_argument("--start", type=int, required=True)
+    ap.add_argument("--end", type=int, required=True)
+    ap.add_argument("--dir", default=None)
+    ap.add_argument("--upload", action="store_true")
+    ap.add_argument("--force", action="store_true")
+    ap.add_argument("--single", action="store_true")
+    a = ap.parse_args()
+
+    c = cfg()
+    draft = a.dir or c["draft_dir"]
+    out_dir = c["out_dir"]
+    min_han = c["min_han"]
+
+    parts, rows, bad = [], [], 0
+    for n in range(a.start, a.end + 1):
+        f = os.path.join(draft, "%s%d.md" % (c["chapter_prefix"], n))
+        if not os.path.exists(f):
+            print("缺草稿：%s" % f)
+            return 3
+        t = open(f, encoding="utf-8-sig").read().strip()
+        rows.append((n, han(t), t.count("（") + t.count("）")))
+        if rows[-1][1] < min_han or rows[-1][2] > 0:
+            bad += 1
+        parts.append(t)
+
+    for n, h, p in rows:
+        print("%-8s 汉字 %5d  括号%d  %s" % ("ch%d" % n, h, p,
+                                            "OK" if h >= min_han and p == 0 else "FAIL"))
+    print("合计 %d 章，汉字 %d" % (len(rows), sum(r[1] for r in rows)))
+    if bad and not a.force:
+        print("\n有 %d 章不合格，已停止。修好重跑；确要强行交付加 --force" % bad)
+        return 2
+
+    head = "《%s》\n" % c["book"]
+    body = "\n\n".join(parts)
+    text = head + "\n" + body + "\n"
+
+    span = ("第%d章" % a.start) if (a.single or a.start == a.end) else ("第%d至%d章" % (a.start, a.end))
+    base = os.path.join(out_dir, "%s-%s%s" % (c["book"], span, c["out_suffix"]))
+    open(base + ".md", "w", encoding="utf-8").write(text)
+    open(base + ".txt", "w", encoding="utf-8-sig").write(text)
+    make_docx(text, base + ".docx", c)
+    print("\n已生成：\n  %s.md\n  %s.txt\n  %s.docx" % (base, base, base))
+
+    if a.upload:
+        up = "/sandbox/workspace/skills/ima-knowledge/scripts/upload_file.py"
+        if not os.path.exists(up):
+            print("未找到上传脚本：%s" % up)
+            return 3
+        print("上传中…")
+        r = subprocess.run([sys.executable, up, "--file-path", base + ".docx",
+                            "--knowledge-base-id", c["kb_id"]],
+                           capture_output=True, text=True)
+        print(r.stdout.strip() or r.stderr.strip())
+        if r.returncode != 0:
+            return 3
+    return 0
+
+
+if __name__ == "__main__":
+    sys.exit(main())
