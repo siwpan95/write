@@ -1,13 +1,13 @@
 {
  "schema": 1,
  "summary": {
-  "docs": 1674,
+  "docs": 1722,
   "derived_docs": 16,
   "by_type": {
-   "正文": 648,
-   "设定": 576,
-   "模板": 418,
-   "总览": 32
+   "正文": 651,
+   "设定": 612,
+   "模板": 423,
+   "总览": 36
   },
   "by_project": {
    "小说": {
@@ -49,16 +49,16 @@
     "knowledge_orphan": 0
    },
    "蜀山之撼天凡蚁登天路漫漫": {
-    "docs": 141,
-    "net_chars": 1644329,
+    "docs": 150,
+    "net_chars": 1701357,
     "types": {
-     "模板": 23,
-     "设定": 100,
-     "总览": 2,
-     "正文": 16
+     "模板": 27,
+     "设定": 102,
+     "总览": 3,
+     "正文": 18
     },
     "links": 0,
-    "knowledge": 125,
+    "knowledge": 132,
     "knowledge_orphan": 0
    },
    "十三叩_U-1990": {
@@ -74,15 +74,15 @@
     "knowledge_orphan": 0
    },
    "PKM": {
-    "docs": 75,
+    "docs": 77,
     "net_chars": 88062,
     "types": {
-     "设定": 71,
+     "设定": 73,
      "模板": 3,
      "总览": 1
     },
-    "links": 2595,
-    "knowledge": 75,
+    "links": 2649,
+    "knowledge": 77,
     "knowledge_orphan": 0
    },
    "综网废柴逆命": {
@@ -122,15 +122,28 @@
     "knowledge_orphan": 0
    },
    "零件库": {
-    "docs": 33,
-    "net_chars": 247124,
+    "docs": 34,
+    "net_chars": 255427,
     "types": {
-     "模板": 22,
+     "模板": 23,
      "总览": 1,
      "设定": 10
     },
     "links": 0,
-    "knowledge": 33,
+    "knowledge": 34,
+    "knowledge_orphan": 0
+   },
+   "廓者未名夜": {
+    "docs": 28,
+    "net_chars": 205702,
+    "types": {
+     "模板": 10,
+     "设定": 1,
+     "总览": 1,
+     "正文": 16
+    },
+    "links": 4,
+    "knowledge": 12,
     "knowledge_orphan": 0
    },
    "战锤42拔智齿": {
@@ -143,19 +156,6 @@
     },
     "links": 4,
     "knowledge": 16,
-    "knowledge_orphan": 0
-   },
-   "廓者未名夜": {
-    "docs": 27,
-    "net_chars": 192355,
-    "types": {
-     "模板": 10,
-     "设定": 1,
-     "总览": 1,
-     "正文": 15
-    },
-    "links": 4,
-    "knowledge": 12,
     "knowledge_orphan": 0
    },
    "逆鳞": {
@@ -218,6 +218,17 @@
     "knowledge": 19,
     "knowledge_orphan": 0
    },
+   "horror-motif-lab": {
+    "docs": 20,
+    "net_chars": 191484,
+    "types": {
+     "总览": 2,
+     "设定": 18
+    },
+    "links": 1,
+    "knowledge": 20,
+    "knowledge_orphan": 0
+   },
    "创造主们的战争": {
     "docs": 20,
     "net_chars": 135573,
@@ -239,6 +250,17 @@
     },
     "links": 0,
     "knowledge": 17,
+    "knowledge_orphan": 0
+   },
+   "证伪实验-钢铁之梦": {
+    "docs": 14,
+    "net_chars": 34006,
+    "types": {
+     "设定": 13,
+     "总览": 1
+    },
+    "links": 0,
+    "knowledge": 14,
     "knowledge_orphan": 0
    },
    "格物录": {
@@ -309,20 +331,20 @@
     "knowledge_orphan": 0
    }
   },
-  "total_links": 2648,
-  "total_broken": 0,
+  "total_links": 2704,
+  "total_broken": 1,
   "frontmatter_docs": 40,
   "tag_count": 156,
-  "knowledge_docs": 1026,
+  "knowledge_docs": 1071,
   "knowledge_orphans": 1,
   "knowledge_orphan_rate": 0.1,
-  "narrative_docs": 648,
+  "narrative_docs": 651,
   "narrative_orphans": 0,
   "orphan_count": 1,
   "orphan_sample": [
    "CHANGELOG.md"
   ],
-  "net_chars_total": 9584636
+  "net_chars_total": 9895037
  },
  "overrides_count": 31,
  "nodes": [
@@ -1676,7 +1698,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 4361,
+   "net_chars": 4483,
    "tags": [],
    "aliases": [],
    "out": [
@@ -1711,6 +1733,7 @@
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
     "PKM/01-MOC/MOC-Tserena.md",
     "PKM/01-MOC/MOC-dse-content.md",
+    "PKM/01-MOC/MOC-horror-motif-lab.md",
     "PKM/01-MOC/MOC-tools.md",
     "PKM/01-MOC/MOC-世界观设定.md",
     "PKM/01-MOC/MOC-二十一世纪奇门遁甲.md",
@@ -1736,6 +1759,7 @@
     "PKM/01-MOC/MOC-点子库.md",
     "PKM/01-MOC/MOC-综网废柴逆命.md",
     "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md",
+    "PKM/01-MOC/MOC-证伪实验-钢铁之梦.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md",
     "PKM/01-MOC/MOC-逆鳞.md",
     "PKM/01-MOC/MOC-通宵杀敌.md",
@@ -1822,6 +1846,46 @@
    "aliases": [],
    "out": [
     "dse-content/docs/内容包规范.md"
+   ],
+   "in": [
+    "PKM/01-MOC/MOC-PKM-知识连接层.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "PKM/01-MOC/MOC-horror-motif-lab.md",
+   "title": "MOC · horror-motif-lab",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "PKM",
+   "role": "",
+   "net_chars": 1611,
+   "tags": [],
+   "aliases": [],
+   "out": [
+    "horror-motif-lab/README.md",
+    "horror-motif-lab/docs/00_项目总纲与路线图.md",
+    "horror-motif-lab/docs/01_八母题R规程库.md",
+    "horror-motif-lab/docs/02_母题×媒介矩阵.md",
+    "horror-motif-lab/docs/03_M6引用核对表.md",
+    "horror-motif-lab/docs/04_M7文化圈矩阵.md",
+    "horror-motif-lab/docs/05_M8反向判据.md",
+    "horror-motif-lab/docs/06_M9长文本验证-销账.md",
+    "horror-motif-lab/docs/07_公式抽象与四层框架.md",
+    "horror-motif-lab/docs/08_十六母题库.md",
+    "horror-motif-lab/docs/09_M9长文本验证-归因.md",
+    "horror-motif-lab/docs/10_M9余量验证-真实作品三例.md",
+    "horror-motif-lab/docs/11_外部评审.md",
+    "horror-motif-lab/docs/12_跨题材母题扩库.md",
+    "horror-motif-lab/docs/样例_批量场景卡.md",
+    "horror-motif-lab/materials/02_八母题复用公式卡.md",
+    "horror-motif-lab/materials/03_可利夫巴克公式拆解.md",
+    "horror-motif-lab/materials/04_古今中外恐怖美学核心母题深研.md",
+    "horror-motif-lab/materials/05_后室阈限梦核怪核与克苏鲁适配度研究.md",
+    "horror-motif-lab/tools/generator/README.md"
    ],
    "in": [
     "PKM/01-MOC/MOC-PKM-知识连接层.md"
@@ -2153,7 +2217,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 5932,
+   "net_chars": 6005,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2202,6 +2266,7 @@
     "霜语/04-人物卡.md",
     "提交确实未创建/bible/21-关系图谱.md",
     "点子库/01-设定集/26-卷一季终反哺-E08结算与角色卡入册.md",
+    "创造主们的战争/分析/换站测试-候选3降级旧角色.md",
     "十三叩_U-1990/07_人物与势力/07-01_人物名录.md",
     "十三叩_U-1990/07_人物与势力/07-02_主角·校准师柒.md",
     "十三叩_U-1990/07_人物与势力/07-03_主要势力.md",
@@ -2629,7 +2694,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 3579,
+   "net_chars": 3639,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2675,6 +2740,7 @@
     "提交确实未创建/第一卷/第010章_登记处翻到底确实没有我.md",
     "蜀山之撼天凡蚁登天路漫漫/14-外部依赖与来源登记表.md",
     "蜀山之撼天凡蚁登天路漫漫/校验/上游口径冲突登记.md",
+    "证伪实验-钢铁之梦/00_预登记-实验设计与预测.md",
     "通用模板包/14-外部依赖与来源登记表.md",
     "零件库/99-来源与许可登记.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md",
@@ -2795,7 +2861,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 4443,
+   "net_chars": 4660,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2808,6 +2874,7 @@
     "PKM/00-原子笔记/atom-0013-借结构不取材与三层互不代偿.md",
     "Tserena/设定与参考/卷纲-第一卷.md",
     "Tserena/设定与参考/大纲四层-02-实填.md",
+    "horror-motif-lab/docs/07_公式抽象与四层框架.md",
     "创造主们的战争/02-大纲四层-创造主们的战争.md",
     "小说/设定与参考/第一卷卷纲.md",
     "小说/设定与参考/第三卷卷纲.md",
@@ -2826,6 +2893,7 @@
     "二十一世纪奇门遁甲/06_黄金三章施工方案.md",
     "二十一世纪奇门遁甲/06_黄金三章施工方案_已归档说明.md",
     "二十一世纪奇门遁甲/10_后续大纲节拍调整.md",
+    "创造主们的战争/10-节拍表与黄金三章施工-创造主们的战争.md",
     "十三叩_U-1990/08_叙事/08-05_黄金三章复盘.md",
     "华夏克苏鲁/05_模板对齐/06_文风与章节/01-黄金三章施工指令.md",
     "廓者未名夜/10-节拍表与黄金三章施工-廓者未名夜.md",
@@ -2854,6 +2922,7 @@
     "逆鳞/01-立项定位.md",
     "通用模板包/09-立项书模板.md",
     "霜语/01-立项定位.md",
+    "horror-motif-lab/docs/样例_批量场景卡.md",
     "综网废柴逆命/设定/04_剧情与执行/02_全局大纲.md",
     "蜀山之撼天凡蚁登天路漫漫/02A-大纲细纲章纲总表.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md",
@@ -3335,7 +3404,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 1863,
+   "net_chars": 1903,
    "tags": [],
    "aliases": [],
    "out": [
@@ -3368,7 +3437,8 @@
     "廓者未名夜/正文/第12章-红线.md",
     "廓者未名夜/正文/第13章-其他.md",
     "廓者未名夜/正文/第14章-口径.md",
-    "廓者未名夜/正文/第15章-差额.md"
+    "廓者未名夜/正文/第15章-差额.md",
+    "廓者未名夜/正文/第16章-签收.md"
    ],
    "in": [
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
@@ -4342,11 +4412,12 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 9793,
+   "net_chars": 10514,
    "tags": [],
    "aliases": [],
    "out": [
     "蜀山之撼天凡蚁登天路漫漫/README.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/交接-蜀山卷一润色/README.md",
     "蜀山之撼天凡蚁登天路漫漫/证据与裁决/素材台账/README.md",
     "蜀山之撼天凡蚁登天路漫漫/02A-大纲细纲章纲总表.md",
     "蜀山之撼天凡蚁登天路漫漫/02B-卷二至卷五细纲.md",
@@ -4362,6 +4433,7 @@
     "蜀山之撼天凡蚁登天路漫漫/03F-卷五章纲-逐章.md",
     "蜀山之撼天凡蚁登天路漫漫/10A-卷六结局场节拍.md",
     "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/写作技法-调研资料汇编（描写手法与词藻）.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/自研浏览器_开源内核二次开发_桌面端深度调研.md",
     "蜀山之撼天凡蚁登天路漫漫/回检/卷一设定回检报告.md",
     "蜀山之撼天凡蚁登天路漫漫/回检/卷三设定回检报告.md",
     "蜀山之撼天凡蚁登天路漫漫/回检/卷二设定回检报告.md",
@@ -4443,6 +4515,7 @@
     "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷四 386–390｜C3 来找他的人.md",
     "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷四 391–395｜C4 试.md",
     "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷四 396–400｜C5 半刻.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷四 401–405｜C6 池底.md",
     "蜀山之撼天凡蚁登天路漫漫/正文/进度表.md",
     "蜀山之撼天凡蚁登天路漫漫/蜀山 原著事实复核｜176–200.md",
     "蜀山之撼天凡蚁登天路漫漫/证据与裁决/素材台账/M-01-人物与称谓别名.md",
@@ -4467,10 +4540,16 @@
     "蜀山之撼天凡蚁登天路漫漫/17-字数增密与紫罗兰散文防控.md",
     "蜀山之撼天凡蚁登天路漫漫/18-程序化创作与算法脚本.md",
     "蜀山之撼天凡蚁登天路漫漫/19-供给过剩与资产经营.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/交接-蜀山卷一润色/02-写作标准.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/交接-蜀山卷一润色/03-设定与伏笔.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/交接-蜀山卷一润色/04-进度与文件清单.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/交接-蜀山卷一润色/05-新对话开场提示词.md",
     "蜀山之撼天凡蚁登天路漫漫/证据与裁决/00-蜀山证据包.md",
     "蜀山之撼天凡蚁登天路漫漫/证据与裁决/01-核心设定裁决表.md",
     "蜀山之撼天凡蚁登天路漫漫/证据与裁决/02-实填规范.md",
     "蜀山之撼天凡蚁登天路漫漫/证据与裁决/素材台账/00-台账主文件.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/交接-蜀山卷一润色/samples/第108章-一页.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/交接-蜀山卷一润色/samples/第109章-记住.md",
     "蜀山之撼天凡蚁登天路漫漫/正文/第726章_我写下了所有没被写下的名字.md",
     "蜀山之撼天凡蚁登天路漫漫/正文/第727章-一行写完纸比刚才重了一点.md",
     "蜀山之撼天凡蚁登天路漫漫/正文/第728章-我的名字变成了一个空格.md",
@@ -4487,6 +4566,40 @@
     "蜀山之撼天凡蚁登天路漫漫/正文/第739章-斗剑第七天天上没有异象.md",
     "蜀山之撼天凡蚁登天路漫漫/正文/第740章-有人在我的空格上描了一笔.md",
     "蜀山之撼天凡蚁登天路漫漫/正文/第750章_天地同寿.md"
+   ],
+   "in": [
+    "PKM/01-MOC/MOC-PKM-知识连接层.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "PKM/01-MOC/MOC-证伪实验-钢铁之梦.md",
+   "title": "MOC · 证伪实验-钢铁之梦",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "PKM",
+   "role": "",
+   "net_chars": 896,
+   "tags": [],
+   "aliases": [],
+   "out": [
+    "证伪实验-钢铁之梦/README.md",
+    "证伪实验-钢铁之梦/00_原作/原始交付说明.md",
+    "证伪实验-钢铁之梦/00_预登记-实验设计与预测.md",
+    "证伪实验-钢铁之梦/01_变体/V0_基线.md",
+    "证伪实验-钢铁之梦/01_变体/V1_更正失效.md",
+    "证伪实验-钢铁之梦/01_变体/V2_同轴多 e₁.md",
+    "证伪实验-钢铁之梦/01_变体/V3_跨轴多 e₁.md",
+    "证伪实验-钢铁之梦/01_变体/V4_解释 e₁.md",
+    "证伪实验-钢铁之梦/02_评分与结论.md",
+    "证伪实验-钢铁之梦/03_盲读/丙.md",
+    "证伪实验-钢铁之梦/03_盲读/乙.md",
+    "证伪实验-钢铁之梦/03_盲读/甲.md",
+    "证伪实验-钢铁之梦/04_完成日志.md",
+    "证伪实验-钢铁之梦/05_独立复核-结构判据.md"
    ],
    "in": [
     "PKM/01-MOC/MOC-PKM-知识连接层.md"
@@ -4739,7 +4852,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 1942,
+   "net_chars": 1999,
    "tags": [],
    "aliases": [],
    "out": [
@@ -4773,6 +4886,7 @@
     "零件库/16-调研-积木式拼装的形式与机制缺失项.md",
     "零件库/17-调研-生产流程视角的游戏工业化对照.md",
     "零件库/18-调用记录-M05-站区级拼装.md",
+    "零件库/19-调用记录-M06-华夏克苏鲁.md",
     "零件库/99-来源与许可登记.md",
     "零件库/装配体/00-索引.md",
     "零件库/装配体/01-组合覆盖台账.md"
@@ -5095,7 +5209,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 17448,
+   "net_chars": 18716,
    "tags": [],
    "aliases": [],
    "out": [
@@ -5122,9 +5236,11 @@
     "无敌不是他人路/作品总览.md",
     "Tserena/作品总览.md",
     "二十一世纪奇门遁甲/作品总览.md",
+    "horror-motif-lab/README.md",
     "创造主们的战争/作品总览.md",
-    "格物录/作品总览.md",
+    "证伪实验-钢铁之梦/README.md",
     "README.md",
+    "格物录/作品总览.md",
     "tools/README.md",
     "tools/skills/human-writing/README.md",
     "未名骨/作品总览.md",
@@ -5280,10 +5396,12 @@
    "kind": "knowledge",
    "project": "",
    "role": "入口总览",
-   "net_chars": 14621,
+   "net_chars": 15060,
    "tags": [],
    "aliases": [],
    "out": [
+    "新手入门指南.md",
+    "通用模板包/00-总档与SOP.md",
     "提交确实未创建/作品总览.md",
     "点子库/README-点子库.md",
     "小说/项目梳理总览.md",
@@ -5299,7 +5417,6 @@
     "华夏克苏鲁/README-总览.md",
     "格物录/作品总览.md",
     "创造主们的战争/作品总览.md",
-    "通用模板包/00-总档与SOP.md",
     "工作区规范.md",
     "提交确实未创建/设定与参考/模板实填验证-13世界先行-20261109.md",
     "Tserena/设定与参考/模板反哺报告-20261110.md",
@@ -5801,6 +5918,392 @@
     "PKM/01-MOC/MOC-dse-content.md",
     "README.md",
     "工作区规范.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "horror-motif-lab/README.md",
+   "title": "horror-motif-lab · 压力母题库",
+   "type": "总览",
+   "kind": "knowledge",
+   "project": "horror-motif-lab",
+   "role": "入口总览",
+   "net_chars": 4182,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-horror-motif-lab.md",
+    "PKM/MOC-全库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "horror-motif-lab/docs/00_项目总纲与路线图.md",
+   "title": "恐怖美学母题项目 · 总纲与路线图",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "horror-motif-lab",
+   "role": "",
+   "net_chars": 11036,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-horror-motif-lab.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "horror-motif-lab/docs/01_八母题R规程库.md",
+   "title": "八母题 R 规程库",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "horror-motif-lab",
+   "role": "",
+   "net_chars": 16781,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-horror-motif-lab.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "horror-motif-lab/docs/02_母题×媒介矩阵.md",
+   "title": "母题 × 媒介矩阵",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "horror-motif-lab",
+   "role": "",
+   "net_chars": 7892,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-horror-motif-lab.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "horror-motif-lab/docs/03_M6引用核对表.md",
+   "title": "M6 · 引用核对表（联网回原典）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "horror-motif-lab",
+   "role": "",
+   "net_chars": 5778,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-horror-motif-lab.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "horror-motif-lab/docs/04_M7文化圈矩阵.md",
+   "title": "M7 · 文化圈矩阵：七种「账怎么算」",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "horror-motif-lab",
+   "role": "",
+   "net_chars": 4439,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-horror-motif-lab.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "horror-motif-lab/docs/05_M8反向判据.md",
+   "title": "M8 · 反向判据：什么时候「不吓人」才是对的",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "horror-motif-lab",
+   "role": "",
+   "net_chars": 3592,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-horror-motif-lab.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "horror-motif-lab/docs/06_M9长文本验证-销账.md",
+   "title": "M9 · 长文本验证：《销账》（3800 字·短样本）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "horror-motif-lab",
+   "role": "",
+   "net_chars": 4989,
+   "tags": [],
+   "aliases": [],
+   "out": [
+    "horror-motif-lab/docs/09_M9长文本验证-归因.md"
+   ],
+   "in": [
+    "PKM/01-MOC/MOC-horror-motif-lab.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "horror-motif-lab/docs/07_公式抽象与四层框架.md",
+   "title": "公式抽象与四层框架",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "horror-motif-lab",
+   "role": "",
+   "net_chars": 6953,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-horror-motif-lab.md",
+    "PKM/01-MOC/MOC-大纲节拍.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "horror-motif-lab/docs/08_十六母题库.md",
+   "title": "十六母题库",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "horror-motif-lab",
+   "role": "",
+   "net_chars": 8723,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-horror-motif-lab.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "horror-motif-lab/docs/09_M9长文本验证-归因.md",
+   "title": "M9 · 长文本验证（补足）：《归因》",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "horror-motif-lab",
+   "role": "",
+   "net_chars": 12338,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-horror-motif-lab.md",
+    "horror-motif-lab/docs/06_M9长文本验证-销账.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "horror-motif-lab/docs/10_M9余量验证-真实作品三例.md",
+   "title": "M9 余量验证 · 真实作品三例",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "horror-motif-lab",
+   "role": "",
+   "net_chars": 4987,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-horror-motif-lab.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "horror-motif-lab/docs/11_外部评审.md",
+   "title": "外部评审（第一轮）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "horror-motif-lab",
+   "role": "",
+   "net_chars": 10842,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-horror-motif-lab.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "horror-motif-lab/docs/12_跨题材母题扩库.md",
+   "title": "跨题材母题扩库（C–F 组）与四个公式变体",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "horror-motif-lab",
+   "role": "",
+   "net_chars": 21027,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-horror-motif-lab.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "horror-motif-lab/docs/样例_批量场景卡.md",
+   "title": "批量场景卡（8 张，seed=2026）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "horror-motif-lab",
+   "role": "",
+   "net_chars": 10029,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-horror-motif-lab.md",
+    "PKM/01-MOC/MOC-大纲节拍.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "horror-motif-lab/materials/02_八母题复用公式卡.md",
+   "title": "恐怖美学八母题复用公式卡",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "horror-motif-lab",
+   "role": "",
+   "net_chars": 3496,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-horror-motif-lab.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "horror-motif-lab/materials/03_可利夫巴克公式拆解.md",
+   "title": "可利夫·巴克：八母题公式拆解",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "horror-motif-lab",
+   "role": "",
+   "net_chars": 8070,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-horror-motif-lab.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "horror-motif-lab/materials/04_古今中外恐怖美学核心母题深研.md",
+   "title": "古今中外恐怖美学核心母题深研",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "horror-motif-lab",
+   "role": "",
+   "net_chars": 25591,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-horror-motif-lab.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "horror-motif-lab/materials/05_后室阈限梦核怪核与克苏鲁适配度研究.md",
+   "title": "后室阈限梦核怪核与克苏鲁神话适配度研究",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "horror-motif-lab",
+   "role": "",
+   "net_chars": 18217,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-horror-motif-lab.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "horror-motif-lab/tools/generator/README.md",
+   "title": "场景生成器（gen.py）",
+   "type": "总览",
+   "kind": "knowledge",
+   "project": "horror-motif-lab",
+   "role": "参考/工具",
+   "net_chars": 2522,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-horror-motif-lab.md"
    ],
    "broken": [],
    "archived": false,
@@ -6655,7 +7158,8 @@
    "aliases": [],
    "out": [],
    "in": [
-    "PKM/01-MOC/MOC-创造主们的战争.md"
+    "PKM/01-MOC/MOC-创造主们的战争.md",
+    "PKM/01-MOC/MOC-大纲节拍.md"
    ],
    "broken": [],
    "archived": false,
@@ -6773,6 +7277,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
     "PKM/01-MOC/MOC-创造主们的战争.md"
    ],
    "broken": [],
@@ -16088,7 +16593,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 14294,
+   "net_chars": 15237,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -16108,7 +16613,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 39455,
+   "net_chars": 42729,
    "tags": [
     "设定/世界观",
     "体系/四神",
@@ -16141,7 +16646,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 15551,
+   "net_chars": 16328,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -16162,7 +16667,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 12606,
+   "net_chars": 13285,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -16183,7 +16688,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 35943,
+   "net_chars": 39280,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -16222,7 +16727,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 7799,
+   "net_chars": 8319,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -16242,7 +16747,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 14874,
+   "net_chars": 16221,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -16305,7 +16810,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "入口总览",
-   "net_chars": 3903,
+   "net_chars": 4110,
    "tags": [
     "入口总览"
    ],
@@ -16605,6 +17110,25 @@
    "project": "廓者未名夜",
    "role": "正文",
    "net_chars": 2273,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-廓者未名夜.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "廓者未名夜/正文/第16章-签收.md",
+   "title": "第16章-签收",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "廓者未名夜",
+   "role": "正文",
+   "net_chars": 2263,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -22816,6 +23340,25 @@
    "out": [],
    "in": [
     "PKM/01-MOC/MOC-提交确实未创建.md",
+    "README.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "新手入门指南.md",
+   "title": "write 新手入门指南",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "",
+   "role": "",
+   "net_chars": 5794,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
     "README.md"
    ],
    "broken": [],
@@ -31696,6 +32239,139 @@
    "overridden": false
   },
   {
+   "path": "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/交接-蜀山卷一润色/02-写作标准.md",
+   "title": "写作标准（润色专用）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 1543,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/交接-蜀山卷一润色/03-设定与伏笔.md",
+   "title": "设定与伏笔（一致性核对用）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 2180,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/交接-蜀山卷一润色/04-进度与文件清单.md",
+   "title": "进度与文件清单",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 2114,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/交接-蜀山卷一润色/05-新对话开场提示词.md",
+   "title": "新对话开场提示词（可直接复制）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 969,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/交接-蜀山卷一润色/README.md",
+   "title": "交接说明 · 《凡人登天路漫漫》卷一润色",
+   "type": "总览",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "入口总览",
+   "net_chars": 2343,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/交接-蜀山卷一润色/samples/第108章-一页.md",
+   "title": "第108章-一页",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 3682,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/交接-蜀山卷一润色/samples/第109章-记住.md",
+   "title": "第109章-记住",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 3746,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
    "path": "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/写作技法-调研资料汇编（描写手法与词藻）.md",
    "title": "调研资料汇编",
    "type": "设定",
@@ -31711,6 +32387,27 @@
     "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
    ],
    "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/自研浏览器_开源内核二次开发_桌面端深度调研.md",
+   "title": "基于开源内核二次开发桌面端自研浏览器深度调研",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "",
+   "net_chars": 26347,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [
+    "/data/workspace/dr:7f3c1a90-5b2d-4e11-9a11-2c0d4e7b9f10/data_milestones.csv"
+   ],
    "archived": false,
    "fm": {},
    "overridden": false
@@ -33564,13 +34261,32 @@
    "overridden": false
   },
   {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷四 401–405｜C6 池底.md",
+   "title": "蜀山 卷四 401–405｜C6 池底",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 13825,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
    "path": "蜀山之撼天凡蚁登天路漫漫/正文/进度表.md",
    "title": "创作进度表",
    "type": "设定",
    "kind": "knowledge",
    "project": "蜀山之撼天凡蚁登天路漫漫",
    "role": "正文",
-   "net_chars": 5059,
+   "net_chars": 5338,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33755,6 +34471,274 @@
    "in": [
     "PKM/01-MOC/MOC-台账进度.md",
     "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md",
+    "PKM/MOC-全库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "证伪实验-钢铁之梦/00_原作/原始交付说明.md",
+   "title": "《钢铁之梦》全帙合订本 · 交付说明",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "证伪实验-钢铁之梦",
+   "role": "",
+   "net_chars": 2515,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-证伪实验-钢铁之梦.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "证伪实验-钢铁之梦/00_预登记-实验设计与预测.md",
+   "title": "00 · 预登记：实验设计与预测",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "证伪实验-钢铁之梦",
+   "role": "",
+   "net_chars": 3671,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-台账进度.md",
+    "PKM/01-MOC/MOC-证伪实验-钢铁之梦.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "证伪实验-钢铁之梦/01_变体/V0_基线.md",
+   "title": "V0_基线",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "证伪实验-钢铁之梦",
+   "role": "",
+   "net_chars": 1823,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-证伪实验-钢铁之梦.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "证伪实验-钢铁之梦/01_变体/V1_更正失效.md",
+   "title": "V1_更正失效",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "证伪实验-钢铁之梦",
+   "role": "",
+   "net_chars": 1958,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-证伪实验-钢铁之梦.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "证伪实验-钢铁之梦/01_变体/V2_同轴多 e₁.md",
+   "title": "V2_同轴多 e₁",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "证伪实验-钢铁之梦",
+   "role": "",
+   "net_chars": 2139,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-证伪实验-钢铁之梦.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "证伪实验-钢铁之梦/01_变体/V3_跨轴多 e₁.md",
+   "title": "V3_跨轴多 e₁",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "证伪实验-钢铁之梦",
+   "role": "",
+   "net_chars": 2110,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-证伪实验-钢铁之梦.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "证伪实验-钢铁之梦/01_变体/V4_解释 e₁.md",
+   "title": "V4_解释 e₁",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "证伪实验-钢铁之梦",
+   "role": "",
+   "net_chars": 2161,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-证伪实验-钢铁之梦.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "证伪实验-钢铁之梦/02_评分与结论.md",
+   "title": "02 · 评分与结论",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "证伪实验-钢铁之梦",
+   "role": "",
+   "net_chars": 4514,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-证伪实验-钢铁之梦.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "证伪实验-钢铁之梦/03_盲读/丙.md",
+   "title": "丙",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "证伪实验-钢铁之梦",
+   "role": "",
+   "net_chars": 1906,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-证伪实验-钢铁之梦.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "证伪实验-钢铁之梦/03_盲读/乙.md",
+   "title": "乙",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "证伪实验-钢铁之梦",
+   "role": "",
+   "net_chars": 1707,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-证伪实验-钢铁之梦.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "证伪实验-钢铁之梦/03_盲读/甲.md",
+   "title": "甲",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "证伪实验-钢铁之梦",
+   "role": "",
+   "net_chars": 1962,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-证伪实验-钢铁之梦.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "证伪实验-钢铁之梦/04_完成日志.md",
+   "title": "04 · 完成日志",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "证伪实验-钢铁之梦",
+   "role": "",
+   "net_chars": 2772,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-证伪实验-钢铁之梦.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "证伪实验-钢铁之梦/05_独立复核-结构判据.md",
+   "title": "05 · 独立复核：结构判据（第二个执行者）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "证伪实验-钢铁之梦",
+   "role": "",
+   "net_chars": 3229,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-证伪实验-钢铁之梦.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "证伪实验-钢铁之梦/README.md",
+   "title": "证伪实验 ·《钢铁之梦》",
+   "type": "总览",
+   "kind": "knowledge",
+   "project": "证伪实验-钢铁之梦",
+   "role": "入口总览",
+   "net_chars": 1539,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-证伪实验-钢铁之梦.md",
     "PKM/MOC-全库.md"
    ],
    "broken": [],
@@ -34849,7 +35833,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 7625,
+   "net_chars": 8124,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -34871,7 +35855,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 6637,
+   "net_chars": 8662,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -35201,13 +36185,32 @@
    "overridden": false
   },
   {
+   "path": "零件库/19-调用记录-M06-华夏克苏鲁.md",
+   "title": "19 · 调用记录 M-06 · 华夏克苏鲁（章纲级）",
+   "type": "模板",
+   "kind": "knowledge",
+   "project": "零件库",
+   "role": "",
+   "net_chars": 5189,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-零件库.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
    "path": "零件库/99-来源与许可登记.md",
    "title": "99 · 来源与许可登记",
    "type": "模板",
    "kind": "knowledge",
    "project": "零件库",
    "role": "",
-   "net_chars": 8795,
+   "net_chars": 9140,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -35228,7 +36231,7 @@
    "kind": "knowledge",
    "project": "零件库",
    "role": "入口总览",
-   "net_chars": 6346,
+   "net_chars": 6591,
    "tags": [],
    "aliases": [],
    "out": [],
