@@ -156,8 +156,8 @@ powershell -ExecutionPolicy Bypass -File tools\bootstrap.ps1   # Windows
 >
 > | 指标 | 值 | 事实源 |
 > |---|---:|---|
-> | 索引文档数 | **1722** | `PKM/graph.json` |
-> | 出链总数 | **2704** | `PKM/graph.json` |
+> | 索引文档数 | **1741** | `PKM/graph.json` |
+> | 出链总数 | **2735** | `PKM/graph.json` |
 > | 断链 | **1** | `PKM/graph.json` |
 > | 知识节点孤立率 | **0.1%** | `PKM/graph.json` |
 > | frontmatter 文档数 | **40** | `PKM/graph.json` |
@@ -166,7 +166,7 @@ powershell -ExecutionPolicy Bypass -File tools\bootstrap.ps1   # Windows
 > | 已注册检查器 | **8** | `tools/cordis.yml`（checker-* 插件） |
 > | 检查器适配器 | **8** | `tools/checkers/*.py`（doc-review 直连引擎，故少 1） |
 >
-> 文档形态分布：正文 651 / 设定 612 / 模板 423 / 总览 36
+> 文档形态分布：正文 657 / 设定 625 / 模板 423 / 总览 36
 >
 > 历史时点快照（1161 / 1173 / 102 / 1333 / 1464）保留在诊断报告与换机部署文档中，
 > 不作现值校验 —— 见 `tools/metrics.py` 的 `HISTORICAL_EXEMPT`。

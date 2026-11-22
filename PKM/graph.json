@@ -1,11 +1,11 @@
 {
  "schema": 1,
  "summary": {
-  "docs": 1722,
+  "docs": 1741,
   "derived_docs": 16,
   "by_type": {
-   "正文": 651,
-   "设定": 612,
+   "正文": 657,
+   "设定": 625,
    "模板": 423,
    "总览": 36
   },
@@ -81,7 +81,7 @@
      "模板": 3,
      "总览": 1
     },
-    "links": 2649,
+    "links": 2678,
     "knowledge": 77,
     "knowledge_orphan": 0
    },
@@ -218,6 +218,19 @@
     "knowledge": 19,
     "knowledge_orphan": 0
    },
+   "创造主们的战争": {
+    "docs": 22,
+    "net_chars": 160616,
+    "types": {
+     "模板": 10,
+     "总览": 1,
+     "设定": 4,
+     "正文": 7
+    },
+    "links": 7,
+    "knowledge": 15,
+    "knowledge_orphan": 0
+   },
    "horror-motif-lab": {
     "docs": 20,
     "net_chars": 191484,
@@ -229,17 +242,15 @@
     "knowledge": 20,
     "knowledge_orphan": 0
    },
-   "创造主们的战争": {
+   "其他项目归档": {
     "docs": 20,
-    "net_chars": 135573,
+    "net_chars": 127386,
     "types": {
-     "模板": 10,
-     "总览": 1,
-     "设定": 4,
-     "正文": 5
+     "设定": 16,
+     "正文": 4
     },
-    "links": 5,
-    "knowledge": 15,
+    "links": 0,
+    "knowledge": 16,
     "knowledge_orphan": 0
    },
    "参考资料": {
@@ -299,16 +310,6 @@
     "knowledge": 5,
     "knowledge_orphan": 0
    },
-   "其他项目归档": {
-    "docs": 3,
-    "net_chars": 71200,
-    "types": {
-     "设定": 3
-    },
-    "links": 0,
-    "knowledge": 3,
-    "knowledge_orphan": 0
-   },
    "通宵杀敌": {
     "docs": 3,
     "net_chars": 14090,
@@ -331,20 +332,20 @@
     "knowledge_orphan": 0
    }
   },
-  "total_links": 2704,
+  "total_links": 2735,
   "total_broken": 1,
   "frontmatter_docs": 40,
   "tag_count": 156,
-  "knowledge_docs": 1071,
+  "knowledge_docs": 1084,
   "knowledge_orphans": 1,
   "knowledge_orphan_rate": 0.1,
-  "narrative_docs": 651,
+  "narrative_docs": 657,
   "narrative_orphans": 0,
   "orphan_count": 1,
   "orphan_sample": [
    "CHANGELOG.md"
   ],
-  "net_chars_total": 9895037
+  "net_chars_total": 9976266
  },
  "overrides_count": 31,
  "nodes": [
@@ -1698,7 +1699,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 4483,
+   "net_chars": 4485,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2333,13 +2334,30 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 548,
+   "net_chars": 2106,
    "tags": [],
    "aliases": [],
    "out": [
     "其他项目归档/上古卷轴同人/天际（Skyrim）世界观手册.md",
     "其他项目归档/华夏克苏鲁.md",
-    "其他项目归档/（這是一個純粹的虛構的世界觀設定，與現實世界無關！） 請用英文（行政區名字，格言，國歌用德語）仿照維護百科介紹一個位於非洲之角東南部的一個國家（整體意識形態屬於民主憲政社會偏社會主義）.md"
+    "其他项目归档/虚拟网游/vrmmo_starter_kit/00_README.md",
+    "其他项目归档/虚拟网游/vrmmo_starter_kit/01_report/01_赛道扫描与爆款命中率预判.md",
+    "其他项目归档/虚拟网游/vrmmo_starter_kit/01_report/02_选题决策报告.md",
+    "其他项目归档/虚拟网游/vrmmo_starter_kit/01_report/03_开书全流程SOP.md",
+    "其他项目归档/虚拟网游/vrmmo_starter_kit/01_report/_auto_hit_score.md",
+    "其他项目归档/虚拟网游/vrmmo_starter_kit/01_report/_auto_rank_stats.md",
+    "其他项目归档/虚拟网游/vrmmo_starter_kit/01_report/正文体检报告.md",
+    "其他项目归档/虚拟网游/vrmmo_starter_kit/02_settings/01_世界观设定集.md",
+    "其他项目归档/虚拟网游/vrmmo_starter_kit/02_settings/02_人物小传.md",
+    "其他项目归档/虚拟网游/vrmmo_starter_kit/02_settings/03_力量体系与数值表.md",
+    "其他项目归档/虚拟网游/vrmmo_starter_kit/03_outline/01_分卷大纲.md",
+    "其他项目归档/虚拟网游/vrmmo_starter_kit/03_outline/02_黄金三章细纲.md",
+    "其他项目归档/虚拟网游/vrmmo_starter_kit/03_outline/_auto_beat_sheet.md",
+    "其他项目归档/（這是一個純粹的虛構的世界觀設定，與現實世界無關！） 請用英文（行政區名字，格言，國歌用德語）仿照維護百科介紹一個位於非洲之角東南部的一個國家（整體意識形態屬於民主憲政社會偏社會主義）.md",
+    "其他项目归档/虚拟网游/vrmmo_starter_kit/04_manuscript/第01章_停服前夜.md",
+    "其他项目归档/虚拟网游/vrmmo_starter_kit/04_manuscript/第02章_第一个任务.md",
+    "其他项目归档/虚拟网游/vrmmo_starter_kit/04_manuscript/第03章_让这个游戏活过三十天.md",
+    "其他项目归档/虚拟网游/vrmmo_starter_kit/04_manuscript/第04章_精品润色示范.md"
    ],
    "in": [
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
@@ -2357,7 +2375,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 1408,
+   "net_chars": 1496,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2380,7 +2398,9 @@
     "创造主们的战争/正文/第02章-缝合线两侧.md",
     "创造主们的战争/正文/第03章-查无此人.md",
     "创造主们的战争/正文/第04章-字迹与垫章.md",
-    "创造主们的战争/正文/第05章-半枚旧印.md"
+    "创造主们的战争/正文/第05章-半枚旧印.md",
+    "创造主们的战争/正文/第06章-说清楚.md",
+    "创造主们的战争/正文/第07章-第九次.md"
    ],
    "in": [
     "PKM/01-MOC/MOC-PKM-知识连接层.md"
@@ -2694,7 +2714,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 3639,
+   "net_chars": 3718,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2723,6 +2743,7 @@
     "综网废柴逆命/设定/07_创作台账/LOCATIONS.md",
     "综网废柴逆命/设定/07_创作台账/PLOT_POINTS.md",
     "综网废柴逆命/设定/07_创作台账/STORY_BIBLE.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/交接-蜀山卷一润色/04-进度与文件清单.md",
     "蜀山之撼天凡蚁登天路漫漫/正文/回填台账-卷一.md",
     "蜀山之撼天凡蚁登天路漫漫/正文/回填台账-卷二.md",
     "蜀山之撼天凡蚁登天路漫漫/正文/机制台账.md",
@@ -2962,7 +2983,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 5716,
+   "net_chars": 6816,
    "tags": [],
    "aliases": [],
    "out": [
@@ -3021,7 +3042,15 @@
     "无敌不是他人路/立项调研-外部事实核对表-20261113.md",
     "点子库/01-设定集/21-参考资料反哺-四份资料的吸收与入典.md",
     "综网废柴逆命/设定/05_方法与市场/04_方法论调研与应用.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/交接-蜀山卷一润色/02-写作标准.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/交接-蜀山卷一润色/03-设定与伏笔.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/交接-蜀山卷一润色/04-进度与文件清单.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/交接-蜀山卷一润色/05-新对话开场提示词.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/交接-蜀山卷一润色/README.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/交接-蜀山卷一润色/samples/第108章-一页.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/交接-蜀山卷一润色/samples/第109章-记住.md",
     "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/写作技法-调研资料汇编（描写手法与词藻）.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/自研浏览器_开源内核二次开发_桌面端深度调研.md",
     "蜀山之撼天凡蚁登天路漫漫/校验/联网调研校验报告-20261118.md",
     "逆鳞/调研/逆鳞-联网调研与诊断-20261120.md",
     "零件库/07-调研-跨作品可复用零件构建方法.md",
@@ -5209,7 +5238,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 18716,
+   "net_chars": 18829,
    "tags": [],
    "aliases": [],
    "out": [
@@ -5221,6 +5250,7 @@
     "点子库/README-点子库.md",
     "提交确实未创建/作品总览.md",
     "蜀山之撼天凡蚁登天路漫漫/README.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/交接-蜀山卷一润色/README.md",
     "蜀山之撼天凡蚁登天路漫漫/证据与裁决/素材台账/README.md",
     "十三叩_U-1990/README.md",
     "PKM/README.md",
@@ -5228,9 +5258,9 @@
     "华夏克苏鲁/README-总览.md",
     "华夏克苏鲁/作品总览.md",
     "零件库/README.md",
+    "廓者未名夜/作品总览.md",
     "战锤42拔智齿/01-原始材料/作品总览.md",
     "战锤42拔智齿/README.md",
-    "廓者未名夜/作品总览.md",
     "逆鳞/作品总览.md",
     "通用模板包/README.md",
     "无敌不是他人路/作品总览.md",
@@ -5356,7 +5386,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 29,
+   "net_chars": 174,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -7009,6 +7039,329 @@
    "overridden": false
   },
   {
+   "path": "其他项目归档/虚拟网游/vrmmo_starter_kit/00_README.md",
+   "title": "《我给第四天灾发任务》开书工程包",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "其他项目归档",
+   "role": "",
+   "net_chars": 2894,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-其他项目归档.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "其他项目归档/虚拟网游/vrmmo_starter_kit/01_report/01_赛道扫描与爆款命中率预判.md",
+   "title": "虚拟网游 / 游戏异界赛道扫描与爆款命中率预判",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "其他项目归档",
+   "role": "",
+   "net_chars": 6428,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-其他项目归档.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "其他项目归档/虚拟网游/vrmmo_starter_kit/01_report/02_选题决策报告.md",
+   "title": "选题决策报告",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "其他项目归档",
+   "role": "",
+   "net_chars": 2574,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-其他项目归档.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "其他项目归档/虚拟网游/vrmmo_starter_kit/01_report/03_开书全流程SOP.md",
+   "title": "开书全流程 SOP（可复用）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "其他项目归档",
+   "role": "",
+   "net_chars": 3971,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-其他项目归档.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "其他项目归档/虚拟网游/vrmmo_starter_kit/01_report/_auto_hit_score.md",
+   "title": "开书方案命中率预判（hit_score.py 生成）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "其他项目归档",
+   "role": "",
+   "net_chars": 1908,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-其他项目归档.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "其他项目归档/虚拟网游/vrmmo_starter_kit/01_report/_auto_rank_stats.md",
+   "title": "榜单自动统计（rank_scan.py 生成）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "其他项目归档",
+   "role": "",
+   "net_chars": 1576,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-其他项目归档.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "其他项目归档/虚拟网游/vrmmo_starter_kit/01_report/正文体检报告.md",
+   "title": "正文体检报告（prose_lint.py 生成）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "其他项目归档",
+   "role": "",
+   "net_chars": 879,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-其他项目归档.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "其他项目归档/虚拟网游/vrmmo_starter_kit/02_settings/01_世界观设定集.md",
+   "title": "世界观设定集 ·《我给第四天灾发任务》",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "其他项目归档",
+   "role": "",
+   "net_chars": 3439,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-其他项目归档.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "其他项目归档/虚拟网游/vrmmo_starter_kit/02_settings/02_人物小传.md",
+   "title": "人物小传",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "其他项目归档",
+   "role": "",
+   "net_chars": 3698,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-其他项目归档.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "其他项目归档/虚拟网游/vrmmo_starter_kit/02_settings/03_力量体系与数值表.md",
+   "title": "力量体系与数值表",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "其他项目归档",
+   "role": "",
+   "net_chars": 2982,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-其他项目归档.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "其他项目归档/虚拟网游/vrmmo_starter_kit/03_outline/01_分卷大纲.md",
+   "title": "分卷大纲",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "其他项目归档",
+   "role": "",
+   "net_chars": 2480,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-其他项目归档.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "其他项目归档/虚拟网游/vrmmo_starter_kit/03_outline/02_黄金三章细纲.md",
+   "title": "黄金三章 · 段落级细纲",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "其他项目归档",
+   "role": "",
+   "net_chars": 2626,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-其他项目归档.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "其他项目归档/虚拟网游/vrmmo_starter_kit/03_outline/_auto_beat_sheet.md",
+   "title": "《我给第四天灾发任务》章节节拍表（outline_build.py 生成）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "其他项目归档",
+   "role": "",
+   "net_chars": 2537,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-其他项目归档.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "其他项目归档/虚拟网游/vrmmo_starter_kit/04_manuscript/第01章_停服前夜.md",
+   "title": "第1章 停服前夜",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "其他项目归档",
+   "role": "",
+   "net_chars": 4465,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-其他项目归档.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "其他项目归档/虚拟网游/vrmmo_starter_kit/04_manuscript/第02章_第一个任务.md",
+   "title": "第2章 第一个任务",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "其他项目归档",
+   "role": "",
+   "net_chars": 4080,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-其他项目归档.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "其他项目归档/虚拟网游/vrmmo_starter_kit/04_manuscript/第03章_让这个游戏活过三十天.md",
+   "title": "第3章 让这个游戏活过三十天",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "其他项目归档",
+   "role": "",
+   "net_chars": 4141,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-其他项目归档.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "其他项目归档/虚拟网游/vrmmo_starter_kit/04_manuscript/第04章_精品润色示范.md",
+   "title": "第4章 限时活动：灰鸦镇保卫战",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "其他项目归档",
+   "role": "",
+   "net_chars": 5508,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-其他项目归档.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
    "path": "其他项目归档/（這是一個純粹的虛構的世界觀設定，與現實世界無關！） 請用英文（行政區名字，格言，國歌用德語）仿照維護百科介紹一個位於非洲之角東南部的一個國家（整體意識形態屬於民主憲政社會偏社會主義）.md",
    "title": "（這是一個純粹的虛構的世界觀設定，與現實世界無關！） 請用英文（行政區名字，格言，國歌用德語）仿照維護百科介紹一個位於非洲之角東南部的一個國家（整體意識形態屬於民主憲政社會偏社會主義）",
    "type": "设定",
@@ -7093,7 +7446,7 @@
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "",
-   "net_chars": 16179,
+   "net_chars": 17700,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -7153,7 +7506,7 @@
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "",
-   "net_chars": 2664,
+   "net_chars": 2742,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -7213,7 +7566,7 @@
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "入口总览",
-   "net_chars": 3291,
+   "net_chars": 3499,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -7306,12 +7659,12 @@
   },
   {
    "path": "创造主们的战争/正文/00-正文索引.md",
-   "title": "正文索引 · 卷一（5 章）",
+   "title": "正文索引 · 卷一（7 章）",
    "type": "模板",
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "正文",
-   "net_chars": 1078,
+   "net_chars": 1351,
    "tags": [],
    "aliases": [],
    "out": [
@@ -7319,7 +7672,9 @@
     "创造主们的战争/正文/第02章-缝合线两侧.md",
     "创造主们的战争/正文/第03章-查无此人.md",
     "创造主们的战争/正文/第04章-字迹与垫章.md",
-    "创造主们的战争/正文/第05章-半枚旧印.md"
+    "创造主们的战争/正文/第05章-半枚旧印.md",
+    "创造主们的战争/正文/第06章-说清楚.md",
+    "创造主们的战争/正文/第07章-第九次.md"
    ],
    "in": [
     "PKM/01-MOC/MOC-创造主们的战争.md"
@@ -7417,6 +7772,46 @@
    "project": "创造主们的战争",
    "role": "正文",
    "net_chars": 10495,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-创造主们的战争.md",
+    "创造主们的战争/正文/00-正文索引.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "创造主们的战争/正文/第06章-说清楚.md",
+   "title": "第06章-说清楚",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "创造主们的战争",
+   "role": "正文",
+   "net_chars": 11319,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-创造主们的战争.md",
+    "创造主们的战争/正文/00-正文索引.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "创造主们的战争/正文/第07章-第九次.md",
+   "title": "第07章-第九次",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "创造主们的战争",
+   "role": "正文",
+   "net_chars": 11644,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -32250,6 +32645,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-对标调研.md",
     "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
    ],
    "broken": [],
@@ -32269,6 +32665,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-对标调研.md",
     "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
    ],
    "broken": [],
@@ -32288,6 +32685,8 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-台账进度.md",
+    "PKM/01-MOC/MOC-对标调研.md",
     "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
    ],
    "broken": [],
@@ -32307,6 +32706,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-对标调研.md",
     "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
    ],
    "broken": [],
@@ -32326,7 +32726,9 @@
    "aliases": [],
    "out": [],
    "in": [
-    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+    "PKM/01-MOC/MOC-对标调研.md",
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md",
+    "PKM/MOC-全库.md"
    ],
    "broken": [],
    "archived": false,
@@ -32345,6 +32747,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-对标调研.md",
     "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
    ],
    "broken": [],
@@ -32364,6 +32767,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-对标调研.md",
     "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
    ],
    "broken": [],
@@ -32403,6 +32807,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-对标调研.md",
     "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
    ],
    "broken": [
