@@ -210,7 +210,7 @@
 | `证伪实验-钢铁之梦/00_原作/构建脚本/合订本/post_omnibus.py` | C |  |
 | `证伪实验-钢铁之梦/99_工具/build_variants.py` | C |  |
 
-### 其他项目归档/ — 6 个 · B 类
+### 其他项目归档/ — 7 个 · B 类
 
 > vrmmo_starter_kit 自包含开书包（05_tools）；SOP 声明解压即用
 
@@ -222,6 +222,7 @@
 | `其他项目归档/虚拟网游/vrmmo_starter_kit/05_tools/outline_build.py` | B |  |
 | `其他项目归档/虚拟网游/vrmmo_starter_kit/05_tools/prose_lint.py` | B |  |
 | `其他项目归档/虚拟网游/vrmmo_starter_kit/05_tools/rank_scan.py` | B |  |
+| `其他项目归档/虚拟网游/这网游里的鬼是真的_20261123/toolkit/scripts/scan_chart.py` | B | 虚拟网游开书包 toolkit 随包脚本（并发提交 a1bfa81 新增，2026-11-23 补登记） |
 
 ### horror-motif-lab/ — 4 个 · B 类
 
