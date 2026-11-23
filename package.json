@@ -11,6 +11,7 @@
     "check:package": "node tools/host.mjs check package",
     "check:doc": "node tools/host.mjs check doc-review",
     "check:consistency": "node tools/host.mjs check consistency",
+    "check:tools": "python tools/tool_registry_check.py",
     "list": "node tools/host.mjs list",
     "doctor": "node tools/host.mjs doctor",
     "plugins": "node tools/host.mjs --list",
