@@ -1,0 +1,8 @@
+{
+  "book": "<书名，换成你的项目>",
+  "kb_id": "<知识库ID，不上传可留空>",
+  "src_dir": "./src",
+  "draft_dir": "./draft",
+  "out_dir": "./out",
+  "min_han": 3000
+}

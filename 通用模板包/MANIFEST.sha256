@@ -1,7 +1,7 @@
-# 创作室通用模板包 v3.14 · SHA256 校验清单（2026-11-15）
+# 创作室通用模板包 v3.19 · SHA256 校验清单（2026-11-23）
 # 校验：在本目录执行  sha256sum -c MANIFEST.sha256
 # Windows: certutil -hashfile <文件> SHA256 逐项比对
-# v3.14 更新：19 号内容修订、14 号登记扩充；哈希仍按 git blob（LF）字节计算，文件集仍为 34 条。
+# v3.19 更新：新增 22 号模板与 tools/polish/ 六工具；哈希按工作区文件字节重新计算，文件集 40 → 48 条。
 #
 # —— 2026-11-13 增补（本次深度审计后）——
 # 1) 覆盖范围补齐：纳入此前未受哈希保护的 6 个受控文件（tools/regression_checks.txt 是 C8 防回归断言的数据源，
@@ -12,7 +12,7 @@
 #    Linux/macOS 的 sha256sum -c 会因路径分隔符失配而全盘失败；现改为正斜杠。
 # 3) 哈希口径：一律取 git blob 字节（LF），不得按工作区字节计算（工作区可能是 CRLF 旧副本）。
 #    重算工具：python tools/manifest.py --write    校验：python tools/manifest.py --check
-89fabad80f2a9fb3b80992c4b49e4fa56cbebe0593510a8742b57bbf2c2355af  00-总档与SOP.md
+cbe3e85a3bbdbe89ff5e2876a5c7dbd0105aab93dff048953ca3335dd37d9bfd  00-总档与SOP.md
 38e51e81975afa7428b8949ab3990c4efdf748c2725da2afab50533e5cb4f66d  01-立项定位模板.md
 6e0583eace5fc4c397610bbc7e860cc3ebac6c105befece94127dcc363cd37fc  02-大纲四层模板.md
 998414dd48127108a904fe53905e83e296a382c4a20fe949316887ed02fcbf5c  03-世界观圣经模板.md
@@ -26,20 +26,20 @@ b6faa7b47eea5af4e117ec38362174d4dba33eeccf8b3804fde33daea7007dfd  07-附录-本�
 6d8c6f2347fbd5b7b0945a8c4ae8f2cd140d975f44a54aee125333418b44d4e4  11-合规与一致性检查模板.md
 c20b77e61ce0ec7cfa66ff096c38d28a126e2a58c9c2f647a5d35c6deff0f305  12-品类流派与IP合规前置模板.md
 d90b69ddbf6b3cfc4a0a9552b0782237da4541e5f3cd7025d4e67b8677cbf653  13-世界先行与地图叙事模板.md
-300904e2a3ed7c8030c4a1bc7b07ef718dce24c3512d6ccf22117e8e665dee45  14-外部依赖与来源登记表.md
+f09af56b26d0588ac0b3b1d9a12fc6222f6c642b088fbeb870718a7064f93206  14-外部依赖与来源登记表.md
 1c35ee35d2dcb73db30e3cbcd27cea212955b1ed0f2b340186c3e932337bf8dd  15-附录-填法样例集.md
 e18cfdf01b414901ef9625b6d71bd65ee929f8d502568ef5c2195d7bf9306021  16-喜剧节奏与无厘头手法模板.md
 f433f8228603bf6649393f527da47005a2fa8cb64466f7c38b063c653827b459  17-字数增密与紫罗兰散文防控模板.md
-9476ad1e860938763f0c8e3a5f9c89664109831b6f52be14fa0341d4308dedcf  18-程序化创作与算法脚本模板.md
-bed42610ba52facc1fe753c6ad3e76b2787f398e3283e745e89bb8e92290ce57  README.md
+0a5c0e5f75f31940fd272fb2efdcd2ca936a195b919d50d3c70b8884ca0c3b88  18-程序化创作与算法脚本模板.md
+7730d821c64f00c32ada6f6aae879cf0f6b8dc18c85c3ae29642cc91925c9d1d  README.md
 55bdf4a558314c5acccdd2bb31bb253b582142855ed15804dea8135fe28a5b57  审计与修复报告.md
-73e88206ad87149754290c2afa7a8073a24120081c5577dd897167d1a73b41ab  校验报告.txt
+6c6964ed604cc67c60fa8ff77318f2e635bfc198aa5b6484a511a1c42c46fb09  校验报告.txt
 df750674bad408d1de792e9b0b301d4e58e43b985b725093d7aada71529bf51f  tools/build_sample_pages.py
 9aa4bf76cd8e407666b57c209baab714b8654265b0001c704c484094dd0072a1  tools/check_package.py
 c72fb93fdff8e94b9f6717baf87cb6a06100d2ff200bad35bf177baf135bd2a7  tools/tab_lint.py
 8c337e63cbea2bbfab1ab62ae1770fceba1729192708ca3d16ab7212171f8625  tools/procedural/goal_sim.py
 966c8f71ecb197cbf64df630a29971973003e97aff62eb581bd73aec517c0e00  tools/procedural/grammar_expand.py
-cd3e4185430324edf6b1ae4f99ab4a48f82b1723cf9507634ae9641ee368bc55  tools/procedural/name_generator.py
+e0d28dba7326cbae86a1a0da879c0756a37d774ea1c8854346f27a3396afb2fb  tools/procedural/name_generator.py
 063a1463cbce580e40d3ccfd3aa449d57348b67edf02ad6342c61d5286f16bf9  19-供给过剩与资产经营模板.md
 d75a3c5f72cf6fe3571301667a421b011de59512565167d8e5e6dd0c52d6089f  20-素材与设定整理模板.md
 b27d257fadfc006ee571e9790204f4142d6ab9577cc6de2d71baa83eb6bbc89a  21-版权风险结构与合规边界模板.md
@@ -53,3 +53,11 @@ ed511a87d94a8639d390449484e5824e1d570979108282d7f68961a26b16a481  可视化_结�
 17af3604d2cd82107e8a9d0ce0b98691fd31f437dbae5d8e893f78ace5b79393  可视化_结构映射/graph.svg
 6d7bdb33a63b7976d91d6528249fd1e6db8d10ebe436c5461531c3e6183781d6  可视化_结构映射/index.html
 0b2d1cb68fb11d8dabf083561d02d334b68552ff466fe044675b408789ebc2a2  可视化_结构映射/render.js
+b55556b46d12f5d291ad76c1e6eddaa9dbbfec9906fadffabf7c9e925dfe56a4  22-逐章润色工程模板.md
+5dc0d2a2c7a7c73446110ccd9d5dbf7dc20b9954b306d82685386af4c79d6a8c  tools/polish/build.py
+fc7f5aa93a09402beb1f3c60f579a5c38ddd07caa69489dfb1cffabad5d5e497  tools/polish/config.example.json
+124f210eaef23de0433824dac28707747fa5e6b4c7b23fb8b699d9bb2c2c3e6b  tools/polish/count.py
+bae8a4201e1b4ddaa8612f280b1ec23b74776eabf233479f12bf910b94ed3363  tools/polish/extract.py
+ad2da1922998c52678d8035e59d1f0680a4d918141c4bdd74f8ac301959a23be  tools/polish/kit.py
+11f60201ea834a36828c0e26f0c84980b3e5a5df10ddb20f2af1e87cfbebc006  tools/polish/selftest.sh
+82ac37c0e5dbad454e39897c855b3004076e16eb9a36ef8b322f58a4ff7b1e22  tools/polish/upload.sh
