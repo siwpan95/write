@@ -1,0 +1,31 @@
+<Slide style={{ width: '1280px', height: '720px', background: '#0B1220', padding: '60px', flexDirection: 'column' }}>
+  <Box style={{ flexDirection: 'column', gap: '16px' }}>
+    <Text style={{ fontSize: '36px', color: '#E8ECF4', fontWeight: 'bold' }}>黄金三章：钩子工程</Text>
+    <Box style={{ width: '100%', height: '1px', background: '#C8102E' }} />
+  </Box>
+  <Box style={{ flexDirection: 'row', gap: '28px', marginTop: '44px', flex: 1 }}>
+    {[
+      { n: '第 1 章', t: '海绵里的头发', d: '前 200 字二手头盔卡着一根不属于任何同事的头发；章末野狼转头咧嘴一笑，狼皮下是披皮的东西。', h: '钩子：注视度上涨' },
+      { n: '第 2 章', t: '落单的别应声', d: '民俗规则「日落后的落单玩家别答应搭话」；闭嘴避险还捡走别人不敢捡的掉落物。', h: '钩子：新规则' },
+      { n: '第 3 章', t: '第一缕香火', d: '守灵事暗规矩「孝子的头不能抬」；老关桃木尺敲回流程，首杀掉香火，现实深夜敲门。', h: '钩子：香火账异动' },
+    ].map((item, i) => (
+      <Box key={i} style={{ flex: 1, background: '#1E293B', borderRadius: '8px', padding: '24px', flexDirection: 'column', gap: '12px' }}>
+        <Text style={{ fontSize: '20px', color: '#D4A24C', fontWeight: 'bold' }}>{item.n}</Text>
+        <Text style={{ fontSize: '24px', color: '#E8ECF4', fontWeight: 'bold' }}>{item.t}</Text>
+        <Text style={{ fontSize: '17px', color: '#E8ECF4', lineHeight: 1.6 }}>{item.d}</Text>
+        <Text style={{ fontSize: '15px', color: '#C8102E', marginTop: 'auto' }}>{item.h}</Text>
+      </Box>
+    ))}
+  </Box>
+  <Box style={{ flexDirection: 'row', gap: '16px', marginTop: '24px' }}>
+    <Box style={{ flex: 1, background: '#C8102E', padding: '14px 20px', borderRadius: '6px', justifyContent: 'center' }}>
+      <Text style={{ fontSize: '18px', color: '#FFFFFF', fontWeight: 'bold', textAlign: 'center' }}>9000–12000 字</Text>
+    </Box>
+    <Box style={{ flex: 1, background: '#334155', padding: '14px 20px', borderRadius: '6px', justifyContent: 'center' }}>
+      <Text style={{ fontSize: '18px', color: '#FFFFFF', fontWeight: 'bold', textAlign: 'center' }}>3 章一爽点 · 10 章一曝光</Text>
+    </Box>
+    <Box style={{ flex: 1, background: '#334155', padding: '14px 20px', borderRadius: '6px', justifyContent: 'center' }}>
+      <Text style={{ fontSize: '18px', color: '#FFFFFF', fontWeight: 'bold', textAlign: 'center' }}>钩子三循环轮换 · 禁连用</Text>
+    </Box>
+  </Box>
+</Slide>

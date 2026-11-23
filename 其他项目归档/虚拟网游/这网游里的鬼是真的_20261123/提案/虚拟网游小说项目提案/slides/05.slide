@@ -1,0 +1,34 @@
+<Slide style={{ width: '1280px', height: '720px', background: '#0B1220', padding: '60px', flexDirection: 'column' }}>
+  <Box style={{ flexDirection: 'column', gap: '16px' }}>
+    <Text style={{ fontSize: '36px', color: '#E8ECF4', fontWeight: 'bold' }}>爆款命中率预判</Text>
+    <Box style={{ width: '100%', height: '1px', background: '#C8102E' }} />
+  </Box>
+  <Box style={{ flexDirection: 'row', gap: '48px', marginTop: '40px', flex: 1 }}>
+    <Box style={{ width: '340px', flexDirection: 'column', justifyContent: 'center', gap: '8px' }}>
+      <Text style={{ fontSize: '96px', color: '#C8102E', fontWeight: 'bold', lineHeight: 1 }}>4.40</Text>
+      <Text style={{ fontSize: '24px', color: '#E8ECF4', fontWeight: 'bold' }}>/ 5.0　加权命中率</Text>
+      <Box style={{ background: '#1E293B', padding: '16px', borderRadius: '6px', marginTop: '16px' }}>
+        <Text style={{ fontSize: '18px', color: '#D4A24C', lineHeight: 1.5 }}>≥4.0 立项线 ✓<br />敏感性复核：最薄弱维跌至 3.0，仍有 4.20</Text>
+      </Box>
+    </Box>
+    <Box style={{ flex: 1, flexDirection: 'column', gap: '18px', justifyContent: 'center' }}>
+      {[
+        { n: '题材赛道热度', s: 4.5, w: '20%' },
+        { n: '开局钩子强度', s: 4.5, w: '25%' },
+        { n: '金手指新鲜度', s: 4.5, w: '20%' },
+        { n: '爽点密度可排期', s: 4.0, w: '20%' },
+        { n: '差异化辨识度', s: 4.5, w: '15%' },
+      ].map((item, i) => (
+        <Box key={i} style={{ flexDirection: 'row', alignItems: 'center', gap: '16px' }}>
+          <Text style={{ width: '180px', fontSize: '19px', color: '#E8ECF4' }}>{item.n}</Text>
+          <Box style={{ flex: 1, height: '20px', background: '#1E293B', borderRadius: '4px', flexDirection: 'row', justifyContent: 'flex-end' }}>
+            <Box style={{ width: `${item.s / 5 * 100}%`, height: '20px', background: item.s === 4.0 ? '#D4A24C' : '#C8102E', borderRadius: '4px' }} />
+          </Box>
+          <Text style={{ width: '50px', fontSize: '20px', color: item.s === 4.0 ? '#D4A24C' : '#C8102E', fontWeight: 'bold', textAlign: 'right' }}>{item.s}</Text>
+          <Text style={{ width: '50px', fontSize: '16px', color: '#94A3B8', textAlign: 'right' }}>{item.w}</Text>
+        </Box>
+      ))}
+    </Box>
+  </Box>
+  <Text style={{ fontSize: '14px', color: '#94A3B8' }}>评分模型：五维加权；依据 Phase 1 赛道报告 + 2026-11-22 书名联网查重</Text>
+</Slide>

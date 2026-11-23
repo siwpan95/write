@@ -1,0 +1,28 @@
+<Slide style={{ width: '1280px', height: '720px', background: '#0B1220', padding: '60px', flexDirection: 'column' }}>
+  <Box style={{ flexDirection: 'column', gap: '16px' }}>
+    <Text style={{ fontSize: '36px', color: '#E8ECF4', fontWeight: 'bold' }}>能撑百万字的底座：人物与规则</Text>
+    <Box style={{ width: '100%', height: '1px', background: '#C8102E' }} />
+  </Box>
+  <Box style={{ flexDirection: 'row', gap: '40px', marginTop: '44px', flex: 1 }}>
+    <Box style={{ width: '400px', flexDirection: 'column', gap: '16px' }}>
+      <Text style={{ fontSize: '26px', color: '#D4A24C', fontWeight: 'bold' }}>主角 · 陈九</Text>
+      <Text style={{ fontSize: '19px', color: '#E8ECF4', lineHeight: 1.6 }}>25 岁打金工作室夜班小弟，游戏 ID「九块九包邮」。为攒离职本金入坑，却在藏真鬼的游戏里开了阴阳眼。</Text>
+      <Box style={{ background: '#1E293B', padding: '18px', borderRadius: '6px' }}>
+        <Text style={{ fontSize: '17px', color: '#94A3B8', lineHeight: 1.6 }}>核心缺陷三件套：穷且急则乱杀 / 看破就说破不住嘴 / 对被盯着钝感——金手指双刃恰好卡住缺陷。</Text>
+      </Box>
+    </Box>
+    <Box style={{ flex: 1, flexDirection: 'column', gap: '14px', justifyContent: 'center' }}>
+      {[
+        { k: '7 + 2', v: '配角群像（7 人 + 2 现实侧），全员通过「没有他会怎样」功能审查' },
+        { k: '49', v: '条一致性锁定台账——术语、等级、规则全书唯一口径' },
+        { k: '2 + 1', v: '双反派互锁（明线贺连城 / 暗线清算科）+ 机制型对手百目' },
+        { k: '3 段', v: '主角弧光：为香火打工 → 并肩与清算照面 → 编制与人间的抉择' },
+      ].map((item, i) => (
+        <Box key={i} style={{ flexDirection: 'row', gap: '20px', alignItems: 'center', background: '#1E293B', padding: '16px 20px', borderRadius: '6px' }}>
+          <Text style={{ width: '90px', fontSize: '30px', color: '#C8102E', fontWeight: 'bold' }}>{item.k}</Text>
+          <Text style={{ flex: 1, fontSize: '17px', color: '#E8ECF4', lineHeight: 1.5 }}>{item.v}</Text>
+        </Box>
+      ))}
+    </Box>
+  </Box>
+</Slide>

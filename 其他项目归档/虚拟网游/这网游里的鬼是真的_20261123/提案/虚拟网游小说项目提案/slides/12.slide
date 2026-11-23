@@ -1,0 +1,22 @@
+<Slide style={{ width: '1280px', height: '720px', background: '#0B1220', padding: '60px', flexDirection: 'column', justifyContent: 'space-between', position: 'relative' }}>
+  <Box style={{ position: 'absolute', top: '0px', left: '0px', width: '100%', height: '8px', background: 'linear-gradient(90deg, #C8102E 0%, #D4A24C 100%)' }} />
+  <Box style={{ flexDirection: 'column', gap: '24px', marginTop: '40px' }}>
+    <Text style={{ fontSize: '20px', color: '#D4A24C', letterSpacing: '4px' }}>THE PIPELINE</Text>
+    <Text style={{ fontSize: '56px', color: '#E8ECF4', fontWeight: 'bold', lineHeight: 1.2 }}>一条可复制的<br />网文生产流水线</Text>
+    <Box style={{ width: '120px', height: '3px', background: '#C8102E' }} />
+    <Text style={{ fontSize: '22px', color: '#94A3B8', lineHeight: 1.6 }}>从赛道数据到正文成稿，每一步都有方法、有模板、有闸门、有留痕。</Text>
+  </Box>
+  <Box style={{ flexDirection: 'column', gap: '16px' }}>
+    <Box style={{ flexDirection: 'row', gap: '16px' }}>
+      {['赛道分析 + 爆款拆解', '选题立项 + 命中率评分', '世界观 + 人物 + 大纲', '黄金三章正文 + 精修示范'].map((s, i) => (
+        <Box key={i} style={{ flex: 1, background: '#1E293B', padding: '16px 12px', borderRadius: '6px', justifyContent: 'center' }}>
+          <Text style={{ fontSize: '15px', color: '#E8ECF4', textAlign: 'center', lineHeight: 1.4 }}>{s}</Text>
+        </Box>
+      ))}
+    </Box>
+    <Box style={{ flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end' }}>
+      <Text style={{ fontSize: '18px', color: '#94A3B8' }}>全哥游戏工坊 · 番茄小说全流程写作专家团</Text>
+      <Text style={{ fontSize: '18px', color: '#D4A24C' }}>2026-11</Text>
+    </Box>
+  </Box>
+</Slide>

@@ -1,0 +1,26 @@
+<Slide style={{ width: '1280px', height: '720px', background: '#0B1220', padding: '60px', flexDirection: 'column' }}>
+  <Box style={{ flexDirection: 'column', gap: '16px' }}>
+    <Text style={{ fontSize: '36px', color: '#E8ECF4', fontWeight: 'bold' }}>传统网游流的两难：红海与纯度下降</Text>
+    <Box style={{ width: '100%', height: '1px', background: '#C8102E' }} />
+  </Box>
+  <Box style={{ marginTop: '48px', flexDirection: 'column', gap: '28px', flex: 1, justifyContent: 'center' }}>
+    {[
+      { n: '传统重生数值流', v: 72, c: '#C8102E', note: '红海 · 同配方跟作密集、头部固化' },
+      { n: '游戏降临 / 卡BUG流', v: 55, c: '#D4A24C', note: '风口上升 · 供给增加中' },
+      { n: '第四天灾 NPC 幕后流', v: 48, c: '#D4A24C', note: '蓝海偏热 · 单书验证 74 万在读' },
+      { n: '网游 × 民俗怪谈', v: 38, c: '#4ADE80', note: '新蓝海 · 起点爆款验证 + 怪谈搜索暴涨 300%' },
+    ].map((item, i) => (
+      <Box key={i} style={{ flexDirection: 'row', alignItems: 'center', gap: '24px' }}>
+        <Text style={{ width: '280px', fontSize: '20px', color: '#E8ECF4', fontWeight: i === 3 ? 'bold' : 'normal' }}>{item.n}</Text>
+        <Box style={{ flex: 1, height: '28px', background: '#1E293B', borderRadius: '4px', flexDirection: 'row', justifyContent: 'flex-end' }}>
+          <Box style={{ width: `${item.v}%`, height: '28px', background: item.c, borderRadius: '4px' }} />
+        </Box>
+        <Text style={{ width: '80px', fontSize: '28px', color: item.c, fontWeight: 'bold', textAlign: 'right' }}>{item.v}</Text>
+        <Text style={{ width: '340px', fontSize: '16px', color: '#94A3B8' }}>{item.note}</Text>
+      </Box>
+    ))}
+  </Box>
+  <Box style={{ background: '#C8102E', padding: '16px 24px', borderRadius: '6px' }}>
+    <Text style={{ fontSize: '22px', color: '#FFFFFF', fontWeight: 'bold' }}>结论：正面跟作无胜算，融合细分才有窗口——网游×民俗怪谈是六方向中拥挤度最低的切入点</Text>
+  </Box>
+</Slide>

@@ -1,0 +1,26 @@
+<Slide style={{ width: '1280px', height: '720px', background: '#0B1220', padding: '60px', flexDirection: 'column' }}>
+  <Box style={{ flexDirection: 'column', gap: '16px' }}>
+    <Text style={{ fontSize: '36px', color: '#E8ECF4', fontWeight: 'bold' }}>双刃金手指：看得越多，被记得越牢</Text>
+    <Box style={{ width: '100%', height: '1px', background: '#C8102E' }} />
+  </Box>
+  <Box style={{ flexDirection: 'row', gap: '32px', marginTop: '44px', flex: 1 }}>
+    <Box style={{ flex: 1.1, background: '#1E293B', borderRadius: '8px', padding: '28px', flexDirection: 'column', gap: '14px' }}>
+      <Text style={{ fontSize: '26px', color: '#D4A24C', fontWeight: 'bold' }}>阴阳眼 · 感知型</Text>
+      <Text style={{ fontSize: '19px', color: '#E8ECF4', lineHeight: 1.7 }}>别人看怪物是贴图，他看见民俗诡异的真容：<br />· 看破弱点　· 看破真名<br />· 看破规则破绽</Text>
+      <Text style={{ fontSize: '16px', color: '#94A3B8', marginTop: 'auto' }}>四层穿透随行当等级逐步解锁</Text>
+    </Box>
+    <Box style={{ flex: 1, background: '#1E293B', borderRadius: '8px', padding: '28px', flexDirection: 'column', gap: '14px' }}>
+      <Text style={{ fontSize: '26px', color: '#D4A24C', fontWeight: 'bold' }}>香火账 · 经济型</Text>
+      <Text style={{ fontSize: '19px', color: '#E8ECF4', lineHeight: 1.7 }}>了结脏东西掉的不是装备，是香火：<br />· 淬炼现实肉身（五阶）<br />· 兑换隐藏天赋<br />· 解锁编外阴差晋升链</Text>
+      <Text style={{ fontSize: '16px', color: '#94A3B8', marginTop: 'auto' }}>三栏可视化账本：余额 / 兑换单 / 注视度台账</Text>
+    </Box>
+  </Box>
+  <Box style={{ flexDirection: 'row', gap: '16px', marginTop: '24px' }}>
+    <Box style={{ flex: 1, background: '#C8102E', padding: '18px 20px', borderRadius: '6px' }}>
+      <Text style={{ fontSize: '19px', color: '#FFFFFF', fontWeight: 'bold' }}>代价一 · 注视度：每直视一次真容，被记一笔；满百顺视线入现实猎杀</Text>
+    </Box>
+    <Box style={{ flex: 1, background: '#7F1D1D', padding: '18px 20px', borderRadius: '6px' }}>
+      <Text style={{ fontSize: '19px', color: '#FFFFFF', fontWeight: 'bold' }}>代价二 · 杀不如度：乱杀积业障，每点全属性 −5%，10 点掉落全停</Text>
+    </Box>
+  </Box>
+</Slide>

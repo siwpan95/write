@@ -1,0 +1,24 @@
+<Slide style={{ width: '1280px', height: '720px', background: '#0B1220', padding: '60px', flexDirection: 'column' }}>
+  <Box style={{ flexDirection: 'column', gap: '16px' }}>
+    <Text style={{ fontSize: '36px', color: '#E8ECF4', fontWeight: 'bold' }}>虚拟网游赛道：稳中有变的大盘</Text>
+    <Box style={{ width: '100%', height: '1px', background: '#C8102E' }} />
+  </Box>
+  <Box style={{ flexDirection: 'row', gap: '40px', marginTop: '56px', flex: 1 }}>
+    <Box style={{ width: '420px', flexDirection: 'column', justifyContent: 'center', gap: '12px' }}>
+      <Text style={{ fontSize: '72px', color: '#C8102E', fontWeight: 'bold', lineHeight: 1 }}>186<span style={{ fontSize: '28px', color: '#D4A24C' }}>万</span></Text>
+      <Text style={{ fontSize: '20px', color: '#E8ECF4', fontWeight: 'bold' }}>头部作品在读峰值（估）</Text>
+      <Text style={{ fontSize: '18px', color: '#94A3B8', lineHeight: 1.5 }}>《普攻永久加生命》番茄网游分类年榜第二，459.6 万字完结仍有长尾留存。证明这个大类能养出百万在读级爆款。</Text>
+    </Box>
+    <Box style={{ flex: 1, flexDirection: 'column', gap: '24px', justifyContent: 'center' }}>
+      <Box style={{ background: '#1E293B', padding: '24px', borderRadius: '8px', borderLeft: '4px solid #D4A24C' }}>
+        <Text style={{ fontSize: '24px', color: '#D4A24C', fontWeight: 'bold' }}>基本盘稳</Text>
+        <Text style={{ fontSize: '18px', color: '#E8ECF4', lineHeight: 1.5, marginTop: '8px' }}>番茄游戏大类中，纯虚拟网游标签作品稳定占榜 5–10 位，读者需求未衰退。</Text>
+      </Box>
+      <Box style={{ background: '#1E293B', padding: '24px', borderRadius: '8px', borderLeft: '4px solid #C8102E' }}>
+        <Text style={{ fontSize: '24px', color: '#C8102E', fontWeight: 'bold' }}>头部换防</Text>
+        <Text style={{ fontSize: '18px', color: '#E8ECF4', lineHeight: 1.5, marginTop: '8px' }}>求生、游戏降临、第四天灾等融合流已占据前排，纯网游不再独占流量 C 位。</Text>
+      </Box>
+    </Box>
+  </Box>
+  <Text style={{ fontSize: '14px', color: '#94A3B8' }}>数据来源：Phase 1 联网扫榜（番茄游戏体育榜/起点游戏分类榜 2026-11 快照），量级标注「估」者为多源推算</Text>
+</Slide>

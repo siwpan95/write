@@ -1,0 +1,35 @@
+<Slide style={{ width: '1280px', height: '720px', background: '#0B1220', padding: '60px', flexDirection: 'column' }}>
+  <Box style={{ flexDirection: 'column', gap: '16px' }}>
+    <Text style={{ fontSize: '36px', color: '#E8ECF4', fontWeight: 'bold' }}>破局配方：网游 × 民俗怪谈</Text>
+    <Box style={{ width: '100%', height: '1px', background: '#C8102E' }} />
+  </Box>
+  <Box style={{ marginTop: '48px', flexDirection: 'column', gap: '20px', flex: 1, justifyContent: 'center' }}>
+    <Box style={{ flexDirection: 'row', gap: '24px', alignItems: 'stretch' }}>
+      <Box style={{ width: '160px', background: '#C8102E', borderRadius: '8px', justifyContent: 'center', alignItems: 'center', padding: '20px' }}>
+        <Text style={{ fontSize: '28px', color: '#FFFFFF', fontWeight: 'bold' }}>01<br />游戏为壳</Text>
+      </Box>
+      <Box style={{ flex: 1, background: '#1E293B', borderRadius: '8px', padding: '24px', justifyContent: 'center' }}>
+        <Text style={{ fontSize: '22px', color: '#D4A24C', fontWeight: 'bold' }}>番茄快节奏节拍器</Text>
+        <Text style={{ fontSize: '18px', color: '#E8ECF4', lineHeight: 1.5, marginTop: '8px' }}>3 章一爽点、10 章一全服曝光、旁人震惊吐槽做放大器——把怪谈的沉浸感嵌入免费阅读的追读节奏。</Text>
+      </Box>
+    </Box>
+    <Box style={{ flexDirection: 'row', gap: '24px', alignItems: 'stretch' }}>
+      <Box style={{ width: '160px', background: '#D4A24C', borderRadius: '8px', justifyContent: 'center', alignItems: 'center', padding: '20px' }}>
+        <Text style={{ fontSize: '28px', color: '#0B1220', fontWeight: 'bold' }}>02<br />诡异为芯</Text>
+      </Box>
+      <Box style={{ flex: 1, background: '#1E293B', borderRadius: '8px', padding: '24px', justifyContent: 'center' }}>
+        <Text style={{ fontSize: '22px', color: '#D4A24C', fontWeight: 'bold' }}>供给极少的融合细分</Text>
+        <Text style={{ fontSize: '18px', color: '#E8ECF4', lineHeight: 1.5, marginTop: '8px' }}>怪谈搜索量同比暴涨 300%，而番茄侧「民俗怪谈×虚拟网游」无在榜头部——先发窗口期开放。</Text>
+      </Box>
+    </Box>
+    <Box style={{ flexDirection: 'row', gap: '24px', alignItems: 'stretch' }}>
+      <Box style={{ width: '160px', background: '#334155', borderRadius: '8px', justifyContent: 'center', alignItems: 'center', padding: '20px' }}>
+        <Text style={{ fontSize: '28px', color: '#FFFFFF', fontWeight: 'bold' }}>03<br />双刃金手指</Text>
+      </Box>
+      <Box style={{ flex: 1, background: '#1E293B', borderRadius: '8px', padding: '24px', justifyContent: 'center' }}>
+        <Text style={{ fontSize: '22px', color: '#D4A24C', fontWeight: 'bold' }}>爽点与代价同源</Text>
+        <Text style={{ fontSize: '18px', color: '#E8ECF4', lineHeight: 1.5, marginTop: '8px' }}>看得越多被记得越牢——变强与暴露同源，天然防无敌流写崩，构成持续决策张力。</Text>
+      </Box>
+    </Box>
+  </Box>
+</Slide>

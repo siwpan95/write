@@ -1,0 +1,15 @@
+<Slide style={{ width: '1280px', height: '720px', background: '#0B1220', padding: '60px', flexDirection: 'column', justifyContent: 'space-between', position: 'relative' }}>
+  <Box style={{ position: 'absolute', top: '0px', right: '0px', width: '420px', height: '720px', background: 'linear-gradient(180deg, #1E293B 0%, #0B1220 100%)', opacity: 0.65 }} />
+  <Box style={{ position: 'absolute', top: '90px', right: '90px', width: '260px', height: '260px', border: '2px solid #C8102E', borderRadius: '50%', opacity: 0.35 }} />
+  <Box style={{ position: 'absolute', top: '150px', right: '150px', width: '140px', height: '140px', border: '1px solid #D4A24C', borderRadius: '50%', opacity: 0.5 }} />
+  <Box style={{ position: 'relative', zIndex: 1, flexDirection: 'column', gap: '28px' }}>
+    <Text style={{ fontSize: '20px', color: '#D4A24C', letterSpacing: '6px', fontWeight: 'bold' }}>番茄小说 · 全流程写作方案</Text>
+    <Text style={{ fontSize: '64px', color: '#E8ECF4', fontWeight: 'bold', lineHeight: 1.15 }}>虚拟网游类小说<br />全流程写作</Text>
+    <Box style={{ width: '120px', height: '3px', background: '#C8102E' }} />
+    <Text style={{ fontSize: '24px', color: '#94A3B8', lineHeight: 1.5 }}>从扫榜选题到正文成稿的一条完整生产线</Text>
+  </Box>
+  <Box style={{ position: 'relative', zIndex: 1, flexDirection: 'row', justifyContent: 'space-between', alignItems: 'flex-end' }}>
+    <Text style={{ fontSize: '18px', color: '#94A3B8' }}>全哥游戏工坊 · 番茄小说全流程写作专家团</Text>
+    <Text style={{ fontSize: '18px', color: '#94A3B8' }}>2026-11</Text>
+  </Box>
+</Slide>

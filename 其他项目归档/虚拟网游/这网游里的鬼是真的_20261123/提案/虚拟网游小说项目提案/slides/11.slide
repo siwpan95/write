@@ -1,0 +1,20 @@
+<Slide style={{ width: '1280px', height: '720px', background: '#0B1220', padding: '60px', flexDirection: 'column' }}>
+  <Box style={{ flexDirection: 'column', gap: '16px' }}>
+    <Text style={{ fontSize: '36px', color: '#E8ECF4', fontWeight: 'bold' }}>质量纪律：以真实文件为唯一真相</Text>
+    <Box style={{ width: '100%', height: '1px', background: '#C8102E' }} />
+  </Box>
+  <Box style={{ marginTop: '44px', flexDirection: 'column', gap: '20px', flex: 1, justifyContent: 'center' }}>
+    <Box style={{ background: '#1E293B', padding: '24px 28px', borderRadius: '8px', borderLeft: '4px solid #C8102E' }}>
+      <Text style={{ fontSize: '24px', color: '#C8102E', fontWeight: 'bold' }}>没落盘等于没做</Text>
+      <Text style={{ fontSize: '18px', color: '#E8ECF4', lineHeight: 1.6, marginTop: '8px' }}>每份交付必须附 ls 实测 + 字节数；口头「已完成」一律不采信。本项目曾凭此拦下一次消息污染事故。</Text>
+    </Box>
+    <Box style={{ background: '#1E293B', padding: '24px 28px', borderRadius: '8px', borderLeft: '4px solid #D4A24C' }}>
+      <Text style={{ fontSize: '24px', color: '#D4A24C', fontWeight: 'bold' }}>没跑脚本等于没达标</Text>
+      <Text style={{ fontSize: '18px', color: '#E8ECF4', lineHeight: 1.6, marginTop: '8px' }}>大纲、正文、AI 味三道闸门以脚本退出码为准；口径争议用分组 grep 双重证据裁决。</Text>
+    </Box>
+    <Box style={{ background: '#1E293B', padding: '24px 28px', borderRadius: '8px', borderLeft: '4px solid #94A3B8' }}>
+      <Text style={{ fontSize: '24px', color: '#94A3B8', fontWeight: 'bold' }}>冲突以裁决表为准</Text>
+      <Text style={{ fontSize: '18px', color: '#E8ECF4', lineHeight: 1.6, marginTop: '8px' }}>单章字数、审稿维度、AI 阈值、男女频口径全部预先锁定——不临场发挥，用户显式值优先。</Text>
+    </Box>
+  </Box>
+</Slide>
