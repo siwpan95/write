@@ -158,14 +158,20 @@ def main():
     # 仅当文档用"已存在"语气断言该目录时才算缺陷；
     # 规范里约定的将来目录（如 卷一_凝碧崖/…）与可选中间层（叙述稿/）不报。
     ASSERTED = ("已移入", "已放入", "在该目录", "已归档", "在 `", "已随包")
+    # 2026-11-23 订正：排除「已不在 `x/`」这类否定语气，避免把「已清理」误判为「已存在」
+    NEGATED = ("不在", "未建", "尚无", "未见")
     for d, where in sorted(declared.items()):
+        # 2026-11-23 订正：文档内相对路径应相对其所在目录解析
+        # （润色包自带的 templates/ 在 凡人登天路漫漫-润色资料包/蜀山通用润色包/ 下，实际存在）
+        if any(os.path.exists(os.path.join(ROOT, os.path.dirname(rel), d)) for rel in where):
+            continue
         if os.path.exists(os.path.join(ROOT, d)):
             continue
         hits = []
         for rel in where:
             t = open(os.path.join(ROOT, rel), encoding="utf-8").read()
             for line in t.splitlines():
-                if f"`{d}" in line and any(k in line for k in ASSERTED):
+                if f"`{d}" in line and any(k in line for k in ASSERTED) and not any(n in line for n in NEGATED):
                     hits.append(rel)
                     break
         if hits:
