@@ -8,10 +8,10 @@
 
 | 项 | 值 |
 |---|---|
-| 文档总数 | 8 |
-| 知识节点（设定/模板/总览） | 8 |
+| 文档总数 | 9 |
+| 知识节点（设定/模板/总览） | 9 |
 | 叙事节点（正文） | 0 |
-| 净字数 | 29,417 |
+| 净字数 | 39,591 |
 
 ## 入口
 
@@ -20,6 +20,7 @@
 
 ## 设定（SSOT · 单一事实源）
 
+- [[tools/TOOLS_MAP.md]] —— tools/ · 全仓工具地图（唯一权威登记处）（9,815 字）
 - [[tools/skills/human-writing/SKILL.md]] —— 活人感写作 1.0.0（5,168 字）
 - [[tools/skills/human-writing/references/fiction.md]] —— 虚构写作让人物自己把事做出来（1,598 字）
 - [[tools/skills/human-writing/references/formats.md]] —— 不同形式怎样换衣服（1,505 字）
