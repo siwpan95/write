@@ -1,11 +1,11 @@
 {
  "schema": 1,
  "summary": {
-  "docs": 1789,
+  "docs": 1793,
   "derived_docs": 17,
   "by_type": {
-   "设定": 663,
-   "正文": 662,
+   "正文": 665,
+   "设定": 664,
    "模板": 427,
    "总览": 37
   },
@@ -49,16 +49,16 @@
     "knowledge_orphan": 0
    },
    "蜀山之撼天凡蚁登天路漫漫": {
-    "docs": 157,
-    "net_chars": 1695653,
+    "docs": 158,
+    "net_chars": 1707676,
     "types": {
      "模板": 30,
-     "设定": 108,
+     "设定": 109,
      "总览": 3,
      "正文": 16
     },
     "links": 0,
-    "knowledge": 141,
+    "knowledge": 142,
     "knowledge_orphan": 0
    },
    "十三叩_U-1990": {
@@ -81,7 +81,7 @@
      "模板": 3,
      "总览": 1
     },
-    "links": 2719,
+    "links": 2758,
     "knowledge": 78,
     "knowledge_orphan": 0
    },
@@ -146,13 +146,13 @@
     "knowledge_orphan": 0
    },
    "廓者未名夜": {
-    "docs": 29,
-    "net_chars": 218671,
+    "docs": 30,
+    "net_chars": 231261,
     "types": {
      "模板": 10,
      "设定": 1,
      "总览": 1,
-     "正文": 17
+     "正文": 18
     },
     "links": 4,
     "knowledge": 12,
@@ -168,6 +168,19 @@
     },
     "links": 4,
     "knowledge": 16,
+    "knowledge_orphan": 0
+   },
+   "创造主们的战争": {
+    "docs": 26,
+    "net_chars": 209618,
+    "types": {
+     "模板": 10,
+     "总览": 1,
+     "设定": 4,
+     "正文": 11
+    },
+    "links": 11,
+    "knowledge": 15,
     "knowledge_orphan": 0
    },
    "逆鳞": {
@@ -192,19 +205,6 @@
     },
     "links": 0,
     "knowledge": 25,
-    "knowledge_orphan": 0
-   },
-   "创造主们的战争": {
-    "docs": 24,
-    "net_chars": 184292,
-    "types": {
-     "模板": 10,
-     "总览": 1,
-     "设定": 4,
-     "正文": 9
-    },
-    "links": 9,
-    "knowledge": 15,
     "knowledge_orphan": 0
    },
    "无敌不是他人路": {
@@ -333,21 +333,21 @@
     "knowledge_orphan": 0
    }
   },
-  "total_links": 2780,
+  "total_links": 2821,
   "total_broken": 0,
   "frontmatter_docs": 41,
   "tag_count": 161,
-  "knowledge_docs": 1127,
+  "knowledge_docs": 1128,
   "knowledge_orphans": 2,
   "knowledge_orphan_rate": 0.2,
-  "narrative_docs": 662,
+  "narrative_docs": 665,
   "narrative_orphans": 0,
   "orphan_count": 2,
   "orphan_sample": [
    "CHANGELOG.md",
    "资产梳理报告-20261123.md"
   ],
-  "net_chars_total": 10321172
+  "net_chars_total": 10371739
  },
  "overrides_count": 31,
  "nodes": [
@@ -358,7 +358,7 @@
    "kind": "knowledge",
    "project": "",
    "role": "",
-   "net_chars": 20950,
+   "net_chars": 21566,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -1973,7 +1973,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 13064,
+   "net_chars": 13355,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2023,6 +2023,9 @@
     "二十一世纪奇门遁甲/留档_旧方案A_规则怪谈_世界观设定集.md",
     "其他项目归档/上古卷轴同人/天际（Skyrim）世界观手册.md",
     "其他项目归档/虚拟网游/vrmmo_starter_kit/02_settings/01_世界观设定集.md",
+    "其他项目归档/虚拟网游/这网游里的鬼是真的_20261123/project/03_世界观/一致性台账_设定卷.md",
+    "其他项目归档/虚拟网游/这网游里的鬼是真的_20261123/project/03_世界观/世界观设定集.md",
+    "其他项目归档/虚拟网游/这网游里的鬼是真的_20261123/toolkit/templates/世界观模板.md",
     "十三叩_U-1990/09_附录·旧稿/旧稿_七部分世界观（第一版）.md",
     "华夏克苏鲁/01_bible/人物卡.md",
     "华夏克苏鲁/01_bible/地理与势力.md",
@@ -2260,7 +2263,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 6077,
+   "net_chars": 6452,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2271,6 +2274,7 @@
     "综网废柴逆命/设定/03_人物/22_情感线与人物关系处理.md",
     "PKM/00-原子笔记/atom-0022-方法论四件套.md",
     "通用模板包/04-人物卡模板.md",
+    "其他项目归档/虚拟网游/这网游里的鬼是真的_20261123/project/04_人物/人物档案集.md",
     "提交确实未创建/bible/20-人物档案.md",
     "综网废柴逆命/设定/03_人物/06_人物设定_完整档案.md",
     "Tserena/bible/人物卡-主角GeediMaalin.md",
@@ -2310,6 +2314,9 @@
     "提交确实未创建/bible/21-关系图谱.md",
     "点子库/01-设定集/26-卷一季终反哺-E08结算与角色卡入册.md",
     "其他项目归档/虚拟网游/vrmmo_starter_kit/02_settings/02_人物小传.md",
+    "其他项目归档/虚拟网游/这网游里的鬼是真的_20261123/project/04_人物/关系网图.md",
+    "其他项目归档/虚拟网游/这网游里的鬼是真的_20261123/project/04_人物/角色弧光表.md",
+    "其他项目归档/虚拟网游/这网游里的鬼是真的_20261123/toolkit/templates/人物模板.md",
     "创造主们的战争/分析/换站测试-候选3降级旧角色.md",
     "十三叩_U-1990/07_人物与势力/07-01_人物名录.md",
     "十三叩_U-1990/07_人物与势力/07-02_主角·校准师柒.md",
@@ -2452,7 +2459,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 1590,
+   "net_chars": 1684,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2479,7 +2486,9 @@
     "创造主们的战争/正文/第06章-说清楚.md",
     "创造主们的战争/正文/第07章-第九次.md",
     "创造主们的战争/正文/第08章-无字碑底下.md",
-    "创造主们的战争/正文/第09章-合法伤情.md"
+    "创造主们的战争/正文/第09章-合法伤情.md",
+    "创造主们的战争/正文/第10章-位置.md",
+    "创造主们的战争/正文/第11章-注销即归还.md"
    ],
    "in": [
     "PKM/01-MOC/MOC-PKM-知识连接层.md"
@@ -2794,7 +2803,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 3639,
+   "net_chars": 3908,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2809,6 +2818,8 @@
     "点子库/01-设定集/26-卷一季终反哺-E08结算与角色卡入册.md",
     "点子库/01-设定集/32-E15反哺-改法首笔与自证资格结算.md",
     "点子库/01-设定集/39-E22反哺-选项台账与第八拍推演.md",
+    "其他项目归档/虚拟网游/这网游里的鬼是真的_20261123/project/03_世界观/一致性台账_设定卷.md",
+    "其他项目归档/虚拟网游/这网游里的鬼是真的_20261123/project/06_正文/进度锚点.md",
     "华夏克苏鲁/05_模板对齐/07_护航与质检/00-连载护航台账.md",
     "小说/bible/外传/暗线拼图台账.md",
     "小说/杂项/进度表.md",
@@ -2839,6 +2850,7 @@
     "华夏克苏鲁/05_模板对齐/07_护航与质检/02-外部依赖与来源登记.md",
     "提交确实未创建/第一卷/第010章_登记处翻到底确实没有我.md",
     "蜀山之撼天凡蚁登天路漫漫/14-外部依赖与来源登记表.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/蜀山通用润色包/templates/伏笔登记表.md",
     "蜀山之撼天凡蚁登天路漫漫/校验/上游口径冲突登记.md",
     "证伪实验-钢铁之梦/00_预登记-实验设计与预测.md",
     "通用模板包/14-外部依赖与来源登记表.md",
@@ -2880,7 +2892,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 3775,
+   "net_chars": 3961,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2894,6 +2906,7 @@
     "Tserena/设定与参考/一致性检查-11-20261109.md",
     "二十一世纪奇门遁甲/07_一致性校验报告.md",
     "二十一世纪奇门遁甲/12_落地正文合规与一致性检查.md",
+    "其他项目归档/虚拟网游/这网游里的鬼是真的_20261123/project/03_世界观/一致性台账_设定卷.md",
     "华夏克苏鲁/01_bible/考据勘误与设定变更登记.md",
     "华夏克苏鲁/05_模板对齐/07_护航与质检/01-合规与一致性检查.md",
     "小说/一致性核查-历史归档/世界观设定标尺.md",
@@ -2909,6 +2922,7 @@
     "点子库/04-工具/报告/一致性扫描报告.md",
     "点子库/05-实体书/03-勘误表.md",
     "蜀山之撼天凡蚁登天路漫漫/11-合规与一致性检查.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/蜀山通用润色包/templates/一致性基准表.md",
     "Tserena/设定与参考/IP合规前置-12-20261109.md",
     "创造主们的战争/12-品类IP合规前置-创造主们的战争.md",
     "廓者未名夜/12-品类IP合规前置-廓者未名夜.md",
@@ -2961,7 +2975,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 4810,
+   "net_chars": 5265,
    "tags": [],
    "aliases": [],
    "out": [
@@ -3005,6 +3019,7 @@
     "Tserena/设定与参考/立项书-09-实填.md",
     "Tserena/设定与参考/立项定位-01-实填.md",
     "二十一世纪奇门遁甲/00_新书立项书.md",
+    "其他项目归档/虚拟网游/这网游里的鬼是真的_20261123/project/02_选题立意/选题立项书.md",
     "创造主们的战争/01-立项定位-创造主们的战争.md",
     "创造主们的战争/09-立项书-创造主们的战争.md",
     "华夏克苏鲁/05_模板对齐/05_立项与大纲/00-立项书.md",
@@ -3025,6 +3040,10 @@
     "霜语/01-立项定位.md",
     "horror-motif-lab/docs/样例_批量场景卡.md",
     "其他项目归档/虚拟网游/vrmmo_starter_kit/03_outline/01_分卷大纲.md",
+    "其他项目归档/虚拟网游/这网游里的鬼是真的_20261123/project/05_大纲/伏笔埋收表.md",
+    "其他项目归档/虚拟网游/这网游里的鬼是真的_20261123/project/05_大纲/分卷总纲.md",
+    "其他项目归档/虚拟网游/这网游里的鬼是真的_20261123/project/05_大纲/逐章细纲.md",
+    "其他项目归档/虚拟网游/这网游里的鬼是真的_20261123/toolkit/templates/大纲模板.md",
     "综网废柴逆命/设定/04_剧情与执行/02_全局大纲.md",
     "蜀山之撼天凡蚁登天路漫漫/02A-大纲细纲章纲总表.md",
     "PKM/01-MOC/MOC-跨项目知识网络.md",
@@ -3064,7 +3083,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 5716,
+   "net_chars": 6869,
    "tags": [],
    "aliases": [],
    "out": [
@@ -3124,6 +3143,20 @@
     "点子库/01-设定集/21-参考资料反哺-四份资料的吸收与入典.md",
     "综网废柴逆命/设定/05_方法与市场/04_方法论调研与应用.md",
     "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/写作技法-调研资料汇编（描写手法与词藻）.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/蜀山通用润色包/README.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/蜀山通用润色包/docs/01-方法论-三层诊疗.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/蜀山通用润色包/docs/02-技法库.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/蜀山通用润色包/docs/03-写作标准.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/蜀山通用润色包/docs/04-调研汇编.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/蜀山通用润色包/docs/05-工具手册.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/蜀山通用润色包/docs/06-实战教训60条.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/蜀山通用润色包/docs/07-验证记录.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/蜀山通用润色包/samples/改前改后对照.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/蜀山通用润色包/templates/一致性基准表.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/蜀山通用润色包/templates/伏笔登记表.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/蜀山通用润色包/templates/批次交付说明模板.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/蜀山通用润色包/templates/新对话启动提示词.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/蜀山通用润色包/templates/章节体检表.md",
     "蜀山之撼天凡蚁登天路漫漫/校验/联网调研校验报告-20261118.md",
     "逆鳞/调研/逆鳞-联网调研与诊断-20261120.md",
     "零件库/07-调研-跨作品可复用零件构建方法.md",
@@ -3506,7 +3539,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 1943,
+   "net_chars": 1983,
    "tags": [],
    "aliases": [],
    "out": [
@@ -3541,7 +3574,8 @@
     "廓者未名夜/正文/第14章-口径.md",
     "廓者未名夜/正文/第15章-差额.md",
     "廓者未名夜/正文/第16章-签收.md",
-    "廓者未名夜/正文/第17章-异议.md"
+    "廓者未名夜/正文/第17章-异议.md",
+    "廓者未名夜/正文/第18章-催告.md"
    ],
    "in": [
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
@@ -4515,7 +4549,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 10940,
+   "net_chars": 11011,
    "tags": [],
    "aliases": [],
    "out": [
@@ -4625,6 +4659,7 @@
     "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷四 396–400｜C5 半刻.md",
     "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷四 401–405｜C6 池底.md",
     "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷四 406–410｜C7 碑上有我.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷四 411–415｜C8 凿碑的人.md",
     "蜀山之撼天凡蚁登天路漫漫/正文/进度表.md",
     "蜀山之撼天凡蚁登天路漫漫/蜀山 原著事实复核｜176–200.md",
     "蜀山之撼天凡蚁登天路漫漫/证据与裁决/素材台账/M-01-人物与称谓别名.md",
@@ -5320,7 +5355,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 19483,
+   "net_chars": 19888,
    "tags": [],
    "aliases": [],
    "out": [
@@ -5331,9 +5366,13 @@
     "点子库/02-正文/README-创作说明.md",
     "点子库/README-点子库.md",
     "提交确实未创建/作品总览.md",
+    "蜀山之撼天凡蚁登天路漫漫/README.md",
+    "蜀山之撼天凡蚁登天路漫漫/凡人登天路漫漫-润色资料包/蜀山通用润色包/README.md",
+    "蜀山之撼天凡蚁登天路漫漫/证据与裁决/素材台账/README.md",
     "十三叩_U-1990/README.md",
     "PKM/README.md",
     "综网废柴逆命/作品总览.md",
+    "其他项目归档/虚拟网游/这网游里的鬼是真的_20261123/toolkit/README.md",
     "华夏克苏鲁/README-总览.md",
     "华夏克苏鲁/作品总览.md",
     "零件库/README.md",
@@ -5342,16 +5381,16 @@
     "战锤42拔智齿/README.md",
     "逆鳞/作品总览.md",
     "通用模板包/README.md",
+    "创造主们的战争/作品总览.md",
     "无敌不是他人路/作品总览.md",
     "Tserena/作品总览.md",
     "二十一世纪奇门遁甲/作品总览.md",
-    "创造主们的战争/作品总览.md",
     "horror-motif-lab/README.md",
     "证伪实验-钢铁之梦/README.md",
     "README.md",
-    "格物录/作品总览.md",
     "tools/README.md",
     "tools/skills/human-writing/README.md",
+    "格物录/作品总览.md",
     "未名骨/作品总览.md",
     "通宵杀敌/作品总览.md"
    ],
@@ -5420,7 +5459,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 292,
+   "net_chars": 349,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -5465,7 +5504,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 174,
+   "net_chars": 29,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -5505,7 +5544,7 @@
    "kind": "knowledge",
    "project": "",
    "role": "入口总览",
-   "net_chars": 15072,
+   "net_chars": 15078,
    "tags": [],
    "aliases": [],
    "out": [
@@ -7649,7 +7688,8 @@
    "aliases": [],
    "out": [],
    "in": [
-    "PKM/01-MOC/MOC-其他项目归档.md"
+    "PKM/01-MOC/MOC-其他项目归档.md",
+    "PKM/01-MOC/MOC-大纲节拍.md"
    ],
    "broken": [],
    "archived": false,
@@ -7668,7 +7708,10 @@
    "aliases": [],
    "out": [],
    "in": [
-    "PKM/01-MOC/MOC-其他项目归档.md"
+    "PKM/01-MOC/MOC-世界观设定.md",
+    "PKM/01-MOC/MOC-其他项目归档.md",
+    "PKM/01-MOC/MOC-台账进度.md",
+    "PKM/01-MOC/MOC-合规审校.md"
    ],
    "broken": [],
    "archived": false,
@@ -7687,6 +7730,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-世界观设定.md",
     "PKM/01-MOC/MOC-其他项目归档.md"
    ],
    "broken": [],
@@ -7706,6 +7750,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
     "PKM/01-MOC/MOC-其他项目归档.md"
    ],
    "broken": [],
@@ -7725,6 +7770,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
     "PKM/01-MOC/MOC-其他项目归档.md"
    ],
    "broken": [],
@@ -7744,6 +7790,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
     "PKM/01-MOC/MOC-其他项目归档.md"
    ],
    "broken": [],
@@ -7763,7 +7810,8 @@
    "aliases": [],
    "out": [],
    "in": [
-    "PKM/01-MOC/MOC-其他项目归档.md"
+    "PKM/01-MOC/MOC-其他项目归档.md",
+    "PKM/01-MOC/MOC-大纲节拍.md"
    ],
    "broken": [],
    "archived": false,
@@ -7782,7 +7830,8 @@
    "aliases": [],
    "out": [],
    "in": [
-    "PKM/01-MOC/MOC-其他项目归档.md"
+    "PKM/01-MOC/MOC-其他项目归档.md",
+    "PKM/01-MOC/MOC-大纲节拍.md"
    ],
    "broken": [],
    "archived": false,
@@ -7801,7 +7850,8 @@
    "aliases": [],
    "out": [],
    "in": [
-    "PKM/01-MOC/MOC-其他项目归档.md"
+    "PKM/01-MOC/MOC-其他项目归档.md",
+    "PKM/01-MOC/MOC-大纲节拍.md"
    ],
    "broken": [],
    "archived": false,
@@ -7896,7 +7946,8 @@
    "aliases": [],
    "out": [],
    "in": [
-    "PKM/01-MOC/MOC-其他项目归档.md"
+    "PKM/01-MOC/MOC-其他项目归档.md",
+    "PKM/01-MOC/MOC-台账进度.md"
    ],
    "broken": [],
    "archived": false,
@@ -7991,7 +8042,8 @@
    "aliases": [],
    "out": [],
    "in": [
-    "PKM/01-MOC/MOC-其他项目归档.md"
+    "PKM/01-MOC/MOC-其他项目归档.md",
+    "PKM/MOC-全库.md"
    ],
    "broken": [],
    "archived": false,
@@ -8010,6 +8062,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-世界观设定.md",
     "PKM/01-MOC/MOC-其他项目归档.md"
    ],
    "broken": [],
@@ -8029,6 +8082,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-人物角色.md",
     "PKM/01-MOC/MOC-其他项目归档.md"
    ],
    "broken": [],
@@ -8051,7 +8105,8 @@
    "aliases": [],
    "out": [],
    "in": [
-    "PKM/01-MOC/MOC-其他项目归档.md"
+    "PKM/01-MOC/MOC-其他项目归档.md",
+    "PKM/01-MOC/MOC-大纲节拍.md"
    ],
    "broken": [],
    "archived": false,
@@ -8204,7 +8259,7 @@
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "",
-   "net_chars": 18924,
+   "net_chars": 20939,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -8264,7 +8319,7 @@
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "",
-   "net_chars": 2779,
+   "net_chars": 2886,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -8324,7 +8379,7 @@
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "入口总览",
-   "net_chars": 3699,
+   "net_chars": 3916,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -8417,12 +8472,12 @@
   },
   {
    "path": "创造主们的战争/正文/00-正文索引.md",
-   "title": "正文索引 · 卷一（9 章）",
+   "title": "正文索引 · 卷一（11 章）",
    "type": "模板",
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "正文",
-   "net_chars": 1517,
+   "net_chars": 1727,
    "tags": [],
    "aliases": [],
    "out": [
@@ -8434,7 +8489,9 @@
     "创造主们的战争/正文/第06章-说清楚.md",
     "创造主们的战争/正文/第07章-第九次.md",
     "创造主们的战争/正文/第08章-无字碑底下.md",
-    "创造主们的战争/正文/第09章-合法伤情.md"
+    "创造主们的战争/正文/第09章-合法伤情.md",
+    "创造主们的战争/正文/第10章-位置.md",
+    "创造主们的战争/正文/第11章-注销即归还.md"
    ],
    "in": [
     "PKM/01-MOC/MOC-创造主们的战争.md"
@@ -8612,6 +8669,46 @@
    "project": "创造主们的战争",
    "role": "正文",
    "net_chars": 11109,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-创造主们的战争.md",
+    "创造主们的战争/正文/00-正文索引.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "创造主们的战争/正文/第10章-位置.md",
+   "title": "第10章-位置",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "创造主们的战争",
+   "role": "正文",
+   "net_chars": 11327,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-创造主们的战争.md",
+    "创造主们的战争/正文/00-正文索引.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "创造主们的战争/正文/第11章-注销即归还.md",
+   "title": "第11章-注销即归还",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "创造主们的战争",
+   "role": "正文",
+   "net_chars": 11450,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -17789,7 +17886,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 16332,
+   "net_chars": 17365,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -17809,7 +17906,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 45720,
+   "net_chars": 48514,
    "tags": [
     "设定/世界观",
     "体系/四神",
@@ -17842,7 +17939,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 17168,
+   "net_chars": 18222,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -17863,7 +17960,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 14120,
+   "net_chars": 14892,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -17884,7 +17981,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 42746,
+   "net_chars": 46044,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -17923,7 +18020,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 8483,
+   "net_chars": 8628,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -17943,7 +18040,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 17650,
+   "net_chars": 19036,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -18006,7 +18103,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "入口总览",
-   "net_chars": 4327,
+   "net_chars": 4528,
    "tags": [
     "入口总览"
    ],
@@ -18344,6 +18441,25 @@
    "project": "廓者未名夜",
    "role": "正文",
    "net_chars": 1932,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-廓者未名夜.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "廓者未名夜/正文/第18章-催告.md",
+   "title": "第18章-催告",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "廓者未名夜",
+   "role": "正文",
+   "net_chars": 1907,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -33445,7 +33561,8 @@
    "aliases": [],
    "out": [],
    "in": [
-    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md",
+    "PKM/MOC-全库.md"
    ],
    "broken": [],
    "archived": false,
@@ -33484,7 +33601,9 @@
    "aliases": [],
    "out": [],
    "in": [
-    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+    "PKM/01-MOC/MOC-对标调研.md",
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md",
+    "PKM/MOC-全库.md"
    ],
    "broken": [],
    "archived": false,
@@ -33503,6 +33622,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-对标调研.md",
     "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
    ],
    "broken": [],
@@ -33522,6 +33642,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-对标调研.md",
     "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
    ],
    "broken": [],
@@ -33541,6 +33662,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-对标调研.md",
     "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
    ],
    "broken": [],
@@ -33560,6 +33682,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-对标调研.md",
     "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
    ],
    "broken": [],
@@ -33579,6 +33702,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-对标调研.md",
     "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
    ],
    "broken": [],
@@ -33598,6 +33722,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-对标调研.md",
     "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
    ],
    "broken": [],
@@ -33617,6 +33742,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-对标调研.md",
     "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
    ],
    "broken": [],
@@ -33636,6 +33762,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-对标调研.md",
     "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
    ],
    "broken": [],
@@ -33655,6 +33782,8 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-合规审校.md",
+    "PKM/01-MOC/MOC-对标调研.md",
     "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
    ],
    "broken": [],
@@ -33674,6 +33803,8 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-台账进度.md",
+    "PKM/01-MOC/MOC-对标调研.md",
     "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
    ],
    "broken": [],
@@ -33693,6 +33824,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-对标调研.md",
     "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
    ],
    "broken": [],
@@ -33712,6 +33844,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-对标调研.md",
     "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
    ],
    "broken": [],
@@ -33731,6 +33864,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-对标调研.md",
     "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
    ],
    "broken": [],
@@ -35625,13 +35759,32 @@
    "overridden": false
   },
   {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷四 411–415｜C8 凿碑的人.md",
+   "title": "蜀山 卷四 411–415｜C8 凿碑的人",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11701,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
    "path": "蜀山之撼天凡蚁登天路漫漫/正文/进度表.md",
    "title": "创作进度表",
    "type": "设定",
    "kind": "knowledge",
    "project": "蜀山之撼天凡蚁登天路漫漫",
    "role": "正文",
-   "net_chars": 5668,
+   "net_chars": 5990,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -35815,7 +35968,8 @@
    "out": [],
    "in": [
     "PKM/01-MOC/MOC-台账进度.md",
-    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md",
+    "PKM/MOC-全库.md"
    ],
    "broken": [],
    "archived": false,
@@ -36097,7 +36251,7 @@
    "kind": "knowledge",
    "project": "",
    "role": "",
-   "net_chars": 5757,
+   "net_chars": 5763,
    "tags": [],
    "aliases": [],
    "out": [],
