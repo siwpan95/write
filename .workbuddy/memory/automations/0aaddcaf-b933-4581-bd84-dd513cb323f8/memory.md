@@ -61,9 +61,10 @@
 - **下一批：416–420（C9 印）**，非落点章。416两指「认得那个宽度」、417我不信去问、418找到她、419她认「是我凿的」+「我是为你好」、420「那一行留着你就活不成」欠她第三次+他手在抖。接415「印两指宽未点破」，416起正式认宽度并去问许飞娘。
 
 ## 常驻检查清单（每批必做）
+0. **开工前同步（三机并发铁律，2026-11-24 新增）**：`git fetch origin master && git fetch github master` → `git rev-list --left-right --count master...origin/master`，右值 > 0 则先拉取（干净快进 `--ff-only`；有 WIP 先 `stash -u` → pull → `stash pop`，pop 后重跑 MANIFEST+校验；真分叉 backup 分支留底 → rebase → 重跑校验）。
 1. 列正文目录取最大章号 M；M>=500 则报「卷四已完成，无推进」并结束。
 2. 循环号从 `03E` grep `### C{n}（{S}–{E}）`，禁用公式。
 3. 落点对照：②390 / ③404 / ⑥406 / ⑦407 / ⑧433 / ④440 / ⑤468 / ⑨500；命中必须按落点写。
 4. 派单后主控复核（验收脚本 + 额外禁词/人名上限/括号段下限/承接/钩子/新归因），子代理疑问逐条核不照单全收。
-5. 提交铁律：`git status --short` 确认只有本批文件 → 刷新 MANIFEST → check_package error=0 → git add 只加本批 → commit → 遇分叉先 backup+rebase → 推 origin+github → 三端 hash 核对。
+5. 提交铁律：`git status --short` 确认只有本批文件 → 刷新 MANIFEST → check_package error=0 → git add 只加本批 → commit → **push 前 fetch 复查，远端又进新提交则按第 0 步处理后重推** → 推 origin+github → 三端 hash 核对（ls-remote 双端 = 本地 HEAD）。
 6. 工作日志 append 到 `C:/Users/13122/WorkBuddy/2026-11-17-20-57-03/.workbuddy/memory/YYYY-MM-DD.md`。
