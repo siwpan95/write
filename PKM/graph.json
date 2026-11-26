@@ -1,11 +1,11 @@
 {
  "schema": 1,
  "summary": {
-  "docs": 1793,
+  "docs": 1801,
   "derived_docs": 17,
   "by_type": {
-   "正文": 665,
-   "设定": 664,
+   "正文": 671,
+   "设定": 666,
    "模板": 427,
    "总览": 37
   },
@@ -49,16 +49,16 @@
     "knowledge_orphan": 0
    },
    "蜀山之撼天凡蚁登天路漫漫": {
-    "docs": 158,
-    "net_chars": 1707676,
+    "docs": 160,
+    "net_chars": 1732891,
     "types": {
      "模板": 30,
-     "设定": 109,
+     "设定": 111,
      "总览": 3,
      "正文": 16
     },
     "links": 0,
-    "knowledge": 142,
+    "knowledge": 144,
     "knowledge_orphan": 0
    },
    "十三叩_U-1990": {
@@ -81,7 +81,7 @@
      "模板": 3,
      "总览": 1
     },
-    "links": 2758,
+    "links": 2766,
     "knowledge": 78,
     "knowledge_orphan": 0
    },
@@ -146,16 +146,29 @@
     "knowledge_orphan": 0
    },
    "廓者未名夜": {
-    "docs": 30,
-    "net_chars": 231261,
+    "docs": 32,
+    "net_chars": 257243,
     "types": {
      "模板": 10,
      "设定": 1,
      "总览": 1,
-     "正文": 18
+     "正文": 20
     },
     "links": 4,
     "knowledge": 12,
+    "knowledge_orphan": 0
+   },
+   "创造主们的战争": {
+    "docs": 30,
+    "net_chars": 264603,
+    "types": {
+     "模板": 10,
+     "总览": 1,
+     "设定": 4,
+     "正文": 15
+    },
+    "links": 15,
+    "knowledge": 15,
     "knowledge_orphan": 0
    },
    "战锤42拔智齿": {
@@ -168,19 +181,6 @@
     },
     "links": 4,
     "knowledge": 16,
-    "knowledge_orphan": 0
-   },
-   "创造主们的战争": {
-    "docs": 26,
-    "net_chars": 209618,
-    "types": {
-     "模板": 10,
-     "总览": 1,
-     "设定": 4,
-     "正文": 11
-    },
-    "links": 11,
-    "knowledge": 15,
     "knowledge_orphan": 0
    },
    "逆鳞": {
@@ -333,21 +333,21 @@
     "knowledge_orphan": 0
    }
   },
-  "total_links": 2821,
+  "total_links": 2833,
   "total_broken": 0,
   "frontmatter_docs": 41,
   "tag_count": 161,
-  "knowledge_docs": 1128,
+  "knowledge_docs": 1130,
   "knowledge_orphans": 2,
   "knowledge_orphan_rate": 0.2,
-  "narrative_docs": 665,
+  "narrative_docs": 671,
   "narrative_orphans": 0,
   "orphan_count": 2,
   "orphan_sample": [
    "CHANGELOG.md",
    "资产梳理报告-20261123.md"
   ],
-  "net_chars_total": 10373187
+  "net_chars_total": 10479369
  },
  "overrides_count": 31,
  "nodes": [
@@ -2459,7 +2459,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 1684,
+   "net_chars": 1858,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2488,7 +2488,11 @@
     "创造主们的战争/正文/第08章-无字碑底下.md",
     "创造主们的战争/正文/第09章-合法伤情.md",
     "创造主们的战争/正文/第10章-位置.md",
-    "创造主们的战争/正文/第11章-注销即归还.md"
+    "创造主们的战争/正文/第11章-注销即归还.md",
+    "创造主们的战争/正文/第12章-待勘.md",
+    "创造主们的战争/正文/第13章-不作证的人.md",
+    "创造主们的战争/正文/第14章-认笔.md",
+    "创造主们的战争/正文/第15章-办结.md"
    ],
    "in": [
     "PKM/01-MOC/MOC-PKM-知识连接层.md"
@@ -3539,7 +3543,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 1983,
+   "net_chars": 2063,
    "tags": [],
    "aliases": [],
    "out": [
@@ -3575,7 +3579,9 @@
     "廓者未名夜/正文/第15章-差额.md",
     "廓者未名夜/正文/第16章-签收.md",
     "廓者未名夜/正文/第17章-异议.md",
-    "廓者未名夜/正文/第18章-催告.md"
+    "廓者未名夜/正文/第18章-催告.md",
+    "廓者未名夜/正文/第19章-先后.md",
+    "廓者未名夜/正文/第20章-末位.md"
    ],
    "in": [
     "PKM/01-MOC/MOC-PKM-知识连接层.md",
@@ -4549,7 +4555,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 11011,
+   "net_chars": 11147,
    "tags": [],
    "aliases": [],
    "out": [
@@ -4660,6 +4666,8 @@
     "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷四 401–405｜C6 池底.md",
     "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷四 406–410｜C7 碑上有我.md",
     "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷四 411–415｜C8 凿碑的人.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷四 416–420｜C9 印.md",
+    "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷四 421–425｜C10 为你好.md",
     "蜀山之撼天凡蚁登天路漫漫/正文/进度表.md",
     "蜀山之撼天凡蚁登天路漫漫/蜀山 原著事实复核｜176–200.md",
     "蜀山之撼天凡蚁登天路漫漫/证据与裁决/素材台账/M-01-人物与称谓别名.md",
@@ -8259,7 +8267,7 @@
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "",
-   "net_chars": 20939,
+   "net_chars": 25161,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -8299,7 +8307,7 @@
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "",
-   "net_chars": 10175,
+   "net_chars": 10217,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -8319,7 +8327,7 @@
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "",
-   "net_chars": 2886,
+   "net_chars": 3131,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -8379,7 +8387,7 @@
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "入口总览",
-   "net_chars": 3916,
+   "net_chars": 4479,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -8472,12 +8480,12 @@
   },
   {
    "path": "创造主们的战争/正文/00-正文索引.md",
-   "title": "正文索引 · 卷一（11 章）",
+   "title": "正文索引 · 卷一（15 章）",
    "type": "模板",
    "kind": "knowledge",
    "project": "创造主们的战争",
    "role": "正文",
-   "net_chars": 1727,
+   "net_chars": 2425,
    "tags": [],
    "aliases": [],
    "out": [
@@ -8491,7 +8499,11 @@
     "创造主们的战争/正文/第08章-无字碑底下.md",
     "创造主们的战争/正文/第09章-合法伤情.md",
     "创造主们的战争/正文/第10章-位置.md",
-    "创造主们的战争/正文/第11章-注销即归还.md"
+    "创造主们的战争/正文/第11章-注销即归还.md",
+    "创造主们的战争/正文/第12章-待勘.md",
+    "创造主们的战争/正文/第13章-不作证的人.md",
+    "创造主们的战争/正文/第14章-认笔.md",
+    "创造主们的战争/正文/第15章-办结.md"
    ],
    "in": [
     "PKM/01-MOC/MOC-创造主们的战争.md"
@@ -8709,6 +8721,86 @@
    "project": "创造主们的战争",
    "role": "正文",
    "net_chars": 11450,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-创造主们的战争.md",
+    "创造主们的战争/正文/00-正文索引.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "创造主们的战争/正文/第12章-待勘.md",
+   "title": "第12章-待勘",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "创造主们的战争",
+   "role": "正文",
+   "net_chars": 11270,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-创造主们的战争.md",
+    "创造主们的战争/正文/00-正文索引.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "创造主们的战争/正文/第13章-不作证的人.md",
+   "title": "第13章-不作证的人",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "创造主们的战争",
+   "role": "正文",
+   "net_chars": 11624,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-创造主们的战争.md",
+    "创造主们的战争/正文/00-正文索引.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "创造主们的战争/正文/第14章-认笔.md",
+   "title": "第14章-认笔",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "创造主们的战争",
+   "role": "正文",
+   "net_chars": 14428,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-创造主们的战争.md",
+    "创造主们的战争/正文/00-正文索引.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "创造主们的战争/正文/第15章-办结.md",
+   "title": "第15章-办结",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "创造主们的战争",
+   "role": "正文",
+   "net_chars": 11893,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -17886,7 +17978,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 17365,
+   "net_chars": 19594,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -17906,7 +17998,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 48514,
+   "net_chars": 54886,
    "tags": [
     "设定/世界观",
     "体系/四神",
@@ -17939,7 +18031,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 18222,
+   "net_chars": 19474,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -17960,7 +18052,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 14892,
+   "net_chars": 16689,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -17981,7 +18073,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 46044,
+   "net_chars": 52175,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -18020,7 +18112,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 8628,
+   "net_chars": 9027,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -18040,7 +18132,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "",
-   "net_chars": 19036,
+   "net_chars": 22098,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -18103,7 +18195,7 @@
    "kind": "knowledge",
    "project": "廓者未名夜",
    "role": "入口总览",
-   "net_chars": 4528,
+   "net_chars": 5068,
    "tags": [
     "入口总览"
    ],
@@ -18460,6 +18552,44 @@
    "project": "廓者未名夜",
    "role": "正文",
    "net_chars": 1907,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-廓者未名夜.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "廓者未名夜/正文/第19章-先后.md",
+   "title": "第19章-先后",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "廓者未名夜",
+   "role": "正文",
+   "net_chars": 2187,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-廓者未名夜.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "廓者未名夜/正文/第20章-末位.md",
+   "title": "第20章-末位",
+   "type": "正文",
+   "kind": "narrative",
+   "project": "廓者未名夜",
+   "role": "正文",
+   "net_chars": 2013,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -35778,13 +35908,51 @@
    "overridden": false
   },
   {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷四 416–420｜C9 印.md",
+   "title": "蜀山 卷四 416–420｜C9 印",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 12619,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "蜀山之撼天凡蚁登天路漫漫/正文/蜀山 卷四 421–425｜C10 为你好.md",
+   "title": "蜀山 卷四 421–425｜C10 为你好",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "蜀山之撼天凡蚁登天路漫漫",
+   "role": "正文",
+   "net_chars": 11632,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-蜀山之撼天凡蚁登天路漫漫.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
    "path": "蜀山之撼天凡蚁登天路漫漫/正文/进度表.md",
    "title": "创作进度表",
    "type": "设定",
    "kind": "knowledge",
    "project": "蜀山之撼天凡蚁登天路漫漫",
    "role": "正文",
-   "net_chars": 5990,
+   "net_chars": 6954,
    "tags": [],
    "aliases": [],
    "out": [],
