@@ -1,11 +1,11 @@
 {
  "schema": 1,
  "summary": {
-  "docs": 1806,
+  "docs": 1813,
   "derived_docs": 17,
   "by_type": {
+   "设定": 675,
    "正文": 674,
-   "设定": 668,
    "模板": 427,
    "总览": 37
   },
@@ -81,7 +81,7 @@
      "模板": 3,
      "总览": 1
     },
-    "links": 2771,
+    "links": 2778,
     "knowledge": 78,
     "knowledge_orphan": 0
    },
@@ -97,6 +97,18 @@
     "knowledge": 44,
     "knowledge_orphan": 0
    },
+   "其他项目归档": {
+    "docs": 62,
+    "net_chars": 503823,
+    "types": {
+     "设定": 53,
+     "正文": 8,
+     "总览": 1
+    },
+    "links": 0,
+    "knowledge": 54,
+    "knowledge_orphan": 0
+   },
    "霜语": {
     "docs": 61,
     "net_chars": 211493,
@@ -107,18 +119,6 @@
     },
     "links": 0,
     "knowledge": 23,
-    "knowledge_orphan": 0
-   },
-   "其他项目归档": {
-    "docs": 55,
-    "net_chars": 433476,
-    "types": {
-     "设定": 46,
-     "正文": 8,
-     "总览": 1
-    },
-    "links": 0,
-    "knowledge": 47,
     "knowledge_orphan": 0
    },
    "华夏克苏鲁": {
@@ -333,11 +333,11 @@
     "knowledge_orphan": 0
    }
   },
-  "total_links": 2840,
+  "total_links": 2847,
   "total_broken": 0,
   "frontmatter_docs": 41,
   "tag_count": 161,
-  "knowledge_docs": 1132,
+  "knowledge_docs": 1139,
   "knowledge_orphans": 2,
   "knowledge_orphan_rate": 0.2,
   "narrative_docs": 674,
@@ -347,7 +347,7 @@
    "CHANGELOG.md",
    "资产梳理报告-20261123.md"
   ],
-  "net_chars_total": 10543474
+  "net_chars_total": 10615120
  },
  "overrides_count": 31,
  "nodes": [
@@ -358,7 +358,7 @@
    "kind": "knowledge",
    "project": "",
    "role": "",
-   "net_chars": 22113,
+   "net_chars": 23237,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -2384,7 +2384,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 5130,
+   "net_chars": 5582,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2396,6 +2396,13 @@
     "其他项目归档/大秦科幻/文档关系索引.md",
     "其他项目归档/大秦科幻/秦始皇长生与星际远征_三卷本全编.md",
     "其他项目归档/大秦科幻/诸子王朝对应律与动乱编年_定稿.md",
+    "其他项目归档/御魂者传奇同人/御魂者传奇_完整章节剧情分析.md",
+    "其他项目归档/御魂者传奇同人/第二卷原创设定包_奇幻大陆.md",
+    "其他项目归档/御魂者传奇同人/第二卷开局样章_第0001-0003章.md",
+    "其他项目归档/御魂者传奇同人/设定圣经_上篇_世界与力量体系.md",
+    "其他项目归档/御魂者传奇同人/设定圣经_下篇_人物卡与创作手册.md",
+    "其他项目归档/御魂者传奇同人/镜妃_反派圣经.md",
+    "其他项目归档/御魂者传奇同人/附录_第一卷剧情年表.md",
     "其他项目归档/朔州旧案/朔州旧案三线时间轴与取材原型对照.md",
     "其他项目归档/虚拟网游/vrmmo_starter_kit/00_README.md",
     "其他项目归档/虚拟网游/vrmmo_starter_kit/01_report/01_赛道扫描与爆款命中率预判.md",
@@ -5368,7 +5375,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 19942,
+   "net_chars": 19914,
    "tags": [],
    "aliases": [],
    "out": [
@@ -5557,7 +5564,7 @@
    "kind": "knowledge",
    "project": "",
    "role": "入口总览",
-   "net_chars": 15078,
+   "net_chars": 15253,
    "tags": [],
    "aliases": [],
    "out": [
@@ -7275,6 +7282,139 @@
    "project": "其他项目归档",
    "role": "",
    "net_chars": 8348,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-其他项目归档.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "其他项目归档/御魂者传奇同人/御魂者传奇_完整章节剧情分析.md",
+   "title": "《御魂者传奇》剧情分析（仅基于完整章节）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "其他项目归档",
+   "role": "",
+   "net_chars": 10509,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-其他项目归档.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "其他项目归档/御魂者传奇同人/第二卷原创设定包_奇幻大陆.md",
+   "title": "《御魂者传奇》第二卷【奇幻大陆】原创设定包",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "其他项目归档",
+   "role": "",
+   "net_chars": 16900,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-其他项目归档.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "其他项目归档/御魂者传奇同人/第二卷开局样章_第0001-0003章.md",
+   "title": "第二卷开局样章（第0001–0003章）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "其他项目归档",
+   "role": "",
+   "net_chars": 5344,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-其他项目归档.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "其他项目归档/御魂者传奇同人/设定圣经_上篇_世界与力量体系.md",
+   "title": "《御魂者传奇》设定圣经 · 上篇",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "其他项目归档",
+   "role": "",
+   "net_chars": 11599,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-其他项目归档.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "其他项目归档/御魂者传奇同人/设定圣经_下篇_人物卡与创作手册.md",
+   "title": "《御魂者传奇》设定圣经 · 下篇",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "其他项目归档",
+   "role": "",
+   "net_chars": 8510,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-其他项目归档.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "其他项目归档/御魂者传奇同人/镜妃_反派圣经.md",
+   "title": "镜妃 · 反派圣经",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "其他项目归档",
+   "role": "",
+   "net_chars": 10657,
+   "tags": [],
+   "aliases": [],
+   "out": [],
+   "in": [
+    "PKM/01-MOC/MOC-其他项目归档.md"
+   ],
+   "broken": [],
+   "archived": false,
+   "fm": {},
+   "overridden": false
+  },
+  {
+   "path": "其他项目归档/御魂者传奇同人/附录_第一卷剧情年表.md",
+   "title": "附录·第一卷《美漫英雄》剧情年表（546 章，逐段索引）",
+   "type": "设定",
+   "kind": "knowledge",
+   "project": "其他项目归档",
+   "role": "",
+   "net_chars": 6828,
    "tags": [],
    "aliases": [],
    "out": [],
