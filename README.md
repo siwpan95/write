@@ -157,7 +157,7 @@ powershell -ExecutionPolicy Bypass -File tools\bootstrap.ps1   # Windows
 > | 指标 | 值 | 事实源 |
 > |---|---:|---|
 > | 索引文档数 | **1813** | `PKM/graph.json` |
-> | 出链总数 | **2847** | `PKM/graph.json` |
+> | 出链总数 | **2851** | `PKM/graph.json` |
 > | 断链 | **0** | `PKM/graph.json` |
 > | 知识节点孤立率 | **0.2%** | `PKM/graph.json` |
 > | frontmatter 文档数 | **41** | `PKM/graph.json` |

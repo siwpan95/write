@@ -81,7 +81,7 @@
      "模板": 3,
      "总览": 1
     },
-    "links": 2778,
+    "links": 2782,
     "knowledge": 78,
     "knowledge_orphan": 0
    },
@@ -333,7 +333,7 @@
     "knowledge_orphan": 0
    }
   },
-  "total_links": 2847,
+  "total_links": 2851,
   "total_broken": 0,
   "frontmatter_docs": 41,
   "tag_count": 161,
@@ -347,7 +347,7 @@
    "CHANGELOG.md",
    "资产梳理报告-20261123.md"
   ],
-  "net_chars_total": 10615120
+  "net_chars_total": 10615137
  },
  "overrides_count": 31,
  "nodes": [
@@ -358,7 +358,7 @@
    "kind": "knowledge",
    "project": "",
    "role": "",
-   "net_chars": 23237,
+   "net_chars": 23254,
    "tags": [],
    "aliases": [],
    "out": [],
@@ -1973,7 +1973,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 13355,
+   "net_chars": 13530,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2022,6 +2022,9 @@
     "二十一世纪奇门遁甲/bible/长弧规划.md",
     "二十一世纪奇门遁甲/留档_旧方案A_规则怪谈_世界观设定集.md",
     "其他项目归档/上古卷轴同人/天际（Skyrim）世界观手册.md",
+    "其他项目归档/御魂者传奇同人/设定圣经_上篇_世界与力量体系.md",
+    "其他项目归档/御魂者传奇同人/设定圣经_下篇_人物卡与创作手册.md",
+    "其他项目归档/御魂者传奇同人/镜妃_反派圣经.md",
     "其他项目归档/虚拟网游/vrmmo_starter_kit/02_settings/01_世界观设定集.md",
     "其他项目归档/虚拟网游/这网游里的鬼是真的_20261123/project/03_世界观/一致性台账_设定卷.md",
     "其他项目归档/虚拟网游/这网游里的鬼是真的_20261123/project/03_世界观/世界观设定集.md",
@@ -2263,7 +2266,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 6452,
+   "net_chars": 6516,
    "tags": [],
    "aliases": [],
    "out": [
@@ -2279,6 +2282,7 @@
     "综网废柴逆命/设定/03_人物/06_人物设定_完整档案.md",
     "Tserena/bible/人物卡-主角GeediMaalin.md",
     "二十一世纪奇门遁甲/bible/characters/赵海.md",
+    "其他项目归档/御魂者传奇同人/设定圣经_下篇_人物卡与创作手册.md",
     "创造主们的战争/04-人物卡-创造主们的战争.md",
     "十三叩_U-1990/07_人物与势力/07-00_人物卡规范.md",
     "十三叩_U-1990/07_人物与势力/07-22_空白人物卡模板.md",
@@ -5375,7 +5379,7 @@
    "kind": "knowledge",
    "project": "PKM",
    "role": "",
-   "net_chars": 19914,
+   "net_chars": 19811,
    "tags": [],
    "aliases": [],
    "out": [
@@ -7362,6 +7366,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-世界观设定.md",
     "PKM/01-MOC/MOC-其他项目归档.md"
    ],
    "broken": [],
@@ -7381,6 +7386,8 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-世界观设定.md",
+    "PKM/01-MOC/MOC-人物角色.md",
     "PKM/01-MOC/MOC-其他项目归档.md"
    ],
    "broken": [],
@@ -7400,6 +7407,7 @@
    "aliases": [],
    "out": [],
    "in": [
+    "PKM/01-MOC/MOC-世界观设定.md",
     "PKM/01-MOC/MOC-其他项目归档.md"
    ],
    "broken": [],
